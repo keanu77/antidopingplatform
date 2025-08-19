@@ -1,5 +1,6 @@
 {
   "environments": ["nodejs"],
+  "rootDirectory": "sports-doping-platform",
   "build": {
     "commands": [
       "npm run build"
