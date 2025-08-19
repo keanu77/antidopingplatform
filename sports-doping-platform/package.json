@@ -9,10 +9,10 @@
     "dev": "concurrently \"npm run dev-backend\" \"npm run dev-frontend\"",
     "dev-backend": "cd backend && npm run dev",
     "dev-frontend": "cd frontend && npm run dev",
-    "start": "concurrently \"npm run start-backend\" \"npm run start-frontend\"",
+    "start": "cd frontend && npm start",
     "start-backend": "cd backend && npm start",
     "start-frontend": "cd frontend && npm run preview",
-    "build": "cd frontend && npm run build",
+    "build": "cd frontend && npm install && npm run build",
     "seed": "cd backend && node seedData.js"
   },
   "devDependencies": {
