@@ -4,11 +4,6 @@
       "cd frontend && npm install && npm run build"
     ]
   },
-  "start": {
-    "commands": [
-      "cd frontend && npm run preview -- --host 0.0.0.0 --port 8080"
-    ]
-  },
   "static": {
     "dir": "frontend/dist",
     "spa": true
