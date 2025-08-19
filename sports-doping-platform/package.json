@@ -1,0 +1,29 @@
+{
+  "name": "sports-doping-platform",
+  "version": "1.0.0",
+  "description": "Sports Doping Cases Database Platform",
+  "scripts": {
+    "install-all": "npm run install-backend && npm run install-frontend",
+    "install-backend": "cd backend && npm install",
+    "install-frontend": "cd frontend && npm install",
+    "dev": "concurrently \"npm run dev-backend\" \"npm run dev-frontend\"",
+    "dev-backend": "cd backend && npm run dev",
+    "dev-frontend": "cd frontend && npm run dev",
+    "start": "concurrently \"npm run start-backend\" \"npm run start-frontend\"",
+    "start-backend": "cd backend && npm start",
+    "start-frontend": "cd frontend && npm run preview",
+    "build": "cd frontend && npm run build",
+    "seed": "cd backend && node seedData.js"
+  },
+  "devDependencies": {
+    "concurrently": "^7.6.0"
+  },
+  "keywords": [
+    "sports",
+    "doping",
+    "database",
+    "education"
+  ],
+  "author": "",
+  "license": "MIT"
+}
