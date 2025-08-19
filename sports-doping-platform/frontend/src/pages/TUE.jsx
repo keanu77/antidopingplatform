@@ -579,7 +579,7 @@ function TUE() {
               <div className="p-4">
                 <div className="mb-3">
                   <h4 className="font-semibold text-gray-900 mb-2 text-sm">禁用物質/方法</h4>
-                  <span className="block text-xs px-2 py-1 bg-gray-100 text-gray-700 rounded">容量 > 每12小時100毫升</span>
+                  <span className="block text-xs px-2 py-1 bg-gray-100 text-gray-700 rounded">容量 &gt; 每12小時100毫升</span>
                 </div>
                 <div className="space-y-2">
                   <a href="https://www.antidoping.org.tw/wp-content/uploads/2021/03/TUE申請檢查表_Intravenous-infusions.pdf" target="_blank" rel="noopener noreferrer" className="w-full text-xs px-3 py-2 bg-green-100 text-green-700 rounded hover:bg-green-200 block text-center">
