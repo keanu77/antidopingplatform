@@ -1,11 +1,3 @@
 {
-  "environments": ["nodejs"],
-  "rootDirectory": "sports-doping-platform",
-  "build": {
-    "commands": ["cd frontend && npm install", "cd frontend && npm run build"]
-  },
-  "static": {
-    "dir": "frontend/dist",
-    "spa": true
-  }
+  "rootDirectory": "sports-doping-platform"
 }

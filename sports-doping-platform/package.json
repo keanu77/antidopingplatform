@@ -2,24 +2,17 @@
   "name": "sports-doping-platform",
   "version": "1.0.0",
   "description": "Sports Doping Cases Database Platform",
+  "main": "server.js",
+  "engines": {
+    "node": "18.x"
+  },
   "scripts": {
-    "install-all": "npm run install-backend && npm run install-frontend",
-    "install-backend": "cd backend && npm install",
-    "install-frontend": "cd frontend && npm install",
-    "dev": "concurrently \"npm run dev-backend\" \"npm run dev-frontend\"",
-    "dev-backend": "cd backend && npm run dev",
-    "dev-frontend": "cd frontend && npm run dev",
-    "start": "node server.js",
-    "start-backend": "cd backend && npm start",
-    "start-frontend": "cd frontend && npm run preview",
     "build": "cd frontend && npm install && npm run build",
-    "seed": "cd backend && node seedData.js"
+    "start": "cd frontend && npx serve dist -s -l 8080",
+    "dev": "cd frontend && npm run dev"
   },
   "dependencies": {
-    "express": "^4.18.0"
-  },
-  "devDependencies": {
-    "concurrently": "^7.6.0"
+    "serve": "^14.2.0"
   },
   "keywords": [
     "sports",
