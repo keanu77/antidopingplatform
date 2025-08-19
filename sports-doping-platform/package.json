@@ -9,11 +9,14 @@
     "dev": "concurrently \"npm run dev-backend\" \"npm run dev-frontend\"",
     "dev-backend": "cd backend && npm run dev",
     "dev-frontend": "cd frontend && npm run dev",
-    "start": "cd frontend && npm start",
+    "start": "node server.js",
     "start-backend": "cd backend && npm start",
     "start-frontend": "cd frontend && npm run preview",
     "build": "cd frontend && npm install && npm run build",
     "seed": "cd backend && node seedData.js"
+  },
+  "dependencies": {
+    "express": "^4.18.0"
   },
   "devDependencies": {
     "concurrently": "^7.6.0"

@@ -1,7 +1,7 @@
 {
   "environments": ["nodejs"],
   "rootDirectory": "sports-doping-platform",
-  "installCommand": "cd frontend && npm install",
-  "buildCommand": "cd frontend && npm run build",
-  "startCommand": "cd frontend && npm start"
+  "installCommand": "npm install",
+  "buildCommand": "npm run build",
+  "startCommand": "npm start"
 }
