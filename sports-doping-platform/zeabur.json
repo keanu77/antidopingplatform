@@ -4,8 +4,9 @@
       "cd frontend && npm install && npm run build"
     ]
   },
-  "static": {
-    "dir": "frontend/dist",
-    "spa": true
+  "start": {
+    "commands": [
+      "cd frontend && npm start"
+    ]
   }
 }
