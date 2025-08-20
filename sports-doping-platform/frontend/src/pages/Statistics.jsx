@@ -11,7 +11,7 @@ import {
 } from 'chart.js';
 import { Bar, Doughnut } from 'react-chartjs-2';
 import { BarChart3, PieChart, TrendingUp, Clock, Trophy, Users, AlertTriangle } from 'lucide-react';
-import { statisticsAPI } from '../services/api';
+import { statsAPI } from '../services/api';
 
 ChartJS.register(
   CategoryScale,
@@ -39,10 +39,10 @@ function Statistics() {
     setLoading(true);
     try {
       const [sport, substance, punishment, banDuration] = await Promise.all([
-        statisticsAPI.getSportDistribution(),
-        statisticsAPI.getSubstanceDistribution(),
-        statisticsAPI.getPunishmentStats(),
-        statisticsAPI.getBanDurationDistribution()
+        statsAPI.getSportDistribution(),
+        statsAPI.getSubstanceDistribution(),
+        statsAPI.getPunishmentStats(),
+        statsAPI.getBanDurationDistribution()
       ]);
 
       setSportDistribution(sport.data);
