@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { Search, BarChart3, GraduationCap, AlertTriangle, Users, Trophy, Calendar } from 'lucide-react';
-import { statsAPI } from '../services/api';
+import { statisticsAPI } from '../services/api';
 
 function Home() {
   const [stats, setStats] = useState({
@@ -17,7 +17,7 @@ function Home() {
 
   const loadStats = async () => {
     try {
-      const response = await statsAPI.getOverview();
+      const response = await statisticsAPI.getOverview();
       setStats(response.data);
     } catch (error) {
       console.error('Failed to load stats:', error);
