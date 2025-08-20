@@ -117,7 +117,7 @@ function Home() {
       </div>
 
       {/* Recent Cases */}
-      {stats.recentCases.length > 0 && (
+      {stats.recentCases && stats.recentCases.length > 0 && (
         <div className="bg-white rounded-lg shadow p-6">
           <h2 className="text-2xl font-bold text-gray-900 mb-4">相關案例</h2>
           <div className="space-y-3">

@@ -14,7 +14,12 @@ const api = API_BASE_URL ? axios.create({
 const mockData = {
   cases: [],
   stats: {
-    overview: { totalCases: 0, totalSports: 0, totalCountries: 0 },
+    overview: { 
+      totalCases: 0, 
+      totalSports: 0, 
+      totalCountries: 0,
+      recentCases: []
+    },
     yearlyTrends: [],
     sportDistribution: [],
     substanceDistribution: [],
@@ -31,6 +36,11 @@ const mockData = {
     basic: {},
     diseases: [],
     tools: []
+  },
+  filterOptions: {
+    sports: [],
+    substances: [],
+    years: []
   }
 };
 
@@ -44,7 +54,7 @@ export const casesAPI = {
   create: (data) => api ? api.post('/cases', data) : mockResponse(data),
   update: (id, data) => api ? api.put(`/cases/${id}`, data) : mockResponse(data),
   delete: (id) => api ? api.delete(`/cases/${id}`) : mockResponse({ success: true }),
-  getFilterOptions: () => api ? api.get('/cases/filters/options') : mockResponse({ sports: [], substances: [], years: [] }),
+  getFilterOptions: () => api ? api.get('/cases/filters/options') : mockResponse(mockData.filterOptions),
 };
 
 // Statistics API
