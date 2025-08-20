@@ -216,27 +216,27 @@ const mockData = {
   ],
   stats: {
     overview: { 
-      totalCases: 166, 
-      totalSports: 28, 
-      totalCountries: 33,
+      totalCases: 8, 
+      totalSports: 4, 
+      totalCountries: 6,
       recentCases: [
         {
-          _id: 'recent_1',
-          athleteName: 'Erriyon Knighton',
+          _id: '3',
+          athleteName: 'Maria Sharapova',
+          sport: '網球',
+          year: 2016
+        },
+        {
+          _id: '5',
+          athleteName: 'Sun Yang',
+          sport: '游泳',
+          year: 2014
+        },
+        {
+          _id: '6',
+          athleteName: 'Tyson Gay',
           sport: '田徑',
-          year: 2024
-        },
-        {
-          _id: 'recent_2',
-          athleteName: 'Iga Swiatek',
-          sport: '網球',
-          year: 2024
-        },
-        {
-          _id: 'recent_3',
-          athleteName: 'Jannik Sinner',
-          sport: '網球',
-          year: 2024
+          year: 2013
         }
       ]
     },
