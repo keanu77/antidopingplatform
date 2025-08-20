@@ -1,5 +1,18 @@
 {
-  "rootDirectory": "sports-doping-platform",
-  "build_command": "cd frontend && npm install && npm run build",
-  "output_dir": "frontend/dist"
+  "name": "sports-doping-platform",
+  "build_command": "npm run build",
+  "start_command": "npm start",
+  "environment": {
+    "NODE_ENV": "production",
+    "PORT": "8080"
+  },
+  "service": {
+    "type": "web",
+    "port": 8080
+  },
+  "health_check": {
+    "path": "/api/health",
+    "interval": 30,
+    "timeout": 10
+  }
 }

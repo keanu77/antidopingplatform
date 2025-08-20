@@ -1,6 +1,0 @@
-:8080 {
-    root * /app/frontend/dist
-    encode gzip
-    try_files {path} /index.html
-    file_server
-}
