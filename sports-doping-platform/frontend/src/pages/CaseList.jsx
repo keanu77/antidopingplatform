@@ -46,6 +46,16 @@ function CaseList() {
   });
   const [loading, setLoading] = useState(false);
   const [showFilters, setShowFilters] = useState(false);
+  
+  // 強制篩選器切換函數
+  const toggleFilters = useCallback(() => {
+    console.log('Toggle filters called, current state:', showFilters);
+    setShowFilters(prev => {
+      const newState = !prev;
+      console.log('Filters state changed from', prev, 'to', newState);
+      return newState;
+    });
+  }, [showFilters]);
 
   useEffect(() => {
     const initializeData = async () => {
@@ -102,6 +112,31 @@ function CaseList() {
       filterCache.set({ key: cacheKey }, options);
     } catch (error) {
       console.error('Failed to load filter options:', error);
+      // Fallback: 使用預設選項
+      const fallbackOptions = {
+        sports: ['田徑', '游泳', '自行車', '網球', '籃球', '足球'],
+        nationalities: ['美國', '中國', '俄羅斯', '德國', '英國', '日本'],
+        years: [2020, 2021, 2022, 2023, 2024],
+        substanceCategories: ['類固醇', 'EPO', '興奮劑', '利尿劑'],
+        banDurations: [
+          '無處罰',
+          '3個月內',
+          '3-12個月',
+          '1-2年',
+          '2-4年',
+          '4年以上',
+          '終身禁賽'
+        ],
+        punishmentTypes: [
+          '禁賽',
+          '獎牌剝奪',
+          '成績取消',
+          '罰款',
+          '警告',
+          '其他'
+        ]
+      };
+      setFilterOptions(fallbackOptions);
     }
   }, []);
 
@@ -231,11 +266,17 @@ function CaseList() {
           </div>
           <button
             type="button"
-            onClick={() => setShowFilters(!showFilters)}
+            onClick={(e) => {
+              e.preventDefault();
+              e.stopPropagation();
+              console.log('Filter button clicked');
+              toggleFilters();
+            }}
             className="px-4 py-2 bg-gray-100 hover:bg-gray-200 rounded-lg flex items-center gap-2 transition"
+            aria-label="切換篩選選項"
           >
             <Filter className="h-5 w-5" />
-            篩選
+            篩選 {showFilters ? '▲' : '▼'}
           </button>
           <button
             type="submit"
