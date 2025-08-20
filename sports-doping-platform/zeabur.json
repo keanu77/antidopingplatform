@@ -1,3 +1,5 @@
 {
-  "rootDirectory": "sports-doping-platform"
+  "rootDirectory": "sports-doping-platform",
+  "build_command": "cd frontend && npm install && npm run build",
+  "output_dir": "frontend/dist"
 }
