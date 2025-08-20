@@ -1,7 +1,9 @@
 import axios from 'axios';
 
 // 在生產環境中使用模擬數據，開發環境連接後端
-const API_BASE_URL = import.meta.env.PROD ? null : (import.meta.env.VITE_API_URL || 'http://localhost:5001/api');
+// 強制在生產環境使用mock數據以確保穩定性
+const API_BASE_URL = (typeof window !== 'undefined' && window.location.origin.includes('vercel.app')) ? 
+  null : (import.meta.env.VITE_API_URL || 'http://localhost:5001/api');
 
 const api = API_BASE_URL ? axios.create({
   baseURL: API_BASE_URL,
@@ -5993,15 +5995,76 @@ export const casesAPI = {
   }),
 };
 
-// Statistics API
+// Statistics API - 添加數據安全檢查
 export const statsAPI = {
-  getYearlyTrends: () => api ? api.get('/stats/yearly-trends') : mockResponse(mockData.stats.yearlyTrends),
-  getSportDistribution: () => api ? api.get('/stats/sport-distribution') : mockResponse(mockData.stats.sportDistribution),
-  getSubstanceDistribution: () => api ? api.get('/stats/substance-distribution') : mockResponse(mockData.stats.substanceDistribution),
-  getNationalityDistribution: () => api ? api.get('/stats/nationality-distribution') : mockResponse(mockData.stats.nationalityDistribution),
-  getPunishmentStats: () => api ? api.get('/stats/punishment-stats') : mockResponse(mockData.stats.punishmentStats),
-  getBanDurationDistribution: () => api ? api.get('/stats/ban-duration-distribution') : mockResponse(mockData.stats.banDurationDistribution),
-  getOverview: () => api ? api.get('/stats/overview') : mockResponse(mockData.stats.overview),
+  getYearlyTrends: () => api ? api.get('/stats/yearly-trends') : mockResponse(mockData.stats.yearlyTrends || []),
+  getSportDistribution: () => {
+    if (api) return api.get('/stats/sport-distribution');
+    
+    const sportCount = {};
+    (mockData.cases || []).forEach(c => {
+      const sport = c.sport || '未分類';
+      sportCount[sport] = (sportCount[sport] || 0) + 1;
+    });
+    const distribution = Object.entries(sportCount).map(([name, value]) => ({ name, value }));
+    return mockResponse(distribution);
+  },
+  getSubstanceDistribution: () => {
+    if (api) return api.get('/stats/substance-distribution');
+    
+    const substanceCount = {};
+    (mockData.cases || []).forEach(c => {
+      const substance = c.substance || '未知物質';
+      substanceCount[substance] = (substanceCount[substance] || 0) + 1;
+    });
+    const distribution = Object.entries(substanceCount).map(([name, value]) => ({ name, value }));
+    return mockResponse(distribution);
+  },
+  getNationalityDistribution: () => {
+    if (api) return api.get('/stats/nationality-distribution');
+    
+    const nationalityCount = {};
+    (mockData.cases || []).forEach(c => {
+      const nationality = c.nationality || '未知';
+      nationalityCount[nationality] = (nationalityCount[nationality] || 0) + 1;
+    });
+    const distribution = Object.entries(nationalityCount).map(([name, value]) => ({ name, value }));
+    return mockResponse(distribution);
+  },
+  getPunishmentStats: () => {
+    if (api) return api.get('/stats/punishment-stats');
+    
+    const stats = {
+      medalStripped: (mockData.cases || []).filter(c => c.punishment && c.punishment.medalStripped === true).length,
+      resultsCancelled: (mockData.cases || []).filter(c => c.punishment && c.punishment.resultsCancelled === true).length
+    };
+    return mockResponse(stats);
+  },
+  getBanDurationDistribution: () => {
+    if (api) return api.get('/stats/ban-duration-distribution');
+    
+    const durationCount = {};
+    (mockData.cases || []).forEach(c => {
+      const duration = (c.punishment && c.punishment.banDuration) || '未知';
+      durationCount[duration] = (durationCount[duration] || 0) + 1;
+    });
+    const distribution = Object.entries(durationCount).map(([name, value]) => ({ name, value }));
+    return mockResponse(distribution);
+  },
+  getOverview: () => {
+    if (api) return api.get('/stats/overview');
+    
+    const cases = mockData.cases || [];
+    const sports = [...new Set(cases.map(c => c.sport).filter(Boolean))];
+    const countries = [...new Set(cases.map(c => c.nationality).filter(Boolean))];
+    
+    const overview = {
+      totalCases: cases.length,
+      totalSports: sports.length,
+      totalCountries: countries.length
+    };
+    return mockResponse(overview);
+  },
 };
 
 // Education API
