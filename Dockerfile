@@ -4,7 +4,7 @@ WORKDIR /app
 
 # 複製前端 package.json 和安裝依賴
 COPY frontend/package*.json ./frontend/
-RUN cd frontend && npm ci --only=production
+RUN cd frontend && npm ci
 
 # 複製前端源碼並構建
 COPY frontend/ ./frontend/
@@ -54,7 +54,7 @@ ENV PORT=8080
 
 # 健康檢查
 HEALTHCHECK --interval=30s --timeout=3s --start-period=5s --retries=3 \
-  CMD curl -f http://localhost:8080/api/health || exit 1
+  CMD curl -f http://localhost:8080/ || exit 1
 
 # 啟動統一服務
 CMD ["node", "server.js"]
