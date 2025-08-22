@@ -139,8 +139,25 @@ router.get('/substance-distribution', async (req, res) => {
 
     const substanceStats = await db.collection('cases').aggregate([
       {
+        $addFields: {
+          // 將 S1.1 合併到 S1，其他子分類也合併到主分類
+          normalizedCategory: {
+            $switch: {
+              branches: [
+                { case: { $regexMatch: { input: '$substanceCategory', regex: '^S1\\.1' } }, then: 'S1: 合成代謝劑' },
+                { case: { $regexMatch: { input: '$substanceCategory', regex: '^S1[^0-9]' } }, then: 'S1: 合成代謝劑' },
+                { case: { $regexMatch: { input: '$substanceCategory', regex: '^S2\\.1' } }, then: 'S2: 胜肽激素、生長因子、相關物質及擬劑' },
+                { case: { $regexMatch: { input: '$substanceCategory', regex: '^S2\\.2' } }, then: 'S2: 胜肽激素、生長因子、相關物質及擬劑' },
+                { case: { $regexMatch: { input: '$substanceCategory', regex: '^S4\\.4' } }, then: 'S4: 激素及代謝調節劑' }
+              ],
+              default: '$substanceCategory'
+            }
+          }
+        }
+      },
+      {
         $group: {
-          _id: '$substanceCategory',
+          _id: '$normalizedCategory',
           count: { $sum: 1 }
         }
       },
