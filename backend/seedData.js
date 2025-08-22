@@ -10,7 +10,7 @@ const sampleCases = [
     nationality: '加拿大',
     sport: '田徑',
     substance: 'Stanozolol',
-    substanceCategory: '類固醇',
+    substanceCategory: 'S1: 合成代謝劑',
     year: 1988,
     eventBackground: '1988年漢城奧運會100公尺決賽，以9.79秒打破世界紀錄奪金，但賽後藥檢呈陽性反應。',
     punishment: {
@@ -34,7 +34,7 @@ const sampleCases = [
     nationality: '美國',
     sport: '自行車',
     substance: 'EPO、睪固酮、皮質類固醇',
-    substanceCategory: 'EPO',
+    substanceCategory: 'S2.1: 促紅血球生成素類',
     year: 2012,
     eventBackground: '七屆環法自行車賽冠軍，長期使用禁藥並領導團隊系統性作弊。',
     punishment: {
@@ -58,7 +58,7 @@ const sampleCases = [
     nationality: '俄羅斯',
     sport: '網球',
     substance: 'Meldonium',
-    substanceCategory: '其他',
+    substanceCategory: 'S4.4: 代謝調節劑',
     year: 2016,
     eventBackground: '2016年澳網期間藥檢呈陽性，聲稱不知道Meldonium已被列入禁藥清單。',
     punishment: {
@@ -82,7 +82,7 @@ const sampleCases = [
     nationality: '美國',
     sport: '田徑',
     substance: 'THG (Tetrahydrogestrinone)',
-    substanceCategory: '類固醇',
+    substanceCategory: 'S1: 合成代謝劑',
     year: 2007,
     eventBackground: '2000年雪梨奧運會獲得5面獎牌，後承認使用禁藥。',
     punishment: {
@@ -106,7 +106,7 @@ const sampleCases = [
     nationality: '中國',
     sport: '游泳',
     substance: 'Trimetazidine',
-    substanceCategory: '興奮劑',
+    substanceCategory: 'S6: 興奮劑',
     year: 2014,
     eventBackground: '2014年全國游泳錦標賽藥檢陽性，後因破壞血檢樣本再次被禁賽。',
     punishment: {
@@ -130,7 +130,7 @@ const sampleCases = [
     nationality: '美國',
     sport: '田徑',
     substance: '合成代謝類固醇',
-    substanceCategory: '類固醇',
+    substanceCategory: 'S1: 合成代謝劑',
     year: 2013,
     eventBackground: '美國短跑名將，100公尺美國紀錄保持者，2013年藥檢陽性。',
     punishment: {
@@ -154,7 +154,7 @@ const sampleCases = [
     nationality: '西班牙',
     sport: '自行車',
     substance: 'Clenbuterol',
-    substanceCategory: '興奮劑',
+    substanceCategory: 'S6: 興奮劑',
     year: 2010,
     eventBackground: '2010年環法自行車賽期間檢測出微量Clenbuterol，聲稱是食用受污染的牛肉所致。',
     punishment: {
@@ -178,7 +178,7 @@ const sampleCases = [
     nationality: '美國',
     sport: '田徑',
     substance: '睪固酮',
-    substanceCategory: '類固醇',
+    substanceCategory: 'S1: 合成代謝劑',
     year: 2006,
     eventBackground: '2004年奧運會100公尺金牌得主，2006年第二次藥檢陽性。',
     punishment: {

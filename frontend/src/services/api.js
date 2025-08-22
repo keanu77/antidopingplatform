@@ -3,7 +3,7 @@ import axios from 'axios';
 // 在生產環境中使用模擬數據，開發環境連接後端
 // 強制在生產環境使用mock數據以確保穩定性
 const API_BASE_URL = (typeof window !== 'undefined' && window.location.origin.includes('vercel.app')) ? 
-  null : (import.meta.env.VITE_API_URL || 'http://localhost:5001/api');
+  null : (import.meta.env.VITE_API_URL || 'http://localhost:8080/api');
 
 const api = API_BASE_URL ? axios.create({
   baseURL: API_BASE_URL,
@@ -5987,7 +5987,7 @@ export const casesAPI = {
   create: (data) => api ? api.post('/cases', data) : mockResponse(data),
   update: (id, data) => api ? api.put(`/cases/${id}`, data) : mockResponse(data),
   delete: (id) => api ? api.delete(`/cases/${id}`) : mockResponse({ success: true }),
-  getFilterOptions: () => api ? api.get('/cases/filters/options') : mockResponse({ 
+  getFilterOptions: () => api ? api.get('/cases/filters') : mockResponse({ 
     sports: ["田徑","網球","籃球","足球","棒球","花式滑冰","健力","大力士","游泳","MMA/UFC","美式足球","拳擊","高爾夫","MMA","自行車","體操","舉重/大力士","舉重","韻律泳","越野滑雪","冬季兩項","俯式冰橇","多項目","摔跤","競速滑冰","化學家","板球","科學支援"], 
     substances: ["Trenbolone","Trimetazidine","Clostebol","大麻","Testosterone","Roxadustat","Ostarine（污染）","EPO, HGH","Nandrolone","公開討論使用","錯過檢測","Prednisolone (強體松)","Cardarine（污染）","Testosterone（TUE）","Growth Hormone Releasing Peptide-2","利尿劑","Ipamorelin","Anti-Doping Rule Violations","EPO","大麻、酒精","多種處方藥物","Furosemide","Trimetazidine (疑似)","拒絕檢測","Clenbuterol","Anti-inflammatory (抗炎藥)","公開承認使用","Ligandrol (LGD-4033)","Turinabol (4-chlorodehydromethyltestosterone)","Methylphenidate (甲基苯丙胺)","Meldonium","Turinabol","Testosterone和Clostebol","Clomiphene","GHRP-6","Meldonium (疑似)","Probenecid","L-carnitine注射","公開使用（非藥檢聯盟）","HGH (指控)","Nandrolone (爭議)","系統性使用多種禁藥","Drostanolone","Testosterone等多種","系統性國家禁藥","系統性國家禁藥計劃","睪固酮、HGH","Methandienone","Oxilofrine","Hydrochlorothiazide","EPO, 類固醇","合成代謝類固醇","Triamcinolone (曲安奈德)","Corticosteroid (皮質類固醇)","Stanozolol","EPO、睪固酮、皮質類固醇","自體免疫疾病藥物","DHEA, Pregnenolone","HCG (人類絨毛膜促性腺激素)","Blood Doping (指控)","睪固酮","PED cocktail","THG (Tetrahydrogestrinone)","Oxandrolone","THG, EPO","THG","THG, The Cream","THG, 類固醇","THG (聲稱不知情)","THG設計者","Modafinil","THG, EPO, 類固醇","Diuretic","EPO (疑似)","EPO, 生長激素, 類固醇","Androstenedione (疑似)","Testosterone (歷史案例)","EPO, 血液禁藥","Amphetamines","DHT (雙氫睪固酮)","DHT","EPO研發應用","Oral-Turinabol (疑似)","微量Methenolone","Oral-Turinabol, 睪固酮","Stimulants (微量)","類固醇 (疑似)","Oral-Turinabol","State-sponsored doping","睪固酮 (疑似)"], 
     years: [1966,1976,1980,1983,1985,1986,1988,1990,1994,1995,1996,1997,1998,1999,2000,2001,2003,2005,2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2020,2021,2022,2023,2024],
