@@ -1,0 +1,18 @@
+{
+  "name": "sports-doping-platform",
+  "build_command": "npm run install:all && npm run build",
+  "start_command": "npm start",
+  "environment": {
+    "NODE_ENV": "production",
+    "PORT": "8080"
+  },
+  "service": {
+    "type": "web",
+    "port": 8080
+  },
+  "health_check": {
+    "path": "/api/health",
+    "interval": 30,
+    "timeout": 10
+  }
+}
