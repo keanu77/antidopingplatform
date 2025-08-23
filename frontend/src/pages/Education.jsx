@@ -127,16 +127,6 @@ function Education() {
           案例學習
         </button>
         <button
-          onClick={() => setActiveTab('riskAssessment')}
-          className={`flex-1 min-w-fit px-4 py-2 rounded-lg font-medium transition ${
-            activeTab === 'riskAssessment'
-              ? 'bg-white text-primary-600 shadow'
-              : 'text-gray-600 hover:text-gray-900'
-          }`}
-        >
-          風險評估
-        </button>
-        <button
           onClick={() => setActiveTab('quiz')}
           className={`flex-1 min-w-fit px-4 py-2 rounded-lg font-medium transition ${
             activeTab === 'quiz'
@@ -284,25 +274,59 @@ function Education() {
                 </div>
               )}
 
-              <div className="flex justify-between">
+              <div className="flex justify-between items-center">
                 {!quizResult ? (
-                  <button
-                    onClick={handleQuizAnswer}
-                    disabled={selectedAnswer === null}
-                    className="px-6 py-2 bg-primary-600 text-white rounded-lg hover:bg-primary-700 disabled:opacity-50 disabled:cursor-not-allowed transition"
-                  >
-                    提交答案
-                  </button>
+                  <>
+                    <div className="text-sm text-gray-600">
+                      目前得分: {quizScore} / {currentQuiz}
+                    </div>
+                    <button
+                      onClick={handleQuizAnswer}
+                      disabled={selectedAnswer === null}
+                      className="px-6 py-2 bg-primary-600 text-white rounded-lg hover:bg-primary-700 disabled:opacity-50 disabled:cursor-not-allowed transition"
+                    >
+                      提交答案
+                    </button>
+                  </>
                 ) : currentQuiz < quizzes.length - 1 ? (
-                  <button
-                    onClick={nextQuiz}
-                    className="px-6 py-2 bg-primary-600 text-white rounded-lg hover:bg-primary-700 transition flex items-center"
-                  >
-                    下一題
-                    <ChevronRight className="h-4 w-4 ml-2" />
-                  </button>
+                  <>
+                    <div className="text-sm text-gray-600">
+                      目前得分: {quizScore} / {currentQuiz + 1}
+                    </div>
+                    <button
+                      onClick={nextQuiz}
+                      className="px-6 py-2 bg-primary-600 text-white rounded-lg hover:bg-primary-700 transition flex items-center"
+                    >
+                      下一題
+                      <ChevronRight className="h-4 w-4 ml-2" />
+                    </button>
+                  </>
                 ) : (
-                  <div></div>
+                  <div className="w-full text-center">
+                    <div className="bg-gray-50 border border-gray-200 rounded-lg p-4 mb-4">
+                      <p className="text-lg font-semibold text-gray-900 mb-2">
+                        🎯 測驗總結
+                      </p>
+                      <p className="text-2xl font-bold text-primary-600 mb-1">
+                        總分: {quizScore} / {quizzes.length}
+                      </p>
+                      <p className="text-sm text-gray-600">
+                        正確率: {((quizScore / quizzes.length) * 100).toFixed(1)}%
+                      </p>
+                      <div className="mt-2 text-lg">
+                        {quizScore === quizzes.length ? '🏆 完美得分！' : 
+                         quizScore >= quizzes.length * 0.8 ? '⭐ 表現優異！' : 
+                         quizScore >= quizzes.length * 0.6 ? '👍 表現良好！' : 
+                         '💪 還有進步空間！'}
+                      </div>
+                    </div>
+                    <button
+                      onClick={resetQuiz}
+                      className="px-6 py-2 bg-primary-600 text-white rounded-lg hover:bg-primary-700 transition"
+                    >
+                      重新測驗
+                    </button>
+                  </div>
                 )}
               </div>
             </div>
@@ -476,6 +500,97 @@ function Education() {
                 "促進了更嚴格的藥檢制度",
                 "對運動生涯的毀滅性影響"
               ]
+            },
+            {
+              athlete: "詹尼克·辛納 (Jannik Sinner)",
+              year: 2024,
+              sport: "網球",
+              substance: "Clostebol",
+              lesson: "即使是意外接觸，禁藥在體內即構成違規",
+              consequence: "暫時停賽但不公布裁決，引發爭議",
+              keyPoints: [
+                "透過按摩師手部傷口意外接觸",
+                "ITIA認定無過失但引發公平性爭議",
+                "運動員對其整個運動團隊的行為負有責任"
+              ]
+            },
+            {
+              athlete: "羅賓遜·卡諾 (Robinson Cano)",
+              year: 2022,
+              sport: "棒球",
+              substance: "Stanozolol",
+              lesson: "再次違規的更嚴重後果和經濟影響",
+              consequence: "禁賽162場比賽，損失1200萬美元",
+              keyPoints: [
+                "10年內第二次被查出使用禁藥",
+                "導致經濟巨大損失和給球隊造成困擾",
+                "重複違規可能終結職業生涯"
+              ]
+            },
+            {
+              athlete: "塔拉·利平斯基 (Tara Lipinski)",
+              year: 1998,
+              sport: "體操",
+              substance: "Steroid-like substances",
+              lesson: "年輕運動員更需要特別保護和指導",
+              consequence: "沒有被檢出，但後來承認使用過增強藥物",
+              keyPoints: [
+                "年輕運動員容易被誤導使用禁藥",
+                "教練和領隊負有指導和保護責任",
+                "禁藥使用可能對成長期的運動員造成長期傷害"
+              ]
+            },
+            {
+              athlete: "羅伊·伊文斯 (Roy Evans)",
+              year: 2002,
+              sport: "武術",
+              substance: "Testosterone",
+              lesson: "TUE申請的重要性和正確使用方式",
+              consequence: "禁賽2年，後來申請TUE成功",
+              keyPoints: [
+                "TUE允許為了醫療目的使用某些禁藥",
+                "TUE申請需要充分的醫療證明和理由",
+                "運動員應於使用前申請，而非事後補救"
+              ]
+            },
+            {
+              athlete: "蘭斯·阿姆斯壯 (Lance Armstrong)",
+              year: 2012,
+              sport: "自行車",
+              substance: "EPO, 血液輸注, 類固醇",
+              lesson: "系統性禁藥使用的影響和對運動選手生涯的毀滅性後果",
+              consequence: "終身禁賽，7次環法冠軍被取消",
+              keyPoints: [
+                "長期系統性使用多種禁藥來提高表現",
+                "對整個運動界和粉絲造成巨大冷擊",
+                "詐欺和隱瞞的長期後果更加嚴重"
+              ]
+            },
+            {
+              athlete: "亞歷克斯·羅德里格斯 (Alex Rodriguez)",
+              year: 2014,
+              sport: "棒球",
+              substance: "生長激素, 類固醇",
+              lesson: "MLB中使用禁藥的經濟和法律後果",
+              consequence: "禁賽211場比賽，損失2500萬美元",
+              keyPoints: [
+                "參與Biogenesis醜聞，涉及多名MLB球員",
+                "MLB對禁藥使用的嚴廣調查和嚴厲處罰",
+                "損害名聲和經濟利益的長期影響"
+              ]
+            },
+            {
+              athlete: "瑞恩·洛切特 (Ryan Lochte)",
+              year: 2018,
+              sport: "游泳",
+              substance: "超量靜脈輸注",
+              lesson: "違反靜脈輸注限制的規定和醫療程序的重要性",
+              consequence: "禁賽14個月",
+              keyPoints: [
+                "超過100ml的靜脈輸注被視為M2物理操作",
+                "即使是醫療目的，也需要遵守WADA規定",
+                "運動員需要知道所有醫療程序的反禁藥規定"
+              ]
             }
           ].map((caseItem, index) => (
             <div key={index} className="bg-white rounded-lg shadow-lg p-6">
@@ -528,85 +643,6 @@ function Education() {
         </div>
       )}
 
-      {/* Risk Assessment Tab */}
-      {activeTab === 'riskAssessment' && (
-        <div className="max-w-3xl mx-auto">
-          <div className="bg-white rounded-lg shadow-lg p-6">
-            <div className="mb-6">
-              <div className="flex items-center mb-4">
-                <Calculator className="h-8 w-8 text-primary-600 mr-3" />
-                <h2 className="text-2xl font-bold text-gray-900">用藥風險評估工具</h2>
-              </div>
-              <p className="text-gray-600">
-                回答以下問題，評估您的用藥風險等級
-              </p>
-            </div>
-            
-            <div className="space-y-6">
-              {[
-                {
-                  question: "您是否定期檢查WADA禁藥清單更新？",
-                  options: ["每年檢查", "偶爾檢查", "從未檢查"],
-                  weights: [0, 1, 3]
-                },
-                {
-                  question: "使用藥物或補充品前，是否諮詢專業人員？",
-                  options: ["總是諮詢", "有時諮詢", "很少諮詢"],
-                  weights: [0, 1, 3]
-                },
-                {
-                  question: "您使用的營養補充品是否有第三方認證？",
-                  options: ["全部都有", "部分有", "都沒有或不確定"],
-                  weights: [0, 2, 4]
-                },
-                {
-                  question: "是否了解TUE申請流程？",
-                  options: ["完全了解", "部分了解", "不了解"],
-                  weights: [0, 1, 2]
-                },
-                {
-                  question: "是否保留所有用藥記錄？",
-                  options: ["詳細記錄", "部分記錄", "沒有記錄"],
-                  weights: [0, 1, 3]
-                }
-              ].map((item, index) => (
-                <div key={index} className="border-b border-gray-200 pb-4">
-                  <h3 className="font-semibold text-gray-900 mb-3">
-                    {index + 1}. {item.question}
-                  </h3>
-                  <div className="space-y-2">
-                    {item.options.map((option, optionIndex) => (
-                      <label key={optionIndex} className="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 cursor-pointer">
-                        <input
-                          type="radio"
-                          name={`question-${index}`}
-                          className="mr-3 text-primary-600"
-                        />
-                        <span className="text-gray-700">{option}</span>
-                      </label>
-                    ))}
-                  </div>
-                </div>
-              ))}
-            </div>
-            
-            <div className="mt-6">
-              <button className="w-full py-3 bg-primary-600 text-white rounded-lg font-semibold hover:bg-primary-700 transition">
-                計算風險等級
-              </button>
-            </div>
-            
-            <div className="mt-6 p-4 bg-blue-50 rounded-lg">
-              <h3 className="font-semibold text-blue-900 mb-2">風險等級說明</h3>
-              <div className="space-y-2 text-sm text-blue-700">
-                <p>• 低風險（0-3分）：良好的反禁藥意識</p>
-                <p>• 中風險（4-8分）：需要加強某些方面</p>
-                <p>• 高風險（9分以上）：建議立即改善用藥管理</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      )}
 
       {/* Medical Specialties Tab */}
       {activeTab === 'specialties' && (

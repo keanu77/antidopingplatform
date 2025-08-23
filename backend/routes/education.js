@@ -345,16 +345,99 @@ const educationalContent = {
       correctAnswer: 1,
       explanation: '糖皮質激素(S9)僅在比賽期間被禁用，但局部使用除外。'
     },
+    // TUE基礎知識題目
     {
       id: 17,
+      category: 'TUE知識',
+      question: 'TUE申請必須在什麼時候提交？',
+      options: ['使用禁藥之前', '使用禁藥之後30天內', '被檢出後立即', '比賽結束後'],
+      correctAnswer: 0,
+      explanation: 'TUE申請必須在使用禁藥之前提交，除非是緊急醫療情況。'
+    },
+    {
+      id: 18,
+      category: 'TUE知識',
+      question: '哪種情況可能需要申請TUE？',
+      options: ['提高運動表現', '恢復疲勞', '治療糖尿病', '增加肌肉量'],
+      correctAnswer: 2,
+      explanation: '糖尿病患者可能需要使用胰島素治療，這需要申請TUE。'
+    },
+    {
+      id: 19,
+      category: 'TUE知識',
+      question: 'TUE申請需要提供什麼資料？',
+      options: ['教練推薦信', '完整醫療診斷和治療計劃', '運動成績證明', '贊助商同意書'],
+      correctAnswer: 1,
+      explanation: 'TUE申請需要提供完整的醫療診斷、治療必要性證明和治療計劃。'
+    },
+    {
+      id: 20,
+      category: 'TUE知識',
+      question: '以下哪種藥物最常需要申請TUE？',
+      options: ['維生素C', '胰島素', '維生素D', '蛋白粉'],
+      correctAnswer: 1,
+      explanation: '胰島素是禁藥，但糖尿病患者治療需要，是最常見的TUE申請藥物之一。'
+    },
+    {
+      id: 21,
+      category: 'TUE知識',
+      question: 'TUE的有效期通常是多久？',
+      options: ['終身有效', '1年', '根據醫療需要而定', '比賽期間有效'],
+      correctAnswer: 2,
+      explanation: 'TUE的有效期根據醫療需要和治療期間而定，會在批准時明確說明。'
+    },
+    // 基本禁藥知識題目
+    {
+      id: 22,
+      category: '禁藥知識',
+      question: 'WADA禁藥清單多久更新一次？',
+      options: ['每月', '每季', '每年', '每兩年'],
+      correctAnswer: 2,
+      explanation: 'WADA禁藥清單每年更新一次，通常在1月1日生效。'
+    },
+    {
+      id: 23,
+      category: '禁藥知識',
+      question: '運動員有義務了解什麼？',
+      options: ['只需了解自己項目的規則', '所有WADA禁藥清單內容', '只需了解常用藥物', '只需聽教練指導'],
+      correctAnswer: 1,
+      explanation: '運動員有責任了解並遵守完整的WADA禁藥清單，無知不是辯護理由。'
+    },
+    {
+      id: 24,
+      category: '禁藥知識',
+      question: '藥檢樣本可以是什麼？',
+      options: ['只有尿液', '只有血液', '尿液和血液', '唾液'],
+      correctAnswer: 2,
+      explanation: '藥檢樣本主要包括尿液和血液，不同物質可能需要不同類型的樣本。'
+    },
+    {
+      id: 25,
+      category: '禁藥知識',
+      question: '拒絕接受藥檢的後果是什麼？',
+      options: ['警告', '罰款', '等同於陽性結果', '延後檢測'],
+      correctAnswer: 2,
+      explanation: '拒絕接受藥檢等同於藥檢陽性，會面臨相同的處罰。'
+    },
+    {
+      id: 26,
+      category: '禁藥知識',
+      question: '營養補充劑的風險是什麼？',
+      options: ['沒有風險', '可能含有未標示的禁藥成分', '只要是合法產品就安全', '只有便宜產品有風險'],
+      correctAnswer: 1,
+      explanation: '營養補充劑可能含有未標示的禁藥成分，運動員使用時需格外小心。'
+    },
+    {
+      id: 27,
       category: '禁藥知識',
       question: 'Modafinil屬於哪種禁藥類別？',
       options: ['S1: 合成代謝劑', 'S6: 興奮劑', 'S4: 代謝調節劑', 'S7: 麻醉劑'],
       correctAnswer: 1,
       explanation: 'Modafinil是一種促智藥物，屬於S6興奮劑類別。'
     },
+    // 更多基本禁藥知識題目
     {
-      id: 18,
+      id: 28,
       category: '禁藥知識',
       question: '基因禁藥(M3)主要風險是什麼？',
       options: ['心律不整', '肝損傷', '未知長期風險', '腎功能損害'],
@@ -362,7 +445,7 @@ const educationalContent = {
       explanation: '基因禁藥的主要風險是未知的長期健康風險和潛在的基因不穩定性。'
     },
     {
-      id: 19,
+      id: 29,
       category: '禁藥知識',
       question: '運動員對什麼負有嚴格責任？',
       options: ['只對故意使用負責', '只對檢測結果負責', '對進入體內的所有物質負責', '只對處方藥負責'],
@@ -370,15 +453,56 @@ const educationalContent = {
       explanation: '運動員對進入其體內的任何禁用物質負有嚴格責任，無論是否故意。'
     },
     {
-      id: 20,
+      id: 30,
       category: '禁藥知識',
       question: 'Nandrolone的主要健康風險包括？',
       options: ['只有肝損傷', '心血管疾病和荷爾蒙失調', '只有情緒波動', '只有肌肉損傷'],
       correctAnswer: 1,
       explanation: 'Nandrolone可能導致心血管疾病、肝損傷、荷爾蒙失調等多種健康問題。'
     },
+    // 更多TUE知識題目
     {
-      id: 21,
+      id: 31,
+      category: 'TUE知識',
+      question: 'TUE委員會通常由哪些專業人士組成？',
+      options: ['只有醫生', '醫生和藥劑師', '醫生、藥劑師和運動科學家', '運動員代表'],
+      correctAnswer: 2,
+      explanation: 'TUE委員會通常由醫生、藥劑師和運動科學專家組成，確保專業性。'
+    },
+    {
+      id: 32,
+      category: 'TUE知識',
+      question: '以下哪種情況不能申請TUE？',
+      options: ['治療哮喘', '提高運動表現', '治療糖尿病', '治療ADHD'],
+      correctAnswer: 1,
+      explanation: '純粹為了提高運動表現而使用禁藥不能申請TUE，TUE只用於醫療需要。'
+    },
+    {
+      id: 33,
+      category: 'TUE知識',
+      question: 'TUE申請被拒絕後可以怎麼做？',
+      options: ['無法申訴', '可以申訴或重新申請', '只能等待一年後重新申請', '自動禁賽'],
+      correctAnswer: 1,
+      explanation: 'TUE申請被拒絕後，運動員可以向上級機構申訴或在情況改變後重新申請。'
+    },
+    {
+      id: 34,
+      category: '禁藥知識',
+      question: '以下哪個不是WADA的主要職責？',
+      options: ['制定禁藥清單', '進行藥檢', '監督反禁藥工作', '處理違規案例'],
+      correctAnswer: 1,
+      explanation: 'WADA負責政策制定和監督，實際藥檢由各國反禁藥組織執行。'
+    },
+    {
+      id: 35,
+      category: '禁藥知識',
+      question: 'A樣本檢測陽性後會怎麼處理？',
+      options: ['立即宣布違規', '檢測B樣本確認', '警告運動員', '無需處理'],
+      correctAnswer: 1,
+      explanation: 'A樣本陽性後，會檢測B樣本進行確認，兩個都陽性才算違規。'
+    },
+    {
+      id: 36,
       category: '禁藥知識',
       question: 'WADA每年更新禁用清單的時間是？',
       options: ['1月1日', '7月1日', '10月1日', '12月31日'],
