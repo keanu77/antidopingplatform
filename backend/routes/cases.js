@@ -88,32 +88,58 @@ router.get('/', async (req, res) => {
       }
     }
 
-    // 新增的篩選條件
+    // 新增的篩選條件 - 修正禁賽期間篩選
     if (banDuration) {
       switch (banDuration) {
-        case '無處罰':
-          query.$or = [
-            { 'punishment.banDuration': { $regex: /無處罰|無禁賽|警告/ } },
-            { 'punishment.banDuration': { $exists: false } }
-          ];
+        case '無處罰 (TUE/合法)':
+          query['punishment.banDuration'] = { 
+            $regex: /無處罰|無禁賽|警告|合法|TUE|無（成功|無正式禁賽|污染裁決/i 
+          };
           break;
-        case '3個月內':
-          query['punishment.banDuration'] = { $regex: /[1-3]個月|月/ };
+        case '1-6個月':
+          query['punishment.banDuration'] = { 
+            $regex: /^[1-6]個月|50場|65場|^6個月/i 
+          };
           break;
-        case '3-12個月':
-          query['punishment.banDuration'] = { $regex: /[4-9]個月|1[0-2]個月/ };
+        case '7-12個月':
+          query['punishment.banDuration'] = { 
+            $regex: /[7-9]個月|1[0-2]個月|^1年$|12個月/i 
+          };
           break;
-        case '1-2年':
-          query['punishment.banDuration'] = { $regex: /1年|2年|24個月/ };
+        case '13-18個月':
+          query['punishment.banDuration'] = { 
+            $regex: /1[3-8]個月|14個月|15個月|16個月|17個月|18個月/i 
+          };
           break;
-        case '2-4年':
-          query['punishment.banDuration'] = { $regex: /[3-4]年|36個月|48個月/ };
+        case '19-24個月':
+          query['punishment.banDuration'] = { 
+            $regex: /19個月|2[0-4]個月|^2年$|80場|162場|211場/i 
+          };
+          break;
+        case '2-3年':
+          query['punishment.banDuration'] = { 
+            $regex: /^3年$|2-3年|2\.5年|30個月|36個月/i 
+          };
           break;
         case '4年以上':
-          query['punishment.banDuration'] = { $regex: /[5-9]年|[1-9]\d年/ };
+          query['punishment.banDuration'] = { 
+            $regex: /^4年|^[5-9]年|[0-9]{2}年|4年3個月/i 
+          };
           break;
         case '終身禁賽':
-          query['punishment.banDuration'] = { $regex: /終身|永久/ };
+          query['punishment.banDuration'] = { 
+            $regex: /終身|永久|10年/i 
+          };
+          break;
+        case '死亡/特殊情況':
+          query['punishment.banDuration'] = { 
+            $regex: /死亡|特殊情況|國家系統性/i 
+          };
+          break;
+        case '其他':
+          query['punishment.banDuration'] = { 
+            $regex: /奧運失格|追溯|未被|其他|第一次|未被正式|多次|已退休/i 
+          };
           break;
       }
     }
@@ -121,7 +147,11 @@ router.get('/', async (req, res) => {
     if (punishmentType) {
       switch (punishmentType) {
         case '禁賽':
-          query['punishment.banDuration'] = { $exists: true, $ne: '' };
+          query['punishment.banDuration'] = { 
+            $exists: true, 
+            $ne: '',
+            $not: { $regex: /無處罰|無禁賽|無（成功|無正式禁賽/i }
+          };
           break;
         case '獎牌剝奪':
           query['punishment.medalStripped'] = true;
@@ -130,10 +160,22 @@ router.get('/', async (req, res) => {
           query['punishment.resultsCancelled'] = true;
           break;
         case '罰款':
-          query['punishment.banDuration'] = { $regex: /罰款|罰金/ };
+          query.$or = [
+            { 'punishment.otherPenalties': { $regex: /罰款|罰金/i } },
+            { 'punishment.banDuration': { $regex: /罰款|罰金/i } }
+          ];
           break;
         case '警告':
-          query['punishment.banDuration'] = { $regex: /警告|告誡/ };
+          query.$or = [
+            { 'punishment.banDuration': { $regex: /警告|告誡|公開警告/i } },
+            { 'punishment.otherPenalties': { $regex: /警告|告誡/i } }
+          ];
+          break;
+        case '其他':
+          query.$or = [
+            { 'punishment.otherPenalties': { $exists: true, $ne: '' } },
+            { 'punishment.banDuration': { $regex: /其他|特殊/i } }
+          ];
           break;
       }
     }

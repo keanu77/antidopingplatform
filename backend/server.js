@@ -13,7 +13,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 // MongoDB connection
-mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost:27017/sports-doping-db', {
+mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost:27017/antidoping', {
   useNewUrlParser: true,
   useUnifiedTopology: true
 }).then(() => {
@@ -23,8 +23,8 @@ mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost:27017/sports-do
 });
 
 // Routes
-app.use('/api/cases', require('./routes/cases'));
-app.use('/api/stats', require('./routes/stats'));
+app.use('/api/cases', require('./routes/casesFixed'));
+app.use('/api/stats', require('./routes/statsFixed'));
 app.use('/api/education', require('./routes/education'));
 app.use('/api/tue', require('./routes/tue'));
 

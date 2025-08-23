@@ -228,17 +228,24 @@ router.get('/ban-duration-distribution', async (req, res) => {
 // Get overall statistics
 router.get('/overview', async (req, res) => {
   try {
-    const [
-      totalCases,
-      totalSports,
-      totalCountries,
-      recentCases
-    ] = await Promise.all([
-      Case.countDocuments(),
-      Case.distinct('sport').then(sports => sports.length),
-      Case.distinct('nationality').then(countries => countries.length),
-      Case.find().sort({ year: -1 }).limit(5).select('athleteName sport year')
-    ]);
+    console.log('Overview API called');
+    console.log('Database connection:', Case.db.name);
+    console.log('Collection name:', Case.collection.name);
+    
+    const totalCases = await Case.countDocuments();
+    console.log('Step 1 - Total cases:', totalCases);
+    
+    const sports = await Case.distinct('sport');
+    console.log('Step 2 - Sports:', sports.length, sports.slice(0, 3));
+    
+    const countries = await Case.distinct('nationality');
+    console.log('Step 3 - Countries:', countries.length, countries.slice(0, 3));
+    
+    const recentCases = await Case.find().sort({ year: -1 }).limit(5).select('athleteName sport year');
+    console.log('Step 4 - Recent cases:', recentCases.length, recentCases.map(c => c.athleteName));
+    
+    const totalSports = sports.length;
+    const totalCountries = countries.length;
 
     res.json({
       totalCases,

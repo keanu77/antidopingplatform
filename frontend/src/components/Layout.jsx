@@ -56,10 +56,7 @@ function Layout({ children }) {
               <div className="mt-4">
                 <h4 className="text-sm font-semibold mb-2">免責聲明</h4>
                 <p className="text-gray-400 text-xs">
-                  本平台資訊僅供參考，若有不足或錯誤之處，誠摯歡迎您來信提供寶貴意見。
-                </p>
-                <p className="text-gray-400 text-xs mt-1">
-                  聯絡信箱：keanu.firefox@gmail.com
+                  本平台資訊僅供參考，若有不足或錯誤之處，誠摯歡迎您來信提供寶貴意見。聯絡信箱：keanu.firefox@gmail.com
                 </p>
               </div>
             </div>
@@ -75,9 +72,8 @@ function Layout({ children }) {
             <div>
               <h3 className="text-lg font-semibold mb-4">製作者</h3>
               <p className="text-gray-400 text-sm">
-                運動醫學科 
-                <a href="https://wycswimming.blogspot.com/" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-300 ml-1">
-                  吳易澄醫師
+                <a href="https://wycswimming.blogspot.com/" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-300">
+                  運動醫學科吳易澄醫師
                 </a>
               </p>
             </div>

@@ -2,8 +2,7 @@ import axios from 'axios';
 
 // 在生產環境中使用模擬數據，開發環境連接後端
 // 強制在生產環境使用mock數據以確保穩定性
-const API_BASE_URL = (typeof window !== 'undefined' && window.location.origin.includes('vercel.app')) ? 
-  null : (import.meta.env.VITE_API_URL || 'http://localhost:8080/api');
+const API_BASE_URL = 'http://localhost:5005/api';
 
 const api = API_BASE_URL ? axios.create({
   baseURL: API_BASE_URL,

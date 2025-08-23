@@ -13,7 +13,6 @@ function CaseList() {
     nationality: '',
     year: '',
     substanceCategory: '',
-    banDuration: '',
     punishmentType: ''
   });
   const [filterOptions, setFilterOptions] = useState({
@@ -21,15 +20,6 @@ function CaseList() {
     nationalities: [],
     years: [],
     substanceCategories: [],
-    banDurations: [
-      '無處罰',
-      '3個月內',
-      '3-12個月',
-      '1-2年',
-      '2-4年',
-      '4年以上',
-      '終身禁賽'
-    ],
     punishmentTypes: [
       '禁賽',
       '獎牌剝奪',
@@ -67,7 +57,6 @@ function CaseList() {
         nationality: '',
         year: '',
         substanceCategory: '',
-        banDuration: '',
         punishmentType: ''
       };
       await loadCases(initialFilters, 1);
@@ -89,15 +78,6 @@ function CaseList() {
       const response = await casesAPI.getFilterOptions();
       const options = {
         ...response.data,
-        banDurations: [
-          '無處罰',
-          '3個月內',
-          '3-12個月',
-          '1-2年',
-          '2-4年',
-          '4年以上',
-          '終身禁賽'
-        ],
         punishmentTypes: [
           '禁賽',
           '獎牌剝奪',
@@ -118,15 +98,6 @@ function CaseList() {
         nationalities: ['美國', '中國', '俄羅斯', '德國', '英國', '日本'],
         years: [2020, 2021, 2022, 2023, 2024],
         substanceCategories: ['類固醇', 'EPO', '興奮劑', '利尿劑'],
-        banDurations: [
-          '無處罰',
-          '3個月內',
-          '3-12個月',
-          '1-2年',
-          '2-4年',
-          '4年以上',
-          '終身禁賽'
-        ],
         punishmentTypes: [
           '禁賽',
           '獎牌剝奪',
@@ -228,7 +199,6 @@ function CaseList() {
       nationality: '',
       year: '',
       substanceCategory: '',
-      banDuration: '',
       punishmentType: ''
     });
   };
@@ -290,7 +260,7 @@ function CaseList() {
       {/* Filters */}
       {showFilters && (
         <div className="bg-white rounded-lg shadow p-6 mb-6">
-          <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-6 gap-4">
+          <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-4">
             <div>
               <label className="block text-sm font-medium text-gray-700 mb-2">運動項目</label>
               <select
@@ -340,19 +310,6 @@ function CaseList() {
                 <option value="">全部</option>
                 {filterOptions.substanceCategories.map(category => (
                   <option key={category} value={category}>{category}</option>
-                ))}
-              </select>
-            </div>
-            <div>
-              <label className="block text-sm font-medium text-gray-700 mb-2">禁賽期限</label>
-              <select
-                value={filters.banDuration}
-                onChange={(e) => handleFilterChange('banDuration', e.target.value)}
-                className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500"
-              >
-                <option value="">全部</option>
-                {filterOptions.banDurations.map(duration => (
-                  <option key={duration} value={duration}>{duration}</option>
                 ))}
               </select>
             </div>

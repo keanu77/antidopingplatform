@@ -7,7 +7,7 @@ async function exportCasesToMarkdown() {
   
   try {
     client = await MongoClient.connect('mongodb://localhost:27017');
-    const db = client.db('sports-doping-db');
+    const db = client.db('antidoping');
     
     console.log('正在從數據庫提取所有案例...');
     

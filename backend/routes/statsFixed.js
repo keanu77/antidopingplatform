@@ -7,7 +7,7 @@ let db;
 // 初始化資料庫連接
 MongoClient.connect('mongodb://localhost:27017')
   .then(client => {
-    db = client.db('sports-doping-db');
+    db = client.db('antidoping');
     console.log('Stats route connected to MongoDB');
   })
   .catch(err => console.error('Stats route DB error:', err));
@@ -231,8 +231,8 @@ router.get('/nationality-distribution', async (req, res) => {
   }
 });
 
-// Get ban duration distribution
-router.get('/ban-duration-distribution', async (req, res) => {
+// Get ban duration distribution (original detailed version)
+router.get('/ban-duration-distribution-detailed', async (req, res) => {
   try {
     if (!db) {
       return res.status(500).json({ error: 'Database not connected' });
@@ -256,6 +256,98 @@ router.get('/ban-duration-distribution', async (req, res) => {
       count: stat.count,
       percentage: Math.round((stat.count / total) * 100)
     })));
+  } catch (error) {
+    console.error('Ban duration distribution error:', error);
+    res.status(500).json({ error: error.message });
+  }
+});
+
+// Get ban duration distribution (simplified 10 categories)
+router.get('/ban-duration-distribution', async (req, res) => {
+  try {
+    if (!db) {
+      return res.status(500).json({ error: 'Database not connected' });
+    }
+
+    const allCases = await db.collection('cases').find({}).toArray();
+    
+    // Initialize simplified categories
+    const categories = {
+      '無處罰 (TUE/合法)': 0,
+      '1-6個月': 0,
+      '7-12個月': 0,
+      '13-18個月': 0,
+      '19-24個月': 0,
+      '2-3年': 0,
+      '4年以上': 0,
+      '終身禁賽': 0,
+      '死亡/特殊情況': 0,
+      '其他': 0
+    };
+
+    // Categorize each case
+    allCases.forEach(case_ => {
+      const banDuration = case_.punishment?.banDuration || '';
+      const normalized = banDuration.toLowerCase();
+
+      if (normalized.includes('無處罰') || normalized.includes('合法tue') || 
+          normalized.includes('tue證明') || normalized.includes('無禁賽') ||
+          normalized.includes('無正式禁賽') || normalized.includes('無（成功') ||
+          normalized.includes('當時合法')) {
+        categories['無處罰 (TUE/合法)']++;
+      }
+      else if (normalized.includes('死亡') || normalized.includes('國家系統性禁藥受害者')) {
+        categories['死亡/特殊情況']++;
+      }
+      else if (normalized.includes('終身') || normalized.includes('10年')) {
+        categories['終身禁賽']++;
+      }
+      else if (normalized.includes('1個月') || normalized.includes('6個月') ||
+               normalized.includes('50場') || normalized.includes('65場')) {
+        categories['1-6個月']++;
+      }
+      else if (normalized.includes('7個月') || normalized.includes('8個月') ||
+               normalized.includes('9個月') || normalized.includes('12個月') ||
+               normalized.includes('1年')) {
+        categories['7-12個月']++;
+      }
+      else if (normalized.includes('14個月') || normalized.includes('15個月') ||
+               normalized.includes('18個月')) {
+        categories['13-18個月']++;
+      }
+      else if (normalized.includes('2年') || normalized.includes('22個月') ||
+               normalized.includes('80場') || normalized.includes('162場') ||
+               normalized.includes('211場')) {
+        categories['19-24個月']++;
+      }
+      else if (normalized.includes('3年')) {
+        categories['2-3年']++;
+      }
+      else if (normalized.includes('4年') || normalized.includes('4年3個月')) {
+        categories['4年以上']++;
+      }
+      else if (normalized.includes('奧運失格') || normalized.includes('追溯取消') ||
+               normalized.includes('第一次') || normalized.includes('未被抓獲')) {
+        categories['其他']++;
+      }
+      else {
+        // Any unmatched cases go to "其他"
+        categories['其他']++;
+      }
+    });
+
+    // Convert to array format with percentages
+    const total = allCases.length;
+    const result = Object.entries(categories)
+      .map(([category, count]) => ({
+        category,
+        count,
+        percentage: Math.round((count / total) * 100)
+      }))
+      .filter(item => item.count > 0) // Only show categories with cases
+      .sort((a, b) => b.count - a.count); // Sort by count descending
+
+    res.json(result);
   } catch (error) {
     console.error('Ban duration distribution error:', error);
     res.status(500).json({ error: error.message });

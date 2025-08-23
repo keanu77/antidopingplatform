@@ -7,7 +7,7 @@ let db;
 // 初始化資料庫連接
 MongoClient.connect('mongodb://localhost:27017')
   .then(client => {
-    db = client.db('sports-doping-db');
+    db = client.db('antidoping');
     console.log('Cases route connected to MongoDB');
   })
   .catch(err => console.error('Cases route DB error:', err));
@@ -24,6 +24,7 @@ router.get('/', async (req, res) => {
       nationality, 
       year, 
       substanceCategory,
+      punishmentType,
       search,
       page = 1,
       limit = 12
@@ -36,6 +37,43 @@ router.get('/', async (req, res) => {
     if (nationality) query.nationality = nationality;
     if (year) query.year = parseInt(year);
     if (substanceCategory) query.substanceCategory = substanceCategory;
+    
+    // 處罰類型篩選
+    if (punishmentType) {
+      switch (punishmentType) {
+        case '禁賽':
+          query['punishment.banDuration'] = { 
+            $exists: true, 
+            $ne: '',
+            $not: { $regex: /無處罰|無禁賽|無（成功|無正式禁賽/i }
+          };
+          break;
+        case '獎牌剝奪':
+          query['punishment.medalStripped'] = true;
+          break;
+        case '成績取消':
+          query['punishment.resultsCancelled'] = true;
+          break;
+        case '罰款':
+          query.$or = [
+            { 'punishment.otherPenalties': { $regex: /罰款|罰金/i } },
+            { 'punishment.banDuration': { $regex: /罰款|罰金/i } }
+          ];
+          break;
+        case '警告':
+          query.$or = [
+            { 'punishment.banDuration': { $regex: /警告|告誡|公開警告/i } },
+            { 'punishment.otherPenalties': { $regex: /警告|告誡/i } }
+          ];
+          break;
+        case '其他':
+          query.$or = [
+            { 'punishment.otherPenalties': { $exists: true, $ne: '' } },
+            { 'punishment.banDuration': { $regex: /其他|特殊/i } }
+          ];
+          break;
+      }
+    }
 
     // Text search
     if (search) {
@@ -64,7 +102,7 @@ router.get('/', async (req, res) => {
 
     res.json({
       cases,
-      total,
+      totalCases: total,
       currentPage: parseInt(page),
       totalPages,
       limit: parseInt(limit)
