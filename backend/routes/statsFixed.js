@@ -276,12 +276,15 @@ router.get('/ban-duration-distribution', async (req, res) => {
       '無處罰 (TUE/合法)': 0,
       '1-6個月': 0,
       '7-12個月': 0,
-      '13-18個月': 0,
-      '19-24個月': 0,
+      '1-2年': 0,
       '2-3年': 0,
       '4年以上': 0,
       '終身禁賽': 0,
       '死亡/特殊情況': 0,
+      '退役': 0,
+      '聲譽受損': 0,
+      '暫時禁賽：無確鑿證據': 0,
+      '特定比賽場次': 0,
       '其他': 0
     };
 
@@ -299,11 +302,12 @@ router.get('/ban-duration-distribution', async (req, res) => {
       else if (normalized.includes('死亡') || normalized.includes('國家系統性禁藥受害者')) {
         categories['死亡/特殊情況']++;
       }
-      else if (normalized.includes('終身') || normalized.includes('10年')) {
+      else if (normalized.includes('終身') || normalized.includes('10年') ||
+               normalized.includes('無限期停賽')) {
         categories['終身禁賽']++;
       }
       else if (normalized.includes('1個月') || normalized.includes('6個月') ||
-               normalized.includes('50場') || normalized.includes('65場')) {
+               normalized.includes('3個月')) {
         categories['1-6個月']++;
       }
       else if (normalized.includes('7個月') || normalized.includes('8個月') ||
@@ -312,19 +316,37 @@ router.get('/ban-duration-distribution', async (req, res) => {
         categories['7-12個月']++;
       }
       else if (normalized.includes('14個月') || normalized.includes('15個月') ||
-               normalized.includes('18個月')) {
-        categories['13-18個月']++;
+               normalized.includes('18個月') || normalized.includes('2年') || 
+               normalized.includes('22個月') || normalized.includes('21個月')) {
+        categories['1-2年']++;
       }
-      else if (normalized.includes('2年') || normalized.includes('22個月') ||
-               normalized.includes('80場') || normalized.includes('162場') ||
-               normalized.includes('211場')) {
-        categories['19-24個月']++;
-      }
-      else if (normalized.includes('3年')) {
+      else if (normalized.includes('3年') || normalized.includes('2-4年不等')) {
         categories['2-3年']++;
       }
-      else if (normalized.includes('4年') || normalized.includes('4年3個月')) {
+      else if (normalized.includes('4年') || normalized.includes('4年3個月') ||
+               normalized.includes('8年') || normalized.includes('4年集體禁賽') ||
+               normalized.includes('6年') || normalized.includes('5年')) {
         categories['4年以上']++;
+      }
+      else if (normalized.includes('退役') || normalized.includes('自行退役') ||
+               normalized.includes('已退役') || normalized.includes('退役後')) {
+        categories['退役']++;
+      }
+      else if (normalized.includes('追溯性道德譴責') || normalized.includes('學術聲譽受損') ||
+               normalized.includes('車隊解散') || normalized.includes('終身禁入體育界') ||
+               normalized.includes('聲譽受損')) {
+        categories['聲譽受損']++;
+      }
+      else if (normalized.includes('無確鑿證據') || normalized.includes('暫時禁賽') ||
+               normalized.includes('暫時禁賽後撤銷') || normalized.includes('無證據確鑿')) {
+        categories['暫時禁賽：無確鑿證據']++;
+      }
+      else if (normalized.includes('場禁賽') || normalized.includes('場比賽') || 
+               normalized.includes('整個') && (normalized.includes('球季') || normalized.includes('賽季')) ||
+               normalized.includes('80場') || normalized.includes('162場') || normalized.includes('211場') ||
+               normalized.includes('50場') || normalized.includes('65場') || normalized.includes('25場') ||
+               normalized.includes('20場') || normalized.includes('10場')) {
+        categories['特定比賽場次']++;
       }
       else if (normalized.includes('奧運失格') || normalized.includes('追溯取消') ||
                normalized.includes('第一次') || normalized.includes('未被抓獲')) {
