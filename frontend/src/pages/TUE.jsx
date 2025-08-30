@@ -384,7 +384,7 @@ function TUE() {
           <div className="mb-6 p-4 bg-blue-50 rounded-lg border border-blue-200">
             <h3 className="font-semibold text-blue-900 mb-2">運動員TUE疾病建議</h3>
             <p className="text-blue-800 text-sm">
-              列出各項病症於申請TUE（治療用藥豁免）時應檢附的資料，建議運動員與醫師共同評估申請的必要性，以確保符合 TUE 國際標準，相關檢查表可自財團法人中華運動禁藥防制基金會下載。
+              列出各項病症於申請TUE（治療用藥豁免）時應檢附的資料，建議運動員與醫師共同評估申請的必要性，以確保符合 TUE 國際標準，相關檢查表自財團法人中華運動禁藥防制基金會連結下載。
             </p>
           </div>
 
