@@ -341,14 +341,6 @@ function TUE() {
                 <div className="flex-grow">
                   <h4 className="font-semibold text-gray-900 mb-2">提交申請文件</h4>
                   <p className="text-gray-700 mb-3">向適當的審查機構提交完整申請文件</p>
-                  <div className="bg-gray-50 p-3 rounded">
-                    <p className="text-sm font-medium text-gray-900 mb-2">提交管道:</p>
-                    <ul className="text-sm text-gray-600 space-y-1">
-                      <li>• 線上申請系統（推薦）</li>
-                      <li>• 郵寄紙本文件</li>
-                      <li>• 電子郵件傳送</li>
-                    </ul>
-                  </div>
                 </div>
               </div>
 
