@@ -5,9 +5,9 @@ const router = express.Router();
 let db;
 
 // 初始化資料庫連接
-MongoClient.connect('mongodb://localhost:27017')
+MongoClient.connect(process.env.MONGODB_URI || 'mongodb://localhost:27017')
   .then(client => {
-    db = client.db('antidoping');
+    db = client.db('sports-doping-db');
     console.log('Stats route connected to MongoDB');
   })
   .catch(err => console.error('Stats route DB error:', err));
