@@ -63,10 +63,17 @@ function Layout({ children }) {
             <div>
               <h3 className="text-lg font-semibold mb-4">快速連結</h3>
               <ul className="space-y-2 text-sm">
-                <li><a href="https://www.wada-ama.org/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white">WADA 官方網站</a></li>
+                <li><a href="https://www.wada-ama.org/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white">WADA官方網站</a></li>
                 <li><a href="https://www.wada-ama.org/en/prohibited-list" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white">WADA禁用清單</a></li>
-                <li><a href="https://www.antidoping.org.tw/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white">財團法人中華運動禁藥防制基金會</a></li>
-                <li><a href="https://taiwan-antidoping.org.tw/index.php" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white">台灣運動禁藥管制學會</a></li>
+                <li><a href="https://www.antidoping.org.tw/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white">財團法人中華運動禁藥防制基金會(CTADA)</a></li>
+                <li><a href="https://taiwan-antidoping.org.tw/index.php" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white">台灣運動禁藥管制學會(TADA)</a></li>
+              </ul>
+            </div>
+            <div>
+              <h3 className="text-lg font-semibold mb-4">運動禁藥查詢諮詢</h3>
+              <ul className="space-y-2 text-sm">
+                <li><a href="https://www.antidoping.org.tw/consult/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white">CTADA諮詢</a></li>
+                <li><a href="https://taiwan-antidoping.org.tw/index.php/%E9%81%8B%E5%8B%95%E7%A6%81%E8%97%A5%E6%9F%A5%E8%A9%A2" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white">TADA查詢</a></li>
               </ul>
             </div>
             <div>
