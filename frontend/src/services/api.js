@@ -1,8 +1,9 @@
 import axios from 'axios';
 
-// 在生產環境中使用模擬數據，開發環境連接後端
-// 強制在生產環境使用mock數據以確保穩定性
-const API_BASE_URL = 'http://localhost:5005/api';
+// 根據環境使用不同的 API URL
+const API_BASE_URL = import.meta.env.PROD 
+  ? '/api'  // 生產環境使用相對路徑
+  : 'http://localhost:5001/api';  // 開發環境使用本地後端
 
 const api = API_BASE_URL ? axios.create({
   baseURL: API_BASE_URL,
