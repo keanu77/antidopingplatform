@@ -13,8 +13,7 @@
     "dev:frontend": "cd frontend && npm run dev",
     "install:backend": "cd backend && npm install",
     "install:frontend": "cd frontend && npm install",
-    "install:all": "npm run install:backend && npm run install:frontend && npm install",
-    "postinstall": "npm run install:all && npm run build"
+    "install:all": "npm run install:backend && npm run install:frontend && npm install"
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",
