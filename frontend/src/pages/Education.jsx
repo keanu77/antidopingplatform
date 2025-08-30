@@ -72,11 +72,21 @@ function Education() {
     }
   };
 
-  const resetQuiz = () => {
+  const resetQuiz = async () => {
     setCurrentQuiz(0);
     setSelectedAnswer(null);
     setQuizResult(null);
     setQuizScore(0);
+    
+    // 重新隨機選擇5題測驗
+    try {
+      const response = await educationAPI.getAll();
+      const allQuizzes = response.data.quizzes || [];
+      const selectedQuizzes = allQuizzes.sort(() => Math.random() - 0.5).slice(0, 5);
+      setQuizzes(selectedQuizzes);
+    } catch (error) {
+      console.error('Failed to reload quiz questions:', error);
+    }
   };
 
   if (loading) {
