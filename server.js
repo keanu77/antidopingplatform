@@ -26,7 +26,10 @@ app.get('/api/health', (req, res) => {
 async function initializeApp() {
   try {
     mongoose.set('bufferCommands', false);
-    await mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost:27017/sports-doping-db');
+    const mongoUri = process.env.MONGODB_URI || 'mongodb://localhost:27017/sports-doping-db';
+    console.log('Attempting to connect to MongoDB...');
+    console.log('MongoDB URI (masked):', mongoUri.replace(/\/\/.*@/, '//***:***@'));
+    await mongoose.connect(mongoUri);
     console.log('Connected to MongoDB');
     
     // 設定 API 路由 - 使用修正的路由
