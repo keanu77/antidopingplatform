@@ -1,9 +1,11 @@
+import { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { Search, BarChart3, GraduationCap, FileText, Home } from 'lucide-react';
+import { Search, BarChart3, GraduationCap, FileText, Home, Menu, X } from 'lucide-react';
 import PerformanceMonitor from './PerformanceMonitor';
 
 function Layout({ children }) {
   const location = useLocation();
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   const navItems = [
     { path: '/', label: '首頁', icon: Home },
@@ -13,8 +15,15 @@ function Layout({ children }) {
     { path: '/tue', label: 'TUE專區', icon: FileText }
   ];
 
+  const handleLinkClick = () => {
+    setMobileMenuOpen(false);
+  };
+
   return (
     <div className="min-h-screen bg-gray-50">
+      <a href="#main-content" className="sr-only focus:not-sr-only focus:absolute focus:top-2 focus:left-2 focus:z-50 focus:px-4 focus:py-2 focus:bg-white focus:text-primary-600 focus:rounded-lg focus:shadow-lg">
+        跳至主要內容
+      </a>
       <header className="bg-white shadow-sm border-b border-gray-200">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
@@ -37,11 +46,41 @@ function Layout({ children }) {
                 </Link>
               ))}
             </nav>
+            <button
+              className="md:hidden p-2 rounded-lg text-gray-600 hover:bg-gray-100 hover:text-gray-900 transition"
+              onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+              aria-label={mobileMenuOpen ? '關閉選單' : '開啟選單'}
+            >
+              {mobileMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
+            </button>
           </div>
         </div>
+
+        {/* Mobile Menu */}
+        {mobileMenuOpen && (
+          <nav className="md:hidden border-t border-gray-200 bg-white">
+            <div className="px-4 py-2 space-y-1">
+              {navItems.map(({ path, label, icon: Icon }) => (
+                <Link
+                  key={path}
+                  to={path}
+                  onClick={handleLinkClick}
+                  className={`flex items-center px-4 py-3 rounded-lg text-sm font-medium transition-colors ${
+                    location.pathname === path
+                      ? 'bg-primary-100 text-primary-700'
+                      : 'text-gray-600 hover:bg-gray-100 hover:text-gray-900'
+                  }`}
+                >
+                  <Icon className="h-4 w-4 mr-2" />
+                  {label}
+                </Link>
+              ))}
+            </div>
+          </nav>
+        )}
       </header>
 
-      <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+      <main id="main-content" className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         {children}
       </main>
 
@@ -90,7 +129,7 @@ function Layout({ children }) {
           </div>
         </div>
       </footer>
-      
+
       <PerformanceMonitor />
     </div>
   );

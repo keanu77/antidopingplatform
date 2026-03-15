@@ -1,0 +1,326 @@
+[
+  {
+    "id": 1,
+    "specialty": "復健科/運動醫學科",
+    "description": "復健科和運動醫學科醫師在治療運動傷害和疼痛時需要特別注意的禁用藥物",
+    "icon": "🏥",
+    "medications": [
+      {
+        "category": "類固醇注射劑",
+        "wadaCategory": "S9: 糖皮質激素",
+        "substances": [
+          "Triamcinolone (Kenalog)",
+          "Methylprednisolone (Depo-Medrol)",
+          "Dexamethasone",
+          "Betamethasone"
+        ],
+        "notes": "關節內注射、肌肉注射、軟組織注射在比賽期間需要TUE",
+        "alternatives": "物理治療、非類固醇抗發炎藥物、玻尿酸注射"
+      },
+      {
+        "category": "強效止痛劑",
+        "wadaCategory": "S7: 麻醉劑",
+        "substances": [
+          "Morphine",
+          "Fentanyl",
+          "Tramadol",
+          "Codeine"
+        ],
+        "notes": "比賽期間禁用，可能掩蓋嚴重傷害",
+        "alternatives": "NSAIDs、局部麻醉劑、物理治療"
+      },
+      {
+        "category": "肌肉鬆弛劑",
+        "wadaCategory": "監控清單",
+        "substances": [
+          "Diazepam",
+          "Cyclobenzaprine",
+          "Baclofen"
+        ],
+        "notes": "某些含有禁用成分，需仔細檢查",
+        "alternatives": "物理治療、伸展運動、熱敷"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "specialty": "耳鼻喉科",
+    "description": "耳鼻喉科治療過敏性鼻炎、氣喘等疾病時常用的禁用藥物",
+    "icon": "👃",
+    "medications": [
+      {
+        "category": "鼻噴劑類固醇",
+        "wadaCategory": "S9: 糖皮質激素",
+        "substances": [
+          "Beclomethasone (Beclomet)",
+          "Fluticasone (Avamys)",
+          "Mometasone (Nasonex)",
+          "Budesonide (Rhinocort)"
+        ],
+        "notes": "局部使用通常允許，但需要詳細記錄",
+        "alternatives": "生理食鹽水洗鼻、抗組織胺"
+      },
+      {
+        "category": "口服抗組織胺",
+        "wadaCategory": "一般允許",
+        "substances": [
+          "Cetirizine (Zyrtec)",
+          "Loratadine (Claritin)",
+          "Fexofenadine (Allegra)"
+        ],
+        "notes": "大多數抗組織胺是允許的",
+        "alternatives": "避免過敏原、鼻腔清洗"
+      },
+      {
+        "category": "支氣管擴張劑",
+        "wadaCategory": "S3: Beta-2激動劑",
+        "substances": [
+          "Salbutamol (需TUE)",
+          "Formoterol (需TUE)",
+          "Salmeterol (禁用)",
+          "Terbutaline (需TUE)"
+        ],
+        "notes": "Salbutamol吸入劑需要TUE，但有劑量限制",
+        "alternatives": "避免過敏原、非藥物治療"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "specialty": "婦產科",
+    "description": "婦產科治療荷爾蒙失調、避孕等問題時需要注意的相關藥物",
+    "icon": "🤱",
+    "medications": [
+      {
+        "category": "荷爾蒙治療",
+        "wadaCategory": "S4: 激素調節劑",
+        "substances": [
+          "Clomiphene (排卵藥)",
+          "HCG (人類絨毛膜促性腺激素)",
+          "Anastrozole (芳香酶抑制劑)",
+          "Tamoxifen (抗雌激素)"
+        ],
+        "notes": "這些藥物可能影響荷爾蒙平衡，屬於禁用物質",
+        "alternatives": "與婦產科醫師討論替代治療方案"
+      },
+      {
+        "category": "避孕藥",
+        "wadaCategory": "一般允許",
+        "substances": [
+          "複合型口服避孕藥",
+          "純黃體素避孕藥",
+          "避孕器"
+        ],
+        "notes": "一般避孕藥是允許的",
+        "alternatives": "非荷爾蒙避孕方法"
+      },
+      {
+        "category": "催產素類",
+        "wadaCategory": "S2: 肽類激素",
+        "substances": [
+          "Oxytocin",
+          "Ergometrine"
+        ],
+        "notes": "分娩相關藥物，需要醫療豁免",
+        "alternatives": "自然分娩、非藥物方法"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "specialty": "血液腫瘤科",
+    "description": "血液腫瘤科治療貧血、血液疾病時使用的相關禁用藥物",
+    "icon": "🩸",
+    "medications": [
+      {
+        "category": "造血刺激劑",
+        "wadaCategory": "S2.1: 促紅血球生成素類",
+        "substances": [
+          "Epoetin alfa (EPO)",
+          "Darbepoetin alfa",
+          "Methoxy PEG-epoetin beta",
+          "Epoetin beta"
+        ],
+        "notes": "治療貧血的EPO類藥物是嚴格禁用的",
+        "alternatives": "鐵劑補充、輸血（在醫療監督下）"
+      },
+      {
+        "category": "生長因子",
+        "wadaCategory": "S2.3: 生長因子",
+        "substances": [
+          "G-CSF (顆粒球群落刺激因子)",
+          "GM-CSF",
+          "Thrombopoietin受體激動劑"
+        ],
+        "notes": "用於刺激血球生成的因子可能被禁用",
+        "alternatives": "支持性療法、營養補充"
+      },
+      {
+        "category": "抗凝血劑",
+        "wadaCategory": "一般允許",
+        "substances": [
+          "Warfarin",
+          "Heparin",
+          "Rivaroxaban",
+          "Apixaban"
+        ],
+        "notes": "抗凝血劑通常是允許的",
+        "alternatives": "物理預防方法"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "specialty": "內分泌科",
+    "description": "內分泌科治療糖尿病、甲狀腺疾病時需要注意的禁用藥物",
+    "icon": "🧬",
+    "medications": [
+      {
+        "category": "胰島素",
+        "wadaCategory": "S2.2: 肽類激素",
+        "substances": [
+          "速效胰島素",
+          "長效胰島素",
+          "混合型胰島素"
+        ],
+        "notes": "糖尿病患者使用胰島素需要TUE",
+        "alternatives": "飲食控制、運動、口服降血糖藥（部分）"
+      },
+      {
+        "category": "生長激素",
+        "wadaCategory": "S2.2: 肽類激素",
+        "substances": [
+          "Somatropin (HGH)",
+          "Somatrem"
+        ],
+        "notes": "治療生長激素缺乏症需要嚴格的TUE",
+        "alternatives": "營養支持、其他荷爾蒙替代"
+      },
+      {
+        "category": "甲狀腺藥物",
+        "wadaCategory": "一般允許",
+        "substances": [
+          "Levothyroxine (T4)",
+          "Liothyronine (T3)",
+          "抗甲狀腺藥物"
+        ],
+        "notes": "甲狀腺藥物通常是允許的",
+        "alternatives": "營養支持、生活方式調整"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "specialty": "心臟科",
+    "description": "心臟科治療高血壓、心律不整等疾病時的禁用藥物注意事項",
+    "icon": "❤️",
+    "medications": [
+      {
+        "category": "Beta阻斷劑",
+        "wadaCategory": "P1: Beta阻斷劑",
+        "substances": [
+          "Propranolol",
+          "Atenolol",
+          "Metoprolol",
+          "Bisoprolol"
+        ],
+        "notes": "在射箭、射擊等精準運動中禁用",
+        "alternatives": "ACE抑制劑、鈣離子阻斷劑、利尿劑（非禁用類）"
+      },
+      {
+        "category": "利尿劑",
+        "wadaCategory": "S5: 利尿劑和掩蔽劑",
+        "substances": [
+          "Furosemide",
+          "Hydrochlorothiazide",
+          "Spironolactone",
+          "Indapamide"
+        ],
+        "notes": "所有利尿劑都是禁用的，因為可能用作掩蔽劑",
+        "alternatives": "ACE抑制劑、鈣離子阻斷劑、Beta阻斷劑（非精準運動）"
+      },
+      {
+        "category": "硝酸鹽類",
+        "wadaCategory": "一般允許",
+        "substances": [
+          "Nitroglycerin",
+          "Isosorbide mononitrate"
+        ],
+        "notes": "硝酸鹽類通常是允許的",
+        "alternatives": "鈣離子阻斷劑、其他血管擴張劑"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "specialty": "精神科",
+    "description": "精神科治療憂鬱症、焦慮症、ADHD等疾病時的禁用藥物",
+    "icon": "🧠",
+    "medications": [
+      {
+        "category": "ADHD治療藥物",
+        "wadaCategory": "S6: 興奮劑",
+        "substances": [
+          "Methylphenidate (Ritalin)",
+          "Amphetamine (Adderall)",
+          "Modafinil",
+          "Lisdexamfetamine"
+        ],
+        "notes": "比賽期間禁用，需要TUE才能使用",
+        "alternatives": "行為治療、非興奮劑類ADHD藥物"
+      },
+      {
+        "category": "抗憂鬱劑",
+        "wadaCategory": "一般允許",
+        "substances": [
+          "SSRI類 (Fluoxetine, Sertraline)",
+          "SNRI類 (Venlafaxine)",
+          "三環抗憂鬱劑"
+        ],
+        "notes": "大多數抗憂鬱劑是允許的",
+        "alternatives": "心理治療、認知行為治療"
+      },
+      {
+        "category": "抗焦慮藥物",
+        "wadaCategory": "監控清單",
+        "substances": [
+          "Benzodiazepines",
+          "Barbiturates"
+        ],
+        "notes": "可能影響運動表現，需要謹慎使用",
+        "alternatives": "放鬆技巧、冥想、心理治療"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "specialty": "皮膚科",
+    "description": "皮膚科治療皮膚炎、感染等問題時使用的外用禁用藥物",
+    "icon": "🧴",
+    "medications": [
+      {
+        "category": "外用類固醇",
+        "wadaCategory": "S9: 糖皮質激素",
+        "substances": [
+          "Hydrocortisone",
+          "Betamethasone",
+          "Clobetasol",
+          "Triamcinolone"
+        ],
+        "notes": "外用類固醇通常允許，但大面積使用需注意",
+        "alternatives": "保濕劑、非類固醇抗發炎藥膏"
+      },
+      {
+        "category": "免疫抑制劑",
+        "wadaCategory": "一般允許",
+        "substances": [
+          "Tacrolimus",
+          "Pimecrolimus",
+          "Ciclosporin (外用)"
+        ],
+        "notes": "外用免疫抑制劑通常是允許的",
+        "alternatives": "保濕、避免刺激物"
+      }
+    ]
+  }
+]

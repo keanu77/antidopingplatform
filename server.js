@@ -1,6 +1,8 @@
 const express = require("express");
 const mongoose = require("mongoose");
 const cors = require("cors");
+const helmet = require("helmet");
+const rateLimit = require("express-rate-limit");
 const dotenv = require("dotenv");
 const path = require("path");
 
@@ -10,7 +12,23 @@ dotenv.config();
 const app = express();
 
 // 中間件
-app.use(cors());
+app.use(helmet());
+
+const corsOptions = {
+  origin: process.env.CORS_ORIGIN ? process.env.CORS_ORIGIN.split(",") : true,
+  credentials: true,
+};
+app.use(cors(corsOptions));
+
+const apiLimiter = rateLimit({
+  windowMs: 15 * 60 * 1000,
+  max: 200,
+  standardHeaders: true,
+  legacyHeaders: false,
+  message: { error: "請求過於頻繁，請稍後再試" },
+});
+app.use("/api/", apiLimiter);
+
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 

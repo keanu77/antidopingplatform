@@ -1,0 +1,210 @@
+[
+  {
+    "id": 1,
+    "category": "S0: 未批准物質",
+    "wadaCode": "S0",
+    "description": "任何未獲得政府衛生管理當局批准供人類治療使用的藥物或實驗物質。",
+    "mechanism": "由於屬於實驗階段，作用機制可能不明確或存在未知副作用。",
+    "risks": "未知的健康風險、可能造成嚴重副作用、長期影響不明",
+    "examples": "實驗性SARM、新型類固醇前體、研發階段的藥物",
+    "detectability": "檢測困難，需要特殊檢測方法",
+    "icon": "🧪",
+    "prohibitionType": "永久禁用"
+  },
+  {
+    "id": 2,
+    "category": "S1: 合成代謝劑",
+    "wadaCode": "S1",
+    "description": "包括外源性和內源性合成代謝雄激素類固醇及其他合成代謝劑。",
+    "mechanism": "模擬睪固酮作用，增加蛋白質合成，促進肌肉生長和力量提升。",
+    "risks": "肝損傷、心血管疾病、情緒波動、荷爾蒙失調、男性女性化、女性男性化",
+    "examples": "睪固酮、南德龍(Nandrolone)、康力龍(Stanozolol)、口服妥納龍(Turinabol)",
+    "detectability": "代謝物可在尿液中檢出數週至數月",
+    "icon": "💪",
+    "prohibitionType": "永久禁用",
+    "subcategories": [
+      {
+        "code": "S1.1",
+        "name": "外源性合成代謝雄激素類固醇",
+        "examples": "Boldenone、Clostebol、Fluoxymesterone、Metandienone"
+      },
+      {
+        "code": "S1.2",
+        "name": "其他合成代謝劑",
+        "examples": "Clenbuterol(在S3類別時)、SARM、Tibolone"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "category": "S2: 肽類激素、生長因子",
+    "wadaCode": "S2",
+    "description": "影響生長、細胞分裂和再生的天然或合成肽類物質。",
+    "mechanism": "刺激生長激素釋放、增加紅血球生成、促進組織修復和肌肉生長。",
+    "risks": "關節疼痛、糖尿病風險、心臟肥大、血栓、中風",
+    "examples": "EPO、生長激素(HGH)、IGF-1、胰島素、促性腺激素",
+    "detectability": "血液檢測較準確，部分物質檢測窗口較短",
+    "icon": "📈",
+    "prohibitionType": "永久禁用",
+    "subcategories": [
+      {
+        "code": "S2.1",
+        "name": "促紅血球生成素類",
+        "examples": "EPO、CERA、Methoxy polyethylene glycol-epoetin beta"
+      },
+      {
+        "code": "S2.2",
+        "name": "肽類激素和釋放因子",
+        "examples": "生長激素(HGH)、IGF-1、胰島素、HCG"
+      },
+      {
+        "code": "S2.3",
+        "name": "生長因子和調節劑",
+        "examples": "MGF、FGF、VEGF、PDGF"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "category": "S3: Beta-2激動劑",
+    "wadaCode": "S3",
+    "description": "作用於Beta-2腎上腺素受體的物質，可放鬆支氣管平滑肌。",
+    "mechanism": "擴張支氣管、增加氧氣攝取、可能具有合成代謝效果。",
+    "risks": "心律不整、肌肉震顫、頭痛、心率加快、電解質失衡",
+    "examples": "Clenbuterol、Salbutamol、Terbutaline、Formoterol",
+    "detectability": "尿液檢測，某些物質有劑量閾值限制",
+    "icon": "🫁",
+    "prohibitionType": "永久禁用(除特殊TUE情況)",
+    "note": "Salbutamol等特定物質在規定劑量下可通過TUE使用"
+  },
+  {
+    "id": 5,
+    "category": "S4: 激素和代謝調節劑",
+    "wadaCode": "S4",
+    "description": "影響激素平衡和新陳代謝的物質和方法。",
+    "mechanism": "調節激素水平、影響脂肪代謝、調節血糖、改善心血管功能。",
+    "risks": "激素失調、肝功能異常、心血管疾病、血糖異常",
+    "examples": "Meldonium、芳香酶抑制劑、抗雌激素物質、代謝調節劑",
+    "detectability": "檢測方法日益完善，代謝調節劑檢測期較長",
+    "icon": "⚖️",
+    "prohibitionType": "永久禁用",
+    "subcategories": [
+      {
+        "code": "S4.4",
+        "name": "代謝調節劑",
+        "examples": "Meldonium、GW1516、SR9009"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "category": "S5: 利尿劑和掩蔽劑",
+    "wadaCode": "S5",
+    "description": "用於快速減重或掩蓋其他禁藥使用的物質。",
+    "mechanism": "增加尿液產生、稀釋禁藥濃度、快速減少體重。",
+    "risks": "嚴重脫水、電解質失衡、腎功能損害、血壓異常",
+    "examples": "Furosemide、Hydrochlorothiazide、Spironolactone、Probenecid",
+    "detectability": "容易檢出，但主要用途是掩蓋其他禁藥",
+    "icon": "💧",
+    "prohibitionType": "永久禁用"
+  },
+  {
+    "id": 7,
+    "category": "S6: 興奮劑",
+    "wadaCode": "S6",
+    "description": "刺激中樞神經系統，增強警覺性和能量的物質。",
+    "mechanism": "刺激交感神經系統、增加腎上腺素分泌、提高專注力和反應速度。",
+    "risks": "心律不整、高血壓、焦慮、成癮、心臟病發作",
+    "examples": "安非他命、可卡因、MDMA、Modafinil、高劑量咖啡因",
+    "detectability": "大多數可在尿液中檢出數天",
+    "icon": "⚡",
+    "prohibitionType": "僅比賽期間禁用",
+    "note": "咖啡因已從禁用清單移除，但仍在監控清單上"
+  },
+  {
+    "id": 8,
+    "category": "S7: 麻醉劑",
+    "wadaCode": "S7",
+    "description": "強效鎮痛劑，可能掩蓋傷痛並產生欣快感。",
+    "mechanism": "作用於鴉片受體，產生鎮痛和欣快效果，可能掩蓋運動傷害。",
+    "risks": "呼吸抑制、成癮、認知能力下降、掩蓋嚴重傷害",
+    "examples": "嗎啡、芬太尼、海洛因、可待因、Tramadol",
+    "detectability": "可在尿液和血液中檢出",
+    "icon": "💊",
+    "prohibitionType": "僅比賽期間禁用"
+  },
+  {
+    "id": 9,
+    "category": "S8: 大麻類",
+    "wadaCode": "S8",
+    "description": "大麻及其活性成分四氫大麻酚(THC)。",
+    "mechanism": "作用於大麻素受體，影響協調性、判斷力和反應時間。",
+    "risks": "注意力不集中、協調性下降、記憶力影響、可能成癮",
+    "examples": "大麻、THC、合成大麻素",
+    "detectability": "THC可在尿液中檢出數週",
+    "icon": "🍃",
+    "prohibitionType": "僅比賽期間禁用",
+    "note": "CBD不在禁用清單上"
+  },
+  {
+    "id": 10,
+    "category": "S9: 糖皮質激素",
+    "wadaCode": "S9",
+    "description": "具有強效抗炎作用的類固醇激素。",
+    "mechanism": "強效抗炎、抑制免疫反應、可能增強耐力和減少疲勞感。",
+    "risks": "免疫抑制、骨質疏鬆、肌肉萎縮、血糖升高",
+    "examples": "Prednisolone、Dexamethasone、Cortisone、Hydrocortisone",
+    "detectability": "可通過尿液檢測",
+    "icon": "🩹",
+    "prohibitionType": "僅比賽期間禁用（除局部使用外）"
+  },
+  {
+    "id": 11,
+    "category": "M1: 血液和血液成分操作",
+    "wadaCode": "M1",
+    "description": "涉及血液、血液成分或影響氧氣輸送的禁用方法。",
+    "mechanism": "增加血液中紅血球數量、提高氧氣輸送能力。",
+    "risks": "血栓、感染、免疫反應、血液系統疾病",
+    "examples": "血液輸注、人工氧氣載體、血液替代品",
+    "detectability": "需要血液檢測，檢測複雜",
+    "icon": "🩸",
+    "prohibitionType": "永久禁用"
+  },
+  {
+    "id": 12,
+    "category": "M2: 化學和物理操作",
+    "wadaCode": "M2",
+    "description": "篡改或企圖篡改樣本完整性的行為。",
+    "mechanism": "稀釋樣本、替換樣本、加入掩蔽物質。",
+    "risks": "法律後果、終身禁賽、名譽受損",
+    "examples": "樣本替換、尿液稀釋、加入蛋白酶、導尿管使用",
+    "detectability": "可通過樣本檢測發現異常",
+    "icon": "🔬",
+    "prohibitionType": "永久禁用"
+  },
+  {
+    "id": 13,
+    "category": "M3: 基因和細胞禁藥",
+    "wadaCode": "M3",
+    "description": "基因治療、基因編輯和細胞治療的非治療性使用。",
+    "mechanism": "改變基因表達、增強肌肉生長、改善氧氣利用。",
+    "risks": "未知長期風險、免疫反應、基因不穩定",
+    "examples": "基因治療載體、基因編輯技術、幹細胞療法",
+    "detectability": "檢測技術仍在發展中",
+    "icon": "🧬",
+    "prohibitionType": "永久禁用"
+  },
+  {
+    "id": 14,
+    "category": "P1: Beta阻斷劑",
+    "wadaCode": "P1",
+    "description": "在特定需要精準度和穩定性的運動中被禁用。",
+    "mechanism": "降低心率、減少震顫、提高精準度。",
+    "risks": "心率過低、血壓下降、運動能力下降",
+    "examples": "Propranolol、Atenolol、Metoprolol",
+    "detectability": "可在尿液中檢出",
+    "icon": "🎯",
+    "prohibitionType": "特定運動項目禁用",
+    "note": "僅在射箭、射擊、撞球等精準性運動中禁用"
+  }
+]

@@ -1,0 +1,522 @@
+[
+  {
+    "id": 1,
+    "category": "禁藥知識",
+    "question": "WADA禁用清單中的S1類別是指什麼？",
+    "options": ["興奮劑", "合成代謝劑", "EPO類", "利尿劑"],
+    "correctAnswer": 1,
+    "explanation": "S1類別是合成代謝劑，包括外源性和內源性合成代謝雄激素類固醇。"
+  },
+  {
+    "id": 2,
+    "category": "禁藥知識",
+    "question": "EPO的主要作用機制是什麼？",
+    "options": ["增加肌肉質量", "提高心率", "增加紅血球數量", "減少體重"],
+    "correctAnswer": 2,
+    "explanation": "EPO（促紅血球生成素）主要作用是刺激骨髓產生更多紅血球，提高氧氣輸送能力。"
+  },
+  {
+    "id": 3,
+    "category": "禁藥知識",
+    "question": "以下哪種物質屬於S3類別？",
+    "options": ["Clenbuterol", "Testosterone", "EPO", "Furosemide"],
+    "correctAnswer": 0,
+    "explanation": "Clenbuterol屬於S3類別的Beta-2激動劑，具有支氣管擴張和潛在合成代謝效果。"
+  },
+  {
+    "id": 4,
+    "category": "禁藥知識",
+    "question": "Meldonium屬於WADA分類中的哪一類？",
+    "options": ["S1: 合成代謝劑", "S4.4: 代謝調節劑", "S6: 興奮劑", "S2: 肽類激素"],
+    "correctAnswer": 1,
+    "explanation": "Meldonium屬於S4.4代謝調節劑，可以改善心血管功能和新陳代謝。"
+  },
+  {
+    "id": 5,
+    "category": "禁藥知識",
+    "question": "TUE的全稱是什麼？",
+    "options": ["治療用途豁免", "檢測技術更新", "訓練使用例外", "臨時使用許可"],
+    "correctAnswer": 0,
+    "explanation": "TUE是Therapeutic Use Exemption的縮寫，中文為治療用途豁免。"
+  },
+  {
+    "id": 6,
+    "category": "禁藥知識",
+    "question": "利尿劑在運動禁藥中主要被用作什麼？",
+    "options": ["增強力量", "提高耐力", "掩蔽劑", "減少疲勞"],
+    "correctAnswer": 2,
+    "explanation": "利尿劑主要被用作掩蔽劑，通過增加尿液產生來稀釋其他禁藥的濃度。"
+  },
+  {
+    "id": 7,
+    "category": "禁藥知識",
+    "question": "血液禁藥(M1)包括以下哪種方法？",
+    "options": ["服用類固醇", "注射EPO", "血液輸注", "使用興奮劑"],
+    "correctAnswer": 2,
+    "explanation": "M1類別包括血液輸注、人工氧氣載體等直接操作血液的方法。"
+  },
+  {
+    "id": 8,
+    "category": "禁藥知識",
+    "question": "以下哪種物質只在比賽期間被禁用？",
+    "options": ["Testosterone", "Cocaine", "EPO", "HGH"],
+    "correctAnswer": 1,
+    "explanation": "Cocaine屬於S6興奮劑類，只在比賽期間被禁用。"
+  },
+  {
+    "id": 9,
+    "category": "禁藥知識",
+    "question": "Beta阻斷劑(P1)主要在哪類運動中被禁用？",
+    "options": ["耐力運動", "力量運動", "精準性運動", "團體運動"],
+    "correctAnswer": 2,
+    "explanation": "Beta阻斷劑在射箭、射擊等需要精準度的運動中被禁用，因為可以減少震顫。"
+  },
+  {
+    "id": 10,
+    "category": "禁藥知識",
+    "question": "SARM屬於WADA分類中的哪一類？",
+    "options": ["S1: 合成代謝劑", "S6: 興奮劑", "S0: 未批准物質", "S3: Beta-2激動劑"],
+    "correctAnswer": 0,
+    "explanation": "SARM（選擇性雄激素受體調節劑）屬於S1.2其他合成代謝劑。"
+  },
+  {
+    "id": 11,
+    "category": "禁藥知識",
+    "question": "生長激素(HGH)屬於哪個WADA類別？",
+    "options": ["S1", "S2.2", "S4", "S6"],
+    "correctAnswer": 1,
+    "explanation": "生長激素屬於S2.2肽類激素和釋放因子類別。"
+  },
+  {
+    "id": 12,
+    "category": "禁藥知識",
+    "question": "樣本替換屬於哪種禁用方法？",
+    "options": ["M1: 血液操作", "M2: 化學物理操作", "M3: 基因禁藥", "S5: 掩蔽劑"],
+    "correctAnswer": 1,
+    "explanation": "樣本替換屬於M2化學和物理操作，是篡改樣本完整性的行為。"
+  },
+  {
+    "id": 13,
+    "category": "禁藥知識",
+    "question": "以下哪種物質的代謝物可以在體內保持最長時間？",
+    "options": ["可卡因", "大麻(THC)", "咖啡因", "酒精"],
+    "correctAnswer": 1,
+    "explanation": "THC的代謝物可以在脂肪組織中儲存，在尿液中可檢出數週。"
+  },
+  {
+    "id": 14,
+    "category": "禁藥知識",
+    "question": "IGF-1屬於WADA分類中的哪一類？",
+    "options": ["S1: 合成代謝劑", "S2.3: 生長因子", "S4: 代謝調節劑", "S6: 興奮劑"],
+    "correctAnswer": 1,
+    "explanation": "IGF-1（胰島素樣生長因子）屬於S2.3生長因子和調節劑類別。"
+  },
+  {
+    "id": 15,
+    "category": "禁藥知識",
+    "question": "Stanozolol是哪種類型的禁藥？",
+    "options": ["興奮劑", "外源性合成代謝雄激素類固醇", "EPO類", "Beta-2激動劑"],
+    "correctAnswer": 1,
+    "explanation": "Stanozolol是S1.1外源性合成代謝雄激素類固醇，是經典的口服類固醇。"
+  },
+  {
+    "id": 16,
+    "category": "禁藥知識",
+    "question": "糖皮質激素在什麼情況下被禁用？",
+    "options": ["永久禁用", "僅比賽期間禁用", "僅訓練期間禁用", "從不禁用"],
+    "correctAnswer": 1,
+    "explanation": "糖皮質激素(S9)僅在比賽期間被禁用，但局部使用除外。"
+  },
+  {
+    "id": 17,
+    "category": "TUE知識",
+    "question": "TUE申請必須在什麼時候提交？",
+    "options": ["使用禁藥之前", "使用禁藥之後30天內", "被檢出後立即", "比賽結束後"],
+    "correctAnswer": 0,
+    "explanation": "TUE申請必須在使用禁藥之前提交，除非是緊急醫療情況。"
+  },
+  {
+    "id": 18,
+    "category": "TUE知識",
+    "question": "哪種情況可能需要申請TUE？",
+    "options": ["提高運動表現", "恢復疲勞", "治療糖尿病", "增加肌肉量"],
+    "correctAnswer": 2,
+    "explanation": "糖尿病患者可能需要使用胰島素治療，這需要申請TUE。"
+  },
+  {
+    "id": 19,
+    "category": "TUE知識",
+    "question": "TUE申請需要提供什麼資料？",
+    "options": ["教練推薦信", "完整醫療診斷和治療計劃", "運動成績證明", "贊助商同意書"],
+    "correctAnswer": 1,
+    "explanation": "TUE申請需要提供完整的醫療診斷、治療必要性證明和治療計劃。"
+  },
+  {
+    "id": 20,
+    "category": "TUE知識",
+    "question": "以下哪種藥物最常需要申請TUE？",
+    "options": ["維生素C", "胰島素", "維生素D", "蛋白粉"],
+    "correctAnswer": 1,
+    "explanation": "胰島素是禁藥，但糖尿病患者治療需要，是最常見的TUE申請藥物之一。"
+  },
+  {
+    "id": 21,
+    "category": "TUE知識",
+    "question": "TUE的有效期通常是多久？",
+    "options": ["終身有效", "1年", "根據醫療需要而定", "比賽期間有效"],
+    "correctAnswer": 2,
+    "explanation": "TUE的有效期根據醫療需要和治療期間而定，會在批准時明確說明。"
+  },
+  {
+    "id": 22,
+    "category": "禁藥知識",
+    "question": "WADA禁藥清單多久更新一次？",
+    "options": ["每月", "每季", "每年", "每兩年"],
+    "correctAnswer": 2,
+    "explanation": "WADA禁藥清單每年更新一次，通常在1月1日生效。"
+  },
+  {
+    "id": 23,
+    "category": "禁藥知識",
+    "question": "運動員有義務了解什麼？",
+    "options": ["只需了解自己項目的規則", "所有WADA禁藥清單內容", "只需了解常用藥物", "只需聽教練指導"],
+    "correctAnswer": 1,
+    "explanation": "運動員有責任了解並遵守完整的WADA禁藥清單，無知不是辯護理由。"
+  },
+  {
+    "id": 24,
+    "category": "禁藥知識",
+    "question": "藥檢樣本可以是什麼？",
+    "options": ["只有尿液", "只有血液", "尿液和血液", "唾液"],
+    "correctAnswer": 2,
+    "explanation": "藥檢樣本主要包括尿液和血液，不同物質可能需要不同類型的樣本。"
+  },
+  {
+    "id": 25,
+    "category": "禁藥知識",
+    "question": "拒絕接受藥檢的後果是什麼？",
+    "options": ["警告", "罰款", "等同於陽性結果", "延後檢測"],
+    "correctAnswer": 2,
+    "explanation": "拒絕接受藥檢等同於藥檢陽性，會面臨相同的處罰。"
+  },
+  {
+    "id": 26,
+    "category": "禁藥知識",
+    "question": "營養補充劑的風險是什麼？",
+    "options": ["沒有風險", "可能含有未標示的禁藥成分", "只要是合法產品就安全", "只有便宜產品有風險"],
+    "correctAnswer": 1,
+    "explanation": "營養補充劑可能含有未標示的禁藥成分，運動員使用時需格外小心。"
+  },
+  {
+    "id": 27,
+    "category": "禁藥知識",
+    "question": "Modafinil屬於哪種禁藥類別？",
+    "options": ["S1: 合成代謝劑", "S6: 興奮劑", "S4: 代謝調節劑", "S7: 麻醉劑"],
+    "correctAnswer": 1,
+    "explanation": "Modafinil是一種促智藥物，屬於S6興奮劑類別。"
+  },
+  {
+    "id": 28,
+    "category": "禁藥知識",
+    "question": "基因禁藥(M3)主要風險是什麼？",
+    "options": ["心律不整", "肝損傷", "未知長期風險", "腎功能損害"],
+    "correctAnswer": 2,
+    "explanation": "基因禁藥的主要風險是未知的長期健康風險和潛在的基因不穩定性。"
+  },
+  {
+    "id": 29,
+    "category": "禁藥知識",
+    "question": "運動員對什麼負有嚴格責任？",
+    "options": ["只對故意使用負責", "只對檢測結果負責", "對進入體內的所有物質負責", "只對處方藥負責"],
+    "correctAnswer": 2,
+    "explanation": "運動員對進入其體內的任何禁用物質負有嚴格責任，無論是否故意。"
+  },
+  {
+    "id": 30,
+    "category": "禁藥知識",
+    "question": "Nandrolone的主要健康風險包括？",
+    "options": ["只有肝損傷", "心血管疾病和荷爾蒙失調", "只有情緒波動", "只有肌肉損傷"],
+    "correctAnswer": 1,
+    "explanation": "Nandrolone可能導致心血管疾病、肝損傷、荷爾蒙失調等多種健康問題。"
+  },
+  {
+    "id": 31,
+    "category": "TUE知識",
+    "question": "TUE委員會通常由哪些專業人士組成？",
+    "options": ["只有醫生", "醫生和藥劑師", "醫生、藥劑師和運動科學家", "運動員代表"],
+    "correctAnswer": 2,
+    "explanation": "TUE委員會通常由醫生、藥劑師和運動科學專家組成，確保專業性。"
+  },
+  {
+    "id": 32,
+    "category": "TUE知識",
+    "question": "以下哪種情況不能申請TUE？",
+    "options": ["治療哮喘", "提高運動表現", "治療糖尿病", "治療ADHD"],
+    "correctAnswer": 1,
+    "explanation": "純粹為了提高運動表現而使用禁藥不能申請TUE，TUE只用於醫療需要。"
+  },
+  {
+    "id": 33,
+    "category": "TUE知識",
+    "question": "TUE申請被拒絕後可以怎麼做？",
+    "options": ["無法申訴", "可以申訴或重新申請", "只能等待一年後重新申請", "自動禁賽"],
+    "correctAnswer": 1,
+    "explanation": "TUE申請被拒絕後，運動員可以向上級機構申訴或在情況改變後重新申請。"
+  },
+  {
+    "id": 34,
+    "category": "禁藥知識",
+    "question": "以下哪個不是WADA的主要職責？",
+    "options": ["制定禁藥清單", "進行藥檢", "監督反禁藥工作", "處理違規案例"],
+    "correctAnswer": 1,
+    "explanation": "WADA負責政策制定和監督，實際藥檢由各國反禁藥組織執行。"
+  },
+  {
+    "id": 35,
+    "category": "禁藥知識",
+    "question": "A樣本檢測陽性後會怎麼處理？",
+    "options": ["立即宣布違規", "檢測B樣本確認", "警告運動員", "無需處理"],
+    "correctAnswer": 1,
+    "explanation": "A樣本陽性後，會檢測B樣本進行確認，兩個都陽性才算違規。"
+  },
+  {
+    "id": 36,
+    "category": "禁藥知識",
+    "question": "WADA每年更新禁用清單的時間是？",
+    "options": ["1月1日", "7月1日", "10月1日", "12月31日"],
+    "correctAnswer": 0,
+    "explanation": "WADA禁用清單每年1月1日生效，通常在前一年的9月公佈。"
+  },
+  {
+    "id": 37,
+    "category": "禁藥知識",
+    "question": "人工氧氣載體屬於哪種禁用方法？",
+    "options": ["S2: 肽類激素", "M1: 血液操作", "S5: 掩蔽劑", "M2: 化學操作"],
+    "correctAnswer": 1,
+    "explanation": "人工氧氣載體屬於M1血液和血液成分操作類別。"
+  },
+  {
+    "id": 38,
+    "category": "禁藥知識",
+    "question": "補充劑污染的責任歸屬是？",
+    "options": ["製造商負責", "銷售商負責", "運動員負責", "教練負責"],
+    "correctAnswer": 2,
+    "explanation": "即使是補充劑污染，運動員仍需對進入體內的禁用物質負責。"
+  },
+  {
+    "id": 39,
+    "category": "禁藥知識",
+    "question": "Turinabol是什麼類型的禁藥？",
+    "options": ["興奮劑", "口服合成代謝類固醇", "EPO類", "Beta阻斷劑"],
+    "correctAnswer": 1,
+    "explanation": "Turinabol是一種口服合成代謝類固醇，屬於S1.1類別。"
+  },
+  {
+    "id": 40,
+    "category": "禁藥知識",
+    "question": "血液禁藥檢測主要通過什麼方式？",
+    "options": ["尿液檢測", "血液檢測", "唾液檢測", "頭髮檢測"],
+    "correctAnswer": 1,
+    "explanation": "血液禁藥如EPO、血液輸注等主要需要通過血液檢測才能發現。"
+  },
+  {
+    "id": 41,
+    "category": "禁藥知識",
+    "question": "CBD(大麻二酚)在WADA清單上的狀態是？",
+    "options": ["永久禁用", "比賽期間禁用", "不在禁用清單上", "僅特定運動禁用"],
+    "correctAnswer": 2,
+    "explanation": "CBD不在WADA禁用清單上，但THC仍然被禁用。"
+  },
+  {
+    "id": 42,
+    "category": "禁藥知識",
+    "question": "生物護照(ABP)主要監控什麼？",
+    "options": ["行蹤信息", "生理指標變化", "比賽成績", "訓練強度"],
+    "correctAnswer": 1,
+    "explanation": "生物護照監控運動員血液和尿液中生理指標的長期變化模式。"
+  },
+  {
+    "id": 43,
+    "category": "禁藥知識",
+    "question": "運動員行蹤信息(ADAMS)的主要目的是？",
+    "options": ["監控訓練", "支持隨機檢測", "記錄比賽結果", "管理獎金"],
+    "correctAnswer": 1,
+    "explanation": "ADAMS行蹤信息系統支持反禁藥機構進行隨機賽外檢測。"
+  },
+  {
+    "id": 44,
+    "category": "禁藥知識",
+    "question": "Clostebol屬於哪種WADA類別？",
+    "options": ["S1.1: 外源性合成代謝雄激素類固醇", "S6: 興奮劑", "S3: Beta-2激動劑", "S4: 代謝調節劑"],
+    "correctAnswer": 0,
+    "explanation": "Clostebol是一種外源性合成代謝雄激素類固醇，屬於S1.1類別。"
+  },
+  {
+    "id": 45,
+    "category": "禁藥知識",
+    "question": "初次違規的標準禁賽期限是？",
+    "options": ["1年", "2年", "3年", "4年"],
+    "correctAnswer": 1,
+    "explanation": "根據WADA規定，初次故意違規的標準禁賽期限是2年。"
+  },
+  {
+    "id": 46,
+    "category": "經典案例",
+    "question": "Ben Johnson在1988年奧運會因使用什麼物質被取消金牌？",
+    "options": ["EPO", "Stanozolol", "Nandrolone", "Testosterone"],
+    "correctAnswer": 1,
+    "explanation": "Ben Johnson被檢測出使用了Stanozolol（康力龍），一種合成代謝類固醇。"
+  },
+  {
+    "id": 47,
+    "category": "經典案例",
+    "question": "Lance Armstrong主要使用的禁藥是什麼？",
+    "options": ["類固醇", "EPO", "興奮劑", "利尿劑"],
+    "correctAnswer": 1,
+    "explanation": "Lance Armstrong主要使用EPO來增加紅血球數量，提高耐力表現。"
+  },
+  {
+    "id": 48,
+    "category": "經典案例",
+    "question": "BALCO醜聞中的核心禁藥THG屬於什麼類別？",
+    "options": ["興奮劑", "設計類固醇", "EPO類", "Beta-2激動劑"],
+    "correctAnswer": 1,
+    "explanation": "THG是專門設計來逃避檢測的合成代謝類固醇，被稱為\"設計類固醇\"。"
+  },
+  {
+    "id": 49,
+    "category": "經典案例",
+    "question": "俄羅斯索契冬奧醜聞主要涉及什麼違規行為？",
+    "options": ["使用EPO", "樣本替換", "血液輸注", "基因禁藥"],
+    "correctAnswer": 1,
+    "explanation": "索契冬奧醜聞主要是系統性的樣本替換計劃，屬於M2化學物理操作。"
+  },
+  {
+    "id": 50,
+    "category": "經典案例",
+    "question": "Maria Sharapova被禁賽是因為使用了什麼物質？",
+    "options": ["EPO", "Meldonium", "Cocaine", "Stanozolol"],
+    "correctAnswer": 1,
+    "explanation": "Maria Sharapova因使用Meldonium被禁賽，該物質2016年被加入禁用清單。"
+  },
+  {
+    "id": 51,
+    "category": "經典案例",
+    "question": "東德系統性禁藥主要使用什麼物質？",
+    "options": ["EPO", "Oral-Turinabol", "Cocaine", "HGH"],
+    "correctAnswer": 1,
+    "explanation": "東德系統性禁藥計劃主要使用Oral-Turinabol等合成代謝類固醇。"
+  },
+  {
+    "id": 52,
+    "category": "經典案例",
+    "question": "Festina車隊1998年環法賽醜聞涉及什麼禁藥？",
+    "options": ["類固醇", "EPO", "興奮劑", "HGH"],
+    "correctAnswer": 1,
+    "explanation": "Festina車隊醜聞揭露了EPO在自行車運動中的系統性使用。"
+  },
+  {
+    "id": 53,
+    "category": "經典案例",
+    "question": "Sun Yang被禁賽8年的主要原因是？",
+    "options": ["使用EPO", "拒絕檢測", "使用類固醇", "血液輸注"],
+    "correctAnswer": 1,
+    "explanation": "Sun Yang因破壞檢測設備和拒絕配合檢測被禁賽8年。"
+  },
+  {
+    "id": 54,
+    "category": "經典案例",
+    "question": "哈薩克舉重隊在奧運重檢中主要被發現使用什麼？",
+    "options": ["EPO", "Stanozolol", "HGH", "Cocaine"],
+    "correctAnswer": 1,
+    "explanation": "哈薩克舉重隊多名選手在奧運重檢中被發現使用Stanozolol。"
+  },
+  {
+    "id": 55,
+    "category": "經典案例",
+    "question": "中國1990年代游泳隊醜聞主要涉及什麼物質？",
+    "options": ["EPO", "DHT", "Stanozolol", "HGH"],
+    "correctAnswer": 1,
+    "explanation": "1990年代中國游泳隊醜聞主要涉及DHT（雙氫睪固酮）的使用。"
+  },
+  {
+    "id": 56,
+    "category": "其他",
+    "question": "WADA的總部設在哪裡？",
+    "options": ["洛桑", "蒙特利爾", "紐約", "倫敦"],
+    "correctAnswer": 1,
+    "explanation": "WADA（世界反興奮劑機構）總部設在加拿大蒙特利爾。"
+  },
+  {
+    "id": 57,
+    "category": "其他",
+    "question": "USADA是哪個國家的反禁藥機構？",
+    "options": ["英國", "澳洲", "美國", "德國"],
+    "correctAnswer": 2,
+    "explanation": "USADA是美國反興奮劑機構(United States Anti-Doping Agency)。"
+  },
+  {
+    "id": 58,
+    "category": "其他",
+    "question": "奧運會檢測樣本可以保存多長時間？",
+    "options": ["2年", "4年", "8年", "10年"],
+    "correctAnswer": 3,
+    "explanation": "奧運會檢測樣本可以保存10年，允許使用新技術重新檢測。"
+  },
+  {
+    "id": 59,
+    "category": "其他",
+    "question": "CAS是什麼機構？",
+    "options": ["國際奧委會", "國際體育仲裁法庭", "世界反興奮劑機構", "國際單項體育聯合會"],
+    "correctAnswer": 1,
+    "explanation": "CAS是國際體育仲裁法庭(Court of Arbitration for Sport)。"
+  },
+  {
+    "id": 60,
+    "category": "其他",
+    "question": "運動員可以對禁藥檢測結果提出申訴的時限通常是？",
+    "options": ["7天", "14天", "21天", "30天"],
+    "correctAnswer": 2,
+    "explanation": "運動員通常有21天時間對禁藥檢測陽性結果提出申訴。"
+  },
+  {
+    "id": 61,
+    "category": "其他",
+    "question": "世界反興奮劑條例(WADC)多久更新一次？",
+    "options": ["每年", "每兩年", "每三年", "每四年"],
+    "correctAnswer": 2,
+    "explanation": "世界反興奮劑條例通常每三年進行一次重大修訂。"
+  },
+  {
+    "id": 62,
+    "category": "其他",
+    "question": "運動員錯過檢測的後果是什麼？",
+    "options": ["沒有後果", "警告", "計入違規記錄", "立即禁賽"],
+    "correctAnswer": 2,
+    "explanation": "12個月內三次錯過檢測或提供錯誤行蹤信息等同於違規。"
+  },
+  {
+    "id": 63,
+    "category": "其他",
+    "question": "檢測官員進行檢測時需要運動員提供什麼？",
+    "options": ["只需要樣本", "身分證明", "教練同意", "醫生證明"],
+    "correctAnswer": 1,
+    "explanation": "運動員需要提供有效的身分證明文件給檢測官員。"
+  },
+  {
+    "id": 64,
+    "category": "其他",
+    "question": "運動員在提供樣本前可以做什麼？",
+    "options": ["離開現場", "拒絕檢測", "延遲合理時間", "要求更換檢測官"],
+    "correctAnswer": 2,
+    "explanation": "運動員可以要求延遲合理時間完成比賽或處理緊急事務。"
+  },
+  {
+    "id": 65,
+    "category": "其他",
+    "question": "反禁藥教育的主要目的是什麼？",
+    "options": ["懲罰運動員", "預防違規", "增加檢測", "提高成績"],
+    "correctAnswer": 1,
+    "explanation": "反禁藥教育的主要目的是預防違規，提高運動員的反禁藥意識。"
+  }
+]

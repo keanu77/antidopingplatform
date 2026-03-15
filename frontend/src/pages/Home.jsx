@@ -1,17 +1,28 @@
-import { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
-import { Search, BarChart3, GraduationCap, AlertTriangle, Users, Trophy, Calendar } from 'lucide-react';
-import { statsAPI } from '../services/api';
+import { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
+import {
+  Search,
+  BarChart3,
+  GraduationCap,
+  AlertTriangle,
+  Users,
+  Trophy,
+  Calendar,
+} from "lucide-react";
+import { statsAPI } from "../services/api";
 
 function Home() {
   const [stats, setStats] = useState({
     totalCases: 0,
     totalSports: 0,
     totalCountries: 0,
-    recentCases: []
+    recentCases: [],
   });
 
+  const [error, setError] = useState(null);
+
   useEffect(() => {
+    document.title = "運動禁藥相關案例資料庫";
     loadStats();
   }, []);
 
@@ -20,36 +31,45 @@ function Home() {
       const response = await statsAPI.getOverview();
       setStats(response.data);
     } catch (error) {
-      console.error('Failed to load stats:', error);
+      console.error("Failed to load stats:", error);
+      setError("載入首頁資料失敗，請稍後再試。");
     }
   };
 
   const features = [
     {
       icon: Search,
-      title: '案例搜尋',
-      description: '快速查找國際運動禁藥案例，支援多條件篩選',
-      link: '/cases',
-      color: 'bg-blue-100 text-blue-600'
+      title: "案例搜尋",
+      description: "快速查找國際運動禁藥案例，支援多條件篩選",
+      link: "/cases",
+      color: "bg-blue-100 text-blue-600",
     },
     {
       icon: BarChart3,
-      title: '數據視覺化',
-      description: '透過圖表了解禁藥案例趨勢與分布',
-      link: '/statistics',
-      color: 'bg-green-100 text-green-600'
+      title: "數據視覺化",
+      description: "透過圖表了解禁藥案例趨勢與分布",
+      link: "/statistics",
+      color: "bg-green-100 text-green-600",
     },
     {
       icon: GraduationCap,
-      title: '教育專區',
-      description: '學習禁藥知識，參與互動測驗',
-      link: '/education',
-      color: 'bg-purple-100 text-purple-600'
-    }
+      title: "教育專區",
+      description: "學習禁藥知識，參與互動測驗",
+      link: "/education",
+      color: "bg-purple-100 text-purple-600",
+    },
   ];
 
   return (
     <div>
+      {/* Error Banner */}
+      {error && (
+        <div className="bg-red-50 border border-red-200 rounded-lg p-4 mb-6 flex items-center">
+          <AlertTriangle className="h-5 w-5 text-red-600 mr-2 flex-shrink-0" />
+          <p className="text-red-700">{error}</p>
+        </div>
+      )}
+
       {/* Hero Section */}
       <div className="bg-gradient-to-r from-primary-600 to-primary-800 rounded-xl p-8 text-white mb-8">
         <div className="flex items-center mb-4">
@@ -66,7 +86,9 @@ function Home() {
           <div className="flex items-center justify-between">
             <div>
               <p className="text-gray-500 text-sm">總案例數</p>
-              <p className="text-3xl font-bold text-gray-900">{stats.totalCases}</p>
+              <p className="text-3xl font-bold text-gray-900">
+                {stats.totalCases}
+              </p>
             </div>
             <div className="bg-danger-100 p-3 rounded-lg">
               <AlertTriangle className="h-8 w-8 text-danger-600" />
@@ -77,7 +99,9 @@ function Home() {
           <div className="flex items-center justify-between">
             <div>
               <p className="text-gray-500 text-sm">涵蓋運動項目</p>
-              <p className="text-3xl font-bold text-gray-900">{stats.totalSports}</p>
+              <p className="text-3xl font-bold text-gray-900">
+                {stats.totalSports}
+              </p>
             </div>
             <div className="bg-primary-100 p-3 rounded-lg">
               <Trophy className="h-8 w-8 text-primary-600" />
@@ -88,7 +112,9 @@ function Home() {
           <div className="flex items-center justify-between">
             <div>
               <p className="text-gray-500 text-sm">涉及國家</p>
-              <p className="text-3xl font-bold text-gray-900">{stats.totalCountries}</p>
+              <p className="text-3xl font-bold text-gray-900">
+                {stats.totalCountries}
+              </p>
             </div>
             <div className="bg-green-100 p-3 rounded-lg">
               <Users className="h-8 w-8 text-green-600" />
@@ -102,15 +128,15 @@ function Home() {
         {features.map((feature, index) => (
           <Link key={index} to={feature.link} className="group">
             <div className="bg-white rounded-lg shadow p-6 hover:shadow-lg transition-shadow">
-              <div className={`inline-flex p-3 rounded-lg ${feature.color} mb-4`}>
+              <div
+                className={`inline-flex p-3 rounded-lg ${feature.color} mb-4`}
+              >
                 <feature.icon className="h-6 w-6" />
               </div>
               <h3 className="text-xl font-semibold text-gray-900 mb-2 group-hover:text-primary-600 transition">
                 {feature.title}
               </h3>
-              <p className="text-gray-600">
-                {feature.description}
-              </p>
+              <p className="text-gray-600">{feature.description}</p>
             </div>
           </Link>
         ))}
@@ -122,8 +148,8 @@ function Home() {
           <h2 className="text-2xl font-bold text-gray-900 mb-4">相關案例</h2>
           <div className="space-y-3">
             {stats.recentCases.map((case_item) => (
-              <Link 
-                key={case_item._id} 
+              <Link
+                key={case_item._id}
                 to={`/cases/${case_item._id}`}
                 className="flex items-center justify-between p-3 hover:bg-gray-50 rounded-lg transition"
               >
@@ -132,7 +158,9 @@ function Home() {
                     <AlertTriangle className="h-5 w-5 text-danger-600" />
                   </div>
                   <div>
-                    <p className="font-semibold text-gray-900">{case_item.athleteName}</p>
+                    <p className="font-semibold text-gray-900">
+                      {case_item.athleteName}
+                    </p>
                     <p className="text-sm text-gray-500">{case_item.sport}</p>
                   </div>
                 </div>
@@ -143,7 +171,10 @@ function Home() {
               </Link>
             ))}
           </div>
-          <Link to="/cases" className="block text-center mt-4 text-primary-600 hover:text-primary-700 font-medium">
+          <Link
+            to="/cases"
+            className="block text-center mt-4 text-primary-600 hover:text-primary-700 font-medium"
+          >
             查看所有案例 →
           </Link>
         </div>
