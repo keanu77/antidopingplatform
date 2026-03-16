@@ -12,7 +12,21 @@ dotenv.config();
 const app = express();
 
 // 中間件
-app.use(helmet());
+app.use(
+  helmet({
+    contentSecurityPolicy: {
+      directives: {
+        ...helmet.contentSecurityPolicy.getDefaultDirectives(),
+        "frame-ancestors": [
+          "'self'",
+          "https://*.blogspot.com",
+          "https://*.blogger.com",
+        ],
+      },
+    },
+    frameguard: false,
+  }),
+);
 
 const corsOptions = {
   origin: process.env.CORS_ORIGIN ? process.env.CORS_ORIGIN.split(",") : true,
