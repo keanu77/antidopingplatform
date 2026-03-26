@@ -1,10 +1,10 @@
-import { useEffect } from 'react';
-import { Link } from 'react-router-dom';
-import { Home, AlertTriangle } from 'lucide-react';
+import { useEffect } from "react";
+import { Link } from "react-router-dom";
+import { Home, AlertTriangle } from "lucide-react";
 
 function NotFound() {
   useEffect(() => {
-    document.title = '頁面未找到 | 運動禁藥案例資料庫';
+    document.title = "頁面未找到 | 乾淨運動從你我開始";
   }, []);
 
   return (
@@ -14,7 +14,9 @@ function NotFound() {
       </div>
       <h1 className="text-4xl font-bold text-gray-900 mb-4">404</h1>
       <p className="text-xl text-gray-600 mb-2">找不到此頁面</p>
-      <p className="text-gray-500 mb-8">您所尋找的頁面可能已移除、更名或暫時無法使用。</p>
+      <p className="text-gray-500 mb-8">
+        您所尋找的頁面可能已移除、更名或暫時無法使用。
+      </p>
       <Link
         to="/"
         className="flex items-center px-6 py-3 bg-primary-600 text-white rounded-lg hover:bg-primary-700 transition"

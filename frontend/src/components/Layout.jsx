@@ -199,7 +199,7 @@ function Layout({ children }) {
                 <Shield className="h-4 w-4 text-white" />
               </div>
               <span className="text-lg font-bold text-gray-900 group-hover:text-emerald-700 transition-colors hidden sm:inline">
-                運動禁藥案例資料庫
+                乾淨運動從你我開始
               </span>
               <span className="text-lg font-bold text-gray-900 group-hover:text-emerald-700 transition-colors sm:hidden">
                 Clean Sport
@@ -384,7 +384,7 @@ function Layout({ children }) {
             </div>
           </div>
           <div className="mt-8 pt-6 border-t border-gray-800 text-center text-xs text-gray-500">
-            © 2025 運動禁藥案例資料庫 — Your Body, Your Responsibility!
+            © 2025 乾淨運動從你我開始 — Your Body, Your Responsibility!
           </div>
         </div>
       </footer>

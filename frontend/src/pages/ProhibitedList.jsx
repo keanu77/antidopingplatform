@@ -8,9 +8,9 @@ function ProhibitedList() {
   const [expanded, setExpanded] = useState(null);
 
   useEffect(() => {
-    document.title = "禁用清單 | 運動禁藥案例資料庫";
+    document.title = "禁用清單 | 乾淨運動從你我開始";
     return () => {
-      document.title = "運動禁藥案例資料庫";
+      document.title = "乾淨運動從你我開始";
     };
   }, []);
 

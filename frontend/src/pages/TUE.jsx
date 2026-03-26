@@ -22,7 +22,7 @@ function TUE() {
   const [drugCheckResult, setDrugCheckResult] = useState(null);
 
   useEffect(() => {
-    document.title = "TUE專區 | 運動禁藥案例資料庫";
+    document.title = "TUE專區 | 乾淨運動從你我開始";
   }, []);
 
   const handleDrugCheck = () => {

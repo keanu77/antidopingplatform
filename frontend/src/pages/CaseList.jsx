@@ -40,7 +40,7 @@ function CaseList() {
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    document.title = "案例搜尋 | 運動禁藥案例資料庫";
+    document.title = "案例搜尋 | 乾淨運動從你我開始";
   }, []);
 
   // 強制篩選器切換函數

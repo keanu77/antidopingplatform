@@ -70,9 +70,9 @@ const newsItems = [
 
 function News() {
   useEffect(() => {
-    document.title = "最新消息 | 運動禁藥案例資料庫";
+    document.title = "最新消息 | 乾淨運動從你我開始";
     return () => {
-      document.title = "運動禁藥案例資料庫";
+      document.title = "乾淨運動從你我開始";
     };
   }, []);
 

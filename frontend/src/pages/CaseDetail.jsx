@@ -25,10 +25,10 @@ function CaseDetail() {
   // P2: 更新頁面 title
   useEffect(() => {
     if (caseData) {
-      document.title = `${caseData.athleteName} | 運動禁藥案例資料庫`;
+      document.title = `${caseData.athleteName} | 乾淨運動從你我開始`;
     }
     return () => {
-      document.title = "運動禁藥案例資料庫";
+      document.title = "乾淨運動從你我開始";
     };
   }, [caseData]);
 

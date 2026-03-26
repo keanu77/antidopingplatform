@@ -41,7 +41,7 @@ function Statistics() {
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    document.title = "數據統計 | 運動禁藥案例資料庫";
+    document.title = "數據統計 | 乾淨運動從你我開始";
     loadAllStats();
   }, []);
 

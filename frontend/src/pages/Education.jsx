@@ -21,7 +21,7 @@ function Education() {
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    document.title = "教育專區 | 運動禁藥案例資料庫";
+    document.title = "教育專區 | 乾淨運動從你我開始";
     loadEducationalContent();
   }, []);
 
