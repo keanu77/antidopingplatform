@@ -118,7 +118,7 @@ function Home() {
           <h1 className="text-3xl md:text-5xl lg:text-6xl font-black text-white mb-4 leading-tight tracking-tight">
             乾淨運動
             <br className="md:hidden" />
-            <span className="md:ml-3">從你開始</span>
+            <span className="md:ml-3">從你我開始</span>
           </h1>
           <p className="text-lg md:text-xl text-emerald-100 mb-8 max-w-2xl mx-auto leading-relaxed">
             運動禁藥互動教學平台 — 禁用清單查詢、情境測驗、藥檢流程、TUE 指南

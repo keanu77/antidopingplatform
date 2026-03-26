@@ -305,7 +305,7 @@ function Layout({ children }) {
                 <div className="w-8 h-8 bg-gradient-to-br from-emerald-400 to-emerald-600 rounded-lg flex items-center justify-center">
                   <Shield className="h-4 w-4 text-white" />
                 </div>
-                <span className="text-lg font-bold">乾淨運動，從你開始</span>
+                <span className="text-lg font-bold">乾淨運動從你我開始</span>
               </div>
               <p className="text-gray-400 text-sm leading-relaxed mb-4">
                 本平台致力於分享運動禁藥案例與實用知識，幫助選手、教練及醫療人員正確認識風險與規範，打造更安全與公平的運動環境。
