@@ -11,7 +11,7 @@
     "port": 8080
   },
   "health_check": {
-    "path": "/",
+    "path": "/api/health",
     "interval": 30,
     "timeout": 10
   }

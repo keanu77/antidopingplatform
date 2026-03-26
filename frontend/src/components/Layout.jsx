@@ -1,13 +1,26 @@
-import { useState, useRef, useEffect } from 'react';
-import { Link, useLocation } from 'react-router-dom';
+import { useState, useRef, useEffect } from "react";
+import { Link, useLocation } from "react-router-dom";
 import {
-  Home, Search, BarChart3, GraduationCap, FileText,
-  Menu, X, Shield, Zap, ClipboardList, Newspaper, Link2, ChevronDown
-} from 'lucide-react';
+  Home,
+  Search,
+  BarChart3,
+  GraduationCap,
+  FileText,
+  Menu,
+  X,
+  Shield,
+  Zap,
+  ClipboardList,
+  Newspaper,
+  Link2,
+  ChevronDown,
+} from "lucide-react";
 
 function DropdownMenu({ label, items, pathname, onNavigate }) {
   const [open, setOpen] = useState(false);
+  const [focusIndex, setFocusIndex] = useState(-1);
   const ref = useRef(null);
+  const menuRef = useRef(null);
   const timeout = useRef(null);
 
   const isActive = items.some((item) => item.path === pathname);
@@ -18,8 +31,57 @@ function DropdownMenu({ label, items, pathname, onNavigate }) {
   };
 
   const handleLeave = () => {
-    timeout.current = setTimeout(() => setOpen(false), 150);
+    timeout.current = setTimeout(() => {
+      setOpen(false);
+      setFocusIndex(-1);
+    }, 150);
   };
+
+  // P2: 鍵盤方向鍵導航
+  const handleKeyDown = (e) => {
+    if (
+      !open &&
+      (e.key === "ArrowDown" || e.key === "Enter" || e.key === " ")
+    ) {
+      e.preventDefault();
+      setOpen(true);
+      setFocusIndex(0);
+      return;
+    }
+
+    if (!open) return;
+
+    switch (e.key) {
+      case "ArrowDown":
+        e.preventDefault();
+        setFocusIndex((prev) => (prev + 1) % items.length);
+        break;
+      case "ArrowUp":
+        e.preventDefault();
+        setFocusIndex((prev) => (prev - 1 + items.length) % items.length);
+        break;
+      case "Escape":
+        e.preventDefault();
+        setOpen(false);
+        setFocusIndex(-1);
+        break;
+      case "Home":
+        e.preventDefault();
+        setFocusIndex(0);
+        break;
+      case "End":
+        e.preventDefault();
+        setFocusIndex(items.length - 1);
+        break;
+    }
+  };
+
+  useEffect(() => {
+    if (open && focusIndex >= 0 && menuRef.current) {
+      const links = menuRef.current.querySelectorAll("a");
+      links[focusIndex]?.focus();
+    }
+  }, [focusIndex, open]);
 
   useEffect(() => {
     return () => clearTimeout(timeout.current);
@@ -35,27 +97,45 @@ function DropdownMenu({ label, items, pathname, onNavigate }) {
       <button
         className={`flex items-center gap-1 px-3 py-2 rounded-lg text-sm font-medium transition-all duration-200 ${
           isActive
-            ? 'bg-emerald-50 text-emerald-700'
-            : 'text-gray-600 hover:bg-gray-50 hover:text-gray-900'
+            ? "bg-emerald-50 text-emerald-700"
+            : "text-gray-600 hover:bg-gray-50 hover:text-gray-900"
         }`}
-        onClick={() => setOpen(!open)}
+        onClick={() => {
+          setOpen(!open);
+          if (!open) setFocusIndex(0);
+        }}
+        onKeyDown={handleKeyDown}
         aria-expanded={open}
+        aria-haspopup="true"
       >
         {label}
-        <ChevronDown className={`h-3.5 w-3.5 transition-transform duration-200 ${open ? 'rotate-180' : ''}`} />
+        <ChevronDown
+          className={`h-3.5 w-3.5 transition-transform duration-200 ${open ? "rotate-180" : ""}`}
+        />
       </button>
 
       {open && (
-        <div className="absolute top-full left-0 mt-1 bg-white rounded-xl shadow-xl border border-gray-100 py-2 min-w-[180px] z-50 animate-fadeIn">
-          {items.map(({ path, label: itemLabel, icon: Icon }) => (
+        <div
+          ref={menuRef}
+          role="menu"
+          className="absolute top-full left-0 mt-1 bg-white rounded-xl shadow-xl border border-gray-100 py-2 min-w-[180px] z-50 animate-fadeIn"
+        >
+          {items.map(({ path, label: itemLabel, icon: Icon }, index) => (
             <Link
               key={path}
               to={path}
-              onClick={() => { setOpen(false); onNavigate?.(); }}
+              role="menuitem"
+              tabIndex={focusIndex === index ? 0 : -1}
+              onClick={() => {
+                setOpen(false);
+                setFocusIndex(-1);
+                onNavigate?.();
+              }}
+              onKeyDown={handleKeyDown}
               className={`flex items-center gap-2.5 px-4 py-2.5 text-sm font-medium transition-colors ${
                 pathname === path
-                  ? 'bg-emerald-50 text-emerald-700'
-                  : 'text-gray-600 hover:bg-gray-50 hover:text-gray-900'
+                  ? "bg-emerald-50 text-emerald-700"
+                  : "text-gray-600 hover:bg-gray-50 hover:text-gray-900"
               }`}
             >
               <Icon className="h-4 w-4" />
@@ -73,28 +153,28 @@ function Layout({ children }) {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   const primaryItems = [
-    { path: '/', label: '首頁', icon: Home },
-    { path: '/cases', label: '案例搜尋', icon: Search },
-    { path: '/statistics', label: '數據統計', icon: BarChart3 },
+    { path: "/", label: "首頁", icon: Home },
+    { path: "/cases", label: "案例搜尋", icon: Search },
+    { path: "/statistics", label: "數據統計", icon: BarChart3 },
   ];
 
   const learnItems = [
-    { path: '/prohibited-list', label: '禁用清單', icon: Shield },
-    { path: '/quiz', label: '互動測驗', icon: Zap },
-    { path: '/testing-process', label: '藥檢流程', icon: ClipboardList },
-    { path: '/education', label: '教育專區', icon: GraduationCap },
-    { path: '/tue', label: 'TUE 專區', icon: FileText },
+    { path: "/prohibited-list", label: "禁用清單", icon: Shield },
+    { path: "/quiz", label: "互動測驗", icon: Zap },
+    { path: "/testing-process", label: "藥檢流程", icon: ClipboardList },
+    { path: "/education", label: "教育專區", icon: GraduationCap },
+    { path: "/tue", label: "TUE 專區", icon: FileText },
   ];
 
   const moreItems = [
-    { path: '/news', label: '最新消息', icon: Newspaper },
-    { path: '/resources', label: '實用連結', icon: Link2 },
+    { path: "/news", label: "最新消息", icon: Newspaper },
+    { path: "/resources", label: "實用連結", icon: Link2 },
   ];
 
   const navGroups = [
-    { label: '主要', items: primaryItems },
-    { label: '學習', items: learnItems },
-    { label: '更多', items: moreItems },
+    { label: "主要", items: primaryItems },
+    { label: "學習", items: learnItems },
+    { label: "更多", items: moreItems },
   ];
 
   const handleLinkClick = () => {
@@ -103,7 +183,10 @@ function Layout({ children }) {
 
   return (
     <div className="min-h-screen bg-gray-50">
-      <a href="#main-content" className="sr-only focus:not-sr-only focus:absolute focus:top-2 focus:left-2 focus:z-50 focus:px-4 focus:py-2 focus:bg-white focus:text-emerald-600 focus:rounded-lg focus:shadow-lg">
+      <a
+        href="#main-content"
+        className="sr-only focus:not-sr-only focus:absolute focus:top-2 focus:left-2 focus:z-50 focus:px-4 focus:py-2 focus:bg-white focus:text-emerald-600 focus:rounded-lg focus:shadow-lg"
+      >
         跳至主要內容
       </a>
 
@@ -132,8 +215,8 @@ function Layout({ children }) {
                   to={path}
                   className={`flex items-center gap-1.5 px-3 py-2 rounded-lg text-sm font-medium transition-all duration-200 ${
                     location.pathname === path
-                      ? 'bg-emerald-50 text-emerald-700'
-                      : 'text-gray-600 hover:bg-gray-50 hover:text-gray-900'
+                      ? "bg-emerald-50 text-emerald-700"
+                      : "text-gray-600 hover:bg-gray-50 hover:text-gray-900"
                   }`}
                 >
                   <Icon className="h-4 w-4" />
@@ -163,9 +246,13 @@ function Layout({ children }) {
             <button
               className="md:hidden p-2 rounded-lg text-gray-600 hover:bg-gray-100 transition"
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-              aria-label={mobileMenuOpen ? '關閉選單' : '開啟選單'}
+              aria-label={mobileMenuOpen ? "關閉選單" : "開啟選單"}
             >
-              {mobileMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
+              {mobileMenuOpen ? (
+                <X className="h-6 w-6" />
+              ) : (
+                <Menu className="h-6 w-6" />
+              )}
             </button>
           </div>
         </div>
@@ -176,7 +263,9 @@ function Layout({ children }) {
             <div className="px-4 py-3 space-y-4">
               {navGroups.map((group) => (
                 <div key={group.label}>
-                  <p className="text-xs font-bold text-gray-400 uppercase tracking-wider px-3 mb-1">{group.label}</p>
+                  <p className="text-xs font-bold text-gray-400 uppercase tracking-wider px-3 mb-1">
+                    {group.label}
+                  </p>
                   {group.items.map(({ path, label, icon: Icon }) => (
                     <Link
                       key={path}
@@ -184,8 +273,8 @@ function Layout({ children }) {
                       onClick={handleLinkClick}
                       className={`flex items-center gap-3 px-3 py-3 rounded-xl text-sm font-medium transition-colors ${
                         location.pathname === path
-                          ? 'bg-emerald-50 text-emerald-700'
-                          : 'text-gray-600 hover:bg-gray-50 hover:text-gray-900'
+                          ? "bg-emerald-50 text-emerald-700"
+                          : "text-gray-600 hover:bg-gray-50 hover:text-gray-900"
                       }`}
                     >
                       <Icon className="h-4 w-4" />
@@ -200,7 +289,10 @@ function Layout({ children }) {
       </header>
 
       {/* Main */}
-      <main id="main-content" className="pt-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+      <main
+        id="main-content"
+        className="pt-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8"
+      >
         {children}
       </main>
 
@@ -223,18 +315,63 @@ function Layout({ children }) {
               </p>
             </div>
             <div>
-              <h3 className="text-sm font-bold mb-4 text-gray-300 uppercase tracking-wider">快速連結</h3>
+              <h3 className="text-sm font-bold mb-4 text-gray-300 uppercase tracking-wider">
+                快速連結
+              </h3>
               <ul className="space-y-2 text-sm">
-                <li><a href="https://www.wada-ama.org/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">WADA 官方網站</a></li>
-                <li><a href="https://www.wada-ama.org/en/prohibited-list" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">WADA 禁用清單</a></li>
-                <li><a href="https://www.antidoping.org.tw/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">CTADA 官方網站</a></li>
-                <li><a href="https://www.check-antidoping.org.tw/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">CTADA 藥物查詢</a></li>
+                <li>
+                  <a
+                    href="https://www.wada-ama.org/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-gray-400 hover:text-white transition-colors"
+                  >
+                    WADA 官方網站
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.wada-ama.org/en/prohibited-list"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-gray-400 hover:text-white transition-colors"
+                  >
+                    WADA 禁用清單
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.antidoping.org.tw/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-gray-400 hover:text-white transition-colors"
+                  >
+                    CTADA 官方網站
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.check-antidoping.org.tw/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-gray-400 hover:text-white transition-colors"
+                  >
+                    CTADA 藥物查詢
+                  </a>
+                </li>
               </ul>
             </div>
             <div>
-              <h3 className="text-sm font-bold mb-4 text-gray-300 uppercase tracking-wider">製作者</h3>
+              <h3 className="text-sm font-bold mb-4 text-gray-300 uppercase tracking-wider">
+                製作者
+              </h3>
               <p className="text-gray-400 text-sm mb-2">
-                <a href="https://wycswimming.blogspot.com/" target="_blank" rel="noopener noreferrer" className="text-emerald-400 hover:text-emerald-300 transition-colors">
+                <a
+                  href="https://wycswimming.blogspot.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-emerald-400 hover:text-emerald-300 transition-colors"
+                >
                   吳易澄 醫師
                 </a>
               </p>

@@ -2,12 +2,19 @@ const express = require("express");
 const mongoose = require("mongoose");
 const cors = require("cors");
 const helmet = require("helmet");
+const compression = require("compression");
 const rateLimit = require("express-rate-limit");
 const dotenv = require("dotenv");
 const path = require("path");
 
 // 載入環境變數
 dotenv.config();
+
+// P0: Production 環境強制要求 MONGODB_URI
+if (process.env.NODE_ENV === "production" && !process.env.MONGODB_URI) {
+  console.error("FATAL: MONGODB_URI is required in production environment");
+  process.exit(1);
+}
 
 const app = express();
 
@@ -28,8 +35,15 @@ app.use(
   }),
 );
 
+// P1: Compression 中間件
+app.use(compression());
+
 const corsOptions = {
-  origin: process.env.CORS_ORIGIN ? process.env.CORS_ORIGIN.split(",") : true,
+  origin: process.env.CORS_ORIGIN
+    ? process.env.CORS_ORIGIN.split(",")
+    : process.env.NODE_ENV === "production"
+      ? false
+      : true,
   credentials: true,
 };
 app.use(cors(corsOptions));

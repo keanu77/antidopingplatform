@@ -3,7 +3,7 @@ import axios from "axios";
 // 根據環境使用不同的 API URL
 const API_BASE_URL = import.meta.env.PROD
   ? "/api" // 生產環境使用相對路徑
-  : "http://localhost:5001/api"; // 開發環境使用本地後端
+  : `http://localhost:${import.meta.env.VITE_API_PORT || "8080"}/api`;
 
 const api = API_BASE_URL
   ? axios.create({

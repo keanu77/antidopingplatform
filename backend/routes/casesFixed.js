@@ -30,9 +30,18 @@ router.get("/", async (req, res) => {
       substanceCategory,
       punishmentType,
       search,
-      page = 1,
-      limit = 12,
+      page: rawPage = 1,
+      limit: rawLimit = 12,
     } = req.query;
+
+    // P0: 輸入驗證
+    const page = Math.max(1, parseInt(rawPage) || 1);
+    const limit = Math.min(100, Math.max(1, parseInt(rawLimit) || 12));
+
+    // P0: 搜尋字串長度限制（防止 ReDoS）
+    if (search && search.length > 200) {
+      return res.status(400).json({ error: "搜尋字串過長，請縮短後再試" });
+    }
 
     let query = {};
     const andConditions = [];
@@ -103,39 +112,52 @@ router.get("/", async (req, res) => {
       query.$and = andConditions;
     }
 
-    const skip = (parseInt(page) - 1) * parseInt(limit);
+    const skip = (page - 1) * limit;
+
+    // P1: projection 只回傳列表必要欄位
+    const listProjection = {
+      athleteName: 1,
+      sport: 1,
+      nationality: 1,
+      year: 1,
+      substance: 1,
+      substanceCategory: 1,
+      "punishment.banDuration": 1,
+      "punishment.medalStripped": 1,
+      "punishment.resultsCancelled": 1,
+      summary: 1,
+    };
 
     // Execute queries in parallel
     const [cases, total] = await Promise.all([
       db
         .collection("cases")
         .find(query)
+        .project(listProjection)
         .sort({ year: -1 })
         .skip(skip)
-        .limit(parseInt(limit))
+        .limit(limit)
         .toArray(),
       db.collection("cases").countDocuments(query),
     ]);
 
-    const totalPages = Math.ceil(total / parseInt(limit));
+    const totalPages = Math.ceil(total / limit);
 
     res.json({
       cases,
       totalCases: total,
-      currentPage: parseInt(page),
+      currentPage: page,
       totalPages,
-      limit: parseInt(limit),
+      limit,
     });
   } catch (error) {
     console.error("Cases query error:", error);
-    res
-      .status(500)
-      .json({
-        error:
-          process.env.NODE_ENV === "production"
-            ? "伺服器錯誤，請稍後再試"
-            : error.message,
-      });
+    res.status(500).json({
+      error:
+        process.env.NODE_ENV === "production"
+          ? "伺服器錯誤，請稍後再試"
+          : error.message,
+    });
   }
 });
 
@@ -161,14 +183,12 @@ router.get("/filters", async (req, res) => {
     });
   } catch (error) {
     console.error("Filters query error:", error);
-    res
-      .status(500)
-      .json({
-        error:
-          process.env.NODE_ENV === "production"
-            ? "伺服器錯誤，請稍後再試"
-            : error.message,
-      });
+    res.status(500).json({
+      error:
+        process.env.NODE_ENV === "production"
+          ? "伺服器錯誤，請稍後再試"
+          : error.message,
+    });
   }
 });
 
@@ -191,14 +211,12 @@ router.get("/:id", async (req, res) => {
     res.json(caseData);
   } catch (error) {
     console.error("Case by ID query error:", error);
-    res
-      .status(500)
-      .json({
-        error:
-          process.env.NODE_ENV === "production"
-            ? "伺服器錯誤，請稍後再試"
-            : error.message,
-      });
+    res.status(500).json({
+      error:
+        process.env.NODE_ENV === "production"
+          ? "伺服器錯誤，請稍後再試"
+          : error.message,
+    });
   }
 });
 

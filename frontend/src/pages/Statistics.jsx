@@ -275,7 +275,11 @@ function Statistics() {
             <BarChart3 className="h-5 w-5 mr-2 text-primary-600" />
             運動項目分布（前10名）
           </h2>
-          <div style={{ height: "350px" }}>
+          <div
+            style={{ height: "350px" }}
+            role="img"
+            aria-label={`運動項目分布圖表：${sportDistribution.map((s) => `${s.sport} ${s.count}件`).join("、")}`}
+          >
             <Bar
               data={sportDistributionData}
               options={{
@@ -295,7 +299,11 @@ function Statistics() {
             <PieChart className="h-5 w-5 mr-2 text-primary-600" />
             WADA禁藥類型分布
           </h2>
-          <div style={{ height: "350px" }}>
+          <div
+            style={{ height: "350px" }}
+            role="img"
+            aria-label={`禁藥類型分布圖表：${substanceDistribution.map((s) => `${s.category} ${s.count}件`).join("、")}`}
+          >
             <Doughnut
               data={substanceDistributionData}
               options={{
@@ -324,7 +332,11 @@ function Statistics() {
             <TrendingUp className="h-5 w-5 mr-2 text-primary-600" />
             禁賽期限分布統計
           </h2>
-          <div style={{ height: "350px" }}>
+          <div
+            style={{ height: "350px" }}
+            role="img"
+            aria-label={`禁賽期限分布圖表：${banDurationDistribution.map((s) => `${s.category} ${s.count}件(${s.percentage}%)`).join("、")}`}
+          >
             <Bar
               data={banDurationData}
               options={{

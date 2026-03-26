@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect, useMemo } from "react";
 import { Search, ChevronDown, Shield, AlertTriangle } from "lucide-react";
 import { prohibitedList, timingLabels } from "../data/prohibitedList";
 
@@ -7,16 +7,30 @@ function ProhibitedList() {
   const [filter, setFilter] = useState("all");
   const [expanded, setExpanded] = useState(null);
 
-  const filtered = prohibitedList.filter((item) => {
-    const matchSearch =
-      search === "" ||
-      item.name.includes(search) ||
-      item.nameEn.toLowerCase().includes(search.toLowerCase()) ||
-      item.code.toLowerCase().includes(search.toLowerCase()) ||
-      item.keySubstances.some((s) => s.toLowerCase().includes(search.toLowerCase()));
-    const matchFilter = filter === "all" || item.timing === filter;
-    return matchSearch && matchFilter;
-  });
+  useEffect(() => {
+    document.title = "禁用清單 | 運動禁藥案例資料庫";
+    return () => {
+      document.title = "運動禁藥案例資料庫";
+    };
+  }, []);
+
+  // P1: useMemo 快取篩選結果
+  const filtered = useMemo(
+    () =>
+      prohibitedList.filter((item) => {
+        const matchSearch =
+          search === "" ||
+          item.name.includes(search) ||
+          item.nameEn.toLowerCase().includes(search.toLowerCase()) ||
+          item.code.toLowerCase().includes(search.toLowerCase()) ||
+          item.keySubstances.some((s) =>
+            s.toLowerCase().includes(search.toLowerCase()),
+          );
+        const matchFilter = filter === "all" || item.timing === filter;
+        return matchSearch && matchFilter;
+      }),
+    [search, filter],
+  );
 
   return (
     <div className="max-w-4xl mx-auto">
@@ -27,8 +41,12 @@ function ProhibitedList() {
             <Shield className="h-6 w-6 text-red-600" />
           </div>
           <div>
-            <h1 className="text-2xl md:text-3xl font-bold text-gray-900">2026 禁用清單</h1>
-            <p className="text-gray-500 text-sm">WADA International Standard Prohibited List 2026</p>
+            <h1 className="text-2xl md:text-3xl font-bold text-gray-900">
+              2026 禁用清單
+            </h1>
+            <p className="text-gray-500 text-sm">
+              WADA International Standard Prohibited List 2026
+            </p>
           </div>
         </div>
       </div>
@@ -87,7 +105,9 @@ function ProhibitedList() {
             <div
               key={item.id}
               className={`bg-white rounded-2xl border overflow-hidden transition-all duration-200 ${
-                isOpen ? "border-emerald-200 shadow-lg shadow-emerald-50" : "border-gray-100 hover:shadow-md hover:border-gray-200"
+                isOpen
+                  ? "border-emerald-200 shadow-lg shadow-emerald-50"
+                  : "border-gray-100 hover:shadow-md hover:border-gray-200"
               }`}
             >
               <button
@@ -96,14 +116,22 @@ function ProhibitedList() {
                 aria-expanded={isOpen}
               >
                 <div className="flex items-center gap-3 min-w-0">
-                  <span className="text-lg md:text-xl font-black text-emerald-600 shrink-0">{item.code}</span>
+                  <span className="text-lg md:text-xl font-black text-emerald-600 shrink-0">
+                    {item.code}
+                  </span>
                   <div className="min-w-0">
-                    <p className="font-bold text-gray-900 truncate">{item.name}</p>
-                    <p className="text-xs text-gray-500 truncate">{item.nameEn}</p>
+                    <p className="font-bold text-gray-900 truncate">
+                      {item.name}
+                    </p>
+                    <p className="text-xs text-gray-500 truncate">
+                      {item.nameEn}
+                    </p>
                   </div>
                 </div>
                 <div className="flex items-center gap-2 shrink-0 ml-2">
-                  <span className={`hidden sm:inline-block text-xs px-3 py-1 rounded-full font-medium ${timing.bgColor} ${timing.color}`}>
+                  <span
+                    className={`hidden sm:inline-block text-xs px-3 py-1 rounded-full font-medium ${timing.bgColor} ${timing.color}`}
+                  >
                     {timing.label}
                   </span>
                   <ChevronDown
@@ -115,17 +143,26 @@ function ProhibitedList() {
               {isOpen && (
                 <div className="px-5 md:px-6 pb-5 border-t border-gray-100 pt-4 space-y-4 animate-fadeIn">
                   {/* Mobile timing badge */}
-                  <span className={`sm:hidden inline-block text-xs px-3 py-1 rounded-full font-medium ${timing.bgColor} ${timing.color}`}>
+                  <span
+                    className={`sm:hidden inline-block text-xs px-3 py-1 rounded-full font-medium ${timing.bgColor} ${timing.color}`}
+                  >
                     {timing.label}
                   </span>
 
-                  <p className="text-gray-600 text-sm leading-relaxed">{item.description}</p>
+                  <p className="text-gray-600 text-sm leading-relaxed">
+                    {item.description}
+                  </p>
 
                   <div>
-                    <p className="text-xs font-bold text-gray-700 mb-2">重點物質：</p>
+                    <p className="text-xs font-bold text-gray-700 mb-2">
+                      重點物質：
+                    </p>
                     <div className="flex flex-wrap gap-2">
                       {item.keySubstances.map((s) => (
-                        <span key={s} className="text-xs bg-emerald-50 text-emerald-700 px-3 py-1.5 rounded-lg border border-emerald-100">
+                        <span
+                          key={s}
+                          className="text-xs bg-emerald-50 text-emerald-700 px-3 py-1.5 rounded-lg border border-emerald-100"
+                        >
                           {s}
                         </span>
                       ))}
@@ -135,22 +172,30 @@ function ProhibitedList() {
                   {item.medicalUse && (
                     <div className="bg-blue-50 rounded-xl p-3 border border-blue-100">
                       <p className="text-xs text-blue-800">
-                        <span className="font-bold">常見醫療用途：</span> {item.medicalUse}
+                        <span className="font-bold">常見醫療用途：</span>{" "}
+                        {item.medicalUse}
                       </p>
                     </div>
                   )}
 
                   {item.isSpecified !== undefined && (
                     <p className="text-xs">
-                      <span className={`inline-flex items-center gap-1 px-3 py-1 rounded-full font-medium ${
-                        item.isSpecified
-                          ? "bg-amber-50 text-amber-700 border border-amber-200"
-                          : "bg-red-50 text-red-700 border border-red-200"
-                      }`}>
+                      <span
+                        className={`inline-flex items-center gap-1 px-3 py-1 rounded-full font-medium ${
+                          item.isSpecified
+                            ? "bg-amber-50 text-amber-700 border border-amber-200"
+                            : "bg-red-50 text-red-700 border border-red-200"
+                        }`}
+                      >
                         {item.isSpecified ? (
-                          <><AlertTriangle className="w-3 h-3" /> 特定物質</>
+                          <>
+                            <AlertTriangle className="w-3 h-3" /> 特定物質
+                          </>
                         ) : (
-                          <><AlertTriangle className="w-3 h-3" /> 非特定物質（處罰較重）</>
+                          <>
+                            <AlertTriangle className="w-3 h-3" />{" "}
+                            非特定物質（處罰較重）
+                          </>
                         )}
                       </span>
                     </p>
