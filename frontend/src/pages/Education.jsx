@@ -6,7 +6,6 @@ import {
   CheckCircle,
   XCircle,
   Clock,
-  ChevronRight,
   Stethoscope,
   ShieldAlert,
   FileSearch,
@@ -17,12 +16,7 @@ import { educationAPI } from "../services/api";
 function Education() {
   const [activeTab, setActiveTab] = useState("substances");
   const [wadaCategories, setWadaCategories] = useState([]);
-  const [quizzes, setQuizzes] = useState([]);
   const [medicalSpecialties, setMedicalSpecialties] = useState([]);
-  const [currentQuiz, setCurrentQuiz] = useState(0);
-  const [selectedAnswer, setSelectedAnswer] = useState(null);
-  const [quizResult, setQuizResult] = useState(null);
-  const [quizScore, setQuizScore] = useState(0);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 
@@ -37,62 +31,12 @@ function Education() {
       const response = await educationAPI.getAll();
 
       setWadaCategories(response.data.substances || []);
-      // 隨機選擇5題測驗
-      const allQuizzes = response.data.quizzes || [];
-      const selectedQuizzes = allQuizzes
-        .sort(() => Math.random() - 0.5)
-        .slice(0, 5);
-      setQuizzes(selectedQuizzes);
       setMedicalSpecialties(response.data.specialties || []);
     } catch (error) {
       console.error("Failed to load educational content:", error);
       setError("載入教育內容失敗，請稍後再試。");
     } finally {
       setLoading(false);
-    }
-  };
-
-  const handleQuizAnswer = () => {
-    if (selectedAnswer === null) return;
-
-    const currentQuizData = quizzes[currentQuiz];
-    const isCorrect = selectedAnswer === currentQuizData.correctAnswer;
-
-    setQuizResult({
-      correct: isCorrect,
-      correctAnswer: currentQuizData.correctAnswer,
-      explanation: currentQuizData.explanation,
-    });
-
-    if (isCorrect) {
-      setQuizScore(quizScore + 1);
-    }
-  };
-
-  const nextQuiz = () => {
-    if (currentQuiz < quizzes.length - 1) {
-      setCurrentQuiz(currentQuiz + 1);
-      setSelectedAnswer(null);
-      setQuizResult(null);
-    }
-  };
-
-  const resetQuiz = async () => {
-    setCurrentQuiz(0);
-    setSelectedAnswer(null);
-    setQuizResult(null);
-    setQuizScore(0);
-
-    // 重新隨機選擇5題測驗
-    try {
-      const response = await educationAPI.getAll();
-      const allQuizzes = response.data.quizzes || [];
-      const selectedQuizzes = allQuizzes
-        .sort(() => Math.random() - 0.5)
-        .slice(0, 5);
-      setQuizzes(selectedQuizzes);
-    } catch (error) {
-      console.error("Failed to reload quiz questions:", error);
     }
   };
 
@@ -162,18 +106,6 @@ function Education() {
         </button>
         <button
           role="tab"
-          aria-selected={activeTab === "quiz"}
-          onClick={() => setActiveTab("quiz")}
-          className={`flex-1 min-w-fit px-4 py-2 rounded-lg font-medium transition ${
-            activeTab === "quiz"
-              ? "bg-white text-primary-600 shadow"
-              : "text-gray-600 hover:text-gray-900"
-          }`}
-        >
-          互動測驗
-        </button>
-        <button
-          role="tab"
           aria-selected={activeTab === "specialties"}
           onClick={() => setActiveTab("specialties")}
           className={`flex-1 min-w-fit px-4 py-2 rounded-lg font-medium transition ${
@@ -236,202 +168,6 @@ function Education() {
               </div>
             </div>
           ))}
-        </div>
-      )}
-
-      {/* Quiz Tab */}
-      {activeTab === "quiz" && (
-        <div role="tabpanel" className="max-w-2xl mx-auto">
-          {currentQuiz < quizzes.length ? (
-            <div className="bg-white rounded-lg shadow-lg p-8">
-              <div className="mb-6">
-                <div className="flex justify-between items-center mb-4">
-                  <h3 className="text-lg font-semibold text-gray-900">
-                    問題 {currentQuiz + 1} / {quizzes.length}
-                  </h3>
-                  <div className="text-sm text-gray-600">
-                    得分: {quizScore} / {currentQuiz + (quizResult ? 1 : 0)}
-                  </div>
-                </div>
-                <div className="w-full bg-gray-200 rounded-full h-2">
-                  <div
-                    className="bg-primary-600 h-2 rounded-full transition-all"
-                    style={{
-                      width: `${((currentQuiz + 1) / quizzes.length) * 100}%`,
-                    }}
-                  />
-                </div>
-              </div>
-
-              <div className="mb-6">
-                <h2 className="text-xl font-bold text-gray-900 mb-4">
-                  {quizzes[currentQuiz].question}
-                </h2>
-
-                <div className="space-y-3">
-                  {quizzes[currentQuiz].options.map((option, index) => (
-                    <button
-                      key={index}
-                      onClick={() => !quizResult && setSelectedAnswer(index)}
-                      disabled={quizResult !== null}
-                      className={`w-full text-left p-4 rounded-lg border-2 transition ${
-                        selectedAnswer === index
-                          ? quizResult
-                            ? quizResult.correct &&
-                              quizResult.correctAnswer === index
-                              ? "border-green-500 bg-green-50"
-                              : quizResult.correctAnswer === index
-                                ? "border-green-500 bg-green-50"
-                                : "border-red-500 bg-red-50"
-                            : "border-primary-500 bg-primary-50"
-                          : quizResult && quizResult.correctAnswer === index
-                            ? "border-green-500 bg-green-50"
-                            : "border-gray-200 hover:border-gray-300"
-                      }`}
-                    >
-                      <div className="flex items-center justify-between">
-                        <span className="font-medium">{option}</span>
-                        {quizResult && (
-                          <>
-                            {quizResult.correctAnswer === index && (
-                              <CheckCircle className="h-5 w-5 text-green-600" />
-                            )}
-                            {selectedAnswer === index &&
-                              !quizResult.correct && (
-                                <XCircle className="h-5 w-5 text-red-600" />
-                              )}
-                          </>
-                        )}
-                      </div>
-                    </button>
-                  ))}
-                </div>
-              </div>
-
-              {quizResult && (
-                <div
-                  className={`p-4 rounded-lg mb-6 ${
-                    quizResult.correct
-                      ? "bg-green-50 border border-green-200"
-                      : "bg-amber-50 border border-amber-200"
-                  }`}
-                >
-                  <p
-                    className={`font-semibold mb-2 ${
-                      quizResult.correct ? "text-green-800" : "text-amber-800"
-                    }`}
-                  >
-                    {quizResult.correct ? "✅ 答對了！" : "❌ 答錯了"}
-                  </p>
-                  <p className="text-gray-700 text-sm">
-                    {quizResult.explanation}
-                  </p>
-                </div>
-              )}
-
-              <div className="flex justify-between items-center">
-                {!quizResult ? (
-                  <>
-                    <div className="text-sm text-gray-600">
-                      目前得分: {quizScore} / {currentQuiz}
-                    </div>
-                    <button
-                      onClick={handleQuizAnswer}
-                      disabled={selectedAnswer === null}
-                      className="px-6 py-2 bg-primary-600 text-white rounded-lg hover:bg-primary-700 disabled:opacity-50 disabled:cursor-not-allowed transition"
-                    >
-                      提交答案
-                    </button>
-                  </>
-                ) : currentQuiz < quizzes.length - 1 ? (
-                  <>
-                    <div className="text-sm text-gray-600">
-                      目前得分: {quizScore} / {currentQuiz + 1}
-                    </div>
-                    <button
-                      onClick={nextQuiz}
-                      className="px-6 py-2 bg-primary-600 text-white rounded-lg hover:bg-primary-700 transition flex items-center"
-                    >
-                      下一題
-                      <ChevronRight className="h-4 w-4 ml-2" />
-                    </button>
-                  </>
-                ) : (
-                  <div className="w-full text-center">
-                    <div className="bg-gray-50 border border-gray-200 rounded-lg p-4 mb-4">
-                      <p className="text-lg font-semibold text-gray-900 mb-2">
-                        🎯 測驗總結
-                      </p>
-                      <p className="text-2xl font-bold text-primary-600 mb-1">
-                        總分: {quizScore} / {quizzes.length}
-                      </p>
-                      <p className="text-sm text-gray-600">
-                        正確率:{" "}
-                        {((quizScore / quizzes.length) * 100).toFixed(1)}%
-                      </p>
-                      <div className="mt-2 text-lg">
-                        {quizScore === quizzes.length
-                          ? "🏆 完美得分！"
-                          : quizScore >= quizzes.length * 0.8
-                            ? "⭐ 表現優異！"
-                            : quizScore >= quizzes.length * 0.6
-                              ? "👍 表現良好！"
-                              : "💪 還有進步空間！"}
-                      </div>
-                    </div>
-                    <button
-                      onClick={resetQuiz}
-                      className="px-6 py-2 bg-primary-600 text-white rounded-lg hover:bg-primary-700 transition"
-                    >
-                      重新測驗
-                    </button>
-                  </div>
-                )}
-              </div>
-            </div>
-          ) : (
-            <div className="bg-white rounded-lg shadow-lg p-8 text-center">
-              <div className="mb-6">
-                <div className="w-24 h-24 bg-primary-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <GraduationCap className="h-12 w-12 text-primary-600" />
-                </div>
-                <h2 className="text-2xl font-bold text-gray-900 mb-2">
-                  測驗完成！
-                </h2>
-                <p className="text-gray-600">
-                  您的得分：
-                  <span className="text-3xl font-bold text-primary-600 mx-2">
-                    {quizScore}
-                  </span>
-                  / {quizzes.length}
-                </p>
-              </div>
-
-              <div className="mb-6">
-                <div className="text-5xl mb-2">
-                  {quizScore === quizzes.length
-                    ? "🏆"
-                    : quizScore >= quizzes.length * 0.7
-                      ? "🥈"
-                      : "💪"}
-                </div>
-                <p className="text-gray-700">
-                  {quizScore === quizzes.length
-                    ? "太棒了！全部答對！"
-                    : quizScore >= quizzes.length * 0.7
-                      ? "表現不錯，繼續加油！"
-                      : "還有進步空間，再試一次吧！"}
-                </p>
-              </div>
-
-              <button
-                onClick={resetQuiz}
-                className="px-6 py-2 bg-primary-600 text-white rounded-lg hover:bg-primary-700 transition"
-              >
-                重新測驗
-              </button>
-            </div>
-          )}
         </div>
       )}
 
