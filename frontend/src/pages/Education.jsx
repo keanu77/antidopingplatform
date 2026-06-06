@@ -16,7 +16,7 @@ import { educationAPI } from "../services/api";
 function Education() {
   const [activeTab, setActiveTab] = useState("substances");
   const [wadaCategories, setWadaCategories] = useState([]);
-  const [medicalSpecialties, setMedicalSpecialties] = useState([]);
+  const [, setMedicalSpecialties] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 

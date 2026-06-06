@@ -430,7 +430,7 @@ function Statistics() {
             <div className="absolute left-8 top-0 bottom-0 w-0.5 bg-gray-200"></div>
 
             <div className="space-y-8">
-              {majorEvents.map((event, index) => {
+              {majorEvents.map((event) => {
                 const IconComponent = event.icon;
                 return (
                   <div key={event.year} className="relative flex items-start">

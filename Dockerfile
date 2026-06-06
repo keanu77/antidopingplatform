@@ -52,9 +52,9 @@ EXPOSE 8080
 ENV NODE_ENV=production
 ENV PORT=8080
 
-# 健康檢查
+# 健康檢查（node:18-alpine 無 curl，改用 BusyBox 內建 wget，並對齊 zeabur.json 的 /api/health）
 HEALTHCHECK --interval=30s --timeout=3s --start-period=5s --retries=3 \
-  CMD curl -f http://localhost:8080/ || exit 1
+  CMD wget -q --spider http://localhost:8080/api/health || exit 1
 
 # 啟動統一服務
 CMD ["node", "server.js"]

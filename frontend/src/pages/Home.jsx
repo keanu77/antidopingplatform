@@ -80,7 +80,7 @@ function Home() {
     totalCountries: 0,
     recentCases: [],
   });
-  const [error, setError] = useState(null);
+  const [error] = useState(null);
 
   const randomFact = useMemo(
     () => facts[Math.floor(Math.random() * facts.length)],
@@ -88,7 +88,7 @@ function Home() {
   );
 
   useEffect(() => {
-    document.title = "乾淨運動從你我開始";
+    document.title = "乾淨運動從你我開始 | 運動禁藥案例資料庫";
     loadStats();
   }, []);
 

@@ -22,7 +22,7 @@ function TUE() {
   const [drugCheckResult, setDrugCheckResult] = useState(null);
 
   useEffect(() => {
-    document.title = "TUE專區 | 乾淨運動從你我開始";
+    document.title = "TUE 治療用途豁免指南 | 乾淨運動從你我開始";
   }, []);
 
   const handleDrugCheck = () => {
@@ -1351,6 +1351,7 @@ function TUE() {
               <div className="flex items-start">
                 <input
                   type="checkbox"
+                  aria-label="確認醫療診斷"
                   className="mt-1 mr-3 h-4 w-4 text-primary-600 rounded focus:ring-primary-500"
                 />
                 <div>
@@ -1363,6 +1364,7 @@ function TUE() {
               <div className="flex items-start">
                 <input
                   type="checkbox"
+                  aria-label="準備醫療文件"
                   className="mt-1 mr-3 h-4 w-4 text-primary-600 rounded focus:ring-primary-500"
                 />
                 <div>
@@ -1375,6 +1377,7 @@ function TUE() {
               <div className="flex items-start">
                 <input
                   type="checkbox"
+                  aria-label="評估替代治療"
                   className="mt-1 mr-3 h-4 w-4 text-primary-600 rounded focus:ring-primary-500"
                 />
                 <div>
@@ -1387,6 +1390,7 @@ function TUE() {
               <div className="flex items-start">
                 <input
                   type="checkbox"
+                  aria-label="完成申請表格"
                   className="mt-1 mr-3 h-4 w-4 text-primary-600 rounded focus:ring-primary-500"
                 />
                 <div>
@@ -1399,6 +1403,7 @@ function TUE() {
               <div className="flex items-start">
                 <input
                   type="checkbox"
+                  aria-label="確認申請對象"
                   className="mt-1 mr-3 h-4 w-4 text-primary-600 rounded focus:ring-primary-500"
                 />
                 <div>
@@ -1411,6 +1416,7 @@ function TUE() {
               <div className="flex items-start">
                 <input
                   type="checkbox"
+                  aria-label="提前申請時間"
                   className="mt-1 mr-3 h-4 w-4 text-primary-600 rounded focus:ring-primary-500"
                 />
                 <div>

@@ -1,3 +1,5 @@
 User-agent: *
 Allow: /
 Disallow: /api/
+
+Sitemap: https://antidopingplatform.sportsmedicine.tw/sitemap.xml

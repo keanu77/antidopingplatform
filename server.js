@@ -6,6 +6,7 @@ const compression = require("compression");
 const rateLimit = require("express-rate-limit");
 const dotenv = require("dotenv");
 const path = require("path");
+const fs = require("fs");
 
 // 載入環境變數
 dotenv.config();
@@ -74,16 +75,43 @@ app.use("/api/stats", require("./backend/routes/statsFixed"));
 app.use("/api/education", require("./backend/routes/education"));
 app.use("/api/tue", require("./backend/routes/tue"));
 
-// 提供前端靜態文件
-app.use(express.static(path.join(__dirname, "frontend/dist")));
+// 提供前端靜態文件（index:false / redirect:false → 目錄請求交給下方 catch-all 處理，
+// 才能回傳 build 時預渲染、含 per-page SEO meta 的對應 HTML）
+const distDir = path.join(__dirname, "frontend/dist");
+app.use(express.static(distDir, { index: false, redirect: false }));
 
 // SPA 路由處理 - 必須在所有 API 路由之後
+// 優先回傳對應路由的預渲染 HTML（dist/<route>/index.html），找不到再回退首頁 index.html。
+const indexHtml = path.join(distDir, "index.html");
 app.get("*", (req, res) => {
-  if (!req.originalUrl.startsWith("/api")) {
-    res.sendFile(path.join(__dirname, "frontend/dist/index.html"));
-  } else {
-    res.status(404).json({ error: "API endpoint not found" });
+  if (req.originalUrl.startsWith("/api")) {
+    return res.status(404).json({ error: "API endpoint not found" });
   }
+  const cleanPath = req.path.replace(/\/+$/, "");
+
+  // 預渲染檔：先顯式拒絕含 ".." 的路徑，再用 path.relative 確認 candidate 確實位於
+  // distDir 之內（避免 startsWith 對同前綴 sibling 目錄誤判），最後才在檔案存在時回傳。
+  if (!cleanPath.includes("..")) {
+    const candidate =
+      cleanPath === ""
+        ? indexHtml
+        : path.join(distDir, cleanPath, "index.html");
+    const rel = path.relative(distDir, candidate);
+    const inside = !rel.startsWith("..") && !path.isAbsolute(rel);
+    if (inside && fs.existsSync(candidate)) {
+      return res.sendFile(candidate);
+    }
+  }
+
+  // 動態案例詳情（/cases/:id）：給不執行 JS 的社群爬蟲一個通用的案例 SEO fallback
+  if (cleanPath.startsWith("/cases/")) {
+    const caseFallback = path.join(distDir, "cases-detail.html");
+    if (fs.existsSync(caseFallback)) {
+      return res.sendFile(caseFallback);
+    }
+  }
+
+  res.sendFile(indexHtml);
 });
 
 // MongoDB 連接（含自動重連）

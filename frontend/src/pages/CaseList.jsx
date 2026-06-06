@@ -116,12 +116,6 @@ function CaseList() {
     const actualParams = searchParams || filters;
     const actualPage = pageNum || pagination.currentPage;
 
-    console.log(
-      "Loading cases with params:",
-      actualParams,
-      "page:",
-      actualPage,
-    );
     setLoading(true);
     try {
       const params = {
@@ -129,7 +123,6 @@ function CaseList() {
         page: actualPage,
         limit: 12,
       };
-      console.log("Final API params:", params);
 
       // 檢查快取
       const cachedData = searchCache.get(params);
@@ -147,8 +140,6 @@ function CaseList() {
       const response = await casesAPI.getAll(params);
       const data = response.data;
 
-      console.log("API response:", data);
-
       setCases(data.cases);
       setPagination({
         currentPage: data.currentPage,
@@ -158,7 +149,6 @@ function CaseList() {
 
       // 儲存到快取
       searchCache.set(params, data);
-      console.log("Cases loaded successfully:", data.cases.length, "cases");
     } catch (error) {
       console.error("Failed to load cases:", error);
       setError("載入案例資料失敗，請稍後再試。");
@@ -253,7 +243,6 @@ function CaseList() {
             onClick={(e) => {
               e.preventDefault();
               e.stopPropagation();
-              console.log("Filter button clicked");
               toggleFilters();
             }}
             className="px-4 py-2 bg-gray-100 hover:bg-gray-200 rounded-lg flex items-center gap-2 transition"
@@ -276,10 +265,14 @@ function CaseList() {
         <div className="bg-white rounded-lg shadow p-6 mb-6">
           <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-4">
             <div>
-              <label className="block text-sm font-medium text-gray-700 mb-2">
+              <label
+                htmlFor="filter-sport"
+                className="block text-sm font-medium text-gray-700 mb-2"
+              >
                 運動項目
               </label>
               <select
+                id="filter-sport"
                 value={filters.sport}
                 onChange={(e) => handleFilterChange("sport", e.target.value)}
                 className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500"
@@ -293,10 +286,14 @@ function CaseList() {
               </select>
             </div>
             <div>
-              <label className="block text-sm font-medium text-gray-700 mb-2">
+              <label
+                htmlFor="filter-nationality"
+                className="block text-sm font-medium text-gray-700 mb-2"
+              >
                 國籍
               </label>
               <select
+                id="filter-nationality"
                 value={filters.nationality}
                 onChange={(e) =>
                   handleFilterChange("nationality", e.target.value)
@@ -312,10 +309,14 @@ function CaseList() {
               </select>
             </div>
             <div>
-              <label className="block text-sm font-medium text-gray-700 mb-2">
+              <label
+                htmlFor="filter-year"
+                className="block text-sm font-medium text-gray-700 mb-2"
+              >
                 年份
               </label>
               <select
+                id="filter-year"
                 value={filters.year}
                 onChange={(e) => handleFilterChange("year", e.target.value)}
                 className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500"
@@ -329,10 +330,14 @@ function CaseList() {
               </select>
             </div>
             <div>
-              <label className="block text-sm font-medium text-gray-700 mb-2">
+              <label
+                htmlFor="filter-substance"
+                className="block text-sm font-medium text-gray-700 mb-2"
+              >
                 藥物類別
               </label>
               <select
+                id="filter-substance"
                 value={filters.substanceCategory}
                 onChange={(e) =>
                   handleFilterChange("substanceCategory", e.target.value)
@@ -348,10 +353,14 @@ function CaseList() {
               </select>
             </div>
             <div>
-              <label className="block text-sm font-medium text-gray-700 mb-2">
+              <label
+                htmlFor="filter-punishment"
+                className="block text-sm font-medium text-gray-700 mb-2"
+              >
                 處罰類型
               </label>
               <select
+                id="filter-punishment"
                 value={filters.punishmentType}
                 onChange={(e) =>
                   handleFilterChange("punishmentType", e.target.value)
