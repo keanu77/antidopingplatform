@@ -367,7 +367,7 @@ function Layout({ children }) {
               </h3>
               <p className="text-gray-400 text-sm mb-2">
                 <a
-                  href="https://wycswimming.blogspot.com/"
+                  href="https://sportsmedicine.tw/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-emerald-400 hover:text-emerald-300 transition-colors"
