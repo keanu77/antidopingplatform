@@ -14,6 +14,7 @@ backend/.env
 dist/
 build/
 frontend/dist/
+frontend/public/version.json
 *.log
 
 # IDE and OS files

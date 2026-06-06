@@ -2,6 +2,11 @@
 FROM node:18-alpine AS frontend-build
 WORKDIR /app
 
+# 可由平台/CI 注入 commit SHA（如 docker build --build-arg GIT_SHA=$(git rev-parse HEAD)），
+# 供 gen-version.js 寫進 version.json。未注入時 gen-version.js 自動降級為 "unknown"。
+ARG GIT_SHA=""
+ENV GIT_SHA=$GIT_SHA
+
 # 複製前端 package.json 和安裝依賴
 COPY frontend/package*.json ./frontend/
 RUN cd frontend && npm ci

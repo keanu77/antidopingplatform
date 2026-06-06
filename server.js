@@ -69,6 +69,30 @@ app.get("/api/health", (req, res) => {
   res.json({ status: "OK", message: "Sports Doping Platform API is running" });
 });
 
+// 版本資訊：供部署後驗證 live build == HEAD（抓 Zeabur push 成功卻跑舊 code）。
+// 解析順序：runtime 環境變數（平台注入）→ build 時寫入的 dist/version.json → "unknown"。
+app.get("/api/version", (req, res) => {
+  const envKeys = [
+    "GIT_SHA",
+    "ZEABUR_GIT_COMMIT_SHA",
+    "ZEABUR_GIT_COMMIT",
+    "SOURCE_COMMIT",
+    "COMMIT_SHA",
+  ];
+  let sha = envKeys.map((k) => process.env[k]).find((v) => v && v.trim());
+  let builtAt = null;
+  try {
+    const stamp = JSON.parse(
+      fs.readFileSync(path.join(distDir, "version.json"), "utf8"),
+    );
+    if (!sha) sha = stamp.sha;
+    builtAt = stamp.builtAt || null;
+  } catch {
+    // 無 build stamp：忽略，回 "unknown"
+  }
+  res.json({ sha: (sha && sha.trim()) || "unknown", builtAt });
+});
+
 // 設定 API 路由（先掛載，連線成功後 mongoose 會自動 buffer 或執行）
 app.use("/api/cases", require("./backend/routes/casesFixed"));
 app.use("/api/stats", require("./backend/routes/statsFixed"));
