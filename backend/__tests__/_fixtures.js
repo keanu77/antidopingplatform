@@ -6,10 +6,18 @@ import request from "supertest";
 export async function waitForRoute(app, path, tries = 100, delayMs = 30) {
   for (let i = 0; i < tries; i++) {
     const res = await request(app).get(path);
+    // 已連線就緒
     if (res.status !== 500) return;
+    // 只有「尚未連上」的 500 才續等；其他 500 是真實錯誤，立即帶 body 拋出，
+    // 避免把真正的 bug 誤診為「環境未就緒」而白等數秒（fail-fast 揭露真實錯誤）。
+    if (res.body?.error !== "Database not connected") {
+      throw new Error(
+        `route ${path} 回傳非預期的 500（非連線未就緒）：${JSON.stringify(res.body)}`,
+      );
+    }
     await new Promise((resolve) => setTimeout(resolve, delayMs));
   }
-  throw new Error(`route ${path} 在 ${tries} 次嘗試後仍未就緒`);
+  throw new Error(`route ${path} 在 ${tries} 次嘗試後仍未連線就緒`);
 }
 
 // 供 cases / stats 整合測試共用的案例種子資料。

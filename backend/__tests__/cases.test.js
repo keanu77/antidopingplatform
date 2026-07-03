@@ -45,8 +45,8 @@ describe("GET /api/cases", () => {
   it("依 year 降序排列", async () => {
     const res = await request(app).get("/api/cases");
     const years = res.body.cases.map((c) => c.year);
-    const sorted = [...years].sort((a, b) => b - a);
-    expect(years).toEqual(sorted);
+    // 釘死確切排序結果（SEED 為 2016×2 / 2010 / 2000），而非只驗自我單調遞減
+    expect(years).toEqual([2016, 2016, 2010, 2000]);
   });
 
   it("依 sport 篩選", async () => {

@@ -1,0 +1,10 @@
+{
+  "$schema": "https://unpkg.com/knip@6/schema.json",
+  "entry": [
+    "backend/*.js",
+    "backend/routes/*.js",
+    "backend/models/*.js",
+    "backend/__tests__/**/*.test.js"
+  ],
+  "project": ["backend/**/*.js"]
+}

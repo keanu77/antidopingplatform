@@ -10,9 +10,9 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 **Unified server pattern**: `server.js` at root serves both Express API (`/api/*`) and React SPA (Vite-built static files from `frontend/dist/`). Single process, single port.
 
-- **Backend**: Express + MongoDB native driver. Mounted routes in `backend/routes/` are `casesFixed.js`, `statsFixed.js`, `education.js`, `tue.js` (see server.js:72-75). The two data routes (`casesFixed`/`statsFixed`) share a single `MongoClient` via `backend/db.js` (`connect()`/`getDb()`, in-flight-deduped), **separate** from server.js's Mongoose connection. DB name comes from `MONGODB_DB_NAME` (default `"sports-doping-db"`).
+- **Backend**: Express + MongoDB native driver. Mounted routes in `backend/routes/` are `casesFixed.js`, `statsFixed.js`, `education.js`, `tue.js` (see server.js:97-100). The two data routes (`casesFixed`/`statsFixed`) share a single `MongoClient` via `backend/db.js` (`connect()`/`getDb()`, in-flight-deduped), **separate** from server.js's Mongoose connection. DB name comes from `MONGODB_DB_NAME` (default `"sports-doping-db"`).
 - **Frontend**: React 19 + Vite + React Router v6 + Tailwind CSS v3 + Chart.js
-- **Database**: MongoDB, single collection `cases`. `server.js` opens a separate Mongoose connection (for lifecycle/auto-reconnect + registering `backend/models/Case.js` so its indexes get built), but request handlers query through the route-level `MongoClient`, never `Case.find()`.
+- **Database**: MongoDB, single collection `cases`. `server.js` opens a separate Mongoose connection (for lifecycle/auto-reconnect + registering `backend/models/Case.js` so its indexes get built), but request handlers query through the shared `MongoClient` in `backend/db.js` (`getDb()`), never `Case.find()`.
 - **API client**: `frontend/src/services/api.js` — `import.meta.env.PROD ? "/api" : "http://localhost:${VITE_API_PORT||8080}/api"`. The frontend always calls the real API; there is **no mock data layer** (`mockData.js` was removed in 7eab93e).
 - **Static content**: `education.js` serves WADA categories/quizzes/specialties from JSON in `backend/data/` (wada-categories.json, quizzes.json, medical-specialties.json). `tue.js` content is **hardcoded inline in the route file** (~430-line `tueContent` object), not in `backend/data/`.
 

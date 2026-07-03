@@ -1,0 +1,11 @@
+{
+  "ignores": [
+    "vitest",
+    "knip",
+    "depcheck",
+    "nodemon",
+    "mongodb",
+    "mongodb-memory-server",
+    "supertest"
+  ]
+}
