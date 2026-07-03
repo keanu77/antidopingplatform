@@ -481,6 +481,56 @@ function Statistics() {
           </button>
         </div>
       )}
+
+      {/* P2-4 反禁藥實證數據（外部同儕審查文獻，非本平台案例資料庫衍生） */}
+      <div className="mt-12 bg-blue-50 border border-blue-200 rounded-lg p-6">
+        <div className="flex items-start mb-4">
+          <div className="flex-shrink-0 p-2 bg-blue-100 rounded-lg mr-4">
+            <BarChart3 className="h-6 w-6 text-blue-600" />
+          </div>
+          <div>
+            <h2 className="text-xl font-bold text-gray-900">反禁藥實證數據</h2>
+            <p className="text-sm text-blue-700 mt-1">
+              以下數據引用自外部同儕審查文獻，並非由上方本平台案例資料庫衍生，用於破除「TUE＝作弊」等常見迷思。
+            </p>
+          </div>
+        </div>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+          <div className="bg-white rounded-lg p-5 shadow-sm">
+            <p className="text-sm text-gray-500 mb-1">頂尖賽會 TUE 盛行率</p>
+            <p className="text-3xl font-bold text-blue-600">0.90%</p>
+            <p className="text-sm text-gray-700 mt-1">
+              奧運運動員持有 TUE 的比例僅約 0.90%（帕運約 2.76%），顯示 TUE
+              在頂尖運動中並不普遍。
+            </p>
+            <p className="text-xs text-gray-400 mt-2">
+              來源：Vernec et al., BJSM 2024（2016–2022 四屆奧運／帕運合計）
+            </p>
+          </div>
+          <div className="bg-white rounded-lg p-5 shadow-sm">
+            <p className="text-sm text-gray-500 mb-1">持 TUE 與奪牌關聯</p>
+            <p className="text-3xl font-bold text-blue-600">RR ≈ 1.07</p>
+            <p className="text-sm text-gray-700 mt-1">
+              持有 TUE 與奪牌之間無有意義關聯（校正後相對風險 1.07，95% CI
+              0.69–1.56，統計上不顯著）；合法 TUE 不等於提升奪牌機率。
+            </p>
+            <p className="text-xs text-gray-400 mt-2">
+              來源：Vernec &amp; Healy, BJSM 2020（2010–2018 五屆奧運）
+            </p>
+          </div>
+          <div className="bg-white rounded-lg p-5 shadow-sm">
+            <p className="text-sm text-gray-500 mb-1">補充劑污染比例</p>
+            <p className="text-3xl font-bold text-blue-600">約 9–15%</p>
+            <p className="text-sm text-gray-700 mt-1">
+              市售運動補充劑可能遭禁用物質污染，比例因產品類別與檢測方法而異，部分研究報告更高。這是選用第三方認證產品的重要理由。
+            </p>
+            <p className="text-xs text-gray-400 mt-2">
+              來源：Geyer et al., IJSM 2004（634 件、14.8%）；系統性回顧 Al-Saad
+              et al., 2026
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }

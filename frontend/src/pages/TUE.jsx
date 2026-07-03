@@ -334,21 +334,33 @@ function TUE() {
                 <div className="space-y-4">
                   <div className="border-l-4 border-amber-300 pl-4">
                     <h4 className="font-semibold text-gray-900">
-                      隨時禁用物質（S0~S5、M1~M3、P1）
+                      隨時禁用物質（S0~S5、M1~M3）
                     </h4>
                     <p className="text-gray-700">
-                      無論是否參賽，應儘速提出申請
+                      無論賽內或賽外皆禁用，無論是否參賽，應儘速提出申請
                     </p>
                   </div>
                   <div className="border-l-4 border-amber-300 pl-4">
                     <h4 className="font-semibold text-gray-900">
-                      賽內禁用物質（S6~S9、P1）
+                      賽內禁用物質（S6~S9）
                     </h4>
                     <p className="text-gray-700">
                       依賽事主辦單位訂定之申請日期為原則，一般為賽前30天
                     </p>
                     <p className="text-gray-600 text-sm mt-1">
                       賽內期：指運動員表定參賽之前一日23:59起算直到比賽與檢體採集流程結束為止
+                    </p>
+                  </div>
+                  <div className="border-l-4 border-amber-300 pl-4">
+                    <h4 className="font-semibold text-gray-900">
+                      特定運動禁用（P1 β阻斷劑）
+                    </h4>
+                    <p className="text-gray-700">
+                      僅在特定運動禁用，並非全部項目。射箭、射擊為賽內與賽外皆禁用（應比照隨時禁用儘速申請）；其餘特定項目（如高爾夫、飛鏢、部分滑雪／滑雪板項目）僅賽內禁用。
+                    </p>
+                    <p className="text-gray-600 text-sm mt-1">
+                      申請時程依該運動屬「賽內外皆禁」或「僅賽內禁」而定，請對照最新版禁用清單
+                      P1 適用運動。
                     </p>
                   </div>
                 </div>

@@ -837,9 +837,11 @@ function Education() {
                 {
                   disease: "糖尿病 (Diabetes)",
                   substances: ["胰島素 (Insulin)"],
-                  category: "允許使用",
-                  notes: "胰島素不在禁藥清單中，但需注意血糖監控",
-                  alternatives: "口服降血糖藥物、飲食控制",
+                  category: "S4: 荷爾蒙及代謝調節劑",
+                  notes:
+                    "胰島素屬 S4.4「胰島素與胰島素模擬物」，全時段禁用，糖尿病患者使用須申請 TUE 並監控血糖。知名第一型糖尿病游泳名將 Gary Hall Jr 即在醫療監督下合法使用胰島素，於 2000、2004 奧運奪金，是糖尿病運動員經正當程序競技的代表案例。",
+                  alternatives:
+                    "第一型糖尿病須以胰島素維生、無替代方案；第二型糖尿病可考慮口服降血糖藥（如 metformin，非禁用）與飲食控制",
                 },
                 {
                   disease: "男性性腺功能低下症候群 (Male Hypogonadism)",

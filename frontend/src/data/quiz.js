@@ -29,10 +29,14 @@ export const scenarioQuestions = [
   {
     id: "sc4",
     question: "靜脈雷射 ILIB 算不算運動禁藥？",
-    options: ["不算，只是光照治療", "算！且很難申請 TUE", "僅賽內禁用"],
-    correctIndex: 1,
+    options: [
+      "並非一律違規，但侵入式 ILIB 可能落入禁用方法 M1.3",
+      "一定算，屬於 M2 且很難申請 TUE",
+      "完全合法，不受任何規範",
+    ],
+    correctIndex: 0,
     explanation:
-      "靜脈雷射（ILIB）算運動禁藥！因為需要將光纖導管插入靜脈，屬於 M2 化學及物理操作的範疇，且很難取得 TUE。",
+      "WADA 禁用清單並未逐字列名 ILIB。侵入式靜脈雷射（置針、光纖入血管）因涉及「以物理手段對血液進行血管內操作」，在解釋上可能落入禁用方法 M1.3（全時段禁用）；M2.2（12 小時內超過 100mL 的靜脈輸注／注射）則須在同時大量輸液時才觸及。非侵入式的鼻腔／穿皮低能量雷射不進入血管，通常不屬此範疇。實際個案是否違規仍以 WADA／各運動總會認定為準。",
     category: "scenario",
   },
   {
@@ -59,7 +63,7 @@ export const scenarioQuestions = [
     options: ["已列入禁用清單", "列入監控計畫（尚未禁用）", "完全合法使用"],
     correctIndex: 1,
     explanation:
-      "Semaglutide（Ozempic/Wegovy）自 2024 年起列入 WADA 監控計畫，2026 年又新增 Tirzepatide（Mounjaro）。目前尚未禁用，但正在收集濫用證據，可能在 LA 2028 奧運前被禁。",
+      "Semaglutide（Ozempic/Wegovy）自 2024 年起列入 WADA 監控計畫（賽內與賽外皆監控），2026 年再新增 Tirzepatide（Mounjaro）。截至 2026 年兩者仍僅屬監控、尚未列入禁用清單，使用不構成違規；WADA 持續收集濫用證據，未來仍可能調整。",
     category: "scenario",
   },
   {
