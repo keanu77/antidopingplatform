@@ -18,10 +18,10 @@
   {
     "id": 3,
     "category": "禁藥知識",
-    "question": "以下哪種物質屬於S3類別？",
-    "options": ["Clenbuterol", "Testosterone", "EPO", "Furosemide"],
+    "question": "以下哪種物質屬於S3類別（Beta-2激動劑）？",
+    "options": ["Salbutamol", "Testosterone", "EPO", "Furosemide"],
     "correctAnswer": 0,
-    "explanation": "Clenbuterol屬於S3類別的Beta-2激動劑，具有支氣管擴張和潛在合成代謝效果。"
+    "explanation": "Salbutamol屬於S3類別的Beta-2激動劑（吸入型在劑量閾值內免TUE）。註：Clenbuterol雖為Beta-2激動劑，但WADA將其歸類於S1.2其他合成代謝劑，全時段禁用。"
   },
   {
     "id": 4,
@@ -354,10 +354,10 @@
   {
     "id": 45,
     "category": "禁藥知識",
-    "question": "初次違規的標準禁賽期限是？",
+    "question": "初次故意違規（涉及非特定物質）的標準禁賽期限是？",
     "options": ["1年", "2年", "3年", "4年"],
-    "correctAnswer": 1,
-    "explanation": "根據WADA規定，初次故意違規的標準禁賽期限是2年。"
+    "correctAnswer": 3,
+    "explanation": "根據2021年世界反禁藥條例第10.2.1條，涉及非特定物質或可證明為故意的違規，初次標準禁賽期為4年；非故意的特定物質違規則為2年。"
   },
   {
     "id": 46,
@@ -482,10 +482,10 @@
   {
     "id": 61,
     "category": "其他",
-    "question": "世界反興奮劑條例(WADC)多久更新一次？",
-    "options": ["每年", "每兩年", "每三年", "每四年"],
+    "question": "世界反禁藥條例(WADC)多久進行一次重大修訂？",
+    "options": ["每年", "每三年", "約每六年", "每十年"],
     "correctAnswer": 2,
-    "explanation": "世界反興奮劑條例通常每三年進行一次重大修訂。"
+    "explanation": "世界反禁藥條例(WADC)約每6年進行一次重大修訂（2003、2009、2015、2021，下一版2027）；而禁用清單(Prohibited List)則每年更新一次。"
   },
   {
     "id": 62,

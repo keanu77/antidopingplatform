@@ -143,12 +143,7 @@ const tueContent = {
       name: "糖尿病 (Diabetes)",
       description:
         "第一型糖尿病患者需要使用胰島素維持血糖控制，這是生命必需的治療。",
-      commonMedications: [
-        "速效胰島素",
-        "長效胰島素",
-        "混合型胰島素",
-        "Glucagon",
-      ],
+      commonMedications: ["速效胰島素", "長效胰島素", "混合型胰島素"],
       tuePoints: [
         "需要內分泌科醫師的診斷證明",
         "提供血糖監測記錄",
@@ -225,7 +220,7 @@ const tueContent = {
       name: "慢性疼痛",
       description:
         "慢性疼痛患者可能需要使用麻醉劑類止痛藥，但必須證明醫療必要性。",
-      commonMedications: ["Morphine", "Codeine", "Tramadol", "Fentanyl"],
+      commonMedications: ["Morphine", "Oxycodone", "Fentanyl", "Tramadol"],
       tuePoints: [
         "疼痛科或相關專科醫師診斷",
         "詳細的疼痛評估和病史",
@@ -290,8 +285,18 @@ const wadaSubstances = {
   },
   clenbuterol: {
     needsTUE: false,
+    category: "S1.2: 合成代謝劑（其他合成代謝劑）",
+    note: "全時段禁用（雖為Beta-2激動劑，WADA歸類為S1.2其他合成代謝劑）；因難以符合核准條件，實務上極少獲准TUE",
+  },
+  salmeterol: {
+    needsTUE: false,
     category: "S3: Beta-2激動劑",
-    note: "完全禁用，不可申請TUE",
+    note: "吸入劑在24小時內≤200µg且每8小時≤100µg免TUE（每8h子上限為2026新規）；口服Beta-2激動劑仍需TUE",
+  },
+  vilanterol: {
+    needsTUE: false,
+    category: "S3: Beta-2激動劑",
+    note: "吸入劑在24小時內≤25µg免TUE",
   },
 
   // 胰島素
@@ -301,9 +306,9 @@ const wadaSubstances = {
     note: "全時段禁用；糖尿病等病患使用須事先申請TUE",
   },
   glucagon: {
-    needsTUE: true,
-    category: "S2.2: 肽類激素",
-    note: "緊急情況下可使用",
+    needsTUE: false,
+    category: "未列入禁用清單",
+    note: "升糖素(Glucagon)未被列入WADA禁用清單，一般允許使用",
   },
 
   // 興奮劑
@@ -324,8 +329,18 @@ const wadaSubstances = {
   },
   cocaine: {
     needsTUE: false,
+    category: "S6: 興奮劑（僅賽內禁用）",
+    note: "僅賽內禁用；屬濫用物質(Substance of Abuse)，若能證明賽外使用且與運動表現無關，制裁可減輕",
+  },
+  pseudoephedrine: {
+    needsTUE: false,
     category: "S6: 興奮劑",
-    note: "完全禁用，不可申請TUE",
+    note: "僅賽內禁用；尿液濃度>150µg/mL為陽性；服用含偽麻黃鹼的感冒藥須注意劑量與停藥時間",
+  },
+  ephedrine: {
+    needsTUE: false,
+    category: "S6: 興奮劑",
+    note: "僅賽內禁用；尿液濃度>10µg/mL為陽性",
   },
 
   // Beta阻斷劑
@@ -359,9 +374,9 @@ const wadaSubstances = {
     note: "慢性疼痛患者可申請TUE，僅比賽期間禁用",
   },
   codeine: {
-    needsTUE: true,
-    category: "S7: 麻醉劑",
-    note: "疼痛治療可申請TUE，僅比賽期間禁用",
+    needsTUE: false,
+    category: "未列入禁用清單（監控物質）",
+    note: "可待因(Codeine)未列入WADA禁用清單，屬監控計畫物質（賽內監控）；一般允許，惟高劑量使用受監控",
   },
   tramadol: {
     needsTUE: true,
@@ -390,12 +405,12 @@ const wadaSubstances = {
   testosterone: {
     needsTUE: false,
     category: "S1: 合成代謝劑",
-    note: "完全禁用，不可申請TUE",
+    note: "全時段禁用；因難以符合TUE核准條件，實務上極少獲准（男性性腺功能低下等情況需嚴格審查）",
   },
   nandrolone: {
     needsTUE: false,
     category: "S1: 合成代謝劑",
-    note: "完全禁用，不可申請TUE",
+    note: "全時段禁用；因難以符合TUE核准條件，實務上極少獲准",
   },
 
   // 一般允許的藥物

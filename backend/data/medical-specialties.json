@@ -31,13 +31,13 @@
       },
       {
         "category": "肌肉鬆弛劑",
-        "wadaCategory": "監控清單",
+        "wadaCategory": "一般允許",
         "substances": [
           "Diazepam",
           "Cyclobenzaprine",
           "Baclofen"
         ],
-        "notes": "某些含有禁用成分，需仔細檢查",
+        "notes": "Diazepam、Baclofen、Cyclobenzaprine 等肌肉鬆弛劑不在WADA禁用或監控清單上，一般允許使用",
         "alternatives": "物理治療、伸展運動、熱敷"
       }
     ]
@@ -93,14 +93,14 @@
     "medications": [
       {
         "category": "荷爾蒙治療",
-        "wadaCategory": "S4: 激素調節劑",
+        "wadaCategory": "S4: 激素調節劑 / S2.2（HCG）",
         "substances": [
-          "Clomiphene (排卵藥)",
-          "HCG (人類絨毛膜促性腺激素)",
-          "Anastrozole (芳香酶抑制劑)",
-          "Tamoxifen (抗雌激素)"
+          "Clomiphene (排卵藥，S4)",
+          "HCG (人類絨毛膜促性腺激素，S2.2，僅男性禁用)",
+          "Anastrozole (芳香酶抑制劑，S4)",
+          "Tamoxifen (抗雌激素，S4)"
         ],
-        "notes": "這些藥物可能影響荷爾蒙平衡，屬於禁用物質",
+        "notes": "Clomiphene、Anastrozole、Tamoxifen 屬S4荷爾蒙與代謝調節劑，全時段禁用；HCG屬S2.2肽類激素，僅男性禁用（女性使用一般不受限）",
         "alternatives": "與婦產科醫師討論替代治療方案"
       },
       {
@@ -116,12 +116,12 @@
       },
       {
         "category": "催產素類",
-        "wadaCategory": "S2: 肽類激素",
+        "wadaCategory": "一般允許",
         "substances": [
           "Oxytocin",
           "Ergometrine"
         ],
-        "notes": "分娩相關藥物，需要醫療豁免",
+        "notes": "催產素(Oxytocin)、麥角新鹼(Ergometrine)為分娩用藥，不在WADA禁用清單上，一般允許使用",
         "alternatives": "自然分娩、非藥物方法"
       }
     ]
@@ -282,12 +282,12 @@
       },
       {
         "category": "抗焦慮藥物",
-        "wadaCategory": "監控清單",
+        "wadaCategory": "一般允許",
         "substances": [
           "Benzodiazepines",
           "Barbiturates"
         ],
-        "notes": "可能影響運動表現，需要謹慎使用",
+        "notes": "Benzodiazepines、Barbiturates 不在WADA禁用或監控清單上，一般允許；惟可能影響警覺與反應，臨床使用仍需評估",
         "alternatives": "放鬆技巧、冥想、心理治療"
       }
     ]

@@ -9,7 +9,7 @@
     "examples": "實驗性SARM、新型類固醇前體、研發階段的藥物",
     "detectability": "檢測困難，需要特殊檢測方法",
     "icon": "🧪",
-    "prohibitionType": "永久禁用"
+    "prohibitionType": "全時段禁用"
   },
   {
     "id": 2,
@@ -21,7 +21,7 @@
     "examples": "睪固酮、南德龍(Nandrolone)、康力龍(Stanozolol)、口服妥納龍(Turinabol)",
     "detectability": "代謝物可在尿液中檢出數週至數月",
     "icon": "💪",
-    "prohibitionType": "永久禁用",
+    "prohibitionType": "全時段禁用",
     "subcategories": [
       {
         "code": "S1.1",
@@ -31,7 +31,7 @@
       {
         "code": "S1.2",
         "name": "其他合成代謝劑",
-        "examples": "Clenbuterol(在S3類別時)、SARM、Tibolone"
+        "examples": "Clenbuterol、SARM、Tibolone"
       }
     ]
   },
@@ -45,7 +45,7 @@
     "examples": "EPO、生長激素(HGH)、IGF-1、促性腺激素",
     "detectability": "血液檢測較準確，部分物質檢測窗口較短",
     "icon": "📈",
-    "prohibitionType": "永久禁用",
+    "prohibitionType": "全時段禁用",
     "subcategories": [
       {
         "code": "S2.1",
@@ -71,7 +71,7 @@
     "description": "作用於Beta-2腎上腺素受體的物質，可放鬆支氣管平滑肌。",
     "mechanism": "擴張支氣管、增加氧氣攝取、可能具有合成代謝效果。",
     "risks": "心律不整、肌肉震顫、頭痛、心率加快、電解質失衡",
-    "examples": "Clenbuterol、Salbutamol、Terbutaline、Formoterol",
+    "examples": "Salbutamol、Terbutaline、Formoterol、Salmeterol",
     "detectability": "尿液檢測，某些物質有劑量閾值限制",
     "icon": "🫁",
     "prohibitionType": "全時段禁用（吸入劑有劑量閾值豁免）",
@@ -87,7 +87,7 @@
     "examples": "Meldonium、芳香酶抑制劑、抗雌激素物質、胰島素(Insulin)、代謝調節劑",
     "detectability": "檢測方法日益完善，代謝調節劑檢測期較長",
     "icon": "⚖️",
-    "prohibitionType": "永久禁用",
+    "prohibitionType": "全時段禁用",
     "subcategories": [
       {
         "code": "S4.4",
@@ -111,7 +111,7 @@
     "examples": "Furosemide、Hydrochlorothiazide、Spironolactone、Probenecid",
     "detectability": "容易檢出，但主要用途是掩蓋其他禁藥",
     "icon": "💧",
-    "prohibitionType": "永久禁用"
+    "prohibitionType": "全時段禁用"
   },
   {
     "id": 7,
@@ -133,7 +133,7 @@
     "description": "強效鎮痛劑，可能掩蓋傷痛並產生欣快感。",
     "mechanism": "作用於鴉片受體，產生鎮痛和欣快效果，可能掩蓋運動傷害。",
     "risks": "呼吸抑制、成癮、認知能力下降、掩蓋嚴重傷害",
-    "examples": "嗎啡、芬太尼、海洛因、可待因、Tramadol",
+    "examples": "嗎啡、芬太尼、海洛因、Tramadol（2024新增）",
     "detectability": "可在尿液和血液中檢出",
     "icon": "💊",
     "prohibitionType": "僅比賽期間禁用"
@@ -170,10 +170,10 @@
     "description": "涉及血液、血液成分或影響氧氣輸送的禁用方法。",
     "mechanism": "增加血液中紅血球數量、提高氧氣輸送能力。",
     "risks": "血栓、感染、免疫反應、血液系統疾病",
-    "examples": "血液輸注、人工氧氣載體、血液替代品",
+    "examples": "血液輸注、人工氧氣載體、血液替代品、一氧化碳（CO，非診斷用途，2026新增M1.4）",
     "detectability": "需要血液檢測，檢測複雜",
     "icon": "🩸",
-    "prohibitionType": "永久禁用"
+    "prohibitionType": "全時段禁用"
   },
   {
     "id": 12,
@@ -185,7 +185,7 @@
     "examples": "樣本替換、尿液稀釋、加入蛋白酶、導尿管使用",
     "detectability": "可通過樣本檢測發現異常",
     "icon": "🔬",
-    "prohibitionType": "永久禁用"
+    "prohibitionType": "全時段禁用"
   },
   {
     "id": 13,
@@ -197,7 +197,7 @@
     "examples": "基因治療載體、基因編輯技術、幹細胞療法",
     "detectability": "檢測技術仍在發展中",
     "icon": "🧬",
-    "prohibitionType": "永久禁用"
+    "prohibitionType": "全時段禁用"
   },
   {
     "id": 14,
@@ -210,6 +210,6 @@
     "detectability": "可在尿液中檢出",
     "icon": "🎯",
     "prohibitionType": "特定運動項目禁用",
-    "note": "僅在射箭、射擊、撞球等精準性運動中禁用"
+    "note": "射箭、射擊、水中運動為賽內外皆禁；賽車、撞球、飛鏢、高爾夫、迷你高爾夫等其餘項目僅賽內禁用"
   }
 ]

@@ -128,6 +128,7 @@ export const prohibitedList = [
       "Morphine（嗎啡）",
       "Oxycodone",
       "Fentanyl",
+      "Tramadol（2024新增）",
       "Diamorphine（海洛因，濫用物質）",
     ],
     medicalUse: "疼痛，包含肌肉骨骼損傷所致",
@@ -170,7 +171,7 @@ export const prohibitedList = [
     name: "操縱血液及血液成分",
     nameEn: "Manipulation of Blood",
     timing: "method",
-    description: "輸血、血液回輸。2026 新增：一氧化碳（CO）非診斷用途",
+    description: "輸血、血液回輸。2026 新增：一氧化碳（CO）非診斷用途（M1.4）",
     keySubstances: ["血液回輸", "人工攜氧劑", "一氧化碳（2026新增）"],
   },
   {
@@ -189,11 +190,7 @@ export const prohibitedList = [
     nameEn: "Gene and Cell Doping",
     timing: "method",
     description: "使用基因編輯技術或細胞移植增強運動表現",
-    keySubstances: [
-      "基因轉移技術",
-      "基因編輯（CRISPR）",
-      "細胞移植（2026新增）",
-    ],
+    keySubstances: ["基因轉移技術", "基因編輯（CRISPR）", "細胞移植"],
   },
   {
     id: "p1",
@@ -202,7 +199,7 @@ export const prohibitedList = [
     nameEn: "Beta-blockers",
     timing: "particular-sports",
     description:
-      "僅在射箭、射擊、高爾夫、撞球、飛鏢、滑雪、水中運動之潛泳等項目禁用",
+      "僅特定運動禁用：射箭、射擊、水中運動（CMAS 潛水）為賽內外皆禁；賽車、撞球、飛鏢、高爾夫、迷你高爾夫等其餘項目僅賽內禁用",
     keySubstances: ["Propranolol", "Atenolol", "Metoprolol", "Bisoprolol"],
     medicalUse: "心衰竭、高血壓",
     isSpecified: true,
