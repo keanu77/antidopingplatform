@@ -60,3 +60,5 @@ coverage/
 *.backup
 *.bak
 *-backup.*
+# 清洗腳本的備份匯出（含案例資料，不入版控）
+backend/backups/
