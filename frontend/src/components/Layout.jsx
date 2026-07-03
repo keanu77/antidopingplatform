@@ -5,6 +5,7 @@ import {
   Search,
   BarChart3,
   GraduationCap,
+  BookOpen,
   FileText,
   Menu,
   X,
@@ -164,6 +165,7 @@ function Layout({ children }) {
     { path: "/testing-process", label: "藥檢流程", icon: ClipboardList },
     { path: "/education", label: "教育專區", icon: GraduationCap },
     { path: "/tue", label: "TUE 專區", icon: FileText },
+    { path: "/adel", label: "ADeL 學習", icon: BookOpen },
   ];
 
   const moreItems = [

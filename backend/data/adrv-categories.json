@@ -1,0 +1,114 @@
+{
+  "_meta": {
+    "source": "World Anti-Doping Code 2021, Article 2 (反禁藥規則違反) 與前言 The Spirit of Sport",
+    "note": "以 2021 年版《世界反禁藥規範》為準；ADRV 共 11 類，運動精神價值共 12 項"
+  },
+  "adrvTypes": [
+    {
+      "code": "2.1",
+      "name": "運動員檢體中存在禁用物質或其代謝物、標記物",
+      "nameEn": "Presence of a Prohibited Substance or its Metabolites or Markers",
+      "description": "在運動員的檢體（尿液或血液）中檢出禁用物質、其代謝物或標記物，即構成違規；適用嚴格責任原則。"
+    },
+    {
+      "code": "2.2",
+      "name": "使用或嘗試使用禁用物質或禁用方法",
+      "nameEn": "Use or Attempted Use of a Prohibited Substance or Prohibited Method",
+      "description": "無論是否檢出陽性，只要有使用或嘗試使用禁用物質、禁用方法的事實，即可依其他證據認定違規。"
+    },
+    {
+      "code": "2.3",
+      "name": "逃避、拒絕或未能出席檢體採集",
+      "nameEn": "Evading, Refusing or Failing to Submit to Sample Collection",
+      "description": "在收到通知後逃避檢測、拒絕或無正當理由未出席檢體採集，視同違規。"
+    },
+    {
+      "code": "2.4",
+      "name": "行蹤申報失誤",
+      "nameEn": "Whereabouts Failures",
+      "description": "12 個月內，未申報行蹤（Filing Failure）與錯過檢測（Missed Test）合計達 3 次，即構成違規。"
+    },
+    {
+      "code": "2.5",
+      "name": "竄改或嘗試竄改藥檢程序的任何環節",
+      "nameEn": "Tampering or Attempted Tampering with any part of Doping Control",
+      "description": "干擾、變造、破壞或以不當手段影響檢測程序（如提供假資訊、恫嚇證人、竄改檢體）。"
+    },
+    {
+      "code": "2.6",
+      "name": "持有禁用物質或禁用方法",
+      "nameEn": "Possession of a Prohibited Substance or Prohibited Method",
+      "description": "運動員或支援人員在賽內或賽外持有禁用物質、禁用方法，且無正當理由或有效 TUE。"
+    },
+    {
+      "code": "2.7",
+      "name": "走私或嘗試走私禁用物質或禁用方法",
+      "nameEn": "Trafficking or Attempted Trafficking in any Prohibited Substance or Prohibited Method",
+      "description": "以販售、運送、遞送、分發等方式非法流通禁用物質或方法。"
+    },
+    {
+      "code": "2.8",
+      "name": "對運動員施用或嘗試施用禁用物質或禁用方法",
+      "nameEn": "Administration or Attempted Administration to any Athlete of a Prohibited Substance or Prohibited Method",
+      "description": "支援人員或他人對運動員施打、給予或協助使用禁用物質、禁用方法。"
+    },
+    {
+      "code": "2.9",
+      "name": "共謀",
+      "nameEn": "Complicity or Attempted Complicity",
+      "description": "協助、教唆、共謀、掩護或以任何方式參與他人違反反禁藥規則的行為。"
+    },
+    {
+      "code": "2.10",
+      "name": "禁止的往來",
+      "nameEn": "Prohibited Association",
+      "description": "運動員或其他人於職務上與因違規遭禁賽、或曾因禁藥相關罪行受罰的支援人員往來、合作。"
+    },
+    {
+      "code": "2.11",
+      "name": "威嚇或報復檢舉者的行為",
+      "nameEn": "Acts by an Athlete or Other Person to Discourage or Retaliate Against Reporting to Authorities",
+      "description": "以恫嚇、報復等手段阻止或懲罰向主管機關檢舉、提供資訊或協助調查的人；為 2021 年版規範新增。",
+      "isNew2021": true
+    }
+  ],
+  "spiritValues": [
+    { "value": "健康", "valueEn": "Health" },
+    { "value": "倫理、公平競賽與誠實", "valueEn": "Ethics, fair play and honesty" },
+    {
+      "value": "規範所載之運動員權利",
+      "valueEn": "Athletes' rights as set forth in the Code",
+      "isNew2021": true
+    },
+    { "value": "卓越的表現", "valueEn": "Excellence in performance" },
+    { "value": "品格與教育", "valueEn": "Character and education" },
+    { "value": "樂趣與喜悅", "valueEn": "Fun and joy" },
+    { "value": "團隊合作", "valueEn": "Teamwork" },
+    { "value": "奉獻與投入", "valueEn": "Dedication and commitment" },
+    { "value": "遵守規則與法律", "valueEn": "Respect for rules and laws" },
+    {
+      "value": "尊重自己與其他參與者",
+      "valueEn": "Respect for self and other participants"
+    },
+    { "value": "勇氣", "valueEn": "Courage" },
+    { "value": "社群精神與團結", "valueEn": "Community and solidarity" }
+  ],
+  "listStructure": {
+    "allTimes": {
+      "label": "全時段禁用",
+      "categories": "S0–S5、M1–M3",
+      "note": "無論賽內或賽外皆禁用，包含未核准物質、合成代謝劑、胜肽激素/生長因子、Beta-2 促效劑、荷爾蒙與代謝調節劑、利尿劑與掩蔽劑，以及操作血液、化學與物理、基因與細胞的禁用方法。"
+    },
+    "inCompetition": {
+      "label": "僅賽內禁用",
+      "categories": "S6–S9",
+      "note": "僅在賽內期間禁用，包含興奮劑、麻醉劑、大麻類與糖皮質激素。"
+    },
+    "particularSports": {
+      "label": "特定運動禁用",
+      "categories": "P1（Beta 阻斷劑）",
+      "note": "僅於特定運動項目禁用；射箭與射擊為賽內外皆禁，其餘相關項目僅賽內禁用。"
+    },
+    "inCompetitionDefinition": "賽內（In-Competition）原則上指運動員預定參加之比賽前一日 23:59 起，至該比賽及相關檢體採集程序結束為止（除非國際單項運動總會另有規定）。"
+  }
+}

@@ -14,6 +14,7 @@ const Quiz = lazy(() => import("./pages/Quiz"));
 const TestingProcess = lazy(() => import("./pages/TestingProcess"));
 const News = lazy(() => import("./pages/News"));
 const Resources = lazy(() => import("./pages/Resources"));
+const ADeL = lazy(() => import("./pages/ADeL"));
 const NotFound = lazy(() => import("./pages/NotFound"));
 
 function App() {
@@ -42,6 +43,7 @@ function App() {
               <Route path="/testing-process" element={<TestingProcess />} />
               <Route path="/news" element={<News />} />
               <Route path="/resources" element={<Resources />} />
+              <Route path="/adel" element={<ADeL />} />
               <Route path="*" element={<NotFound />} />
             </Routes>
           </Suspense>

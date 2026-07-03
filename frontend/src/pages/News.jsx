@@ -59,6 +59,14 @@ const newsItems = [
       "針對 20-24 歲健身房族群的社群運動，揭示社群媒體上的「完美體態」標準很多靠禁藥堆出來。提醒年輕人：真正的強大不需要靠藥物。",
   },
   {
+    date: "2025-09",
+    tag: "台灣里程碑",
+    tagColor: "bg-emerald-50 text-emerald-700",
+    title: "台灣『運動部』正式成立",
+    summary:
+      "2025 年 9 月 9 日行政院運動部正式成立，原教育部體育署運動禁藥管制相關業務改由運動部主政；CTADA 仍為我國唯一 WADA 承認之國家反禁藥組織（NADO）。",
+  },
+  {
     date: "2025",
     tag: "台灣里程碑",
     tagColor: "bg-emerald-50 text-emerald-700",

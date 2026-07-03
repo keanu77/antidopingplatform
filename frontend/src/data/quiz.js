@@ -99,10 +99,14 @@ export const knowledgeQuestions = [
   {
     id: "kn3",
     question: "台灣的國家運動禁藥防制機構是？",
-    options: ["WADA", "CTADA（中華運動禁藥防制基金會）", "教育部體育署"],
+    options: [
+      "WADA",
+      "CTADA（中華運動禁藥防制基金會）",
+      "運動部（前身教育部體育署）",
+    ],
     correctIndex: 1,
     explanation:
-      "CTADA（中華運動禁藥防制基金會）是我國辦理運動禁藥管制的單位，依據 WADA Code 第 20.5 條設立。",
+      "CTADA（中華運動禁藥防制基金會）是我國辦理運動禁藥管制的單位，依據 WADA Code 第 20.5 條設立。我國運動主管機關已於 2025 年由教育部體育署升格為運動部，但國家反禁藥組織仍為 CTADA。",
     category: "knowledge",
   },
   {

@@ -10,6 +10,15 @@ import {
   ShieldAlert,
   FileSearch,
   Calculator,
+  Scale,
+  Gavel,
+  ListChecks,
+  Award,
+  Sparkles,
+  FlaskConical,
+  ShieldCheck,
+  Info,
+  ExternalLink,
 } from "lucide-react";
 import { educationAPI } from "../services/api";
 
@@ -17,6 +26,7 @@ function Education() {
   const [activeTab, setActiveTab] = useState("substances");
   const [wadaCategories, setWadaCategories] = useState([]);
   const [, setMedicalSpecialties] = useState([]);
+  const [adrv, setAdrv] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 
@@ -37,6 +47,14 @@ function Education() {
       setError("載入教育內容失敗，請稍後再試。");
     } finally {
       setLoading(false);
+    }
+
+    // 違規類型（ADRV）資料獨立載入，失敗不影響整頁其他分頁
+    try {
+      const adrvRes = await educationAPI.getAdrv();
+      setAdrv(adrvRes.data);
+    } catch (adrvError) {
+      console.error("Failed to load ADRV content:", adrvError);
     }
   };
 
@@ -91,6 +109,30 @@ function Education() {
           }`}
         >
           常見誤區
+        </button>
+        <button
+          role="tab"
+          aria-selected={activeTab === "violationTypes"}
+          onClick={() => setActiveTab("violationTypes")}
+          className={`flex-1 min-w-fit px-4 py-2 rounded-lg font-medium transition ${
+            activeTab === "violationTypes"
+              ? "bg-white text-primary-600 shadow"
+              : "text-gray-600 hover:text-gray-900"
+          }`}
+        >
+          違規類型
+        </button>
+        <button
+          role="tab"
+          aria-selected={activeTab === "supplements"}
+          onClick={() => setActiveTab("supplements")}
+          className={`flex-1 min-w-fit px-4 py-2 rounded-lg font-medium transition ${
+            activeTab === "supplements"
+              ? "bg-white text-primary-600 shadow"
+              : "text-gray-600 hover:text-gray-900"
+          }`}
+        >
+          補充劑安全
         </button>
         <button
           role="tab"
@@ -265,6 +307,297 @@ function Education() {
               </div>
             </div>
           ))}
+        </div>
+      )}
+
+      {/* Violation Types (ADRV) Tab */}
+      {activeTab === "violationTypes" && (
+        <div role="tabpanel">
+          {!adrv ? (
+            <div className="flex justify-center items-center h-64">
+              <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-primary-600"></div>
+            </div>
+          ) : (
+            <div className="space-y-10">
+              {/* ADRV 十一類 */}
+              <section>
+                <div className="flex items-center mb-4">
+                  <Scale className="h-6 w-6 mr-2 text-primary-600" />
+                  <h2 className="text-2xl font-bold text-gray-900">
+                    十一項反禁藥規則違反（ADRV）
+                  </h2>
+                </div>
+                <p className="text-gray-600 mb-6">
+                  依《世界反禁藥規範》（World Anti-Doping Code 2021）第 2.1–2.11
+                  條，違規並不限於「藥檢陽性」，共有十一種型態。
+                </p>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                  {adrv.adrvTypes.map((type) => (
+                    <div
+                      key={type.code}
+                      className="bg-white rounded-lg shadow overflow-hidden"
+                    >
+                      <div className="bg-gradient-to-r from-primary-600 to-primary-700 p-4">
+                        <div className="flex items-center justify-between text-white">
+                          <div className="flex items-center">
+                            <Gavel className="h-5 w-5 mr-2" />
+                            <span className="text-lg font-bold">
+                              第 {type.code} 條
+                            </span>
+                          </div>
+                          {type.isNew2021 && (
+                            <span className="px-2 py-0.5 bg-amber-400 text-amber-900 text-xs font-semibold rounded-full">
+                              2021 新增
+                            </span>
+                          )}
+                        </div>
+                      </div>
+                      <div className="p-5">
+                        <h3 className="font-semibold text-gray-900 mb-1">
+                          {type.name}
+                        </h3>
+                        <p className="text-xs text-gray-400 mb-3">
+                          {type.nameEn}
+                        </p>
+                        <p className="text-sm text-gray-700">
+                          {type.description}
+                        </p>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </section>
+
+              {/* 運動精神十二項價值 */}
+              <section>
+                <div className="flex items-center mb-4">
+                  <Sparkles className="h-6 w-6 mr-2 text-primary-600" />
+                  <h2 className="text-2xl font-bold text-gray-900">
+                    運動精神的十二項價值
+                  </h2>
+                </div>
+                <p className="text-gray-600 mb-6">
+                  反禁藥的核心是守護「運動精神」（The Spirit of Sport）。2021
+                  年版規範新增「運動員權利」，共十二項價值。
+                </p>
+                <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+                  {adrv.spiritValues.map((v) => (
+                    <div
+                      key={v.valueEn}
+                      className="bg-white rounded-lg shadow p-4 border-l-4 border-primary-200"
+                    >
+                      <div className="flex items-center justify-between mb-1">
+                        <div className="flex items-center">
+                          <Award className="h-4 w-4 mr-2 text-primary-600 flex-shrink-0" />
+                          <span className="font-semibold text-gray-900">
+                            {v.value}
+                          </span>
+                        </div>
+                        {v.isNew2021 && (
+                          <span className="px-2 py-0.5 bg-amber-400 text-amber-900 text-xs font-semibold rounded-full flex-shrink-0">
+                            2021 新增
+                          </span>
+                        )}
+                      </div>
+                      <p className="text-xs text-gray-400">{v.valueEn}</p>
+                    </div>
+                  ))}
+                </div>
+              </section>
+
+              {/* 禁用清單三層結構 */}
+              <section>
+                <div className="flex items-center mb-4">
+                  <ListChecks className="h-6 w-6 mr-2 text-primary-600" />
+                  <h2 className="text-2xl font-bold text-gray-900">
+                    禁用清單的三層結構
+                  </h2>
+                </div>
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+                  {[
+                    adrv.listStructure.allTimes,
+                    adrv.listStructure.inCompetition,
+                    adrv.listStructure.particularSports,
+                  ].map((layer, i) => (
+                    <div key={i} className="bg-white rounded-lg shadow p-6">
+                      <span className="inline-block px-3 py-1 bg-primary-100 text-primary-800 text-sm font-semibold rounded-full mb-3">
+                        {layer.label}
+                      </span>
+                      <p className="font-bold text-gray-900 mb-2">
+                        {layer.categories}
+                      </p>
+                      <p className="text-sm text-gray-600">{layer.note}</p>
+                    </div>
+                  ))}
+                </div>
+                <div className="mt-4 bg-blue-50 border-l-4 border-blue-400 p-4 rounded-r-lg flex items-start">
+                  <Clock className="h-5 w-5 mr-2 text-blue-600 flex-shrink-0 mt-0.5" />
+                  <div>
+                    <h4 className="font-semibold text-blue-900 mb-1">
+                      「賽內」如何認定？
+                    </h4>
+                    <p className="text-sm text-blue-800">
+                      {adrv.listStructure.inCompetitionDefinition}
+                    </p>
+                  </div>
+                </div>
+              </section>
+            </div>
+          )}
+        </div>
+      )}
+
+      {/* Supplements Safety Tab */}
+      {activeTab === "supplements" && (
+        <div role="tabpanel" className="space-y-6">
+          {/* 導言 */}
+          <div className="bg-gradient-to-r from-emerald-600 to-emerald-700 rounded-lg shadow-lg p-6 text-white">
+            <div className="flex items-center mb-2">
+              <FlaskConical className="h-7 w-7 mr-3" />
+              <h2 className="text-2xl font-bold">補充劑安全：天然不等於乾淨</h2>
+            </div>
+            <p className="text-emerald-50">
+              營養補充品是運動員藥檢陽性的常見來源之一。了解污染風險、嚴格責任原則與第三方認證，才能真正保護自己的運動生涯。
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            {/* 污染數據 */}
+            <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+              <div className="bg-amber-500 p-4 text-white flex items-center">
+                <AlertTriangle className="h-6 w-6 mr-2" />
+                <h3 className="text-xl font-bold">污染盛行率</h3>
+              </div>
+              <div className="p-6 space-y-3">
+                <p className="text-gray-700">
+                  市售營養補充品受污染的比例約{" "}
+                  <span className="font-bold text-amber-700">9–15%</span>
+                  （依研究方法與產品類別而異），可能含有未標示的禁用成分。
+                </p>
+                <p className="text-sm text-gray-600 bg-amber-50 p-3 rounded-lg border-l-2 border-amber-400">
+                  Geyer 等人 2004 年發表的研究檢測 634 件市售補充品，其中{" "}
+                  <span className="font-bold">14.8%</span>{" "}
+                  含有未標示的合成代謝雄性類固醇，足以造成藥檢陽性。
+                </p>
+              </div>
+            </div>
+
+            {/* 嚴格責任 */}
+            <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+              <div className="bg-red-500 p-4 text-white flex items-center">
+                <ShieldAlert className="h-6 w-6 mr-2" />
+                <h3 className="text-xl font-bold">嚴格責任原則</h3>
+              </div>
+              <div className="p-6 space-y-3">
+                <p className="text-gray-700">
+                  <span className="font-semibold">Strict Liability：</span>
+                  運動員對自己體內檢出的任何禁用物質負全責，無論是否出於故意或知情。
+                </p>
+                <p className="text-sm text-red-700 bg-red-50 p-3 rounded-lg border-l-2 border-red-400">
+                  「我不知道補充品含有禁藥」
+                  <span className="font-bold">不能作為免責理由</span>
+                  ，用藥與補充品的最終責任仍在運動員身上。
+                </p>
+              </div>
+            </div>
+
+            {/* 第三方認證 */}
+            <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+              <div className="bg-green-600 p-4 text-white flex items-center">
+                <ShieldCheck className="h-6 w-6 mr-2" />
+                <h3 className="text-xl font-bold">第三方認證計畫</h3>
+              </div>
+              <div className="p-6 space-y-3">
+                <p className="text-gray-700">
+                  選擇通過逐批送驗（batch-tested）的產品，可降低（而非消除）污染風險：
+                </p>
+                <ul className="space-y-2">
+                  <li className="flex items-start text-gray-700">
+                    <CheckCircle className="h-4 w-4 mr-2 mt-0.5 text-green-600 flex-shrink-0" />
+                    <span className="text-sm">
+                      <span className="font-semibold">Informed Sport</span>
+                      （informed-sport.com）
+                    </span>
+                  </li>
+                  <li className="flex items-start text-gray-700">
+                    <CheckCircle className="h-4 w-4 mr-2 mt-0.5 text-green-600 flex-shrink-0" />
+                    <span className="text-sm">
+                      <span className="font-semibold">
+                        NSF Certified for Sport
+                      </span>
+                      （NSF 國際）
+                    </span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            {/* 核心提醒 */}
+            <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+              <div className="bg-emerald-600 p-4 text-white flex items-center">
+                <Info className="h-6 w-6 mr-2" />
+                <h3 className="text-xl font-bold">核心提醒</h3>
+              </div>
+              <div className="p-6">
+                <ul className="space-y-2">
+                  <li className="flex items-start text-gray-700">
+                    <CheckCircle className="h-4 w-4 mr-2 mt-0.5 text-emerald-600 flex-shrink-0" />
+                    <span className="text-sm">
+                      「天然」不等於「乾淨」，草本或天然標示無法保證不含禁藥。
+                    </span>
+                  </li>
+                  <li className="flex items-start text-gray-700">
+                    <CheckCircle className="h-4 w-4 mr-2 mt-0.5 text-emerald-600 flex-shrink-0" />
+                    <span className="text-sm">
+                      第三方認證只能降低風險，無法保證零風險。
+                    </span>
+                  </li>
+                  <li className="flex items-start text-gray-700">
+                    <CheckCircle className="h-4 w-4 mr-2 mt-0.5 text-emerald-600 flex-shrink-0" />
+                    <span className="text-sm">
+                      用前先查，並優先諮詢運動醫學團隊或隊醫。
+                    </span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          {/* 行動連結 */}
+          <div className="bg-emerald-50 border border-emerald-200 rounded-lg p-6">
+            <h3 className="font-semibold text-emerald-900 mb-3 flex items-center">
+              <FileSearch className="h-5 w-5 mr-2 text-emerald-700" />
+              用前先查：藥物與成分查詢
+            </h3>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+              <a
+                href="https://www.check-antidoping.org.tw/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center justify-between bg-white p-4 rounded-lg shadow hover:shadow-md transition"
+              >
+                <div>
+                  <p className="font-semibold text-gray-900">CTADA 藥物查詢</p>
+                  <p className="text-xs text-gray-500">
+                    台灣運動禁藥防制查詢平台
+                  </p>
+                </div>
+                <ExternalLink className="h-4 w-4 text-emerald-600 flex-shrink-0" />
+              </a>
+              <a
+                href="https://www.globaldro.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center justify-between bg-white p-4 rounded-lg shadow hover:shadow-md transition"
+              >
+                <div>
+                  <p className="font-semibold text-gray-900">Global DRO</p>
+                  <p className="text-xs text-gray-500">全球運動員藥物查詢</p>
+                </div>
+                <ExternalLink className="h-4 w-4 text-emerald-600 flex-shrink-0" />
+              </a>
+            </div>
+          </div>
         </div>
       )}
 

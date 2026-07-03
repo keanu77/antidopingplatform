@@ -6,6 +6,7 @@ const router = express.Router();
 const substances = require("../data/wada-categories.json");
 const quizzes = require("../data/quizzes.json");
 const specialties = require("../data/medical-specialties.json");
+const adrv = require("../data/adrv-categories.json");
 
 // P0: 包裝 try-catch 的 helper
 const safeHandler = (fn) => (req, res, next) => {
@@ -67,6 +68,14 @@ router.get(
   "/specialties",
   safeHandler((req, res) => {
     res.json(specialties);
+  }),
+);
+
+// Get ADRV categories + spirit-of-sport values + list structure (P1-7 single source)
+router.get(
+  "/adrv",
+  safeHandler((req, res) => {
+    res.json(adrv);
   }),
 );
 

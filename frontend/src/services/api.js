@@ -42,6 +42,7 @@ export const educationAPI = {
     api.post(`/education/quizzes/${id}/answer`, { answer }),
   getArticles: () => api.get("/education/articles"),
   getArticle: (id) => api.get(`/education/articles/${id}`),
+  getAdrv: () => api.get("/education/adrv"),
 };
 
 // TUE API
