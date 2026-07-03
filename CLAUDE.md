@@ -14,7 +14,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 - **Frontend**: React 19 + Vite + React Router v6 + Tailwind CSS v3 + Chart.js
 - **Database**: MongoDB, single collection `cases`. `server.js` opens a separate Mongoose connection (for lifecycle/auto-reconnect + registering `backend/models/Case.js` so its indexes get built), but request handlers query through the shared `MongoClient` in `backend/db.js` (`getDb()`), never `Case.find()`.
 - **API client**: `frontend/src/services/api.js` — `import.meta.env.PROD ? "/api" : "http://localhost:${VITE_API_PORT||8080}/api"`. The frontend always calls the real API; there is **no mock data layer** (`mockData.js` was removed in 7eab93e).
-- **Static content**: `education.js` serves WADA categories/quizzes/specialties from JSON in `backend/data/` (wada-categories.json, quizzes.json, medical-specialties.json). `tue.js` content is **hardcoded inline in the route file** (~430-line `tueContent` object), not in `backend/data/`.
+- **Static content**: `education.js` serves WADA categories/quizzes/specialties from JSON in `backend/data/` (wada-categories.json, quizzes.json, medical-specialties.json). `tue.js`'s `tueContent` object (disease guides / basic info / application guide) is still **hardcoded inline** in the route file, but the **drug substance list is the single source of truth in `backend/data/substances.json`** (structured schema: `wadaCode` / `prohibition` / `routes` / thresholds / `sportRestricted` / `tueEligible` / `washout`), read by both `/api/tue/check` and `/api/tue/substances`. The old inline `wadaSubstances` object was removed in the P1-C refactor.
 
 ### Key Data Model
 
@@ -29,7 +29,7 @@ Routes are defined in `frontend/src/App.jsx`. Only `Home`, `CaseList`, `CaseDeta
 - `CaseDetail` (`/cases/:id`) — single case view
 - `Statistics` (`/statistics`) — Chart.js visualizations (sport/substance/ban distribution, yearly trends)
 - `Education` (`/education`) — WADA substance guide + interactive quizzes
-- `TUE` (`/tue`) — 67KB page: disease guides + drug checker + application checklist
+- `TUE` (`/tue`) — disease guides + application checklist + tools tab: drug checker (calls `/api/tue/check`) and multi-step decision tool (route × in/out-of-competition × sport, powered by pure-function engine `frontend/src/utils/tueDecision.js`)
 - `ProhibitedList` (`/prohibited-list`) — reads local `frontend/src/data/prohibitedList.js` (not the API)
 - `Quiz` (`/quiz`) — reads local `frontend/src/data/quiz.js` (not the API)
 - `TestingProcess` (`/testing-process`), `News` (`/news`), `Resources` (`/resources`) — mostly static content pages
@@ -45,7 +45,7 @@ Shared: `components/Layout.jsx` (nav/footer wrapper), `components/ErrorBoundary.
 | `/api/cases/filters` | `casesFixed.js` | Distinct values for filter dropdowns |
 | `/api/stats/*` | `statsFixed.js` | MongoDB aggregation pipelines (yearly-trends, sport/substance/country/ban distributions) |
 | `/api/education/*` | `education.js` | Reads from JSON files, quiz answers via POST |
-| `/api/tue/*` | `tue.js` | Inline TUE content + POST `/tue/check` drug eligibility checker (30+ drugs) |
+| `/api/tue/*` | `tue.js` | Inline `tueContent` + `GET /tue/substances` (structured drug list from `substances.json`) + POST `/tue/check` drug eligibility checker (30 drugs, alias-aware, returns structured `prohibition`/`routes`/`tueEligible` fields) |
 | `/api/health` | `server.js` | Health check (used by zeabur.json) |
 
 ## Commands

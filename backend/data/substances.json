@@ -1,0 +1,479 @@
+{
+  "_meta": {
+    "description": "WADA 禁用物質查核單一來源（Single Source of Truth）。前端 TUE 藥物查詢與多步決策工具、後端 /api/tue/check 與 /api/tue/substances 皆讀此檔，切勿在前端重複硬編碼。",
+    "listVersion": "2026",
+    "prohibitionValues": {
+      "in-and-out": "全時段禁用（賽內與賽外皆禁）",
+      "in-competition": "僅賽內禁用（賽外允許）",
+      "sport-specific": "僅特定精準運動禁用（P1 Beta 阻斷劑）",
+      "monitored": "未列入禁用清單、屬監控計畫物質（一般允許）",
+      "not-prohibited": "未列入禁用清單（一般允許）"
+    },
+    "routeStatusValues": {
+      "permitted": "該途徑允許使用、無需 TUE",
+      "permitted-threshold": "該途徑允許但受劑量／濃度閾值限制",
+      "needs-tue": "該途徑須事先申請 TUE",
+      "prohibited": "該途徑禁用（實務上極少獲准 TUE）",
+      "monitored": "該途徑受監控"
+    },
+    "routeLabels": {
+      "inhaled": "吸入",
+      "oral": "口服",
+      "injection": "注射（關節內／肌腱周圍／肌肉／靜脈）",
+      "topical": "局部（皮膚／鼻／眼）",
+      "rectal": "直腸"
+    },
+    "disclaimer": "本清單僅供教育參考，實際比賽用藥合規性請以 WADA 官方禁用清單與 Global DRO（globaldro.com）查詢，並諮詢醫療與反禁藥專業人員。"
+  },
+  "substances": {
+    "salbutamol": {
+      "displayName": "Salbutamol 沙丁胺醇",
+      "aliases": ["albuterol", "沙丁胺醇", "舒喘寧"],
+      "wadaCode": "S3",
+      "categoryLabel": "S3: Beta-2 激動劑",
+      "prohibition": "in-and-out",
+      "needsTUE": false,
+      "tueEligible": true,
+      "routes": {
+        "inhaled": {
+          "status": "permitted-threshold",
+          "threshold": "24 小時內 ≤1600µg 且每 8 小時 ≤600µg",
+          "note": "尿液 >1000ng/mL 須以藥物動力學研究證明為治療劑量（決定限值 1200ng/mL）"
+        },
+        "oral": { "status": "needs-tue", "note": "口服劑型須申請 TUE" }
+      },
+      "sportRestricted": null,
+      "washout": null,
+      "note": "吸入劑在 24 小時內 ≤1600µg 且每 8 小時 ≤600µg 免 TUE；尿液 >1000ng/mL 須以藥動研究證明（決定限值 1200ng/mL）；口服劑型需 TUE"
+    },
+    "formoterol": {
+      "displayName": "Formoterol 福莫特羅",
+      "aliases": ["福莫特羅", "eformoterol"],
+      "wadaCode": "S3",
+      "categoryLabel": "S3: Beta-2 激動劑",
+      "prohibition": "in-and-out",
+      "needsTUE": false,
+      "tueEligible": true,
+      "routes": {
+        "inhaled": {
+          "status": "permitted-threshold",
+          "threshold": "24 小時內 ≤54µg",
+          "note": "吸入劑在 24 小時內 ≤54µg 免 TUE"
+        },
+        "oral": { "status": "needs-tue", "note": "口服 Beta-2 激動劑仍需 TUE" }
+      },
+      "sportRestricted": null,
+      "washout": null,
+      "note": "吸入劑在 24 小時內 ≤54µg 免 TUE；口服 Beta-2 激動劑仍需 TUE"
+    },
+    "salmeterol": {
+      "displayName": "Salmeterol 沙美特羅",
+      "aliases": ["沙美特羅"],
+      "wadaCode": "S3",
+      "categoryLabel": "S3: Beta-2 激動劑",
+      "prohibition": "in-and-out",
+      "needsTUE": false,
+      "tueEligible": true,
+      "routes": {
+        "inhaled": {
+          "status": "permitted-threshold",
+          "threshold": "24 小時內 ≤200µg 且每 8 小時 ≤100µg",
+          "note": "每 8 小時子上限為 2026 新規"
+        },
+        "oral": { "status": "needs-tue", "note": "口服 Beta-2 激動劑仍需 TUE" }
+      },
+      "sportRestricted": null,
+      "washout": null,
+      "note": "吸入劑在 24 小時內 ≤200µg 且每 8 小時 ≤100µg 免 TUE（每 8h 子上限為 2026 新規）；口服 Beta-2 激動劑仍需 TUE"
+    },
+    "vilanterol": {
+      "displayName": "Vilanterol 維蘭特羅",
+      "aliases": ["維蘭特羅"],
+      "wadaCode": "S3",
+      "categoryLabel": "S3: Beta-2 激動劑",
+      "prohibition": "in-and-out",
+      "needsTUE": false,
+      "tueEligible": true,
+      "routes": {
+        "inhaled": {
+          "status": "permitted-threshold",
+          "threshold": "24 小時內 ≤25µg",
+          "note": "吸入劑在 24 小時內 ≤25µg 免 TUE"
+        },
+        "oral": { "status": "needs-tue", "note": "口服 Beta-2 激動劑仍需 TUE" }
+      },
+      "sportRestricted": null,
+      "washout": null,
+      "note": "吸入劑在 24 小時內 ≤25µg 免 TUE"
+    },
+    "clenbuterol": {
+      "displayName": "Clenbuterol 克倫特羅",
+      "aliases": ["克倫特羅", "瘦肉精"],
+      "wadaCode": "S1.2",
+      "categoryLabel": "S1.2: 合成代謝劑（其他合成代謝劑）",
+      "prohibition": "in-and-out",
+      "needsTUE": false,
+      "tueEligible": false,
+      "routes": null,
+      "sportRestricted": null,
+      "washout": null,
+      "note": "全時段禁用（雖為 Beta-2 激動劑，WADA 歸類為 S1.2 其他合成代謝劑）；因難以符合核准條件，實務上極少獲准 TUE"
+    },
+    "insulin": {
+      "displayName": "Insulin 胰島素",
+      "aliases": ["胰島素"],
+      "wadaCode": "S4.4.2",
+      "categoryLabel": "S4.4.2: 激素與代謝調節劑（胰島素及胰島素模擬物）",
+      "prohibition": "in-and-out",
+      "needsTUE": true,
+      "tueEligible": true,
+      "routes": null,
+      "sportRestricted": null,
+      "washout": null,
+      "note": "全時段禁用；糖尿病等病患使用須事先申請 TUE"
+    },
+    "glucagon": {
+      "displayName": "Glucagon 升糖素",
+      "aliases": ["升糖素"],
+      "wadaCode": "none",
+      "categoryLabel": "未列入禁用清單",
+      "prohibition": "not-prohibited",
+      "needsTUE": false,
+      "tueEligible": true,
+      "routes": null,
+      "sportRestricted": null,
+      "washout": null,
+      "note": "升糖素（Glucagon）未被列入 WADA 禁用清單，一般允許使用"
+    },
+    "methylphenidate": {
+      "displayName": "Methylphenidate 派醋甲酯（利他能）",
+      "aliases": ["派醋甲酯", "利他能", "ritalin", "concerta"],
+      "wadaCode": "S6",
+      "categoryLabel": "S6: 興奮劑",
+      "prohibition": "in-competition",
+      "needsTUE": true,
+      "tueEligible": true,
+      "routes": null,
+      "sportRestricted": null,
+      "washout": null,
+      "note": "ADHD 患者可申請 TUE，僅比賽期間禁用"
+    },
+    "amphetamine": {
+      "displayName": "Amphetamine 安非他命",
+      "aliases": ["安非他命"],
+      "wadaCode": "S6",
+      "categoryLabel": "S6: 興奮劑",
+      "prohibition": "in-competition",
+      "needsTUE": true,
+      "tueEligible": true,
+      "routes": null,
+      "sportRestricted": null,
+      "washout": null,
+      "note": "ADHD 患者可申請 TUE，僅比賽期間禁用"
+    },
+    "modafinil": {
+      "displayName": "Modafinil 莫達非尼",
+      "aliases": ["莫達非尼"],
+      "wadaCode": "S6",
+      "categoryLabel": "S6: 興奮劑",
+      "prohibition": "in-competition",
+      "needsTUE": true,
+      "tueEligible": true,
+      "routes": null,
+      "sportRestricted": null,
+      "washout": null,
+      "note": "嗜睡症患者可申請 TUE"
+    },
+    "cocaine": {
+      "displayName": "Cocaine 古柯鹼",
+      "aliases": ["古柯鹼", "可卡因"],
+      "wadaCode": "S6",
+      "categoryLabel": "S6: 興奮劑（僅賽內禁用）",
+      "prohibition": "in-competition",
+      "needsTUE": false,
+      "tueEligible": false,
+      "routes": null,
+      "sportRestricted": null,
+      "washout": null,
+      "note": "僅賽內禁用；屬濫用物質（Substance of Abuse），若能證明賽外使用且與運動表現無關，制裁可減輕"
+    },
+    "pseudoephedrine": {
+      "displayName": "Pseudoephedrine 偽麻黃鹼",
+      "aliases": ["偽麻黃鹼", "偽麻黃素"],
+      "wadaCode": "S6",
+      "categoryLabel": "S6: 興奮劑",
+      "prohibition": "in-competition",
+      "needsTUE": false,
+      "tueEligible": true,
+      "routes": {
+        "oral": {
+          "status": "permitted-threshold",
+          "threshold": "尿液濃度 >150µg/mL 為陽性",
+          "note": "服用含偽麻黃鹼的感冒藥須注意劑量與停藥時間"
+        }
+      },
+      "sportRestricted": null,
+      "washout": null,
+      "note": "僅賽內禁用；尿液濃度 >150µg/mL 為陽性；服用含偽麻黃鹼的感冒藥須注意劑量與停藥時間"
+    },
+    "ephedrine": {
+      "displayName": "Ephedrine 麻黃鹼",
+      "aliases": ["麻黃鹼", "麻黃素"],
+      "wadaCode": "S6",
+      "categoryLabel": "S6: 興奮劑",
+      "prohibition": "in-competition",
+      "needsTUE": false,
+      "tueEligible": true,
+      "routes": {
+        "oral": {
+          "status": "permitted-threshold",
+          "threshold": "尿液濃度 >10µg/mL 為陽性"
+        }
+      },
+      "sportRestricted": null,
+      "washout": null,
+      "note": "僅賽內禁用；尿液濃度 >10µg/mL 為陽性"
+    },
+    "propranolol": {
+      "displayName": "Propranolol 普萘洛爾",
+      "aliases": ["普萘洛爾", "心得安", "inderal"],
+      "wadaCode": "P1",
+      "categoryLabel": "P1: Beta 阻斷劑",
+      "prohibition": "sport-specific",
+      "needsTUE": true,
+      "tueEligible": true,
+      "routes": null,
+      "sportRestricted": ["射箭", "射擊", "高爾夫", "飛鏢", "撞球", "汽車運動", "水下運動", "滑雪／雪板（部分項目）"],
+      "sportRestrictedOutOfComp": ["射箭", "射擊"],
+      "washout": null,
+      "note": "僅在特定精準運動項目賽內禁用（射箭、射擊亦賽外禁用）；於這些項目若有醫療需要須申請 TUE，其他運動項目一般允許"
+    },
+    "atenolol": {
+      "displayName": "Atenolol 阿替洛爾",
+      "aliases": ["阿替洛爾", "tenormin"],
+      "wadaCode": "P1",
+      "categoryLabel": "P1: Beta 阻斷劑",
+      "prohibition": "sport-specific",
+      "needsTUE": true,
+      "tueEligible": true,
+      "routes": null,
+      "sportRestricted": ["射箭", "射擊", "高爾夫", "飛鏢", "撞球", "汽車運動", "水下運動", "滑雪／雪板（部分項目）"],
+      "sportRestrictedOutOfComp": ["射箭", "射擊"],
+      "washout": null,
+      "note": "僅在特定精準運動項目賽內禁用（射箭、射擊亦賽外禁用）；於這些項目若有醫療需要須申請 TUE，其他運動項目一般允許"
+    },
+    "furosemide": {
+      "displayName": "Furosemide 呋塞米",
+      "aliases": ["呋塞米", "來適泄", "lasix"],
+      "wadaCode": "S5",
+      "categoryLabel": "S5: 利尿劑與遮蔽劑",
+      "prohibition": "in-and-out",
+      "needsTUE": true,
+      "tueEligible": true,
+      "routes": null,
+      "sportRestricted": null,
+      "washout": null,
+      "note": "全時段禁用（利尿劑可作為遮蔽劑）；心臟病等病患使用可申請 TUE"
+    },
+    "hydrochlorothiazide": {
+      "displayName": "Hydrochlorothiazide 氫氯噻嗪",
+      "aliases": ["氫氯噻嗪", "hctz"],
+      "wadaCode": "S5",
+      "categoryLabel": "S5: 利尿劑與遮蔽劑",
+      "prohibition": "in-and-out",
+      "needsTUE": true,
+      "tueEligible": true,
+      "routes": null,
+      "sportRestricted": null,
+      "washout": null,
+      "note": "全時段禁用（利尿劑可作為遮蔽劑）；高血壓等病患使用可申請 TUE"
+    },
+    "morphine": {
+      "displayName": "Morphine 嗎啡",
+      "aliases": ["嗎啡"],
+      "wadaCode": "S7",
+      "categoryLabel": "S7: 麻醉劑",
+      "prohibition": "in-competition",
+      "needsTUE": true,
+      "tueEligible": true,
+      "routes": null,
+      "sportRestricted": null,
+      "washout": null,
+      "note": "慢性疼痛患者可申請 TUE，僅比賽期間禁用"
+    },
+    "codeine": {
+      "displayName": "Codeine 可待因",
+      "aliases": ["可待因"],
+      "wadaCode": "none",
+      "categoryLabel": "未列入禁用清單（監控物質）",
+      "prohibition": "monitored",
+      "needsTUE": false,
+      "tueEligible": true,
+      "routes": null,
+      "sportRestricted": null,
+      "washout": null,
+      "note": "可待因（Codeine）未列入 WADA 禁用清單，屬監控計畫物質（賽內監控）；一般允許，惟高劑量使用受監控"
+    },
+    "tramadol": {
+      "displayName": "Tramadol 曲馬多",
+      "aliases": ["曲馬多", "tramal"],
+      "wadaCode": "S7",
+      "categoryLabel": "S7: 麻醉劑",
+      "prohibition": "in-competition",
+      "needsTUE": true,
+      "tueEligible": true,
+      "routes": null,
+      "sportRestricted": null,
+      "washout": null,
+      "note": "自 2024 年起賽內禁用；疼痛治療可申請 TUE，僅比賽期間禁用"
+    },
+    "prednisolone": {
+      "displayName": "Prednisolone 潑尼松龍",
+      "aliases": ["潑尼松龍", "prednisone", "潑尼松"],
+      "wadaCode": "S9",
+      "categoryLabel": "S9: 糖皮質激素",
+      "prohibition": "in-competition",
+      "needsTUE": true,
+      "tueEligible": true,
+      "routes": {
+        "oral": { "status": "needs-tue", "note": "賽內口服禁用，須申請 TUE" },
+        "rectal": { "status": "needs-tue", "note": "賽內直腸給藥禁用，須申請 TUE" },
+        "injection": { "status": "needs-tue", "note": "賽內注射（關節內／肌腱周圍／肌肉／靜脈）禁用，須申請 TUE" },
+        "inhaled": { "status": "permitted", "note": "吸入途徑允許" },
+        "topical": { "status": "permitted", "note": "皮膚／鼻／眼等局部途徑允許" }
+      },
+      "sportRestricted": null,
+      "washout": "口服約 3 天",
+      "note": "僅賽內禁用（口服、直腸及注射含關節內／肌腱周圍／肌肉／靜脈）；賽外任何途徑不禁、不需 TUE；賽內全身性使用須 TUE，口服 washout 約 3 天"
+    },
+    "dexamethasone": {
+      "displayName": "Dexamethasone 地塞米松",
+      "aliases": ["地塞米松", "decadron"],
+      "wadaCode": "S9",
+      "categoryLabel": "S9: 糖皮質激素",
+      "prohibition": "in-competition",
+      "needsTUE": true,
+      "tueEligible": true,
+      "routes": {
+        "oral": { "status": "needs-tue", "note": "賽內口服禁用，須申請 TUE" },
+        "rectal": { "status": "needs-tue", "note": "賽內直腸給藥禁用，須申請 TUE" },
+        "injection": { "status": "needs-tue", "note": "賽內注射（關節內／肌腱周圍／肌肉／靜脈）禁用，須申請 TUE" },
+        "inhaled": { "status": "permitted", "note": "吸入途徑允許" },
+        "topical": { "status": "permitted", "note": "鼻／眼／皮膚等局部途徑允許" }
+      },
+      "sportRestricted": null,
+      "washout": null,
+      "note": "僅賽內禁用（口服、直腸及注射，含關節內／肌腱周圍／肌肉／靜脈）；吸入／鼻／眼／皮膚等局部途徑允許；賽外不禁；賽內使用須 TUE"
+    },
+    "hydrocortisone": {
+      "displayName": "Hydrocortisone 氫化可體松",
+      "aliases": ["氫化可體松", "cortisol", "可體松"],
+      "wadaCode": "S9",
+      "categoryLabel": "S9: 糖皮質激素",
+      "prohibition": "in-competition",
+      "needsTUE": true,
+      "tueEligible": true,
+      "routes": {
+        "oral": { "status": "needs-tue", "note": "賽內口服禁用，須申請 TUE" },
+        "rectal": { "status": "needs-tue", "note": "賽內直腸給藥禁用，須申請 TUE" },
+        "injection": { "status": "needs-tue", "note": "賽內注射（關節內／肌腱周圍／肌肉／靜脈）禁用，須申請 TUE" },
+        "inhaled": { "status": "permitted", "note": "吸入途徑允許" },
+        "topical": { "status": "permitted", "note": "鼻／眼／皮膚等局部途徑允許" }
+      },
+      "sportRestricted": null,
+      "washout": null,
+      "note": "僅賽內禁用（口服、直腸及注射，含關節內／肌腱周圍／肌肉／靜脈）；吸入／鼻／眼／皮膚等局部途徑允許；賽外不禁"
+    },
+    "testosterone": {
+      "displayName": "Testosterone 睪固酮",
+      "aliases": ["睪固酮", "睾固酮", "testo"],
+      "wadaCode": "S1",
+      "categoryLabel": "S1: 合成代謝劑",
+      "prohibition": "in-and-out",
+      "needsTUE": false,
+      "tueEligible": false,
+      "routes": null,
+      "sportRestricted": null,
+      "washout": null,
+      "note": "全時段禁用；因難以符合 TUE 核准條件，實務上極少獲准（男性性腺功能低下等情況需嚴格審查）"
+    },
+    "nandrolone": {
+      "displayName": "Nandrolone 諾龍",
+      "aliases": ["諾龍", "南諾龍", "deca"],
+      "wadaCode": "S1",
+      "categoryLabel": "S1: 合成代謝劑",
+      "prohibition": "in-and-out",
+      "needsTUE": false,
+      "tueEligible": false,
+      "routes": null,
+      "sportRestricted": null,
+      "washout": null,
+      "note": "全時段禁用；因難以符合 TUE 核准條件，實務上極少獲准"
+    },
+    "paracetamol": {
+      "displayName": "Paracetamol 乙醯胺酚",
+      "aliases": ["乙醯胺酚", "acetaminophen", "普拿疼", "panadol"],
+      "wadaCode": "none",
+      "categoryLabel": "允許使用",
+      "prohibition": "not-prohibited",
+      "needsTUE": false,
+      "tueEligible": true,
+      "routes": null,
+      "sportRestricted": null,
+      "washout": null,
+      "note": "一般止痛藥，無需 TUE"
+    },
+    "ibuprofen": {
+      "displayName": "Ibuprofen 布洛芬",
+      "aliases": ["布洛芬", "advil", "nurofen"],
+      "wadaCode": "none",
+      "categoryLabel": "允許使用",
+      "prohibition": "not-prohibited",
+      "needsTUE": false,
+      "tueEligible": true,
+      "routes": null,
+      "sportRestricted": null,
+      "washout": null,
+      "note": "非類固醇抗發炎藥，無需 TUE"
+    },
+    "aspirin": {
+      "displayName": "Aspirin 阿斯匹靈",
+      "aliases": ["阿斯匹靈", "acetylsalicylic acid", "阿司匹林"],
+      "wadaCode": "none",
+      "categoryLabel": "允許使用",
+      "prohibition": "not-prohibited",
+      "needsTUE": false,
+      "tueEligible": true,
+      "routes": null,
+      "sportRestricted": null,
+      "washout": null,
+      "note": "一般解熱鎮痛藥，無需 TUE"
+    },
+    "cetirizine": {
+      "displayName": "Cetirizine 西替利嗪",
+      "aliases": ["西替利嗪", "zyrtec"],
+      "wadaCode": "none",
+      "categoryLabel": "允許使用",
+      "prohibition": "not-prohibited",
+      "needsTUE": false,
+      "tueEligible": true,
+      "routes": null,
+      "sportRestricted": null,
+      "washout": null,
+      "note": "抗組織胺，無需 TUE"
+    },
+    "loratadine": {
+      "displayName": "Loratadine 氯雷他定",
+      "aliases": ["氯雷他定", "claritin"],
+      "wadaCode": "none",
+      "categoryLabel": "允許使用",
+      "prohibition": "not-prohibited",
+      "needsTUE": false,
+      "tueEligible": true,
+      "routes": null,
+      "sportRestricted": null,
+      "washout": null,
+      "note": "抗組織胺，無需 TUE"
+    }
+  }
+}

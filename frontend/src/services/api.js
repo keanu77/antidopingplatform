@@ -51,6 +51,7 @@ export const tueAPI = {
   getApplicationGuide: () => api.get("/tue/application"),
   getDiseaseGuides: () => api.get("/tue/diseases"),
   getTools: () => api.get("/tue/tools"),
+  getSubstances: () => api.get("/tue/substances"),
   checkDrugTUE: (drugName) => api.post("/tue/check", { drugName }),
 };
 

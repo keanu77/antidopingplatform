@@ -271,175 +271,8 @@ const tueContent = {
 };
 
 // WADA禁藥數據庫 (簡化版)
-const wadaSubstances = {
-  // Beta-2激動劑
-  salbutamol: {
-    needsTUE: false,
-    category: "S3: Beta-2激動劑",
-    note: "吸入劑在24小時內≤1600µg且每8小時≤600µg免TUE；尿液>1000ng/mL須以藥動研究證明（決定限值1200ng/mL）；口服劑型需TUE",
-  },
-  formoterol: {
-    needsTUE: false,
-    category: "S3: Beta-2激動劑",
-    note: "吸入劑在24小時內≤54µg免TUE；口服Beta-2激動劑仍需TUE",
-  },
-  clenbuterol: {
-    needsTUE: false,
-    category: "S1.2: 合成代謝劑（其他合成代謝劑）",
-    note: "全時段禁用（雖為Beta-2激動劑，WADA歸類為S1.2其他合成代謝劑）；因難以符合核准條件，實務上極少獲准TUE",
-  },
-  salmeterol: {
-    needsTUE: false,
-    category: "S3: Beta-2激動劑",
-    note: "吸入劑在24小時內≤200µg且每8小時≤100µg免TUE（每8h子上限為2026新規）；口服Beta-2激動劑仍需TUE",
-  },
-  vilanterol: {
-    needsTUE: false,
-    category: "S3: Beta-2激動劑",
-    note: "吸入劑在24小時內≤25µg免TUE",
-  },
-
-  // 胰島素
-  insulin: {
-    needsTUE: true,
-    category: "S4.4.2: 激素與代謝調節劑（胰島素及胰島素模擬物）",
-    note: "全時段禁用；糖尿病等病患使用須事先申請TUE",
-  },
-  glucagon: {
-    needsTUE: false,
-    category: "未列入禁用清單",
-    note: "升糖素(Glucagon)未被列入WADA禁用清單，一般允許使用",
-  },
-
-  // 興奮劑
-  methylphenidate: {
-    needsTUE: true,
-    category: "S6: 興奮劑",
-    note: "ADHD患者可申請TUE，僅比賽期間禁用",
-  },
-  amphetamine: {
-    needsTUE: true,
-    category: "S6: 興奮劑",
-    note: "ADHD患者可申請TUE，僅比賽期間禁用",
-  },
-  modafinil: {
-    needsTUE: true,
-    category: "S6: 興奮劑",
-    note: "嗜睡症患者可申請TUE",
-  },
-  cocaine: {
-    needsTUE: false,
-    category: "S6: 興奮劑（僅賽內禁用）",
-    note: "僅賽內禁用；屬濫用物質(Substance of Abuse)，若能證明賽外使用且與運動表現無關，制裁可減輕",
-  },
-  pseudoephedrine: {
-    needsTUE: false,
-    category: "S6: 興奮劑",
-    note: "僅賽內禁用；尿液濃度>150µg/mL為陽性；服用含偽麻黃鹼的感冒藥須注意劑量與停藥時間",
-  },
-  ephedrine: {
-    needsTUE: false,
-    category: "S6: 興奮劑",
-    note: "僅賽內禁用；尿液濃度>10µg/mL為陽性",
-  },
-
-  // Beta阻斷劑
-  propranolol: {
-    needsTUE: true,
-    category: "P1: Beta阻斷劑",
-    note: "僅在特定精準運動項目中需要TUE",
-  },
-  atenolol: {
-    needsTUE: true,
-    category: "P1: Beta阻斷劑",
-    note: "僅在特定精準運動項目中需要TUE",
-  },
-
-  // 利尿劑
-  furosemide: {
-    needsTUE: true,
-    category: "S5: 利尿劑",
-    note: "心臟病患者可申請TUE",
-  },
-  hydrochlorothiazide: {
-    needsTUE: true,
-    category: "S5: 利尿劑",
-    note: "高血壓患者可申請TUE",
-  },
-
-  // 麻醉劑
-  morphine: {
-    needsTUE: true,
-    category: "S7: 麻醉劑",
-    note: "慢性疼痛患者可申請TUE，僅比賽期間禁用",
-  },
-  codeine: {
-    needsTUE: false,
-    category: "未列入禁用清單（監控物質）",
-    note: "可待因(Codeine)未列入WADA禁用清單，屬監控計畫物質（賽內監控）；一般允許，惟高劑量使用受監控",
-  },
-  tramadol: {
-    needsTUE: true,
-    category: "S7: 麻醉劑",
-    note: "疼痛治療可申請TUE，僅比賽期間禁用",
-  },
-
-  // 糖皮質激素
-  prednisolone: {
-    needsTUE: true,
-    category: "S9: 糖皮質激素",
-    note: "僅賽內禁用（口服、直腸及注射含關節內/肌腱周圍/肌肉/靜脈）；賽外任何途徑不禁、不需TUE；賽內使用須TUE，口服washout約3天",
-  },
-  dexamethasone: {
-    needsTUE: true,
-    category: "S9: 糖皮質激素",
-    note: "僅賽內禁用（口服、直腸及注射，含關節內/肌腱周圍/肌肉/靜脈）；吸入/鼻/眼/皮膚等局部途徑允許；賽外不禁；賽內使用須TUE",
-  },
-  hydrocortisone: {
-    needsTUE: true,
-    category: "S9: 糖皮質激素",
-    note: "僅賽內禁用（口服、直腸及注射，含關節內/肌腱周圍/肌肉/靜脈）；吸入/鼻/眼/皮膚等局部途徑允許；賽外不禁",
-  },
-
-  // 合成代謝劑
-  testosterone: {
-    needsTUE: false,
-    category: "S1: 合成代謝劑",
-    note: "全時段禁用；因難以符合TUE核准條件，實務上極少獲准（男性性腺功能低下等情況需嚴格審查）",
-  },
-  nandrolone: {
-    needsTUE: false,
-    category: "S1: 合成代謝劑",
-    note: "全時段禁用；因難以符合TUE核准條件，實務上極少獲准",
-  },
-
-  // 一般允許的藥物
-  paracetamol: {
-    needsTUE: false,
-    category: "允許使用",
-    note: "一般止痛藥，無需TUE",
-  },
-  ibuprofen: {
-    needsTUE: false,
-    category: "允許使用",
-    note: "非類固醇抗發炎藥，無需TUE",
-  },
-  aspirin: {
-    needsTUE: false,
-    category: "允許使用",
-    note: "一般解熱鎮痛藥，無需TUE",
-  },
-  cetirizine: {
-    needsTUE: false,
-    category: "允許使用",
-    note: "抗組織胺，無需TUE",
-  },
-  loratadine: {
-    needsTUE: false,
-    category: "允許使用",
-    note: "抗組織胺，無需TUE",
-  },
-};
+const substancesData = require("../data/substances.json");
+const wadaSubstances = substancesData.substances;
 
 // Get all TUE content
 router.get("/", (req, res) => {
@@ -466,6 +299,27 @@ router.get("/tools", (req, res) => {
   res.json(tueContent.tools);
 });
 
+// Get full structured substance list (single source of truth for
+// the front-end drug checker and multi-step decision tool)
+router.get("/substances", (req, res) => {
+  res.json(substancesData);
+});
+
+// 依標準鍵、別名或顯示名（小寫精確比對）查找物質；找不到回 null
+function lookupSubstance(query) {
+  const q = query.toLowerCase().trim();
+  if (wadaSubstances[q]) return { key: q, info: wadaSubstances[q] };
+
+  for (const [key, info] of Object.entries(wadaSubstances)) {
+    const aliases = (info.aliases || []).map((a) => String(a).toLowerCase());
+    const display = (info.displayName || "").toLowerCase();
+    if (aliases.includes(q) || display === q) {
+      return { key, info };
+    }
+  }
+  return null;
+}
+
 // Drug TUE check
 router.post("/check", (req, res) => {
   const { drugName } = req.body;
@@ -479,20 +333,30 @@ router.post("/check", (req, res) => {
     return res.status(400).json({ error: "藥物名稱過長或格式不正確" });
   }
 
-  const normalizedDrugName = drugName.toLowerCase().trim();
-  const drugInfo = wadaSubstances[normalizedDrugName];
+  const match = lookupSubstance(drugName);
 
-  if (drugInfo) {
+  if (match) {
+    const { key, info } = match;
     res.json({
       drugName: drugName,
-      needsTUE: drugInfo.needsTUE,
-      wadaCategory: drugInfo.category,
-      explanation: drugInfo.note,
+      matchedKey: key,
+      displayName: info.displayName,
+      needsTUE: info.needsTUE,
+      wadaCode: info.wadaCode,
+      // 向後相容欄位名（wadaCategory / explanation）
+      wadaCategory: info.categoryLabel,
+      prohibition: info.prohibition,
+      tueEligible: info.tueEligible,
+      routes: info.routes,
+      sportRestricted: info.sportRestricted,
+      washout: info.washout,
+      explanation: info.note,
     });
   } else {
     // 未找到藥物資訊
     res.json({
       drugName: drugName,
+      matchedKey: null,
       needsTUE: null,
       wadaCategory: "未知",
       explanation: `未找到 "${drugName}" 的資訊。建議：1) 檢查藥物名稱是否正確 2) 諮詢醫療專業人員 3) 查閱最新WADA禁用清單 4) 聯繫相關反禁藥組織確認`,

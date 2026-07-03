@@ -14,59 +14,132 @@ import {
   ExternalLink,
   Users,
   Calendar,
+  Pill,
+  XCircle,
 } from "lucide-react";
+import { tueAPI } from "../services/api";
+import {
+  evaluateDrug,
+  availableRoutes,
+  requiresSport,
+  requiresCompetitionContext,
+  ROUTE_LABELS,
+  VERDICT_META,
+} from "../utils/tueDecision";
+
+// 判定 tone → Tailwind 色票與圖示（決策工具與查詢結果共用）
+const VERDICT_STYLE = {
+  green: {
+    box: "bg-green-50 border-green-200",
+    text: "text-green-800",
+    Icon: CheckCircle,
+  },
+  amber: {
+    box: "bg-amber-50 border-amber-200",
+    text: "text-amber-800",
+    Icon: AlertTriangle,
+  },
+  orange: {
+    box: "bg-orange-50 border-orange-200",
+    text: "text-orange-800",
+    Icon: AlertTriangle,
+  },
+  red: { box: "bg-red-50 border-red-200", text: "text-red-800", Icon: XCircle },
+  blue: {
+    box: "bg-blue-50 border-blue-200",
+    text: "text-blue-800",
+    Icon: Info,
+  },
+  gray: {
+    box: "bg-gray-50 border-gray-200",
+    text: "text-gray-700",
+    Icon: HelpCircle,
+  },
+};
+
+// 由 /api/tue/check 的回傳推導單筆查詢的判定 tone（供結果卡著色）
+function checkResultVerdict(r) {
+  if (!r || r.matchedKey === null || r.needsTUE === null) return "unknown";
+  if (r.needsTUE === true) return "needs-tue";
+  if (r.prohibition === "monitored") return "monitored";
+  if (r.prohibition === "not-prohibited") return "permitted";
+  // 僅賽內禁用（如偽麻黃鹼、古柯鹼）：徽章須與「僅賽內禁用」說明一致，
+  // 不可因 needsTUE=false 就顯示綠色「允許」。
+  if (r.prohibition === "in-competition") return "in-competition";
+  if (r.tueEligible === false) return "prohibited";
+  return "permitted";
+}
 
 function TUE() {
   const [activeTab, setActiveTab] = useState("basic");
+
+  // P1-10 單筆藥物查詢（改打 /api/tue/check，資料單一來源自 substances.json）
   const [drugCheckQuery, setDrugCheckQuery] = useState("");
   const [drugCheckResult, setDrugCheckResult] = useState(null);
+  const [drugCheckLoading, setDrugCheckLoading] = useState(false);
+  const [drugCheckError, setDrugCheckError] = useState(null);
+
+  // P1-11 多步決策工具（藥物 × 途徑 × 賽內外 × 運動項目）
+  const [substances, setSubstances] = useState(null);
+  const [substancesError, setSubstancesError] = useState(null);
+  const [decisionKey, setDecisionKey] = useState("");
+  const [decisionRoute, setDecisionRoute] = useState("");
+  const [decisionInComp, setDecisionInComp] = useState(true);
+  const [decisionSport, setDecisionSport] = useState("");
 
   useEffect(() => {
     document.title = "TUE 治療用途豁免指南 | 乾淨運動從你我開始";
   }, []);
 
-  const handleDrugCheck = () => {
+  // 載入結構化物質清單（供決策工具與下拉選單），只需一次
+  useEffect(() => {
+    let active = true;
+    tueAPI
+      .getSubstances()
+      .then((res) => {
+        if (active) setSubstances(res.data?.substances || {});
+      })
+      .catch(() => {
+        if (active) setSubstancesError("無法載入物質清單，請稍後再試");
+      });
+    return () => {
+      active = false;
+    };
+  }, []);
+
+  const handleDrugCheck = async () => {
     if (!drugCheckQuery.trim()) return;
-
-    // 簡單的藥物查詢邏輯（實際應用中應連接到專業資料庫）
-    const query = drugCheckQuery.toLowerCase().trim();
-
-    const prohibitedDrugs = {
-      methylphenidate: {
-        needsTUE: true,
-        category: "S6: 興奮劑",
-        explanation: "ADHD治療用藥，需要申請TUE",
-      },
-      salbutamol: {
-        needsTUE: false,
-        category: "S3: Beta-2激動劑",
-        explanation:
-          "吸入型在24小時內≤1600µg且每8小時≤600µg免TUE；尿液>1000ng/mL須以藥動研究證明（決定限值1200ng/mL）；口服劑型需TUE",
-      },
-      testosterone: {
-        needsTUE: true,
-        category: "S1: 合成代謝劑",
-        explanation: "激素替代治療需要嚴格的TUE申請",
-      },
-      insulin: {
-        needsTUE: true,
-        category: "S4.4.2: 代謝調節劑（胰島素）",
-        explanation: "胰島素屬全時段禁用物質，糖尿病等病患使用須事先申請TUE",
-      },
-      prednisolone: {
-        needsTUE: true,
-        category: "S9: 糖皮質激素",
-        explanation: "全身性類固醇需要TUE申請",
-      },
-    };
-
-    const result = prohibitedDrugs[query] || {
-      needsTUE: null,
-      explanation: "未找到該藥物資訊，請諮詢醫療專業人員或查詢WADA禁藥清單",
-    };
-
-    setDrugCheckResult(result);
+    setDrugCheckLoading(true);
+    setDrugCheckError(null);
+    try {
+      const res = await tueAPI.checkDrugTUE(drugCheckQuery.trim());
+      setDrugCheckResult(res.data);
+    } catch {
+      setDrugCheckError("查詢失敗，請檢查網路連線後再試");
+      setDrugCheckResult(null);
+    } finally {
+      setDrugCheckLoading(false);
+    }
   };
+
+  // 切換藥物時重置途徑／運動選擇，避免殘留前一個藥的選項
+  const handleDecisionDrugChange = (key) => {
+    setDecisionKey(key);
+    setDecisionRoute("");
+    setDecisionSport("");
+  };
+
+  // 決策工具當前選中的物質與即時判定
+  const decisionSubstance =
+    decisionKey && substances ? substances[decisionKey] : null;
+  const decisionRoutes = availableRoutes(decisionSubstance);
+  const decisionResult = decisionSubstance
+    ? evaluateDrug(decisionSubstance, {
+        route: decisionRoute || null,
+        inCompetition: decisionInComp,
+        sport: decisionSport || null,
+      })
+    : null;
 
   return (
     <div>
@@ -1340,6 +1413,252 @@ function TUE() {
       {/* Tools Tab */}
       {activeTab === "tools" && (
         <div className="space-y-6">
+          {/* P1-10 藥物 TUE 快速查詢（資料來源：/api/tue/check，單一來源 substances.json） */}
+          <div className="bg-white rounded-lg shadow-lg p-6">
+            <div className="flex items-center mb-2">
+              <Search className="h-6 w-6 text-primary-600 mr-3" />
+              <h3 className="text-xl font-bold text-gray-900">
+                藥物 TUE 快速查詢
+              </h3>
+            </div>
+            <p className="text-sm text-gray-600 mb-4">
+              輸入藥物名稱（中英文皆可，如 salbutamol、胰島素、利他能），查詢
+              WADA 分類與是否需要 TUE。
+            </p>
+            <div className="flex gap-2">
+              <input
+                type="text"
+                value={drugCheckQuery}
+                onChange={(e) => setDrugCheckQuery(e.target.value)}
+                onKeyDown={(e) => e.key === "Enter" && handleDrugCheck()}
+                placeholder="輸入藥物名稱後按查詢"
+                aria-label="藥物名稱"
+                className="flex-1 px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-primary-500"
+              />
+              <button
+                onClick={handleDrugCheck}
+                disabled={drugCheckLoading || !drugCheckQuery.trim()}
+                className="px-6 py-2 bg-primary-600 text-white rounded-lg font-medium hover:bg-primary-700 transition disabled:opacity-50 disabled:cursor-not-allowed"
+              >
+                {drugCheckLoading ? "查詢中…" : "查詢"}
+              </button>
+            </div>
+
+            {drugCheckError && (
+              <p className="mt-3 text-sm text-red-600">{drugCheckError}</p>
+            )}
+
+            {drugCheckResult &&
+              !drugCheckError &&
+              (() => {
+                const verdict = checkResultVerdict(drugCheckResult);
+                const meta = VERDICT_META[verdict];
+                const style = VERDICT_STYLE[meta.tone];
+                const { Icon } = style;
+                return (
+                  <div
+                    className={`mt-4 rounded-lg border p-4 ${style.box}`}
+                    role="status"
+                  >
+                    <div
+                      className={`flex items-center font-bold ${style.text}`}
+                    >
+                      <Icon className="h-5 w-5 mr-2 flex-shrink-0" />
+                      {drugCheckResult.displayName || drugCheckResult.drugName}
+                      <span className="ml-2">— {meta.label}</span>
+                    </div>
+                    <p className="mt-2 text-sm text-gray-700">
+                      分類：{drugCheckResult.wadaCategory}
+                    </p>
+                    <p className="mt-1 text-sm text-gray-700">
+                      {drugCheckResult.explanation}
+                    </p>
+                  </div>
+                );
+              })()}
+          </div>
+
+          {/* P1-11 多步決策工具（途徑 × 賽內外 × 運動項目） */}
+          <div className="bg-white rounded-lg shadow-lg p-6">
+            <div className="flex items-center mb-2">
+              <Pill className="h-6 w-6 text-primary-600 mr-3" />
+              <h3 className="text-xl font-bold text-gray-900">
+                這個藥要不要 TUE？— 多步決策工具
+              </h3>
+            </div>
+            <p className="text-sm text-gray-600 mb-4">
+              依「給藥途徑 × 賽內／賽外 ×
+              運動項目」逐步判定。同一藥物在不同條件下結果可能不同（如糖皮質激素賽內注射需
+              TUE、吸入允許）。
+            </p>
+
+            {substancesError && (
+              <p className="text-sm text-red-600">{substancesError}</p>
+            )}
+            {!substances && !substancesError && (
+              <p className="text-sm text-gray-500">載入物質清單中…</p>
+            )}
+
+            {substances && (
+              <div className="space-y-4">
+                {/* 步驟 1：選藥物 */}
+                <div>
+                  <label className="block text-sm font-medium text-gray-700 mb-1">
+                    選擇藥物
+                  </label>
+                  <select
+                    value={decisionKey}
+                    onChange={(e) => handleDecisionDrugChange(e.target.value)}
+                    className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500"
+                  >
+                    <option value="">請選擇藥物</option>
+                    {Object.entries(substances)
+                      .sort((a, b) =>
+                        a[1].displayName.localeCompare(
+                          b[1].displayName,
+                          "zh-Hant",
+                        ),
+                      )
+                      .map(([key, info]) => (
+                        <option key={key} value={key}>
+                          {info.displayName}（{info.categoryLabel}）
+                        </option>
+                      ))}
+                  </select>
+                </div>
+
+                {/* 步驟 2：給藥途徑（僅有途徑差異的藥顯示） */}
+                {decisionSubstance && decisionRoutes.length > 0 && (
+                  <div>
+                    <label className="block text-sm font-medium text-gray-700 mb-1">
+                      給藥途徑
+                    </label>
+                    <select
+                      value={decisionRoute}
+                      onChange={(e) => setDecisionRoute(e.target.value)}
+                      className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500"
+                    >
+                      <option value="">請選擇給藥途徑</option>
+                      {decisionRoutes.map((rk) => (
+                        <option key={rk} value={rk}>
+                          {ROUTE_LABELS[rk] || rk}
+                        </option>
+                      ))}
+                    </select>
+                  </div>
+                )}
+
+                {/* 步驟 3：賽內／賽外（僅賽內或全時段禁用的藥顯示） */}
+                {decisionSubstance &&
+                  requiresCompetitionContext(decisionSubstance) && (
+                    <div>
+                      <label className="block text-sm font-medium text-gray-700 mb-1">
+                        使用時機（賽內／賽外）
+                      </label>
+                      <div className="flex gap-2">
+                        <button
+                          type="button"
+                          onClick={() => setDecisionInComp(true)}
+                          className={`flex-1 px-4 py-2 rounded-lg font-medium border transition ${
+                            decisionInComp
+                              ? "bg-primary-600 text-white border-primary-600"
+                              : "bg-white text-gray-600 border-gray-300 hover:bg-gray-50"
+                          }`}
+                        >
+                          賽內（比賽期間）
+                        </button>
+                        <button
+                          type="button"
+                          onClick={() => setDecisionInComp(false)}
+                          className={`flex-1 px-4 py-2 rounded-lg font-medium border transition ${
+                            !decisionInComp
+                              ? "bg-primary-600 text-white border-primary-600"
+                              : "bg-white text-gray-600 border-gray-300 hover:bg-gray-50"
+                          }`}
+                        >
+                          賽外（訓練期間）
+                        </button>
+                      </div>
+                    </div>
+                  )}
+
+                {/* 步驟 4：運動項目（僅 P1 Beta 阻斷劑顯示） */}
+                {decisionSubstance && requiresSport(decisionSubstance) && (
+                  <div>
+                    <label className="block text-sm font-medium text-gray-700 mb-1">
+                      運動項目
+                    </label>
+                    <select
+                      value={decisionSport}
+                      onChange={(e) => setDecisionSport(e.target.value)}
+                      className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500"
+                    >
+                      <option value="">請選擇運動項目</option>
+                      {(decisionSubstance.sportRestricted || []).map((sp) => (
+                        <option key={sp} value={sp}>
+                          {sp}
+                        </option>
+                      ))}
+                      <option value="其他運動項目">
+                        其他運動項目（非精準運動）
+                      </option>
+                    </select>
+                  </div>
+                )}
+
+                {/* 判定結果 */}
+                {decisionResult && (
+                  <div
+                    className={`rounded-lg border p-4 ${VERDICT_STYLE[VERDICT_META[decisionResult.verdict].tone].box}`}
+                    role="status"
+                  >
+                    {(() => {
+                      const meta = VERDICT_META[decisionResult.verdict];
+                      const style = VERDICT_STYLE[meta.tone];
+                      const { Icon } = style;
+                      return (
+                        <div
+                          className={`flex items-center font-bold text-lg ${style.text}`}
+                        >
+                          <Icon className="h-6 w-6 mr-2 flex-shrink-0" />
+                          {meta.label}
+                        </div>
+                      );
+                    })()}
+                    <ul className="mt-2 space-y-1 text-sm text-gray-700 list-disc list-inside">
+                      {decisionResult.reasons.map((r, i) => (
+                        <li key={i}>{r}</li>
+                      ))}
+                    </ul>
+                    {decisionResult.threshold && (
+                      <p className="mt-2 text-sm font-medium text-gray-800">
+                        閾值：{decisionResult.threshold}
+                      </p>
+                    )}
+                    {decisionResult.washout && (
+                      <p className="mt-1 text-sm font-medium text-gray-800">
+                        停藥（washout）參考：{decisionResult.washout}
+                      </p>
+                    )}
+                  </div>
+                )}
+
+                <p className="text-xs text-gray-500 border-t pt-3">
+                  本工具僅供教育參考，實際比賽用藥合規性請以 WADA 官方禁用清單與{" "}
+                  <a
+                    href="https://www.globaldro.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-primary-600 underline"
+                  >
+                    Global DRO
+                  </a>{" "}
+                  查詢，並諮詢醫療與反禁藥專業人員。
+                </p>
+              </div>
+            )}
+          </div>
+
           {/* Application Checklist */}
           <div className="bg-white rounded-lg shadow-lg p-6">
             <div className="flex items-center mb-6">
