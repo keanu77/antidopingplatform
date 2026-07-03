@@ -40,7 +40,8 @@ function TUE() {
       salbutamol: {
         needsTUE: false,
         category: "S3: Beta-2激動劑",
-        explanation: "吸入型允許使用，但有濃度限制",
+        explanation:
+          "吸入型在24小時內≤1600µg且每8小時≤600µg免TUE；尿液>1000ng/mL須以藥動研究證明（決定限值1200ng/mL）；口服劑型需TUE",
       },
       testosterone: {
         needsTUE: true,
@@ -48,9 +49,9 @@ function TUE() {
         explanation: "激素替代治療需要嚴格的TUE申請",
       },
       insulin: {
-        needsTUE: false,
-        category: "允許使用",
-        explanation: "胰島素不在禁藬清單中",
+        needsTUE: true,
+        category: "S4.4.2: 代謝調節劑（胰島素）",
+        explanation: "胰島素屬全時段禁用物質，糖尿病等病患使用須事先申請TUE",
       },
       prednisolone: {
         needsTUE: true,
@@ -61,7 +62,7 @@ function TUE() {
 
     const result = prohibitedDrugs[query] || {
       needsTUE: null,
-      explanation: "未找到該藥物資訊，請諮詢醫療專業人員或查詢WADA禁薬清單",
+      explanation: "未找到該藥物資訊，請諮詢醫療專業人員或查詢WADA禁藥清單",
     };
 
     setDrugCheckResult(result);
@@ -166,12 +167,12 @@ function TUE() {
                   TUE核准標準
                 </h3>
                 <p className="text-gray-700 leading-relaxed mb-4">
-                  以下核可條件皆須符合，方能取得核可：
+                  依2023年ISTUE第4.2條，以下四項核可條件皆須同時符合，方能取得核可：
                 </p>
                 <div className="space-y-4">
                   <div className="border-l-4 border-green-300 pl-4">
                     <h4 className="font-semibold text-gray-900">
-                      1. 清楚的醫療診斷
+                      1. 清楚的醫療診斷（ISTUE 4.2a）
                     </h4>
                     <p className="text-gray-700">
                       運動員有清楚的醫療診斷，治療該疾病/症狀必須使用禁用物質或方法
@@ -179,23 +180,23 @@ function TUE() {
                   </div>
                   <div className="border-l-4 border-green-300 pl-4">
                     <h4 className="font-semibold text-gray-900">
-                      2. 不會重大提升運動表現
+                      2. 不會額外提升運動表現（ISTUE 4.2b）
                     </h4>
                     <p className="text-gray-700">
-                      治療用的物質或方法將不會重大地提升運動員表現，使其超出正常健康狀況下之運動表現
+                      依機率權衡，治療用的物質或方法將不會產生超出回復正常健康狀態的額外運動表現提升
                     </p>
                   </div>
                   <div className="border-l-4 border-green-300 pl-4">
                     <h4 className="font-semibold text-gray-900">
-                      3. 無其他合理替代方法
+                      3. 無其他合理替代方法（ISTUE 4.2c）
                     </h4>
                     <p className="text-gray-700">
-                      除了該禁用物質或方法之外，沒有其他合理可行的治療替代方法
+                      除了該禁用物質或方法之外，沒有其他合理可行的治療替代方法（不以先試用其他方法並失敗為要件）
                     </p>
                   </div>
                   <div className="border-l-4 border-green-300 pl-4">
                     <h4 className="font-semibold text-gray-900">
-                      4. 非基於先前違規使用
+                      4. 非基於先前違規使用（ISTUE 4.2d）
                     </h4>
                     <p className="text-gray-700">
                       必須使用該禁用物質或方法的原因，不得為用於治療先前違規使用禁用物質或方法所致之疾患
@@ -335,7 +336,8 @@ function TUE() {
                   <li className="flex items-start">
                     <CheckCircle className="h-5 w-5 text-green-600 mr-2 mt-0.5 flex-shrink-0" />
                     <span className="text-gray-700">
-                      審查結果原則上將於收到完整申請資料起21天內通知
+                      審查結果原則上將於收到完整申請資料起21個日曆天(calendar
+                      days)內通知
                     </span>
                   </li>
                   <li className="flex items-start">
@@ -384,7 +386,7 @@ function TUE() {
                   <li>• 原則上：使用禁用物質前申請</li>
                   <li>• 至少比賽前30天提出申請</li>
                   <li>• 緊急醫療情況可事後申請</li>
-                  <li>• 審查委員會21天內回覆</li>
+                  <li>• 審查委員會21個日曆天內回覆</li>
                 </ul>
               </div>
             </div>
@@ -469,7 +471,7 @@ function TUE() {
                     等待審查結果
                   </h4>
                   <p className="text-gray-700">
-                    審查委員會將在21天內完成審查並通知結果
+                    審查委員會將在21個日曆天內完成審查並通知結果
                   </p>
                 </div>
               </div>

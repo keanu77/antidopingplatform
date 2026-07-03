@@ -42,7 +42,7 @@
     "description": "影響生長、細胞分裂和再生的天然或合成肽類物質。",
     "mechanism": "刺激生長激素釋放、增加紅血球生成、促進組織修復和肌肉生長。",
     "risks": "關節疼痛、糖尿病風險、心臟肥大、血栓、中風",
-    "examples": "EPO、生長激素(HGH)、IGF-1、胰島素、促性腺激素",
+    "examples": "EPO、生長激素(HGH)、IGF-1、促性腺激素",
     "detectability": "血液檢測較準確，部分物質檢測窗口較短",
     "icon": "📈",
     "prohibitionType": "永久禁用",
@@ -55,7 +55,7 @@
       {
         "code": "S2.2",
         "name": "肽類激素和釋放因子",
-        "examples": "生長激素(HGH)、IGF-1、胰島素、HCG"
+        "examples": "生長激素(HGH)、IGF-1、HCG"
       },
       {
         "code": "S2.3",
@@ -74,8 +74,8 @@
     "examples": "Clenbuterol、Salbutamol、Terbutaline、Formoterol",
     "detectability": "尿液檢測，某些物質有劑量閾值限制",
     "icon": "🫁",
-    "prohibitionType": "永久禁用(除特殊TUE情況)",
-    "note": "Salbutamol等特定物質在規定劑量下可通過TUE使用"
+    "prohibitionType": "全時段禁用（吸入劑有劑量閾值豁免）",
+    "note": "吸入型Salbutamol（≤1600µg/24h且每8h≤600µg）、Formoterol（≤54µg/24h）、Salmeterol（≤200µg/24h）、Vilanterol（≤25µg/24h）在劑量閾值內免TUE；Terbutaline及口服Beta-2激動劑需TUE"
   },
   {
     "id": 5,
@@ -84,7 +84,7 @@
     "description": "影響激素平衡和新陳代謝的物質和方法。",
     "mechanism": "調節激素水平、影響脂肪代謝、調節血糖、改善心血管功能。",
     "risks": "激素失調、肝功能異常、心血管疾病、血糖異常",
-    "examples": "Meldonium、芳香酶抑制劑、抗雌激素物質、代謝調節劑",
+    "examples": "Meldonium、芳香酶抑制劑、抗雌激素物質、胰島素(Insulin)、代謝調節劑",
     "detectability": "檢測方法日益完善，代謝調節劑檢測期較長",
     "icon": "⚖️",
     "prohibitionType": "永久禁用",
@@ -93,6 +93,11 @@
         "code": "S4.4",
         "name": "代謝調節劑",
         "examples": "Meldonium、GW1516、SR9009"
+      },
+      {
+        "code": "S4.4.2",
+        "name": "胰島素及胰島素模擬物",
+        "examples": "Insulin（胰島素）、insulin-mimetics"
       }
     ]
   },

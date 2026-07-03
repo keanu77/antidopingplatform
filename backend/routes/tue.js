@@ -19,12 +19,13 @@ const tueContent = {
     {
       id: 2,
       title: "TUE申請的基本條件",
-      content: "運動員申請TUE必須同時滿足以下四個條件，缺一不可：",
+      content:
+        "依2023年國際治療用途豁免標準(ISTUE)第4.2條，運動員申請TUE必須同時滿足以下四個條件，缺一不可：",
       points: [
-        "該物質/方法對治療運動員的急性或慢性疾病具有醫療必需性",
-        "停止使用該物質/方法可能對運動員的健康產生重大不利影響",
-        "使用該物質/方法不會產生超出治療所需的額外運動表現提升效果",
-        "沒有合理的替代治療方法",
+        "(a) 該禁用物質/方法用於治療已診斷之醫療狀況，且有相關臨床證據支持",
+        "(b) 依機率權衡，治療用途不會產生超出回復正常健康狀態的額外運動表現提升",
+        "(c) 沒有合理的替代治療方法（不以先試用其他方法並失敗為要件）",
+        "(d) 使用該物質/方法的必要性，並非先前未經TUE使用禁用物質/方法之後果",
       ],
     },
     {
@@ -43,10 +44,10 @@ const tueContent = {
       title: "申請時機與期限",
       content: "TUE申請有明確的時間要求，運動員應提前規劃：",
       points: [
-        "建議在需要使用前至少30天提出申請",
+        "非緊急情況建議在賽事前至少30天提出申請",
         "緊急醫療情況可申請追溯性TUE",
-        "申請結果通常在21個工作天內公布",
-        "TUE有效期根據醫療需要而定，最長通常不超過4年",
+        "TUEC通常在收到完整申請後21個日曆天(calendar days)內作成決定",
+        "TUE有效期根據醫療需要而定，由TUEC個案核定",
       ],
     },
   ],
@@ -130,9 +131,9 @@ const tueContent = {
       tuePoints: [
         "需要提供明確的氣喘診斷證據",
         "運動誘發性氣喘需要運動激發試驗",
-        "Salbutamol吸入劑有劑量限制（24小時內不超過1600微克）",
+        "吸入型Salbutamol(≤1600µg/24h且每8h≤600µg)、Formoterol(≤54µg/24h)、Salmeterol(≤200µg/24h)、Vilanterol(≤25µg/24h)在劑量閾值內免TUE",
+        "Terbutaline及所有口服Beta-2激動劑仍需申請TUE",
         "需要定期評估治療效果",
-        "口服Beta-2激動劑通常不被批准",
       ],
       alternatives:
         "非藥物治療包括：避免過敏原、呼吸技巧訓練、環境控制等。某些情況下可考慮抗白三烯素類藥物。",
@@ -278,14 +279,14 @@ const tueContent = {
 const wadaSubstances = {
   // Beta-2激動劑
   salbutamol: {
-    needsTUE: true,
+    needsTUE: false,
     category: "S3: Beta-2激動劑",
-    note: "吸入劑需要TUE，有劑量限制",
+    note: "吸入劑在24小時內≤1600µg且每8小時≤600µg免TUE；尿液>1000ng/mL須以藥動研究證明（決定限值1200ng/mL）；口服劑型需TUE",
   },
   formoterol: {
-    needsTUE: true,
+    needsTUE: false,
     category: "S3: Beta-2激動劑",
-    note: "需要TUE申請",
+    note: "吸入劑在24小時內≤54µg免TUE；口服Beta-2激動劑仍需TUE",
   },
   clenbuterol: {
     needsTUE: false,
@@ -296,8 +297,8 @@ const wadaSubstances = {
   // 胰島素
   insulin: {
     needsTUE: true,
-    category: "S2.2: 肽類激素",
-    note: "糖尿病患者可申請TUE",
+    category: "S4.4.2: 激素與代謝調節劑（胰島素及胰島素模擬物）",
+    note: "全時段禁用；糖尿病等病患使用須事先申請TUE",
   },
   glucagon: {
     needsTUE: true,
@@ -372,17 +373,17 @@ const wadaSubstances = {
   prednisolone: {
     needsTUE: true,
     category: "S9: 糖皮質激素",
-    note: "口服或注射需要TUE，外用通常允許",
+    note: "僅賽內禁用（口服、直腸及注射含關節內/肌腱周圍/肌肉/靜脈）；賽外任何途徑不禁、不需TUE；賽內使用須TUE，口服washout約3天",
   },
   dexamethasone: {
     needsTUE: true,
     category: "S9: 糖皮質激素",
-    note: "口服或注射需要TUE",
+    note: "僅賽內禁用（口服、直腸及注射，含關節內/肌腱周圍/肌肉/靜脈）；吸入/鼻/眼/皮膚等局部途徑允許；賽外不禁；賽內使用須TUE",
   },
   hydrocortisone: {
-    needsTUE: false,
+    needsTUE: true,
     category: "S9: 糖皮質激素",
-    note: "外用通常允許",
+    note: "僅賽內禁用（口服、直腸及注射，含關節內/肌腱周圍/肌肉/靜脈）；吸入/鼻/眼/皮膚等局部途徑允許；賽外不禁",
   },
 
   // 合成代謝劑

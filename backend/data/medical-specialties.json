@@ -75,12 +75,12 @@
         "category": "支氣管擴張劑",
         "wadaCategory": "S3: Beta-2激動劑",
         "substances": [
-          "Salbutamol (需TUE)",
-          "Formoterol (需TUE)",
-          "Salmeterol (禁用)",
+          "Salbutamol (吸入閾值內免TUE)",
+          "Formoterol (吸入閾值內免TUE)",
+          "Salmeterol (吸入閾值內免TUE)",
           "Terbutaline (需TUE)"
         ],
-        "notes": "Salbutamol吸入劑需要TUE，但有劑量限制",
+        "notes": "吸入型Salbutamol（≤1600µg/24h且每8h≤600µg）、Formoterol（≤54µg/24h）、Salmeterol（≤200µg/24h）在劑量閾值內免TUE；尿液超標仍須以藥動研究證明；Terbutaline及所有口服Beta-2激動劑需TUE",
         "alternatives": "避免過敏原、非藥物治療"
       }
     ]
@@ -177,13 +177,13 @@
     "medications": [
       {
         "category": "胰島素",
-        "wadaCategory": "S2.2: 肽類激素",
+        "wadaCategory": "S4.4.2: 代謝調節劑（Insulins and insulin-mimetics）",
         "substances": [
           "速效胰島素",
           "長效胰島素",
           "混合型胰島素"
         ],
-        "notes": "糖尿病患者使用胰島素需要TUE",
+        "notes": "胰島素屬全時段禁用；糖尿病患者使用須事先申請TUE",
         "alternatives": "飲食控制、運動、口服降血糖藥（部分）"
       },
       {
