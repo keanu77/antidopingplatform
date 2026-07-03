@@ -10,10 +10,10 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 **Unified server pattern**: `server.js` at root serves both Express API (`/api/*`) and React SPA (Vite-built static files from `frontend/dist/`). Single process, single port.
 
-- **Backend**: Express + MongoDB native driver. Mounted routes in `backend/routes/` are `casesFixed.js`, `statsFixed.js`, `education.js`, `tue.js` (see server.js:72-75). Data routes each open their **own** `MongoClient.connect()` at module load and hardcode db name `"sports-doping-db"` — they do **not** reuse server.js's Mongoose connection.
+- **Backend**: Express + MongoDB native driver. Mounted routes in `backend/routes/` are `casesFixed.js`, `statsFixed.js`, `education.js`, `tue.js` (see server.js:72-75). The two data routes (`casesFixed`/`statsFixed`) share a single `MongoClient` via `backend/db.js` (`connect()`/`getDb()`, in-flight-deduped), **separate** from server.js's Mongoose connection. DB name comes from `MONGODB_DB_NAME` (default `"sports-doping-db"`).
 - **Frontend**: React 19 + Vite + React Router v6 + Tailwind CSS v3 + Chart.js
 - **Database**: MongoDB, single collection `cases`. `server.js` opens a separate Mongoose connection (for lifecycle/auto-reconnect + registering `backend/models/Case.js` so its indexes get built), but request handlers query through the route-level `MongoClient`, never `Case.find()`.
-- **API client**: `frontend/src/services/api.js` — `import.meta.env.PROD ? "/api" : "http://localhost:${VITE_API_PORT||8080}/api"`. Contains a `mockData.js` (196KB) fallback path gated on `api === null`, but `API_BASE_URL` is always truthy, so the mock path is currently dead code (never executes).
+- **API client**: `frontend/src/services/api.js` — `import.meta.env.PROD ? "/api" : "http://localhost:${VITE_API_PORT||8080}/api"`. The frontend always calls the real API; there is **no mock data layer** (`mockData.js` was removed in 7eab93e).
 - **Static content**: `education.js` serves WADA categories/quizzes/specialties from JSON in `backend/data/` (wada-categories.json, quizzes.json, medical-specialties.json). `tue.js` content is **hardcoded inline in the route file** (~430-line `tueContent` object), not in `backend/data/`.
 
 ### Key Data Model
@@ -56,7 +56,11 @@ npm run dev                  # Backend dev server (nodemon, port 8080)
 npm run dev:frontend         # Vite dev server (port 5173)
 npm run build                # Build frontend (cd frontend && npm install && npm run build)
 npm start                    # Production server (node server.js, port 8080)
-cd frontend && npm run lint  # ESLint (only lint/test tooling in the repo — there are no unit/E2E tests)
+cd frontend && npm run lint  # ESLint (frontend)
+npm test                     # Backend integration tests (vitest + mongodb-memory-server)
+cd frontend && npm test      # Frontend utils unit tests (vitest)
+npm run knip                 # Dead-code / unused-deps scan
+npm run depcheck             # Dependency usage check
 ```
 
 ## Environment Variables
@@ -83,10 +87,10 @@ Optional: `PORT` (default 8080), `JWT_SECRET`, `CORS_ORIGIN`
 
 ## Gotchas
 
-- **Edit the `*Fixed.js` route files, not the originals.** `backend/routes/cases.js` and `stats.js` still exist but are **not mounted** — `server.js` wires up `casesFixed.js` and `statsFixed.js`. Editing `cases.js`/`stats.js` has zero effect. (`backend/server.js` is likewise a stale unused entry point — the real server is the root `server.js`.)
-- Data routes use the native `MongoClient` they open themselves, not Mongoose models — don't call `Case.find()` in handlers. Each guards with `if (!db) return 500` since the connection is async at module load.
+- **The mounted data routes are `casesFixed.js` / `statsFixed.js`** (wired in the root `server.js`). The old `backend/routes/cases.js`, `stats.js`, the stale `backend/server.js` entry point, and `frontend/src/services/mockData.js` were all **deleted in 7eab93e** — the real server is the root `server.js`; no unused route/mock duplicates remain.
+- Data routes query through the shared native `MongoClient` in `backend/db.js` (`getDb()`), not Mongoose models — don't call `Case.find()` in handlers. `db.js` connects once at module load; each handler still guards with `if (!getDb()) return 500` since the connection is async. **`server.js`'s separate Mongoose connection stays** — it registers `Case.js` so indexes get built; don't remove it.
 - `statsFixed.js` has complex `$addFields`/`$switch`/`$regexMatch` pipelines for ban duration categorization.
-- `api.js`'s `mockData.js` fallback is dead under the current config (`api` is never null). If the page shows data with no successful `/api/*` calls, the cause is something else — don't assume the mock path.
+- The prod frontend build strips `console.log`/`info`/`debug` via terser `pure_funcs` (vite.config.js) but keeps `console.error`/`warn` for diagnostics; backend route files no longer print debug connection logs.
 - `server.js` sets a custom helmet CSP allowing `frame-ancestors` for `*.blogspot.com`/`*.blogger.com` and `frameguard: false` — this is intentional, to let the site be embedded in Blogger iframes. Don't revert it.
 - Middleware order in `server.js`: helmet → compression → CORS → rate limit (200 req/15min on `/api/*`) → JSON parser → routes → static files → SPA catch-all.
 - CORS in production defaults to `false` (blocks all cross-origin) unless `CORS_ORIGIN` is set (comma-separated list).

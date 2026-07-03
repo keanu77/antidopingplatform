@@ -12,7 +12,8 @@ export default defineConfig({
     minify: "terser",
     terserOptions: {
       compress: {
-        drop_console: true,
+        // 移除 debug 噪音（log/info/debug），保留 console.error/warn 供正式環境診斷
+        pure_funcs: ["console.log", "console.info", "console.debug"],
         drop_debugger: true,
       },
     },

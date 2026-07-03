@@ -13,7 +13,12 @@
     "dev:frontend": "cd frontend && npm run dev",
     "install:backend": "cd backend && npm install",
     "install:frontend": "cd frontend && npm install",
-    "install:all": "npm run install:backend && npm run install:frontend && npm install"
+    "install:all": "npm run install:backend && npm run install:frontend && npm install",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:frontend": "cd frontend && npm test",
+    "knip": "knip",
+    "depcheck": "depcheck"
   },
   "dependencies": {
     "compression": "^1.8.1",
@@ -26,7 +31,12 @@
     "mongoose": "^7.5.0"
   },
   "devDependencies": {
-    "nodemon": "^3.0.1"
+    "depcheck": "^1.4.7",
+    "knip": "^6.24.0",
+    "mongodb-memory-server": "^11.2.0",
+    "nodemon": "^3.0.1",
+    "supertest": "^7.2.2",
+    "vitest": "^4.1.9"
   },
   "keywords": [
     "sports",

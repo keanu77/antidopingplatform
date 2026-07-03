@@ -1,24 +1,18 @@
 const express = require("express");
-const { MongoClient } = require("mongodb");
+const { connect, getDb } = require("../db");
 const router = express.Router();
 
 function escapeRegex(str) {
   return str.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 }
 
-let db;
-
-// 初始化資料庫連接
-MongoClient.connect(process.env.MONGODB_URI || "mongodb://localhost:27017")
-  .then((client) => {
-    db = client.db("sports-doping-db");
-    console.log("Cases route connected to MongoDB");
-  })
-  .catch((err) => console.error("Cases route DB error:", err));
+// 於模組載入時啟動共用連線；失敗僅記錄，各 handler 以 if(!db) return 500 擋。
+connect().catch((err) => console.error("Cases route DB error:", err));
 
 // Get all cases with filtering and pagination
 router.get("/", async (req, res) => {
   try {
+    const db = getDb();
     if (!db) {
       return res.status(500).json({ error: "Database not connected" });
     }
@@ -164,6 +158,7 @@ router.get("/", async (req, res) => {
 // Get unique values for filters
 router.get("/filters", async (req, res) => {
   try {
+    const db = getDb();
     if (!db) {
       return res.status(500).json({ error: "Database not connected" });
     }
@@ -195,6 +190,7 @@ router.get("/filters", async (req, res) => {
 // Get case by ID
 router.get("/:id", async (req, res) => {
   try {
+    const db = getDb();
     if (!db) {
       return res.status(500).json({ error: "Database not connected" });
     }

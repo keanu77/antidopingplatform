@@ -1,5 +1,5 @@
 const express = require("express");
-const { MongoClient } = require("mongodb");
+const { connect, getDb } = require("../db");
 const router = express.Router();
 
 const errorResponse = (error) =>
@@ -7,15 +7,8 @@ const errorResponse = (error) =>
     ? "伺服器錯誤，請稍後再試"
     : error.message;
 
-let db;
-
-// 初始化資料庫連接
-MongoClient.connect(process.env.MONGODB_URI || "mongodb://localhost:27017")
-  .then((client) => {
-    db = client.db("sports-doping-db");
-    console.log("Stats route connected to MongoDB");
-  })
-  .catch((err) => console.error("Stats route DB error:", err));
+// 於模組載入時啟動共用連線；失敗僅記錄，各 handler 以 if(!db) return 500 擋。
+connect().catch((err) => console.error("Stats route DB error:", err));
 
 // P1: 統計 API 快取 — 資料不常變動，可快取 1 小時
 router.use((req, res, next) => {
@@ -26,6 +19,7 @@ router.use((req, res, next) => {
 // Shared handler: overview stats
 const overviewHandler = async (req, res) => {
   try {
+    const db = getDb();
     if (!db) {
       return res.status(500).json({ error: "Database not connected" });
     }
@@ -59,6 +53,7 @@ router.get("/overview", overviewHandler);
 // Get yearly trends
 router.get("/yearly-trends", async (req, res) => {
   try {
+    const db = getDb();
     if (!db) {
       return res.status(500).json({ error: "Database not connected" });
     }
@@ -91,6 +86,7 @@ router.get("/yearly-trends", async (req, res) => {
 // Get sport distribution
 router.get("/sport-distribution", async (req, res) => {
   try {
+    const db = getDb();
     if (!db) {
       return res.status(500).json({ error: "Database not connected" });
     }
@@ -124,6 +120,7 @@ router.get("/sport-distribution", async (req, res) => {
 // Get substance category distribution
 router.get("/substance-distribution", async (req, res) => {
   try {
+    const db = getDb();
     if (!db) {
       return res.status(500).json({ error: "Database not connected" });
     }
@@ -210,9 +207,9 @@ router.get("/substance-distribution", async (req, res) => {
   }
 });
 
-// Shared country/nationality query
+// Shared country/nationality query（呼叫端已先以 if(!db) 檢查連線）
 async function getCountryStats() {
-  return db
+  return getDb()
     .collection("cases")
     .aggregate([
       {
@@ -230,6 +227,7 @@ async function getCountryStats() {
 // Get country distribution
 router.get("/country-distribution", async (req, res) => {
   try {
+    const db = getDb();
     if (!db) {
       return res.status(500).json({ error: "Database not connected" });
     }
@@ -251,6 +249,7 @@ router.get("/country-distribution", async (req, res) => {
 // Nationality distribution (alias with different output format)
 router.get("/nationality-distribution", async (req, res) => {
   try {
+    const db = getDb();
     if (!db) {
       return res.status(500).json({ error: "Database not connected" });
     }
@@ -272,6 +271,7 @@ router.get("/nationality-distribution", async (req, res) => {
 // Get ban duration distribution (original detailed version)
 router.get("/ban-duration-distribution-detailed", async (req, res) => {
   try {
+    const db = getDb();
     if (!db) {
       return res.status(500).json({ error: "Database not connected" });
     }
@@ -307,6 +307,7 @@ router.get("/ban-duration-distribution-detailed", async (req, res) => {
 // Get ban duration distribution (simplified categories via aggregation pipeline)
 router.get("/ban-duration-distribution", async (req, res) => {
   try {
+    const db = getDb();
     if (!db) {
       return res.status(500).json({ error: "Database not connected" });
     }
@@ -506,6 +507,7 @@ router.get("/ban-duration-distribution", async (req, res) => {
 // Get punishment statistics
 router.get("/punishment-stats", async (req, res) => {
   try {
+    const db = getDb();
     if (!db) {
       return res.status(500).json({ error: "Database not connected" });
     }
