@@ -343,8 +343,8 @@
         "topical": { "status": "permitted", "note": "皮膚／鼻／眼等局部途徑允許" }
       },
       "sportRestricted": null,
-      "washout": "口服約 3 天",
-      "note": "僅賽內禁用（口服、直腸及注射含關節內／肌腱周圍／肌肉／靜脈）；賽外任何途徑不禁、不需 TUE；賽內全身性使用須 TUE，口服 washout 約 3 天"
+      "washout": "口服／直腸約 3 天、肌肉注射約 10 天（依 WADA 糖皮質激素清除期指引）",
+      "note": "僅賽內禁用（口服、直腸及注射含關節內／肌腱周圍／肌肉／靜脈）；賽外任何途徑不禁、不需 TUE；賽內全身性使用須 TUE，washout 依途徑：口服／直腸約 3 天、肌注約 10 天"
     },
     "dexamethasone": {
       "displayName": "Dexamethasone 地塞米松",
@@ -362,7 +362,7 @@
         "topical": { "status": "permitted", "note": "鼻／眼／皮膚等局部途徑允許" }
       },
       "sportRestricted": null,
-      "washout": null,
+      "washout": "口服／直腸約 3 天、肌肉注射約 5 天（依 WADA 糖皮質激素清除期指引）",
       "note": "僅賽內禁用（口服、直腸及注射，含關節內／肌腱周圍／肌肉／靜脈）；吸入／鼻／眼／皮膚等局部途徑允許；賽外不禁；賽內使用須 TUE"
     },
     "hydrocortisone": {
@@ -381,7 +381,7 @@
         "topical": { "status": "permitted", "note": "鼻／眼／皮膚等局部途徑允許" }
       },
       "sportRestricted": null,
-      "washout": null,
+      "washout": "口服／直腸約 3 天（依 WADA 糖皮質激素清除期指引；其餘途徑另計）",
       "note": "僅賽內禁用（口服、直腸及注射，含關節內／肌腱周圍／肌肉／靜脈）；吸入／鼻／眼／皮膚等局部途徑允許；賽外不禁"
     },
     "testosterone": {
