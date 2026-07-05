@@ -1,5 +1,6 @@
 import { useState, useRef, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
+import FeedbackBar from "./FeedbackBar";
 import {
   Home,
   Search,
@@ -390,6 +391,9 @@ function Layout({ children }) {
           </div>
         </div>
       </footer>
+
+      {/* 黏底五星回饋列（逐頁評分 + 錯誤回報，同源寫入 /api/feedback） */}
+      <FeedbackBar />
     </div>
   );
 }
