@@ -18,8 +18,23 @@ import { useLocation } from "react-router-dom";
 
 const ENDPOINT = "/api/feedback";
 const ACCENT = "#059669"; // emerald-600（與 Layout 導覽一致）
-const KEY_RATED = "adp-fb-rated:"; // + slug → "1"
+const KEY_RATED = "adp-fb-rated:"; // + slug → 評分時間戳（ms 字串）
 const KEY_PENDING = "adp-fb-pending"; // JSON array of payloads（離線暫存）
+const RATED_TTL_MS = 30 * 24 * 60 * 60 * 1000; // 評分後 30 天內不再詢問；逾期重新顯示星星
+
+// 該頁是否「近期已評分」（30 天內）。逾期或無紀錄 → false（重新出現星星可再填）。
+// 相容舊值 "1"（無時間戳）：parseInt→1，視為很久以前 → 逾期，會重新詢問。
+function ratedWithinTTL(slug) {
+  try {
+    const raw = localStorage.getItem(KEY_RATED + slug);
+    if (!raw) return false;
+    const t = parseInt(raw, 10);
+    if (!Number.isFinite(t)) return false;
+    return Date.now() - t < RATED_TTL_MS;
+  } catch {
+    return false;
+  }
+}
 
 // 身分下拉須與 backend/routes/feedback.js 的 ROLES 白名單一致。
 const ROLES = [
@@ -202,13 +217,7 @@ export default function FeedbackBar() {
     setStars(0);
     setHover(0);
     resetForm();
-    let rated = false;
-    try {
-      rated = localStorage.getItem(KEY_RATED + slug) === "1";
-    } catch {
-      /* ignore */
-    }
-    setMode(rated ? "rated" : "collapsed");
+    setMode(ratedWithinTTL(slug) ? "rated" : "collapsed");
   }, [slug]);
 
   // 展開/收合後量測列高，設 body 底距避免罩層永久遮住 footer 底部。
@@ -231,7 +240,7 @@ export default function FeedbackBar() {
 
   function markRated() {
     try {
-      localStorage.setItem(KEY_RATED + slug, "1");
+      localStorage.setItem(KEY_RATED + slug, String(Date.now()));
     } catch {
       /* ignore */
     }
@@ -349,11 +358,7 @@ export default function FeedbackBar() {
     setMode("error");
   }
   function isRated() {
-    try {
-      return localStorage.getItem(KEY_RATED + slug) === "1";
-    } catch {
-      return false;
-    }
+    return ratedWithinTTL(slug);
   }
   function close() {
     setMode(stars || isRated() ? "rated" : "collapsed");
