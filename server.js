@@ -99,6 +99,10 @@ app.use("/api/stats", require("./backend/routes/statsFixed"));
 app.use("/api/education", require("./backend/routes/education"));
 app.use("/api/tue", require("./backend/routes/tue"));
 app.use("/api/feedback", require("./backend/routes/feedback"));
+app.use(
+  "/api/cron/feedback-digest",
+  require("./backend/routes/feedbackDigest"),
+);
 
 // 提供前端靜態文件（index:false / redirect:false → 目錄請求交給下方 catch-all 處理，
 // 才能回傳 build 時預渲染、含 per-page SEO meta 的對應 HTML）
