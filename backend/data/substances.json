@@ -421,7 +421,7 @@
       "routes": null,
       "sportRestricted": null,
       "washout": null,
-      "note": "一般止痛藥，無需 TUE"
+      "note": "一般止痛藥，不在 WADA 2026 禁用清單，也不在監控計畫中，賽內外皆可使用、無需 TUE。注意：與同為止痛藥的 tramadol 不同——tramadol 自 2024 年起列為 S7 麻醉劑、賽內禁用。"
     },
     "ibuprofen": {
       "displayName": "Ibuprofen 布洛芬",
