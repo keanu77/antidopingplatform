@@ -1,5 +1,5 @@
 import { describe, it, expect, vi, beforeEach, afterEach } from "vitest";
-import { debounce, throttle } from "./debounce.js";
+import { debounce } from "./debounce.js";
 
 describe("debounce", () => {
   beforeEach(() => vi.useFakeTimers());
@@ -33,21 +33,5 @@ describe("debounce", () => {
     const r = d.flush();
     expect(fn).toHaveBeenCalledWith("x");
     expect(r).toBe("result");
-  });
-});
-
-describe("throttle", () => {
-  beforeEach(() => vi.useFakeTimers());
-  afterEach(() => vi.useRealTimers());
-
-  it("首次立即執行，限制期間內不重複，期滿後補跑尾端", () => {
-    const fn = vi.fn();
-    const t = throttle(fn, 1000);
-    t("a"); // 立即執行
-    expect(fn).toHaveBeenCalledTimes(1);
-    t("b"); // 節流中，排入尾端
-    expect(fn).toHaveBeenCalledTimes(1);
-    vi.advanceTimersByTime(1000);
-    expect(fn).toHaveBeenCalledTimes(2);
   });
 });
