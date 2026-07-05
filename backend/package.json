@@ -9,6 +9,6 @@
   "dependencies": {
     "dotenv": "^16.3.1",
     "mongodb": "^6.18.0",
-    "mongoose": "^7.5.0"
+    "mongoose": "^8.24.1"
   }
 }

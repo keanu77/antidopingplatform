@@ -28,7 +28,7 @@
     "express-rate-limit": "^8.3.1",
     "helmet": "^8.1.0",
     "mongodb": "^6.18.0",
-    "mongoose": "^7.5.0"
+    "mongoose": "^8.24.1"
   },
   "devDependencies": {
     "depcheck": "^1.4.7",
