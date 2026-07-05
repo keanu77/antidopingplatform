@@ -117,17 +117,19 @@ function pageSnapshot() {
 const STYLE = `
 .adp-fb { position: fixed; left: 0; right: 0; bottom: 0; z-index: 39;
   font-family: -apple-system, BlinkMacSystemFont, "Noto Sans TC", "PingFang TC", sans-serif; }
-.adp-fb-bar { background: rgba(255,255,255,0.96); backdrop-filter: blur(8px);
-  border-top: 1px solid #e5e7eb; box-shadow: 0 -2px 12px rgba(0,0,0,0.05); }
+.adp-fb-bar { background: #ffffff; border-top: 3px solid ${ACCENT};
+  box-shadow: 0 -6px 24px rgba(0,0,0,0.14); }
 .adp-fb-inner { max-width: 56rem; margin: 0 auto; display: flex; align-items: center;
-  gap: 0.6rem; padding: 0.5rem 1rem; flex-wrap: wrap; }
-.adp-fb-prompt { font-size: 0.875rem; color: #374151; margin-right: auto; }
-.adp-fb-stars { display: inline-flex; gap: 2px; }
-.adp-fb-star { background: none; border: 0; cursor: pointer; font-size: 1.4rem;
-  line-height: 1; padding: 0 1px; color: #d1d5db; transition: color .12s ease; }
+  gap: 0.75rem; padding: 0.8rem 1.25rem; flex-wrap: wrap; }
+.adp-fb-prompt { font-size: 1.0625rem; font-weight: 600; color: #1f2937; margin-right: auto; }
+.adp-fb-stars { display: inline-flex; gap: 4px; }
+.adp-fb-star { background: none; border: 0; cursor: pointer; font-size: 2.1rem;
+  line-height: 1; padding: 0 2px; color: #cbd5e1; transition: color .12s ease, transform .1s ease; }
+.adp-fb-star:hover { transform: scale(1.15); }
 .adp-fb-star:disabled { cursor: default; }
-.adp-fb-report { background: none; border: 0; cursor: pointer; font-size: 0.8125rem;
-  color: ${ACCENT}; text-decoration: underline; padding: 0.2rem 0; }
+.adp-fb-report { background: #f0fdf4; border: 1px solid ${ACCENT}; cursor: pointer;
+  font-size: 0.9375rem; font-weight: 600; color: ${ACCENT}; border-radius: 0.5rem; padding: 0.4rem 0.85rem; }
+.adp-fb-report:hover { background: ${ACCENT}; color: #fff; }
 .adp-fb-panel { background: rgba(255,255,255,0.99); border-top: 1px solid #e5e7eb;
   max-height: min(70vh, 32rem); overflow-y: auto; }
 .adp-fb-panel-inner { max-width: 56rem; margin: 0 auto; padding: 0.9rem 1rem 1.1rem; }
