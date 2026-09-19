@@ -18,7 +18,12 @@
     "test:watch": "vitest",
     "test:frontend": "cd frontend && npm test",
     "knip": "knip",
-    "depcheck": "depcheck"
+    "depcheck": "depcheck",
+    "data:rebuild": "node scripts/rebuild-dataset.mjs",
+    "cf:build": "npm --prefix frontend run build",
+    "cf:deploy": "npm run cf:build && wrangler pages deploy frontend/dist --project-name antidoping-platform --branch main --commit-dirty=true",
+    "cf:migrate": "wrangler d1 execute antidoping-feedback --remote --file=migrations/0001_feedback.sql",
+    "smoke": "node tests/smoke/cloudflare-api.smoke.mjs"
   },
   "dependencies": {
     "compression": "^1.8.1",
