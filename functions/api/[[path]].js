@@ -8,6 +8,9 @@ import {
   queryCases, getCaseById, getFilterOptions, stats, lookupSubstance,
   wadaCategories, quizzes, specialties, adrv, substancesData, tueContent,
 } from "../_lib/store.js";
+import { normalizeFeedback, FEEDBACK_INSERT_SQL, feedbackInsertParams } from "../_lib/feedback.js";
+import { buildDigestHtml, buildDigestText, rowFromD1, secretMatches } from "../_lib/digest.js";
+import { emailConfigured, sendEmail } from "../_lib/email.js";
 
 const MAX_SEARCH_LEN = 200;
 const MAX_BODY_BYTES = 32 * 1024;
@@ -31,28 +34,16 @@ async function readJson(request) {
 }
 
 // ── 回饋：D1 寫入 + 基本防濫用 ────────────────────────────────────────
-const VALID_TYPES = new Set(["rating", "issue"]);
-
+// 欄位驗證在 _lib/feedback.js（對齊前端 FeedbackBar 的 rating / feedback / error）。
 async function handleFeedback(request, env) {
   const { body, bad, tooLarge } = await readJson(request);
   if (tooLarge) return json({ error: "內容過長" }, 413, NO_STORE);
   if (bad || !body) return json({ error: "格式錯誤" }, 400, NO_STORE);
 
-  // honeypot：機器人才會填這個欄位，靜默丟棄（回 ok 不給提示）
-  if (typeof body.website === "string" && body.website.trim() !== "") {
-    return json({ ok: true }, 200, NO_STORE);
-  }
-  // time-trap：開頁不到 2 秒就送出，視為機器人
-  if (Number(body.elapsedMs) > 0 && Number(body.elapsedMs) < 2000) {
-    return json({ ok: true }, 200, NO_STORE);
-  }
-
-  const type = VALID_TYPES.has(body.type) ? body.type : "rating";
-  const rating = Number.isInteger(body.rating) && body.rating >= 1 && body.rating <= 5 ? body.rating : null;
-  const message = String(body.message ?? "").slice(0, 2000);
-  const page = String(body.page ?? "").slice(0, 300);
-  if (type === "issue" && !message) return json({ error: "請描述問題" }, 400, NO_STORE);
-  if (type === "rating" && rating === null) return json({ error: "請提供 1-5 的評分" }, 400, NO_STORE);
+  const now = Date.now();
+  const result = normalizeFeedback(body, { now, userAgent: request.headers.get("User-Agent") || "" });
+  if (result.status === "drop") return json({ ok: true }, 200, NO_STORE); // 疑似機器人：不給提示
+  if (result.status === "error") return json({ error: result.error }, result.code, NO_STORE);
 
   if (!env.FEEDBACK_DB) {
     // D1 未綁定時不讓前端看到錯誤（回饋非關鍵路徑），但留下伺服器端紀錄
@@ -66,20 +57,59 @@ async function handleFeedback(request, env) {
   const ipHash = [...new Uint8Array(digest)].slice(0, 8).map((b) => b.toString(16).padStart(2, "0")).join("");
 
   try {
-    const since = Date.now() - 3600_000;
     const { results } = await env.FEEDBACK_DB
       .prepare("SELECT COUNT(*) AS n FROM feedback WHERE ip_hash = ? AND created_at > ?")
-      .bind(ipHash, since).all();
+      .bind(ipHash, now - 3600_000).all();
     if ((results?.[0]?.n ?? 0) >= 10) return json({ ok: true }, 200, NO_STORE);
 
-    await env.FEEDBACK_DB
-      .prepare("INSERT INTO feedback (type, rating, message, page, ip_hash, created_at) VALUES (?, ?, ?, ?, ?, ?)")
-      .bind(type, rating, message, page, ipHash, Date.now()).run();
+    await env.FEEDBACK_DB.prepare(FEEDBACK_INSERT_SQL)
+      .bind(...feedbackInsertParams(result.row, ipHash, now)).run();
   } catch (err) {
     console.error("回饋寫入失敗:", err?.message);
     return json({ ok: true }, 200, NO_STORE); // 不因回饋失敗影響使用者
   }
   return json({ ok: true }, 200, NO_STORE);
+}
+
+// ── 每日回饋彙整信 ───────────────────────────────────────────────────
+// 由外部排程（cron-job.org）每天打一次：GET /api/cron/feedback-digest
+// header：x-cron-secret: <CRON_SECRET>。不收 ?secret= query（會洩漏到 log / Referer）。
+// 查最近 24 小時的回饋寄給站長；當日無回饋則不寄。
+const DIGEST_WINDOW_MS = 24 * 3600_000;
+
+async function handleFeedbackDigest(request, env) {
+  if (!secretMatches(request.headers.get("x-cron-secret"), env.CRON_SECRET)) {
+    return json({ error: "unauthorized" }, 401, NO_STORE);
+  }
+  if (!env.FEEDBACK_DB) return json({ error: "FEEDBACK_DB 未綁定" }, 500, NO_STORE);
+
+  let rows;
+  try {
+    const { results } = await env.FEEDBACK_DB
+      .prepare("SELECT * FROM feedback WHERE created_at >= ? ORDER BY created_at ASC")
+      .bind(Date.now() - DIGEST_WINDOW_MS).all();
+    rows = (results ?? []).map(rowFromD1);
+  } catch (err) {
+    console.error("feedback digest 查詢失敗:", err?.message);
+    return json({ error: "查詢失敗" }, 500, NO_STORE);
+  }
+
+  if (rows.length === 0) return json({ ok: true, sent: false, count: 0 }, 200, NO_STORE);
+  if (!emailConfigured(env)) return json({ error: "ZSEND_API_KEY 未設定" }, 500, NO_STORE);
+  if (!env.FEEDBACK_DIGEST_TO) return json({ error: "FEEDBACK_DIGEST_TO 未設定" }, 500, NO_STORE);
+
+  try {
+    await sendEmail(env, {
+      to: env.FEEDBACK_DIGEST_TO,
+      subject: `運動禁藥案例平台 每日回饋總結（${rows.length} 筆）`,
+      html: buildDigestHtml(rows, env.SITE_URL || undefined),
+      text: buildDigestText(rows),
+    });
+    return json({ ok: true, sent: true, count: rows.length }, 200, NO_STORE);
+  } catch (err) {
+    console.error("feedback digest 寄送失敗:", err?.message);
+    return json({ error: "寄送失敗" }, 500, NO_STORE);
+  }
 }
 
 // ── 路由 ─────────────────────────────────────────────────────────────
@@ -201,6 +231,12 @@ export async function onRequest({ request, env, params }) {
   if (group === "feedback" && !a) {
     if (method === "POST") return handleFeedback(request, env);
     return json({ error: "需使用 POST" }, 405, NO_STORE);
+  }
+
+  // ---- /api/cron/feedback-digest ----
+  if (group === "cron" && a === "feedback-digest" && !b) {
+    if (method !== "GET") return json({ error: "需使用 GET" }, 405, NO_STORE);
+    return handleFeedbackDigest(request, env);
   }
 
   // ---- /api/health ----

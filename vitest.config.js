@@ -4,7 +4,8 @@ import { defineConfig } from "vitest/config";
 export default defineConfig({
   test: {
     environment: "node",
-    include: ["backend/**/*.test.js"],
+    // functions/：Cloudflare Pages Functions 的純函式單元測試（不需 MongoDB）
+    include: ["backend/**/*.test.js", "functions/**/*.test.js"],
     testTimeout: 30000,
     // 首次啟動 mongodb-memory-server 需下載 mongod binary，放寬 hook 逾時
     hookTimeout: 120000,

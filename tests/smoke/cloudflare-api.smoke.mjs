@@ -211,6 +211,16 @@ if (!SKIP_WRITE) {
   });
 }
 
+// 2026-09-21：遷移時漏搬這條路由，cron-job.org 每天收到 404 才發現。
+// 只驗「路由存在且有擋授權」，不帶 secret、不會觸發寄信。
+await check("每日彙整信端點存在，且未帶 secret 回 401", async () => {
+  const r = await fetch(BASE + "/api/cron/feedback-digest");
+  expect(r.status === 401, `HTTP ${r.status}（404 = 路由沒部署）`);
+  const bad = await fetch(BASE + "/api/cron/feedback-digest", { headers: { "x-cron-secret": "wrong" } });
+  expect(bad.status === 401, `錯誤 secret 應為 401，實得 ${bad.status}`);
+  return "401";
+});
+
 await check("未知 API 路徑回 404 JSON", async () => {
   const r = await fetch(BASE + "/api/definitely-not-a-route");
   expect(r.status === 404, `HTTP ${r.status}`);

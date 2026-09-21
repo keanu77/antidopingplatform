@@ -4,6 +4,13 @@
 # 不再需要 MongoDB；唯一需要寫入的「使用者回饋」改用 D1。
 #
 # 部署：npm run cf:deploy
+#
+# Secrets（wrangler pages secret put <NAME> --project-name antidoping-platform）：
+#   CRON_SECRET         每日彙整信端點的授權；須與 cron-job.org 任務的 x-cron-secret header 一致
+#   ZSEND_API_KEY       ZSend 寄信 API key
+#   FEEDBACK_DIGEST_TO  彙整信收件人
+#   ZSEND_FROM          （選填）寄件顯示；網域須為 ZSend 已驗證網域
+# 新增 D1 欄位後先跑 migration 再部署，否則回饋寫入會因缺欄位而靜默失敗。
 name = "antidoping-platform"
 compatibility_date = "2025-05-05"
 compatibility_flags = ["nodejs_compat"]
