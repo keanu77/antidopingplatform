@@ -1,0 +1,64 @@
+{
+  "headAtValidation": "026182ad38c4292ebad322d8917ab6d8b7274e9f",
+  "uncommitted": true,
+  "deployed": false,
+  "files": {
+    "frontend/src/pages/Home.jsx": {
+      "sha256": "9096b49a8a0b2ba4b7d9ae709b4d624166438afac4757817ea597f8ec3a84cf4",
+      "bytes": 8205
+    },
+    "frontend/src/pages/CaseList.jsx": {
+      "sha256": "86b67fe4ace768311abb7530e86aa5ec081a4ac1f5d2f0506b8675c106ac2750",
+      "bytes": 21172
+    },
+    "frontend/src/pages/TestingProcess.jsx": {
+      "sha256": "bed8abe338e145bb1444a9ea7c096a31cb813c89a5a30f99d634aa8b05562d0a",
+      "bytes": 7675
+    },
+    "frontend/src/pages/Statistics.jsx": {
+      "sha256": "d08073ea9d82129c52ae6b7fce2894ead42b8a239db7882a6b7d88adb1fd08b4",
+      "bytes": 13820
+    },
+    "frontend/src/components/FeedbackBar.jsx": {
+      "sha256": "876e481aef7f353ffa760cdce723c3b3d00e43a5cd14e3df248299836f25cac8",
+      "bytes": 25955
+    },
+    "frontend/src/index.css": {
+      "sha256": "05382e4d81ec639f8ffb4f085a5b4219015af7b605881ad4ee5e8632db69cc39",
+      "bytes": 7039
+    },
+    "frontend/public/images/clean-sport/hero-768.webp": {
+      "sha256": "7d5ba02144bba135fcf23aa18ce687ecbba69648614f09c3f1fa1a30cb716afc",
+      "bytes": 40012
+    },
+    "frontend/public/images/clean-sport/hero-1440.webp": {
+      "sha256": "0c3908ef7c8335c28c836c752951ae960d4e9b5bbd4b8b9029f89b2bb84a8eb9",
+      "bytes": 105492
+    },
+    "frontend/public/images/clean-sport/tue-640.webp": {
+      "sha256": "bb04f4e010abefd79f4b1be9e17dc3f427818a61a9a689c468330ef9acd1833f",
+      "bytes": 39778
+    },
+    "frontend/public/images/clean-sport/tue-400.webp": {
+      "sha256": "280ea9a2451baf1f7183af2c6d22c7cceece3f40d8460dd56b60bd82ca0c6e52",
+      "bytes": 19882
+    },
+    "frontend/public/images/clean-sport/quiz-640.webp": {
+      "sha256": "8dd8632756d7fbb20ec8a6a7c7fb07da630a0e654947ac1e07d415f1cc1b8cae",
+      "bytes": 34094
+    },
+    "frontend/public/images/clean-sport/quiz-400.webp": {
+      "sha256": "0e4da71ecc16b28e7a8d36af70de1bee423756ac3b86f73efde918c3861960c7",
+      "bytes": 16626
+    },
+    "frontend/public/images/clean-sport/testing-640.webp": {
+      "sha256": "846c5aa5d3ec1d48a9630e7195ab7299afb6214f0214c4654cf15d8718f4b5d7",
+      "bytes": 31192
+    },
+    "frontend/public/images/clean-sport/testing-400.webp": {
+      "sha256": "e7155768d2a5cf1240ad68396c97fde019ca1bd6517dbc6878a0f620488fde30",
+      "bytes": 16200
+    }
+  },
+  "buildIndexSha256": "9c247b7f7a65ba571e521ac6668de5485e430c5a9f598d18a17df530838049ba"
+}

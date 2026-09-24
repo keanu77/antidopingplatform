@@ -1,0 +1,104 @@
+{
+  "at": "2026-09-24T09:07:56.061Z",
+  "base": "http://127.0.0.1:4187",
+  "checks": [
+    {
+      "width": 1280,
+      "overflow": 0,
+      "images": [
+        {
+          "src": "http://127.0.0.1:4187/images/clean-sport/hero-soft3d-1440.webp",
+          "naturalWidth": 1280,
+          "naturalHeight": 720,
+          "alt": ""
+        },
+        {
+          "src": "http://127.0.0.1:4187/images/clean-sport/testing-soft3d-400.webp",
+          "naturalWidth": 360,
+          "naturalHeight": 270,
+          "alt": ""
+        },
+        {
+          "src": "http://127.0.0.1:4187/images/clean-sport/tue-soft3d-400.webp",
+          "naturalWidth": 360,
+          "naturalHeight": 270,
+          "alt": ""
+        },
+        {
+          "src": "http://127.0.0.1:4187/images/clean-sport/quiz-soft3d-400.webp",
+          "naturalWidth": 360,
+          "naturalHeight": 270,
+          "alt": ""
+        }
+      ],
+      "ctaVisible": true,
+      "linksVerified": true
+    },
+    {
+      "width": 390,
+      "overflow": 0,
+      "images": [
+        {
+          "src": "http://127.0.0.1:4187/images/clean-sport/hero-soft3d-768.webp",
+          "naturalWidth": 390,
+          "naturalHeight": 219,
+          "alt": ""
+        },
+        {
+          "src": "http://127.0.0.1:4187/images/clean-sport/testing-soft3d-400.webp",
+          "naturalWidth": 148,
+          "naturalHeight": 111,
+          "alt": ""
+        },
+        {
+          "src": "http://127.0.0.1:4187/images/clean-sport/tue-soft3d-400.webp",
+          "naturalWidth": 148,
+          "naturalHeight": 111,
+          "alt": ""
+        },
+        {
+          "src": "http://127.0.0.1:4187/images/clean-sport/quiz-soft3d-400.webp",
+          "naturalWidth": 148,
+          "naturalHeight": 111,
+          "alt": ""
+        }
+      ],
+      "ctaVisible": true,
+      "linksVerified": true
+    },
+    {
+      "width": 320,
+      "overflow": 0,
+      "images": [
+        {
+          "src": "http://127.0.0.1:4187/images/clean-sport/hero-soft3d-768.webp",
+          "naturalWidth": 320,
+          "naturalHeight": 180,
+          "alt": ""
+        },
+        {
+          "src": "http://127.0.0.1:4187/images/clean-sport/testing-soft3d-400.webp",
+          "naturalWidth": 121,
+          "naturalHeight": 91,
+          "alt": ""
+        },
+        {
+          "src": "http://127.0.0.1:4187/images/clean-sport/tue-soft3d-400.webp",
+          "naturalWidth": 121,
+          "naturalHeight": 91,
+          "alt": ""
+        },
+        {
+          "src": "http://127.0.0.1:4187/images/clean-sport/quiz-soft3d-400.webp",
+          "naturalWidth": 121,
+          "naturalHeight": 91,
+          "alt": ""
+        }
+      ],
+      "ctaVisible": true,
+      "linksVerified": true
+    }
+  ],
+  "errors": [],
+  "feedbackRequests": 0
+}

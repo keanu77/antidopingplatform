@@ -1,0 +1,400 @@
+{
+  "at": "2026-09-24T07:04:09.169Z",
+  "base": "http://127.0.0.1:4187",
+  "pages": [
+    {
+      "width": 1280,
+      "path": "/",
+      "overflow": 0,
+      "feedbackHeight": 53,
+      "headingPositions": [
+        {
+          "text": "從你的下一步開始",
+          "y": 695
+        },
+        {
+          "text": "Your Body, Your Responsibility.",
+          "y": 1375.203125
+        }
+      ],
+      "images": [
+        {
+          "src": "http://127.0.0.1:4187/images/clean-sport/hero-1440.webp",
+          "width": 1280,
+          "loaded": true
+        },
+        {
+          "src": "http://127.0.0.1:4187/images/clean-sport/testing-400.webp",
+          "width": 360,
+          "loaded": true
+        },
+        {
+          "src": "http://127.0.0.1:4187/images/clean-sport/tue-400.webp",
+          "width": 360,
+          "loaded": true
+        },
+        {
+          "src": "http://127.0.0.1:4187/images/clean-sport/quiz-400.webp",
+          "width": 360,
+          "loaded": true
+        }
+      ]
+    },
+    {
+      "width": 1280,
+      "path": "/cases",
+      "overflow": 0,
+      "feedbackHeight": 53,
+      "searchWidth": 1011.84375,
+      "headingPositions": [],
+      "images": []
+    },
+    {
+      "width": 1280,
+      "path": "/testing-process",
+      "overflow": 0,
+      "feedbackHeight": 53,
+      "headingPositions": [
+        {
+          "text": "通知",
+          "y": 333
+        }
+      ],
+      "images": []
+    },
+    {
+      "width": 1280,
+      "path": "/statistics",
+      "overflow": 0,
+      "feedbackHeight": 53,
+      "headingPositions": [
+        {
+          "text": "成績與獎牌後果",
+          "y": 599
+        },
+        {
+          "text": "主要公開來源",
+          "y": 860
+        },
+        {
+          "text": "運動項目分布（前十項）",
+          "y": 860
+        },
+        {
+          "text": "國家／地區分布（已有國家來源）",
+          "y": 1362
+        },
+        {
+          "text": "物質／規則標籤分布",
+          "y": 1362
+        },
+        {
+          "text": "禁賽期限分布",
+          "y": 1884
+        },
+        {
+          "text": "收錄案例年份分布",
+          "y": 2406
+        },
+        {
+          "text": "反禁藥事件與制度時間軸",
+          "y": 2924
+        },
+        {
+          "text": "外部研究：分母與適用範圍",
+          "y": 4113
+        }
+      ],
+      "images": []
+    },
+    {
+      "width": 390,
+      "path": "/",
+      "overflow": 0,
+      "feedbackHeight": 53,
+      "headingPositions": [
+        {
+          "text": "從你的下一步開始",
+          "y": 681.375
+        },
+        {
+          "text": "Your Body, Your Responsibility.",
+          "y": 1800.390625
+        }
+      ],
+      "images": [
+        {
+          "src": "http://127.0.0.1:4187/images/clean-sport/hero-768.webp",
+          "width": 390,
+          "loaded": true
+        },
+        {
+          "src": "http://127.0.0.1:4187/images/clean-sport/testing-400.webp",
+          "width": 148,
+          "loaded": true
+        },
+        {
+          "src": "http://127.0.0.1:4187/images/clean-sport/tue-400.webp",
+          "width": 148,
+          "loaded": true
+        },
+        {
+          "src": "http://127.0.0.1:4187/images/clean-sport/quiz-400.webp",
+          "width": 148,
+          "loaded": true
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "path": "/cases",
+      "overflow": 0,
+      "feedbackHeight": 53,
+      "searchWidth": 358,
+      "headingPositions": [],
+      "images": []
+    },
+    {
+      "width": 390,
+      "path": "/testing-process",
+      "overflow": 0,
+      "feedbackHeight": 53,
+      "headingPositions": [
+        {
+          "text": "通知",
+          "y": 313
+        }
+      ],
+      "images": []
+    },
+    {
+      "width": 390,
+      "path": "/statistics",
+      "overflow": 0,
+      "feedbackHeight": 53,
+      "headingPositions": [
+        {
+          "text": "成績與獎牌後果",
+          "y": 869
+        },
+        {
+          "text": "主要公開來源",
+          "y": 1142
+        },
+        {
+          "text": "運動項目分布（前十項）",
+          "y": 1648
+        },
+        {
+          "text": "國家／地區分布（已有國家來源）",
+          "y": 2154
+        },
+        {
+          "text": "物質／規則標籤分布",
+          "y": 2700
+        },
+        {
+          "text": "禁賽期限分布",
+          "y": 3226
+        },
+        {
+          "text": "收錄案例年份分布",
+          "y": 3752
+        },
+        {
+          "text": "反禁藥事件與制度時間軸",
+          "y": 4278
+        },
+        {
+          "text": "外部研究：分母與適用範圍",
+          "y": 5759
+        }
+      ],
+      "images": []
+    },
+    {
+      "width": 320,
+      "path": "/",
+      "overflow": 0,
+      "feedbackHeight": 53,
+      "headingPositions": [
+        {
+          "text": "從你的下一步開始",
+          "y": 697.875
+        },
+        {
+          "text": "Your Body, Your Responsibility.",
+          "y": 1795.0625
+        }
+      ],
+      "images": [
+        {
+          "src": "http://127.0.0.1:4187/images/clean-sport/hero-768.webp",
+          "width": 320,
+          "loaded": true
+        },
+        {
+          "src": "http://127.0.0.1:4187/images/clean-sport/testing-400.webp",
+          "width": 121,
+          "loaded": true
+        },
+        {
+          "src": "http://127.0.0.1:4187/images/clean-sport/tue-400.webp",
+          "width": 121,
+          "loaded": true
+        },
+        {
+          "src": "http://127.0.0.1:4187/images/clean-sport/quiz-400.webp",
+          "width": 121,
+          "loaded": true
+        }
+      ]
+    },
+    {
+      "width": 320,
+      "path": "/cases",
+      "overflow": 0,
+      "feedbackHeight": 53,
+      "searchWidth": 288,
+      "headingPositions": [],
+      "images": []
+    },
+    {
+      "width": 320,
+      "path": "/testing-process",
+      "overflow": 0,
+      "feedbackHeight": 53,
+      "headingPositions": [
+        {
+          "text": "通知",
+          "y": 313
+        }
+      ],
+      "images": []
+    },
+    {
+      "width": 320,
+      "path": "/statistics",
+      "overflow": 0,
+      "feedbackHeight": 53,
+      "headingPositions": [
+        {
+          "text": "成績與獎牌後果",
+          "y": 957
+        },
+        {
+          "text": "主要公開來源",
+          "y": 1290
+        },
+        {
+          "text": "運動項目分布（前十項）",
+          "y": 1796
+        },
+        {
+          "text": "國家／地區分布（已有國家來源）",
+          "y": 2302
+        },
+        {
+          "text": "物質／規則標籤分布",
+          "y": 2896
+        },
+        {
+          "text": "禁賽期限分布",
+          "y": 3442
+        },
+        {
+          "text": "收錄案例年份分布",
+          "y": 3968
+        },
+        {
+          "text": "反禁藥事件與制度時間軸",
+          "y": 4514
+        },
+        {
+          "text": "外部研究：分母與適用範圍",
+          "y": 6217
+        }
+      ],
+      "images": []
+    }
+  ],
+  "interactions": [
+    {
+      "width": 1280,
+      "name": "search-detail-back-reload",
+      "passed": true
+    },
+    {
+      "width": 1280,
+      "name": "page-two-return",
+      "passed": true
+    },
+    {
+      "width": 1280,
+      "name": "filter-reload",
+      "passed": true
+    },
+    {
+      "width": 1280,
+      "name": "feedback-expand-close-report",
+      "passed": true
+    },
+    {
+      "width": 1280,
+      "name": "testing-next",
+      "passed": true
+    },
+    {
+      "width": 390,
+      "name": "search-detail-back-reload",
+      "passed": true
+    },
+    {
+      "width": 390,
+      "name": "page-two-return",
+      "passed": true
+    },
+    {
+      "width": 390,
+      "name": "filter-reload",
+      "passed": true
+    },
+    {
+      "width": 390,
+      "name": "feedback-expand-close-report",
+      "passed": true
+    },
+    {
+      "width": 390,
+      "name": "testing-next",
+      "passed": true
+    },
+    {
+      "width": 320,
+      "name": "search-detail-back-reload",
+      "passed": true
+    },
+    {
+      "width": 320,
+      "name": "page-two-return",
+      "passed": true
+    },
+    {
+      "width": 320,
+      "name": "filter-reload",
+      "passed": true
+    },
+    {
+      "width": 320,
+      "name": "feedback-expand-close-report",
+      "passed": true
+    },
+    {
+      "width": 320,
+      "name": "testing-next",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "feedbackRequests": 0
+}

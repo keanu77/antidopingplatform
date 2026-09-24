@@ -79,6 +79,11 @@ function Statistics() {
       </div>
     </header>
 
+    <nav aria-label="分析頁章節" className="flex flex-wrap gap-3 mb-6 text-sm text-emerald-800">
+      <a className="underline underline-offset-4" href="#case-outcomes">處分後果</a>
+      <a className="underline underline-offset-4" href="#case-charts">分布圖表</a>
+      <a className="underline underline-offset-4" href="#case-timeline">制度時間軸</a>
+    </nav>
     <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 mb-6">
       {[
         [total, "收錄教學案例", `${review.newCases} 件新增＋${review.correctedLegacyCases} 件既有校正／分案`],
@@ -90,8 +95,8 @@ function Statistics() {
       </div>)}
     </div>
 
-    <section className="bg-blue-50 border border-blue-200 rounded-xl p-5 mb-8">
-      <h2 className="font-bold text-gray-900">如何解讀這批資料</h2>
+    <details className="bg-blue-50 border border-blue-200 rounded-xl p-5 mb-8">
+      <summary className="font-bold text-gray-900 cursor-pointer">資料來源與查核方法：如何解讀這批資料</summary>
       <ul className="list-disc pl-5 mt-3 space-y-2 text-sm text-gray-700">
         {sourceLeader && <li>主要公開來源以 {sourceLeader.label} 最多，{sourceLeader.count}／{total} 件（{(sourceLeader.count / total * 100).toFixed(1)}%）；反映本次蒐集來源的分布，不代表該機構或地區違規較多。</li>}
         <li>官方文件的編輯查核與模型來源對讀分開計算。目前 {review.sourceCompared} 件取得模型對讀回覆，{review.comparedByAtLeastTwo} 件至少有兩個模型參與。覆蓋件數不代表所有欄位都已確認；模型提出的疑義仍須回到原文判定。</li>
@@ -102,9 +107,9 @@ function Statistics() {
         {review.countrySourceFollowups > 0 && <li>另於 {review.lastCountryFollowupAt} 為 {review.countrySourceFollowups} 件補充官方選手資料、代表隊或賽事紀錄，並另做國家欄位模型對讀。其中 {review.countryProfileAtLookup} 件依查閱時官方個人資料列國家，尚不能據此確認事件當時的代表資格；各案保留適用時期說明。</li>}
         <li>禁賽、公開警告、成績取消和獎牌處置是不同後果。未知不等於沒有，禁賽期間的減免與停算以個案說明為準。</li>
       </ul>
-    </section>
+    </details>
 
-    <section className="mb-8 bg-white rounded-xl border border-gray-200 p-5">
+    <section id="case-outcomes" className="scroll-mt-24 mb-8 bg-white rounded-xl border border-gray-200 p-5">
       <h2 className="text-lg font-bold text-gray-900">成績與獎牌後果</h2>
       <p className="text-sm text-gray-600 mt-2 mb-4">分母為全部 {total} 件；「明確無」與「來源未確認」分開計算。</p>
       <div className="overflow-x-auto"><table className="w-full text-sm text-left">
@@ -114,7 +119,7 @@ function Statistics() {
       </table></div>
     </section>
 
-    <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+    <div id="case-charts" className="scroll-mt-24 grid grid-cols-1 lg:grid-cols-2 gap-6">
       <ChartPanel title="主要公開來源" note="依各案主要來源分組，每件只計一次；不等同裁決機構或所屬國家。" rows={sourceRows} />
       <ChartPanel title="運動項目分布（前十項）" note={`圖中涵蓋 ${sportRows.reduce((sum, row) => sum + row.count, 0)}／${total} 件，其餘項目未顯示；不可解讀為項目盛行率。`} rows={sportRows} />
       {countryRows.length > 0 && <ChartPanel title="國家／地區分布（已有國家來源）" note={`分母為國家欄位已有來源依據的 ${review.countryConfirmedDenominator}／${total} 件；另 ${review.countryEvidencePending} 件僅依公告標題標示，待補證前不計入此圖。前十五名以外合併為「其他國家／地區」；不可解讀為國家違規風險。`} rows={countryRows} />}
@@ -124,7 +129,7 @@ function Statistics() {
     </div>
 
     <section className="mt-10 rounded-xl border border-gray-200 bg-white p-5 sm:p-6">
-      <h2 className="text-xl font-bold text-gray-900">反禁藥事件與制度時間軸</h2>
+      <h2 id="case-timeline" className="scroll-mt-24 text-xl font-bold text-gray-900">反禁藥事件與制度時間軸</h2>
       <p className="text-sm text-gray-600 mt-2">以下是有來源的背景整理；賽會、調查公布及裁決日期分別標明，不納入上方案例數。</p>
       <ol className="mt-5 space-y-5">{majorEvents.map((event) => <li key={event.year} className="border-l-2 border-primary-200 pl-4">
         <p className="text-sm font-bold text-primary-700">{event.year}</p><h3 className="font-bold mt-1">{event.title}</h3><p className="text-sm text-gray-700 mt-2">{event.description}</p><p className="text-sm text-gray-600 mt-1">{event.impact}</p>

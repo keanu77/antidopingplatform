@@ -70,12 +70,12 @@ function TestingProcess() {
       </div>
 
       {/* Step indicators */}
-      <div className="flex items-center justify-center mb-8">
+      <div className="flex items-center justify-center mb-8 w-full">
         {steps.map((step, i) => (
-          <div key={i} className="flex items-center">
+          <div key={i} className="flex items-center min-w-0">
             <button
               onClick={() => setActive(i)}
-              className={`relative w-14 h-14 rounded-2xl flex items-center justify-center font-black text-lg transition-all duration-300 ${
+              className={`relative shrink-0 w-12 h-12 sm:w-14 sm:h-14 rounded-2xl flex items-center justify-center font-black text-lg transition-all duration-300 ${
                 i === active
                   ? `${step.color} text-white scale-110 shadow-xl`
                   : i < active
@@ -93,7 +93,7 @@ function TestingProcess() {
               </span>
             </button>
             {i < steps.length - 1 && (
-              <div className={`w-8 sm:w-12 md:w-20 h-1 mx-1 rounded-full transition-colors duration-300 ${
+              <div className={`w-4 sm:w-12 md:w-20 h-1 mx-1 shrink rounded-full transition-colors duration-300 ${
                 i < active ? "bg-emerald-300" : "bg-gray-200"
               }`} />
             )}

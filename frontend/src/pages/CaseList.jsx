@@ -1,5 +1,5 @@
 import { useState, useEffect, useCallback, useMemo, useRef } from "react";
-import { Link } from "react-router-dom";
+import { Link, useSearchParams, useNavigationType } from "react-router-dom";
 import {
   Search,
   Filter,
@@ -24,8 +24,30 @@ const EMPTY_FILTERS = {
 };
 
 function CaseList() {
+  const [searchParams, setSearchParams] = useSearchParams();
+  const navigationType = useNavigationType();
+  const queryKey = searchParams.toString();
+  const urlFilters = useMemo(() => Object.fromEntries(
+    Object.keys(EMPTY_FILTERS).map(key => [key, searchParams.get(key) || ""]),
+  ), [searchParams]);
+  const rawPage = Number(searchParams.get("page"));
+  const urlPage = Number.isSafeInteger(rawPage) && rawPage > 0 ? rawPage : 1;
+  const restoreScroll = useRef(navigationType === "POP" ? (() => {
+    try { return Number(sessionStorage.getItem(`case-scroll:${queryKey}`)) || 0; }
+    catch { return 0; }
+  })() : 0);
+  const writeQuery = useCallback((values, page = 1, replace = true) => {
+    const next = new URLSearchParams();
+    for (const [key, value] of Object.entries(values)) if (value) next.set(key, value);
+    if (page > 1) next.set("page", String(page));
+    setSearchParams(next, { replace });
+  }, [setSearchParams]);
+  const rememberScroll = () => {
+    try { sessionStorage.setItem(`case-scroll:${queryKey}`, String(window.scrollY)); }
+    catch { /* Storage may be unavailable. URL state still survives navigation. */ }
+  };
   const [cases, setCases] = useState([]);
-  const [filters, setFilters] = useState(EMPTY_FILTERS);
+  const [filters, setFilters] = useState(urlFilters);
   const [filterOptions, setFilterOptions] = useState({
     sports: [],
     nationalities: [],
@@ -39,7 +61,7 @@ function CaseList() {
     totalCases: 0,
   });
   const [loading, setLoading] = useState(false);
-  const [showFilters, setShowFilters] = useState(false);
+  const [showFilters, setShowFilters] = useState(() => Object.entries(urlFilters).some(([key, value]) => key !== "search" && value));
   const [error, setError] = useState(null);
   const mountedRef = useRef(false);
   const requestIdRef = useRef(0);
@@ -174,7 +196,7 @@ function CaseList() {
     mountedRef.current = true;
     // 兩項請求各自啟動，避免篩選選項較慢時覆蓋使用者的新搜尋。
     void loadFilterOptions();
-    void loadCases(EMPTY_FILTERS, 1);
+
     return () => {
       mountedRef.current = false;
       requestIdRef.current += 1;
@@ -182,6 +204,29 @@ function CaseList() {
       debouncedSearch.cancel();
     };
   }, [loadFilterOptions, loadCases, debouncedSearch]);
+
+  useEffect(() => {
+    requestIdRef.current += 1;
+    setFilters(urlFilters);
+    setLoading(true);
+    debouncedSearch(urlFilters, urlPage);
+    return () => debouncedSearch.cancel();
+  }, [urlFilters, urlPage, debouncedSearch]);
+
+  useEffect(() => {
+    if (!loading && cases.length && restoreScroll.current) {
+      const y = restoreScroll.current;
+      restoreScroll.current = 0;
+      const frame = requestAnimationFrame(() => window.scrollTo(0, y));
+      return () => cancelAnimationFrame(frame);
+    }
+  }, [cases, loading]);
+
+  const goToPage = (page) => {
+    debouncedSearch.cancel();
+    writeQuery(filters, page, false);
+    window.scrollTo({ top: 0, behavior: "instant" });
+  };
 
   const handleFilterChange = useCallback(
     (key, value) => {
@@ -191,9 +236,9 @@ function CaseList() {
       setPagination((prev) => ({ ...prev, currentPage: 1 }));
 
       // 使用防抖搜尋
-      debouncedSearch(newFilters, 1);
+      writeQuery(newFilters, 1);
     },
-    [filters, debouncedSearch],
+    [filters, writeQuery],
   );
 
   const handleSearchSubmit = useCallback(
@@ -201,15 +246,17 @@ function CaseList() {
       e.preventDefault();
       // 取消防抖並立即搜尋
       debouncedSearch.cancel();
+      writeQuery(filters, 1);
       loadCases(filters, 1);
     },
-    [filters, loadCases, debouncedSearch],
+    [filters, loadCases, debouncedSearch, writeQuery],
   );
 
   const clearFilters = () => {
     debouncedSearch.cancel();
     setFilters(EMPTY_FILTERS);
     setPagination((prev) => ({ ...prev, currentPage: 1 }));
+    writeQuery(EMPTY_FILTERS, 1);
     void loadCases(EMPTY_FILTERS, 1);
   };
 
@@ -233,12 +280,13 @@ function CaseList() {
 
       {/* Search Bar */}
       <form onSubmit={handleSearchSubmit} className="mb-6">
-        <div className="flex gap-2">
-          <div className="flex-1 relative">
+        <div className="flex flex-wrap gap-2">
+          <div className="w-full sm:w-auto sm:flex-1 min-w-0 relative">
             <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 h-5 w-5 text-gray-400" />
             <input
               type="text"
-              placeholder="搜尋選手、教練姓名、藥物或運動項目（支援拼寫容錯）"
+              placeholder="姓名、藥物或運動項目"
+              aria-describedby="case-search-help"
               value={filters.search}
               onChange={(e) => handleFilterChange("search", e.target.value)}
               aria-label="搜尋案例"
@@ -254,6 +302,8 @@ function CaseList() {
             }}
             className="px-4 py-2 bg-gray-100 hover:bg-gray-200 rounded-lg flex items-center gap-2 transition"
             aria-label="切換篩選選項"
+            aria-expanded={showFilters}
+            aria-controls="case-filters"
           >
             <Filter className="h-5 w-5" />
             篩選 {showFilters ? "▲" : "▼"}
@@ -265,11 +315,12 @@ function CaseList() {
             搜尋
           </button>
         </div>
+        <p id="case-search-help" className="mt-2 text-xs text-gray-500">支援選手、教練姓名及拼寫容錯；搜尋條件可隨網址分享。</p>
       </form>
 
       {/* Filters */}
       {showFilters && (
-        <div className="bg-white rounded-lg shadow p-6 mb-6">
+        <div id="case-filters" className="bg-white rounded-lg shadow p-6 mb-6">
           <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-4">
             <div>
               <label
@@ -416,6 +467,7 @@ function CaseList() {
               <Link
                 key={caseItem._id}
                 to={`/cases/${caseItem._id}`}
+                onClick={rememberScroll}
                 className="bg-white rounded-lg shadow hover:shadow-lg transition-shadow"
               >
                 <div className="p-6">
@@ -476,8 +528,7 @@ function CaseList() {
                 onClick={() => {
                   debouncedSearch.cancel();
                   const newPage = pagination.currentPage - 1;
-                  setPagination((prev) => ({ ...prev, currentPage: newPage }));
-                  loadCases(filters, newPage);
+                  goToPage(newPage);
                 }}
                 disabled={pagination.currentPage === 1}
                 className="p-2 rounded-lg hover:bg-gray-100 disabled:opacity-50 disabled:cursor-not-allowed"
@@ -500,11 +551,7 @@ function CaseList() {
                         key={page}
                         onClick={() => {
                           debouncedSearch.cancel();
-                          setPagination((prev) => ({
-                            ...prev,
-                            currentPage: page,
-                          }));
-                          loadCases(filters, page);
+                          goToPage(page);
                         }}
                         className={`px-3 py-1 rounded-lg ${
                           page === pagination.currentPage
@@ -529,8 +576,7 @@ function CaseList() {
                 onClick={() => {
                   debouncedSearch.cancel();
                   const newPage = pagination.currentPage + 1;
-                  setPagination((prev) => ({ ...prev, currentPage: newPage }));
-                  loadCases(filters, newPage);
+                  goToPage(newPage);
                 }}
                 disabled={pagination.currentPage === pagination.totalPages}
                 className="p-2 rounded-lg hover:bg-gray-100 disabled:opacity-50 disabled:cursor-not-allowed"

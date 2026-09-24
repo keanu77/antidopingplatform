@@ -134,6 +134,9 @@ function pageSnapshot() {
 const STYLE = `
 .adp-fb { position: fixed; left: 0; right: 0; bottom: 0; z-index: 39;
   font-family: -apple-system, BlinkMacSystemFont, "Noto Sans TC", "PingFang TC", sans-serif; }
+.adp-fb-compact-inner { display: flex; justify-content: flex-end; gap: 8px; padding: 7px 16px; }
+.adp-fb-compact .adp-fb-report { font-size: 13px; min-height: 36px; }
+.adp-fb-collapse { display: block; margin: 4px 16px 0 auto; padding: 6px 12px; color: #047857; font-size: 13px; }
 .adp-fb-bar { background: #ffffff; border-top: 3px solid ${ACCENT};
   box-shadow: 0 -6px 24px rgba(0,0,0,0.14); }
 .adp-fb-inner { max-width: 56rem; margin: 0 auto; display: flex; align-items: center;
@@ -184,6 +187,8 @@ export default function FeedbackBar() {
   const location = useLocation();
   const slug = location.pathname || "/";
 
+  const [expanded, setExpanded] = useState(false);
+  const toggleRef = useRef(null);
   const [mode, setMode] = useState("collapsed"); // collapsed|rated|thanks|feedback|error|sent|queued
   const [stars, setStars] = useState(0);
   const [hover, setHover] = useState(0);
@@ -216,20 +221,39 @@ export default function FeedbackBar() {
   // 逐頁重置：切換路由時，依該頁是否評過決定 collapsed / rated，並清空表單。
   useEffect(() => {
     loadedAtRef.current = Date.now();
+    setExpanded(false);
     setStars(0);
     setHover(0);
     resetForm();
     setMode(ratedWithinTTL(slug) ? "rated" : "collapsed");
   }, [slug]);
 
-  // 展開/收合後量測列高，設 body 底距避免罩層永久遮住 footer 底部。
+  // Keep the final content reachable when the dock changes size or wraps.
   useEffect(() => {
-    const barH = barRef.current?.offsetHeight ?? 44;
-    document.body.style.paddingBottom = `${barH + 8}px`;
-    return () => {
-      document.body.style.paddingBottom = "";
-    };
-  }, [mode]);
+    const bar = barRef.current;
+    if (!bar) return;
+    const resize = () => { document.body.style.paddingBottom = `${bar.offsetHeight + 8}px`; };
+    resize();
+    const observer = new ResizeObserver(resize);
+    observer.observe(bar);
+    return () => { observer.disconnect(); document.body.style.paddingBottom = ""; };
+  }, [expanded, mode]);
+
+  useEffect(() => {
+    if (!expanded) return;
+    const frame = requestAnimationFrame(() => {
+      const dock = barRef.current?.parentElement;
+      const target = dock?.querySelector(".adp-fb-close, .adp-fb-star, .adp-fb-collapse");
+      target?.focus();
+    });
+    return () => cancelAnimationFrame(frame);
+  }, [expanded]);
+
+  const collapseDock = () => {
+    setExpanded(false);
+    close();
+    requestAnimationFrame(() => toggleRef.current?.focus());
+  };
 
   function base() {
     return {
@@ -382,7 +406,7 @@ export default function FeedbackBar() {
   }
 
   const fillTo = hover || stars;
-  const showStars = mode === "collapsed";
+  const showStars = expanded && mode === "collapsed";
 
   const moreBlock = (
     <>
@@ -623,7 +647,14 @@ export default function FeedbackBar() {
       )}
 
       {/* ---- 黏底細列（永遠在面板下方）---- */}
-      <div className="adp-fb-bar" ref={barRef}>
+      <div className={`adp-fb-bar${expanded ? "" : " adp-fb-compact"}`} ref={barRef}>
+        {!expanded ? <div className="adp-fb-compact-inner">
+          <button ref={toggleRef} type="button" className="adp-fb-report" aria-expanded={false}
+            onClick={() => setExpanded(true)}>意見回饋</button>
+          <button type="button" className="adp-fb-report" onClick={() => { setExpanded(true); openError(); }}>回報問題</button>
+        </div> : <button type="button" className="adp-fb-collapse" aria-label="收合回饋列" onClick={collapseDock}>收合 ↓</button>}
+        {expanded && (
+
         <div className="adp-fb-inner">
           {mode === "thanks" ? (
             <>
@@ -646,7 +677,7 @@ export default function FeedbackBar() {
               {showStars && (
                 <span
                   className="adp-fb-stars"
-                  role="radiogroup"
+                  role="group"
                   aria-label="評分"
                 >
                   {[1, 2, 3, 4, 5].map((n) => (
@@ -677,6 +708,7 @@ export default function FeedbackBar() {
             </>
           )}
         </div>
+        )}
       </div>
     </div>
   );

@@ -1,0 +1,38 @@
+{
+  "frontend/public/images/clean-sport/testing-soft3d-640.webp": {
+    "bytes": 22910,
+    "sha256": "1a4c493f77a17f57a3ce75889001bea3f4a654d9577e088ab3e98dbedac8d1ac"
+  },
+  "frontend/public/images/clean-sport/testing-soft3d-400.webp": {
+    "bytes": 12560,
+    "sha256": "2cd5ab49271d29de553b4c83120009f027e2ecc8e9aafa5e748fc9c05ae7f9eb"
+  },
+  "frontend/public/images/clean-sport/tue-soft3d-400.webp": {
+    "bytes": 12202,
+    "sha256": "fa2947fe950b6f4bc001393f76b5e7e0d388e859d7cdd6a62a55d02db0bca7e4"
+  },
+  "frontend/public/images/clean-sport/tue-soft3d-640.webp": {
+    "bytes": 21950,
+    "sha256": "f3f20baf008e52c5b1b510b5335c2d2a71ebb67c9653fbacec67f60af3389d26"
+  },
+  "frontend/public/images/clean-sport/hero-soft3d-1440.webp": {
+    "bytes": 62244,
+    "sha256": "ec9c4250a3c5d02a3c0a23bd028fcbf1be1d43c840c3189c5909d45ce79f2c50"
+  },
+  "frontend/public/images/clean-sport/hero-soft3d-768.webp": {
+    "bytes": 25698,
+    "sha256": "bcd17e06ef2c4d879b3a058e4fc8425b46ac119049323fc553c661b25eb24844"
+  },
+  "frontend/public/images/clean-sport/quiz-soft3d-400.webp": {
+    "bytes": 11138,
+    "sha256": "f574725b5b9467cecd4c31ace24305c960b158d7786bc39b803848f9c5bc8cdd"
+  },
+  "frontend/public/images/clean-sport/quiz-soft3d-640.webp": {
+    "bytes": 19808,
+    "sha256": "9126623b6193aea0de41d460f88c2e40d4c505ba8f05d775f320cd92efee33ec"
+  },
+  "frontend/src/pages/Home.jsx": {
+    "bytes": 8247,
+    "sha256": "5a92d320531414b32056bdf6ffdc914c7e28f07cc900c33bcbf2dc557c79fce8"
+  }
+}
