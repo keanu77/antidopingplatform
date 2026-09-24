@@ -1,0 +1,319 @@
+{
+  "cases": [
+    {
+      "id": "aiu-50c7d7af7b33",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-05815f4b3cc4950e",
+        "registry-8397269450c8a5f6"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-05815f4b3cc4950e",
+          "startLine": 12,
+          "endLine": 12,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "決定確認選手為 Rameshwar Munjal，來自印度。"
+        },
+        {
+          "documentId": "doc-05815f4b3cc4950e",
+          "startLine": 55,
+          "endLine": 62,
+          "supports": [
+            "event",
+            "substance",
+            "dates"
+          ],
+          "note": "2024年12月8日孟買半馬賽內尿液樣本檢出 EPO 與 darbepoetin。"
+        },
+        {
+          "documentId": "doc-05815f4b3cc4950e",
+          "startLine": 161,
+          "endLine": 191,
+          "supports": [
+            "substance",
+            "sanction",
+            "education"
+          ],
+          "note": "決定認定兩種禁用物質構成加重情節，並記載及早承認接受六年主張處分。"
+        },
+        {
+          "documentId": "doc-05815f4b3cc4950e",
+          "startLine": 207,
+          "endLine": 225,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "最終禁賽五年，自2025年4月14日起，取消2024年12月8日起成績及相關後果。"
+        },
+        {
+          "documentId": "registry-8397269450c8a5f6",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "AIU 名冊列出五年處分及取消起始日期，與個案決定相符。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "aiu-035a4b79e093",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-74bb19a4b3edbc20",
+        "registry-22a02fee17b0eb5b"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-74bb19a4b3edbc20",
+          "startLine": 12,
+          "endLine": 12,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "決定確認選手為 Emmanuel Kipchumba Kemboi，來自肯亞。"
+        },
+        {
+          "documentId": "doc-74bb19a4b3edbc20",
+          "startLine": 55,
+          "endLine": 60,
+          "supports": [
+            "event",
+            "substance",
+            "dates"
+          ],
+          "note": "2024年10月6日里斯本馬拉松樣本出現 triamcinolone acetonide 分析不利結果。"
+        },
+        {
+          "documentId": "doc-74bb19a4b3edbc20",
+          "startLine": 82,
+          "endLine": 84,
+          "supports": [
+            "substance",
+            "education"
+          ],
+          "note": "選手承認使用，並簽署違規及後果接受表。"
+        },
+        {
+          "documentId": "doc-74bb19a4b3edbc20",
+          "startLine": 118,
+          "endLine": 136,
+          "supports": [
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "決定列明禁用清單分類，兩年禁賽自2025年4月7日起，並取消2024年10月6日起成績。"
+        },
+        {
+          "documentId": "doc-74bb19a4b3edbc20",
+          "startLine": 96,
+          "endLine": 100,
+          "supports": [
+            "education"
+          ],
+          "note": "腳註記載追加分析結果為陰性，且其通報年份與正文日期不一致。"
+        },
+        {
+          "documentId": "registry-22a02fee17b0eb5b",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "AIU 名冊確認兩年處分、自2025年4月7日起及取消10月6日起成績。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "aiu-71b27e0cc19d",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-803499e9bfc63541",
+        "registry-40657c9c3677953e"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-803499e9bfc63541",
+          "startLine": 12,
+          "endLine": 12,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "決定確認 Liya Guo 為來自中國的公路跑者。"
+        },
+        {
+          "documentId": "doc-803499e9bfc63541",
+          "startLine": 55,
+          "endLine": 62,
+          "supports": [
+            "event",
+            "substance",
+            "dates"
+          ],
+          "note": "2025年3月2日無錫太湖女子半馬樣本檢出 metandienone 代謝物。"
+        },
+        {
+          "documentId": "doc-803499e9bfc63541",
+          "startLine": 84,
+          "endLine": 101,
+          "supports": [
+            "substance",
+            "education"
+          ],
+          "note": "她提及恢復補充品含 methyltestosterone，腳註確認成分列於標籤；檢出物亦可能源自其他類固醇。"
+        },
+        {
+          "documentId": "doc-803499e9bfc63541",
+          "startLine": 123,
+          "endLine": 175,
+          "supports": [
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "決定列明禁用物質分類、及早承認減免及三年處分，自2025年3月24日起，取消3月2日起成績。"
+        },
+        {
+          "documentId": "registry-40657c9c3677953e",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "AIU 名冊列出三年處分及取消成績日期，與個案決定相符。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "aiu-ca441528de10",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-1ffa47efea8ce3b0",
+        "registry-76a4fa1089d7e311"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-1ffa47efea8ce3b0",
+          "startLine": 12,
+          "endLine": 12,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "決定確認 Brimin Misoi Kipkorir 為來自肯亞的公路跑者。"
+        },
+        {
+          "documentId": "doc-1ffa47efea8ce3b0",
+          "startLine": 55,
+          "endLine": 82,
+          "supports": [
+            "event",
+            "substance",
+            "dates"
+          ],
+          "note": "2024年11月22日肯亞賽外樣本先檢出 furosemide，追加分析再檢出 EPO。"
+        },
+        {
+          "documentId": "doc-1ffa47efea8ce3b0",
+          "startLine": 119,
+          "endLine": 130,
+          "supports": [
+            "sanction",
+            "education"
+          ],
+          "note": "選手曾表示希望接受兩年處分，AIU 說明加重後六年及及早承認可減一年，隨後他接受條件。"
+        },
+        {
+          "documentId": "doc-1ffa47efea8ce3b0",
+          "startLine": 201,
+          "endLine": 251,
+          "supports": [
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "決定認定多種物質構成加重情節，最終禁賽五年，自2025年2月17日起並取消11月22日起成績。"
+        },
+        {
+          "documentId": "registry-76a4fa1089d7e311",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "AIU 名冊確認五年處分及取消成績起始日期。"
+        }
+      ],
+      "findings": []
+    }
+  ]
+}

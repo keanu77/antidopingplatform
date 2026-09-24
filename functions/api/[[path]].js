@@ -8,7 +8,6 @@ import {
   queryCases, getCaseById, getFilterOptions, stats, lookupSubstance,
   wadaCategories, quizzes, specialties, adrv, substancesData, tueContent,
 } from "../_lib/store.js";
-import { normalizeFeedback, FEEDBACK_INSERT_SQL, feedbackInsertParams } from "../_lib/feedback.js";
 import { buildDigestHtml, buildDigestText, rowFromD1, secretMatches } from "../_lib/digest.js";
 import { emailConfigured, sendEmail } from "../_lib/email.js";
 
@@ -26,29 +25,107 @@ const CACHE_1H = { "Cache-Control": "public, max-age=3600" };
 const NO_STORE = { "Cache-Control": "no-store" };
 
 async function readJson(request) {
+  const fail = (message, status) => ({ error: json({ error: message }, status, NO_STORE) });
+  const mediaType = request.headers.get("Content-Type")?.split(";")[0].trim().toLowerCase();
+  if (mediaType !== "application/json") return fail("請使用 application/json", 415);
   const len = Number(request.headers.get("Content-Length") || 0);
-  if (len > MAX_BODY_BYTES) return { tooLarge: true };
-  const raw = await request.text();
-  if (raw.length > MAX_BODY_BYTES) return { tooLarge: true };
-  try { return { body: JSON.parse(raw) }; } catch { return { bad: true }; }
+  if (len > MAX_BODY_BYTES) {
+    await request.body?.cancel().catch(() => {});
+    return fail("內容過長", 413);
+  }
+  if (!request.body) return fail("格式錯誤", 400);
+  const reader = request.body.getReader();
+  const chunks = [];
+  let size = 0;
+  try {
+    while (true) {
+      const { done, value } = await reader.read();
+      if (done) break;
+      size += value.byteLength;
+      if (size > MAX_BODY_BYTES) {
+        await reader.cancel().catch(() => {});
+        return fail("內容過長", 413);
+      }
+      chunks.push(value);
+    }
+    const bytes = new Uint8Array(size);
+    let offset = 0;
+    for (const chunk of chunks) {
+      bytes.set(chunk, offset);
+      offset += chunk.byteLength;
+    }
+    const body = JSON.parse(new TextDecoder("utf-8", { fatal: true }).decode(bytes));
+    if (!body || typeof body !== "object" || Array.isArray(body)) return fail("格式錯誤", 400);
+    return { body };
+  } catch {
+    return fail("格式錯誤", 400);
+  } finally {
+    reader.releaseLock();
+  }
 }
 
 // ── 回饋：D1 寫入 + 基本防濫用 ────────────────────────────────────────
-// 欄位驗證在 _lib/feedback.js（對齊前端 FeedbackBar 的 rating / feedback / error）。
-async function handleFeedback(request, env) {
-  const { body, bad, tooLarge } = await readJson(request);
-  if (tooLarge) return json({ error: "內容過長" }, 413, NO_STORE);
-  if (bad || !body) return json({ error: "格式錯誤" }, 400, NO_STORE);
+const VALID_TYPES = new Set(["rating", "feedback", "error", "issue"]);
+const FEEDBACK_FIELDS = {
+  issueType: ["問題類型", 100], errorType: ["錯誤類型", 100],
+  description: ["問題描述", 2000], message: ["使用回饋", 2000],
+  suggestion: ["建議內容", 1000], refs: ["參考來源", 500],
+  role: ["填寫者身分", 100], email: ["回覆聯絡信箱", 200],
+  resultSnapshot: ["頁面快照", 4000], viewport: ["視窗大小", 50],
+  url: ["頁面網址", 1000], toolSlug: ["頁面路徑", 300], page: ["來源頁面", 300],
+};
 
-  const now = Date.now();
-  const result = normalizeFeedback(body, { now, userAgent: request.headers.get("User-Agent") || "" });
-  if (result.status === "drop") return json({ ok: true }, 200, NO_STORE); // 疑似機器人：不給提示
-  if (result.status === "error") return json({ error: result.error }, result.code, NO_STORE);
+async function handleFeedback(request, env) {
+  const origin = request.headers.get("Origin");
+  if ((origin && origin !== new URL(request.url).origin) || request.headers.get("Sec-Fetch-Site") === "cross-site") {
+    return json({ error: "不接受跨站回饋" }, 403, NO_STORE);
+  }
+  const parsed = await readJson(request);
+  if (parsed.error) return parsed.error;
+  const { body } = parsed;
+
+  // honeypot：機器人才會填這個欄位，靜默丟棄（回 ok 不給提示）
+  if (typeof body.website === "string" && body.website.trim() !== "") {
+    return json({ ok: true }, 200, NO_STORE);
+  }
+  // 過早送出時要求稍候重試，避免把未寫入誤報為成功。
+  const elapsed = Number.isFinite(body.loadedAt) ? Date.now() - body.loadedAt : Number(body.elapsedMs);
+  if (elapsed >= 0 && elapsed < 2000) {
+    return json({ error: "請稍候再送出" }, 429, { ...NO_STORE, "Retry-After": "2" });
+  }
+
+  const inputType = body.type ?? "rating";
+  if (!VALID_TYPES.has(inputType)) return json({ error: "回饋類型不正確" }, 400, NO_STORE);
+  const rating = Number.isInteger(body.rating) && body.rating >= 1 && body.rating <= 5 ? body.rating : null;
+  if ((inputType === "rating" || body.rating !== undefined) && rating === null) {
+    return json({ error: "請提供 1-5 的評分" }, 400, NO_STORE);
+  }
+  const fields = {};
+  for (const [key, [, limit]] of Object.entries(FEEDBACK_FIELDS)) {
+    if (body[key] == null) continue;
+    if (typeof body[key] !== "string") return json({ error: "回饋欄位格式不正確" }, 400, NO_STORE);
+    fields[key] = body[key].trim().slice(0, limit);
+  }
+  if ((inputType === "error" && (!fields.description || !fields.errorType)) || (inputType === "issue" && !fields.message)) {
+    return json({ error: "請提供問題類型與描述" }, 400, NO_STORE);
+  }
+  if (fields.email && !/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(fields.email)) {
+    return json({ error: "Email 格式有誤" }, 400, NO_STORE);
+  }
+  // 沿用既有 rating/issue schema；附註不重複計入評分，原始類型及欄位完整標記。
+  const type = inputType === "rating" ? "rating" : "issue";
+  const detail = { 格式: "feedback-v1", 回饋類型: inputType };
+  if (rating !== null) detail.評分 = rating;
+  for (const [key, value] of Object.entries(fields)) {
+    if (value) detail[FEEDBACK_FIELDS[key][0]] = value;
+  }
+  const message = JSON.stringify(detail, null, 2);
+  if (message.length > 14000) return json({ error: "回饋內容過長" }, 413, NO_STORE);
+  const page = fields.page || fields.toolSlug || "";
 
   if (!env.FEEDBACK_DB) {
-    // D1 未綁定時不讓前端看到錯誤（回饋非關鍵路徑），但留下伺服器端紀錄
     console.warn("FEEDBACK_DB 未綁定，回饋未寫入");
-    return json({ ok: true }, 200, NO_STORE);
+    return json({ error: "回饋尚未送達，請稍後再試" }, 503, NO_STORE);
   }
 
   // 以 IP 雜湊做每小時上限，不存明文 IP
@@ -57,16 +134,20 @@ async function handleFeedback(request, env) {
   const ipHash = [...new Uint8Array(digest)].slice(0, 8).map((b) => b.toString(16).padStart(2, "0")).join("");
 
   try {
-    const { results } = await env.FEEDBACK_DB
-      .prepare("SELECT COUNT(*) AS n FROM feedback WHERE ip_hash = ? AND created_at > ?")
-      .bind(ipHash, now - 3600_000).all();
-    if ((results?.[0]?.n ?? 0) >= 10) return json({ ok: true }, 200, NO_STORE);
-
-    await env.FEEDBACK_DB.prepare(FEEDBACK_INSERT_SQL)
-      .bind(...feedbackInsertParams(result.row, ipHash, now)).run();
+    const now = Date.now();
+    // 額度檢查與 INSERT 在同一 SQL statement 內，避免並行讀取舊 count。
+    const result = await env.FEEDBACK_DB
+      .prepare(`INSERT INTO feedback (type, rating, message, page, ip_hash, created_at)
+        SELECT ?, ?, ?, ?, ?, ?
+        WHERE (SELECT COUNT(*) FROM feedback WHERE ip_hash = ? AND created_at > ?) < 10`)
+      .bind(type, type === "rating" ? rating : null, message, page, ipHash, now, ipHash, now - 3600_000).run();
+    if (result?.success !== true || !Number.isInteger(result.meta?.changes)) throw new Error("D1 did not confirm the write");
+    if (result.meta.changes === 0) {
+      return json({ error: "送出太頻繁，請稍後再試" }, 429, { ...NO_STORE, "Retry-After": "3600" });
+    }
   } catch (err) {
     console.error("回饋寫入失敗:", err?.message);
-    return json({ ok: true }, 200, NO_STORE); // 不因回饋失敗影響使用者
+    return json({ error: "回饋尚未送達，請稍後再試" }, 503, NO_STORE);
   }
   return json({ ok: true }, 200, NO_STORE);
 }
@@ -151,6 +232,7 @@ export async function onRequest({ request, env, params }) {
     const table = {
       undefined: stats.overview, "": stats.overview, overview: stats.overview,
       "yearly-trends": stats.yearlyTrends,
+      "review-summary": stats.reviewSummary,
       "sport-distribution": stats.sportDistribution,
       "substance-distribution": stats.substanceDistribution,
       "nationality-distribution": stats.nationalityDistribution,
@@ -159,7 +241,8 @@ export async function onRequest({ request, env, params }) {
       "ban-duration-distribution": stats.banDurationDistribution,
       "ban-duration-distribution-detailed": stats.banDurationDistribution,
     };
-    const fn = table[a ?? ""];
+    const key = a ?? "";
+    const fn = Object.hasOwn(table, key) ? table[key] : null;
     return fn ? json(fn(), 200, CACHE_1H) : json({ error: "API 端點不存在" }, 404);
   }
 
@@ -170,7 +253,10 @@ export async function onRequest({ request, env, params }) {
     if (a === "adrv") return json(adrv, 200, CACHE_1H);
     if (a === "quizzes") {
       if (b && c === "answer" && method === "POST") {
-        const { body } = await readJson(request);
+        const parsed = await readJson(request);
+        if (parsed.error) return parsed.error;
+        const { body } = parsed;
+        if (!(typeof body.answer === "string" || Number.isInteger(body.answer))) return json({ error: "請提供有效答案" }, 400, NO_STORE);
         const quiz = (quizzes || []).find((q) => String(q.id) === String(b));
         if (!quiz) return json({ error: "找不到此題目" }, 404, NO_STORE);
         const correct = String(body?.answer) === String(quiz.correctAnswer ?? quiz.answer);
@@ -185,8 +271,9 @@ export async function onRequest({ request, env, params }) {
     }
     if (a === "articles") {
       if (!b) return json(specialties, 200, CACHE_1H);
-      const one = (specialties || []).find?.((s) => String(s.id) === String(b))
-        ?? specialties?.[b];
+      const one = Array.isArray(specialties)
+        ? specialties.find((s) => String(s.id) === String(b))
+        : (specialties && Object.hasOwn(specialties, b) ? specialties[b] : null);
       return one ? json(one, 200, CACHE_1H) : json({ error: "找不到此內容" }, 404);
     }
     return json({ error: "API 端點不存在" }, 404);
@@ -202,8 +289,9 @@ export async function onRequest({ request, env, params }) {
     if (a === "substances") return json(substancesData, 200, CACHE_1H);
     if (a === "check") {
       if (method !== "POST") return json({ error: "需使用 POST" }, 405, NO_STORE);
-      const { body, bad } = await readJson(request);
-      if (bad) return json({ error: "格式錯誤" }, 400, NO_STORE);
+      const parsed = await readJson(request);
+      if (parsed.error) return parsed.error;
+      const { body } = parsed;
       const drugName = body?.drugName;
       if (!drugName) return json({ error: "請提供藥物名稱" }, 400, NO_STORE);
       if (typeof drugName !== "string" || drugName.length > 200) {
@@ -238,7 +326,6 @@ export async function onRequest({ request, env, params }) {
     if (method !== "GET") return json({ error: "需使用 GET" }, 405, NO_STORE);
     return handleFeedbackDigest(request, env);
   }
-
   // ---- /api/health ----
   if (group === "health") {
     return json({ status: "ok", cases: stats.overview().totalCases, timestamp: new Date().toISOString() }, 200, NO_STORE);

@@ -1,0 +1,496 @@
+{
+  "cases": [
+    {
+      "id": "usada-cca09860726b",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-437318f0696d93bf",
+        "registry-247f1e705d63eddb"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-437318f0696d93bf",
+          "startLine": 7,
+          "endLine": 9,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "Joseph Lamour 在 2016-05-15 全美手球錦標賽檢出 amphetamine，處兩年禁賽並取消同日起成績"
+        },
+        {
+          "documentId": "registry-247f1e705d63eddb",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction"
+          ],
+          "note": "官方名冊確認手球選手 Joseph Lamour 因 amphetamine 處兩年禁賽及取消成績"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "美國",
+          "explanation": "官方文件標題雖稱 U.S. Handball Athlete 且提及居住於喬治亞州亞特蘭大，但依稽核準則，主管機構管轄權、居住地或新聞標題不能直接推定國籍或代表隊，缺乏代表代表國之直接證據。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-437318f0696d93bf",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "將國籍/代表身分標記為不確定，或補充其代表美國隊參賽之官方資格證明"
+        }
+      ]
+    },
+    {
+      "id": "usada-e7645ab29f67",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-0ff9f5f8ef73199c",
+        "registry-27618315d32ee835"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-0ff9f5f8ef73199c",
+          "startLine": 7,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "Joseph Mazzie 於 2016-08-24 賽外檢體檢出 RAD140 與 ibutamoren，接受四年禁賽並取消同日起成績"
+        },
+        {
+          "documentId": "registry-27618315d32ee835",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction"
+          ],
+          "note": "官方處分名冊記錄 Joseph Mazzie 輪滑項目 RAD140 及 Ibutamoren 四年禁賽與取消成績"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "美國",
+          "explanation": "官方公告標題雖稱 U.S. Roller Hockey Athlete 且居住紐約，但主管機構管轄、居住地及標題無法直接確立國籍或運動代表權。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-0ff9f5f8ef73199c",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "將國籍欄位標註為不確定，或增補國家代表權之直接證明"
+        }
+      ]
+    },
+    {
+      "id": "usada-1f56bc7e39f1",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-40cb6d78eb498383",
+        "registry-2ff1f5bb18f94ad0"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-40cb6d78eb498383",
+          "startLine": 7,
+          "endLine": 12,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "dates",
+            "outcomes"
+          ],
+          "note": "Nicholas Mossberg 承認持有及使用禁用肽類，禁賽自 2016-04-25 起，成績自 2014-08-23 起取消"
+        },
+        {
+          "documentId": "registry-2ff1f5bb18f94ad0",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "sanction"
+          ],
+          "note": "處分名冊載明 Nick Mossberg 田徑項目四年禁賽並註記退休停算"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "美國",
+          "explanation": "公告提及 U.S. Track & Field Athlete、鳳凰城居住地及原擬參加美國奧運選拔，但依稽核準則不足以充分確立法律國籍或國家代表隊資格。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-40cb6d78eb498383",
+              "startLine": 1,
+              "endLine": 8
+            }
+          ],
+          "suggestion": "將國籍欄位標註為不確定，或補充代表隊資格相關佐證"
+        }
+      ]
+    },
+    {
+      "id": "usada-e05e2fe6db96",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-5bcac1467da84140",
+        "registry-399bc7d4ba437db0"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-5bcac1467da84140",
+          "startLine": 7,
+          "endLine": 9,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "Thomas Luton 因 2010 至 2012 年持有使用 EPO、hGH 及睪固酮獲四年禁賽，自 2016-12-07 起算，成績自 2011-01-16 取消"
+        },
+        {
+          "documentId": "registry-399bc7d4ba437db0",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction"
+          ],
+          "note": "官方名冊載明 Thomas Luton 自行車項目非分析使用與持有物質四年禁賽"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "美國",
+          "explanation": "公告標題稱 U.S. Cycling Athlete 且選手居住德州，依規定發布機構管轄權或居住地不能直接推定國籍或代表身分。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-5bcac1467da84140",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "將國籍標記為不確定，或提供明確國家代表權證明"
+        }
+      ]
+    },
+    {
+      "id": "usada-a19d120a5a90",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-da203cf85b903322",
+        "registry-d713e7eade177639"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-da203cf85b903322",
+          "startLine": 7,
+          "endLine": 12,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "Brandon Reyes 於 2016-09-24 大學錦標賽檢出 DMBA，因補充品標示難辨認過失減輕處六個月禁賽，成績同日起取消"
+        },
+        {
+          "documentId": "registry-d713e7eade177639",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction"
+          ],
+          "note": "官方處分名冊記錄 Brandon Reyes 舉重項目檢出 DMBA 處六個月禁賽並取消成績"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "美國",
+          "explanation": "公告標題稱 U.S. Weightlifting Athlete 且居住佛羅里達州，但依標準機構管轄、居住地及標題無法直接確立國籍或運動代表權。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-da203cf85b903322",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "將國籍欄位標註為不確定，或補充正式代表隊證明"
+        }
+      ]
+    },
+    {
+      "id": "usada-35cf2f26656b",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-973aae028e0d1388",
+        "registry-473a2d1db5ec4d84"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-973aae028e0d1388",
+          "startLine": 7,
+          "endLine": 12,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "Nicole Moore 於 2016-09-25 大學錦標賽檢出 DMBA，因補充品誤導標籤過失減輕處六個月禁賽，成績同日起取消"
+        },
+        {
+          "documentId": "registry-473a2d1db5ec4d84",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction"
+          ],
+          "note": "處分名冊載明 Nicole Moore 舉重項目 DMBA 處六個月禁賽並取消成績"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "美國",
+          "explanation": "公告標題稱 U.S. Weightlifting Athlete 且選手居住佛羅里達州，依規定不能僅以標題、管轄或居住地認定國籍或體育代表身分。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-973aae028e0d1388",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "將國籍調整為不確定，或補足具體國籍或代表隊檔案"
+        }
+      ]
+    },
+    {
+      "id": "usada-c269d76b2513",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-e091c16b8d32a034",
+        "registry-fa53aca755098d1e"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-e091c16b8d32a034",
+          "startLine": 7,
+          "endLine": 12,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "Ryan Pinney 於 2016-05-25 錦標賽檢出外源性類固醇，因 TUE 存在替代療法遭拒處 18 個月禁賽，成績同日起取消"
+        },
+        {
+          "documentId": "registry-fa53aca755098d1e",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction"
+          ],
+          "note": "處分名冊載明 Ryan Pinney 帕拉自行車項目類固醇違規處 18 個月禁賽並取消成績"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "美國",
+          "explanation": "公告標題稱 U.S. Para Cycling Athlete 且居住亞利桑那州，依準則管轄權、居住地或媒體標題不足以確立法律國籍或運動代表身分。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-e091c16b8d32a034",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "將國籍列為不確定，或提供明確國家代表隊身分證明"
+        }
+      ]
+    },
+    {
+      "id": "usada-48f0300507d6",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-b6059280eae8d144",
+        "registry-8ed3be6a1f0a23c9"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-b6059280eae8d144",
+          "startLine": 1,
+          "endLine": 9,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "dates",
+            "outcomes"
+          ],
+          "note": "Michael Dunkum 因 2013 至 2016 年持有使用禁用肽類接受處分，禁賽自 2016-08-11 起，成績自 2013-09-06 取消"
+        },
+        {
+          "documentId": "registry-8ed3be6a1f0a23c9",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "sanction"
+          ],
+          "note": "名冊載明 Michael Dunkum 角力項目四年禁賽並註記退休停算"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "美國",
+          "explanation": "公告標題稱 U.S. Wrestling Athlete 且受 USADA 管轄，但依規定不得僅憑發布機構管轄或標題判定國籍或體育代表權。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-b6059280eae8d144",
+              "startLine": 1,
+              "endLine": 1
+            }
+          ],
+          "suggestion": "將國籍改為不確定，或增補國家代表權之直接佐證"
+        }
+      ]
+    }
+  ]
+}

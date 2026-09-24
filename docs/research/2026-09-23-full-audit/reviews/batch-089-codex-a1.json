@@ -1,0 +1,510 @@
+{
+  "cases": [
+    {
+      "id": "usada-806eab5af83f",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-f1d5aec853de7790",
+        "registry-5e2d853b57f0bb1e"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-f1d5aec853de7790",
+          "startLine": 7,
+          "endLine": 9,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction"
+          ],
+          "note": "公告確認 Heinzl 為輪椅籃球選手、賽外檢測陰性、補充品含 higenamine，並接受公開警告。"
+        },
+        {
+          "documentId": "registry-5e2d853b57f0bb1e",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "sanction",
+            "dates"
+          ],
+          "note": "名冊列非分析使用 higenamine、公開警告及 2017-08-29。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "medium",
+          "claim": "國籍：美國",
+          "explanation": "來源僅稱美國輪椅籃球選手並列亞利桑那居住地，未明確證明國籍或代表隊身分。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-f1d5aec853de7790",
+              "startLine": 1,
+              "endLine": 7
+            },
+            {
+              "documentId": "doc-f1d5aec853de7790",
+              "startLine": 11,
+              "endLine": 14
+            }
+          ],
+          "suggestion": "補充能證明其代表國家或國籍的來源，否則標為未確認。"
+        }
+      ]
+    },
+    {
+      "id": "usada-f10f5acd5654",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-b5ba3a2b2eecbe89",
+        "registry-94866fb0493b8d2b"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-b5ba3a2b2eecbe89",
+          "startLine": 7,
+          "endLine": 9,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "outcomes"
+          ],
+          "note": "公告確認 Herbert 舉重、2017-06-20 拒絕採樣、減至兩年並取消該日起成績。"
+        },
+        {
+          "documentId": "registry-94866fb0493b8d2b",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "sanction",
+            "dates"
+          ],
+          "note": "名冊補充退休停算及未退休後自 2020-03-07 起可參賽。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "medium",
+          "claim": "國籍：美國",
+          "explanation": "公告標題稱美國舉重選手，但正文亦說 USADA 管理範圍包括在美國訓練或居住的外國選手，不能據此確認國籍或代表身分。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-b5ba3a2b2eecbe89",
+              "startLine": 1,
+              "endLine": 1
+            },
+            {
+              "documentId": "doc-b5ba3a2b2eecbe89",
+              "startLine": 11,
+              "endLine": 11
+            }
+          ],
+          "suggestion": "補充國籍或代表隊證據，否則將國家欄標為未確認。"
+        }
+      ]
+    },
+    {
+      "id": "usada-5028b81a128b",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-5193113a5a13ddd4",
+        "registry-60ec4e6d99c87ebc"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-5193113a5a13ddd4",
+          "startLine": 7,
+          "endLine": 12,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告確認選手、比賽、兩種陽性物質及類別、試用包與網路標籤差異、九個月處分及成績取消。"
+        },
+        {
+          "documentId": "registry-60ec4e6d99c87ebc",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "sanction",
+            "outcomes"
+          ],
+          "note": "名冊列兩種物質、九個月處分及成績取消。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "medium",
+          "claim": "國籍：美國",
+          "explanation": "公告以美國舉重選手為標題，正文提供加州所在地及美國舉重賽事資訊，未明確確認國籍或代表身分。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-5193113a5a13ddd4",
+              "startLine": 1,
+              "endLine": 8
+            }
+          ],
+          "suggestion": "補充國籍或代表隊證據，否則將國家欄標為未確認。"
+        }
+      ]
+    },
+    {
+      "id": "usada-491a96341462",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-8cb25029ec6901b6",
+        "registry-348d79b153c9e63b"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-8cb25029ec6901b6",
+          "startLine": 7,
+          "endLine": 12,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告確認 Carter 的田徑項目、賽外陽性、污染補充品調查、九個月處分起日及成績取消起日。"
+        },
+        {
+          "documentId": "registry-348d79b153c9e63b",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "sanction",
+            "outcomes"
+          ],
+          "note": "名冊列 ostarine、九個月處分及成績取消。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "medium",
+          "claim": "國籍：美國",
+          "explanation": "來源稱其為美國田徑選手並列德州所在地，但未明確證明國籍或代表身分。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-8cb25029ec6901b6",
+              "startLine": 1,
+              "endLine": 7
+            },
+            {
+              "documentId": "doc-8cb25029ec6901b6",
+              "startLine": 14,
+              "endLine": 17
+            }
+          ],
+          "suggestion": "補充國籍或代表隊證據，否則將國家欄標為未確認。"
+        }
+      ]
+    },
+    {
+      "id": "usada-5b6cb4ab463d",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-639ff9e9f3e16afe",
+        "registry-25c3eb8e1e24bc8a"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-639ff9e9f3e16afe",
+          "startLine": 7,
+          "endLine": 11,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告確認 Stohr 的雪橇項目、比賽採樣、carboxy-THC 超過判定界限、賽外使用說明、六個月處分及教育提示。"
+        },
+        {
+          "documentId": "registry-25c3eb8e1e24bc8a",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "sanction",
+            "outcomes"
+          ],
+          "note": "名冊列大麻素、六個月及退休停算。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "medium",
+          "claim": "國籍：美國",
+          "explanation": "公告以美國雪橇選手為標題並列紐約所在地，未明確證明國籍或代表身分。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-639ff9e9f3e16afe",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "補充國籍或代表隊證據，否則將國家欄標為未確認。"
+        }
+      ]
+    },
+    {
+      "id": "usada-a0a7483bcc7e",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-3fec8237ea6082d0",
+        "registry-8bdc53a75cd587c3"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-3fec8237ea6082d0",
+          "startLine": 7,
+          "endLine": 12,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告確認 Cruse 的雪車項目、IBSF 北美盃陽性 DMBA、補充品分析、標籤另列 DMAA、16 個月處分及成績取消。"
+        },
+        {
+          "documentId": "registry-8bdc53a75cd587c3",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "sanction",
+            "outcomes"
+          ],
+          "note": "名冊列 DMBA、16 個月處分及成績取消。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "medium",
+          "claim": "國籍：美國",
+          "explanation": "公告標題稱美國雪車選手並列密西根所在地，未明確確認國籍或代表身分。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-3fec8237ea6082d0",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "補充國籍或代表隊證據，否則將國家欄標為未確認。"
+        }
+      ]
+    },
+    {
+      "id": "usada-55dafea87f5e",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-5ade2e545c3f73fa",
+        "registry-999e2abb2044801a"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-5ade2e545c3f73fa",
+          "startLine": 7,
+          "endLine": 11,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告確認 Bushey 的田徑項目、使用與持有兩種物質、類別、可信任來源建議、四年減至兩年、禁賽及成績日期。"
+        },
+        {
+          "documentId": "registry-999e2abb2044801a",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "sanction",
+            "outcomes"
+          ],
+          "note": "名冊列非分析使用與持有、兩年處分及成績取消。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "medium",
+          "claim": "國籍：美國",
+          "explanation": "公告以美國田徑選手為標題並列田納西所在地，未明確證明國籍或代表身分。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-5ade2e545c3f73fa",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "補充國籍或代表隊證據，否則將國家欄標為未確認。"
+        }
+      ]
+    },
+    {
+      "id": "usada-0c3ec7a2af1e",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-a7ec63784c324d96",
+        "registry-8b8fcd812c70e28e"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-a7ec63784c324d96",
+          "startLine": 7,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告確認 McPherson 的田徑項目、比賽、IRMS 確認的外源性合成代謝類固醇相關物質、四年處分起日及成績取消起日。"
+        },
+        {
+          "documentId": "registry-8b8fcd812c70e28e",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "sanction",
+            "outcomes"
+          ],
+          "note": "名冊列雄性類固醇、四年處分、成績取消及退休停算。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "medium",
+          "claim": "國籍：美國",
+          "explanation": "公告以美國田徑選手為標題並列德州所在地，未明確確認國籍或代表身分。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-a7ec63784c324d96",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "補充國籍或代表隊證據，否則將國家欄標為未確認。"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "cases": [
+    {
+      "id": "usada-c459cc791bed",
+      "status": "supported",
+      "identity": "supported",
+      "country": "supported",
+      "temporalScope": "supported",
+      "evidence": [
+        {
+          "documentId": "country",
+          "startLine": 113,
+          "endLine": 121,
+          "note": "Ella Nicholson 明確列名為 2024 IWF 世界青年錦標賽 Team USA 參賽者，76 kg 級別，18 歲，獲得金牌（線 115、121、135）"
+        },
+        {
+          "documentId": "case",
+          "startLine": 1,
+          "endLine": 7,
+          "note": "USADA 公告確認 Ella Nicholson 來自俄亥俄州梅迪納，年齡 17 歲（2024 年 6 月），樣本採集於 2024 年 5 月 3 日，與國家文件的身份一致"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-18da72e16a59",
+      "status": "issue",
+      "identity": "uncertain",
+      "country": "supported",
+      "temporalScope": "issue",
+      "evidence": [
+        {
+          "documentId": "country",
+          "startLine": 134,
+          "endLine": 177,
+          "note": "Mariah Park 列於 USA Weightlifting 2021 年泛美錦標賽代表隊，71 kg 級別（線 134-135、177）"
+        },
+        {
+          "documentId": "case",
+          "startLine": 1,
+          "endLine": 8,
+          "note": "USADA 公告（2023 年 12 月 11 日）確認 Mariah Park 來自賓州匹茲堡，27 歲，樣本採集於 2023 年 6 月 6 日；案例文件未列級別"
+        }
+      ],
+      "findings": [
+        {
+          "field": "identity",
+          "explanation": "USADA 案例文件未提供重量級別，無法直接比對國家文件中的 71 kg 身份。雖然姓名、運動和年齡（推估）相符，但缺少級別確認會產生冒認風險。",
+          "suggestion": "應從 USADA 檢測紀錄或國際舉重聯盟資料庫確認體重級別以排除同名歧義"
+        },
+        {
+          "field": "temporalScope",
+          "explanation": "國家文件源自 2021 年泛美錦標賽名單；案例事件發生於 2023 年 6 月，時間差逾 2 年。提議的時間注明確聲稱「不據此推定 2023 年代表資格」，表示編輯已知此提案超過「該賽事時期」。使用 2021 年的代表隊名單支持 2023 年的運動隸屬超越了提議的時間範圍。",
+          "suggestion": "應尋找 2023 年期間的 USA Weightlifting 證據（如 2023 年國家隊名單、國際賽事報名表或 RTP 狀態）以建立同期的運動隸屬"
+        }
+      ]
+    },
+    {
+      "id": "usada-42343d04a699",
+      "status": "supported",
+      "identity": "supported",
+      "country": "supported",
+      "temporalScope": "supported",
+      "evidence": [
+        {
+          "documentId": "country",
+          "startLine": 117,
+          "endLine": 117,
+          "note": "Katelyn Kirby 列名為 2023 年 USA Weightlifting 全國錦標賽成人組女子冠軍（賽事於 2023 年 6 月 24-7 月 2 日在科羅拉多泉舉行）"
+        },
+        {
+          "documentId": "case",
+          "startLine": 7,
+          "endLine": 8,
+          "note": "USADA 公告確認 Katelyn Kirby 來自科羅拉多州約翰斯敦，36 歲，在 2023 年 USA Weightlifting 全國錦標賽上於 2023 年 6 月 30 日檢測呈陽性——與國家文件所述同一賽事，時間完全對應"
+        }
+      ],
+      "findings": []
+    }
+  ]
+}

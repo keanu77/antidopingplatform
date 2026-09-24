@@ -1,0 +1,270 @@
+{
+  "cases": [
+    {
+      "id": "usada-3e2c75f84c3d",
+      "status": "supported",
+      "identity": "supported",
+      "country": "supported",
+      "temporalScope": "supported",
+      "evidence": [
+        {
+          "documentId": "country",
+          "startLine": 1,
+          "endLine": 1,
+          "note": "IPC profile names Breanna Clark; line 80 lists United States of America."
+        },
+        {
+          "documentId": "case",
+          "startLine": 1,
+          "endLine": 7,
+          "note": "USADA identifies Breanna Clark, age 28, as a Para track and field athlete in its 2023 notice, matching the profile’s Athletics listing."
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-13e15093f36a",
+      "status": "supported",
+      "identity": "supported",
+      "country": "supported",
+      "temporalScope": "supported",
+      "evidence": [
+        {
+          "documentId": "country",
+          "startLine": 78,
+          "endLine": 81,
+          "note": "IPC profile names Catarina Guimaraes, lists United States of America, and identifies Athletics."
+        },
+        {
+          "documentId": "case",
+          "startLine": 1,
+          "endLine": 7,
+          "note": "USADA identifies Catarina Guimarães, age 18, as a Paralympic track and field athlete in 2022."
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-3b36b9d0fea7",
+      "status": "supported",
+      "identity": "supported",
+      "country": "supported",
+      "temporalScope": "supported",
+      "evidence": [
+        {
+          "documentId": "country",
+          "startLine": 78,
+          "endLine": 81,
+          "note": "IPC profile names Richard Browne, lists United States of America, and identifies Athletics."
+        },
+        {
+          "documentId": "case",
+          "startLine": 1,
+          "endLine": 8,
+          "note": "USADA identifies Richard Browne, age 31, as a Paralympic track and field athlete in 2022."
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-7cdaea68994c",
+      "status": "supported",
+      "identity": "supported",
+      "country": "supported",
+      "temporalScope": "supported",
+      "evidence": [
+        {
+          "documentId": "country",
+          "startLine": 78,
+          "endLine": 80,
+          "note": "IPC profile names Shaquille Vance and lists United States of America; it also records his athletics results at Rio 2016."
+        },
+        {
+          "documentId": "case",
+          "startLine": 1,
+          "endLine": 8,
+          "note": "USADA identifies Shaquille Vance, age 26, as a track and field athlete in 2017."
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-b03e0386a601",
+      "status": "supported",
+      "identity": "supported",
+      "country": "supported",
+      "temporalScope": "supported",
+      "evidence": [
+        {
+          "documentId": "country",
+          "startLine": 77,
+          "endLine": 80,
+          "note": "IPC profile names Katerina Brim, lists United States of America, and identifies Cycling."
+        },
+        {
+          "documentId": "case",
+          "startLine": 1,
+          "endLine": 9,
+          "note": "USADA identifies Katerina Brim, age 24, as a Paralympic cycling athlete; her 2022 test is specified."
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-c269d76b2513",
+      "status": "supported",
+      "identity": "supported",
+      "country": "supported",
+      "temporalScope": "supported",
+      "evidence": [
+        {
+          "documentId": "country",
+          "startLine": 77,
+          "endLine": 80,
+          "note": "IPC profile names Ryan Pinney, lists United States of America, and identifies Cycling."
+        },
+        {
+          "documentId": "case",
+          "startLine": 1,
+          "endLine": 8,
+          "note": "USADA identifies Ryan Pinney, age 36, as a Para cycling athlete in 2016."
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-5a084088440d",
+      "status": "supported",
+      "identity": "supported",
+      "country": "supported",
+      "temporalScope": "supported",
+      "evidence": [
+        {
+          "documentId": "country",
+          "startLine": 448,
+          "endLine": 451,
+          "note": "Team USA profile identifies Roderick Green as a sitting volleyball Paralympian, including 2016."
+        },
+        {
+          "documentId": "country",
+          "startLine": 503,
+          "endLine": 507,
+          "note": "Profile records his Rio 2016 Paralympic team experience."
+        },
+        {
+          "documentId": "case",
+          "startLine": 1,
+          "endLine": 8,
+          "note": "USADA identifies Roderick Green, age 37, as a sitting volleyball athlete in its 2017 notice, matching the sport and age context of the Team USA profile."
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-e13aa658e684",
+      "status": "supported",
+      "identity": "supported",
+      "country": "supported",
+      "temporalScope": "supported",
+      "evidence": [
+        {
+          "documentId": "country",
+          "startLine": 448,
+          "endLine": 451,
+          "note": "Team USA profile identifies Nina Cutro-Kelly as a judo Olympian at Tokyo 2020."
+        },
+        {
+          "documentId": "country",
+          "startLine": 481,
+          "endLine": 483,
+          "note": "Profile states she qualified for her first Olympic Team in 2021 and represented USA Judo."
+        },
+        {
+          "documentId": "case",
+          "startLine": 1,
+          "endLine": 8,
+          "note": "USADA identifies Nina Cutro-Kelly, age 38, as a judo athlete in the 2022 case; the notice is dated 2023."
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-5d85c8dbd1a0",
+      "status": "supported",
+      "identity": "supported",
+      "country": "supported",
+      "temporalScope": "supported",
+      "evidence": [
+        {
+          "documentId": "country",
+          "startLine": 448,
+          "endLine": 455,
+          "note": "Team USA Para Judo roster lists Anthony Ferraro."
+        },
+        {
+          "documentId": "case",
+          "startLine": 1,
+          "endLine": 8,
+          "note": "USADA identifies Anthony Ferraro, age 23, as a Paralympic judo athlete from Spring Lake, New Jersey, in 2018, consistent with the rostered athlete and sport."
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-8fb29d61bbde",
+      "status": "supported",
+      "identity": "supported",
+      "country": "supported",
+      "temporalScope": "supported",
+      "evidence": [
+        {
+          "documentId": "country",
+          "startLine": 448,
+          "endLine": 451,
+          "note": "Team USA profile names Tyler Burdick as a para snowboarding Paralympian at Beijing 2022."
+        },
+        {
+          "documentId": "country",
+          "startLine": 493,
+          "endLine": 496,
+          "note": "Profile records his 2022 Beijing Paralympic participation."
+        },
+        {
+          "documentId": "case",
+          "startLine": 1,
+          "endLine": 8,
+          "note": "USADA identifies Tyler Burdick, age 42, as a Paralympic snowboard athlete in 2023; name, sport, and Salt Lake City location align with the profile."
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-5541522b98d9",
+      "status": "supported",
+      "identity": "supported",
+      "country": "supported",
+      "temporalScope": "supported",
+      "evidence": [
+        {
+          "documentId": "country",
+          "startLine": 448,
+          "endLine": 451,
+          "note": "Team USA profile names Cory Juneau as a skateboarding Olympian at Tokyo 2020."
+        },
+        {
+          "documentId": "country",
+          "startLine": 469,
+          "endLine": 474,
+          "note": "Profile records his Tokyo 2020 Olympic result and skateboarding competition history."
+        },
+        {
+          "documentId": "case",
+          "startLine": 1,
+          "endLine": 8,
+          "note": "USADA identifies Cory Scott Juneau, age 19, as a skateboarder in 2018; the name, sport, and age align with Team USA’s Cory Juneau profile."
+        }
+      ],
+      "findings": []
+    }
+  ]
+}

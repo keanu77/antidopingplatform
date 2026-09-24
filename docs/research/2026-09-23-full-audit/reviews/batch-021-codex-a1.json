@@ -1,0 +1,114 @@
+{
+  "cases": [
+    {
+      "id": "aiu-dbc9a1f66bb9",
+      "status": "issue",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "issue",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-6a64314368dd066d",
+        "registry-378c5c78eb5059ec"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-6a64314368dd066d",
+          "startLine": 13,
+          "endLine": 13,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "決定稱 Meto 為來自肯亞的公路跑者。"
+        },
+        {
+          "documentId": "doc-6a64314368dd066d",
+          "startLine": 56,
+          "endLine": 66,
+          "supports": [
+            "event",
+            "substance"
+          ],
+          "note": "2024年6月12日在肯亞伊滕採賽外尿樣，實驗室報告檢出 Furosemide。"
+        },
+        {
+          "documentId": "doc-6a64314368dd066d",
+          "startLine": 234,
+          "endLine": 235,
+          "supports": [
+            "substance"
+          ],
+          "note": "決定列明該物質屬2024年清單 S5、指定物質且任何時候禁用。"
+        },
+        {
+          "documentId": "doc-6a64314368dd066d",
+          "startLine": 247,
+          "endLine": 255,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "決定為兩年禁賽，自2024年8月11日起，並取消自6月12日起成績及相關後果；運動員接受處分。"
+        },
+        {
+          "documentId": "registry-378c5c78eb5059ec",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "sanction",
+            "dates"
+          ],
+          "note": "名冊同列兩年及自2026年2月5日起，與決定所載起算日不同。"
+        },
+        {
+          "documentId": "doc-6a64314368dd066d",
+          "startLine": 141,
+          "endLine": 149,
+          "supports": [
+            "education"
+          ],
+          "note": "肯亞高等法院撤銷國內程序相關決定並禁止 SDT 繼續處理該指控。"
+        },
+        {
+          "documentId": "doc-6a64314368dd066d",
+          "startLine": 191,
+          "endLine": 192,
+          "supports": [
+            "education"
+          ],
+          "note": "運動員其後簽署違規承認及接受後果表格。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "dates",
+          "kind": "contradiction",
+          "severity": "medium",
+          "claim": "名冊列2026-02-05起",
+          "explanation": "所附名冊列禁賽自2026年2月5日起，但個案決定第30.1段明定自2024年8月11日起。公開紀錄的日期衝突應明確說明；目前頁面將其描述為與決定不符，且以決定校正，內容本身有據。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-6a64314368dd066d",
+              "startLine": 247,
+              "endLine": 247
+            },
+            {
+              "documentId": "registry-378c5c78eb5059ec",
+              "startLine": 1,
+              "endLine": 1
+            }
+          ],
+          "suggestion": "保留兩個來源各自所列日期，並指出決定正文規定的起算日為2024年8月11日。"
+        }
+      ]
+    }
+  ]
+}

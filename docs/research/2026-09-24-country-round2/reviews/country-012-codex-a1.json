@@ -1,0 +1,26 @@
+{
+  "cases": [
+    {
+      "id": "usada-8813abb5dfc8",
+      "status": "supported",
+      "identity": "supported",
+      "country": "supported",
+      "temporalScope": "supported",
+      "evidence": [
+        {
+          "documentId": "country",
+          "startLine": 448,
+          "endLine": 458,
+          "note": "Team USA profile identifies James Howe, lists Taekwondo in the profile navigation, and gives age 39 and hometown San Ramon. The proposed country is accurately limited to how Team USA lists him at lookup."
+        },
+        {
+          "documentId": "case",
+          "startLine": 7,
+          "endLine": 8,
+          "note": "USADA identifies James Howe II as a taekwondo athlete, age 29, of Miami, Florida, in its July 2016 notice. The shared name, sport, and age are consistent with the profile; differing hometowns and the omitted II suffix do not establish a mismatch."
+        }
+      ],
+      "findings": []
+    }
+  ]
+}

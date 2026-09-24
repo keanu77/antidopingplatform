@@ -1,0 +1,341 @@
+{
+  "cases": [
+    {
+      "id": "aiu-90b4e5c36b5a",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-384294d5ec91fd9a",
+        "registry-4613900e6702967a"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-384294d5ec91fd9a",
+          "startLine": 12,
+          "endLine": 12,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "決定確認 Kipkosgei 為來自肯亞的公路跑者。"
+        },
+        {
+          "documentId": "doc-384294d5ec91fd9a",
+          "startLine": 39,
+          "endLine": 54,
+          "supports": [
+            "event",
+            "substance"
+          ],
+          "note": "2024年11月24日中國防城港賽事採樣，檢出曲安奈德；文件列為2024年S9糖皮質類固醇、賽內特定物質。"
+        },
+        {
+          "documentId": "doc-384294d5ec91fd9a",
+          "startLine": 112,
+          "endLine": 140,
+          "supports": [
+            "event",
+            "education"
+          ],
+          "note": "他否認故意、提及自行用藥可能來源，未回覆簽署確認後依規則視為承認違規及接受後果。"
+        },
+        {
+          "documentId": "doc-384294d5ec91fd9a",
+          "startLine": 171,
+          "endLine": 182,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "AIU稱無故意違規證據，處兩年禁賽自12月20日起，並取消11月24日起成績及相關後果。"
+        },
+        {
+          "documentId": "registry-4613900e6702967a",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "country",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "AIU名冊列肯亞代碼、兩年處分起日及自採樣日取消成績。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "aiu-ce87ea8afd28",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-712eaf8331b1bbb1",
+        "registry-774de3efa1d4ca7a"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-712eaf8331b1bbb1",
+          "startLine": 12,
+          "endLine": 12,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "決定確認 Kiprotich 為來自肯亞的公路跑者。"
+        },
+        {
+          "documentId": "doc-712eaf8331b1bbb1",
+          "startLine": 55,
+          "endLine": 72,
+          "supports": [
+            "event",
+            "substance"
+          ],
+          "note": "文件列出蒂爾堡與里斯本兩次樣本發現 norandrosterone，並說明其為 nandrolone 或前驅物代謝物。"
+        },
+        {
+          "documentId": "doc-712eaf8331b1bbb1",
+          "startLine": 154,
+          "endLine": 156,
+          "supports": [
+            "substance"
+          ],
+          "note": "文件依2024禁用清單列為S1.1合成代謝雄性類固醇、任何時間禁用的非特定物質。"
+        },
+        {
+          "documentId": "doc-712eaf8331b1bbb1",
+          "startLine": 127,
+          "endLine": 138,
+          "supports": [
+            "sanction",
+            "education"
+          ],
+          "note": "她接受樣本有禁用物質，並依規則將兩次發現合併為首次違規。"
+        },
+        {
+          "documentId": "doc-712eaf8331b1bbb1",
+          "startLine": 187,
+          "endLine": 205,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "早期承認減為三年，自12月23日起；取消9月29日起成績及相關後果。"
+        },
+        {
+          "documentId": "registry-774de3efa1d4ca7a",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "country",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "AIU名冊列肯亞代碼、三年處分起日及自9月29日起取消成績。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "aiu-6244681f445f",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-e778f107e2cc903c",
+        "registry-adab82f0305c1df8"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-e778f107e2cc903c",
+          "startLine": 15,
+          "endLine": 15,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "決定確認 Kipkorir 為來自肯亞的馬拉松跑者。"
+        },
+        {
+          "documentId": "doc-e778f107e2cc903c",
+          "startLine": 49,
+          "endLine": 55,
+          "supports": [
+            "event",
+            "substance"
+          ],
+          "note": "8月25日海得拉巴馬拉松賽內樣本檢出睪固酮及代謝物，結果符合外源性來源。"
+        },
+        {
+          "documentId": "doc-e778f107e2cc903c",
+          "startLine": 103,
+          "endLine": 105,
+          "supports": [
+            "substance"
+          ],
+          "note": "文件列明外源性睪固酮依2024清單屬S1.1、任何時間禁用的非特定物質。"
+        },
+        {
+          "documentId": "doc-e778f107e2cc903c",
+          "startLine": 74,
+          "endLine": 78,
+          "supports": [
+            "sanction"
+          ],
+          "note": "他承認違規並簽署接受後果表。"
+        },
+        {
+          "documentId": "doc-e778f107e2cc903c",
+          "startLine": 139,
+          "endLine": 150,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "早期承認使四年基礎處分減一年；三年自12月5日起，取消8月25日起成績及相關後果。"
+        },
+        {
+          "documentId": "registry-adab82f0305c1df8",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "country",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "AIU名冊列肯亞代碼、三年處分起日及自8月25日起取消成績。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "aiu-4cb7a4743053",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-062194db9c645bff",
+        "registry-d412135de2fb3b21"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-062194db9c645bff",
+          "startLine": 12,
+          "endLine": 12,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "決定確認 Amena 為來自衣索比亞的公路跑者。"
+        },
+        {
+          "documentId": "doc-062194db9c645bff",
+          "startLine": 56,
+          "endLine": 64,
+          "supports": [
+            "event",
+            "substance"
+          ],
+          "note": "7月21日芭達雅半馬賽內樣本檢出睪固酮及代謝物，符合外源性來源。"
+        },
+        {
+          "documentId": "doc-062194db9c645bff",
+          "startLine": 133,
+          "endLine": 135,
+          "supports": [
+            "substance"
+          ],
+          "note": "文件依2024清單列外源性睪固酮為S1.1、任何時間禁用的非特定物質。"
+        },
+        {
+          "documentId": "doc-062194db9c645bff",
+          "startLine": 87,
+          "endLine": 94,
+          "supports": [
+            "event",
+            "education"
+          ],
+          "note": "她要求B瓶分析；文件記載B瓶確認A瓶發現，且她表示不知物質如何進入體內。"
+        },
+        {
+          "documentId": "doc-062194db9c645bff",
+          "startLine": 115,
+          "endLine": 116,
+          "supports": [
+            "sanction"
+          ],
+          "note": "她簽署違規承認及接受後果表。"
+        },
+        {
+          "documentId": "doc-062194db9c645bff",
+          "startLine": 175,
+          "endLine": 189,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "因早期承認減一年，三年處分自10月14日起，取消7月21日起成績及相關後果。"
+        },
+        {
+          "documentId": "registry-d412135de2fb3b21",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "country",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "AIU名冊列衣索比亞代碼、三年處分起日及自7月21日起取消成績。"
+        }
+      ],
+      "findings": []
+    }
+  ]
+}

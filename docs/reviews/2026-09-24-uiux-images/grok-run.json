@@ -1,0 +1,32 @@
+{
+  "seat": "grok",
+  "requestedModel": "grok-4.7-build-fast",
+  "timeoutSeconds": 600,
+  "promptSha256": "f57abc1e81eebf2bc19e0892aa59a0d5fc056117e6a48c0dd8d3c898b41ed4a7",
+  "exitCode": 0,
+  "elapsedSeconds": 62.75,
+  "providerMetadata": {
+    "stopReason": "end_turn",
+    "usage": {
+      "input_tokens": 87517,
+      "cache_read_input_tokens": 1152,
+      "cache_creation_input_tokens": 0,
+      "output_tokens": 4720,
+      "reasoning_tokens": 2722,
+      "total_tokens": 93389
+    },
+    "modelUsage": {
+      "grok-4.7-build-fast": {
+        "inputTokens": 87517,
+        "outputTokens": 4720,
+        "cacheReadInputTokens": 1152,
+        "cacheCreationInputTokens": 0,
+        "modelCalls": 1,
+        "costUSD": 0.1386724
+      }
+    },
+    "total_cost_usd": 0.1386724
+  },
+  "answerCharacters": 2972,
+  "valid": true
+}

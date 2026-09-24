@@ -1,0 +1,4167 @@
+[
+  {
+    "id": "usada-c459cc791bed",
+    "athleteName": "Ella Nicholson",
+    "modelReviews": [
+      {
+        "seat": "claude",
+        "requestedModel": "haiku",
+        "batch": "country-001",
+        "attempt": 1,
+        "packetSha256": "df40267ee3725c8eae833f3f25477ce04bfd229a29a1d8bad9f06e969d723f29",
+        "answerSha256": "89caefa1dc834ea940ae37a99bf28d620f845519bb9684654ce058991d4f40a2",
+        "characterStart": 27,
+        "characterEnd": 669,
+        "wholeBatchValid": true,
+        "answer": {
+          "id": "usada-c459cc791bed",
+          "status": "supported",
+          "identity": "supported",
+          "country": "supported",
+          "temporalScope": "supported",
+          "evidence": [
+            {
+              "documentId": "country",
+              "startLine": 113,
+              "endLine": 121,
+              "note": "Ella Nicholson 明確列名為 2024 IWF 世界青年錦標賽 Team USA 參賽者，76 kg 級別，18 歲，獲得金牌（線 115、121、135）"
+            },
+            {
+              "documentId": "case",
+              "startLine": 1,
+              "endLine": 7,
+              "note": "USADA 公告確認 Ella Nicholson 來自俄亥俄州梅迪納，年齡 17 歲（2024 年 6 月），樣本採集於 2024 年 5 月 3 日，與國家文件的身份一致"
+            }
+          ],
+          "findings": []
+        }
+      },
+      {
+        "seat": "codex",
+        "requestedModel": "gpt-6-luna",
+        "batch": "country-001",
+        "attempt": 1,
+        "packetSha256": "df40267ee3725c8eae833f3f25477ce04bfd229a29a1d8bad9f06e969d723f29",
+        "answerSha256": "f696c8861c9b52fd5f1b1a924e0377de92643b7fa751e7de399997bf9e73cbb2",
+        "characterStart": 10,
+        "characterEnd": 486,
+        "wholeBatchValid": true,
+        "answer": {
+          "id": "usada-c459cc791bed",
+          "status": "supported",
+          "identity": "supported",
+          "country": "supported",
+          "temporalScope": "supported",
+          "evidence": [
+            {
+              "documentId": "country",
+              "startLine": 115,
+              "endLine": 115,
+              "note": "報導將 Nicholson 列為 Team USA 選手，並稱美國隊在賽事中獲得獎牌。"
+            },
+            {
+              "documentId": "country",
+              "startLine": 121,
+              "endLine": 121,
+              "note": "列出 18 歲 Nicholson 的女子 76 kg 成績，與病例所述項目和年齡相符。"
+            },
+            {
+              "documentId": "case",
+              "startLine": 7,
+              "endLine": 7,
+              "note": "USADA 公告確認 17 歲 Ella Nicholson 是舉重選手，居於 Medina, Ohio。"
+            }
+          ],
+          "findings": []
+        }
+      }
+    ],
+    "findings": [],
+    "modelSeats": [
+      "claude",
+      "codex"
+    ],
+    "coverageComplete": true
+  },
+  {
+    "id": "usada-18da72e16a59",
+    "athleteName": "Mariah Park",
+    "modelReviews": [
+      {
+        "seat": "claude",
+        "requestedModel": "haiku",
+        "batch": "country-001",
+        "attempt": 1,
+        "packetSha256": "df40267ee3725c8eae833f3f25477ce04bfd229a29a1d8bad9f06e969d723f29",
+        "answerSha256": "89caefa1dc834ea940ae37a99bf28d620f845519bb9684654ce058991d4f40a2",
+        "characterStart": 675,
+        "characterEnd": 1839,
+        "wholeBatchValid": true,
+        "answer": {
+          "id": "usada-18da72e16a59",
+          "status": "issue",
+          "identity": "uncertain",
+          "country": "supported",
+          "temporalScope": "issue",
+          "evidence": [
+            {
+              "documentId": "country",
+              "startLine": 134,
+              "endLine": 177,
+              "note": "Mariah Park 列於 USA Weightlifting 2021 年泛美錦標賽代表隊，71 kg 級別（線 134-135、177）"
+            },
+            {
+              "documentId": "case",
+              "startLine": 1,
+              "endLine": 8,
+              "note": "USADA 公告（2023 年 12 月 11 日）確認 Mariah Park 來自賓州匹茲堡，27 歲，樣本採集於 2023 年 6 月 6 日；案例文件未列級別"
+            }
+          ],
+          "findings": [
+            {
+              "field": "identity",
+              "explanation": "USADA 案例文件未提供重量級別，無法直接比對國家文件中的 71 kg 身份。雖然姓名、運動和年齡（推估）相符，但缺少級別確認會產生冒認風險。",
+              "suggestion": "應從 USADA 檢測紀錄或國際舉重聯盟資料庫確認體重級別以排除同名歧義"
+            },
+            {
+              "field": "temporalScope",
+              "explanation": "國家文件源自 2021 年泛美錦標賽名單；案例事件發生於 2023 年 6 月，時間差逾 2 年。提議的時間注明確聲稱「不據此推定 2023 年代表資格」，表示編輯已知此提案超過「該賽事時期」。使用 2021 年的代表隊名單支持 2023 年的運動隸屬超越了提議的時間範圍。",
+              "suggestion": "應尋找 2023 年期間的 USA Weightlifting 證據（如 2023 年國家隊名單、國際賽事報名表或 RTP 狀態）以建立同期的運動隸屬"
+            }
+          ]
+        }
+      },
+      {
+        "seat": "codex",
+        "requestedModel": "gpt-6-luna",
+        "batch": "country-001",
+        "attempt": 1,
+        "packetSha256": "df40267ee3725c8eae833f3f25477ce04bfd229a29a1d8bad9f06e969d723f29",
+        "answerSha256": "f696c8861c9b52fd5f1b1a924e0377de92643b7fa751e7de399997bf9e73cbb2",
+        "characterStart": 487,
+        "characterEnd": 1013,
+        "wholeBatchValid": true,
+        "answer": {
+          "id": "usada-18da72e16a59",
+          "status": "supported",
+          "identity": "supported",
+          "country": "supported",
+          "temporalScope": "supported",
+          "evidence": [
+            {
+              "documentId": "country",
+              "startLine": 127,
+              "endLine": 135,
+              "note": "報導稱這是美國選手的國際首秀，並列 Mariah Park、71 kg，支持她在 2021 泛美錦標賽代表 USA Weightlifting 出賽。"
+            },
+            {
+              "documentId": "country",
+              "startLine": 177,
+              "endLine": 177,
+              "note": "賽程再次列出 Mariah Park、71 kg 與比賽時段。"
+            },
+            {
+              "documentId": "case",
+              "startLine": 7,
+              "endLine": 8,
+              "note": "USADA 公告確認 Mariah Park 是舉重選手，27 歲，居於 Pittsburgh；姓名與項目相符，但公告未提供量級或其他可連結 2021 選手的識別資訊。"
+            }
+          ],
+          "findings": []
+        }
+      }
+    ],
+    "findings": [
+      {
+        "seat": "claude",
+        "requestedModel": "haiku",
+        "batch": "country-001",
+        "attempt": 1,
+        "packetSha256": "df40267ee3725c8eae833f3f25477ce04bfd229a29a1d8bad9f06e969d723f29",
+        "answerSha256": "89caefa1dc834ea940ae37a99bf28d620f845519bb9684654ce058991d4f40a2",
+        "characterStart": 675,
+        "characterEnd": 1839,
+        "wholeBatchValid": true,
+        "countsForCoverage": true,
+        "field": "identity",
+        "explanation": "USADA 案例文件未提供重量級別，無法直接比對國家文件中的 71 kg 身份。雖然姓名、運動和年齡（推估）相符，但缺少級別確認會產生冒認風險。",
+        "suggestion": "應從 USADA 檢測紀錄或國際舉重聯盟資料庫確認體重級別以排除同名歧義"
+      },
+      {
+        "seat": "claude",
+        "requestedModel": "haiku",
+        "batch": "country-001",
+        "attempt": 1,
+        "packetSha256": "df40267ee3725c8eae833f3f25477ce04bfd229a29a1d8bad9f06e969d723f29",
+        "answerSha256": "89caefa1dc834ea940ae37a99bf28d620f845519bb9684654ce058991d4f40a2",
+        "characterStart": 675,
+        "characterEnd": 1839,
+        "wholeBatchValid": true,
+        "countsForCoverage": true,
+        "field": "temporalScope",
+        "explanation": "國家文件源自 2021 年泛美錦標賽名單；案例事件發生於 2023 年 6 月，時間差逾 2 年。提議的時間注明確聲稱「不據此推定 2023 年代表資格」，表示編輯已知此提案超過「該賽事時期」。使用 2021 年的代表隊名單支持 2023 年的運動隸屬超越了提議的時間範圍。",
+        "suggestion": "應尋找 2023 年期間的 USA Weightlifting 證據（如 2023 年國家隊名單、國際賽事報名表或 RTP 狀態）以建立同期的運動隸屬"
+      }
+    ],
+    "modelSeats": [
+      "claude",
+      "codex"
+    ],
+    "coverageComplete": true
+  },
+  {
+    "id": "usada-42343d04a699",
+    "athleteName": "Katelyn Kirby",
+    "modelReviews": [
+      {
+        "seat": "claude",
+        "requestedModel": "haiku",
+        "batch": "country-001",
+        "attempt": 1,
+        "packetSha256": "df40267ee3725c8eae833f3f25477ce04bfd229a29a1d8bad9f06e969d723f29",
+        "answerSha256": "89caefa1dc834ea940ae37a99bf28d620f845519bb9684654ce058991d4f40a2",
+        "characterStart": 1845,
+        "characterEnd": 2523,
+        "wholeBatchValid": true,
+        "answer": {
+          "id": "usada-42343d04a699",
+          "status": "supported",
+          "identity": "supported",
+          "country": "supported",
+          "temporalScope": "supported",
+          "evidence": [
+            {
+              "documentId": "country",
+              "startLine": 117,
+              "endLine": 117,
+              "note": "Katelyn Kirby 列名為 2023 年 USA Weightlifting 全國錦標賽成人組女子冠軍（賽事於 2023 年 6 月 24-7 月 2 日在科羅拉多泉舉行）"
+            },
+            {
+              "documentId": "case",
+              "startLine": 7,
+              "endLine": 8,
+              "note": "USADA 公告確認 Katelyn Kirby 來自科羅拉多州約翰斯敦，36 歲，在 2023 年 USA Weightlifting 全國錦標賽上於 2023 年 6 月 30 日檢測呈陽性——與國家文件所述同一賽事，時間完全對應"
+            }
+          ],
+          "findings": []
+        }
+      },
+      {
+        "seat": "codex",
+        "requestedModel": "gpt-6-luna",
+        "batch": "country-001",
+        "attempt": 1,
+        "packetSha256": "df40267ee3725c8eae833f3f25477ce04bfd229a29a1d8bad9f06e969d723f29",
+        "answerSha256": "f696c8861c9b52fd5f1b1a924e0377de92643b7fa751e7de399997bf9e73cbb2",
+        "characterStart": 1014,
+        "characterEnd": 1461,
+        "wholeBatchValid": true,
+        "answer": {
+          "id": "usada-42343d04a699",
+          "status": "supported",
+          "identity": "supported",
+          "country": "supported",
+          "temporalScope": "supported",
+          "evidence": [
+            {
+              "documentId": "country",
+              "startLine": 113,
+              "endLine": 117,
+              "note": "USA Weightlifting 報導列明 2023 全國錦標賽的日期、地點與成年組賽事，並將 Katelyn Kirby 列為成年組女子冠軍。"
+            },
+            {
+              "documentId": "case",
+              "startLine": 7,
+              "endLine": 8,
+              "note": "USADA 公告確認 Katelyn Kirby 是舉重選手，36 歲，採樣賽事為 2023 USA Weightlifting National Championships，日期為 2023-06-30。"
+            }
+          ],
+          "findings": []
+        }
+      }
+    ],
+    "findings": [],
+    "modelSeats": [
+      "claude",
+      "codex"
+    ],
+    "coverageComplete": true
+  },
+  {
+    "id": "usada-88685d4069ae",
+    "athleteName": "Keiser Witte",
+    "modelReviews": [
+      {
+        "seat": "claude",
+        "requestedModel": "haiku",
+        "batch": "country-002",
+        "attempt": 1,
+        "packetSha256": "7b3a7c2139996f156f10fc4e606b734589b422f8f954a0038a65ddc3ce75349b",
+        "answerSha256": "02edba5db04634c84294216b2abe551e73f86e5343568550f2e4530bb4caf9bc",
+        "characterStart": 69,
+        "characterEnd": 1523,
+        "wholeBatchValid": false,
+        "answer": {
+          "id": "usada-88685d4069ae",
+          "status": "uncertain",
+          "identity": "uncertain",
+          "country": "supported",
+          "temporalScope": "uncertain",
+          "evidence": [
+            {
+              "documentId": "country",
+              "startLine": 1,
+              "endLine": 1,
+              "note": "Team USA官方檔案標題確認Keiser Witte"
+            },
+            {
+              "documentId": "country",
+              "startLine": 459,
+              "endLine": 460,
+              "note": "Team USA檔案列Hometown Phoenix, AZ"
+            },
+            {
+              "documentId": "country",
+              "startLine": 463,
+              "endLine": 463,
+              "note": "最近國際賽紀錄止於2018年，無2022年確認"
+            },
+            {
+              "documentId": "case",
+              "startLine": 1,
+              "endLine": 1,
+              "note": "USADA標題確認U.S. Weightlifting Athlete"
+            },
+            {
+              "documentId": "case",
+              "startLine": 7,
+              "endLine": 7,
+              "note": "USADA列Keiser Witte of Tempe, Ariz."
+            }
+          ],
+          "findings": [
+            {
+              "field": "identity",
+              "explanation": "名字、運動、年齡相符（USADA 2023年2月時27歲；Team USA列Age 31，若2026年查詢則年份相合），但居住地差異：USADA列Tempe, Ariz.，Team USA列Phoenix, AZ，兩地同州但不同城市。",
+              "suggestion": "需要生日或獨立身份標識確認是否為同一人。"
+            },
+            {
+              "field": "temporalScope",
+              "explanation": "Team USA檔案無2022年參賽或資格紀錄。提案temporalNote已明確不根據頁面所列年份推定本案事件當年代表資格。",
+              "suggestion": "需2022年獨立的國際賽成績表或官方隊伍名單。"
+            }
+          ]
+        }
+      },
+      {
+        "seat": "claude",
+        "requestedModel": "haiku",
+        "batch": "country-002",
+        "attempt": 2,
+        "packetSha256": "7b3a7c2139996f156f10fc4e606b734589b422f8f954a0038a65ddc3ce75349b",
+        "answerSha256": "f3b56c1e363b0fe81f20998c77d82244a3383ef3b4f8beb0102cd9d020c11487",
+        "characterStart": 27,
+        "characterEnd": 1173,
+        "wholeBatchValid": true,
+        "answer": {
+          "id": "usada-88685d4069ae",
+          "status": "supported",
+          "identity": "supported",
+          "country": "supported",
+          "temporalScope": "supported",
+          "evidence": [
+            {
+              "documentId": "case",
+              "startLine": 1,
+              "endLine": 7,
+              "note": "Case title and line 7 confirm 'Keiser Witte' as U.S. Weightlifting Athlete in sport of weightlifting"
+            },
+            {
+              "documentId": "country",
+              "startLine": 1,
+              "endLine": 1,
+              "note": "Official Team USA profile title lists 'Keiser Witte'"
+            },
+            {
+              "documentId": "country",
+              "startLine": 448,
+              "endLine": 461,
+              "note": "Profile confirms name, sport (Weightlifting), hometown Phoenix AZ, and education Arizona State University (located in Tempe, matching USADA case location)"
+            },
+            {
+              "documentId": "case",
+              "startLine": 8,
+              "endLine": 8,
+              "note": "Sample collected December 4, 2022 at 2022 North American Open Finals under USADA Protocol for Olympic Movement Testing"
+            }
+          ],
+          "findings": []
+        }
+      },
+      {
+        "seat": "codex",
+        "requestedModel": "gpt-6-luna",
+        "batch": "country-002",
+        "attempt": 1,
+        "packetSha256": "7b3a7c2139996f156f10fc4e606b734589b422f8f954a0038a65ddc3ce75349b",
+        "answerSha256": "d583f192b80561d0446ea866d29f27e156dd4d17a4944c1bfe3bd1e0ae69cdc5",
+        "characterStart": 10,
+        "characterEnd": 641,
+        "wholeBatchValid": true,
+        "answer": {
+          "id": "usada-88685d4069ae",
+          "status": "supported",
+          "identity": "supported",
+          "country": "supported",
+          "temporalScope": "supported",
+          "evidence": [
+            {
+              "documentId": "country",
+              "startLine": 1,
+              "endLine": 1,
+              "note": "Team USA profile names Keiser Witte; its title supports Team USA as listed at lookup."
+            },
+            {
+              "documentId": "country",
+              "startLine": 448,
+              "endLine": 464,
+              "note": "The profile identifies him as a weightlifter, age 31, from Phoenix, and gives 2018 championship experience."
+            },
+            {
+              "documentId": "case",
+              "startLine": 7,
+              "endLine": 8,
+              "note": "USADA identifies Keiser Witte as a weightlifting athlete, age 27, of Tempe, with a 2022 competition sample."
+            }
+          ],
+          "findings": []
+        }
+      }
+    ],
+    "findings": [
+      {
+        "seat": "claude",
+        "requestedModel": "haiku",
+        "batch": "country-002",
+        "attempt": 1,
+        "packetSha256": "7b3a7c2139996f156f10fc4e606b734589b422f8f954a0038a65ddc3ce75349b",
+        "answerSha256": "02edba5db04634c84294216b2abe551e73f86e5343568550f2e4530bb4caf9bc",
+        "characterStart": 69,
+        "characterEnd": 1523,
+        "wholeBatchValid": false,
+        "countsForCoverage": true,
+        "field": "identity",
+        "explanation": "名字、運動、年齡相符（USADA 2023年2月時27歲；Team USA列Age 31，若2026年查詢則年份相合），但居住地差異：USADA列Tempe, Ariz.，Team USA列Phoenix, AZ，兩地同州但不同城市。",
+        "suggestion": "需要生日或獨立身份標識確認是否為同一人。"
+      },
+      {
+        "seat": "claude",
+        "requestedModel": "haiku",
+        "batch": "country-002",
+        "attempt": 1,
+        "packetSha256": "7b3a7c2139996f156f10fc4e606b734589b422f8f954a0038a65ddc3ce75349b",
+        "answerSha256": "02edba5db04634c84294216b2abe551e73f86e5343568550f2e4530bb4caf9bc",
+        "characterStart": 69,
+        "characterEnd": 1523,
+        "wholeBatchValid": false,
+        "countsForCoverage": true,
+        "field": "temporalScope",
+        "explanation": "Team USA檔案無2022年參賽或資格紀錄。提案temporalNote已明確不根據頁面所列年份推定本案事件當年代表資格。",
+        "suggestion": "需2022年獨立的國際賽成績表或官方隊伍名單。"
+      }
+    ],
+    "modelSeats": [
+      "claude",
+      "codex"
+    ],
+    "coverageComplete": true
+  },
+  {
+    "id": "usada-a37e4ef92abb",
+    "athleteName": "Christian Rodriguez Ocasio",
+    "modelReviews": [
+      {
+        "seat": "claude",
+        "requestedModel": "haiku",
+        "batch": "country-002",
+        "attempt": 1,
+        "packetSha256": "7b3a7c2139996f156f10fc4e606b734589b422f8f954a0038a65ddc3ce75349b",
+        "answerSha256": "02edba5db04634c84294216b2abe551e73f86e5343568550f2e4530bb4caf9bc",
+        "characterStart": 1529,
+        "characterEnd": 2989,
+        "wholeBatchValid": false,
+        "answer": {
+          "id": "usada-a37e4ef92abb",
+          "status": "issue",
+          "identity": "issue",
+          "country": "supported",
+          "temporalScope": "uncertain",
+          "evidence": [
+            {
+              "documentId": "country",
+              "startLine": 1,
+              "endLine": 1,
+              "note": "Team USA官方檔案標題確認Christian Rodriguez Ocasio"
+            },
+            {
+              "documentId": "country",
+              "startLine": 457,
+              "endLine": 458,
+              "note": "Team USA檔案列Hometown Pleasanton, CA"
+            },
+            {
+              "documentId": "country",
+              "startLine": 462,
+              "endLine": 462,
+              "note": "最近國際賽紀錄止於2019年，無2022年確認"
+            },
+            {
+              "documentId": "case",
+              "startLine": 1,
+              "endLine": 1,
+              "note": "USADA標題確認U.S. Weightlifting Athlete"
+            },
+            {
+              "documentId": "case",
+              "startLine": 7,
+              "endLine": 7,
+              "note": "USADA列Christian Rodriguez Ocasio of Wadsworth, Ohio"
+            }
+          ],
+          "findings": [
+            {
+              "field": "identity",
+              "explanation": "USADA與Team USA檔案所述居住地有本質差異：Wadsworth, Ohio vs Pleasanton, CA，不僅城市不同且州別不同。提案已警示波多黎各為獨立奧會，不能憑Hispanic姓名推定身份。州級地理差異強烈暗示可能為不同人。",
+              "suggestion": "進行國家註解前必須通過生日、官方証件或多源獨立確認判斷是否同一人。"
+            },
+            {
+              "field": "temporalScope",
+              "explanation": "Team USA檔案無2022年參賽或資格紀錄。",
+              "suggestion": "需2022年獨立的國際賽成績表或官方隊伍名單。"
+            }
+          ]
+        }
+      },
+      {
+        "seat": "claude",
+        "requestedModel": "haiku",
+        "batch": "country-002",
+        "attempt": 2,
+        "packetSha256": "7b3a7c2139996f156f10fc4e606b734589b422f8f954a0038a65ddc3ce75349b",
+        "answerSha256": "f3b56c1e363b0fe81f20998c77d82244a3383ef3b4f8beb0102cd9d020c11487",
+        "characterStart": 1179,
+        "characterEnd": 3046,
+        "wholeBatchValid": true,
+        "answer": {
+          "id": "usada-a37e4ef92abb",
+          "status": "uncertain",
+          "identity": "uncertain",
+          "country": "supported",
+          "temporalScope": "supported",
+          "evidence": [
+            {
+              "documentId": "case",
+              "startLine": 7,
+              "endLine": 8,
+              "note": "Case identifies 'Christian Rodriguez Ocasio, of Wadsworth, Ohio' as weightlifter, age 29 at time of November 2022 sanction announcement"
+            },
+            {
+              "documentId": "country",
+              "startLine": 1,
+              "endLine": 1,
+              "note": "Official Team USA profile lists 'Christian Rodriguez Ocasio'"
+            },
+            {
+              "documentId": "country",
+              "startLine": 448,
+              "endLine": 460,
+              "note": "Profile shows age 33 (consistent with age 29 in Nov 2022 = born ~1992-1993), but lists hometown as Pleasanton, CA—different state from USADA case location"
+            },
+            {
+              "documentId": "case",
+              "startLine": 8,
+              "endLine": 8,
+              "note": "Sample collected March 4, 2022 under USADA jurisdiction"
+            }
+          ],
+          "findings": [
+            {
+              "field": "identity",
+              "explanation": "Significant location discrepancy: USADA case (line 7) lists 'Wadsworth, Ohio' while Team USA profile (line 458) lists 'Pleasanton, CA'—different states. Name, sport, and birth year (age 29 in 2022 matches age 33 in 2026 profile) are consistent, but geographic mismatch across states cannot be explained by typical metro-area variation or campus location. This suggests either relocation, outdated profile data, or potential identity ambiguity.",
+              "suggestion": "Verify subject identity using additional biographical identifiers (specific birthdate, weight class at March 2022 competition, competition history) before confirming country annotation"
+            }
+          ]
+        }
+      },
+      {
+        "seat": "codex",
+        "requestedModel": "gpt-6-luna",
+        "batch": "country-002",
+        "attempt": 1,
+        "packetSha256": "7b3a7c2139996f156f10fc4e606b734589b422f8f954a0038a65ddc3ce75349b",
+        "answerSha256": "d583f192b80561d0446ea866d29f27e156dd4d17a4944c1bfe3bd1e0ae69cdc5",
+        "characterStart": 642,
+        "characterEnd": 1321,
+        "wholeBatchValid": true,
+        "answer": {
+          "id": "usada-a37e4ef92abb",
+          "status": "supported",
+          "identity": "supported",
+          "country": "supported",
+          "temporalScope": "supported",
+          "evidence": [
+            {
+              "documentId": "country",
+              "startLine": 1,
+              "endLine": 1,
+              "note": "Team USA profile names Christian Rodriguez Ocasio; its title supports Team USA as listed at lookup."
+            },
+            {
+              "documentId": "country",
+              "startLine": 448,
+              "endLine": 466,
+              "note": "The profile identifies him as a weightlifter, age 33, and lists 2019 World Championships and Pan American Games experience."
+            },
+            {
+              "documentId": "case",
+              "startLine": 7,
+              "endLine": 8,
+              "note": "USADA identifies Christian Rodriguez Ocasio as a weightlifting athlete, age 29, of Wadsworth, with a 2022 competition sample."
+            }
+          ],
+          "findings": []
+        }
+      }
+    ],
+    "findings": [
+      {
+        "seat": "claude",
+        "requestedModel": "haiku",
+        "batch": "country-002",
+        "attempt": 1,
+        "packetSha256": "7b3a7c2139996f156f10fc4e606b734589b422f8f954a0038a65ddc3ce75349b",
+        "answerSha256": "02edba5db04634c84294216b2abe551e73f86e5343568550f2e4530bb4caf9bc",
+        "characterStart": 1529,
+        "characterEnd": 2989,
+        "wholeBatchValid": false,
+        "countsForCoverage": true,
+        "field": "identity",
+        "explanation": "USADA與Team USA檔案所述居住地有本質差異：Wadsworth, Ohio vs Pleasanton, CA，不僅城市不同且州別不同。提案已警示波多黎各為獨立奧會，不能憑Hispanic姓名推定身份。州級地理差異強烈暗示可能為不同人。",
+        "suggestion": "進行國家註解前必須通過生日、官方証件或多源獨立確認判斷是否同一人。"
+      },
+      {
+        "seat": "claude",
+        "requestedModel": "haiku",
+        "batch": "country-002",
+        "attempt": 1,
+        "packetSha256": "7b3a7c2139996f156f10fc4e606b734589b422f8f954a0038a65ddc3ce75349b",
+        "answerSha256": "02edba5db04634c84294216b2abe551e73f86e5343568550f2e4530bb4caf9bc",
+        "characterStart": 1529,
+        "characterEnd": 2989,
+        "wholeBatchValid": false,
+        "countsForCoverage": true,
+        "field": "temporalScope",
+        "explanation": "Team USA檔案無2022年參賽或資格紀錄。",
+        "suggestion": "需2022年獨立的國際賽成績表或官方隊伍名單。"
+      },
+      {
+        "seat": "claude",
+        "requestedModel": "haiku",
+        "batch": "country-002",
+        "attempt": 2,
+        "packetSha256": "7b3a7c2139996f156f10fc4e606b734589b422f8f954a0038a65ddc3ce75349b",
+        "answerSha256": "f3b56c1e363b0fe81f20998c77d82244a3383ef3b4f8beb0102cd9d020c11487",
+        "characterStart": 1179,
+        "characterEnd": 3046,
+        "wholeBatchValid": true,
+        "countsForCoverage": true,
+        "field": "identity",
+        "explanation": "Significant location discrepancy: USADA case (line 7) lists 'Wadsworth, Ohio' while Team USA profile (line 458) lists 'Pleasanton, CA'—different states. Name, sport, and birth year (age 29 in 2022 matches age 33 in 2026 profile) are consistent, but geographic mismatch across states cannot be explained by typical metro-area variation or campus location. This suggests either relocation, outdated profile data, or potential identity ambiguity.",
+        "suggestion": "Verify subject identity using additional biographical identifiers (specific birthdate, weight class at March 2022 competition, competition history) before confirming country annotation"
+      }
+    ],
+    "modelSeats": [
+      "claude",
+      "codex"
+    ],
+    "coverageComplete": true
+  },
+  {
+    "id": "usada-159a9ae15f32",
+    "athleteName": "Ian Wilson",
+    "modelReviews": [
+      {
+        "seat": "claude",
+        "requestedModel": "haiku",
+        "batch": "country-002",
+        "attempt": 1,
+        "packetSha256": "7b3a7c2139996f156f10fc4e606b734589b422f8f954a0038a65ddc3ce75349b",
+        "answerSha256": "02edba5db04634c84294216b2abe551e73f86e5343568550f2e4530bb4caf9bc",
+        "characterStart": 2995,
+        "characterEnd": 4222,
+        "wholeBatchValid": false,
+        "answer": {
+          "id": "usada-159a9ae15f32",
+          "status": "uncertain",
+          "identity": "supported",
+          "country": "supported",
+          "temporalScope": "uncertain",
+          "evidence": [
+            {
+              "documentId": "country",
+              "startLine": 1,
+              "endLine": 1,
+              "note": "Team USA官方檔案標題確認Ian Wilson"
+            },
+            {
+              "documentId": "country",
+              "startLine": 460,
+              "endLine": 461,
+              "note": "Team USA檔案列Birth year 1994與Berkeley, CA"
+            },
+            {
+              "documentId": "country",
+              "startLine": 447,
+              "endLine": 470,
+              "note": "Team USA檔案摘錄中未見國際賽經歷部分"
+            },
+            {
+              "documentId": "case",
+              "startLine": 1,
+              "endLine": 1,
+              "note": "USADA標題確認U.S. Weightlifting Athlete"
+            },
+            {
+              "documentId": "case",
+              "startLine": 7,
+              "endLine": 7,
+              "note": "USADA列Ian Wilson of Berkley, Calif.，年齡28歲"
+            }
+          ],
+          "findings": [
+            {
+              "field": "temporalScope",
+              "explanation": "Team USA官方檔案未提供國際賽參賽紀錄或年份確認，僅列基本資訊。無2021年參賽或資格的具體紀錄。",
+              "suggestion": "需2021年獨立的國際賽成績表、官方隊伍名單或其他Team USA官方資格文件。"
+            }
+          ]
+        }
+      },
+      {
+        "seat": "claude",
+        "requestedModel": "haiku",
+        "batch": "country-002",
+        "attempt": 2,
+        "packetSha256": "7b3a7c2139996f156f10fc4e606b734589b422f8f954a0038a65ddc3ce75349b",
+        "answerSha256": "f3b56c1e363b0fe81f20998c77d82244a3383ef3b4f8beb0102cd9d020c11487",
+        "characterStart": 3052,
+        "characterEnd": 4211,
+        "wholeBatchValid": true,
+        "answer": {
+          "id": "usada-159a9ae15f32",
+          "status": "supported",
+          "identity": "supported",
+          "country": "supported",
+          "temporalScope": "supported",
+          "evidence": [
+            {
+              "documentId": "case",
+              "startLine": 1,
+              "endLine": 7,
+              "note": "Case title and line 7 confirm 'Ian Wilson' as U.S. Weightlifting Athlete, 'of Berkley, Calif.' in sport of weightlifting"
+            },
+            {
+              "documentId": "country",
+              "startLine": 1,
+              "endLine": 1,
+              "note": "Official Team USA profile lists 'Ian Wilson'"
+            },
+            {
+              "documentId": "country",
+              "startLine": 448,
+              "endLine": 461,
+              "note": "Profile confirms name, sport (Weightlifting), birth year 1994 (consistent with age 28 in Feb 2022), and location Berkeley CA (matches USADA 'Berkley')"
+            },
+            {
+              "documentId": "case",
+              "startLine": 10,
+              "endLine": 10,
+              "note": "Sample collected December 2, 2021 during out-of-competition testing under USADA Protocol, establishing 2021 participation"
+            }
+          ],
+          "findings": []
+        }
+      },
+      {
+        "seat": "codex",
+        "requestedModel": "gpt-6-luna",
+        "batch": "country-002",
+        "attempt": 1,
+        "packetSha256": "7b3a7c2139996f156f10fc4e606b734589b422f8f954a0038a65ddc3ce75349b",
+        "answerSha256": "d583f192b80561d0446ea866d29f27e156dd4d17a4944c1bfe3bd1e0ae69cdc5",
+        "characterStart": 1322,
+        "characterEnd": 1944,
+        "wholeBatchValid": true,
+        "answer": {
+          "id": "usada-159a9ae15f32",
+          "status": "supported",
+          "identity": "supported",
+          "country": "supported",
+          "temporalScope": "supported",
+          "evidence": [
+            {
+              "documentId": "country",
+              "startLine": 1,
+              "endLine": 1,
+              "note": "Team USA profile names Ian Wilson; its title supports Team USA as listed at lookup."
+            },
+            {
+              "documentId": "country",
+              "startLine": 448,
+              "endLine": 465,
+              "note": "The profile identifies Ian Wilson, birth year 1994, Berkeley, California, and weightlifting context."
+            },
+            {
+              "documentId": "case",
+              "startLine": 7,
+              "endLine": 8,
+              "note": "USADA identifies Ian Wilson as a weightlifting athlete of Berkeley, California, age 28, in its 2022 notice."
+            }
+          ],
+          "findings": []
+        }
+      }
+    ],
+    "findings": [
+      {
+        "seat": "claude",
+        "requestedModel": "haiku",
+        "batch": "country-002",
+        "attempt": 1,
+        "packetSha256": "7b3a7c2139996f156f10fc4e606b734589b422f8f954a0038a65ddc3ce75349b",
+        "answerSha256": "02edba5db04634c84294216b2abe551e73f86e5343568550f2e4530bb4caf9bc",
+        "characterStart": 2995,
+        "characterEnd": 4222,
+        "wholeBatchValid": false,
+        "countsForCoverage": true,
+        "field": "temporalScope",
+        "explanation": "Team USA官方檔案未提供國際賽參賽紀錄或年份確認，僅列基本資訊。無2021年參賽或資格的具體紀錄。",
+        "suggestion": "需2021年獨立的國際賽成績表、官方隊伍名單或其他Team USA官方資格文件。"
+      }
+    ],
+    "modelSeats": [
+      "claude",
+      "codex"
+    ],
+    "coverageComplete": true
+  },
+  {
+    "id": "usada-25958bca1e21",
+    "athleteName": "Cary Cooper",
+    "modelReviews": [
+      {
+        "seat": "claude",
+        "requestedModel": "haiku",
+        "batch": "country-003",
+        "attempt": 1,
+        "packetSha256": "7edee910a7402be35fb5fd01c26271f7865983752a1424c6175b4d8cd71fad7b",
+        "answerSha256": "b658588a26d9816d598f1128f5330791cb03de04d0ade9690a8a318123cfa560",
+        "characterStart": 27,
+        "characterEnd": 1100,
+        "wholeBatchValid": false,
+        "answer": {
+          "id": "usada-25958bca1e21",
+          "status": "supported",
+          "identity": "supported",
+          "country": "supported",
+          "temporalScope": "supported",
+          "evidence": [
+            {
+              "documentId": "country",
+              "startLine": 54,
+              "endLine": 62,
+              "note": "World Athletics profile lists athlete name 'Cary COOPER' (lines 54-55), sport 'Discus Throw, Shot Put' (lines 56-57), country 'United States' (line 58), birth date '23 APR 1969' (line 60), and competition venue 'Houston, TX (USA)' (line 72)"
+            },
+            {
+              "documentId": "case",
+              "startLine": 7,
+              "endLine": 7,
+              "note": "USADA case document confirms 'Cary Cooper, of Houston, Texas, an athlete in the sport of track and field' and age 55, consistent with 1969 birth date"
+            },
+            {
+              "documentId": "country",
+              "startLine": 58,
+              "endLine": 58,
+              "note": "Official World Athletics profile explicitly lists 'United States' as athlete's country"
+            }
+          ],
+          "findings": []
+        }
+      },
+      {
+        "seat": "codex",
+        "requestedModel": "gpt-6-luna",
+        "batch": "country-003",
+        "attempt": 1,
+        "packetSha256": "7edee910a7402be35fb5fd01c26271f7865983752a1424c6175b4d8cd71fad7b",
+        "answerSha256": "490bed28c4ffac08570e0ccb2055a0b0e662c82fece33126c32b2f5571fe857c",
+        "characterStart": 10,
+        "characterEnd": 526,
+        "wholeBatchValid": true,
+        "answer": {
+          "id": "usada-25958bca1e21",
+          "status": "supported",
+          "identity": "supported",
+          "country": "supported",
+          "temporalScope": "supported",
+          "evidence": [
+            {
+              "documentId": "country",
+              "startLine": 54,
+              "endLine": 60,
+              "note": "World Athletics profile identifies Cary Cooper, lists throwing events, United States, and birth date 23 Apr 1969."
+            },
+            {
+              "documentId": "case",
+              "startLine": 7,
+              "endLine": 8,
+              "note": "USADA identifies Cary Cooper as a track and field athlete from Houston, age 55, consistent with the profile and 2024 results location."
+            }
+          ],
+          "findings": []
+        }
+      }
+    ],
+    "findings": [],
+    "modelSeats": [
+      "claude",
+      "codex"
+    ],
+    "coverageComplete": true
+  },
+  {
+    "id": "usada-89c25ce0aa40",
+    "athleteName": "Darien Moore",
+    "modelReviews": [
+      {
+        "seat": "claude",
+        "requestedModel": "haiku",
+        "batch": "country-003",
+        "attempt": 1,
+        "packetSha256": "7edee910a7402be35fb5fd01c26271f7865983752a1424c6175b4d8cd71fad7b",
+        "answerSha256": "b658588a26d9816d598f1128f5330791cb03de04d0ade9690a8a318123cfa560",
+        "characterStart": 1106,
+        "characterEnd": 2103,
+        "wholeBatchValid": false,
+        "answer": {
+          "id": "usada-89c25ce0aa40",
+          "status": "supported",
+          "identity": "supported",
+          "country": "supported",
+          "temporalScope": "supported",
+          "evidence": [
+            {
+              "documentId": "country",
+              "startLine": 54,
+              "endLine": 61,
+              "note": "World Athletics profile lists 'Darien MOORE' (lines 54-55), 'Shot Put' (line 56), 'United States' (line 57), birth '10 JUN 1991' (line 59), and athlete code '14468449' (line 61)"
+            },
+            {
+              "documentId": "case",
+              "startLine": 7,
+              "endLine": 7,
+              "note": "USADA case confirms 'Darien Moore, of Bakersfield, Calif., an athlete in the sport of track and field' and age 25, consistent with 1991 birth date"
+            },
+            {
+              "documentId": "country",
+              "startLine": 57,
+              "endLine": 57,
+              "note": "Official World Athletics profile explicitly lists 'United States' as country"
+            }
+          ],
+          "findings": []
+        }
+      },
+      {
+        "seat": "codex",
+        "requestedModel": "gpt-6-luna",
+        "batch": "country-003",
+        "attempt": 1,
+        "packetSha256": "7edee910a7402be35fb5fd01c26271f7865983752a1424c6175b4d8cd71fad7b",
+        "answerSha256": "490bed28c4ffac08570e0ccb2055a0b0e662c82fece33126c32b2f5571fe857c",
+        "characterStart": 527,
+        "characterEnd": 1025,
+        "wholeBatchValid": true,
+        "answer": {
+          "id": "usada-89c25ce0aa40",
+          "status": "supported",
+          "identity": "supported",
+          "country": "supported",
+          "temporalScope": "supported",
+          "evidence": [
+            {
+              "documentId": "country",
+              "startLine": 54,
+              "endLine": 61,
+              "note": "World Athletics profile identifies Darien Moore, lists shot put, United States, and birth date 10 Jun 1991."
+            },
+            {
+              "documentId": "case",
+              "startLine": 7,
+              "endLine": 8,
+              "note": "USADA identifies Darien Moore as a track and field athlete, age 25, from Bakersfield; the age matches the profile in 2017."
+            }
+          ],
+          "findings": []
+        }
+      }
+    ],
+    "findings": [],
+    "modelSeats": [
+      "claude",
+      "codex"
+    ],
+    "coverageComplete": true
+  },
+  {
+    "id": "usada-73473ebf3acd",
+    "athleteName": "Ana Irizarry",
+    "modelReviews": [
+      {
+        "seat": "claude",
+        "requestedModel": "haiku",
+        "batch": "country-003",
+        "attempt": 1,
+        "packetSha256": "7edee910a7402be35fb5fd01c26271f7865983752a1424c6175b4d8cd71fad7b",
+        "answerSha256": "b658588a26d9816d598f1128f5330791cb03de04d0ade9690a8a318123cfa560",
+        "characterStart": 2109,
+        "characterEnd": 3835,
+        "wholeBatchValid": false,
+        "answer": {
+          "id": "usada-73473ebf3acd",
+          "status": "uncertain",
+          "identity": "supported",
+          "country": "uncertain",
+          "temporalScope": "supported",
+          "evidence": [
+            {
+              "documentId": "country",
+              "startLine": 29,
+              "endLine": 30,
+              "note": "USATF report lists 'Ana Irizarry (Passaic, New Jersey/Shore AC)' setting American record on date March 20, 2022 report"
+            },
+            {
+              "documentId": "case",
+              "startLine": 7,
+              "endLine": 8,
+              "note": "USADA case confirms 'Ana Irizarry, of Passaic, N.J., an athlete in the sport of track and field' tested positive at 'USATF Masters Indoor Championships on March 19, 2022'"
+            },
+            {
+              "documentId": "case",
+              "startLine": 7,
+              "endLine": 7,
+              "note": "USADA document identifies as 'U.S. Track & Field Athlete' providing explicit country designation"
+            }
+          ],
+          "findings": [
+            {
+              "field": "country",
+              "explanation": "Proposal's countryAsListed is 'USATF 2022 Masters Indoor Championships（國內協會賽事報導）', which is an event name, not an explicit country name. The USATF document (documentId 'country') does not list 'United States' by name—the country designation comes from USADA case document (documentId 'case', line 7). Proposal's sourceUrl references only the USATF report, which lacks explicit country notation.",
+              "suggestion": "CountryAsListed should be 'United States' (drawn from USADA document line 7 'U.S. Track & Field Athlete'), or source scope should be revised to reflect the case document as the country-establishing evidence rather than the event report alone."
+            }
+          ]
+        }
+      },
+      {
+        "seat": "codex",
+        "requestedModel": "gpt-6-luna",
+        "batch": "country-003",
+        "attempt": 1,
+        "packetSha256": "7edee910a7402be35fb5fd01c26271f7865983752a1424c6175b4d8cd71fad7b",
+        "answerSha256": "490bed28c4ffac08570e0ccb2055a0b0e662c82fece33126c32b2f5571fe857c",
+        "characterStart": 1026,
+        "characterEnd": 2481,
+        "wholeBatchValid": true,
+        "answer": {
+          "id": "usada-73473ebf3acd",
+          "status": "issue",
+          "identity": "supported",
+          "country": "issue",
+          "temporalScope": "issue",
+          "evidence": [
+            {
+              "documentId": "country",
+              "startLine": 19,
+              "endLine": 20,
+              "note": "USATF report is dated 20 Mar 2022 and names the Masters Indoor Championships."
+            },
+            {
+              "documentId": "country",
+              "startLine": 28,
+              "endLine": 30,
+              "note": "Ana Irizarry of Passaic, New Jersey, set an American record at the meet."
+            },
+            {
+              "documentId": "case",
+              "startLine": 7,
+              "endLine": 8,
+              "note": "USADA identifies Ana Irizarry, a 40-year-old track and field athlete from Passaic, and says her sample was collected at the same 2022 USATF meet."
+            }
+          ],
+          "findings": [
+            {
+              "field": "country",
+              "explanation": "The source documents participation in a USATF domestic meet and an American record, but does not explicitly list Ana Irizarry's sporting country. The proposed United States country annotation exceeds the evidence.",
+              "suggestion": "Remove the country value or replace it with a narrowly worded note that the 2022 USATF report records her American-record performance at this domestic meet."
+            },
+            {
+              "field": "temporalScope",
+              "explanation": "The proposed temporal note treats the report as establishing only participation in a domestic event, but the report also says she set an American record; neither statement establishes country affiliation or national-team status.",
+              "suggestion": "Limit the note to what the report explicitly records: her American-record performance at the 2022 USATF Masters Indoor Championships."
+            }
+          ]
+        }
+      }
+    ],
+    "findings": [
+      {
+        "seat": "claude",
+        "requestedModel": "haiku",
+        "batch": "country-003",
+        "attempt": 1,
+        "packetSha256": "7edee910a7402be35fb5fd01c26271f7865983752a1424c6175b4d8cd71fad7b",
+        "answerSha256": "b658588a26d9816d598f1128f5330791cb03de04d0ade9690a8a318123cfa560",
+        "characterStart": 2109,
+        "characterEnd": 3835,
+        "wholeBatchValid": false,
+        "countsForCoverage": true,
+        "field": "country",
+        "explanation": "Proposal's countryAsListed is 'USATF 2022 Masters Indoor Championships（國內協會賽事報導）', which is an event name, not an explicit country name. The USATF document (documentId 'country') does not list 'United States' by name—the country designation comes from USADA case document (documentId 'case', line 7). Proposal's sourceUrl references only the USATF report, which lacks explicit country notation.",
+        "suggestion": "CountryAsListed should be 'United States' (drawn from USADA document line 7 'U.S. Track & Field Athlete'), or source scope should be revised to reflect the case document as the country-establishing evidence rather than the event report alone."
+      },
+      {
+        "seat": "codex",
+        "requestedModel": "gpt-6-luna",
+        "batch": "country-003",
+        "attempt": 1,
+        "packetSha256": "7edee910a7402be35fb5fd01c26271f7865983752a1424c6175b4d8cd71fad7b",
+        "answerSha256": "490bed28c4ffac08570e0ccb2055a0b0e662c82fece33126c32b2f5571fe857c",
+        "characterStart": 1026,
+        "characterEnd": 2481,
+        "wholeBatchValid": true,
+        "countsForCoverage": true,
+        "field": "country",
+        "explanation": "The source documents participation in a USATF domestic meet and an American record, but does not explicitly list Ana Irizarry's sporting country. The proposed United States country annotation exceeds the evidence.",
+        "suggestion": "Remove the country value or replace it with a narrowly worded note that the 2022 USATF report records her American-record performance at this domestic meet."
+      },
+      {
+        "seat": "codex",
+        "requestedModel": "gpt-6-luna",
+        "batch": "country-003",
+        "attempt": 1,
+        "packetSha256": "7edee910a7402be35fb5fd01c26271f7865983752a1424c6175b4d8cd71fad7b",
+        "answerSha256": "490bed28c4ffac08570e0ccb2055a0b0e662c82fece33126c32b2f5571fe857c",
+        "characterStart": 1026,
+        "characterEnd": 2481,
+        "wholeBatchValid": true,
+        "countsForCoverage": true,
+        "field": "temporalScope",
+        "explanation": "The proposed temporal note treats the report as establishing only participation in a domestic event, but the report also says she set an American record; neither statement establishes country affiliation or national-team status.",
+        "suggestion": "Limit the note to what the report explicitly records: her American-record performance at the 2022 USATF Masters Indoor Championships."
+      }
+    ],
+    "modelSeats": [
+      "claude",
+      "codex"
+    ],
+    "coverageComplete": true
+  },
+  {
+    "id": "usada-a065a9e92dd5",
+    "athleteName": "Dryden McKay",
+    "modelReviews": [
+      {
+        "seat": "claude",
+        "requestedModel": "haiku",
+        "batch": "country-003",
+        "attempt": 1,
+        "packetSha256": "7edee910a7402be35fb5fd01c26271f7865983752a1424c6175b4d8cd71fad7b",
+        "answerSha256": "b658588a26d9816d598f1128f5330791cb03de04d0ade9690a8a318123cfa560",
+        "characterStart": 3841,
+        "characterEnd": 5595,
+        "wholeBatchValid": false,
+        "answer": {
+          "id": "usada-a065a9e92dd5",
+          "status": "uncertain",
+          "identity": "supported",
+          "country": "uncertain",
+          "temporalScope": "supported",
+          "evidence": [
+            {
+              "documentId": "country",
+              "startLine": 12,
+              "endLine": 22,
+              "note": "USA Hockey report lists 'Dryden McKay, of Downers Grove, Illinois' as 'MSU Netminder' winning 2022 Jim Johannson College Player of the Year award; Minnesota State location is Mankato, Minn."
+            },
+            {
+              "documentId": "case",
+              "startLine": 7,
+              "endLine": 7,
+              "note": "USADA case confirms 'Dryden McKay, of Mankato, Minn., an athlete in the sport of hockey' and age 25, sampled January 23, 2022"
+            },
+            {
+              "documentId": "case",
+              "startLine": 7,
+              "endLine": 7,
+              "note": "USADA document identifies as 'U.S. Hockey Athlete' providing explicit country designation"
+            }
+          ],
+          "findings": [
+            {
+              "field": "country",
+              "explanation": "Proposal's countryAsListed is 'USA Hockey 2022 年度大學最佳球員獎（國內協會獎項）', which describes an award, not an explicit country name. The USA Hockey document (documentId 'country') does not list 'United States' by name—only the USADA case document (documentId 'case', line 7) explicitly designates 'U.S. Hockey Athlete'. Proposal's sourceUrl references only USA Hockey report, which lacks explicit country notation.",
+              "suggestion": "CountryAsListed should be 'United States' (drawn from USADA document line 7 'U.S. Hockey Athlete'), or source scope should be revised to reflect the case document as the country-establishing evidence rather than the award announcement alone."
+            }
+          ]
+        }
+      },
+      {
+        "seat": "codex",
+        "requestedModel": "gpt-6-luna",
+        "batch": "country-003",
+        "attempt": 1,
+        "packetSha256": "7edee910a7402be35fb5fd01c26271f7865983752a1424c6175b4d8cd71fad7b",
+        "answerSha256": "490bed28c4ffac08570e0ccb2055a0b0e662c82fece33126c32b2f5571fe857c",
+        "characterStart": 2482,
+        "characterEnd": 3620,
+        "wholeBatchValid": true,
+        "answer": {
+          "id": "usada-a065a9e92dd5",
+          "status": "issue",
+          "identity": "supported",
+          "country": "issue",
+          "temporalScope": "supported",
+          "evidence": [
+            {
+              "documentId": "country",
+              "startLine": 12,
+              "endLine": 16,
+              "note": "USA Hockey says the award recognizes the top American-born player in NCAA Division I men's college hockey and identifies McKay as its 2022 recipient."
+            },
+            {
+              "documentId": "country",
+              "startLine": 20,
+              "endLine": 24,
+              "note": "The report identifies McKay as a Minnesota State goaltender with 2021–22 college achievements."
+            },
+            {
+              "documentId": "case",
+              "startLine": 7,
+              "endLine": 8,
+              "note": "USADA identifies Dryden McKay as a hockey athlete from Mankato, age 25, consistent with the Minnesota State player in the 2022 report."
+            }
+          ],
+          "findings": [
+            {
+              "field": "country",
+              "explanation": "The award's criterion is American birth, and McKay's receipt of it supports that he was regarded as an American-born NCAA player. It does not explicitly identify his sporting country as United States or establish national-team affiliation.",
+              "suggestion": "Describe the source as a 2022 USA Hockey award for the top American-born NCAA Division I men's player, without assigning a sporting-country value."
+            }
+          ]
+        }
+      }
+    ],
+    "findings": [
+      {
+        "seat": "claude",
+        "requestedModel": "haiku",
+        "batch": "country-003",
+        "attempt": 1,
+        "packetSha256": "7edee910a7402be35fb5fd01c26271f7865983752a1424c6175b4d8cd71fad7b",
+        "answerSha256": "b658588a26d9816d598f1128f5330791cb03de04d0ade9690a8a318123cfa560",
+        "characterStart": 3841,
+        "characterEnd": 5595,
+        "wholeBatchValid": false,
+        "countsForCoverage": true,
+        "field": "country",
+        "explanation": "Proposal's countryAsListed is 'USA Hockey 2022 年度大學最佳球員獎（國內協會獎項）', which describes an award, not an explicit country name. The USA Hockey document (documentId 'country') does not list 'United States' by name—only the USADA case document (documentId 'case', line 7) explicitly designates 'U.S. Hockey Athlete'. Proposal's sourceUrl references only USA Hockey report, which lacks explicit country notation.",
+        "suggestion": "CountryAsListed should be 'United States' (drawn from USADA document line 7 'U.S. Hockey Athlete'), or source scope should be revised to reflect the case document as the country-establishing evidence rather than the award announcement alone."
+      },
+      {
+        "seat": "codex",
+        "requestedModel": "gpt-6-luna",
+        "batch": "country-003",
+        "attempt": 1,
+        "packetSha256": "7edee910a7402be35fb5fd01c26271f7865983752a1424c6175b4d8cd71fad7b",
+        "answerSha256": "490bed28c4ffac08570e0ccb2055a0b0e662c82fece33126c32b2f5571fe857c",
+        "characterStart": 2482,
+        "characterEnd": 3620,
+        "wholeBatchValid": true,
+        "countsForCoverage": true,
+        "field": "country",
+        "explanation": "The award's criterion is American birth, and McKay's receipt of it supports that he was regarded as an American-born NCAA player. It does not explicitly identify his sporting country as United States or establish national-team affiliation.",
+        "suggestion": "Describe the source as a 2022 USA Hockey award for the top American-born NCAA Division I men's player, without assigning a sporting-country value."
+      }
+    ],
+    "modelSeats": [
+      "claude",
+      "codex"
+    ],
+    "coverageComplete": true
+  },
+  {
+    "id": "usada-f8c1f2c29e25",
+    "athleteName": "Madeline Wethington",
+    "modelReviews": [
+      {
+        "seat": "claude",
+        "requestedModel": "haiku",
+        "batch": "country-003",
+        "attempt": 1,
+        "packetSha256": "7edee910a7402be35fb5fd01c26271f7865983752a1424c6175b4d8cd71fad7b",
+        "answerSha256": "b658588a26d9816d598f1128f5330791cb03de04d0ade9690a8a318123cfa560",
+        "characterStart": 5601,
+        "characterEnd": 6687,
+        "wholeBatchValid": false,
+        "answer": {
+          "id": "usada-f8c1f2c29e25",
+          "status": "supported",
+          "identity": "supported",
+          "country": "supported",
+          "temporalScope": "supported",
+          "evidence": [
+            {
+              "documentId": "country",
+              "startLine": 13,
+              "endLine": 34,
+              "note": "USA Hockey 2017 U.S. Women's National Under-18 Team roster announcement lists 'Madeline Wethington (Edina, Minn.)' on lines 33-34 as team member selected December 9, 2016 for 2017 IIHF Under-18 Women's World Championship"
+            },
+            {
+              "documentId": "case",
+              "startLine": 7,
+              "endLine": 7,
+              "note": "USADA case confirms 'Madeline Wethington, of Edina, Minn., an athlete in the sport of ice hockey' age 21, violation date September 16, 2021"
+            },
+            {
+              "documentId": "country",
+              "startLine": 13,
+              "endLine": 13,
+              "note": "Official team announcement states 'U.S. Women's National Under-18 Team', explicitly indicating United States sporting affiliation"
+            }
+          ],
+          "findings": []
+        }
+      },
+      {
+        "seat": "codex",
+        "requestedModel": "gpt-6-luna",
+        "batch": "country-003",
+        "attempt": 1,
+        "packetSha256": "7edee910a7402be35fb5fd01c26271f7865983752a1424c6175b4d8cd71fad7b",
+        "answerSha256": "490bed28c4ffac08570e0ccb2055a0b0e662c82fece33126c32b2f5571fe857c",
+        "characterStart": 3621,
+        "characterEnd": 4259,
+        "wholeBatchValid": true,
+        "answer": {
+          "id": "usada-f8c1f2c29e25",
+          "status": "supported",
+          "identity": "supported",
+          "country": "supported",
+          "temporalScope": "supported",
+          "evidence": [
+            {
+              "documentId": "country",
+              "startLine": 12,
+              "endLine": 14,
+              "note": "USA Hockey identifies the 2017 U.S. Women's National Under-18 Team and its 2017 championship competition."
+            },
+            {
+              "documentId": "country",
+              "startLine": 33,
+              "endLine": 36,
+              "note": "Madeline Wethington of Edina, Minnesota, is named on that roster."
+            },
+            {
+              "documentId": "case",
+              "startLine": 7,
+              "endLine": 8,
+              "note": "USADA identifies Madeline Wethington as an ice hockey athlete from Edina, age 21, in the 2021 case; the city matches the roster listing."
+            }
+          ],
+          "findings": []
+        }
+      }
+    ],
+    "findings": [],
+    "modelSeats": [
+      "claude",
+      "codex"
+    ],
+    "coverageComplete": true
+  },
+  {
+    "id": "usada-9e3ec5e00217",
+    "athleteName": "Isabel Gormley",
+    "modelReviews": [
+      {
+        "seat": "claude",
+        "requestedModel": "haiku",
+        "batch": "country-004",
+        "attempt": 1,
+        "packetSha256": "f72e78b8ca1e797e77590885c52cf73c0fb0760e3ae91829c2a74c0fc8b1c8f1",
+        "answerSha256": "cb748d12f6422b5fdbdf207aadd30abe0d203b993877d210c103532ebe1d5669",
+        "characterStart": 27,
+        "characterEnd": 1073,
+        "wholeBatchValid": true,
+        "answer": {
+          "id": "usada-9e3ec5e00217",
+          "status": "supported",
+          "identity": "supported",
+          "country": "supported",
+          "temporalScope": "supported",
+          "evidence": [
+            {
+              "documentId": "country",
+              "startLine": 78,
+              "endLine": 79,
+              "note": "World Aquatics 官方資料確認運動員名字 Isabel Gormley"
+            },
+            {
+              "documentId": "country",
+              "startLine": 80,
+              "endLine": 81,
+              "note": "World Aquatics 官方資料列 Nationality 為 USA"
+            },
+            {
+              "documentId": "country",
+              "startLine": 82,
+              "endLine": 83,
+              "note": "World Aquatics 官方資料確認運動：Swimming"
+            },
+            {
+              "documentId": "case",
+              "startLine": 7,
+              "endLine": 7,
+              "note": "USADA 確認 Isabel Gormley, of Wainscott, N.Y., 游泳運動員"
+            },
+            {
+              "documentId": "case",
+              "startLine": 8,
+              "endLine": 8,
+              "note": "USADA 記錄案件時 Gormley 20 歲，身份與國家資料一致"
+            }
+          ],
+          "findings": []
+        }
+      },
+      {
+        "seat": "codex",
+        "requestedModel": "gpt-6-luna",
+        "batch": "country-004",
+        "attempt": 1,
+        "packetSha256": "f72e78b8ca1e797e77590885c52cf73c0fb0760e3ae91829c2a74c0fc8b1c8f1",
+        "answerSha256": "65d1c128d974bd68794454e7263e9017404f39f706c735fe04640dbad0c5ba28",
+        "characterStart": 10,
+        "characterEnd": 466,
+        "wholeBatchValid": true,
+        "answer": {
+          "id": "usada-9e3ec5e00217",
+          "status": "supported",
+          "identity": "supported",
+          "country": "supported",
+          "temporalScope": "supported",
+          "evidence": [
+            {
+              "documentId": "country",
+              "startLine": 78,
+              "endLine": 83,
+              "note": "World Aquatics profile identifies Isabel Gormley, lists USA and Swimming."
+            },
+            {
+              "documentId": "case",
+              "startLine": 7,
+              "endLine": 8,
+              "note": "USADA identifies Isabel Gormley as a swimmer and gives her age and Wainscott location at the time of the failures."
+            }
+          ],
+          "findings": []
+        }
+      }
+    ],
+    "findings": [],
+    "modelSeats": [
+      "claude",
+      "codex"
+    ],
+    "coverageComplete": true
+  },
+  {
+    "id": "usada-f40282760e72",
+    "athleteName": "Patrick \"Dillon\" Schrodt",
+    "modelReviews": [
+      {
+        "seat": "claude",
+        "requestedModel": "haiku",
+        "batch": "country-004",
+        "attempt": 1,
+        "packetSha256": "f72e78b8ca1e797e77590885c52cf73c0fb0760e3ae91829c2a74c0fc8b1c8f1",
+        "answerSha256": "cb748d12f6422b5fdbdf207aadd30abe0d203b993877d210c103532ebe1d5669",
+        "characterStart": 1079,
+        "characterEnd": 2191,
+        "wholeBatchValid": true,
+        "answer": {
+          "id": "usada-f40282760e72",
+          "status": "supported",
+          "identity": "supported",
+          "country": "supported",
+          "temporalScope": "supported",
+          "evidence": [
+            {
+              "documentId": "country",
+              "startLine": 449,
+              "endLine": 450,
+              "note": "Team USA 官方資料確認運動員名字 Dillon Schrodt"
+            },
+            {
+              "documentId": "country",
+              "startLine": 448,
+              "endLine": 448,
+              "note": "Team USA 確認運動：Bobsled"
+            },
+            {
+              "documentId": "country",
+              "startLine": 460,
+              "endLine": 462,
+              "note": "Team USA 列 2016-2017 North American Cup，Park City 比賽日期 1/17（即 2017 年 1 月）"
+            },
+            {
+              "documentId": "case",
+              "startLine": 1,
+              "endLine": 1,
+              "note": "USADA 標題確認 U.S. Bobsled Athlete Patrick Schrodt"
+            },
+            {
+              "documentId": "case",
+              "startLine": 7,
+              "endLine": 7,
+              "note": "USADA 案件日期 2017-01-12 IBSF North American Cup，與 Team USA 頁面 Park City 1/17 賽事相符"
+            }
+          ],
+          "findings": []
+        }
+      },
+      {
+        "seat": "codex",
+        "requestedModel": "gpt-6-luna",
+        "batch": "country-004",
+        "attempt": 1,
+        "packetSha256": "f72e78b8ca1e797e77590885c52cf73c0fb0760e3ae91829c2a74c0fc8b1c8f1",
+        "answerSha256": "65d1c128d974bd68794454e7263e9017404f39f706c735fe04640dbad0c5ba28",
+        "characterStart": 467,
+        "characterEnd": 1037,
+        "wholeBatchValid": true,
+        "answer": {
+          "id": "usada-f40282760e72",
+          "status": "supported",
+          "identity": "supported",
+          "country": "supported",
+          "temporalScope": "supported",
+          "evidence": [
+            {
+              "documentId": "country",
+              "startLine": 448,
+              "endLine": 465,
+              "note": "Team USA profile identifies Dillon Schrodt as a bobsled athlete and lists North American Cup results from 2016–2017, including Park City in January 2017."
+            },
+            {
+              "documentId": "case",
+              "startLine": 1,
+              "endLine": 7,
+              "note": "USADA names Patrick Schrodt, identifies bobsled, and dates the sample to January 12, 2017; the Team USA alias and event overlap support the match."
+            }
+          ],
+          "findings": []
+        }
+      }
+    ],
+    "findings": [],
+    "modelSeats": [
+      "claude",
+      "codex"
+    ],
+    "coverageComplete": true
+  },
+  {
+    "id": "usada-b54bb0c30eb2",
+    "athleteName": "Kyler Allison",
+    "modelReviews": [
+      {
+        "seat": "claude",
+        "requestedModel": "haiku",
+        "batch": "country-004",
+        "attempt": 1,
+        "packetSha256": "f72e78b8ca1e797e77590885c52cf73c0fb0760e3ae91829c2a74c0fc8b1c8f1",
+        "answerSha256": "cb748d12f6422b5fdbdf207aadd30abe0d203b993877d210c103532ebe1d5669",
+        "characterStart": 2197,
+        "characterEnd": 3257,
+        "wholeBatchValid": true,
+        "answer": {
+          "id": "usada-b54bb0c30eb2",
+          "status": "supported",
+          "identity": "supported",
+          "country": "supported",
+          "temporalScope": "supported",
+          "evidence": [
+            {
+              "documentId": "country",
+              "startLine": 448,
+              "endLine": 450,
+              "note": "Team USA 官方資料確認運動員名字 Kyler Allison，運動 Bobsled"
+            },
+            {
+              "documentId": "country",
+              "startLine": 454,
+              "endLine": 454,
+              "note": "Team USA 查閱時記錄 Age 42"
+            },
+            {
+              "documentId": "country",
+              "startLine": 456,
+              "endLine": 456,
+              "note": "Team USA 記錄 Hometown Austin, TX"
+            },
+            {
+              "documentId": "case",
+              "startLine": 7,
+              "endLine": 7,
+              "note": "USADA 確認 Kyler Allison, of Austin, Texas，運動 bobsled"
+            },
+            {
+              "documentId": "case",
+              "startLine": 8,
+              "endLine": 8,
+              "note": "USADA 記錄案件時 Allison 35 歲（2019 年），年齡與查閱時 42 歲相符（約 7 年差距）"
+            }
+          ],
+          "findings": []
+        }
+      },
+      {
+        "seat": "codex",
+        "requestedModel": "gpt-6-luna",
+        "batch": "country-004",
+        "attempt": 1,
+        "packetSha256": "f72e78b8ca1e797e77590885c52cf73c0fb0760e3ae91829c2a74c0fc8b1c8f1",
+        "answerSha256": "65d1c128d974bd68794454e7263e9017404f39f706c735fe04640dbad0c5ba28",
+        "characterStart": 1038,
+        "characterEnd": 1544,
+        "wholeBatchValid": true,
+        "answer": {
+          "id": "usada-b54bb0c30eb2",
+          "status": "supported",
+          "identity": "supported",
+          "country": "supported",
+          "temporalScope": "supported",
+          "evidence": [
+            {
+              "documentId": "country",
+              "startLine": 448,
+              "endLine": 468,
+              "note": "Team USA profile identifies Kyler Allison as a bobsled athlete and lists 2018–2019 competition results."
+            },
+            {
+              "documentId": "case",
+              "startLine": 7,
+              "endLine": 8,
+              "note": "USADA identifies Kyler Allison as a bobsled athlete, age 35, of Austin, Texas; the profile lists Austin, Texas and age 42 at lookup."
+            }
+          ],
+          "findings": []
+        }
+      }
+    ],
+    "findings": [],
+    "modelSeats": [
+      "claude",
+      "codex"
+    ],
+    "coverageComplete": true
+  },
+  {
+    "id": "usada-b714a3c460a7",
+    "athleteName": "Lauren Goss",
+    "modelReviews": [
+      {
+        "seat": "claude",
+        "requestedModel": "haiku",
+        "batch": "country-004",
+        "attempt": 1,
+        "packetSha256": "f72e78b8ca1e797e77590885c52cf73c0fb0760e3ae91829c2a74c0fc8b1c8f1",
+        "answerSha256": "cb748d12f6422b5fdbdf207aadd30abe0d203b993877d210c103532ebe1d5669",
+        "characterStart": 3263,
+        "characterEnd": 4323,
+        "wholeBatchValid": true,
+        "answer": {
+          "id": "usada-b714a3c460a7",
+          "status": "supported",
+          "identity": "supported",
+          "country": "supported",
+          "temporalScope": "supported",
+          "evidence": [
+            {
+              "documentId": "country",
+              "startLine": 111,
+              "endLine": 111,
+              "note": "World Triathlon 官方資料確認運動員名字 Lauren Goss"
+            },
+            {
+              "documentId": "country",
+              "startLine": 113,
+              "endLine": 113,
+              "note": "World Triathlon 官方資料列國家 United States"
+            },
+            {
+              "documentId": "country",
+              "startLine": 114,
+              "endLine": 114,
+              "note": "World Triathlon 官方資料列出生年 1988"
+            },
+            {
+              "documentId": "case",
+              "startLine": 7,
+              "endLine": 7,
+              "note": "USADA 確認 Lauren Goss, of Boulder, Colo.，運動 triathlon"
+            },
+            {
+              "documentId": "case",
+              "startLine": 8,
+              "endLine": 8,
+              "note": "USADA 記錄案件時 Goss 31 歲（2019 年 6 月），與出生年 1988 相符"
+            }
+          ],
+          "findings": []
+        }
+      },
+      {
+        "seat": "codex",
+        "requestedModel": "gpt-6-luna",
+        "batch": "country-004",
+        "attempt": 1,
+        "packetSha256": "f72e78b8ca1e797e77590885c52cf73c0fb0760e3ae91829c2a74c0fc8b1c8f1",
+        "answerSha256": "65d1c128d974bd68794454e7263e9017404f39f706c735fe04640dbad0c5ba28",
+        "characterStart": 1545,
+        "characterEnd": 2009,
+        "wholeBatchValid": true,
+        "answer": {
+          "id": "usada-b714a3c460a7",
+          "status": "supported",
+          "identity": "supported",
+          "country": "supported",
+          "temporalScope": "supported",
+          "evidence": [
+            {
+              "documentId": "country",
+              "startLine": 111,
+              "endLine": 116,
+              "note": "World Triathlon profile names Lauren Goss, lists United States, and gives birth year 1988."
+            },
+            {
+              "documentId": "case",
+              "startLine": 7,
+              "endLine": 8,
+              "note": "USADA identifies Lauren Goss as a triathlete, age 31 in 2019, consistent with the profile's birth year."
+            }
+          ],
+          "findings": []
+        }
+      }
+    ],
+    "findings": [],
+    "modelSeats": [
+      "claude",
+      "codex"
+    ],
+    "coverageComplete": true
+  },
+  {
+    "id": "usada-2afd16a939d4",
+    "athleteName": "Noah Webb",
+    "modelReviews": [
+      {
+        "seat": "claude",
+        "requestedModel": "haiku",
+        "batch": "country-004",
+        "attempt": 1,
+        "packetSha256": "f72e78b8ca1e797e77590885c52cf73c0fb0760e3ae91829c2a74c0fc8b1c8f1",
+        "answerSha256": "cb748d12f6422b5fdbdf207aadd30abe0d203b993877d210c103532ebe1d5669",
+        "characterStart": 4329,
+        "characterEnd": 5390,
+        "wholeBatchValid": true,
+        "answer": {
+          "id": "usada-2afd16a939d4",
+          "status": "supported",
+          "identity": "supported",
+          "country": "supported",
+          "temporalScope": "supported",
+          "evidence": [
+            {
+              "documentId": "country",
+              "startLine": 111,
+              "endLine": 111,
+              "note": "World Triathlon 官方資料確認運動員名字 Noah Webb"
+            },
+            {
+              "documentId": "country",
+              "startLine": 113,
+              "endLine": 113,
+              "note": "World Triathlon 官方資料列國家 United States"
+            },
+            {
+              "documentId": "country",
+              "startLine": 114,
+              "endLine": 114,
+              "note": "World Triathlon 官方資料列出生年 1973"
+            },
+            {
+              "documentId": "case",
+              "startLine": 7,
+              "endLine": 7,
+              "note": "USADA 確認 Noah Webb, of Los Angeles, Calif.，運動 triathlon"
+            },
+            {
+              "documentId": "case",
+              "startLine": 8,
+              "endLine": 8,
+              "note": "USADA 記錄案件時 Webb 48 歲（2021 年 8 月），與出生年 1973 相符"
+            }
+          ],
+          "findings": []
+        }
+      },
+      {
+        "seat": "codex",
+        "requestedModel": "gpt-6-luna",
+        "batch": "country-004",
+        "attempt": 1,
+        "packetSha256": "f72e78b8ca1e797e77590885c52cf73c0fb0760e3ae91829c2a74c0fc8b1c8f1",
+        "answerSha256": "65d1c128d974bd68794454e7263e9017404f39f706c735fe04640dbad0c5ba28",
+        "characterStart": 2010,
+        "characterEnd": 2470,
+        "wholeBatchValid": true,
+        "answer": {
+          "id": "usada-2afd16a939d4",
+          "status": "supported",
+          "identity": "supported",
+          "country": "supported",
+          "temporalScope": "supported",
+          "evidence": [
+            {
+              "documentId": "country",
+              "startLine": 111,
+              "endLine": 116,
+              "note": "World Triathlon profile names Noah Webb, lists United States, and gives birth year 1973."
+            },
+            {
+              "documentId": "case",
+              "startLine": 7,
+              "endLine": 8,
+              "note": "USADA identifies Noah Webb as a triathlete, age 48 in 2021, consistent with the profile's birth year."
+            }
+          ],
+          "findings": []
+        }
+      }
+    ],
+    "findings": [],
+    "modelSeats": [
+      "claude",
+      "codex"
+    ],
+    "coverageComplete": true
+  },
+  {
+    "id": "usada-1035e17c5288",
+    "athleteName": "Daniel Summerhill",
+    "modelReviews": [
+      {
+        "seat": "claude",
+        "requestedModel": "haiku",
+        "batch": "country-005",
+        "attempt": 1,
+        "packetSha256": "ee1f4558fe38741f4d7ea07ec7a9371dadadd0f2e483f504cde5be1db80b45b3",
+        "answerSha256": "bdddd5d126099f14dff51b7790032854f1e1a2161b0f0f8e047a40b9edead289",
+        "characterStart": 27,
+        "characterEnd": 1111,
+        "wholeBatchValid": true,
+        "answer": {
+          "id": "usada-1035e17c5288",
+          "status": "supported",
+          "identity": "supported",
+          "country": "supported",
+          "temporalScope": "supported",
+          "evidence": [
+            {
+              "documentId": "case",
+              "startLine": 1,
+              "endLine": 1,
+              "note": "USADA官方標題確認 Daniel Summerhill 為「U.S. Cycling Athlete」"
+            },
+            {
+              "documentId": "case",
+              "startLine": 7,
+              "endLine": 7,
+              "note": "身份與位置確認：Daniel Summerhill，Centennial, Colo.，自行車運動"
+            },
+            {
+              "documentId": "case",
+              "startLine": 8,
+              "endLine": 8,
+              "note": "2021年8月14日事件日期，建立該時期美國官方運動隸屬"
+            },
+            {
+              "documentId": "case",
+              "startLine": 11,
+              "endLine": 11,
+              "note": "Whereabouts pool成員確認美國national level運動員地位"
+            },
+            {
+              "documentId": "country",
+              "startLine": 260,
+              "endLine": 261,
+              "note": "USA Cycling 2023年記錄中 Danny Summerhill (Centennial, Colo.) 確認美國運動協會隸屬"
+            }
+          ],
+          "findings": []
+        }
+      },
+      {
+        "seat": "codex",
+        "requestedModel": "gpt-6-luna",
+        "batch": "country-005",
+        "attempt": 1,
+        "packetSha256": "ee1f4558fe38741f4d7ea07ec7a9371dadadd0f2e483f504cde5be1db80b45b3",
+        "answerSha256": "9f1dab7cb100fef3eaf3ae6a3eeb2c8545c1ad20fcf071f6cda9b4d12f878a94",
+        "characterStart": 10,
+        "characterEnd": 1097,
+        "wholeBatchValid": true,
+        "answer": {
+          "id": "usada-1035e17c5288",
+          "status": "issue",
+          "identity": "supported",
+          "country": "issue",
+          "temporalScope": "supported",
+          "evidence": [
+            {
+              "documentId": "case",
+              "startLine": 7,
+              "endLine": 8,
+              "note": "USADA identifies Daniel Summerhill as a 33-year-old cycling athlete; the 2021 sample date and Centennial, Colorado match the proposed identity rationale."
+            },
+            {
+              "documentId": "country",
+              "startLine": 260,
+              "endLine": 263,
+              "note": "USA Cycling names Danny Summerhill in its 2023 Elite Men Madison race report and lists Centennial, Colorado; this supports a 2023 domestic event association, not sporting country USA."
+            }
+          ],
+          "findings": [
+            {
+              "field": "country",
+              "explanation": "The supplied USA Cycling excerpt identifies the event and athlete but does not explicitly state that Summerhill's sporting country is USA. The USADA case excerpt identifies his sport and residence, not his sporting country.",
+              "suggestion": "Do not annotate USA as an established sporting country from these excerpts. If retaining the event evidence, describe only his participation in the 2023 USA Cycling domestic championship, with that date and scope."
+            }
+          ]
+        }
+      }
+    ],
+    "findings": [
+      {
+        "seat": "codex",
+        "requestedModel": "gpt-6-luna",
+        "batch": "country-005",
+        "attempt": 1,
+        "packetSha256": "ee1f4558fe38741f4d7ea07ec7a9371dadadd0f2e483f504cde5be1db80b45b3",
+        "answerSha256": "9f1dab7cb100fef3eaf3ae6a3eeb2c8545c1ad20fcf071f6cda9b4d12f878a94",
+        "characterStart": 10,
+        "characterEnd": 1097,
+        "wholeBatchValid": true,
+        "countsForCoverage": true,
+        "field": "country",
+        "explanation": "The supplied USA Cycling excerpt identifies the event and athlete but does not explicitly state that Summerhill's sporting country is USA. The USADA case excerpt identifies his sport and residence, not his sporting country.",
+        "suggestion": "Do not annotate USA as an established sporting country from these excerpts. If retaining the event evidence, describe only his participation in the 2023 USA Cycling domestic championship, with that date and scope."
+      }
+    ],
+    "modelSeats": [
+      "claude",
+      "codex"
+    ],
+    "coverageComplete": true
+  },
+  {
+    "id": "usada-365cbd5fbcea",
+    "athleteName": "Arika Skoog",
+    "modelReviews": [
+      {
+        "seat": "claude",
+        "requestedModel": "haiku",
+        "batch": "country-006",
+        "attempt": 1,
+        "packetSha256": "ed3e97865b291c9994860a2efe43de4c1a402c987861a9180d559d7419429ceb",
+        "answerSha256": "22ad2098a504b66f4b67b2c69e44ffcc3c4ffcc468a343422aa17895ca0da83b",
+        "characterStart": 27,
+        "characterEnd": 1050,
+        "wholeBatchValid": true,
+        "answer": {
+          "id": "usada-365cbd5fbcea",
+          "status": "supported",
+          "identity": "supported",
+          "country": "supported",
+          "temporalScope": "supported",
+          "evidence": [
+            {
+              "documentId": "country",
+              "startLine": 1,
+              "endLine": 1,
+              "note": "Team USA profile header confirms athlete affiliation at lookup"
+            },
+            {
+              "documentId": "country",
+              "startLine": 448,
+              "endLine": 450,
+              "note": "Boxing sport and athlete name Arika Skoog confirmed"
+            },
+            {
+              "documentId": "country",
+              "startLine": 454,
+              "endLine": 457,
+              "note": "Age 33, Hometown Boston MA align with USADA record (age 29 in Oct 2022; 33 in 2026 lookup is consistent)"
+            },
+            {
+              "documentId": "case",
+              "startLine": 1,
+              "endLine": 7,
+              "note": "USADA sanction confirms U.S. boxer Arika Skoog of Boston, Mass., October 2022"
+            }
+          ],
+          "findings": []
+        }
+      },
+      {
+        "seat": "codex",
+        "requestedModel": "gpt-6-luna",
+        "batch": "country-006",
+        "attempt": 1,
+        "packetSha256": "ed3e97865b291c9994860a2efe43de4c1a402c987861a9180d559d7419429ceb",
+        "answerSha256": "24baf8f014e3974a2b6765715dd4855b181524f1baf514573473b8209a741cab",
+        "characterStart": 10,
+        "characterEnd": 521,
+        "wholeBatchValid": true,
+        "answer": {
+          "id": "usada-365cbd5fbcea",
+          "status": "supported",
+          "identity": "supported",
+          "country": "supported",
+          "temporalScope": "supported",
+          "evidence": [
+            {
+              "documentId": "country",
+              "startLine": 448,
+              "endLine": 457,
+              "note": "Team USA profile identifies Arika Skoog as a boxing athlete and lists Boston, MA as her hometown; age 33 is consistent with the case report’s age 29 in 2022."
+            },
+            {
+              "documentId": "case",
+              "startLine": 7,
+              "endLine": 8,
+              "note": "USADA identifies Arika Skoog as a 29-year-old boxer from Boston in its 2022 report."
+            }
+          ],
+          "findings": []
+        }
+      }
+    ],
+    "findings": [],
+    "modelSeats": [
+      "claude",
+      "codex"
+    ],
+    "coverageComplete": true
+  },
+  {
+    "id": "usada-806eab5af83f",
+    "athleteName": "Sarah Heinzl",
+    "modelReviews": [
+      {
+        "seat": "claude",
+        "requestedModel": "haiku",
+        "batch": "country-006",
+        "attempt": 1,
+        "packetSha256": "ed3e97865b291c9994860a2efe43de4c1a402c987861a9180d559d7419429ceb",
+        "answerSha256": "22ad2098a504b66f4b67b2c69e44ffcc3c4ffcc468a343422aa17895ca0da83b",
+        "characterStart": 1056,
+        "characterEnd": 2153,
+        "wholeBatchValid": true,
+        "answer": {
+          "id": "usada-806eab5af83f",
+          "status": "supported",
+          "identity": "supported",
+          "country": "supported",
+          "temporalScope": "supported",
+          "evidence": [
+            {
+              "documentId": "country",
+              "startLine": 79,
+              "endLine": 85,
+              "note": "IPC official announcement dated 30 Jan 2017 of 2017 US women's wheelchair basketball national team"
+            },
+            {
+              "documentId": "country",
+              "startLine": 91,
+              "endLine": 91,
+              "note": "Sarah Heinzl listed from University of Arizona on official 2017 national team roster"
+            },
+            {
+              "documentId": "country",
+              "startLine": 104,
+              "endLine": 104,
+              "note": "Sarah Heinzl appears in formal 2017 US women's wheelchair basketball national team roster"
+            },
+            {
+              "documentId": "case",
+              "startLine": 7,
+              "endLine": 7,
+              "note": "USADA sanction confirms Sarah Heinzl of Tucson, Ariz., wheelchair basketball athlete, August 2017"
+            }
+          ],
+          "findings": []
+        }
+      },
+      {
+        "seat": "codex",
+        "requestedModel": "gpt-6-luna",
+        "batch": "country-006",
+        "attempt": 1,
+        "packetSha256": "ed3e97865b291c9994860a2efe43de4c1a402c987861a9180d559d7419429ceb",
+        "answerSha256": "24baf8f014e3974a2b6765715dd4855b181524f1baf514573473b8209a741cab",
+        "characterStart": 522,
+        "characterEnd": 1128,
+        "wholeBatchValid": true,
+        "answer": {
+          "id": "usada-806eab5af83f",
+          "status": "supported",
+          "identity": "supported",
+          "country": "supported",
+          "temporalScope": "supported",
+          "evidence": [
+            {
+              "documentId": "country",
+              "startLine": 84,
+              "endLine": 85,
+              "note": "The report describes the 2017 USA women’s national wheelchair basketball team and its selection."
+            },
+            {
+              "documentId": "country",
+              "startLine": 96,
+              "endLine": 104,
+              "note": "The 2017 team roster includes Sarah Heinzl."
+            },
+            {
+              "documentId": "case",
+              "startLine": 7,
+              "endLine": 8,
+              "note": "USADA identifies Sarah Heinzl as a 27-year-old wheelchair basketball athlete from Tucson in 2017, consistent with the roster identity."
+            }
+          ],
+          "findings": []
+        }
+      }
+    ],
+    "findings": [],
+    "modelSeats": [
+      "claude",
+      "codex"
+    ],
+    "coverageComplete": true
+  },
+  {
+    "id": "usada-7da5b8af5ba7",
+    "athleteName": "Tyler Sundeen",
+    "modelReviews": [
+      {
+        "seat": "claude",
+        "requestedModel": "haiku",
+        "batch": "country-006",
+        "attempt": 1,
+        "packetSha256": "ed3e97865b291c9994860a2efe43de4c1a402c987861a9180d559d7419429ceb",
+        "answerSha256": "22ad2098a504b66f4b67b2c69e44ffcc3c4ffcc468a343422aa17895ca0da83b",
+        "characterStart": 2159,
+        "characterEnd": 3277,
+        "wholeBatchValid": true,
+        "answer": {
+          "id": "usada-7da5b8af5ba7",
+          "status": "supported",
+          "identity": "supported",
+          "country": "supported",
+          "temporalScope": "supported",
+          "evidence": [
+            {
+              "documentId": "country",
+              "startLine": 1,
+              "endLine": 1,
+              "note": "USA Field Hockey official profile header confirms athlete affiliation at lookup"
+            },
+            {
+              "documentId": "country",
+              "startLine": 108,
+              "endLine": 108,
+              "note": "Tyler Sundeen athlete name confirmed on USA Field Hockey official profile"
+            },
+            {
+              "documentId": "country",
+              "startLine": 118,
+              "endLine": 121,
+              "note": "Age 32, Hometown Simi Valley CA align with USADA record (age 30 in Jan 2024; 32 in 2026 lookup is consistent with 2-year gap)"
+            },
+            {
+              "documentId": "case",
+              "startLine": 7,
+              "endLine": 7,
+              "note": "USADA sanction confirms Tyler Sundeen of Simi Valley, Calif., field hockey athlete, January 2024 (May 2023 test)"
+            }
+          ],
+          "findings": []
+        }
+      },
+      {
+        "seat": "codex",
+        "requestedModel": "gpt-6-luna",
+        "batch": "country-006",
+        "attempt": 1,
+        "packetSha256": "ed3e97865b291c9994860a2efe43de4c1a402c987861a9180d559d7419429ceb",
+        "answerSha256": "24baf8f014e3974a2b6765715dd4855b181524f1baf514573473b8209a741cab",
+        "characterStart": 1129,
+        "characterEnd": 1793,
+        "wholeBatchValid": true,
+        "answer": {
+          "id": "usada-7da5b8af5ba7",
+          "status": "supported",
+          "identity": "supported",
+          "country": "supported",
+          "temporalScope": "supported",
+          "evidence": [
+            {
+              "documentId": "country",
+              "startLine": 108,
+              "endLine": 121,
+              "note": "USA Field Hockey profile names Tyler Sundeen, lists field hockey, age 32, and Simi Valley, CA as his hometown."
+            },
+            {
+              "documentId": "country",
+              "startLine": 149,
+              "endLine": 154,
+              "note": "Profile says he joined the U.S. Men’s National Team in 2010 and describes him as continuing with the squad."
+            },
+            {
+              "documentId": "case",
+              "startLine": 7,
+              "endLine": 8,
+              "note": "USADA identifies 30-year-old field hockey athlete Tyler Sundeen from Simi Valley; identity matches the profile."
+            }
+          ],
+          "findings": []
+        }
+      }
+    ],
+    "findings": [],
+    "modelSeats": [
+      "claude",
+      "codex"
+    ],
+    "coverageComplete": true
+  },
+  {
+    "id": "usada-5f2ba9170fdc",
+    "athleteName": "Grace Bowlby",
+    "modelReviews": [
+      {
+        "seat": "claude",
+        "requestedModel": "haiku",
+        "batch": "country-006",
+        "attempt": 1,
+        "packetSha256": "ed3e97865b291c9994860a2efe43de4c1a402c987861a9180d559d7419429ceb",
+        "answerSha256": "22ad2098a504b66f4b67b2c69e44ffcc3c4ffcc468a343422aa17895ca0da83b",
+        "characterStart": 3283,
+        "characterEnd": 4905,
+        "wholeBatchValid": true,
+        "answer": {
+          "id": "usada-5f2ba9170fdc",
+          "status": "issue",
+          "identity": "supported",
+          "country": "supported",
+          "temporalScope": "issue",
+          "evidence": [
+            {
+              "documentId": "country",
+              "startLine": 13,
+              "endLine": 13,
+              "note": "USA Hockey official announcement of U.S. Women's National Under-18 Team roster for 2016 IIHF event"
+            },
+            {
+              "documentId": "country",
+              "startLine": 17,
+              "endLine": 18,
+              "note": "Grace Bowlby listed on 2016 U18 official roster (Edina, Minn.)"
+            },
+            {
+              "documentId": "case",
+              "startLine": 7,
+              "endLine": 7,
+              "note": "USADA sanction identifies Grace Bowlby of Edina, Minn., ice hockey athlete, December 2021"
+            }
+          ],
+          "findings": [
+            {
+              "field": "temporalScope",
+              "explanation": "Provided source document (2016 U18 Women's Worlds official roster) establishes sporting affiliation for 2016, not 2021. The case year is 2021, creating a five-year gap. While the proposal's temporalNote acknowledges this temporal mismatch ('本案事件為 2021 年，不據此推定 2021 年代表資格'), no official USA Hockey documentation for 2020–2021 period is supplied to confirm ongoing national team affiliation at case time.",
+              "suggestion": "Secure an official USA Hockey team roster, international competition entry list, or results record dated 2021 or adjacent year to establish Grace Bowlby's sporting country affiliation for the case period. The 2016 U18 roster alone confirms only 2016 eligibility."
+            }
+          ]
+        }
+      },
+      {
+        "seat": "codex",
+        "requestedModel": "gpt-6-luna",
+        "batch": "country-006",
+        "attempt": 1,
+        "packetSha256": "ed3e97865b291c9994860a2efe43de4c1a402c987861a9180d559d7419429ceb",
+        "answerSha256": "24baf8f014e3974a2b6765715dd4855b181524f1baf514573473b8209a741cab",
+        "characterStart": 1794,
+        "characterEnd": 2315,
+        "wholeBatchValid": true,
+        "answer": {
+          "id": "usada-5f2ba9170fdc",
+          "status": "supported",
+          "identity": "supported",
+          "country": "supported",
+          "temporalScope": "supported",
+          "evidence": [
+            {
+              "documentId": "country",
+              "startLine": 13,
+              "endLine": 18,
+              "note": "USA Hockey identifies the 2016 U.S. Women’s National Under-18 Team roster and lists Grace Bowlby from Edina, Minnesota."
+            },
+            {
+              "documentId": "case",
+              "startLine": 7,
+              "endLine": 8,
+              "note": "USADA identifies Grace Bowlby as a 23-year-old ice hockey athlete from Edina in its 2021 report, consistent with the roster identity."
+            }
+          ],
+          "findings": []
+        }
+      }
+    ],
+    "findings": [
+      {
+        "seat": "claude",
+        "requestedModel": "haiku",
+        "batch": "country-006",
+        "attempt": 1,
+        "packetSha256": "ed3e97865b291c9994860a2efe43de4c1a402c987861a9180d559d7419429ceb",
+        "answerSha256": "22ad2098a504b66f4b67b2c69e44ffcc3c4ffcc468a343422aa17895ca0da83b",
+        "characterStart": 3283,
+        "characterEnd": 4905,
+        "wholeBatchValid": true,
+        "countsForCoverage": true,
+        "field": "temporalScope",
+        "explanation": "Provided source document (2016 U18 Women's Worlds official roster) establishes sporting affiliation for 2016, not 2021. The case year is 2021, creating a five-year gap. While the proposal's temporalNote acknowledges this temporal mismatch ('本案事件為 2021 年，不據此推定 2021 年代表資格'), no official USA Hockey documentation for 2020–2021 period is supplied to confirm ongoing national team affiliation at case time.",
+        "suggestion": "Secure an official USA Hockey team roster, international competition entry list, or results record dated 2021 or adjacent year to establish Grace Bowlby's sporting country affiliation for the case period. The 2016 U18 roster alone confirms only 2016 eligibility."
+      }
+    ],
+    "modelSeats": [
+      "claude",
+      "codex"
+    ],
+    "coverageComplete": true
+  },
+  {
+    "id": "usada-9c8b8e7bbb4c",
+    "athleteName": "Chris Creveling",
+    "modelReviews": [
+      {
+        "seat": "claude",
+        "requestedModel": "haiku",
+        "batch": "country-007",
+        "attempt": 1,
+        "packetSha256": "112b567571a0eb78aa407e0eee7fcc37587cadabf6cabe27f36fde01c61fca9e",
+        "answerSha256": "9a6218643a348e12ac17cd02b2d7ae21a16a81c89d963c92664d55b01b0efce2",
+        "characterStart": 27,
+        "characterEnd": 914,
+        "wholeBatchValid": false,
+        "answer": {
+          "id": "usada-9c8b8e7bbb4c",
+          "status": "supported",
+          "identity": "supported",
+          "country": "supported",
+          "temporalScope": "supported",
+          "evidence": [
+            {
+              "documentId": "country",
+              "startLine": 1,
+              "endLine": 1,
+              "note": "Official Team USA profile header confirms Chris Creveling"
+            },
+            {
+              "documentId": "country",
+              "startLine": 470,
+              "endLine": 473,
+              "note": "Olympic and World Championship participation 2013–2016 establishes sporting affiliation for case period"
+            },
+            {
+              "documentId": "case",
+              "startLine": 7,
+              "endLine": 7,
+              "note": "USADA confirms athlete name, sport (speed skating), and location; age 30 in May 2017 matches Team USA age 39 in 2026 (9-year gap)"
+            }
+          ],
+          "findings": []
+        }
+      },
+      {
+        "seat": "codex",
+        "requestedModel": "gpt-6-luna",
+        "batch": "country-007",
+        "attempt": 1,
+        "packetSha256": "112b567571a0eb78aa407e0eee7fcc37587cadabf6cabe27f36fde01c61fca9e",
+        "answerSha256": "fb65b5e366a37843bc696ae8dfd04cf06171a36bf54829ef5b926acf1a99b02c",
+        "characterStart": 10,
+        "characterEnd": 531,
+        "wholeBatchValid": true,
+        "answer": {
+          "id": "usada-9c8b8e7bbb4c",
+          "status": "supported",
+          "identity": "supported",
+          "country": "supported",
+          "temporalScope": "supported",
+          "evidence": [
+            {
+              "documentId": "country",
+              "startLine": 448,
+              "endLine": 450,
+              "note": "Team USA 頁列名為 Chris Creveling，並標示 Olympian 2014，支持美國作為該官方頁查閱時的運動代表國標註。"
+            },
+            {
+              "documentId": "country",
+              "startLine": 460,
+              "endLine": 470,
+              "note": "官方頁列年齡 39 歲及 Sochi 2014 奧運經歷，與案件所述 2017 年 30 歲及競速滑冰相符。"
+            },
+            {
+              "documentId": "case",
+              "startLine": 7,
+              "endLine": 8,
+              "note": "USADA 案件指名 Chris Creveling、競速滑冰，並記載 2017 年 30 歲；居住地不同不構成身份矛盾。"
+            }
+          ],
+          "findings": []
+        }
+      }
+    ],
+    "findings": [],
+    "modelSeats": [
+      "claude",
+      "codex"
+    ],
+    "coverageComplete": true
+  },
+  {
+    "id": "usada-8d214edc5d96",
+    "athleteName": "Logan Storie",
+    "modelReviews": [
+      {
+        "seat": "claude",
+        "requestedModel": "haiku",
+        "batch": "country-007",
+        "attempt": 1,
+        "packetSha256": "112b567571a0eb78aa407e0eee7fcc37587cadabf6cabe27f36fde01c61fca9e",
+        "answerSha256": "9a6218643a348e12ac17cd02b2d7ae21a16a81c89d963c92664d55b01b0efce2",
+        "characterStart": 920,
+        "characterEnd": 1827,
+        "wholeBatchValid": false,
+        "answer": {
+          "id": "usada-8d214edc5d96",
+          "status": "supported",
+          "identity": "supported",
+          "country": "supported",
+          "temporalScope": "supported",
+          "evidence": [
+            {
+              "documentId": "country",
+              "startLine": 95,
+              "endLine": 96,
+              "note": "UIPM official athlete profile explicitly states 'Nation: United States'"
+            },
+            {
+              "documentId": "country",
+              "startLine": 100,
+              "endLine": 102,
+              "note": "UIPM doping review statement references 'Logan Storie (USA)' and 15-month suspension, confirming official sporting country at lookup"
+            },
+            {
+              "documentId": "case",
+              "startLine": 7,
+              "endLine": 8,
+              "note": "USADA confirms athlete name, sport (pentathlon), location, and references first UIPM violation from 2017"
+            }
+          ],
+          "findings": []
+        }
+      },
+      {
+        "seat": "codex",
+        "requestedModel": "gpt-6-luna",
+        "batch": "country-007",
+        "attempt": 1,
+        "packetSha256": "112b567571a0eb78aa407e0eee7fcc37587cadabf6cabe27f36fde01c61fca9e",
+        "answerSha256": "fb65b5e366a37843bc696ae8dfd04cf06171a36bf54829ef5b926acf1a99b02c",
+        "characterStart": 532,
+        "characterEnd": 1055,
+        "wholeBatchValid": true,
+        "answer": {
+          "id": "usada-8d214edc5d96",
+          "status": "supported",
+          "identity": "supported",
+          "country": "supported",
+          "temporalScope": "supported",
+          "evidence": [
+            {
+              "documentId": "country",
+              "startLine": 92,
+              "endLine": 102,
+              "note": "UIPM 選手頁列 Logan Storie、Nation: United States，並連到 2018 年 UIPM 對 Logan Storie (United States) 的聲明。"
+            },
+            {
+              "documentId": "case",
+              "startLine": 7,
+              "endLine": 8,
+              "note": "USADA 案件記載 Logan Storie、五項運動、首次違規由 UIPM 處理，與官方選手頁及其關聯聲明吻合。"
+            },
+            {
+              "documentId": "country",
+              "startLine": 95,
+              "endLine": 96,
+              "note": "官方頁明確列示 United States；只支持查閱時資料頁所列國家。"
+            }
+          ],
+          "findings": []
+        }
+      }
+    ],
+    "findings": [],
+    "modelSeats": [
+      "claude",
+      "codex"
+    ],
+    "coverageComplete": true
+  },
+  {
+    "id": "usada-5b6cb4ab463d",
+    "athleteName": "Riley Stohr",
+    "modelReviews": [
+      {
+        "seat": "claude",
+        "requestedModel": "haiku",
+        "batch": "country-007",
+        "attempt": 1,
+        "packetSha256": "112b567571a0eb78aa407e0eee7fcc37587cadabf6cabe27f36fde01c61fca9e",
+        "answerSha256": "9a6218643a348e12ac17cd02b2d7ae21a16a81c89d963c92664d55b01b0efce2",
+        "characterStart": 1833,
+        "characterEnd": 2706,
+        "wholeBatchValid": false,
+        "answer": {
+          "id": "usada-5b6cb4ab463d",
+          "status": "supported",
+          "identity": "supported",
+          "country": "supported",
+          "temporalScope": "supported",
+          "evidence": [
+            {
+              "documentId": "country",
+              "startLine": 1,
+              "endLine": 1,
+              "note": "Official Team USA profile header confirms Riley Stohr"
+            },
+            {
+              "documentId": "country",
+              "startLine": 458,
+              "endLine": 459,
+              "note": "Best-ever results document 2013 youth achievement, confirming participation timeline overlapping case year 2017"
+            },
+            {
+              "documentId": "case",
+              "startLine": 7,
+              "endLine": 8,
+              "note": "USADA confirms athlete name, sport (luge), age 21 in July 2017; Team USA age 30 in 2026 aligns with 9-year span"
+            }
+          ],
+          "findings": []
+        }
+      },
+      {
+        "seat": "codex",
+        "requestedModel": "gpt-6-luna",
+        "batch": "country-007",
+        "attempt": 1,
+        "packetSha256": "112b567571a0eb78aa407e0eee7fcc37587cadabf6cabe27f36fde01c61fca9e",
+        "answerSha256": "fb65b5e366a37843bc696ae8dfd04cf06171a36bf54829ef5b926acf1a99b02c",
+        "characterStart": 1056,
+        "characterEnd": 1544,
+        "wholeBatchValid": true,
+        "answer": {
+          "id": "usada-5b6cb4ab463d",
+          "status": "supported",
+          "identity": "supported",
+          "country": "supported",
+          "temporalScope": "supported",
+          "evidence": [
+            {
+              "documentId": "country",
+              "startLine": 448,
+              "endLine": 459,
+              "note": "Team USA 頁列 Riley Stohr，運動為雪橇，並列其年齡及 Whitehall 家鄉。"
+            },
+            {
+              "documentId": "case",
+              "startLine": 7,
+              "endLine": 8,
+              "note": "USADA 案件列 Riley Stohr、雪橇及 21 歲；與 Team USA 頁所列當前年齡及運動資訊相符，家鄉差異不構成身份矛盾。"
+            },
+            {
+              "documentId": "country",
+              "startLine": 457,
+              "endLine": 459,
+              "note": "官方 Team USA 選手頁支持美國作為查閱時的運動代表國標註。"
+            }
+          ],
+          "findings": []
+        }
+      }
+    ],
+    "findings": [],
+    "modelSeats": [
+      "claude",
+      "codex"
+    ],
+    "coverageComplete": true
+  },
+  {
+    "id": "usada-4518fb0dbd4d",
+    "athleteName": "Talina Le",
+    "modelReviews": [
+      {
+        "seat": "claude",
+        "requestedModel": "haiku",
+        "batch": "country-007",
+        "attempt": 1,
+        "packetSha256": "112b567571a0eb78aa407e0eee7fcc37587cadabf6cabe27f36fde01c61fca9e",
+        "answerSha256": "9a6218643a348e12ac17cd02b2d7ae21a16a81c89d963c92664d55b01b0efce2",
+        "characterStart": 2712,
+        "characterEnd": 3841,
+        "wholeBatchValid": false,
+        "answer": {
+          "id": "usada-4518fb0dbd4d",
+          "status": "supported",
+          "identity": "supported",
+          "country": "supported",
+          "temporalScope": "supported",
+          "evidence": [
+            {
+              "documentId": "country",
+              "startLine": 449,
+              "endLine": 450,
+              "note": "Official Team USA profile confirms athlete name Talina Le and sport taekwondo"
+            },
+            {
+              "documentId": "country",
+              "startLine": 475,
+              "endLine": 475,
+              "note": "2016 U.S. Senior National Team Trials result confirms American sporting affiliation near case period"
+            },
+            {
+              "documentId": "country",
+              "startLine": 488,
+              "endLine": 488,
+              "note": "2009 U.S. National Team Member designation provides historical confirmation of USA representation"
+            },
+            {
+              "documentId": "case",
+              "startLine": 7,
+              "endLine": 8,
+              "note": "USADA confirms athlete name, sport, location Miami Fla., age 26 in July 2019; Team USA age 33 in 2026 aligns (7-year span)"
+            }
+          ],
+          "findings": []
+        }
+      },
+      {
+        "seat": "codex",
+        "requestedModel": "gpt-6-luna",
+        "batch": "country-007",
+        "attempt": 1,
+        "packetSha256": "112b567571a0eb78aa407e0eee7fcc37587cadabf6cabe27f36fde01c61fca9e",
+        "answerSha256": "fb65b5e366a37843bc696ae8dfd04cf06171a36bf54829ef5b926acf1a99b02c",
+        "characterStart": 1545,
+        "characterEnd": 2028,
+        "wholeBatchValid": true,
+        "answer": {
+          "id": "usada-4518fb0dbd4d",
+          "status": "supported",
+          "identity": "supported",
+          "country": "supported",
+          "temporalScope": "supported",
+          "evidence": [
+            {
+              "documentId": "country",
+              "startLine": 448,
+              "endLine": 450,
+              "note": "Team USA 頁將 Talina Le 列於跆拳道選手資料。"
+            },
+            {
+              "documentId": "country",
+              "startLine": 473,
+              "endLine": 488,
+              "note": "頁面列出美國國家隊選拔及 2009 年美國國家隊經歷，支持美國作為頁面查閱時的運動代表國標註。"
+            },
+            {
+              "documentId": "case",
+              "startLine": 7,
+              "endLine": 8,
+              "note": "USADA 案件指名 Talina Le、跆拳道、26 歲；與 Team USA 頁的姓名和運動吻合，年齡相符，家鄉差異不構成身份矛盾。"
+            }
+          ],
+          "findings": []
+        }
+      }
+    ],
+    "findings": [],
+    "modelSeats": [
+      "claude",
+      "codex"
+    ],
+    "coverageComplete": true
+  },
+  {
+    "id": "usada-b6074d0cf1fc",
+    "athleteName": "Lindsey Corrigan",
+    "modelReviews": [
+      {
+        "seat": "claude",
+        "requestedModel": "haiku",
+        "batch": "country-007",
+        "attempt": 1,
+        "packetSha256": "112b567571a0eb78aa407e0eee7fcc37587cadabf6cabe27f36fde01c61fca9e",
+        "answerSha256": "9a6218643a348e12ac17cd02b2d7ae21a16a81c89d963c92664d55b01b0efce2",
+        "characterStart": 3847,
+        "characterEnd": 4781,
+        "wholeBatchValid": false,
+        "answer": {
+          "id": "usada-b6074d0cf1fc",
+          "status": "supported",
+          "identity": "supported",
+          "country": "supported",
+          "temporalScope": "supported",
+          "evidence": [
+            {
+              "documentId": "country",
+              "startLine": 448,
+              "endLine": 450,
+              "note": "Official Team USA profile confirms athlete name Lindsey Corrigan, sport taekwondo, and hometown Napa, CA"
+            },
+            {
+              "documentId": "country",
+              "startLine": 456,
+              "endLine": 458,
+              "note": "Hometown Napa, CA and Age 21 at lookup time match exactly with USADA report data"
+            },
+            {
+              "documentId": "case",
+              "startLine": 7,
+              "endLine": 7,
+              "note": "USADA confirms athlete name, sport taekwondo, location Napa California (identical), age 18 in May 2023; Team USA age 21 in 2026 aligns (3-year span)"
+            }
+          ],
+          "findings": []
+        }
+      },
+      {
+        "seat": "codex",
+        "requestedModel": "gpt-6-luna",
+        "batch": "country-007",
+        "attempt": 1,
+        "packetSha256": "112b567571a0eb78aa407e0eee7fcc37587cadabf6cabe27f36fde01c61fca9e",
+        "answerSha256": "fb65b5e366a37843bc696ae8dfd04cf06171a36bf54829ef5b926acf1a99b02c",
+        "characterStart": 2029,
+        "characterEnd": 2550,
+        "wholeBatchValid": true,
+        "answer": {
+          "id": "usada-b6074d0cf1fc",
+          "status": "supported",
+          "identity": "supported",
+          "country": "supported",
+          "temporalScope": "supported",
+          "evidence": [
+            {
+              "documentId": "country",
+              "startLine": 448,
+              "endLine": 458,
+              "note": "Team USA 頁列 Lindsey Corrigan，並提供年齡 21 歲及 Napa, CA 家鄉。"
+            },
+            {
+              "documentId": "case",
+              "startLine": 7,
+              "endLine": 8,
+              "note": "USADA 案件指名 Lindsey Corrigan、跆拳道、Napa 並記載 18 歲，與官方選手頁的姓名、運動及地點相符，年齡差可由查閱時間差解釋。"
+            },
+            {
+              "documentId": "country",
+              "startLine": 448,
+              "endLine": 450,
+              "note": "該官方選手頁以 Team USA 身分列出 Lindsey Corrigan，支持查閱時的美國運動代表國標註。"
+            }
+          ],
+          "findings": []
+        }
+      }
+    ],
+    "findings": [],
+    "modelSeats": [
+      "claude",
+      "codex"
+    ],
+    "coverageComplete": true
+  },
+  {
+    "id": "usada-8e3e0cdfe74b",
+    "athleteName": "Victoria Francis",
+    "modelReviews": [
+      {
+        "seat": "claude",
+        "requestedModel": "haiku",
+        "batch": "country-008",
+        "attempt": 1,
+        "packetSha256": "548b40fc1d847e2e990f4973c011a9b6eb4bd649628776203e8dadd14aac0128",
+        "answerSha256": "eddbb0cafd2692ab742aff8c6c6cfe2d737aef487d8b1de91f3ba1e4953e32db",
+        "characterStart": 27,
+        "characterEnd": 1532,
+        "wholeBatchValid": false,
+        "answer": {
+          "id": "usada-8e3e0cdfe74b",
+          "status": "issue",
+          "identity": "supported",
+          "country": "issue",
+          "temporalScope": "issue",
+          "evidence": [
+            {
+              "documentId": "country",
+              "startLine": 206,
+              "endLine": 208,
+              "note": "Victoria Francis 於 2014 Junior World Championships 以 USA 身分參賽（2024年USA Wrestling報導）"
+            },
+            {
+              "documentId": "country",
+              "startLine": 210,
+              "endLine": 211,
+              "note": "確認 2014 Junior World Championships 事件年份"
+            },
+            {
+              "documentId": "country",
+              "startLine": 221,
+              "endLine": 221,
+              "note": "2014 Junior World Championships 獎牌確認為 United States"
+            },
+            {
+              "documentId": "case",
+              "startLine": 7,
+              "endLine": 8,
+              "note": "USADA 2018 年 8 月報導確認 Victoria Francis 為角力運動員，惟未明確列國家代表"
+            }
+          ],
+          "findings": [
+            {
+              "field": "temporalScope",
+              "explanation": "提供的官方國家證據僅為 2014 年 Junior World Championships（USA Wrestling 官方報導）；案例年份為 2018 年。無供應文件直接證實 2018 年的國家代表資格。USADA 2018 年報導確認該年運動員身份但未明確國家代表。",
+              "suggestion": "若要支持 2018 年的美國代表資格註解，需要 2018 年或接近 2018 年的官方國隊名單、競賽結果或體育協會文件。或將時間範圍明確限定為 2014 年。"
+            },
+            {
+              "field": "country",
+              "explanation": "USA Wrestling 報導中未直接將 2018 年與美國國籍連結；該文件追溯 2014 年資格。提案假設 2014 年國籍仍適用於 2018 年，但未有相應證據。",
+              "suggestion": "需補充 2017–2018 年期間的美國隊官方名單或國際比賽紀錄。"
+            }
+          ]
+        }
+      },
+      {
+        "seat": "codex",
+        "requestedModel": "gpt-6-luna",
+        "batch": "country-008",
+        "attempt": 1,
+        "packetSha256": "548b40fc1d847e2e990f4973c011a9b6eb4bd649628776203e8dadd14aac0128",
+        "answerSha256": "d4f4c2ffebc12baf4aaea79017d6895a20b4cb43b1d5170fcd7bf36d46b8b49b",
+        "characterStart": 10,
+        "characterEnd": 619,
+        "wholeBatchValid": true,
+        "answer": {
+          "id": "usada-8e3e0cdfe74b",
+          "status": "supported",
+          "identity": "supported",
+          "country": "supported",
+          "temporalScope": "supported",
+          "evidence": [
+            {
+              "documentId": "country",
+              "startLine": 206,
+              "endLine": 213,
+              "note": "USA Wrestling identifies Victoria Francis as a U.S. women’s freestyle wrestler and describes her 2014 Junior World Championships result; lines 221–223 list her as silver medalist for the United States."
+            },
+            {
+              "documentId": "case",
+              "startLine": 1,
+              "endLine": 8,
+              "note": "USADA’s 2018 notice names Victoria Francis, identifies wrestling, and reports age 24, consistent with the wrestler in the country source."
+            }
+          ],
+          "findings": []
+        }
+      }
+    ],
+    "findings": [
+      {
+        "seat": "claude",
+        "requestedModel": "haiku",
+        "batch": "country-008",
+        "attempt": 1,
+        "packetSha256": "548b40fc1d847e2e990f4973c011a9b6eb4bd649628776203e8dadd14aac0128",
+        "answerSha256": "eddbb0cafd2692ab742aff8c6c6cfe2d737aef487d8b1de91f3ba1e4953e32db",
+        "characterStart": 27,
+        "characterEnd": 1532,
+        "wholeBatchValid": false,
+        "countsForCoverage": true,
+        "field": "temporalScope",
+        "explanation": "提供的官方國家證據僅為 2014 年 Junior World Championships（USA Wrestling 官方報導）；案例年份為 2018 年。無供應文件直接證實 2018 年的國家代表資格。USADA 2018 年報導確認該年運動員身份但未明確國家代表。",
+        "suggestion": "若要支持 2018 年的美國代表資格註解，需要 2018 年或接近 2018 年的官方國隊名單、競賽結果或體育協會文件。或將時間範圍明確限定為 2014 年。"
+      },
+      {
+        "seat": "claude",
+        "requestedModel": "haiku",
+        "batch": "country-008",
+        "attempt": 1,
+        "packetSha256": "548b40fc1d847e2e990f4973c011a9b6eb4bd649628776203e8dadd14aac0128",
+        "answerSha256": "eddbb0cafd2692ab742aff8c6c6cfe2d737aef487d8b1de91f3ba1e4953e32db",
+        "characterStart": 27,
+        "characterEnd": 1532,
+        "wholeBatchValid": false,
+        "countsForCoverage": true,
+        "field": "country",
+        "explanation": "USA Wrestling 報導中未直接將 2018 年與美國國籍連結；該文件追溯 2014 年資格。提案假設 2014 年國籍仍適用於 2018 年，但未有相應證據。",
+        "suggestion": "需補充 2017–2018 年期間的美國隊官方名單或國際比賽紀錄。"
+      }
+    ],
+    "modelSeats": [
+      "claude",
+      "codex"
+    ],
+    "coverageComplete": true
+  },
+  {
+    "id": "usada-7df0d8ede93d",
+    "athleteName": "Keir Pearson",
+    "modelReviews": [
+      {
+        "seat": "claude",
+        "requestedModel": "haiku",
+        "batch": "country-008",
+        "attempt": 1,
+        "packetSha256": "548b40fc1d847e2e990f4973c011a9b6eb4bd649628776203e8dadd14aac0128",
+        "answerSha256": "eddbb0cafd2692ab742aff8c6c6cfe2d737aef487d8b1de91f3ba1e4953e32db",
+        "characterStart": 1538,
+        "characterEnd": 2602,
+        "wholeBatchValid": false,
+        "answer": {
+          "id": "usada-7df0d8ede93d",
+          "status": "supported",
+          "identity": "supported",
+          "country": "supported",
+          "temporalScope": "supported",
+          "evidence": [
+            {
+              "documentId": "country",
+              "startLine": 20,
+              "endLine": 22,
+              "note": "World Rowing 官方選手頁：Keir PEARSON，出生日期 15/12/1966"
+            },
+            {
+              "documentId": "country",
+              "startLine": 23,
+              "endLine": 23,
+              "note": "World Rowing 官方列國籍為 United States"
+            },
+            {
+              "documentId": "country",
+              "startLine": 34,
+              "endLine": 34,
+              "note": "1992 Olympic Games 紀錄確認 USA（M4x Men's Quadruple Sculls）"
+            },
+            {
+              "documentId": "case",
+              "startLine": 1,
+              "endLine": 1,
+              "note": "USADA 2021 年 5 月報導標題：U.S. Rowing Athlete"
+            },
+            {
+              "documentId": "case",
+              "startLine": 7,
+              "endLine": 7,
+              "note": "USADA 2021 年明確確認 Keir Pearson 為美國划船運動員"
+            }
+          ],
+          "findings": []
+        }
+      },
+      {
+        "seat": "codex",
+        "requestedModel": "gpt-6-luna",
+        "batch": "country-008",
+        "attempt": 1,
+        "packetSha256": "548b40fc1d847e2e990f4973c011a9b6eb4bd649628776203e8dadd14aac0128",
+        "answerSha256": "d4f4c2ffebc12baf4aaea79017d6895a20b4cb43b1d5170fcd7bf36d46b8b49b",
+        "characterStart": 620,
+        "characterEnd": 1195,
+        "wholeBatchValid": true,
+        "answer": {
+          "id": "usada-7df0d8ede93d",
+          "status": "supported",
+          "identity": "supported",
+          "country": "supported",
+          "temporalScope": "supported",
+          "evidence": [
+            {
+              "documentId": "country",
+              "startLine": 20,
+              "endLine": 38,
+              "note": "World Rowing profile identifies Keir Pearson and lists his 1992 Olympic Games men’s quadruple sculls result with country USA; the profile gives birth date 15/12/1966 at line 22."
+            },
+            {
+              "documentId": "case",
+              "startLine": 1,
+              "endLine": 8,
+              "note": "USADA names Keir Pearson, identifies rowing, and reports age 54 in its May 2021 notice, consistent with the profile’s birth date."
+            }
+          ],
+          "findings": []
+        }
+      }
+    ],
+    "findings": [],
+    "modelSeats": [
+      "claude",
+      "codex"
+    ],
+    "coverageComplete": true
+  },
+  {
+    "id": "usada-a0a7483bcc7e",
+    "athleteName": "J.C. Cruse",
+    "modelReviews": [
+      {
+        "seat": "claude",
+        "requestedModel": "haiku",
+        "batch": "country-009",
+        "attempt": 1,
+        "packetSha256": "48eed7a04f08e136cfc698ad57a0c62ecf3925e18194fe89dede1cb4627eca34",
+        "answerSha256": "8d15fae22d60cf3e9d30e0ecd8dea4dff089457888687e997e0af37dae741e82",
+        "characterStart": 27,
+        "characterEnd": 1430,
+        "wholeBatchValid": true,
+        "answer": {
+          "id": "usada-a0a7483bcc7e",
+          "status": "supported",
+          "identity": "supported",
+          "country": "supported",
+          "temporalScope": "supported",
+          "evidence": [
+            {
+              "documentId": "country",
+              "startLine": 448,
+              "endLine": 449,
+              "note": "Name confirmed in official Team USA profile: 'JC Cruse'"
+            },
+            {
+              "documentId": "case",
+              "startLine": 7,
+              "endLine": 7,
+              "note": "Case identity match: 'J.C. Cruse, of Detroit, Mich., an athlete in the sport of bobsled'"
+            },
+            {
+              "documentId": "country",
+              "startLine": 1,
+              "endLine": 1,
+              "note": "Official sporting country: 'JC Cruse | Team USA'"
+            },
+            {
+              "documentId": "country",
+              "startLine": 467,
+              "endLine": 469,
+              "note": "Temporal support: '2016-2017 North American Cup in two-man for pilot' overlaps case year 2017"
+            },
+            {
+              "documentId": "case",
+              "startLine": 1,
+              "endLine": 1,
+              "note": "Case source confirms: 'U.S. Bobsled Athlete, J.C. Cruse'"
+            },
+            {
+              "documentId": "case",
+              "startLine": 8,
+              "endLine": 8,
+              "note": "Violation date 'January 12, 2017' falls within documented 2016-2017 competition period"
+            }
+          ],
+          "findings": []
+        }
+      },
+      {
+        "seat": "codex",
+        "requestedModel": "gpt-6-luna",
+        "batch": "country-009",
+        "attempt": 1,
+        "packetSha256": "48eed7a04f08e136cfc698ad57a0c62ecf3925e18194fe89dede1cb4627eca34",
+        "answerSha256": "93692c6fd1ce17e9d46cd9d3c2f1275a4f0862f832831993143d173a6b5bc90a",
+        "characterStart": 10,
+        "characterEnd": 621,
+        "wholeBatchValid": true,
+        "answer": {
+          "id": "usada-a0a7483bcc7e",
+          "status": "supported",
+          "identity": "supported",
+          "country": "supported",
+          "temporalScope": "supported",
+          "evidence": [
+            {
+              "documentId": "country",
+              "startLine": 1,
+              "endLine": 1,
+              "note": "Official Team USA profile identifies JC Cruse."
+            },
+            {
+              "documentId": "country",
+              "startLine": 457,
+              "endLine": 461,
+              "note": "The profile describes Cruse’s bobsled background and Detroit origins; the country annotation is explicitly limited to the profile at lookup."
+            },
+            {
+              "documentId": "case",
+              "startLine": 1,
+              "endLine": 8,
+              "note": "USADA identifies J.C. Cruse as a 28-year-old bobsled athlete and gives the 2017 case details."
+            }
+          ],
+          "findings": []
+        }
+      }
+    ],
+    "findings": [],
+    "modelSeats": [
+      "claude",
+      "codex"
+    ],
+    "coverageComplete": true
+  },
+  {
+    "id": "usada-de625da34c51",
+    "athleteName": "Dylan Fischbach",
+    "modelReviews": [
+      {
+        "seat": "claude",
+        "requestedModel": "haiku",
+        "batch": "country-009",
+        "attempt": 1,
+        "packetSha256": "48eed7a04f08e136cfc698ad57a0c62ecf3925e18194fe89dede1cb4627eca34",
+        "answerSha256": "8d15fae22d60cf3e9d30e0ecd8dea4dff089457888687e997e0af37dae741e82",
+        "characterStart": 1436,
+        "characterEnd": 3688,
+        "wholeBatchValid": true,
+        "answer": {
+          "id": "usada-de625da34c51",
+          "status": "issue",
+          "identity": "supported",
+          "country": "issue",
+          "temporalScope": "issue",
+          "evidence": [
+            {
+              "documentId": "case",
+              "startLine": 7,
+              "endLine": 7,
+              "note": "Case identity: 'Dylan Fischbach, of Vermillion, South Dakota, an athlete in the sport of Paralympic basketball'"
+            },
+            {
+              "documentId": "country",
+              "startLine": 94,
+              "endLine": 94,
+              "note": "Name confirmed in IPC 2018 report: 'Dylan Fischbach' named to U.S. Men's National Team"
+            }
+          ],
+          "findings": [
+            {
+              "field": "country",
+              "explanation": "The supplied country document (IPC 2018 official report) establishes Fischbach's affiliation as a member of the 2018 U.S. Men's National Wheelchair Basketball Team. However, this document dates to January 2018. The case year is 2015 (violation date August 22, 2015 per case document line 8). An official team roster establishes sporting affiliation only for its stated period. The 2018 roster cannot demonstrate USA sporting affiliation for 2015 without independent evidence from that period. The proposed temporalNote explicitly warns against this inference ('本案事件為2015年，不據此推定2015年代表資格').",
+              "suggestion": "Provide dated official evidence from 2015 or earlier—such as 2015 ParaPan Am Games roster (referenced at case document line 97), 2015 national team selection records, or official IWBF competition results from that year—to establish USA sporting affiliation for the case period."
+            },
+            {
+              "field": "temporalScope",
+              "explanation": "The country document year (2018) and case year (2015) are separated by 3 years. IPC line 94 notes this was Fischbach's 'first U.S. Men's National Team' selection in 2018, not in 2015. Alignment of temporal scope requires the sporting country and its documented competitive record to match the case's temporal position.",
+              "suggestion": "Identify an official source—name list, competition roster, or dated qualifier result—that explicitly documents Fischbach as representing USA in wheelchair basketball during or before 2015."
+            }
+          ]
+        }
+      },
+      {
+        "seat": "codex",
+        "requestedModel": "gpt-6-luna",
+        "batch": "country-009",
+        "attempt": 1,
+        "packetSha256": "48eed7a04f08e136cfc698ad57a0c62ecf3925e18194fe89dede1cb4627eca34",
+        "answerSha256": "93692c6fd1ce17e9d46cd9d3c2f1275a4f0862f832831993143d173a6b5bc90a",
+        "characterStart": 622,
+        "characterEnd": 1213,
+        "wholeBatchValid": true,
+        "answer": {
+          "id": "usada-de625da34c51",
+          "status": "supported",
+          "identity": "supported",
+          "country": "supported",
+          "temporalScope": "supported",
+          "evidence": [
+            {
+              "documentId": "country",
+              "startLine": 85,
+              "endLine": 86,
+              "note": "IPC report says this is the 2018 US men's national wheelchair basketball team."
+            },
+            {
+              "documentId": "country",
+              "startLine": 94,
+              "endLine": 94,
+              "note": "Dylan Fischbach is named among the team's first-time selections."
+            },
+            {
+              "documentId": "case",
+              "startLine": 7,
+              "endLine": 8,
+              "note": "USADA identifies Dylan Fischbach as a Paralympic basketball athlete in the 2015 case and states his age and location."
+            }
+          ],
+          "findings": []
+        }
+      }
+    ],
+    "findings": [
+      {
+        "seat": "claude",
+        "requestedModel": "haiku",
+        "batch": "country-009",
+        "attempt": 1,
+        "packetSha256": "48eed7a04f08e136cfc698ad57a0c62ecf3925e18194fe89dede1cb4627eca34",
+        "answerSha256": "8d15fae22d60cf3e9d30e0ecd8dea4dff089457888687e997e0af37dae741e82",
+        "characterStart": 1436,
+        "characterEnd": 3688,
+        "wholeBatchValid": true,
+        "countsForCoverage": true,
+        "field": "country",
+        "explanation": "The supplied country document (IPC 2018 official report) establishes Fischbach's affiliation as a member of the 2018 U.S. Men's National Wheelchair Basketball Team. However, this document dates to January 2018. The case year is 2015 (violation date August 22, 2015 per case document line 8). An official team roster establishes sporting affiliation only for its stated period. The 2018 roster cannot demonstrate USA sporting affiliation for 2015 without independent evidence from that period. The proposed temporalNote explicitly warns against this inference ('本案事件為2015年，不據此推定2015年代表資格').",
+        "suggestion": "Provide dated official evidence from 2015 or earlier—such as 2015 ParaPan Am Games roster (referenced at case document line 97), 2015 national team selection records, or official IWBF competition results from that year—to establish USA sporting affiliation for the case period."
+      },
+      {
+        "seat": "claude",
+        "requestedModel": "haiku",
+        "batch": "country-009",
+        "attempt": 1,
+        "packetSha256": "48eed7a04f08e136cfc698ad57a0c62ecf3925e18194fe89dede1cb4627eca34",
+        "answerSha256": "8d15fae22d60cf3e9d30e0ecd8dea4dff089457888687e997e0af37dae741e82",
+        "characterStart": 1436,
+        "characterEnd": 3688,
+        "wholeBatchValid": true,
+        "countsForCoverage": true,
+        "field": "temporalScope",
+        "explanation": "The country document year (2018) and case year (2015) are separated by 3 years. IPC line 94 notes this was Fischbach's 'first U.S. Men's National Team' selection in 2018, not in 2015. Alignment of temporal scope requires the sporting country and its documented competitive record to match the case's temporal position.",
+        "suggestion": "Identify an official source—name list, competition roster, or dated qualifier result—that explicitly documents Fischbach as representing USA in wheelchair basketball during or before 2015."
+      }
+    ],
+    "modelSeats": [
+      "claude",
+      "codex"
+    ],
+    "coverageComplete": true
+  },
+  {
+    "id": "usada-cbc321b291f0",
+    "athleteName": "Wyatt Struxness",
+    "modelReviews": [
+      {
+        "seat": "claude",
+        "requestedModel": "haiku",
+        "batch": "country-010",
+        "attempt": 1,
+        "packetSha256": "3a23340da119ec7d61ca68d9a6d16eed13ee58a8b8370e282222382a274e47c3",
+        "answerSha256": "c91e29bc19b9a3527af04d378b4f23f8acc9ba95c472bdddbff66bc7124867f8",
+        "characterStart": 27,
+        "characterEnd": 761,
+        "wholeBatchValid": true,
+        "answer": {
+          "id": "usada-cbc321b291f0",
+          "status": "supported",
+          "identity": "supported",
+          "country": "supported",
+          "temporalScope": "supported",
+          "evidence": [
+            {
+              "documentId": "country",
+              "startLine": 93,
+              "endLine": 93,
+              "note": "World Boccia official report (2021-12-09) explicitly identifies 'American Wyatt Struxness' competing at São Paulo Americas Regional Championships"
+            },
+            {
+              "documentId": "case",
+              "startLine": 1,
+              "endLine": 7,
+              "note": "USADA official record confirms Wyatt Struxness, age 25, of San Antonio, Texas, Para boccia athlete; case dated July 2022"
+            }
+          ],
+          "findings": []
+        }
+      },
+      {
+        "seat": "codex",
+        "requestedModel": "gpt-6-luna",
+        "batch": "country-010",
+        "attempt": 1,
+        "packetSha256": "3a23340da119ec7d61ca68d9a6d16eed13ee58a8b8370e282222382a274e47c3",
+        "answerSha256": "f18ed2b6509e5c9b31ae87c57ee2a9b7c78ae92945147ded07cd3c0925137b98",
+        "characterStart": 10,
+        "characterEnd": 473,
+        "wholeBatchValid": true,
+        "answer": {
+          "id": "usada-cbc321b291f0",
+          "status": "supported",
+          "identity": "supported",
+          "country": "supported",
+          "temporalScope": "supported",
+          "evidence": [
+            {
+              "documentId": "country",
+              "startLine": 89,
+              "endLine": 93,
+              "note": "World Boccia describes the 2021 Americas Regional Championships and identifies Wyatt Struxness as American."
+            },
+            {
+              "documentId": "case",
+              "startLine": 7,
+              "endLine": 7,
+              "note": "USADA identifies Wyatt Struxness as a 25-year-old Para boccia athlete from San Antonio."
+            }
+          ],
+          "findings": []
+        }
+      }
+    ],
+    "findings": [],
+    "modelSeats": [
+      "claude",
+      "codex"
+    ],
+    "coverageComplete": true
+  },
+  {
+    "id": "usada-a6e4b38ecdbe",
+    "athleteName": "Samantha Dumala",
+    "modelReviews": [
+      {
+        "seat": "claude",
+        "requestedModel": "haiku",
+        "batch": "country-010",
+        "attempt": 1,
+        "packetSha256": "3a23340da119ec7d61ca68d9a6d16eed13ee58a8b8370e282222382a274e47c3",
+        "answerSha256": "c91e29bc19b9a3527af04d378b4f23f8acc9ba95c472bdddbff66bc7124867f8",
+        "characterStart": 767,
+        "characterEnd": 2078,
+        "wholeBatchValid": true,
+        "answer": {
+          "id": "usada-a6e4b38ecdbe",
+          "status": "issue",
+          "identity": "issue",
+          "country": "supported",
+          "temporalScope": "supported",
+          "evidence": [
+            {
+              "documentId": "country",
+              "startLine": 15,
+              "endLine": 17,
+              "note": "IWWF official athlete profile header lists 'STADLBAUR Samantha' with ID USA800121646, year of birth 1997"
+            },
+            {
+              "documentId": "case",
+              "startLine": 1,
+              "endLine": 7,
+              "note": "USADA record identifies 'Samantha Dumala, of Wellington, Fla.' age 22, waterskiing athlete; case dated January 7, 2020"
+            }
+          ],
+          "findings": [
+            {
+              "field": "identity",
+              "explanation": "Surname mismatch: IWWF official record lists athlete name as 'STADLBAUR Samantha' not 'Dumala'. Birth year (1997), sport (waterskiing), location (Wellington, Fla. aligns with IWWF results from Florida), and approximate age match USADA 2020 record for Samantha Dumala age 22. This strongly suggests name change (likely marriage) but is not documented in supplied materials.",
+              "suggestion": "Confirm relationship between STADLBAUR and Dumala surnames and verify this is the same individual before annotating country from IWWF profile."
+            }
+          ]
+        }
+      },
+      {
+        "seat": "codex",
+        "requestedModel": "gpt-6-luna",
+        "batch": "country-010",
+        "attempt": 1,
+        "packetSha256": "3a23340da119ec7d61ca68d9a6d16eed13ee58a8b8370e282222382a274e47c3",
+        "answerSha256": "f18ed2b6509e5c9b31ae87c57ee2a9b7c78ae92945147ded07cd3c0925137b98",
+        "characterStart": 474,
+        "characterEnd": 1133,
+        "wholeBatchValid": true,
+        "answer": {
+          "id": "usada-a6e4b38ecdbe",
+          "status": "supported",
+          "identity": "supported",
+          "country": "supported",
+          "temporalScope": "supported",
+          "evidence": [
+            {
+              "documentId": "country",
+              "startLine": 14,
+              "endLine": 17,
+              "note": "IWWF profile identifies STADLBAUR Samantha, athlete number USA800121646, born 1997."
+            },
+            {
+              "documentId": "country",
+              "startLine": 98,
+              "endLine": 113,
+              "note": "The profile lists USA for 2021 and 2022 results, including the 2021 World Waterski Championships."
+            },
+            {
+              "documentId": "case",
+              "startLine": 7,
+              "endLine": 7,
+              "note": "USADA identifies Samantha Dumala as a 22-year-old waterski athlete from Wellington, matching the sport and age with the profile’s 1997 birth year."
+            }
+          ],
+          "findings": []
+        }
+      }
+    ],
+    "findings": [
+      {
+        "seat": "claude",
+        "requestedModel": "haiku",
+        "batch": "country-010",
+        "attempt": 1,
+        "packetSha256": "3a23340da119ec7d61ca68d9a6d16eed13ee58a8b8370e282222382a274e47c3",
+        "answerSha256": "c91e29bc19b9a3527af04d378b4f23f8acc9ba95c472bdddbff66bc7124867f8",
+        "characterStart": 767,
+        "characterEnd": 2078,
+        "wholeBatchValid": true,
+        "countsForCoverage": true,
+        "field": "identity",
+        "explanation": "Surname mismatch: IWWF official record lists athlete name as 'STADLBAUR Samantha' not 'Dumala'. Birth year (1997), sport (waterskiing), location (Wellington, Fla. aligns with IWWF results from Florida), and approximate age match USADA 2020 record for Samantha Dumala age 22. This strongly suggests name change (likely marriage) but is not documented in supplied materials.",
+        "suggestion": "Confirm relationship between STADLBAUR and Dumala surnames and verify this is the same individual before annotating country from IWWF profile."
+      }
+    ],
+    "modelSeats": [
+      "claude",
+      "codex"
+    ],
+    "coverageComplete": true
+  },
+  {
+    "id": "usada-c3a050be56a3",
+    "athleteName": "Richard Burkett",
+    "modelReviews": [
+      {
+        "seat": "claude",
+        "requestedModel": "haiku",
+        "batch": "country-010",
+        "attempt": 1,
+        "packetSha256": "3a23340da119ec7d61ca68d9a6d16eed13ee58a8b8370e282222382a274e47c3",
+        "answerSha256": "c91e29bc19b9a3527af04d378b4f23f8acc9ba95c472bdddbff66bc7124867f8",
+        "characterStart": 2084,
+        "characterEnd": 4477,
+        "wholeBatchValid": true,
+        "answer": {
+          "id": "usada-c3a050be56a3",
+          "status": "issue",
+          "identity": "uncertain",
+          "country": "issue",
+          "temporalScope": "issue",
+          "evidence": [
+            {
+              "documentId": "country",
+              "startLine": 195,
+              "endLine": 195,
+              "note": "USA Archery article (dated September 22, 2025) lists 'Richard Burkett Jr.' in Compound Open Men division"
+            },
+            {
+              "documentId": "country",
+              "startLine": 218,
+              "endLine": 219,
+              "note": "USA Archery official team roster: 'Richard Burkett Jr.' Compound Open Men"
+            },
+            {
+              "documentId": "case",
+              "startLine": 1,
+              "endLine": 8,
+              "note": "USADA record (dated April 5, 2021): 'Richard Burkett, of New Castle, Pa.' age 49, Para archery; tested positive August 14, 2020"
+            }
+          ],
+          "findings": [
+            {
+              "field": "identity",
+              "explanation": "Name suffix discrepancy: USADA 2021 record lists 'Richard Burkett' without 'Jr.', while USA Archery 2025 lists 'Richard Burkett Jr.' Both refer to age ~49, Para archery, same location. Likely same person but suffix inconsistency creates ambiguity.",
+              "suggestion": "Verify whether 'Jr.' designation is used consistently or if records refer to different individuals."
+            },
+            {
+              "field": "country",
+              "explanation": "Source used (USA Archery 2025 World Para Championships report) documents sporting affiliation for 2025, not 2020. Official team roster, event records, or results from 2020 competitions would be needed to establish country affiliation during the violation period (August 14, 2020).",
+              "suggestion": "Locate 2020 official USA Archery team records from Target Nationals (August 14, 2020) or other 2020 international para archery competitions."
+            },
+            {
+              "field": "temporalScope",
+              "explanation": "Proposal states 'do not infer 2020 representation from 2025 report', yet uses 2025 source as primary evidence for 2020 country identity. This internal contradiction means evidence does not match the temporal scope of the case (2020).",
+              "suggestion": "Acknowledge that only 2020-era or contemporaneous official records can support country affiliation for 2020 violation; 2025 records document current affiliation only."
+            }
+          ]
+        }
+      },
+      {
+        "seat": "codex",
+        "requestedModel": "gpt-6-luna",
+        "batch": "country-010",
+        "attempt": 1,
+        "packetSha256": "3a23340da119ec7d61ca68d9a6d16eed13ee58a8b8370e282222382a274e47c3",
+        "answerSha256": "f18ed2b6509e5c9b31ae87c57ee2a9b7c78ae92945147ded07cd3c0925137b98",
+        "characterStart": 1134,
+        "characterEnd": 1806,
+        "wholeBatchValid": true,
+        "answer": {
+          "id": "usada-c3a050be56a3",
+          "status": "supported",
+          "identity": "supported",
+          "country": "supported",
+          "temporalScope": "supported",
+          "evidence": [
+            {
+              "documentId": "country",
+              "startLine": 193,
+              "endLine": 195,
+              "note": "USA Archery says the U.S. Para Archery Team will represent the United States in 2025 and lists Richard Burkett Jr. in Compound Open Men."
+            },
+            {
+              "documentId": "country",
+              "startLine": 217,
+              "endLine": 219,
+              "note": "The USA Team roster lists Richard Burkett Jr. as Compound Open Men."
+            },
+            {
+              "documentId": "case",
+              "startLine": 7,
+              "endLine": 8,
+              "note": "USADA identifies Richard Burkett, age 49, as a Para archery athlete; the sport and name match, though the USA Archery roster adds Jr."
+            }
+          ],
+          "findings": []
+        }
+      }
+    ],
+    "findings": [
+      {
+        "seat": "claude",
+        "requestedModel": "haiku",
+        "batch": "country-010",
+        "attempt": 1,
+        "packetSha256": "3a23340da119ec7d61ca68d9a6d16eed13ee58a8b8370e282222382a274e47c3",
+        "answerSha256": "c91e29bc19b9a3527af04d378b4f23f8acc9ba95c472bdddbff66bc7124867f8",
+        "characterStart": 2084,
+        "characterEnd": 4477,
+        "wholeBatchValid": true,
+        "countsForCoverage": true,
+        "field": "identity",
+        "explanation": "Name suffix discrepancy: USADA 2021 record lists 'Richard Burkett' without 'Jr.', while USA Archery 2025 lists 'Richard Burkett Jr.' Both refer to age ~49, Para archery, same location. Likely same person but suffix inconsistency creates ambiguity.",
+        "suggestion": "Verify whether 'Jr.' designation is used consistently or if records refer to different individuals."
+      },
+      {
+        "seat": "claude",
+        "requestedModel": "haiku",
+        "batch": "country-010",
+        "attempt": 1,
+        "packetSha256": "3a23340da119ec7d61ca68d9a6d16eed13ee58a8b8370e282222382a274e47c3",
+        "answerSha256": "c91e29bc19b9a3527af04d378b4f23f8acc9ba95c472bdddbff66bc7124867f8",
+        "characterStart": 2084,
+        "characterEnd": 4477,
+        "wholeBatchValid": true,
+        "countsForCoverage": true,
+        "field": "country",
+        "explanation": "Source used (USA Archery 2025 World Para Championships report) documents sporting affiliation for 2025, not 2020. Official team roster, event records, or results from 2020 competitions would be needed to establish country affiliation during the violation period (August 14, 2020).",
+        "suggestion": "Locate 2020 official USA Archery team records from Target Nationals (August 14, 2020) or other 2020 international para archery competitions."
+      },
+      {
+        "seat": "claude",
+        "requestedModel": "haiku",
+        "batch": "country-010",
+        "attempt": 1,
+        "packetSha256": "3a23340da119ec7d61ca68d9a6d16eed13ee58a8b8370e282222382a274e47c3",
+        "answerSha256": "c91e29bc19b9a3527af04d378b4f23f8acc9ba95c472bdddbff66bc7124867f8",
+        "characterStart": 2084,
+        "characterEnd": 4477,
+        "wholeBatchValid": true,
+        "countsForCoverage": true,
+        "field": "temporalScope",
+        "explanation": "Proposal states 'do not infer 2020 representation from 2025 report', yet uses 2025 source as primary evidence for 2020 country identity. This internal contradiction means evidence does not match the temporal scope of the case (2020).",
+        "suggestion": "Acknowledge that only 2020-era or contemporaneous official records can support country affiliation for 2020 violation; 2025 records document current affiliation only."
+      }
+    ],
+    "modelSeats": [
+      "claude",
+      "codex"
+    ],
+    "coverageComplete": true
+  },
+  {
+    "id": "usada-1afebbd6c57b",
+    "athleteName": "Cesar Colunga",
+    "modelReviews": [
+      {
+        "seat": "claude",
+        "requestedModel": "haiku",
+        "batch": "country-011",
+        "attempt": 1,
+        "packetSha256": "e36b31d0a272bfbfcc50ca15dc580cad9ffc3f6050c068f71c6bb28ce3211cab",
+        "answerSha256": "466244199ef1b1ca5161a71480346767135622556b3dbee065d3061fe7756b83",
+        "characterStart": 27,
+        "characterEnd": 1017,
+        "wholeBatchValid": true,
+        "answer": {
+          "id": "usada-1afebbd6c57b",
+          "status": "supported",
+          "identity": "supported",
+          "country": "supported",
+          "temporalScope": "supported",
+          "evidence": [
+            {
+              "documentId": "country",
+              "startLine": 1,
+              "endLine": 1,
+              "note": "官方 Team USA 頁面標題明確確認 Cesar Colunga"
+            },
+            {
+              "documentId": "country",
+              "startLine": 462,
+              "endLine": 462,
+              "note": "WIKF USA（世界空手道聯合會美國分會）成員"
+            },
+            {
+              "documentId": "country",
+              "startLine": 464,
+              "endLine": 464,
+              "note": "2013 年瓜達拉哈拉世界青年及少年錦標賽代表美國參賽"
+            },
+            {
+              "documentId": "case",
+              "startLine": 1,
+              "endLine": 1,
+              "note": "USADA 案件標題確認為美國空手道運動員"
+            },
+            {
+              "documentId": "case",
+              "startLine": 8,
+              "endLine": 8,
+              "note": "2018 年 1 月 13 日美國空手道高級隊試選中檢測呈陽性"
+            }
+          ],
+          "findings": []
+        }
+      },
+      {
+        "seat": "codex",
+        "requestedModel": "gpt-6-luna",
+        "batch": "country-011",
+        "attempt": 1,
+        "packetSha256": "e36b31d0a272bfbfcc50ca15dc580cad9ffc3f6050c068f71c6bb28ce3211cab",
+        "answerSha256": "88989c7a92a9cdefc18e003364f253c6370cbaee0b78a6dee085b7cd1051c9ef",
+        "characterStart": 10,
+        "characterEnd": 547,
+        "wholeBatchValid": true,
+        "answer": {
+          "id": "usada-1afebbd6c57b",
+          "status": "supported",
+          "identity": "supported",
+          "country": "supported",
+          "temporalScope": "supported",
+          "evidence": [
+            {
+              "documentId": "country",
+              "startLine": 1,
+              "endLine": 1,
+              "note": "Team USA profile identifies Cesar Colunga."
+            },
+            {
+              "documentId": "country",
+              "startLine": 448,
+              "endLine": 464,
+              "note": "Profile lists his name, Plano hometown, WIKF USA membership, and karate career highlight."
+            },
+            {
+              "documentId": "case",
+              "startLine": 7,
+              "endLine": 8,
+              "note": "USADA identifies Cesar Colunga as a 20-year-old karate athlete from Plano."
+            }
+          ],
+          "findings": []
+        }
+      }
+    ],
+    "findings": [],
+    "modelSeats": [
+      "claude",
+      "codex"
+    ],
+    "coverageComplete": true
+  },
+  {
+    "id": "usada-2428086c1745",
+    "athleteName": "Tara Harbert",
+    "modelReviews": [
+      {
+        "seat": "claude",
+        "requestedModel": "haiku",
+        "batch": "country-011",
+        "attempt": 1,
+        "packetSha256": "e36b31d0a272bfbfcc50ca15dc580cad9ffc3f6050c068f71c6bb28ce3211cab",
+        "answerSha256": "466244199ef1b1ca5161a71480346767135622556b3dbee065d3061fe7756b83",
+        "characterStart": 1023,
+        "characterEnd": 2673,
+        "wholeBatchValid": true,
+        "answer": {
+          "id": "usada-2428086c1745",
+          "status": "issue",
+          "identity": "issue",
+          "country": "supported",
+          "temporalScope": "uncertain",
+          "evidence": [
+            {
+              "documentId": "country",
+              "startLine": 1,
+              "endLine": 1,
+              "note": "官方 Team USA 頁面標題確認 Tara Harbert"
+            },
+            {
+              "documentId": "country",
+              "startLine": 448,
+              "endLine": 448,
+              "note": "Team USA 頁面運動項目列為「Softball」（女性壘球）"
+            },
+            {
+              "documentId": "country",
+              "startLine": 463,
+              "endLine": 465,
+              "note": "2008、2010、2014 年世界盃女性隊記錄"
+            },
+            {
+              "documentId": "case",
+              "startLine": 1,
+              "endLine": 1,
+              "note": "USADA 標題列為「US Baseball Athlete」"
+            },
+            {
+              "documentId": "case",
+              "startLine": 7,
+              "endLine": 7,
+              "note": "USADA 紀錄列地點為 Longmont, Colorado；Team USA 官方頁面列 Boulder, CO"
+            }
+          ],
+          "findings": [
+            {
+              "field": "identity",
+              "explanation": "運動項目存在命名不一致：Team USA 官方檔案明確列為「Softball」（第 448 行），但 USADA 案件標題稱「Baseball」且第 7 行指「sport of baseball」。地點也不完全相符：Team USA 列 Boulder, CO；USADA 列 Longmont, Colorado。",
+              "suggestion": "確認該運動員在 2015 年 USADA 檢測時的正式項目分類（Softball vs Baseball），以及是否為同一人。Longmont 和 Boulder 為相鄰城市，可能代表居住地 vs 訓練地差異，但應核實。"
+            },
+            {
+              "field": "temporalScope",
+              "explanation": "Team USA 官方記錄中最後已知的代表美國紀錄為 2014 年世界盃（第 463 行），案例發生於 2015 年 6 月至 8 月。無 2015 年代表美國參賽之直接證據。",
+              "suggestion": "查證該運動員在 2015 年是否仍為美國代表隊成員；官方檔案之年份限制未覆蓋案件發生期間。"
+            }
+          ]
+        }
+      },
+      {
+        "seat": "codex",
+        "requestedModel": "gpt-6-luna",
+        "batch": "country-011",
+        "attempt": 1,
+        "packetSha256": "e36b31d0a272bfbfcc50ca15dc580cad9ffc3f6050c068f71c6bb28ce3211cab",
+        "answerSha256": "88989c7a92a9cdefc18e003364f253c6370cbaee0b78a6dee085b7cd1051c9ef",
+        "characterStart": 548,
+        "characterEnd": 1419,
+        "wholeBatchValid": true,
+        "answer": {
+          "id": "usada-2428086c1745",
+          "status": "issue",
+          "identity": "issue",
+          "country": "supported",
+          "temporalScope": "supported",
+          "evidence": [
+            {
+              "documentId": "country",
+              "startLine": 448,
+              "endLine": 463,
+              "note": "Team USA profile lists Tara Harbert under Softball, with Boulder hometown and World Cup team results."
+            },
+            {
+              "documentId": "case",
+              "startLine": 7,
+              "endLine": 8,
+              "note": "USADA identifies a 33-year-old Tara Harbert from Longmont as a baseball athlete."
+            }
+          ],
+          "findings": [
+            {
+              "field": "identity",
+              "explanation": "The profile is for a softball athlete and gives Boulder/Niwot/Colorado State details, while the case calls Harbert a baseball athlete from Longmont. The supplied documents do not establish that these are the same person.",
+              "suggestion": "Do not attach this profile's Team USA country annotation to the case without an official identity link, such as a matching dated roster or results record."
+            }
+          ]
+        }
+      }
+    ],
+    "findings": [
+      {
+        "seat": "claude",
+        "requestedModel": "haiku",
+        "batch": "country-011",
+        "attempt": 1,
+        "packetSha256": "e36b31d0a272bfbfcc50ca15dc580cad9ffc3f6050c068f71c6bb28ce3211cab",
+        "answerSha256": "466244199ef1b1ca5161a71480346767135622556b3dbee065d3061fe7756b83",
+        "characterStart": 1023,
+        "characterEnd": 2673,
+        "wholeBatchValid": true,
+        "countsForCoverage": true,
+        "field": "identity",
+        "explanation": "運動項目存在命名不一致：Team USA 官方檔案明確列為「Softball」（第 448 行），但 USADA 案件標題稱「Baseball」且第 7 行指「sport of baseball」。地點也不完全相符：Team USA 列 Boulder, CO；USADA 列 Longmont, Colorado。",
+        "suggestion": "確認該運動員在 2015 年 USADA 檢測時的正式項目分類（Softball vs Baseball），以及是否為同一人。Longmont 和 Boulder 為相鄰城市，可能代表居住地 vs 訓練地差異，但應核實。"
+      },
+      {
+        "seat": "claude",
+        "requestedModel": "haiku",
+        "batch": "country-011",
+        "attempt": 1,
+        "packetSha256": "e36b31d0a272bfbfcc50ca15dc580cad9ffc3f6050c068f71c6bb28ce3211cab",
+        "answerSha256": "466244199ef1b1ca5161a71480346767135622556b3dbee065d3061fe7756b83",
+        "characterStart": 1023,
+        "characterEnd": 2673,
+        "wholeBatchValid": true,
+        "countsForCoverage": true,
+        "field": "temporalScope",
+        "explanation": "Team USA 官方記錄中最後已知的代表美國紀錄為 2014 年世界盃（第 463 行），案例發生於 2015 年 6 月至 8 月。無 2015 年代表美國參賽之直接證據。",
+        "suggestion": "查證該運動員在 2015 年是否仍為美國代表隊成員；官方檔案之年份限制未覆蓋案件發生期間。"
+      },
+      {
+        "seat": "codex",
+        "requestedModel": "gpt-6-luna",
+        "batch": "country-011",
+        "attempt": 1,
+        "packetSha256": "e36b31d0a272bfbfcc50ca15dc580cad9ffc3f6050c068f71c6bb28ce3211cab",
+        "answerSha256": "88989c7a92a9cdefc18e003364f253c6370cbaee0b78a6dee085b7cd1051c9ef",
+        "characterStart": 548,
+        "characterEnd": 1419,
+        "wholeBatchValid": true,
+        "countsForCoverage": true,
+        "field": "identity",
+        "explanation": "The profile is for a softball athlete and gives Boulder/Niwot/Colorado State details, while the case calls Harbert a baseball athlete from Longmont. The supplied documents do not establish that these are the same person.",
+        "suggestion": "Do not attach this profile's Team USA country annotation to the case without an official identity link, such as a matching dated roster or results record."
+      }
+    ],
+    "modelSeats": [
+      "claude",
+      "codex"
+    ],
+    "coverageComplete": true
+  },
+  {
+    "id": "usada-e7645ab29f67",
+    "athleteName": "Joseph Mazzie",
+    "modelReviews": [
+      {
+        "seat": "claude",
+        "requestedModel": "haiku",
+        "batch": "country-011",
+        "attempt": 1,
+        "packetSha256": "e36b31d0a272bfbfcc50ca15dc580cad9ffc3f6050c068f71c6bb28ce3211cab",
+        "answerSha256": "466244199ef1b1ca5161a71480346767135622556b3dbee065d3061fe7756b83",
+        "characterStart": 2679,
+        "characterEnd": 3673,
+        "wholeBatchValid": true,
+        "answer": {
+          "id": "usada-e7645ab29f67",
+          "status": "issue",
+          "identity": "supported",
+          "country": "supported",
+          "temporalScope": "issue",
+          "evidence": [
+            {
+              "documentId": "country",
+              "startLine": 117,
+              "endLine": 117,
+              "note": "World Skate 官方報導明確列出 Joseph Mazzie (USA) 在 2015 年 Rosario 錦標賽中進球"
+            },
+            {
+              "documentId": "case",
+              "startLine": 1,
+              "endLine": 1,
+              "note": "USADA 標題確認為美國直排輪曲棍球運動員"
+            },
+            {
+              "documentId": "case",
+              "startLine": 8,
+              "endLine": 8,
+              "note": "案件發生於 2016 年 8 月 24 日"
+            }
+          ],
+          "findings": [
+            {
+              "field": "temporalScope",
+              "explanation": "提供的國家來源為 2015 年 6 月 Rosario 世界錦標賽官方報導。案件年份為 2016 年 8 月，距官方紀錄逾 1 年。編輯已註明「不據此推定 2016 年代表資格」。單一 2015 年賽事紀錄無法確立 2016 年的運動隸屬資格。",
+              "suggestion": "尋求 2016 年美國隊列名或官方記錄以直接支持 2016 年代表身份，或將時間範圍限制在已驗證的 2015 年期間。"
+            }
+          ]
+        }
+      },
+      {
+        "seat": "codex",
+        "requestedModel": "gpt-6-luna",
+        "batch": "country-011",
+        "attempt": 1,
+        "packetSha256": "e36b31d0a272bfbfcc50ca15dc580cad9ffc3f6050c068f71c6bb28ce3211cab",
+        "answerSha256": "88989c7a92a9cdefc18e003364f253c6370cbaee0b78a6dee085b7cd1051c9ef",
+        "characterStart": 1420,
+        "characterEnd": 1857,
+        "wholeBatchValid": true,
+        "answer": {
+          "id": "usada-e7645ab29f67",
+          "status": "supported",
+          "identity": "supported",
+          "country": "supported",
+          "temporalScope": "supported",
+          "evidence": [
+            {
+              "documentId": "country",
+              "startLine": 116,
+              "endLine": 117,
+              "note": "World Skate's 2015 Senior Men match report lists Joseph Mazzie as a USA scorer."
+            },
+            {
+              "documentId": "case",
+              "startLine": 7,
+              "endLine": 8,
+              "note": "USADA identifies Joseph Mazzie as a 29-year-old roller hockey athlete from East Meadow."
+            }
+          ],
+          "findings": []
+        }
+      }
+    ],
+    "findings": [
+      {
+        "seat": "claude",
+        "requestedModel": "haiku",
+        "batch": "country-011",
+        "attempt": 1,
+        "packetSha256": "e36b31d0a272bfbfcc50ca15dc580cad9ffc3f6050c068f71c6bb28ce3211cab",
+        "answerSha256": "466244199ef1b1ca5161a71480346767135622556b3dbee065d3061fe7756b83",
+        "characterStart": 2679,
+        "characterEnd": 3673,
+        "wholeBatchValid": true,
+        "countsForCoverage": true,
+        "field": "temporalScope",
+        "explanation": "提供的國家來源為 2015 年 6 月 Rosario 世界錦標賽官方報導。案件年份為 2016 年 8 月，距官方紀錄逾 1 年。編輯已註明「不據此推定 2016 年代表資格」。單一 2015 年賽事紀錄無法確立 2016 年的運動隸屬資格。",
+        "suggestion": "尋求 2016 年美國隊列名或官方記錄以直接支持 2016 年代表身份，或將時間範圍限制在已驗證的 2015 年期間。"
+      }
+    ],
+    "modelSeats": [
+      "claude",
+      "codex"
+    ],
+    "coverageComplete": true
+  },
+  {
+    "id": "usada-8813abb5dfc8",
+    "athleteName": "James Howe II",
+    "modelReviews": [
+      {
+        "seat": "claude",
+        "requestedModel": "haiku",
+        "batch": "country-012",
+        "attempt": 1,
+        "packetSha256": "eda8ecf21d791d3c8d5505cb59818f2c59e45a1684ec3ef0a0737b78c1675f7a",
+        "answerSha256": "9730e3383609f006120a350ef1b5022211e3ecff21c971000967ce98f0be1518",
+        "characterStart": 27,
+        "characterEnd": 1933,
+        "wholeBatchValid": false,
+        "answer": {
+          "id": "usada-8813abb5dfc8",
+          "status": "issue",
+          "identity": "issue",
+          "country": "supported",
+          "temporalScope": "uncertain",
+          "evidence": [
+            {
+              "documentId": "country",
+              "startLine": 448,
+              "endLine": 449,
+              "note": "Team USA官方頁標題：James Howe（無II後綴）"
+            },
+            {
+              "documentId": "country",
+              "startLine": 455,
+              "endLine": 458,
+              "note": "Team USA官方頁年齡39、城鎮San Ramon"
+            },
+            {
+              "documentId": "case",
+              "startLine": 1,
+              "endLine": 1,
+              "note": "USADA標題明確稱「Howe II」"
+            },
+            {
+              "documentId": "case",
+              "startLine": 7,
+              "endLine": 7,
+              "note": "USADA：James Howe II, of Miami, Florida / 2016年7月年齡29"
+            },
+            {
+              "documentId": "case",
+              "startLine": 8,
+              "endLine": 8,
+              "note": "USADA確認USA Taekwondo Senior Team Trials參賽資格"
+            }
+          ],
+          "findings": [
+            {
+              "field": "identity",
+              "explanation": "名字後綴不符：USADA文件明確稱「James Howe II」（case第1、7行），但Team USA官方頁面只顯示「James Howe」（country第448-449行），無II後綴。",
+              "suggestion": "須確認Team USA頁面確實屬同一人；Team USA官方列表通常完整呈現正式名字，此項差異需澄清。"
+            },
+            {
+              "field": "identity",
+              "explanation": "城市信息矛盾：USADA記載「Miami, Florida」（case第7行），但Team USA官方頁Hometown列「San Ramon」（country第457-458行）。",
+              "suggestion": "可能代表現居地與出生地/成長地的差異，但需確認是否為同一人。"
+            },
+            {
+              "field": "temporalScope",
+              "explanation": "Team USA官方頁面為當前查閱時資料，無2016年明確標記。提議範圍「official_profile_at_lookup」僅能支持查閱時的代表身份，不足以回溯確認2016年代表資格。USADA case文件本身明確確認2016年7月美國代表身份（含USA Taekwondo Senior Team Trials），但此證據與提議的「official_profile_at_lookup」來源框架不符。",
+              "suggestion": "若要支持2016年代表身份，應明確以USADA case文件為主要依據；若依賴Team USA官方頁面，時間範圍應限制為「查閱時點」或需補充其他2016年代表資格證明。"
+            }
+          ]
+        }
+      },
+      {
+        "seat": "codex",
+        "requestedModel": "gpt-6-luna",
+        "batch": "country-012",
+        "attempt": 1,
+        "packetSha256": "eda8ecf21d791d3c8d5505cb59818f2c59e45a1684ec3ef0a0737b78c1675f7a",
+        "answerSha256": "6261c499a50d95fd998027715bc3f740ff4a2c5fe37f12884e5ddb47c1f08b12",
+        "characterStart": 10,
+        "characterEnd": 730,
+        "wholeBatchValid": true,
+        "answer": {
+          "id": "usada-8813abb5dfc8",
+          "status": "supported",
+          "identity": "supported",
+          "country": "supported",
+          "temporalScope": "supported",
+          "evidence": [
+            {
+              "documentId": "country",
+              "startLine": 448,
+              "endLine": 458,
+              "note": "Team USA profile identifies James Howe, lists Taekwondo in the profile navigation, and gives age 39 and hometown San Ramon. The proposed country is accurately limited to how Team USA lists him at lookup."
+            },
+            {
+              "documentId": "case",
+              "startLine": 7,
+              "endLine": 8,
+              "note": "USADA identifies James Howe II as a taekwondo athlete, age 29, of Miami, Florida, in its July 2016 notice. The shared name, sport, and age are consistent with the profile; differing hometowns and the omitted II suffix do not establish a mismatch."
+            }
+          ],
+          "findings": []
+        }
+      }
+    ],
+    "findings": [
+      {
+        "seat": "claude",
+        "requestedModel": "haiku",
+        "batch": "country-012",
+        "attempt": 1,
+        "packetSha256": "eda8ecf21d791d3c8d5505cb59818f2c59e45a1684ec3ef0a0737b78c1675f7a",
+        "answerSha256": "9730e3383609f006120a350ef1b5022211e3ecff21c971000967ce98f0be1518",
+        "characterStart": 27,
+        "characterEnd": 1933,
+        "wholeBatchValid": false,
+        "countsForCoverage": true,
+        "field": "identity",
+        "explanation": "名字後綴不符：USADA文件明確稱「James Howe II」（case第1、7行），但Team USA官方頁面只顯示「James Howe」（country第448-449行），無II後綴。",
+        "suggestion": "須確認Team USA頁面確實屬同一人；Team USA官方列表通常完整呈現正式名字，此項差異需澄清。"
+      },
+      {
+        "seat": "claude",
+        "requestedModel": "haiku",
+        "batch": "country-012",
+        "attempt": 1,
+        "packetSha256": "eda8ecf21d791d3c8d5505cb59818f2c59e45a1684ec3ef0a0737b78c1675f7a",
+        "answerSha256": "9730e3383609f006120a350ef1b5022211e3ecff21c971000967ce98f0be1518",
+        "characterStart": 27,
+        "characterEnd": 1933,
+        "wholeBatchValid": false,
+        "countsForCoverage": true,
+        "field": "identity",
+        "explanation": "城市信息矛盾：USADA記載「Miami, Florida」（case第7行），但Team USA官方頁Hometown列「San Ramon」（country第457-458行）。",
+        "suggestion": "可能代表現居地與出生地/成長地的差異，但需確認是否為同一人。"
+      },
+      {
+        "seat": "claude",
+        "requestedModel": "haiku",
+        "batch": "country-012",
+        "attempt": 1,
+        "packetSha256": "eda8ecf21d791d3c8d5505cb59818f2c59e45a1684ec3ef0a0737b78c1675f7a",
+        "answerSha256": "9730e3383609f006120a350ef1b5022211e3ecff21c971000967ce98f0be1518",
+        "characterStart": 27,
+        "characterEnd": 1933,
+        "wholeBatchValid": false,
+        "countsForCoverage": true,
+        "field": "temporalScope",
+        "explanation": "Team USA官方頁面為當前查閱時資料，無2016年明確標記。提議範圍「official_profile_at_lookup」僅能支持查閱時的代表身份，不足以回溯確認2016年代表資格。USADA case文件本身明確確認2016年7月美國代表身份（含USA Taekwondo Senior Team Trials），但此證據與提議的「official_profile_at_lookup」來源框架不符。",
+        "suggestion": "若要支持2016年代表身份，應明確以USADA case文件為主要依據；若依賴Team USA官方頁面，時間範圍應限制為「查閱時點」或需補充其他2016年代表資格證明。"
+      }
+    ],
+    "modelSeats": [
+      "claude",
+      "codex"
+    ],
+    "coverageComplete": true
+  }
+]

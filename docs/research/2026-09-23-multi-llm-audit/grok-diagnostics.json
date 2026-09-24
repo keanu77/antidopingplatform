@@ -1,0 +1,51 @@
+{
+  "checkedAt": "2026-09-23T05:18:51.476839+00:00",
+  "sessionMetadataModelId": "grok-4.6",
+  "reasoningEffort": "high",
+  "assistantMessagesPersisted": 0,
+  "lastPhaseEvents": [
+    {
+      "ts": "2026-09-23T05:16:49.853Z",
+      "type": "phase_changed",
+      "phase": "streaming_reasoning"
+    },
+    {
+      "ts": "2026-09-23T05:16:54.516Z",
+      "type": "phase_changed",
+      "phase": "streaming_reasoning"
+    },
+    {
+      "ts": "2026-09-23T05:16:59.724Z",
+      "type": "phase_changed",
+      "phase": "streaming_reasoning"
+    },
+    {
+      "ts": "2026-09-23T05:17:00.091Z",
+      "type": "phase_changed",
+      "phase": "streaming_reasoning"
+    },
+    {
+      "ts": "2026-09-23T05:17:04.461Z",
+      "type": "phase_changed",
+      "phase": "streaming_reasoning"
+    },
+    {
+      "ts": "2026-09-23T05:17:10.224Z",
+      "type": "phase_changed",
+      "phase": "streaming_reasoning"
+    },
+    {
+      "ts": "2026-09-23T05:17:10.737Z",
+      "type": "phase_changed",
+      "phase": "streaming_reasoning"
+    },
+    {
+      "ts": "2026-09-23T05:17:16.708Z",
+      "type": "phase_changed",
+      "phase": "streaming_reasoning"
+    }
+  ],
+  "stdoutBytes": 0,
+  "stderrBytes": 0,
+  "interpretation": "工作階段確實存在且持續回報 streaming_reasoning，但無 assistant 答案及 CLI 最終輸出。不能當作來源核對完成；並未據此斷言驗證失敗源於認證、配額或網路。"
+}

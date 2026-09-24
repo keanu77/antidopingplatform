@@ -1,0 +1,298 @@
+{
+  "cases": [
+    {
+      "id": "aiu-50c7d7af7b33",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-05815f4b3cc4950e",
+        "registry-8397269450c8a5f6"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-05815f4b3cc4950e",
+          "startLine": 12,
+          "endLine": 12,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "確認選手為來自印度的長跑選手 Rameshwar Munjal"
+        },
+        {
+          "documentId": "doc-05815f4b3cc4950e",
+          "startLine": 55,
+          "endLine": 62,
+          "supports": [
+            "event",
+            "substance",
+            "dates"
+          ],
+          "note": "確認於 2024 年 12 月 8 日孟買半程馬拉松賽事中採樣，檢出 EPO 與 dEPO 陽性反應"
+        },
+        {
+          "documentId": "doc-05815f4b3cc4950e",
+          "startLine": 161,
+          "endLine": 221,
+          "supports": [
+            "sanction",
+            "outcomes",
+            "education"
+          ],
+          "note": "確認因使用多種禁用物質構成加重情節（原處分六年），因及早承認減輕一年為五年禁賽（自 2025 年 4 月 14 日起），並取消 2024 年 12 月 8 日起之成績"
+        },
+        {
+          "documentId": "registry-8397269450c8a5f6",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊確認禁賽五年及取消 2024 年 12 月 8 日起成績之最終處分"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "aiu-035a4b79e093",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-74bb19a4b3edbc20",
+        "registry-22a02fee17b0eb5b"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-74bb19a4b3edbc20",
+          "startLine": 12,
+          "endLine": 12,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "確認選手為來自肯亞的路跑選手 Emmanuel Kipchumba Kemboi"
+        },
+        {
+          "documentId": "doc-74bb19a4b3edbc20",
+          "startLine": 55,
+          "endLine": 60,
+          "supports": [
+            "event",
+            "substance",
+            "dates"
+          ],
+          "note": "確認於 2024 年 10 月 6 日里斯本馬拉松賽事中採樣，檢出 Triamcinolone acetonide 陽性反應"
+        },
+        {
+          "documentId": "doc-74bb19a4b3edbc20",
+          "startLine": 95,
+          "endLine": 100,
+          "supports": [
+            "dates",
+            "education"
+          ],
+          "note": "確認註 2 記載生物護照程序之追加分析結果為陰性，且其記載通報年份存在筆誤"
+        },
+        {
+          "documentId": "doc-74bb19a4b3edbc20",
+          "startLine": 128,
+          "endLine": 136,
+          "supports": [
+            "sanction",
+            "outcomes"
+          ],
+          "note": "確認選手承認違規並接受兩年禁賽（自 2025 年 4 月 7 日起）及取消 2024 年 10 月 6 日起之成績"
+        },
+        {
+          "documentId": "registry-22a02fee17b0eb5b",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊確認處分兩年及取消 2024 年 10 月 6 日起成績"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "aiu-71b27e0cc19d",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-803499e9bfc63541",
+        "registry-40657c9c3677953e"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-803499e9bfc63541",
+          "startLine": 12,
+          "endLine": 12,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "確認選手為來自中國的路跑選手 Liya Guo"
+        },
+        {
+          "documentId": "doc-803499e9bfc63541",
+          "startLine": 55,
+          "endLine": 62,
+          "supports": [
+            "event",
+            "substance",
+            "dates"
+          ],
+          "note": "確認於 2025 年 3 月 2 日無錫太湖女子半馬賽事中採樣，檢出 Metandienone 代謝物陽性反應"
+        },
+        {
+          "documentId": "doc-803499e9bfc63541",
+          "startLine": 84,
+          "endLine": 101,
+          "supports": [
+            "substance",
+            "education"
+          ],
+          "note": "確認選手稱使用的補充品標籤載有 Methyltestosterone，註 2 亦載明檢出代謝物可來自甲基睪固酮等外源性類固醇"
+        },
+        {
+          "documentId": "doc-803499e9bfc63541",
+          "startLine": 165,
+          "endLine": 175,
+          "supports": [
+            "sanction",
+            "outcomes"
+          ],
+          "note": "確認因及早承認獲一年減輕，處三年禁賽（自 2025 年 3 月 24 日起），並取消 2025 年 3 月 2 日起之成績"
+        },
+        {
+          "documentId": "registry-40657c9c3677953e",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊確認處分三年及取消 2025 年 3 月 2 日起成績"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "aiu-ca441528de10",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-1ffa47efea8ce3b0",
+        "registry-76a4fa1089d7e311"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-1ffa47efea8ce3b0",
+          "startLine": 12,
+          "endLine": 12,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "確認選手為來自肯亞的路跑選手 Brimin Misoi Kipkorir"
+        },
+        {
+          "documentId": "doc-1ffa47efea8ce3b0",
+          "startLine": 55,
+          "endLine": 82,
+          "supports": [
+            "event",
+            "substance",
+            "dates"
+          ],
+          "note": "確認於 2024 年 11 月 22 日肯亞賽外採樣，初檢檢出 Furosemide，後續追加分析再檢出 EPO 陽性"
+        },
+        {
+          "documentId": "doc-1ffa47efea8ce3b0",
+          "startLine": 119,
+          "endLine": 130,
+          "supports": [
+            "education"
+          ],
+          "note": "確認選手起初表達欲接受兩年禁賽，經 AIU 說明加重情節後，選手接受加重並經及早承認減免後之處分條件"
+        },
+        {
+          "documentId": "doc-1ffa47efea8ce3b0",
+          "startLine": 241,
+          "endLine": 251,
+          "supports": [
+            "sanction",
+            "outcomes"
+          ],
+          "note": "確認構成加重情節處六年禁賽，因及早承認減免一年，最終處五年禁賽（自 2025 年 2 月 17 日起）及取消 2024 年 11 月 22 日起成績"
+        },
+        {
+          "documentId": "registry-76a4fa1089d7e311",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊確認處分五年及取消 2024 年 11 月 22 日起成績"
+        }
+      ],
+      "findings": []
+    }
+  ]
+}

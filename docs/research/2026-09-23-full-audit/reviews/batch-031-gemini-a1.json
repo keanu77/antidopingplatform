@@ -1,0 +1,175 @@
+{
+  "cases": [
+    {
+      "id": "aiu-efd2d8d072ff",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-da0e477ddb9d1312",
+        "registry-727e347d555a47fc"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-da0e477ddb9d1312",
+          "startLine": 1,
+          "endLine": 2,
+          "supports": [
+            "identity"
+          ],
+          "note": "AIU裁決主體為田徑選手Pavel Ivashko"
+        },
+        {
+          "documentId": "registry-727e347d555a47fc",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "AIU官方名冊確認選手RUS代表身分、LIMS物質違規、4年禁賽與取消成績"
+        },
+        {
+          "documentId": "doc-da0e477ddb9d1312",
+          "startLine": 85,
+          "endLine": 89,
+          "supports": [
+            "event",
+            "substance",
+            "dates"
+          ],
+          "note": "2014年5月19日賽外檢測樣本依2015 LIMS檢出ostarine"
+        },
+        {
+          "documentId": "doc-da0e477ddb9d1312",
+          "startLine": 223,
+          "endLine": 226,
+          "supports": [
+            "sanction"
+          ],
+          "note": "因涉及俄羅斯系統性操縱計畫構成加重情節處最重4年禁賽"
+        },
+        {
+          "documentId": "doc-da0e477ddb9d1312",
+          "startLine": 258,
+          "endLine": 263,
+          "supports": [
+            "dates",
+            "outcomes",
+            "sanction"
+          ],
+          "note": "裁決自2025年11月7日起禁賽4年，並取消2014年5月19日至決定日成績"
+        },
+        {
+          "documentId": "doc-da0e477ddb9d1312",
+          "startLine": 6,
+          "endLine": 18,
+          "supports": [
+            "education"
+          ],
+          "note": "確認本案源於2014年歷史樣本LIMS數據調查，非2025年新採樣"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "aiu-6d47d6430f87",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-16a42052f18e3ee5",
+        "registry-c4e05d596481c19a"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-16a42052f18e3ee5",
+          "startLine": 13,
+          "endLine": 13,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "AIU裁決載明選手Esphond Cheruiyot為肯亞路跑運動員"
+        },
+        {
+          "documentId": "registry-c4e05d596481c19a",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊記錄選手KEN代表身分、曲美他嗪違規、禁賽3年及取消成績起算日"
+        },
+        {
+          "documentId": "doc-16a42052f18e3ee5",
+          "startLine": 59,
+          "endLine": 65,
+          "supports": [
+            "event",
+            "substance",
+            "dates"
+          ],
+          "note": "2025年9月21日布宜諾斯艾利斯馬拉松賽內樣本檢出Trimetazidine"
+        },
+        {
+          "documentId": "doc-16a42052f18e3ee5",
+          "startLine": 86,
+          "endLine": 87,
+          "supports": [
+            "event",
+            "education"
+          ],
+          "note": "選手於2025年10月23日收到指控同日簽署承認違規與接受後果表單"
+        },
+        {
+          "documentId": "doc-16a42052f18e3ee5",
+          "startLine": 128,
+          "endLine": 140,
+          "supports": [
+            "sanction",
+            "education"
+          ],
+          "note": "適用Rule 10.8.1及早承認規定，4年基準刑減免1年為3年"
+        },
+        {
+          "documentId": "doc-16a42052f18e3ee5",
+          "startLine": 168,
+          "endLine": 173,
+          "supports": [
+            "dates",
+            "sanction",
+            "outcomes"
+          ],
+          "note": "處以3年禁賽自2025年10月23日起算，取消2025年9月21日起之所有成績"
+        }
+      ],
+      "findings": []
+    }
+  ]
+}

@@ -1,0 +1,426 @@
+{
+  "cases": [
+    {
+      "id": "usada-1a29ad9ab5d6",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-9523bfec22635a9d",
+        "registry-0bbe948a88fdbd9e"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-9523bfec22635a9d",
+          "startLine": 7,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告確認 Tam Nguyen 為舉重選手，於地方賽因名列前茅被選檢並拒絕採樣，禁賽四年且取消相關成績。"
+        },
+        {
+          "documentId": "doc-9523bfec22635a9d",
+          "startLine": 8,
+          "endLine": 9,
+          "supports": [
+            "education"
+          ],
+          "note": "公告說明由 USA Weightlifting 核准的地方賽也適用檢測及反禁藥規則。"
+        },
+        {
+          "documentId": "registry-0bbe948a88fdbd9e",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "sanction"
+          ],
+          "note": "名冊列出 Tam Nguyen、舉重、拒絕採樣及四年處分。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-5c49a520d9f7",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-4627a29b88a6e291",
+        "registry-41109c815ff20b02"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-4627a29b88a6e291",
+          "startLine": 7,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告確認 Bayer 的舉重項目、陽性物質、採樣日、教練建議及配合調查、兩年半禁賽與取消成績；準備使用日為 2015-10-16。"
+        },
+        {
+          "documentId": "registry-41109c815ff20b02",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "sanction"
+          ],
+          "note": "名冊確認 Bayer 舉重、clomiphene 與 GW1516、兩年半處分及公告日期。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-0c3eeb120b51",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-cea5f15fa5677b9d",
+        "registry-7332469319b01f69"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-cea5f15fa5677b9d",
+          "startLine": 7,
+          "endLine": 11,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告確認 Park 為帕拉田徑選手；賽馬拉松時申報外源性合成代謝劑，後續賽外檢體經 IRMS 確認，處方治療劑量但未事先取得 TUE，禁賽及成績取消自申報日計。"
+        },
+        {
+          "documentId": "registry-7332469319b01f69",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "sanction"
+          ],
+          "note": "名冊列出 Peter Park、帕拉田徑、合成代謝類物質及 21 個月處分。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-005ef8b2c89f",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-3d4fa05c22f7a999",
+        "registry-9bddb70b7830f584"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-3d4fa05c22f7a999",
+          "startLine": 7,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告確認 Nackoul 承認持有所列肽類及 Thymosin Beta 4，禁賽自承認違規日計四年，成績取消自首次訂購日起。"
+        },
+        {
+          "documentId": "registry-9bddb70b7830f584",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "sanction"
+          ],
+          "note": "名冊記載 Nackoul 舉重項目、肽類持有非分析違規及四年處分。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-a866a19663a5",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-aba2b895462e662d",
+        "registry-02b1a89afbb94651"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-aba2b895462e662d",
+          "startLine": 7,
+          "endLine": 12,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告確認 Dosterschill 舉重項目、比賽檢體所涉物質、管轄權仲裁結果、四年處分及成績取消日期。"
+        },
+        {
+          "documentId": "registry-02b1a89afbb94651",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction"
+          ],
+          "note": "名冊列出 Robert Kyle Dosterschill、舉重、相關物質及四年處分。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-ab372572f1a9",
+      "status": "issue",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "issue",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-f84b9f9d73ee7ce4",
+        "registry-384995e1c9426cd1"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-f84b9f9d73ee7ce4",
+          "startLine": 7,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告確認 Moore 的 ostarine 陽性、來源未能建立、四年禁賽及成績取消期，但未提及退休或停算。"
+        },
+        {
+          "documentId": "registry-384995e1c9426cd1",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "sanction"
+          ],
+          "note": "名冊明列因退休而暫停計算處分期。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "sanction",
+          "kind": "contradiction",
+          "severity": "medium",
+          "claim": "「目前名冊另列退休停算」",
+          "explanation": "公告未提退休停算，但所附名冊明確註記因退休而暫停計算；事件背景將其列為目前狀態，超出這份凍結名冊可確立的現況。",
+          "sourceRefs": [
+            {
+              "documentId": "registry-384995e1c9426cd1",
+              "startLine": 1,
+              "endLine": 1
+            }
+          ],
+          "suggestion": "將該註記限縮為所附名冊記載，避免稱為目前狀態。"
+        }
+      ]
+    },
+    {
+      "id": "usada-9c8b8e7bbb4c",
+      "status": "issue",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "issue",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-b857072fc52e1f9b",
+        "registry-7e7effec89e7d7cd"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-b857072fc52e1f9b",
+          "startLine": 7,
+          "endLine": 9,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告確認 Creveling 的競速滑冰項目、clomiphene 賽外陽性、四年處分自接受暫時禁賽日起算及成績取消起日。"
+        },
+        {
+          "documentId": "registry-7e7effec89e7d7cd",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "sanction"
+          ],
+          "note": "名冊記載因退休暫停計算處分期。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "sanction",
+          "kind": "contradiction",
+          "severity": "medium",
+          "claim": "「目前名冊另列退休停算」",
+          "explanation": "附上的凍結名冊確實記載退休停算，但它不能證明截至目前的狀態或完整復出餘期；公告本身未提退休停算。",
+          "sourceRefs": [
+            {
+              "documentId": "registry-7e7effec89e7d7cd",
+              "startLine": 1,
+              "endLine": 1
+            }
+          ],
+          "suggestion": "改為「所附名冊註記退休期間停算」，不要將其描述為已核實的目前狀態。"
+        }
+      ]
+    },
+    {
+      "id": "usada-36b25b3d84e6",
+      "status": "issue",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "issue",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-20d8d0a920e53601",
+        "registry-94e8f664a7e7b566"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-20d8d0a920e53601",
+          "startLine": 7,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告確認 Young 的田徑項目、肽類持有與使用、四年處分自承認日起算及成績取消起日。"
+        },
+        {
+          "documentId": "registry-94e8f664a7e7b566",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "sanction"
+          ],
+          "note": "名冊記載因退休暫停計算處分期。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "sanction",
+          "kind": "contradiction",
+          "severity": "medium",
+          "claim": "「目前名冊另列退休停算」",
+          "explanation": "所附名冊註記退休停算，但只是凍結名冊列項，不能確認截至目前狀態或剩餘停賽期；公告沒有退休資訊。",
+          "sourceRefs": [
+            {
+              "documentId": "registry-94e8f664a7e7b566",
+              "startLine": 1,
+              "endLine": 1
+            }
+          ],
+          "suggestion": "將說法限定為「所附名冊註記退休期間停算」，並避免宣稱目前狀態或復出餘期。"
+        }
+      ]
+    }
+  ]
+}

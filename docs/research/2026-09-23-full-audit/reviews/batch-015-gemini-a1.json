@@ -1,0 +1,319 @@
+{
+  "cases": [
+    {
+      "id": "ita-3bea7cef0331",
+      "status": "issue",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "issue",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-66869ab21e2aa86f",
+        "registry-22292fd14a5eed15"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-66869ab21e2aa86f",
+          "startLine": 2,
+          "endLine": 4,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates"
+          ],
+          "note": "UCI公告哈薩克自行車選手Ilkhan Dostiyev因CERA違規接受四年禁賽（2024-09-09至2028-09-08）"
+        },
+        {
+          "documentId": "registry-22292fd14a5eed15",
+          "startLine": 1,
+          "endLine": 20,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates"
+          ],
+          "note": "ITA官方名冊載明選手身分、違規條款Art. 2.1/2.2、四年禁賽期間及自2024-07-30至2024-09-09取消成績"
+        }
+      ],
+      "findings": [
+        {
+          "field": "outcomes",
+          "kind": "contradiction",
+          "severity": "medium",
+          "claim": "resultsCancelled: null",
+          "explanation": "聲稱本篇個案公告未列個人成績取消並將該欄保留未知，但同案所附官方名冊已明確記錄取消成績（Disqualification）期間為 2024 年 7 月 30 日至 2024 年 9 月 9 日。",
+          "sourceRefs": [
+            {
+              "documentId": "registry-22292fd14a5eed15",
+              "startLine": 19,
+              "endLine": 20
+            }
+          ],
+          "suggestion": "應依官方名冊將 resultsCancelled 修正為 true，並載明取消成績期間為 2024 年 7 月 30 日至 2024 年 9 月 9 日。"
+        }
+      ]
+    },
+    {
+      "id": "ita-b419c5a1a737",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-d95f72f0e56f9e42",
+        "registry-244a312793bca3a6"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-d95f72f0e56f9e42",
+          "startLine": 1,
+          "endLine": 5,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "ITA公告印度拳擊選手Parveen Hooda因行蹤失誤接受22個月禁賽至2025-07-16，並取消2022-12-11至2024-05-17成績"
+        },
+        {
+          "documentId": "registry-244a312793bca3a6",
+          "startLine": 1,
+          "endLine": 20,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "ITA官方名冊載明22個月禁賽（2023-09-17至2025-07-16）及取消成績期間（2022-12-11至2024-05-17）"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-92183cbe5be3",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-bfaca5a7548575c9",
+        "registry-e0b96ef58b363dce"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-bfaca5a7548575c9",
+          "startLine": 2,
+          "endLine": 5,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "ITA公告巴西選手Derik Felix Afornali因clomifene陽性接受兩年禁賽至2024-10-03，並取消2022-10-04後成績"
+        },
+        {
+          "documentId": "registry-e0b96ef58b363dce",
+          "startLine": 1,
+          "endLine": 20,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "ITA官方名冊載明兩年禁賽（2022-10-04至2024-10-03）及取消成績期間（2022-10-04至2023-10-13）"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-5ab80b907039",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-41aa31f829df0aed",
+        "registry-e40d0c257876af9b"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-41aa31f829df0aed",
+          "startLine": 2,
+          "endLine": 6,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "education"
+          ],
+          "note": "ITA公告前IWF主席Tamas Ajan因竄改與共謀違規遭CAS ADD裁處終身禁賽"
+        },
+        {
+          "documentId": "registry-e40d0c257876af9b",
+          "startLine": 1,
+          "endLine": 20,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "ITA官方名冊載明匈牙利籍官員身分、Art. 2.5/2.9違規、自2022-06-16終身資格限制及取消成績不適用"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-9a8b5dd8e2a1",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-d995c584a4576d61",
+        "registry-8818b14551ae696e"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-d995c584a4576d61",
+          "startLine": 2,
+          "endLine": 5,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "ITA公告CAS上訴維持葡萄牙衝浪選手Vasco Ribeiro拒檢三年禁賽（自2023-07-13起）及取消2022-04-17至2023-07-13成績"
+        },
+        {
+          "documentId": "registry-8818b14551ae696e",
+          "startLine": 1,
+          "endLine": 20,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "ITA官方名冊載明三年禁賽（2023-07-13至2026-07-12）及取消成績期間（2022-04-17至2023-07-13）"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "aiu-fcb63b1504c8",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-e113704817d07ffc",
+        "registry-326df059e071680c"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-e113704817d07ffc",
+          "startLine": 367,
+          "endLine": 377,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "AIU正式裁決確認肯亞跑者Kibiwott Kandie拒檢及竄改違規，依連續執行及及早承認減為自2025-03-14起禁賽七年，取消2025-03-01起成績"
+        },
+        {
+          "documentId": "registry-326df059e071680c",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "AIU官方名冊載明Kibiwott Kandie (KEN)因Rule 2.3與2.5違規處自2025-03-14起禁賽7年並取消2025-03-01起成績"
+        }
+      ],
+      "findings": []
+    }
+  ]
+}

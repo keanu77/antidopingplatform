@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import {
   FileText,
   Info,
@@ -78,6 +78,8 @@ function TUE() {
   const [drugCheckResult, setDrugCheckResult] = useState(null);
   const [drugCheckLoading, setDrugCheckLoading] = useState(false);
   const [drugCheckError, setDrugCheckError] = useState(null);
+  const drugRequestIdRef = useRef(0);
+  const drugPendingRef = useRef(false);
 
   // P1-11 多步決策工具（藥物 × 途徑 × 賽內外 × 運動項目）
   const [substances, setSubstances] = useState(null);
@@ -89,6 +91,10 @@ function TUE() {
 
   useEffect(() => {
     document.title = "TUE 治療用途豁免指南 | 乾淨運動從你我開始";
+    return () => {
+      drugRequestIdRef.current += 1;
+      drugPendingRef.current = false;
+    };
   }, []);
 
   // 載入結構化物質清單（供決策工具與下拉選單），只需一次
@@ -107,19 +113,39 @@ function TUE() {
     };
   }, []);
 
-  const handleDrugCheck = async () => {
-    if (!drugCheckQuery.trim()) return;
+  const handleDrugCheck = async (event) => {
+    event.preventDefault();
+    const query = drugCheckQuery.trim();
+    if (!query || drugPendingRef.current) return;
+    const requestId = ++drugRequestIdRef.current;
+    drugPendingRef.current = true;
     setDrugCheckLoading(true);
     setDrugCheckError(null);
+    setDrugCheckResult(null);
     try {
-      const res = await tueAPI.checkDrugTUE(drugCheckQuery.trim());
+      const res = await tueAPI.checkDrugTUE(query);
+      if (requestId !== drugRequestIdRef.current) return;
       setDrugCheckResult(res.data);
     } catch {
+      if (requestId !== drugRequestIdRef.current) return;
       setDrugCheckError("查詢失敗，請檢查網路連線後再試");
       setDrugCheckResult(null);
     } finally {
-      setDrugCheckLoading(false);
+      if (requestId === drugRequestIdRef.current) {
+        drugPendingRef.current = false;
+        setDrugCheckLoading(false);
+      }
     }
+  };
+
+  const handleDrugQueryChange = (event) => {
+    // 新輸入使上一個查詢失效；只有與目前輸入相符的回覆能顯示。
+    drugRequestIdRef.current += 1;
+    drugPendingRef.current = false;
+    setDrugCheckQuery(event.target.value);
+    setDrugCheckLoading(false);
+    setDrugCheckResult(null);
+    setDrugCheckError(null);
   };
 
   // 切換藥物時重置途徑／運動選擇，避免殘留前一個藥的選項
@@ -356,7 +382,7 @@ function TUE() {
                       特定運動禁用（P1 β阻斷劑）
                     </h4>
                     <p className="text-gray-700">
-                      僅在特定運動禁用，並非全部項目。射箭、射擊為賽內與賽外皆禁用（應比照隨時禁用儘速申請）；其餘特定項目（如高爾夫、飛鏢、部分滑雪／滑雪板項目）僅賽內禁用。
+                      射箭（WA）、射擊（ISSF／IPC），以及 CMAS 自由潛水、魚槍捕魚、水下標靶射擊的所有分項，賽內與賽外皆禁用；汽車運動（FIA）、撞球（WCBS）、飛鏢（WDF）、高爾夫（IGF）、迷你高爾夫（WMF）僅賽內禁用。受限情境有醫療需要時，須依規定申請 TUE。
                     </p>
                     <p className="text-gray-600 text-sm mt-1">
                       申請時程依該運動屬「賽內外皆禁」或「僅賽內禁」而定，請對照最新版禁用清單
@@ -1437,24 +1463,23 @@ function TUE() {
               輸入藥物名稱（中英文皆可，如 salbutamol、胰島素、利他能），查詢
               WADA 分類與是否需要 TUE。
             </p>
-            <div className="flex gap-2">
+            <form className="flex gap-2" onSubmit={handleDrugCheck}>
               <input
                 type="text"
                 value={drugCheckQuery}
-                onChange={(e) => setDrugCheckQuery(e.target.value)}
-                onKeyDown={(e) => e.key === "Enter" && handleDrugCheck()}
+                onChange={handleDrugQueryChange}
                 placeholder="輸入藥物名稱後按查詢"
                 aria-label="藥物名稱"
                 className="flex-1 px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-primary-500"
               />
               <button
-                onClick={handleDrugCheck}
+                type="submit"
                 disabled={drugCheckLoading || !drugCheckQuery.trim()}
                 className="px-6 py-2 bg-primary-600 text-white rounded-lg font-medium hover:bg-primary-700 transition disabled:opacity-50 disabled:cursor-not-allowed"
               >
                 {drugCheckLoading ? "查詢中…" : "查詢"}
               </button>
-            </div>
+            </form>
 
             {drugCheckError && (
               <p className="mt-3 text-sm text-red-600">{drugCheckError}</p>
@@ -1515,10 +1540,11 @@ function TUE() {
               <div className="space-y-4">
                 {/* 步驟 1：選藥物 */}
                 <div>
-                  <label className="block text-sm font-medium text-gray-700 mb-1">
+                  <label htmlFor="tue-decision-drug" className="block text-sm font-medium text-gray-700 mb-1">
                     選擇藥物
                   </label>
                   <select
+                    id="tue-decision-drug"
                     value={decisionKey}
                     onChange={(e) => handleDecisionDrugChange(e.target.value)}
                     className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500"
@@ -1542,10 +1568,11 @@ function TUE() {
                 {/* 步驟 2：給藥途徑（僅有途徑差異的藥顯示） */}
                 {decisionSubstance && decisionRoutes.length > 0 && (
                   <div>
-                    <label className="block text-sm font-medium text-gray-700 mb-1">
+                    <label htmlFor="tue-decision-route" className="block text-sm font-medium text-gray-700 mb-1">
                       給藥途徑
                     </label>
                     <select
+                      id="tue-decision-route"
                       value={decisionRoute}
                       onChange={(e) => setDecisionRoute(e.target.value)}
                       className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500"
@@ -1564,12 +1591,13 @@ function TUE() {
                 {decisionSubstance &&
                   requiresCompetitionContext(decisionSubstance) && (
                     <div>
-                      <label className="block text-sm font-medium text-gray-700 mb-1">
+                      <p id="tue-competition-label" className="block text-sm font-medium text-gray-700 mb-1">
                         使用時機（賽內／賽外）
-                      </label>
-                      <div className="flex gap-2">
+                      </p>
+                      <div className="flex gap-2" role="group" aria-labelledby="tue-competition-label">
                         <button
                           type="button"
+                          aria-pressed={decisionInComp}
                           onClick={() => setDecisionInComp(true)}
                           className={`flex-1 px-4 py-2 rounded-lg font-medium border transition ${
                             decisionInComp
@@ -1581,6 +1609,7 @@ function TUE() {
                         </button>
                         <button
                           type="button"
+                          aria-pressed={!decisionInComp}
                           onClick={() => setDecisionInComp(false)}
                           className={`flex-1 px-4 py-2 rounded-lg font-medium border transition ${
                             !decisionInComp
@@ -1597,10 +1626,11 @@ function TUE() {
                 {/* 步驟 4：運動項目（僅 P1 Beta 阻斷劑顯示） */}
                 {decisionSubstance && requiresSport(decisionSubstance) && (
                   <div>
-                    <label className="block text-sm font-medium text-gray-700 mb-1">
+                    <label htmlFor="tue-decision-sport" className="block text-sm font-medium text-gray-700 mb-1">
                       運動項目
                     </label>
                     <select
+                      id="tue-decision-sport"
                       value={decisionSport}
                       onChange={(e) => setDecisionSport(e.target.value)}
                       className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500"
@@ -1612,7 +1642,7 @@ function TUE() {
                         </option>
                       ))}
                       <option value="其他運動項目">
-                        其他運動項目（非精準運動）
+                        其他運動項目（未列於 P1）
                       </option>
                     </select>
                   </div>

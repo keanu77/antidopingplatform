@@ -1,0 +1,112 @@
+[
+  {
+    "name": "claude-stderr.txt",
+    "path": ".cache/multi-llm-audit-20260923/claude-stderr.txt",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "name": "gemini-bounded-prompt.txt",
+    "path": ".cache/multi-llm-audit-20260923/gemini-bounded-prompt.txt",
+    "sha256": "ca14e52f531b18c611f3c659cbbef46d82bd5cd9ee1bdb8129efc72be64ef43f"
+  },
+  {
+    "name": "gemini-stderr.txt",
+    "path": ".cache/multi-llm-audit-20260923/gemini-stderr.txt",
+    "sha256": "04a3fd7b53540108a5ddd980fe2cbad6d681c6fa15eeb5fb69a969fb581fe0c0"
+  },
+  {
+    "name": "codex-stderr.txt",
+    "path": ".cache/multi-llm-audit-20260923/codex-stderr.txt",
+    "sha256": "1aa26269eb1cc57f86b235a03cda53c004edb5b1e9fc99d4da4f00843293d721"
+  },
+  {
+    "name": "bounded-eight-source-packet.json",
+    "path": ".cache/multi-llm-audit-20260923/bounded-eight-source-packet.json",
+    "sha256": "3e0532f58cf0c3b0eb07ac36402c215898a9231bb4d4aeca87230e7bdb6dcf53"
+  },
+  {
+    "name": "gemini-bounded-stdout.txt",
+    "path": ".cache/multi-llm-audit-20260923/gemini-bounded-stdout.txt",
+    "sha256": "90ad3e2a69f1bd9c49860b6d0e8a868afb4dded170900601f222e5b655ef3cfc"
+  },
+  {
+    "name": "claude-stdout.txt",
+    "path": ".cache/multi-llm-audit-20260923/claude-stdout.txt",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "name": "gemini-stdout.txt",
+    "path": ".cache/multi-llm-audit-20260923/gemini-stdout.txt",
+    "sha256": "8827d351eb736421d5b41bff79b9758d1f69512fbd8fa1d9810e1b145df63745"
+  },
+  {
+    "name": "codex-stdout.txt",
+    "path": ".cache/multi-llm-audit-20260923/codex-stdout.txt",
+    "sha256": "b756a0a08a854cc5f57c5a8303bd65b0d12d43537da16e4981d28498f1affc9b"
+  },
+  {
+    "name": "gemini-bounded-stderr.txt",
+    "path": ".cache/multi-llm-audit-20260923/gemini-bounded-stderr.txt",
+    "sha256": "3a7f8550106d86abb322e8ed0fb30a0296c0e97c6be03d5a8033b99d16737459"
+  },
+  {
+    "name": "grok-bounded-prompt.txt",
+    "path": ".cache/multi-llm-audit-20260923/grok-bounded-prompt.txt",
+    "sha256": "ca14e52f531b18c611f3c659cbbef46d82bd5cd9ee1bdb8129efc72be64ef43f"
+  },
+  {
+    "name": "grok-initial-run.json",
+    "path": ".cache/multi-llm-audit-20260923/grok-initial-run.json",
+    "sha256": "458b2d7013038719f711fa0b4af399ae0f45950843b389ecdf8016099ce2fddd"
+  },
+  {
+    "name": "grok-initial-stderr.txt",
+    "path": ".cache/multi-llm-audit-20260923/grok-initial-stderr.txt",
+    "sha256": "94d71fa6a96e25001f8c40ee09e8538c39bcd701e3e62b49c89d4c479298f83a"
+  },
+  {
+    "name": "grok-initial-stdout.json",
+    "path": ".cache/multi-llm-audit-20260923/grok-initial-stdout.json",
+    "sha256": "9c6bb9c01d162c723016de83218512e14206137e395a3f3e19eda87ef404bb12"
+  },
+  {
+    "name": "grok-retry-run.json",
+    "path": ".cache/multi-llm-audit-20260923/grok-retry-run.json",
+    "sha256": "d1c1a82c081ccca8864bd4f5ccf3e1513f32e5ef752c6ba3b5300dcaacff9320"
+  },
+  {
+    "name": "grok-retry-stderr.txt",
+    "path": ".cache/multi-llm-audit-20260923/grok-retry-stderr.txt",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "name": "grok-retry-stdout.json",
+    "path": ".cache/multi-llm-audit-20260923/grok-retry-stdout.json",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "name": "coverage-before-grok-extended.json",
+    "path": ".cache/multi-llm-audit-20260923/coverage-before-grok-extended.json",
+    "sha256": "44c92cccfa396faf6863b42ed632288c85f6391d9ecf9b47019b7b594c9f1609"
+  },
+  {
+    "name": "grok-extended-prompt.txt",
+    "path": ".cache/multi-llm-audit-20260923/grok-extended-prompt.txt",
+    "sha256": "0ba25c47487e0c0aa579ef0cf058d984d87a9617eb7252e726e6907ac08762b7"
+  },
+  {
+    "name": "grok-extended-run.json",
+    "path": ".cache/multi-llm-audit-20260923/grok-extended-run.json",
+    "sha256": "5bd44e2c890f5f3c8b5d8226ef846fca7e2a9374308cebae3a40e0a47c99042d"
+  },
+  {
+    "name": "grok-extended-stderr.txt",
+    "path": ".cache/multi-llm-audit-20260923/grok-extended-stderr.txt",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "name": "grok-extended-stdout.json",
+    "path": ".cache/multi-llm-audit-20260923/grok-extended-stdout.json",
+    "sha256": "25a052f8f17df7ba91a9781407f2ecc42f72b232046f75dfea1bf083ef86185e"
+  }
+]

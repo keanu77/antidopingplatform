@@ -1,0 +1,506 @@
+{
+  "cases": [
+    {
+      "id": "usada-7ecfb208518e",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-514844748321ab4d",
+        "registry-21de462950b26351"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-514844748321ab4d",
+          "startLine": 7,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告確認 Roger Ainslie 於 2017-08-03 比賽檢測檢出 GW1516 sulfone，因及時承認由四年減為42個月禁賽並取消該日起成績"
+        },
+        {
+          "documentId": "registry-21de462950b26351",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction"
+          ],
+          "note": "名冊記錄 Ainslie 因 GW1516 處以 42 個月禁賽與成績取消"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "美國",
+          "explanation": "官方文件僅有標題稱 U.S. 運動員及居住於加州 Fallbrook，依規範不得單憑標題或居住地推定國籍或代表權，證據不足。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-514844748321ab4d",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "建議補足具體國籍或代表資格證明，或將該欄位標記為待確認。"
+        }
+      ]
+    },
+    {
+      "id": "usada-38afed413abd",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-fbf94cf45f463bbd",
+        "registry-f649a0029fcf0d27"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-fbf94cf45f463bbd",
+          "startLine": 7,
+          "endLine": 11,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告確認 Buster Brown 於 2016-10-11 賽外檢出外源性睪固酮，TUE 申請未符合標準，處以兩年禁賽並追溯取消 2015-08-01 起成績"
+        },
+        {
+          "documentId": "registry-f649a0029fcf0d27",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction"
+          ],
+          "note": "名冊記錄 Brown 因同化類固醇處以 2 年禁賽及成績取消"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "美國",
+          "explanation": "官方文件僅標題提及 U.S. 運動員及居住於奧克拉荷馬州 Bixby，缺乏確切國籍或代表權證明，依規範列為不確定。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-fbf94cf45f463bbd",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "建議補足國籍或代表代表團證明，或標記為未定。"
+        }
+      ]
+    },
+    {
+      "id": "usada-e833e68d19e3",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-f623d9e8625b0a11",
+        "registry-fa7cb7d4c728136d"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-f623d9e8625b0a11",
+          "startLine": 7,
+          "endLine": 9,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告確認 Scott Gross 於 2018-05-03 賽外採樣拒絕提供尿檢樣本，處四年禁賽並取消該日起成績"
+        },
+        {
+          "documentId": "registry-fa7cb7d4c728136d",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction"
+          ],
+          "note": "名冊確認 Gross 屬拒絕採樣之非分析違規，處以 4 年禁賽與成績取消"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "美國",
+          "explanation": "公告僅見標題稱 U.S. 自行車選手及內文居住於佛羅里達州 Orange Park，無明確國籍登記或參賽代表權證據。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-f623d9e8625b0a11",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "建議補充官方國籍紀錄或註記待查。"
+        }
+      ]
+    },
+    {
+      "id": "usada-1afebbd6c57b",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-409b2d673e4f67ff",
+        "registry-c330c608e3cde847"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-409b2d673e4f67ff",
+          "startLine": 7,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告確認 Cesar Colunga 於 2018-01-13 檢出 ritalinic acid，雖為醫囑處方且事後獲未來 TUE，仍接受四個月禁賽並取消成績"
+        },
+        {
+          "documentId": "registry-c330c608e3cde847",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction"
+          ],
+          "note": "名冊記錄 Colunga 因 Methylphenidate 處以 4 個月禁賽與成績取消"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "美國",
+          "explanation": "官方文件僅提及選手居住於德州 Plano 及標題標記，未直接確立法律國籍或運動代表權，依審查原則視為證據不足。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-409b2d673e4f67ff",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "建議補足其代表國家出賽資格之證明或調整為待確定。"
+        }
+      ]
+    },
+    {
+      "id": "usada-196afd5ac99f",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-7a636c50b2952e2a",
+        "registry-ee35e3ed451702c9"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-7a636c50b2952e2a",
+          "startLine": 7,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告確認 Amanda Kendall 於 2018-02-14 採樣時申報使用含 vilanterol 之 Breo Ellipta，因未事先取得 TUE 處三個月禁賽，成績取消自 2018-02-07 首次用藥日起算"
+        },
+        {
+          "documentId": "registry-ee35e3ed451702c9",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction"
+          ],
+          "note": "名冊記錄 Kendall 屬使用 Vilanterol 之非分析違規，處以 3 個月禁賽及成績取消"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "美國",
+          "explanation": "文件僅列標題稱 U.S. 運動員與印第安納州 Bloomington 居住地，無法直接推定法定國籍或運動代表權。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-7a636c50b2952e2a",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "建議補強國籍或代表代表權之證明資料。"
+        }
+      ]
+    },
+    {
+      "id": "usada-f75282803398",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-7eae2c687c3e5ea2",
+        "registry-b5822231b27053d3"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-7eae2c687c3e5ea2",
+          "startLine": 7,
+          "endLine": 7,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告確認 Abigail Dahlkemper 因治療皮膚使用 spironolactone 未事先取得 TUE，採樣時申報並於事後取得未來 TUE，接受公開警告且無禁賽"
+        },
+        {
+          "documentId": "registry-b5822231b27053d3",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "dates"
+          ],
+          "note": "名冊記錄 Dahlkemper 於 2018-05-04 接受 Spironolactone 公開警告處分"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "美國",
+          "explanation": "公告僅見標題 U.S. 足球選手與加州 Menlo Park 地名，不足以作為國籍或代表權之充分憑據。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-7eae2c687c3e5ea2",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "建議標註國籍未定或補足官方代表權憑證。"
+        }
+      ]
+    },
+    {
+      "id": "usada-cc59982303fb",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-c2d61feaf3f4c3ab",
+        "registry-735217a20ccd49e1"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-c2d61feaf3f4c3ab",
+          "startLine": 7,
+          "endLine": 9,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告確認 Jason Griffin 於 2018-02-11 帕拉場地自行車公開賽檢出古柯鹼代謝物，接受一年禁賽並取消當日起競賽成績"
+        },
+        {
+          "documentId": "registry-735217a20ccd49e1",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction"
+          ],
+          "note": "名冊記錄 Griffin 因古柯鹼代謝物處以 1 年禁賽及成績取消"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "美國",
+          "explanation": "來源僅含標題稱謂及南卡羅來納州 Easley 之居住地描述，缺乏確切國籍或代表國家證明。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-c2d61feaf3f4c3ab",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "建議補充選手運動代表權證實文件。"
+        }
+      ]
+    },
+    {
+      "id": "usada-9de5a5d1696d",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-f7ce61bdcb87ca6a",
+        "registry-53a4f8121cca3395"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-f7ce61bdcb87ca6a",
+          "startLine": 7,
+          "endLine": 9,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告確認 Jessica Rivera 於 2018-03-03 檢出 stanozolol 及其代謝物，處四年禁賽（自 2018-03-28 起算）並取消 2018-03-03 起之成績"
+        },
+        {
+          "documentId": "registry-53a4f8121cca3395",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction"
+          ],
+          "note": "名冊記錄 Rivera 因 Stanozolol 處以 4 年禁賽與成績取消"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "美國",
+          "explanation": "官方文件僅有標題稱 U.S. 舉重運動員與印第安納州 Portage 居住地，無法直接證明國籍或代表權。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-f7ce61bdcb87ca6a",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "建議補充正式國籍證明或設為未定。"
+        }
+      ]
+    }
+  ]
+}

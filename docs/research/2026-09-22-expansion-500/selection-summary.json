@@ -1,0 +1,24 @@
+{
+  "checkedAt": "2026-09-23",
+  "registrySnapshotDate": "2026-09-22",
+  "targetNewCases": 500,
+  "targetTotal": 517,
+  "existingCorrected": 17,
+  "announcementReviewed": 50,
+  "registryChecked": 0,
+  "additionalIndividualReviewed": 450,
+  "newIndividualReviewed": 500,
+  "newIndividualPending": 0,
+  "eligibleRegistryCandidates": 472,
+  "heldBatchCases": 2,
+  "legacyReplacedWithOfficialRecord": [],
+  "legacyPendingArchived": 141,
+  "registrySources": {
+    "ITA": 67,
+    "AIU": 119,
+    "USADA": 264
+  },
+  "newCases": 500,
+  "baselineNameOverlap": 0,
+  "scope": "新增 500 件已逐案核對官方個案文件與名冊的案例，另保留 17 件既有校正／分案；未聲稱所有完整仲裁或上訴卷宗均已審閱。"
+}

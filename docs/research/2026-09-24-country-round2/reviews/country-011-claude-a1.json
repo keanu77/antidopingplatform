@@ -1,0 +1,129 @@
+{
+  "cases": [
+    {
+      "id": "usada-1afebbd6c57b",
+      "status": "supported",
+      "identity": "supported",
+      "country": "supported",
+      "temporalScope": "supported",
+      "evidence": [
+        {
+          "documentId": "country",
+          "startLine": 1,
+          "endLine": 1,
+          "note": "官方 Team USA 頁面標題明確確認 Cesar Colunga"
+        },
+        {
+          "documentId": "country",
+          "startLine": 462,
+          "endLine": 462,
+          "note": "WIKF USA（世界空手道聯合會美國分會）成員"
+        },
+        {
+          "documentId": "country",
+          "startLine": 464,
+          "endLine": 464,
+          "note": "2013 年瓜達拉哈拉世界青年及少年錦標賽代表美國參賽"
+        },
+        {
+          "documentId": "case",
+          "startLine": 1,
+          "endLine": 1,
+          "note": "USADA 案件標題確認為美國空手道運動員"
+        },
+        {
+          "documentId": "case",
+          "startLine": 8,
+          "endLine": 8,
+          "note": "2018 年 1 月 13 日美國空手道高級隊試選中檢測呈陽性"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-2428086c1745",
+      "status": "issue",
+      "identity": "issue",
+      "country": "supported",
+      "temporalScope": "uncertain",
+      "evidence": [
+        {
+          "documentId": "country",
+          "startLine": 1,
+          "endLine": 1,
+          "note": "官方 Team USA 頁面標題確認 Tara Harbert"
+        },
+        {
+          "documentId": "country",
+          "startLine": 448,
+          "endLine": 448,
+          "note": "Team USA 頁面運動項目列為「Softball」（女性壘球）"
+        },
+        {
+          "documentId": "country",
+          "startLine": 463,
+          "endLine": 465,
+          "note": "2008、2010、2014 年世界盃女性隊記錄"
+        },
+        {
+          "documentId": "case",
+          "startLine": 1,
+          "endLine": 1,
+          "note": "USADA 標題列為「US Baseball Athlete」"
+        },
+        {
+          "documentId": "case",
+          "startLine": 7,
+          "endLine": 7,
+          "note": "USADA 紀錄列地點為 Longmont, Colorado；Team USA 官方頁面列 Boulder, CO"
+        }
+      ],
+      "findings": [
+        {
+          "field": "identity",
+          "explanation": "運動項目存在命名不一致：Team USA 官方檔案明確列為「Softball」（第 448 行），但 USADA 案件標題稱「Baseball」且第 7 行指「sport of baseball」。地點也不完全相符：Team USA 列 Boulder, CO；USADA 列 Longmont, Colorado。",
+          "suggestion": "確認該運動員在 2015 年 USADA 檢測時的正式項目分類（Softball vs Baseball），以及是否為同一人。Longmont 和 Boulder 為相鄰城市，可能代表居住地 vs 訓練地差異，但應核實。"
+        },
+        {
+          "field": "temporalScope",
+          "explanation": "Team USA 官方記錄中最後已知的代表美國紀錄為 2014 年世界盃（第 463 行），案例發生於 2015 年 6 月至 8 月。無 2015 年代表美國參賽之直接證據。",
+          "suggestion": "查證該運動員在 2015 年是否仍為美國代表隊成員；官方檔案之年份限制未覆蓋案件發生期間。"
+        }
+      ]
+    },
+    {
+      "id": "usada-e7645ab29f67",
+      "status": "issue",
+      "identity": "supported",
+      "country": "supported",
+      "temporalScope": "issue",
+      "evidence": [
+        {
+          "documentId": "country",
+          "startLine": 117,
+          "endLine": 117,
+          "note": "World Skate 官方報導明確列出 Joseph Mazzie (USA) 在 2015 年 Rosario 錦標賽中進球"
+        },
+        {
+          "documentId": "case",
+          "startLine": 1,
+          "endLine": 1,
+          "note": "USADA 標題確認為美國直排輪曲棍球運動員"
+        },
+        {
+          "documentId": "case",
+          "startLine": 8,
+          "endLine": 8,
+          "note": "案件發生於 2016 年 8 月 24 日"
+        }
+      ],
+      "findings": [
+        {
+          "field": "temporalScope",
+          "explanation": "提供的國家來源為 2015 年 6 月 Rosario 世界錦標賽官方報導。案件年份為 2016 年 8 月，距官方紀錄逾 1 年。編輯已註明「不據此推定 2016 年代表資格」。單一 2015 年賽事紀錄無法確立 2016 年的運動隸屬資格。",
+          "suggestion": "尋求 2016 年美國隊列名或官方記錄以直接支持 2016 年代表身份，或將時間範圍限制在已驗證的 2015 年期間。"
+        }
+      ]
+    }
+  ]
+}

@@ -83,12 +83,13 @@ describe("POST /api/tue/check 單一來源升級（P1-10）", () => {
     expect(res.body.matchedKey).toBe("methylphenidate");
   });
 
-  it("testosterone → needsTUE false 且 tueEligible false（實務極少獲准）", async () => {
+  it("testosterone → 需申請 TUE 並由 TUEC 個案審查", async () => {
     const res = await request(app)
       .post("/api/tue/check")
       .send({ drugName: "testosterone" });
-    expect(res.body.needsTUE).toBe(false);
-    expect(res.body.tueEligible).toBe(false);
+    expect(res.body.needsTUE).toBe(true);
+    expect(res.body.tueEligible).toBe(true);
+    expect(res.body.explanation).toContain("TUEC 個案審查");
     expect(res.body.wadaCategory).toMatch(/S1/);
   });
 

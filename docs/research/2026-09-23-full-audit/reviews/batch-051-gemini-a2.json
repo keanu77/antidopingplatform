@@ -1,0 +1,241 @@
+{
+  "cases": [
+    {
+      "id": "aiu-00ff932a881a",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-52fe9293beb71e23",
+        "registry-8e888843b7c626a4"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-52fe9293beb71e23",
+          "startLine": 1,
+          "endLine": 12,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "確認選手為肯亞28歲路跑運動員 Agnes Mueni Mutua"
+        },
+        {
+          "documentId": "doc-52fe9293beb71e23",
+          "startLine": 49,
+          "endLine": 57,
+          "supports": [
+            "event",
+            "substance"
+          ],
+          "note": "2023-12-03 曼谷半馬賽事採樣檢出外源性睪固酮及曲美他嗪"
+        },
+        {
+          "documentId": "doc-52fe9293beb71e23",
+          "startLine": 112,
+          "endLine": 118,
+          "supports": [
+            "event",
+            "education"
+          ],
+          "note": "AIU 發現先前郵件地址寄錯後於 2024-04-04 重新發出通知，選手於 2024-04-08 簽署承認違規"
+        },
+        {
+          "documentId": "doc-52fe9293beb71e23",
+          "startLine": 233,
+          "endLine": 243,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "因加重情節6年獲及早承認減免1年為5年，自2024-01-29起算並取消2023-12-03起之成績"
+        },
+        {
+          "documentId": "registry-8e888843b7c626a4",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "AIU 官方名冊登記5年禁賽及成績取消等後果"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "aiu-f014dcb08163",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-15e5b0ee65865dce",
+        "registry-8bab3036f16a10fa"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-15e5b0ee65865dce",
+          "startLine": 1,
+          "endLine": 12,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "確認選手為代表巴林之31歲路跑運動員 Marius Kimutai"
+        },
+        {
+          "documentId": "doc-15e5b0ee65865dce",
+          "startLine": 56,
+          "endLine": 62,
+          "supports": [
+            "event",
+            "substance"
+          ],
+          "note": "2024-02-02 於肯亞採得之尿液與血液樣本均檢出 EPO"
+        },
+        {
+          "documentId": "doc-15e5b0ee65865dce",
+          "startLine": 90,
+          "endLine": 93,
+          "supports": [
+            "sanction",
+            "education"
+          ],
+          "note": "依規則同日血尿兩項不利檢驗結果合併為單一違規"
+        },
+        {
+          "documentId": "doc-15e5b0ee65865dce",
+          "startLine": 165,
+          "endLine": 175,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "及早承認減免為3年禁賽，自2024-03-28起算並取消2024-02-02起之成績"
+        },
+        {
+          "documentId": "registry-8bab3036f16a10fa",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "AIU 官方名冊確認巴林選手3年處分與起算日"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "aiu-5e53b892648b",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-f4c1481d3ce19bb6",
+        "registry-7618e21344ba5962"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-f4c1481d3ce19bb6",
+          "startLine": 5,
+          "endLine": 18,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "確認選手為烏茲別克22歲短跑運動員 Farida Soliyeva"
+        },
+        {
+          "documentId": "doc-f4c1481d3ce19bb6",
+          "startLine": 50,
+          "endLine": 68,
+          "supports": [
+            "event",
+            "substance"
+          ],
+          "note": "2023-07-13 曼谷亞洲田徑錦標賽賽內樣本檢出米屈肼"
+        },
+        {
+          "documentId": "doc-f4c1481d3ce19bb6",
+          "startLine": 131,
+          "endLine": 135,
+          "supports": [
+            "dates",
+            "education"
+          ],
+          "note": "決定書第13段內文年份誤記為2024年，屬客觀時序瑕疵"
+        },
+        {
+          "documentId": "doc-f4c1481d3ce19bb6",
+          "startLine": 177,
+          "endLine": 179,
+          "supports": [
+            "education"
+          ],
+          "note": "註腳5載明調查仍在進行並保留追究其他違規權利"
+        },
+        {
+          "documentId": "doc-f4c1481d3ce19bb6",
+          "startLine": 231,
+          "endLine": 249,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "及早承認減為3年禁賽，自2023-09-13起算並取消2023亞錦賽及2023-07-13起之成績"
+        },
+        {
+          "documentId": "registry-7618e21344ba5962",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "AIU 官方名冊確認3年禁賽處分與成績取消"
+        }
+      ],
+      "findings": []
+    }
+  ]
+}

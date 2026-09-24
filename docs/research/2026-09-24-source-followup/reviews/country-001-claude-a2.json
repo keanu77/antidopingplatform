@@ -1,0 +1,264 @@
+{
+  "cases": [
+    {
+      "id": "usada-7e6f399372a6",
+      "status": "supported",
+      "identity": "supported",
+      "country": "supported",
+      "temporalScope": "supported",
+      "evidence": [
+        {
+          "documentId": "country",
+          "startLine": 54,
+          "endLine": 59,
+          "note": "World Athletics profile lists \"Allie OSTRANDER\" with \"United States\" country affiliation"
+        },
+        {
+          "documentId": "country",
+          "startLine": 61,
+          "endLine": 61,
+          "note": "Birth date 24 DEC 1996 recorded"
+        },
+        {
+          "documentId": "case",
+          "startLine": 7,
+          "endLine": 7,
+          "note": "USADA: Allison Ostrander, 26 years old, track and field athlete, Seattle, Washington"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-5c5d5188ddf0",
+      "status": "supported",
+      "identity": "supported",
+      "country": "supported",
+      "temporalScope": "supported",
+      "evidence": [
+        {
+          "documentId": "country",
+          "startLine": 55,
+          "endLine": 58,
+          "note": "World Athletics profile lists \"Alyssa WILSON\" with \"United States\" country affiliation, Hammer Throw"
+        },
+        {
+          "documentId": "country",
+          "startLine": 60,
+          "endLine": 60,
+          "note": "Birth date 20 FEB 1999 recorded"
+        },
+        {
+          "documentId": "case",
+          "startLine": 7,
+          "endLine": 7,
+          "note": "USADA: Alyssa Wilson, 24 years old, Toms River, New Jersey"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-0265c80a975c",
+      "status": "supported",
+      "identity": "supported",
+      "country": "supported",
+      "temporalScope": "supported",
+      "evidence": [
+        {
+          "documentId": "country",
+          "startLine": 54,
+          "endLine": 60,
+          "note": "World Athletics profile lists \"Hassan MEAD\" with \"United States\" country affiliation, born 28 AUG 1989"
+        },
+        {
+          "documentId": "case",
+          "startLine": 7,
+          "endLine": 8,
+          "note": "USADA: Hassan Mead, Portland, Oregon, 33 years old, November 2022 announcement"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-05a51bc91d1e",
+      "status": "supported",
+      "identity": "supported",
+      "country": "supported",
+      "temporalScope": "supported",
+      "evidence": [
+        {
+          "documentId": "country",
+          "startLine": 54,
+          "endLine": 58,
+          "note": "World Athletics profile lists \"Garrett SCANTLING\" with \"United States\" country affiliation, Decathlon"
+        },
+        {
+          "documentId": "country",
+          "startLine": 60,
+          "endLine": 60,
+          "note": "Birth date 19 MAY 1993 recorded"
+        },
+        {
+          "documentId": "case",
+          "startLine": 7,
+          "endLine": 9,
+          "note": "USADA: Garrett Scantling, Jacksonville, Florida, 29 years old, November 2022"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-10e9f0a6f725",
+      "status": "supported",
+      "identity": "supported",
+      "country": "supported",
+      "temporalScope": "supported",
+      "evidence": [
+        {
+          "documentId": "country",
+          "startLine": 54,
+          "endLine": 59,
+          "note": "World Athletics profile lists \"Erik KYNARD\" with \"United States\" country affiliation, High Jump, born 03 FEB 1991"
+        },
+        {
+          "documentId": "case",
+          "startLine": 1,
+          "endLine": 1,
+          "note": "USADA: Erik Kynard Jr., matching birth date and age 31 in May 2022"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-091e5bf27388",
+      "status": "supported",
+      "identity": "supported",
+      "country": "supported",
+      "temporalScope": "supported",
+      "evidence": [
+        {
+          "documentId": "country",
+          "startLine": 54,
+          "endLine": 62,
+          "note": "World Athletics profile lists \"Lindsey SCHERF\" with \"United States\" country affiliation, born 18 SEP 1986"
+        },
+        {
+          "documentId": "case",
+          "startLine": 7,
+          "endLine": 8,
+          "note": "USADA: Lindsey Scherf, Las Vegas, Nevada, tested positive 26 DEC 2021 (caseYear 2021)"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-6295d61b3ba5",
+      "status": "supported",
+      "identity": "supported",
+      "country": "supported",
+      "temporalScope": "supported",
+      "evidence": [
+        {
+          "documentId": "country",
+          "startLine": 54,
+          "endLine": 58,
+          "note": "World Athletics profile lists \"Kahmari MONTGOMERY\" with \"United States\" country affiliation, born 16 AUG 1997"
+        },
+        {
+          "documentId": "case",
+          "startLine": 7,
+          "endLine": 8,
+          "note": "USADA: Kahmari Montgomery, Houston, Texas, 23 years old, June 2021"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-3795cadeeacf",
+      "status": "supported",
+      "identity": "supported",
+      "country": "supported",
+      "temporalScope": "supported",
+      "evidence": [
+        {
+          "documentId": "country",
+          "startLine": 55,
+          "endLine": 58,
+          "note": "World Athletics profile lists \"Cole WALSH\" with \"United States\" country affiliation, Pole Vault, born 14 JUN 1995"
+        },
+        {
+          "documentId": "case",
+          "startLine": 7,
+          "endLine": 8,
+          "note": "USADA: Cole Walsh, Glendale, Arizona, 24 years old, tested 29 JAN 2020"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-73b73fbed23a",
+      "status": "supported",
+      "identity": "supported",
+      "country": "supported",
+      "temporalScope": "supported",
+      "evidence": [
+        {
+          "documentId": "country",
+          "startLine": 54,
+          "endLine": 59,
+          "note": "World Athletics profile lists \"Jasmine BLOCKER\" with \"United States\" country affiliation, born 09 JUN 1992"
+        },
+        {
+          "documentId": "case",
+          "startLine": 7,
+          "endLine": 7,
+          "note": "USADA: Jasmine Blocker, Lawndale, California, 28 years old, December 2020"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-ac7fef21590c",
+      "status": "supported",
+      "identity": "supported",
+      "country": "supported",
+      "temporalScope": "supported",
+      "evidence": [
+        {
+          "documentId": "country",
+          "startLine": 54,
+          "endLine": 59,
+          "note": "World Athletics profile lists \"Obi IGBOKWE\" with \"United States\" country affiliation, born 28 JAN 1997"
+        },
+        {
+          "documentId": "case",
+          "startLine": 7,
+          "endLine": 8,
+          "note": "USADA: Obichukwu Igbokwe, Houston, Texas, 24 years old (full name), tested 26 MAY 2020"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-4844a2d25120",
+      "status": "supported",
+      "identity": "supported",
+      "country": "supported",
+      "temporalScope": "supported",
+      "evidence": [
+        {
+          "documentId": "country",
+          "startLine": 54,
+          "endLine": 57,
+          "note": "World Athletics profile lists \"Zach GEHM\" with \"United States\" country affiliation, Discus Throw, born 26 APR 2000"
+        },
+        {
+          "documentId": "case",
+          "startLine": 7,
+          "endLine": 8,
+          "note": "USADA: Zach Gehm, Harmony, Pennsylvania, 19 years old, tested 22 JUN 2019"
+        }
+      ],
+      "findings": []
+    }
+  ]
+}

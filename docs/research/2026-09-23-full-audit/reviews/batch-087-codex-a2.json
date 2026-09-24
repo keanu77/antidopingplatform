@@ -1,0 +1,487 @@
+{
+  "cases": [
+    {
+      "id": "usada-e211d17e78b9",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-5928b836d3e64a02",
+        "registry-33b389ed6a8a14c9"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-5928b836d3e64a02",
+          "startLine": 7,
+          "endLine": 8,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告確認 Grayson 為舉重選手，處方 hydrochlorothiazide、後續取得未來使用 TUE，並受公開警告及當日成績取消。"
+        },
+        {
+          "documentId": "registry-33b389ed6a8a14c9",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "sanction",
+            "dates"
+          ],
+          "note": "名冊列出 Grayson、舉重、hydrochlorothiazide、公開警告及公告日期。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-2791db22edc5",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-de864ec7ffe21e51",
+        "registry-de2b3f8b0c1189b4"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-de864ec7ffe21e51",
+          "startLine": 7,
+          "endLine": 11,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告確認 Beyer 的鐵人三項個案、承認使用 testosterone、無有效 TUE、四年禁賽及成績除名起始日期。"
+        },
+        {
+          "documentId": "registry-de2b3f8b0c1189b4",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "sanction",
+            "dates"
+          ],
+          "note": "名冊列出 Beyer、鐵人三項、testosterone、四年處分及公告日期。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "medium",
+          "claim": "nationality：美國",
+          "explanation": "公告標題稱 U.S. Triathlon Athlete，並列居住地維吉尼亞州；來源未明確證明國籍或代表國家。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-de864ec7ffe21e51",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "改標為國籍／代表隊未由所附來源確認，或補充明確的代表身分來源。"
+        }
+      ]
+    },
+    {
+      "id": "usada-70b898158395",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-e204693633bf1e49",
+        "registry-f3804e9f83cb3d30"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-e204693633bf1e49",
+          "startLine": 7,
+          "endLine": 7,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction"
+          ],
+          "note": "公告確認 Vennera 為射箭選手，使用 metoprolol、採樣時申報，並取得授權未來使用的 TUE及公開警告。"
+        },
+        {
+          "documentId": "registry-f3804e9f83cb3d30",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "sanction",
+            "dates"
+          ],
+          "note": "名冊列出 Vennera、射箭、metoprolol、公開警告及公告日期。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "medium",
+          "claim": "nationality：美國",
+          "explanation": "標題稱 U.S. Archery Athlete，公告列北卡羅來納州所在地；所附來源未明確記載其國籍或代表國家。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-e204693633bf1e49",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "標示國籍／代表身分未確認，或補充明確的代表身分來源。"
+        }
+      ]
+    },
+    {
+      "id": "usada-8ad943acd5b0",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-b3d566b6e0979e26",
+        "registry-06d926d5fa661c86"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-b3d566b6e0979e26",
+          "startLine": 7,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告確認 Miller 為自行車選手，承認持有使用 testosterone、hGH、oxandrolone 及協助他人，減為四年並除名指定日期後成績。"
+        },
+        {
+          "documentId": "registry-06d926d5fa661c86",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "dates"
+          ],
+          "note": "名冊列出 Miller、自行車、三種物質、四年處分及公告日期。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "medium",
+          "claim": "nationality：美國",
+          "explanation": "公告標題稱 U.S. Cycling Athlete，並列肯塔基州所在地；來源未明確確認國籍或代表國家。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-b3d566b6e0979e26",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "改列國籍／代表身分未由所附來源確認，或補充明確代表身分證據。"
+        }
+      ]
+    },
+    {
+      "id": "usada-47db4d671c02",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-adda0c5f072f8299",
+        "registry-2d62cb305fba0ad5"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-adda0c5f072f8299",
+          "startLine": 7,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告確認 Patel 為田徑選手，非分析證據涉及含 ostarine 的補充品，四年禁賽及退休期間停算，並除名指定日期後成績。"
+        },
+        {
+          "documentId": "registry-2d62cb305fba0ad5",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "dates"
+          ],
+          "note": "名冊列出 Patel、田徑、非分析 ostarine、四年處分、退休停算及公告日期。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "medium",
+          "claim": "nationality：美國",
+          "explanation": "標題稱 U.S. Track & Field Athlete，公告列印第安納州所在地；所附來源未明確證明國籍或代表國家。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-adda0c5f072f8299",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "標為國籍／代表身分未確認，或補充明確的代表身分來源。"
+        }
+      ]
+    },
+    {
+      "id": "usada-994755070e39",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-1408e0e0f2251504",
+        "registry-2f9a8591e7c4b9e4"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-1408e0e0f2251504",
+          "startLine": 7,
+          "endLine": 11,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告確認 Wolter 為田徑選手，兩種含禁用物質補充品、教練建議、減至兩年及結果除名日期。"
+        },
+        {
+          "documentId": "registry-2f9a8591e7c4b9e4",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "dates"
+          ],
+          "note": "名冊列出 Wolter、田徑、非分析 ostarine 與 methylstenbolone、兩年處分及公告日期。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "medium",
+          "claim": "nationality：美國",
+          "explanation": "標題稱 U.S. Track & Field Athlete，公告列加州所在地；來源未明確記載國籍或代表國家。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-1408e0e0f2251504",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "標示國籍／代表身分未確認，或補充明確代表身分來源。"
+        }
+      ]
+    },
+    {
+      "id": "usada-fcfbbcf8949b",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-a044865cf937ac6d",
+        "registry-98e8145537c5c99b"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-a044865cf937ac6d",
+          "startLine": 7,
+          "endLine": 11,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告確認 Sanford 為田徑選手，使用含 ostarine 的補充品、教練建議與教育背景，減至一年並列成績除名日期。"
+        },
+        {
+          "documentId": "registry-98e8145537c5c99b",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "dates"
+          ],
+          "note": "名冊列出 Sanford、田徑、非分析使用及持有 ostarine、一年處分及公告日期。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "medium",
+          "claim": "nationality：美國",
+          "explanation": "公告標題稱 U.S. Track & Field Athlete，並列喬治亞州所在地；所附來源沒有明確確認國籍或代表國家。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-a044865cf937ac6d",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "改列國籍／代表身分未確認，或補充明確代表身分的來源。"
+        }
+      ]
+    },
+    {
+      "id": "usada-2a7f0468db54",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-14dacd247064ea8c",
+        "registry-e99cdd6d993fb164"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-14dacd247064ea8c",
+          "startLine": 7,
+          "endLine": 11,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告確認 Zoda 為舉重選手，承認網購並使用肽類物質、因合作由四年減為兩年，並列成績除名起始日期。"
+        },
+        {
+          "documentId": "registry-e99cdd6d993fb164",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "dates"
+          ],
+          "note": "名冊列出 Zoda、舉重、肽類物質持有、兩年處分及公告日期。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "medium",
+          "claim": "nationality：美國",
+          "explanation": "標題稱 U.S. Weightlifting Athlete，公告列賓州所在地；來源未明確證明國籍或代表國家。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-14dacd247064ea8c",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "標示國籍／代表身分未確認，或補充明確代表身分的來源。"
+        }
+      ]
+    }
+  ]
+}

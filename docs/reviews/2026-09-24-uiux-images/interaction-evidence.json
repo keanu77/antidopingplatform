@@ -1,0 +1,47 @@
+{
+  "at": "2026-09-24T05:23:27.269Z",
+  "checks": [
+    {
+      "name": "search-detail-back",
+      "before": {
+        "url": "https://antidopingplatform.sportsmedicine.tw/cases/",
+        "input": "Imani",
+        "text": "相關案例\n\n搜尋並篩選國際運動禁藥案例\n\n收錄違規、污染、合法 TUE 與處分撤銷等教學案例。每筆標示查核層級；官方名冊核對不代表裁決全文已審閱。年份依事件年或官方裁決公布年，詳見個案。\n\n篩選 ▼\n搜尋\n\n找到 1 個案例\n\nImani Oliver\n\n田徑\n\n教練建議用藥／陽性與實質協助 · 核心事實已查核\n\n美國\n2016\nS1 合成代謝劑／S4 激素與代謝調節劑\nostarine；另有 arimistane 產品使用及訂購證據\n\n處理結果：1年"
+      },
+      "after": {
+        "url": "https://antidopingplatform.sportsmedicine.tw/cases/",
+        "input": "",
+        "text": "相關案例\n\n搜尋並篩選國際運動禁藥案例\n\n收錄違規、污染、合法 TUE 與處分撤銷等教學案例。每筆標示查核層級；官方名冊核對不代表裁決全文已審閱。年份依事件年或官方裁決公布年，詳見個案。\n\n篩選 ▼\n搜尋\n\n找到 517 個案例\n\nYamile Herrera\n\n田徑\n\n及早承認／接力賽隊伍後果 · 核心事實已查核\n\n墨西哥\n2026\n年度禁用清單分類未另核對\nPresence/Use of Prohibited Substance (Oxandrolone) (Article 2.1 and Article 2.2)\n\n處理結果：3年\n\nAymane Takzima\n\n空手道\n\n禁賽期間參與活動 · 核心事實已查核\n\n來源日期有缺漏或歧義，請一併閱讀下方個案說明。\n\n摩洛哥\n2026\n禁賽期間參與活動規定\n10.14.1 - Prohibition against Participation during Provisional Suspension and Ineligibility\n\n處理結果：追加3年\n\nBrenda Uchenna Bosah\n\n舉重\n\n物質相關違規／及早承認 · 核心事實已查核\n\n奈及利亞\n2026\n年度禁用清單分類未另核對\nArt. 2.1/2.2 - Presence of Exogenous Testosterone and at least on"
+      }
+    },
+    {
+      "name": "step-next",
+      "heading": "報到"
+    },
+    {
+      "name": "320-testing-process",
+      "overflow": 12
+    },
+    {
+      "name": "mobile-menu",
+      "links": [
+        "乾淨運動從你我開始Clean Sport",
+        "首頁",
+        "案例搜尋",
+        "數據統計",
+        "禁用清單",
+        "互動測驗",
+        "藥檢流程",
+        "教育專區",
+        "TUE 專區",
+        "ADeL 學習",
+        "最新消息",
+        "實用連結"
+      ]
+    },
+    {
+      "name": "case-filter-toggle",
+      "selects": 5
+    }
+  ]
+}

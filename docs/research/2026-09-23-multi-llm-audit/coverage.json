@@ -1,0 +1,140 @@
+{
+  "checkedAt": "2026-09-23T05:54:44.338481+00:00",
+  "dataSha256": "81585990d76b5d4015fa92c3a39f2d8ad60470da67177e010ac40c7db2511a07",
+  "structuralScope": 500,
+  "sourceComparedByCodex": 11,
+  "sourceComparedByGemini": 8,
+  "distinctSourceCompared": 15,
+  "all500MultiModelVerified": false,
+  "cases": [
+    {
+      "id": "ita-7633257bebb2",
+      "name": "Imogen Carlina Simmonds",
+      "modelSeats": [
+        "Codex"
+      ]
+    },
+    {
+      "id": "usada-123713999e9c",
+      "name": "Scott Glasgow",
+      "modelSeats": [
+        "Codex",
+        "Gemini via Antigravity",
+        "Grok"
+      ]
+    },
+    {
+      "id": "usada-2428086c1745",
+      "name": "Tara Harbert",
+      "modelSeats": [
+        "Codex"
+      ]
+    },
+    {
+      "id": "usada-30c9fa7aa386",
+      "name": "Emily Oberst",
+      "modelSeats": [
+        "Gemini via Antigravity",
+        "Grok"
+      ]
+    },
+    {
+      "id": "usada-4cabe0247888",
+      "name": "Jeff Martin",
+      "modelSeats": [
+        "Codex"
+      ]
+    },
+    {
+      "id": "usada-557b3d045e61",
+      "name": "Jamaal Daniels",
+      "modelSeats": [
+        "Codex"
+      ]
+    },
+    {
+      "id": "usada-74c3aeb782a0",
+      "name": "Jessica Denney Phillips",
+      "modelSeats": [
+        "Codex",
+        "Gemini via Antigravity",
+        "Grok"
+      ]
+    },
+    {
+      "id": "usada-7774f20822ed",
+      "name": "Robert Jerry Qualls",
+      "modelSeats": [
+        "Codex"
+      ]
+    },
+    {
+      "id": "usada-80101a12888d",
+      "name": "Danielle Rante",
+      "modelSeats": [
+        "Gemini via Antigravity",
+        "Grok"
+      ]
+    },
+    {
+      "id": "usada-806eab5af83f",
+      "name": "Sarah Heinzl",
+      "modelSeats": [
+        "Codex",
+        "Gemini via Antigravity",
+        "Grok"
+      ]
+    },
+    {
+      "id": "usada-a00b98f42826",
+      "name": "William Licon",
+      "modelSeats": [
+        "Codex",
+        "Gemini via Antigravity",
+        "Grok"
+      ]
+    },
+    {
+      "id": "usada-a6e4b38ecdbe",
+      "name": "Samantha Dumala",
+      "modelSeats": [
+        "Codex"
+      ]
+    },
+    {
+      "id": "usada-ccd3766a65f8",
+      "name": "Evan Boyle",
+      "modelSeats": [
+        "Codex"
+      ]
+    },
+    {
+      "id": "usada-d8d5e2c3a318",
+      "name": "Flavia Paparella",
+      "modelSeats": [
+        "Gemini via Antigravity",
+        "Grok"
+      ]
+    },
+    {
+      "id": "usada-de625da34c51",
+      "name": "Dylan Fischbach",
+      "modelSeats": [
+        "Gemini via Antigravity",
+        "Grok"
+      ]
+    }
+  ],
+  "sourceComparedByGrok": 8,
+  "grokStatus": "completed_bounded_source_comparison",
+  "sourceComparedByAtLeastTwo": 8,
+  "sourceComparedByThree": 4,
+  "sourceComparedByExactlyOne": 7,
+  "notSourceComparedByAny": 485,
+  "pairwiseSourceComparison": {
+    "Codex + Gemini": 4,
+    "Codex + Grok": 4,
+    "Gemini + Grok": 8
+  },
+  "coverageMeaning": "Counts source comparison performed, not agreement with every model claim or all-case factual acceptance."
+}

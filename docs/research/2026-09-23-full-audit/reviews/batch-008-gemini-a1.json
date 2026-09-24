@@ -1,0 +1,411 @@
+{
+  "cases": [
+    {
+      "id": "ita-fa8d36509836",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-f14b8bf6b3ff90c9",
+        "registry-f0797b4ded4605d4"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-f14b8bf6b3ff90c9",
+          "startLine": 1,
+          "endLine": 7,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "ITA 公告確認摩爾多瓦綜合格鬥選手 Petru Buzdugan 於 2024 年 GAMMA 歐錦賽樣本檢出 meldonium，處 4 年禁賽（2024-07-31 至 2028-07-30）並取消 2024-05-19 起之成績"
+        },
+        {
+          "documentId": "registry-f0797b4ded4605d4",
+          "startLine": 1,
+          "endLine": 22,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "ITA 官方名冊記錄 Petru Buzdugan、摩爾多瓦、綜合格鬥、meldonium 違規日 2024-05-19、禁賽期 2024-07-31 至 2028-07-30"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-64356cd7cd2b",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-8b61dde9df992977",
+        "registry-459f23880743e597"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-8b61dde9df992977",
+          "startLine": 1,
+          "endLine": 4,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "education"
+          ],
+          "note": "UCI 官方聲明確認亞塞拜然自行車選手 Artyom Proskuryakov 於 2025 年公路世錦賽樣本檢出甲基安非他命及其代謝物，接受 3 年禁賽（2025-11-18 至 2028-11-17）"
+        },
+        {
+          "documentId": "registry-459f23880743e597",
+          "startLine": 1,
+          "endLine": 20,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "ITA 名冊記錄違規日 2025-09-23、禁賽期間 2025-11-18 至 2028-11-17 及取消成績區間 2025-09-21 至 2025-11-18"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-ce72c7ec15a5",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-1f46ebcc4d9ebf4b",
+        "registry-2b524309cf8565fb"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-1f46ebcc4d9ebf4b",
+          "startLine": 1,
+          "endLine": 5,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "ITA 公告確認泰國泰拳選手 Khatthamarasri Anueng 於 2022-09-04 賽外檢測拒絕採樣，因及早承認獲減為 3 年禁賽（2025-04-10 至 2028-04-09），成績自 2022-09-04 起取消"
+        },
+        {
+          "documentId": "registry-2b524309cf8565fb",
+          "startLine": 1,
+          "endLine": 20,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "ITA 名冊登載 Khatthamarasri Anueng 違反 Art. 2.3，違規日 2022-09-04，禁賽期 2025-04-10 至 2028-04-09"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-746841ced247",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-51fa9360df652ddf",
+        "registry-18d67d3af4f0a9e1"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-51fa9360df652ddf",
+          "startLine": 1,
+          "endLine": 7,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "ITA 公告確認黎巴嫩綜合格鬥選手 Ricardo Bachir 於 2023-12-09 世界錦標賽樣本檢出 stanozolol，處 4 年禁賽（2024-02-26 至 2028-02-25），成績自 2023-12-09 起取消"
+        },
+        {
+          "documentId": "registry-18d67d3af4f0a9e1",
+          "startLine": 1,
+          "endLine": 20,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "ITA 名冊登記 Ricardo Bachir、黎巴嫩、綜合格鬥、Art. 2.1 stanozolol metabolite、違規日 2023-12-09"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-e79063f8345e",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-2ef9277e224398d8",
+        "registry-370a4fdb23c685f2"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-2ef9277e224398d8",
+          "startLine": 1,
+          "endLine": 7,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "ITA 公告 CAS 仲裁結果撤銷喬治亞反禁藥組織原認定之破壞無過失決定，改判舉重選手 Revaz Davitadze 禁賽 4 年並取消採樣日起成績"
+        },
+        {
+          "documentId": "registry-370a4fdb23c685f2",
+          "startLine": 1,
+          "endLine": 22,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "ITA 名冊登錄 Revaz Davitadze 違規日 2023-08-15、CAS 上訴改判 4 年禁賽（2025-09-30 至 2029-09-29）及取消 2023-08-15 起成績"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-04f56ae4f842",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-419a04968fad481c",
+        "registry-8dc5243d5eb443af"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-419a04968fad481c",
+          "startLine": 1,
+          "endLine": 9,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "ITA 公告摩爾多瓦舉重選手 Alexandru Spac 於里約奧運樣本重驗檢出 DHCMT，考量前次違規及及早承認後接受 7 年禁賽（2024-07-19 至 2031-07-18），取消 2016-07-27 起個人競賽成績"
+        },
+        {
+          "documentId": "registry-8dc5243d5eb443af",
+          "startLine": 1,
+          "endLine": 20,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "ITA 名冊載明 Alexandru Spac 違反 Art. 2.1，違規日 2016-07-27，禁賽期 2024-07-19 至 2031-07-18"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-88498e611484",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-e6ea50b562d6979b",
+        "registry-bb0357b54f0930b2"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-e6ea50b562d6979b",
+          "startLine": 1,
+          "endLine": 5,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "ITA 公告奧地利雪橇選手 Madeleine Egle 因 12 個月內累積 3 次行蹤申報違規接受 20 個月禁賽（2025-03-01 至 2026-10-31），取消自 2025-03-01 起個人成績"
+        },
+        {
+          "documentId": "registry-bb0357b54f0930b2",
+          "startLine": 1,
+          "endLine": 20,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "ITA 名冊登載 Madeleine Egle 違反 Art. 2.4，違規日 2023-12-20，禁賽期 2025-03-01 至 2026-10-31"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-279e2718f2fd",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-0ffb8b7ca0d750be",
+        "registry-4a2fd72e0a50a5bd"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-0ffb8b7ca0d750be",
+          "startLine": 1,
+          "endLine": 7,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "ITA 公告俄羅斯舉重選手 Andrey Pokatilov 依據莫斯科實驗室 LIMS 資料被判定違反 Art. 2.2（使用 metenolone 與 oxandrolone），處 4 年禁賽（2025-05-21 至 2029-05-20）並取消 2015-05-27 至 2025-05-21 成績"
+        },
+        {
+          "documentId": "registry-4a2fd72e0a50a5bd",
+          "startLine": 1,
+          "endLine": 20,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "ITA 名冊記載 Andrey Pokatilov、Art. 2.2 - LIMS、違規日 2015-05-27、禁賽期間 2025-05-21 至 2029-05-20"
+        }
+      ],
+      "findings": []
+    }
+  ]
+}

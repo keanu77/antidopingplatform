@@ -1,0 +1,236 @@
+{
+  "cases": [
+    {
+      "id": "aiu-070b562aa8b4",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-7e6f5e266942b33d",
+        "registry-80b25cbc12234e24"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-7e6f5e266942b33d",
+          "startLine": 13,
+          "endLine": 14,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "選手為代表肯亞之長跑運動員"
+        },
+        {
+          "documentId": "doc-7e6f5e266942b33d",
+          "startLine": 57,
+          "endLine": 62,
+          "supports": [
+            "event",
+            "substance",
+            "dates"
+          ],
+          "note": "2025年4月8日賽外檢測檢出氫氯噻嗪陽性"
+        },
+        {
+          "documentId": "doc-7e6f5e266942b33d",
+          "startLine": 112,
+          "endLine": 121,
+          "supports": [
+            "event",
+            "education"
+          ],
+          "note": "選手留存藥物送驗未檢出氫氯噻嗪未能證實污染來源"
+        },
+        {
+          "documentId": "doc-7e6f5e266942b33d",
+          "startLine": 167,
+          "endLine": 171,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "自2025年8月6日起處禁賽2年並取消2025年4月8日起之相關成績"
+        },
+        {
+          "documentId": "registry-80b25cbc12234e24",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "官方名冊登載最終決定確認處分2年及取消成績"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "aiu-7ecea0d3f0fd",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-11267709ed6c8070",
+        "registry-8e38a2907b19475b"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-11267709ed6c8070",
+          "startLine": 13,
+          "endLine": 13,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "選手為肯亞路跑運動員"
+        },
+        {
+          "documentId": "doc-11267709ed6c8070",
+          "startLine": 61,
+          "endLine": 66,
+          "supports": [
+            "event",
+            "substance",
+            "dates"
+          ],
+          "note": "2024年8月25日海得拉巴馬拉松賽內樣本檢出曲馬多"
+        },
+        {
+          "documentId": "doc-11267709ed6c8070",
+          "startLine": 195,
+          "endLine": 202,
+          "supports": [
+            "event",
+            "substance",
+            "education"
+          ],
+          "note": "查證證實醫療紀錄非該院出具構成篡改禁藥管制程序"
+        },
+        {
+          "documentId": "doc-11267709ed6c8070",
+          "startLine": 353,
+          "endLine": 358,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "早期承認減為自2024年12月19日起禁賽5年並取消2024年8月25日起成績"
+        },
+        {
+          "documentId": "registry-8e38a2907b19475b",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "官方名冊確認違反2.1、2.2與2.5條款處5年禁賽"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "aiu-145cb734821e",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-69102195439d452c",
+        "registry-b5e6007e75bb0435"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-69102195439d452c",
+          "startLine": 13,
+          "endLine": 13,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "選手為肯亞長跑運動員"
+        },
+        {
+          "documentId": "doc-69102195439d452c",
+          "startLine": 56,
+          "endLine": 61,
+          "supports": [
+            "event",
+            "substance",
+            "dates"
+          ],
+          "note": "2025年3月23日米蘭賽事賽內樣本檢出去甲烏藥鹼與奧克托立林"
+        },
+        {
+          "documentId": "doc-69102195439d452c",
+          "startLine": 112,
+          "endLine": 117,
+          "supports": [
+            "event",
+            "education"
+          ],
+          "note": "專家確認檢出濃度與其宣稱服用補充品之成分標示可能吻合"
+        },
+        {
+          "documentId": "doc-69102195439d452c",
+          "startLine": 182,
+          "endLine": 186,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "接受自2025年6月26日起禁賽2年並取消2025年3月23日起之比賽成績"
+        },
+        {
+          "documentId": "registry-b5e6007e75bb0435",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "官方名冊登載最終決定禁賽2年並取消成績"
+        }
+      ],
+      "findings": []
+    }
+  ]
+}

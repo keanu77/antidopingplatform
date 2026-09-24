@@ -1,0 +1,511 @@
+{
+  "cases": [
+    {
+      "id": "usada-03cbaa641dbb",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-0e649d419159ab40",
+        "registry-f35efa6f6443a94d"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-0e649d419159ab40",
+          "startLine": 7,
+          "endLine": 11,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告確認自行車選手、三次均為申報失誤、退休及復出後起算14個月，並取消第三次失誤當日起成績。"
+        },
+        {
+          "documentId": "registry-f35efa6f6443a94d",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "sanction",
+            "outcomes"
+          ],
+          "note": "名冊列出三次行蹤違規、14個月禁賽及成績取消。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "medium",
+          "claim": "國籍：美國",
+          "explanation": "來源指出德州居住地及屬USADA RTP，未明確證實其國籍或代表國家；不能由此確定美國國籍。未見台灣／中華台北證據。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-0e649d419159ab40",
+              "startLine": 7,
+              "endLine": 9
+            }
+          ],
+          "suggestion": "將國籍標為未確定，或補具明確代表隊／國籍來源。"
+        }
+      ]
+    },
+    {
+      "id": "usada-42343d04a699",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-feae9535c7883d33",
+        "registry-75009cdd277a8bed"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-feae9535c7883d33",
+          "startLine": 7,
+          "endLine": 12,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告確認舉重選手、賽事日期、檢體分析與另行承認的用藥、缺乏有效TUE、三年處分及成績取消。"
+        },
+        {
+          "documentId": "registry-75009cdd277a8bed",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "outcomes"
+          ],
+          "note": "名冊列出睪固酮與Oxandrolone、三年禁賽及成績取消。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "medium",
+          "claim": "國籍：美國",
+          "explanation": "來源稱其為US Weightlifting選手且列科羅拉多居住地，未明確說明國籍或代表國家；未見台灣／中華台北證據。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-feae9535c7883d33",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "改列國籍／代表國家未確定，或補具明確代表身分來源。"
+        }
+      ]
+    },
+    {
+      "id": "usada-7da5b8af5ba7",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-61405baa368f0cc3",
+        "registry-0db96c201cb72622"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-61405baa368f0cc3",
+          "startLine": 7,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告確認曲棍球賽事檢體檢出ritalinic acid、採樣時申報、醫師指示用藥但TUE不足，追溯及未來申請遭拒，並處六個月及取消成績。"
+        },
+        {
+          "documentId": "registry-0db96c201cb72622",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "outcomes"
+          ],
+          "note": "名冊列出ritalinic acid、六個月禁賽及成績取消。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "medium",
+          "claim": "國籍：美國",
+          "explanation": "來源稱其為US Field Hockey選手且列加州居住地，未明確確立國籍或代表國家；未見台灣／中華台北證據。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-61405baa368f0cc3",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "改列國籍／代表國家未確定，或補具明確代表身分來源。"
+        }
+      ]
+    },
+    {
+      "id": "usada-8091f0d610a6",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-86e34ef8e6337e86",
+        "registry-ad672b6af6d5a1bf"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-86e34ef8e6337e86",
+          "startLine": 7,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告確認自行車賽事檢體、外源性合成代謝劑、醫師指示使用睪固酮但無有效TUE，禁賽兩年並取消相關成績。"
+        },
+        {
+          "documentId": "registry-ad672b6af6d5a1bf",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "outcomes"
+          ],
+          "note": "名冊記載合成代謝類固醇、兩年處分、成績取消及因退休暫停計算。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "medium",
+          "claim": "國籍：美國",
+          "explanation": "公告標題為美國自行車選手並列USADA處理，但未明確證實國籍或代表國家；名冊另註處分因退休暫停計算。未見台灣／中華台北證據。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-86e34ef8e6337e86",
+              "startLine": 1,
+              "endLine": 7
+            },
+            {
+              "documentId": "registry-ad672b6af6d5a1bf",
+              "startLine": 1,
+              "endLine": 1
+            }
+          ],
+          "suggestion": "國籍／代表國家標為未確定；如描述處分期間，補充名冊所載退休暫停計算。"
+        }
+      ]
+    },
+    {
+      "id": "usada-18da72e16a59",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-2be91821baeeb17e",
+        "registry-784c23f2762693e5"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-2be91821baeeb17e",
+          "startLine": 7,
+          "endLine": 8,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告確認舉重選手使用並申報Chlorthalidone、未先獲TUE而接受公開警告、其後取得未來使用TUE，且賽外檢體無競賽成績可取消。"
+        },
+        {
+          "documentId": "registry-784c23f2762693e5",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction"
+          ],
+          "note": "名冊記載Chlorthalidone及公開警告。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "medium",
+          "claim": "國籍：美國",
+          "explanation": "來源列賓州居住地、US Weightlifting選手及USADA管理背景，未明確證明國籍或代表國家；未見台灣／中華台北證據。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-2be91821baeeb17e",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "改列國籍／代表國家未確定，或補具明確代表身分來源。"
+        }
+      ]
+    },
+    {
+      "id": "usada-da041cee5592",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-020540a31c5d6f41",
+        "registry-42fc0df02b374b7f"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-020540a31c5d6f41",
+          "startLine": 7,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告確認自行車選手在賽後因可能新紀錄安排採樣而拒檢，適用休閒運動員兩年處分，並取消自拒檢日起成績。"
+        },
+        {
+          "documentId": "registry-42fc0df02b374b7f",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "outcomes"
+          ],
+          "note": "名冊列明拒絕提供檢體、兩年禁賽及成績取消。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "medium",
+          "claim": "國籍：美國",
+          "explanation": "來源稱其為US Cycling選手並列新墨西哥州居住地，未明確確立國籍或代表國家；未見台灣／中華台北證據。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-020540a31c5d6f41",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "改列國籍／代表國家未確定，或補具明確代表身分來源。"
+        }
+      ]
+    },
+    {
+      "id": "usada-cbf0f5afcf61",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-49ba8a1e4794d7b9",
+        "registry-7c2edbf2c061646f"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-49ba8a1e4794d7b9",
+          "startLine": 7,
+          "endLine": 12,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告確認舉重選手多種合成代謝劑與代謝物陽性、IRMS確認外源性睪固酮，及早承認減為三年且取消賽事成績。"
+        },
+        {
+          "documentId": "registry-7c2edbf2c061646f",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "outcomes"
+          ],
+          "note": "名冊列出相關合成代謝劑、睪固酮、三年禁賽及成績取消。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "medium",
+          "claim": "國籍：美國",
+          "explanation": "來源稱其為US Weightlifting選手並列北卡居住地，未明確確立國籍或代表國家；未見台灣／中華台北證據。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-49ba8a1e4794d7b9",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "改列國籍／代表國家未確定，或補具明確代表身分來源。"
+        }
+      ]
+    },
+    {
+      "id": "usada-e13aa658e684",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-b85887a97d3134e3",
+        "registry-e1bc65311d5c00ae"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-b85887a97d3134e3",
+          "startLine": 7,
+          "endLine": 11,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告確認柔道賽外檢體IRMS檢出DHEA或前驅物、醫師建議補充品但未核查禁用成分，禁賽兩年並取消成績。"
+        },
+        {
+          "documentId": "registry-e1bc65311d5c00ae",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "outcomes"
+          ],
+          "note": "名冊列合成代謝類固醇、兩年禁賽及成績取消。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "medium",
+          "claim": "國籍：美國",
+          "explanation": "來源列德州居住地、US Judo選手及USADA處理，未明確確立國籍或代表國家；未見台灣／中華台北證據。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-b85887a97d3134e3",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "改列國籍／代表國家未確定，或補具明確代表身分來源。"
+        }
+      ]
+    }
+  ]
+}

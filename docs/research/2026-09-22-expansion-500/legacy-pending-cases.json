@@ -1,0 +1,3887 @@
+[
+  {
+    "id": "4",
+    "athleteName": "Ryan Garcia (瑞恩·加西亞)",
+    "nationality": "美國",
+    "sport": "拳擊",
+    "substance": "Ostarine (SARM)",
+    "substanceCategory": "S1.2: 合成代謝劑（其他合成代謝劑）",
+    "year": 2024,
+    "eventBackground": "美國拳擊手 Ryan Garcia 在 2024 年 4 月對戰 Devin Haney 的賽事前後，經 VADA 檢出 ostarine（一種 SARM）陽性。紐約州運動委員會（NYSAC）判處 1 年禁賽（追溯自 2024 年 4 月 20 日）並處罰金，其對 Haney 的勝場改判為『無效判定』（No Contest）。",
+    "punishment": {
+      "banDuration": "1年（NYSAC，追溯自 2024 年 4 月 20 日）",
+      "resultsCancelled": true,
+      "medalStripped": false,
+      "otherPenalties": "對 Haney 之勝場改判無效判定（NC），並處罰金"
+    },
+    "sourceLinks": [
+      {
+        "title": "NYSAC Ruling",
+        "url": "https://dos.ny.gov/athletic-commission",
+        "type": "NYSAC"
+      },
+      {
+        "title": "VADA",
+        "url": "https://www.vada-testing.org/",
+        "type": "VADA"
+      }
+    ],
+    "summary": "SARM（ostarine）在職業拳擊的近期案例，凸顯賽果改判與商業拳賽藥檢的爭議。",
+    "educationalNotes": "Ostarine（enobosarm）為選擇性雄激素受體調節劑（SARM），屬 S1.2 其他合成代謝劑，微量亦可能來自受污染補充劑。"
+  },
+  {
+    "id": "5",
+    "athleteName": "Paul Pogba",
+    "year": 2023,
+    "sport": "足球",
+    "nationality": "法國",
+    "substance": "Testosterone",
+    "substanceCategory": "S1.1: 外源性合成代謝雄激素類固醇",
+    "eventBackground": "2023年期間，足球選手Paul Pogba因使用Testosterone被檢出，成為近年重要的禁藥案例。",
+    "punishment": {
+      "banDuration": "18個月（CAS 2024 減刑，原判 4 年）",
+      "resultsCancelled": false,
+      "medalStripped": false,
+      "otherPenalties": "職業生涯實質終結"
+    },
+    "summary": "2023年足球界的重要禁藥案例，展現了S1.1: 外源性合成代謝雄激素類固醇類物質的危害。",
+    "educationalNotes": "睪固酮是最基本的合成代謝類固醇，天然存在於人體但過量使用屬違規。",
+    "sourceLinks": [
+      {
+        "title": "WADA - Paul Pogba Case",
+        "url": "https://www.wada-ama.org/",
+        "type": "WADA"
+      }
+    ]
+  },
+  {
+    "id": "6",
+    "athleteName": "Fernando Tatis Jr.",
+    "year": 2022,
+    "sport": "棒球",
+    "nationality": "多明尼加",
+    "substance": "Clostebol",
+    "substanceCategory": "S1.1: 外源性合成代謝雄激素類固醇",
+    "eventBackground": "2022年期間，棒球選手Fernando Tatis Jr.因使用Clostebol被檢出，成為近年重要的禁藥案例。",
+    "punishment": {
+      "banDuration": "80場比賽",
+      "resultsCancelled": false,
+      "medalStripped": false,
+      "otherPenalties": "損失約290萬美元薪水"
+    },
+    "summary": "2022年棒球界的重要禁藥案例，展現了S1.1: 外源性合成代謝雄激素類固醇類物質的危害。",
+    "educationalNotes": "合成代謝類固醇能增加肌肉量和力量，但會對心血管系統造成嚴重副作用。",
+    "sourceLinks": [
+      {
+        "title": "WADA - Fernando Tatis Jr. Case",
+        "url": "https://www.wada-ama.org/",
+        "type": "WADA"
+      }
+    ]
+  },
+  {
+    "id": "7",
+    "athleteName": "Kamila Valieva",
+    "year": 2022,
+    "sport": "花式滑冰",
+    "nationality": "俄羅斯",
+    "substance": "Trimetazidine",
+    "substanceCategory": "S4.4: 代謝調節劑",
+    "eventBackground": "2022年期間，花式滑冰選手Kamila Valieva因使用Trimetazidine被檢出，成為近年重要的禁藥案例。",
+    "punishment": {
+      "banDuration": "4年",
+      "resultsCancelled": true,
+      "medalStripped": true,
+      "otherPenalties": "從2021年12月25日起成績被取消"
+    },
+    "summary": "2022年花式滑冰界的重要禁藥案例，展現了S4.4: 代謝調節劑類物質的危害。",
+    "educationalNotes": "Trimetazidine是心臟病藥物，被列為禁藥是因為可能提高運動表現。",
+    "sourceLinks": [
+      {
+        "title": "WADA - Kamila Valieva Case",
+        "url": "https://www.wada-ama.org/",
+        "type": "WADA"
+      }
+    ]
+  },
+  {
+    "id": "12",
+    "athleteName": "Shelby Houlihan",
+    "year": 2021,
+    "sport": "田徑",
+    "nationality": "美國",
+    "substance": "Nandrolone",
+    "substanceCategory": "S1.1: 外源性合成代謝雄激素類固醇",
+    "eventBackground": "2021年期間，田徑選手Shelby Houlihan因使用Nandrolone被檢出，成為近年重要的禁藥案例。",
+    "punishment": {
+      "banDuration": "4年",
+      "resultsCancelled": true,
+      "medalStripped": false,
+      "otherPenalties": "錯過東京奧運，美國紀錄被取消"
+    },
+    "summary": "2021年田徑界的重要禁藥案例，展現了S1.1: 外源性合成代謝雄激素類固醇類物質的危害。",
+    "educationalNotes": "合成代謝類固醇能增加肌肉量和力量，但會對心血管系統造成嚴重副作用。",
+    "sourceLinks": [
+      {
+        "title": "WADA - Shelby Houlihan Case",
+        "url": "https://www.wada-ama.org/",
+        "type": "WADA"
+      },
+      {
+        "title": "World Athletics",
+        "url": "https://www.worldathletics.org/",
+        "type": "官方文件"
+      }
+    ]
+  },
+  {
+    "id": "14",
+    "athleteName": "Hafþór Júlíus Björnsson",
+    "year": 2020,
+    "sport": "大力士",
+    "nationality": "冰島",
+    "substance": "公開討論使用",
+    "substanceCategory": "S1: 合成代謝劑",
+    "eventBackground": "2020年期間，大力士選手Hafþór Júlíus Björnsson因使用公開討論使用被檢出，成為近年重要的禁藥案例。",
+    "punishment": {
+      "banDuration": "無（非藥檢賽事）",
+      "resultsCancelled": false,
+      "medalStripped": false,
+      "otherPenalties": "無"
+    },
+    "summary": "2020年大力士界的重要禁藥案例，展現了S1: 合成代謝劑類物質的危害。",
+    "educationalNotes": "合成代謝類固醇能增加肌肉量和力量，但會對心血管系統造成嚴重副作用。",
+    "sourceLinks": [
+      {
+        "title": "WADA - Hafþór Júlíus Björnsson Case",
+        "url": "https://www.wada-ama.org/",
+        "type": "WADA"
+      }
+    ]
+  },
+  {
+    "id": "17",
+    "athleteName": "Deandre Ayton",
+    "year": 2019,
+    "sport": "籃球",
+    "nationality": "美國",
+    "substance": "利尿劑",
+    "substanceCategory": "S5: 利尿劑和掩蔽劑",
+    "eventBackground": "2019年，籃球選手Deandre Ayton因利尿劑違規成為國際體育界關注焦點。",
+    "punishment": {
+      "banDuration": "25場禁賽",
+      "resultsCancelled": false,
+      "medalStripped": false,
+      "otherPenalties": "影響球隊戰績"
+    },
+    "summary": "2019年籃球界的重要禁藥案例，展現了S5: 利尿劑和掩蔽劑類物質的危害。",
+    "educationalNotes": "利尿劑常用於掩蔽其他禁藥，同時會影響電解質平衡。",
+    "sourceLinks": [
+      {
+        "title": "WADA - Deandre Ayton Case",
+        "url": "https://www.wada-ama.org/",
+        "type": "WADA"
+      }
+    ]
+  },
+  {
+    "id": "18",
+    "athleteName": "John Collins",
+    "year": 2019,
+    "sport": "籃球",
+    "nationality": "美國",
+    "substance": "Growth Hormone Releasing Peptide-2",
+    "substanceCategory": "S2.2: 生長激素",
+    "eventBackground": "2019年，籃球選手John Collins因Growth Hormone Releasing Peptide-2違規成為國際體育界關注焦點。",
+    "punishment": {
+      "banDuration": "25場禁賽",
+      "resultsCancelled": false,
+      "medalStripped": false,
+      "otherPenalties": "錯過關鍵比賽"
+    },
+    "summary": "2019年籃球界的重要禁藥案例，展現了S2.2: 生長激素類物質的危害。",
+    "educationalNotes": "EPO和生長激素能提高運動表現，但會增加血栓、中風和器官肥大風險。",
+    "sourceLinks": [
+      {
+        "title": "WADA - John Collins Case",
+        "url": "https://www.wada-ama.org/",
+        "type": "WADA"
+      }
+    ]
+  },
+  {
+    "id": "19",
+    "athleteName": "Josh Gordon",
+    "year": 2019,
+    "sport": "美式足球",
+    "nationality": "美國",
+    "substance": "大麻、酒精",
+    "substanceCategory": "S6: 興奮劑",
+    "eventBackground": "2019年，美式足球選手Josh Gordon因大麻、酒精違規成為國際體育界關注焦點。",
+    "punishment": {
+      "banDuration": "無限期停賽",
+      "resultsCancelled": false,
+      "medalStripped": false,
+      "otherPenalties": "多次復出又被禁賽"
+    },
+    "summary": "2019年美式足球界的重要禁藥案例，展現了S6: 興奮劑類物質的危害。",
+    "educationalNotes": "興奮劑能提高警覺性和能量，但會造成心律不整和成癮問題。",
+    "sourceLinks": [
+      {
+        "title": "WADA - Josh Gordon Case",
+        "url": "https://www.wada-ama.org/",
+        "type": "WADA"
+      }
+    ]
+  },
+  {
+    "id": "21",
+    "athleteName": "TJ Dillashaw",
+    "year": 2019,
+    "sport": "MMA/UFC",
+    "nationality": "美國",
+    "substance": "EPO",
+    "substanceCategory": "S2.1: 促紅血球生成素類",
+    "eventBackground": "2019年，MMA/UFC選手TJ Dillashaw因EPO違規成為國際體育界關注焦點。",
+    "punishment": {
+      "banDuration": "2年",
+      "resultsCancelled": true,
+      "medalStripped": true,
+      "otherPenalties": "主動交回冠軍腰帶"
+    },
+    "summary": "2019年MMA/UFC界的重要禁藥案例，展現了S2.1: 促紅血球生成素類類物質的危害。",
+    "educationalNotes": "EPO能增加紅血球數量，提高氧氣運輸能力，但會增加血栓和中風風險。",
+    "sourceLinks": [
+      {
+        "title": "WADA - TJ Dillashaw Case",
+        "url": "https://www.wada-ama.org/",
+        "type": "WADA"
+      }
+    ]
+  },
+  {
+    "id": "22",
+    "athleteName": "Wilson Chandler",
+    "year": 2019,
+    "sport": "籃球",
+    "nationality": "美國",
+    "substance": "Ipamorelin",
+    "substanceCategory": "S2.2: 生長激素",
+    "eventBackground": "2019年，籃球選手Wilson Chandler因Ipamorelin違規成為國際體育界關注焦點。",
+    "punishment": {
+      "banDuration": "25場禁賽",
+      "resultsCancelled": false,
+      "medalStripped": false,
+      "otherPenalties": "無薪假期"
+    },
+    "summary": "2019年籃球界的重要禁藥案例，展現了S2.2: 生長激素類物質的危害。",
+    "educationalNotes": "EPO和生長激素能提高運動表現，但會增加血栓、中風和器官肥大風險。",
+    "sourceLinks": [
+      {
+        "title": "WADA - Wilson Chandler Case",
+        "url": "https://www.wada-ama.org/",
+        "type": "WADA"
+      }
+    ]
+  },
+  {
+    "id": "24",
+    "athleteName": "Canelo Alvarez",
+    "year": 2018,
+    "sport": "拳擊",
+    "nationality": "墨西哥",
+    "substance": "Clenbuterol",
+    "substanceCategory": "S1.2: 合成代謝劑（其他合成代謝劑）",
+    "eventBackground": "2018年，拳擊選手Canelo Alvarez因Clenbuterol違規成為國際體育界關注焦點。",
+    "punishment": {
+      "banDuration": "6個月",
+      "resultsCancelled": false,
+      "medalStripped": false,
+      "otherPenalties": "二番戰延後舉行"
+    },
+    "summary": "2018年拳擊界的重要禁藥案例，展現了S3: Beta-2激動劑類物質的危害。",
+    "educationalNotes": "Clenbuterol是支氣管擴張劑，也用於畜牧業，可能通過食物鏈進入人體。",
+    "sourceLinks": [
+      {
+        "title": "WADA - Canelo Alvarez Case",
+        "url": "https://www.wada-ama.org/",
+        "type": "WADA"
+      }
+    ]
+  },
+  {
+    "id": "25",
+    "athleteName": "Robinson Cano",
+    "year": 2018,
+    "sport": "棒球",
+    "nationality": "多明尼加",
+    "substance": "Furosemide",
+    "substanceCategory": "S5: 利尿劑和掩蔽劑",
+    "eventBackground": "2018年，棒球選手Robinson Cano因Furosemide違規成為國際體育界關注焦點。",
+    "punishment": {
+      "banDuration": "80場禁賽",
+      "resultsCancelled": false,
+      "medalStripped": false,
+      "otherPenalties": "薪水損失約1200萬美元"
+    },
+    "summary": "2018年棒球界的重要禁藥案例，展現了S5: 利尿劑和掩蔽劑類物質的危害。",
+    "educationalNotes": "利尿劑常用於掩蔽其他禁藥，同時會影響電解質平衡。",
+    "sourceLinks": [
+      {
+        "title": "WADA - Robinson Cano Case",
+        "url": "https://www.wada-ama.org/",
+        "type": "WADA"
+      }
+    ]
+  },
+  {
+    "id": "28",
+    "athleteName": "Eddie Hall",
+    "year": 2017,
+    "sport": "大力士",
+    "nationality": "英國",
+    "substance": "公開承認使用",
+    "substanceCategory": "S1: 合成代謝劑",
+    "eventBackground": "2017年，大力士選手Eddie Hall因公開承認使用違規成為國際體育界關注焦點。",
+    "punishment": {
+      "banDuration": "無（非藥檢賽事）",
+      "resultsCancelled": false,
+      "medalStripped": false,
+      "otherPenalties": "健康問題"
+    },
+    "summary": "2017年大力士界的重要禁藥案例，展現了S1: 合成代謝劑類物質的危害。",
+    "educationalNotes": "合成代謝類固醇能增加肌肉量和力量，但會對心血管系統造成嚴重副作用。",
+    "sourceLinks": [
+      {
+        "title": "WADA - Eddie Hall Case",
+        "url": "https://www.wada-ama.org/",
+        "type": "WADA"
+      }
+    ]
+  },
+  {
+    "id": "29",
+    "athleteName": "Jemima Sumgong",
+    "year": 2017,
+    "sport": "田徑",
+    "nationality": "肯亞",
+    "substance": "EPO",
+    "substanceCategory": "S2.1: 促紅血球生成素類",
+    "eventBackground": "2017年，田徑選手Jemima Sumgong因EPO違規成為國際體育界關注焦點。",
+    "punishment": {
+      "banDuration": "8年",
+      "resultsCancelled": true,
+      "medalStripped": true,
+      "otherPenalties": "奧運金牌被取消"
+    },
+    "summary": "2017年田徑界的重要禁藥案例，展現了S2.1: 促紅血球生成素類類物質的危害。",
+    "educationalNotes": "EPO能增加紅血球數量，提高氧氣運輸能力，但會增加血栓和中風風險。",
+    "sourceLinks": [
+      {
+        "title": "WADA - Jemima Sumgong Case",
+        "url": "https://www.wada-ama.org/",
+        "type": "WADA"
+      },
+      {
+        "title": "World Athletics",
+        "url": "https://www.worldathletics.org/",
+        "type": "官方文件"
+      }
+    ]
+  },
+  {
+    "id": "30",
+    "athleteName": "Joakim Noah",
+    "year": 2017,
+    "sport": "籃球",
+    "nationality": "美國",
+    "substance": "Ligandrol (LGD-4033)",
+    "substanceCategory": "S1: 合成代謝劑",
+    "eventBackground": "2017年，籃球選手Joakim Noah因Ligandrol (LGD-4033)違規成為國際體育界關注焦點。",
+    "punishment": {
+      "banDuration": "20場禁賽",
+      "resultsCancelled": false,
+      "medalStripped": false,
+      "otherPenalties": "薪水損失"
+    },
+    "summary": "2017年籃球界的重要禁藥案例，展現了S1: 合成代謝劑類物質的危害。",
+    "educationalNotes": "合成代謝類固醇能增加肌肉量和力量，但會對心血管系統造成嚴重副作用。",
+    "sourceLinks": [
+      {
+        "title": "WADA - Joakim Noah Case",
+        "url": "https://www.wada-ama.org/",
+        "type": "WADA"
+      }
+    ]
+  },
+  {
+    "id": "31",
+    "athleteName": "Jon Jones",
+    "year": 2017,
+    "sport": "MMA",
+    "nationality": "美國",
+    "substance": "Turinabol (4-chlorodehydromethyltestosterone)",
+    "substanceCategory": "S1.1: 外源性合成代謝雄激素類固醇",
+    "eventBackground": "2017年，MMA選手Jon Jones因Turinabol (4-chlorodehydromethyltestosterone)違規成為國際體育界關注焦點。",
+    "punishment": {
+      "banDuration": "15個月",
+      "resultsCancelled": true,
+      "medalStripped": true,
+      "otherPenalties": "UFC 214勝利被改判為無效果"
+    },
+    "summary": "2017年MMA界的重要禁藥案例，展現了S1.1: 外源性合成代謝雄激素類固醇類物質的危害。",
+    "educationalNotes": "合成代謝類固醇能增加肌肉量和力量，但會對心血管系統造成嚴重副作用。",
+    "sourceLinks": [
+      {
+        "title": "WADA - Jon Jones Case",
+        "url": "https://www.wada-ama.org/",
+        "type": "WADA"
+      }
+    ]
+  },
+  {
+    "id": "33",
+    "athleteName": "Alexander Povetkin",
+    "year": 2016,
+    "sport": "拳擊",
+    "nationality": "俄羅斯",
+    "substance": "Meldonium",
+    "substanceCategory": "S4.4: 代謝調節劑",
+    "eventBackground": "2016年，拳擊選手Alexander Povetkin因Meldonium違規成為國際體育界關注焦點。",
+    "punishment": {
+      "banDuration": "1年",
+      "resultsCancelled": false,
+      "medalStripped": false,
+      "otherPenalties": "重要拳賽延期"
+    },
+    "summary": "2016年拳擊界的重要禁藥案例，展現了S4.4: 代謝調節劑類物質的危害。",
+    "educationalNotes": "Meldonium原用於治療心臟疾病，2016年被WADA列入禁藥，可能提高運動耐力。",
+    "sourceLinks": [
+      {
+        "title": "WADA - Alexander Povetkin Case",
+        "url": "https://www.wada-ama.org/",
+        "type": "WADA"
+      }
+    ]
+  },
+  {
+    "id": "34",
+    "athleteName": "Aliya Mustafina",
+    "year": 2016,
+    "sport": "體操",
+    "nationality": "俄羅斯",
+    "substance": "Meldonium (疑似)",
+    "substanceCategory": "S4.4: 代謝調節劑",
+    "eventBackground": "2016年，體操選手Aliya Mustafina因Meldonium (疑似)違規成為國際體育界關注焦點。",
+    "punishment": {
+      "banDuration": "無",
+      "resultsCancelled": false,
+      "medalStripped": false,
+      "otherPenalties": "受國家禁令影響"
+    },
+    "summary": "2016年體操界的重要禁藥案例，展現了S4.4: 代謝調節劑類物質的危害。",
+    "educationalNotes": "Meldonium原用於治療心臟疾病，2016年被WADA列入禁藥，可能提高運動耐力。",
+    "sourceLinks": [
+      {
+        "title": "WADA - Aliya Mustafina Case",
+        "url": "https://www.wada-ama.org/",
+        "type": "WADA"
+      }
+    ]
+  },
+  {
+    "id": "35",
+    "athleteName": "Anastasia Zueva",
+    "year": 2016,
+    "sport": "田徑",
+    "nationality": "俄羅斯",
+    "substance": "Meldonium",
+    "substanceCategory": "S4.4: 代謝調節劑",
+    "eventBackground": "2016年，田徑選手Anastasia Zueva因Meldonium違規成為國際體育界關注焦點。",
+    "punishment": {
+      "banDuration": "2年",
+      "resultsCancelled": true,
+      "medalStripped": false,
+      "otherPenalties": "職業生涯受重創"
+    },
+    "summary": "2016年田徑界的重要禁藥案例，展現了S4.4: 代謝調節劑類物質的危害。",
+    "educationalNotes": "Meldonium原用於治療心臟疾病，2016年被WADA列入禁藥，可能提高運動耐力。",
+    "sourceLinks": [
+      {
+        "title": "WADA - Anastasia Zueva Case",
+        "url": "https://www.wada-ama.org/",
+        "type": "WADA"
+      },
+      {
+        "title": "World Athletics",
+        "url": "https://www.worldathletics.org/",
+        "type": "官方文件"
+      }
+    ]
+  },
+  {
+    "id": "36",
+    "athleteName": "Brock Lesnar",
+    "year": 2016,
+    "sport": "MMA/UFC",
+    "nationality": "美國",
+    "substance": "Clomiphene",
+    "substanceCategory": "S4.2: 抗雌激素物質",
+    "eventBackground": "2016年，MMA/UFC選手Brock Lesnar因Clomiphene違規成為國際體育界關注焦點。",
+    "punishment": {
+      "banDuration": "1年",
+      "resultsCancelled": true,
+      "medalStripped": false,
+      "otherPenalties": "UFC復出計劃取消"
+    },
+    "summary": "2016年MMA/UFC界的重要禁藥案例，展現了S4.4: 代謝調節劑類物質的危害。",
+    "educationalNotes": "代謝調節劑能影響新陳代謝和氧氣利用，但會對心臟造成負擔。",
+    "sourceLinks": [
+      {
+        "title": "WADA - Brock Lesnar Case",
+        "url": "https://www.wada-ama.org/",
+        "type": "WADA"
+      }
+    ]
+  },
+  {
+    "id": "37",
+    "athleteName": "Chad Mendes",
+    "year": 2016,
+    "sport": "MMA/UFC",
+    "nationality": "美國",
+    "substance": "GHRP-6",
+    "substanceCategory": "S2.2: 生長激素",
+    "eventBackground": "2016年，MMA/UFC選手Chad Mendes因GHRP-6違規成為國際體育界關注焦點。",
+    "punishment": {
+      "banDuration": "2年",
+      "resultsCancelled": true,
+      "medalStripped": false,
+      "otherPenalties": "UFC合約被終止"
+    },
+    "summary": "2016年MMA/UFC界的重要禁藥案例，展現了S2.2: 生長激素類物質的危害。",
+    "educationalNotes": "EPO和生長激素能提高運動表現，但會增加血栓、中風和器官肥大風險。",
+    "sourceLinks": [
+      {
+        "title": "WADA - Chad Mendes Case",
+        "url": "https://www.wada-ama.org/",
+        "type": "WADA"
+      }
+    ]
+  },
+  {
+    "id": "38",
+    "athleteName": "Dee Gordon",
+    "year": 2016,
+    "sport": "棒球",
+    "nationality": "美國",
+    "substance": "Testosterone和Clostebol",
+    "substanceCategory": "S1: 合成代謝劑",
+    "eventBackground": "2016年，棒球選手Dee Gordon因Testosterone和Clostebol違規成為國際體育界關注焦點。",
+    "punishment": {
+      "banDuration": "80場禁賽",
+      "resultsCancelled": false,
+      "medalStripped": false,
+      "otherPenalties": "全明星資格被取消"
+    },
+    "summary": "2016年棒球界的重要禁藥案例，展現了S1: 合成代謝劑類物質的危害。",
+    "educationalNotes": "睪固酮是最基本的合成代謝類固醇，天然存在於人體但過量使用屬違規。",
+    "sourceLinks": [
+      {
+        "title": "WADA - Dee Gordon Case",
+        "url": "https://www.wada-ama.org/",
+        "type": "WADA"
+      }
+    ]
+  },
+  {
+    "id": "39",
+    "athleteName": "Elena Isinbaeva",
+    "year": 2016,
+    "sport": "田徑",
+    "nationality": "俄羅斯",
+    "substance": "Meldonium (疑似)",
+    "substanceCategory": "S4.4: 代謝調節劑",
+    "eventBackground": "2016年，田徑選手Elena Isinbaeva因Meldonium (疑似)違規成為國際體育界關注焦點。",
+    "punishment": {
+      "banDuration": "無直接處罰",
+      "resultsCancelled": false,
+      "medalStripped": false,
+      "otherPenalties": "退役避免進一步調查"
+    },
+    "summary": "2016年田徑界的重要禁藥案例，展現了S4.4: 代謝調節劑類物質的危害。",
+    "educationalNotes": "Meldonium原用於治療心臟疾病，2016年被WADA列入禁藥，可能提高運動耐力。",
+    "sourceLinks": [
+      {
+        "title": "WADA - Elena Isinbaeva Case",
+        "url": "https://www.wada-ama.org/",
+        "type": "WADA"
+      },
+      {
+        "title": "World Athletics",
+        "url": "https://www.worldathletics.org/",
+        "type": "官方文件"
+      }
+    ]
+  },
+  {
+    "id": "40",
+    "athleteName": "Frank Mir",
+    "year": 2016,
+    "sport": "MMA/UFC",
+    "nationality": "美國",
+    "substance": "Turinabol",
+    "substanceCategory": "S1.1: 外源性合成代謝雄激素類固醇",
+    "eventBackground": "2016年，MMA/UFC選手Frank Mir因Turinabol違規成為國際體育界關注焦點。",
+    "punishment": {
+      "banDuration": "2年",
+      "resultsCancelled": true,
+      "medalStripped": false,
+      "otherPenalties": "UFC職業生涯實質結束"
+    },
+    "summary": "2016年MMA/UFC界的重要禁藥案例，展現了S1.1: 外源性合成代謝雄激素類固醇類物質的危害。",
+    "educationalNotes": "合成代謝類固醇能增加肌肉量和力量，但會對心血管系統造成嚴重副作用。",
+    "sourceLinks": [
+      {
+        "title": "WADA - Frank Mir Case",
+        "url": "https://www.wada-ama.org/",
+        "type": "WADA"
+      }
+    ]
+  },
+  {
+    "id": "43",
+    "athleteName": "Maria Sharapova",
+    "year": 2016,
+    "sport": "網球",
+    "nationality": "俄羅斯",
+    "substance": "Meldonium",
+    "substanceCategory": "S4.4: 代謝調節劑",
+    "eventBackground": "2016年澳網期間藥檢呈陽性，聲稱不知道Meldonium已被列入禁藥清單。",
+    "punishment": {
+      "banDuration": "15個月",
+      "resultsCancelled": false,
+      "medalStripped": false,
+      "otherPenalties": "失去多個贊助合約"
+    },
+    "summary": "高知名度選手因未注意禁藥清單更新而違規的案例。",
+    "educationalNotes": "Meldonium原用於治療心臟疾病，2016年被WADA列入禁藥，可能提高運動耐力。",
+    "sourceLinks": [
+      {
+        "title": "WADA - Maria Sharapova Case",
+        "url": "https://www.wada-ama.org/",
+        "type": "WADA"
+      },
+      {
+        "title": "ITF",
+        "url": "https://www.itftennis.com/",
+        "type": "官方文件"
+      }
+    ]
+  },
+  {
+    "id": "44",
+    "athleteName": "Mikhail Koklyaev",
+    "year": 2016,
+    "sport": "舉重/大力士",
+    "nationality": "俄羅斯",
+    "substance": "Meldonium",
+    "substanceCategory": "S4.4: 代謝調節劑",
+    "eventBackground": "2016年，舉重/大力士選手Mikhail Koklyaev因Meldonium違規成為國際體育界關注焦點。",
+    "punishment": {
+      "banDuration": "1年",
+      "resultsCancelled": false,
+      "medalStripped": false,
+      "otherPenalties": "轉向非藥檢賽事"
+    },
+    "summary": "2016年舉重/大力士界的重要禁藥案例，展現了S4.4: 代謝調節劑類物質的危害。",
+    "educationalNotes": "Meldonium原用於治療心臟疾病，2016年被WADA列入禁藥，可能提高運動耐力。",
+    "sourceLinks": [
+      {
+        "title": "WADA - Mikhail Koklyaev Case",
+        "url": "https://www.wada-ama.org/",
+        "type": "WADA"
+      }
+    ]
+  },
+  {
+    "id": "46",
+    "athleteName": "Pavel Kulzhanov",
+    "year": 2016,
+    "sport": "田徑",
+    "nationality": "俄羅斯",
+    "substance": "Meldonium",
+    "substanceCategory": "S4.4: 代謝調節劑",
+    "eventBackground": "2016年，田徑選手Pavel Kulzhanov因Meldonium違規成為國際體育界關注焦點。",
+    "punishment": {
+      "banDuration": "4年",
+      "resultsCancelled": true,
+      "medalStripped": false,
+      "otherPenalties": "職業生涯實質結束"
+    },
+    "summary": "2016年田徑界的重要禁藥案例，展現了S4.4: 代謝調節劑類物質的危害。",
+    "educationalNotes": "Meldonium原用於治療心臟疾病，2016年被WADA列入禁藥，可能提高運動耐力。",
+    "sourceLinks": [
+      {
+        "title": "WADA - Pavel Kulzhanov Case",
+        "url": "https://www.wada-ama.org/",
+        "type": "WADA"
+      },
+      {
+        "title": "World Athletics",
+        "url": "https://www.worldathletics.org/",
+        "type": "官方文件"
+      }
+    ]
+  },
+  {
+    "id": "47",
+    "athleteName": "Sergey Shubenkov",
+    "year": 2016,
+    "sport": "田徑",
+    "nationality": "俄羅斯",
+    "substance": "Meldonium",
+    "substanceCategory": "S4.4: 代謝調節劑",
+    "eventBackground": "2016年，田徑選手Sergey Shubenkov因Meldonium違規成為國際體育界關注焦點。",
+    "punishment": {
+      "banDuration": "無處罰",
+      "resultsCancelled": false,
+      "medalStripped": false,
+      "otherPenalties": "處於IAAF俄羅斯禁令期間"
+    },
+    "summary": "2016年田徑界的重要禁藥案例，展現了S4.4: 代謝調節劑類物質的危害。",
+    "educationalNotes": "Meldonium原用於治療心臟疾病，2016年被WADA列入禁藥，可能提高運動耐力。",
+    "sourceLinks": [
+      {
+        "title": "WADA - Sergey Shubenkov Case",
+        "url": "https://www.wada-ama.org/",
+        "type": "WADA"
+      },
+      {
+        "title": "World Athletics",
+        "url": "https://www.worldathletics.org/",
+        "type": "官方文件"
+      }
+    ]
+  },
+  {
+    "id": "49",
+    "athleteName": "Svetlana Romashina",
+    "year": 2016,
+    "sport": "韻律泳",
+    "nationality": "俄羅斯",
+    "substance": "Meldonium",
+    "substanceCategory": "S4.4: 代謝調節劑",
+    "eventBackground": "2016年，韻律泳選手Svetlana Romashina因Meldonium違規成為國際體育界關注焦點。",
+    "punishment": {
+      "banDuration": "無處罰",
+      "resultsCancelled": false,
+      "medalStripped": false,
+      "otherPenalties": "使用時間在禁用前"
+    },
+    "summary": "2016年韻律泳界的重要禁藥案例，展現了S4.4: 代謝調節劑類物質的危害。",
+    "educationalNotes": "Meldonium原用於治療心臟疾病，2016年被WADA列入禁藥，可能提高運動耐力。",
+    "sourceLinks": [
+      {
+        "title": "WADA - Svetlana Romashina Case",
+        "url": "https://www.wada-ama.org/",
+        "type": "WADA"
+      }
+    ]
+  },
+  {
+    "id": "50",
+    "athleteName": "Therese Johaug",
+    "year": 2016,
+    "sport": "越野滑雪",
+    "nationality": "挪威",
+    "substance": "Clostebol",
+    "substanceCategory": "S1.1: 外源性合成代謝雄激素類固醇",
+    "eventBackground": "2016年，越野滑雪選手Therese Johaug因Clostebol違規成為國際體育界關注焦點。",
+    "punishment": {
+      "banDuration": "18個月",
+      "resultsCancelled": false,
+      "medalStripped": false,
+      "otherPenalties": "錯過平昌冬奧"
+    },
+    "summary": "2016年越野滑雪界的重要禁藥案例，展現了S1.1: 外源性合成代謝雄激素類固醇類物質的危害。",
+    "educationalNotes": "合成代謝類固醇能增加肌肉量和力量，但會對心血管系統造成嚴重副作用。",
+    "sourceLinks": [
+      {
+        "title": "WADA - Therese Johaug Case",
+        "url": "https://www.wada-ama.org/",
+        "type": "WADA"
+      }
+    ]
+  },
+  {
+    "id": "51",
+    "athleteName": "Anderson Silva",
+    "year": 2015,
+    "sport": "MMA",
+    "nationality": "巴西",
+    "substance": "Drostanolone",
+    "substanceCategory": "S1: 合成代謝劑",
+    "eventBackground": "2015年，MMA選手Anderson Silva因Drostanolone違規成為國際體育界關注焦點。",
+    "punishment": {
+      "banDuration": "1年",
+      "resultsCancelled": true,
+      "medalStripped": false,
+      "otherPenalties": "罰款18萬美元"
+    },
+    "summary": "2015年MMA界的重要禁藥案例，展現了S1: 合成代謝劑類物質的危害。",
+    "educationalNotes": "合成代謝類固醇能增加肌肉量和力量，但會對心血管系統造成嚴重副作用。",
+    "sourceLinks": [
+      {
+        "title": "WADA - Anderson Silva Case",
+        "url": "https://www.wada-ama.org/",
+        "type": "WADA"
+      }
+    ]
+  },
+  {
+    "id": "52",
+    "athleteName": "Kirill Sarychev",
+    "year": 2015,
+    "sport": "健力",
+    "nationality": "俄羅斯",
+    "substance": "公開使用（非藥檢聯盟）",
+    "substanceCategory": "S1: 合成代謝劑",
+    "eventBackground": "2015年，健力選手Kirill Sarychev因公開使用（非藥檢聯盟）違規成為國際體育界關注焦點。",
+    "punishment": {
+      "banDuration": "無（非藥檢聯盟）",
+      "resultsCancelled": false,
+      "medalStripped": false,
+      "otherPenalties": "無法參加IPF比賽"
+    },
+    "summary": "2015年健力界的重要禁藥案例，展現了S1: 合成代謝劑類物質的危害。",
+    "educationalNotes": "合成代謝類固醇能增加肌肉量和力量，但會對心血管系統造成嚴重副作用。",
+    "sourceLinks": [
+      {
+        "title": "WADA - Kirill Sarychev Case",
+        "url": "https://www.wada-ama.org/",
+        "type": "WADA"
+      }
+    ]
+  },
+  {
+    "id": "54",
+    "athleteName": "Peyton Manning",
+    "year": 2015,
+    "sport": "美式足球",
+    "nationality": "美國",
+    "substance": "HGH (指控)",
+    "substanceCategory": "S2.2: 生長激素",
+    "eventBackground": "2015年，美式足球選手Peyton Manning因HGH (指控)違規成為國際體育界關注焦點。",
+    "punishment": {
+      "banDuration": "無處罰",
+      "resultsCancelled": false,
+      "medalStripped": false,
+      "otherPenalties": "聲譽受到質疑"
+    },
+    "summary": "2015年美式足球界的重要禁藥案例，展現了S2.2: 生長激素類物質的危害。",
+    "educationalNotes": "EPO和生長激素能提高運動表現，但會增加血栓、中風和器官肥大風險。",
+    "sourceLinks": [
+      {
+        "title": "WADA - Peyton Manning Case",
+        "url": "https://www.wada-ama.org/",
+        "type": "WADA"
+      }
+    ]
+  },
+  {
+    "id": "55",
+    "athleteName": "Tyson Fury",
+    "year": 2015,
+    "sport": "拳擊",
+    "nationality": "英國",
+    "substance": "Nandrolone (爭議)",
+    "substanceCategory": "S1.1: 外源性合成代謝雄激素類固醇",
+    "eventBackground": "2015年，拳擊選手Tyson Fury因Nandrolone (爭議)違規成為國際體育界關注焦點。",
+    "punishment": {
+      "banDuration": "追溯至2015年",
+      "resultsCancelled": false,
+      "medalStripped": false,
+      "otherPenalties": "2年實質禁賽"
+    },
+    "summary": "2015年拳擊界的重要禁藥案例，展現了S1.1: 外源性合成代謝雄激素類固醇類物質的危害。",
+    "educationalNotes": "合成代謝類固醇能增加肌肉量和力量，但會對心血管系統造成嚴重副作用。",
+    "sourceLinks": [
+      {
+        "title": "WADA - Tyson Fury Case",
+        "url": "https://www.wada-ama.org/",
+        "type": "WADA"
+      }
+    ]
+  },
+  {
+    "id": "56",
+    "athleteName": "俄羅斯田徑隊",
+    "year": 2015,
+    "sport": "田徑",
+    "nationality": "俄羅斯",
+    "substance": "系統性使用多種禁藥",
+    "substanceCategory": "S1: 合成代謝劑",
+    "eventBackground": "2015年，田徑選手俄羅斯田徑隊因系統性使用多種禁藥違規成為國際體育界關注焦點。",
+    "punishment": {
+      "banDuration": "2015-2021年國際賽事禁賽",
+      "resultsCancelled": true,
+      "medalStripped": true,
+      "otherPenalties": "里約奧運全面禁賽"
+    },
+    "summary": "俄羅斯系統性禁藥計劃的重要案例，影響國際體育治理。",
+    "educationalNotes": "合成代謝類固醇能增加肌肉量和力量，但會對心血管系統造成嚴重副作用。",
+    "sourceLinks": [
+      {
+        "title": "WADA - 俄羅斯田徑隊 Case",
+        "url": "https://www.wada-ama.org/",
+        "type": "WADA"
+      },
+      {
+        "title": "World Athletics",
+        "url": "https://www.worldathletics.org/",
+        "type": "官方文件"
+      }
+    ]
+  },
+  {
+    "id": "57",
+    "athleteName": "Alex Rodriguez",
+    "year": 2014,
+    "sport": "棒球",
+    "nationality": "美國",
+    "substance": "睪固酮、HGH",
+    "substanceCategory": "S2.2: 生長激素",
+    "eventBackground": "2014年，棒球選手Alex Rodriguez因睪固酮、HGH違規成為國際體育界關注焦點。",
+    "punishment": {
+      "banDuration": "整個2014球季",
+      "resultsCancelled": false,
+      "medalStripped": false,
+      "otherPenalties": "損失2400萬美元薪水"
+    },
+    "summary": "2014年棒球界的重要禁藥案例，展現了S2.2: 生長激素類物質的危害。",
+    "educationalNotes": "睪固酮是最基本的合成代謝類固醇，天然存在於人體但過量使用屬違規。",
+    "sourceLinks": [
+      {
+        "title": "WADA - Alex Rodriguez Case",
+        "url": "https://www.wada-ama.org/",
+        "type": "WADA"
+      }
+    ]
+  },
+  {
+    "id": "60",
+    "athleteName": "Eduard Latypov",
+    "year": 2014,
+    "sport": "冬季兩項",
+    "nationality": "俄羅斯",
+    "substance": "系統性國家禁藥",
+    "substanceCategory": "M2: 化學和物理操作",
+    "eventBackground": "2014年，冬季兩項選手Eduard Latypov因系統性國家禁藥違規成為國際體育界關注焦點。",
+    "punishment": {
+      "banDuration": "4年",
+      "resultsCancelled": true,
+      "medalStripped": true,
+      "otherPenalties": "索契冬奧獎牌被取消"
+    },
+    "summary": "2014年冬季兩項界的重要禁藥案例，展現了M2: 化學和物理操作類物質的危害。",
+    "educationalNotes": "物理和化學操作違反了公平競爭原則，對運動員健康造成未知風險。",
+    "sourceLinks": [
+      {
+        "title": "WADA - Eduard Latypov Case",
+        "url": "https://www.wada-ama.org/",
+        "type": "WADA"
+      }
+    ]
+  },
+  {
+    "id": "61",
+    "athleteName": "Evgeny Ustyugov",
+    "year": 2014,
+    "sport": "冬季兩項",
+    "nationality": "俄羅斯",
+    "substance": "系統性國家禁藥",
+    "substanceCategory": "M2: 化學和物理操作",
+    "eventBackground": "2014年，冬季兩項選手Evgeny Ustyugov因系統性國家禁藥違規成為國際體育界關注焦點。",
+    "punishment": {
+      "banDuration": "4年",
+      "resultsCancelled": true,
+      "medalStripped": true,
+      "otherPenalties": "多個奧運獎牌被取消"
+    },
+    "summary": "2014年冬季兩項界的重要禁藥案例，展現了M2: 化學和物理操作類物質的危害。",
+    "educationalNotes": "物理和化學操作違反了公平競爭原則，對運動員健康造成未知風險。",
+    "sourceLinks": [
+      {
+        "title": "WADA - Evgeny Ustyugov Case",
+        "url": "https://www.wada-ama.org/",
+        "type": "WADA"
+      }
+    ]
+  },
+  {
+    "id": "62",
+    "athleteName": "Park Tae-hwan",
+    "year": 2014,
+    "sport": "游泳",
+    "nationality": "南韓",
+    "substance": "Testosterone",
+    "substanceCategory": "S1.1: 外源性合成代謝雄激素類固醇",
+    "eventBackground": "2014年，游泳選手Park Tae-hwan因Testosterone違規成為國際體育界關注焦點。",
+    "punishment": {
+      "banDuration": "18個月",
+      "resultsCancelled": false,
+      "medalStripped": false,
+      "otherPenalties": "幾乎錯過里約奧運"
+    },
+    "summary": "2014年游泳界的重要禁藥案例，展現了S1.1: 外源性合成代謝雄激素類固醇類物質的危害。",
+    "educationalNotes": "睪固酮是最基本的合成代謝類固醇，天然存在於人體但過量使用屬違規。",
+    "sourceLinks": [
+      {
+        "title": "WADA - Park Tae-hwan Case",
+        "url": "https://www.wada-ama.org/",
+        "type": "WADA"
+      },
+      {
+        "title": "World Aquatics",
+        "url": "https://www.worldaquatics.com/",
+        "type": "官方文件"
+      }
+    ]
+  },
+  {
+    "id": "63",
+    "athleteName": "Rita Jeptoo",
+    "year": 2014,
+    "sport": "田徑",
+    "nationality": "肯亞",
+    "substance": "EPO",
+    "substanceCategory": "S2.1: 促紅血球生成素類",
+    "eventBackground": "2014年，田徑選手Rita Jeptoo因EPO違規成為國際體育界關注焦點。",
+    "punishment": {
+      "banDuration": "4年",
+      "resultsCancelled": true,
+      "medalStripped": true,
+      "otherPenalties": "獎金被收回"
+    },
+    "summary": "2014年田徑界的重要禁藥案例，展現了S2.1: 促紅血球生成素類類物質的危害。",
+    "educationalNotes": "EPO能增加紅血球數量，提高氧氣運輸能力，但會增加血栓和中風風險。",
+    "sourceLinks": [
+      {
+        "title": "WADA - Rita Jeptoo Case",
+        "url": "https://www.wada-ama.org/",
+        "type": "WADA"
+      },
+      {
+        "title": "World Athletics",
+        "url": "https://www.worldathletics.org/",
+        "type": "官方文件"
+      }
+    ]
+  },
+  {
+    "id": "64",
+    "athleteName": "Russian State Doping System",
+    "year": 2014,
+    "sport": "多項目",
+    "nationality": "俄羅斯",
+    "substance": "系統性國家禁藥",
+    "substanceCategory": "S1: 合成代謝劑",
+    "eventBackground": "俄羅斯國家層面系統性禁藥計劃，影響多屆奧運會和世界大賽。",
+    "punishment": {
+      "banDuration": "4年集體禁賽",
+      "resultsCancelled": true,
+      "medalStripped": true,
+      "otherPenalties": "國際體育聲譽重創"
+    },
+    "summary": "俄羅斯系統性禁藥計劃的重要案例，影響國際體育治理。",
+    "educationalNotes": "合成代謝類固醇能增加肌肉量和力量，但會對心血管系統造成嚴重副作用。",
+    "sourceLinks": [
+      {
+        "title": "WADA - Russian State Doping System Case",
+        "url": "https://www.wada-ama.org/",
+        "type": "WADA"
+      }
+    ]
+  },
+  {
+    "id": "66",
+    "athleteName": "Asafa Powell",
+    "year": 2013,
+    "sport": "田徑",
+    "nationality": "牙買加",
+    "substance": "Oxilofrine",
+    "substanceCategory": "S6: 興奮劑",
+    "eventBackground": "2013年，田徑選手Asafa Powell因Oxilofrine違規成為國際體育界關注焦點。",
+    "punishment": {
+      "banDuration": "6個月（CAS 減刑，原判 18 個月）",
+      "resultsCancelled": true,
+      "medalStripped": false,
+      "otherPenalties": "職業生涯重創"
+    },
+    "summary": "2013年田徑界的重要禁藥案例，展現了S6: 興奮劑類物質的危害。",
+    "educationalNotes": "興奮劑能提高警覺性和能量，但會造成心律不整和成癮問題。",
+    "sourceLinks": [
+      {
+        "title": "WADA - Asafa Powell Case",
+        "url": "https://www.wada-ama.org/",
+        "type": "WADA"
+      },
+      {
+        "title": "World Athletics",
+        "url": "https://www.worldathletics.org/",
+        "type": "官方文件"
+      }
+    ]
+  },
+  {
+    "id": "67",
+    "athleteName": "Hossein Rezazadeh",
+    "year": 2013,
+    "sport": "舉重",
+    "nationality": "伊朗",
+    "substance": "Methandienone",
+    "substanceCategory": "S1: 合成代謝劑",
+    "eventBackground": "2013年，舉重選手Hossein Rezazadeh因Methandienone違規成為國際體育界關注焦點。",
+    "punishment": {
+      "banDuration": "無處罰（已退役）",
+      "resultsCancelled": false,
+      "medalStripped": false,
+      "otherPenalties": "聲譽受到質疑"
+    },
+    "summary": "2013年舉重界的重要禁藥案例，展現了S1: 合成代謝劑類物質的危害。",
+    "educationalNotes": "合成代謝類固醇能增加肌肉量和力量，但會對心血管系統造成嚴重副作用。",
+    "sourceLinks": [
+      {
+        "title": "WADA - Hossein Rezazadeh Case",
+        "url": "https://www.wada-ama.org/",
+        "type": "WADA"
+      }
+    ]
+  },
+  {
+    "id": "68",
+    "athleteName": "Nelson Cruz",
+    "year": 2013,
+    "sport": "棒球",
+    "nationality": "多明尼加",
+    "substance": "Testosterone",
+    "substanceCategory": "S1: 合成代謝劑",
+    "eventBackground": "2013年，棒球選手Nelson Cruz因Testosterone違規成為國際體育界關注焦點。",
+    "punishment": {
+      "banDuration": "50場禁賽",
+      "resultsCancelled": false,
+      "medalStripped": false,
+      "otherPenalties": "錯過季後賽"
+    },
+    "summary": "2013年棒球界的重要禁藥案例，展現了S1: 合成代謝劑類物質的危害。",
+    "educationalNotes": "睪固酮是最基本的合成代謝類固醇，天然存在於人體但過量使用屬違規。",
+    "sourceLinks": [
+      {
+        "title": "WADA - Nelson Cruz Case",
+        "url": "https://www.wada-ama.org/",
+        "type": "WADA"
+      }
+    ]
+  },
+  {
+    "id": "69",
+    "athleteName": "Ryan Braun",
+    "year": 2013,
+    "sport": "棒球",
+    "nationality": "美國",
+    "substance": "Testosterone",
+    "substanceCategory": "S1: 合成代謝劑",
+    "eventBackground": "2013年，棒球選手Ryan Braun因Testosterone違規成為國際體育界關注焦點。",
+    "punishment": {
+      "banDuration": "65場禁賽",
+      "resultsCancelled": false,
+      "medalStripped": false,
+      "otherPenalties": "放棄剩餘薪水約300萬美元"
+    },
+    "summary": "2013年棒球界的重要禁藥案例，展現了S1: 合成代謝劑類物質的危害。",
+    "educationalNotes": "睪固酮是最基本的合成代謝類固醇，天然存在於人體但過量使用屬違規。",
+    "sourceLinks": [
+      {
+        "title": "WADA - Ryan Braun Case",
+        "url": "https://www.wada-ama.org/",
+        "type": "WADA"
+      }
+    ]
+  },
+  {
+    "id": "70",
+    "athleteName": "Tyson Gay",
+    "year": 2013,
+    "sport": "田徑",
+    "nationality": "美國",
+    "substance": "合成代謝類固醇",
+    "substanceCategory": "S1: 合成代謝劑",
+    "eventBackground": "2013年，田徑選手Tyson Gay因合成代謝類固醇違規成為國際體育界關注焦點。",
+    "punishment": {
+      "banDuration": "1年",
+      "resultsCancelled": true,
+      "medalStripped": true,
+      "otherPenalties": "失去2012年奧運會4x100公尺接力銀牌"
+    },
+    "summary": "2013年田徑界的重要禁藥案例，展現了S1: 合成代謝劑類物質的危害。",
+    "educationalNotes": "合成代謝類固醇能增加肌肉量和力量，但會對心血管系統造成嚴重副作用。",
+    "sourceLinks": [
+      {
+        "title": "WADA - Tyson Gay Case",
+        "url": "https://www.wada-ama.org/",
+        "type": "WADA"
+      },
+      {
+        "title": "World Athletics",
+        "url": "https://www.worldathletics.org/",
+        "type": "官方文件"
+      }
+    ]
+  },
+  {
+    "id": "71",
+    "athleteName": "Veronica Campbell-Brown",
+    "year": 2013,
+    "sport": "田徑",
+    "nationality": "牙買加",
+    "substance": "Hydrochlorothiazide",
+    "substanceCategory": "S5: 利尿劑和掩蔽劑",
+    "eventBackground": "2013年，田徑選手Veronica Campbell-Brown因Hydrochlorothiazide違規成為國際體育界關注焦點。",
+    "punishment": {
+      "banDuration": "警告",
+      "resultsCancelled": false,
+      "medalStripped": false,
+      "otherPenalties": "被認定為非故意使用"
+    },
+    "summary": "2013年田徑界的重要禁藥案例，展現了S5: 利尿劑和掩蔽劑類物質的危害。",
+    "educationalNotes": "利尿劑常用於掩蔽其他禁藥，同時會影響電解質平衡。",
+    "sourceLinks": [
+      {
+        "title": "WADA - Veronica Campbell-Brown Case",
+        "url": "https://www.wada-ama.org/",
+        "type": "WADA"
+      },
+      {
+        "title": "World Athletics",
+        "url": "https://www.worldathletics.org/",
+        "type": "官方文件"
+      }
+    ]
+  },
+  {
+    "id": "72",
+    "athleteName": "Yulia Efimova",
+    "year": 2013,
+    "sport": "游泳",
+    "nationality": "俄羅斯",
+    "substance": "7-keto-DHEA",
+    "substanceCategory": "S1: 合成代謝劑",
+    "eventBackground": "2013年俄羅斯游泳選手Yulia Efimova因使用7-keto-DHEA被檢出陽性，遭到禁賽處分。",
+    "punishment": {
+      "banDuration": "16個月",
+      "resultsCancelled": true,
+      "medalStripped": false,
+      "otherPenalties": "錯過2013-2014賽季"
+    },
+    "summary": "俄羅斯游泳選手因使用DHEA衍生物而被禁賽的案例，後來重返泳池並在奧運奪牌。",
+    "educationalNotes": "DHEA及其衍生物是天然激素的前體，被列為禁藥是因為其潛在的合成代謝效果。",
+    "sourceLinks": [
+      {
+        "title": "FINA Official Report",
+        "url": "https://www.worldaquatics.com/",
+        "type": "官方文件"
+      },
+      {
+        "title": "Swimming World Magazine",
+        "url": "https://www.swimmingworldmagazine.com/",
+        "type": "新聞"
+      }
+    ]
+  },
+  {
+    "id": "73",
+    "athleteName": "Yulia Stepanova",
+    "year": 2013,
+    "sport": "田徑",
+    "nationality": "俄羅斯",
+    "substance": "EPO, 類固醇",
+    "substanceCategory": "S2.1: 促紅血球生成素類",
+    "eventBackground": "2013年，田徑選手Yulia Stepanova因EPO, 類固醇違規成為國際體育界關注焦點。",
+    "punishment": {
+      "banDuration": "2年",
+      "resultsCancelled": true,
+      "medalStripped": false,
+      "otherPenalties": "成為關鍵告發者"
+    },
+    "summary": "2013年田徑界的重要禁藥案例，展現了S2.1: 促紅血球生成素類類物質的危害。",
+    "educationalNotes": "EPO能增加紅血球數量，提高氧氣運輸能力，但會增加血栓和中風風險。",
+    "sourceLinks": [
+      {
+        "title": "WADA - Yulia Stepanova Case",
+        "url": "https://www.wada-ama.org/",
+        "type": "WADA"
+      },
+      {
+        "title": "World Athletics",
+        "url": "https://www.worldathletics.org/",
+        "type": "官方文件"
+      }
+    ]
+  },
+  {
+    "id": "74",
+    "athleteName": "Apti Aukhadov",
+    "year": 2012,
+    "sport": "舉重",
+    "nationality": "俄羅斯",
+    "substance": "DHCMT (Turinabol), Drostanolone",
+    "substanceCategory": "S1: 合成代謝劑",
+    "eventBackground": "2012年倫敦奧運銀牌得主Apti Aukhadov在2016年公布的IOC樣本重檢中被發現使用DHCMT (Turinabol)和Drostanolone。",
+    "punishment": {
+      "banDuration": "終身禁賽",
+      "resultsCancelled": true,
+      "medalStripped": true,
+      "otherPenalties": "倫敦奧運銀牌被取消（2016年公布）"
+    },
+    "summary": "倫敦奧運舉重銀牌得主通過IOC樣本重檢被發現使用多種合成代謝類固醇的案例。",
+    "educationalNotes": "此案展現了奧運樣本重檢的重要性，即使多年後仍能發現當時的違規行為。",
+    "sourceLinks": [
+      {
+        "title": "WADA - Apti Aukhadov Case",
+        "url": "https://www.wada-ama.org/",
+        "type": "WADA"
+      }
+    ]
+  },
+  {
+    "id": "75",
+    "athleteName": "Besik Kudukhov",
+    "year": 2012,
+    "sport": "摔跤",
+    "nationality": "俄羅斯",
+    "substance": "Meldonium",
+    "substanceCategory": "S4.4: 代謝調節劑",
+    "eventBackground": "2012年，摔跤選手Besik Kudukhov因Meldonium違規成為國際體育界關注焦點。",
+    "punishment": {
+      "banDuration": "追溯處罰",
+      "resultsCancelled": true,
+      "medalStripped": true,
+      "otherPenalties": "奧運金牌被取消"
+    },
+    "summary": "2012年摔跤界的重要禁藥案例，展現了S4.4: 代謝調節劑類物質的危害。",
+    "educationalNotes": "Meldonium原用於治療心臟疾病，2016年被WADA列入禁藥，可能提高運動耐力。",
+    "sourceLinks": [
+      {
+        "title": "WADA - Besik Kudukhov Case",
+        "url": "https://www.wada-ama.org/",
+        "type": "WADA"
+      }
+    ]
+  },
+  {
+    "id": "77",
+    "athleteName": "Elena Lashmanova",
+    "year": 2012,
+    "sport": "田徑",
+    "nationality": "俄羅斯",
+    "substance": "EPO",
+    "substanceCategory": "S2.1: 促紅血球生成素類",
+    "eventBackground": "2012年，田徑選手Elena Lashmanova因EPO違規成為國際體育界關注焦點。",
+    "punishment": {
+      "banDuration": "2年",
+      "resultsCancelled": true,
+      "medalStripped": true,
+      "otherPenalties": "奧運金牌被取消"
+    },
+    "summary": "2012年田徑界的重要禁藥案例，展現了S2.1: 促紅血球生成素類類物質的危害。",
+    "educationalNotes": "EPO能增加紅血球數量，提高氧氣運輸能力，但會增加血栓和中風風險。",
+    "sourceLinks": [
+      {
+        "title": "WADA - Elena Lashmanova Case",
+        "url": "https://www.wada-ama.org/",
+        "type": "WADA"
+      },
+      {
+        "title": "World Athletics",
+        "url": "https://www.worldathletics.org/",
+        "type": "官方文件"
+      }
+    ]
+  },
+  {
+    "id": "78",
+    "athleteName": "Ilya Ilyin",
+    "year": 2012,
+    "sport": "舉重",
+    "nationality": "哈薩克",
+    "substance": "Stanozolol",
+    "substanceCategory": "S1.1: 外源性合成代謝雄激素類固醇",
+    "eventBackground": "2012年，舉重選手Ilya Ilyin因Stanozolol違規成為國際體育界關注焦點。",
+    "punishment": {
+      "banDuration": "8年",
+      "resultsCancelled": true,
+      "medalStripped": true,
+      "otherPenalties": "兩屆奧運金牌全部被取消"
+    },
+    "summary": "2012年舉重界的重要禁藥案例，展現了S1.1: 外源性合成代謝雄激素類固醇類物質的危害。",
+    "educationalNotes": "Stanozolol是一種合成代謝類固醇，可增加肌肉質量和力量，但會造成肝損傷等副作用。",
+    "sourceLinks": [
+      {
+        "title": "WADA - Ilya Ilyin Case",
+        "url": "https://www.wada-ama.org/",
+        "type": "WADA"
+      }
+    ]
+  },
+  {
+    "id": "79",
+    "athleteName": "Lance Armstrong",
+    "year": 2012,
+    "sport": "自行車",
+    "nationality": "美國",
+    "substance": "EPO、睪固酮、皮質類固醇",
+    "substanceCategory": "S2.1: 促紅血球生成素類",
+    "eventBackground": "七屆環法自行車賽冠軍，長期使用禁藥並領導團隊系統性作弊。",
+    "punishment": {
+      "banDuration": "終身禁賽",
+      "resultsCancelled": true,
+      "medalStripped": true,
+      "otherPenalties": "剝奪1998年後所有成績，包括7個環法冠軍"
+    },
+    "summary": "自行車史上最大的禁藥醜聞，揭露了職業自行車界的系統性問題。",
+    "educationalNotes": "EPO能增加紅血球數量，提高氧氣運輸能力，但會增加血栓和中風風險。",
+    "sourceLinks": [
+      {
+        "title": "WADA - Lance Armstrong Case",
+        "url": "https://www.wada-ama.org/",
+        "type": "WADA"
+      },
+      {
+        "title": "UCI",
+        "url": "https://www.uci.org/",
+        "type": "官方文件"
+      }
+    ]
+  },
+  {
+    "id": "80",
+    "athleteName": "Maiya Maneza",
+    "year": 2012,
+    "sport": "舉重",
+    "nationality": "哈薩克",
+    "substance": "Stanozolol",
+    "substanceCategory": "S1.1: 外源性合成代謝雄激素類固醇",
+    "eventBackground": "2012年，舉重選手Maiya Maneza因Stanozolol違規成為國際體育界關注焦點。",
+    "punishment": {
+      "banDuration": "8年",
+      "resultsCancelled": true,
+      "medalStripped": true,
+      "otherPenalties": "奧運金牌被取消"
+    },
+    "summary": "2012年舉重界的重要禁藥案例，展現了S1.1: 外源性合成代謝雄激素類固醇類物質的危害。",
+    "educationalNotes": "Stanozolol是一種合成代謝類固醇，可增加肌肉質量和力量，但會造成肝損傷等副作用。",
+    "sourceLinks": [
+      {
+        "title": "WADA - Maiya Maneza Case",
+        "url": "https://www.wada-ama.org/",
+        "type": "WADA"
+      }
+    ]
+  },
+  {
+    "id": "81",
+    "athleteName": "Nizami Pashayev",
+    "year": 2012,
+    "sport": "舉重",
+    "nationality": "亞塞拜然",
+    "substance": "Stanozolol",
+    "substanceCategory": "S1.1: 外源性合成代謝雄激素類固醇",
+    "eventBackground": "2012年，舉重選手Nizami Pashayev因Stanozolol違規成為國際體育界關注焦點。",
+    "punishment": {
+      "banDuration": "8年",
+      "resultsCancelled": true,
+      "medalStripped": true,
+      "otherPenalties": "奧運金牌被取消"
+    },
+    "summary": "2012年舉重界的重要禁藥案例，展現了S1.1: 外源性合成代謝雄激素類固醇類物質的危害。",
+    "educationalNotes": "Stanozolol是一種合成代謝類固醇，可增加肌肉質量和力量，但會造成肝損傷等副作用。",
+    "sourceLinks": [
+      {
+        "title": "WADA - Nizami Pashayev Case",
+        "url": "https://www.wada-ama.org/",
+        "type": "WADA"
+      }
+    ]
+  },
+  {
+    "id": "82",
+    "athleteName": "Oleksiy Torokhtiy",
+    "year": 2012,
+    "sport": "舉重",
+    "nationality": "烏克蘭",
+    "substance": "Turinabol",
+    "substanceCategory": "S1: 合成代謝劑",
+    "eventBackground": "2012年倫敦奧運金牌得主Oleksiy Torokhtiy在IOC重檢中被發現使用Turinabol，金牌被取消。",
+    "punishment": {
+      "banDuration": "4年",
+      "resultsCancelled": true,
+      "medalStripped": true,
+      "otherPenalties": "倫敦奧運金牌被取消"
+    },
+    "summary": "2012年倫敦奧運舉重金牌被取消的重大案例，展現了奧運樣本重檢的重要性。",
+    "educationalNotes": "即使是奧運金牌得主，一旦發現使用禁藥，仍會面臨嚴厲制裁，包括取消所有榮譽。",
+    "sourceLinks": [
+      {
+        "title": "CAS Arbitration Report",
+        "url": "https://www.tas-cas.org/",
+        "type": "官方文件"
+      }
+    ]
+  },
+  {
+    "id": "84",
+    "athleteName": "Sergey Kirdyapkin",
+    "year": 2012,
+    "sport": "田徑",
+    "nationality": "俄羅斯",
+    "substance": "EPO",
+    "substanceCategory": "S2.1: 促紅血球生成素類",
+    "eventBackground": "2012年，田徑選手Sergey Kirdyapkin因EPO違規成為國際體育界關注焦點。",
+    "punishment": {
+      "banDuration": "3年2個月",
+      "resultsCancelled": true,
+      "medalStripped": true,
+      "otherPenalties": "奧運金牌被取消"
+    },
+    "summary": "2012年田徑界的重要禁藥案例，展現了S2.1: 促紅血球生成素類類物質的危害。",
+    "educationalNotes": "EPO能增加紅血球數量，提高氧氣運輸能力，但會增加血栓和中風風險。",
+    "sourceLinks": [
+      {
+        "title": "WADA - Sergey Kirdyapkin Case",
+        "url": "https://www.wada-ama.org/",
+        "type": "WADA"
+      },
+      {
+        "title": "World Athletics",
+        "url": "https://www.worldathletics.org/",
+        "type": "官方文件"
+      }
+    ]
+  },
+  {
+    "id": "86",
+    "athleteName": "Zulfiya Chinshanlo",
+    "year": 2012,
+    "sport": "舉重",
+    "nationality": "哈薩克",
+    "substance": "Stanozolol",
+    "substanceCategory": "S1.1: 外源性合成代謝雄激素類固醇",
+    "eventBackground": "2012年，舉重選手Zulfiya Chinshanlo因Stanozolol違規成為國際體育界關注焦點。",
+    "punishment": {
+      "banDuration": "2年",
+      "resultsCancelled": true,
+      "medalStripped": true,
+      "otherPenalties": "奧運金牌被取消"
+    },
+    "summary": "2012年舉重界的重要禁藥案例，展現了S1.1: 外源性合成代謝雄激素類固醇類物質的危害。",
+    "educationalNotes": "Stanozolol是一種合成代謝類固醇，可增加肌肉質量和力量，但會造成肝損傷等副作用。",
+    "sourceLinks": [
+      {
+        "title": "WADA - Zulfiya Chinshanlo Case",
+        "url": "https://www.wada-ama.org/",
+        "type": "WADA"
+      }
+    ]
+  },
+  {
+    "id": "87",
+    "athleteName": "Ekaterina Poistogova",
+    "year": 2011,
+    "sport": "田徑",
+    "nationality": "俄羅斯",
+    "substance": "Testosterone",
+    "substanceCategory": "S1.1: 外源性合成代謝雄激素類固醇",
+    "eventBackground": "2011年，田徑選手Ekaterina Poistogova因Testosterone違規成為國際體育界關注焦點。",
+    "punishment": {
+      "banDuration": "2年",
+      "resultsCancelled": true,
+      "medalStripped": true,
+      "otherPenalties": "奧運銅牌被取消"
+    },
+    "summary": "2011年田徑界的重要禁藥案例，展現了S1.1: 外源性合成代謝雄激素類固醇類物質的危害。",
+    "educationalNotes": "睪固酮是最基本的合成代謝類固醇，天然存在於人體但過量使用屬違規。",
+    "sourceLinks": [
+      {
+        "title": "WADA - Ekaterina Poistogova Case",
+        "url": "https://www.wada-ama.org/",
+        "type": "WADA"
+      },
+      {
+        "title": "World Athletics",
+        "url": "https://www.worldathletics.org/",
+        "type": "官方文件"
+      }
+    ]
+  },
+  {
+    "id": "88",
+    "athleteName": "Mariya Savinova",
+    "year": 2011,
+    "sport": "田徑",
+    "nationality": "俄羅斯",
+    "substance": "Testosterone",
+    "substanceCategory": "S1.1: 外源性合成代謝雄激素類固醇",
+    "eventBackground": "2011年，田徑選手Mariya Savinova因Testosterone違規成為國際體育界關注焦點。",
+    "punishment": {
+      "banDuration": "4年",
+      "resultsCancelled": true,
+      "medalStripped": true,
+      "otherPenalties": "奧運金牌被取消"
+    },
+    "summary": "2011年田徑界的重要禁藥案例，展現了S1.1: 外源性合成代謝雄激素類固醇類物質的危害。",
+    "educationalNotes": "睪固酮是最基本的合成代謝類固醇，天然存在於人體但過量使用屬違規。",
+    "sourceLinks": [
+      {
+        "title": "WADA - Mariya Savinova Case",
+        "url": "https://www.wada-ama.org/",
+        "type": "WADA"
+      },
+      {
+        "title": "World Athletics",
+        "url": "https://www.worldathletics.org/",
+        "type": "官方文件"
+      }
+    ]
+  },
+  {
+    "id": "90",
+    "athleteName": "Alberto Contador",
+    "year": 2010,
+    "sport": "自行車",
+    "nationality": "西班牙",
+    "substance": "Clenbuterol",
+    "substanceCategory": "S1.2: 合成代謝劑（其他合成代謝劑）",
+    "eventBackground": "2010年，自行車選手Alberto Contador因Clenbuterol違規成為國際體育界關注焦點。",
+    "punishment": {
+      "banDuration": "2年",
+      "resultsCancelled": true,
+      "medalStripped": true,
+      "otherPenalties": "失去2010年環法冠軍和2011年環義冠軍"
+    },
+    "summary": "2010年自行車界的重要禁藥案例，展現了S3: Beta-2激動劑類物質的危害。",
+    "educationalNotes": "Clenbuterol是支氣管擴張劑，也用於畜牧業，可能通過食物鏈進入人體。",
+    "sourceLinks": [
+      {
+        "title": "WADA - Alberto Contador Case",
+        "url": "https://www.wada-ama.org/",
+        "type": "WADA"
+      },
+      {
+        "title": "UCI",
+        "url": "https://www.uci.org/",
+        "type": "官方文件"
+      }
+    ]
+  },
+  {
+    "id": "91",
+    "athleteName": "LaShawn Merritt",
+    "year": 2010,
+    "sport": "田徑",
+    "nationality": "美國",
+    "substance": "DHEA, Pregnenolone",
+    "substanceCategory": "S1.2: 其他合成代謝劑",
+    "eventBackground": "2010年，田徑選手LaShawn Merritt因DHEA, Pregnenolone違規成為國際體育界關注焦點。",
+    "punishment": {
+      "banDuration": "21個月",
+      "resultsCancelled": false,
+      "medalStripped": false,
+      "otherPenalties": "減刑因配合調查"
+    },
+    "summary": "2010年田徑界的重要禁藥案例，展現了S1.2: 其他合成代謝劑類物質的危害。",
+    "educationalNotes": "合成代謝類固醇能增加肌肉量和力量，但會對心血管系統造成嚴重副作用。",
+    "sourceLinks": [
+      {
+        "title": "WADA - LaShawn Merritt Case",
+        "url": "https://www.wada-ama.org/",
+        "type": "WADA"
+      },
+      {
+        "title": "World Athletics",
+        "url": "https://www.worldathletics.org/",
+        "type": "官方文件"
+      }
+    ]
+  },
+  {
+    "id": "92",
+    "athleteName": "Claudia Pechstein",
+    "year": 2009,
+    "sport": "競速滑冰",
+    "nationality": "德國",
+    "substance": "Blood Doping (指控)",
+    "substanceCategory": "M1: 血液和血液成分操作",
+    "eventBackground": "2009年，Claudia Pechstein在競速滑冰項目中因Blood Doping (指控)的禁藥案例震驚體育界。",
+    "punishment": {
+      "banDuration": "2年",
+      "resultsCancelled": false,
+      "medalStripped": false,
+      "otherPenalties": "損失2010溫哥華冬奧"
+    },
+    "summary": "2009年競速滑冰界的重要禁藥案例，展現了M1: 血液和血液成分操作類物質的危害。",
+    "educationalNotes": "物理和化學操作違反了公平競爭原則，對運動員健康造成未知風險。",
+    "sourceLinks": [
+      {
+        "title": "WADA - Claudia Pechstein Case",
+        "url": "https://www.wada-ama.org/",
+        "type": "WADA"
+      }
+    ]
+  },
+  {
+    "id": "93",
+    "athleteName": "Manny Ramirez",
+    "year": 2009,
+    "sport": "棒球",
+    "nationality": "多明尼加",
+    "substance": "HCG (人類絨毛膜促性腺激素)",
+    "substanceCategory": "S2.2: 生長激素",
+    "eventBackground": "2009年，Manny Ramirez在棒球項目中因HCG (人類絨毛膜促性腺激素)的禁藥案例震驚體育界。",
+    "punishment": {
+      "banDuration": "50場禁賽",
+      "resultsCancelled": false,
+      "medalStripped": false,
+      "otherPenalties": "第二次違規後退休"
+    },
+    "summary": "2009年棒球界的重要禁藥案例，展現了S2.2: 生長激素類物質的危害。",
+    "educationalNotes": "EPO和生長激素能提高運動表現，但會增加血栓、中風和器官肥大風險。",
+    "sourceLinks": [
+      {
+        "title": "WADA - Manny Ramirez Case",
+        "url": "https://www.wada-ama.org/",
+        "type": "WADA"
+      }
+    ]
+  },
+  {
+    "id": "94",
+    "athleteName": "Olga Kaniskina",
+    "year": 2009,
+    "sport": "田徑",
+    "nationality": "俄羅斯",
+    "substance": "EPO",
+    "substanceCategory": "S2.1: 促紅血球生成素類",
+    "eventBackground": "2009年，Olga Kaniskina在田徑項目中因EPO的禁藥案例震驚體育界。",
+    "punishment": {
+      "banDuration": "3年2個月",
+      "resultsCancelled": true,
+      "medalStripped": true,
+      "otherPenalties": "無"
+    },
+    "summary": "2009年田徑界的重要禁藥案例，展現了S2.1: 促紅血球生成素類類物質的危害。",
+    "educationalNotes": "EPO能增加紅血球數量，提高氧氣運輸能力，但會增加血栓和中風風險。",
+    "sourceLinks": [
+      {
+        "title": "WADA - Olga Kaniskina Case",
+        "url": "https://www.wada-ama.org/",
+        "type": "WADA"
+      },
+      {
+        "title": "World Athletics",
+        "url": "https://www.worldathletics.org/",
+        "type": "官方文件"
+      }
+    ]
+  },
+  {
+    "id": "95",
+    "athleteName": "Rashard Lewis",
+    "year": 2009,
+    "sport": "籃球",
+    "nationality": "美國",
+    "substance": "睪固酮",
+    "substanceCategory": "S1: 合成代謝劑",
+    "eventBackground": "2009年，Rashard Lewis在籃球項目中因睪固酮的禁藥案例震驚體育界。",
+    "punishment": {
+      "banDuration": "10場比賽",
+      "resultsCancelled": false,
+      "medalStripped": false,
+      "otherPenalties": "成為NBA首位因類固醇被禁賽的球員"
+    },
+    "summary": "2009年籃球界的重要禁藥案例，展現了S1: 合成代謝劑類物質的危害。",
+    "educationalNotes": "睪固酮是最基本的合成代謝類固醇，天然存在於人體但過量使用屬違規。",
+    "sourceLinks": [
+      {
+        "title": "WADA - Rashard Lewis Case",
+        "url": "https://www.wada-ama.org/",
+        "type": "WADA"
+      }
+    ]
+  },
+  {
+    "id": "96",
+    "athleteName": "Valeriy Borchin",
+    "year": 2009,
+    "sport": "田徑",
+    "nationality": "俄羅斯",
+    "substance": "EPO",
+    "substanceCategory": "S2.1: 促紅血球生成素類",
+    "eventBackground": "2009年，Valeriy Borchin在田徑項目中因EPO的禁藥案例震驚體育界。",
+    "punishment": {
+      "banDuration": "8年",
+      "resultsCancelled": true,
+      "medalStripped": true,
+      "otherPenalties": "北京奧運金牌被取消"
+    },
+    "summary": "2009年田徑界的重要禁藥案例，展現了S2.1: 促紅血球生成素類類物質的危害。",
+    "educationalNotes": "EPO能增加紅血球數量，提高氧氣運輸能力，但會增加血栓和中風風險。",
+    "sourceLinks": [
+      {
+        "title": "WADA - Valeriy Borchin Case",
+        "url": "https://www.wada-ama.org/",
+        "type": "WADA"
+      },
+      {
+        "title": "World Athletics",
+        "url": "https://www.worldathletics.org/",
+        "type": "官方文件"
+      }
+    ]
+  },
+  {
+    "id": "97",
+    "athleteName": "Andrei Rybakou",
+    "year": 2008,
+    "sport": "舉重",
+    "nationality": "白俄羅斯",
+    "substance": "Oral-Turinabol, Stanozolol",
+    "substanceCategory": "S1: 合成代謝劑",
+    "eventBackground": "2008年北京奧運銀牌得主Andrei Rybakou在2016年IOC重檢中被發現使用多種合成代謝類固醇。",
+    "punishment": {
+      "banDuration": "終身禁賽",
+      "resultsCancelled": true,
+      "medalStripped": true,
+      "otherPenalties": "北京奧運銀牌被取消"
+    },
+    "summary": "IOC奧運樣本重檢發現的重要案例，展現了檢測技術進步的重要性。",
+    "educationalNotes": "Oral-Turinabol是東德國家禁藥計劃的主要藥物，現在仍被濫用於力量項目。",
+    "sourceLinks": [
+      {
+        "title": "IOC Reanalysis Results",
+        "url": "https://www.olympic.org/",
+        "type": "官方文件"
+      }
+    ]
+  },
+  {
+    "id": "98",
+    "athleteName": "Antonio Pettigrew",
+    "year": 2008,
+    "sport": "田徑",
+    "nationality": "美國",
+    "substance": "PED cocktail",
+    "substanceCategory": "S1: 合成代謝劑",
+    "eventBackground": "2008年，Antonio Pettigrew在田徑項目中因PED cocktail的禁藥案例震驚體育界。",
+    "punishment": {
+      "banDuration": "追溯性處罰",
+      "resultsCancelled": true,
+      "medalStripped": true,
+      "otherPenalties": "美國隊交回奧運金牌"
+    },
+    "summary": "2008年田徑界的重要禁藥案例，展現了S1: 合成代謝劑類物質的危害。",
+    "educationalNotes": "合成代謝類固醇能增加肌肉量和力量，但會對心血管系統造成嚴重副作用。",
+    "sourceLinks": [
+      {
+        "title": "WADA - Antonio Pettigrew Case",
+        "url": "https://www.wada-ama.org/",
+        "type": "WADA"
+      },
+      {
+        "title": "World Athletics",
+        "url": "https://www.worldathletics.org/",
+        "type": "官方文件"
+      }
+    ]
+  },
+  {
+    "id": "99",
+    "athleteName": "Dmitry Lapikov",
+    "year": 2008,
+    "sport": "舉重",
+    "nationality": "俄羅斯",
+    "substance": "Turinabol",
+    "substanceCategory": "S1.1: 外源性合成代謝雄激素類固醇",
+    "eventBackground": "2008年，Dmitry Lapikov在舉重項目中因Turinabol的禁藥案例震驚體育界。",
+    "punishment": {
+      "banDuration": "2年",
+      "resultsCancelled": true,
+      "medalStripped": true,
+      "otherPenalties": "北京奧運銀牌被取消"
+    },
+    "summary": "2008年舉重界的重要禁藥案例，展現了S1.1: 外源性合成代謝雄激素類固醇類物質的危害。",
+    "educationalNotes": "合成代謝類固醇能增加肌肉量和力量，但會對心血管系統造成嚴重副作用。",
+    "sourceLinks": [
+      {
+        "title": "WADA - Dmitry Lapikov Case",
+        "url": "https://www.wada-ama.org/",
+        "type": "WADA"
+      }
+    ]
+  },
+  {
+    "id": "100",
+    "athleteName": "Irina Nekrasova",
+    "year": 2008,
+    "sport": "舉重",
+    "nationality": "哈薩克",
+    "substance": "Stanozolol",
+    "substanceCategory": "S1: 合成代謝劑",
+    "eventBackground": "2008年北京奧運哈薩克女子舉重選手Irina Nekrasova在IOC重檢中被發現使用Stanozolol。",
+    "punishment": {
+      "banDuration": "4年",
+      "resultsCancelled": true,
+      "medalStripped": true,
+      "otherPenalties": "北京奧運銀牌被取消"
+    },
+    "summary": "哈薩克女子舉重在奧運重檢中被發現的禁藥案例。",
+    "educationalNotes": "女子力量項目中Stanozolol的使用能顯著提升力量重量比，但會造成男性化副作用。",
+    "sourceLinks": [
+      {
+        "title": "IOC Disciplinary Report",
+        "url": "https://www.olympic.org/",
+        "type": "官方文件"
+      }
+    ]
+  },
+  {
+    "id": "101",
+    "athleteName": "Jessica Hardy",
+    "year": 2008,
+    "sport": "游泳",
+    "nationality": "美國",
+    "substance": "Clenbuterol",
+    "substanceCategory": "S1: 合成代謝劑",
+    "eventBackground": "2008年美國奧運選拔賽前，Jessica Hardy因意外攝入含有Clenbuterol的營養補劑而檢出陽性，失去北京奧運參賽資格。",
+    "punishment": {
+      "banDuration": "1年",
+      "resultsCancelled": true,
+      "medalStripped": false,
+      "otherPenalties": "失去2008北京奧運參賽資格"
+    },
+    "summary": "美國游泳選手因意外攝入禁藥而失去奧運參賽機會的經典案例，展現了運動員對營養補劑使用需謹慎的重要性。",
+    "educationalNotes": "Clenbuterol是一種β2激動劑，常用於治療哮喘，但也被濫用作減脂和增肌藥物。運動員必須對所有攝入物質負責。",
+    "sourceLinks": [
+      {
+        "title": "WADA - Jessica Hardy Case",
+        "url": "https://www.wada-ama.org/",
+        "type": "WADA"
+      },
+      {
+        "title": "USADA Official Report",
+        "url": "https://www.usada.org/",
+        "type": "官方文件"
+      }
+    ]
+  },
+  {
+    "id": "102",
+    "athleteName": "Svetlana Podobedova",
+    "year": 2008,
+    "sport": "舉重",
+    "nationality": "哈薩克",
+    "substance": "Turinabol",
+    "substanceCategory": "S1.1: 外源性合成代謝雄激素類固醇",
+    "eventBackground": "2008年，Svetlana Podobedova在舉重項目中因Turinabol的禁藥案例震驚體育界。",
+    "punishment": {
+      "banDuration": "終身禁賽",
+      "resultsCancelled": true,
+      "medalStripped": true,
+      "otherPenalties": "北京奧運金牌被取消"
+    },
+    "summary": "2008年舉重界的重要禁藥案例，展現了S1.1: 外源性合成代謝雄激素類固醇類物質的危害。",
+    "educationalNotes": "合成代謝類固醇能增加肌肉量和力量，但會對心血管系統造成嚴重副作用。",
+    "sourceLinks": [
+      {
+        "title": "WADA - Svetlana Podobedova Case",
+        "url": "https://www.wada-ama.org/",
+        "type": "WADA"
+      }
+    ]
+  },
+  {
+    "id": "103",
+    "athleteName": "Marion Jones",
+    "year": 2007,
+    "sport": "田徑",
+    "nationality": "美國",
+    "substance": "THG (Tetrahydrogestrinone)",
+    "substanceCategory": "S1.1: 外源性合成代謝雄激素類固醇",
+    "eventBackground": "2000年雪梨奧運會獲得5面獎牌，後承認使用禁藥。",
+    "punishment": {
+      "banDuration": "2年",
+      "resultsCancelled": true,
+      "medalStripped": true,
+      "otherPenalties": "因作偽證被判入獄6個月"
+    },
+    "summary": "2007年田徑界的重要禁藥案例，展現了S1.1: 外源性合成代謝雄激素類固醇類物質的危害。",
+    "educationalNotes": "THG是專門設計來逃避檢測的「設計類固醇」，顯示禁藥技術的演進。",
+    "sourceLinks": [
+      {
+        "title": "WADA - Marion Jones Case",
+        "url": "https://www.wada-ama.org/",
+        "type": "WADA"
+      },
+      {
+        "title": "World Athletics",
+        "url": "https://www.worldathletics.org/",
+        "type": "官方文件"
+      }
+    ]
+  },
+  {
+    "id": "104",
+    "athleteName": "Justin Gatlin",
+    "year": 2006,
+    "sport": "田徑",
+    "nationality": "美國",
+    "substance": "睪固酮",
+    "substanceCategory": "S1: 合成代謝劑",
+    "eventBackground": "2006年，Justin Gatlin在田徑項目中因睪固酮的禁藥案例震驚體育界。",
+    "punishment": {
+      "banDuration": "4年",
+      "resultsCancelled": false,
+      "medalStripped": false,
+      "otherPenalties": "原判8年後減為4年"
+    },
+    "summary": "2006年田徑界的重要禁藥案例，展現了S1: 合成代謝劑類物質的危害。",
+    "educationalNotes": "睪固酮是最基本的合成代謝類固醇，天然存在於人體但過量使用屬違規。",
+    "sourceLinks": [
+      {
+        "title": "WADA - Justin Gatlin Case",
+        "url": "https://www.wada-ama.org/",
+        "type": "WADA"
+      },
+      {
+        "title": "World Athletics",
+        "url": "https://www.worldathletics.org/",
+        "type": "官方文件"
+      }
+    ]
+  },
+  {
+    "id": "105",
+    "athleteName": "Tatiana Kashirina",
+    "year": 2006,
+    "sport": "舉重",
+    "nationality": "俄羅斯",
+    "substance": "Oxandrolone",
+    "substanceCategory": "S1: 合成代謝劑",
+    "eventBackground": "2006年，Tatiana Kashirina在舉重項目中因Oxandrolone的禁藥案例震驚體育界。",
+    "punishment": {
+      "banDuration": "2年",
+      "resultsCancelled": true,
+      "medalStripped": false,
+      "otherPenalties": "錯過北京奧運"
+    },
+    "summary": "2006年舉重界的重要禁藥案例，展現了S1: 合成代謝劑類物質的危害。",
+    "educationalNotes": "合成代謝類固醇能增加肌肉量和力量，但會對心血管系統造成嚴重副作用。",
+    "sourceLinks": [
+      {
+        "title": "WADA - Tatiana Kashirina Case",
+        "url": "https://www.wada-ama.org/",
+        "type": "WADA"
+      }
+    ]
+  },
+  {
+    "id": "106",
+    "athleteName": "Tim Montgomery",
+    "year": 2005,
+    "sport": "田徑",
+    "nationality": "美國",
+    "substance": "THG, EPO",
+    "substanceCategory": "S2.1: 促紅血球生成素類",
+    "eventBackground": "2005年，Tim Montgomery在田徑項目中因THG, EPO的禁藥案例震驚體育界。",
+    "punishment": {
+      "banDuration": "2年",
+      "resultsCancelled": true,
+      "medalStripped": true,
+      "otherPenalties": "世界紀錄被取消"
+    },
+    "summary": "2005年田徑界的重要禁藥案例，展現了S2.1: 促紅血球生成素類類物質的危害。",
+    "educationalNotes": "EPO能增加紅血球數量，提高氧氣運輸能力，但會增加血栓和中風風險。",
+    "sourceLinks": [
+      {
+        "title": "WADA - Tim Montgomery Case",
+        "url": "https://www.wada-ama.org/",
+        "type": "WADA"
+      },
+      {
+        "title": "World Athletics",
+        "url": "https://www.worldathletics.org/",
+        "type": "官方文件"
+      }
+    ]
+  },
+  {
+    "id": "107",
+    "athleteName": "Ferenc Gyurkovics",
+    "year": 2004,
+    "sport": "舉重",
+    "nationality": "匈牙利",
+    "substance": "Oxandrolone",
+    "substanceCategory": "S1: 合成代謝劑",
+    "eventBackground": "2004年雅典奧運，匈牙利舉重選手Ferenc Gyurkovics因使用Oxandrolone被取消銀牌。",
+    "punishment": {
+      "banDuration": "2年",
+      "resultsCancelled": true,
+      "medalStripped": true,
+      "otherPenalties": "雅典奧運銀牌被取消"
+    },
+    "summary": "2004年雅典奧運舉重項目禁藥案例，Oxandrolone是溫和但有效的合成代謝類固醇。",
+    "educationalNotes": "Oxandrolone被認為是副作用較小的合成代謝類固醇，但仍能有效增加力量和肌肉品質。",
+    "sourceLinks": [
+      {
+        "title": "IOC Anti-Doping Report",
+        "url": "https://www.olympic.org/",
+        "type": "官方文件"
+      }
+    ]
+  },
+  {
+    "id": "108",
+    "athleteName": "Katerina Thanou",
+    "year": 2004,
+    "sport": "田徑",
+    "nationality": "希臘",
+    "substance": "逃避藥檢",
+    "substanceCategory": "其他/清白記錄",
+    "eventBackground": "2004年雅典奧運前，希臘短跑選手Katerina Thanou與Kostas Kenteris一同因未能配合藥檢而被禁止參加雅典奧運。",
+    "punishment": {
+      "banDuration": "2年",
+      "resultsCancelled": false,
+      "medalStripped": false,
+      "otherPenalties": "被禁止參加2004雅典奧運"
+    },
+    "summary": "2004年雅典奧運東道主選手逃避藥檢的重大醜聞案例之一。",
+    "educationalNotes": "與男子選手Kostas Kenteris同案，展現了逃避藥檢的嚴重後果。",
+    "sourceLinks": [
+      {
+        "title": "ESPN - Kenteris Thanou Case",
+        "url": "https://www.espn.com/",
+        "type": "新聞"
+      },
+      {
+        "title": "IOC Official Statement",
+        "url": "https://www.olympic.org/",
+        "type": "官方文件"
+      }
+    ]
+  },
+  {
+    "id": "109",
+    "athleteName": "Kostas Kenteris",
+    "year": 2004,
+    "sport": "田徑",
+    "nationality": "希臘",
+    "substance": "逃避藥檢",
+    "substanceCategory": "其他/清白記錄",
+    "eventBackground": "2004年雅典奧運前，希臘短跑雙雄Kostas Kenteris和Katerina Thanou因未能配合藥檢而被禁止參加雅典奧運。",
+    "punishment": {
+      "banDuration": "2年",
+      "resultsCancelled": false,
+      "medalStripped": false,
+      "otherPenalties": "被禁止參加2004雅典奧運"
+    },
+    "summary": "2004年雅典奧運東道主選手逃避藥檢的重大醜聞，對希臘田徑運動造成重大打擊。",
+    "educationalNotes": "逃避或拒絕接受藥檢等同於使用禁藥，會面臨同等嚴厲的處罰。運動員有義務配合反禁藥檢測。",
+    "sourceLinks": [
+      {
+        "title": "ESPN - Kenteris Thanou Case",
+        "url": "https://www.espn.com/",
+        "type": "新聞"
+      },
+      {
+        "title": "IOC Official Statement",
+        "url": "https://www.olympic.org/",
+        "type": "官方文件"
+      }
+    ]
+  },
+  {
+    "id": "110",
+    "athleteName": "Oleg Perepetchenov",
+    "year": 2004,
+    "sport": "舉重",
+    "nationality": "俄羅斯",
+    "substance": "合成代謝類固醇",
+    "substanceCategory": "S1: 合成代謝劑",
+    "eventBackground": "2004年雅典奧運，俄羅斯舉重選手Oleg Perepetchenov因使用合成代謝類固醇被取消銅牌。",
+    "punishment": {
+      "banDuration": "2年",
+      "resultsCancelled": true,
+      "medalStripped": true,
+      "otherPenalties": "雅典奧運銅牌被取消"
+    },
+    "summary": "2004年奧運俄羅斯舉重選手的禁藥案例。",
+    "educationalNotes": "俄羅斯在力量項目中長期存在禁藥問題，這個案例是冰山一角。",
+    "sourceLinks": [
+      {
+        "title": "IOC Disciplinary Commission",
+        "url": "https://www.olympic.org/",
+        "type": "官方文件"
+      }
+    ]
+  },
+  {
+    "id": "111",
+    "athleteName": "Alvin Harrison",
+    "year": 2003,
+    "sport": "田徑",
+    "nationality": "美國",
+    "substance": "THG",
+    "substanceCategory": "S1.1: 外源性合成代謝雄激素類固醇",
+    "eventBackground": "2003年，Alvin Harrison在田徑項目中因THG的禁藥案例震驚體育界。",
+    "punishment": {
+      "banDuration": "4年",
+      "resultsCancelled": true,
+      "medalStripped": true,
+      "otherPenalties": "接力隊金牌被取消"
+    },
+    "summary": "2003年田徑界的重要禁藥案例，展現了S1.1: 外源性合成代謝雄激素類固醇類物質的危害。",
+    "educationalNotes": "THG是專門設計來逃避檢測的「設計類固醇」，顯示禁藥技術的演進。",
+    "sourceLinks": [
+      {
+        "title": "WADA - Alvin Harrison Case",
+        "url": "https://www.wada-ama.org/",
+        "type": "WADA"
+      },
+      {
+        "title": "World Athletics",
+        "url": "https://www.worldathletics.org/",
+        "type": "官方文件"
+      }
+    ]
+  },
+  {
+    "id": "112",
+    "athleteName": "Armando Rios",
+    "year": 2003,
+    "sport": "棒球",
+    "nationality": "美國",
+    "substance": "THG",
+    "substanceCategory": "S1.1: 外源性合成代謝雄激素類固醇",
+    "eventBackground": "2003年，Armando Rios在棒球項目中因THG的禁藥案例震驚體育界。",
+    "punishment": {
+      "banDuration": "無",
+      "resultsCancelled": false,
+      "medalStripped": false,
+      "otherPenalties": "職業生涯影響"
+    },
+    "summary": "2003年棒球界的重要禁藥案例，展現了S1.1: 外源性合成代謝雄激素類固醇類物質的危害。",
+    "educationalNotes": "THG是專門設計來逃避檢測的「設計類固醇」，顯示禁藥技術的演進。",
+    "sourceLinks": [
+      {
+        "title": "WADA - Armando Rios Case",
+        "url": "https://www.wada-ama.org/",
+        "type": "WADA"
+      }
+    ]
+  },
+  {
+    "id": "113",
+    "athleteName": "BALCO案例群體",
+    "year": 2003,
+    "sport": "田徑",
+    "nationality": "美國",
+    "substance": "THG, EPO, 類固醇",
+    "substanceCategory": "S2.1: 促紅血球生成素類",
+    "eventBackground": "2003年，BALCO案例群體在田徑項目中因THG, EPO, 類固醇的禁藥案例震驚體育界。",
+    "punishment": {
+      "banDuration": "各不相同",
+      "resultsCancelled": true,
+      "medalStripped": true,
+      "otherPenalties": "改變美國反禁藥歷史"
+    },
+    "summary": "2003年田徑界的重要禁藥案例，展現了S2.1: 促紅血球生成素類類物質的危害。",
+    "educationalNotes": "EPO能增加紅血球數量，提高氧氣運輸能力，但會增加血栓和中風風險。",
+    "sourceLinks": [
+      {
+        "title": "WADA - BALCO案例群體 Case",
+        "url": "https://www.wada-ama.org/",
+        "type": "WADA"
+      },
+      {
+        "title": "World Athletics",
+        "url": "https://www.worldathletics.org/",
+        "type": "官方文件"
+      }
+    ]
+  },
+  {
+    "id": "114",
+    "athleteName": "Barrett Robbins",
+    "year": 2003,
+    "sport": "美式足球",
+    "nationality": "美國",
+    "substance": "THG",
+    "substanceCategory": "S1.1: 外源性合成代謝雄激素類固醇",
+    "eventBackground": "2003年，Barrett Robbins在美式足球項目中因THG的禁藥案例震驚體育界。",
+    "punishment": {
+      "banDuration": "無",
+      "resultsCancelled": false,
+      "medalStripped": false,
+      "otherPenalties": "職業生涯困擾"
+    },
+    "summary": "2003年美式足球界的重要禁藥案例，展現了S1.1: 外源性合成代謝雄激素類固醇類物質的危害。",
+    "educationalNotes": "THG是專門設計來逃避檢測的「設計類固醇」，顯示禁藥技術的演進。",
+    "sourceLinks": [
+      {
+        "title": "WADA - Barrett Robbins Case",
+        "url": "https://www.wada-ama.org/",
+        "type": "WADA"
+      }
+    ]
+  },
+  {
+    "id": "115",
+    "athleteName": "Barry Bonds",
+    "year": 2003,
+    "sport": "棒球",
+    "nationality": "美國",
+    "substance": "THG, The Cream",
+    "substanceCategory": "S1.1: 外源性合成代謝雄激素類固醇",
+    "eventBackground": "2003年，Barry Bonds在棒球項目中因THG, The Cream的禁藥案例震驚體育界。",
+    "punishment": {
+      "banDuration": "無官方禁賽",
+      "resultsCancelled": false,
+      "medalStripped": false,
+      "otherPenalties": "名人堂入選受阻"
+    },
+    "summary": "2003年棒球界的重要禁藥案例，展現了S1.1: 外源性合成代謝雄激素類固醇類物質的危害。",
+    "educationalNotes": "THG是專門設計來逃避檢測的「設計類固醇」，顯示禁藥技術的演進。",
+    "sourceLinks": [
+      {
+        "title": "WADA - Barry Bonds Case",
+        "url": "https://www.wada-ama.org/",
+        "type": "WADA"
+      }
+    ]
+  },
+  {
+    "id": "116",
+    "athleteName": "Benito Santiago",
+    "year": 2003,
+    "sport": "棒球",
+    "nationality": "波多黎各",
+    "substance": "THG",
+    "substanceCategory": "S1.1: 外源性合成代謝雄激素類固醇",
+    "eventBackground": "2003年，Benito Santiago在棒球項目中因THG的禁藥案例震驚體育界。",
+    "punishment": {
+      "banDuration": "無",
+      "resultsCancelled": false,
+      "medalStripped": false,
+      "otherPenalties": "聲譽受損"
+    },
+    "summary": "2003年棒球界的重要禁藥案例，展現了S1.1: 外源性合成代謝雄激素類固醇類物質的危害。",
+    "educationalNotes": "THG是專門設計來逃避檢測的「設計類固醇」，顯示禁藥技術的演進。",
+    "sourceLinks": [
+      {
+        "title": "WADA - Benito Santiago Case",
+        "url": "https://www.wada-ama.org/",
+        "type": "WADA"
+      }
+    ]
+  },
+  {
+    "id": "117",
+    "athleteName": "Bill Romanowski",
+    "year": 2003,
+    "sport": "美式足球",
+    "nationality": "美國",
+    "substance": "THG",
+    "substanceCategory": "S1.1: 外源性合成代謝雄激素類固醇",
+    "eventBackground": "2003年，Bill Romanowski在美式足球項目中因THG的禁藥案例震驚體育界。",
+    "punishment": {
+      "banDuration": "無",
+      "resultsCancelled": false,
+      "medalStripped": false,
+      "otherPenalties": "退役後承認"
+    },
+    "summary": "2003年美式足球界的重要禁藥案例，展現了S1.1: 外源性合成代謝雄激素類固醇類物質的危害。",
+    "educationalNotes": "THG是專門設計來逃避檢測的「設計類固醇」，顯示禁藥技術的演進。",
+    "sourceLinks": [
+      {
+        "title": "WADA - Bill Romanowski Case",
+        "url": "https://www.wada-ama.org/",
+        "type": "WADA"
+      }
+    ]
+  },
+  {
+    "id": "118",
+    "athleteName": "Bobby Estalella",
+    "year": 2003,
+    "sport": "棒球",
+    "nationality": "美國",
+    "substance": "THG",
+    "substanceCategory": "S1.1: 外源性合成代謝雄激素類固醇",
+    "eventBackground": "2003年，Bobby Estalella在棒球項目中因THG的禁藥案例震驚體育界。",
+    "punishment": {
+      "banDuration": "無",
+      "resultsCancelled": false,
+      "medalStripped": false,
+      "otherPenalties": "職業生涯結束"
+    },
+    "summary": "2003年棒球界的重要禁藥案例，展現了S1.1: 外源性合成代謝雄激素類固醇類物質的危害。",
+    "educationalNotes": "THG是專門設計來逃避檢測的「設計類固醇」，顯示禁藥技術的演進。",
+    "sourceLinks": [
+      {
+        "title": "WADA - Bobby Estalella Case",
+        "url": "https://www.wada-ama.org/",
+        "type": "WADA"
+      }
+    ]
+  },
+  {
+    "id": "119",
+    "athleteName": "Calvin Harrison",
+    "year": 2003,
+    "sport": "田徑",
+    "nationality": "美國",
+    "substance": "THG",
+    "substanceCategory": "S1.1: 外源性合成代謝雄激素類固醇",
+    "eventBackground": "2003年，Calvin Harrison在田徑項目中因THG的禁藥案例震驚體育界。",
+    "punishment": {
+      "banDuration": "4年",
+      "resultsCancelled": true,
+      "medalStripped": true,
+      "otherPenalties": "兄弟檔同時違規"
+    },
+    "summary": "2003年田徑界的重要禁藥案例，展現了S1.1: 外源性合成代謝雄激素類固醇類物質的危害。",
+    "educationalNotes": "THG是專門設計來逃避檢測的「設計類固醇」，顯示禁藥技術的演進。",
+    "sourceLinks": [
+      {
+        "title": "WADA - Calvin Harrison Case",
+        "url": "https://www.wada-ama.org/",
+        "type": "WADA"
+      },
+      {
+        "title": "World Athletics",
+        "url": "https://www.worldathletics.org/",
+        "type": "官方文件"
+      }
+    ]
+  },
+  {
+    "id": "120",
+    "athleteName": "Chris Cooper",
+    "year": 2003,
+    "sport": "田徑",
+    "nationality": "美國",
+    "substance": "THG",
+    "substanceCategory": "S1.1: 外源性合成代謝雄激素類固醇",
+    "eventBackground": "2003年，Chris Cooper在田徑項目中因THG的禁藥案例震驚體育界。",
+    "punishment": {
+      "banDuration": "2年",
+      "resultsCancelled": true,
+      "medalStripped": false,
+      "otherPenalties": "職業生涯終結"
+    },
+    "summary": "2003年田徑界的重要禁藥案例，展現了S1.1: 外源性合成代謝雄激素類固醇類物質的危害。",
+    "educationalNotes": "THG是專門設計來逃避檢測的「設計類固醇」，顯示禁藥技術的演進。",
+    "sourceLinks": [
+      {
+        "title": "WADA - Chris Cooper Case",
+        "url": "https://www.wada-ama.org/",
+        "type": "WADA"
+      },
+      {
+        "title": "World Athletics",
+        "url": "https://www.worldathletics.org/",
+        "type": "官方文件"
+      }
+    ]
+  },
+  {
+    "id": "121",
+    "athleteName": "Chryste Gaines",
+    "year": 2003,
+    "sport": "田徑",
+    "nationality": "美國",
+    "substance": "THG",
+    "substanceCategory": "S1.1: 外源性合成代謝雄激素類固醇",
+    "eventBackground": "2003年，Chryste Gaines在田徑項目中因THG的禁藥案例震驚體育界。",
+    "punishment": {
+      "banDuration": "2年",
+      "resultsCancelled": true,
+      "medalStripped": true,
+      "otherPenalties": "奧運金牌被取消"
+    },
+    "summary": "2003年田徑界的重要禁藥案例，展現了S1.1: 外源性合成代謝雄激素類固醇類物質的危害。",
+    "educationalNotes": "THG是專門設計來逃避檢測的「設計類固醇」，顯示禁藥技術的演進。",
+    "sourceLinks": [
+      {
+        "title": "WADA - Chryste Gaines Case",
+        "url": "https://www.wada-ama.org/",
+        "type": "WADA"
+      },
+      {
+        "title": "World Athletics",
+        "url": "https://www.worldathletics.org/",
+        "type": "官方文件"
+      }
+    ]
+  },
+  {
+    "id": "122",
+    "athleteName": "Dana Stubblefield",
+    "year": 2003,
+    "sport": "美式足球",
+    "nationality": "美國",
+    "substance": "THG",
+    "substanceCategory": "S1.1: 外源性合成代謝雄激素類固醇",
+    "eventBackground": "2003年，Dana Stubblefield在美式足球項目中因THG的禁藥案例震驚體育界。",
+    "punishment": {
+      "banDuration": "無",
+      "resultsCancelled": false,
+      "medalStripped": false,
+      "otherPenalties": "獎項受質疑"
+    },
+    "summary": "2003年美式足球界的重要禁藥案例，展現了S1.1: 外源性合成代謝雄激素類固醇類物質的危害。",
+    "educationalNotes": "THG是專門設計來逃避檢測的「設計類固醇」，顯示禁藥技術的演進。",
+    "sourceLinks": [
+      {
+        "title": "WADA - Dana Stubblefield Case",
+        "url": "https://www.wada-ama.org/",
+        "type": "WADA"
+      }
+    ]
+  },
+  {
+    "id": "123",
+    "athleteName": "Dwain Chambers",
+    "year": 2003,
+    "sport": "田徑",
+    "nationality": "英國",
+    "substance": "THG",
+    "substanceCategory": "S1.1: 外源性合成代謝雄激素類固醇",
+    "eventBackground": "2003年，Dwain Chambers在田徑項目中因THG的禁藥案例震驚體育界。",
+    "punishment": {
+      "banDuration": "2年",
+      "resultsCancelled": true,
+      "medalStripped": false,
+      "otherPenalties": "英國奧委會終身禁令（後撤銷）"
+    },
+    "summary": "2003年田徑界的重要禁藥案例，展現了S1.1: 外源性合成代謝雄激素類固醇類物質的危害。",
+    "educationalNotes": "THG是專門設計來逃避檢測的「設計類固醇」，顯示禁藥技術的演進。",
+    "sourceLinks": [
+      {
+        "title": "WADA - Dwain Chambers Case",
+        "url": "https://www.wada-ama.org/",
+        "type": "WADA"
+      },
+      {
+        "title": "World Athletics",
+        "url": "https://www.worldathletics.org/",
+        "type": "官方文件"
+      }
+    ]
+  },
+  {
+    "id": "124",
+    "athleteName": "Gary Sheffield",
+    "year": 2003,
+    "sport": "棒球",
+    "nationality": "美國",
+    "substance": "THG (聲稱不知情)",
+    "substanceCategory": "S1.1: 外源性合成代謝雄激素類固醇",
+    "eventBackground": "2003年，Gary Sheffield在棒球項目中因THG (聲稱不知情)的禁藥案例震驚體育界。",
+    "punishment": {
+      "banDuration": "無",
+      "resultsCancelled": false,
+      "medalStripped": false,
+      "otherPenalties": "聲譽受損"
+    },
+    "summary": "2003年棒球界的重要禁藥案例，展現了S1.1: 外源性合成代謝雄激素類固醇類物質的危害。",
+    "educationalNotes": "THG是專門設計來逃避檢測的「設計類固醇」，顯示禁藥技術的演進。",
+    "sourceLinks": [
+      {
+        "title": "WADA - Gary Sheffield Case",
+        "url": "https://www.wada-ama.org/",
+        "type": "WADA"
+      }
+    ]
+  },
+  {
+    "id": "125",
+    "athleteName": "Jason Giambi",
+    "year": 2003,
+    "sport": "棒球",
+    "nationality": "美國",
+    "substance": "THG, 類固醇",
+    "substanceCategory": "S1.1: 外源性合成代謝雄激素類固醇",
+    "eventBackground": "2003年，Jason Giambi在棒球項目中因THG, 類固醇的禁藥案例震驚體育界。",
+    "punishment": {
+      "banDuration": "無官方禁賽",
+      "resultsCancelled": false,
+      "medalStripped": false,
+      "otherPenalties": "公開道歉"
+    },
+    "summary": "2003年棒球界的重要禁藥案例，展現了S1.1: 外源性合成代謝雄激素類固醇類物質的危害。",
+    "educationalNotes": "THG是專門設計來逃避檢測的「設計類固醇」，顯示禁藥技術的演進。",
+    "sourceLinks": [
+      {
+        "title": "WADA - Jason Giambi Case",
+        "url": "https://www.wada-ama.org/",
+        "type": "WADA"
+      }
+    ]
+  },
+  {
+    "id": "126",
+    "athleteName": "Jeremy Giambi",
+    "year": 2003,
+    "sport": "棒球",
+    "nationality": "美國",
+    "substance": "THG",
+    "substanceCategory": "S1.1: 外源性合成代謝雄激素類固醇",
+    "eventBackground": "2003年，Jeremy Giambi在棒球項目中因THG的禁藥案例震驚體育界。",
+    "punishment": {
+      "banDuration": "無",
+      "resultsCancelled": false,
+      "medalStripped": false,
+      "otherPenalties": "職業生涯提早結束"
+    },
+    "summary": "2003年棒球界的重要禁藥案例，展現了S1.1: 外源性合成代謝雄激素類固醇類物質的危害。",
+    "educationalNotes": "THG是專門設計來逃避檢測的「設計類固醇」，顯示禁藥技術的演進。",
+    "sourceLinks": [
+      {
+        "title": "WADA - Jeremy Giambi Case",
+        "url": "https://www.wada-ama.org/",
+        "type": "WADA"
+      }
+    ]
+  },
+  {
+    "id": "127",
+    "athleteName": "Kelli White",
+    "year": 2003,
+    "sport": "田徑",
+    "nationality": "美國",
+    "substance": "Modafinil",
+    "substanceCategory": "S6: 興奮劑",
+    "eventBackground": "2003年，Kelli White在田徑項目中因Modafinil的禁藥案例震驚體育界。",
+    "punishment": {
+      "banDuration": "2年",
+      "resultsCancelled": true,
+      "medalStripped": true,
+      "otherPenalties": "配合調查減刑"
+    },
+    "summary": "2003年田徑界的重要禁藥案例，展現了S6: 興奮劑類物質的危害。",
+    "educationalNotes": "興奮劑能提高警覺性和能量，但會造成心律不整和成癮問題。",
+    "sourceLinks": [
+      {
+        "title": "WADA - Kelli White Case",
+        "url": "https://www.wada-ama.org/",
+        "type": "WADA"
+      },
+      {
+        "title": "World Athletics",
+        "url": "https://www.worldathletics.org/",
+        "type": "官方文件"
+      }
+    ]
+  },
+  {
+    "id": "128",
+    "athleteName": "Marvin Benard",
+    "year": 2003,
+    "sport": "棒球",
+    "nationality": "美國",
+    "substance": "THG",
+    "substanceCategory": "S1.1: 外源性合成代謝雄激素類固醇",
+    "eventBackground": "2003年，Marvin Benard在棒球項目中因THG的禁藥案例震驚體育界。",
+    "punishment": {
+      "banDuration": "無",
+      "resultsCancelled": false,
+      "medalStripped": false,
+      "otherPenalties": "有限影響"
+    },
+    "summary": "2003年棒球界的重要禁藥案例，展現了S1.1: 外源性合成代謝雄激素類固醇類物質的危害。",
+    "educationalNotes": "THG是專門設計來逃避檢測的「設計類固醇」，顯示禁藥技術的演進。",
+    "sourceLinks": [
+      {
+        "title": "WADA - Marvin Benard Case",
+        "url": "https://www.wada-ama.org/",
+        "type": "WADA"
+      }
+    ]
+  },
+  {
+    "id": "129",
+    "athleteName": "Michelle Collins",
+    "year": 2003,
+    "sport": "田徑",
+    "nationality": "美國",
+    "substance": "THG, EPO",
+    "substanceCategory": "S2.1: 促紅血球生成素類",
+    "eventBackground": "2003年，Michelle Collins在田徑項目中因THG, EPO的禁藥案例震驚體育界。",
+    "punishment": {
+      "banDuration": "8年",
+      "resultsCancelled": true,
+      "medalStripped": true,
+      "otherPenalties": "職業生涯實質終結"
+    },
+    "summary": "2003年田徑界的重要禁藥案例，展現了S2.1: 促紅血球生成素類類物質的危害。",
+    "educationalNotes": "EPO能增加紅血球數量，提高氧氣運輸能力，但會增加血栓和中風風險。",
+    "sourceLinks": [
+      {
+        "title": "WADA - Michelle Collins Case",
+        "url": "https://www.wada-ama.org/",
+        "type": "WADA"
+      },
+      {
+        "title": "World Athletics",
+        "url": "https://www.worldathletics.org/",
+        "type": "官方文件"
+      }
+    ]
+  },
+  {
+    "id": "130",
+    "athleteName": "Patrick Arnold",
+    "year": 2003,
+    "sport": "化學家",
+    "nationality": "美國",
+    "substance": "THG設計者",
+    "substanceCategory": "S1.1: 外源性合成代謝雄激素類固醇",
+    "eventBackground": "2003年，Patrick Arnold在化學家項目中因THG設計者的禁藥案例震驚體育界。",
+    "punishment": {
+      "banDuration": "3個月監禁",
+      "resultsCancelled": false,
+      "medalStripped": false,
+      "otherPenalties": "禁藥化學設計的里程碑"
+    },
+    "summary": "2003年化學家界的重要禁藥案例，展現了S1.1: 外源性合成代謝雄激素類固醇類物質的危害。",
+    "educationalNotes": "THG是專門設計來逃避檢測的「設計類固醇」，顯示禁藥技術的演進。",
+    "sourceLinks": [
+      {
+        "title": "WADA - Patrick Arnold Case",
+        "url": "https://www.wada-ama.org/",
+        "type": "WADA"
+      }
+    ]
+  },
+  {
+    "id": "131",
+    "athleteName": "Regina Jacobs",
+    "year": 2003,
+    "sport": "田徑",
+    "nationality": "美國",
+    "substance": "THG",
+    "substanceCategory": "S1.1: 外源性合成代謝雄激素類固醇",
+    "eventBackground": "2003年，Regina Jacobs在田徑項目中因THG的禁藥案例震驚體育界。",
+    "punishment": {
+      "banDuration": "4年",
+      "resultsCancelled": true,
+      "medalStripped": true,
+      "otherPenalties": "終結輝煌職業生涯"
+    },
+    "summary": "2003年田徑界的重要禁藥案例，展現了S1.1: 外源性合成代謝雄激素類固醇類物質的危害。",
+    "educationalNotes": "THG是專門設計來逃避檢測的「設計類固醇」，顯示禁藥技術的演進。",
+    "sourceLinks": [
+      {
+        "title": "WADA - Regina Jacobs Case",
+        "url": "https://www.wada-ama.org/",
+        "type": "WADA"
+      },
+      {
+        "title": "World Athletics",
+        "url": "https://www.worldathletics.org/",
+        "type": "官方文件"
+      }
+    ]
+  },
+  {
+    "id": "132",
+    "athleteName": "Shane Warne",
+    "year": 2003,
+    "sport": "板球",
+    "nationality": "澳洲",
+    "substance": "Diuretic",
+    "substanceCategory": "S5: 利尿劑和掩蔽劑",
+    "eventBackground": "2003年，Shane Warne在板球項目中因Diuretic的禁藥案例震驚體育界。",
+    "punishment": {
+      "banDuration": "12個月",
+      "resultsCancelled": false,
+      "medalStripped": false,
+      "otherPenalties": "錯過2003年世界盃"
+    },
+    "summary": "2003年板球界的重要禁藥案例，展現了S5: 利尿劑和掩蔽劑類物質的危害。",
+    "educationalNotes": "利尿劑常用於掩蔽其他禁藥，同時會影響電解質平衡。",
+    "sourceLinks": [
+      {
+        "title": "WADA - Shane Warne Case",
+        "url": "https://www.wada-ama.org/",
+        "type": "WADA"
+      }
+    ]
+  },
+  {
+    "id": "133",
+    "athleteName": "Tyrone Wheatley",
+    "year": 2003,
+    "sport": "美式足球",
+    "nationality": "美國",
+    "substance": "THG",
+    "substanceCategory": "S1.1: 外源性合成代謝雄激素類固醇",
+    "eventBackground": "2003年，Tyrone Wheatley在美式足球項目中因THG的禁藥案例震驚體育界。",
+    "punishment": {
+      "banDuration": "無",
+      "resultsCancelled": false,
+      "medalStripped": false,
+      "otherPenalties": "職業聲譽受損"
+    },
+    "summary": "2003年美式足球界的重要禁藥案例，展現了S1.1: 外源性合成代謝雄激素類固醇類物質的危害。",
+    "educationalNotes": "THG是專門設計來逃避檢測的「設計類固醇」，顯示禁藥技術的演進。",
+    "sourceLinks": [
+      {
+        "title": "WADA - Tyrone Wheatley Case",
+        "url": "https://www.wada-ama.org/",
+        "type": "WADA"
+      }
+    ]
+  },
+  {
+    "id": "136",
+    "athleteName": "Izabela Dragneva",
+    "year": 2000,
+    "sport": "舉重",
+    "nationality": "保加利亞",
+    "substance": "Furosemide",
+    "substanceCategory": "S5: 利尿劑和掩蔽劑",
+    "eventBackground": "2000年雪梨奧運，保加利亞女子舉重選手Izabela Dragneva因使用Furosemide被取消金牌。",
+    "punishment": {
+      "banDuration": "2年",
+      "resultsCancelled": true,
+      "medalStripped": true,
+      "otherPenalties": "雪梨奧運金牌被取消"
+    },
+    "summary": "2000年奧運女子舉重金牌被取消的重大案例。",
+    "educationalNotes": "女子舉重項目中利尿劑的使用不僅是為了掩蔽，也可能用於快速降體重以符合量級要求。",
+    "sourceLinks": [
+      {
+        "title": "IOC Disciplinary Report",
+        "url": "https://www.olympic.org/",
+        "type": "官方文件"
+      }
+    ]
+  },
+  {
+    "id": "137",
+    "athleteName": "Jerome Young",
+    "year": 1999,
+    "sport": "田徑",
+    "nationality": "美國",
+    "substance": "Nandrolone",
+    "substanceCategory": "S1.1: 外源性合成代謝雄激素類固醇",
+    "eventBackground": "1999年，田徑選手Jerome Young使用Nandrolone的禁藥事件成為體育史上的重要案例。",
+    "punishment": {
+      "banDuration": "終身禁賽",
+      "resultsCancelled": true,
+      "medalStripped": true,
+      "otherPenalties": "美國接力隊失去奧運金牌"
+    },
+    "summary": "1999年田徑界的重要禁藥案例，展現了S1.1: 外源性合成代謝雄激素類固醇類物質的危害。",
+    "educationalNotes": "合成代謝類固醇能增加肌肉量和力量，但會對心血管系統造成嚴重副作用。",
+    "sourceLinks": [
+      {
+        "title": "WADA - Jerome Young Case",
+        "url": "https://www.wada-ama.org/",
+        "type": "WADA"
+      },
+      {
+        "title": "World Athletics",
+        "url": "https://www.worldathletics.org/",
+        "type": "官方文件"
+      }
+    ]
+  },
+  {
+    "id": "138",
+    "athleteName": "Jesus Manzano",
+    "year": 1999,
+    "sport": "自行車",
+    "nationality": "西班牙",
+    "substance": "EPO, 類固醇",
+    "substanceCategory": "S2.1: 促紅血球生成素類",
+    "eventBackground": "1999年，自行車選手Jesus Manzano使用EPO, 類固醇的禁藥事件成為體育史上的重要案例。",
+    "punishment": {
+      "banDuration": "無正式處罰",
+      "resultsCancelled": false,
+      "medalStripped": false,
+      "otherPenalties": "成為告發者"
+    },
+    "summary": "1999年自行車界的重要禁藥案例，展現了S2.1: 促紅血球生成素類類物質的危害。",
+    "educationalNotes": "EPO能增加紅血球數量，提高氧氣運輸能力，但會增加血栓和中風風險。",
+    "sourceLinks": [
+      {
+        "title": "WADA - Jesus Manzano Case",
+        "url": "https://www.wada-ama.org/",
+        "type": "WADA"
+      },
+      {
+        "title": "UCI",
+        "url": "https://www.uci.org/",
+        "type": "官方文件"
+      }
+    ]
+  },
+  {
+    "id": "139",
+    "athleteName": "Marco Pantani",
+    "year": 1999,
+    "sport": "自行車",
+    "nationality": "義大利",
+    "substance": "EPO (疑似)",
+    "substanceCategory": "S2.1: 促紅血球生成素類",
+    "eventBackground": "1999年，自行車選手Marco Pantani使用EPO (疑似)的禁藥事件成為體育史上的重要案例。",
+    "punishment": {
+      "banDuration": "無正式禁賽",
+      "resultsCancelled": false,
+      "medalStripped": false,
+      "otherPenalties": "職業生涯毀滅，後來早逝"
+    },
+    "summary": "1999年自行車界的重要禁藥案例，展現了S2.1: 促紅血球生成素類類物質的危害。",
+    "educationalNotes": "EPO能增加紅血球數量，提高氧氣運輸能力，但會增加血栓和中風風險。",
+    "sourceLinks": [
+      {
+        "title": "WADA - Marco Pantani Case",
+        "url": "https://www.wada-ama.org/",
+        "type": "WADA"
+      },
+      {
+        "title": "UCI",
+        "url": "https://www.uci.org/",
+        "type": "官方文件"
+      }
+    ]
+  },
+  {
+    "id": "140",
+    "athleteName": "Alex Zülle",
+    "year": 1998,
+    "sport": "自行車",
+    "nationality": "瑞士",
+    "substance": "EPO",
+    "substanceCategory": "S2.1: 促紅血球生成素類",
+    "eventBackground": "1998年，自行車選手Alex Zülle使用EPO的禁藥事件成為體育史上的重要案例。",
+    "punishment": {
+      "banDuration": "7個月",
+      "resultsCancelled": true,
+      "medalStripped": false,
+      "otherPenalties": "提早承認獲減刑"
+    },
+    "summary": "1998年自行車界的重要禁藥案例，展現了S2.1: 促紅血球生成素類類物質的危害。",
+    "educationalNotes": "EPO能增加紅血球數量，提高氧氣運輸能力，但會增加血栓和中風風險。",
+    "sourceLinks": [
+      {
+        "title": "WADA - Alex Zülle Case",
+        "url": "https://www.wada-ama.org/",
+        "type": "WADA"
+      },
+      {
+        "title": "UCI",
+        "url": "https://www.uci.org/",
+        "type": "官方文件"
+      }
+    ]
+  },
+  {
+    "id": "141",
+    "athleteName": "Dennis Mitchell",
+    "year": 1998,
+    "sport": "田徑",
+    "nationality": "美國",
+    "substance": "Testosterone (歷史案例)",
+    "substanceCategory": "S1.1: 外源性合成代謝雄激素類固醇",
+    "eventBackground": "1998年，田徑選手Dennis Mitchell使用Testosterone (歷史案例)的禁藥事件成為體育史上的重要案例。",
+    "punishment": {
+      "banDuration": "2年",
+      "resultsCancelled": true,
+      "medalStripped": false,
+      "otherPenalties": "辯護被廣泛嘲笑"
+    },
+    "summary": "1998年田徑界的重要禁藥案例，展現了S1.1: 外源性合成代謝雄激素類固醇類物質的危害。",
+    "educationalNotes": "睪固酮是最基本的合成代謝類固醇，天然存在於人體但過量使用屬違規。",
+    "sourceLinks": [
+      {
+        "title": "WADA - Dennis Mitchell Case",
+        "url": "https://www.wada-ama.org/",
+        "type": "WADA"
+      },
+      {
+        "title": "World Athletics",
+        "url": "https://www.worldathletics.org/",
+        "type": "官方文件"
+      }
+    ]
+  },
+  {
+    "id": "142",
+    "athleteName": "Festina車隊",
+    "year": 1998,
+    "sport": "自行車",
+    "nationality": "法國",
+    "substance": "EPO, 生長激素, 類固醇",
+    "substanceCategory": "S2.1: 促紅血球生成素類",
+    "eventBackground": "1998年，自行車選手Festina車隊使用EPO, 生長激素, 類固醇的禁藥事件成為體育史上的重要案例。",
+    "punishment": {
+      "banDuration": "車隊解散",
+      "resultsCancelled": true,
+      "medalStripped": true,
+      "otherPenalties": "改變環法賽歷史"
+    },
+    "summary": "1998年自行車界的重要禁藥案例，展現了S2.1: 促紅血球生成素類類物質的危害。",
+    "educationalNotes": "EPO能增加紅血球數量，提高氧氣運輸能力，但會增加血栓和中風風險。",
+    "sourceLinks": [
+      {
+        "title": "WADA - Festina車隊 Case",
+        "url": "https://www.wada-ama.org/",
+        "type": "WADA"
+      },
+      {
+        "title": "UCI",
+        "url": "https://www.uci.org/",
+        "type": "官方文件"
+      }
+    ]
+  },
+  {
+    "id": "143",
+    "athleteName": "Laurent Brochard",
+    "year": 1998,
+    "sport": "自行車",
+    "nationality": "法國",
+    "substance": "EPO",
+    "substanceCategory": "S2.1: 促紅血球生成素類",
+    "eventBackground": "1998年，自行車選手Laurent Brochard使用EPO的禁藥事件成為體育史上的重要案例。",
+    "punishment": {
+      "banDuration": "6個月",
+      "resultsCancelled": true,
+      "medalStripped": false,
+      "otherPenalties": "世界冠軍頭銜保留"
+    },
+    "summary": "1998年自行車界的重要禁藥案例，展現了S2.1: 促紅血球生成素類類物質的危害。",
+    "educationalNotes": "EPO能增加紅血球數量，提高氧氣運輸能力，但會增加血栓和中風風險。",
+    "sourceLinks": [
+      {
+        "title": "WADA - Laurent Brochard Case",
+        "url": "https://www.wada-ama.org/",
+        "type": "WADA"
+      },
+      {
+        "title": "UCI",
+        "url": "https://www.uci.org/",
+        "type": "官方文件"
+      }
+    ]
+  },
+  {
+    "id": "144",
+    "athleteName": "Michelle Smith",
+    "year": 1998,
+    "sport": "游泳",
+    "nationality": "愛爾蘭",
+    "substance": "Androstenedione (疑似)",
+    "substanceCategory": "S1.2: 其他合成代謝劑",
+    "eventBackground": "1998年，游泳選手Michelle Smith使用Androstenedione (疑似)的禁藥事件成為體育史上的重要案例。",
+    "punishment": {
+      "banDuration": "4年",
+      "resultsCancelled": false,
+      "medalStripped": false,
+      "otherPenalties": "奧運金牌保留但備受爭議"
+    },
+    "summary": "1998年游泳界的重要禁藥案例，展現了S1.2: 其他合成代謝劑類物質的危害。",
+    "educationalNotes": "合成代謝類固醇能增加肌肉量和力量，但會對心血管系統造成嚴重副作用。",
+    "sourceLinks": [
+      {
+        "title": "WADA - Michelle Smith Case",
+        "url": "https://www.wada-ama.org/",
+        "type": "WADA"
+      },
+      {
+        "title": "World Aquatics",
+        "url": "https://www.worldaquatics.com/",
+        "type": "官方文件"
+      }
+    ]
+  },
+  {
+    "id": "145",
+    "athleteName": "Richard Virenque",
+    "year": 1998,
+    "sport": "自行車",
+    "nationality": "法國",
+    "substance": "EPO",
+    "substanceCategory": "S2.1: 促紅血球生成素類",
+    "eventBackground": "1998年，自行車選手Richard Virenque使用EPO的禁藥事件成為體育史上的重要案例。",
+    "punishment": {
+      "banDuration": "9個月",
+      "resultsCancelled": true,
+      "medalStripped": false,
+      "otherPenalties": "法國英雄形象破滅"
+    },
+    "summary": "1998年自行車界的重要禁藥案例，展現了S2.1: 促紅血球生成素類類物質的危害。",
+    "educationalNotes": "EPO能增加紅血球數量，提高氧氣運輸能力，但會增加血栓和中風風險。",
+    "sourceLinks": [
+      {
+        "title": "WADA - Richard Virenque Case",
+        "url": "https://www.wada-ama.org/",
+        "type": "WADA"
+      },
+      {
+        "title": "UCI",
+        "url": "https://www.uci.org/",
+        "type": "官方文件"
+      }
+    ]
+  },
+  {
+    "id": "146",
+    "athleteName": "Jan Ullrich",
+    "year": 1997,
+    "sport": "自行車",
+    "nationality": "德國",
+    "substance": "EPO, 血液禁藥",
+    "substanceCategory": "M1: 血液和血液成分操作",
+    "eventBackground": "1997年，自行車選手Jan Ullrich使用EPO, 血液禁藥的禁藥事件成為體育史上的重要案例。",
+    "punishment": {
+      "banDuration": "2年 (2006年)",
+      "resultsCancelled": false,
+      "medalStripped": false,
+      "otherPenalties": "職業生涯蒙陰影"
+    },
+    "summary": "1997年自行車界的重要禁藥案例，展現了M1: 血液和血液成分操作類物質的危害。",
+    "educationalNotes": "EPO能增加紅血球數量，提高氧氣運輸能力，但會增加血栓和中風風險。",
+    "sourceLinks": [
+      {
+        "title": "WADA - Jan Ullrich Case",
+        "url": "https://www.wada-ama.org/",
+        "type": "WADA"
+      },
+      {
+        "title": "UCI",
+        "url": "https://www.uci.org/",
+        "type": "官方文件"
+      }
+    ]
+  },
+  {
+    "id": "147",
+    "athleteName": "Bjarne Riis",
+    "year": 1996,
+    "sport": "自行車",
+    "nationality": "丹麥",
+    "substance": "EPO",
+    "substanceCategory": "S2.1: 促紅血球生成素類",
+    "eventBackground": "1996年，自行車選手Bjarne Riis使用EPO的禁藥事件成為體育史上的重要案例。",
+    "punishment": {
+      "banDuration": "追溯性道德譴責",
+      "resultsCancelled": false,
+      "medalStripped": false,
+      "otherPenalties": "保留環法冠軍但受道德質疑"
+    },
+    "summary": "1996年自行車界的重要禁藥案例，展現了S2.1: 促紅血球生成素類類物質的危害。",
+    "educationalNotes": "EPO能增加紅血球數量，提高氧氣運輸能力，但會增加血栓和中風風險。",
+    "sourceLinks": [
+      {
+        "title": "WADA - Bjarne Riis Case",
+        "url": "https://www.wada-ama.org/",
+        "type": "WADA"
+      },
+      {
+        "title": "UCI",
+        "url": "https://www.uci.org/",
+        "type": "官方文件"
+      }
+    ]
+  },
+  {
+    "id": "148",
+    "athleteName": "Erwan Menthéour",
+    "year": 1996,
+    "sport": "自行車",
+    "nationality": "法國",
+    "substance": "EPO, 類固醇",
+    "substanceCategory": "S2.1: 促紅血球生成素類",
+    "eventBackground": "1996年，自行車選手Erwan Menthéour使用EPO, 類固醇的禁藥事件成為體育史上的重要案例。",
+    "punishment": {
+      "banDuration": "無 (退役後承認)",
+      "resultsCancelled": false,
+      "medalStripped": false,
+      "otherPenalties": "成為反禁藥教育者"
+    },
+    "summary": "1996年自行車界的重要禁藥案例，展現了S2.1: 促紅血球生成素類類物質的危害。",
+    "educationalNotes": "EPO能增加紅血球數量，提高氧氣運輸能力，但會增加血栓和中風風險。",
+    "sourceLinks": [
+      {
+        "title": "WADA - Erwan Menthéour Case",
+        "url": "https://www.wada-ama.org/",
+        "type": "WADA"
+      },
+      {
+        "title": "UCI",
+        "url": "https://www.uci.org/",
+        "type": "官方文件"
+      }
+    ]
+  },
+  {
+    "id": "149",
+    "athleteName": "Michele Ferrari",
+    "year": 1995,
+    "sport": "科學支援",
+    "nationality": "義大利",
+    "substance": "EPO, 血液禁藥",
+    "substanceCategory": "M1: 血液和血液成分操作",
+    "eventBackground": "1995年，科學支援選手Michele Ferrari使用EPO, 血液禁藥的禁藥事件成為體育史上的重要案例。",
+    "punishment": {
+      "banDuration": "終身禁入體育界",
+      "resultsCancelled": false,
+      "medalStripped": false,
+      "otherPenalties": "多次法律訴訟"
+    },
+    "summary": "1995年科學支援界的重要禁藥案例，展現了M1: 血液和血液成分操作類物質的危害。",
+    "educationalNotes": "EPO能增加紅血球數量，提高氧氣運輸能力，但會增加血栓和中風風險。",
+    "sourceLinks": [
+      {
+        "title": "WADA - Michele Ferrari Case",
+        "url": "https://www.wada-ama.org/",
+        "type": "WADA"
+      }
+    ]
+  },
+  {
+    "id": "150",
+    "athleteName": "Lu Bin",
+    "year": 1994,
+    "sport": "游泳",
+    "nationality": "中國",
+    "substance": "DHT",
+    "substanceCategory": "S1.1: 外源性合成代謝雄激素類固醇",
+    "eventBackground": "1994年，游泳選手Lu Bin使用DHT的禁藥事件成為體育史上的重要案例。",
+    "punishment": {
+      "banDuration": "4年",
+      "resultsCancelled": true,
+      "medalStripped": true,
+      "otherPenalties": "亞運會成績全部取消"
+    },
+    "summary": "1994年游泳界的重要禁藥案例，展現了S1.1: 外源性合成代謝雄激素類固醇類物質的危害。",
+    "educationalNotes": "合成代謝類固醇能增加肌肉量和力量，但會對心血管系統造成嚴重副作用。",
+    "sourceLinks": [
+      {
+        "title": "WADA - Lu Bin Case",
+        "url": "https://www.wada-ama.org/",
+        "type": "WADA"
+      },
+      {
+        "title": "World Aquatics",
+        "url": "https://www.worldaquatics.com/",
+        "type": "官方文件"
+      }
+    ]
+  },
+  {
+    "id": "151",
+    "athleteName": "Luc Leblanc",
+    "year": 1994,
+    "sport": "自行車",
+    "nationality": "法國",
+    "substance": "Amphetamines",
+    "substanceCategory": "S6: 興奮劑",
+    "eventBackground": "1994年，自行車選手Luc Leblanc使用Amphetamines的禁藥事件成為體育史上的重要案例。",
+    "punishment": {
+      "banDuration": "追溯性道德譴責",
+      "resultsCancelled": false,
+      "medalStripped": false,
+      "otherPenalties": "退役後承認"
+    },
+    "summary": "1994年自行車界的重要禁藥案例，展現了S6: 興奮劑類物質的危害。",
+    "educationalNotes": "興奮劑能提高警覺性和能量，但會造成心律不整和成癮問題。",
+    "sourceLinks": [
+      {
+        "title": "WADA - Luc Leblanc Case",
+        "url": "https://www.wada-ama.org/",
+        "type": "WADA"
+      },
+      {
+        "title": "UCI",
+        "url": "https://www.uci.org/",
+        "type": "官方文件"
+      }
+    ]
+  },
+  {
+    "id": "152",
+    "athleteName": "Yuan Yuan",
+    "year": 1994,
+    "sport": "游泳",
+    "nationality": "中國",
+    "substance": "DHT",
+    "substanceCategory": "S1.1: 外源性合成代謝雄激素類固醇",
+    "eventBackground": "1994年，游泳選手Yuan Yuan使用DHT的禁藥事件成為體育史上的重要案例。",
+    "punishment": {
+      "banDuration": "4年",
+      "resultsCancelled": true,
+      "medalStripped": true,
+      "otherPenalties": "世錦賽金牌被取消"
+    },
+    "summary": "1994年游泳界的重要禁藥案例，展現了S1.1: 外源性合成代謝雄激素類固醇類物質的危害。",
+    "educationalNotes": "合成代謝類固醇能增加肌肉量和力量，但會對心血管系統造成嚴重副作用。",
+    "sourceLinks": [
+      {
+        "title": "WADA - Yuan Yuan Case",
+        "url": "https://www.wada-ama.org/",
+        "type": "WADA"
+      },
+      {
+        "title": "World Aquatics",
+        "url": "https://www.worldaquatics.com/",
+        "type": "官方文件"
+      }
+    ]
+  },
+  {
+    "id": "153",
+    "athleteName": "中國女子游泳隊",
+    "year": 1994,
+    "sport": "游泳",
+    "nationality": "中國",
+    "substance": "DHT (雙氫睪固酮)",
+    "substanceCategory": "S1.1: 外源性合成代謝雄激素類固醇",
+    "eventBackground": "1994年，游泳選手中國女子游泳隊使用DHT (雙氫睪固酮)的禁藥事件成為體育史上的重要案例。",
+    "punishment": {
+      "banDuration": "2-4年不等",
+      "resultsCancelled": true,
+      "medalStripped": true,
+      "otherPenalties": "中國游泳聲譽重創"
+    },
+    "summary": "1994年游泳界的重要禁藥案例，展現了S1.1: 外源性合成代謝雄激素類固醇類物質的危害。",
+    "educationalNotes": "睪固酮是最基本的合成代謝類固醇，天然存在於人體但過量使用屬違規。",
+    "sourceLinks": [
+      {
+        "title": "WADA - 中國女子游泳隊 Case",
+        "url": "https://www.wada-ama.org/",
+        "type": "WADA"
+      },
+      {
+        "title": "World Aquatics",
+        "url": "https://www.worldaquatics.com/",
+        "type": "官方文件"
+      }
+    ]
+  },
+  {
+    "id": "154",
+    "athleteName": "Francesco Conconi",
+    "year": 1990,
+    "sport": "科學支援",
+    "nationality": "義大利",
+    "substance": "EPO研發應用",
+    "substanceCategory": "S2.1: 促紅血球生成素類",
+    "eventBackground": "1990年，科學支援選手Francesco Conconi使用EPO研發應用的禁藥事件成為體育史上的重要案例。",
+    "punishment": {
+      "banDuration": "學術聲譽受損",
+      "resultsCancelled": false,
+      "medalStripped": false,
+      "otherPenalties": "被體育界封殺"
+    },
+    "summary": "1990年科學支援界的重要禁藥案例，展現了S2.1: 促紅血球生成素類類物質的危害。",
+    "educationalNotes": "EPO能增加紅血球數量，提高氧氣運輸能力，但會增加血栓和中風風險。",
+    "sourceLinks": [
+      {
+        "title": "WADA - Francesco Conconi Case",
+        "url": "https://www.wada-ama.org/",
+        "type": "WADA"
+      }
+    ]
+  },
+  {
+    "id": "155",
+    "athleteName": "Ben Johnson",
+    "year": 1988,
+    "sport": "田徑",
+    "nationality": "加拿大",
+    "substance": "Stanozolol",
+    "substanceCategory": "S1.1: 外源性合成代謝雄激素類固醇",
+    "eventBackground": "1988年漢城奧運會100公尺決賽，以9.79秒打破世界紀錄奪金，但賽後藥檢呈陽性反應。",
+    "punishment": {
+      "banDuration": "2年",
+      "resultsCancelled": true,
+      "medalStripped": true,
+      "otherPenalties": "世界紀錄被取消"
+    },
+    "summary": "史上最著名的禁藥醜聞之一，改變了奧運會的藥檢制度。",
+    "educationalNotes": "Stanozolol是一種合成代謝類固醇，可增加肌肉質量和力量，但會造成肝損傷等副作用。",
+    "sourceLinks": [
+      {
+        "title": "WADA - Ben Johnson Case",
+        "url": "https://www.wada-ama.org/",
+        "type": "WADA"
+      },
+      {
+        "title": "World Athletics",
+        "url": "https://www.worldathletics.org/",
+        "type": "官方文件"
+      }
+    ]
+  },
+  {
+    "id": "156",
+    "athleteName": "Carl Lewis",
+    "year": 1988,
+    "sport": "田徑",
+    "nationality": "美國",
+    "substance": "Stimulants (微量)",
+    "substanceCategory": "S6: 興奮劑",
+    "eventBackground": "1988年，Carl Lewis在田徑項目中的禁藥案例對當時的體育界產生重大影響。",
+    "punishment": {
+      "banDuration": "無",
+      "resultsCancelled": false,
+      "medalStripped": false,
+      "otherPenalties": "2003年才公開此事"
+    },
+    "summary": "1988年田徑界的重要禁藥案例，展現了S6: 興奮劑類物質的危害。",
+    "educationalNotes": "興奮劑能提高警覺性和能量，但會造成心律不整和成癮問題。",
+    "sourceLinks": [
+      {
+        "title": "WADA - Carl Lewis Case",
+        "url": "https://www.wada-ama.org/",
+        "type": "WADA"
+      },
+      {
+        "title": "World Athletics",
+        "url": "https://www.worldathletics.org/",
+        "type": "官方文件"
+      }
+    ]
+  },
+  {
+    "id": "157",
+    "athleteName": "Daley Thompson",
+    "year": 1988,
+    "sport": "田徑",
+    "nationality": "英國",
+    "substance": "微量Methenolone",
+    "substanceCategory": "S1.1: 外源性合成代謝雄激素類固醇",
+    "eventBackground": "1988年，Daley Thompson在田徑項目中的禁藥案例對當時的體育界產生重大影響。",
+    "punishment": {
+      "banDuration": "無 (濃度過低)",
+      "resultsCancelled": false,
+      "medalStripped": false,
+      "otherPenalties": "1999年才公開此事"
+    },
+    "summary": "1988年田徑界的重要禁藥案例，展現了S1.1: 外源性合成代謝雄激素類固醇類物質的危害。",
+    "educationalNotes": "合成代謝類固醇能增加肌肉量和力量，但會對心血管系統造成嚴重副作用。",
+    "sourceLinks": [
+      {
+        "title": "WADA - Daley Thompson Case",
+        "url": "https://www.wada-ama.org/",
+        "type": "WADA"
+      },
+      {
+        "title": "World Athletics",
+        "url": "https://www.worldathletics.org/",
+        "type": "官方文件"
+      }
+    ]
+  },
+  {
+    "id": "158",
+    "athleteName": "Mitko Grabnev",
+    "year": 1988,
+    "sport": "舉重",
+    "nationality": "保加利亞",
+    "substance": "Furosemide",
+    "substanceCategory": "S5: 利尿劑和掩蔽劑",
+    "eventBackground": "1988年首爾奧運，保加利亞舉重選手Mitko Grabnev因使用利尿劑Furosemide被檢出陽性。",
+    "punishment": {
+      "banDuration": "2年",
+      "resultsCancelled": true,
+      "medalStripped": true,
+      "otherPenalties": "首爾奧運銅牌被取消"
+    },
+    "summary": "1988年首爾奧運舉重項目禁藥案例，展現了利尿劑作為掩蔽劑的使用。",
+    "educationalNotes": "利尿劑不僅可以快速減重，更重要的是能稀釋尿液中其他禁藥的濃度，因此被列為掩蔽劑。",
+    "sourceLinks": [
+      {
+        "title": "IOC Official Report",
+        "url": "https://www.olympic.org/",
+        "type": "官方文件"
+      }
+    ]
+  },
+  {
+    "id": "159",
+    "athleteName": "Petra Felke",
+    "year": 1988,
+    "sport": "田徑",
+    "nationality": "東德",
+    "substance": "Oral-Turinabol (疑似)",
+    "substanceCategory": "S1.1: 外源性合成代謝雄激素類固醇",
+    "eventBackground": "1988年，Petra Felke在田徑項目中的禁藥案例對當時的體育界產生重大影響。",
+    "punishment": {
+      "banDuration": "無確鑿證據",
+      "resultsCancelled": false,
+      "medalStripped": false,
+      "otherPenalties": "紀錄至今有效但備受爭議"
+    },
+    "summary": "1988年田徑界的重要禁藥案例，展現了S1.1: 外源性合成代謝雄激素類固醇類物質的危害。",
+    "educationalNotes": "合成代謝類固醇能增加肌肉量和力量，但會對心血管系統造成嚴重副作用。",
+    "sourceLinks": [
+      {
+        "title": "WADA - Petra Felke Case",
+        "url": "https://www.wada-ama.org/",
+        "type": "WADA"
+      },
+      {
+        "title": "World Athletics",
+        "url": "https://www.worldathletics.org/",
+        "type": "官方文件"
+      }
+    ]
+  },
+  {
+    "id": "160",
+    "athleteName": "Ulf Timmermann",
+    "year": 1988,
+    "sport": "田徑",
+    "nationality": "東德",
+    "substance": "Oral-Turinabol (疑似)",
+    "substanceCategory": "S1.1: 外源性合成代謝雄激素類固醇",
+    "eventBackground": "1988年，Ulf Timmermann在田徑項目中的禁藥案例對當時的體育界產生重大影響。",
+    "punishment": {
+      "banDuration": "無確鑿證據",
+      "resultsCancelled": false,
+      "medalStripped": false,
+      "otherPenalties": "成績真實性受質疑"
+    },
+    "summary": "1988年田徑界的重要禁藥案例，展現了S1.1: 外源性合成代謝雄激素類固醇類物質的危害。",
+    "educationalNotes": "合成代謝類固醇能增加肌肉量和力量，但會對心血管系統造成嚴重副作用。",
+    "sourceLinks": [
+      {
+        "title": "WADA - Ulf Timmermann Case",
+        "url": "https://www.wada-ama.org/",
+        "type": "WADA"
+      },
+      {
+        "title": "World Athletics",
+        "url": "https://www.worldathletics.org/",
+        "type": "官方文件"
+      }
+    ]
+  },
+  {
+    "id": "161",
+    "athleteName": "東德女子游泳隊",
+    "year": 1988,
+    "sport": "游泳",
+    "nationality": "東德",
+    "substance": "Oral-Turinabol, 睪固酮",
+    "substanceCategory": "S1.1: 外源性合成代謝雄激素類固醇",
+    "eventBackground": "1988年，東德女子游泳隊在游泳項目中的禁藥案例對當時的體育界產生重大影響。",
+    "punishment": {
+      "banDuration": "歷史案例",
+      "resultsCancelled": false,
+      "medalStripped": false,
+      "otherPenalties": "1990年德國統一後才曝光，無法追溯處罰"
+    },
+    "summary": "1988年游泳界的重要禁藥案例，展現了S1.1: 外源性合成代謝雄激素類固醇類物質的危害。",
+    "educationalNotes": "睪固酮是最基本的合成代謝類固醇，天然存在於人體但過量使用屬違規。",
+    "sourceLinks": [
+      {
+        "title": "WADA - 東德女子游泳隊 Case",
+        "url": "https://www.wada-ama.org/",
+        "type": "WADA"
+      },
+      {
+        "title": "World Aquatics",
+        "url": "https://www.worldaquatics.com/",
+        "type": "官方文件"
+      }
+    ]
+  },
+  {
+    "id": "162",
+    "athleteName": "Jürgen Schult",
+    "year": 1986,
+    "sport": "田徑",
+    "nationality": "東德",
+    "substance": "Oral-Turinabol (疑似)",
+    "substanceCategory": "S1.1: 外源性合成代謝雄激素類固醇",
+    "eventBackground": "1986年，Jürgen Schult在田徑項目中的禁藥案例對當時的體育界產生重大影響。",
+    "punishment": {
+      "banDuration": "無確鑿證據",
+      "resultsCancelled": false,
+      "medalStripped": false,
+      "otherPenalties": "紀錄合法性受質疑"
+    },
+    "summary": "1986年田徑界的重要禁藥案例，展現了S1.1: 外源性合成代謝雄激素類固醇類物質的危害。",
+    "educationalNotes": "合成代謝類固醇能增加肌肉量和力量，但會對心血管系統造成嚴重副作用。",
+    "sourceLinks": [
+      {
+        "title": "WADA - Jürgen Schult Case",
+        "url": "https://www.wada-ama.org/",
+        "type": "WADA"
+      },
+      {
+        "title": "World Athletics",
+        "url": "https://www.worldathletics.org/",
+        "type": "官方文件"
+      }
+    ]
+  },
+  {
+    "id": "163",
+    "athleteName": "Marita Koch",
+    "year": 1985,
+    "sport": "田徑",
+    "nationality": "東德",
+    "substance": "Oral-Turinabol (疑似)",
+    "substanceCategory": "S1.1: 外源性合成代謝雄激素類固醇",
+    "eventBackground": "1985年，Marita Koch在田徑項目中的禁藥案例對當時的體育界產生重大影響。",
+    "punishment": {
+      "banDuration": "無證據確鑿",
+      "resultsCancelled": false,
+      "medalStripped": false,
+      "otherPenalties": "紀錄合法性永久受質疑"
+    },
+    "summary": "1985年田徑界的重要禁藥案例，展現了S1.1: 外源性合成代謝雄激素類固醇類物質的危害。",
+    "educationalNotes": "合成代謝類固醇能增加肌肉量和力量，但會對心血管系統造成嚴重副作用。",
+    "sourceLinks": [
+      {
+        "title": "WADA - Marita Koch Case",
+        "url": "https://www.wada-ama.org/",
+        "type": "WADA"
+      },
+      {
+        "title": "World Athletics",
+        "url": "https://www.worldathletics.org/",
+        "type": "官方文件"
+      }
+    ]
+  },
+  {
+    "id": "165",
+    "athleteName": "Jarmila Kratochvílová",
+    "year": 1983,
+    "sport": "田徑",
+    "nationality": "捷克斯洛伐克",
+    "substance": "類固醇 (疑似)",
+    "substanceCategory": "S1: 合成代謝劑",
+    "eventBackground": "1983年，Jarmila Kratochvílová在田徑項目中的禁藥案例對當時的體育界產生重大影響。",
+    "punishment": {
+      "banDuration": "無確鑿證據",
+      "resultsCancelled": false,
+      "medalStripped": false,
+      "otherPenalties": "紀錄的真實性備受爭議"
+    },
+    "summary": "1983年田徑界的重要禁藥案例，展現了S1: 合成代謝劑類物質的危害。",
+    "educationalNotes": "合成代謝類固醇能增加肌肉量和力量，但會對心血管系統造成嚴重副作用。",
+    "sourceLinks": [
+      {
+        "title": "WADA - Jarmila Kratochvílová Case",
+        "url": "https://www.wada-ama.org/",
+        "type": "WADA"
+      },
+      {
+        "title": "World Athletics",
+        "url": "https://www.worldathletics.org/",
+        "type": "官方文件"
+      }
+    ]
+  },
+  {
+    "id": "166",
+    "athleteName": "Joachim Kunz",
+    "year": 1980,
+    "sport": "田徑",
+    "nationality": "東德",
+    "substance": "Oral-Turinabol",
+    "substanceCategory": "S1.1: 外源性合成代謝雄激素類固醇",
+    "eventBackground": "1980年，Joachim Kunz在田徑項目中的禁藥案例對當時的體育界產生重大影響。",
+    "punishment": {
+      "banDuration": "無 (當時未檢出)",
+      "resultsCancelled": false,
+      "medalStripped": false,
+      "otherPenalties": "1990年後承認使用禁藥"
+    },
+    "summary": "1980年田徑界的重要禁藥案例，展現了S1.1: 外源性合成代謝雄激素類固醇類物質的危害。",
+    "educationalNotes": "合成代謝類固醇能增加肌肉量和力量，但會對心血管系統造成嚴重副作用。",
+    "sourceLinks": [
+      {
+        "title": "WADA - Joachim Kunz Case",
+        "url": "https://www.wada-ama.org/",
+        "type": "WADA"
+      },
+      {
+        "title": "World Athletics",
+        "url": "https://www.worldathletics.org/",
+        "type": "官方文件"
+      }
+    ]
+  },
+  {
+    "id": "167",
+    "athleteName": "Petra Schneider",
+    "year": 1980,
+    "sport": "游泳",
+    "nationality": "東德",
+    "substance": "Oral-Turinabol",
+    "substanceCategory": "S1.1: 外源性合成代謝雄激素類固醇",
+    "eventBackground": "1980年，Petra Schneider在游泳項目中的禁藥案例對當時的體育界產生重大影響。",
+    "punishment": {
+      "banDuration": "無 (當時未檢出)",
+      "resultsCancelled": false,
+      "medalStripped": false,
+      "otherPenalties": "健康受到永久損害"
+    },
+    "summary": "1980年游泳界的重要禁藥案例，展現了S1.1: 外源性合成代謝雄激素類固醇類物質的危害。",
+    "educationalNotes": "合成代謝類固醇能增加肌肉量和力量，但會對心血管系統造成嚴重副作用。",
+    "sourceLinks": [
+      {
+        "title": "WADA - Petra Schneider Case",
+        "url": "https://www.wada-ama.org/",
+        "type": "WADA"
+      },
+      {
+        "title": "World Aquatics",
+        "url": "https://www.worldaquatics.com/",
+        "type": "官方文件"
+      }
+    ]
+  },
+  {
+    "id": "168",
+    "athleteName": "Rica Reinisch",
+    "year": 1980,
+    "sport": "游泳",
+    "nationality": "東德",
+    "substance": "Oral-Turinabol",
+    "substanceCategory": "S1.1: 外源性合成代謝雄激素類固醇",
+    "eventBackground": "1980年，Rica Reinisch在游泳項目中的禁藥案例對當時的體育界產生重大影響。",
+    "punishment": {
+      "banDuration": "無 (當時未檢出)",
+      "resultsCancelled": false,
+      "medalStripped": false,
+      "otherPenalties": "後來公開譴責東德制度"
+    },
+    "summary": "1980年游泳界的重要禁藥案例，展現了S1.1: 外源性合成代謝雄激素類固醇類物質的危害。",
+    "educationalNotes": "合成代謝類固醇能增加肌肉量和力量，但會對心血管系統造成嚴重副作用。",
+    "sourceLinks": [
+      {
+        "title": "WADA - Rica Reinisch Case",
+        "url": "https://www.wada-ama.org/",
+        "type": "WADA"
+      },
+      {
+        "title": "World Aquatics",
+        "url": "https://www.worldaquatics.com/",
+        "type": "官方文件"
+      }
+    ]
+  },
+  {
+    "id": "169",
+    "athleteName": "東德游泳系統",
+    "year": 1976,
+    "sport": "游泳",
+    "nationality": "東德",
+    "substance": "State-sponsored doping",
+    "substanceCategory": "S1: 合成代謝劑",
+    "eventBackground": "1976年，東德游泳系統在游泳項目中的禁藥案例對當時的體育界產生重大影響。",
+    "punishment": {
+      "banDuration": "歷史案例",
+      "resultsCancelled": false,
+      "medalStripped": false,
+      "otherPenalties": "政治制度崩解後曝光"
+    },
+    "summary": "1976年游泳界的重要禁藥案例，展現了S1: 合成代謝劑類物質的危害。",
+    "educationalNotes": "合成代謝類固醇能增加肌肉量和力量，但會對心血管系統造成嚴重副作用。",
+    "sourceLinks": [
+      {
+        "title": "WADA - 東德游泳系統 Case",
+        "url": "https://www.wada-ama.org/",
+        "type": "WADA"
+      },
+      {
+        "title": "World Aquatics",
+        "url": "https://www.worldaquatics.com/",
+        "type": "官方文件"
+      }
+    ]
+  },
+  {
+    "id": "170",
+    "athleteName": "Irina Press",
+    "year": 1966,
+    "sport": "田徑",
+    "nationality": "蘇聯",
+    "substance": "睪固酮 (疑似)",
+    "substanceCategory": "S1: 合成代謝劑",
+    "eventBackground": "1966年，Irina Press在田徑項目中的禁藥案例對當時的體育界產生重大影響。",
+    "punishment": {
+      "banDuration": "無 (自行退役)",
+      "resultsCancelled": false,
+      "medalStripped": false,
+      "otherPenalties": "Press姊妹現象"
+    },
+    "summary": "1966年田徑界的重要禁藥案例，展現了S1: 合成代謝劑類物質的危害。",
+    "educationalNotes": "睪固酮是最基本的合成代謝類固醇，天然存在於人體但過量使用屬違規。",
+    "sourceLinks": [
+      {
+        "title": "WADA - Irina Press Case",
+        "url": "https://www.wada-ama.org/",
+        "type": "WADA"
+      },
+      {
+        "title": "World Athletics",
+        "url": "https://www.worldathletics.org/",
+        "type": "官方文件"
+      }
+    ]
+  },
+  {
+    "id": "171",
+    "athleteName": "Tamara Press",
+    "year": 1966,
+    "sport": "田徑",
+    "nationality": "蘇聯",
+    "substance": "睪固酮 (疑似)",
+    "substanceCategory": "S1: 合成代謝劑",
+    "eventBackground": "1966年，Tamara Press在田徑項目中的禁藥案例對當時的體育界產生重大影響。",
+    "punishment": {
+      "banDuration": "無 (自行退役)",
+      "resultsCancelled": false,
+      "medalStripped": false,
+      "otherPenalties": "避開性別檢測"
+    },
+    "summary": "1966年田徑界的重要禁藥案例，展現了S1: 合成代謝劑類物質的危害。",
+    "educationalNotes": "睪固酮是最基本的合成代謝類固醇，天然存在於人體但過量使用屬違規。",
+    "sourceLinks": [
+      {
+        "title": "WADA - Tamara Press Case",
+        "url": "https://www.wada-ama.org/",
+        "type": "WADA"
+      },
+      {
+        "title": "World Athletics",
+        "url": "https://www.worldathletics.org/",
+        "type": "官方文件"
+      }
+    ]
+  }
+]

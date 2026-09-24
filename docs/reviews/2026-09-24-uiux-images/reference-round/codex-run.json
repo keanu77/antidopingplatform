@@ -1,0 +1,11 @@
+{
+  "seat": "codex",
+  "requestedModel": "gpt-6-luna",
+  "timeoutSeconds": 600,
+  "promptSha256": "8ccaaf395da5d91dbe1118fc43457299ac96467e3a249f875c6bc419eb19304d",
+  "exitCode": 0,
+  "elapsedSeconds": 23.09,
+  "providerMetadata": {},
+  "answerCharacters": 607,
+  "valid": true
+}

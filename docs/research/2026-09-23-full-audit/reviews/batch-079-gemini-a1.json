@@ -1,0 +1,505 @@
+{
+  "cases": [
+    {
+      "id": "usada-d11c3ef3a336",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-83a8baae53a65406",
+        "registry-c3c5f5f0a7ff2916"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-83a8baae53a65406",
+          "startLine": 7,
+          "endLine": 9,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告載明舉重選手 Nicole Maynard 於 2019-04-30 賽外檢體檢出 methenolone、GW1516 與 LGD-4033 代謝物，自 2019-05-31 處四年禁賽並取消 2019-04-30 起之成績"
+        },
+        {
+          "documentId": "registry-c3c5f5f0a7ff2916",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "dates"
+          ],
+          "note": "名冊確認 Nicole Maynard 因 Methenolone、LGD-4033、GW1516 處四年禁賽與取消成績"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "國籍：美國",
+          "explanation": "官方公告僅於標題提及「U.S. Weightlifting Athlete」並註記居住於波特蘭，依審查規範標題稱謂與居住地不足以確立國籍或運動代表權。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-83a8baae53a65406",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "將國籍欄位標註為待確認，或補充官方代表隊紀錄證明文件。"
+        }
+      ]
+    },
+    {
+      "id": "usada-a00b98f42826",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-8fa8f1613481be15",
+        "registry-1e24620129e86e72"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-8fa8f1613481be15",
+          "startLine": 7,
+          "endLine": 9,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告載明游泳選手 William Licon 於 2019-06-03 賽外檢測申報使用 Breo Ellipta，檢體陰性，因醫療氣喘使用但無 TUE 接受公開警告無禁賽"
+        },
+        {
+          "documentId": "registry-1e24620129e86e72",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates"
+          ],
+          "note": "名冊記錄 William Licon 違規類型為非分析之使用 Vilanterol，處分結果為公開警告"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "國籍：美國",
+          "explanation": "官方文件僅在標題稱「U.S. Swimming Athlete」及提及居住於德州奧斯汀，依標準不足以逕行認定國籍或國家運動代表資格。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-8fa8f1613481be15",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "將國籍標註為待確認，或補足具體代表美國參賽之佐證。"
+        }
+      ]
+    },
+    {
+      "id": "usada-a187e411794f",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-a231b05f60dd3ff3",
+        "registry-14bc4762e5b3266f"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-a231b05f60dd3ff3",
+          "startLine": 7,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告載明 Mallory Schafer 於 2019-04-14 鐵人兩項錦標賽檢出 higenamine，源於標籤已列成分補充品，因欠缺教育與如實申報獲減刑接受 10 個月禁賽並取消成績"
+        },
+        {
+          "documentId": "registry-14bc4762e5b3266f",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "dates"
+          ],
+          "note": "名冊記錄 Mallory Schafer 因 Higenamine 處 10 個月禁賽"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "國籍：美國",
+          "explanation": "文件僅載「U.S. Triathlon Athlete」與印第安納州居住地，且參加全美鐵人兩項錦標賽，依審查規範尚不足以直接認定法定國籍或國家代表權。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-a231b05f60dd3ff3",
+              "startLine": 1,
+              "endLine": 8
+            }
+          ],
+          "suggestion": "將國籍欄位標註為待確認，或補充代表隊資格相關證明文件。"
+        }
+      ]
+    },
+    {
+      "id": "usada-990a455fba77",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-d0ac10e85c780039",
+        "registry-3ced4661a7c4f489"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-d0ac10e85c780039",
+          "startLine": 7,
+          "endLine": 11,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告載明 Jacqueline Galloway 於 2019-02-12 賽外檢體檢出 ibutamoren，確認源於多錠分析具製程污染可能性之綜合維他命，自 2019-02-27 處 6 個月禁賽並取消自採樣日起成績"
+        },
+        {
+          "documentId": "registry-3ced4661a7c4f489",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "dates"
+          ],
+          "note": "名冊確認 Jacqueline Galloway 因 Ibutamoren 處 6 個月禁賽"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "國籍：美國",
+          "explanation": "官方個案文件僅於標題使用「U.S. Taekwondo Athlete」並提及居住於德州達拉斯，缺乏直接法定國籍或運動代表權證明。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-d0ac10e85c780039",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "將國籍標註為待確認，或補充國家代表隊選手之佐證文件。"
+        }
+      ]
+    },
+    {
+      "id": "usada-faf9ebfb231f",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-70a2630acf11df4f",
+        "registry-26dfb5d876122817"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-70a2630acf11df4f",
+          "startLine": 7,
+          "endLine": 11,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告載明舉重選手 Joe Sacklow 於 2019-03-02 賽事檢出興奮劑與 ostarine 及 LGD-4033 代謝物，興奮劑屬污染但 SARM 來源未明，處 4 年禁賽並取消成績"
+        },
+        {
+          "documentId": "registry-26dfb5d876122817",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "dates"
+          ],
+          "note": "名冊記錄 Joe Sacklow 因 Heptaminol、1,4-DMPA、Octodrine、Ostarine、Di-hydroxy-LGD-4033 處 4 年禁賽與取消成績"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "國籍：美國",
+          "explanation": "文件標題雖載「U.S. Weightlifting Athlete」且提及居住於紐約州，依規範此類單純頭條稱謂或居所不足以確立正式國籍或代表權。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-70a2630acf11df4f",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "將國籍註明為待確認，或補充代表美國出賽之官方紀錄佐證。"
+        }
+      ]
+    },
+    {
+      "id": "usada-5dca0d670577",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-2d9de201cc0e1da9",
+        "doc-5c5eba58e03a838f",
+        "registry-bcbd24f374aa676b"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-2d9de201cc0e1da9",
+          "startLine": 7,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告載明 Joane Orbon 於 2019-01-19 成人代表隊選拔賽檢出 LGD-4033 代謝物，確認為補充品污染，自 2019-02-12 處 9 個月禁賽並取消成績"
+        },
+        {
+          "documentId": "doc-5c5eba58e03a838f",
+          "startLine": 19,
+          "endLine": 21,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "Team USA 官方運動員檔案明確記載其入選 2015 泛美運動會美國隊及多次美國成年與青少年國家代表隊，證實美國運動代表權"
+        },
+        {
+          "documentId": "registry-bcbd24f374aa676b",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "dates"
+          ],
+          "note": "名冊確認 Joane Orbon 因 LGD-4033 處 9 個月禁賽與取消成績，處分發布於 2019-08-12 並於 2019-09-10 更新"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-74510fc23e03",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-fe00bc6c30e3cc06",
+        "registry-b90a38a53c670661"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-fe00bc6c30e3cc06",
+          "startLine": 7,
+          "endLine": 9,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告載明舉重選手 Darcie Warren 於 2019-05-10 賽外檢測拒絕提供檢體，認定為第二次違規，自 2019-07-11 處 8 年禁賽並取消自拒絕日起成績"
+        },
+        {
+          "documentId": "registry-b90a38a53c670661",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates"
+          ],
+          "note": "名冊記錄 Darcie Warren 違規事由為非分析之拒絕採樣，處 8 年禁賽與取消成績"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "國籍：美國",
+          "explanation": "文件僅載「U.S. Weightlifting Athlete」並註記居住於猶他州，缺乏具體國籍或正式運動代表權證明。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-fe00bc6c30e3cc06",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "將國籍欄位標記為待確認，或補充官方代表隊歷程等佐證。"
+        }
+      ]
+    },
+    {
+      "id": "usada-4518fb0dbd4d",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-602e23255235d0bf",
+        "registry-57b4c0de00ce4fe4"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-602e23255235d0bf",
+          "startLine": 7,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告載明跆拳道選手 Talina Le 於 2019-03-27 賽外檢體檢出 higenamine，源於標籤列明成分之補充品，配合調查獲減刑接受 18 個月禁賽並取消成績"
+        },
+        {
+          "documentId": "registry-57b4c0de00ce4fe4",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "dates"
+          ],
+          "note": "名冊記錄 Talina Le 因 Higenamine 處 18 個月禁賽與取消成績"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "國籍：美國",
+          "explanation": "公告僅於標題提及「U.S. Taekwondo Athlete」及居住於邁阿密，依審查標準不足以確立國籍或運動代表權。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-602e23255235d0bf",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "將國籍標註為待確認，或補足代表隊相關資格證明文件。"
+        }
+      ]
+    }
+  ]
+}

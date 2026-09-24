@@ -1,0 +1,172 @@
+{
+  "cases": [
+    {
+      "id": "aiu-55fc8ff094dc",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-3fee4e5d2e085b0e",
+        "registry-f7f99b4ffb445605"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-3fee4e5d2e085b0e",
+          "startLine": 12,
+          "endLine": 12,
+          "supports": [
+            "identity",
+            "country",
+            "event"
+          ],
+          "note": "決定確認 Newman 為加拿大撐竿跳高選手。"
+        },
+        {
+          "documentId": "doc-3fee4e5d2e085b0e",
+          "startLine": 73,
+          "endLine": 81,
+          "supports": [
+            "substance",
+            "event"
+          ],
+          "note": "列出三次行蹤失誤及日期：2月27日、8月17日、8月23日。"
+        },
+        {
+          "documentId": "doc-3fee4e5d2e085b0e",
+          "startLine": 468,
+          "endLine": 474,
+          "supports": [
+            "sanction",
+            "dates",
+            "education"
+          ],
+          "note": "AIU 因過失程度定為20個月，並以非選手可歸責延遲將起日回溯至12月3日。"
+        },
+        {
+          "documentId": "doc-3fee4e5d2e085b0e",
+          "startLine": 499,
+          "endLine": 504,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "禁賽至2027年8月2日；自2025年8月23日起取消成績及相關後果。"
+        },
+        {
+          "documentId": "doc-3fee4e5d2e085b0e",
+          "startLine": 96,
+          "endLine": 99,
+          "supports": [
+            "event",
+            "education"
+          ],
+          "note": "第四次失誤不構成本次2.4違規要件。"
+        },
+        {
+          "documentId": "registry-f7f99b4ffb445605",
+          "startLine": 3,
+          "endLine": 3,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊列載20個月、起日及取消成績起日。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "aiu-f9e275550d3f",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-e18f59e89e8a2e76",
+        "registry-d51a8052ac61b562"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-e18f59e89e8a2e76",
+          "startLine": 12,
+          "endLine": 12,
+          "supports": [
+            "identity",
+            "country",
+            "event"
+          ],
+          "note": "決定確認 Korir 為肯亞馬拉松選手。"
+        },
+        {
+          "documentId": "doc-e18f59e89e8a2e76",
+          "startLine": 55,
+          "endLine": 77,
+          "supports": [
+            "event",
+            "substance"
+          ],
+          "note": "三份賽外樣本採集於10月3日、13日及21日，均檢出CERA。"
+        },
+        {
+          "documentId": "doc-e18f59e89e8a2e76",
+          "startLine": 147,
+          "endLine": 149,
+          "supports": [
+            "substance"
+          ],
+          "note": "決定列明CERA屬S2.1、非特定物質且全年禁用。"
+        },
+        {
+          "documentId": "doc-e18f59e89e8a2e76",
+          "startLine": 238,
+          "endLine": 248,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "多次使用加重後適用及早承認減免，最終五年，自2026年1月8日起；取消10月3日起成績。"
+        },
+        {
+          "documentId": "doc-e18f59e89e8a2e76",
+          "startLine": 122,
+          "endLine": 125,
+          "supports": [
+            "education"
+          ],
+          "note": "選手承認違規並接受後果。"
+        },
+        {
+          "documentId": "registry-d51a8052ac61b562",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊列載五年、禁賽起日及取消成績起日。"
+        }
+      ],
+      "findings": []
+    }
+  ]
+}

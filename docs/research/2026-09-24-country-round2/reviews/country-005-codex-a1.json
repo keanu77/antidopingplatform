@@ -1,0 +1,32 @@
+{
+  "cases": [
+    {
+      "id": "usada-1035e17c5288",
+      "status": "issue",
+      "identity": "supported",
+      "country": "issue",
+      "temporalScope": "supported",
+      "evidence": [
+        {
+          "documentId": "case",
+          "startLine": 7,
+          "endLine": 8,
+          "note": "USADA identifies Daniel Summerhill as a 33-year-old cycling athlete; the 2021 sample date and Centennial, Colorado match the proposed identity rationale."
+        },
+        {
+          "documentId": "country",
+          "startLine": 260,
+          "endLine": 263,
+          "note": "USA Cycling names Danny Summerhill in its 2023 Elite Men Madison race report and lists Centennial, Colorado; this supports a 2023 domestic event association, not sporting country USA."
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "explanation": "The supplied USA Cycling excerpt identifies the event and athlete but does not explicitly state that Summerhill's sporting country is USA. The USADA case excerpt identifies his sport and residence, not his sporting country.",
+          "suggestion": "Do not annotate USA as an established sporting country from these excerpts. If retaining the event evidence, describe only his participation in the 2023 USA Cycling domestic championship, with that date and scope."
+        }
+      ]
+    }
+  ]
+}

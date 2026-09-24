@@ -1,0 +1,558 @@
+{
+  "cases": [
+    {
+      "id": "usada-a504ae6790e5",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-78f8b7a3671a5599",
+        "registry-b4357dc3d3ae8555"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-78f8b7a3671a5599",
+          "startLine": 7,
+          "endLine": 9,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告確認選手姓名、舉重項目、採樣賽事與日期；尿液檢體檢出 di-hydroxy-LGD-4033，四年禁賽自採樣日起算並取消其後成績。"
+        },
+        {
+          "documentId": "registry-b4357dc3d3ae8555",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction"
+          ],
+          "note": "名冊列出 Anderson、舉重、LGD-4033、四年處分及成績取消。"
+        },
+        {
+          "documentId": "doc-78f8b7a3671a5599",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "country"
+          ],
+          "note": "官方標題稱其為美國舉重選手。"
+        },
+        {
+          "documentId": "doc-78f8b7a3671a5599",
+          "startLine": 8,
+          "endLine": 8,
+          "supports": [
+            "substance"
+          ],
+          "note": "公告將該代謝物列為合成代謝劑類、非特定物質且任何時候均禁用。"
+        },
+        {
+          "documentId": "doc-78f8b7a3671a5599",
+          "startLine": 10,
+          "endLine": 12,
+          "supports": [
+            "education"
+          ],
+          "note": "公告提供一般反禁藥教育資訊；個案教育註記對物質來源未由公告確認的表述相符。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-671281fb69ce",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-bbeb4bc510bafbe3",
+        "registry-143ba018053afb9b"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-bbeb4bc510bafbe3",
+          "startLine": 7,
+          "endLine": 11,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告確認 Kurth 的自行車項目、州越野賽採樣、睪固酮陽性、醫師照護下治療劑量但無有效 TUE，以及四年處分等。本案實為兩年禁賽，自採樣日起算並取消其後成績。"
+        },
+        {
+          "documentId": "registry-143ba018053afb9b",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction"
+          ],
+          "note": "名冊列出 Kurth、自行車、睪固酮、兩年處分及成績取消。"
+        },
+        {
+          "documentId": "doc-bbeb4bc510bafbe3",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "country"
+          ],
+          "note": "官方標題稱其為美國自行車選手。"
+        },
+        {
+          "documentId": "doc-bbeb4bc510bafbe3",
+          "startLine": 8,
+          "endLine": 10,
+          "supports": [
+            "substance",
+            "education"
+          ],
+          "note": "公告將睪固酮列為合成代謝劑，並說明 TUE 須符合多項條件；處方不等於有效豁免。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "sanction",
+          "kind": "contradiction",
+          "severity": "high",
+          "claim": "接受兩年禁賽",
+          "explanation": "公告與名冊均記載兩年；eventBackground 寫成兩年，但其他處分內容與 outcome 也一致。經核對此處沒有矛盾。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-bbeb4bc510bafbe3",
+              "startLine": 7,
+              "endLine": 11
+            }
+          ],
+          "suggestion": "維持兩年禁賽表述。"
+        }
+      ]
+    },
+    {
+      "id": "usada-ceba58fad888",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-f5821bed19bbecce",
+        "registry-5dca9feec991c7ce"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-f5821bed19bbecce",
+          "startLine": 7,
+          "endLine": 9,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告確認 Franklin 的舉重項目、賽外採樣日期、兩種物質及各自代謝物；四年禁賽自臨時停賽日起算，成績取消自採樣日起算。"
+        },
+        {
+          "documentId": "registry-5dca9feec991c7ce",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction"
+          ],
+          "note": "名冊列出 Franklin、舉重、Ostarine、LGD-4033、四年處分及成績取消。"
+        },
+        {
+          "documentId": "doc-f5821bed19bbecce",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "country"
+          ],
+          "note": "官方標題稱其為美國舉重選手。"
+        },
+        {
+          "documentId": "doc-f5821bed19bbecce",
+          "startLine": 8,
+          "endLine": 8,
+          "supports": [
+            "substance"
+          ],
+          "note": "公告將兩種物質列為合成代謝劑類、非特定物質且任何時候均禁用。"
+        },
+        {
+          "documentId": "doc-f5821bed19bbecce",
+          "startLine": 10,
+          "endLine": 11,
+          "supports": [
+            "education"
+          ],
+          "note": "一般教育資訊與勿將多種代謝物拆作不同個案的註記相容。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-b54bb0c30eb2",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-d0558042b717c9f9",
+        "registry-ba8da8b7cdde6848"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-d0558042b717c9f9",
+          "startLine": 7,
+          "endLine": 9,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告確認 Allison 拒絕提供檢體、四年處分自接受臨時停賽日起算，並取消自拒絕採樣日起的成績。"
+        },
+        {
+          "documentId": "registry-ba8da8b7cdde6848",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction"
+          ],
+          "note": "名冊記載拒絕提交檢體、四年處分、成績取消及退休期間停算。"
+        },
+        {
+          "documentId": "doc-d0558042b717c9f9",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "country"
+          ],
+          "note": "官方標題稱其為美國雪車選手。"
+        },
+        {
+          "documentId": "doc-d0558042b717c9f9",
+          "startLine": 8,
+          "endLine": 8,
+          "supports": [
+            "substance",
+            "education"
+          ],
+          "note": "公告描述拒絕採樣屬違規，並無任何物質陽性主張；名冊另確認退休停算。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-8644c327e2ca",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-eafae9378d5f213b",
+        "registry-792dac27105de0cd"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-eafae9378d5f213b",
+          "startLine": 7,
+          "endLine": 9,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告確認 Davis 在大師戶外田徑錦標賽拒絕提供尿液檢體，四年處分自處分日起算，成績取消自拒絕採樣日起算。"
+        },
+        {
+          "documentId": "registry-792dac27105de0cd",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction"
+          ],
+          "note": "名冊記載 Davis、田徑、拒絕提交檢體、四年處分及成績取消。"
+        },
+        {
+          "documentId": "doc-eafae9378d5f213b",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "country"
+          ],
+          "note": "官方標題稱其為美國田徑選手。"
+        },
+        {
+          "documentId": "doc-eafae9378d5f213b",
+          "startLine": 8,
+          "endLine": 8,
+          "supports": [
+            "substance",
+            "education"
+          ],
+          "note": "公告將拒絕採樣列為違規，並與一般物質陽性情況區分。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-5a1c3cf5b36f",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-5a2a53f05ef1eb1f",
+        "registry-3149c7b9fc8b88b3"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-5a2a53f05ef1eb1f",
+          "startLine": 7,
+          "endLine": 9,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告確認 Cano 在賽外拒絕提供檢體，四年處分自處分日起算，取消自拒絕採樣日起的成績。"
+        },
+        {
+          "documentId": "registry-3149c7b9fc8b88b3",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction"
+          ],
+          "note": "名冊列出 Cano、舉重、拒絕提交檢體、四年處分、成績取消及退休停算。"
+        },
+        {
+          "documentId": "doc-5a2a53f05ef1eb1f",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "country"
+          ],
+          "note": "官方標題稱其為美國舉重選手。"
+        },
+        {
+          "documentId": "doc-5a2a53f05ef1eb1f",
+          "startLine": 8,
+          "endLine": 8,
+          "supports": [
+            "substance",
+            "education"
+          ],
+          "note": "公告說明拒絕採樣屬違規；名冊退休停算資訊支持不可僅按原始日期推定處分已服完。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-b91273ba81fa",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-57168f0df2e7281d",
+        "registry-42cbed551e0ea59a"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-57168f0df2e7281d",
+          "startLine": 7,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告確認 Carlberg 在全美舉重錦標賽檢出 vilanterol；醫師指示以吸入劑治療嚴重氣喘，未事先取得 TUE，接受公開警告且取消當日成績。"
+        },
+        {
+          "documentId": "registry-42cbed551e0ea59a",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction"
+          ],
+          "note": "名冊列出 Carlberg、舉重、vilanterol、公開警告及公告日期。"
+        },
+        {
+          "documentId": "doc-57168f0df2e7281d",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "country"
+          ],
+          "note": "官方標題稱其為美國舉重選手。"
+        },
+        {
+          "documentId": "doc-57168f0df2e7281d",
+          "startLine": 8,
+          "endLine": 9,
+          "supports": [
+            "substance",
+            "education"
+          ],
+          "note": "公告將 vilanterol 歸為 β2 致效劑，並記載未事先取得 TUE；歷史案件應依當時規則理解。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-b714a3c460a7",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-930df69127cab085",
+        "registry-27a9e0a3528ef53d"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-930df69127cab085",
+          "startLine": 7,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告確認 Goss 的鐵人三項項目、Escape from Alcatraz 賽內檢體高於 180 ng/mL 判定界限、六個月處分及成績取消。THC 外用膏是選手對陽性結果的解釋。"
+        },
+        {
+          "documentId": "registry-27a9e0a3528ef53d",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction"
+          ],
+          "note": "名冊列出 Goss、鐵人三項、大麻素、六個月處分及成績取消。"
+        },
+        {
+          "documentId": "doc-930df69127cab085",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "country"
+          ],
+          "note": "官方標題稱其為美國鐵人三項選手。"
+        },
+        {
+          "documentId": "doc-930df69127cab085",
+          "startLine": 8,
+          "endLine": 10,
+          "supports": [
+            "substance",
+            "education"
+          ],
+          "note": "公告將大麻素列為賽內禁用類別，並將外用膏及 CBD 說法歸為選手解釋；一般風險提示與個案教育註記相容。"
+        }
+      ],
+      "findings": []
+    }
+  ]
+}

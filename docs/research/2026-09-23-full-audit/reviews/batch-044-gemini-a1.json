@@ -1,0 +1,238 @@
+{
+  "cases": [
+    {
+      "id": "aiu-1c2227c89e40",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-622ff04672e48c75",
+        "registry-f47309c1e2431f70"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-622ff04672e48c75",
+          "startLine": 1,
+          "endLine": 12,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "裁決載明運動員為肯亞路跑選手 Beatrice Jelagat Cherop。"
+        },
+        {
+          "documentId": "doc-622ff04672e48c75",
+          "startLine": 55,
+          "endLine": 65,
+          "supports": [
+            "event",
+            "substance"
+          ],
+          "note": "2024年10月6日吉隆坡馬拉松賽內尿液樣本檢出 S9 糖皮質類固醇 Triamcinolone acetonide。"
+        },
+        {
+          "documentId": "doc-622ff04672e48c75",
+          "startLine": 63,
+          "endLine": 71,
+          "supports": [
+            "education"
+          ],
+          "note": "說明該物質屬特定物質且於賽內特定途徑禁用，選手未持有治療豁免（TUE）。"
+        },
+        {
+          "documentId": "doc-622ff04672e48c75",
+          "startLine": 137,
+          "endLine": 148,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "AIU 無證據認定故意，處兩年禁賽自 2024-11-27 起，並取消 2024-10-06 起所有成績與獎項。"
+        },
+        {
+          "documentId": "registry-f47309c1e2431f70",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊記錄 2024-12-02 決定，肯亞選手因檢出及使用該物質處兩年禁賽自 2024-11-27 起並取消成績。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "aiu-8cfa8b5cb399",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-f34583f0430a802e",
+        "registry-1f3337ee486be486"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-f34583f0430a802e",
+          "startLine": 6,
+          "endLine": 15,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "裁決載明運動員為厄利垂亞馬拉松選手 Kibrom Weldemicael。"
+        },
+        {
+          "documentId": "doc-f34583f0430a802e",
+          "startLine": 49,
+          "endLine": 53,
+          "supports": [
+            "event",
+            "substance"
+          ],
+          "note": "2024年5月5日日內瓦馬拉松樣本檢出 EPO 及 furosemide。"
+        },
+        {
+          "documentId": "doc-f34583f0430a802e",
+          "startLine": 80,
+          "endLine": 99,
+          "supports": [
+            "education"
+          ],
+          "note": "選手提生涯高地訓練未被採納，且未依期確認及支付費用致 B 瓶視為放棄而未檢測。"
+        },
+        {
+          "documentId": "doc-f34583f0430a802e",
+          "startLine": 212,
+          "endLine": 240,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "認定使用多種禁用物質構成加重情節處六年禁賽，自 2024-08-09 起算，取消 2024-05-05 起成績。"
+        },
+        {
+          "documentId": "registry-1f3337ee486be486",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊登載 2024-12-02 決定，厄利垂亞選手處六年禁賽自 2024-08-09 起並取消 2024-05-05 起成績。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "aiu-3a4df5768c56",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-2ae4f42b493869ec",
+        "registry-b13f026e99c485ca"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-2ae4f42b493869ec",
+          "startLine": 6,
+          "endLine": 15,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "裁決載明運動員為肯亞長跑選手 Emmaculate Anyango Achol。"
+        },
+        {
+          "documentId": "doc-2ae4f42b493869ec",
+          "startLine": 49,
+          "endLine": 71,
+          "supports": [
+            "event",
+            "substance"
+          ],
+          "note": "2024年2月至6月多次樣本檢出外源性睪固酮代謝物及 EPO。"
+        },
+        {
+          "documentId": "doc-2ae4f42b493869ec",
+          "startLine": 102,
+          "endLine": 118,
+          "supports": [
+            "education"
+          ],
+          "note": "選手承認樣本檢出物質但提出昏倒就醫，所附醫療收據及 X 光照片無法解釋陽性原因。"
+        },
+        {
+          "documentId": "doc-2ae4f42b493869ec",
+          "startLine": 143,
+          "endLine": 159,
+          "supports": [
+            "education"
+          ],
+          "note": "選手未依限簽署承認與接受處分表，無法適用早期承認減免一年禁賽之機制。"
+        },
+        {
+          "documentId": "doc-2ae4f42b493869ec",
+          "startLine": 238,
+          "endLine": 273,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "依多種物質及多次使用之加重情節處六年禁賽，自 2024-09-26 起，取消 2024-02-03 起成績。"
+        },
+        {
+          "documentId": "registry-b13f026e99c485ca",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊登載 2024-11-22 決定，肯亞選手因睪固酮與 EPO 處六年禁賽及取消 2024-02-03 起成績。"
+        }
+      ],
+      "findings": []
+    }
+  ]
+}

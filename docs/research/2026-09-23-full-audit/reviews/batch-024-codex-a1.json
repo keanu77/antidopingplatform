@@ -1,0 +1,204 @@
+{
+  "cases": [
+    {
+      "id": "aiu-50084e62b4f1",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-ee0f1171a00313b3",
+        "registry-06417e9aa2149f09"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-ee0f1171a00313b3",
+          "startLine": 12,
+          "endLine": 12,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "決定稱 Aatmaram 是來自印度的長跑選手。"
+        },
+        {
+          "documentId": "doc-ee0f1171a00313b3",
+          "startLine": 34,
+          "endLine": 38,
+          "supports": [
+            "substance"
+          ],
+          "note": "認定違反 ADR 2.3，涉及規避、拒絕或未提交採樣。"
+        },
+        {
+          "documentId": "doc-ee0f1171a00313b3",
+          "startLine": 58,
+          "endLine": 90,
+          "supports": [
+            "event",
+            "dates",
+            "education"
+          ],
+          "note": "她在 2025-11-23 孟買半馬賽獲選採樣，口頭通知後離開陪同人員，最終未採得樣本。"
+        },
+        {
+          "documentId": "doc-ee0f1171a00313b3",
+          "startLine": 192,
+          "endLine": 194,
+          "supports": [
+            "sanction",
+            "education"
+          ],
+          "note": "她於 2026-02-17 簽署承認違規及接受後果表。"
+        },
+        {
+          "documentId": "doc-ee0f1171a00313b3",
+          "startLine": 218,
+          "endLine": 227,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "決定自 2026-02-03 起禁賽三年，並取消 2025-11-23 起成績及相關後果；她放棄聽證。"
+        },
+        {
+          "documentId": "doc-ee0f1171a00313b3",
+          "startLine": 244,
+          "endLine": 244,
+          "supports": [
+            "dates"
+          ],
+          "note": "決定日期為 2026-02-20。"
+        },
+        {
+          "documentId": "registry-06417e9aa2149f09",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊列出印度、ADR 2.3、三年禁賽、起算日及取消成績日期；其列示日期與決定日期不同。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "aiu-cd329977c5ef",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-add64a51eafa761c",
+        "registry-4b6ccb89dc0fa064"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-add64a51eafa761c",
+          "startLine": 12,
+          "endLine": 12,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "決定稱 Solomon 是來自奈及利亞的長跑選手。"
+        },
+        {
+          "documentId": "doc-add64a51eafa761c",
+          "startLine": 55,
+          "endLine": 61,
+          "supports": [
+            "event",
+            "dates",
+            "substance"
+          ],
+          "note": "她在 2025-12-06 阿布加半馬提供樣本，實驗室報告檢出 trimetazidine。"
+        },
+        {
+          "documentId": "doc-add64a51eafa761c",
+          "startLine": 113,
+          "endLine": 115,
+          "supports": [
+            "substance"
+          ],
+          "note": "決定將 trimetazidine 歸為 2025 年清單 S4 代謝調節劑及非特定物質。"
+        },
+        {
+          "documentId": "doc-add64a51eafa761c",
+          "startLine": 82,
+          "endLine": 86,
+          "supports": [
+            "education",
+            "substance"
+          ],
+          "note": "她不爭執分析結果，但表示不知道物質如何進入體內，未提出污染證明。"
+        },
+        {
+          "documentId": "doc-add64a51eafa761c",
+          "startLine": 141,
+          "endLine": 147,
+          "supports": [
+            "sanction",
+            "education"
+          ],
+          "note": "她及早承認並接受後果，獲一年減免。"
+        },
+        {
+          "documentId": "doc-add64a51eafa761c",
+          "startLine": 163,
+          "endLine": 177,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "決定自 2026-02-05 起禁賽三年，並取消 2025-12-06 起成績及相關後果。"
+        },
+        {
+          "documentId": "doc-add64a51eafa761c",
+          "startLine": 195,
+          "endLine": 195,
+          "supports": [
+            "dates"
+          ],
+          "note": "決定日期為 2026-02-12。"
+        },
+        {
+          "documentId": "registry-4b6ccb89dc0fa064",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊列出奈及利亞、trimetazidine、三年禁賽、起算日及取消成績日期。"
+        }
+      ],
+      "findings": []
+    }
+  ]
+}

@@ -1,0 +1,260 @@
+{
+  "cases": [
+    {
+      "id": "aiu-6772c79f3f1d",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-f2182ba052b80912",
+        "registry-a0d893deac3468f8"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-f2182ba052b80912",
+          "startLine": 18,
+          "endLine": 18,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "AIU 決定載明選手為肯亞路跑運動員 Purity Cherotich Rionoripo。"
+        },
+        {
+          "documentId": "doc-f2182ba052b80912",
+          "startLine": 68,
+          "endLine": 73,
+          "supports": [
+            "event",
+            "substance",
+            "dates"
+          ],
+          "note": "2022-05-30 於肯亞 Eldoret 進行賽外檢測，檢體檢出利尿劑 Furosemide 不良分析結果。"
+        },
+        {
+          "documentId": "doc-f2182ba052b80912",
+          "startLine": 169,
+          "endLine": 190,
+          "supports": [
+            "event",
+            "education"
+          ],
+          "note": "醫院確認選手曾於 2022-05-19 就醫且提交之文件屬真實開立，但處方箋遭竄改增列未曾開立的 Lasix。"
+        },
+        {
+          "documentId": "doc-f2182ba052b80912",
+          "startLine": 206,
+          "endLine": 210,
+          "supports": [
+            "event",
+            "substance",
+            "sanction"
+          ],
+          "note": "AIU 指控違反反禁藥規則第 2.1、2.2 及 2.5 條（竄改），原定合規處分年限為物質違規 2 年加竄改 4 年連續執行共 6 年。"
+        },
+        {
+          "documentId": "doc-f2182ba052b80912",
+          "startLine": 347,
+          "endLine": 373,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "選手及早承認違規獲得減刑 1 年，處以自 2022-11-21 起算 5 年禁賽，並取消自 2022-05-30 起之所有競賽成績。"
+        },
+        {
+          "documentId": "registry-a0d893deac3468f8",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "AIU 官方名冊確認 2022-12-19 裁決、肯亞選手、Furosemide 及竄改違規、自 2022-11-21 起禁賽 5 年與取消自 2022-05-30 起成績。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "aiu-27be8105679d",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-894546c9d6608a3b",
+        "registry-39d98d074e4a2f52"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-894546c9d6608a3b",
+          "startLine": 17,
+          "endLine": 17,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "AIU 決定確認運動員為肯亞路跑選手 Keneth Kiprop Renju。"
+        },
+        {
+          "documentId": "doc-894546c9d6608a3b",
+          "startLine": 69,
+          "endLine": 134,
+          "supports": [
+            "event",
+            "substance",
+            "dates"
+          ],
+          "note": "選手於 2022-03-20 Lille、2022-04-02 Prague 及 2022-05-08 Lisbon 之三份賽內檢體均驗出 Methasterone 代謝物。"
+        },
+        {
+          "documentId": "doc-894546c9d6608a3b",
+          "startLine": 147,
+          "endLine": 153,
+          "supports": [
+            "event",
+            "sanction"
+          ],
+          "note": "獨立專家科學意見指出第三次檢出結果極不可能來自單次使用，AIU 認定構成多次使用之加重情節。"
+        },
+        {
+          "documentId": "doc-894546c9d6608a3b",
+          "startLine": 191,
+          "endLine": 195,
+          "supports": [
+            "event",
+            "education",
+            "dates"
+          ],
+          "note": "AFLD 於 2022-04-13 寄發之首封通知未送達選手，AIU 採信選手直至 2022-05-13 經 WhatsApp 聯繫才知悉暫時禁賽。"
+        },
+        {
+          "documentId": "doc-894546c9d6608a3b",
+          "startLine": 240,
+          "endLine": 248,
+          "supports": [
+            "sanction"
+          ],
+          "note": "因多次施用構成加重情節，適用之 4 年禁賽增加 2 年至 6 年。"
+        },
+        {
+          "documentId": "doc-894546c9d6608a3b",
+          "startLine": 320,
+          "endLine": 336,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "依據及早承認規定減免 1 年，處自 2022-05-13 起禁賽 5 年，並取消自 2022-03-20 起之競賽成績。"
+        },
+        {
+          "documentId": "registry-39d98d074e4a2f52",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "AIU 官方名冊確認 2022-11-11 決定、肯亞代表、Methasterone 違規、5 年禁賽起自 2022-05-13 及取消 2022-03-20 起之成績。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "aiu-1369ae25c278",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-a7201c0949ee4205",
+        "registry-d64d71dd1e07341c"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-a7201c0949ee4205",
+          "startLine": 6,
+          "endLine": 11,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "dates"
+          ],
+          "note": "案件公開揭露載明肯亞選手 Vane Nyaboke Nyanamba 於 2021-08-29 賽內檢體檢出 19-Norandrosterone。"
+        },
+        {
+          "documentId": "doc-a7201c0949ee4205",
+          "startLine": 18,
+          "endLine": 22,
+          "supports": [
+            "event",
+            "substance",
+            "sanction"
+          ],
+          "note": "AIU 於 2021-12-21 發出指控通知，涉及規則第 2.1、2.2 及第 2.5 條（干擾結果管理），原處分期間為 8 年。"
+        },
+        {
+          "documentId": "doc-a7201c0949ee4205",
+          "startLine": 27,
+          "endLine": 42,
+          "supports": [
+            "event",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "雙方依規則第 10.8.2 條達成案件解決協議（CRA），考量迅速承認違規給予扣減 8 個月，禁賽 7 年 4 個月（2021-08-29 至 2028-12-28），並取消自 2021-08-29 起之成績。"
+        },
+        {
+          "documentId": "registry-d64d71dd1e07341c",
+          "startLine": 1,
+          "endLine": 2,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "AIU 官方名冊確認 2022-09-02 登錄、肯亞選手、Norandrosterone 及竄改違規、案件解決協議處自 2021-08-29 起 7 年 4 個月禁賽及取消 2021-08-29 起之成績。"
+        }
+      ],
+      "findings": []
+    }
+  ]
+}

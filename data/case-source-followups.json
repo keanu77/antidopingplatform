@@ -1,0 +1,1665 @@
+{
+  "schemaVersion": 1,
+  "checkedAt": "2026-09-24",
+  "countryChanges": [
+    {
+      "id": "usada-7e6f399372a6",
+      "athleteName": "Allison Ostrander",
+      "nationality": "美國",
+      "sourceUrl": "https://worldathletics.org/athletes/united-states/allie-ostrander-14645999",
+      "countryAsListed": "United States",
+      "scope": "official_profile_at_lookup",
+      "note": "補充來源為本次查閱的官方選手資料所列國家；不據此認證法律國籍、事件當時代表資格或完整代表國變更史。",
+      "sourceRefs": [
+        {
+          "url": "https://worldathletics.org/athletes/united-states/allie-ostrander-14645999",
+          "retrievedAt": "2026-09-23T23:29:10.030505+00:00",
+          "rawSha256": "e54286b847b04824d1237950506166fdb686ecee0b370df879b0d90b7d1fec64",
+          "textSha256": "83828d47628cc2e0c93a2dcbabfb078c42613f888a5378414c31de42e1678b3c"
+        }
+      ],
+      "modelReview": {
+        "checkedAt": "2026-09-24",
+        "scope": "country_and_identity_only",
+        "modelSeats": [
+          "Claude",
+          "GPT"
+        ],
+        "requestedModels": [
+          "gpt-6-luna",
+          "haiku"
+        ],
+        "packetSha256": "6fc6c2c4587946dfbe3c39dd991209475ddf22bf3eaa3c3cf2576412a279c83b",
+        "annotationUpdatedAfterReview": false
+      }
+    },
+    {
+      "id": "usada-5c5d5188ddf0",
+      "athleteName": "Alyssa Wilson",
+      "nationality": "美國",
+      "sourceUrl": "https://worldathletics.org/athletes/united-states/alyssa-wilson-14658933",
+      "countryAsListed": "United States",
+      "scope": "official_profile_at_lookup",
+      "note": "補充來源為本次查閱的官方選手資料所列國家；不據此認證法律國籍、事件當時代表資格或完整代表國變更史。",
+      "sourceRefs": [
+        {
+          "url": "https://worldathletics.org/athletes/united-states/alyssa-wilson-14658933",
+          "retrievedAt": "2026-09-23T23:29:12.355680+00:00",
+          "rawSha256": "0bf2487065cce80cd1f0bdb14dc2580495fe36a0560e2d6c9ffb970c5ceec127",
+          "textSha256": "a5bae799f7be4942db569937bf4bd73aaa4cd23beab80c00e322d6eb5e1e2fff"
+        }
+      ],
+      "modelReview": {
+        "checkedAt": "2026-09-24",
+        "scope": "country_and_identity_only",
+        "modelSeats": [
+          "Claude",
+          "GPT"
+        ],
+        "requestedModels": [
+          "gpt-6-luna",
+          "haiku"
+        ],
+        "packetSha256": "6fc6c2c4587946dfbe3c39dd991209475ddf22bf3eaa3c3cf2576412a279c83b",
+        "annotationUpdatedAfterReview": false
+      }
+    },
+    {
+      "id": "usada-0265c80a975c",
+      "athleteName": "Hassan Mead",
+      "nationality": "美國",
+      "sourceUrl": "https://worldathletics.org/athletes/united-states/hassan-mead-14245833",
+      "countryAsListed": "United States",
+      "scope": "official_profile_at_lookup",
+      "note": "補充來源為本次查閱的官方選手資料所列國家；不據此認證法律國籍、事件當時代表資格或完整代表國變更史。",
+      "sourceRefs": [
+        {
+          "url": "https://worldathletics.org/athletes/united-states/hassan-mead-14245833",
+          "retrievedAt": "2026-09-23T23:29:10.662416+00:00",
+          "rawSha256": "ff64a00f340c1457cb314d78b38f9fdaf461c3488971c03a4ad5598ed4722897",
+          "textSha256": "7ad7951bfc11aa933f748b0bb0b3fc0281502cdd4a15339a1f030c2e996d5019"
+        }
+      ],
+      "modelReview": {
+        "checkedAt": "2026-09-24",
+        "scope": "country_and_identity_only",
+        "modelSeats": [
+          "Claude",
+          "GPT"
+        ],
+        "requestedModels": [
+          "gpt-6-luna",
+          "haiku"
+        ],
+        "packetSha256": "6fc6c2c4587946dfbe3c39dd991209475ddf22bf3eaa3c3cf2576412a279c83b",
+        "annotationUpdatedAfterReview": false
+      }
+    },
+    {
+      "id": "usada-05a51bc91d1e",
+      "athleteName": "Garrett Scantling",
+      "nationality": "美國",
+      "sourceUrl": "https://worldathletics.org/athletes/usa/garrett-scantling-14468103",
+      "countryAsListed": "United States",
+      "scope": "official_profile_at_lookup",
+      "note": "補充來源為本次查閱的官方選手資料所列國家；不據此認證法律國籍、事件當時代表資格或完整代表國變更史。",
+      "sourceRefs": [
+        {
+          "url": "https://worldathletics.org/athletes/usa/garrett-scantling-14468103",
+          "retrievedAt": "2026-09-23T23:29:11.050759+00:00",
+          "rawSha256": "32ca97ab0b058aaefa7d8845d405be6fd3eb2d8b5ad1e75eb49b8c9b368727bd",
+          "textSha256": "71653c38e4e9aa86457e91b27b3b7f45022d6c48e1969e637834f35d2b8f00a5"
+        }
+      ],
+      "modelReview": {
+        "checkedAt": "2026-09-24",
+        "scope": "country_and_identity_only",
+        "modelSeats": [
+          "Claude",
+          "GPT"
+        ],
+        "requestedModels": [
+          "gpt-6-luna",
+          "haiku"
+        ],
+        "packetSha256": "6fc6c2c4587946dfbe3c39dd991209475ddf22bf3eaa3c3cf2576412a279c83b",
+        "annotationUpdatedAfterReview": false
+      }
+    },
+    {
+      "id": "usada-10e9f0a6f725",
+      "athleteName": "Erik Kynard",
+      "nationality": "美國",
+      "sourceUrl": "https://worldathletics.org/athletes/united-states/erik-kynard-14243470",
+      "countryAsListed": "United States",
+      "scope": "official_profile_at_lookup",
+      "note": "補充來源為本次查閱的官方選手資料所列國家；不據此認證法律國籍、事件當時代表資格或完整代表國變更史。",
+      "sourceRefs": [
+        {
+          "url": "https://worldathletics.org/athletes/united-states/erik-kynard-14243470",
+          "retrievedAt": "2026-09-23T23:29:12.334999+00:00",
+          "rawSha256": "906122d9d53979c96e036dc20dbcffefc81bb469e6a015e1da0e3cc39e72373d",
+          "textSha256": "ac13edf251999ff37ca933365772fb61d24fc4f520de03d0c250b03319c67add"
+        }
+      ],
+      "modelReview": {
+        "checkedAt": "2026-09-24",
+        "scope": "country_and_identity_only",
+        "modelSeats": [
+          "Claude",
+          "GPT"
+        ],
+        "requestedModels": [
+          "gpt-6-luna",
+          "haiku"
+        ],
+        "packetSha256": "6fc6c2c4587946dfbe3c39dd991209475ddf22bf3eaa3c3cf2576412a279c83b",
+        "annotationUpdatedAfterReview": false
+      }
+    },
+    {
+      "id": "usada-6295d61b3ba5",
+      "athleteName": "Kahmari Montgomery",
+      "nationality": "美國",
+      "sourceUrl": "https://worldathletics.org/athletes/-/14586813",
+      "countryAsListed": "United States",
+      "scope": "official_profile_at_lookup",
+      "note": "補充來源為本次查閱的官方選手資料所列國家；不據此認證法律國籍、事件當時代表資格或完整代表國變更史。",
+      "sourceRefs": [
+        {
+          "url": "https://worldathletics.org/athletes/-/14586813",
+          "retrievedAt": "2026-09-23T23:30:10.050675+00:00",
+          "rawSha256": "0fdaba424747dd6cd1f96c9f27674f22ac526ef0eb7da1dc9b54e9f00ba6c7dc",
+          "textSha256": "5d3fb37eb0eb69263f297d8c37acda39c07ad22080e106d1b9412c93d7f100a5"
+        }
+      ],
+      "modelReview": {
+        "checkedAt": "2026-09-24",
+        "scope": "country_and_identity_only",
+        "modelSeats": [
+          "Claude",
+          "GPT",
+          "Grok"
+        ],
+        "requestedModels": [
+          "gpt-6-luna",
+          "grok-4.7-build-fast",
+          "haiku"
+        ],
+        "packetSha256": "6fc6c2c4587946dfbe3c39dd991209475ddf22bf3eaa3c3cf2576412a279c83b",
+        "annotationUpdatedAfterReview": false
+      }
+    },
+    {
+      "id": "usada-3795cadeeacf",
+      "athleteName": "Cole Walsh",
+      "nationality": "美國",
+      "sourceUrl": "https://worldathletics.org/athletes/united-states/cole-walsh-14512998",
+      "countryAsListed": "United States",
+      "scope": "official_profile_at_lookup",
+      "note": "補充來源為本次查閱的官方選手資料所列國家；不據此認證法律國籍、事件當時代表資格或完整代表國變更史。",
+      "sourceRefs": [
+        {
+          "url": "https://worldathletics.org/athletes/united-states/cole-walsh-14512998",
+          "retrievedAt": "2026-09-23T23:30:10.379397+00:00",
+          "rawSha256": "1561a5e8c160fee6b014d4b53231db26dc7d174acc7c60688fc7dc0d67924be5",
+          "textSha256": "9374d8979fa5a65fd50b95839d76a29ce954e5769d01fa618dd2d0803d1a6d09"
+        }
+      ],
+      "modelReview": {
+        "checkedAt": "2026-09-24",
+        "scope": "country_and_identity_only",
+        "modelSeats": [
+          "Claude",
+          "GPT",
+          "Grok"
+        ],
+        "requestedModels": [
+          "gpt-6-luna",
+          "grok-4.7-build-fast",
+          "haiku"
+        ],
+        "packetSha256": "6fc6c2c4587946dfbe3c39dd991209475ddf22bf3eaa3c3cf2576412a279c83b",
+        "annotationUpdatedAfterReview": false
+      }
+    },
+    {
+      "id": "usada-73b73fbed23a",
+      "athleteName": "Jasmine Blocker",
+      "nationality": "美國",
+      "sourceUrl": "https://worldathletics.org/athletes/united-states/jasmine-blocker-14457215",
+      "countryAsListed": "United States",
+      "scope": "official_profile_at_lookup",
+      "note": "補充來源為本次查閱的官方選手資料所列國家；不據此認證法律國籍、事件當時代表資格或完整代表國變更史。",
+      "sourceRefs": [
+        {
+          "url": "https://worldathletics.org/athletes/united-states/jasmine-blocker-14457215",
+          "retrievedAt": "2026-09-23T23:30:10.387884+00:00",
+          "rawSha256": "986042228fdd051ec0d3ea6de4df22350be72401cde1487473aa95d7183fe10f",
+          "textSha256": "488bbd7199a6be3a8b413d8ce506c6489ef248414b5c4e0235077aae9282b340"
+        }
+      ],
+      "modelReview": {
+        "checkedAt": "2026-09-24",
+        "scope": "country_and_identity_only",
+        "modelSeats": [
+          "Claude",
+          "GPT",
+          "Grok"
+        ],
+        "requestedModels": [
+          "gpt-6-luna",
+          "grok-4.7-build-fast",
+          "haiku"
+        ],
+        "packetSha256": "6fc6c2c4587946dfbe3c39dd991209475ddf22bf3eaa3c3cf2576412a279c83b",
+        "annotationUpdatedAfterReview": false
+      }
+    },
+    {
+      "id": "usada-ac7fef21590c",
+      "athleteName": "Obichukwu Igbokwe",
+      "nationality": "美國",
+      "sourceUrl": "https://worldathletics.org/athletes/united-states/obi-igbokwe-14621985",
+      "countryAsListed": "United States",
+      "scope": "official_profile_at_lookup",
+      "note": "補充來源為本次查閱的官方選手資料所列國家；不據此認證法律國籍、事件當時代表資格或完整代表國變更史。",
+      "sourceRefs": [
+        {
+          "url": "https://worldathletics.org/athletes/united-states/obi-igbokwe-14621985",
+          "retrievedAt": "2026-09-23T23:31:15.925762+00:00",
+          "rawSha256": "75827269473a561b43b93e587a331df02d6df6226a7b1a02ce2bf9b271a166a0",
+          "textSha256": "b422bf4da0840236b8ae02fcc68e722030c777b5ab3535d8de11da51b5b4ab63"
+        }
+      ],
+      "modelReview": {
+        "checkedAt": "2026-09-24",
+        "scope": "country_and_identity_only",
+        "modelSeats": [
+          "Claude",
+          "GPT",
+          "Grok"
+        ],
+        "requestedModels": [
+          "gpt-6-luna",
+          "grok-4.7-build-fast",
+          "haiku"
+        ],
+        "packetSha256": "6fc6c2c4587946dfbe3c39dd991209475ddf22bf3eaa3c3cf2576412a279c83b",
+        "annotationUpdatedAfterReview": false
+      }
+    },
+    {
+      "id": "usada-4844a2d25120",
+      "athleteName": "Zach Gehm",
+      "nationality": "美國",
+      "sourceUrl": "https://worldathletics.org/athletes/united-states/zach-gehm-14875689",
+      "countryAsListed": "United States",
+      "scope": "official_profile_at_lookup",
+      "note": "補充來源為本次查閱的官方選手資料所列國家；不據此認證法律國籍、事件當時代表資格或完整代表國變更史。",
+      "sourceRefs": [
+        {
+          "url": "https://worldathletics.org/athletes/united-states/zach-gehm-14875689",
+          "retrievedAt": "2026-09-23T23:30:10.509301+00:00",
+          "rawSha256": "2777e54a6402b949019703f721962f66c2345c1c406d77778a34c780df89daa9",
+          "textSha256": "b7adc41d0d16a7d4440d9a51014ebc9e96223a76a1cd2a173dca26b0a096b987"
+        }
+      ],
+      "modelReview": {
+        "checkedAt": "2026-09-24",
+        "scope": "country_and_identity_only",
+        "modelSeats": [
+          "Claude",
+          "Grok"
+        ],
+        "requestedModels": [
+          "grok-4.7-build-fast",
+          "haiku"
+        ],
+        "packetSha256": "6fc6c2c4587946dfbe3c39dd991209475ddf22bf3eaa3c3cf2576412a279c83b",
+        "annotationUpdatedAfterReview": false
+      }
+    },
+    {
+      "id": "usada-491a96341462",
+      "athleteName": "Chris Carter",
+      "nationality": "美國",
+      "sourceUrl": "https://worldathletics.org/athletes/united-states/chris-carter-14328130",
+      "countryAsListed": "United States",
+      "scope": "official_profile_at_lookup",
+      "note": "補充來源為本次查閱的官方選手資料所列國家；不據此認證法律國籍、事件當時代表資格或完整代表國變更史。",
+      "sourceRefs": [
+        {
+          "url": "https://worldathletics.org/athletes/united-states/chris-carter-14328130",
+          "retrievedAt": "2026-09-23T23:30:11.846189+00:00",
+          "rawSha256": "164f53e441f7bbafb3c5546dd086703994d7253c0f2b6905802dc46009b128b3",
+          "textSha256": "c3d88ba8c17f65ce6b03ab59b852a643485eb03b905f7c3b0b27dfcd9ddfe014"
+        }
+      ],
+      "modelReview": {
+        "checkedAt": "2026-09-24",
+        "scope": "country_and_identity_only",
+        "modelSeats": [
+          "Claude",
+          "GPT",
+          "Gemini",
+          "Grok"
+        ],
+        "requestedModels": [
+          "gemini-3.8-flash-medium",
+          "gpt-6-luna",
+          "grok-4.7-build-fast",
+          "haiku"
+        ],
+        "packetSha256": "3755501d32fd827b2209d34962d5b481adc45fa085cdef0576b6aecf13689073",
+        "annotationUpdatedAfterReview": false
+      }
+    },
+    {
+      "id": "usada-d14484534da6",
+      "athleteName": "Trell Kimmons",
+      "nationality": "美國",
+      "sourceUrl": "https://worldathletics.org/athletes/united-states/trell-kimmons-14242966",
+      "countryAsListed": "United States",
+      "scope": "official_profile_at_lookup",
+      "note": "補充來源為本次查閱的官方選手資料所列國家；不據此認證法律國籍、事件當時代表資格或完整代表國變更史。",
+      "sourceRefs": [
+        {
+          "url": "https://worldathletics.org/athletes/united-states/trell-kimmons-14242966",
+          "retrievedAt": "2026-09-23T23:30:12.628971+00:00",
+          "rawSha256": "80bbdbe1d034b22c7899a402f351a89a82a0eae11572fa81aa90f293596f8ee7",
+          "textSha256": "e91c4413387456330b1da2aca8e76dbc8eac2785604fcf5df52ff04987e2ace5"
+        }
+      ],
+      "modelReview": {
+        "checkedAt": "2026-09-24",
+        "scope": "country_and_identity_only",
+        "modelSeats": [
+          "Claude",
+          "GPT",
+          "Gemini",
+          "Grok"
+        ],
+        "requestedModels": [
+          "gemini-3.8-flash-medium",
+          "gpt-6-luna",
+          "grok-4.7-build-fast",
+          "haiku"
+        ],
+        "packetSha256": "3755501d32fd827b2209d34962d5b481adc45fa085cdef0576b6aecf13689073",
+        "annotationUpdatedAfterReview": false
+      }
+    },
+    {
+      "id": "usada-04a1e7f11069",
+      "athleteName": "Demi Payne",
+      "nationality": "美國",
+      "sourceUrl": "https://worldathletics.org/athletes/-/14366412",
+      "countryAsListed": "United States",
+      "scope": "official_profile_at_lookup",
+      "note": "補充來源為本次查閱的官方選手資料所列國家；不據此認證法律國籍、事件當時代表資格或完整代表國變更史。",
+      "sourceRefs": [
+        {
+          "url": "https://worldathletics.org/athletes/-/14366412",
+          "retrievedAt": "2026-09-23T23:30:12.209052+00:00",
+          "rawSha256": "148a1e58d19ec7d0294190e18e7c1a8011cc656e4d36194db30f30fd8735d177",
+          "textSha256": "0063e51c1ecd87cff86b3c3aae0d8917faf80a4683be20c97f57b6669918751c"
+        }
+      ],
+      "modelReview": {
+        "checkedAt": "2026-09-24",
+        "scope": "country_and_identity_only",
+        "modelSeats": [
+          "Claude",
+          "GPT",
+          "Gemini",
+          "Grok"
+        ],
+        "requestedModels": [
+          "gemini-3.8-flash-medium",
+          "gpt-6-luna",
+          "grok-4.7-build-fast",
+          "haiku"
+        ],
+        "packetSha256": "3755501d32fd827b2209d34962d5b481adc45fa085cdef0576b6aecf13689073",
+        "annotationUpdatedAfterReview": false
+      }
+    },
+    {
+      "id": "usada-f8fb776d4fa9",
+      "athleteName": "Dawn Harper-Nelson",
+      "nationality": "美國",
+      "sourceUrl": "https://worldathletics.org/athletes/united-states/dawn-harper-nelson-14311987",
+      "countryAsListed": "United States",
+      "scope": "official_profile_at_lookup",
+      "note": "補充來源為本次查閱的官方選手資料所列國家；不據此認證法律國籍、事件當時代表資格或完整代表國變更史。",
+      "sourceRefs": [
+        {
+          "url": "https://worldathletics.org/athletes/united-states/dawn-harper-nelson-14311987",
+          "retrievedAt": "2026-09-23T23:30:12.839740+00:00",
+          "rawSha256": "7b7aa231ed9a345cb522afcdd2e7cfc4c850d77255a86c6971436dc04afe7435",
+          "textSha256": "15854d1ed06df40dc6bcd8d65bd12fea449366b5da94a7e70bb2674aa0b35e98"
+        }
+      ],
+      "modelReview": {
+        "checkedAt": "2026-09-24",
+        "scope": "country_and_identity_only",
+        "modelSeats": [
+          "Claude",
+          "GPT",
+          "Gemini",
+          "Grok"
+        ],
+        "requestedModels": [
+          "gemini-3.8-flash-medium",
+          "gpt-6-luna",
+          "grok-4.7-build-fast",
+          "haiku"
+        ],
+        "packetSha256": "3755501d32fd827b2209d34962d5b481adc45fa085cdef0576b6aecf13689073",
+        "annotationUpdatedAfterReview": false
+      }
+    },
+    {
+      "id": "usada-137ddb330f29",
+      "athleteName": "Kevin Castille",
+      "nationality": "美國",
+      "sourceUrl": "https://worldathletics.org/competition/calendar-results/results/7129502",
+      "countryAsListed": "USA",
+      "scope": "official_team_or_event_record",
+      "note": "依 2019-04-06 Cooper River Bridge Run 的官方成績表列美國（USA）；出生日期與 USADA 公告年齡相符。這是該賽事紀錄的國家欄，非法律國籍認證。",
+      "sourceRefs": [
+        {
+          "url": "https://worldathletics.org/competition/calendar-results/results/7129502",
+          "retrievedAt": "2026-09-24T00:33:20.881945+00:00",
+          "rawSha256": "c420377376848c9d808f0be13069cb77bc54370ae5117a4d844a99541e0c7188",
+          "textSha256": "d24933654c983fc217a673a24fc7ffd95b45b0cc844b103ee0851d6a5aad073c"
+        },
+        {
+          "url": "https://worldathletics.org/competitions/world-athletics-label-road-races/calendar-results/7114845/result",
+          "retrievedAt": "2026-09-23T23:31:16.820600+00:00",
+          "rawSha256": "7fa91ec9e23e32a0b5602ec952515b251f40697f0bfea665a4c9982255ed5bb7",
+          "textSha256": "f6eef49014f7f8a2176cef556e79e78db61697ee899604fa83d6e82a3a0bcaad"
+        }
+      ],
+      "modelReview": {
+        "checkedAt": "2026-09-24",
+        "scope": "country_and_identity_only",
+        "modelSeats": [
+          "Claude",
+          "GPT",
+          "Gemini",
+          "Grok"
+        ],
+        "requestedModels": [
+          "gemini-3.8-flash-medium",
+          "gpt-6-luna",
+          "grok-4.7-build-fast",
+          "haiku"
+        ],
+        "packetSha256": "3755501d32fd827b2209d34962d5b481adc45fa085cdef0576b6aecf13689073",
+        "annotationUpdatedAfterReview": true
+      }
+    },
+    {
+      "id": "usada-578b30358464",
+      "athleteName": "Jaron Flournoy",
+      "nationality": "美國",
+      "sourceUrl": "https://worldathletics.org/competition/calendar-results/results/7175374",
+      "countryAsListed": "USA",
+      "scope": "official_team_or_event_record",
+      "note": "依該來源所載代表隊／賽事時期辨識國家；不表示所有年份均代表同一國家，也非法律國籍認證。",
+      "sourceRefs": [
+        {
+          "url": "https://worldathletics.org/competition/calendar-results/results/7175374",
+          "retrievedAt": "2026-09-23T23:31:17.252444+00:00",
+          "rawSha256": "eac8d2cc8330ec2e16b95966c0a3cce48429a8f223087f01b46c94a5eeedbe34",
+          "textSha256": "f60a55bd91e0f528feed03effbf7f9ca6c2c07a05a20004cafa66ed51646fe03"
+        }
+      ],
+      "modelReview": {
+        "checkedAt": "2026-09-24",
+        "scope": "country_and_identity_only",
+        "modelSeats": [
+          "Claude",
+          "GPT",
+          "Gemini",
+          "Grok"
+        ],
+        "requestedModels": [
+          "gemini-3.8-flash-medium",
+          "gpt-6-luna",
+          "grok-4.7-build-fast",
+          "haiku"
+        ],
+        "packetSha256": "3755501d32fd827b2209d34962d5b481adc45fa085cdef0576b6aecf13689073",
+        "annotationUpdatedAfterReview": false
+      }
+    },
+    {
+      "id": "usada-4366103d9b91",
+      "athleteName": "Tori Polk",
+      "nationality": "美國",
+      "sourceUrl": "https://worldathletics.org/athletes/athlete=14319116",
+      "countryAsListed": "United States",
+      "scope": "official_profile_at_lookup",
+      "note": "補充查閱時 World Athletics 個人資料所列美國；另有 2011 年美國世錦賽名單。未以這兩份資料認證 2015 年事件當時的代表資格或法律國籍。",
+      "sourceRefs": [
+        {
+          "url": "https://worldathletics.org/athletes/athlete=14319116",
+          "retrievedAt": "2026-09-24T00:34:28.912262+00:00",
+          "rawSha256": "9eeae6e6360a101a3799321fe09a7e3cdf30e4bcdb151e909ec49b7a60652463",
+          "textSha256": "7fa84d7958a6685fcf09cd801899f5e13b6581d3fb2782f9d4db050b28c7bda5"
+        },
+        {
+          "url": "https://worldathletics.org/news/news/team-usa-in-daegu-to-include-8-defending-cham",
+          "retrievedAt": "2026-09-23T23:31:17.094115+00:00",
+          "rawSha256": "5f51d6f0b864069e54bcafed57fa8acec51b9ae1f31703f2e86e1a2d9602dce8",
+          "textSha256": "35b90b67e3473039235e5e4c2eb5f2fa2c91900413f3eb14a47faf908109c949"
+        }
+      ],
+      "modelReview": {
+        "checkedAt": "2026-09-24",
+        "scope": "country_and_identity_only",
+        "modelSeats": [
+          "GPT",
+          "Gemini",
+          "Grok"
+        ],
+        "requestedModels": [
+          "gemini-3.8-flash-medium",
+          "gpt-6-luna",
+          "grok-4.7-build-fast"
+        ],
+        "packetSha256": "3755501d32fd827b2209d34962d5b481adc45fa085cdef0576b6aecf13689073",
+        "annotationUpdatedAfterReview": true
+      }
+    },
+    {
+      "id": "usada-36b25b3d84e6",
+      "athleteName": "Jason Young",
+      "nationality": "美國",
+      "sourceUrl": "https://worldathletics.org/athletes/united-states/jason-young-14255732",
+      "countryAsListed": "United States",
+      "scope": "official_profile_at_lookup",
+      "note": "依 World Athletics 的 1981 年出生鐵餅選手資料列美國，並用 Team USA 的 Lubbock、年齡與 2012 奧運紀錄核對同名身分；不認證 2013 年事件時的法律國籍或完整代表資格。",
+      "sourceRefs": [
+        {
+          "url": "https://worldathletics.org/athletes/united-states/jason-young-14255732",
+          "retrievedAt": "2026-09-24T00:33:58.605006+00:00",
+          "rawSha256": "5fb0855724f081e7df6f3de7d8757ec47b73d2aafab0396848723207d553b979",
+          "textSha256": "97cf4d0d61103074c34d146023b17e027e4b8c2f4308b59311a1f4fa3e5f5359"
+        },
+        {
+          "url": "https://worldathletics.org/news/news/team-usa-in-daegu-to-include-8-defending-cham",
+          "retrievedAt": "2026-09-23T23:31:17.094115+00:00",
+          "rawSha256": "5f51d6f0b864069e54bcafed57fa8acec51b9ae1f31703f2e86e1a2d9602dce8",
+          "textSha256": "35b90b67e3473039235e5e4c2eb5f2fa2c91900413f3eb14a47faf908109c949"
+        },
+        {
+          "url": "https://www.teamusa.com/profiles/jason-young",
+          "retrievedAt": "2026-09-24T00:33:59.537122+00:00",
+          "rawSha256": "ebff69c5d5703d9e74b8ccb0647b0e584454d393ec5703b8da5be252c1eb79b6",
+          "textSha256": "20a5484e76cb65e50f5dbf562084876bced5780244754ccb9d61a831df21659b"
+        }
+      ],
+      "modelReview": {
+        "checkedAt": "2026-09-24",
+        "scope": "country_and_identity_only",
+        "modelSeats": [
+          "Claude",
+          "GPT",
+          "Gemini",
+          "Grok"
+        ],
+        "requestedModels": [
+          "gemini-3.8-flash-medium",
+          "gpt-6-luna",
+          "grok-4.7-build-fast",
+          "haiku"
+        ],
+        "packetSha256": "3755501d32fd827b2209d34962d5b481adc45fa085cdef0576b6aecf13689073",
+        "annotationUpdatedAfterReview": true
+      }
+    },
+    {
+      "id": "usada-2a8b050c35ed",
+      "athleteName": "Molly Beckwith-Ludlow",
+      "nationality": "美國",
+      "sourceUrl": "https://worldathletics.org/news/news/world-championships-2015-usa-team",
+      "countryAsListed": "USA",
+      "scope": "official_team_or_event_record",
+      "note": "依該來源所載代表隊／賽事時期辨識國家；不表示所有年份均代表同一國家，也非法律國籍認證。",
+      "sourceRefs": [
+        {
+          "url": "https://worldathletics.org/news/news/world-championships-2015-usa-team",
+          "retrievedAt": "2026-09-23T23:31:18.249143+00:00",
+          "rawSha256": "77634e182a3420dc6f855392c770926a5d456c2e9dca3cf987d898437f8d428c",
+          "textSha256": "859949bb1cba05accddbac1bab8f474373e8c784d31b6be430c02db7823f1606"
+        }
+      ],
+      "modelReview": {
+        "checkedAt": "2026-09-24",
+        "scope": "country_and_identity_only",
+        "modelSeats": [
+          "Claude",
+          "GPT",
+          "Gemini",
+          "Grok"
+        ],
+        "requestedModels": [
+          "gemini-3.8-flash-medium",
+          "gpt-6-luna",
+          "grok-4.7-build-fast",
+          "haiku"
+        ],
+        "packetSha256": "3755501d32fd827b2209d34962d5b481adc45fa085cdef0576b6aecf13689073",
+        "annotationUpdatedAfterReview": false
+      }
+    },
+    {
+      "id": "usada-fb72031d87b1",
+      "athleteName": "Alexandria Gochenour",
+      "nationality": "美國",
+      "sourceUrl": "https://worldathletics.org/athletes/united-states/alex-gochenour-14378189",
+      "countryAsListed": "United States",
+      "scope": "official_profile_at_lookup",
+      "note": "依查閱時 World Athletics 個人資料列美國；Alex／Alexandria 拼名亦見 USADA，出生日期與公告年齡相符。2018 年官方新聞另有美國同國選手描述；不認證法律國籍或完整代表權歷史。",
+      "sourceRefs": [
+        {
+          "url": "https://worldathletics.org/athletes/united-states/alex-gochenour-14378189",
+          "retrievedAt": "2026-09-24T00:33:58.172414+00:00",
+          "rawSha256": "170f81e4fc3d426a1f864d41b9a7bed74f2ff5c3fdfd4c0ce6512c3574fa68ac",
+          "textSha256": "075c3b8a23f862428afd91f916ef6e4735c852cc39b4358f05094464c54c6a8d"
+        },
+        {
+          "url": "https://worldathletics.org/news/preview/gotzis-hypomeeting-2018-thiam-warner",
+          "retrievedAt": "2026-09-23T23:31:18.913209+00:00",
+          "rawSha256": "aee2d447de83eab5078e2ebfd72f177f3f876dad52ab65ea8a8c8d9c0fa6d349",
+          "textSha256": "52fc1abdabfadb39e4f8f981aff692e60ab7b378f4ea78163ddf888763f71a9b"
+        }
+      ],
+      "modelReview": {
+        "checkedAt": "2026-09-24",
+        "scope": "country_and_identity_only",
+        "modelSeats": [
+          "Claude",
+          "GPT",
+          "Gemini",
+          "Grok"
+        ],
+        "requestedModels": [
+          "gemini-3.8-flash-medium",
+          "gpt-6-luna",
+          "grok-4.7-build-fast",
+          "haiku"
+        ],
+        "packetSha256": "3755501d32fd827b2209d34962d5b481adc45fa085cdef0576b6aecf13689073",
+        "annotationUpdatedAfterReview": true
+      }
+    },
+    {
+      "id": "usada-792c30cdc646",
+      "athleteName": "Imani Oliver",
+      "nationality": "美國",
+      "sourceUrl": "https://worldathletics.org/records/toplists/jumps/triple-jump/all/women/senior/2016",
+      "countryAsListed": "USA",
+      "scope": "official_team_or_event_record",
+      "note": "本案依 2016 年 World Athletics 成績表列美國（USA）；2025 年官方賽事資料列牙買加（JAM），不回填本案，也不推定轉籍生效日。",
+      "sourceRefs": [
+        {
+          "url": "https://worldathletics.org/records/toplists/jumps/triple-jump/all/women/senior/2016",
+          "retrievedAt": "2026-09-23T23:34:25.735949+00:00",
+          "rawSha256": "c8655f1a2a576313f024ea60143dd6443f9102a2d73afb13bfbc057ae74815ad",
+          "textSha256": "57676c6a5413bd9f20b26e6331eb77ef58cff316ec2ea3caa570f84d6f98173d"
+        },
+        {
+          "url": "https://assets.aws.worldathletics.org/document/679eb2a12c2aa609b74b9193.pdf",
+          "retrievedAt": "2026-09-24T00:33:18.942456+00:00",
+          "rawSha256": "9820673c8d83a54804f7ec7b9065d1e548e5c552e2b751a5a0f24c66292fb914",
+          "textSha256": "d0ba87f19fb63332f4569e5b0431d2022681c1ad853336cdc0b0c9a548d4969f"
+        }
+      ],
+      "modelReview": {
+        "checkedAt": "2026-09-24",
+        "scope": "country_and_identity_only",
+        "modelSeats": [
+          "Claude",
+          "GPT",
+          "Grok"
+        ],
+        "requestedModels": [
+          "gpt-6-luna",
+          "grok-4.7-build-fast",
+          "haiku"
+        ],
+        "packetSha256": "3755501d32fd827b2209d34962d5b481adc45fa085cdef0576b6aecf13689073",
+        "annotationUpdatedAfterReview": true
+      }
+    },
+    {
+      "id": "usada-3e2c75f84c3d",
+      "athleteName": "Breanna Clark",
+      "nationality": "美國",
+      "sourceUrl": "https://www.paralympic.org/breanna-clark",
+      "countryAsListed": "United States of America",
+      "scope": "official_profile_at_lookup",
+      "note": "補充來源為本次查閱的官方選手資料所列國家；不據此認證法律國籍、事件當時代表資格或完整代表國變更史。",
+      "sourceRefs": [
+        {
+          "url": "https://www.paralympic.org/breanna-clark",
+          "retrievedAt": "2026-09-23T23:31:15.102657+00:00",
+          "rawSha256": "9a70ab0f50563d0e148642482bf13db5f5c4c9aa55fb0e58948486fb867d138f",
+          "textSha256": "291bc828f6ea57789acf6c2bd57af5b136579990a20f69fe07956fc7f3a3b79a"
+        }
+      ],
+      "modelReview": {
+        "checkedAt": "2026-09-24",
+        "scope": "country_and_identity_only",
+        "modelSeats": [
+          "Claude",
+          "GPT",
+          "Gemini",
+          "Grok"
+        ],
+        "requestedModels": [
+          "gemini-3.8-flash-medium",
+          "gpt-6-luna",
+          "grok-4.7-build-fast",
+          "haiku"
+        ],
+        "packetSha256": "8e2ffa62101821e8dc4e06d311445c68f7577f2a5840ddcc6278001a57d8f98a",
+        "annotationUpdatedAfterReview": false
+      }
+    },
+    {
+      "id": "usada-13e15093f36a",
+      "athleteName": "Catarina Guimarães",
+      "nationality": "美國",
+      "sourceUrl": "https://www.paralympic.org/catarina-guimaraes",
+      "countryAsListed": "United States of America",
+      "scope": "official_profile_at_lookup",
+      "note": "補充來源為本次查閱的官方選手資料所列國家；不據此認證法律國籍、事件當時代表資格或完整代表國變更史。",
+      "sourceRefs": [
+        {
+          "url": "https://www.paralympic.org/catarina-guimaraes",
+          "retrievedAt": "2026-09-23T23:31:14.378160+00:00",
+          "rawSha256": "4e6c86a8ec4106a1c81057b90a8ebf164fad5168eaa5dd40d45ebe0321e80c6a",
+          "textSha256": "0c5a14338edd5dc7f498d704160e30b33977909066d025e60bccaf695b49176f"
+        }
+      ],
+      "modelReview": {
+        "checkedAt": "2026-09-24",
+        "scope": "country_and_identity_only",
+        "modelSeats": [
+          "Claude",
+          "GPT",
+          "Gemini",
+          "Grok"
+        ],
+        "requestedModels": [
+          "gemini-3.8-flash-medium",
+          "gpt-6-luna",
+          "grok-4.7-build-fast",
+          "haiku"
+        ],
+        "packetSha256": "8e2ffa62101821e8dc4e06d311445c68f7577f2a5840ddcc6278001a57d8f98a",
+        "annotationUpdatedAfterReview": false
+      }
+    },
+    {
+      "id": "usada-3b36b9d0fea7",
+      "athleteName": "Richard Browne",
+      "nationality": "美國",
+      "sourceUrl": "https://www.paralympic.org/richard-browne",
+      "countryAsListed": "United States of America",
+      "scope": "official_profile_at_lookup",
+      "note": "IPC 個人資料列美國；另以 Team USA 2022 年全國賽報導及 2012 帕運紀錄交叉辨識。資料僅用於國家與身分配對，不變更後續處分或承認遭取消成績有效。",
+      "sourceRefs": [
+        {
+          "url": "https://www.paralympic.org/richard-browne",
+          "retrievedAt": "2026-09-23T23:31:13.820547+00:00",
+          "rawSha256": "6252631ab808ab53738ee10d2686b4166cf3826145244b91db064eb0395b56bf",
+          "textSha256": "a58134ebf76897cc141106f899cf0d725c3f7c8d29c7637d6100db79c296c0b2"
+        },
+        {
+          "url": "https://www.teamusa.com/news/2022/june/20/newcomers-and-paralympians-shine-at-para-track-and-field-nationals",
+          "retrievedAt": "2026-09-24T00:34:01.002226+00:00",
+          "rawSha256": "61945e91928a7471a5b587a59af6c5fec81b5d1df89a4d6c4cdd34eceeec0ba8",
+          "textSha256": "72a9fa85263abda5e47fcf21d5ea79ff1da6ea1c7e8c56de12ddcdf6321ea756"
+        }
+      ],
+      "modelReview": {
+        "checkedAt": "2026-09-24",
+        "scope": "country_and_identity_only",
+        "modelSeats": [
+          "Claude",
+          "GPT",
+          "Gemini",
+          "Grok"
+        ],
+        "requestedModels": [
+          "gemini-3.8-flash-medium",
+          "gpt-6-luna",
+          "grok-4.7-build-fast",
+          "haiku"
+        ],
+        "packetSha256": "8e2ffa62101821e8dc4e06d311445c68f7577f2a5840ddcc6278001a57d8f98a",
+        "annotationUpdatedAfterReview": true
+      }
+    },
+    {
+      "id": "usada-7cdaea68994c",
+      "athleteName": "Shaquille Vance",
+      "nationality": "美國",
+      "sourceUrl": "https://www.paralympic.org/shaquille-vance",
+      "countryAsListed": "United States of America",
+      "scope": "official_profile_at_lookup",
+      "note": "補充來源為本次查閱的官方選手資料所列國家；不據此認證法律國籍、事件當時代表資格或完整代表國變更史。",
+      "sourceRefs": [
+        {
+          "url": "https://www.paralympic.org/shaquille-vance",
+          "retrievedAt": "2026-09-23T23:31:14.862164+00:00",
+          "rawSha256": "8eeb13a9fd580f47d9196f93ba28d216da562232537e0ea743227aa276294500",
+          "textSha256": "8d783e54642f23fedea35ff8d0cd84d2214425f449b925aff344ad4d0e276253"
+        }
+      ],
+      "modelReview": {
+        "checkedAt": "2026-09-24",
+        "scope": "country_and_identity_only",
+        "modelSeats": [
+          "GPT",
+          "Gemini",
+          "Grok"
+        ],
+        "requestedModels": [
+          "gemini-3.8-flash-medium",
+          "gpt-6-luna",
+          "grok-4.7-build-fast"
+        ],
+        "packetSha256": "8e2ffa62101821e8dc4e06d311445c68f7577f2a5840ddcc6278001a57d8f98a",
+        "annotationUpdatedAfterReview": false
+      }
+    },
+    {
+      "id": "usada-b03e0386a601",
+      "athleteName": "Katerina Brim",
+      "nationality": "美國",
+      "sourceUrl": "https://www.paralympic.org/katerina-brim",
+      "countryAsListed": "United States of America",
+      "scope": "official_profile_at_lookup",
+      "note": "補充來源為本次查閱的官方選手資料所列國家；不據此認證法律國籍、事件當時代表資格或完整代表國變更史。",
+      "sourceRefs": [
+        {
+          "url": "https://www.paralympic.org/katerina-brim",
+          "retrievedAt": "2026-09-23T23:31:53.847815+00:00",
+          "rawSha256": "469bf22b7fbd8ed7bcd7c6a359d1fb037812e07323116d3ab0cb688db4315edb",
+          "textSha256": "1d852bad105f76dedb9c84ae04d7c2f444ad9103e4cae31730ac9fbedcdfdc03"
+        }
+      ],
+      "modelReview": {
+        "checkedAt": "2026-09-24",
+        "scope": "country_and_identity_only",
+        "modelSeats": [
+          "Claude",
+          "GPT",
+          "Gemini",
+          "Grok"
+        ],
+        "requestedModels": [
+          "gemini-3.8-flash-medium",
+          "gpt-6-luna",
+          "grok-4.7-build-fast",
+          "haiku"
+        ],
+        "packetSha256": "8e2ffa62101821e8dc4e06d311445c68f7577f2a5840ddcc6278001a57d8f98a",
+        "annotationUpdatedAfterReview": false
+      }
+    },
+    {
+      "id": "usada-c269d76b2513",
+      "athleteName": "Ryan Pinney",
+      "nationality": "美國",
+      "sourceUrl": "https://www.paralympic.org/ryan-pinney",
+      "countryAsListed": "United States of America",
+      "scope": "official_profile_at_lookup",
+      "note": "補充來源為本次查閱的官方選手資料所列國家；不據此認證法律國籍、事件當時代表資格或完整代表國變更史。",
+      "sourceRefs": [
+        {
+          "url": "https://www.paralympic.org/ryan-pinney",
+          "retrievedAt": "2026-09-23T23:31:53.553118+00:00",
+          "rawSha256": "b740b42ee43fe919b93a72ee340a0d9c83565ae65a251baea98bbc7e65ccee0d",
+          "textSha256": "7ed8096e7c2bb227d64bada793e1d857365b71ca3ab93cdd5c437c2b08098f5d"
+        }
+      ],
+      "modelReview": {
+        "checkedAt": "2026-09-24",
+        "scope": "country_and_identity_only",
+        "modelSeats": [
+          "Claude",
+          "GPT",
+          "Gemini",
+          "Grok"
+        ],
+        "requestedModels": [
+          "gemini-3.8-flash-medium",
+          "gpt-6-luna",
+          "grok-4.7-build-fast",
+          "haiku"
+        ],
+        "packetSha256": "8e2ffa62101821e8dc4e06d311445c68f7577f2a5840ddcc6278001a57d8f98a",
+        "annotationUpdatedAfterReview": false
+      }
+    },
+    {
+      "id": "usada-5a084088440d",
+      "athleteName": "Roderick Green",
+      "nationality": "美國",
+      "sourceUrl": "https://www.teamusa.com/profiles/roderick-green",
+      "countryAsListed": "Team USA",
+      "scope": "official_team_or_event_record",
+      "note": "依該來源所載代表隊／賽事時期辨識國家；不表示所有年份均代表同一國家，也非法律國籍認證。",
+      "sourceRefs": [
+        {
+          "url": "https://www.teamusa.com/profiles/roderick-green",
+          "retrievedAt": "2026-09-23T23:31:53.641574+00:00",
+          "rawSha256": "1384722860ff8a1aa02deb078d76442c459780791755c6592cacf51a407e18cb",
+          "textSha256": "f72be23d5896901e86df9fc652c7d0ef6cbcf25718e33a5b36c1fe9e93ad66ae"
+        }
+      ],
+      "modelReview": {
+        "checkedAt": "2026-09-24",
+        "scope": "country_and_identity_only",
+        "modelSeats": [
+          "Claude",
+          "GPT",
+          "Gemini",
+          "Grok"
+        ],
+        "requestedModels": [
+          "gemini-3.8-flash-medium",
+          "gpt-6-luna",
+          "grok-4.7-build-fast",
+          "haiku"
+        ],
+        "packetSha256": "8e2ffa62101821e8dc4e06d311445c68f7577f2a5840ddcc6278001a57d8f98a",
+        "annotationUpdatedAfterReview": false
+      }
+    },
+    {
+      "id": "usada-e13aa658e684",
+      "athleteName": "Nina Cutro-Kelly",
+      "nationality": "美國",
+      "sourceUrl": "https://www.teamusa.com/profiles/nina-cutro-kelly-833328",
+      "countryAsListed": "Team USA",
+      "scope": "official_team_or_event_record",
+      "note": "依該來源所載代表隊／賽事時期辨識國家；不表示所有年份均代表同一國家，也非法律國籍認證。",
+      "sourceRefs": [
+        {
+          "url": "https://www.teamusa.com/profiles/nina-cutro-kelly-833328",
+          "retrievedAt": "2026-09-23T23:31:53.799042+00:00",
+          "rawSha256": "928227fb76bfb86a84aa71b0a168801f2fd30f0145544f39ae154a1074cbed0a",
+          "textSha256": "8763049d8b25d3d57090f4fd5e208c998df0769e0d2283aa929a386600789d9a"
+        }
+      ],
+      "modelReview": {
+        "checkedAt": "2026-09-24",
+        "scope": "country_and_identity_only",
+        "modelSeats": [
+          "Claude",
+          "GPT",
+          "Gemini",
+          "Grok"
+        ],
+        "requestedModels": [
+          "gemini-3.8-flash-medium",
+          "gpt-6-luna",
+          "grok-4.7-build-fast",
+          "haiku"
+        ],
+        "packetSha256": "8e2ffa62101821e8dc4e06d311445c68f7577f2a5840ddcc6278001a57d8f98a",
+        "annotationUpdatedAfterReview": false
+      }
+    },
+    {
+      "id": "usada-5d85c8dbd1a0",
+      "athleteName": "Anthony Ferraro",
+      "nationality": "美國",
+      "sourceUrl": "https://www.teamusa.com/profiles/anthony-ferraro",
+      "countryAsListed": "Team USA",
+      "scope": "official_profile_at_lookup",
+      "note": "依查閱時 Team USA 個人資料辨識美國運動身分，Spring Lake、柔道項目及年齡相符，頁面另載 2018 年世錦賽。未採用無年份名單來認證特定年度代表資格，也非法律國籍認證。",
+      "sourceRefs": [
+        {
+          "url": "https://www.teamusa.com/profiles/anthony-ferraro",
+          "retrievedAt": "2026-09-23T23:31:56.633424+00:00",
+          "rawSha256": "7d9759fcf3339ae4e332c51a48ad0cd1b4b87cf4d11b1910208b6b341fe44f1d",
+          "textSha256": "92994071a432f5759a249676376ea4c7f87007d5c51c22da999514b048cb5572"
+        },
+        {
+          "url": "https://www.teamusa.com/para-judo-at-the-parapan-am-games",
+          "retrievedAt": "2026-09-23T23:34:25.926269+00:00",
+          "rawSha256": "79e40def8b48bc7f7389a3f5a56ea872e746c9d58ab7e1ee2883cedf9eccad0e",
+          "textSha256": "f368e1b8975ce9f129a2fcf810d70ad8121c01ad9104ecac8bd4a3045f1d04c7"
+        }
+      ],
+      "modelReview": {
+        "checkedAt": "2026-09-24",
+        "scope": "country_and_identity_only",
+        "modelSeats": [
+          "Claude",
+          "GPT",
+          "Gemini",
+          "Grok"
+        ],
+        "requestedModels": [
+          "gemini-3.8-flash-medium",
+          "gpt-6-luna",
+          "grok-4.7-build-fast",
+          "haiku"
+        ],
+        "packetSha256": "8e2ffa62101821e8dc4e06d311445c68f7577f2a5840ddcc6278001a57d8f98a",
+        "annotationUpdatedAfterReview": true
+      }
+    },
+    {
+      "id": "usada-8fb29d61bbde",
+      "athleteName": "Tyler Burdick",
+      "nationality": "美國",
+      "sourceUrl": "https://www.teamusa.com/profiles/tyler-burdick-864855",
+      "countryAsListed": "Team USA",
+      "scope": "official_team_or_event_record",
+      "note": "依該來源所載代表隊／賽事時期辨識國家；不表示所有年份均代表同一國家，也非法律國籍認證。",
+      "sourceRefs": [
+        {
+          "url": "https://www.teamusa.com/profiles/tyler-burdick-864855",
+          "retrievedAt": "2026-09-23T23:31:56.067766+00:00",
+          "rawSha256": "bee9f98fab9c4ac5552e3690dd17a647a84e6cfac2674c77852d14207f83746a",
+          "textSha256": "c878e24826b1533b16805d6987b2f47bf980a81d539206164f34bc1836d0e9fb"
+        }
+      ],
+      "modelReview": {
+        "checkedAt": "2026-09-24",
+        "scope": "country_and_identity_only",
+        "modelSeats": [
+          "Claude",
+          "GPT",
+          "Gemini",
+          "Grok"
+        ],
+        "requestedModels": [
+          "gemini-3.8-flash-medium",
+          "gpt-6-luna",
+          "grok-4.7-build-fast",
+          "haiku"
+        ],
+        "packetSha256": "8e2ffa62101821e8dc4e06d311445c68f7577f2a5840ddcc6278001a57d8f98a",
+        "annotationUpdatedAfterReview": false
+      }
+    },
+    {
+      "id": "usada-5541522b98d9",
+      "athleteName": "Cory Scott Juneau",
+      "nationality": "美國",
+      "sourceUrl": "https://www.teamusa.com/profiles/cory-juneau-1192428",
+      "countryAsListed": "Team USA",
+      "scope": "official_team_or_event_record",
+      "note": "依該來源所載代表隊／賽事時期辨識國家；不表示所有年份均代表同一國家，也非法律國籍認證。",
+      "sourceRefs": [
+        {
+          "url": "https://www.teamusa.com/profiles/cory-juneau-1192428",
+          "retrievedAt": "2026-09-23T23:32:33.592080+00:00",
+          "rawSha256": "0bf760671c98b72e8ef062bb526c5e91903f554d76cb037d9393b37f38f8ea9e",
+          "textSha256": "04fbf423bb1f2b318c3af17e5058ea67e7e4575d10cf9e2a1cf639c286d08cec"
+        }
+      ],
+      "modelReview": {
+        "checkedAt": "2026-09-24",
+        "scope": "country_and_identity_only",
+        "modelSeats": [
+          "Claude",
+          "GPT",
+          "Grok"
+        ],
+        "requestedModels": [
+          "gpt-6-luna",
+          "grok-4.7-build-fast",
+          "haiku"
+        ],
+        "packetSha256": "8e2ffa62101821e8dc4e06d311445c68f7577f2a5840ddcc6278001a57d8f98a",
+        "annotationUpdatedAfterReview": false
+      }
+    },
+    {
+      "id": "usada-f75282803398",
+      "athleteName": "Abigail Dahlkemper",
+      "nationality": "美國",
+      "sourceUrl": "https://www.teamusa.com/profiles/abby-dahlkemper",
+      "countryAsListed": "Team USA",
+      "scope": "official_team_or_event_record",
+      "note": "依該來源所載代表隊／賽事時期辨識國家；不表示所有年份均代表同一國家，也非法律國籍認證。",
+      "sourceRefs": [
+        {
+          "url": "https://www.teamusa.com/profiles/abby-dahlkemper",
+          "retrievedAt": "2026-09-23T23:32:34.245927+00:00",
+          "rawSha256": "a3f85d2f2f5ded07447c833856f2a6fd22b2574fa67ce61d902efdb7bab979b7",
+          "textSha256": "cc1e5a7eede265e7f276a4083a4cf2197589b50e7c973e1dcc930a4bf2c5883e"
+        }
+      ],
+      "modelReview": {
+        "checkedAt": "2026-09-24",
+        "scope": "country_and_identity_only",
+        "modelSeats": [
+          "Claude",
+          "GPT",
+          "Gemini",
+          "Grok"
+        ],
+        "requestedModels": [
+          "gemini-3.8-flash-medium",
+          "gpt-6-luna",
+          "grok-4.7-build-fast",
+          "haiku"
+        ],
+        "packetSha256": "dfa677fb3149fefc2465ade5e2c494c3fb27ec0aa20e953a6e7f095fc36b562a",
+        "annotationUpdatedAfterReview": false
+      }
+    },
+    {
+      "id": "usada-51b08866d858",
+      "athleteName": "Devin Logan",
+      "nationality": "美國",
+      "sourceUrl": "https://www.teamusa.com/profiles/devin-logan-908852",
+      "countryAsListed": "Team USA",
+      "scope": "official_team_or_event_record",
+      "note": "依該來源所載代表隊／賽事時期辨識國家；不表示所有年份均代表同一國家，也非法律國籍認證。",
+      "sourceRefs": [
+        {
+          "url": "https://www.teamusa.com/profiles/devin-logan-908852",
+          "retrievedAt": "2026-09-23T23:32:33.887370+00:00",
+          "rawSha256": "412b8775eb1701b2149c11e492a164482144aeef8c6ceaf56ba9f37f1fad5d28",
+          "textSha256": "f83e66a0023d2d17a0bb0fce47aa4d9b87b17699c74c4e9aa20daf1668d4e61c"
+        }
+      ],
+      "modelReview": {
+        "checkedAt": "2026-09-24",
+        "scope": "country_and_identity_only",
+        "modelSeats": [
+          "Claude",
+          "GPT",
+          "Gemini",
+          "Grok"
+        ],
+        "requestedModels": [
+          "gemini-3.8-flash-medium",
+          "gpt-6-luna",
+          "grok-4.7-build-fast",
+          "haiku"
+        ],
+        "packetSha256": "dfa677fb3149fefc2465ade5e2c494c3fb27ec0aa20e953a6e7f095fc36b562a",
+        "annotationUpdatedAfterReview": false
+      }
+    },
+    {
+      "id": "usada-abb5a10e0ed3",
+      "athleteName": "Breezy Johnson",
+      "nationality": "美國",
+      "sourceUrl": "https://www.teamusa.com/profiles/breezy-johnson-990513",
+      "countryAsListed": "Team USA",
+      "scope": "official_profile_at_lookup",
+      "note": "依查閱時 Team USA 個人資料辨識美國運動身分，頁面載有 2018／2026 奧運紀錄；不據此認證 2023 年事件時代表資格或法律國籍。",
+      "sourceRefs": [
+        {
+          "url": "https://www.teamusa.com/profiles/breezy-johnson-990513",
+          "retrievedAt": "2026-09-23T23:32:33.591175+00:00",
+          "rawSha256": "07b20d9f31e71862b51a5714eb3a0f6fa0a912eca96a3d988267ab6f8290b130",
+          "textSha256": "bc42bb028c0207afbbb7cba0652bd382a733fab75a72af2bbb3c88ffc4e970c0"
+        }
+      ],
+      "modelReview": {
+        "checkedAt": "2026-09-24",
+        "scope": "country_and_identity_only",
+        "modelSeats": [
+          "Claude",
+          "GPT",
+          "Gemini",
+          "Grok"
+        ],
+        "requestedModels": [
+          "gemini-3.8-flash-medium",
+          "gpt-6-luna",
+          "grok-4.7-build-fast",
+          "haiku"
+        ],
+        "packetSha256": "dfa677fb3149fefc2465ade5e2c494c3fb27ec0aa20e953a6e7f095fc36b562a",
+        "annotationUpdatedAfterReview": true
+      }
+    },
+    {
+      "id": "usada-d1537bff40b3",
+      "athleteName": "Laura Zeng",
+      "nationality": "美國",
+      "sourceUrl": "https://www.teamusa.com/profiles/laura-zeng-827598",
+      "countryAsListed": "Team USA",
+      "scope": "official_team_or_event_record",
+      "note": "依該來源所載代表隊／賽事時期辨識國家；不表示所有年份均代表同一國家，也非法律國籍認證。",
+      "sourceRefs": [
+        {
+          "url": "https://www.teamusa.com/profiles/laura-zeng-827598",
+          "retrievedAt": "2026-09-23T23:32:35.797188+00:00",
+          "rawSha256": "aa9b74d8772a6e842513504982b780c10e4ad18889f26ac3444d505f01016cc0",
+          "textSha256": "bd3994909afe19e581b28ca681fb2a406829de2ed3bce8dce8339531bd4ddedb"
+        }
+      ],
+      "modelReview": {
+        "checkedAt": "2026-09-24",
+        "scope": "country_and_identity_only",
+        "modelSeats": [
+          "Claude",
+          "GPT",
+          "Gemini",
+          "Grok"
+        ],
+        "requestedModels": [
+          "gemini-3.8-flash-medium",
+          "gpt-6-luna",
+          "grok-4.7-build-fast",
+          "haiku"
+        ],
+        "packetSha256": "dfa677fb3149fefc2465ade5e2c494c3fb27ec0aa20e953a6e7f095fc36b562a",
+        "annotationUpdatedAfterReview": false
+      }
+    },
+    {
+      "id": "usada-1c34e76fa2a0",
+      "athleteName": "Aja Evans",
+      "nationality": "美國",
+      "sourceUrl": "https://www.teamusa.com/profiles/aja-evans-849645",
+      "countryAsListed": "Team USA",
+      "scope": "official_team_or_event_record",
+      "note": "依該來源所載代表隊／賽事時期辨識國家；不表示所有年份均代表同一國家，也非法律國籍認證。",
+      "sourceRefs": [
+        {
+          "url": "https://www.teamusa.com/profiles/aja-evans-849645",
+          "retrievedAt": "2026-09-23T23:32:35.953638+00:00",
+          "rawSha256": "a40b270b316b7290267f9fff5cb25f36a6ececaeefbac5d44f19bd322db19014",
+          "textSha256": "602829bcde9afc5dd0c53b2cf12774ed9b014ea11f1ca1328b69f687f3d254f3"
+        }
+      ],
+      "modelReview": {
+        "checkedAt": "2026-09-24",
+        "scope": "country_and_identity_only",
+        "modelSeats": [
+          "Claude",
+          "GPT",
+          "Gemini",
+          "Grok"
+        ],
+        "requestedModels": [
+          "gemini-3.8-flash-medium",
+          "gpt-6-luna",
+          "grok-4.7-build-fast",
+          "haiku"
+        ],
+        "packetSha256": "dfa677fb3149fefc2465ade5e2c494c3fb27ec0aa20e953a6e7f095fc36b562a",
+        "annotationUpdatedAfterReview": false
+      }
+    },
+    {
+      "id": "usada-990a455fba77",
+      "athleteName": "Jacqueline Galloway",
+      "nationality": "美國",
+      "sourceUrl": "https://www.teamusa.com/profiles/jackie-galloway",
+      "countryAsListed": "Team USA",
+      "scope": "official_team_or_event_record",
+      "note": "依該來源所載代表隊／賽事時期辨識國家；不表示所有年份均代表同一國家，也非法律國籍認證。",
+      "sourceRefs": [
+        {
+          "url": "https://www.teamusa.com/profiles/jackie-galloway",
+          "retrievedAt": "2026-09-23T23:33:07.340831+00:00",
+          "rawSha256": "2efdde7f8e073193cc62133a36ba078adf3d052fc812a9795301da3d954e7b5a",
+          "textSha256": "70722e04227c2c70040381a142d997f2f6a01712b626284218beda5e5760ce12"
+        }
+      ],
+      "modelReview": {
+        "checkedAt": "2026-09-24",
+        "scope": "country_and_identity_only",
+        "modelSeats": [
+          "Claude",
+          "GPT",
+          "Gemini",
+          "Grok"
+        ],
+        "requestedModels": [
+          "gemini-3.8-flash-medium",
+          "gpt-6-luna",
+          "grok-4.7-build-fast",
+          "haiku"
+        ],
+        "packetSha256": "dfa677fb3149fefc2465ade5e2c494c3fb27ec0aa20e953a6e7f095fc36b562a",
+        "annotationUpdatedAfterReview": false
+      }
+    },
+    {
+      "id": "usada-a00b98f42826",
+      "athleteName": "William Licon",
+      "nationality": "美國",
+      "sourceUrl": "https://www.worldaquatics.com/athletes/1055993/will-licon",
+      "countryAsListed": "USA",
+      "scope": "official_profile_at_lookup",
+      "note": "補充來源為本次查閱的官方選手資料所列國家；不據此認證法律國籍、事件當時代表資格或完整代表國變更史。",
+      "sourceRefs": [
+        {
+          "url": "https://www.worldaquatics.com/athletes/1055993/will-licon",
+          "retrievedAt": "2026-09-23T23:33:07.255355+00:00",
+          "rawSha256": "7d1730b0c72d90b38d7a031dbaab4a81c121fd9790c96ec07c014e0dca79f212",
+          "textSha256": "0b7fe917a2efde21b5965e4e2cf46c952e80a67b436d6d65156d015185cc34f7"
+        }
+      ],
+      "modelReview": {
+        "checkedAt": "2026-09-24",
+        "scope": "country_and_identity_only",
+        "modelSeats": [
+          "Claude",
+          "GPT",
+          "Grok"
+        ],
+        "requestedModels": [
+          "gpt-6-luna",
+          "grok-4.7-build-fast",
+          "haiku"
+        ],
+        "packetSha256": "dfa677fb3149fefc2465ade5e2c494c3fb27ec0aa20e953a6e7f095fc36b562a",
+        "annotationUpdatedAfterReview": false
+      }
+    },
+    {
+      "id": "usada-503574acf7cc",
+      "athleteName": "Mihail (Mike) Alexandrov",
+      "nationality": "美國",
+      "sourceUrl": "https://www.worldaquatics.com/athletes/1001220/mike-alexandrov",
+      "countryAsListed": "USA",
+      "scope": "official_profile_at_lookup",
+      "note": "依查閱時 World Aquatics Nationality 欄列美國（USA），USADA 已列 Mihail（Mike）別名。此補充不認證 2017 年當時代表資格、出生國或法律國籍。",
+      "sourceRefs": [
+        {
+          "url": "https://www.worldaquatics.com/athletes/1001220/mike-alexandrov",
+          "retrievedAt": "2026-09-23T23:33:07.318969+00:00",
+          "rawSha256": "d68c7f2f11c9fe848cb2dd778eb889669c7d03681f33542068c1c25fc1c0eae6",
+          "textSha256": "98636d21010a397220077d537e512bd0542f18d8178545379779897acdd384c2"
+        }
+      ],
+      "modelReview": {
+        "checkedAt": "2026-09-24",
+        "scope": "country_and_identity_only",
+        "modelSeats": [
+          "Claude",
+          "GPT",
+          "Grok"
+        ],
+        "requestedModels": [
+          "gpt-6-luna",
+          "grok-4.7-build-fast",
+          "haiku"
+        ],
+        "packetSha256": "dfa677fb3149fefc2465ade5e2c494c3fb27ec0aa20e953a6e7f095fc36b562a",
+        "annotationUpdatedAfterReview": true
+      }
+    },
+    {
+      "id": "usada-196afd5ac99f",
+      "athleteName": "Amanda Kendall",
+      "nationality": "美國",
+      "sourceUrl": "https://www.worldaquatics.com/news/1912619/usa-and-brazil-put-up-a-good-show-at-pan-am-games",
+      "countryAsListed": "USA",
+      "scope": "official_team_or_event_record",
+      "note": "依該來源所載代表隊／賽事時期辨識國家；不表示所有年份均代表同一國家，也非法律國籍認證。",
+      "sourceRefs": [
+        {
+          "url": "https://www.worldaquatics.com/news/1912619/usa-and-brazil-put-up-a-good-show-at-pan-am-games",
+          "retrievedAt": "2026-09-23T23:33:08.440729+00:00",
+          "rawSha256": "b03ecce59fea283d231a3a2ba9013846b455456511bf5167db92dd9f5428262e",
+          "textSha256": "4bf0da520732650898602426da5b1486c95a2617b8fd513e754180b34a24e678"
+        }
+      ],
+      "modelReview": {
+        "checkedAt": "2026-09-24",
+        "scope": "country_and_identity_only",
+        "modelSeats": [
+          "Claude",
+          "GPT",
+          "Grok"
+        ],
+        "requestedModels": [
+          "gpt-6-luna",
+          "grok-4.7-build-fast",
+          "haiku"
+        ],
+        "packetSha256": "dfa677fb3149fefc2465ade5e2c494c3fb27ec0aa20e953a6e7f095fc36b562a",
+        "annotationUpdatedAfterReview": false
+      }
+    },
+    {
+      "id": "usada-c60db428c672",
+      "athleteName": "Katherine Compton",
+      "nationality": "美國",
+      "sourceUrl": "https://www.uci.org/article/uci-cyclo-cross-world-cup-splendid-debut-for-milton-keynes-167733/6vzorkPSnGMydcMLF8WxgW",
+      "countryAsListed": "USA",
+      "scope": "official_team_or_event_record",
+      "note": "依 UCI 2014-11-29 世界盃報導列美國（USA）；發布日期由官方 HTML 日期欄核對。未據此認證 2020 年事件當時的代表資格，也非法律國籍認證。",
+      "sourceRefs": [
+        {
+          "url": "https://www.uci.org/article/uci-cyclo-cross-world-cup-splendid-debut-for-milton-keynes-167733/6vzorkPSnGMydcMLF8WxgW",
+          "retrievedAt": "2026-09-23T23:33:09.288147+00:00",
+          "rawSha256": "d5a7758a2d4756b33a475bf60ee1c10b7f8e3057988d0d17deffa3990dfe5dc4",
+          "textSha256": "4a8f7a5d2bde5ccd2879f8a21c4c7df95db9f8bba2c5a6e5d2cffc63c37ae915",
+          "rawLocator": "data-component=DateCategory; data-prop-date=29 Nov 2014"
+        }
+      ],
+      "modelReview": {
+        "checkedAt": "2026-09-24",
+        "scope": "country_and_identity_only",
+        "modelSeats": [
+          "Claude",
+          "GPT",
+          "Grok"
+        ],
+        "requestedModels": [
+          "gpt-6-luna",
+          "grok-4.7-build-fast",
+          "haiku"
+        ],
+        "packetSha256": "dfa677fb3149fefc2465ade5e2c494c3fb27ec0aa20e953a6e7f095fc36b562a",
+        "annotationUpdatedAfterReview": true
+      }
+    },
+    {
+      "id": "usada-ee1ce8ee98f6",
+      "athleteName": "NaLyssa Smith",
+      "nationality": "美國",
+      "sourceUrl": "https://www.teamusa.com/news/2022/april/15/these-four-2022-wnba-draftees-could-be-major-contributors-for-team-usa-in-years-to-come",
+      "countryAsListed": "Team USA",
+      "scope": "official_team_or_event_record",
+      "note": "官方 Team USA 報導確認 2018 年 U18 美洲錦標賽代表美國；2019 年原定參賽後因傷退出。此資料不單獨證明 2024 年事件時代表資格或法律國籍。",
+      "sourceRefs": [
+        {
+          "url": "https://www.teamusa.com/news/2022/april/15/these-four-2022-wnba-draftees-could-be-major-contributors-for-team-usa-in-years-to-come",
+          "retrievedAt": "2026-09-23T23:34:26.245696+00:00",
+          "rawSha256": "0e26d93440535091139c2a2ffe29a03b30bc24f9d19605520a5ca6012c70a305",
+          "textSha256": "de4921005889a4f7b7cb1872485f30cc9a1aa882538bf08d24e7222427867001"
+        }
+      ],
+      "modelReview": {
+        "checkedAt": "2026-09-24",
+        "scope": "country_and_identity_only",
+        "modelSeats": [
+          "Claude",
+          "GPT",
+          "Grok"
+        ],
+        "requestedModels": [
+          "gpt-6-luna",
+          "grok-4.7-build-fast",
+          "haiku"
+        ],
+        "packetSha256": "dfa677fb3149fefc2465ade5e2c494c3fb27ec0aa20e953a6e7f095fc36b562a",
+        "annotationUpdatedAfterReview": true
+      }
+    }
+  ],
+  "heldCountryChecks": [
+    {
+      "id": "usada-091e5bf27388",
+      "reason": "採納年齡配對疑義。新下載 USADA 公告仍為 2022-11-29，內文稱 37 歲；World Athletics 出生日期 1986-09-18 推得當時 36 歲。原提案誤寫 2024 年公告。暫不解除本件國家待補證，不把來源差異稱為虛構案例。"
+    }
+  ],
+  "dateChecks": [
+    {
+      "id": "ita-a9d763121732",
+      "athleteName": "Aymane Takzima",
+      "checkedAt": "2026-09-24",
+      "resolution": "unresolved",
+      "note": "ITA 公告與名冊仍未列出各次執教的確切日期；名冊的 2022-11-20 早於公告的暫時停賽起日。維持兩段禁賽期間及日期疑義，不自行指定違規發生日。",
+      "sourceRefs": [
+        {
+          "url": "https://ita.sport/news/the-ita-reports-that-athlete-aymane-takzima-has-accepted-a-3-year-ban-for-his-breach-of-anti-doping-rules/",
+          "retrievedAt": "2026-09-23T23:32:00.180809+00:00",
+          "rawSha256": "05c639a68aa20f1307ef931a09c47ba5dbd7cf6eda73f742a97235742e6249c5",
+          "textSha256": "8d240943950b0b978183da9c1d6f8c9f59065f3cc5a3f656b16a1c13a0b290b9",
+          "textPath": ".cache/source-followups-20260924/472ca5fd0250258945f4.txt"
+        },
+        {
+          "url": "https://ita.sport/anti-doping-rule-violations/",
+          "retrievedAt": "2026-09-23T23:32:01.761857+00:00",
+          "rawSha256": "f38cbd44bdc0731485a3929b2cb782a49bf7cc85edbc0cbec0c8591b96a16a9f",
+          "textSha256": "21fd692e47e27ff043be09551036b27f3b81456a2c17ca1fd6b81b83353100ea",
+          "textPath": ".cache/source-followups-20260924/3671b741566efecd4174.txt"
+        }
+      ]
+    },
+    {
+      "id": "aiu-b92f69a6866b",
+      "athleteName": "Patricia Álvarez Pérez",
+      "checkedAt": "2026-09-24",
+      "resolution": "unresolved",
+      "note": "裁決仍記 2025-03-29 比賽／採樣與成績取消，名冊仍列 2024-03-29。保留原裁決日期並揭露名冊差異，沒有宣稱官方已更正。",
+      "sourceRefs": [
+        {
+          "url": "https://www.athleticsintegrity.org/downloads/pdfs/disciplinary-process/en/260511-WA-v-Alvarez-Decision-Final.pdf",
+          "retrievedAt": "2026-09-23T23:31:56.319475+00:00",
+          "rawSha256": "1e70452c070aa4768cb2bcb082f7a163c71ea9fa310e5e06e3e55ac4556bc712",
+          "textSha256": "ad2245436aeb34a6731f37163d575b583e9e3b1dabb2447d7a430a9ffee42f27",
+          "textPath": ".cache/source-followups-20260924/676de1d8634b1c3ee500.txt"
+        },
+        {
+          "url": "https://www.athleticsintegrity.org/disciplinary-process/first-instance-decisions",
+          "retrievedAt": "2026-09-23T23:31:56.243173+00:00",
+          "rawSha256": "3b5073e6f5978e641b687fe9a4f5d966e0147e8d2f8d25582fb0199dc74c45c4",
+          "textSha256": "16e198e8c295782b26bce12d34d88d0e965c8e2242a29b6cc6056ccb17e68785",
+          "textPath": ".cache/source-followups-20260924/479a74a41e3d9ad99a38.txt"
+        }
+      ]
+    },
+    {
+      "id": "aiu-fcb63b1504c8",
+      "athleteName": "Kibiwott Kandie",
+      "checkedAt": "2026-09-24",
+      "resolution": "unresolved",
+      "note": "裁決第 37、38 段的指控通知日期為 2026 年，第 46 段同一程序則寫 2025 年。原檔未變，持續標示文內矛盾；不影響已明列的禁賽及成績取消起日。",
+      "sourceRefs": [
+        {
+          "url": "https://www.athleticsintegrity.org/downloads/pdfs/disciplinary-process/en/Kibwott-KANDIE-Decision.pdf",
+          "retrievedAt": "2026-09-23T23:31:58.457456+00:00",
+          "rawSha256": "5a7a8e87cf1d9470bc7170ec3a0632d40d902b99fb6b4d9e5329cef884e17d1c",
+          "textSha256": "e113704817d07ffc46903242d611980f86123888d1cf541559c306830c0fcb5b",
+          "textPath": ".cache/source-followups-20260924/c2a2897e3ba88f7c1646.txt"
+        },
+        {
+          "url": "https://www.athleticsintegrity.org/disciplinary-process/first-instance-decisions",
+          "retrievedAt": "2026-09-23T23:31:56.243173+00:00",
+          "rawSha256": "3b5073e6f5978e641b687fe9a4f5d966e0147e8d2f8d25582fb0199dc74c45c4",
+          "textSha256": "16e198e8c295782b26bce12d34d88d0e965c8e2242a29b6cc6056ccb17e68785",
+          "textPath": ".cache/source-followups-20260924/479a74a41e3d9ad99a38.txt"
+        }
+      ]
+    },
+    {
+      "id": "aiu-dbc9a1f66bb9",
+      "athleteName": "Nancy Jelagat Meto",
+      "checkedAt": "2026-09-24",
+      "resolution": "unresolved",
+      "note": "裁決第 30.1 段仍列 2024-08-11 起算兩年，名冊仍列 2026-02-05。兩個日期繼續並列，未找到可在此次查閱來源中消除差異的更正。",
+      "sourceRefs": [
+        {
+          "url": "https://www.athleticsintegrity.org/downloads/pdfs/disciplinary-process/en/AIU-24-175-Nancy-Jelagat-Meto-Decision.pdf",
+          "retrievedAt": "2026-09-23T23:31:58.449369+00:00",
+          "rawSha256": "d0390beae5f9a55851fdf2c81972e0bd2388028f06eb30a2bef8765261a59618",
+          "textSha256": "6a64314368dd066de2a3f0f4882c159530dd8c70a86fa5b50d5bb7996d17df33",
+          "textPath": ".cache/source-followups-20260924/7768ffa2a3535426c91c.txt"
+        },
+        {
+          "url": "https://www.athleticsintegrity.org/disciplinary-process/first-instance-decisions",
+          "retrievedAt": "2026-09-23T23:31:56.243173+00:00",
+          "rawSha256": "3b5073e6f5978e641b687fe9a4f5d966e0147e8d2f8d25582fb0199dc74c45c4",
+          "textSha256": "16e198e8c295782b26bce12d34d88d0e965c8e2242a29b6cc6056ccb17e68785",
+          "textPath": ".cache/source-followups-20260924/479a74a41e3d9ad99a38.txt"
+        }
+      ]
+    },
+    {
+      "id": "aiu-190ce97cb856",
+      "athleteName": "Nobert Kigen",
+      "checkedAt": "2026-09-24",
+      "resolution": "unresolved",
+      "note": "裁決第 6 段仍將尿液檢驗通知寫為 2023-02-06，早於 2023-08-03 採樣。未採用這個可疑通知日，不自行改成其他年份。",
+      "sourceRefs": [
+        {
+          "url": "https://www.athleticsintegrity.org/downloads/pdfs/disciplinary-process/en/AIU-23-433-KIGEN-Decision.pdf",
+          "retrievedAt": "2026-09-23T23:31:58.638015+00:00",
+          "rawSha256": "97b7a9324b22c9a4206ddb33ac440626d838b9b6a294b6fe533be14ecf9a8b23",
+          "textSha256": "4d6ce0a40f99854a16013bb3461d59d1f09d54a0b3d94579825971076354f744",
+          "textPath": ".cache/source-followups-20260924/f8d42977dcfbc03ca3f8.txt"
+        },
+        {
+          "url": "https://www.athleticsintegrity.org/disciplinary-process/first-instance-decisions",
+          "retrievedAt": "2026-09-23T23:31:56.243173+00:00",
+          "rawSha256": "3b5073e6f5978e641b687fe9a4f5d966e0147e8d2f8d25582fb0199dc74c45c4",
+          "textSha256": "16e198e8c295782b26bce12d34d88d0e965c8e2242a29b6cc6056ccb17e68785",
+          "textPath": ".cache/source-followups-20260924/479a74a41e3d9ad99a38.txt"
+        }
+      ]
+    },
+    {
+      "id": "usada-0f682f5a12d7",
+      "athleteName": "Marck Harrison",
+      "checkedAt": "2026-09-24",
+      "resolution": "unresolved",
+      "note": "重讀個案公告仍未公布實際採樣日期或賽內／賽外情境。2018-01-24 是處分公告日期，不能當作採樣日期。",
+      "sourceRefs": [
+        {
+          "url": "https://www.usada.org/sanction/marck-harrison-accepts-public-warning/",
+          "retrievedAt": "2026-09-23T23:31:59.587835+00:00",
+          "rawSha256": "1286d00eeb342c69c439669dd99b49c7730e8ac81e2ab1ac55f5d17204fab874",
+          "textSha256": "0e7341357c74326be7c1566fc8b16acaea860a842e00927406fe6abbe3ad93ec",
+          "textPath": ".cache/source-followups-20260924/b6ec4ea873da74834802.txt"
+        }
+      ]
+    },
+    {
+      "id": "usada-f49825dfb87e",
+      "athleteName": "Sharon Jackson",
+      "checkedAt": "2026-09-24",
+      "resolution": "unresolved",
+      "note": "重讀個案公告仍未公布實際採樣日期或賽內／賽外情境。2018-01-24 是處分公告日期，不能當作採樣日期。",
+      "sourceRefs": [
+        {
+          "url": "https://www.usada.org/sanction/sharon-jackson-accepts-public-warning/",
+          "retrievedAt": "2026-09-23T23:32:01.950549+00:00",
+          "rawSha256": "0cadfeef5657aabdeb4a457c71ea48b75fca9c03f02685ae70b07e1a7bd18a82",
+          "textSha256": "83211a711d3a136e31de5bc7db58b424355b2dc81336192c645f0ab46629cd6b",
+          "textPath": ".cache/source-followups-20260924/72f816f92049dd28218b.txt"
+        }
+      ]
+    }
+  ]
+}

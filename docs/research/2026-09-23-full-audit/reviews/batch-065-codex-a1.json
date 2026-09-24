@@ -1,0 +1,548 @@
+{
+  "cases": [
+    {
+      "id": "usada-5c5d5188ddf0",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-467a550bbd759b19",
+        "registry-619d44c5ddfce5ec"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-467a550bbd759b19",
+          "startLine": 1,
+          "endLine": 8,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告確認 Wilson、田徑、spironolactone、2023年5月30日賽外陽性、未事先取得TUE、公開警告、後獲未來用藥TUE及無須取消成績。"
+        },
+        {
+          "documentId": "registry-619d44c5ddfce5ec",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "dates"
+          ],
+          "note": "名冊列 Wilson、田徑、canrenone、公開警告及2023年9月18日公告日期。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "medium",
+          "claim": "nationality：美國",
+          "explanation": "公告標題及USADA管轄資訊不足以確認選手國籍或代表隊；未見相反的台灣代表證據。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-467a550bbd759b19",
+              "startLine": 1,
+              "endLine": 1
+            },
+            {
+              "documentId": "doc-467a550bbd759b19",
+              "startLine": 12,
+              "endLine": 15
+            }
+          ],
+          "suggestion": "補充能確認其國籍或競賽代表的來源，否則標為未確認。"
+        }
+      ]
+    },
+    {
+      "id": "usada-7e6f399372a6",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-327a92e2d70b456b",
+        "registry-b430a99cae6eb7f0"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-327a92e2d70b456b",
+          "startLine": 1,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告確認 Ostrander 為田徑選手，檢出 canrenone、未取得TUE、四個月禁賽及自採樣日起取消成績。"
+        },
+        {
+          "documentId": "registry-b430a99cae6eb7f0",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "dates"
+          ],
+          "note": "名冊列 Ostrander、田徑、canrenone、四個月處分及2023年8月25日公告日期。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "medium",
+          "claim": "nationality：美國",
+          "explanation": "官方標題的U.S.及居住地不足以證明國籍或代表隊；資料未見台灣代表證據。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-327a92e2d70b456b",
+              "startLine": 1,
+              "endLine": 1
+            },
+            {
+              "documentId": "doc-327a92e2d70b456b",
+              "startLine": 7,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "補充國籍或實際競賽代表的佐證，否則標為未確認。"
+        }
+      ]
+    },
+    {
+      "id": "usada-79470a91247a",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-c55a791326333773",
+        "registry-cdd766953e3693f4"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-c55a791326333773",
+          "startLine": 7,
+          "endLine": 12,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告確認 Whitham 為自行車選手，經可信檢舉後採樣，多種物質陽性，早期承認減期後處三年，自2023年6月7日起算並取消採樣日起成績。"
+        },
+        {
+          "documentId": "registry-cdd766953e3693f4",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "dates"
+          ],
+          "note": "名冊列 Whitham、自行車、多種物質、三年處分及2023年7月19日公告日期。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "medium",
+          "claim": "nationality：美國",
+          "explanation": "美國地名、U.S.標題及USADA管轄不足以確認國籍或代表隊；未見台灣代表證據。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-c55a791326333773",
+              "startLine": 1,
+              "endLine": 1
+            },
+            {
+              "documentId": "doc-c55a791326333773",
+              "startLine": 7,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "補充可確認國籍或競賽代表的來源，否則標為未確認。"
+        }
+      ]
+    },
+    {
+      "id": "usada-ea30e84daaab",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-331b43f1b976e19d",
+        "registry-4339013799a256a3"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-331b43f1b976e19d",
+          "startLine": 7,
+          "endLine": 11,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告確認 Olsen 為舉重選手，賽內檢出 epitrenbolone，依早期承認獲一年減期後處三年，自4月18日起並取消3月19日起的成績。"
+        },
+        {
+          "documentId": "registry-4339013799a256a3",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "dates"
+          ],
+          "note": "名冊列 Olsen、舉重、epitrenbolone、三年處分及2023年7月12日公告日期。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "medium",
+          "claim": "nationality：美國",
+          "explanation": "公告中的美國標題及佛羅里達居住地不足以證明國籍或競賽代表；未見台灣代表證據。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-331b43f1b976e19d",
+              "startLine": 1,
+              "endLine": 1
+            },
+            {
+              "documentId": "doc-331b43f1b976e19d",
+              "startLine": 7,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "補充國籍或競賽代表的直接佐證，否則標為未確認。"
+        }
+      ]
+    },
+    {
+      "id": "usada-8acc4528cb6b",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-6584faab1528852b",
+        "registry-b1a38f1b1f24161e"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-6584faab1528852b",
+          "startLine": 7,
+          "endLine": 9,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告確認 Bracy 的項目、2023年4月26日超量靜脈輸注、申報時點、無禁用成分、未符合追溯TUE及賽外無須取消成績。"
+        },
+        {
+          "documentId": "registry-b1a38f1b1f24161e",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "dates"
+          ],
+          "note": "名冊記錄 Bracy 靜脈輸注方法違規、公開警告及公告日期。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "medium",
+          "claim": "nationality：美國",
+          "explanation": "U.S.標題及丹佛居住地不能確認國籍或代表隊；未見台灣代表證據。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-6584faab1528852b",
+              "startLine": 1,
+              "endLine": 1
+            },
+            {
+              "documentId": "doc-6584faab1528852b",
+              "startLine": 7,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "補充國籍或競賽代表的佐證，否則標為未確認。"
+        }
+      ]
+    },
+    {
+      "id": "usada-b03e0386a601",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-d160210ebe6a5f00",
+        "registry-7cb5dffe217ef9ef"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-d160210ebe6a5f00",
+          "startLine": 7,
+          "endLine": 12,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告詳述 Brim 的帕拉自行車身分、申報胰島素且檢驗陰性、追溯TUE遭WADA兩度否決、一年禁賽及成績取消。"
+        },
+        {
+          "documentId": "registry-7cb5dffe217ef9ef",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "dates"
+          ],
+          "note": "名冊列 Brim、帕拉自行車、胰島素、一年處分及2023年5月23日公告日期。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "medium",
+          "claim": "nationality：美國",
+          "explanation": "U.S.標題、居住地與USADA管轄未證明國籍或代表隊；未見台灣代表證據。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-d160210ebe6a5f00",
+              "startLine": 1,
+              "endLine": 1
+            },
+            {
+              "documentId": "doc-d160210ebe6a5f00",
+              "startLine": 7,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "補充國籍或競賽代表的直接證據，否則標為未確認。"
+        }
+      ]
+    },
+    {
+      "id": "usada-b6074d0cf1fc",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-fc90b720c4f22cb7",
+        "registry-710ecb2287bb70f8"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-fc90b720c4f22cb7",
+          "startLine": 7,
+          "endLine": 11,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告確認 Corrigan 為跆拳道選手、拒交檢體、退休相關疏失、兩年禁賽於退休期間停止計時，以及違規日起成績取消。"
+        },
+        {
+          "documentId": "registry-710ecb2287bb70f8",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "dates"
+          ],
+          "note": "名冊列 Corrigan、跆拳道、拒絕採樣、兩年處分及2023年5月9日公告日期。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "medium",
+          "claim": "nationality：美國",
+          "explanation": "U.S.標題與加州居住地不足以確認國籍或代表隊；資料未見台灣代表證據。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-fc90b720c4f22cb7",
+              "startLine": 1,
+              "endLine": 1
+            },
+            {
+              "documentId": "doc-fc90b720c4f22cb7",
+              "startLine": 7,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "補充國籍或競賽代表的直接來源，否則標為未確認。"
+        }
+      ]
+    },
+    {
+      "id": "usada-3e2c75f84c3d",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-2d7c2021e2389f81",
+        "registry-f16efc581a1778d1"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-2d7c2021e2389f81",
+          "startLine": 7,
+          "endLine": 8,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告確認 Clark 為帕拉田徑選手，賽外檢出HCTZ，照護家人誤將其藥物放入每日維他命，處公開警告且無須取消成績。"
+        },
+        {
+          "documentId": "registry-f16efc581a1778d1",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "dates"
+          ],
+          "note": "名冊列 Clark、帕拉田徑、HCTZ、公開警告及2023年5月4日公告日期。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "medium",
+          "claim": "nationality：美國",
+          "explanation": "U.S.標題及洛杉磯居住地不足以證明國籍或競賽代表；未見台灣代表證據。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-2d7c2021e2389f81",
+              "startLine": 1,
+              "endLine": 1
+            },
+            {
+              "documentId": "doc-2d7c2021e2389f81",
+              "startLine": 7,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "補充能確認國籍或代表隊的來源，否則標為未確認。"
+        }
+      ]
+    }
+  ]
+}

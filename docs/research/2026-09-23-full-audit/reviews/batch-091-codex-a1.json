@@ -1,0 +1,571 @@
+{
+  "cases": [
+    {
+      "id": "usada-64a436bacae4",
+      "status": "issue",
+      "checks": {
+        "identity": "issue",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-54abd6452587e840",
+        "registry-3e5e28ec4e51f101"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-54abd6452587e840",
+          "startLine": 7,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告確認 Gingras 是舉重教練、非分析違規，以及其持有、販運和施用行為、12年處分和成績取消。"
+        },
+        {
+          "documentId": "registry-3e5e28ec4e51f101",
+          "startLine": 1,
+          "endLine": 3,
+          "supports": [
+            "identity",
+            "sanction",
+            "dates"
+          ],
+          "note": "名冊明列支援人員、終身處分減為12年、退休停算，並列至2029-01-15。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "identity",
+          "kind": "contradiction",
+          "severity": "high",
+          "claim": "athleteName: Michael Gingras；year: 2015",
+          "explanation": "來源明確稱 Gingras 為教練／運動支援人員，非運動員；2015是行為期間起始年，處分公告在2017年。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-54abd6452587e840",
+              "startLine": 1,
+              "endLine": 8
+            },
+            {
+              "documentId": "registry-3e5e28ec4e51f101",
+              "startLine": 1,
+              "endLine": 1
+            }
+          ],
+          "suggestion": "將身分標為教練／運動支援人員，並清楚標示2015為行為期間年份、2017為公告年份。"
+        },
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "medium",
+          "claim": "nationality: 美國",
+          "explanation": "公告稱其來自俄勒岡州，並說 USADA 負責美國奧林匹克與帕運體系檢測；未明確證實國籍或代表國。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-54abd6452587e840",
+              "startLine": 7,
+              "endLine": 7
+            },
+            {
+              "documentId": "doc-54abd6452587e840",
+              "startLine": 12,
+              "endLine": 15
+            }
+          ],
+          "suggestion": "刪除已確定的國籍標示，或補充代表隊／國籍的直接來源。"
+        }
+      ]
+    },
+    {
+      "id": "usada-792c30cdc646",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-4af07e7cfec77f79",
+        "registry-e53ef26e0e342dd2"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-4af07e7cfec77f79",
+          "startLine": 7,
+          "endLine": 11,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告確認 Oliver 的田徑身分、選拔賽檢出 ostarine、另一含 arimistane 產品的購買及使用調查、1年禁賽與成績取消。"
+        },
+        {
+          "documentId": "registry-e53ef26e0e342dd2",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction"
+          ],
+          "note": "名冊列出 Oliver、田徑、ostarine、一年處分及成績損失。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "medium",
+          "claim": "nationality: 美國",
+          "explanation": "公告提供田納西州居住地及美國選拔賽背景，但沒有直接確認國籍或代表國。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-4af07e7cfec77f79",
+              "startLine": 7,
+              "endLine": 8
+            },
+            {
+              "documentId": "doc-4af07e7cfec77f79",
+              "startLine": 15,
+              "endLine": 19
+            }
+          ],
+          "suggestion": "將國家標示改為未確認，或補充代表隊／國籍的直接來源。"
+        }
+      ]
+    },
+    {
+      "id": "usada-89c25ce0aa40",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-ddd0eb787d1f6c20",
+        "registry-c833bfb60d9c0674"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-ddd0eb787d1f6c20",
+          "startLine": 7,
+          "endLine": 9,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告確認 Moore 的田徑身分、室內錦標賽樣本的多種 methandienone 代謝物、四年禁賽及成績取消。"
+        },
+        {
+          "documentId": "registry-c833bfb60d9c0674",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction"
+          ],
+          "note": "名冊列出 Moore、田徑、methandienone、四年處分及成績損失。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "medium",
+          "claim": "nationality: 美國",
+          "explanation": "公告列出加州所在地及美國室內錦標賽，未直接說明國籍或代表國。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-ddd0eb787d1f6c20",
+              "startLine": 7,
+              "endLine": 8
+            },
+            {
+              "documentId": "doc-ddd0eb787d1f6c20",
+              "startLine": 11,
+              "endLine": 14
+            }
+          ],
+          "suggestion": "將國家標示改為未確認，或補充代表隊／國籍的直接來源。"
+        }
+      ]
+    },
+    {
+      "id": "usada-a190ab7e50ab",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-3b02f4c525a98fa1",
+        "registry-939075ac6784a879"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-3b02f4c525a98fa1",
+          "startLine": 7,
+          "endLine": 9,
+          "supports": [
+            "identity",
+            "event",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告確認 Harvey 的自行車身分、賽外拒絕採樣、四年禁賽及相關日期的成績取消。"
+        },
+        {
+          "documentId": "registry-939075ac6784a879",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "event",
+            "sanction"
+          ],
+          "note": "名冊將其列為自行車項目、拒絕提供檢體、四年處分及成績損失。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "medium",
+          "claim": "nationality: 美國",
+          "explanation": "公告稱 Harvey 來自加州，且說 USADA 也處理在美國訓練或居住的外國選手；來源未確認他的國籍或代表國。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-3b02f4c525a98fa1",
+              "startLine": 7,
+              "endLine": 11
+            }
+          ],
+          "suggestion": "將國家標示改為未確認，或補充代表隊／國籍的直接來源。"
+        }
+      ]
+    },
+    {
+      "id": "usada-2368662f3457",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-651a60f419032123",
+        "registry-a1b5010bc4f3ac04"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-651a60f419032123",
+          "startLine": 7,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告確認 Nielson 的田徑身分、禁用肽類物質的持有使用期間、四年禁賽起日與成績取消。"
+        },
+        {
+          "documentId": "registry-a1b5010bc4f3ac04",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction"
+          ],
+          "note": "名冊列為田徑、肽類非分析違規、四年處分及成績損失。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "medium",
+          "claim": "nationality: 美國",
+          "explanation": "公告稱 Nielson 來自亞利桑那州，未明確確認國籍或代表國。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-651a60f419032123",
+              "startLine": 7,
+              "endLine": 8
+            },
+            {
+              "documentId": "doc-651a60f419032123",
+              "startLine": 12,
+              "endLine": 15
+            }
+          ],
+          "suggestion": "將國家標示改為未確認，或補充代表隊／國籍的直接來源。"
+        }
+      ]
+    },
+    {
+      "id": "usada-2a8b050c35ed",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "uncertain",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-ff52053a6702e695",
+        "registry-43d462aef7a40b52"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-ff52053a6702e695",
+          "startLine": 7,
+          "endLine": 9,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction"
+          ],
+          "note": "公告確認 Beckwith-Ludlow 的田徑身分、檢出 clomiphene 代謝物、治療用途與公開警告；未說明成績處置或 TUE。"
+        },
+        {
+          "documentId": "registry-43d462aef7a40b52",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "sanction"
+          ],
+          "note": "名冊列出 clomiphene 及公開警告。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "medium",
+          "claim": "nationality: 美國",
+          "explanation": "公告提供印第安納州所在地和美國體系背景，未直接證實國籍或代表國。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-ff52053a6702e695",
+              "startLine": 7,
+              "endLine": 8
+            },
+            {
+              "documentId": "doc-ff52053a6702e695",
+              "startLine": 11,
+              "endLine": 14
+            }
+          ],
+          "suggestion": "將國家標示改為未確認，或補充代表隊／國籍的直接來源。"
+        },
+        {
+          "field": "outcomes",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "outcome: 公開警告（無禁賽）",
+          "explanation": "來源確認公開警告，但未明說沒有禁賽期間；案件摘要未列成績處置，且結果欄為 null，故成績後果仍未確立。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-ff52053a6702e695",
+              "startLine": 7,
+              "endLine": 10
+            },
+            {
+              "documentId": "registry-43d462aef7a40b52",
+              "startLine": 1,
+              "endLine": 1
+            }
+          ],
+          "suggestion": "將結果簡述為公開警告；保留未確認是否另有禁賽或成績處置，除非補得完整處分紀錄。"
+        }
+      ]
+    },
+    {
+      "id": "usada-acfba90a8905",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-07073bc57c0469c4",
+        "registry-89fa8252ff881ceb"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-07073bc57c0469c4",
+          "startLine": 7,
+          "endLine": 11,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告確認 Geving 的自行車身分、acetazolamide 檢出、用藥情境、無 TUE 或未申請、12個月禁賽與成績取消。"
+        },
+        {
+          "documentId": "registry-89fa8252ff881ceb",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction"
+          ],
+          "note": "名冊列出 Geving、自行車、acetazolamide、一年處分及成績損失。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "medium",
+          "claim": "nationality: 美國",
+          "explanation": "公告標題及 USADA 體系資訊不足以確認運動員的國籍或代表國；所在地在佛羅里達州也不構成證明。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-07073bc57c0469c4",
+              "startLine": 1,
+              "endLine": 7
+            },
+            {
+              "documentId": "doc-07073bc57c0469c4",
+              "startLine": 13,
+              "endLine": 16
+            }
+          ],
+          "suggestion": "將國家標示改為未確認，或補充代表隊／國籍的直接來源。"
+        }
+      ]
+    },
+    {
+      "id": "usada-f40282760e72",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-6ec96ab3f12fe3ee",
+        "registry-44e4ce10c5368933"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-6ec96ab3f12fe3ee",
+          "startLine": 7,
+          "endLine": 11,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告確認 Schrodt 的雪車檢體含 DMBA、補充品分析與標籤差異、16個月禁賽及成績取消。"
+        },
+        {
+          "documentId": "registry-44e4ce10c5368933",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction"
+          ],
+          "note": "名冊列為雪車與鋼架雪車、DMBA、16個月處分及成績損失。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "medium",
+          "claim": "nationality: 美國",
+          "explanation": "美國選手標題及美國處理機構的背景未直接證實國籍或代表國；公告內容也未見該項確認。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-6ec96ab3f12fe3ee",
+              "startLine": 1,
+              "endLine": 7
+            },
+            {
+              "documentId": "doc-6ec96ab3f12fe3ee",
+              "startLine": 13,
+              "endLine": 16
+            }
+          ],
+          "suggestion": "將國家標示改為未確認，或補充代表隊／國籍的直接來源。"
+        }
+      ]
+    }
+  ]
+}

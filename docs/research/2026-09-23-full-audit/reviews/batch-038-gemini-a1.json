@@ -1,0 +1,159 @@
+{
+  "cases": [
+    {
+      "id": "aiu-83ec752ef25a",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-81fefebcfce12936",
+        "registry-5dad579ccd96d330"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-81fefebcfce12936",
+          "startLine": 1,
+          "endLine": 12,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "確認選手姓名為 Tadu Teshome Nare，為衣索比亞之長跑田徑選手"
+        },
+        {
+          "documentId": "doc-81fefebcfce12936",
+          "startLine": 75,
+          "endLine": 83,
+          "supports": [
+            "event",
+            "substance",
+            "dates"
+          ],
+          "note": "確認於 2023-11-07、2024-06-24 及 2024-10-13 發生三次行蹤違規"
+        },
+        {
+          "documentId": "doc-81fefebcfce12936",
+          "startLine": 346,
+          "endLine": 368,
+          "supports": [
+            "event",
+            "education"
+          ],
+          "note": "確認評估過失時考量語言障礙及兩次已通知代理人但未獲更新之後續情況"
+        },
+        {
+          "documentId": "doc-81fefebcfce12936",
+          "startLine": 384,
+          "endLine": 395,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "確認處以 22 個月禁賽自 2025-02-05 起算，並取消 2024-10-13 起之所有成績"
+        },
+        {
+          "documentId": "registry-5dad579ccd96d330",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "官方名冊記載 22 個月禁賽處分、自 2025-02-05 起算並取消 2024-10-13 起成績"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "aiu-79e1da0d7788",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-3fcdf3b2f12284c4",
+        "registry-78c7d1f55794737b"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-3fcdf3b2f12284c4",
+          "startLine": 1,
+          "endLine": 12,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "確認選手為肯亞路跑選手 Nehemiah Kipyegon"
+        },
+        {
+          "documentId": "doc-3fcdf3b2f12284c4",
+          "startLine": 56,
+          "endLine": 61,
+          "supports": [
+            "event",
+            "substance",
+            "dates"
+          ],
+          "note": "確認於 2025-02-15 奈及利亞賽內檢體檢出曲美他嗪（Trimetazidine）"
+        },
+        {
+          "documentId": "doc-3fcdf3b2f12284c4",
+          "startLine": 148,
+          "endLine": 152,
+          "supports": [
+            "event",
+            "education"
+          ],
+          "note": "註釋確認選手在收到指控書（Notice of Charge）前即已接受後果，因此未曾發出正式指控書"
+        },
+        {
+          "documentId": "doc-3fcdf3b2f12284c4",
+          "startLine": 166,
+          "endLine": 176,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "確認依及早承認自 2025-04-01 起處三年禁賽，並取消 2025-02-15 至 2025-04-01 期間之成績"
+        },
+        {
+          "documentId": "registry-78c7d1f55794737b",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "官方名冊原列姓名拼寫為 Nehamiah Kipyegon，肯亞選手，註記禁賽 3 年及成績取消"
+        }
+      ],
+      "findings": []
+    }
+  ]
+}

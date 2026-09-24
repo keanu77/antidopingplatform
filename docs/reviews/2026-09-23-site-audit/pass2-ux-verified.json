@@ -1,0 +1,163 @@
+{
+  "audit": "pass2-ux-verified",
+  "date": "2026-09-23",
+  "sourceAudit": ".claude/audit/pass1-ux.json",
+  "verificationMethod": "Independent source re-read with at least 30 surrounding lines for each finding, all relevant event/effect/render paths, and in-memory execution of unchanged CaseList/TUE handler source with deferred API stubs.",
+  "summary": {
+    "reviewed": 8,
+    "retained": 8,
+    "rejected": 0,
+    "scopeClarified": [
+      "UX-05",
+      "UX-07"
+    ],
+    "browserVerified": 0,
+    "codeChanges": 0,
+    "externalRequests": 0
+  },
+  "findings": [
+    {
+      "id": "UX-01",
+      "severity": "P2",
+      "verdict": "confirmed",
+      "confidence": 0.99,
+      "file": "frontend/src/pages/CaseList.jsx",
+      "line": 200,
+      "reviewedRanges": [
+        "1-260",
+        "252-285",
+        "328-410",
+        "535-541",
+        "frontend/src/utils/debounce.js:1-39"
+      ],
+      "reason": "clearFilters only updates filters. No filter-dependent effect calls loadCases; the sole initialization effect has []. The clear button is outside the form, so no implicit submit repairs the missing reload. Pending debounce is not cancelled.",
+      "attemptedCounterevidence": "Checked form boundary, onClick wiring, all useEffect/loadCases/debouncedSearch call sites and debounce implementation. None trigger a fresh query on this state change.",
+      "reproduction": "Executed the actual clearFilters source against counters in memory: empty filters assigned, loadCalls=0, debounceCancelCalls=0.",
+      "recommendation": "Cancel queued debounce, invalidate prior requests, set empty filters and request page1 explicitly."
+    },
+    {
+      "id": "UX-02",
+      "severity": "P2",
+      "verdict": "confirmed",
+      "confidence": 0.99,
+      "file": "frontend/src/pages/CaseList.jsx",
+      "line": 141,
+      "reviewedRanges": [
+        "1-209",
+        "328-410",
+        "frontend/src/services/api.js:1-59",
+        "frontend/src/utils/cache.js:1-94"
+      ],
+      "reason": "All request completions update state unconditionally; neither the Axios client nor the component supplies cancellation or request identity. Cache hit does not invalidate prior requests. Initialization can also submit empty filters after a user's request.",
+      "attemptedCounterevidence": "Checked shared API client/interceptors, cache behavior, initialization, debounce cancellation and callbacks. Debounce prevents only requests not yet sent.",
+      "reproduction": "Executed unchanged loadCases source with deferred A and B; resolved B then A. Final cases=['A'] despite latest submitted query B.",
+      "recommendation": "Use a request sequence or AbortController, guard all data/error/loading updates, and avoid initialization overwriting a user query."
+    },
+    {
+      "id": "UX-03",
+      "severity": "P2",
+      "verdict": "confirmed",
+      "confidence": 0.99,
+      "file": "frontend/src/pages/CaseList.jsx",
+      "line": 120,
+      "reviewedRanges": [
+        "90-198",
+        "328-410"
+      ],
+      "reason": "The only setError call sets the failure string. Neither request start, success nor cache hit clears it; error banner renders independently of a successful cases list.",
+      "attemptedCounterevidence": "Searched all setError call sites and checked error render branch. No component reset occurs during same-page retry.",
+      "reproduction": "Executed actual loadCases source: rejected first request then successfully resolved another. Cases=['good'] while error remains '載入案例資料失敗，請稍後再試。'.",
+      "recommendation": "Clear errors for a new/latest successful request; stale failures must not overwrite current status."
+    },
+    {
+      "id": "UX-04",
+      "severity": "P2",
+      "verdict": "confirmed",
+      "confidence": 0.99,
+      "file": "frontend/src/pages/CaseDetail.jsx",
+      "line": 41,
+      "reviewedRanges": [
+        "1-105",
+        "frontend/src/App.jsx:1-56",
+        "frontend/src/components/ErrorBoundary.jsx:1-46"
+      ],
+      "reason": "On initial navigation, caseData is null. Any Axios rejection is swallowed by catch and loading becomes false; the only ensuing null branch displays '案例不存在'. HTTP404, HTTP500 and network failure have no separate state.",
+      "attemptedCounterevidence": "Checked route element/keying and global ErrorBoundary. The local catch consumes the failure, so the global boundary cannot render an alternative error.",
+      "reproduction": "Source-control-flow proof: initial null + rejected getById + finally false necessarily reaches the nonexistence branch. Browser/network injection remains pending.",
+      "recommendation": "Distinguish404 from load errors and provide retry. ID-change stale response handling can be fixed with the same request cleanup but is not counted as a separately browser-verified defect."
+    },
+    {
+      "id": "UX-05",
+      "severity": "P2",
+      "verdict": "confirmed_with_scope_clarification",
+      "confidence": 0.99,
+      "file": "frontend/src/pages/TUE.jsx",
+      "line": 110,
+      "reviewedRanges": [
+        "73-158",
+        "1410-1490",
+        "1490-1640"
+      ],
+      "reason": "The button is disabled while loading, but input Enter invokes handleDrugCheck without a guard. The handler and finally unconditionally update state. Editing the input also leaves the preceding result visible.",
+      "attemptedCounterevidence": "The getSubstances effect has an active guard, but it applies only to the independent dropdown request. The quick-check handler has none. Checked button/input conditions and result render.",
+      "reproduction": "Executed actual handleDrugCheck source with deferred A and B; resolved B then A. Final result.drugName='A' after B was the latest submitted query.",
+      "scopeCorrection": "The result card explicitly shows displayName||drugName at line1479. Keep the finding as old result overwrites latest result / input and result diverge; do not claim the card hides which drug produced the answer.",
+      "recommendation": "Unify keyboard/button submission, guard request identity, and bind/clear result when editing the query."
+    },
+    {
+      "id": "UX-06",
+      "severity": "P2",
+      "verdict": "confirmed",
+      "confidence": 0.99,
+      "file": "frontend/src/pages/Education.jsx",
+      "line": 73,
+      "reviewedRanges": [
+        "1-118",
+        "300-377"
+      ],
+      "reason": "ADRV rejection only logs; adrv stays null. Main loading is already false and the violationTypes panel uses !adrv as a permanent spinner condition. Tab changes do not retry ADRV.",
+      "attemptedCounterevidence": "The shared educational error state is set only by getAll failure; it is not used by ADRV catch. The second activeTab effect loads caseLearning cases only.",
+      "reproduction": "Source-control-flow proof: getAll succeeds, getAdrv rejects, activeTab='violationTypes' results in !adrv spinner with no retry/error branch. Browser injection remains pending.",
+      "recommendation": "Give ADRV independent loading/error state and an actionable retry path."
+    },
+    {
+      "id": "UX-07",
+      "severity": "P2",
+      "verdict": "confirmed_with_scope_clarification",
+      "confidence": 0.96,
+      "file": "frontend/src/components/Layout.jsx",
+      "line": 65,
+      "reviewedRanges": [
+        "21-151"
+      ],
+      "reason": "ArrowDown opens menu and effect focuses a Link. Escape sets open=false, unmounting that focused Link; the trigger has no ref and no code restores focus.",
+      "attemptedCounterevidence": "Reviewed outer ref, menuRef, entire key handler, focus effect, trigger and Link handlers. No blur/Escape focus-return branch exists.",
+      "scopeCorrection": "Missing focus restoration is source-confirmed. The exact next-Tab destination varies with browser behavior and was not measured; remove any assertion of a specifically reproduced cross-browser Tab order.",
+      "reproduction": "Browser keyboard reproduction pending; source clearly lacks return-to-trigger on Escape.",
+      "recommendation": "Add a trigger ref and restore focus on Escape; verify keyboard behavior in the intended browser."
+    },
+    {
+      "id": "UX-08",
+      "severity": "P2",
+      "verdict": "confirmed",
+      "confidence": 0.99,
+      "file": "frontend/src/pages/TUE.jsx",
+      "line": 1518,
+      "reviewedRanges": [
+        "1490-1640"
+      ],
+      "reason": "Three selects have adjacent labels but no id/htmlFor, wrapper label, aria-label or aria-labelledby. Competition buttons change only CSS classes and expose no aria-pressed/radio checked state.",
+      "attemptedCounterevidence": "Checked entire surrounding JSX and all label/name attributes. The quick drug text input does have aria-label, but it is a different control. The decision result role=status does not name the selects or expose button selection.",
+      "reproduction": "Complete JSX attribute inspection confirms absent programmatic label/selection association; accessibility-tree check remains pending.",
+      "qualification": "Native selects may announce their selected option value; this does not provide the missing field name. No claim that all screen readers are completely silent.",
+      "recommendation": "Connect stable select IDs to labels and use a labelled native radio group or explicit pressed state for competition context."
+    }
+  ],
+  "rejectedFindings": [],
+  "limitations": [
+    "This verifies the source state read during the audit, before the parent applies fixes.",
+    "No browser screenshots, accessibility tree, production HTTP calls or layout measurements were collected.",
+    "No medical/regulatory content accuracy claims were added.",
+    "Only this JSON and the previously authorized pass1-api.json were written."
+  ]
+}

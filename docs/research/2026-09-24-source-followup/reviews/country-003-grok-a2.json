@@ -1,0 +1,285 @@
+{
+  "cases": [
+    {
+      "id": "usada-3e2c75f84c3d",
+      "status": "supported",
+      "identity": "supported",
+      "country": "supported",
+      "temporalScope": "supported",
+      "evidence": [
+        {
+          "documentId": "case",
+          "startLine": 1,
+          "endLine": 7,
+          "note": "USADA names Breanna Clark, 28, para track and field, public warning posted May 4, 2023."
+        },
+        {
+          "documentId": "country",
+          "startLine": 78,
+          "endLine": 81,
+          "note": "IPC profile names Breanna Clark, United States of America, Athletics; lookup listing only, matching the proposed limit."
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-13e15093f36a",
+      "status": "supported",
+      "identity": "supported",
+      "country": "supported",
+      "temporalScope": "supported",
+      "evidence": [
+        {
+          "documentId": "case",
+          "startLine": 1,
+          "endLine": 7,
+          "note": "USADA names Catarina Guimarães, 18, Paralympic track and field; accent is an orthographic variant."
+        },
+        {
+          "documentId": "country",
+          "startLine": 78,
+          "endLine": 81,
+          "note": "IPC lists Catarina Guimaraes, United States of America, Athletics, as a current profile country only."
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-3b36b9d0fea7",
+      "status": "uncertain",
+      "identity": "uncertain",
+      "country": "uncertain",
+      "temporalScope": "supported",
+      "evidence": [
+        {
+          "documentId": "case",
+          "startLine": 1,
+          "endLine": 8,
+          "note": "USADA: Richard Browne, 31, Renton, Wash., Paralympic track and field, 2022."
+        },
+        {
+          "documentId": "country",
+          "startLine": 78,
+          "endLine": 87,
+          "note": "IPC lists a Richard Browne, United States of America, Athletics, with only London 2012 results and no age or location."
+        }
+      ],
+      "findings": [
+        {
+          "field": "identity",
+          "explanation": "Richard Browne is not a distinctive name. The IPC page has no age or hometown, and its only results are from 2012, so it is not shown to be the 31-year-old sanctioned in 2022 even though that age is compatible with 2012.",
+          "suggestion": "Do not attach this IPC profile until an official source gives a shared age, hometown, or other identifier."
+        },
+        {
+          "field": "country",
+          "explanation": "United States of America is the lookup country of the IPC profile, but that listing cannot be quoted for this case while the profile may be a different Richard Browne.",
+          "suggestion": "Leave country unresolved until identity is tied to the 2022 USADA athlete."
+        }
+      ]
+    },
+    {
+      "id": "usada-7cdaea68994c",
+      "status": "supported",
+      "identity": "supported",
+      "country": "supported",
+      "temporalScope": "supported",
+      "evidence": [
+        {
+          "documentId": "case",
+          "startLine": 1,
+          "endLine": 7,
+          "note": "USADA: Shaquille Vance, 26, Paralympic track and field, sanction posted October 10, 2017."
+        },
+        {
+          "documentId": "country",
+          "startLine": 78,
+          "endLine": 81,
+          "note": "IPC lists Shaquille Vance, United States of America, Athletics. Rio 2016 results corroborate identity only; the proposal does not treat them as historical eligibility."
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-b03e0386a601",
+      "status": "supported",
+      "identity": "supported",
+      "country": "supported",
+      "temporalScope": "supported",
+      "evidence": [
+        {
+          "documentId": "case",
+          "startLine": 1,
+          "endLine": 9,
+          "note": "USADA: Katerina Brim, 24, Lowell, Paralympic cycling; insulin declaration dated October 19, 2022."
+        },
+        {
+          "documentId": "country",
+          "startLine": 77,
+          "endLine": 80,
+          "note": "IPC lists Katerina Brim, United States of America, Cycling, as the country at lookup."
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-c269d76b2513",
+      "status": "supported",
+      "identity": "supported",
+      "country": "supported",
+      "temporalScope": "supported",
+      "evidence": [
+        {
+          "documentId": "case",
+          "startLine": 1,
+          "endLine": 7,
+          "note": "USADA: Ryan Pinney, 36, Phoenix, Para cycling, sample May 25, 2016."
+        },
+        {
+          "documentId": "country",
+          "startLine": 77,
+          "endLine": 80,
+          "note": "IPC lists Ryan Pinney, United States of America, Cycling. Later Tokyo results fit the age but are not used to extend the lookup scope."
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-5a084088440d",
+      "status": "supported",
+      "identity": "supported",
+      "country": "supported",
+      "temporalScope": "supported",
+      "evidence": [
+        {
+          "documentId": "case",
+          "startLine": 1,
+          "endLine": 8,
+          "note": "USADA: Roderick Green, 37, sitting volleyball, sample November 15, 2016."
+        },
+        {
+          "documentId": "country",
+          "startLine": 448,
+          "endLine": 451,
+          "note": "Team USA profile is Sitting Volleyball, Roderick Green."
+        },
+        {
+          "documentId": "country",
+          "startLine": 463,
+          "endLine": 505,
+          "note": "Age 47 at this lookup matches age 37 in 2017. Rio 2016 sitting-volleyball team result states a USA roster period covering the case year, without claiming every year or citizenship."
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-e13aa658e684",
+      "status": "supported",
+      "identity": "supported",
+      "country": "supported",
+      "temporalScope": "supported",
+      "evidence": [
+        {
+          "documentId": "case",
+          "startLine": 1,
+          "endLine": 8,
+          "note": "USADA: Nina Cutro-Kelly, 38, judo, sample October 2, 2022."
+        },
+        {
+          "documentId": "country",
+          "startLine": 448,
+          "endLine": 471,
+          "note": "Team USA judo profile names Nina Cutro-Kelly, Olympian 2020, and records Tokyo 2020 +78 kg. Age 41 at lookup matches age 38 in 2023. Scope stays the stated Team USA periods, not citizenship."
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-5d85c8dbd1a0",
+      "status": "uncertain",
+      "identity": "uncertain",
+      "country": "uncertain",
+      "temporalScope": "uncertain",
+      "evidence": [
+        {
+          "documentId": "case",
+          "startLine": 1,
+          "endLine": 8,
+          "note": "USADA: Anthony Ferraro, 23, Spring Lake, N.J., Paralympic judo, sample May 12, 2018."
+        },
+        {
+          "documentId": "country",
+          "startLine": 448,
+          "endLine": 450,
+          "note": "Team USA page is an undated Para Judo roster that only lists the name Anthony Ferraro."
+        }
+      ],
+      "findings": [
+        {
+          "field": "identity",
+          "explanation": "The country source has only the name on an undated para-judo roster. It has no age or Spring Lake, and no personal profile was supplied to cross-check the USADA notice.",
+          "suggestion": "Require a dated official profile or roster line that shares age or hometown with the Spring Lake athlete."
+        },
+        {
+          "field": "temporalScope",
+          "explanation": "The roster states no Parapan edition or year. Santiago 2023 and Lima 2019 appear only in site navigation, not as this roster’s date, so no source period can be quoted.",
+          "suggestion": "Do not use the team-or-event scope until the roster is dated."
+        },
+        {
+          "field": "country",
+          "explanation": "A Team USA header would support USA only for an identified athlete and a stated period; neither is established here.",
+          "suggestion": "Leave the country annotation unresolved."
+        }
+      ]
+    },
+    {
+      "id": "usada-8fb29d61bbde",
+      "status": "supported",
+      "identity": "supported",
+      "country": "supported",
+      "temporalScope": "supported",
+      "evidence": [
+        {
+          "documentId": "case",
+          "startLine": 1,
+          "endLine": 8,
+          "note": "USADA: Tyler Burdick, 42, Salt Lake City, Paralympic snowboarding, missed test January 17, 2023."
+        },
+        {
+          "documentId": "country",
+          "startLine": 448,
+          "endLine": 460,
+          "note": "Team USA Para Snowboarding profile: Tyler Burdick, hometown Salt Lake City, age 45, matching the 2023 age."
+        },
+        {
+          "documentId": "country",
+          "startLine": 493,
+          "endLine": 496,
+          "note": "Stated Paralympic periods are Sochi 2014 and Beijing 2022, which the note correctly does not extend to every year or to citizenship."
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-5541522b98d9",
+      "status": "supported",
+      "identity": "supported",
+      "country": "supported",
+      "temporalScope": "supported",
+      "evidence": [
+        {
+          "documentId": "case",
+          "startLine": 1,
+          "endLine": 8,
+          "note": "USADA: Cory Scott Juneau, 19, skateboarding, sample January 28, 2018. The Brazil event location is not his country."
+        },
+        {
+          "documentId": "country",
+          "startLine": 448,
+          "endLine": 471,
+          "note": "Team USA skateboarding profile names Cory Juneau, age 27, Olympian 2020, Tokyo 2020 park bronze. Age matches 19 in 2019; Scott is a middle name absent here but the sport, age, and name align. Affiliation is for the stated Team USA periods only."
+        }
+      ],
+      "findings": []
+    }
+  ]
+}

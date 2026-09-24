@@ -1,0 +1,190 @@
+{
+  "cases": [
+    {
+      "id": "aiu-ce8bed2882d7",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-368b5b631fe20c05",
+        "registry-061df854bcbe4c47"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-368b5b631fe20c05",
+          "startLine": 12,
+          "endLine": 14,
+          "supports": [
+            "identity",
+            "country",
+            "event"
+          ],
+          "note": "決定確認 Kurgat 為肯亞公路跑者，涉及首次及第二次違規。"
+        },
+        {
+          "documentId": "doc-368b5b631fe20c05",
+          "startLine": 57,
+          "endLine": 63,
+          "supports": [
+            "event",
+            "substance",
+            "dates"
+          ],
+          "note": "奈洛比馬拉松 2024-10-27 樣本檢出曲安奈德。"
+        },
+        {
+          "documentId": "doc-368b5b631fe20c05",
+          "startLine": 86,
+          "endLine": 99,
+          "supports": [
+            "event",
+            "substance",
+            "dates"
+          ],
+          "note": "儋州馬拉松 2024-12-15 樣本亦檢出曲安奈德。"
+        },
+        {
+          "documentId": "doc-368b5b631fe20c05",
+          "startLine": 139,
+          "endLine": 147,
+          "supports": [
+            "sanction",
+            "education"
+          ],
+          "note": "運動員未回覆，AIU 仍認定兩項違規；未稱其主動自白。"
+        },
+        {
+          "documentId": "doc-368b5b631fe20c05",
+          "startLine": 229,
+          "endLine": 231,
+          "supports": [
+            "substance"
+          ],
+          "note": "2024 禁用清單列為 S9 糖皮質類固醇，屬比賽中禁用的特定物質。"
+        },
+        {
+          "documentId": "doc-368b5b631fe20c05",
+          "startLine": 285,
+          "endLine": 290,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "總禁賽六年，自 2025-02-20 起；取消 2024-10-27 起成績及相關獎項。"
+        },
+        {
+          "documentId": "registry-061df854bcbe4c47",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "AIU 名冊列 KEN、兩項違規、六年及取消相關成績。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "aiu-30a81b2d0d8f",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-fdb4dfa4f5275661",
+        "registry-7177445dd29f1ea1"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-fdb4dfa4f5275661",
+          "startLine": 13,
+          "endLine": 13,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "決定確認 Kirui 為肯亞公路跑者。"
+        },
+        {
+          "documentId": "doc-fdb4dfa4f5275661",
+          "startLine": 56,
+          "endLine": 62,
+          "supports": [
+            "event",
+            "substance",
+            "dates"
+          ],
+          "note": "德班馬拉松 2025-05-04 比賽樣本檢出曲安奈德。"
+        },
+        {
+          "documentId": "doc-fdb4dfa4f5275661",
+          "startLine": 81,
+          "endLine": 93,
+          "supports": [
+            "sanction",
+            "education"
+          ],
+          "note": "Kirui 承認使用及接受違規處分；其稱不知藥物含禁用物質。"
+        },
+        {
+          "documentId": "doc-fdb4dfa4f5275661",
+          "startLine": 125,
+          "endLine": 133,
+          "supports": [
+            "substance",
+            "sanction",
+            "education"
+          ],
+          "note": "2025 清單列 S9 特定物質；AIU 無證據認定故意，適用兩年處分。"
+        },
+        {
+          "documentId": "doc-fdb4dfa4f5275661",
+          "startLine": 139,
+          "endLine": 143,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "禁賽兩年自 2025-07-08 起，取消 2025-05-04 起成績及相關獎項。"
+        },
+        {
+          "documentId": "registry-7177445dd29f1ea1",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "AIU 名冊列 KEN、曲安奈德、兩年及取消相關成績。"
+        }
+      ],
+      "findings": []
+    }
+  ]
+}

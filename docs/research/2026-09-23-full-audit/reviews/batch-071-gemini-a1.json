@@ -1,0 +1,523 @@
+{
+  "cases": [
+    {
+      "id": "usada-7047ef231eac",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-5c4d7ec135f7fa89",
+        "registry-7a036ee7d199474c"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-5c4d7ec135f7fa89",
+          "startLine": 1,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告確認選手姓名、舉重項目、2021-07-01檢體檢出clomiphene與19-NA外源性代謝物，及早承認減為三年禁賽並取消成績"
+        },
+        {
+          "documentId": "registry-7a036ee7d199474c",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊登錄Jacob Lacoste舉重處分3年禁賽與取消成績，公告日2021-09-29"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "美國",
+          "explanation": "官方公告僅在標題稱「U.S. Weightlifting Athlete」並提及居住於蒙大拿州，依審核規範，管轄權、居住地或新聞標題不能單獨作為國籍或運動代表權之充分證明。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-5c4d7ec135f7fa89",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "應將國籍或代表權標註為證據不足待確認，或補充具體代表隊／公民身分證明"
+        }
+      ]
+    },
+    {
+      "id": "usada-669c86e73b92",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-abb7b3ab664abcfc",
+        "registry-557e5479c4935fe6"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-abb7b3ab664abcfc",
+          "startLine": 1,
+          "endLine": 12,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告確認選手姓名、自行車項目、2021-07-03賽事奪冠後檢測經IRMS顯示外源性類固醇（睪固酮或其前驅物），處以四年禁賽與取消成績"
+        },
+        {
+          "documentId": "registry-557e5479c4935fe6",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊登錄McAben Prince自行車項目處分4年禁賽及成績取消，公告日2021-09-14"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "美國",
+          "explanation": "公告僅有標題「U.S. Cycling Athlete」、居住地南卡羅來納州及美國自行車協會會員資格，未明確記載官方國籍或國際運動代表權。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-abb7b3ab664abcfc",
+              "startLine": 1,
+              "endLine": 8
+            }
+          ],
+          "suggestion": "應將國籍狀態列為待確認，避免僅由居住地或總會管轄權推定國籍"
+        }
+      ]
+    },
+    {
+      "id": "usada-f72472960e40",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-ba090f56bb8f2385",
+        "registry-f42e129d613d74ff"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-ba090f56bb8f2385",
+          "startLine": 1,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告確認選手姓名、舉重項目、2021-06-30錦標賽檢出ostarine，經及早承認減為三年禁賽並取消成績"
+        },
+        {
+          "documentId": "registry-f42e129d613d74ff",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊登錄Christian Buckley舉重項目處分3年禁賽與取消成績，公告日2021-08-25"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "美國",
+          "explanation": "文件僅記載居住於肯塔基州與標題稱美國選手，無獨立官方國籍或運動代表權證明。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-ba090f56bb8f2385",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "應將國籍欄位標示為不確定，或補充官方國籍／代表身分文件"
+        }
+      ]
+    },
+    {
+      "id": "usada-c60db428c672",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-8c05725038f11bd9",
+        "registry-8befacb888048065"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-8c05725038f11bd9",
+          "startLine": 1,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告確認選手姓名、自行車項目、2020-09-16賽外檢測經碳同位素比值檢測判定外源性合成代謝劑，處四年禁賽並自採樣日起算及取消成績"
+        },
+        {
+          "documentId": "registry-8befacb888048065",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊登錄Katherine Compton自行車項目處分4年禁賽及取消成績，公告日2021-08-11"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "美國",
+          "explanation": "文本僅見標題「U.S. Cycling Athlete」與科羅拉多州居住地，缺乏正式國籍或代表權證明資料。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-8c05725038f11bd9",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "國籍查核應列為證據不足之不確定狀態，不宜直接斷定國籍"
+        }
+      ]
+    },
+    {
+      "id": "usada-6cd0ab12872b",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-a966022f4707a83a",
+        "registry-4a4d9024526d24f9"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-a966022f4707a83a",
+          "startLine": 1,
+          "endLine": 9,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告確認選手姓名、舉重項目、2021-03-20大師錦標賽檢出stanozolol代謝物，處以四年禁賽並取消成績"
+        },
+        {
+          "documentId": "registry-4a4d9024526d24f9",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊登錄Regina Hancock舉重項目處分4年禁賽與取消成績，公告日2021-08-11"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "美國",
+          "explanation": "來源僅呈現標題稱呼及內布拉斯加州居住地，不足以確立法律上國籍或正式體育代表資格。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-a966022f4707a83a",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "應將國籍認定列為待確認，並補充明確的國籍或代表資格佐證"
+        }
+      ]
+    },
+    {
+      "id": "usada-8d214edc5d96",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-8f3c57c39cb5ec1c",
+        "registry-a00316f01b69f8b3"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-8f3c57c39cb5ec1c",
+          "startLine": 1,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告確認選手姓名、現代五項項目、第二次違規檢出ostarine、LGD-4033及GW1516，實質協助減為六年，且因無參賽故無成績取消"
+        },
+        {
+          "documentId": "registry-a00316f01b69f8b3",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "名冊記錄Logan Storie曾因退休停算、復出後資格自2026-12-31起恢復"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "美國",
+          "explanation": "官方個案文件僅列標題「U.S. Pentathlon Athlete」與北卡羅來納州居住地，無明確國籍登記或國家代表隊代表權證明。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-8f3c57c39cb5ec1c",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "國籍資訊應標記為未完全證實之不確定狀態"
+        }
+      ]
+    },
+    {
+      "id": "usada-f708f100d313",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-8210a2dbeedaecc3",
+        "registry-439372e51c2dfa89"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-8210a2dbeedaecc3",
+          "startLine": 1,
+          "endLine": 9,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告確認選手姓名、帕拉柔道項目、2021-05-10拒絕提供檢體構成違規，處四年禁賽並取消自拒絕日起成績"
+        },
+        {
+          "documentId": "registry-439372e51c2dfa89",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊登錄Josh Sisson帕拉柔道項目非分析性拒絕採樣處分4年禁賽及取消成績，公告日2021-06-16"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "美國",
+          "explanation": "來源僅有標題稱美國帕拉柔道運動員與密蘇里州居住地，未能充分證明其法定國籍或運動代表身分。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-8210a2dbeedaecc3",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "應將國籍標記為不確定，需補充運動代表權或國籍佐證材料"
+        }
+      ]
+    },
+    {
+      "id": "usada-86ac6516e020",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-2035221d7fd2d2e3",
+        "registry-ac95d261eae0e7a0"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-2035221d7fd2d2e3",
+          "startLine": 1,
+          "endLine": 13,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告確認選手姓名、舉重項目、2021-03-21大師錦標賽檢出oxymetholone、DHCMT、arimistane與torasemide，處以四年禁賽與取消成績"
+        },
+        {
+          "documentId": "registry-ac95d261eae0e7a0",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊登錄Luis Gallardo舉重項目多種物質處分4年禁賽及取消成績，公告日2021-06-03"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "美國",
+          "explanation": "文本僅記載紐約州居住地與標題指涉，缺乏官方國籍身分或國際體育代表權之直接證明。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-2035221d7fd2d2e3",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "國籍欄位應標記為證據不足待確認，補強官方身分認定資料"
+        }
+      ]
+    }
+  ]
+}

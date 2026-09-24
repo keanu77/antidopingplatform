@@ -1,0 +1,516 @@
+{
+  "cases": [
+    {
+      "id": "usada-05a51bc91d1e",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-f83dc2eb24d71295",
+        "registry-03289fdb3314d48a"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-f83dc2eb24d71295",
+          "startLine": 7,
+          "endLine": 13,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告證實田徑選手 Garrett Scantling 因累積三次行蹤失誤及調查期間提供變造電子郵件構成篡改，依案件解決協議接受三年禁賽，禁賽期自 2022-06-27 起算，並取消 2022-06-27 至 2022-07-21 成績。"
+        },
+        {
+          "documentId": "registry-03289fdb3314d48a",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "dates"
+          ],
+          "note": "官方處分名冊登載田徑選手 Garrett Scantling 非分析性違規（三次行蹤失誤與篡改），處分三年禁賽及取消成績，公告日為 2022-11-18。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "美國",
+          "explanation": "官方個案文件僅有標題稱謂「U.S. Track and Field Athlete」與居住地佛羅里達州傑克遜維爾，依查核規範，機構管轄權、居住地或新聞標題不足以確立選手之國籍或體育代表權。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-f83dc2eb24d71295",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "補充選手代表國家出賽紀錄或官方國籍證明，或將國籍欄位標註為待確認。"
+        }
+      ]
+    },
+    {
+      "id": "usada-365cbd5fbcea",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-94994948da541878",
+        "registry-4ecc48b4b95d8f9b"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-94994948da541878",
+          "startLine": 7,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告載明拳擊選手 Arika Skoog 於 2022-05-23 及 07-14 檢出 furosemide，因二次採樣時尚未收到首次通知而合併為單一違規；因服用家人處方自療且過失較輕減為一年禁賽，自 2022-07-15 起算並取消 2022-05-23 起成績。"
+        },
+        {
+          "documentId": "registry-4ecc48b4b95d8f9b",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "dates"
+          ],
+          "note": "處分名冊確認拳擊選手 Arika Skoog 因 Furosemide 接受一年禁賽與取消成績，公告日為 2022-10-26。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "美國",
+          "explanation": "文件僅載有標題「U.S. Boxing Athlete」與居住地波士頓，依規範居住地與發布機構名稱不足以確立國籍或體育代表權。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-94994948da541878",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "補充官方代表隊登錄或身分證明文件，或標註為待確認。"
+        }
+      ]
+    },
+    {
+      "id": "usada-13e15093f36a",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-c0150af1b6d6d9ca",
+        "registry-a2ef79439250ce00"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-c0150af1b6d6d9ca",
+          "startLine": 7,
+          "endLine": 9,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告載明帕拉田徑選手 Catarina Guimarães 於 2022-05-19 及 06-16 接受每 12 小時逾 100 mL 靜脈輸注，雖無禁用物質但未獲 TUE 亦非醫療例外，接受公開警告，因屬賽外違規無須取消成績。"
+        },
+        {
+          "documentId": "registry-a2ef79439250ce00",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "dates"
+          ],
+          "note": "名冊登錄帕拉田徑選手 Catarina Guimarães 非分析性靜脈輸注違規，處以公開警告，公告日為 2022-10-05。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "美國",
+          "explanation": "來源僅有標題稱謂「U.S. Paralympic Track & Field Athlete」及居住地紐澤西州克蘭福德，依標準不足以直接證明國籍。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-c0150af1b6d6d9ca",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "提供國籍或國家代表隊參賽證明文件，或將國籍標示為待確認。"
+        }
+      ]
+    },
+    {
+      "id": "usada-3b36b9d0fea7",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-e03bacaccd416f3f",
+        "registry-971795e0f332c186"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-e03bacaccd416f3f",
+          "startLine": 7,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告證實帕拉田徑選手 Richard Browne 於 2022-06-18 全國錦標賽檢出 Carboxy-THC 超過 180 ng/mL，接受三個月禁賽，自 2022-08-05 起算，並取消 2022-06-18 起之成績。"
+        },
+        {
+          "documentId": "registry-971795e0f332c186",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "dates"
+          ],
+          "note": "名冊記錄 Richard Browne 帕拉田徑項目大麻素違規，處分三個月禁賽與取消成績，日期為 2022-09-07。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "美國",
+          "explanation": "來源僅有標題「U.S. Paralympic Track & Field Athlete」、居住地倫頓及出賽賽事名稱，不足以單獨推定其官方國籍或體育代表權。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-e03bacaccd416f3f",
+              "startLine": 1,
+              "endLine": 8
+            }
+          ],
+          "suggestion": "補充代表隊出賽資格紀錄或國籍證件，或改標為待確認。"
+        }
+      ]
+    },
+    {
+      "id": "usada-77feffe8dfef",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-562a7ceff069f88d",
+        "registry-c253cd1b13e67e77"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-562a7ceff069f88d",
+          "startLine": 7,
+          "endLine": 11,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告載明自行車選手 Nelson Trujillo 於 2022-02-05 尿檢呈 EPO 非典型結果，後於 2022-05-02 追蹤採樣時兩度拒絕提供血檢，就兩次違規接受十二年禁賽；因退休停止計時，禁賽自 2022-08-23 生效並取消 2022-05-02 起成績。"
+        },
+        {
+          "documentId": "registry-c253cd1b13e67e77",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "dates"
+          ],
+          "note": "名冊登錄 Nelson Trujillo 因拒絕採樣處以十二年禁賽、取消成績且因退休而停止計時，發布日 2022-09-02。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "美國",
+          "explanation": "公告僅有標題「U.S. Cycling Athlete」與居住地佛羅里達州海厄利亞，不足以作為國籍或體育代表權的充分證明。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-562a7ceff069f88d",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "補充國籍身分或國家代表權官方資料，或將國籍標註為待確認。"
+        }
+      ]
+    },
+    {
+      "id": "usada-06ec1067d02c",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-7161268621d88b7c",
+        "registry-f88440bc08a08e6e"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-7161268621d88b7c",
+          "startLine": 7,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告顯示舉重選手 Clint Jordan 於 2022-04-22 全國大師賽檢體經 IRMS 證實含合成來源睪固酮或其前驅物，處以四年禁賽，自 2022-06-06 起算並取消 2022-04-22 起之競賽成績。"
+        },
+        {
+          "documentId": "registry-f88440bc08a08e6e",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "dates"
+          ],
+          "note": "名冊記錄舉重選手 Clint Jordan 因同化性雄性類固醇處以四年禁賽及取消成績，公告日為 2022-09-01。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "美國",
+          "explanation": "文本僅見標題「U.S. Weightlifting Athlete」與居住地科羅拉多斯普林斯，依審查原則不足以直接確立國籍或體育代表權。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-7161268621d88b7c",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "補強選手代表國家資格或官方身分證明，或標示為待確認。"
+        }
+      ]
+    },
+    {
+      "id": "usada-b0f378938e1f",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-ca500bef39f720c9",
+        "registry-b73a36e8129f6356"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-ca500bef39f720c9",
+          "startLine": 7,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告確認帕拉田徑選手 Gregory Walker 於 2022-05-21 賽內檢體檢出 Carboxy-THC 超過 180 ng/mL，接受三個月禁賽，自 2022-07-11 起算，並取消 2022-05-21 起成績。"
+        },
+        {
+          "documentId": "registry-b73a36e8129f6356",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "dates"
+          ],
+          "note": "處分名冊載明 Gregory Walker 帕拉田徑項目大麻素違規，處以三個月禁賽與取消成績，公告日為 2022-08-16。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "美國",
+          "explanation": "來源僅有新聞標題「U.S. Paralympic Track & Field Athlete」及居住地聖安東尼奧，依查核規範不足以單獨證實國籍或代表權。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-ca500bef39f720c9",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "補充代表隊出賽紀錄或官方國籍文件，或標註為待確認。"
+        }
+      ]
+    },
+    {
+      "id": "usada-edbbe5e82ff0",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-71d7cdd6c77b074c",
+        "registry-555cf204c0c65d68"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-71d7cdd6c77b074c",
+          "startLine": 7,
+          "endLine": 11,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告載明橄欖球選手 Riekert Hattingh 於 2022-03-27 檢出 tamoxifen，因屬醫囑治療劑量且符合未來 TUE 條件但事前未申請，獲減刑接受六個月禁賽，自 2022-08-04 起算，並取消 2022-03-27 當日成績。"
+        },
+        {
+          "documentId": "registry-555cf204c0c65d68",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "dates"
+          ],
+          "note": "處分名冊登載 Riekert Hattingh 橄欖球項目 Tamoxifen 違規，處以六個月禁賽及取消成績，日期為 2022-08-11。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "美國",
+          "explanation": "來源僅以標題「U.S. Rugby Athlete」與居住地俄亥俄州西爾維尼亞描述，依規範發布機構管轄權或標題稱謂不足以確立選手之國籍或體育代表權。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-71d7cdd6c77b074c",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "補充官方代表國家或國籍歸屬證明，或將國籍標註為待確認。"
+        }
+      ]
+    }
+  ]
+}

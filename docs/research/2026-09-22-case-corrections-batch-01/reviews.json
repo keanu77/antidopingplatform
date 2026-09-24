@@ -1,0 +1,1138 @@
+[
+  {
+    "batchId": "B01-01",
+    "name": "Pellegrini, Enrico",
+    "disposition": "accepted",
+    "caseType": "上訴改判／污染與過失程度",
+    "outcome": "20個月",
+    "notes": [
+      "已閱讀官方個案公告；國籍以官方名冊或公告明示為據。",
+      "公告載有上訴權時，不推定已無上訴或已終局。"
+    ],
+    "set": {
+      "eventBackground": "Enrico Pellegrini 的 2025-01-28 樣本檢出 clostebol。原處分為四年禁賽；CAS 於 2026-09-11 認定非故意且無重大過失，減為 20 個月，期間為 2025-02-26 至 2026-10-25。",
+      "summary": "上訴改判／污染與過失程度；20個月。",
+      "educationalNotes": "同一事件以最新上訴結果更新，不把原審與上訴算成兩件案例。",
+      "punishment": {
+        "banDuration": "20個月",
+        "resultsCancelled": true,
+        "medalStripped": null,
+        "otherPenalties": "官方所列禁賽期間：26 February 2025 to 25 October 2026。成績處理：28 January 2025 to 26 February 2025。"
+      }
+    }
+  },
+  {
+    "batchId": "B01-02",
+    "name": "Schiller, Cameron",
+    "disposition": "accepted",
+    "caseType": "物質相關違規／及早承認",
+    "outcome": "3年",
+    "notes": [
+      "已閱讀官方個案公告；國籍以官方名冊或公告明示為據。",
+      "公告載有上訴權時，不推定已無上訴或已終局。"
+    ],
+    "set": {
+      "eventBackground": "Cameron Schiller 的 2025-07-13 樣本檢出 19-norandrosterone，B 樣本確認結果；及早承認後接受三年禁賽，自 2025-08-08 至 2028-08-07。",
+      "summary": "物質相關違規／及早承認；3年。",
+      "educationalNotes": "及早承認的減刑機制不等於認定污染或無過失。",
+      "punishment": {
+        "banDuration": "3年",
+        "resultsCancelled": true,
+        "medalStripped": null,
+        "otherPenalties": "官方所列禁賽期間：8 August 2025 to 7 August 2028。成績處理：From 13 July 2025 to 8 August 2025。"
+      }
+    }
+  },
+  {
+    "batchId": "B01-03",
+    "name": "Skipper, Joe",
+    "disposition": "accepted",
+    "caseType": "行蹤義務違規",
+    "outcome": "18個月",
+    "notes": [
+      "已閱讀官方個案公告；國籍以官方名冊或公告明示為據。",
+      "公告載有上訴權時，不推定已無上訴或已終局。"
+    ],
+    "set": {
+      "eventBackground": "Joe Skipper 在 2024-07-01 至 2025-05-15 間發生三次行蹤義務失誤。審理小組於 2026-08-17 作成 18 個月禁賽處分，自 2026-05-18 起算。",
+      "summary": "行蹤義務違規；18個月。",
+      "educationalNotes": "三次行蹤失誤可構成獨立違規；不是藥物陽性案件。",
+      "punishment": {
+        "banDuration": "18個月",
+        "resultsCancelled": true,
+        "medalStripped": null,
+        "otherPenalties": "官方所列禁賽期間：18 May 2026 to 17 November 2027。成績處理：From 15 May 2025 to 17 August 2026。"
+      }
+    }
+  },
+  {
+    "batchId": "B01-04",
+    "name": "Takzima, Aymane",
+    "disposition": "accepted",
+    "caseType": "禁賽期間參與活動",
+    "outcome": "追加3年",
+    "notes": [
+      "已閱讀官方個案公告；國籍以官方名冊或公告明示為據。",
+      "公告載有上訴權時，不推定已無上訴或已終局。"
+    ],
+    "set": {
+      "eventBackground": "Aymane Takzima 因在暫時禁賽及禁賽期間從事教練活動，喪失原暫時禁賽折抵，原處分改至 2026-04-12 屆滿，再追加三年禁賽至 2029-04-12。公告未逐日列出教練活動日期。",
+      "summary": "禁賽期間參與活動；追加3年。",
+      "educationalNotes": "禁賽限制涵蓋部分教練活動；本案主題是違反參與限制，不把原始檢體日期當作教練活動日期。",
+      "punishment": {
+        "banDuration": "追加3年",
+        "resultsCancelled": true,
+        "medalStripped": null,
+        "otherPenalties": "官方所列禁賽期間：13 April 2026 until 12 April 2029。成績處理：From 23 December 2022 to 13 August 2026。"
+      },
+      "year": 2026,
+      "yearBasis": "追加處分公告年（參與限制違規的精確日期未完整公開）"
+    }
+  },
+  {
+    "batchId": "B01-05",
+    "name": "Mendybayev, Nursultan",
+    "disposition": "accepted",
+    "caseType": "物質相關違規／加重情節",
+    "outcome": "6年",
+    "notes": [
+      "已閱讀官方個案公告；國籍以官方名冊或公告明示為據。",
+      "公告載有上訴權時，不推定已無上訴或已終局。"
+    ],
+    "set": {
+      "eventBackground": "Nursultan Mendybayev 的 2025-06-22 樣本檢出 drostanolone 代謝物及 meldonium。因加重情節處六年禁賽，2026-08-12 至 2032-08-11；違反暫時禁賽規定而未取得該期間折抵。",
+      "summary": "物質相關違規／加重情節；6年。",
+      "educationalNotes": "多項違規及禁賽期間的行為可能影響處分與折抵；不能僅由藥物名稱推算刑期。",
+      "punishment": {
+        "banDuration": "6年",
+        "resultsCancelled": true,
+        "medalStripped": null,
+        "otherPenalties": "官方所列禁賽期間：12 August 2026 to 11 August 2032。成績處理：22 June 2025 to 12 August 2026。"
+      }
+    }
+  },
+  {
+    "batchId": "B01-06",
+    "name": "Georgieva, Yoana",
+    "disposition": "accepted",
+    "caseType": "上訴改判／規避採樣與干擾",
+    "outcome": "6年（另折抵已服暫時禁賽）",
+    "notes": [
+      "已閱讀官方個案公告；國籍以官方名冊或公告明示為據。",
+      "公告載有上訴權時，不推定已無上訴或已終局。"
+    ],
+    "set": {
+      "eventBackground": "Yoana Georgieva 涉及 2023-12-15 的規避採樣及干擾程序。CAS 於 2026-08-03 撤銷原未成立違規的結果，裁處六年禁賽，折抵 2024-06-10 至 2024-07-15 的暫時禁賽。",
+      "summary": "上訴改判／規避採樣與干擾；6年（另折抵已服暫時禁賽）。",
+      "educationalNotes": "上訴可以改變原審結果；年限與實際終止日須連同折抵一起閱讀。",
+      "punishment": {
+        "banDuration": "6年（另折抵已服暫時禁賽）",
+        "resultsCancelled": true,
+        "medalStripped": null,
+        "otherPenalties": "六年從 2026-08-03 起算，折抵 2024-06-10 至 2024-07-15；取消自 2023-12-15 起相關成績。"
+      }
+    }
+  },
+  {
+    "batchId": "B01-07",
+    "name": "Makhmedov, Syimyk",
+    "disposition": "accepted",
+    "caseType": "物質相關違規",
+    "outcome": "4年",
+    "notes": [
+      "已閱讀官方個案公告；國籍以官方名冊或公告明示為據。",
+      "公告載有上訴權時，不推定已無上訴或已終局。"
+    ],
+    "set": {
+      "eventBackground": "Syimyk Makhmedov 的 2024-10-11 樣本檢出 meldonium，禁賽四年，自 2024-11-21 至 2028-11-20，並取消自採樣日起的相關成績。",
+      "summary": "物質相關違規；4年。",
+      "educationalNotes": "本公告提供物質與處分，沒有足夠依據補寫故意使用的動機。",
+      "punishment": {
+        "banDuration": "4年",
+        "resultsCancelled": true,
+        "medalStripped": null,
+        "otherPenalties": "官方所列禁賽期間：21 November 2024 to 20 November 2028。成績處理：11 October 2024 to 21 November 2024。"
+      }
+    }
+  },
+  {
+    "batchId": "B01-08",
+    "name": "Bat Erdene, Erdenesuvd",
+    "disposition": "accepted",
+    "caseType": "污染抗辯未獲證明",
+    "outcome": "2年",
+    "notes": [
+      "已閱讀官方個案公告；國籍以官方名冊或公告明示為據。",
+      "公告載有上訴權時，不推定已無上訴或已終局。"
+    ],
+    "set": {
+      "eventBackground": "Erdenesuvd Bat Erdene 的 2023-09-21 furosemide 檢驗起初列為非典型發現。未能證明藥品污染來源後，案件轉為不利檢驗結果及違規，禁賽 2026-08-04 至 2028-08-03。",
+      "summary": "污染抗辯未獲證明；2年。",
+      "educationalNotes": "非典型發現、陽性結果與違規成立是不同階段；污染抗辯不等於污染已獲認定。",
+      "punishment": {
+        "banDuration": "2年",
+        "resultsCancelled": true,
+        "medalStripped": null,
+        "otherPenalties": "官方所列禁賽期間：4 August 2026 to 3 August 2028。成績處理：21 September 2023 to 4 August 2026。"
+      }
+    }
+  },
+  {
+    "batchId": "B01-09",
+    "name": "Mannai, Aziz",
+    "disposition": "accepted",
+    "caseType": "物質相關違規",
+    "outcome": "4年",
+    "notes": [
+      "已閱讀官方個案公告；國籍以官方名冊或公告明示為據。",
+      "公告載有上訴權時，不推定已無上訴或已終局。"
+    ],
+    "set": {
+      "eventBackground": "Aziz Mannai 的 2022-09-27 樣本檢出外源性 testosterone 及相關代謝物。四年禁賽期間為 2023-04-04 至 2027-04-03。",
+      "summary": "物質相關違規；4年。",
+      "educationalNotes": "樣本中的類固醇及同位素證據需依個案解讀；不從參賽組別推定未成年人或受保護身分。",
+      "punishment": {
+        "banDuration": "4年",
+        "resultsCancelled": true,
+        "medalStripped": null,
+        "otherPenalties": "官方所列禁賽期間：4 April 2023 to 3 April 2027。成績處理：27 September 2022 to 4 April 2023。"
+      }
+    }
+  },
+  {
+    "batchId": "B01-10",
+    "name": "Carboni, Giovanni",
+    "disposition": "accepted",
+    "caseType": "運動員生物護照",
+    "outcome": "4年",
+    "notes": [
+      "已閱讀官方個案公告；國籍以官方名冊或公告明示為據。",
+      "公告載有上訴權時，不推定已無上訴或已終局。"
+    ],
+    "set": {
+      "eventBackground": "Giovanni Carboni 的生物護照在 2024 年 Langkawi 賽事期間及之後出現異常。UCI 審裁機關於 2026-08-03 裁處四年禁賽，自 2025-09-11 至 2029-09-10。",
+      "summary": "運動員生物護照；4年。",
+      "educationalNotes": "生物護照案件不等於檢出某一特定禁藥；本案不補列公告未指明的藥名。",
+      "punishment": {
+        "banDuration": "4年",
+        "resultsCancelled": true,
+        "medalStripped": null,
+        "otherPenalties": "官方所列禁賽期間：11 September 2025 to 10 September 2029。成績處理：29 September 2024 to 11 September 2025。"
+      }
+    }
+  },
+  {
+    "batchId": "B01-11",
+    "name": "Alghamdi, Abdulrahman Abdullah H",
+    "disposition": "accepted",
+    "caseType": "物質相關違規／加重情節",
+    "outcome": "6年",
+    "notes": [
+      "已閱讀官方個案公告；國籍以官方名冊或公告明示為據。",
+      "公告載有上訴權時，不推定已無上訴或已終局。",
+      "名冊期間 N/A；以個案公告補足。"
+    ],
+    "set": {
+      "eventBackground": "Abdulrahman Alghamdi 的 2025-11-14 樣本檢出 boldenone 與 CERA。ISSA 轉交 World Triathlon 處理後，六年禁賽自 2026-01-15 至 2032-01-14。",
+      "summary": "物質相關違規／加重情節；6年。",
+      "educationalNotes": "賽事機構轉交國際單項總會是同一事件的程序，不應重複計為兩例。",
+      "punishment": {
+        "banDuration": "6年",
+        "resultsCancelled": true,
+        "medalStripped": null,
+        "otherPenalties": "禁賽 2026-01-15 至 2032-01-14；取消自 2025-11-14 起相關成績。"
+      }
+    }
+  },
+  {
+    "batchId": "B01-12",
+    "name": "Sanguino Matamoros, Jhohan David",
+    "disposition": "accepted",
+    "caseType": "多次檢體／同一首次違規程序",
+    "outcome": "4年",
+    "notes": [
+      "已閱讀官方個案公告；國籍以官方名冊或公告明示為據。",
+      "公告載有上訴權時，不推定已無上訴或已終局。",
+      "處分起訖採官方名冊；公告提供四年與及早承認，但未完整說明減刑前基礎。"
+    ],
+    "set": {
+      "eventBackground": "Jhohan David Sanguino Matamoros 的 2024-11-28 及 2024-12-13 樣本檢出 stanozolol。兩次結果依規則在同一首次違規程序處理，公告記載接受四年禁賽及及早承認減刑；名冊列期間為 2025-03-07 至 2029-03-06。",
+      "summary": "多次檢體／同一首次違規程序；4年。",
+      "educationalNotes": "多次採樣不必然是多次違規或不同案例；公告未交代的減刑計算基礎不自行補算。",
+      "punishment": {
+        "banDuration": "4年",
+        "resultsCancelled": true,
+        "medalStripped": null,
+        "otherPenalties": "官方所列禁賽期間：7 March 2025 to 6 March 2029。成績處理：28 November 2024 to 7 March 2025。"
+      }
+    }
+  },
+  {
+    "batchId": "B01-13",
+    "name": "Bosah, Brenda Uchenna",
+    "disposition": "accepted",
+    "caseType": "物質相關違規／及早承認",
+    "outcome": "3年",
+    "notes": [
+      "已閱讀官方個案公告；國籍以官方名冊或公告明示為據。",
+      "公告載有上訴權時，不推定已無上訴或已終局。"
+    ],
+    "set": {
+      "eventBackground": "Brenda Uchenna Bosah 的 2026-03-02 樣本檢出外源性 testosterone 及相關代謝物。及早承認後，接受 2026-06-05 至 2029-06-04 三年禁賽。",
+      "summary": "物質相關違規／及早承認；3年。",
+      "educationalNotes": "及早承認的處分減免與無過失判斷不同。",
+      "punishment": {
+        "banDuration": "3年",
+        "resultsCancelled": true,
+        "medalStripped": null,
+        "otherPenalties": "官方所列禁賽期間：5 June 2026 to 4 June 2029。成績處理：2 March 2026 to 5 June 2026。"
+      }
+    }
+  },
+  {
+    "batchId": "B01-14",
+    "name": "Lin, Junhong",
+    "disposition": "accepted",
+    "caseType": "歷史檢體重新分析",
+    "outcome": "4年",
+    "notes": [
+      "已閱讀官方個案公告；國籍以官方名冊或公告明示為據。",
+      "公告載有上訴權時，不推定已無上訴或已終局。"
+    ],
+    "set": {
+      "eventBackground": "Junhong Lin 的 2016-01-16 及 2016-01-29 樣本重新分析後發現外源性類固醇代謝物。禁賽為 2025-10-07 至 2029-10-06，成績取消範圍追溯至 2016-01-16。",
+      "summary": "歷史檢體重新分析；4年。",
+      "educationalNotes": "保存檢體的再分析可能多年後才產生處分；兩份同案檢體不重複計數。",
+      "punishment": {
+        "banDuration": "4年",
+        "resultsCancelled": true,
+        "medalStripped": null,
+        "otherPenalties": "官方所列禁賽期間：7 October 2025 to 6 October 2029。成績處理：16 January 2016 to 7 October 2025。"
+      }
+    }
+  },
+  {
+    "batchId": "B01-15",
+    "name": "Bernal Sanchez, Mariana",
+    "disposition": "accepted",
+    "caseType": "物質相關違規／名冊勘誤",
+    "outcome": "3年",
+    "notes": [
+      "已閱讀官方個案公告；國籍以官方名冊或公告明示為據。",
+      "公告載有上訴權時，不推定已無上訴或已終局。",
+      "名冊結束年誤為 2025；ITA 公告與 World Archery 公告一致為 2028。"
+    ],
+    "set": {
+      "eventBackground": "Mariana Bernal Sanchez 的 2025-09-29 樣本檢出 nandrolone。ITA 及 World Archery 公告一致記載三年禁賽，2025-12-22 至 2028-12-21；ITA 名冊把結束年誤列為 2025，本頁採用兩份個案公告。",
+      "summary": "物質相關違規／名冊勘誤；3年。",
+      "educationalNotes": "官方名冊也可能有日期誤植；須保留勘誤證據，不能直接複製矛盾日期。",
+      "punishment": {
+        "banDuration": "3年",
+        "resultsCancelled": true,
+        "medalStripped": null,
+        "otherPenalties": "禁賽 2025-12-22 至 2028-12-21；取消 2025-09-29 至 2025-12-22 成績。"
+      }
+    },
+    "additionalSources": [
+      "https://www.worldarchery.sport/fr/node/202516"
+    ]
+  },
+  {
+    "batchId": "B01-16",
+    "name": "Sharma, Parveen",
+    "disposition": "held",
+    "caseType": "日期差異待查",
+    "outcome": "不計入通過數、不加入網站",
+    "notes": [
+      "名冊的成績取消截止為 2025-05-08，個案公告的裁決及處分起日為 2026-05-08；未取得獨立裁決解決此差異。"
+    ]
+  },
+  {
+    "batchId": "B01-17",
+    "name": "Tegshjargal, Enkhtur",
+    "disposition": "accepted",
+    "caseType": "行蹤義務違規",
+    "outcome": "2年",
+    "notes": [
+      "已閱讀官方個案公告；國籍以官方名冊或公告明示為據。",
+      "公告載有上訴權時，不推定已無上訴或已終局。"
+    ],
+    "set": {
+      "eventBackground": "Enkhtur Tegshjargal 的第三次行蹤失誤發生於 2025-11-29。兩年禁賽自 2026-06-10 至 2028-06-09，並取消相關期間成績。",
+      "summary": "行蹤義務違規；2年。",
+      "educationalNotes": "行蹤義務是管制程序，不能描述為檢出禁藥。",
+      "punishment": {
+        "banDuration": "2年",
+        "resultsCancelled": true,
+        "medalStripped": null,
+        "otherPenalties": "官方所列禁賽期間：9 June 2028。成績處理：From 29 November 2025 to 10 June 2026。"
+      }
+    }
+  },
+  {
+    "batchId": "B01-18",
+    "name": "Yuksel, Batu Han",
+    "disposition": "accepted",
+    "caseType": "第二次違規／上訴駁回",
+    "outcome": "8年",
+    "notes": [
+      "已閱讀官方個案公告；國籍以官方名冊或公告明示為據。",
+      "公告載有上訴權時，不推定已無上訴或已終局。"
+    ],
+    "set": {
+      "eventBackground": "Batu Han Yuksel 於 2023-07-28 檢出 oxymetholone，構成第二次違規。CAS 於 2026-04-21 駁回上訴，八年禁賽接續原處分，自 2027-07-27 至 2035-07-26。",
+      "summary": "第二次違規／上訴駁回；8年。",
+      "educationalNotes": "接續執行的禁賽起日可能晚於裁決日期，不能把未來起日當成資料錯誤。",
+      "punishment": {
+        "banDuration": "8年",
+        "resultsCancelled": true,
+        "medalStripped": null,
+        "otherPenalties": "官方所列禁賽期間：27 July 2027 to 26 July 2035。成績處理：28 July 2023 to 29 August 2023。"
+      }
+    }
+  },
+  {
+    "batchId": "B01-19",
+    "name": "Jawkar, Prathamesh Samadhan",
+    "disposition": "accepted",
+    "caseType": "行蹤義務違規",
+    "outcome": "2年",
+    "notes": [
+      "已閱讀官方個案公告；國籍以官方名冊或公告明示為據。",
+      "公告載有上訴權時，不推定已無上訴或已終局。"
+    ],
+    "set": {
+      "eventBackground": "Prathamesh Samadhan Jawkar 的第三次行蹤失誤日期為 2025-10-01。兩年禁賽期間為 2026-04-19 至 2028-04-18。",
+      "summary": "行蹤義務違規；2年。",
+      "educationalNotes": "沒有檢出物質仍可能因行蹤義務失誤構成違規。",
+      "punishment": {
+        "banDuration": "2年",
+        "resultsCancelled": true,
+        "medalStripped": null,
+        "otherPenalties": "官方所列禁賽期間：19 April 2026 to 18 April 2028。成績處理：1 October 2025 to 19 April 2026。"
+      }
+    }
+  },
+  {
+    "batchId": "B01-20",
+    "name": "Kuzmin, Daniil",
+    "disposition": "accepted",
+    "caseType": "物質相關違規／及早承認",
+    "outcome": "3年",
+    "notes": [
+      "已閱讀官方個案公告；國籍以官方名冊或公告明示為據。",
+      "公告載有上訴權時，不推定已無上訴或已終局。"
+    ],
+    "set": {
+      "eventBackground": "Daniil Kuzmin 的 2026-02-03 樣本檢出 boldenone，及早承認後接受 2026-03-20 至 2029-03-19 三年禁賽。",
+      "summary": "物質相關違規／及早承認；3年。",
+      "educationalNotes": "裁罰減免的程序原因與污染來源是否成立須分開記載。",
+      "punishment": {
+        "banDuration": "3年",
+        "resultsCancelled": true,
+        "medalStripped": null,
+        "otherPenalties": "官方所列禁賽期間：20 March 2026 to 19 March 2029。成績處理：3 February 2026 to 20 March 2026。"
+      }
+    }
+  },
+  {
+    "batchId": "B01-21",
+    "name": "Urakova, Gulsevar",
+    "disposition": "accepted",
+    "caseType": "多次檢體／加重情節",
+    "outcome": "5年",
+    "notes": [
+      "已閱讀官方個案公告；國籍以官方名冊或公告明示為據。",
+      "公告載有上訴權時，不推定已無上訴或已終局。"
+    ],
+    "set": {
+      "eventBackground": "Gulsevar Urakova 的 2025-08-04 及 2025-08-14 樣本涉及 LGD-4033、RAD140 等 SARMs，前次另有 ostarine。IWGA 轉交 FIAS 後，接受五年禁賽至 2030-09-03。",
+      "summary": "多次檢體／加重情節；5年。",
+      "educationalNotes": "同一公告有多位運動員時按人與事件區分；本人的兩次檢體屬同案程序。",
+      "punishment": {
+        "banDuration": "5年",
+        "resultsCancelled": true,
+        "medalStripped": null,
+        "otherPenalties": "官方所列禁賽期間：From 4 September 2025 to 3 September 2030。成績處理：From 4 August 2025 to 4 September 2025。"
+      }
+    }
+  },
+  {
+    "batchId": "B01-22",
+    "name": "Murotov, Ozodbek",
+    "disposition": "accepted",
+    "caseType": "物質相關違規／及早承認",
+    "outcome": "3年",
+    "notes": [
+      "已閱讀官方個案公告；國籍以官方名冊或公告明示為據。",
+      "公告載有上訴權時，不推定已無上訴或已終局。"
+    ],
+    "set": {
+      "eventBackground": "Ozodbek Murotov 的 2025-08-12 賽外樣本檢出 19-norandrosterone。三年禁賽為 2025-09-10 至 2028-09-09。",
+      "summary": "物質相關違規／及早承認；3年。",
+      "educationalNotes": "與他人共用公告不代表同一人的案件；事件身分要逐一核對。",
+      "punishment": {
+        "banDuration": "3年",
+        "resultsCancelled": true,
+        "medalStripped": null,
+        "otherPenalties": "官方所列禁賽期間：10 September 2025 to 9 September 2028。成績處理：12 August 2025 to 10 September 2025。"
+      }
+    }
+  },
+  {
+    "batchId": "B01-23",
+    "name": "Omirov, Dayanch",
+    "disposition": "accepted",
+    "caseType": "多次檢體／加重情節",
+    "outcome": "6年",
+    "notes": [
+      "已閱讀官方個案公告；國籍以官方名冊或公告明示為據。",
+      "公告載有上訴權時，不推定已無上訴或已終局。"
+    ],
+    "set": {
+      "eventBackground": "Dayanch Omirov 的 2025-06-18 樣本檢出 meldonium，2025-07-15 樣本檢出 metandienone。六年禁賽自 2025-07-23 至 2031-07-22。",
+      "summary": "多次檢體／加重情節；6年。",
+      "educationalNotes": "多物質與加重情節需依裁決記載，不由陽性次數直接推算刑期。",
+      "punishment": {
+        "banDuration": "6年",
+        "resultsCancelled": true,
+        "medalStripped": null,
+        "otherPenalties": "官方所列禁賽期間：From 23 July 2025 until 22 July 2031。成績處理：from 18 June 2025 onwards。"
+      }
+    }
+  },
+  {
+    "batchId": "B01-24",
+    "name": "Nihad, Nihad Fozail Oglu",
+    "disposition": "accepted",
+    "caseType": "物質相關違規",
+    "outcome": "4年",
+    "notes": [
+      "已閱讀官方個案公告；國籍以官方名冊或公告明示為據。",
+      "公告載有上訴權時，不推定已無上訴或已終局。"
+    ],
+    "set": {
+      "eventBackground": "Nihad Fozail Oglu Nihad 的 2025-06-22 樣本檢出 meldonium；四年禁賽期間為 2025-07-31 至 2029-07-30。",
+      "summary": "物質相關違規；4年。",
+      "educationalNotes": "沿用官方公開姓名，避免因看似重複的姓名自行更改身分。",
+      "punishment": {
+        "banDuration": "4年",
+        "resultsCancelled": true,
+        "medalStripped": null,
+        "otherPenalties": "官方所列禁賽期間：from 31 July 2025 until 30 July 2029。成績處理：from 22 June 2025 onwards。"
+      }
+    }
+  },
+  {
+    "batchId": "B01-25",
+    "name": "de Andrade Sigueira, Maicon",
+    "disposition": "accepted",
+    "caseType": "行蹤義務違規",
+    "outcome": "2年",
+    "notes": [
+      "已閱讀官方個案公告；國籍以官方名冊或公告明示為據。",
+      "公告載有上訴權時，不推定已無上訴或已終局。",
+      "名冊 Sigueira 與公告 Siqueira 為同一官方連結所指個案。"
+    ],
+    "set": {
+      "eventBackground": "Maicon de Andrade Siqueira 的第三次行蹤失誤發生於 2025-07-13。兩年禁賽期間為 2026-01-19 至 2028-01-18。名冊拼為 Sigueira，本頁採個案公告的 Siqueira。",
+      "summary": "行蹤義務違規；2年。",
+      "educationalNotes": "姓名拼字差異透過官方連結交叉核對，不能當成不同選手重複收錄。",
+      "punishment": {
+        "banDuration": "2年",
+        "resultsCancelled": true,
+        "medalStripped": null,
+        "otherPenalties": "官方所列禁賽期間：19 January 2026 to 18 January 2028。成績處理：13 July 2025 to 19 January 2026。"
+      },
+      "athleteName": "Maicon de Andrade Siqueira"
+    }
+  },
+  {
+    "batchId": "B01-26",
+    "name": "Rasulov, Nurlan",
+    "disposition": "accepted",
+    "caseType": "物質相關違規／加重與減刑",
+    "outcome": "5年",
+    "notes": [
+      "已閱讀官方個案公告；國籍以官方名冊或公告明示為據。",
+      "公告載有上訴權時，不推定已無上訴或已終局。"
+    ],
+    "set": {
+      "eventBackground": "Nurlan Rasulov 的 2025-10-24 及 2025-11-02 樣本涉及外源性 testosterone 相關代謝物與 boldenone。考量加重情節及及早承認後，五年禁賽自 2025-11-28 至 2030-11-27。",
+      "summary": "物質相關違規／加重與減刑；5年。",
+      "educationalNotes": "加重與減免可在同案並存；只呈現官方最終宣告的期間。",
+      "punishment": {
+        "banDuration": "5年",
+        "resultsCancelled": true,
+        "medalStripped": null,
+        "otherPenalties": "官方所列禁賽期間：From 28 November 2025 until 27 November 2030。成績處理：From 24 October 2025 until 28 November 2025。"
+      }
+    }
+  },
+  {
+    "batchId": "B01-27",
+    "name": "Maciel Marcos, Vitória",
+    "disposition": "accepted",
+    "caseType": "物質相關違規",
+    "outcome": "2年",
+    "notes": [
+      "已閱讀官方個案公告；國籍以官方名冊或公告明示為據。",
+      "公告載有上訴權時，不推定已無上訴或已終局。"
+    ],
+    "set": {
+      "eventBackground": "Vitória Maciel Marcos 的 2025-05-31 樣本檢出 furosemide。兩年禁賽為 2026-02-18 至 2028-02-17。",
+      "summary": "物質相關違規；2年。",
+      "educationalNotes": "利尿劑案件不能僅憑物質名稱推定掩飾其他禁藥的意圖。",
+      "punishment": {
+        "banDuration": "2年",
+        "resultsCancelled": true,
+        "medalStripped": null,
+        "otherPenalties": "官方所列禁賽期間：18 February 2026 to 17 February 2028。成績處理：31 May 2025 to 18 February 2026。"
+      }
+    }
+  },
+  {
+    "batchId": "B01-28",
+    "name": "Herrera Malambo, Jean Carlos",
+    "disposition": "accepted",
+    "caseType": "物質相關違規／及早承認",
+    "outcome": "3年",
+    "notes": [
+      "已閱讀官方個案公告；國籍以官方名冊或公告明示為據。",
+      "公告載有上訴權時，不推定已無上訴或已終局。",
+      "名冊摘要仍為暫時禁賽，但詳細欄與新公告已為三年處分。"
+    ],
+    "set": {
+      "eventBackground": "Jean Carlos Herrera Malambo 的 2025-11-08 樣本檢出 stanozolol。最新公告確認接受三年禁賽，自 2026-01-20 至 2029-01-19；名冊頂部仍有舊暫時禁賽文字，本頁採最新個案公告。",
+      "summary": "物質相關違規／及早承認；3年。",
+      "educationalNotes": "已更新的個案處分應取代未同步的名冊摘要。",
+      "punishment": {
+        "banDuration": "3年",
+        "resultsCancelled": true,
+        "medalStripped": null,
+        "otherPenalties": "官方所列禁賽期間：20 January 2026 to 19 January 2029。成績處理：8 November 2025 to 20 January 2026。"
+      }
+    }
+  },
+  {
+    "batchId": "B01-29",
+    "name": "Yordanov, Plamen",
+    "disposition": "accepted",
+    "caseType": "物質相關違規",
+    "outcome": "4年",
+    "notes": [
+      "已閱讀官方個案公告；國籍以官方名冊或公告明示為據。",
+      "公告載有上訴權時，不推定已無上訴或已終局。"
+    ],
+    "set": {
+      "eventBackground": "Plamen Yordanov 的 2025-04-23 樣本檢出 meldonium。四年禁賽自 2025-12-03 至 2029-12-02。",
+      "summary": "物質相關違規；4年。",
+      "educationalNotes": "公告所列正式起日與較早暫時禁賽日不同時，不自行假設全部可折抵。",
+      "punishment": {
+        "banDuration": "4年",
+        "resultsCancelled": true,
+        "medalStripped": null,
+        "otherPenalties": "官方所列禁賽期間：From 3 December 2025 to 2 December 2029。成績處理：From 23 April 2025 to 3 December 2025。"
+      }
+    }
+  },
+  {
+    "batchId": "B01-30",
+    "name": "Aasli, Ilyas",
+    "disposition": "accepted",
+    "caseType": "大麻相關違規",
+    "outcome": "2年",
+    "notes": [
+      "已閱讀官方個案公告；國籍以官方名冊或公告明示為據。",
+      "公告載有上訴權時，不推定已無上訴或已終局。"
+    ],
+    "set": {
+      "eventBackground": "Ilyas Aasli 的 2024-12-13 樣本檢出 THC 代謝物。處分為 2026-03-02 至 2028-03-01 兩年禁賽。",
+      "summary": "大麻相關違規；2年。",
+      "educationalNotes": "大麻相關案件不必然是一或三個月；適用較短期間需要符合個案規則與舉證條件。",
+      "punishment": {
+        "banDuration": "2年",
+        "resultsCancelled": true,
+        "medalStripped": null,
+        "otherPenalties": "官方所列禁賽期間：From 2 March 2026 to 1 March 2028。成績處理：From 13 December 2024 to 2 March 2026。"
+      }
+    }
+  },
+  {
+    "batchId": "B01-31",
+    "name": "Tatunashvili, Levan",
+    "disposition": "accepted",
+    "caseType": "物質相關違規／及早承認",
+    "outcome": "3年",
+    "notes": [
+      "已閱讀官方個案公告；國籍以官方名冊或公告明示為據。",
+      "公告載有上訴權時，不推定已無上訴或已終局。"
+    ],
+    "set": {
+      "eventBackground": "Levan Tatunashvili 的 2025-05-23 樣本檢出 meldonium。及早承認後，三年禁賽自 2025-06-25 至 2028-06-24。",
+      "summary": "物質相關違規／及早承認；3年。",
+      "educationalNotes": "及早承認與污染抗辯是不同的減刑依據。",
+      "punishment": {
+        "banDuration": "3年",
+        "resultsCancelled": true,
+        "medalStripped": null,
+        "otherPenalties": "官方所列禁賽期間：From 25 June 2025 to 24 June 2028。成績處理：From 23 May 2025 to 25 June 2025。"
+      }
+    }
+  },
+  {
+    "batchId": "B01-32",
+    "name": "Pham, Dinh Thi",
+    "disposition": "accepted",
+    "caseType": "物質相關違規",
+    "outcome": "2年",
+    "notes": [
+      "已閱讀官方個案公告；國籍以官方名冊或公告明示為據。",
+      "公告載有上訴權時，不推定已無上訴或已終局。"
+    ],
+    "set": {
+      "eventBackground": "Dinh Thi Pham 的 2025-07-05 樣本檢出 furosemide。兩年禁賽從自願暫時禁賽日 2025-08-23 起，至 2027-08-22。",
+      "summary": "物質相關違規；2年。",
+      "educationalNotes": "處分起日與採樣日不同，應依官方對暫時禁賽的折抵方式記錄。",
+      "punishment": {
+        "banDuration": "2年",
+        "resultsCancelled": true,
+        "medalStripped": null,
+        "otherPenalties": "官方所列禁賽期間：23 August 2025 to 22 August 2027。成績處理：5 July 2025 to 23 August 2025。"
+      }
+    }
+  },
+  {
+    "batchId": "B01-33",
+    "name": "Tseveensuren, Tsogbadrakh",
+    "disposition": "accepted",
+    "caseType": "物質相關違規／CAS ADD 裁決",
+    "outcome": "4年",
+    "notes": [
+      "已閱讀官方個案公告；國籍以官方名冊或公告明示為據。",
+      "公告載有上訴權時，不推定已無上訴或已終局。"
+    ],
+    "set": {
+      "eventBackground": "Tsogbadrakh Tseveensuren 的 2025-03-29 樣本檢出 testosterone。CAS ADD 於 2026-01-26 裁處四年禁賽，自 2025-06-19 至 2029-06-18。",
+      "summary": "物質相關違規／CAS ADD 裁決；4年。",
+      "educationalNotes": "CAS ADD 的一審處理與 CAS 上訴程序要區分；有公告不表示所有救濟已結束。",
+      "punishment": {
+        "banDuration": "4年",
+        "resultsCancelled": true,
+        "medalStripped": null,
+        "otherPenalties": "官方所列禁賽期間：From 19 June 2025 to 18 June 2029。成績處理：From 29 March 2025 to 19 June 2025。"
+      }
+    }
+  },
+  {
+    "batchId": "B01-34",
+    "name": "Kentchadze, Avtandil",
+    "disposition": "accepted",
+    "caseType": "物質相關違規",
+    "outcome": "20個月",
+    "notes": [
+      "已閱讀官方個案公告；國籍以官方名冊或公告明示為據。",
+      "公告載有上訴權時，不推定已無上訴或已終局。"
+    ],
+    "set": {
+      "eventBackground": "Avtandil Kentchadze 的 2024-10-31 與 2025-01-13 樣本檢出 clomifene。禁賽為 2025-05-25 至 2027-01-24，共 20 個月；公告未具體說明較短期間的原因。",
+      "summary": "物質相關違規；20個月。",
+      "educationalNotes": "不能將所有低於四年的處分自動解釋為補充品污染。",
+      "punishment": {
+        "banDuration": "20個月",
+        "resultsCancelled": true,
+        "medalStripped": null,
+        "otherPenalties": "官方所列禁賽期間：From 25 May 2025 to 24 January 2027。成績處理：From 31 October 2024 to 4 September 2025。"
+      }
+    }
+  },
+  {
+    "batchId": "B01-35",
+    "name": "Gapurov, Shokhrukhbek",
+    "disposition": "accepted",
+    "caseType": "物質相關違規／及早承認",
+    "outcome": "3年",
+    "notes": [
+      "已閱讀官方個案公告；國籍以官方名冊或公告明示為據。",
+      "公告載有上訴權時，不推定已無上訴或已終局。"
+    ],
+    "set": {
+      "eventBackground": "Shokhrukhbek Gapurov 的 2025-09-21 樣本檢出 meldonium。三年禁賽自 2025-10-28 至 2028-10-27。",
+      "summary": "物質相關違規／及早承認；3年。",
+      "educationalNotes": "紀錄物質、期間及處理程序即可，不補寫未公開的使用動機。",
+      "punishment": {
+        "banDuration": "3年",
+        "resultsCancelled": true,
+        "medalStripped": null,
+        "otherPenalties": "官方所列禁賽期間：28 October 2025 to 27 October 2028 [for Comms - enter link to the PR]。成績處理：21 September 2025 to 28 October 2025。"
+      }
+    }
+  },
+  {
+    "batchId": "B01-36",
+    "name": "Dajomes Barrera, Neisi Patricia",
+    "disposition": "accepted",
+    "caseType": "物質相關違規",
+    "outcome": "14個月",
+    "notes": [
+      "已閱讀官方個案公告；國籍以官方名冊或公告明示為據。",
+      "公告載有上訴權時，不推定已無上訴或已終局。"
+    ],
+    "set": {
+      "eventBackground": "Neisi Patricia Dajomes Barrera 的 2025-04-07 樣本檢出 clomifene。處分為 2025-06-02 至 2026-08-01，共 14 個月；公告未交代減輕期間的詳細理由。",
+      "summary": "物質相關違規；14個月。",
+      "educationalNotes": "處分年限不是污染或無重大過失的替代證據。",
+      "punishment": {
+        "banDuration": "14個月",
+        "resultsCancelled": true,
+        "medalStripped": null,
+        "otherPenalties": "官方所列禁賽期間：From 2 June 2025 to 1 August 2026。成績處理：From 7 April 2025 to 2 June 2025。"
+      }
+    }
+  },
+  {
+    "batchId": "B01-37",
+    "name": "Bernard, Cameron-Lie",
+    "disposition": "accepted",
+    "caseType": "行蹤義務違規",
+    "outcome": "22個月",
+    "notes": [
+      "已閱讀官方個案公告；國籍以官方名冊或公告明示為據。",
+      "公告載有上訴權時，不推定已無上訴或已終局。"
+    ],
+    "set": {
+      "eventBackground": "Cameron Lie Bernard 的第三次行蹤失誤發生於 2025-06-26。22 個月禁賽自 2025-10-27 至 2027-08-26。",
+      "summary": "行蹤義務違規；22個月。",
+      "educationalNotes": "行蹤資訊管理是選手的持續義務，不限於比賽日。",
+      "punishment": {
+        "banDuration": "22個月",
+        "resultsCancelled": true,
+        "medalStripped": null,
+        "otherPenalties": "官方所列禁賽期間：From 27 October 2025 to 26 August 2027。成績處理：From 26 June 2025 until 27 October 2025。"
+      }
+    }
+  },
+  {
+    "batchId": "B01-38",
+    "name": "Drake Dominguez, Yadir",
+    "disposition": "accepted",
+    "caseType": "物質相關違規",
+    "outcome": "2年",
+    "notes": [
+      "已閱讀官方個案公告；國籍以官方名冊或公告明示為據。",
+      "公告載有上訴權時，不推定已無上訴或已終局。"
+    ],
+    "set": {
+      "eventBackground": "Yadir Drake Dominguez 的 2024-11-17 Premier12 樣本檢出 clomifene。禁賽兩年，自 2025-01-16 至 2027-01-15。",
+      "summary": "物質相關違規；2年。",
+      "educationalNotes": "不從選手參加的聯賽推定國籍；本頁依官方名冊記載為古巴。",
+      "punishment": {
+        "banDuration": "2年",
+        "resultsCancelled": true,
+        "medalStripped": null,
+        "otherPenalties": "官方所列禁賽期間：From 16 January 2025 to 15 January 2027。成績處理：From 17 November 2024 to 16 January 2025。"
+      }
+    }
+  },
+  {
+    "batchId": "B01-39",
+    "name": "De Leon, Anderson",
+    "disposition": "accepted",
+    "caseType": "多物質／加重情節",
+    "outcome": "5年",
+    "notes": [
+      "已閱讀官方個案公告；國籍以官方名冊或公告明示為據。",
+      "公告載有上訴權時，不推定已無上訴或已終局。"
+    ],
+    "set": {
+      "eventBackground": "Anderson De León 的 2025-02-23 世界棒球經典賽資格賽樣本檢出 amphetamine、methamphetamine 及 stanozolol。五年禁賽自 2025-04-30 至 2030-04-29。",
+      "summary": "多物質／加重情節；5年。",
+      "educationalNotes": "國籍依官方名冊記為西班牙，不能由姓名或聯賽推測。",
+      "punishment": {
+        "banDuration": "5年",
+        "resultsCancelled": true,
+        "medalStripped": null,
+        "otherPenalties": "官方所列禁賽期間：30 April 2025 – 29 April 2030。成績處理：23 February 2025 – 30 April 2025。"
+      }
+    }
+  },
+  {
+    "batchId": "B01-40",
+    "name": "Vargas Rueda, Jose Andres",
+    "disposition": "accepted",
+    "caseType": "大麻相關違規",
+    "outcome": "3個月",
+    "notes": [
+      "已閱讀官方個案公告；國籍以官方名冊或公告明示為據。",
+      "公告載有上訴權時，不推定已無上訴或已終局。"
+    ],
+    "set": {
+      "eventBackground": "Jose Andres Vargas Rueda 的 2025-05-13 樣本檢出 carboxy-THC。三個月禁賽為 2025-08-29 至 2025-11-28。",
+      "summary": "大麻相關違規；3個月。",
+      "educationalNotes": "不同大麻案件可能適用不同處分；本公告未明示的使用時機與目的不補作認定。",
+      "punishment": {
+        "banDuration": "3個月",
+        "resultsCancelled": true,
+        "medalStripped": null,
+        "otherPenalties": "官方所列禁賽期間：29 August 2025 to 28 November 2025。成績處理：13 May 2025 to 29 August 2025。"
+      }
+    }
+  },
+  {
+    "batchId": "B01-41",
+    "name": "Bayona Pineda, Martha",
+    "disposition": "accepted",
+    "caseType": "行蹤義務違規",
+    "outcome": "18個月",
+    "notes": [
+      "已閱讀官方個案公告；國籍以官方名冊或公告明示為據。",
+      "公告載有上訴權時，不推定已無上訴或已終局。"
+    ],
+    "set": {
+      "eventBackground": "UCI 確认 Martha Bayona Pineda 因三次行蹤義務失誤接受 18 個月禁賽，2025-04-23 至 2026-10-22。公告未列成績取消範圍。",
+      "summary": "行蹤義務違規；18個月。",
+      "educationalNotes": "來源未列成績取消不等於確認沒有取消；本欄保留未知。",
+      "punishment": {
+        "banDuration": "18個月",
+        "resultsCancelled": null,
+        "medalStripped": null,
+        "otherPenalties": "成績取消範圍未見於本次核對的官方公告及名冊，不推定有或無。"
+      }
+    }
+  },
+  {
+    "batchId": "B01-42",
+    "name": "Sapunov, Danylo",
+    "disposition": "accepted",
+    "caseType": "禁賽期間參與活動",
+    "outcome": "追加3年6個月",
+    "notes": [
+      "已閱讀官方個案公告；國籍以官方名冊或公告明示為據。",
+      "公告載有上訴權時，不推定已無上訴或已終局。"
+    ],
+    "set": {
+      "eventBackground": "Daniil Sapunov（名冊作 Danylo）原禁賽為 2019-10-08 至 2023-10-07。違反禁賽期間參與限制後，追加三年半，自 2023-10-08 至 2027-04-07。",
+      "summary": "禁賽期間參與活動；追加3年6個月。",
+      "educationalNotes": "追加處分與原始藥檢事件需分開說明，但不因拼名或程序變化重複計數。",
+      "punishment": {
+        "banDuration": "追加3年6個月",
+        "resultsCancelled": true,
+        "medalStripped": null,
+        "otherPenalties": "原禁賽 2019-10-08 至 2023-10-07；追加 2023-10-08 至 2027-04-07，取消相關期間成績。"
+      },
+      "year": 2025,
+      "yearBasis": "追加處分公告年（參與限制違規的精確日期未完整公開）",
+      "athleteName": "Daniil Sapunov"
+    }
+  },
+  {
+    "batchId": "B01-43",
+    "name": "Manarbek, Ibrahim",
+    "disposition": "accepted",
+    "caseType": "物質相關違規／及早承認",
+    "outcome": "3年",
+    "notes": [
+      "已閱讀官方個案公告；國籍以官方名冊或公告明示為據。",
+      "公告載有上訴權時，不推定已無上訴或已終局。"
+    ],
+    "set": {
+      "eventBackground": "Ibrahim Manarbek 的 2024-10-30 樣本檢出 furosemide，接受三年禁賽，2024-10-30 至 2027-10-29。公告提及及早承認減刑。",
+      "summary": "物質相關違規／及早承認；3年。",
+      "educationalNotes": "特定物質不必然固定處兩年；不能從 U21 賽事名稱推定受保護人身分。",
+      "punishment": {
+        "banDuration": "3年",
+        "resultsCancelled": true,
+        "medalStripped": null,
+        "otherPenalties": "官方所列禁賽期間：30 October 2024 to 29 October 2027。成績處理：30 October 2024 to 8 September 2025。"
+      }
+    }
+  },
+  {
+    "batchId": "B01-44",
+    "name": "Pinto Gaspar, Pedro Afonso",
+    "disposition": "accepted",
+    "caseType": "物質相關違規／已過上訴期限",
+    "outcome": "3年",
+    "notes": [
+      "已閱讀官方個案公告；國籍以官方名冊或公告明示為據。",
+      "官方公告明確記載上訴期限已過且無上訴；本案可標示該處分已終局。"
+    ],
+    "set": {
+      "eventBackground": "Pedro Afonso Pinto Gaspar 的 2025-06-29 樣本檢出 mesterolone。三年禁賽為 2025-07-31 至 2028-07-30；公告明確表示上訴期限已屆滿且無人提出上訴。",
+      "summary": "物質相關違規／已過上訴期限；3年。",
+      "educationalNotes": "只有來源明確確認時才標示救濟期限屆滿，不以公告發布已久自行推定。",
+      "punishment": {
+        "banDuration": "3年",
+        "resultsCancelled": true,
+        "medalStripped": null,
+        "otherPenalties": "官方所列禁賽期間：31 July 2025 to 30 July 2028。成績處理：29 June 2025 to 31 July 2025。"
+      }
+    }
+  },
+  {
+    "batchId": "B01-45",
+    "name": "Tudela Chiozza, Miguel",
+    "disposition": "held",
+    "caseType": "日期差異待查",
+    "outcome": "不計入通過數、不加入網站",
+    "notes": [
+      "個案公告與名冊對禁賽結束日（2025-08-16 或 17）及成績保留例外期間記載不同；需取得 CAS ADD 裁決核對。"
+    ]
+  },
+  {
+    "batchId": "B01-46",
+    "name": "Lazeroff, Scott",
+    "disposition": "accepted",
+    "caseType": "物質相關違規",
+    "outcome": "14個月",
+    "notes": [
+      "已閱讀官方個案公告；國籍以官方名冊或公告明示為據。",
+      "公告載有上訴權時，不推定已無上訴或已終局。"
+    ],
+    "set": {
+      "eventBackground": "Scott Lazeroff 的 2025-07-27 世界錦標賽高空跳水樣本檢出 methylphenidate。14 個月禁賽為 2025-11-24 至 2027-01-23。",
+      "summary": "物質相關違規；14個月。",
+      "educationalNotes": "藥物可能有臨床用途，不代表本案已證明 ADHD、處方或 TUE；不推測個人醫療資訊。",
+      "punishment": {
+        "banDuration": "14個月",
+        "resultsCancelled": true,
+        "medalStripped": null,
+        "otherPenalties": "官方所列禁賽期間：From 24 November 2025 until 23 January 2027。成績處理：From 27 July 2025 to 24 November 2025。"
+      }
+    }
+  },
+  {
+    "batchId": "B01-47",
+    "name": "Sciortino, Martti",
+    "disposition": "accepted",
+    "caseType": "物質相關違規",
+    "outcome": "18個月",
+    "notes": [
+      "已閱讀官方個案公告；國籍以官方名冊或公告明示為據。",
+      "公告載有上訴權時，不推定已無上訴或已終局。"
+    ],
+    "set": {
+      "eventBackground": "UCI 確認 Martti Sciortino 的 2025-05-24 BMX 樣本涉及 DHCMT 與 stanozolol；18 個月禁賽自 2025-06-20 至 2026-12-19。",
+      "summary": "物質相關違規；18個月。",
+      "educationalNotes": "公告未說明的污染或減刑原因不補寫。",
+      "punishment": {
+        "banDuration": "18個月",
+        "resultsCancelled": true,
+        "medalStripped": null,
+        "otherPenalties": "官方所列禁賽期間：20 June 2025 - 19 December 2026。成績處理：24 May 2025 - 20 June 2025。"
+      }
+    }
+  },
+  {
+    "batchId": "B01-48",
+    "name": "Costa, Vinicius Rangel",
+    "disposition": "accepted",
+    "caseType": "行蹤義務違規",
+    "outcome": "20個月",
+    "notes": [
+      "已閱讀官方個案公告；國籍以官方名冊或公告明示為據。",
+      "公告載有上訴權時，不推定已無上訴或已終局。"
+    ],
+    "set": {
+      "eventBackground": "Vinicius Rangel Costa 因三次行蹤義務失誤接受 20 個月禁賽，2025-08-27 至 2027-04-26。名冊未列成績取消範圍。",
+      "summary": "行蹤義務違規；20個月。",
+      "educationalNotes": "行蹤違規不能寫成特定物質陽性；成績處理未載時保留未知。",
+      "punishment": {
+        "banDuration": "20個月",
+        "resultsCancelled": null,
+        "medalStripped": null,
+        "otherPenalties": "成績取消範圍未見於本次核對的官方公告及名冊，不推定有或無。"
+      }
+    }
+  },
+  {
+    "batchId": "B01-49",
+    "name": "Simmonds, Imogen Carlina",
+    "disposition": "accepted",
+    "caseType": "污染／違規成立但無過失",
+    "outcome": "無禁賽（違規成立，無過失）",
+    "notes": [
+      "已閱讀官方個案公告；國籍以官方名冊或公告明示為據。",
+      "公告載有上訴權時，不推定已無上訴或已終局。"
+    ],
+    "set": {
+      "eventBackground": "Imogen Carlina Simmonds 的 2024-12-08 賽外樣本檢出 ligandrol。間接親密接觸污染獲採信，認定無過失；違規仍成立，但不處禁賽，賽外採樣亦未取消成績。",
+      "summary": "污染／違規成立但無過失；無禁賽（違規成立，無過失）。",
+      "educationalNotes": "無過失免禁賽與沒有違規是不同結論；本案不能寫成撤銷陽性結果。",
+      "punishment": {
+        "banDuration": "無禁賽（違規成立，無過失）",
+        "resultsCancelled": false,
+        "medalStripped": false,
+        "otherPenalties": "認定違規成立但無過失，不處禁賽；賽外採樣未取消成績。"
+      }
+    }
+  },
+  {
+    "batchId": "B01-50",
+    "name": "Peter Bol",
+    "disposition": "accepted",
+    "caseType": "調查結束／未提出違規指控",
+    "outcome": "無禁賽（該樣本不再推進違規程序）",
+    "notes": [
+      "已閱讀官方個案公告；國籍以官方名冊或公告明示為據。",
+      "公告載有上訴權時，不推定已無上訴或已終局。"
+    ],
+    "set": {
+      "eventBackground": "Sport Integrity Australia 於 2023-08-01 公告：Peter Bol 的 B 樣本為非典型發現，未確認 A 樣本；後續 A 樣本分析為陰性。機構不再就該樣本推進違規程序，調查已結束。",
+      "summary": "調查結束／未提出違規指控；無禁賽（該樣本不再推進違規程序）。",
+      "educationalNotes": "以該檢體與該次程序為範圍；非典型發現不等於違規成立，也不推論其他事件。",
+      "punishment": {
+        "banDuration": "無禁賽（該樣本不再推進違規程序）",
+        "resultsCancelled": false,
+        "medalStripped": false,
+        "otherPenalties": "限 2023-08-01 公告所述樣本與程序；未提出該樣本的違規指控。"
+      }
+    }
+  },
+  {
+    "batchId": "B01-51",
+    "name": "Pryimachov, Oleh",
+    "disposition": "accepted",
+    "caseType": "行蹤義務違規",
+    "outcome": "2年",
+    "notes": [
+      "已閱讀官方個案公告；國籍以官方名冊或公告明示為據。",
+      "公告載有上訴權時，不推定已無上訴或已終局。",
+      "網址的 4-year 字串過時；現行標題、內文與名冊均為兩年，並非未解決衝突。"
+    ],
+    "set": {
+      "eventBackground": "Oleh Pryimachov 因三次行蹤義務失誤被處兩年禁賽，自 2025-10-14 至 2027-10-13。官方網址仍含舊字樣 four-year，但現行標題、內文及名冊一致為兩年。",
+      "summary": "行蹤義務違規；2年。",
+      "educationalNotes": "以目前公告內容及名冊為準；不能用網址字串判定處分長度。",
+      "punishment": {
+        "banDuration": "2年",
+        "resultsCancelled": true,
+        "medalStripped": null,
+        "otherPenalties": "官方所列禁賽期間：14 October 2025 to 13 October 2027。成績處理：22 February 2024 to 14 October 2025。"
+      }
+    }
+  },
+  {
+    "batchId": "B01-52",
+    "name": "Gulliver, Arran",
+    "disposition": "accepted",
+    "caseType": "物質相關違規／非故意",
+    "outcome": "2年",
+    "notes": [
+      "已閱讀官方個案公告；國籍以官方名冊或公告明示為據。",
+      "公告載有上訴權時，不推定已無上訴或已終局。",
+      "官方稱 SARMs 為 steroid 的字詞不沿用；未新增不必要藥理描述。"
+    ],
+    "set": {
+      "eventBackground": "Arran Gulliver 的 2025-03-02 賽外樣本檢出 enobosarm（ostarine）。他證明違規並非故意，接受兩年禁賽，2025-03-24 至 2027-03-23。",
+      "summary": "物質相關違規／非故意；2年。",
+      "educationalNotes": "非故意不代表無過失，也不代表未違規；公告沒有認定污染來源便不補寫。",
+      "punishment": {
+        "banDuration": "2年",
+        "resultsCancelled": true,
+        "medalStripped": null,
+        "otherPenalties": "官方所列禁賽期間：24 March 2025 to 23 March 2027。成績處理：2 March 2025 to 24 March 2025。"
+      }
+    }
+  }
+]

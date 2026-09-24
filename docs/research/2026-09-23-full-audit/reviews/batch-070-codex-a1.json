@@ -1,0 +1,411 @@
+{
+  "cases": [
+    {
+      "id": "usada-5f2ba9170fdc",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-a0d3c1046b46708d",
+        "registry-489f9378b0c7075e"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-a0d3c1046b46708d",
+          "startLine": 1,
+          "endLine": 8,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告確認冰球選手 Grace Bowlby、spironolactone、賽外採樣日期、後續授權未來使用的 TUE、公開警告及無成績可取消。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "medium",
+          "claim": "國籍：美國",
+          "explanation": "來源確認美國冰球運動員及居住地，但沒有直接證明國籍或代表國家；居住地及美國標題不足以確定國籍。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-a0d3c1046b46708d",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "將國籍標為未確認，或補充可證明其運動代表身分的來源。"
+        }
+      ]
+    },
+    {
+      "id": "usada-05c2efe09f20",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-2cd304e8ea667812",
+        "registry-5f57f6dbd6aa45f5"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-2cd304e8ea667812",
+          "startLine": 1,
+          "endLine": 8,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告確認帕拉柔道選手 Trey Lampkin 使用 hydrochlorothiazide、已停用且不需 TUE，並記載賽外採樣、公開警告及無成績可取消。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "medium",
+          "claim": "國籍：美國",
+          "explanation": "來源確認美國帕拉柔道運動員及居住地，但未直接證明國籍或代表國家。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-2cd304e8ea667812",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "將國籍標為未確認，或補充可證明其運動代表身分的來源。"
+        }
+      ]
+    },
+    {
+      "id": "usada-f8c1f2c29e25",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-d215cc07f3a36ad6",
+        "registry-bb2a6615feb05d81"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-d215cc07f3a36ad6",
+          "startLine": 1,
+          "endLine": 8,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告確認冰球選手 Madeline Wethington、spironolactone、賽外採樣日期、授權未來使用的 TUE、公開警告及無成績可取消。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "medium",
+          "claim": "國籍：美國",
+          "explanation": "來源確認美國冰球運動員及居住地，但沒有直接證明國籍或代表國家。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-d215cc07f3a36ad6",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "將國籍標為未確認，或補充可證明其運動代表身分的來源。"
+        }
+      ]
+    },
+    {
+      "id": "usada-956ec8818b4b",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-2f2056215086cb71",
+        "registry-0d5d3f3592e6ee3a"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-2f2056215086cb71",
+          "startLine": 7,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告確認舉重選手 Jordan Adel、三種禁用物質、及早承認減刑、三年禁賽起日及自採樣日起取消成績並沒收獎項。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "medium",
+          "claim": "國籍：美國",
+          "explanation": "來源確認美國舉重運動員及德州居住地，但未直接證明國籍或代表國家。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-2f2056215086cb71",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "將國籍標為未確認，或補充可證明其運動代表身分的來源。"
+        }
+      ]
+    },
+    {
+      "id": "usada-2afd16a939d4",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-8d6503b28b6c0b22",
+        "registry-6deb9a9f0dc18931"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-8d6503b28b6c0b22",
+          "startLine": 7,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告確認鐵人三項選手 Noah Webb、賽事與 IRMS 確認外源性 testosterone 或前驅物、四年禁賽及成績取消日期。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "medium",
+          "claim": "國籍：美國",
+          "explanation": "來源確認美國鐵人三項運動員及居住地，但未直接證明國籍或代表國家。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-8d6503b28b6c0b22",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "將國籍標為未確認，或補充可證明其運動代表身分的來源。"
+        }
+      ]
+    },
+    {
+      "id": "usada-003de817c96a",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-671744ac0a0ce8b8",
+        "registry-7714ab54e828e109"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-671744ac0a0ce8b8",
+          "startLine": 7,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告確認舉重選手 Hillary Tran、兩種興奮劑、可卡因賽外且與表現無關及完成輔導、街頭藥物污染調查、減為一年及成績取消。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "medium",
+          "claim": "國籍：美國",
+          "explanation": "來源確認美國舉重運動員及居住地，但未直接證明國籍或代表國家。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-671744ac0a0ce8b8",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "將國籍標為未確認，或補充可證明其運動代表身分的來源。"
+        }
+      ]
+    },
+    {
+      "id": "usada-557b3d045e61",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-d115ddecad017ff4",
+        "registry-b648c55f17af16e7"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-d115ddecad017ff4",
+          "startLine": 7,
+          "endLine": 11,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates"
+          ],
+          "note": "公告確認 Jamaal Daniels 為田徑教練，向 Desmond Jackson 施用 DHEA、犯第 2.8 與 2.5 條違規、禁賽四年及起始日期；Jackson 案另行處理。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "medium",
+          "claim": "國籍：美國",
+          "explanation": "來源確認美國帕拉田徑教練及居住地，但未直接證明國籍或代表國家。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-d115ddecad017ff4",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "將國籍標為未確認，或補充可證明其運動代表身分的來源。"
+        }
+      ]
+    },
+    {
+      "id": "usada-81ca863aa55c",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-8866f5e1a55452a8",
+        "registry-8ff1578b84ea8921"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-8866f5e1a55452a8",
+          "startLine": 7,
+          "endLine": 11,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告確認自行車選手 Matt McWhirter、USA Cycling 資格、Bike the Bluff 賽事、IRMS 確認外源性來源、四年禁賽及自採樣日起取消成績。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "medium",
+          "claim": "國籍：美國",
+          "explanation": "來源確認其 USA Cycling 會員身分及美國居住地，但沒有直接證明國籍或國家代表身分。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-8866f5e1a55452a8",
+              "startLine": 1,
+              "endLine": 8
+            }
+          ],
+          "suggestion": "將國籍標為未確認，或補充可證明其運動代表身分的來源。"
+        }
+      ]
+    }
+  ]
+}

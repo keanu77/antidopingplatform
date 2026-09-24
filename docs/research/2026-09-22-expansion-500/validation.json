@@ -1,0 +1,57 @@
+{
+  "checkedAt": "2026-09-23T04:42:02.154742+00:00",
+  "dataSha256": "81585990d76b5d4015fa92c3a39f2d8ad60470da67177e010ac40c7db2511a07",
+  "localCaseCount": 517,
+  "newIndividuallyReviewed": 500,
+  "registryOnlyPending": 0,
+  "baselineIdentityOverlap": 0,
+  "taiwanCases": 0,
+  "localUniqueNames": 516,
+  "deployed": false,
+  "pushed": false,
+  "committed": false,
+  "checks": [
+    {
+      "command": "npm run test:reviewed",
+      "result": "passed",
+      "tests": 12,
+      "detailRoutesCovered": 517
+    },
+    {
+      "command": "npm run audit:completion",
+      "result": "complete",
+      "individuallyReviewed": 500,
+      "errors": []
+    },
+    {
+      "command": "npm run test:frontend",
+      "result": "passed",
+      "tests": 38
+    },
+    {
+      "command": "npm run cf:build",
+      "result": "passed",
+      "prerenderedHtml": 11
+    },
+    {
+      "command": "git diff --check",
+      "result": "passed"
+    }
+  ],
+  "browserChecksPassed": 12,
+  "browserEvidence": "browser-validation.json",
+  "sourceHashValidation": "evidence-validation.json",
+  "githubApiComparison": {
+    "report": "remote-verification-2026-09-23.json",
+    "matches": 191,
+    "total": 191,
+    "githubCaseCount": 171,
+    "liveCaseCount": 171,
+    "versionStampMatchesGitHub": false
+  },
+  "limitations": [
+    "Core facts from individual official documents and registry crosschecks, not all arbitration and appeal files in full.",
+    "141 original records remain archived pending individual review; 13 additional original records quarantined.",
+    "Local build embeds current HEAD stamp despite dirty working tree; version stamp alone is not content proof."
+  ]
+}

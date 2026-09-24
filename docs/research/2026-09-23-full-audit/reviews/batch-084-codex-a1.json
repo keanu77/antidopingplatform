@@ -1,0 +1,504 @@
+{
+  "cases": [
+    {
+      "id": "usada-7ecfb208518e",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-514844748321ab4d",
+        "registry-21de462950b26351"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-514844748321ab4d",
+          "startLine": 1,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告確認 Ainslie 為自行車選手、2017 年賽事檢體含 GW1516 sulfone、及時承認後為 42 個月，並列採樣日起禁賽及成績取消。"
+        },
+        {
+          "documentId": "registry-21de462950b26351",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "sanction"
+          ],
+          "note": "名冊列出 Ainslie、自行車及 42 個月處分。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "medium",
+          "claim": "國籍：美國",
+          "explanation": "來源標題稱 U.S. Cycling Athlete，並提供加州居住地，但未明確證明國籍或代表國家；居住地及 USADA 管轄不足以確定國籍。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-514844748321ab4d",
+              "startLine": 1,
+              "endLine": 8
+            }
+          ],
+          "suggestion": "將國籍改為未確認，或補充明確的國籍／代表隊來源。"
+        }
+      ]
+    },
+    {
+      "id": "usada-38afed413abd",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-fbf94cf45f463bbd",
+        "registry-f649a0029fcf0d27"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-fbf94cf45f463bbd",
+          "startLine": 1,
+          "endLine": 11,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告確認 Brown 的自行車賽外採樣、外源性合成代謝劑、治療劑量處方、一般與休閒競賽 TUE 標準未符合、兩年處分及成績取消日期。"
+        },
+        {
+          "documentId": "registry-f649a0029fcf0d27",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction"
+          ],
+          "note": "名冊列出 Brown、自行車、雄性合成代謝類及兩年處分。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "medium",
+          "claim": "國籍：美國",
+          "explanation": "來源標題稱 U.S. Cycling Athlete，並列奧克拉荷馬州居住地；未直接證實國籍或代表國家。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-fbf94cf45f463bbd",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "標示國籍未確認，或補充明確國籍／代表隊證據。"
+        }
+      ]
+    },
+    {
+      "id": "usada-e833e68d19e3",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-f623d9e8625b0a11",
+        "registry-fa7cb7d4c728136d"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-f623d9e8625b0a11",
+          "startLine": 1,
+          "endLine": 9,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告確認 Gross 為自行車選手，2018 年賽外拒絕提供尿液樣本，接受四年禁賽並取消相關競賽成績。"
+        },
+        {
+          "documentId": "registry-fa7cb7d4c728136d",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction"
+          ],
+          "note": "名冊記載非分析拒絕採樣及四年處分。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "medium",
+          "claim": "國籍：美國",
+          "explanation": "來源標題稱 U.S. Cycling Athlete，正文只提供佛羅里達州居住地，沒有直接證明國籍或代表國家。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-f623d9e8625b0a11",
+              "startLine": 1,
+              "endLine": 8
+            }
+          ],
+          "suggestion": "將國籍標為未確認，或補入明確國籍／代表隊來源。"
+        }
+      ]
+    },
+    {
+      "id": "usada-1afebbd6c57b",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-409b2d673e4f67ff",
+        "registry-c330c608e3cde847"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-409b2d673e4f67ff",
+          "startLine": 1,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告確認 Colunga 為空手道選手，檢體含 ritalinic acid，來源為治療劑量處方；後續 TUE 僅授權未來使用，處分四個月並取消採樣日起成績。"
+        },
+        {
+          "documentId": "registry-c330c608e3cde847",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction"
+          ],
+          "note": "名冊列出 Colunga、空手道、methylphenidate 及四個月處分。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "medium",
+          "claim": "國籍：美國",
+          "explanation": "公告標題稱 U.S. Karate Athlete，正文列德州居住地，但沒有明確國籍或代表國家資料。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-409b2d673e4f67ff",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "標示國籍未確認，或補充可證明國籍／代表隊的來源。"
+        }
+      ]
+    },
+    {
+      "id": "usada-196afd5ac99f",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-7a636c50b2952e2a",
+        "registry-ee35e3ed451702c9"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-7a636c50b2952e2a",
+          "startLine": 1,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告確認 Kendall 為游泳選手，申報使用含 vilanterol 的吸入劑且未預先取得 TUE；處分三個月，自申報日起算，成績自首次使用日起取消。"
+        },
+        {
+          "documentId": "registry-ee35e3ed451702c9",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction"
+          ],
+          "note": "名冊列出 Kendall、游泳、非分析使用 vilanterol 及三個月處分。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "medium",
+          "claim": "國籍：美國",
+          "explanation": "公告標題稱 U.S. Swimming Athlete，正文列印第安納州居住地，未明確證明國籍或代表國家。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-7a636c50b2952e2a",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "將國籍標為未確認，或補充明確的國籍／代表隊證據。"
+        }
+      ]
+    },
+    {
+      "id": "usada-f75282803398",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-7eae2c687c3e5ea2",
+        "registry-b5822231b27053d3"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-7eae2c687c3e5ea2",
+          "startLine": 1,
+          "endLine": 7,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告確認 Dahlkemper 為足球選手，使用 spironolactone 治療皮膚狀況且採樣時申報，之後獲准未來使用的 TUE，接受公開警告；公告沒有事件日期或成績取消資訊。"
+        },
+        {
+          "documentId": "registry-b5822231b27053d3",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction"
+          ],
+          "note": "名冊列出 Dahlkemper、足球、spironolactone 及公開警告。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "medium",
+          "claim": "國籍：美國",
+          "explanation": "公告標題稱 U.S. Soccer Athlete，正文只列加州居住地，沒有直接證實國籍或代表國家。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-7eae2c687c3e5ea2",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "標示國籍未確認，或補充明確國籍／代表隊證據。"
+        }
+      ]
+    },
+    {
+      "id": "usada-cc59982303fb",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-c2d61feaf3f4c3ab",
+        "registry-735217a20ccd49e1"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-c2d61feaf3f4c3ab",
+          "startLine": 1,
+          "endLine": 9,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告確認 Griffin 為帕拉自行車選手，2018 年比賽檢體含兩種 cocaine 代謝物，屬興奮劑類，處分一年且自採樣日起取消成績。"
+        },
+        {
+          "documentId": "registry-735217a20ccd49e1",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction"
+          ],
+          "note": "名冊列出 Griffin、帕拉自行車、兩種代謝物及一年處分。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "medium",
+          "claim": "國籍：美國",
+          "explanation": "標題稱 U.S. Paralympic Cycling Athlete，正文列南卡羅來納州居住地；未提供明確國籍或代表國家證據。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-c2d61feaf3f4c3ab",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "將國籍改列未確認，或補充正式代表國家／國籍來源。"
+        }
+      ]
+    },
+    {
+      "id": "usada-9de5a5d1696d",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-f7ce61bdcb87ca6a",
+        "registry-53a4f8121cca3395"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-f7ce61bdcb87ca6a",
+          "startLine": 1,
+          "endLine": 9,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告確認 Rivera 為舉重選手，American Open Series 1 檢體含 stanozolol 及代謝物；禁賽自暫時停賽日開始，成績自採樣日起取消。"
+        },
+        {
+          "documentId": "registry-53a4f8121cca3395",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction"
+          ],
+          "note": "名冊列出 Rivera、舉重、stanozolol 及四年處分。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "medium",
+          "claim": "國籍：美國",
+          "explanation": "公告標題稱 U.S. Weightlifting Athlete，正文列印第安納州居住地，未直接證明國籍或代表國家。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-f7ce61bdcb87ca6a",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "標示國籍未確認，或補充明確國籍／代表隊證據。"
+        }
+      ]
+    }
+  ]
+}

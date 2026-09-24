@@ -1,0 +1,425 @@
+{
+  "checkedAt": "2026-09-23",
+  "auditedDatasetSha256": "52513ba9e6040d6781c5dcfacbd440b0ba1f976c92812e404de370e860beff52",
+  "scope": "Frozen official-source bundle comparison; received model answers are not factual certification or a search for all subsequent appeals.",
+  "changes": [
+    {
+      "id": "ita-cd187870e58d",
+      "set": {
+        "review.caseType": "上訴改判／非故意與過失程度",
+        "summary": "上訴改判／非故意與過失程度；20個月。"
+      },
+      "reason": "官方公告支持非故意、無重大過失及20個月禁賽，沒有建立污染途徑；summary與caseType中的污染標籤超出已取得來源。不是認定不存在污染，而是不把未獲支持的途徑寫成已確定。",
+      "sourceRefs": [
+        {
+          "documentId": "doc-c11b0e559913cf29",
+          "startLine": 7,
+          "endLine": 8
+        }
+      ]
+    },
+    {
+      "id": "ita-a9d763121732",
+      "set": {
+        "punishment.otherPenalties": "原三年禁賽調整為 2023-04-13 至 2026-04-12；另追加三年，自 2026-04-13 至 2029-04-12。公告取消自 2022-12-23 起個人成績；名冊另列成績處理至 2026-08-13。名冊違規日為 2022-11-20，公告未說明其與本次教練活動日期的關係。"
+      },
+      "reason": "現有敘述已明列折抵撤銷、原處分延至2026-04-12與追加三年，不支持Codex所稱處分矛盾。Codex提及的2026-08-03決定日不在本案公告，不能作為指控依據。名冊的2022-11-20違規日早於暫時禁賽、且公告未列教練活動逐日，屬來源日期歧義；現有公告年標示可保留。成績處理終點2026-08-13出自名冊，不因公告未列終點就成為錯誤，但應明確區別兩份來源。",
+      "sourceRefs": [
+        {
+          "documentId": "doc-f52ad9ef20613310",
+          "startLine": 4,
+          "endLine": 7
+        },
+        {
+          "documentId": "registry-67905e64310071f5",
+          "startLine": 12,
+          "endLine": 20
+        }
+      ]
+    },
+    {
+      "id": "ita-cfefdacd2d92",
+      "set": {
+        "eventBackground": "UCI 確認 Martha Bayona Pineda 因三次行蹤義務失誤接受 18 個月禁賽，2025-04-23 至 2026-10-22。公告未列成績取消範圍。"
+      },
+      "reason": "名冊05/12/2024不論日月順序，年份均為2024；yearBasis明列官方名冊事件年，模型對年份的質疑不成立。另看到文字含簡體字確認，可在後續統一為確認，不影響案件真實性。",
+      "sourceRefs": [
+        {
+          "documentId": "registry-4936117b0adbe796",
+          "startLine": 13,
+          "endLine": 14
+        }
+      ]
+    },
+    {
+      "id": "ita-19210cce34cd",
+      "set": {
+        "punishment.otherPenalties": "公告所列禁賽期間：2026-06-10 至 2028-06-09；名冊禁賽欄僅列終止日。取消 2025-11-29 至 2026-06-10 的相關成績。"
+      },
+      "reason": "完整期間由官方公告直接支持，名冊只列終點不構成矛盾。不過otherPenalties把單一終止日稱為禁賽期間，應補齊公告中的起訖日期並標明名冊只列終日。",
+      "sourceRefs": [
+        {
+          "documentId": "doc-65e218e1aa5ee08c",
+          "startLine": 5,
+          "endLine": 5
+        },
+        {
+          "documentId": "registry-0b9d524f630eec8f",
+          "startLine": 15,
+          "endLine": 16
+        }
+      ]
+    },
+    {
+      "id": "ita-3bea7cef0331",
+      "set": {
+        "punishment.resultsCancelled": true,
+        "punishment.otherPenalties": "資格限制期間：2024-09-09 至 2028-09-08。ITA 官方名冊另列成績取消期間為 2024-07-30 至 2024-09-09；UCI 簡短公告未另敘此範圍。",
+        "educationalNotes": "兩份樣本以同案處理；成績取消範圍由 ITA 官方名冊補充，不能僅因簡短公告未提及就視為未知。姓名依 UCI 正式拼寫。"
+      },
+      "reason": "個案公告未列成績取消，但ITA同案名冊Disqualification欄明列2024-07-30至2024-09-09。不能只因公告省略就把已有官方依據的結果標成未知。",
+      "sourceRefs": [
+        {
+          "documentId": "registry-22292fd14a5eed15",
+          "startLine": 19,
+          "endLine": 20
+        }
+      ]
+    },
+    {
+      "id": "aiu-dbc9a1f66bb9",
+      "set": {
+        "eventBackground": "Nancy Jelagat Meto 的 2024-06-12 賽外樣本檢出 furosemide；案件曾涉及國內審理權限爭議，後由 AIU 完成結果管理。官方決定與名冊皆列兩年禁賽，但起算日不同：決定第 30.1 段列 2024-08-11，名冊列 2026-02-05，尚待釐清。取消自 2024-06-12 起相關成績。",
+        "punishment.otherPenalties": "兩年禁賽的起算日有官方來源歧異：個案決定列 2024-08-11，首審名冊列 2026-02-05，未確認哪一者為後續有效日期。自 2024-06-12 起取消成績。",
+        "educationalNotes": "官方決定與名冊的禁賽起算日互有歧異，應並列並待主管機構澄清，不自行宣稱已校正。管轄爭議的撤銷不代表實體上未違規。"
+      },
+      "reason": "官方決定30.1與官方名冊對兩年禁賽的起算日不同。現有教學文字雖提到差異，卻直接宣稱以決定校正名冊；改成並列兩者並保留待釐清，避免把編輯選擇當成官方更正。",
+      "sourceRefs": [
+        {
+          "documentId": "doc-6a64314368dd066d",
+          "startLine": 243,
+          "endLine": 251
+        },
+        {
+          "documentId": "registry-378c5c78eb5059ec",
+          "startLine": 1,
+          "endLine": 1
+        }
+      ]
+    },
+    {
+      "id": "ita-dbea69b05e29",
+      "set": {
+        "punishment.otherPenalties": "禁賽期間：2024-03-15 至 2027-03-14。UCI 公告確認里約奧運該賽事成績取消；ITA 官方名冊另列成績取消期間為 2016-08-16 至 2017-05-23。"
+      },
+      "reason": "原文未宣稱僅取消里約賽事，因此不是已證實矛盾；但名冊另列至2017-05-23的成績取消期間，補上可使處分範圍更完整。",
+      "sourceRefs": [
+        {
+          "documentId": "doc-99a464510e842dc7",
+          "startLine": 4,
+          "endLine": 4
+        },
+        {
+          "documentId": "registry-820c22dfcc0f481f",
+          "startLine": 19,
+          "endLine": 20
+        }
+      ]
+    },
+    {
+      "id": "aiu-b487a4c8f0f5",
+      "set": {
+        "punishment.otherPenalties": "裁決於 2025-12-22 處以十年禁賽，自決定日起算，折抵自 2023-10-02 至決定日的暫時禁賽期間。名冊以 2023-10-02 表示折抵後期間。取消 2023-09-26 至 2023-10-02 期間成績。"
+      },
+      "reason": "原事件敘述已說明暫時禁賽折抵，名冊也以2023-10-02表示期間；但處分欄可以更清楚區別判決起日與已服期間折抵。依裁決第122至123段補足2025-12-22決定日，不改十年長度。",
+      "sourceRefs": [
+        {
+          "documentId": "doc-e06ab48b0ae23659",
+          "startLine": 957,
+          "endLine": 961
+        },
+        {
+          "documentId": "doc-e06ab48b0ae23659",
+          "startLine": 991,
+          "endLine": 993
+        }
+      ]
+    },
+    {
+      "id": "aiu-7ecea0d3f0fd",
+      "set": {
+        "substance": "tramadol；提交不實醫療文件構成篡改程序",
+        "review.caseType": "tramadol 與不實醫療文件／合併處分",
+        "summary": "tramadol 與不實醫療文件／合併處分；5年。"
+      },
+      "reason": "來源認定提交文件不實及篡改違規，也寫她主張文件來自丈夫；不宜讓簡短標籤被理解為已證實由她親手偽造。事件背景已精確，僅收斂摘要與分類用詞。",
+      "sourceRefs": [
+        {
+          "documentId": "doc-11267709ed6c8070",
+          "startLine": 193,
+          "endLine": 223
+        }
+      ]
+    },
+    {
+      "id": "usada-48d68f0e2e03",
+      "set": {
+        "punishment.otherPenalties": "原四年自 2018-12-07 起，追加四年後處分合計八年。退休期間處分停止計時；公告表示兩段處分於復出後連續執行，不能據此推算確切結束日。原案取消自 2018-12-07 起的競賽成績；追加公告未另列新的成績取消範圍。"
+      },
+      "reason": "公告明載原四年增加為八年、退休期間停算、復出後兩段連續執行。現有八年及停算正確，沒有宣稱原四年已服畢；為避免把剩餘期間視為已算定，改貼近原文並明示不能推算結束日。",
+      "sourceRefs": [
+        {
+          "documentId": "doc-ba85662ece52e58e",
+          "startLine": 11,
+          "endLine": 11
+        },
+        {
+          "documentId": "registry-221e8242869c81e3",
+          "startLine": 5,
+          "endLine": 5
+        }
+      ]
+    },
+    {
+      "id": "usada-c0bcc1cac884",
+      "set": {
+        "review.countryEvidence": {
+          "status": "title_only",
+          "note": "國家欄目前依官方公告的 U.S. 教練描述；住址及教練隸屬不足以單獨證明國籍或代表國，身分仍待補證。"
+        }
+      },
+      "reason": "本案官方來源以U.S.教練標題及美國住址描述，正文未獨立建立國籍或國際賽代表國；同意保留未確認限制，不把教練隸屬或住址當法律國籍證明。此教練案例未包含於舊252件運動員標題清單，新增同等醒目標示。",
+      "sourceRefs": [
+        {
+          "documentId": "doc-ba85662ece52e58e",
+          "startLine": 7,
+          "endLine": 7
+        },
+        {
+          "documentId": "doc-ba85662ece52e58e",
+          "startLine": 10,
+          "endLine": 10
+        },
+        {
+          "documentId": "doc-ba85662ece52e58e",
+          "startLine": 1,
+          "endLine": 7
+        }
+      ]
+    },
+    {
+      "id": "usada-557b3d045e61",
+      "set": {
+        "review.countryEvidence": {
+          "status": "title_only",
+          "note": "國家欄目前依官方公告的 U.S. 教練描述；住址及教練隸屬不足以單獨證明國籍或代表國，身分仍待補證。"
+        }
+      },
+      "reason": "本案官方來源以U.S.教練標題及美國住址描述，正文未獨立建立國籍或國際賽代表國；同意保留未確認限制，不把教練隸屬或住址當法律國籍證明。此教練案例未包含於舊252件運動員標題清單，新增同等醒目標示。",
+      "sourceRefs": [
+        {
+          "documentId": "doc-d115ddecad017ff4",
+          "startLine": 1,
+          "endLine": 7
+        }
+      ]
+    },
+    {
+      "id": "usada-6e7d139bba18",
+      "set": {
+        "review.countryEvidence": {
+          "status": "title_only",
+          "note": "國家欄目前依官方公告標題的 U.S. 描述；住址不足以單獨證明國籍或代表國，身分仍待補證。"
+        }
+      },
+      "reason": "公告的U.S.標題及居住地未能獨立證明國籍或代表國，應標示待補證；此標題形式未被舊252件清單涵蓋，新增相同限制。",
+      "sourceRefs": [
+        {
+          "documentId": "doc-0ae559f89a89276b",
+          "startLine": 1,
+          "endLine": 7
+        }
+      ]
+    },
+    {
+      "id": "usada-07d30b0088c7",
+      "set": {
+        "review.countryEvidence": {
+          "status": "title_only",
+          "note": "國家欄目前依官方公告標題的 U.S. 描述；住址不足以單獨證明國籍或代表國，身分仍待補證。"
+        }
+      },
+      "reason": "公告的U.S.標題及居住地未能獨立證明國籍或代表國，應標示待補證；此標題形式未被舊252件清單涵蓋，新增相同限制。",
+      "sourceRefs": [
+        {
+          "documentId": "doc-44e7c2645ec246aa",
+          "startLine": 1,
+          "endLine": 7
+        }
+      ]
+    },
+    {
+      "id": "usada-64a436bacae4",
+      "set": {
+        "review.countryEvidence": {
+          "status": "title_only",
+          "note": "國家欄目前依官方公告標題的 U.S. 描述；住址不足以單獨證明國籍或代表國，身分仍待補證。"
+        }
+      },
+      "reason": "公告的U.S.標題及居住地未能獨立證明國籍或代表國，應標示待補證；此標題形式未被舊252件清單涵蓋，新增相同限制。 模型另把資料鍵athleteName及事件年2015判為身分錯誤；公開背景、摘要、分類均明列教練，yearBasis為事件年，原文第8行行為始於2015年，不能改成2017公告年。此身分／年份警示不成立。",
+      "sourceRefs": [
+        {
+          "documentId": "doc-54abd6452587e840",
+          "startLine": 1,
+          "endLine": 7
+        },
+        {
+          "documentId": "doc-54abd6452587e840",
+          "startLine": 1,
+          "endLine": 8
+        },
+        {
+          "documentId": "registry-3e5e28ec4e51f101",
+          "startLine": 1,
+          "endLine": 1
+        },
+        {
+          "documentId": "doc-54abd6452587e840",
+          "startLine": 7,
+          "endLine": 7
+        },
+        {
+          "documentId": "doc-54abd6452587e840",
+          "startLine": 12,
+          "endLine": 15
+        }
+      ]
+    },
+    {
+      "id": "usada-ab372572f1a9",
+      "set": {
+        "eventBackground": "Tyler Moore 在 2017-02-08 賽外檢體檢出 ostarine，未能證明來源，未獲較低過失減刑，受到四年禁賽；2026-09-22 查閱名冊另列退休停算。",
+        "punishment.otherPenalties": "原自 2017-02-08 起四年；2026-09-22 查閱名冊註記退休停算，未公開完整復出餘期。取消自 2017-02-08 起的競賽成績。"
+      },
+      "reason": "凍結名冊明列退休停算，並無處分事實矛盾；但目前一詞可能被誤讀成即時參賽資格。將其限定為2026-09-22查閱紀錄，不推算復出日期或剩餘期間。",
+      "sourceRefs": [
+        {
+          "documentId": "registry-384995e1c9426cd1",
+          "startLine": 1,
+          "endLine": 1
+        }
+      ]
+    },
+    {
+      "id": "usada-9c8b8e7bbb4c",
+      "set": {
+        "eventBackground": "Chris Creveling 在 2016-10-18 賽外檢體檢出 clomiphene，接受四年禁賽，2026-09-22 查閱名冊另列退休停算。",
+        "punishment.otherPenalties": "原自 2016-11-18 接受暫時禁賽日起四年；2026-09-22 查閱名冊註記退休停算，未公開完整復出餘期。取消自 2016-10-18 起的競賽成績。"
+      },
+      "reason": "凍結名冊明列退休停算，並無處分事實矛盾；但目前一詞可能被誤讀成即時參賽資格。將其限定為2026-09-22查閱紀錄，不推算復出日期或剩餘期間。",
+      "sourceRefs": [
+        {
+          "documentId": "registry-7e7effec89e7d7cd",
+          "startLine": 1,
+          "endLine": 1
+        }
+      ]
+    },
+    {
+      "id": "usada-36b25b3d84e6",
+      "set": {
+        "eventBackground": "Jason Young 自 2013 年 1 月起持有及使用包括 ipamorelin、GHRP-2 在內的禁用物質，接受四年禁賽。2026-09-22 查閱名冊另列退休停算。",
+        "punishment.otherPenalties": "原自 2016-11-17 承認持有及使用日起四年；2026-09-22 查閱名冊註記退休停算，未公開完整復出餘期。取消自 2013-01-24 起的競賽成績。"
+      },
+      "reason": "凍結名冊明列退休停算，並無處分事實矛盾；但目前一詞可能被誤讀成即時參賽資格。將其限定為2026-09-22查閱紀錄，不推算復出日期或剩餘期間。",
+      "sourceRefs": [
+        {
+          "documentId": "registry-94e8f664a7e7b566",
+          "startLine": 1,
+          "endLine": 1
+        }
+      ]
+    },
+    {
+      "id": "usada-9aa5cea0cfe1",
+      "set": {
+        "review.countryEvidence": {
+          "status": "title_only",
+          "note": "國家欄目前依官方公告標題的 U.S. 描述；住址及 USADA 管轄不足以單獨證明國籍或代表國，身分仍待補證。"
+        }
+      },
+      "reason": "兩篇官方來源僅提供U.S.標題及住址，且公告明示USADA亦管轄外國選手。現有來源不足以獨立確認代表國；保留國家待補證，不將USADA管轄視為美國國籍。",
+      "sourceRefs": [
+        {
+          "documentId": "doc-d75d70475cfb2232",
+          "startLine": 1,
+          "endLine": 7
+        },
+        {
+          "documentId": "doc-c2a57261faf0ae59",
+          "startLine": 7,
+          "endLine": 8
+        },
+        {
+          "documentId": "doc-c2a57261faf0ae59",
+          "startLine": 14,
+          "endLine": 14
+        }
+      ]
+    },
+    {
+      "id": "usada-1f56bc7e39f1",
+      "set": {
+        "eventBackground": "Nicholas（Nick）Mossberg 承認 2014 年 8 月至 2015 年 4 月持有及使用禁用肽類，2016 年調查中同意配合並停止參賽，包括不參加奧運選拔。其聲明稱為加速傷後恢復，接受四年禁賽；2026-09-22 查閱名冊另列退休停算。",
+        "punishment.otherPenalties": "原自 2016-04-25 承認違規日起四年；2026-09-22 查閱名冊註記退休停算，未公開完整復出餘期。取消自 2014-08-23 起的競賽成績，公告以此為約略首次企圖取得禁用物質日期。"
+      },
+      "reason": "名冊明列退休停算，無處分事實矛盾；將目前一詞限定為2026-09-22查閱來源，避免被誤讀為即時參賽狀態。保留完整復出餘期未公開。",
+      "sourceRefs": [
+        {
+          "documentId": "doc-40cb6d78eb498383",
+          "startLine": 7,
+          "endLine": 8
+        },
+        {
+          "documentId": "registry-2ff1f5bb18f94ad0",
+          "startLine": 1,
+          "endLine": 1
+        }
+      ]
+    },
+    {
+      "id": "usada-48f0300507d6",
+      "set": {
+        "eventBackground": "Michael Dunkum 因 2013 年 9 月至 2016 年 7 月持有及使用禁用肽類物質受到處分。個案公告記載承認、期間與成績後果，2026-09-22 查閱名冊核定四年禁賽並註記退休停算。",
+        "punishment.otherPenalties": "原自 2016-08-11 承認違規日起四年；2026-09-22 查閱名冊註記退休停算，未公開完整復出餘期。取消自 2013-09-06 起的競賽成績，公告以此為約略首次企圖取得禁用物質日期。"
+      },
+      "reason": "名冊明列退休停算，無處分事實矛盾；將目前一詞限定為2026-09-22查閱來源，避免被誤讀為即時參賽狀態。保留完整復出餘期未公開。",
+      "sourceRefs": [
+        {
+          "documentId": "doc-b6059280eae8d144",
+          "startLine": 5,
+          "endLine": 9
+        },
+        {
+          "documentId": "registry-8ed3be6a1f0a23c9",
+          "startLine": 1,
+          "endLine": 1
+        }
+      ]
+    },
+    {
+      "id": "usada-6d48feafc5e9",
+      "set": {
+        "punishment.otherPenalties": "自 2015-12-07 收到暫時禁賽通知日起四年。取消自 2015-11-06 首次陽性採樣日起的競賽成績。"
+      },
+      "reason": "公告寫收到暫時禁賽通知，不是自願接受暫時禁賽。採Grok建議將用語改為收到通知；四年期間與2015-12-07起日維持。",
+      "sourceRefs": [
+        {
+          "documentId": "doc-f2c49d5f0bf78740",
+          "startLine": 10,
+          "endLine": 10
+        }
+      ]
+    }
+  ]
+}

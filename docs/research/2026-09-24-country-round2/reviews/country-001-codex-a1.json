@@ -1,0 +1,82 @@
+{
+  "cases": [
+    {
+      "id": "usada-c459cc791bed",
+      "status": "supported",
+      "identity": "supported",
+      "country": "supported",
+      "temporalScope": "supported",
+      "evidence": [
+        {
+          "documentId": "country",
+          "startLine": 115,
+          "endLine": 115,
+          "note": "報導將 Nicholson 列為 Team USA 選手，並稱美國隊在賽事中獲得獎牌。"
+        },
+        {
+          "documentId": "country",
+          "startLine": 121,
+          "endLine": 121,
+          "note": "列出 18 歲 Nicholson 的女子 76 kg 成績，與病例所述項目和年齡相符。"
+        },
+        {
+          "documentId": "case",
+          "startLine": 7,
+          "endLine": 7,
+          "note": "USADA 公告確認 17 歲 Ella Nicholson 是舉重選手，居於 Medina, Ohio。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-18da72e16a59",
+      "status": "supported",
+      "identity": "supported",
+      "country": "supported",
+      "temporalScope": "supported",
+      "evidence": [
+        {
+          "documentId": "country",
+          "startLine": 127,
+          "endLine": 135,
+          "note": "報導稱這是美國選手的國際首秀，並列 Mariah Park、71 kg，支持她在 2021 泛美錦標賽代表 USA Weightlifting 出賽。"
+        },
+        {
+          "documentId": "country",
+          "startLine": 177,
+          "endLine": 177,
+          "note": "賽程再次列出 Mariah Park、71 kg 與比賽時段。"
+        },
+        {
+          "documentId": "case",
+          "startLine": 7,
+          "endLine": 8,
+          "note": "USADA 公告確認 Mariah Park 是舉重選手，27 歲，居於 Pittsburgh；姓名與項目相符，但公告未提供量級或其他可連結 2021 選手的識別資訊。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-42343d04a699",
+      "status": "supported",
+      "identity": "supported",
+      "country": "supported",
+      "temporalScope": "supported",
+      "evidence": [
+        {
+          "documentId": "country",
+          "startLine": 113,
+          "endLine": 117,
+          "note": "USA Weightlifting 報導列明 2023 全國錦標賽的日期、地點與成年組賽事，並將 Katelyn Kirby 列為成年組女子冠軍。"
+        },
+        {
+          "documentId": "case",
+          "startLine": 7,
+          "endLine": 8,
+          "note": "USADA 公告確認 Katelyn Kirby 是舉重選手，36 歲，採樣賽事為 2023 USA Weightlifting National Championships，日期為 2023-06-30。"
+        }
+      ],
+      "findings": []
+    }
+  ]
+}

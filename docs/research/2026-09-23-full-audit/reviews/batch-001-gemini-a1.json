@@ -1,0 +1,411 @@
+{
+  "cases": [
+    {
+      "id": "ita-cd187870e58d",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-c11b0e559913cf29",
+        "registry-2985687c8e6a2a23"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-c11b0e559913cf29",
+          "startLine": 1,
+          "endLine": 8,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "CAS partially upheld appeal, finding no intentional conduct or significant fault and reducing sanction to 20 months"
+        },
+        {
+          "documentId": "registry-2985687c8e6a2a23",
+          "startLine": 1,
+          "endLine": 22,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "dates",
+            "sanction",
+            "outcomes"
+          ],
+          "note": "Official registry confirms Italian ski mountaineering athlete Enrico Pellegrini, clostebol metabolite ADRV, and 20-month ineligibility"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-f7e39df6dcca",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-ed2d66c5bf6c9a6e",
+        "registry-994f89df5c140102"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-ed2d66c5bf6c9a6e",
+          "startLine": 2,
+          "endLine": 7,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "American softball player accepted 3-year ban for 19-norandrosterone after receiving 1-year reduction for early admission"
+        },
+        {
+          "documentId": "registry-994f89df5c140102",
+          "startLine": 1,
+          "endLine": 22,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "dates",
+            "sanction",
+            "outcomes"
+          ],
+          "note": "Registry entry confirms 3-year ineligibility period from 8 August 2025 to 7 August 2028 resolved by Agreement on Consequences"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-34f66203f4e5",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-c0e635563a9e0d0c",
+        "registry-a4acacf5afa1fc4d"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-c0e635563a9e0d0c",
+          "startLine": 2,
+          "endLine": 4,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "Hearing Panel confirmed UK triathlete Joe Skipper committed whereabouts failure ADRV and imposed 18-month ineligibility"
+        },
+        {
+          "documentId": "registry-a4acacf5afa1fc4d",
+          "startLine": 1,
+          "endLine": 22,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "dates",
+            "sanction",
+            "outcomes"
+          ],
+          "note": "Registry confirms 18-month ineligibility running from 18 May 2026 to 17 November 2027 and disqualification from 15 May 2025 to 17 August 2026"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-a9d763121732",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-f52ad9ef20613310",
+        "registry-67905e64310071f5"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-f52ad9ef20613310",
+          "startLine": 2,
+          "endLine": 7,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "Takzima accepted additional 3-year ban and revoked provisional suspension credit for coaching during provisional suspension and ineligibility"
+        },
+        {
+          "documentId": "registry-67905e64310071f5",
+          "startLine": 1,
+          "endLine": 22,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "dates",
+            "sanction",
+            "outcomes"
+          ],
+          "note": "Registry records ADRV under 10.14.1 with additional ineligibility running from 13 April 2026 until 12 April 2029"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-e4463f173249",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-7432d68748db0570",
+        "registry-7ba2d8b48623ec06"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-7432d68748db0570",
+          "startLine": 2,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "Kazakh MMA athlete sanctioned with 6-year ban due to aggravating circumstances and denied provisional suspension credit for breach of suspension"
+        },
+        {
+          "documentId": "registry-7ba2d8b48623ec06",
+          "startLine": 1,
+          "endLine": 22,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "dates",
+            "sanction",
+            "outcomes"
+          ],
+          "note": "Registry confirms 6-year ineligibility from 12 August 2026 to 11 August 2032 for drostanolone metabolite and meldonium"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-833ebc948a5c",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-8e6b9250cc056dd9",
+        "registry-3ff966147eabf9b0"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-8e6b9250cc056dd9",
+          "startLine": 2,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "CAS overturned previous CAS ADD decision, finding Georgieva guilty of evasion and tampering, imposing 6 years with credit for served provisional suspension"
+        },
+        {
+          "documentId": "registry-3ff966147eabf9b0",
+          "startLine": 1,
+          "endLine": 22,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "dates",
+            "sanction",
+            "outcomes"
+          ],
+          "note": "Registry confirms 6-year ineligibility from 3 August 2026 to 27 June 2032 reflecting credit deduction"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-007d4fee6f50",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-e63bc842cb26469c",
+        "registry-bf647fd42d21f471"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-e63bc842cb26469c",
+          "startLine": 2,
+          "endLine": 6,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "Kyrgyz wrestler sanctioned with 4-year period of ineligibility from 21 November 2024 to 20 November 2028 after testing positive for meldonium"
+        },
+        {
+          "documentId": "registry-bf647fd42d21f471",
+          "startLine": 1,
+          "endLine": 22,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "dates",
+            "sanction",
+            "outcomes"
+          ],
+          "note": "Registry confirms 4-year ineligibility from 21 November 2024 to 20 November 2028 and results disqualification"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-eb2b272982be",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-7d004e730083fca2",
+        "registry-de3fa19441fc24b6"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-7d004e730083fca2",
+          "startLine": 2,
+          "endLine": 6,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "Mongolian wrestler tested positive for furosemide; initial ATF became ADRV after failure to prove pharmaceutical contamination, yielding 2-year sanction"
+        },
+        {
+          "documentId": "registry-de3fa19441fc24b6",
+          "startLine": 1,
+          "endLine": 22,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "dates",
+            "sanction",
+            "outcomes"
+          ],
+          "note": "Registry entry confirms 2-year ineligibility from 4 August 2026 to 3 August 2028 and disqualification from 21 September 2023 to 4 August 2026"
+        }
+      ],
+      "findings": []
+    }
+  ]
+}

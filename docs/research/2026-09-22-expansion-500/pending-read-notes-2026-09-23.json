@@ -1,0 +1,138 @@
+[
+  {
+    "caseId": "usada-ea30e84daaab",
+    "name": "Chad Olsen",
+    "reviewState": "accepted_and_integrated",
+    "documentId": "ceb26a3f8f362a3d",
+    "sha256": "6ba8eab4fecee5d404d8761d3154af3f93c472d481ee761c729c91f3e06017a2",
+    "sourceUrl": "https://www.usada.org/sanction/chad-olen-accepts-doping-sanction/",
+    "textPath": "/private/tmp/antidoping-individual-evidence/ceb26a3f8f362a3d.txt",
+    "locator": "公告標題與全部個案實質段落，止於通用教育資訊前",
+    "eventFinding": "2023-03-19 National Masters Weightlifting Championship 檢出 trenbolone 代謝物 epitrenbolone；及早承認四年減三年。",
+    "outcomeFinding": "3年，自 2023-04-18 起；取消自 2023-03-19 起成績。",
+    "notes": [
+      "2023-07-12 公告；U.S. Weightlifting Athlete 明示美國身分。",
+      "尚須將八項查核欄位與公開摘要正式寫入，檢查目前名冊及重建後才能計為完成。"
+    ],
+    "integratedAt": "2026-09-23"
+  },
+  {
+    "caseId": "usada-8acc4528cb6b",
+    "name": "Addie Bracy",
+    "reviewState": "accepted_and_integrated",
+    "documentId": "ff36e81dbef32868",
+    "sha256": "636c6b0c509b4c83faab777353932ac1e524bb9299df3c0758b5430b854b805f",
+    "sourceUrl": "https://www.usada.org/sanction/addie-bracy-accepts-public-warning/",
+    "textPath": "/private/tmp/antidoping-individual-evidence/ff36e81dbef32868.txt",
+    "locator": "公告標題與全部個案實質段落，止於通用教育資訊前",
+    "eventFinding": "2023-04-26 在 IV Bar 接受每十二小時超過 100 mL 輸注，採樣時申報；無禁用物質，但不在醫院治療、手術或臨床診斷例外中；未符合追溯 TUE。",
+    "outcomeFinding": "公開警告，無禁賽；明示賽外事件沒有須取消成績。",
+    "notes": [
+      "2023-06-26 公告；U.S. Ultrarunning and Track & Field Athlete。不能寫成藥檢陽性。",
+      "尚須將八項查核欄位與公開摘要正式寫入，檢查目前名冊及重建後才能計為完成。"
+    ],
+    "integratedAt": "2026-09-23"
+  },
+  {
+    "caseId": "usada-b03e0386a601",
+    "name": "Katerina Brim",
+    "reviewState": "accepted_and_integrated",
+    "documentId": "5f0ad92c69e33396",
+    "sha256": "f145c8c3ca79805e78b56cf5600252e694f8e8bf434e420eeb9d90a01a034356",
+    "sourceUrl": "https://www.usada.org/sanction/katerina-brim-accepts-doping-sanction/",
+    "textPath": "/private/tmp/antidoping-individual-evidence/5f0ad92c69e33396.txt",
+    "locator": "公告標題與全部個案實質段落，止於通用教育資訊前",
+    "eventFinding": "2022-10-19 申報 Humalog／insulin lispro，實驗室結果陰性。入檢測池僅十九日；USADA 曾授予追溯 TUE，但 WADA 兩次否決其授予依據，因此採樣當日無有效 TUE。",
+    "outcomeFinding": "1年，自 2022-10-19 起；取消自該日起成績。",
+    "notes": [
+      "2023-05-23 公告；U.S. Paralympic Cycling Athlete。本案是申報使用而非陽性；引用 USADA 對制度的批評須標明為該機構立場，不能當成中立裁判結論。",
+      "尚須將八項查核欄位與公開摘要正式寫入，檢查目前名冊及重建後才能計為完成。"
+    ],
+    "integratedAt": "2026-09-23"
+  },
+  {
+    "caseId": "usada-b6074d0cf1fc",
+    "name": "Lindsey Corrigan",
+    "reviewState": "accepted_and_integrated",
+    "documentId": "de95db52ec511e1f",
+    "sha256": "baeeb4b63819f1a67a6df907f1e646c37126595a9265667e0d0bc50ce259a101",
+    "sourceUrl": "https://www.usada.org/sanction/lindsey-corrigan-accepts-doping-sanction/",
+    "textPath": "/private/tmp/antidoping-individual-evidence/de95db52ec511e1f.txt",
+    "locator": "公告標題與全部個案實質段落，止於通用教育資訊前",
+    "eventFinding": "2022-08-27 首次賽外檢測獲通知後未提供檢體；調查確認涉及誤解退休狀態及檢測時點的過失，減為兩年。",
+    "outcomeFinding": "兩年；名義自 2023-01-18 生效，但已於 2022-10-28 退休，退休期間停止計時，復出後須服滿剩餘期間；取消自 2022-08-27 起成績。",
+    "notes": [
+      "2023-05-09 公告；U.S. Taekwondo Athlete。不可計算固定結束日期；入資料前再核對當前名冊退休停算註記。",
+      "尚須將八項查核欄位與公開摘要正式寫入，檢查目前名冊及重建後才能計為完成。"
+    ],
+    "integratedAt": "2026-09-23"
+  },
+  {
+    "caseId": "usada-3e2c75f84c3d",
+    "name": "Breanna Clark",
+    "reviewState": "accepted_and_integrated",
+    "documentId": "bab969a2690caac4",
+    "sha256": "6139d19db710cc01b052a7f7c6f89146a9ea10a16c6644f599bc59984d9575f0",
+    "sourceUrl": "https://www.usada.org/sanction/breanna-clark-accepts-public-warning/",
+    "textPath": "/private/tmp/antidoping-individual-evidence/bab969a2690caac4.txt",
+    "locator": "公告標題與全部個案實質段落，止於通用教育資訊前",
+    "eventFinding": "2023-03-07 賽外檢體 HCTZ 陽性；照護與分藥家人把自己的 HCTZ 誤放入選手維他命，外觀相似。",
+    "outcomeFinding": "公開警告，無禁賽；明示沒有須取消競賽成績。",
+    "notes": [
+      "2023-05-04 公告；U.S. Paralympic Track & Field Athlete。不要誤寫成選手刻意用藥或已確認製造污染。",
+      "尚須將八項查核欄位與公開摘要正式寫入，檢查目前名冊及重建後才能計為完成。"
+    ],
+    "integratedAt": "2026-09-23"
+  },
+  {
+    "caseId": "usada-8fb29d61bbde",
+    "name": "Tyler Burdick",
+    "reviewState": "accepted_and_integrated",
+    "documentId": "b041acfe4ce0b82e",
+    "sha256": "d21fc87886523e6fac9488996c6ab2d4f30924753d6592d52282a3a497fb6d7d",
+    "sourceUrl": "https://www.usada.org/sanction/tyler-burdick-accepts-doping-sanction/",
+    "textPath": "/private/tmp/antidoping-individual-evidence/b041acfe4ce0b82e.txt",
+    "locator": "公告標題與全部個案實質段落，止於通用教育資訊前",
+    "eventFinding": "2023-01-17 賽外檢測獲通知後未提供檢體；及早承認後四年減三年。",
+    "outcomeFinding": "3年，自 2023-02-24 起；取消自 2023-01-17 起成績。",
+    "notes": [
+      "2023-04-07 公告；U.S. Paralympic Snowboard Athlete。屬未提供檢體，不是陽性。",
+      "尚須將八項查核欄位與公開摘要正式寫入，檢查目前名冊及重建後才能計為完成。"
+    ],
+    "integratedAt": "2026-09-23"
+  },
+  {
+    "caseId": "usada-88685d4069ae",
+    "name": "Keiser Witte",
+    "reviewState": "accepted_and_integrated",
+    "documentId": "521b491ba86a4f41",
+    "sha256": "a4be00f814a45c7d6cff3b866b565fa9924cad9766c44b7d4e3d19182688acf0",
+    "sourceUrl": "https://www.usada.org/sanction/keiser-witte-accepts-doping-sanction/",
+    "textPath": "/private/tmp/antidoping-individual-evidence/521b491ba86a4f41.txt",
+    "locator": "公告標題與全部個案實質段落，止於通用教育資訊前",
+    "eventFinding": "2022-12-04 North American Open Finals 賽內檢體 carboxy-THC 超過 Decision Limit 180 ng/mL；確認賽外使用且與表現無關，完成物質濫用處遇，減為一個月。",
+    "outcomeFinding": "1個月，自 2023-01-13 起；取消自 2022-12-04 起成績。",
+    "notes": [
+      "2023-02-24 公告；U.S. Weightlifting Athlete。180 是分析判定界限，不要混稱禁用清單閾值。",
+      "尚須將八項查核欄位與公開摘要正式寫入，檢查目前名冊及重建後才能計為完成。"
+    ],
+    "integratedAt": "2026-09-23"
+  },
+  {
+    "caseId": "usada-5f1f4ed8c4a9",
+    "name": "Alejandra Echeverri",
+    "reviewState": "accepted_and_integrated",
+    "documentId": "c9d0e61730dd8eb3",
+    "sha256": "b1ae13cfe1045fd2986a8c94d88ffab143c5118751d5f0c5d042cbdae7efd4fd",
+    "sourceUrl": "https://www.usada.org/sanction/alejandra-echeverri-accepts-doping-sanction/",
+    "textPath": "/private/tmp/antidoping-individual-evidence/c9d0e61730dd8eb3.txt",
+    "locator": "公告標題與全部個案實質段落，止於通用教育資訊前",
+    "eventFinding": "2022-10-23 賽內檢體 chlorothiazide 及相關代謝物；在國外自行購買 HCTZ 無醫師評估或 TUE。另申報 10-21 在輸注診所接受生理食鹽水與維他命，十二小時超過 100 mL，無禁用成分但屬禁用方法且不符合 TUE。",
+    "outcomeFinding": "12個月，自 2023-02-07 接受處分起；成績取消僅明列 2022-10-21 至 10-23。",
+    "notes": [
+      "2023-02-14 公告；U.S. Cycling Athlete。不能把取消成績範圍延伸成自事件起所有成績。",
+      "尚須將八項查核欄位與公開摘要正式寫入，檢查目前名冊及重建後才能計為完成。"
+    ],
+    "integratedAt": "2026-09-23"
+  }
+]

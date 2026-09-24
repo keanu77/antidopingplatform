@@ -1,0 +1,157 @@
+{
+  "cases": [
+    {
+      "id": "aiu-ce8bed2882d7",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-368b5b631fe20c05",
+        "registry-061df854bcbe4c47"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-368b5b631fe20c05",
+          "startLine": 12,
+          "endLine": 14,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "確認選手為肯亞道路跑者 Ronald Kimeli Kurgat，涉及第一及第二次違規"
+        },
+        {
+          "documentId": "doc-368b5b631fe20c05",
+          "startLine": 57,
+          "endLine": 89,
+          "supports": [
+            "event",
+            "substance"
+          ],
+          "note": "2024-10-27 奈洛比與 12-15 海南儋州馬拉松樣本均檢出 triamcinolone acetonide"
+        },
+        {
+          "documentId": "doc-368b5b631fe20c05",
+          "startLine": 152,
+          "endLine": 156,
+          "supports": [
+            "event",
+            "sanction",
+            "education"
+          ],
+          "note": "第二次採樣發生於收到第一次違規通知之後，依規則認定為第二次違規"
+        },
+        {
+          "documentId": "doc-368b5b631fe20c05",
+          "startLine": 284,
+          "endLine": 290,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "自 2025-02-20 起禁賽六年，取消 2024-10-27 起所有成績與獎項"
+        },
+        {
+          "documentId": "registry-061df854bcbe4c47",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "AIU 官方名冊確認 6 年禁賽自 2025-02-20 起及取消 2024-10-27 起成績"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "aiu-30a81b2d0d8f",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-fdb4dfa4f5275661",
+        "registry-7177445dd29f1ea1"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-fdb4dfa4f5275661",
+          "startLine": 12,
+          "endLine": 13,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "確認選手為肯亞道路跑者 Felix Kirui"
+        },
+        {
+          "documentId": "doc-fdb4dfa4f5275661",
+          "startLine": 56,
+          "endLine": 63,
+          "supports": [
+            "event",
+            "substance"
+          ],
+          "note": "2025-05-04 德班國際馬拉松樣本檢出 triamcinolone acetonide"
+        },
+        {
+          "documentId": "doc-fdb4dfa4f5275661",
+          "startLine": 81,
+          "endLine": 93,
+          "supports": [
+            "sanction",
+            "education"
+          ],
+          "note": "選手承認使用並接受處分，曾表示不知藥物含禁用成分且無 TUE"
+        },
+        {
+          "documentId": "doc-fdb4dfa4f5275661",
+          "startLine": 132,
+          "endLine": 143,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "無證據顯示故意，處兩年禁賽自 2025-07-08 起，取消 2025-05-04 起成績"
+        },
+        {
+          "documentId": "registry-7177445dd29f1ea1",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "AIU 官方名冊確認禁賽兩年自 2025-07-08 起及取消 2025-05-04 起成績"
+        }
+      ],
+      "findings": []
+    }
+  ]
+}

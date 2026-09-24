@@ -1,0 +1,172 @@
+﻿id,name,year,sport,source_line,flags,status,status_scope,urls
+1,Erriyon Knighton,2024,田徑,3,缺個案專屬來源,有問題,網站仍列暫時禁賽、調查中；AIU 上訴表已列 2025-09-12 CAS 四年禁賽，並列特定期間成績取消。,https://www.wada-ama.org/ | https://www.worldathletics.org/
+2,Iga Swiatek,2024,網球,33,缺個案專屬來源,有問題,一個月禁賽正確，但模板式「因使用」欠缺裁決認定的藥物污染、非故意及無重大過失脈絡。不能將陽性結果直接寫成蓄意使用。,https://www.wada-ama.org/ | https://www.itftennis.com/
+3,Jannik Sinner,2024,網球,63,缺個案專屬來源,有問題,三個月和解禁賽已更新；但 resultsCancelled=false 與同筆的印第安維爾斯積分、獎金被扣及 ITIA 公告矛盾，背景亦缺非故意污染脈絡。,https://www.wada-ama.org/ | https://www.itftennis.com/
+4,Ryan Garcia (瑞恩·加西亞),2024,拳擊,93,缺個案專屬來源,無法查證需人工確認,僅結構初篩，尚未逐案外查；不代表內容為假,https://dos.ny.gov/athletic-commission | https://www.vada-testing.org/
+5,Paul Pogba,2023,足球,123,缺個案專屬來源,無法查證需人工確認,僅結構初篩，尚未逐案外查；不代表內容為假,https://www.wada-ama.org/
+6,Fernando Tatis Jr.,2022,棒球,148,缺個案專屬來源,無法查證需人工確認,僅結構初篩，尚未逐案外查；不代表內容為假,https://www.wada-ama.org/
+7,Kamila Valieva,2022,花式滑冰,173,缺個案專屬來源,無法查證需人工確認,僅結構初篩，尚未逐案外查；不代表內容為假,https://www.wada-ama.org/
+8,Simona Halep,2022,網球,198,缺個案專屬來源,有問題,網站四年是原處分，CAS 已於 2024-03-05 改為九個月；「2022 年 7 月起」取消成績亦與裁決不符。,https://www.wada-ama.org/ | https://www.itftennis.com/
+9,Blessing Okagbare,2021,田徑,228,缺個案專屬來源,有問題,網站十年尚未反映 2022 年追加一年後的十一年總禁賽。,https://www.wada-ama.org/ | https://www.worldathletics.org/
+10,Jennifer Thompson,2021,健力,258,缺個案專屬來源,無法查證需人工確認,未取得足以支持「Jennifer Thompson 2021 Ostarine 污染、警告」的官方個案來源；同名或搜尋未命中均不能判定虛構。,https://www.wada-ama.org/
+11,Sha'Carri Richardson,2021,田徑,283,缺個案專屬來源,有問題,事件與一個月禁賽有官方支持；資料的 S6 興奮劑分類有誤，大麻素屬 S8。,https://www.wada-ama.org/ | https://www.worldathletics.org/
+12,Shelby Houlihan,2021,田徑,313,缺個案專屬來源,無法查證需人工確認,僅結構初篩，尚未逐案外查；不代表內容為假,https://www.wada-ama.org/ | https://www.worldathletics.org/
+13,Christian Coleman,2020,田徑,343,缺個案專屬來源,有問題,兩年禁賽已被 CAS 改為十八個月；行蹤申報違規不是「使用錯過檢測被檢出」，亦不能分類為 M2 化學與物理操縱。,https://www.wada-ama.org/ | https://www.worldathletics.org/
+14,Hafþór Júlíus Björnsson,2020,大力士,373,缺個案專屬來源,無法查證需人工確認,僅結構初篩，尚未逐案外查；不代表內容為假,https://www.wada-ama.org/
+15,Adam Peaty,2019,游泳,398,缺個案專屬來源; TUE或合法用藥須分區,無法查證需人工確認,未取得支持 2019 年 Prednisolone 合法 TUE 之公開官方個案資料；資料內「合法 TUE」與背景「違規」也互相矛盾。,https://www.wada-ama.org/ | https://www.worldaquatics.com/
+16,Blaine Sumner,2019,健力,428,缺個案專屬來源; TUE或合法用藥須分區,無法查證需人工確認,未取得支持 2019 年 Testosterone TUE 的官方個案資料；背景仍把其稱為違規。,https://www.wada-ama.org/
+17,Deandre Ayton,2019,籃球,453,缺個案專屬來源,無法查證需人工確認,僅結構初篩，尚未逐案外查；不代表內容為假,https://www.wada-ama.org/
+18,John Collins,2019,籃球,478,缺個案專屬來源,無法查證需人工確認,僅結構初篩，尚未逐案外查；不代表內容為假,https://www.wada-ama.org/
+19,Josh Gordon,2019,美式足球,503,缺個案專屬來源,無法查證需人工確認,僅結構初篩，尚未逐案外查；不代表內容為假,https://www.wada-ama.org/
+20,Stefi Cohen,2019,健力,528,缺個案專屬來源,無法查證需人工確認,未取得支持「2019 Cardarine 污染、禁賽六個月」的官方裁決；與無關新聞或社群猜測不能互相代證。,https://www.wada-ama.org/
+21,TJ Dillashaw,2019,MMA/UFC,553,缺個案專屬來源,無法查證需人工確認,僅結構初篩，尚未逐案外查；不代表內容為假,https://www.wada-ama.org/
+22,Wilson Chandler,2019,籃球,578,缺個案專屬來源,無法查證需人工確認,僅結構初篩，尚未逐案外查；不代表內容為假,https://www.wada-ama.org/
+23,Wilson Kipsang,2019,田徑,603,缺個案專屬來源,有問題,網站列六年；AIU 官方清單及年度報告所列 Wilson Kipsang 處分為四年，涉及行蹤申報與干擾。,https://www.wada-ama.org/ | https://www.worldathletics.org/
+24,Canelo Alvarez,2018,拳擊,633,缺個案專屬來源,無法查證需人工確認,僅結構初篩，尚未逐案外查；不代表內容為假,https://www.wada-ama.org/
+25,Robinson Cano,2018,棒球,658,缺個案專屬來源,無法查證需人工確認,僅結構初篩，尚未逐案外查；不代表內容為假,https://www.wada-ama.org/
+26,Ryan Lochte,2018,游泳,683,缺個案專屬來源,確認正確,限核心主張：2018 年超量靜脈輸注、禁用方法、十四個月禁賽，與 USADA 公告一致。這不等於整筆教育文字全部查證完成。,https://www.usada.org/ | https://www.cbssports.com/
+27,Serena Williams,2018,網球,713,缺個案專屬來源; TUE或合法用藥須分區,無法查證需人工確認,僅結構初篩，尚未逐案外查；不代表內容為假,https://www.wada-ama.org/ | https://www.itftennis.com/
+28,Eddie Hall,2017,大力士,743,缺個案專屬來源,無法查證需人工確認,僅結構初篩，尚未逐案外查；不代表內容為假,https://www.wada-ama.org/
+29,Jemima Sumgong,2017,田徑,768,缺個案專屬來源,無法查證需人工確認,僅結構初篩，尚未逐案外查；不代表內容為假,https://www.wada-ama.org/ | https://www.worldathletics.org/
+30,Joakim Noah,2017,籃球,798,缺個案專屬來源,無法查證需人工確認,僅結構初篩，尚未逐案外查；不代表內容為假,https://www.wada-ama.org/
+31,Jon Jones,2017,MMA,823,缺個案專屬來源,無法查證需人工確認,僅結構初篩，尚未逐案外查；不代表內容為假,https://www.wada-ama.org/
+32,Justin Rose,2017,高爾夫,848,缺個案專屬來源; TUE或合法用藥須分區,無法查證需人工確認,僅結構初篩，尚未逐案外查；不代表內容為假,https://www.wada-ama.org/
+33,Alexander Povetkin,2016,拳擊,873,缺個案專屬來源,無法查證需人工確認,僅結構初篩，尚未逐案外查；不代表內容為假,https://www.wada-ama.org/
+34,Aliya Mustafina,2016,體操,898,缺個案專屬來源; 指控或疑似須核實,無法查證需人工確認,僅結構初篩，尚未逐案外查；不代表內容為假,https://www.wada-ama.org/
+35,Anastasia Zueva,2016,田徑,923,缺個案專屬來源,無法查證需人工確認,僅結構初篩，尚未逐案外查；不代表內容為假,https://www.wada-ama.org/ | https://www.worldathletics.org/
+36,Brock Lesnar,2016,MMA/UFC,953,缺個案專屬來源,無法查證需人工確認,僅結構初篩，尚未逐案外查；不代表內容為假,https://www.wada-ama.org/
+37,Chad Mendes,2016,MMA/UFC,978,缺個案專屬來源,無法查證需人工確認,僅結構初篩，尚未逐案外查；不代表內容為假,https://www.wada-ama.org/
+38,Dee Gordon,2016,棒球,1003,缺個案專屬來源,無法查證需人工確認,僅結構初篩，尚未逐案外查；不代表內容為假,https://www.wada-ama.org/
+39,Elena Isinbaeva,2016,田徑,1028,缺個案專屬來源; 指控或疑似須核實,無法查證需人工確認,僅結構初篩，尚未逐案外查；不代表內容為假,https://www.wada-ama.org/ | https://www.worldathletics.org/
+40,Frank Mir,2016,MMA/UFC,1058,缺個案專屬來源,無法查證需人工確認,僅結構初篩，尚未逐案外查；不代表內容為假,https://www.wada-ama.org/
+41,Gil Roberts,2016,田徑,1083,缺個案專屬來源; TUE或合法用藥須分區,有問題,Probenecid 事件發生於 2017 年；免除禁賽依據為接吻造成間接暴露之無過失裁決，並非網站所稱 2016 年取得 TUE。後續 2022、2023 年另有不同案件。,https://www.wada-ama.org/ | https://www.worldathletics.org/
+42,Lizzie Armitstead,2016,自行車,1113,缺個案專屬來源; TUE或合法用藥須分區,無法查證需人工確認,僅結構初篩，尚未逐案外查；不代表內容為假,https://www.wada-ama.org/ | https://www.uci.org/
+43,Maria Sharapova,2016,網球,1143,缺個案專屬來源,無法查證需人工確認,僅結構初篩，尚未逐案外查；不代表內容為假,https://www.wada-ama.org/ | https://www.itftennis.com/
+44,Mikhail Koklyaev,2016,舉重/大力士,1173,缺個案專屬來源,無法查證需人工確認,僅結構初篩，尚未逐案外查；不代表內容為假,https://www.wada-ama.org/
+45,Nijat Rahimov,2016,舉重,1198,缺個案專屬來源,有問題,八年禁賽與里約成績取消有來源支持，但此次處分原因是 2016 年尿液樣本替換，並非資料所寫 Turinabol。,https://www.wada-ama.org/
+46,Pavel Kulzhanov,2016,田徑,1223,缺個案專屬來源,無法查證需人工確認,僅結構初篩，尚未逐案外查；不代表內容為假,https://www.wada-ama.org/ | https://www.worldathletics.org/
+47,Sergey Shubenkov,2016,田徑,1253,缺個案專屬來源,無法查證需人工確認,僅結構初篩，尚未逐案外查；不代表內容為假,https://www.wada-ama.org/ | https://www.worldathletics.org/
+48,Simone Biles,2016,體操,1283,缺個案專屬來源; TUE或合法用藥須分區,有問題,USA Gymnastics 明確表示已有核准 TUE，沒有違反藥檢規則；背景卻寫「違規」。同筆 substance 與 eventBackground 對 Methylphenidate 的中文名稱不一致，後者寫成另一藥物甲基苯丙胺。,https://www.wada-ama.org/
+49,Svetlana Romashina,2016,韻律泳,1308,缺個案專屬來源,無法查證需人工確認,僅結構初篩，尚未逐案外查；不代表內容為假,https://www.wada-ama.org/
+50,Therese Johaug,2016,越野滑雪,1333,缺個案專屬來源,無法查證需人工確認,僅結構初篩，尚未逐案外查；不代表內容為假,https://www.wada-ama.org/
+51,Anderson Silva,2015,MMA,1358,缺個案專屬來源,無法查證需人工確認,僅結構初篩，尚未逐案外查；不代表內容為假,https://www.wada-ama.org/
+52,Kirill Sarychev,2015,健力,1383,缺個案專屬來源,無法查證需人工確認,僅結構初篩，尚未逐案外查；不代表內容為假,https://www.wada-ama.org/
+53,Mo Farah,2015,田徑,1408,缺個案專屬來源; TUE或合法用藥須分區,無法查證需人工確認,僅結構初篩，尚未逐案外查；不代表內容為假,https://www.wada-ama.org/ | https://www.worldathletics.org/
+54,Peyton Manning,2015,美式足球,1438,缺個案專屬來源; 指控或疑似須核實,無法查證需人工確認,僅結構初篩，尚未逐案外查；不代表內容為假,https://www.wada-ama.org/
+55,Tyson Fury,2015,拳擊,1463,缺個案專屬來源,無法查證需人工確認,僅結構初篩，尚未逐案外查；不代表內容為假,https://www.wada-ama.org/
+56,俄羅斯田徑隊,2015,田徑,1488,缺個案專屬來源; 集體事件非單人案件,無法查證需人工確認,僅結構初篩，尚未逐案外查；不代表內容為假,https://www.wada-ama.org/ | https://www.worldathletics.org/
+57,Alex Rodriguez,2014,棒球,1518,缺個案專屬來源,無法查證需人工確認,僅結構初篩，尚未逐案外查；不代表內容為假,https://www.wada-ama.org/
+58,Alexander Legkov,2014,越野滑雪,1543,缺個案專屬來源,有問題,CAS 已撤銷 IOC 所涉裁決，恢復索契成績；網站仍列終身禁賽與金牌取消。這不是對所有歷史爭議作概括結論。,https://www.wada-ama.org/
+59,Alexander Tretiakov,2014,俯式冰橇,1568,缺個案專屬來源,有問題,CAS 2017/A/5429 主文撤銷 IOC 2017-11-22 決定並恢復索契成績；網站仍呈現終身禁賽、取消金牌。,https://www.wada-ama.org/
+60,Eduard Latypov,2014,冬季兩項,1593,缺個案專屬來源,無法查證需人工確認,僅結構初篩，尚未逐案外查；不代表內容為假,https://www.wada-ama.org/
+61,Evgeny Ustyugov,2014,冬季兩項,1618,缺個案專屬來源,無法查證需人工確認,僅結構初篩，尚未逐案外查；不代表內容為假,https://www.wada-ama.org/
+62,Park Tae-hwan,2014,游泳,1643,缺個案專屬來源,無法查證需人工確認,僅結構初篩，尚未逐案外查；不代表內容為假,https://www.wada-ama.org/ | https://www.worldaquatics.com/
+63,Rita Jeptoo,2014,田徑,1673,缺個案專屬來源,無法查證需人工確認,僅結構初篩，尚未逐案外查；不代表內容為假,https://www.wada-ama.org/ | https://www.worldathletics.org/
+64,Russian State Doping System,2014,多項目,1703,缺個案專屬來源; 集體事件非單人案件,無法查證需人工確認,僅結構初篩，尚未逐案外查；不代表內容為假,https://www.wada-ama.org/
+65,Sun Yang,2014,游泳,1728,缺個案專屬來源,有問題,2014 年 Trimetazidine 三個月禁賽與 2018 年採樣事件是不同違規。2021 年重審處理的是後者，裁處五十一個月；2014 年前案被用於再犯處分計算，不是兩案合併重審。,https://www.wada-ama.org/ | https://www.worldaquatics.com/
+66,Asafa Powell,2013,田徑,1758,缺個案專屬來源,無法查證需人工確認,僅結構初篩，尚未逐案外查；不代表內容為假,https://www.wada-ama.org/ | https://www.worldathletics.org/
+67,Hossein Rezazadeh,2013,舉重,1788,缺個案專屬來源,無法查證需人工確認,僅結構初篩，尚未逐案外查；不代表內容為假,https://www.wada-ama.org/
+68,Nelson Cruz,2013,棒球,1813,缺個案專屬來源,無法查證需人工確認,僅結構初篩，尚未逐案外查；不代表內容為假,https://www.wada-ama.org/
+69,Ryan Braun,2013,棒球,1838,缺個案專屬來源,無法查證需人工確認,僅結構初篩，尚未逐案外查；不代表內容為假,https://www.wada-ama.org/
+70,Tyson Gay,2013,田徑,1863,缺個案專屬來源,無法查證需人工確認,僅結構初篩，尚未逐案外查；不代表內容為假,https://www.wada-ama.org/ | https://www.worldathletics.org/
+71,Veronica Campbell-Brown,2013,田徑,1893,缺個案專屬來源,無法查證需人工確認,僅結構初篩，尚未逐案外查；不代表內容為假,https://www.wada-ama.org/ | https://www.worldathletics.org/
+72,Yulia Efimova,2013,游泳,1923,缺個案專屬來源,無法查證需人工確認,僅結構初篩，尚未逐案外查；不代表內容為假,https://www.worldaquatics.com/ | https://www.swimmingworldmagazine.com/
+73,Yulia Stepanova,2013,田徑,1953,缺個案專屬來源,無法查證需人工確認,僅結構初篩，尚未逐案外查；不代表內容為假,https://www.wada-ama.org/ | https://www.worldathletics.org/
+74,Apti Aukhadov,2012,舉重,1983,缺個案專屬來源,無法查證需人工確認,僅結構初篩，尚未逐案外查；不代表內容為假,https://www.wada-ama.org/
+75,Besik Kudukhov,2012,摔跤,2008,缺個案專屬來源,無法查證需人工確認,僅結構初篩，尚未逐案外查；不代表內容為假,https://www.wada-ama.org/
+76,Bradley Wiggins,2012,自行車,2033,缺個案專屬來源; TUE或合法用藥須分區,無法查證需人工確認,僅結構初篩，尚未逐案外查；不代表內容為假,https://www.wada-ama.org/ | https://www.uci.org/
+77,Elena Lashmanova,2012,田徑,2063,缺個案專屬來源,無法查證需人工確認,僅結構初篩，尚未逐案外查；不代表內容為假,https://www.wada-ama.org/ | https://www.worldathletics.org/
+78,Ilya Ilyin,2012,舉重,2093,缺個案專屬來源,無法查證需人工確認,僅結構初篩，尚未逐案外查；不代表內容為假,https://www.wada-ama.org/
+79,Lance Armstrong,2012,自行車,2118,缺個案專屬來源,無法查證需人工確認,僅結構初篩，尚未逐案外查；不代表內容為假,https://www.wada-ama.org/ | https://www.uci.org/
+80,Maiya Maneza,2012,舉重,2148,缺個案專屬來源,無法查證需人工確認,僅結構初篩，尚未逐案外查；不代表內容為假,https://www.wada-ama.org/
+81,Nizami Pashayev,2012,舉重,2173,缺個案專屬來源,無法查證需人工確認,僅結構初篩，尚未逐案外查；不代表內容為假,https://www.wada-ama.org/
+82,Oleksiy Torokhtiy,2012,舉重,2198,缺個案專屬來源,無法查證需人工確認,僅結構初篩，尚未逐案外查；不代表內容為假,https://www.tas-cas.org/
+83,Rafael Nadal,2012,網球,2223,缺個案專屬來源; TUE或合法用藥須分區,無法查證需人工確認,僅結構初篩，尚未逐案外查；不代表內容為假,https://www.wada-ama.org/ | https://www.itftennis.com/
+84,Sergey Kirdyapkin,2012,田徑,2253,缺個案專屬來源,無法查證需人工確認,僅結構初篩，尚未逐案外查；不代表內容為假,https://www.wada-ama.org/ | https://www.worldathletics.org/
+85,Sharif Sharifov,2012,摔跤,2283,缺個案專屬來源,無法查證需人工確認,未取得 Turinabol 四年禁賽及奧運金牌剝奪的官方裁決。UWW 運動員頁仍介紹其倫敦奧運冠軍身分，與網站的取消金牌主張衝突；介紹頁本身不能證明從未有過任何違規。,https://www.wada-ama.org/
+86,Zulfiya Chinshanlo,2012,舉重,2308,缺個案專屬來源,無法查證需人工確認,僅結構初篩，尚未逐案外查；不代表內容為假,https://www.wada-ama.org/
+87,Ekaterina Poistogova,2011,田徑,2333,缺個案專屬來源,無法查證需人工確認,僅結構初篩，尚未逐案外查；不代表內容為假,https://www.wada-ama.org/ | https://www.worldathletics.org/
+88,Mariya Savinova,2011,田徑,2363,缺個案專屬來源,無法查證需人工確認,僅結構初篩，尚未逐案外查；不代表內容為假,https://www.wada-ama.org/ | https://www.worldathletics.org/
+89,Venus Williams,2011,網球,2393,缺個案專屬來源; TUE或合法用藥須分區,無法查證需人工確認,僅結構初篩，尚未逐案外查；不代表內容為假,https://www.wada-ama.org/ | https://www.itftennis.com/
+90,Alberto Contador,2010,自行車,2423,缺個案專屬來源,無法查證需人工確認,僅結構初篩，尚未逐案外查；不代表內容為假,https://www.wada-ama.org/ | https://www.uci.org/
+91,LaShawn Merritt,2010,田徑,2453,缺個案專屬來源,無法查證需人工確認,僅結構初篩，尚未逐案外查；不代表內容為假,https://www.wada-ama.org/ | https://www.worldathletics.org/
+92,Claudia Pechstein,2009,競速滑冰,2483,缺個案專屬來源; 指控或疑似須核實,無法查證需人工確認,僅結構初篩，尚未逐案外查；不代表內容為假,https://www.wada-ama.org/
+93,Manny Ramirez,2009,棒球,2508,缺個案專屬來源,無法查證需人工確認,僅結構初篩，尚未逐案外查；不代表內容為假,https://www.wada-ama.org/
+94,Olga Kaniskina,2009,田徑,2533,缺個案專屬來源,無法查證需人工確認,僅結構初篩，尚未逐案外查；不代表內容為假,https://www.wada-ama.org/ | https://www.worldathletics.org/
+95,Rashard Lewis,2009,籃球,2563,缺個案專屬來源,無法查證需人工確認,僅結構初篩，尚未逐案外查；不代表內容為假,https://www.wada-ama.org/
+96,Valeriy Borchin,2009,田徑,2588,缺個案專屬來源,無法查證需人工確認,僅結構初篩，尚未逐案外查；不代表內容為假,https://www.wada-ama.org/ | https://www.worldathletics.org/
+97,Andrei Rybakou,2008,舉重,2618,缺個案專屬來源,無法查證需人工確認,僅結構初篩，尚未逐案外查；不代表內容為假,https://www.olympic.org/
+98,Antonio Pettigrew,2008,田徑,2643,缺個案專屬來源,無法查證需人工確認,僅結構初篩，尚未逐案外查；不代表內容為假,https://www.wada-ama.org/ | https://www.worldathletics.org/
+99,Dmitry Lapikov,2008,舉重,2673,缺個案專屬來源,無法查證需人工確認,僅結構初篩，尚未逐案外查；不代表內容為假,https://www.wada-ama.org/
+100,Irina Nekrasova,2008,舉重,2698,缺個案專屬來源,無法查證需人工確認,僅結構初篩，尚未逐案外查；不代表內容為假,https://www.olympic.org/
+101,Jessica Hardy,2008,游泳,2723,缺個案專屬來源,無法查證需人工確認,僅結構初篩，尚未逐案外查；不代表內容為假,https://www.wada-ama.org/ | https://www.usada.org/
+102,Svetlana Podobedova,2008,舉重,2753,缺個案專屬來源,無法查證需人工確認,僅結構初篩，尚未逐案外查；不代表內容為假,https://www.wada-ama.org/
+103,Marion Jones,2007,田徑,2778,缺個案專屬來源,無法查證需人工確認,僅結構初篩，尚未逐案外查；不代表內容為假,https://www.wada-ama.org/ | https://www.worldathletics.org/
+104,Justin Gatlin,2006,田徑,2808,缺個案專屬來源,無法查證需人工確認,僅結構初篩，尚未逐案外查；不代表內容為假,https://www.wada-ama.org/ | https://www.worldathletics.org/
+105,Tatiana Kashirina,2006,舉重,2838,缺個案專屬來源,無法查證需人工確認,僅結構初篩，尚未逐案外查；不代表內容為假,https://www.wada-ama.org/
+106,Tim Montgomery,2005,田徑,2863,缺個案專屬來源,無法查證需人工確認,僅結構初篩，尚未逐案外查；不代表內容為假,https://www.wada-ama.org/ | https://www.worldathletics.org/
+107,Ferenc Gyurkovics,2004,舉重,2893,缺個案專屬來源,無法查證需人工確認,僅結構初篩，尚未逐案外查；不代表內容為假,https://www.olympic.org/
+108,Katerina Thanou,2004,田徑,2918,缺個案專屬來源,無法查證需人工確認,僅結構初篩，尚未逐案外查；不代表內容為假,https://www.espn.com/ | https://www.olympic.org/
+109,Kostas Kenteris,2004,田徑,2948,缺個案專屬來源,無法查證需人工確認,僅結構初篩，尚未逐案外查；不代表內容為假,https://www.espn.com/ | https://www.olympic.org/
+110,Oleg Perepetchenov,2004,舉重,2978,缺個案專屬來源,無法查證需人工確認,僅結構初篩，尚未逐案外查；不代表內容為假,https://www.olympic.org/
+111,Alvin Harrison,2003,田徑,3003,缺個案專屬來源,無法查證需人工確認,僅結構初篩，尚未逐案外查；不代表內容為假,https://www.wada-ama.org/ | https://www.worldathletics.org/
+112,Armando Rios,2003,棒球,3033,缺個案專屬來源,無法查證需人工確認,僅結構初篩，尚未逐案外查；不代表內容為假,https://www.wada-ama.org/
+113,BALCO案例群體,2003,田徑,3058,缺個案專屬來源; 集體事件非單人案件,無法查證需人工確認,僅結構初篩，尚未逐案外查；不代表內容為假,https://www.wada-ama.org/ | https://www.worldathletics.org/
+114,Barrett Robbins,2003,美式足球,3088,缺個案專屬來源,無法查證需人工確認,僅結構初篩，尚未逐案外查；不代表內容為假,https://www.wada-ama.org/
+115,Barry Bonds,2003,棒球,3113,缺個案專屬來源,無法查證需人工確認,僅結構初篩，尚未逐案外查；不代表內容為假,https://www.wada-ama.org/
+116,Benito Santiago,2003,棒球,3138,缺個案專屬來源,無法查證需人工確認,僅結構初篩，尚未逐案外查；不代表內容為假,https://www.wada-ama.org/
+117,Bill Romanowski,2003,美式足球,3163,缺個案專屬來源,無法查證需人工確認,僅結構初篩，尚未逐案外查；不代表內容為假,https://www.wada-ama.org/
+118,Bobby Estalella,2003,棒球,3188,缺個案專屬來源,無法查證需人工確認,僅結構初篩，尚未逐案外查；不代表內容為假,https://www.wada-ama.org/
+119,Calvin Harrison,2003,田徑,3213,缺個案專屬來源,無法查證需人工確認,僅結構初篩，尚未逐案外查；不代表內容為假,https://www.wada-ama.org/ | https://www.worldathletics.org/
+120,Chris Cooper,2003,田徑,3243,缺個案專屬來源,無法查證需人工確認,僅結構初篩，尚未逐案外查；不代表內容為假,https://www.wada-ama.org/ | https://www.worldathletics.org/
+121,Chryste Gaines,2003,田徑,3273,缺個案專屬來源,無法查證需人工確認,僅結構初篩，尚未逐案外查；不代表內容為假,https://www.wada-ama.org/ | https://www.worldathletics.org/
+122,Dana Stubblefield,2003,美式足球,3303,缺個案專屬來源,無法查證需人工確認,僅結構初篩，尚未逐案外查；不代表內容為假,https://www.wada-ama.org/
+123,Dwain Chambers,2003,田徑,3328,缺個案專屬來源,無法查證需人工確認,僅結構初篩，尚未逐案外查；不代表內容為假,https://www.wada-ama.org/ | https://www.worldathletics.org/
+124,Gary Sheffield,2003,棒球,3358,缺個案專屬來源,無法查證需人工確認,僅結構初篩，尚未逐案外查；不代表內容為假,https://www.wada-ama.org/
+125,Jason Giambi,2003,棒球,3383,缺個案專屬來源,無法查證需人工確認,僅結構初篩，尚未逐案外查；不代表內容為假,https://www.wada-ama.org/
+126,Jeremy Giambi,2003,棒球,3408,缺個案專屬來源,無法查證需人工確認,僅結構初篩，尚未逐案外查；不代表內容為假,https://www.wada-ama.org/
+127,Kelli White,2003,田徑,3433,缺個案專屬來源,無法查證需人工確認,僅結構初篩，尚未逐案外查；不代表內容為假,https://www.wada-ama.org/ | https://www.worldathletics.org/
+128,Marvin Benard,2003,棒球,3463,缺個案專屬來源,無法查證需人工確認,僅結構初篩，尚未逐案外查；不代表內容為假,https://www.wada-ama.org/
+129,Michelle Collins,2003,田徑,3488,缺個案專屬來源,無法查證需人工確認,僅結構初篩，尚未逐案外查；不代表內容為假,https://www.wada-ama.org/ | https://www.worldathletics.org/
+130,Patrick Arnold,2003,化學家,3518,缺個案專屬來源; 支援人員非運動項目,無法查證需人工確認,僅結構初篩，尚未逐案外查；不代表內容為假,https://www.wada-ama.org/
+131,Regina Jacobs,2003,田徑,3543,缺個案專屬來源,無法查證需人工確認,僅結構初篩，尚未逐案外查；不代表內容為假,https://www.wada-ama.org/ | https://www.worldathletics.org/
+132,Shane Warne,2003,板球,3573,缺個案專屬來源,無法查證需人工確認,僅結構初篩，尚未逐案外查；不代表內容為假,https://www.wada-ama.org/
+133,Tyrone Wheatley,2003,美式足球,3598,缺個案專屬來源,無法查證需人工確認,僅結構初篩，尚未逐案外查；不代表內容為假,https://www.wada-ama.org/
+134,C.J. Hunter,2000,田徑,3623,缺個案專屬來源; 同事件重複候選,有問題,C.J. Hunter 與 CJ Hunter 為同一人、同一組 2000 年 Nandrolone 事件，重複計數。官方說明為 2000 年夏季四次陽性，2001 年 3 月禁賽兩年；不得籠統寫為在雪梨奧運中被檢出。,https://abcnews.go.com/ | https://www.usada.org/
+135,CJ Hunter,2000,田徑,3653,缺個案專屬來源; 同事件重複候選,有問題,C.J. Hunter 與 CJ Hunter 為同一人、同一組 2000 年 Nandrolone 事件，重複計數。官方說明為 2000 年夏季四次陽性，2001 年 3 月禁賽兩年；不得籠統寫為在雪梨奧運中被檢出。,https://www.wada-ama.org/ | https://www.worldathletics.org/
+136,Izabela Dragneva,2000,舉重,3683,缺個案專屬來源,無法查證需人工確認,僅結構初篩，尚未逐案外查；不代表內容為假,https://www.olympic.org/
+137,Jerome Young,1999,田徑,3708,缺個案專屬來源,無法查證需人工確認,僅結構初篩，尚未逐案外查；不代表內容為假,https://www.wada-ama.org/ | https://www.worldathletics.org/
+138,Jesus Manzano,1999,自行車,3738,缺個案專屬來源,無法查證需人工確認,僅結構初篩，尚未逐案外查；不代表內容為假,https://www.wada-ama.org/ | https://www.uci.org/
+139,Marco Pantani,1999,自行車,3768,缺個案專屬來源; 指控或疑似須核實,無法查證需人工確認,僅結構初篩，尚未逐案外查；不代表內容為假,https://www.wada-ama.org/ | https://www.uci.org/
+140,Alex Zülle,1998,自行車,3798,缺個案專屬來源,無法查證需人工確認,僅結構初篩，尚未逐案外查；不代表內容為假,https://www.wada-ama.org/ | https://www.uci.org/
+141,Dennis Mitchell,1998,田徑,3828,缺個案專屬來源,無法查證需人工確認,僅結構初篩，尚未逐案外查；不代表內容為假,https://www.wada-ama.org/ | https://www.worldathletics.org/
+142,Festina車隊,1998,自行車,3858,缺個案專屬來源; 集體事件非單人案件,無法查證需人工確認,僅結構初篩，尚未逐案外查；不代表內容為假,https://www.wada-ama.org/ | https://www.uci.org/
+143,Laurent Brochard,1998,自行車,3888,缺個案專屬來源,無法查證需人工確認,僅結構初篩，尚未逐案外查；不代表內容為假,https://www.wada-ama.org/ | https://www.uci.org/
+144,Michelle Smith,1998,游泳,3918,缺個案專屬來源; 指控或疑似須核實,無法查證需人工確認,僅結構初篩，尚未逐案外查；不代表內容為假,https://www.wada-ama.org/ | https://www.worldaquatics.com/
+145,Richard Virenque,1998,自行車,3948,缺個案專屬來源,無法查證需人工確認,僅結構初篩，尚未逐案外查；不代表內容為假,https://www.wada-ama.org/ | https://www.uci.org/
+146,Jan Ullrich,1997,自行車,3978,缺個案專屬來源,無法查證需人工確認,僅結構初篩，尚未逐案外查；不代表內容為假,https://www.wada-ama.org/ | https://www.uci.org/
+147,Bjarne Riis,1996,自行車,4008,缺個案專屬來源,無法查證需人工確認,僅結構初篩，尚未逐案外查；不代表內容為假,https://www.wada-ama.org/ | https://www.uci.org/
+148,Erwan Menthéour,1996,自行車,4038,缺個案專屬來源,無法查證需人工確認,僅結構初篩，尚未逐案外查；不代表內容為假,https://www.wada-ama.org/ | https://www.uci.org/
+149,Michele Ferrari,1995,科學支援,4068,缺個案專屬來源; 支援人員非運動項目,無法查證需人工確認,僅結構初篩，尚未逐案外查；不代表內容為假,https://www.wada-ama.org/
+150,Lu Bin,1994,游泳,4093,缺個案專屬來源,無法查證需人工確認,僅結構初篩，尚未逐案外查；不代表內容為假,https://www.wada-ama.org/ | https://www.worldaquatics.com/
+151,Luc Leblanc,1994,自行車,4123,缺個案專屬來源,無法查證需人工確認,僅結構初篩，尚未逐案外查；不代表內容為假,https://www.wada-ama.org/ | https://www.uci.org/
+152,Yuan Yuan,1994,游泳,4153,缺個案專屬來源,無法查證需人工確認,僅結構初篩，尚未逐案外查；不代表內容為假,https://www.wada-ama.org/ | https://www.worldaquatics.com/
+153,中國女子游泳隊,1994,游泳,4183,缺個案專屬來源; 集體事件非單人案件,無法查證需人工確認,僅結構初篩，尚未逐案外查；不代表內容為假,https://www.wada-ama.org/ | https://www.worldaquatics.com/
+154,Francesco Conconi,1990,科學支援,4213,缺個案專屬來源; 支援人員非運動項目,無法查證需人工確認,僅結構初篩，尚未逐案外查；不代表內容為假,https://www.wada-ama.org/
+155,Ben Johnson,1988,田徑,4238,缺個案專屬來源,無法查證需人工確認,僅結構初篩，尚未逐案外查；不代表內容為假,https://www.wada-ama.org/ | https://www.worldathletics.org/
+156,Carl Lewis,1988,田徑,4268,缺個案專屬來源,無法查證需人工確認,僅結構初篩，尚未逐案外查；不代表內容為假,https://www.wada-ama.org/ | https://www.worldathletics.org/
+157,Daley Thompson,1988,田徑,4298,缺個案專屬來源,無法查證需人工確認,僅結構初篩，尚未逐案外查；不代表內容為假,https://www.wada-ama.org/ | https://www.worldathletics.org/
+158,Mitko Grabnev,1988,舉重,4328,缺個案專屬來源,無法查證需人工確認,僅結構初篩，尚未逐案外查；不代表內容為假,https://www.olympic.org/
+159,Petra Felke,1988,田徑,4353,缺個案專屬來源; 指控或疑似須核實,無法查證需人工確認,僅結構初篩，尚未逐案外查；不代表內容為假,https://www.wada-ama.org/ | https://www.worldathletics.org/
+160,Ulf Timmermann,1988,田徑,4383,缺個案專屬來源; 指控或疑似須核實,無法查證需人工確認,僅結構初篩，尚未逐案外查；不代表內容為假,https://www.wada-ama.org/ | https://www.worldathletics.org/
+161,東德女子游泳隊,1988,游泳,4413,缺個案專屬來源; 集體事件非單人案件,無法查證需人工確認,僅結構初篩，尚未逐案外查；不代表內容為假,https://www.wada-ama.org/ | https://www.worldaquatics.com/
+162,Jürgen Schult,1986,田徑,4443,缺個案專屬來源; 指控或疑似須核實,無法查證需人工確認,僅結構初篩，尚未逐案外查；不代表內容為假,https://www.wada-ama.org/ | https://www.worldathletics.org/
+163,Marita Koch,1985,田徑,4473,缺個案專屬來源; 指控或疑似須核實,無法查證需人工確認,僅結構初篩，尚未逐案外查；不代表內容為假,https://www.wada-ama.org/ | https://www.worldathletics.org/
+164,Zlatan Vanev,1984,舉重,4503,缺個案專屬來源,無法查證需人工確認,未取得支持 Zlatan Vanev 在 1984 年因 Stanozolol 被禁十八個月的官方個案資料。其他年代或相似姓名的舉重禁賽不能直接套用。,https://www.iwf.net/
+165,Jarmila Kratochvílová,1983,田徑,4528,缺個案專屬來源; 指控或疑似須核實,無法查證需人工確認,僅結構初篩，尚未逐案外查；不代表內容為假,https://www.wada-ama.org/ | https://www.worldathletics.org/
+166,Joachim Kunz,1980,田徑,4558,缺個案專屬來源,無法查證需人工確認,僅結構初篩，尚未逐案外查；不代表內容為假,https://www.wada-ama.org/ | https://www.worldathletics.org/
+167,Petra Schneider,1980,游泳,4588,缺個案專屬來源,無法查證需人工確認,僅結構初篩，尚未逐案外查；不代表內容為假,https://www.wada-ama.org/ | https://www.worldaquatics.com/
+168,Rica Reinisch,1980,游泳,4618,缺個案專屬來源,無法查證需人工確認,僅結構初篩，尚未逐案外查；不代表內容為假,https://www.wada-ama.org/ | https://www.worldaquatics.com/
+169,東德游泳系統,1976,游泳,4648,缺個案專屬來源; 集體事件非單人案件,無法查證需人工確認,僅結構初篩，尚未逐案外查；不代表內容為假,https://www.wada-ama.org/ | https://www.worldaquatics.com/
+170,Irina Press,1966,田徑,4678,缺個案專屬來源; 指控或疑似須核實,無法查證需人工確認,僅結構初篩，尚未逐案外查；不代表內容為假,https://www.wada-ama.org/ | https://www.worldathletics.org/
+171,Tamara Press,1966,田徑,4708,缺個案專屬來源; 指控或疑似須核實,無法查證需人工確認,僅結構初篩，尚未逐案外查；不代表內容為假,https://www.wada-ama.org/ | https://www.worldathletics.org/

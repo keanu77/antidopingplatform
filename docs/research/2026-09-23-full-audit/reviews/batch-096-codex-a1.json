@@ -1,0 +1,360 @@
+{
+  "cases": [
+    {
+      "id": "usada-de625da34c51",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-f76276cb6be70095",
+        "doc-22ba9d9b5d7bfdbb",
+        "registry-630388ac30948f53"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-f76276cb6be70095",
+          "startLine": 7,
+          "endLine": 9,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告確認其為美國輪椅籃球選手，拒絕賽外採樣、兩年禁賽及自採樣日起取消成績。"
+        },
+        {
+          "documentId": "doc-22ba9d9b5d7bfdbb",
+          "startLine": 7,
+          "endLine": 8,
+          "supports": [
+            "identity",
+            "event",
+            "sanction",
+            "education"
+          ],
+          "note": "公告確認其禁賽期間參加大學 NWBA 賽事，雙方誤解禁令範圍，USADA 認定過失輕微並取消相關成績。"
+        },
+        {
+          "documentId": "registry-630388ac30948f53",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "sanction",
+            "outcomes"
+          ],
+          "note": "名冊列兩年禁賽、損失成績及追加取消成績。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-e202db4ec31d",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-b91ff89823ed1dcf",
+        "registry-ddb0d76ebc291e47"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-b91ff89823ed1dcf",
+          "startLine": 7,
+          "endLine": 9,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告確認其為鐵人三項選手，檢出 ostarine、補充品受污染，接受六個月禁賽並取消採樣日起成績。"
+        },
+        {
+          "documentId": "registry-ddb0d76ebc291e47",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "sanction",
+            "outcomes"
+          ],
+          "note": "名冊列 ostarine、六個月禁賽及取消成績。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-5ba221c74afd",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-d9380827cd46fa64",
+        "registry-a4d48d72719c5e42"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-d9380827cd46fa64",
+          "startLine": 7,
+          "endLine": 8,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告確認其為美國舉重選手，Reno 賽事檢出 DMBA、過失低且非刻意提升表現，禁賽六個月並取消成績。"
+        },
+        {
+          "documentId": "registry-a4d48d72719c5e42",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "sanction",
+            "outcomes"
+          ],
+          "note": "名冊列舉重、dimethylbutylamine、六個月禁賽及取消成績。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-32c2c6bdacff",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-feb5118ae12c4af1",
+        "registry-f27c859afbad802e"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-feb5118ae12c4af1",
+          "startLine": 1,
+          "endLine": 8,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告確認其為自行車選手，列出外源性類固醇、anastrozole、LGD-4033、ostarine及各自分類，並載明四年禁賽與取消成績。"
+        },
+        {
+          "documentId": "registry-f27c859afbad802e",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "sanction",
+            "outcomes"
+          ],
+          "note": "名冊確認四年禁賽及取消成績。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-a71a79541adf",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-6fdb43be051b9a5d",
+        "registry-522a3433c17fd754"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-6fdb43be051b9a5d",
+          "startLine": 7,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告確認其為美國舉重選手，錦標賽檢出合成代謝類固醇或前驅物，申報 DHEA 與本人說明，並接受兩年禁賽及取消成績。"
+        },
+        {
+          "documentId": "registry-522a3433c17fd754",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "sanction",
+            "outcomes"
+          ],
+          "note": "名冊列兩年禁賽及取消成績。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-1359b69cc9a8",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-955f5d3df44cd923",
+        "registry-796a313999598375"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-955f5d3df44cd923",
+          "startLine": 7,
+          "endLine": 8,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告確認其為舉重選手，Monrovia 大師賽檢出 GHRP-2，四年禁賽並自採樣日起取消成績。"
+        },
+        {
+          "documentId": "registry-796a313999598375",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "sanction",
+            "outcomes"
+          ],
+          "note": "名冊列 GHRP-2、四年禁賽及取消成績。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-2428086c1745",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "uncertain",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-72927413b83d3f20",
+        "registry-c5c3bc32b928b79f"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-72927413b83d3f20",
+          "startLine": 7,
+          "endLine": 9,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告確認其為棒球選手、tamoxifen 相關陽性及後續拒絕採樣，首次及第二次違規合計八年禁賽並取消成績。"
+        },
+        {
+          "documentId": "registry-c5c3bc32b928b79f",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "sanction",
+            "outcomes"
+          ],
+          "note": "名冊註明八年處分因退休而停止計時。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "sanction",
+          "kind": "insufficient_evidence",
+          "severity": "medium",
+          "claim": "退休期間停止計時，完整復出餘期未公開",
+          "explanation": "名冊確認處分因退休而停止計時，但來源未交代目前剩餘禁賽期；此狀態僅能確認至所供名冊資料。",
+          "sourceRefs": [
+            {
+              "documentId": "registry-c5c3bc32b928b79f",
+              "startLine": 1,
+              "endLine": 1
+            }
+          ],
+          "suggestion": "保留退休停算說明，並標明剩餘禁賽期依所供資料未確立。"
+        }
+      ]
+    }
+  ]
+}

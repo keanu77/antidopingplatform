@@ -1,0 +1,516 @@
+{
+  "cases": [
+    {
+      "id": "usada-b16d0fb75234",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-710bc66447d79460",
+        "registry-cae1cd0ce549d270"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-710bc66447d79460",
+          "startLine": 7,
+          "endLine": 11,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告證實 Barry Miller 於 2017-05-29 賽事採集之兩份檢體檢出外源性合成代謝劑，提出第三方檢測證明補充品污染後接受一年禁賽並取消成績"
+        },
+        {
+          "documentId": "registry-cae1cd0ce549d270",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "dates"
+          ],
+          "note": "處分名冊登載 Barry Miller 自行車項目合成代謝類固醇違規、禁賽一年及取消成績"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "美國",
+          "explanation": "官方個案公告僅於標題記載「U.S. Cycling Athlete」及內文提及居住地「Beverly, Mass.」，名冊亦未記載國籍。依審查規範，發布機構管轄權、居住地或新聞標題稱謂不足以直接確立國籍或體育代表隊身分，故判定證據不足。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-710bc66447d79460",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "補充分配之代表隊紀錄或官方國籍證明文件，或於國籍欄位註記為待確認。"
+        }
+      ]
+    },
+    {
+      "id": "usada-fe4d160648aa",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-816d0ed289b861f5",
+        "registry-018f1da5b2fadf00"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-816d0ed289b861f5",
+          "startLine": 7,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告證實 Dylan Lima 於 2017-07-14 賽外檢體檢出合成代謝劑，處方含睪固酮但缺乏有效 TUE，原處四年因及時承認配合減為三年，自採樣日起算並取消成績"
+        },
+        {
+          "documentId": "registry-018f1da5b2fadf00",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "dates"
+          ],
+          "note": "處分名冊確認 Dylan Lima 自行車項目、物質睪固酮、三年禁賽與取消成績"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "美國",
+          "explanation": "官方公告僅於標題冠以「U.S. Cycling Athlete」並提及居住於加州 Mission Viejo，未載明其法律國籍或官方體育代表身分。依審核原則此類資訊不足以單獨證明國籍，列為證據不足。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-816d0ed289b861f5",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "補充運動員國籍或代表國家參賽紀錄，或改標為待確認。"
+        }
+      ]
+    },
+    {
+      "id": "usada-3d848274e422",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-ef20595ab6ab2996",
+        "registry-d05391660897d6c3"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-ef20595ab6ab2996",
+          "startLine": 7,
+          "endLine": 9,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告證實 Teresa Britt 於 2017-11-11 美國大師舉重錦標賽檢體檢出 higenamine，接受標準兩年禁賽並取消自採樣日起成績"
+        },
+        {
+          "documentId": "registry-d05391660897d6c3",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "dates"
+          ],
+          "note": "名冊記錄 Teresa Britt 舉重項目、物質 Higenamine、兩年禁賽及取消成績"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "美國",
+          "explanation": "文件僅載「U.S. Weightlifting Athlete」標題與居住於喬治亞州 Sugar Hill，賽事名稱亦無法直接等同法定國籍或專屬代表身分，依審核基準判定證據不足。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-ef20595ab6ab2996",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "補充官方代表資格或公民身分佐證資料，或標註待確認。"
+        }
+      ]
+    },
+    {
+      "id": "usada-7d929fe046a9",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-28e1031528ad8ee0",
+        "registry-27a6bfa61d174b76"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-28e1031528ad8ee0",
+          "startLine": 7,
+          "endLine": 11,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告證實 Megan Palicka 於 2017-06-10 賽外檢體檢出 ostarine 及 RAD140，因實質協助由四年減為三年，並因 2017-10-03 退休而停止計算剩餘期"
+        },
+        {
+          "documentId": "registry-27a6bfa61d174b76",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "dates"
+          ],
+          "note": "名冊登載 Megan Palicka 舉重項目、SARM 物質、三年禁賽且註記因退休暫停計時"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "美國",
+          "explanation": "官方公告僅於標題提及 U.S. 運動員與居住於北卡羅來納州 Clemmons，名冊亦無國籍欄位，依規範無法單以居住地與標題確立國籍或代表身分。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-28e1031528ad8ee0",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "補充代表權或國籍佐證，或調整為待確認。"
+        }
+      ]
+    },
+    {
+      "id": "usada-1b7ba3ce3c38",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-9a49fa4e265e312e",
+        "registry-0a6070af00ba2814"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-9a49fa4e265e312e",
+          "startLine": 7,
+          "endLine": 11,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告證實 Frank Volrath 於 2017-06-10 賽外檢體檢出 ostarine、RAD140 及 ibutamoren，處四年禁賽，2017-10-03 退休致使處分停算"
+        },
+        {
+          "documentId": "registry-0a6070af00ba2814",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "dates"
+          ],
+          "note": "名冊載明 Frank Volrath 舉重項目、多項禁用物質、四年禁賽且註記因退休停算"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "美國",
+          "explanation": "公告僅在新聞標題提及「U.S. Weightlifting Athlete」並標示居住於北卡羅來納州 Clemmons，缺乏正式國籍或體育代表權證明，依審核規範判定為證據不足。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-9a49fa4e265e312e",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "取得具體國籍身分或國際體育代表證明，或標示待確認。"
+        }
+      ]
+    },
+    {
+      "id": "usada-6e7d139bba18",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-0ae559f89a89276b",
+        "registry-7d10f21a6957aa19"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-0ae559f89a89276b",
+          "startLine": 7,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告證實 Nicholas Gough 於 2017-11-03 賽外檢體檢出 EPO，處四年禁賽，自 2017-12-22 接受暫時禁賽日起算並取消 11-03 起之成績"
+        },
+        {
+          "documentId": "registry-7d10f21a6957aa19",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "dates"
+          ],
+          "note": "處分名冊登載 Nicholas Gough 鐵人三項項目、物質 EPO、四年禁賽及取消成績"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "美國",
+          "explanation": "官方公告僅載「U.S. Triathlete」標題與紐約州 Queensbury 居住地，無明確國籍或國家隊代表登記證明，依標準列為證據不足。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-0ae559f89a89276b",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "補強選手代表國家資格或官方國籍證明，或修正為待確認。"
+        }
+      ]
+    },
+    {
+      "id": "usada-07d30b0088c7",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-44e7c2645ec246aa",
+        "registry-7f4555ce53897363"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-44e7c2645ec246aa",
+          "startLine": 7,
+          "endLine": 11,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告證實 Julie Rosiek 於 2017-11-10 賽外檢體檢出外源性合成代謝劑，認可醫療處方但因缺少有效 TUE 接受兩年禁賽並取消成績"
+        },
+        {
+          "documentId": "registry-7f4555ce53897363",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "dates"
+          ],
+          "note": "名冊記錄 Julie Rosiek 鐵人三項項目、合成代謝類固醇、兩年禁賽及取消成績"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "美國",
+          "explanation": "文件標題載有「U.S. Triathlete」且內文提及居住於德州 Colleyville，但無直接國籍或特定國家體育代表身分依據，依審核基準判定證據不足。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-44e7c2645ec246aa",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "補充代表權或公民身分官方紀錄，或將國籍欄位標註待確認。"
+        }
+      ]
+    },
+    {
+      "id": "usada-8bbe5698646b",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-3bb01b1617719446",
+        "registry-5531e72c3914958e"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-3bb01b1617719446",
+          "startLine": 8,
+          "endLine": 13,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告證實 Abby Raymond 於 2018-02-15 賽外檢體檢出 ostarine，確認補充品污染並考量年齡及信賴家人處三個月禁賽與取消成績"
+        },
+        {
+          "documentId": "registry-5531e72c3914958e",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "dates"
+          ],
+          "note": "名冊確認 Abby Raymond 舉重項目、Ostarine、三個月禁賽與取消成績"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "美國",
+          "explanation": "公告僅在標題寫明「U.S. Weightlifting Athlete」並說明居住於伊利諾州 Roselle，發布機關管轄與居住地無法單獨證明法定國籍或體育代表權，故列為證據不足。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-3bb01b1617719446",
+              "startLine": 1,
+              "endLine": 8
+            }
+          ],
+          "suggestion": "補充運動員官方國籍或代表國家紀錄，或註明待確認。"
+        }
+      ]
+    }
+  ]
+}

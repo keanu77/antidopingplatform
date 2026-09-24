@@ -1,0 +1,308 @@
+{
+  "cases": [
+    {
+      "id": "aiu-e23728ce2e6d",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-141915128341dfce",
+        "registry-9110e94062ae1592"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-141915128341dfce",
+          "startLine": 18,
+          "endLine": 19,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "決定確認選手姓名及其來自肯亞。"
+        },
+        {
+          "documentId": "doc-141915128341dfce",
+          "startLine": 51,
+          "endLine": 52,
+          "supports": [
+            "event",
+            "dates"
+          ],
+          "note": "樣本於2023年11月12日在西班牙塞維亞 Italica 越野賽內採集。"
+        },
+        {
+          "documentId": "doc-141915128341dfce",
+          "startLine": 67,
+          "endLine": 70,
+          "supports": [
+            "substance"
+          ],
+          "note": "檢體結果與外源性 testosterone 及其代謝物一致。"
+        },
+        {
+          "documentId": "doc-141915128341dfce",
+          "startLine": 94,
+          "endLine": 100,
+          "supports": [
+            "sanction",
+            "education"
+          ],
+          "note": "選手提及受傷求醫、缺少確切用藥文件，並簽署承認違規及接受後果。"
+        },
+        {
+          "documentId": "doc-141915128341dfce",
+          "startLine": 132,
+          "endLine": 133,
+          "supports": [
+            "substance"
+          ],
+          "note": "2023年禁用清單將 testosterone 列為 S1.1、全時禁用的非特定物質。"
+        },
+        {
+          "documentId": "doc-141915128341dfce",
+          "startLine": 191,
+          "endLine": 196,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "主文為自2024年2月29日起禁賽三年，取消自2023年11月12日起成績及相關後果。"
+        },
+        {
+          "documentId": "registry-9110e94062ae1592",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "AIU 名冊列出同一選手、違規物質、三年處分起日及成績取消起日。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "aiu-190ce97cb856",
+      "status": "issue",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "issue",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-4d6ce0a40f99854a",
+        "registry-69b9a0e22c3e6e59"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-4d6ce0a40f99854a",
+          "startLine": 18,
+          "endLine": 18,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "決定確認選手姓名及其來自肯亞。"
+        },
+        {
+          "documentId": "doc-4d6ce0a40f99854a",
+          "startLine": 50,
+          "endLine": 52,
+          "supports": [
+            "event",
+            "dates"
+          ],
+          "note": "尿液與血液樣本於2023年8月3日在肯亞 Iten 賽外採集。"
+        },
+        {
+          "documentId": "doc-4d6ce0a40f99854a",
+          "startLine": 67,
+          "endLine": 73,
+          "supports": [
+            "substance",
+            "dates"
+          ],
+          "note": "抽取文本記載尿液結果通報日早於採樣日期，血液樣本則檢出 testosterone enanthate。"
+        },
+        {
+          "documentId": "doc-4d6ce0a40f99854a",
+          "startLine": 132,
+          "endLine": 134,
+          "supports": [
+            "substance"
+          ],
+          "note": "2023年禁用清單將 testosterone enanthate 列為 S1.1、全時禁用的非特定物質。"
+        },
+        {
+          "documentId": "doc-4d6ce0a40f99854a",
+          "startLine": 193,
+          "endLine": 198,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "主文為自2024年2月27日起禁賽三年，取消自2023年8月3日起成績及相關後果。"
+        },
+        {
+          "documentId": "registry-69b9a0e22c3e6e59",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "AIU 名冊列出同一選手、三年處分起日及成績取消起日。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "dates",
+          "kind": "material_ambiguity",
+          "severity": "medium",
+          "claim": "2023-08-03 肯亞賽外尿液樣本",
+          "explanation": "裁決第6段將尿液結果通報日寫為2023年2月6日，早於第5段的採樣日2023年8月3日；雖主文與名冊均支持採樣及取消成績起日為8月3日，抽取文本中的結果通報時序仍有未解矛盾。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-4d6ce0a40f99854a",
+              "startLine": 50,
+              "endLine": 52
+            },
+            {
+              "documentId": "doc-4d6ce0a40f99854a",
+              "startLine": 67,
+              "endLine": 73
+            },
+            {
+              "documentId": "doc-4d6ce0a40f99854a",
+              "startLine": 196,
+              "endLine": 198
+            }
+          ],
+          "suggestion": "保留已由主文支持的採樣日與成績取消日，並註明尿液通報日期在裁決抽取文本中有時序矛盾，待核對原始文件。"
+        }
+      ]
+    },
+    {
+      "id": "aiu-0b4c25ed084d",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-0b7f5b1140a7d4d8",
+        "registry-89fe52bfd26ff8a4"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-0b7f5b1140a7d4d8",
+          "startLine": 17,
+          "endLine": 17,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "決定確認選手姓名及其來自巴林。"
+        },
+        {
+          "documentId": "doc-0b7f5b1140a7d4d8",
+          "startLine": 49,
+          "endLine": 51,
+          "supports": [
+            "event",
+            "dates"
+          ],
+          "note": "第一份樣本於2023年10月22日在雅加達半程馬拉松賽內採集。"
+        },
+        {
+          "documentId": "doc-0b7f5b1140a7d4d8",
+          "startLine": 66,
+          "endLine": 69,
+          "supports": [
+            "event",
+            "dates"
+          ],
+          "note": "第二份樣本於2023年11月12日在雅加達 BTN Jakarta Run 賽內採集。"
+        },
+        {
+          "documentId": "doc-0b7f5b1140a7d4d8",
+          "startLine": 71,
+          "endLine": 78,
+          "supports": [
+            "substance"
+          ],
+          "note": "第一份樣本檢出 triamcinolone acetonide；文件列為2023年 S9 糖皮質類固醇、賽內特定物質。"
+        },
+        {
+          "documentId": "doc-0b7f5b1140a7d4d8",
+          "startLine": 129,
+          "endLine": 146,
+          "supports": [
+            "sanction",
+            "education"
+          ],
+          "note": "選手獲准申請追溯 TUE，但申請因不完整退回，且未依要求補件。"
+        },
+        {
+          "documentId": "doc-0b7f5b1140a7d4d8",
+          "startLine": 161,
+          "endLine": 168,
+          "supports": [
+            "sanction",
+            "education"
+          ],
+          "note": "第二份樣本亦無已核准 TUE，並無證據顯示以允許途徑使用。"
+        },
+        {
+          "documentId": "doc-0b7f5b1140a7d4d8",
+          "startLine": 323,
+          "endLine": 328,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "主文為自2023年12月19日起禁賽四年，取消自10月22日起成績及相關後果。"
+        },
+        {
+          "documentId": "registry-89fe52bfd26ff8a4",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "AIU 名冊列出同一選手、第二次違規、四年處分及成績取消起日。"
+        }
+      ],
+      "findings": []
+    }
+  ]
+}

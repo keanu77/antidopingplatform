@@ -1,0 +1,386 @@
+{
+  "cases": [
+    {
+      "id": "ita-0252ec50e841",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-1e882bbd67968b03",
+        "registry-4ee008cc5ec121d6"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-1e882bbd67968b03",
+          "startLine": 1,
+          "endLine": 6,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告確認烏克蘭選手 Daniil Sapunov 於原禁賽期間參與賽事，接受追加三年半禁賽（2023-10-08 至 2027-04-07）並取消相關成績"
+        },
+        {
+          "documentId": "registry-4ee008cc5ec121d6",
+          "startLine": 1,
+          "endLine": 22,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "官方名冊登記 Sapunov, Danylo（烏克蘭），確認違反 10.14.1 參與限制規定，禁賽自 2023-10-08 至 2027-04-07"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-193d52584f41",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-6a998039ff72eb69",
+        "registry-ef6ce2c409670c78"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-6a998039ff72eb69",
+          "startLine": 1,
+          "endLine": 9,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告確認哈薩克柔術選手 Ibrahim Manarbek 於 2024-10-30 檢出 furosemide，及早承認獲扣減一年後接受三年禁賽（2024-10-30 至 2027-10-29）"
+        },
+        {
+          "documentId": "registry-ef6ce2c409670c78",
+          "startLine": 1,
+          "endLine": 22,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "官方名冊載明違規日期 2024-10-30、物質 furosemide，禁賽期間 2024-10-30 至 2027-10-29，成績取消至 2025-09-08"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-3925ae12ac5d",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-ae3c62b6fe3e7518",
+        "registry-43ce269953049e92"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-ae3c62b6fe3e7518",
+          "startLine": 1,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告確認葡萄牙鐵人三項選手 Pedro Afonso Pinto Gaspar 檢出 mesterolone，及早承認處三年禁賽（2025-07-31 至 2028-07-30），且上訴期已過成定案"
+        },
+        {
+          "documentId": "registry-43ce269953049e92",
+          "startLine": 1,
+          "endLine": 22,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "官方名冊載明違規日期 2025-06-29、禁賽自 2025-07-31 至 2028-07-30，取消 2025-06-29 至 2025-07-31 成績"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-c0175e15bb03",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-589d9ce95208c4c4",
+        "registry-087ec10731edd19f"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-589d9ce95208c4c4",
+          "startLine": 1,
+          "endLine": 7,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告確認美國高空跳水選手 Scott Lazeroff 於 2025-07-27 世錦賽檢出 methylphenidate，接受 14 個月禁賽（2025-11-24 至 2027-01-23）並取消成績"
+        },
+        {
+          "documentId": "registry-087ec10731edd19f",
+          "startLine": 1,
+          "endLine": 22,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "官方名冊登記美國選手 Scott Lazeroff 物質 Art. 2.1/2.2 methylphenidate，禁賽自 2025-11-24 至 2027-01-23"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-2f8626bf852a",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-b50d16282eec6b77",
+        "registry-50cdcf16c65f1ad0"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-b50d16282eec6b77",
+          "startLine": 1,
+          "endLine": 4,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates"
+          ],
+          "note": "UCI 公告義大利車手 Martti Sciortino 於 2025-05-24 BMX 賽事檢出 DHCMT 與 stanozolol 代謝物，接受 18 個月禁賽（2025-06-20 至 2026-12-19）"
+        },
+        {
+          "documentId": "registry-50cdcf16c65f1ad0",
+          "startLine": 1,
+          "endLine": 20,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊載明義大利自由車選手 Martti Sciortino 違規日期 2025-05-24，禁賽期 2025-06-20 至 2026-12-19，取消 2025-05-24 至 2025-06-20 成績"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-5c094a50f6e6",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-debc1144ab867141",
+        "registry-e732e96b011cc2f0"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-debc1144ab867141",
+          "startLine": 1,
+          "endLine": 4,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates"
+          ],
+          "note": "UCI 公告巴西車手 Vinicius Rangel Costa 於 12 個月內三次行蹤義務失誤，處 20 個月禁賽（2025-08-27 至 2027-04-26）"
+        },
+        {
+          "documentId": "registry-e732e96b011cc2f0",
+          "startLine": 1,
+          "endLine": 20,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊載明巴西車手 Costa 違反 Art. 2.4 行蹤義務，禁賽期間 2025-08-27 至 2027-04-26，成績取消欄位標記為 N/A"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-7633257bebb2",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-ca17dc798b990818",
+        "registry-294a325bb07979a5"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-ca17dc798b990818",
+          "startLine": 1,
+          "endLine": 7,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告確認瑞士鐵人三項選手 Imogen Simmonds 賽外樣本檢出 ligandrol，證實伴侶補充劑親密接觸污染獲認定無過失，違規成立但不處禁賽且不取消成績"
+        },
+        {
+          "documentId": "registry-294a325bb07979a5",
+          "startLine": 1,
+          "endLine": 22,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊載明瑞士選手 Simmonds 於 2024-12-08 違規，處分結果為 No Fault or Negligence，禁賽與取消成績欄位皆為 N/A"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "sia-peter-bol-2023",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-2a4cddcb92c2e950"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-2a4cddcb92c2e950",
+          "startLine": 2,
+          "endLine": 25,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "澳洲誠信體育署於 2023-08-01 公告，澳洲選手 Peter Bol 之 EPO 案件中 B 樣本呈非典型發現未確認 A 樣本，後續不同實驗室 A 樣本分析判定為陰性，決定不再推進違規程序並終結調查"
+        }
+      ],
+      "findings": []
+    }
+  ]
+}

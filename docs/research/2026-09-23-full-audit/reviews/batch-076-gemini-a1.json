@@ -1,0 +1,509 @@
+{
+  "cases": [
+    {
+      "id": "usada-80101a12888d",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-934ce520fbf2be96",
+        "doc-bb44e623457f43e2",
+        "registry-c2708f813afce829"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-934ce520fbf2be96",
+          "startLine": 7,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "dates",
+            "outcomes"
+          ],
+          "note": "Danielle Rante 因 2020-03-04 賽外檢體檢出 19-NA 接受四年禁賽處分並取消成績"
+        },
+        {
+          "documentId": "doc-bb44e623457f43e2",
+          "startLine": 7,
+          "endLine": 11,
+          "supports": [
+            "sanction",
+            "education"
+          ],
+          "note": "依 2021 Code 申請並獲減刑一年，處分改為自 2020-03-04 起算三年禁賽"
+        },
+        {
+          "documentId": "registry-c2708f813afce829",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "sanction",
+            "outcomes"
+          ],
+          "note": "官方處分名冊註記原四年處分經減刑及成績取消"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "美國",
+          "explanation": "官方個案文件僅於標題提及「U.S. Weightlifting Athlete」並述及選手居住於俄亥俄州代頓，依審核標準不足以直接證實其國籍或官方體育代表權。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-934ce520fbf2be96",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "建議將國籍註記為待確認（uncertain），或補足代表特定國家出賽之官方證明。"
+        }
+      ]
+    },
+    {
+      "id": "usada-e7f64638afe3",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-c16b7d61564236ed",
+        "registry-2e412ae4f7419768"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-c16b7d61564236ed",
+          "startLine": 7,
+          "endLine": 11,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "Taff Woolsey 因 2018-02-17 起購買含 exemestane 產品，就持有禁用物質接受自 2020-07-17 起兩年禁賽並取消成績"
+        },
+        {
+          "documentId": "registry-2e412ae4f7419768",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "sanction",
+            "outcomes"
+          ],
+          "note": "名冊記錄持有 exemestane 處兩年禁賽並取消成績"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "美國",
+          "explanation": "公告僅於標題使用「U.S. Weightlifting Athlete」並註明居住於華盛頓州，依審核規範未達確立國籍或代表權之充分證明門檻。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-c16b7d61564236ed",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "建議將國籍註記為待確認（uncertain），或補足運動員正式國籍或代表權依據。"
+        }
+      ]
+    },
+    {
+      "id": "usada-137ddb330f29",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-522a6e95fd6fd2a0",
+        "registry-584d2001aa022657"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-522a6e95fd6fd2a0",
+          "startLine": 7,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "Kevin Castille 於 2019-04-28 賽事檢測確認外源性 19-NA，在仲裁聽證前三日簽署接受四年禁賽並取消成績"
+        },
+        {
+          "documentId": "registry-584d2001aa022657",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "sanction",
+            "outcomes"
+          ],
+          "note": "名冊確認 19-NA 違規處四年禁賽及取消成績"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "美國",
+          "explanation": "官方文件僅載有「U.S. Track and Field Athlete」標題與路易斯安那州巴頓魯治住址，依審核要求無法直接推定為國籍或代表資格。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-522a6e95fd6fd2a0",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "建議將國籍標註為待確認（uncertain），或補足國家代表權證明。"
+        }
+      ]
+    },
+    {
+      "id": "usada-83915e97921c",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-1ffa90af5d789205",
+        "registry-cb314cc94cec30b9"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-1ffa90af5d789205",
+          "startLine": 7,
+          "endLine": 11,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "Jeff Prusmack 於 2015 年五度網購多種合成代謝類固醇，接受自 2020-06-19 起四年禁賽並取消自 2015-07-19 起成績"
+        },
+        {
+          "documentId": "registry-cb314cc94cec30b9",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "sanction",
+            "outcomes"
+          ],
+          "note": "名冊載明持有及使用/企圖使用多種禁用物質非分析違規處四年禁賽與取消成績"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "美國",
+          "explanation": "公告僅見「U.S. Weightlifting Athlete」標題及加州山景城居住地，依標準不足以證實運動員國籍或代表資格。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-1ffa90af5d789205",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "建議將國籍調整為待確認（uncertain），或提供官方國籍證明依據。"
+        }
+      ]
+    },
+    {
+      "id": "usada-3d04ba268799",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-31e8534f982f8e7e",
+        "registry-3ec103ffac370c10"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-31e8534f982f8e7e",
+          "startLine": 7,
+          "endLine": 12,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "Justin Glanville 自 2016-06-11 起七次網購多種禁用物質，接受自 2020-05-31 起四年禁賽並取消 2016-06-11 起成績"
+        },
+        {
+          "documentId": "registry-3ec103ffac370c10",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "sanction",
+            "outcomes"
+          ],
+          "note": "名冊記錄持有及使用/企圖使用非分析違規處四年禁賽及取消成績"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "美國",
+          "explanation": "文件標題載有「U.S. Weightlifting Athlete」並述及華盛頓州居住地，依審查規範不足以直接確立國籍或體育代表權。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-31e8534f982f8e7e",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "建議將國籍標註為待確認（uncertain），或補足國家代表權資料。"
+        }
+      ]
+    },
+    {
+      "id": "usada-3795cadeeacf",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-8a63409fe96ea62c",
+        "registry-0e3e9e09236a37c8"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-8a63409fe96ea62c",
+          "startLine": 7,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "Cole Walsh 於 2020-01-29 德國賽事檢出 Carboxy-THC 超標，接受六個月禁賽並因完成輔導減免三個月，取消該賽事成績"
+        },
+        {
+          "documentId": "registry-0e3e9e09236a37c8",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "sanction",
+            "outcomes"
+          ],
+          "note": "名冊載明大麻素違規處六個月禁賽（含三個月緩期/減免）及取消成績"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "美國",
+          "explanation": "公告僅於標題提及「U.S. Track and Field Athlete」且居住於亞利桑那州，USADA 之管轄權不等於國籍證明，依規範判為證據不足。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-8a63409fe96ea62c",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "建議將國籍標記為待確認（uncertain），或補足代表特定國家出賽之依據。"
+        }
+      ]
+    },
+    {
+      "id": "usada-c88c72084b13",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-d927f04076388f4d",
+        "registry-b4522955810fcb06"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-d927f04076388f4d",
+          "startLine": 7,
+          "endLine": 11,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "Rowdy Hurst 於 2019-12-07 檢出外源性合成代謝劑、clomiphene 與 modafinil，處自 2020-01-16 暫時停賽日起四年禁賽並取消成績"
+        },
+        {
+          "documentId": "registry-b4522955810fcb06",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "sanction",
+            "outcomes"
+          ],
+          "note": "名冊登記三類禁用物質違規處四年禁賽與取消成績"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "美國",
+          "explanation": "公告僅見標題「U.S. Weightlifting Athlete」與猶他州居住地記載，依審核標準未達證實國籍或代表權之證明要求。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-d927f04076388f4d",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "建議將國籍標記為待確認（uncertain），或補充官方國籍或代表隊依據。"
+        }
+      ]
+    },
+    {
+      "id": "usada-fe88676c094a",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-f1104d8a5142baee",
+        "registry-b9c996cac52bfa4c"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-f1104d8a5142baee",
+          "startLine": 7,
+          "endLine": 9,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "John Gleaves 於 2019-08-31 賽事檢測 oxandrolone 代謝物與 clomiphene 陽性，接受自 2019-08-31 起四年禁賽及取消成績"
+        },
+        {
+          "documentId": "registry-b9c996cac52bfa4c",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "sanction",
+            "outcomes"
+          ],
+          "note": "名冊記載 oxandrolone 與 clomiphene 違規處四年禁賽及取消成績"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "美國",
+          "explanation": "官方文件僅於標題使用「U.S. Cycling Athlete」並提及加州富勒頓居住地，依標準不足以確證其國籍或體育代表權。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-f1104d8a5142baee",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "建議將國籍調整為待確認（uncertain），或提供官方國籍證明依據。"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,274 @@
+{
+  "cases": [
+    {
+      "id": "aiu-dbebd12b843f",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-25d0e902d89a4a32",
+        "registry-dc412cbc510e46b3"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-25d0e902d89a4a32",
+          "startLine": 6,
+          "endLine": 16,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "確認選手姓名為 Abderrahim Ougra，代表西班牙之田徑中長跑運動員"
+        },
+        {
+          "documentId": "doc-25d0e902d89a4a32",
+          "startLine": 45,
+          "endLine": 73,
+          "supports": [
+            "event",
+            "substance"
+          ],
+          "note": "記載 2024-01-21 於 Cáceres 越野賽受檢通知後擅自離開之逃避採樣違規事實"
+        },
+        {
+          "documentId": "doc-25d0e902d89a4a32",
+          "startLine": 236,
+          "endLine": 243,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "確認自 2024-05-23 起禁賽 3 年並取消自 2024-01-21 起成績與獎項"
+        },
+        {
+          "documentId": "registry-dc412cbc510e46b3",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates"
+          ],
+          "note": "名冊登錄 2024-08-02 裁決處 3 年禁賽及取消自 2024-01-21 成績"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "aiu-5523f72a84c1",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-0697035c9d696b0b",
+        "registry-8f423ae46915665e"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-0697035c9d696b0b",
+          "startLine": 1,
+          "endLine": 12,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "確認選手為肯亞路跑選手 Daniel Muindi"
+        },
+        {
+          "documentId": "doc-0697035c9d696b0b",
+          "startLine": 55,
+          "endLine": 61,
+          "supports": [
+            "event",
+            "substance"
+          ],
+          "note": "2024-05-19 利馬馬拉松檢出外源性 19-Norandrosterone"
+        },
+        {
+          "documentId": "doc-0697035c9d696b0b",
+          "startLine": 163,
+          "endLine": 174,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "及早承認違規後處自 2024-07-10 起禁賽 3 年並取消 2024-05-19 起所有成績"
+        },
+        {
+          "documentId": "registry-8f423ae46915665e",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates"
+          ],
+          "note": "名冊載明處以 3 年禁賽自 2024-07-10 起並取消 2024-05-19 起之成績"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "aiu-9744b78257fa",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-d486106326054d6a",
+        "registry-e207d4505dc48dae"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-d486106326054d6a",
+          "startLine": 1,
+          "endLine": 12,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "確認選手為墨西哥田徑選手 Jose Eduardo Rodriguez"
+        },
+        {
+          "documentId": "doc-d486106326054d6a",
+          "startLine": 55,
+          "endLine": 90,
+          "supports": [
+            "event",
+            "substance"
+          ],
+          "note": "2024-05-19 巴西比賽檢出 Boldenone，選手提出注射、藥物、肉類等解釋但未立證"
+        },
+        {
+          "documentId": "doc-d486106326054d6a",
+          "startLine": 179,
+          "endLine": 190,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "及早承認違規後處自 2024-07-01 起禁賽 3 年並取消 2024-05-19 起成績"
+        },
+        {
+          "documentId": "registry-e207d4505dc48dae",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates"
+          ],
+          "note": "官方名冊紀錄選手處以自 2024-07-01 起 3 年禁賽與取消自 2024-05-19 成績"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "aiu-297669cfd900",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-7fb60e869e863167",
+        "registry-a64c960c71fe7453"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-7fb60e869e863167",
+          "startLine": 1,
+          "endLine": 12,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "確認選手為肯亞路跑選手 Lucy Karimi"
+        },
+        {
+          "documentId": "doc-7fb60e869e863167",
+          "startLine": 55,
+          "endLine": 60,
+          "supports": [
+            "event",
+            "substance"
+          ],
+          "note": "2024-04-21 淮安馬拉松樣本檢出 EPO"
+        },
+        {
+          "documentId": "doc-7fb60e869e863167",
+          "startLine": 89,
+          "endLine": 109,
+          "supports": [
+            "event",
+            "dates"
+          ],
+          "note": "未回覆指控通知，但在 2024-06-27 正式起訴後於規定期限內簽署承認表"
+        },
+        {
+          "documentId": "doc-7fb60e869e863167",
+          "startLine": 169,
+          "endLine": 180,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "及早承認獲得 1 年減免，處自 2024-05-23 起禁賽 3 年並取消自 2024-04-21 起成績"
+        },
+        {
+          "documentId": "registry-a64c960c71fe7453",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates"
+          ],
+          "note": "名冊載明 EPO 案處以自 2024-05-23 起 3 年禁賽與取消 2024-04-21 起成績"
+        }
+      ],
+      "findings": []
+    }
+  ]
+}

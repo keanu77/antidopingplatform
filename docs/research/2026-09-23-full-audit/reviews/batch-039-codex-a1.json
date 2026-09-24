@@ -1,0 +1,246 @@
+{
+  "cases": [
+    {
+      "id": "aiu-5f4a21c5bb08",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-d4fc52f4a8e190b7",
+        "registry-24dd56839a4fc0e7"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-d4fc52f4a8e190b7",
+          "startLine": 12,
+          "endLine": 12,
+          "supports": [
+            "identity",
+            "country",
+            "event"
+          ],
+          "note": "決定確認 Kokoshko 為來自烏克蘭的鉛球選手。"
+        },
+        {
+          "documentId": "doc-d4fc52f4a8e190b7",
+          "startLine": 74,
+          "endLine": 82,
+          "supports": [
+            "substance",
+            "event"
+          ],
+          "note": "三次行蹤失敗日期為 2024 年 1 月 1 日、5 月 2 日及 10 月 29 日，第三次類型記為 missed test 和／或 filing failure。"
+        },
+        {
+          "documentId": "doc-d4fc52f4a8e190b7",
+          "startLine": 343,
+          "endLine": 358,
+          "supports": [
+            "sanction",
+            "education"
+          ],
+          "note": "AIU 將戰爭影響、家人安全憂慮及首次納入名單等因素納入過失評估，認定 22 個月。"
+        },
+        {
+          "documentId": "doc-d4fc52f4a8e190b7",
+          "startLine": 360,
+          "endLine": 382,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "禁賽自 2024 年 12 月 20 日起 22 個月，取消 2024 年 10 月 29 日起成績並包括獎牌等後果。"
+        },
+        {
+          "documentId": "registry-24dd56839a4fc0e7",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "AIU 名冊列出 22 個月、起算日及取消 10 月 29 日起成績。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "aiu-0ddb7eb4095a",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-f037dc20788de33b",
+        "registry-8300b567fd894a7a"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-f037dc20788de33b",
+          "startLine": 12,
+          "endLine": 12,
+          "supports": [
+            "identity",
+            "country",
+            "event"
+          ],
+          "note": "決定確認 Do Nascimento 為來自巴西的公路跑者。"
+        },
+        {
+          "documentId": "doc-f037dc20788de33b",
+          "startLine": 55,
+          "endLine": 85,
+          "supports": [
+            "event",
+            "substance"
+          ],
+          "note": "7 月 4 日賽外檢體含三種物質，7 月 7 日檢體含 drostanolone 與 metenolone。"
+        },
+        {
+          "documentId": "doc-f037dc20788de33b",
+          "startLine": 195,
+          "endLine": 197,
+          "supports": [
+            "substance"
+          ],
+          "note": "決定依 2024 禁用清單將三種物質列為 S1.1 合成代謝雄性類固醇，且全年禁用、非特定物質。"
+        },
+        {
+          "documentId": "doc-f037dc20788de33b",
+          "startLine": 252,
+          "endLine": 259,
+          "supports": [
+            "sanction",
+            "education"
+          ],
+          "note": "AIU 將多種物質使用認作加重情節，基礎四年增至六年；未證明非蓄意。"
+        },
+        {
+          "documentId": "doc-f037dc20788de33b",
+          "startLine": 284,
+          "endLine": 310,
+          "supports": [
+            "sanction",
+            "dates"
+          ],
+          "note": "AIU 認定及早承認接受可減一年，五年禁賽自 2024 年 7 月 15 日起。"
+        },
+        {
+          "documentId": "doc-f037dc20788de33b",
+          "startLine": 317,
+          "endLine": 319,
+          "supports": [
+            "dates",
+            "outcomes"
+          ],
+          "note": "取消 2024 年 7 月 4 日起成績，列明包括獎牌等後果。"
+        },
+        {
+          "documentId": "registry-8300b567fd894a7a",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "AIU 名冊列出五年、自 2024 年 7 月 15 日起及取消 7 月 4 日起成績。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "aiu-fc3d628c829c",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-44656b0aa88bec87",
+        "registry-f6cb0e4a09ac31e7"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-44656b0aa88bec87",
+          "startLine": 12,
+          "endLine": 12,
+          "supports": [
+            "identity",
+            "country",
+            "event"
+          ],
+          "note": "決定確認 Kipsang 為來自肯亞的公路跑者。"
+        },
+        {
+          "documentId": "doc-44656b0aa88bec87",
+          "startLine": 55,
+          "endLine": 73,
+          "supports": [
+            "event",
+            "substance"
+          ],
+          "note": "3 月 16 日在羅馬賽內採樣檢出 triamcinolone acetonide；決定記載無已核發 TUE。"
+        },
+        {
+          "documentId": "doc-44656b0aa88bec87",
+          "startLine": 82,
+          "endLine": 90,
+          "supports": [
+            "event",
+            "sanction",
+            "education"
+          ],
+          "note": "未在期限內要求 B 瓶分析，5 月 1 日簽署承認違規及接受後果表格。"
+        },
+        {
+          "documentId": "doc-44656b0aa88bec87",
+          "startLine": 114,
+          "endLine": 132,
+          "supports": [
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "決定將物質列為 2025 年 S9 糖皮質類固醇，規定賽內特定途徑禁用；禁賽兩年自 5 月 1 日起，取消 3 月 16 日起成績並包括獎牌等後果。"
+        },
+        {
+          "documentId": "registry-f6cb0e4a09ac31e7",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "AIU 名冊列出兩年、自 2025 年 5 月 1 日起及取消 3 月 16 日起成績。"
+        }
+      ],
+      "findings": []
+    }
+  ]
+}

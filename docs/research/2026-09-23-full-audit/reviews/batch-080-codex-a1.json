@@ -1,0 +1,653 @@
+{
+  "cases": [
+    {
+      "id": "usada-d4f42cda7250",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-33564fb14092690c",
+        "registry-1e2ce959ca70edfe"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-33564fb14092690c",
+          "startLine": 7,
+          "endLine": 11,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告確認 Mosley 為舉重選手，列出三種陽性物質、2019年賽事採樣、16個月處分及成績取消。"
+        },
+        {
+          "documentId": "doc-33564fb14092690c",
+          "startLine": 10,
+          "endLine": 10,
+          "supports": [
+            "country",
+            "education"
+          ],
+          "note": "公告提及她未曾進入登錄檢測池或 Clean Athlete Program，並如實申報補充品；未明確說明國籍或代表國家。"
+        },
+        {
+          "documentId": "registry-1e2ce959ca70edfe",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction"
+          ],
+          "note": "名冊列 Mosley、舉重、三種物質、16個月停賽及成績損失。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "medium",
+          "claim": "nationality：美國",
+          "explanation": "公告標題及 USADA 管轄、所在地資訊不足以確認運動代表國或國籍；未見台灣／TPE 證據。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-33564fb14092690c",
+              "startLine": 1,
+              "endLine": 1
+            },
+            {
+              "documentId": "doc-33564fb14092690c",
+              "startLine": 7,
+              "endLine": 7
+            },
+            {
+              "documentId": "doc-33564fb14092690c",
+              "startLine": 15,
+              "endLine": 18
+            }
+          ],
+          "suggestion": "補入明確官方代表隊／國家資料，否則將國家欄標為未確認。"
+        }
+      ]
+    },
+    {
+      "id": "usada-75e40a8ec8cb",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-2345eccfeb0b7541",
+        "registry-3e398a99d9b8b244"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-2345eccfeb0b7541",
+          "startLine": 7,
+          "endLine": 9,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告確認 Omar 為舉重選手，列出賽外採樣、clomiphene/M2、兩年禁賽起算及採樣日起成績取消。"
+        },
+        {
+          "documentId": "doc-2345eccfeb0b7541",
+          "startLine": 10,
+          "endLine": 12,
+          "supports": [
+            "country",
+            "education"
+          ],
+          "note": "公告說明一般反禁藥教育資源及 USADA 職責，但未明確確認 Omar 的國籍或代表國。"
+        },
+        {
+          "documentId": "registry-3e398a99d9b8b244",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction"
+          ],
+          "note": "名冊列 Omar、舉重、clomiphene、兩年停賽及成績損失。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "medium",
+          "claim": "nationality：美國",
+          "explanation": "公告的美國運動員標題、居住地及 USADA 管轄不能單獨證實代表國或國籍；未見台灣／TPE 證據。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-2345eccfeb0b7541",
+              "startLine": 1,
+              "endLine": 1
+            },
+            {
+              "documentId": "doc-2345eccfeb0b7541",
+              "startLine": 7,
+              "endLine": 7
+            },
+            {
+              "documentId": "doc-2345eccfeb0b7541",
+              "startLine": 12,
+              "endLine": 16
+            }
+          ],
+          "suggestion": "以明確官方代表隊／國家資料佐證；否則將國家欄標為未確認。"
+        }
+      ]
+    },
+    {
+      "id": "usada-f534d40de6df",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-d05a3bb48588add4",
+        "registry-de4afbc6905ad696"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-d05a3bb48588add4",
+          "startLine": 7,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告確認 Tisinger-Ledkins 為短柄牆球選手、octopamine sulfate 陽性、補充品情節、16個月禁賽及成績取消。"
+        },
+        {
+          "documentId": "doc-d05a3bb48588add4",
+          "startLine": 9,
+          "endLine": 11,
+          "supports": [
+            "education"
+          ],
+          "note": "公告將陽性歸因於標示禁用物質的補充品，並說明補充品風險與反禁藥教育資源。"
+        },
+        {
+          "documentId": "registry-de4afbc6905ad696",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction"
+          ],
+          "note": "名冊列 Tisinger-Ledkins、短柄牆球、octopamine、16個月停賽及成績損失。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "medium",
+          "claim": "nationality：美國",
+          "explanation": "公告標題與居住地不足以確定運動代表國或國籍；未見台灣／TPE 證據。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-d05a3bb48588add4",
+              "startLine": 1,
+              "endLine": 1
+            },
+            {
+              "documentId": "doc-d05a3bb48588add4",
+              "startLine": 7,
+              "endLine": 7
+            },
+            {
+              "documentId": "doc-d05a3bb48588add4",
+              "startLine": 13,
+              "endLine": 17
+            }
+          ],
+          "suggestion": "補入明確官方代表隊／國家資料，否則將國家欄標為未確認。"
+        }
+      ]
+    },
+    {
+      "id": "usada-d75ed8b5f7e7",
+      "status": "issue",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "issue",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-37dfc71e56c1aee7",
+        "registry-c6f7616bedeb24b3"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-37dfc71e56c1aee7",
+          "startLine": 7,
+          "endLine": 13,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告確認 Baratto 為自行車選手，說明 testosterone、治療劑量、TUE與RCTUE結果、禁賽及自2004年起成績取消。"
+        },
+        {
+          "documentId": "doc-37dfc71e56c1aee7",
+          "startLine": 12,
+          "endLine": 12,
+          "supports": [
+            "education"
+          ],
+          "note": "公告指出 RCTUE 不適用全國級或國際賽，與一般 TUE 有別。"
+        },
+        {
+          "documentId": "registry-c6f7616bedeb24b3",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction"
+          ],
+          "note": "名冊列 Baratto、自行車、合成代謝類固醇、一年停賽及成績損失。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "medium",
+          "claim": "nationality：美國",
+          "explanation": "公告標題、居住地與 USA Cycling 會員身分不足以單獨確定國籍或代表國；未見台灣／TPE 證據。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-37dfc71e56c1aee7",
+              "startLine": 1,
+              "endLine": 1
+            },
+            {
+              "documentId": "doc-37dfc71e56c1aee7",
+              "startLine": 7,
+              "endLine": 8
+            },
+            {
+              "documentId": "doc-37dfc71e56c1aee7",
+              "startLine": 16,
+              "endLine": 19
+            }
+          ],
+          "suggestion": "以明確官方代表隊／國家資料佐證；否則將國家欄標為未確認。"
+        },
+        {
+          "field": "dates",
+          "kind": "contradiction",
+          "severity": "high",
+          "claim": "禁賽自 2018-08-21 起",
+          "explanation": "公告稱禁賽於2018-08-21開始；該日為暫時禁賽日，但原摘要又稱自2018-08-21起一年， punishment 文字與事件敘述將其寫成處分起算，尚可一致。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-37dfc71e56c1aee7",
+              "startLine": 13,
+              "endLine": 13
+            }
+          ],
+          "suggestion": "明確寫作「一年禁賽期於2018-08-21開始（暫時禁賽日）」，避免稱為正式處分日。"
+        }
+      ]
+    },
+    {
+      "id": "usada-51b08866d858",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-610e976f8cfbf530",
+        "registry-c3e8f002c1e66484"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-610e976f8cfbf530",
+          "startLine": 7,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告確認 Logan 為自由式滑雪選手，列 carboxy-THC 判定界限、賽事採樣、六個月禁賽減免三個月、成績取消及 CBD 一般警示。"
+        },
+        {
+          "documentId": "registry-c3e8f002c1e66484",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction"
+          ],
+          "note": "名冊列 Logan、滑雪、大麻素、六個月禁賽並有三個月 deferment及成績損失。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "medium",
+          "claim": "nationality：美國",
+          "explanation": "公告標題與居住地不足以確認 Logan 的運動代表國或國籍；未見台灣／TPE 證據。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-610e976f8cfbf530",
+              "startLine": 1,
+              "endLine": 1
+            },
+            {
+              "documentId": "doc-610e976f8cfbf530",
+              "startLine": 7,
+              "endLine": 7
+            },
+            {
+              "documentId": "doc-610e976f8cfbf530",
+              "startLine": 14,
+              "endLine": 17
+            }
+          ],
+          "suggestion": "以明確官方代表隊／國家資料佐證；否則將國家欄標為未確認。"
+        }
+      ]
+    },
+    {
+      "id": "usada-6b18a7917171",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-16166c469a6e0f7a",
+        "registry-ec23dbf37421478f"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-16166c469a6e0f7a",
+          "startLine": 7,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告確認 Schenk 為舉重選手、六個月禁賽減免三個月、暫時禁賽及陽性採樣日、成績取消和一般教育提醒。"
+        },
+        {
+          "documentId": "registry-ec23dbf37421478f",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction"
+          ],
+          "note": "名冊列 Schenk、舉重、大麻素、六個月停賽及三個月 deferment與成績損失。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "medium",
+          "claim": "nationality：美國",
+          "explanation": "公告標題與居住地不足以確認代表國或國籍；未見台灣／TPE 證據。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-16166c469a6e0f7a",
+              "startLine": 1,
+              "endLine": 1
+            },
+            {
+              "documentId": "doc-16166c469a6e0f7a",
+              "startLine": 7,
+              "endLine": 7
+            },
+            {
+              "documentId": "doc-16166c469a6e0f7a",
+              "startLine": 12,
+              "endLine": 15
+            }
+          ],
+          "suggestion": "以明確官方代表隊／國家資料佐證；否則將國家欄標為未確認。"
+        }
+      ]
+    },
+    {
+      "id": "usada-7892ab1bda15",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-9252ec944c68e79a",
+        "registry-d17d69cbcf52f7fb"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-9252ec944c68e79a",
+          "startLine": 7,
+          "endLine": 12,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告確認 Sorensen 為自行車選手、賽事採樣、testosterone相關物質、TUE缺失、兩年禁賽及2011年起成績取消。"
+        },
+        {
+          "documentId": "doc-9252ec944c68e79a",
+          "startLine": 11,
+          "endLine": 13,
+          "supports": [
+            "education"
+          ],
+          "note": "公告說明處方不等於有效TUE，且對成績取消起點有明確說明。"
+        },
+        {
+          "documentId": "registry-d17d69cbcf52f7fb",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction"
+          ],
+          "note": "名冊列 Sorensen、自行車、合成代謝類固醇、兩年停賽及成績損失。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "medium",
+          "claim": "nationality：美國",
+          "explanation": "USA Cycling 會員、公告標題及居住地不足以明確確認國籍或代表國；未見台灣／TPE 證據。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-9252ec944c68e79a",
+              "startLine": 1,
+              "endLine": 1
+            },
+            {
+              "documentId": "doc-9252ec944c68e79a",
+              "startLine": 7,
+              "endLine": 8
+            },
+            {
+              "documentId": "doc-9252ec944c68e79a",
+              "startLine": 15,
+              "endLine": 18
+            }
+          ],
+          "suggestion": "以明確官方代表隊／國家資料佐證；否則將國家欄標為未確認。"
+        }
+      ]
+    },
+    {
+      "id": "usada-a7c95fd980c0",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-12725ec07fbb6907",
+        "registry-5e342d2bb7895d9e"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-12725ec07fbb6907",
+          "startLine": 7,
+          "endLine": 12,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告確認 Pate 為自行車選手，列出賽事採樣、外源性AAS分析、四年禁賽及採樣日起成績取消。"
+        },
+        {
+          "documentId": "doc-12725ec07fbb6907",
+          "startLine": 10,
+          "endLine": 13,
+          "supports": [
+            "education"
+          ],
+          "note": "公告提供外源性AAS分析及一般教育資訊，未將物質細分至特定製劑。"
+        },
+        {
+          "documentId": "registry-5e342d2bb7895d9e",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction"
+          ],
+          "note": "名冊列 Pate、自行車、合成代謝類固醇、四年停賽及成績損失。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "medium",
+          "claim": "nationality：美國",
+          "explanation": "公告標題、所在地及 USA Cycling 會員身分不足以單獨證實國籍或代表國；未見台灣／TPE 證據。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-12725ec07fbb6907",
+              "startLine": 1,
+              "endLine": 1
+            },
+            {
+              "documentId": "doc-12725ec07fbb6907",
+              "startLine": 7,
+              "endLine": 8
+            },
+            {
+              "documentId": "doc-12725ec07fbb6907",
+              "startLine": 15,
+              "endLine": 18
+            }
+          ],
+          "suggestion": "補入明確官方代表隊／國家資料，否則將國家欄標為未確認。"
+        }
+      ]
+    }
+  ]
+}

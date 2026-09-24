@@ -1,0 +1,117 @@
+{
+  "checkedAt": "2026-09-23T14:13:39.795Z",
+  "base": "http://127.0.0.1:4179",
+  "datasetSha256": "faccca573557067f62ece4e689800a85efd8900ac34b20dca1a4f862c3ba1faa",
+  "buildIndexSha256": "cd13f2c966126b88fd62b50bfba843f99ece244689496c3ebc13b57baff5e68e",
+  "checks": [
+    {
+      "viewport": "desktop",
+      "path": "/statistics",
+      "expected": [
+        "至少兩模型來源對讀",
+        "258 件",
+        "GPT 463 件",
+        "Gemini 485 件",
+        "Grok 53 件",
+        "Claude 29 件"
+      ],
+      "overflow": 0,
+      "passed": true
+    },
+    {
+      "viewport": "desktop",
+      "path": "/cases/ita-cd187870e58d",
+      "expected": [
+        "上訴改判／非故意與過失程度",
+        "修正版尚未再次送交模型對讀"
+      ],
+      "overflow": 0,
+      "passed": true
+    },
+    {
+      "viewport": "desktop",
+      "path": "/cases/aiu-dbc9a1f66bb9",
+      "expected": [
+        "來源日期有缺漏或歧義",
+        "2024-08-11",
+        "2026-02-05"
+      ],
+      "overflow": 0,
+      "passed": true
+    },
+    {
+      "viewport": "desktop",
+      "path": "/cases/usada-557b3d045e61",
+      "expected": [
+        "國家身分待補證"
+      ],
+      "overflow": 0,
+      "passed": true
+    },
+    {
+      "viewport": "desktop",
+      "path": "/cases/usada-f49825dfb87e",
+      "expected": [
+        "部分事件細節未見於公開來源",
+        "處分公告年份"
+      ],
+      "overflow": 0,
+      "passed": true
+    },
+    {
+      "viewport": "mobile",
+      "path": "/statistics",
+      "expected": [
+        "至少兩模型來源對讀",
+        "258 件",
+        "GPT 463 件",
+        "Gemini 485 件",
+        "Grok 53 件",
+        "Claude 29 件"
+      ],
+      "overflow": 0,
+      "passed": true
+    },
+    {
+      "viewport": "mobile",
+      "path": "/cases/ita-cd187870e58d",
+      "expected": [
+        "上訴改判／非故意與過失程度",
+        "修正版尚未再次送交模型對讀"
+      ],
+      "overflow": 0,
+      "passed": true
+    },
+    {
+      "viewport": "mobile",
+      "path": "/cases/aiu-dbc9a1f66bb9",
+      "expected": [
+        "來源日期有缺漏或歧義",
+        "2024-08-11",
+        "2026-02-05"
+      ],
+      "overflow": 0,
+      "passed": true
+    },
+    {
+      "viewport": "mobile",
+      "path": "/cases/usada-557b3d045e61",
+      "expected": [
+        "國家身分待補證"
+      ],
+      "overflow": 0,
+      "passed": true
+    },
+    {
+      "viewport": "mobile",
+      "path": "/cases/usada-f49825dfb87e",
+      "expected": [
+        "部分事件細節未見於公開來源",
+        "處分公告年份"
+      ],
+      "overflow": 0,
+      "passed": true
+    }
+  ],
+  "errors": []
+}

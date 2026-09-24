@@ -23,10 +23,9 @@
         "substances": [
           "Morphine",
           "Fentanyl",
-          "Tramadol",
-          "Codeine"
+          "Tramadol"
         ],
-        "notes": "比賽期間禁用，可能掩蓋嚴重傷害",
+        "notes": "所列 S7 藥物賽內禁用；Codeine 則僅列 2026 監控計畫，不能混為禁用物質。",
         "alternatives": "NSAIDs、局部麻醉劑、物理治療"
       },
       {
@@ -80,7 +79,7 @@
           "Salmeterol (吸入閾值內免TUE)",
           "Terbutaline (需TUE)"
         ],
-        "notes": "吸入型Salbutamol（≤1600µg/24h且每8h≤600µg）、Formoterol（≤54µg/24h）、Salmeterol（≤200µg/24h）在劑量閾值內免TUE；尿液超標仍須以藥動研究證明；Terbutaline及所有口服Beta-2激動劑需TUE",
+        "notes": "吸入型 Salbutamol（≤1600µg/24h 且任何 8h ≤600µg）、Formoterol（實際吸入劑量 ≤54µg/24h 且任何 12h ≤36µg）、Salmeterol（≤200µg/24h 且任何 8h ≤100µg）在劑量例外範圍內免 TUE；Salbutamol 與 Formoterol 尿液濃度另有規範，超標須依規定以藥物動力學研究證明；超出劑量例外、Terbutaline 及所有口服 Beta-2 激動劑仍需 TUE",
         "alternatives": "避免過敏原、非藥物治療"
       }
     ]
@@ -141,19 +140,8 @@
           "Methoxy PEG-epoetin beta",
           "Epoetin beta"
         ],
-        "notes": "治療貧血的EPO類藥物是嚴格禁用的",
-        "alternatives": "鐵劑補充、輸血（在醫療監督下）"
-      },
-      {
-        "category": "生長因子",
-        "wadaCategory": "S2.3: 生長因子",
-        "substances": [
-          "G-CSF (顆粒球群落刺激因子)",
-          "GM-CSF",
-          "Thrombopoietin受體激動劑"
-        ],
-        "notes": "用於刺激血球生成的因子可能被禁用",
-        "alternatives": "支持性療法、營養補充"
+        "notes": "EPO 類藥物全時段禁用；有符合條件的醫療需求時須申請 TUE。",
+        "alternatives": "依貧血原因由醫師評估鐵劑等治療；輸血本身屬 M1 禁用方法，不能因有醫療監督便視為免 TUE。緊急醫療先救治並依規定辦理回溯 TUE。"
       },
       {
         "category": "抗凝血劑",
@@ -184,7 +172,7 @@
           "混合型胰島素"
         ],
         "notes": "胰島素屬全時段禁用；糖尿病患者使用須事先申請TUE",
-        "alternatives": "飲食控制、運動、口服降血糖藥（部分）"
+        "alternatives": "第一型糖尿病不能用飲食或口服藥替代必要胰島素；其他類型由醫師按病情評估。請勿自行停藥。"
       },
       {
         "category": "生長激素",
@@ -225,7 +213,7 @@
           "Bisoprolol"
         ],
         "notes": "在射箭、射擊等精準運動中禁用",
-        "alternatives": "ACE抑制劑、鈣離子阻斷劑、利尿劑（非禁用類）"
+        "alternatives": "ACE抑制劑、鈣離子阻斷劑；由醫師依病況評估並核對藥物規範"
       },
       {
         "category": "利尿劑",
@@ -236,7 +224,7 @@
           "Spironolactone",
           "Indapamide"
         ],
-        "notes": "所有利尿劑都是禁用的，因為可能用作掩蔽劑",
+        "notes": "此處列出的利尿劑屬 S5，賽內與賽外皆禁用；S5 清單另有明列例外，不能概括為所有利尿劑一律禁用。有醫療需要時應核對成分與 TUE 要求",
         "alternatives": "ACE抑制劑、鈣離子阻斷劑、Beta阻斷劑（非精準運動）"
       },
       {

@@ -1,0 +1,114 @@
+{
+  "cases": [
+    {
+      "id": "usada-9e3ec5e00217",
+      "status": "supported",
+      "identity": "supported",
+      "country": "supported",
+      "temporalScope": "supported",
+      "evidence": [
+        {
+          "documentId": "country",
+          "startLine": 78,
+          "endLine": 83,
+          "note": "World Aquatics profile identifies Isabel Gormley, lists USA and Swimming."
+        },
+        {
+          "documentId": "case",
+          "startLine": 7,
+          "endLine": 8,
+          "note": "USADA identifies Isabel Gormley as a swimmer and gives her age and Wainscott location at the time of the failures."
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-f40282760e72",
+      "status": "supported",
+      "identity": "supported",
+      "country": "supported",
+      "temporalScope": "supported",
+      "evidence": [
+        {
+          "documentId": "country",
+          "startLine": 448,
+          "endLine": 465,
+          "note": "Team USA profile identifies Dillon Schrodt as a bobsled athlete and lists North American Cup results from 2016–2017, including Park City in January 2017."
+        },
+        {
+          "documentId": "case",
+          "startLine": 1,
+          "endLine": 7,
+          "note": "USADA names Patrick Schrodt, identifies bobsled, and dates the sample to January 12, 2017; the Team USA alias and event overlap support the match."
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-b54bb0c30eb2",
+      "status": "supported",
+      "identity": "supported",
+      "country": "supported",
+      "temporalScope": "supported",
+      "evidence": [
+        {
+          "documentId": "country",
+          "startLine": 448,
+          "endLine": 468,
+          "note": "Team USA profile identifies Kyler Allison as a bobsled athlete and lists 2018–2019 competition results."
+        },
+        {
+          "documentId": "case",
+          "startLine": 7,
+          "endLine": 8,
+          "note": "USADA identifies Kyler Allison as a bobsled athlete, age 35, of Austin, Texas; the profile lists Austin, Texas and age 42 at lookup."
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-b714a3c460a7",
+      "status": "supported",
+      "identity": "supported",
+      "country": "supported",
+      "temporalScope": "supported",
+      "evidence": [
+        {
+          "documentId": "country",
+          "startLine": 111,
+          "endLine": 116,
+          "note": "World Triathlon profile names Lauren Goss, lists United States, and gives birth year 1988."
+        },
+        {
+          "documentId": "case",
+          "startLine": 7,
+          "endLine": 8,
+          "note": "USADA identifies Lauren Goss as a triathlete, age 31 in 2019, consistent with the profile's birth year."
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-2afd16a939d4",
+      "status": "supported",
+      "identity": "supported",
+      "country": "supported",
+      "temporalScope": "supported",
+      "evidence": [
+        {
+          "documentId": "country",
+          "startLine": 111,
+          "endLine": 116,
+          "note": "World Triathlon profile names Noah Webb, lists United States, and gives birth year 1973."
+        },
+        {
+          "documentId": "case",
+          "startLine": 7,
+          "endLine": 8,
+          "note": "USADA identifies Noah Webb as a triathlete, age 48 in 2021, consistent with the profile's birth year."
+        }
+      ],
+      "findings": []
+    }
+  ]
+}

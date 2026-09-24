@@ -1,0 +1,294 @@
+{
+  "cases": [
+    {
+      "id": "usada-491a96341462",
+      "status": "supported",
+      "identity": "supported",
+      "country": "supported",
+      "temporalScope": "supported",
+      "evidence": [
+        {
+          "documentId": "country",
+          "startLine": 54,
+          "endLine": 61,
+          "note": "World Athletics profile identifies Chris Carter, triple jump, United States, born 11 Mar 1989, code 14328130."
+        },
+        {
+          "documentId": "case",
+          "startLine": 7,
+          "endLine": 8,
+          "note": "USADA identifies Chris Carter as a track and field athlete and says he was 28 in 2017, consistent with the profile identity."
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-d14484534da6",
+      "status": "supported",
+      "identity": "supported",
+      "country": "supported",
+      "temporalScope": "supported",
+      "evidence": [
+        {
+          "documentId": "country",
+          "startLine": 54,
+          "endLine": 63,
+          "note": "World Athletics profile identifies Trell Kimmons, sprint events, United States, born 13 Jul 1985, code 14242966."
+        },
+        {
+          "documentId": "case",
+          "startLine": 7,
+          "endLine": 8,
+          "note": "USADA identifies Trell Kimmons as a track and field athlete and says he was 31 in 2016, consistent with the profile identity."
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-04a1e7f11069",
+      "status": "supported",
+      "identity": "supported",
+      "country": "supported",
+      "temporalScope": "supported",
+      "evidence": [
+        {
+          "documentId": "country",
+          "startLine": 54,
+          "endLine": 61,
+          "note": "World Athletics profile identifies Demi Payne, pole vault, United States, born 30 Sep 1991, code 14366412."
+        },
+        {
+          "documentId": "case",
+          "startLine": 7,
+          "endLine": 8,
+          "note": "USADA identifies Demi Payne as a track and field athlete and says she was 26 in 2018, consistent with the profile identity."
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-f8fb776d4fa9",
+      "status": "supported",
+      "identity": "supported",
+      "country": "supported",
+      "temporalScope": "supported",
+      "evidence": [
+        {
+          "documentId": "country",
+          "startLine": 54,
+          "endLine": 61,
+          "note": "World Athletics profile identifies Dawn Harper-Nelson, 100m hurdles, United States, born 13 May 1984, code 14311987."
+        },
+        {
+          "documentId": "case",
+          "startLine": 7,
+          "endLine": 8,
+          "note": "USADA identifies Dawn Harper-Nelson as an international level track and field athlete and says she was 32 in 2017, consistent with the profile identity."
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-137ddb330f29",
+      "status": "issue",
+      "identity": "supported",
+      "country": "supported",
+      "temporalScope": "issue",
+      "evidence": [
+        {
+          "documentId": "country",
+          "startLine": 55,
+          "endLine": 57,
+          "note": "The results table is for the Houston Half Marathon on 14 Jan 2018."
+        },
+        {
+          "documentId": "country",
+          "startLine": 275,
+          "endLine": 279,
+          "note": "The table lists Kevin Castille, born 17 Mar 1972, with USA and a 1:05:11 mark."
+        },
+        {
+          "documentId": "case",
+          "startLine": 7,
+          "endLine": 8,
+          "note": "USADA identifies Kevin Castille, track and field, age 48 in 2020, and dates the anti-doping case to an April 2019 competition."
+        }
+      ],
+      "findings": [
+        {
+          "field": "temporalScope",
+          "explanation": "The cited country result is explicitly from January 2018, while the case concerns a 2019 event; it does not establish the proposed country for the case period.",
+          "suggestion": "Limit the annotation to USA as listed in the 14 Jan 2018 Houston Half Marathon results, or supply an official country record from the 2019 case period."
+        }
+      ]
+    },
+    {
+      "id": "usada-578b30358464",
+      "status": "supported",
+      "identity": "supported",
+      "country": "supported",
+      "temporalScope": "supported",
+      "evidence": [
+        {
+          "documentId": "country",
+          "startLine": 50,
+          "endLine": 52,
+          "note": "The World Athletics results page identifies the Duval County Challenge and dates it 21 May 2022."
+        },
+        {
+          "documentId": "country",
+          "startLine": 311,
+          "endLine": 314,
+          "note": "The men's 400m results list Jaron Flournoy, born 24 Nov 1996, as USA."
+        },
+        {
+          "documentId": "case",
+          "startLine": 7,
+          "endLine": 8,
+          "note": "USADA identifies Jaron Flournoy as a track and field athlete and describes his USA Track & Field membership."
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-4366103d9b91",
+      "status": "supported",
+      "identity": "supported",
+      "country": "supported",
+      "temporalScope": "supported",
+      "evidence": [
+        {
+          "documentId": "country",
+          "startLine": 53,
+          "endLine": 60,
+          "note": "World Athletics dates the article to 11 Aug 2011 and describes the Team USA roster for that year's World Championships."
+        },
+        {
+          "documentId": "country",
+          "startLine": 113,
+          "endLine": 114,
+          "note": "Tori Polk is listed on Team USA's women's long jump roster."
+        },
+        {
+          "documentId": "case",
+          "startLine": 7,
+          "endLine": 8,
+          "note": "USADA identifies Tori Polk as a track and field athlete and gives her age as 34 in 2017, consistent with the named athlete."
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-36b25b3d84e6",
+      "status": "supported",
+      "identity": "supported",
+      "country": "supported",
+      "temporalScope": "supported",
+      "evidence": [
+        {
+          "documentId": "country",
+          "startLine": 53,
+          "endLine": 60,
+          "note": "World Athletics dates the article to 11 Aug 2011 and describes the Team USA roster for that year's World Championships."
+        },
+        {
+          "documentId": "country",
+          "startLine": 93,
+          "endLine": 94,
+          "note": "Jason Young is listed for Team USA in men's discus."
+        },
+        {
+          "documentId": "case",
+          "startLine": 7,
+          "endLine": 8,
+          "note": "USADA identifies Jason Young as a track and field athlete in Lubbock and says he was 35 in 2017, consistent with the discus athlete rather than a namesake sprinter."
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-2a8b050c35ed",
+      "status": "supported",
+      "identity": "supported",
+      "country": "supported",
+      "temporalScope": "supported",
+      "evidence": [
+        {
+          "documentId": "country",
+          "startLine": 53,
+          "endLine": 64,
+          "note": "World Athletics dates the article to 10 Aug 2015 and identifies the US team for the Beijing World Championships."
+        },
+        {
+          "documentId": "country",
+          "startLine": 118,
+          "endLine": 120,
+          "note": "Molly Beckwith-Ludlow is listed for the US team in women's 800m."
+        },
+        {
+          "documentId": "case",
+          "startLine": 7,
+          "endLine": 8,
+          "note": "USADA names Molly Beckwith-Ludlow as a track and field athlete and says she was 29 in 2017, consistent with the roster identity."
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-fb72031d87b1",
+      "status": "supported",
+      "identity": "supported",
+      "country": "supported",
+      "temporalScope": "supported",
+      "evidence": [
+        {
+          "documentId": "country",
+          "startLine": 53,
+          "endLine": 59,
+          "note": "The World Athletics preview is dated 24 May 2018 and concerns the Götzis meeting."
+        },
+        {
+          "documentId": "country",
+          "startLine": 70,
+          "endLine": 71,
+          "note": "It identifies Erica Bougard's compatriots Alexandria Gochenour and Annie Kunz, supporting Gochenour's US sporting affiliation in this period."
+        },
+        {
+          "documentId": "case",
+          "startLine": 7,
+          "endLine": 8,
+          "note": "USADA names Alexandria (Alex) Gochenour and reports age 26 in 2019 following a 2018 competition, consistent with the athlete identity."
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-792c30cdc646",
+      "status": "supported",
+      "identity": "supported",
+      "country": "supported",
+      "temporalScope": "supported",
+      "evidence": [
+        {
+          "documentId": "country",
+          "startLine": 182,
+          "endLine": 183,
+          "note": "The World Athletics toplist is explicitly for senior women's triple jump in 2016."
+        },
+        {
+          "documentId": "country",
+          "startLine": 913,
+          "endLine": 918,
+          "note": "It lists Imani Oliver, born 7 Mar 1993, as USA, with a 31 May 2016 performance."
+        },
+        {
+          "documentId": "case",
+          "startLine": 7,
+          "endLine": 8,
+          "note": "USADA identifies Imani Oliver as a track and field athlete, age 24 in 2017, and dates her positive sample to 2016."
+        }
+      ],
+      "findings": []
+    }
+  ]
+}

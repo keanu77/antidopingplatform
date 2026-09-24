@@ -1,0 +1,245 @@
+{
+  "cases": [
+    {
+      "id": "aiu-424f8426301d",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-8cadea214e048f3d",
+        "registry-8229602aec75fc40"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-8cadea214e048f3d",
+          "startLine": 82,
+          "endLine": 95,
+          "supports": [
+            "identity",
+            "event",
+            "substance"
+          ],
+          "note": "裁決記載 Pishchalnikov 於 2012-07-15 的競賽中樣本含 DHCMT，並稱樣本被報為陰性；該物質依 2012 年清單屬禁用合成代謝類固醇。"
+        },
+        {
+          "documentId": "registry-8229602aec75fc40",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "country",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊列 RUS、四年禁賽自 2023-03-20 起，並取消 2012-07-15 至 2023-03-20 的成績。"
+        },
+        {
+          "documentId": "doc-8cadea214e048f3d",
+          "startLine": 193,
+          "endLine": 202,
+          "supports": [
+            "dates",
+            "education"
+          ],
+          "note": "裁決依違規發生時的 2012 規則處理；違規認定為使用禁用物質。"
+        },
+        {
+          "documentId": "doc-8cadea214e048f3d",
+          "startLine": 330,
+          "endLine": 342,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "裁決作成四年禁賽及相關成績取消，並列出獎牌等後果。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "aiu-1146ed3b5c0e",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-833ffaa86a830b21",
+        "registry-913dd215bca5cb19"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-833ffaa86a830b21",
+          "startLine": 17,
+          "endLine": 17,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "AIU 稱 Esther Macharia 為肯亞長跑選手。"
+        },
+        {
+          "documentId": "doc-833ffaa86a830b21",
+          "startLine": 49,
+          "endLine": 50,
+          "supports": [
+            "event"
+          ],
+          "note": "樣本於 2022-12-04 在新加坡標準特許馬拉松賽中採集。"
+        },
+        {
+          "documentId": "doc-833ffaa86a830b21",
+          "startLine": 65,
+          "endLine": 79,
+          "supports": [
+            "substance"
+          ],
+          "note": "檢出 testosterone 及代謝物，符合外源性來源；AIU 記載未有已核發或可核發的 TUE。"
+        },
+        {
+          "documentId": "doc-833ffaa86a830b21",
+          "startLine": 100,
+          "endLine": 114,
+          "supports": [
+            "event",
+            "education"
+          ],
+          "note": "她稱朋友提供 Sustanon 治療腿痛，並無購買證明；裁決註明藥物含 testosterone 酯類。"
+        },
+        {
+          "documentId": "doc-833ffaa86a830b21",
+          "startLine": 143,
+          "endLine": 157,
+          "supports": [
+            "sanction",
+            "education"
+          ],
+          "note": "未在期限內回覆或簽署減免表格，被視為承認違規並接受原處分。"
+        },
+        {
+          "documentId": "doc-833ffaa86a830b21",
+          "startLine": 184,
+          "endLine": 204,
+          "supports": [
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "裁決列 testosterone 的 2022 年清單分類、四年禁賽自 2023-02-21 起，以及自採樣日起取消成績並沒收相關獎項。"
+        },
+        {
+          "documentId": "registry-913dd215bca5cb19",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊確認四年禁賽及成績取消起始日。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "aiu-33e7c4d969f7",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-461804689a3375b0",
+        "registry-f492458a7d44ff15"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-461804689a3375b0",
+          "startLine": 5,
+          "endLine": 6,
+          "supports": [
+            "identity"
+          ],
+          "note": "裁決標題將選手姓名拼作 Anton Luboslavskiy，與案例常見音譯略有差異；名冊列 Anton Lyuboslavskiy。"
+        },
+        {
+          "documentId": "doc-461804689a3375b0",
+          "startLine": 79,
+          "endLine": 102,
+          "supports": [
+            "event",
+            "substance"
+          ],
+          "note": "2012-06-20 與 2012-07-04 樣本均記有 DHCMT，並被實驗室報為陰性。"
+        },
+        {
+          "documentId": "registry-f492458a7d44ff15",
+          "startLine": 1,
+          "endLine": 2,
+          "supports": [
+            "identity",
+            "country",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊列 Anton Lyuboslavskiy、RUS，四年禁賽自 2023-01-11 起，取消 2012-06-20 至該日成績。"
+        },
+        {
+          "documentId": "doc-461804689a3375b0",
+          "startLine": 149,
+          "endLine": 158,
+          "supports": [
+            "dates",
+            "education"
+          ],
+          "note": "裁決說明違規適用 2012 年規則，並提及 lex mitior 原則。"
+        },
+        {
+          "documentId": "doc-461804689a3375b0",
+          "startLine": 194,
+          "endLine": 205,
+          "supports": [
+            "substance",
+            "education"
+          ],
+          "note": "裁決依 LIMS 與分析資料認定使用 DHCMT；違規成立不以證明故意為必要。"
+        },
+        {
+          "documentId": "doc-461804689a3375b0",
+          "startLine": 284,
+          "endLine": 306,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "裁決確認四年禁賽及取消自 2012-06-20 至決定日的成績，並列出獎牌等後果。"
+        }
+      ],
+      "findings": []
+    }
+  ]
+}

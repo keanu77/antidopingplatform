@@ -1,0 +1,35 @@
+{
+  "updatedAt": "2026-09-23T14:12:54.424925+00:00",
+  "datasetSha256": "52513ba9e6040d6781c5dcfacbd440b0ba1f976c92812e404de370e860beff52",
+  "targetCases": 500,
+  "casesWithAnyModel": 500,
+  "casesWithAtLeastTwoModels": 500,
+  "casesWithAllFourModels": 15,
+  "bySeat": {
+    "claude": 29,
+    "codex": 463,
+    "gemini": 485,
+    "grok": 53
+  },
+  "flags": {
+    "withModelIssue": 36,
+    "withFieldDisagreement": 140,
+    "withModelUncertainty": 264
+  },
+  "findingCountByField": {
+    "education": 5,
+    "dates": 20,
+    "sanction": 12,
+    "outcomes": 8,
+    "country": 414,
+    "event": 4,
+    "substance": 3,
+    "identity": 1
+  },
+  "validBatchResponses": 198,
+  "runningBatchCalls": 0,
+  "failedBatchCalls": 47,
+  "revalidationErrors": [],
+  "all500CoverageComplete": true,
+  "scope": "Source-bundle review coverage only. Model support/agreement is not factual certification. Findings require source adjudication. Frozen-source audit does not guarantee latest appeals."
+}

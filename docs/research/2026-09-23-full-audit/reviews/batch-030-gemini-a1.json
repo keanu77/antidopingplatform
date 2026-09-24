@@ -1,0 +1,217 @@
+{
+  "cases": [
+    {
+      "id": "aiu-8afca5fd5947",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-44caad3429b829f2",
+        "registry-4abb3d4f2dd0f473"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-44caad3429b829f2",
+          "startLine": 1,
+          "endLine": 2,
+          "supports": [
+            "identity"
+          ],
+          "note": "AIU decision identifies athlete as Ms Yelena Kotulskaya"
+        },
+        {
+          "documentId": "registry-4abb3d4f2dd0f473",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "country",
+            "dates",
+            "sanction",
+            "outcomes"
+          ],
+          "note": "Official registry records Yelena Kotulskaya representing RUS, decision date 07/11/2025, 4-year ban, and DQ from 14 June 2013"
+        },
+        {
+          "documentId": "doc-44caad3429b829f2",
+          "startLine": 86,
+          "endLine": 90,
+          "supports": [
+            "event",
+            "substance"
+          ],
+          "note": "Out-of-competition control on 14 June 2013 found ostarine under S1.2"
+        },
+        {
+          "documentId": "doc-44caad3429b829f2",
+          "startLine": 112,
+          "endLine": 118,
+          "supports": [
+            "substance",
+            "education"
+          ],
+          "note": "Samples also found salmeterol and fluticasone propionate, consistent with educational notes on substance rules"
+        },
+        {
+          "documentId": "doc-44caad3429b829f2",
+          "startLine": 321,
+          "endLine": 326,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "Four-year ineligibility from 7 November 2025 decision date and disqualification of results from 14 June 2013"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "aiu-e6f07ad6983e",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-d3c23cdf6e47579f",
+        "registry-97123cc2a331ad14"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-d3c23cdf6e47579f",
+          "startLine": 1,
+          "endLine": 2,
+          "supports": [
+            "identity"
+          ],
+          "note": "AIU decision identifies athlete as Ms Marina Novikova (Pandakova)"
+        },
+        {
+          "documentId": "registry-97123cc2a331ad14",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "country",
+            "dates",
+            "sanction",
+            "outcomes"
+          ],
+          "note": "Official registry records Marina Novikova Pandakova representing RUS, 07/11/2025, 4-year ban, and DQ from 2 July 2013"
+        },
+        {
+          "documentId": "doc-d3c23cdf6e47579f",
+          "startLine": 85,
+          "endLine": 89,
+          "supports": [
+            "event",
+            "substance"
+          ],
+          "note": "Out-of-competition control on 2 July 2013 found methandienone"
+        },
+        {
+          "documentId": "doc-d3c23cdf6e47579f",
+          "startLine": 156,
+          "endLine": 161,
+          "supports": [
+            "event",
+            "education"
+          ],
+          "note": "Athlete responded denying charges but did not request a hearing, waiving the right"
+        },
+        {
+          "documentId": "doc-d3c23cdf6e47579f",
+          "startLine": 283,
+          "endLine": 288,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "Four-year ineligibility from 7 November 2025 decision date and disqualification of results from 2 July 2013"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "aiu-513c0f4ab313",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-0624693762adb546",
+        "registry-41ac3ca82d4f2ab8"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-0624693762adb546",
+          "startLine": 1,
+          "endLine": 2,
+          "supports": [
+            "identity",
+            "education"
+          ],
+          "note": "AIU decision identifies track and field athlete as Mr Marat Ablyazov"
+        },
+        {
+          "documentId": "registry-41ac3ca82d4f2ab8",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "country",
+            "dates",
+            "sanction",
+            "outcomes"
+          ],
+          "note": "Official registry records Marat Ablyazov representing RUS, 07/11/2025, 4-year ban, and DQ from 3 July 2013"
+        },
+        {
+          "documentId": "doc-0624693762adb546",
+          "startLine": 85,
+          "endLine": 89,
+          "supports": [
+            "event",
+            "substance"
+          ],
+          "note": "Out-of-competition control on 3 July 2013 found metenolone and its metabolites"
+        },
+        {
+          "documentId": "doc-0624693762adb546",
+          "startLine": 272,
+          "endLine": 277,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "Four-year ineligibility from 7 November 2025 decision date and disqualification of results from 3 July 2013"
+        }
+      ],
+      "findings": []
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "cases": [
+    {
+      "id": "usada-a0a7483bcc7e",
+      "status": "supported",
+      "identity": "supported",
+      "country": "supported",
+      "temporalScope": "supported",
+      "evidence": [
+        {
+          "documentId": "country",
+          "startLine": 1,
+          "endLine": 1,
+          "note": "Official Team USA profile identifies JC Cruse."
+        },
+        {
+          "documentId": "country",
+          "startLine": 457,
+          "endLine": 461,
+          "note": "The profile describes Cruse’s bobsled background and Detroit origins; the country annotation is explicitly limited to the profile at lookup."
+        },
+        {
+          "documentId": "case",
+          "startLine": 1,
+          "endLine": 8,
+          "note": "USADA identifies J.C. Cruse as a 28-year-old bobsled athlete and gives the 2017 case details."
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-de625da34c51",
+      "status": "supported",
+      "identity": "supported",
+      "country": "supported",
+      "temporalScope": "supported",
+      "evidence": [
+        {
+          "documentId": "country",
+          "startLine": 85,
+          "endLine": 86,
+          "note": "IPC report says this is the 2018 US men's national wheelchair basketball team."
+        },
+        {
+          "documentId": "country",
+          "startLine": 94,
+          "endLine": 94,
+          "note": "Dylan Fischbach is named among the team's first-time selections."
+        },
+        {
+          "documentId": "case",
+          "startLine": 7,
+          "endLine": 8,
+          "note": "USADA identifies Dylan Fischbach as a Paralympic basketball athlete in the 2015 case and states his age and location."
+        }
+      ],
+      "findings": []
+    }
+  ]
+}

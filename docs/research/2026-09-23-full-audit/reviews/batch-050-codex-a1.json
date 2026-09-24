@@ -1,0 +1,260 @@
+{
+  "cases": [
+    {
+      "id": "aiu-07cadfc24971",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-37e28cb8383254fe",
+        "registry-91bdf59bb676f068"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-37e28cb8383254fe",
+          "startLine": 12,
+          "endLine": 13,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "決定確認姓名及來自肯亞。"
+        },
+        {
+          "documentId": "doc-37e28cb8383254fe",
+          "startLine": 56,
+          "endLine": 58,
+          "supports": [
+            "event",
+            "dates"
+          ],
+          "note": "揚州賽內樣本日期及最初陰性報告日期相符。"
+        },
+        {
+          "documentId": "doc-37e28cb8383254fe",
+          "startLine": 123,
+          "endLine": 134,
+          "supports": [
+            "substance",
+            "dates"
+          ],
+          "note": "第四份樣本檢出 CERA；重驗發現睪固酮代謝物，並列出禁用清單類別。"
+        },
+        {
+          "documentId": "doc-37e28cb8383254fe",
+          "startLine": 176,
+          "endLine": 183,
+          "supports": [
+            "sanction",
+            "education"
+          ],
+          "note": "多項違規依規則合併作為一次首次違規處理。"
+        },
+        {
+          "documentId": "doc-37e28cb8383254fe",
+          "startLine": 306,
+          "endLine": 311,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "處分為自 2024-04-22 起五年，並取消自 2023-04-16 起成績及相關後果。"
+        },
+        {
+          "documentId": "registry-91bdf59bb676f068",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates"
+          ],
+          "note": "名冊列出 KEN、違規項目及五年處分起算日。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "aiu-a4b539fd16b6",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-0d5b09581b6932ff",
+        "registry-3a3b3626141c393d"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-0d5b09581b6932ff",
+          "startLine": 12,
+          "endLine": 12,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "決定確認姓名及來自肯亞。"
+        },
+        {
+          "documentId": "doc-0d5b09581b6932ff",
+          "startLine": 55,
+          "endLine": 62,
+          "supports": [
+            "event",
+            "substance",
+            "dates"
+          ],
+          "note": "肯亞賽外樣本於 2 月 9 日採集，分析發現外源性睪固酮及代謝物。"
+        },
+        {
+          "documentId": "doc-0d5b09581b6932ff",
+          "startLine": 90,
+          "endLine": 91,
+          "supports": [
+            "sanction",
+            "education"
+          ],
+          "note": "運動員簽署承認違規及接受處分表格。"
+        },
+        {
+          "documentId": "doc-0d5b09581b6932ff",
+          "startLine": 115,
+          "endLine": 127,
+          "supports": [
+            "substance",
+            "education"
+          ],
+          "note": "決定列明 2024 年清單類別、未證明非故意及基礎處分。"
+        },
+        {
+          "documentId": "doc-0d5b09581b6932ff",
+          "startLine": 161,
+          "endLine": 174,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "及早承認減一年；禁賽三年，自 3 月 26 日起，取消自 2 月 9 日起成績。"
+        },
+        {
+          "documentId": "registry-3a3b3626141c393d",
+          "startLine": 2,
+          "endLine": 3,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates"
+          ],
+          "note": "名冊列 KEN、違規物質、三年處分起算及成績取消日期。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "aiu-506b41d44f5c",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-d31918f4bf3c10f4",
+        "registry-ae1ac6e49ba76b00"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-d31918f4bf3c10f4",
+          "startLine": 12,
+          "endLine": 13,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "決定確認完整姓名及來自衣索比亞。"
+        },
+        {
+          "documentId": "doc-d31918f4bf3c10f4",
+          "startLine": 56,
+          "endLine": 78,
+          "supports": [
+            "event",
+            "substance",
+            "dates"
+          ],
+          "note": "三份樣本檢出 EPO 及符合外源性來源的睪固酮相關結果。"
+        },
+        {
+          "documentId": "doc-d31918f4bf3c10f4",
+          "startLine": 109,
+          "endLine": 132,
+          "supports": [
+            "education",
+            "substance"
+          ],
+          "note": "文件記載醫療治療說法及 AIU 審查後仍認定違規。"
+        },
+        {
+          "documentId": "doc-d31918f4bf3c10f4",
+          "startLine": 151,
+          "endLine": 152,
+          "supports": [
+            "education"
+          ],
+          "note": "文件稱調查仍在進行，未將其描述為已認定其他違規。"
+        },
+        {
+          "documentId": "doc-d31918f4bf3c10f4",
+          "startLine": 277,
+          "endLine": 296,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "及早承認使處分減一年至五年；取消自 2023-08-22 起成績及相關後果。"
+        },
+        {
+          "documentId": "registry-ae1ac6e49ba76b00",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates"
+          ],
+          "note": "名冊列 ETH、EPO 與睪固酮違規、五年起算日期及成績取消起日。"
+        }
+      ],
+      "findings": []
+    }
+  ]
+}

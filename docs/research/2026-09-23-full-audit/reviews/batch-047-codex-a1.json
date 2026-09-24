@@ -1,0 +1,393 @@
+{
+  "cases": [
+    {
+      "id": "aiu-dbebd12b843f",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-25d0e902d89a4a32",
+        "registry-dc412cbc510e46b3"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-25d0e902d89a4a32",
+          "startLine": 15,
+          "endLine": 16,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "決定稱 Ougra 為來自西班牙的中長跑選手。"
+        },
+        {
+          "documentId": "doc-25d0e902d89a4a32",
+          "startLine": 45,
+          "endLine": 53,
+          "supports": [
+            "event",
+            "dates"
+          ],
+          "note": "2024年1月21日 Cáceres 越野賽通知採樣，選手完賽第四。"
+        },
+        {
+          "documentId": "doc-25d0e902d89a4a32",
+          "startLine": 57,
+          "endLine": 80,
+          "supports": [
+            "event",
+            "education"
+          ],
+          "note": "文件記載陪同、緩和跑、離場及其焦慮與未受反禁藥教育的說法。"
+        },
+        {
+          "documentId": "doc-25d0e902d89a4a32",
+          "startLine": 99,
+          "endLine": 111,
+          "supports": [
+            "substance",
+            "education"
+          ],
+          "note": "未採得檢體；選手承認接獲通知，並以焦慮及缺乏教育解釋。"
+        },
+        {
+          "documentId": "doc-25d0e902d89a4a32",
+          "startLine": 138,
+          "endLine": 168,
+          "supports": [
+            "substance",
+            "sanction"
+          ],
+          "note": "AIU認定採樣事件構成潛在違規，並記載承認及接受後果。"
+        },
+        {
+          "documentId": "doc-25d0e902d89a4a32",
+          "startLine": 201,
+          "endLine": 206,
+          "supports": [
+            "sanction"
+          ],
+          "note": "未成立特殊情節減輕，但可因及早承認依規減一年。"
+        },
+        {
+          "documentId": "doc-25d0e902d89a4a32",
+          "startLine": 229,
+          "endLine": 243,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "處以三年禁賽，自5月23日起；取消1月21日起成績及相關後果。"
+        },
+        {
+          "documentId": "registry-dc412cbc510e46b3",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "AIU名冊列 Ougra、ESP、Article 2.3、三年禁賽及成績取消日期。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "aiu-5523f72a84c1",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-0697035c9d696b0b",
+        "registry-8f423ae46915665e"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-0697035c9d696b0b",
+          "startLine": 1,
+          "endLine": 12,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "決定確認 Daniel Muindi 為來自肯亞的公路跑者。"
+        },
+        {
+          "documentId": "doc-0697035c9d696b0b",
+          "startLine": 55,
+          "endLine": 61,
+          "supports": [
+            "event",
+            "substance",
+            "dates"
+          ],
+          "note": "5月19日利馬馬拉松樣本檢出外源性19-norandrosterone。"
+        },
+        {
+          "documentId": "doc-0697035c9d696b0b",
+          "startLine": 98,
+          "endLine": 99,
+          "supports": [
+            "substance",
+            "education"
+          ],
+          "note": "文件說明19NA是 nandrolone 或其前驅物的代謝物。"
+        },
+        {
+          "documentId": "doc-0697035c9d696b0b",
+          "startLine": 114,
+          "endLine": 122,
+          "supports": [
+            "substance",
+            "sanction"
+          ],
+          "note": "19NA列為S1.1非特定物質且全年禁用；未證明違規非故意。"
+        },
+        {
+          "documentId": "doc-0697035c9d696b0b",
+          "startLine": 142,
+          "endLine": 148,
+          "supports": [
+            "sanction",
+            "education"
+          ],
+          "note": "選手在通知後及早承認並接受處分，適用一年減免。"
+        },
+        {
+          "documentId": "doc-0697035c9d696b0b",
+          "startLine": 163,
+          "endLine": 177,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "確認三年禁賽自7月10日起，取消5月19日起成績及相關後果。"
+        },
+        {
+          "documentId": "registry-8f423ae46915665e",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "AIU名冊列 Muindi、KEN、Norandrosterone、三年禁賽及成績取消日期。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "aiu-9744b78257fa",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-d486106326054d6a",
+        "registry-e207d4505dc48dae"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-d486106326054d6a",
+          "startLine": 1,
+          "endLine": 12,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "決定確認 Jose Eduardo Rodriguez 為來自墨西哥的選手。"
+        },
+        {
+          "documentId": "doc-d486106326054d6a",
+          "startLine": 55,
+          "endLine": 62,
+          "supports": [
+            "event",
+            "substance",
+            "dates"
+          ],
+          "note": "5月19日里約田徑賽樣本檢出 Boldenone 及其代謝物。"
+        },
+        {
+          "documentId": "doc-d486106326054d6a",
+          "startLine": 84,
+          "endLine": 117,
+          "supports": [
+            "event",
+            "substance",
+            "education"
+          ],
+          "note": "選手提出注射、藥物、補充品或肉類等可能來源，並接受陽性結果及協議。"
+        },
+        {
+          "documentId": "doc-d486106326054d6a",
+          "startLine": 136,
+          "endLine": 144,
+          "supports": [
+            "substance",
+            "sanction"
+          ],
+          "note": "Boldenone屬S1.1非特定物質；未證明違規非故意。"
+        },
+        {
+          "documentId": "doc-d486106326054d6a",
+          "startLine": 170,
+          "endLine": 189,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "及早承認後處以三年禁賽，自7月1日起，取消5月19日起成績及相關後果。"
+        },
+        {
+          "documentId": "registry-e207d4505dc48dae",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "AIU名冊拼作 Rodrigeuz，列 MEX、Boldenone、三年禁賽及成績取消日期。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "aiu-297669cfd900",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-7fb60e869e863167",
+        "registry-a64c960c71fe7453"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-7fb60e869e863167",
+          "startLine": 1,
+          "endLine": 12,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "決定確認 Lucy Karimi 為來自肯亞的公路跑者。"
+        },
+        {
+          "documentId": "doc-7fb60e869e863167",
+          "startLine": 55,
+          "endLine": 60,
+          "supports": [
+            "event",
+            "substance",
+            "dates"
+          ],
+          "note": "4月21日淮安馬拉松樣本檢出 EPO。"
+        },
+        {
+          "documentId": "doc-7fb60e869e863167",
+          "startLine": 72,
+          "endLine": 98,
+          "supports": [
+            "event",
+            "sanction",
+            "dates",
+            "education"
+          ],
+          "note": "最初期限未回覆；其後收到指控，仍被告知可承認並爭取減免。"
+        },
+        {
+          "documentId": "doc-7fb60e869e863167",
+          "startLine": 100,
+          "endLine": 109,
+          "supports": [
+            "sanction",
+            "education"
+          ],
+          "note": "Karimi在7月4日提交簽署的承認及接受後果表格。"
+        },
+        {
+          "documentId": "doc-7fb60e869e863167",
+          "startLine": 128,
+          "endLine": 136,
+          "supports": [
+            "substance",
+            "sanction"
+          ],
+          "note": "EPO屬S2非特定物質，文件說明當時的禁賽規則。"
+        },
+        {
+          "documentId": "doc-7fb60e869e863167",
+          "startLine": 161,
+          "endLine": 179,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "指控後承認取得一年減免；三年禁賽自5月23日起，取消4月21日起成績。"
+        },
+        {
+          "documentId": "registry-a64c960c71fe7453",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "AIU名冊列 Karimi、KEN、EPO、三年禁賽及成績取消日期。"
+        }
+      ],
+      "findings": []
+    }
+  ]
+}

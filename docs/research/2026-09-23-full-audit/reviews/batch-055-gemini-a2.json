@@ -1,0 +1,261 @@
+{
+  "cases": [
+    {
+      "id": "aiu-6754540e0597",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-ca943c9ca44183e0",
+        "registry-a655b17668902c62"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-ca943c9ca44183e0",
+          "startLine": 48,
+          "endLine": 48,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "確認選手為肯亞長跑運動員 Sarah Chepchirchir"
+        },
+        {
+          "documentId": "doc-ca943c9ca44183e0",
+          "startLine": 63,
+          "endLine": 71,
+          "supports": [
+            "event",
+            "substance",
+            "dates"
+          ],
+          "note": "2023-11-05 泰國春武里馬拉松樣本檢出外源性睪固酮代謝物"
+        },
+        {
+          "documentId": "doc-ca943c9ca44183e0",
+          "startLine": 139,
+          "endLine": 145,
+          "supports": [
+            "event",
+            "education"
+          ],
+          "note": "確認本案為繼先前四年生物護照禁賽後的第二次違規"
+        },
+        {
+          "documentId": "doc-ca943c9ca44183e0",
+          "startLine": 203,
+          "endLine": 208,
+          "supports": [
+            "outcomes",
+            "sanction"
+          ],
+          "note": "選手未於期限內承認指控，無法享有及早承認之一年減免"
+        },
+        {
+          "documentId": "doc-ca943c9ca44183e0",
+          "startLine": 215,
+          "endLine": 220,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "裁定自 2023-12-22 起禁賽八年（至 2031-12-21），並取消 2023-11-05 起之所有成績"
+        },
+        {
+          "documentId": "registry-a655b17668902c62",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates"
+          ],
+          "note": "官方名冊紀錄禁賽八年及自 2023-11-05 起取消成績之裁決"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "aiu-b803fd27b415",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-2ccd51ec2a506fa5",
+        "registry-f087fa22991d9de3"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-2ccd51ec2a506fa5",
+          "startLine": 48,
+          "endLine": 51,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "dates"
+          ],
+          "note": "肯亞選手 James Gikunga Karanja 於 2023-09-10 泰國甲米半馬接受檢測"
+        },
+        {
+          "documentId": "doc-2ccd51ec2a506fa5",
+          "startLine": 66,
+          "endLine": 70,
+          "supports": [
+            "substance"
+          ],
+          "note": "樣本檢出諾龍代謝物 19-norandrosterone 及 19-noretiocholanolone"
+        },
+        {
+          "documentId": "doc-2ccd51ec2a506fa5",
+          "startLine": 267,
+          "endLine": 272,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "處四年禁賽（2024-01-25 至 2028-01-24）並取消 2023-09-10 起成績"
+        },
+        {
+          "documentId": "doc-2ccd51ec2a506fa5",
+          "startLine": 293,
+          "endLine": 302,
+          "supports": [
+            "sanction",
+            "outcomes",
+            "education"
+          ],
+          "note": "註釋說明選手暫時禁賽期間參加馬來西亞賽事，依法不折抵暫時禁賽期間"
+        },
+        {
+          "documentId": "registry-f087fa22991d9de3",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates"
+          ],
+          "note": "官方名冊登載禁賽四年（自 2024-01-25 起）及取消 2023-09-10 起成績"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "aiu-8b4d6c038f72",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-df769ceb00772c9b",
+        "registry-6d766e12402b63f4"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-df769ceb00772c9b",
+          "startLine": 17,
+          "endLine": 17,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "確認選手為肯亞長跑運動員 Hosea Kimeli Kisorio"
+        },
+        {
+          "documentId": "doc-df769ceb00772c9b",
+          "startLine": 49,
+          "endLine": 51,
+          "supports": [
+            "event",
+            "dates"
+          ],
+          "note": "2023-10-08 於克羅埃西亞薩格勒布馬拉松接受賽內檢測"
+        },
+        {
+          "documentId": "doc-df769ceb00772c9b",
+          "startLine": 65,
+          "endLine": 68,
+          "supports": [
+            "substance"
+          ],
+          "note": "樣本檢出重組紅血球生成素（EPO）陽性"
+        },
+        {
+          "documentId": "doc-df769ceb00772c9b",
+          "startLine": 112,
+          "endLine": 117,
+          "supports": [
+            "outcomes",
+            "education"
+          ],
+          "note": "註釋載明聽證答覆期限與及早承認減免截止日分屬不同時間點"
+        },
+        {
+          "documentId": "doc-df769ceb00772c9b",
+          "startLine": 138,
+          "endLine": 140,
+          "supports": [
+            "outcomes",
+            "education"
+          ],
+          "note": "選手於 2024-01-10 及早承認截止日前簽署接受處分表單"
+        },
+        {
+          "documentId": "doc-df769ceb00772c9b",
+          "startLine": 210,
+          "endLine": 215,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "處以三年禁賽（自 2023-12-01 暫時禁賽日起算）並取消 2023-10-08 起成績"
+        },
+        {
+          "documentId": "registry-6d766e12402b63f4",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates"
+          ],
+          "note": "官方名冊確認三年禁賽（自 2023-12-01 起）及取消 2023-10-08 起成績"
+        }
+      ],
+      "findings": []
+    }
+  ]
+}

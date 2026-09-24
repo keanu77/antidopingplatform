@@ -1,0 +1,502 @@
+{
+  "cases": [
+    {
+      "id": "usada-73b73fbed23a",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-fe886036519c4490",
+        "registry-76edcb89d07f5c00"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-fe886036519c4490",
+          "startLine": 7,
+          "endLine": 8,
+          "supports": [
+            "identity",
+            "event",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "Blocker 因在皮膚科照護下使用外用處方藥 spironolactone 於 2020-10-05 賽外檢測陽性，後續獲准未來 TUE 並接受公開警告，因屬賽外檢測無成績可取消"
+        },
+        {
+          "documentId": "registry-76edcb89d07f5c00",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "dates"
+          ],
+          "note": "官方處分名冊載明 Blocker、田徑、Spironolactone、公開警告與公告日 12/28/2020"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "nationality: 美國",
+          "explanation": "來源僅在新聞標題提及「U.S. Track & Field Athlete」及居住地位於加州，依審核標準，單憑發布機構管轄、居住地或新聞標題不足以確立正式國籍或體育代表身分。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-fe886036519c4490",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "將國籍欄位標註為不確定，或補充運動員代表美國國家隊出賽之官方佐證。"
+        }
+      ]
+    },
+    {
+      "id": "usada-fd1d2cf8f708",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-a891d24d738281ec",
+        "registry-915ad0918906948d"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-a891d24d738281ec",
+          "startLine": 7,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "USADA 線索調查促成於 2020-03-07 賽內檢驗 Munsell，檢出 GW1516 代謝物，處以自採樣日起四年禁賽並取消成績"
+        },
+        {
+          "documentId": "registry-915ad0918906948d",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "dates"
+          ],
+          "note": "官方名冊登錄 Munsell、舉重、GW1516、四年禁賽與取消成績"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "nationality: 美國",
+          "explanation": "文件僅見標題「U.S. Weightlifting Athlete」與內文提及德州普萊諾居住地，依標準不足以逕行認定法律國籍或國家體育代表身分。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-a891d24d738281ec",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "改列國籍為待確認，或補充運動員體育代表資格或公民身分官方紀錄。"
+        }
+      ]
+    },
+    {
+      "id": "usada-90621c3eb5e4",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-5fcd12bd3974f723",
+        "registry-190f62acd29a9043"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-5fcd12bd3974f723",
+          "startLine": 7,
+          "endLine": 9,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "Williams 於 2020-09-18 賽內檢體驗出 ostarine，接受自採樣日起四年禁賽並取消自該日起之所有成績"
+        },
+        {
+          "documentId": "registry-190f62acd29a9043",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "dates"
+          ],
+          "note": "官方名冊載明 Williams、舉重、Ostarine、四年禁賽與取消成績"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "nationality: 美國",
+          "explanation": "來源僅有新聞標題之「U.S. Weightlifting Athlete」及喬治亞州居住地記載，無法據此確認正式國籍或代表隊身分。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-5fcd12bd3974f723",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "將國籍標記為不確定，或檢附官方國家代表資格登記資料。"
+        }
+      ]
+    },
+    {
+      "id": "usada-9dd4639a6aac",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-55761ce4979e3f7b",
+        "registry-2501dc544aec2cb1"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-55761ce4979e3f7b",
+          "startLine": 7,
+          "endLine": 9,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "Pelegrin 於 2019-08-30 大師賽獲勝後檢驗陽性檢出 anastrozole，接受自 2019-11-09 起 12 個月禁賽，且成績追溯自 2015-07-23 起取消"
+        },
+        {
+          "documentId": "registry-2501dc544aec2cb1",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "dates"
+          ],
+          "note": "官方處分名冊記錄 Pelegrin、自行車、Anastrozole、一年禁賽與取消成績"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "nationality: 美國",
+          "explanation": "文本僅記載「U.S. Cycling Athlete」標題及參加全美大師賽事，不足以作為其代表美國或具美國國籍之排他性證明。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-55761ce4979e3f7b",
+              "startLine": 1,
+              "endLine": 8
+            }
+          ],
+          "suggestion": "將國籍欄位改為不確定，或補充國際總會登記之體育國籍資料。"
+        }
+      ]
+    },
+    {
+      "id": "usada-6f442259c6e3",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-4e09c8a8d6f09560",
+        "registry-3d4d98b98d9559e4"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-4e09c8a8d6f09560",
+          "startLine": 7,
+          "endLine": 11,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "McLaughlin 於 2016-07-21 網購含 clomiphene、oxymetholone、testosterone 之產品，因持有及使用或企圖使用被處自 2020-11-24 起四年禁賽，並取消購買日起成績"
+        },
+        {
+          "documentId": "registry-3d4d98b98d9559e4",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "dates"
+          ],
+          "note": "官方名冊記錄 McLaughlin、舉重、非分析性持有與使用／企圖使用違規、四年禁賽與取消成績"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "nationality: 美國",
+          "explanation": "來源僅有標題「U.S. Weightlifting Athlete」及南卡羅來納州住所資訊，依審核規範不得單憑居住地或標題斷定國籍或體育代表身分。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-4e09c8a8d6f09560",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "國籍欄位應標記為待查，或補正其正式代表美國出賽之官方佐證。"
+        }
+      ]
+    },
+    {
+      "id": "usada-9ea9f3b4b3ea",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-d268035a449c8f4a",
+        "doc-bf3b5609bbe293a0",
+        "registry-8444795726d05afe"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-d268035a449c8f4a",
+          "startLine": 7,
+          "endLine": 8,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "Fiechter 因醫療處方使用 spironolactone 於 2020-08-22 賽外採樣陽性，藥檢表已申報且後續獲核發未來 TUE，接受公開警告且無成績取消"
+        },
+        {
+          "documentId": "doc-bf3b5609bbe293a0",
+          "startLine": 7,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "報導確認選手 Olivia Weaver（婚前姓 Fiechter）代表美國國家隊（Team USA）參加 2023 聖地牙哥泛美運動會並奪得女子壁球單打金牌"
+        },
+        {
+          "documentId": "registry-8444795726d05afe",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "dates"
+          ],
+          "note": "官方名冊記載 Fiechter、壁球、Spironolactone、公開警告處分與公告日 11/20/2020"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-3569c6e815d7",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-f626e55d2b19dc25",
+        "registry-8783f96347edf38d"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-f626e55d2b19dc25",
+          "startLine": 7,
+          "endLine": 11,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "USADA 調查確認 Hipona 於 2017-07-13 網購含 anastrozole 產品寄至住處，接受自 2020-10-07 暫時禁賽日起算兩年禁賽，並取消購買日起之成績"
+        },
+        {
+          "documentId": "registry-8783f96347edf38d",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "dates"
+          ],
+          "note": "官方名冊載明 Hipona、舉重、非分析性持有與使用／企圖使用、兩年禁賽與取消成績"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "nationality: 美國",
+          "explanation": "文件僅載明「U.S. Weightlifting Athlete」標題與維吉尼亞州居住地，缺乏足以證明體育代表身分或國籍之直接佐證。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-f626e55d2b19dc25",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "將國籍欄位標註為待確認，或補充正式國際體育代表證明。"
+        }
+      ]
+    },
+    {
+      "id": "usada-4cabe0247888",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-464d63dbe4ca7cd7",
+        "registry-7de893cf7c78d6bc"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-464d63dbe4ca7cd7",
+          "startLine": 7,
+          "endLine": 12,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "Martin 於 2020-02-16 檢出外源性合成代謝劑（處方 testosterone），因缺乏有效 TUE 接受自採樣日起兩年禁賽並取消自該日起之成績"
+        },
+        {
+          "documentId": "registry-7de893cf7c78d6bc",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "dates"
+          ],
+          "note": "官方名冊記錄 Martin、自行車、同化類固醇、兩年禁賽與取消成績"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "nationality: 美國",
+          "explanation": "來源僅有新聞標題「U.S. Cycling Athlete」與丹佛居住地，依標準不足以直接確認國籍或代表國家參賽身分。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-464d63dbe4ca7cd7",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "將國籍標示為不確定，或補充國際總會登記之體育代表身分佐證。"
+        }
+      ]
+    }
+  ]
+}

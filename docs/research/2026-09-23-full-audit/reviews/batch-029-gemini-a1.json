@@ -1,0 +1,159 @@
+{
+  "cases": [
+    {
+      "id": "aiu-46aeac00cc17",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-9427b4a620c60ae1",
+        "registry-4bd0f4537242b3e5"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-9427b4a620c60ae1",
+          "startLine": 20,
+          "endLine": 35,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "裁決載明運動員 Sheila Chelangat 為肯亞長跑運動員"
+        },
+        {
+          "documentId": "doc-9427b4a620c60ae1",
+          "startLine": 48,
+          "endLine": 70,
+          "supports": [
+            "event",
+            "substance",
+            "sanction"
+          ],
+          "note": "載明2024年9月15日尿液與2025年3月7日血液樣本檢出EPO，AIU主張故意與加重情節求處6年禁賽"
+        },
+        {
+          "documentId": "doc-9427b4a620c60ae1",
+          "startLine": 135,
+          "endLine": 137,
+          "supports": [
+            "country"
+          ],
+          "note": "確認運動員為肯亞田協會員並曾多次代表肯亞出賽"
+        },
+        {
+          "documentId": "doc-9427b4a620c60ae1",
+          "startLine": 729,
+          "endLine": 771,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "裁定6年禁賽折抵2025年5月20日起暫時禁賽，並取消2024年9月15日至2025年5月20日之比賽成績含哥本哈根半馬"
+        },
+        {
+          "documentId": "registry-4bd0f4537242b3e5",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "官方名冊紀錄肯亞選手 Sheila Chelangat 違反第2.1與2.2條EPO，自2025年5月20日起禁賽6年並取消自2024年9月15日起成績"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "aiu-c3a658ea8149",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-03043a748e9475a6",
+        "registry-5c113b02cad5b128"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-03043a748e9475a6",
+          "startLine": 1,
+          "endLine": 13,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "AIU裁決載明運動員 Lydia Cheptarus Cheruiyot 為肯亞長跑選手"
+        },
+        {
+          "documentId": "doc-03043a748e9475a6",
+          "startLine": 56,
+          "endLine": 77,
+          "supports": [
+            "event",
+            "substance",
+            "education"
+          ],
+          "note": "2025年9月28日摩洛哥賽事採樣檢出去炎松，確認未持有TUE且非核准途徑攝入"
+        },
+        {
+          "documentId": "doc-03043a748e9475a6",
+          "startLine": 86,
+          "endLine": 87,
+          "supports": [
+            "sanction",
+            "event"
+          ],
+          "note": "運動員於2025年10月31日簽署承認違規與接受後果協議表"
+        },
+        {
+          "documentId": "doc-03043a748e9475a6",
+          "startLine": 114,
+          "endLine": 136,
+          "supports": [
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "認定糖皮質類固醇賽內禁用，判處自2025年10月31日起2年禁賽並取消2025年9月28日起成績"
+        },
+        {
+          "documentId": "registry-5c113b02cad5b128",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊登錄肯亞選手 Lydia Cheptarus Cheruiyot 因去炎松禁賽2年自2025年10月31日起，取消自2025年9月28日起成績"
+        }
+      ],
+      "findings": []
+    }
+  ]
+}

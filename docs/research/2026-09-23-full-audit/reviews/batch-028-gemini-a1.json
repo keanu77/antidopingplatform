@@ -1,0 +1,148 @@
+{
+  "cases": [
+    {
+      "id": "aiu-d9d3f6f972eb",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-7ed15c9507d59b28",
+        "registry-ff8fd894bcda0f41"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-7ed15c9507d59b28",
+          "startLine": 1,
+          "endLine": 12,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "AIU 決定書確認選手 Jemila Wortesa 為衣索比亞長跑運動員"
+        },
+        {
+          "documentId": "doc-7ed15c9507d59b28",
+          "startLine": 55,
+          "endLine": 62,
+          "supports": [
+            "event",
+            "substance",
+            "dates"
+          ],
+          "note": "2025年6月15日貴陽馬拉松賽內樣本檢出紅血球生成素 (EPO)"
+        },
+        {
+          "documentId": "doc-7ed15c9507d59b28",
+          "startLine": 213,
+          "endLine": 249,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "依規則 10.8.1 及早承認減免為禁賽3年，自2025年7月31日起算，取消2025年6月15日起之所有成績與獎牌"
+        },
+        {
+          "documentId": "registry-ff8fd894bcda0f41",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "AIU 官方名冊紀錄確認違規條款、3年禁賽起算日及成績取消範圍"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "aiu-0031fcaf050f",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-59413f04ff278e49",
+        "registry-34bccec8c57904a5"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-59413f04ff278e49",
+          "startLine": 1,
+          "endLine": 12,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "AIU 決定書確認選手 Alice Koigi 為肯亞路跑運動員"
+        },
+        {
+          "documentId": "doc-59413f04ff278e49",
+          "startLine": 55,
+          "endLine": 62,
+          "supports": [
+            "event",
+            "substance",
+            "dates"
+          ],
+          "note": "2025年10月26日雅加達賽事檢出甲基培尼皮質醇 (Methylprednisolone)"
+        },
+        {
+          "documentId": "doc-59413f04ff278e49",
+          "startLine": 88,
+          "endLine": 102,
+          "supports": [
+            "education"
+          ],
+          "note": "賽後脫水靜脈輸液獲得追溯 TUE，但不涵蓋檢出的甲基培尼皮質醇"
+        },
+        {
+          "documentId": "doc-59413f04ff278e49",
+          "startLine": 163,
+          "endLine": 167,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "禁賽2年自2025年12月9日起算，並取消2025年10月26日起成績與獎項"
+        },
+        {
+          "documentId": "registry-34bccec8c57904a5",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "AIU 官方名冊紀錄確認違規物質、2年禁賽起算日及取消成績"
+        }
+      ],
+      "findings": []
+    }
+  ]
+}

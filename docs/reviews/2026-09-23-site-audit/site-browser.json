@@ -1,0 +1,1787 @@
+{
+  "startedAt": "2026-09-23T08:59:29.119Z",
+  "base": "http://127.0.0.1:4179",
+  "mode": "local browser read-only QA",
+  "routes": [
+    {
+      "route": "/",
+      "viewport": "desktop",
+      "status": 200,
+      "headings": [
+        "乾淨運動從你我開始"
+      ],
+      "title": "乾淨運動從你我開始 | 運動禁藥案例資料庫",
+      "mainTextLength": 405,
+      "layout": {
+        "width": 1280,
+        "scrollWidth": 1280,
+        "overflow": 0,
+        "offenders": []
+      },
+      "screenshot": "/Users/ethanwu/Documents/Vibe coding/claude/Antidopingplatform/.cache/site-audit/screenshots/desktop-home.png",
+      "ok": true
+    },
+    {
+      "route": "/cases",
+      "viewport": "desktop",
+      "status": 200,
+      "headings": [
+        "相關案例"
+      ],
+      "title": "案例搜尋 | 乾淨運動從你我開始",
+      "mainTextLength": 2080,
+      "layout": {
+        "width": 1280,
+        "scrollWidth": 1280,
+        "overflow": 0,
+        "offenders": []
+      },
+      "screenshot": "/Users/ethanwu/Documents/Vibe coding/claude/Antidopingplatform/.cache/site-audit/screenshots/desktop-cases.png",
+      "ok": true
+    },
+    {
+      "route": "/cases/aiu-8305315880ae",
+      "viewport": "desktop",
+      "status": 200,
+      "headings": [
+        "Yamile Herrera"
+      ],
+      "title": "Yamile Herrera | 乾淨運動從你我開始",
+      "mainTextLength": 799,
+      "layout": {
+        "width": 1280,
+        "scrollWidth": 1280,
+        "overflow": 0,
+        "offenders": []
+      },
+      "screenshot": "/Users/ethanwu/Documents/Vibe coding/claude/Antidopingplatform/.cache/site-audit/screenshots/desktop-cases-aiu-8305315880ae.png",
+      "ok": true
+    },
+    {
+      "route": "/statistics",
+      "viewport": "desktop",
+      "status": 200,
+      "headings": [
+        "資料庫案例分析"
+      ],
+      "title": "資料庫分析 | 乾淨運動從你我開始",
+      "mainTextLength": 2461,
+      "layout": {
+        "width": 1280,
+        "scrollWidth": 1280,
+        "overflow": 0,
+        "offenders": []
+      },
+      "screenshot": "/Users/ethanwu/Documents/Vibe coding/claude/Antidopingplatform/.cache/site-audit/screenshots/desktop-statistics.png",
+      "ok": true
+    },
+    {
+      "route": "/education",
+      "viewport": "desktop",
+      "status": 200,
+      "headings": [
+        "教育專區"
+      ],
+      "title": "教育專區 | 乾淨運動從你我開始",
+      "mainTextLength": 2089,
+      "layout": {
+        "width": 1280,
+        "scrollWidth": 1280,
+        "overflow": 0,
+        "offenders": []
+      },
+      "screenshot": "/Users/ethanwu/Documents/Vibe coding/claude/Antidopingplatform/.cache/site-audit/screenshots/desktop-education.png",
+      "ok": true
+    },
+    {
+      "route": "/tue",
+      "viewport": "desktop",
+      "status": 200,
+      "headings": [
+        "治療用途豁免 (TUE) 專區"
+      ],
+      "title": "TUE 治療用途豁免指南 | 乾淨運動從你我開始",
+      "mainTextLength": 1257,
+      "layout": {
+        "width": 1280,
+        "scrollWidth": 1280,
+        "overflow": 0,
+        "offenders": []
+      },
+      "screenshot": "/Users/ethanwu/Documents/Vibe coding/claude/Antidopingplatform/.cache/site-audit/screenshots/desktop-tue.png",
+      "ok": true
+    },
+    {
+      "route": "/prohibited-list",
+      "viewport": "desktop",
+      "status": 200,
+      "headings": [
+        "2026 禁用清單"
+      ],
+      "title": "禁用清單 | 乾淨運動從你我開始",
+      "mainTextLength": 669,
+      "layout": {
+        "width": 1280,
+        "scrollWidth": 1280,
+        "overflow": 0,
+        "offenders": []
+      },
+      "screenshot": "/Users/ethanwu/Documents/Vibe coding/claude/Antidopingplatform/.cache/site-audit/screenshots/desktop-prohibited-list.png",
+      "ok": true
+    },
+    {
+      "route": "/quiz",
+      "viewport": "desktop",
+      "status": 200,
+      "headings": [
+        "互動測驗"
+      ],
+      "title": "反禁藥互動測驗 | 乾淨運動從你我開始",
+      "mainTextLength": 111,
+      "layout": {
+        "width": 1280,
+        "scrollWidth": 1280,
+        "overflow": 0,
+        "offenders": []
+      },
+      "screenshot": "/Users/ethanwu/Documents/Vibe coding/claude/Antidopingplatform/.cache/site-audit/screenshots/desktop-quiz.png",
+      "ok": true
+    },
+    {
+      "route": "/testing-process",
+      "viewport": "desktop",
+      "status": 200,
+      "headings": [
+        "藥檢流程"
+      ],
+      "title": "藥檢流程說明 | 乾淨運動從你我開始",
+      "mainTextLength": 329,
+      "layout": {
+        "width": 1280,
+        "scrollWidth": 1280,
+        "overflow": 0,
+        "offenders": []
+      },
+      "screenshot": "/Users/ethanwu/Documents/Vibe coding/claude/Antidopingplatform/.cache/site-audit/screenshots/desktop-testing-process.png",
+      "ok": true
+    },
+    {
+      "route": "/news",
+      "viewport": "desktop",
+      "status": 200,
+      "headings": [
+        "最新消息"
+      ],
+      "title": "最新消息 | 乾淨運動從你我開始",
+      "mainTextLength": 510,
+      "layout": {
+        "width": 1280,
+        "scrollWidth": 1280,
+        "overflow": 0,
+        "offenders": []
+      },
+      "screenshot": "/Users/ethanwu/Documents/Vibe coding/claude/Antidopingplatform/.cache/site-audit/screenshots/desktop-news.png",
+      "ok": true
+    },
+    {
+      "route": "/resources",
+      "viewport": "desktop",
+      "status": 200,
+      "headings": [
+        "實用連結"
+      ],
+      "title": "資源連結 | 乾淨運動從你我開始",
+      "mainTextLength": 814,
+      "layout": {
+        "width": 1280,
+        "scrollWidth": 1280,
+        "overflow": 0,
+        "offenders": []
+      },
+      "screenshot": "/Users/ethanwu/Documents/Vibe coding/claude/Antidopingplatform/.cache/site-audit/screenshots/desktop-resources.png",
+      "ok": true
+    },
+    {
+      "route": "/adel",
+      "viewport": "desktop",
+      "status": 200,
+      "headings": [
+        "ADeL 學習專區"
+      ],
+      "title": "ADeL 學習專區 | 乾淨運動從你我開始",
+      "mainTextLength": 1104,
+      "layout": {
+        "width": 1280,
+        "scrollWidth": 1280,
+        "overflow": 0,
+        "offenders": []
+      },
+      "screenshot": "/Users/ethanwu/Documents/Vibe coding/claude/Antidopingplatform/.cache/site-audit/screenshots/desktop-adel.png",
+      "ok": true
+    },
+    {
+      "route": "/audit-page-does-not-exist",
+      "viewport": "desktop",
+      "status": 200,
+      "headings": [
+        "404"
+      ],
+      "title": "頁面未找到 | 乾淨運動從你我開始",
+      "mainTextLength": 42,
+      "layout": {
+        "width": 1280,
+        "scrollWidth": 1280,
+        "overflow": 0,
+        "offenders": []
+      },
+      "screenshot": "/Users/ethanwu/Documents/Vibe coding/claude/Antidopingplatform/.cache/site-audit/screenshots/desktop-audit-page-does-not-exist.png",
+      "ok": true
+    },
+    {
+      "route": "/",
+      "viewport": "mobile",
+      "status": 200,
+      "headings": [
+        "乾淨運動從你我開始"
+      ],
+      "title": "乾淨運動從你我開始 | 運動禁藥案例資料庫",
+      "mainTextLength": 408,
+      "layout": {
+        "width": 390,
+        "scrollWidth": 390,
+        "overflow": 0,
+        "offenders": []
+      },
+      "screenshot": "/Users/ethanwu/Documents/Vibe coding/claude/Antidopingplatform/.cache/site-audit/screenshots/mobile-home.png",
+      "ok": true
+    },
+    {
+      "route": "/cases",
+      "viewport": "mobile",
+      "status": 200,
+      "headings": [
+        "相關案例"
+      ],
+      "title": "案例搜尋 | 乾淨運動從你我開始",
+      "mainTextLength": 2080,
+      "layout": {
+        "width": 390,
+        "scrollWidth": 390,
+        "overflow": 0,
+        "offenders": []
+      },
+      "screenshot": "/Users/ethanwu/Documents/Vibe coding/claude/Antidopingplatform/.cache/site-audit/screenshots/mobile-cases.png",
+      "ok": true
+    },
+    {
+      "route": "/cases/aiu-8305315880ae",
+      "viewport": "mobile",
+      "status": 200,
+      "headings": [
+        "Yamile Herrera"
+      ],
+      "title": "Yamile Herrera | 乾淨運動從你我開始",
+      "mainTextLength": 799,
+      "layout": {
+        "width": 390,
+        "scrollWidth": 390,
+        "overflow": 0,
+        "offenders": []
+      },
+      "screenshot": "/Users/ethanwu/Documents/Vibe coding/claude/Antidopingplatform/.cache/site-audit/screenshots/mobile-cases-aiu-8305315880ae.png",
+      "ok": true
+    },
+    {
+      "route": "/statistics",
+      "viewport": "mobile",
+      "status": 200,
+      "headings": [
+        "資料庫案例分析"
+      ],
+      "title": "資料庫分析 | 乾淨運動從你我開始",
+      "mainTextLength": 2461,
+      "layout": {
+        "width": 390,
+        "scrollWidth": 390,
+        "overflow": 0,
+        "offenders": []
+      },
+      "screenshot": "/Users/ethanwu/Documents/Vibe coding/claude/Antidopingplatform/.cache/site-audit/screenshots/mobile-statistics.png",
+      "ok": true
+    },
+    {
+      "route": "/education",
+      "viewport": "mobile",
+      "status": 200,
+      "headings": [
+        "教育專區"
+      ],
+      "title": "教育專區 | 乾淨運動從你我開始",
+      "mainTextLength": 2089,
+      "layout": {
+        "width": 390,
+        "scrollWidth": 390,
+        "overflow": 0,
+        "offenders": []
+      },
+      "screenshot": "/Users/ethanwu/Documents/Vibe coding/claude/Antidopingplatform/.cache/site-audit/screenshots/mobile-education.png",
+      "ok": true
+    },
+    {
+      "route": "/tue",
+      "viewport": "mobile",
+      "status": 200,
+      "headings": [
+        "治療用途豁免 (TUE) 專區"
+      ],
+      "title": "TUE 治療用途豁免指南 | 乾淨運動從你我開始",
+      "mainTextLength": 1257,
+      "layout": {
+        "width": 390,
+        "scrollWidth": 390,
+        "overflow": 0,
+        "offenders": []
+      },
+      "screenshot": "/Users/ethanwu/Documents/Vibe coding/claude/Antidopingplatform/.cache/site-audit/screenshots/mobile-tue.png",
+      "ok": true
+    },
+    {
+      "route": "/prohibited-list",
+      "viewport": "mobile",
+      "status": 200,
+      "headings": [
+        "2026 禁用清單"
+      ],
+      "title": "禁用清單 | 乾淨運動從你我開始",
+      "mainTextLength": 592,
+      "layout": {
+        "width": 390,
+        "scrollWidth": 390,
+        "overflow": 0,
+        "offenders": []
+      },
+      "screenshot": "/Users/ethanwu/Documents/Vibe coding/claude/Antidopingplatform/.cache/site-audit/screenshots/mobile-prohibited-list.png",
+      "ok": true
+    },
+    {
+      "route": "/quiz",
+      "viewport": "mobile",
+      "status": 200,
+      "headings": [
+        "互動測驗"
+      ],
+      "title": "反禁藥互動測驗 | 乾淨運動從你我開始",
+      "mainTextLength": 111,
+      "layout": {
+        "width": 390,
+        "scrollWidth": 390,
+        "overflow": 0,
+        "offenders": []
+      },
+      "screenshot": "/Users/ethanwu/Documents/Vibe coding/claude/Antidopingplatform/.cache/site-audit/screenshots/mobile-quiz.png",
+      "ok": true
+    },
+    {
+      "route": "/testing-process",
+      "viewport": "mobile",
+      "status": 200,
+      "headings": [
+        "藥檢流程"
+      ],
+      "title": "藥檢流程說明 | 乾淨運動從你我開始",
+      "mainTextLength": 329,
+      "layout": {
+        "width": 390,
+        "scrollWidth": 390,
+        "overflow": 0,
+        "offenders": []
+      },
+      "screenshot": "/Users/ethanwu/Documents/Vibe coding/claude/Antidopingplatform/.cache/site-audit/screenshots/mobile-testing-process.png",
+      "ok": true
+    },
+    {
+      "route": "/news",
+      "viewport": "mobile",
+      "status": 200,
+      "headings": [
+        "最新消息"
+      ],
+      "title": "最新消息 | 乾淨運動從你我開始",
+      "mainTextLength": 510,
+      "layout": {
+        "width": 390,
+        "scrollWidth": 390,
+        "overflow": 0,
+        "offenders": []
+      },
+      "screenshot": "/Users/ethanwu/Documents/Vibe coding/claude/Antidopingplatform/.cache/site-audit/screenshots/mobile-news.png",
+      "ok": true
+    },
+    {
+      "route": "/resources",
+      "viewport": "mobile",
+      "status": 200,
+      "headings": [
+        "實用連結"
+      ],
+      "title": "資源連結 | 乾淨運動從你我開始",
+      "mainTextLength": 814,
+      "layout": {
+        "width": 390,
+        "scrollWidth": 390,
+        "overflow": 0,
+        "offenders": []
+      },
+      "screenshot": "/Users/ethanwu/Documents/Vibe coding/claude/Antidopingplatform/.cache/site-audit/screenshots/mobile-resources.png",
+      "ok": true
+    },
+    {
+      "route": "/adel",
+      "viewport": "mobile",
+      "status": 200,
+      "headings": [
+        "ADeL 學習專區"
+      ],
+      "title": "ADeL 學習專區 | 乾淨運動從你我開始",
+      "mainTextLength": 1104,
+      "layout": {
+        "width": 390,
+        "scrollWidth": 390,
+        "overflow": 0,
+        "offenders": []
+      },
+      "screenshot": "/Users/ethanwu/Documents/Vibe coding/claude/Antidopingplatform/.cache/site-audit/screenshots/mobile-adel.png",
+      "ok": true
+    },
+    {
+      "route": "/audit-page-does-not-exist",
+      "viewport": "mobile",
+      "status": 200,
+      "headings": [
+        "404"
+      ],
+      "title": "頁面未找到 | 乾淨運動從你我開始",
+      "mainTextLength": 42,
+      "layout": {
+        "width": 390,
+        "scrollWidth": 390,
+        "overflow": 0,
+        "offenders": []
+      },
+      "screenshot": "/Users/ethanwu/Documents/Vibe coding/claude/Antidopingplatform/.cache/site-audit/screenshots/mobile-audit-page-does-not-exist.png",
+      "ok": true
+    }
+  ],
+  "interactions": [
+    {
+      "name": "statistics-chart-values",
+      "viewport": "desktop",
+      "ok": true,
+      "evidence": {
+        "charts": [
+          {
+            "title": "主要公開來源",
+            "note": "依各案主要來源分組，每件只計一次；不等同裁決機構或所屬國家。",
+            "rows": [
+              {
+                "label": "USADA",
+                "count": 267
+              },
+              {
+                "label": "AIU",
+                "count": 123
+              },
+              {
+                "label": "ITA",
+                "count": 108
+              },
+              {
+                "label": "其他來源",
+                "count": 14
+              },
+              {
+                "label": "ITIA",
+                "count": 3
+              },
+              {
+                "label": "CAS",
+                "count": 2
+              }
+            ],
+            "ariaLabel": "主要公開來源：USADA 267 件、AIU 123 件、ITA 108 件、其他來源 14 件、ITIA 3 件、CAS 2 件",
+            "open": true,
+            "total": 517
+          },
+          {
+            "title": "運動項目分布（前十項）",
+            "note": "圖中涵蓋 413／517 件，其餘項目未顯示；不可解讀為項目盛行率。",
+            "rows": [
+              {
+                "label": "田徑",
+                "count": 168
+              },
+              {
+                "label": "舉重",
+                "count": 108
+              },
+              {
+                "label": "自行車",
+                "count": 73
+              },
+              {
+                "label": "鐵人三項",
+                "count": 16
+              },
+              {
+                "label": "跆拳道",
+                "count": 9
+              },
+              {
+                "label": "游泳",
+                "count": 9
+              },
+              {
+                "label": "棒球",
+                "count": 8
+              },
+              {
+                "label": "角力",
+                "count": 8
+              },
+              {
+                "label": "拳擊",
+                "count": 7
+              },
+              {
+                "label": "綜合格鬥",
+                "count": 7
+              }
+            ],
+            "ariaLabel": "運動項目分布（前十項）：田徑 168 件、舉重 108 件、自行車 73 件、鐵人三項 16 件、跆拳道 9 件、游泳 9 件、棒球 8 件、角力 8 件、拳擊 7 件、綜合格鬥 7 件",
+            "open": true,
+            "total": 413
+          },
+          {
+            "title": "物質／規則標籤分布",
+            "note": "分母為全部 517 件。前九種標籤以外合併為「其他標籤」；混合分類及非物質違規保留原標示，不當成單一 WADA 物質計數。",
+            "rows": [
+              {
+                "label": "年度禁用清單分類未另核對",
+                "count": 190
+              },
+              {
+                "label": "S1 合成代謝劑",
+                "count": 80
+              },
+              {
+                "label": "非物質違規",
+                "count": 28
+              },
+              {
+                "label": "ADRV 2.4：行蹤義務",
+                "count": 22
+              },
+              {
+                "label": "S6 興奮劑",
+                "count": 20
+              },
+              {
+                "label": "S8 大麻素",
+                "count": 19
+              },
+              {
+                "label": "S2 肽類激素相關物質",
+                "count": 15
+              },
+              {
+                "label": "S5 利尿劑與掩蔽劑",
+                "count": 14
+              },
+              {
+                "label": "S4 激素與代謝調節劑",
+                "count": 11
+              },
+              {
+                "label": "其他標籤",
+                "count": 118
+              }
+            ],
+            "ariaLabel": "物質／規則標籤分布：年度禁用清單分類未另核對 190 件、S1 合成代謝劑 80 件、非物質違規 28 件、ADRV 2.4：行蹤義務 22 件、S6 興奮劑 20 件、S8 大麻素 19 件、S2 肽類激素相關物質 15 件、S5 利尿劑與掩蔽劑 14 件、S4 激素與代謝調節劑 11 件、其他標籤 118 件",
+            "open": true,
+            "total": 517
+          },
+          {
+            "title": "禁賽期限分布",
+            "note": "依個案公開處分文字分組，共 517 件。「無禁賽」也可能包含公開警告或違規成立但免禁賽，不能視為全部無違規。",
+            "rows": [
+              {
+                "label": "4年以上",
+                "count": 193
+              },
+              {
+                "label": "1-2年",
+                "count": 119
+              },
+              {
+                "label": "2-4年",
+                "count": 87
+              },
+              {
+                "label": "1-6個月",
+                "count": 44
+              },
+              {
+                "label": "無禁賽／處分撤銷",
+                "count": 34
+              },
+              {
+                "label": "7-12個月",
+                "count": 33
+              },
+              {
+                "label": "終身／無限期",
+                "count": 5
+              },
+              {
+                "label": "暫時禁賽（非最終處分）",
+                "count": 2
+              }
+            ],
+            "ariaLabel": "禁賽期限分布：4年以上 193 件、1-2年 119 件、2-4年 87 件、1-6個月 44 件、無禁賽／處分撤銷 34 件、7-12個月 33 件、終身／無限期 5 件、暫時禁賽（非最終處分） 2 件",
+            "open": true,
+            "total": 517
+          },
+          {
+            "title": "收錄案例年份分布",
+            "note": "年份依個案事件年或裁決公布年，且收錄並不完整；不得解讀為每年違規發生率或上升下降趨勢。",
+            "rows": [
+              {
+                "label": "2000",
+                "count": 1
+              },
+              {
+                "label": "2002",
+                "count": 1
+              },
+              {
+                "label": "2010",
+                "count": 3
+              },
+              {
+                "label": "2011",
+                "count": 1
+              },
+              {
+                "label": "2012",
+                "count": 6
+              },
+              {
+                "label": "2013",
+                "count": 8
+              },
+              {
+                "label": "2014",
+                "count": 9
+              },
+              {
+                "label": "2015",
+                "count": 19
+              },
+              {
+                "label": "2016",
+                "count": 41
+              },
+              {
+                "label": "2017",
+                "count": 42
+              },
+              {
+                "label": "2018",
+                "count": 41
+              },
+              {
+                "label": "2019",
+                "count": 29
+              },
+              {
+                "label": "2020",
+                "count": 17
+              },
+              {
+                "label": "2021",
+                "count": 32
+              },
+              {
+                "label": "2022",
+                "count": 44
+              },
+              {
+                "label": "2023",
+                "count": 57
+              },
+              {
+                "label": "2024",
+                "count": 93
+              },
+              {
+                "label": "2025",
+                "count": 67
+              },
+              {
+                "label": "2026",
+                "count": 6
+              }
+            ],
+            "ariaLabel": "收錄案例年份分布：2000 1 件、2002 1 件、2010 3 件、2011 1 件、2012 6 件、2013 8 件、2014 9 件、2015 19 件、2016 41 件、2017 42 件、2018 41 件、2019 29 件、2020 17 件、2021 32 件、2022 44 件、2023 57 件、2024 93 件、2025 67 件、2026 6 件",
+            "open": true,
+            "total": 517
+          }
+        ],
+        "outcomes": [
+          {
+            "label": "成績取消",
+            "total": 517
+          },
+          {
+            "label": "獎牌剝奪",
+            "total": 517
+          }
+        ],
+        "canvasCount": 5
+      },
+      "layout": {
+        "width": 1280,
+        "scrollWidth": 1280,
+        "overflow": 0,
+        "offenders": []
+      }
+    },
+    {
+      "name": "prohibited-list-filter-search-accordion",
+      "viewport": "desktop",
+      "ok": true,
+      "evidence": {
+        "counts": {
+          "全部": 14,
+          "隨時禁用": 6,
+          "僅賽內禁用": 4,
+          "特定運動禁用": 1,
+          "禁用方法": 3
+        },
+        "searchS3": 1,
+        "emptyState": true,
+        "accordion": true
+      },
+      "layout": {
+        "width": 1280,
+        "scrollWidth": 1280,
+        "overflow": 0,
+        "offenders": []
+      }
+    },
+    {
+      "name": "quiz-ten-questions-result-restart",
+      "viewport": "desktop",
+      "ok": true,
+      "evidence": {
+        "questions": [
+          {
+            "index": 1,
+            "question": "台灣的國家運動禁藥防制機構是？",
+            "chosenOption": 0,
+            "correct": false,
+            "heading": {
+              "text": "台灣的國家運動禁藥防制機構是？",
+              "focused": true,
+              "top": 99,
+              "bottom": 127,
+              "scrollY": 74,
+              "height": 900
+            }
+          },
+          {
+            "index": 2,
+            "question": "未成年運動員接受藥檢時，以下哪項是正確的？",
+            "chosenOption": 0,
+            "correct": false,
+            "heading": {
+              "text": "未成年運動員接受藥檢時，以下哪項是正確的？",
+              "focused": true,
+              "top": 107,
+              "bottom": 135,
+              "scrollY": 74,
+              "height": 900
+            }
+          },
+          {
+            "index": 3,
+            "question": "低氧艙訓練算不算運動禁藥？",
+            "chosenOption": 0,
+            "correct": false,
+            "heading": {
+              "text": "低氧艙訓練算不算運動禁藥？",
+              "focused": true,
+              "top": 107,
+              "bottom": 135,
+              "scrollY": 74,
+              "height": 900
+            }
+          },
+          {
+            "index": 4,
+            "question": "一般初次故意違反「存在、使用或持有禁用物質／方法」規則，未適用特別或加減條款時，禁賽基準是多久？",
+            "chosenOption": 0,
+            "correct": false,
+            "heading": {
+              "text": "一般初次故意違反「存在、使用或持有禁用物質／方法」規則，未適用特別或加減條款時，禁賽基準是多久？",
+              "focused": true,
+              "top": 100,
+              "bottom": 156,
+              "scrollY": 81,
+              "height": 900
+            }
+          },
+          {
+            "index": 5,
+            "question": "「嚴格責任原則」是什麼意思？",
+            "chosenOption": 0,
+            "correct": false,
+            "heading": {
+              "text": "「嚴格責任原則」是什麼意思？",
+              "focused": true,
+              "top": 107,
+              "bottom": 135,
+              "scrollY": 74,
+              "height": 900
+            }
+          },
+          {
+            "index": 6,
+            "question": "吸入式 Salbutamol（氣喘用藥）算不算運動禁藥？",
+            "chosenOption": 0,
+            "correct": false,
+            "heading": {
+              "text": "吸入式 Salbutamol（氣喘用藥）算不算運動禁藥？",
+              "focused": true,
+              "top": 107,
+              "bottom": 135,
+              "scrollY": 74,
+              "height": 900
+            }
+          },
+          {
+            "index": 7,
+            "question": "115 年台灣全中運/全大運報名是否仍需通過運動禁藥線上測驗？",
+            "chosenOption": 0,
+            "correct": false,
+            "heading": {
+              "text": "115 年台灣全中運/全大運報名是否仍需通過運動禁藥線上測驗？",
+              "focused": true,
+              "top": 107,
+              "bottom": 135,
+              "scrollY": 74,
+              "height": 900
+            }
+          },
+          {
+            "index": 8,
+            "question": "高壓氧治療算不算運動禁藥？",
+            "chosenOption": 0,
+            "correct": false,
+            "heading": {
+              "text": "高壓氧治療算不算運動禁藥？",
+              "focused": true,
+              "top": 107,
+              "bottom": 135,
+              "scrollY": 74,
+              "height": 900
+            }
+          },
+          {
+            "index": 9,
+            "question": "靜脈雷射 ILIB 算不算運動禁藥？",
+            "chosenOption": 0,
+            "correct": true,
+            "heading": {
+              "text": "靜脈雷射 ILIB 算不算運動禁藥？",
+              "focused": true,
+              "top": 107,
+              "bottom": 135,
+              "scrollY": 74,
+              "height": 900
+            }
+          },
+          {
+            "index": 10,
+            "question": "比賽前吃了含 pseudoephedrine 的感冒藥，會怎樣？",
+            "chosenOption": 0,
+            "correct": false,
+            "heading": {
+              "text": "比賽前吃了含 pseudoephedrine 的感冒藥，會怎樣？",
+              "focused": true,
+              "top": 107,
+              "bottom": 135,
+              "scrollY": 74,
+              "height": 900
+            }
+          }
+        ],
+        "finalScore": 1,
+        "restartScore": 0,
+        "scrollVerification": {
+          "viewport": "desktop",
+          "lastQuestion": "比賽前吃了含 pseudoephedrine 的感冒藥，會怎樣？",
+          "before": {
+            "scrollY": 74,
+            "height": 900
+          },
+          "after": {
+            "scrollY": 48,
+            "height": 900,
+            "focused": true,
+            "headerBottom": 65,
+            "headingTop": 96,
+            "scoreTop": 144,
+            "scoreBottom": 234,
+            "score": "1/10"
+          },
+          "screenshot": "/Users/ethanwu/Documents/Vibe coding/claude/Antidopingplatform/.cache/site-audit/screenshots/desktop-quiz-result-viewport.png",
+          "scoreFullyVisible": true
+        },
+        "menuHeading": {
+          "text": "互動測驗",
+          "focused": true,
+          "top": 96,
+          "bottom": 132,
+          "scrollY": 32,
+          "height": 900
+        },
+        "restartHeading": {
+          "text": "一般初次故意違反「存在、使用或持有禁用物質／方法」規則，未適用特別或加減條款時，禁賽基準是多久？",
+          "focused": true,
+          "top": 99,
+          "bottom": 155,
+          "scrollY": 74,
+          "height": 900
+        }
+      },
+      "layout": {
+        "width": 1280,
+        "scrollWidth": 1280,
+        "overflow": 0,
+        "offenders": []
+      }
+    },
+    {
+      "name": "testing-four-steps",
+      "viewport": "desktop",
+      "ok": true,
+      "evidence": {
+        "seen": [
+          "通知",
+          "報到",
+          "採樣",
+          "完成表單"
+        ],
+        "boundaryButtonsDisabled": true,
+        "directStepNavigation": true
+      },
+      "layout": {
+        "width": 1280,
+        "scrollWidth": 1280,
+        "overflow": 0,
+        "offenders": []
+      }
+    },
+    {
+      "name": "education-tabs-and-resource-anchors",
+      "viewport": "desktop",
+      "ok": true,
+      "evidence": {
+        "panels": [
+          {
+            "label": "禁藥知識",
+            "textLength": 2032
+          },
+          {
+            "label": "常見誤區",
+            "textLength": 503
+          },
+          {
+            "label": "違規類型",
+            "textLength": 2287
+          },
+          {
+            "label": "補充劑安全",
+            "textLength": 605
+          },
+          {
+            "label": "案例學習",
+            "textLength": 1706
+          },
+          {
+            "label": "各科專區",
+            "textLength": 3485
+          }
+        ],
+        "resourceLinks": [
+          {
+            "text": "CTADA 藥物查詢系統查詢藥物是否含禁用成分（24 小時服務）",
+            "href": "https://www.check-antidoping.org.tw/",
+            "target": "_blank",
+            "rel": "noopener noreferrer"
+          },
+          {
+            "text": "Global DRO 全球藥物查詢查詢藥品成分在各運動的禁用狀態（美加英日等）",
+            "href": "https://www.globaldro.com/",
+            "target": "_blank",
+            "rel": "noopener noreferrer"
+          },
+          {
+            "text": "WADA 禁用清單 2026（中英對照）官方完整禁用物質與方法清單",
+            "href": "https://www.wada-ama.org/en/prohibited-list",
+            "target": "_blank",
+            "rel": "noopener noreferrer"
+          },
+          {
+            "text": "CTADA 線上學習平台全中運/全大運選手必修課程",
+            "href": "https://elearning.ctada.org.tw/",
+            "target": "_blank",
+            "rel": "noopener noreferrer"
+          },
+          {
+            "text": "WADA ADEL 學習平台國際反禁藥教育課程（多語言）",
+            "href": "https://adel.wada-ama.org/learn",
+            "target": "_blank",
+            "rel": "noopener noreferrer"
+          },
+          {
+            "text": "CTADA 官方網站最新公告、禁用清單、藥檢資訊",
+            "href": "https://www.antidoping.org.tw/",
+            "target": "_blank",
+            "rel": "noopener noreferrer"
+          },
+          {
+            "text": "CTADA Facebook追蹤最新反禁藥教育資訊",
+            "href": "https://www.facebook.com/CTADA.org.tw/",
+            "target": "_blank",
+            "rel": "noopener noreferrer"
+          },
+          {
+            "text": "CTADA Instagram反禁藥教育圖文",
+            "href": "https://www.instagram.com/ctada.org.tw/",
+            "target": "_blank",
+            "rel": "noopener noreferrer"
+          },
+          {
+            "text": "WADA Play True Day每年 4/11 全球反禁藥宣導日",
+            "href": "https://www.wada-ama.org/en/play-true-day",
+            "target": "_blank",
+            "rel": "noopener noreferrer"
+          },
+          {
+            "text": "WADA 世界運動禁藥管制組織全球反禁藥規範制定機構",
+            "href": "https://www.wada-ama.org/",
+            "target": "_blank",
+            "rel": "noopener noreferrer"
+          },
+          {
+            "text": "ITA 國際檢測機構獨立藥檢執行機構",
+            "href": "https://ita.sport/",
+            "target": "_blank",
+            "rel": "noopener noreferrer"
+          }
+        ],
+        "externalAvailabilityChecked": false
+      },
+      "layout": {
+        "width": 1280,
+        "scrollWidth": 1280,
+        "overflow": 0,
+        "offenders": []
+      }
+    },
+    {
+      "name": "navigation-keyboard-and-mobile-menu",
+      "viewport": "desktop",
+      "ok": true,
+      "evidence": {
+        "escapeRestoresTrigger": true
+      },
+      "layout": {
+        "width": 1280,
+        "scrollWidth": 1280,
+        "overflow": 0,
+        "offenders": []
+      }
+    },
+    {
+      "name": "statistics-chart-values",
+      "viewport": "mobile",
+      "ok": true,
+      "evidence": {
+        "charts": [
+          {
+            "title": "主要公開來源",
+            "note": "依各案主要來源分組，每件只計一次；不等同裁決機構或所屬國家。",
+            "rows": [
+              {
+                "label": "USADA",
+                "count": 267
+              },
+              {
+                "label": "AIU",
+                "count": 123
+              },
+              {
+                "label": "ITA",
+                "count": 108
+              },
+              {
+                "label": "其他來源",
+                "count": 14
+              },
+              {
+                "label": "ITIA",
+                "count": 3
+              },
+              {
+                "label": "CAS",
+                "count": 2
+              }
+            ],
+            "ariaLabel": "主要公開來源：USADA 267 件、AIU 123 件、ITA 108 件、其他來源 14 件、ITIA 3 件、CAS 2 件",
+            "open": true,
+            "total": 517
+          },
+          {
+            "title": "運動項目分布（前十項）",
+            "note": "圖中涵蓋 413／517 件，其餘項目未顯示；不可解讀為項目盛行率。",
+            "rows": [
+              {
+                "label": "田徑",
+                "count": 168
+              },
+              {
+                "label": "舉重",
+                "count": 108
+              },
+              {
+                "label": "自行車",
+                "count": 73
+              },
+              {
+                "label": "鐵人三項",
+                "count": 16
+              },
+              {
+                "label": "跆拳道",
+                "count": 9
+              },
+              {
+                "label": "游泳",
+                "count": 9
+              },
+              {
+                "label": "棒球",
+                "count": 8
+              },
+              {
+                "label": "角力",
+                "count": 8
+              },
+              {
+                "label": "拳擊",
+                "count": 7
+              },
+              {
+                "label": "綜合格鬥",
+                "count": 7
+              }
+            ],
+            "ariaLabel": "運動項目分布（前十項）：田徑 168 件、舉重 108 件、自行車 73 件、鐵人三項 16 件、跆拳道 9 件、游泳 9 件、棒球 8 件、角力 8 件、拳擊 7 件、綜合格鬥 7 件",
+            "open": true,
+            "total": 413
+          },
+          {
+            "title": "物質／規則標籤分布",
+            "note": "分母為全部 517 件。前九種標籤以外合併為「其他標籤」；混合分類及非物質違規保留原標示，不當成單一 WADA 物質計數。",
+            "rows": [
+              {
+                "label": "年度禁用清單分類未另核對",
+                "count": 190
+              },
+              {
+                "label": "S1 合成代謝劑",
+                "count": 80
+              },
+              {
+                "label": "非物質違規",
+                "count": 28
+              },
+              {
+                "label": "ADRV 2.4：行蹤義務",
+                "count": 22
+              },
+              {
+                "label": "S6 興奮劑",
+                "count": 20
+              },
+              {
+                "label": "S8 大麻素",
+                "count": 19
+              },
+              {
+                "label": "S2 肽類激素相關物質",
+                "count": 15
+              },
+              {
+                "label": "S5 利尿劑與掩蔽劑",
+                "count": 14
+              },
+              {
+                "label": "S4 激素與代謝調節劑",
+                "count": 11
+              },
+              {
+                "label": "其他標籤",
+                "count": 118
+              }
+            ],
+            "ariaLabel": "物質／規則標籤分布：年度禁用清單分類未另核對 190 件、S1 合成代謝劑 80 件、非物質違規 28 件、ADRV 2.4：行蹤義務 22 件、S6 興奮劑 20 件、S8 大麻素 19 件、S2 肽類激素相關物質 15 件、S5 利尿劑與掩蔽劑 14 件、S4 激素與代謝調節劑 11 件、其他標籤 118 件",
+            "open": true,
+            "total": 517
+          },
+          {
+            "title": "禁賽期限分布",
+            "note": "依個案公開處分文字分組，共 517 件。「無禁賽」也可能包含公開警告或違規成立但免禁賽，不能視為全部無違規。",
+            "rows": [
+              {
+                "label": "4年以上",
+                "count": 193
+              },
+              {
+                "label": "1-2年",
+                "count": 119
+              },
+              {
+                "label": "2-4年",
+                "count": 87
+              },
+              {
+                "label": "1-6個月",
+                "count": 44
+              },
+              {
+                "label": "無禁賽／處分撤銷",
+                "count": 34
+              },
+              {
+                "label": "7-12個月",
+                "count": 33
+              },
+              {
+                "label": "終身／無限期",
+                "count": 5
+              },
+              {
+                "label": "暫時禁賽（非最終處分）",
+                "count": 2
+              }
+            ],
+            "ariaLabel": "禁賽期限分布：4年以上 193 件、1-2年 119 件、2-4年 87 件、1-6個月 44 件、無禁賽／處分撤銷 34 件、7-12個月 33 件、終身／無限期 5 件、暫時禁賽（非最終處分） 2 件",
+            "open": true,
+            "total": 517
+          },
+          {
+            "title": "收錄案例年份分布",
+            "note": "年份依個案事件年或裁決公布年，且收錄並不完整；不得解讀為每年違規發生率或上升下降趨勢。",
+            "rows": [
+              {
+                "label": "2000",
+                "count": 1
+              },
+              {
+                "label": "2002",
+                "count": 1
+              },
+              {
+                "label": "2010",
+                "count": 3
+              },
+              {
+                "label": "2011",
+                "count": 1
+              },
+              {
+                "label": "2012",
+                "count": 6
+              },
+              {
+                "label": "2013",
+                "count": 8
+              },
+              {
+                "label": "2014",
+                "count": 9
+              },
+              {
+                "label": "2015",
+                "count": 19
+              },
+              {
+                "label": "2016",
+                "count": 41
+              },
+              {
+                "label": "2017",
+                "count": 42
+              },
+              {
+                "label": "2018",
+                "count": 41
+              },
+              {
+                "label": "2019",
+                "count": 29
+              },
+              {
+                "label": "2020",
+                "count": 17
+              },
+              {
+                "label": "2021",
+                "count": 32
+              },
+              {
+                "label": "2022",
+                "count": 44
+              },
+              {
+                "label": "2023",
+                "count": 57
+              },
+              {
+                "label": "2024",
+                "count": 93
+              },
+              {
+                "label": "2025",
+                "count": 67
+              },
+              {
+                "label": "2026",
+                "count": 6
+              }
+            ],
+            "ariaLabel": "收錄案例年份分布：2000 1 件、2002 1 件、2010 3 件、2011 1 件、2012 6 件、2013 8 件、2014 9 件、2015 19 件、2016 41 件、2017 42 件、2018 41 件、2019 29 件、2020 17 件、2021 32 件、2022 44 件、2023 57 件、2024 93 件、2025 67 件、2026 6 件",
+            "open": true,
+            "total": 517
+          }
+        ],
+        "outcomes": [
+          {
+            "label": "成績取消",
+            "total": 517
+          },
+          {
+            "label": "獎牌剝奪",
+            "total": 517
+          }
+        ],
+        "canvasCount": 5
+      },
+      "layout": {
+        "width": 390,
+        "scrollWidth": 390,
+        "overflow": 0,
+        "offenders": []
+      }
+    },
+    {
+      "name": "prohibited-list-filter-search-accordion",
+      "viewport": "mobile",
+      "ok": true,
+      "evidence": {
+        "counts": {
+          "全部": 14,
+          "隨時禁用": 6,
+          "僅賽內禁用": 4,
+          "特定運動禁用": 1,
+          "禁用方法": 3
+        },
+        "searchS3": 1,
+        "emptyState": true,
+        "accordion": true
+      },
+      "layout": {
+        "width": 390,
+        "scrollWidth": 390,
+        "overflow": 0,
+        "offenders": []
+      }
+    },
+    {
+      "name": "quiz-ten-questions-result-restart",
+      "viewport": "mobile",
+      "ok": true,
+      "evidence": {
+        "questions": [
+          {
+            "index": 1,
+            "question": "台灣的國家運動禁藥防制機構是？",
+            "chosenOption": 0,
+            "correct": false,
+            "heading": {
+              "text": "台灣的國家運動禁藥防制機構是？",
+              "focused": true,
+              "top": 96,
+              "bottom": 125.25,
+              "scrollY": 69,
+              "height": 844
+            }
+          },
+          {
+            "index": 2,
+            "question": "未成年運動員接受藥檢時，以下哪項是正確的？",
+            "chosenOption": 0,
+            "correct": false,
+            "heading": {
+              "text": "未成年運動員接受藥檢時，以下哪項是正確的？",
+              "focused": true,
+              "top": 96,
+              "bottom": 154.5,
+              "scrollY": 77,
+              "height": 844
+            }
+          },
+          {
+            "index": 3,
+            "question": "低氧艙訓練算不算運動禁藥？",
+            "chosenOption": 0,
+            "correct": false,
+            "heading": {
+              "text": "低氧艙訓練算不算運動禁藥？",
+              "focused": true,
+              "top": 96,
+              "bottom": 125.25,
+              "scrollY": 77,
+              "height": 844
+            }
+          },
+          {
+            "index": 4,
+            "question": "一般初次故意違反「存在、使用或持有禁用物質／方法」規則，未適用特別或加減條款時，禁賽基準是多久？",
+            "chosenOption": 0,
+            "correct": false,
+            "heading": {
+              "text": "一般初次故意違反「存在、使用或持有禁用物質／方法」規則，未適用特別或加減條款時，禁賽基準是多久？",
+              "focused": true,
+              "top": 96,
+              "bottom": 183.75,
+              "scrollY": 77,
+              "height": 844
+            }
+          },
+          {
+            "index": 5,
+            "question": "「嚴格責任原則」是什麼意思？",
+            "chosenOption": 0,
+            "correct": false,
+            "heading": {
+              "text": "「嚴格責任原則」是什麼意思？",
+              "focused": true,
+              "top": 96,
+              "bottom": 125.25,
+              "scrollY": 77,
+              "height": 844
+            }
+          },
+          {
+            "index": 6,
+            "question": "吸入式 Salbutamol（氣喘用藥）算不算運動禁藥？",
+            "chosenOption": 0,
+            "correct": false,
+            "heading": {
+              "text": "吸入式 Salbutamol（氣喘用藥）算不算運動禁藥？",
+              "focused": true,
+              "top": 96,
+              "bottom": 154.5,
+              "scrollY": 77,
+              "height": 844
+            }
+          },
+          {
+            "index": 7,
+            "question": "115 年台灣全中運/全大運報名是否仍需通過運動禁藥線上測驗？",
+            "chosenOption": 0,
+            "correct": false,
+            "heading": {
+              "text": "115 年台灣全中運/全大運報名是否仍需通過運動禁藥線上測驗？",
+              "focused": true,
+              "top": 96,
+              "bottom": 154.5,
+              "scrollY": 77,
+              "height": 844
+            }
+          },
+          {
+            "index": 8,
+            "question": "高壓氧治療算不算運動禁藥？",
+            "chosenOption": 0,
+            "correct": false,
+            "heading": {
+              "text": "高壓氧治療算不算運動禁藥？",
+              "focused": true,
+              "top": 96,
+              "bottom": 125.25,
+              "scrollY": 77,
+              "height": 844
+            }
+          },
+          {
+            "index": 9,
+            "question": "靜脈雷射 ILIB 算不算運動禁藥？",
+            "chosenOption": 0,
+            "correct": true,
+            "heading": {
+              "text": "靜脈雷射 ILIB 算不算運動禁藥？",
+              "focused": true,
+              "top": 96,
+              "bottom": 125.25,
+              "scrollY": 77,
+              "height": 844
+            }
+          },
+          {
+            "index": 10,
+            "question": "比賽前吃了含 pseudoephedrine 的感冒藥，會怎樣？",
+            "chosenOption": 0,
+            "correct": false,
+            "heading": {
+              "text": "比賽前吃了含 pseudoephedrine 的感冒藥，會怎樣？",
+              "focused": true,
+              "top": 96,
+              "bottom": 154.5,
+              "scrollY": 77,
+              "height": 844
+            }
+          }
+        ],
+        "finalScore": 1,
+        "restartScore": 0,
+        "scrollVerification": {
+          "viewport": "mobile",
+          "lastQuestion": "比賽前吃了含 pseudoephedrine 的感冒藥，會怎樣？",
+          "before": {
+            "scrollY": 77,
+            "height": 844
+          },
+          "after": {
+            "scrollY": 48,
+            "height": 844,
+            "focused": true,
+            "headerBottom": 65,
+            "headingTop": 96,
+            "scoreTop": 144,
+            "scoreBottom": 218,
+            "score": "1/10"
+          },
+          "screenshot": "/Users/ethanwu/Documents/Vibe coding/claude/Antidopingplatform/.cache/site-audit/screenshots/mobile-quiz-result-viewport.png",
+          "scoreFullyVisible": true
+        },
+        "menuHeading": {
+          "text": "互動測驗",
+          "focused": true,
+          "top": 96,
+          "bottom": 128,
+          "scrollY": 32,
+          "height": 844
+        },
+        "restartHeading": {
+          "text": "一般初次故意違反「存在、使用或持有禁用物質／方法」規則，未適用特別或加減條款時，禁賽基準是多久？",
+          "focused": true,
+          "top": 96,
+          "bottom": 183.75,
+          "scrollY": 69,
+          "height": 844
+        }
+      },
+      "layout": {
+        "width": 390,
+        "scrollWidth": 390,
+        "overflow": 0,
+        "offenders": []
+      }
+    },
+    {
+      "name": "testing-four-steps",
+      "viewport": "mobile",
+      "ok": true,
+      "evidence": {
+        "seen": [
+          "通知",
+          "報到",
+          "採樣",
+          "完成表單"
+        ],
+        "boundaryButtonsDisabled": true,
+        "directStepNavigation": true
+      },
+      "layout": {
+        "width": 390,
+        "scrollWidth": 390,
+        "overflow": 0,
+        "offenders": []
+      }
+    },
+    {
+      "name": "education-tabs-and-resource-anchors",
+      "viewport": "mobile",
+      "ok": true,
+      "evidence": {
+        "panels": [
+          {
+            "label": "禁藥知識",
+            "textLength": 2032
+          },
+          {
+            "label": "常見誤區",
+            "textLength": 503
+          },
+          {
+            "label": "違規類型",
+            "textLength": 2287
+          },
+          {
+            "label": "補充劑安全",
+            "textLength": 605
+          },
+          {
+            "label": "案例學習",
+            "textLength": 1706
+          },
+          {
+            "label": "各科專區",
+            "textLength": 3485
+          }
+        ],
+        "resourceLinks": [
+          {
+            "text": "CTADA 藥物查詢系統查詢藥物是否含禁用成分（24 小時服務）",
+            "href": "https://www.check-antidoping.org.tw/",
+            "target": "_blank",
+            "rel": "noopener noreferrer"
+          },
+          {
+            "text": "Global DRO 全球藥物查詢查詢藥品成分在各運動的禁用狀態（美加英日等）",
+            "href": "https://www.globaldro.com/",
+            "target": "_blank",
+            "rel": "noopener noreferrer"
+          },
+          {
+            "text": "WADA 禁用清單 2026（中英對照）官方完整禁用物質與方法清單",
+            "href": "https://www.wada-ama.org/en/prohibited-list",
+            "target": "_blank",
+            "rel": "noopener noreferrer"
+          },
+          {
+            "text": "CTADA 線上學習平台全中運/全大運選手必修課程",
+            "href": "https://elearning.ctada.org.tw/",
+            "target": "_blank",
+            "rel": "noopener noreferrer"
+          },
+          {
+            "text": "WADA ADEL 學習平台國際反禁藥教育課程（多語言）",
+            "href": "https://adel.wada-ama.org/learn",
+            "target": "_blank",
+            "rel": "noopener noreferrer"
+          },
+          {
+            "text": "CTADA 官方網站最新公告、禁用清單、藥檢資訊",
+            "href": "https://www.antidoping.org.tw/",
+            "target": "_blank",
+            "rel": "noopener noreferrer"
+          },
+          {
+            "text": "CTADA Facebook追蹤最新反禁藥教育資訊",
+            "href": "https://www.facebook.com/CTADA.org.tw/",
+            "target": "_blank",
+            "rel": "noopener noreferrer"
+          },
+          {
+            "text": "CTADA Instagram反禁藥教育圖文",
+            "href": "https://www.instagram.com/ctada.org.tw/",
+            "target": "_blank",
+            "rel": "noopener noreferrer"
+          },
+          {
+            "text": "WADA Play True Day每年 4/11 全球反禁藥宣導日",
+            "href": "https://www.wada-ama.org/en/play-true-day",
+            "target": "_blank",
+            "rel": "noopener noreferrer"
+          },
+          {
+            "text": "WADA 世界運動禁藥管制組織全球反禁藥規範制定機構",
+            "href": "https://www.wada-ama.org/",
+            "target": "_blank",
+            "rel": "noopener noreferrer"
+          },
+          {
+            "text": "ITA 國際檢測機構獨立藥檢執行機構",
+            "href": "https://ita.sport/",
+            "target": "_blank",
+            "rel": "noopener noreferrer"
+          }
+        ],
+        "externalAvailabilityChecked": false
+      },
+      "layout": {
+        "width": 390,
+        "scrollWidth": 390,
+        "overflow": 0,
+        "offenders": []
+      }
+    },
+    {
+      "name": "navigation-keyboard-and-mobile-menu",
+      "viewport": "mobile",
+      "ok": true,
+      "evidence": {
+        "mobileMenuRoute": "/resources",
+        "menuClosesAfterNavigate": true
+      },
+      "layout": {
+        "width": 390,
+        "scrollWidth": 390,
+        "overflow": 0,
+        "offenders": []
+      }
+    }
+  ],
+  "findings": [],
+  "interceptedFeedback": [],
+  "pageErrors": [],
+  "consoleErrors": [],
+  "limitations": [
+    "No real feedback was submitted. All browser /api/feedback requests are intercepted.",
+    "External resource URLs are checked for usable HTTPS anchors and safe new-tab attributes; their remote availability/content is not revalidated.",
+    "Medical/regulatory facts are outside this interaction audit.",
+    "This report describes the served bundle at run time; rerun after rebuilding content changes."
+  ],
+  "version": {
+    "sha": "60f7073a9deb98af0b117735717250e638bee9ba",
+    "builtAt": "2026-09-23T08:59:04.082Z"
+  },
+  "caseCount": 517,
+  "finishedAt": "2026-09-23T09:00:13.422Z",
+  "summary": {
+    "routes": 26,
+    "routePass": 26,
+    "interactions": 12,
+    "interactionPass": 12,
+    "findings": 0,
+    "pageErrors": 0,
+    "interceptedFeedback": 0
+  }
+}

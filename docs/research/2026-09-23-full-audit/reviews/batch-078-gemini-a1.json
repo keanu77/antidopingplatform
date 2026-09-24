@@ -1,0 +1,510 @@
+{
+  "cases": [
+    {
+      "id": "usada-a504ae6790e5",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-78f8b7a3671a5599",
+        "registry-b4357dc3d3ae8555"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-78f8b7a3671a5599",
+          "startLine": 7,
+          "endLine": 9,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "Kaley Anderson 於 2019-05-12 全美舉重錦標賽檢體檢出 LGD-4033 代謝物，接受自採樣日起四年禁賽並取消成績"
+        },
+        {
+          "documentId": "registry-b4357dc3d3ae8555",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "dates"
+          ],
+          "note": "USADA 名冊記錄 Kaley Anderson 舉重項目四年禁賽與成績取消，發布日期 2019-11-20"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "nationality",
+          "explanation": "官方公告僅於標題提及「U.S. Weightlifting Athlete」並註記居住於佛羅里達州，名冊亦無國籍欄位。依審查準則，發布機構管轄權、居住地或新聞標題不足以確立選手之國籍或體育代表權，故判定證據不足。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-78f8b7a3671a5599",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "補充分配國籍或代表隊體育身分之明確官方佐證，或將國籍欄位標註為未定。"
+        }
+      ]
+    },
+    {
+      "id": "usada-671281fb69ce",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-bbeb4bc510bafbe3",
+        "registry-143ba018053afb9b"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-bbeb4bc510bafbe3",
+          "startLine": 7,
+          "endLine": 11,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "Ty Kurth 於 2018-12-02 越野賽檢測睪固酮陽性，雖屬醫師處方但無有效 TUE，接受自採樣日起兩年禁賽並取消成績"
+        },
+        {
+          "documentId": "registry-143ba018053afb9b",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "dates"
+          ],
+          "note": "USADA 名冊登記 Ty Kurth 自行車項目兩年禁賽與成績取消，發布日期 2019-10-17"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "nationality",
+          "explanation": "官方公告僅於標題提及「U.S. Cycling Athlete」並提及居住於伊利諾州，名冊未記載國籍。依審查標準，管轄機構、居住地及新聞標題不足以認定國籍或體育代表權，故判定證據不足。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-bbeb4bc510bafbe3",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "補充選手代表隊資格或正式國籍之官方佐證，或將國籍欄位標註為未定。"
+        }
+      ]
+    },
+    {
+      "id": "usada-ceba58fad888",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-f5821bed19bbecce",
+        "registry-5dca9feec991c7ce"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-f5821bed19bbecce",
+          "startLine": 7,
+          "endLine": 9,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "Natalie Franklin 於 2019-04-07 賽外檢體檢出 ostarine 與 LGD-4033 及其代謝物，自 2019-06-04 暫時停賽日起處四年禁賽並取消成績"
+        },
+        {
+          "documentId": "registry-5dca9feec991c7ce",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "dates"
+          ],
+          "note": "USADA 名冊記錄 Natalie Franklin 舉重項目四年禁賽與成績取消，發布日期 2019-10-10"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "nationality",
+          "explanation": "官方公告僅於標題使用「U.S. Weightlifting Athlete」並註記居住於印第安納州，內文與名冊無明確國籍宣告。依審查原則，機構管轄、居住地與標題不足以確立國籍，判定證據不足。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-f5821bed19bbecce",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "補充代表權或國籍之官方證明文件，或將國籍欄位調整為未定。"
+        }
+      ]
+    },
+    {
+      "id": "usada-b54bb0c30eb2",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-d0558042b717c9f9",
+        "registry-ba8da8b7cdde6848"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-d0558042b717c9f9",
+          "startLine": 7,
+          "endLine": 9,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "Kyler Allison 於 2019-07-25 賽外檢測拒絕提供檢體，接受自 2019-08-15 起四年禁賽並取消成績"
+        },
+        {
+          "documentId": "registry-ba8da8b7cdde6848",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "dates"
+          ],
+          "note": "USADA 名冊記錄 Kyler Allison 拒絕採樣處四年禁賽，並註記因退休停止計時（tolled due to retirement）"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "nationality",
+          "explanation": "官方公告僅於標題出現「U.S. Bobsled Athlete」且載明德州居住地，名冊未登載國籍。依規範，單憑標題、居住地或機構管轄不能推定國籍或體育代表權，故屬證據不足。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-d0558042b717c9f9",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "提供國籍或所屬國家代表隊之官方證明，或將國籍欄位標註為未定。"
+        }
+      ]
+    },
+    {
+      "id": "usada-8644c327e2ca",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-eafae9378d5f213b",
+        "registry-792dac27105de0cd"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-eafae9378d5f213b",
+          "startLine": 7,
+          "endLine": 9,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "Todd Davis 於 2019-07-13 大師田徑賽拒絕提供檢體，受到自 2019-10-02 起四年禁賽並取消成績"
+        },
+        {
+          "documentId": "registry-792dac27105de0cd",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "dates"
+          ],
+          "note": "USADA 名冊登記 Todd Davis 田徑項目非分析性違規（拒絕採樣）處四年禁賽，發布日期 2019-10-04"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "nationality",
+          "explanation": "官方公告僅在標題提及「U.S. Track and Field Athlete」並列出愛荷華州居住地，名冊未記載國籍。依審查準則，新聞標題、居住地及管轄權不足以認定國籍或體育代表權，故判定證據不足。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-eafae9378d5f213b",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "補充分配國籍或體育代表權之直接官方證據，或將國籍欄位標記為未定。"
+        }
+      ]
+    },
+    {
+      "id": "usada-5a1c3cf5b36f",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-5a2a53f05ef1eb1f",
+        "registry-3149c7b9fc8b88b3"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-5a2a53f05ef1eb1f",
+          "startLine": 7,
+          "endLine": 9,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "Josue Cano 於 2019-07-18 賽外檢測拒絕提供檢體，處自 2019-09-26 起四年禁賽並取消成績"
+        },
+        {
+          "documentId": "registry-3149c7b9fc8b88b3",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "dates"
+          ],
+          "note": "USADA 名冊記載 Josue Cano 舉重非分析性違規處四年禁賽，並附註退休停止計時"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "nationality",
+          "explanation": "官方公告僅於標題使用「U.S. Weightlifting Athlete」並註記加州居住地，名冊無國籍欄位。依規定，僅有發布機構、標題及居住地不足以確立國籍或體育代表身分，故判定證據不足。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-5a2a53f05ef1eb1f",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "補充選手代表隊資格或正式國籍佐證，或將國籍欄位標註為未定。"
+        }
+      ]
+    },
+    {
+      "id": "usada-b91273ba81fa",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-57168f0df2e7281d",
+        "registry-42cbed551e0ea59a"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-57168f0df2e7281d",
+          "startLine": 7,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "Angela Carlberg 於 2019-05-11 全美舉重錦標賽檢出 vilanterol，因醫師指示治療氣喘且配合調查，接受公開警告並取消當日成績"
+        },
+        {
+          "documentId": "registry-42cbed551e0ea59a",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "dates"
+          ],
+          "note": "USADA 名冊登記 Angela Carlberg 舉重項目處公開警告，發布日期 2019-09-27"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "nationality",
+          "explanation": "官方文件僅於標題出現「U.S. Weightlifting Athlete」並標示居住於馬里蘭州，名冊無國籍資訊。依審核標準，機構管轄權、居住地或新聞標題無法單獨確立國籍或體育代表權，故判定證據不足。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-57168f0df2e7281d",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "補充體育代表權或正式國籍之官方佐證，或將國籍欄位調整為未定。"
+        }
+      ]
+    },
+    {
+      "id": "usada-b714a3c460a7",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-930df69127cab085",
+        "registry-27a9e0a3528ef53d"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-930df69127cab085",
+          "startLine": 7,
+          "endLine": 9,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "Lauren Goss 於 2019-06-09 賽事檢測 Carboxy-THC 超標，自採樣日起接受六個月禁賽並取消成績"
+        },
+        {
+          "documentId": "registry-27a9e0a3528ef53d",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "dates"
+          ],
+          "note": "USADA 名冊記錄 Lauren Goss 鐵人三項項目因大麻素處六個月禁賽與取消成績，發布日期 2019-09-05"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "nationality",
+          "explanation": "官方公告僅於標題載明「U.S. Triathlon Athlete」並提及居住於科羅拉多州，名冊未登載國籍。依審查準則，新聞標題、居住地或發布機構管轄權不足以確認國籍或體育代表權，故判定證據不足。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-930df69127cab085",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "補充分配國籍或國家體育代表權之直接佐證，或將國籍標註為未定。"
+        }
+      ]
+    }
+  ]
+}

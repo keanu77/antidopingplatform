@@ -1,0 +1,186 @@
+{
+  "cases": [
+    {
+      "id": "aiu-1da4c803b608",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-33adcdf82d47c6ce",
+        "registry-86d831322a144216"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-33adcdf82d47c6ce",
+          "startLine": 31,
+          "endLine": 37,
+          "supports": [
+            "identity",
+            "country",
+            "event"
+          ],
+          "note": "決定確認 Gitahi 為肯亞中長跑選手，2024 年 4 月 13 日於波士頓 B.A.A. 5K 採集賽內尿樣。"
+        },
+        {
+          "documentId": "doc-33adcdf82d47c6ce",
+          "startLine": 55,
+          "endLine": 67,
+          "supports": [
+            "substance",
+            "sanction"
+          ],
+          "note": "A 樣本檢出 EPO；決定記載其屬 2024 禁用清單 S2.1、全時禁用，且無有效或追溯 TUE。"
+        },
+        {
+          "documentId": "doc-33adcdf82d47c6ce",
+          "startLine": 385,
+          "endLine": 391,
+          "supports": [
+            "substance",
+            "education"
+          ],
+          "note": "庭認定違反 ADR 2.1 與 2.2，並認為未證明違規非故意。"
+        },
+        {
+          "documentId": "doc-33adcdf82d47c6ce",
+          "startLine": 476,
+          "endLine": 489,
+          "supports": [
+            "sanction",
+            "education"
+          ],
+          "note": "庭考量表格申報 EPO 及配合調查，未將四年禁賽再加重；暫停期間可折抵。"
+        },
+        {
+          "documentId": "doc-33adcdf82d47c6ce",
+          "startLine": 509,
+          "endLine": 518,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "決定日開始四年禁賽，折抵 2024-08-06 至決定日的暫停；取消 2023-07-01 至 2024-08-06 成績及相關後果，不處罰款。"
+        },
+        {
+          "documentId": "registry-86d831322a144216",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "country",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "AIU 名冊列出 Gitahi、KEN、四年處分自 2024-08-06 起及自 2023-07-01 起取消成績。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "aiu-89efc48649bb",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-c78fe76370466770",
+        "registry-6ffc50a839f2b650"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-c78fe76370466770",
+          "startLine": 1,
+          "endLine": 12,
+          "supports": [
+            "identity",
+            "country",
+            "event"
+          ],
+          "note": "AIU 決定確認 Kiplagat 為肯亞長跑選手。"
+        },
+        {
+          "documentId": "doc-c78fe76370466770",
+          "startLine": 55,
+          "endLine": 71,
+          "supports": [
+            "event",
+            "substance"
+          ],
+          "note": "2025-07-29 在肯亞 Kaptagat 提供賽外尿樣；檢出 EPO 與 CERA，且無已核發或將核發的 TUE。"
+        },
+        {
+          "documentId": "doc-c78fe76370466770",
+          "startLine": 82,
+          "endLine": 99,
+          "supports": [
+            "substance",
+            "education"
+          ],
+          "note": "選手承認使用兩種物質，並稱未知道其禁用。"
+        },
+        {
+          "documentId": "doc-c78fe76370466770",
+          "startLine": 145,
+          "endLine": 153,
+          "supports": [
+            "substance",
+            "sanction"
+          ],
+          "note": "決定依 2025 禁用清單將 EPO、CERA 列於 S2、非特定物質且全時禁用；基礎禁賽為四年。"
+        },
+        {
+          "documentId": "doc-c78fe76370466770",
+          "startLine": 194,
+          "endLine": 205,
+          "supports": [
+            "sanction",
+            "education"
+          ],
+          "note": "使用多種禁用物質構成加重情節，處分增至六年。"
+        },
+        {
+          "documentId": "doc-c78fe76370466770",
+          "startLine": 226,
+          "endLine": 245,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "及早承認取得一年減期，最終五年自 2025-09-11 起，並取消 2025-07-29 起成績及相關後果。"
+        },
+        {
+          "documentId": "registry-6ffc50a839f2b650",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "country",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "AIU 名冊列 Kiplagat、KEN、五年自 2025-09-11 起及自 2025-07-29 起取消成績。"
+        }
+      ],
+      "findings": []
+    }
+  ]
+}

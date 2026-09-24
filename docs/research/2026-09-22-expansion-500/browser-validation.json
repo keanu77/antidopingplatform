@@ -1,0 +1,20 @@
+{
+  "checkedAt": "2026-09-23T04:33:09.543Z",
+  "caseCount": 517,
+  "environment": "local built frontend with real Pages API bundle; external requests blocked",
+  "checks": [
+    "list shows 517",
+    "search returns the final-batch case",
+    "detail usada-d8d5e2c3a318 / source link",
+    "detail 48 / source link",
+    "detail sia-peter-bol-2023 / source link",
+    "detail 135 / source link",
+    "detail usada-8813abb5dfc8 / source link",
+    "390px /cases fits viewport",
+    "390px /cases/usada-d8d5e2c3a318 fits viewport",
+    "390px /statistics fits viewport",
+    "education uses six audited API records with corrected outcomes",
+    "390px /education fits viewport"
+  ],
+  "consoleErrors": []
+}

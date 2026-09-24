@@ -1,0 +1,82 @@
+{
+  "cases": [
+    {
+      "id": "usada-cbc321b291f0",
+      "status": "supported",
+      "identity": "supported",
+      "country": "supported",
+      "temporalScope": "supported",
+      "evidence": [
+        {
+          "documentId": "country",
+          "startLine": 89,
+          "endLine": 93,
+          "note": "World Boccia describes the 2021 Americas Regional Championships and identifies Wyatt Struxness as American."
+        },
+        {
+          "documentId": "case",
+          "startLine": 7,
+          "endLine": 7,
+          "note": "USADA identifies Wyatt Struxness as a 25-year-old Para boccia athlete from San Antonio."
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-a6e4b38ecdbe",
+      "status": "supported",
+      "identity": "supported",
+      "country": "supported",
+      "temporalScope": "supported",
+      "evidence": [
+        {
+          "documentId": "country",
+          "startLine": 14,
+          "endLine": 17,
+          "note": "IWWF profile identifies STADLBAUR Samantha, athlete number USA800121646, born 1997."
+        },
+        {
+          "documentId": "country",
+          "startLine": 98,
+          "endLine": 113,
+          "note": "The profile lists USA for 2021 and 2022 results, including the 2021 World Waterski Championships."
+        },
+        {
+          "documentId": "case",
+          "startLine": 7,
+          "endLine": 7,
+          "note": "USADA identifies Samantha Dumala as a 22-year-old waterski athlete from Wellington, matching the sport and age with the profile’s 1997 birth year."
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-c3a050be56a3",
+      "status": "supported",
+      "identity": "supported",
+      "country": "supported",
+      "temporalScope": "supported",
+      "evidence": [
+        {
+          "documentId": "country",
+          "startLine": 193,
+          "endLine": 195,
+          "note": "USA Archery says the U.S. Para Archery Team will represent the United States in 2025 and lists Richard Burkett Jr. in Compound Open Men."
+        },
+        {
+          "documentId": "country",
+          "startLine": 217,
+          "endLine": 219,
+          "note": "The USA Team roster lists Richard Burkett Jr. as Compound Open Men."
+        },
+        {
+          "documentId": "case",
+          "startLine": 7,
+          "endLine": 8,
+          "note": "USADA identifies Richard Burkett, age 49, as a Para archery athlete; the sport and name match, though the USA Archery roster adds Jr."
+        }
+      ],
+      "findings": []
+    }
+  ]
+}

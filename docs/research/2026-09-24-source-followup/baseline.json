@@ -1,0 +1,1668 @@
+{
+  "baselineSha256": "faccca573557067f62ece4e689800a85efd8900ac34b20dca1a4f862c3ba1faa",
+  "scope": "補查國家／代表國與日期，不改寫上一輪固定模型來源包",
+  "countryPending": [
+    {
+      "id": "usada-25958bca1e21",
+      "athleteName": "Cary Cooper",
+      "year": 2024,
+      "sport": "田徑"
+    },
+    {
+      "id": "usada-56c015d731e4",
+      "athleteName": "Johnny Maynard",
+      "year": 2024,
+      "sport": "田徑"
+    },
+    {
+      "id": "usada-7774f20822ed",
+      "athleteName": "Robert Jerry Qualls",
+      "year": 2024,
+      "sport": "田徑"
+    },
+    {
+      "id": "usada-c459cc791bed",
+      "athleteName": "Ella Nicholson",
+      "year": 2024,
+      "sport": "舉重"
+    },
+    {
+      "id": "usada-ee1ce8ee98f6",
+      "athleteName": "NaLyssa Smith",
+      "year": 2024,
+      "sport": "籃球"
+    },
+    {
+      "id": "usada-03cbaa641dbb",
+      "athleteName": "Christian DesChamps",
+      "year": 2023,
+      "sport": "自行車"
+    },
+    {
+      "id": "usada-16f2d1c7b31c",
+      "athleteName": "Frank Travieso",
+      "year": 2023,
+      "sport": "自行車"
+    },
+    {
+      "id": "usada-18da72e16a59",
+      "athleteName": "Mariah Park",
+      "year": 2023,
+      "sport": "舉重"
+    },
+    {
+      "id": "usada-3e2c75f84c3d",
+      "athleteName": "Breanna Clark",
+      "year": 2023,
+      "sport": "帕拉田徑"
+    },
+    {
+      "id": "usada-42343d04a699",
+      "athleteName": "Katelyn Kirby",
+      "year": 2023,
+      "sport": "舉重"
+    },
+    {
+      "id": "usada-5c5d5188ddf0",
+      "athleteName": "Alyssa Wilson",
+      "year": 2023,
+      "sport": "田徑"
+    },
+    {
+      "id": "usada-79470a91247a",
+      "athleteName": "Roger Whitham",
+      "year": 2023,
+      "sport": "自行車"
+    },
+    {
+      "id": "usada-7da5b8af5ba7",
+      "athleteName": "Tyler Sundeen",
+      "year": 2023,
+      "sport": "曲棍球"
+    },
+    {
+      "id": "usada-7e6f399372a6",
+      "athleteName": "Allison Ostrander",
+      "year": 2023,
+      "sport": "田徑"
+    },
+    {
+      "id": "usada-8091f0d610a6",
+      "athleteName": "Ina Pfuhler",
+      "year": 2023,
+      "sport": "自行車"
+    },
+    {
+      "id": "usada-8acc4528cb6b",
+      "athleteName": "Addie Bracy",
+      "year": 2023,
+      "sport": "田徑／超級馬拉松"
+    },
+    {
+      "id": "usada-8fb29d61bbde",
+      "athleteName": "Tyler Burdick",
+      "year": 2023,
+      "sport": "帕拉單板滑雪"
+    },
+    {
+      "id": "usada-abb5a10e0ed3",
+      "athleteName": "Breezy Johnson",
+      "year": 2023,
+      "sport": "滑雪"
+    },
+    {
+      "id": "usada-cbf0f5afcf61",
+      "athleteName": "Evan Forrest",
+      "year": 2023,
+      "sport": "舉重"
+    },
+    {
+      "id": "usada-da041cee5592",
+      "athleteName": "John Frey",
+      "year": 2023,
+      "sport": "自行車"
+    },
+    {
+      "id": "usada-ea30e84daaab",
+      "athleteName": "Chad Olsen",
+      "year": 2023,
+      "sport": "舉重"
+    },
+    {
+      "id": "usada-0265c80a975c",
+      "athleteName": "Hassan Mead",
+      "year": 2022,
+      "sport": "田徑"
+    },
+    {
+      "id": "usada-05a51bc91d1e",
+      "athleteName": "Garrett Scantling",
+      "year": 2022,
+      "sport": "田徑"
+    },
+    {
+      "id": "usada-06a9eec196b6",
+      "athleteName": "Lucas Howes",
+      "year": 2022,
+      "sport": "自行車"
+    },
+    {
+      "id": "usada-06ec1067d02c",
+      "athleteName": "Clint Jordan",
+      "year": 2022,
+      "sport": "舉重"
+    },
+    {
+      "id": "usada-10e9f0a6f725",
+      "athleteName": "Erik Kynard",
+      "year": 2022,
+      "sport": "田徑"
+    },
+    {
+      "id": "usada-13e15093f36a",
+      "athleteName": "Catarina Guimarães",
+      "year": 2022,
+      "sport": "帕拉田徑"
+    },
+    {
+      "id": "usada-1c34e76fa2a0",
+      "athleteName": "Aja Evans",
+      "year": 2022,
+      "sport": "雪車"
+    },
+    {
+      "id": "usada-2a3f0160a9f3",
+      "athleteName": "Andrii Monastyrskyi",
+      "year": 2022,
+      "sport": "輕艇"
+    },
+    {
+      "id": "usada-365cbd5fbcea",
+      "athleteName": "Arika Skoog",
+      "year": 2022,
+      "sport": "拳擊"
+    },
+    {
+      "id": "usada-3b36b9d0fea7",
+      "athleteName": "Richard Browne",
+      "year": 2022,
+      "sport": "帕拉田徑"
+    },
+    {
+      "id": "usada-578b30358464",
+      "athleteName": "Jaron Flournoy",
+      "year": 2022,
+      "sport": "田徑"
+    },
+    {
+      "id": "usada-5f1f4ed8c4a9",
+      "athleteName": "Alejandra Echeverri",
+      "year": 2022,
+      "sport": "自行車"
+    },
+    {
+      "id": "usada-73473ebf3acd",
+      "athleteName": "Ana Irizarry",
+      "year": 2022,
+      "sport": "田徑"
+    },
+    {
+      "id": "usada-77feffe8dfef",
+      "athleteName": "Nelson Trujillo",
+      "year": 2022,
+      "sport": "自行車"
+    },
+    {
+      "id": "usada-88685d4069ae",
+      "athleteName": "Keiser Witte",
+      "year": 2022,
+      "sport": "舉重"
+    },
+    {
+      "id": "usada-a065a9e92dd5",
+      "athleteName": "Dryden McKay",
+      "year": 2022,
+      "sport": "冰球"
+    },
+    {
+      "id": "usada-a11b3068ba54",
+      "athleteName": "Hanncer Valdes",
+      "year": 2022,
+      "sport": "自行車"
+    },
+    {
+      "id": "usada-a37e4ef92abb",
+      "athleteName": "Christian Rodriguez Ocasio",
+      "year": 2022,
+      "sport": "舉重"
+    },
+    {
+      "id": "usada-b03e0386a601",
+      "athleteName": "Katerina Brim",
+      "year": 2022,
+      "sport": "帕拉自行車"
+    },
+    {
+      "id": "usada-b0f378938e1f",
+      "athleteName": "Gregory Walker",
+      "year": 2022,
+      "sport": "帕拉田徑"
+    },
+    {
+      "id": "usada-b6074d0cf1fc",
+      "athleteName": "Lindsey Corrigan",
+      "year": 2022,
+      "sport": "跆拳道"
+    },
+    {
+      "id": "usada-cbc321b291f0",
+      "athleteName": "Wyatt Struxness",
+      "year": 2022,
+      "sport": "地板滾球"
+    },
+    {
+      "id": "usada-d7d75c2efaf9",
+      "athleteName": "Sidney Andrew",
+      "year": 2022,
+      "sport": "自行車"
+    },
+    {
+      "id": "usada-e13aa658e684",
+      "athleteName": "Nina Cutro-Kelly",
+      "year": 2022,
+      "sport": "柔道"
+    },
+    {
+      "id": "usada-edbbe5e82ff0",
+      "athleteName": "Riekert Hattingh",
+      "year": 2022,
+      "sport": "橄欖球"
+    },
+    {
+      "id": "usada-f3337bee1348",
+      "athleteName": "Geony Borrego Lee",
+      "year": 2022,
+      "sport": "自行車"
+    },
+    {
+      "id": "usada-003de817c96a",
+      "athleteName": "Hillary Tran",
+      "year": 2021,
+      "sport": "舉重"
+    },
+    {
+      "id": "usada-05c2efe09f20",
+      "athleteName": "Trey Lampkin",
+      "year": 2021,
+      "sport": "帕拉柔道"
+    },
+    {
+      "id": "usada-091e5bf27388",
+      "athleteName": "Lindsey Scherf",
+      "year": 2021,
+      "sport": "田徑"
+    },
+    {
+      "id": "usada-1035e17c5288",
+      "athleteName": "Daniel Summerhill",
+      "year": 2021,
+      "sport": "自行車"
+    },
+    {
+      "id": "usada-159a9ae15f32",
+      "athleteName": "Ian Wilson",
+      "year": 2021,
+      "sport": "舉重"
+    },
+    {
+      "id": "usada-22913fa5df5e",
+      "athleteName": "Ahje Palmer",
+      "year": 2021,
+      "sport": "舉重"
+    },
+    {
+      "id": "usada-2afd16a939d4",
+      "athleteName": "Noah Webb",
+      "year": 2021,
+      "sport": "鐵人三項"
+    },
+    {
+      "id": "usada-557b3d045e61",
+      "athleteName": "Jamaal Daniels",
+      "year": 2021,
+      "sport": "帕拉田徑"
+    },
+    {
+      "id": "usada-5f2ba9170fdc",
+      "athleteName": "Grace Bowlby",
+      "year": 2021,
+      "sport": "冰球"
+    },
+    {
+      "id": "usada-6295d61b3ba5",
+      "athleteName": "Kahmari Montgomery",
+      "year": 2021,
+      "sport": "田徑"
+    },
+    {
+      "id": "usada-669c86e73b92",
+      "athleteName": "McAben Prince",
+      "year": 2021,
+      "sport": "自行車"
+    },
+    {
+      "id": "usada-6cd0ab12872b",
+      "athleteName": "Regina Hancock",
+      "year": 2021,
+      "sport": "舉重"
+    },
+    {
+      "id": "usada-7047ef231eac",
+      "athleteName": "Jacob Lacoste",
+      "year": 2021,
+      "sport": "舉重"
+    },
+    {
+      "id": "usada-7df0d8ede93d",
+      "athleteName": "Keir Pearson",
+      "year": 2021,
+      "sport": "划船"
+    },
+    {
+      "id": "usada-81ca863aa55c",
+      "athleteName": "Matt McWhirter",
+      "year": 2021,
+      "sport": "自行車"
+    },
+    {
+      "id": "usada-82602147d7d4",
+      "athleteName": "Brian Abers",
+      "year": 2021,
+      "sport": "自行車"
+    },
+    {
+      "id": "usada-86ac6516e020",
+      "athleteName": "Luis Gallardo",
+      "year": 2021,
+      "sport": "舉重"
+    },
+    {
+      "id": "usada-956ec8818b4b",
+      "athleteName": "Jordan Adel",
+      "year": 2021,
+      "sport": "舉重"
+    },
+    {
+      "id": "usada-9e3ec5e00217",
+      "athleteName": "Isabel Gormley",
+      "year": 2021,
+      "sport": "游泳"
+    },
+    {
+      "id": "usada-ad29940bbb3c",
+      "athleteName": "Jackson \"Huntley\" Nash",
+      "year": 2021,
+      "sport": "自行車"
+    },
+    {
+      "id": "usada-c0bcc1cac884",
+      "athleteName": "Bernabe Chavez",
+      "year": 2021,
+      "sport": "舉重"
+    },
+    {
+      "id": "usada-c19d2e9f8557",
+      "athleteName": "Tate Jackson",
+      "year": 2021,
+      "sport": "游泳"
+    },
+    {
+      "id": "usada-f708f100d313",
+      "athleteName": "Josh Sisson",
+      "year": 2021,
+      "sport": "帕拉柔道"
+    },
+    {
+      "id": "usada-f72472960e40",
+      "athleteName": "Christian Buckley",
+      "year": 2021,
+      "sport": "舉重"
+    },
+    {
+      "id": "usada-f8c1f2c29e25",
+      "athleteName": "Madeline Wethington",
+      "year": 2021,
+      "sport": "冰球"
+    },
+    {
+      "id": "usada-3795cadeeacf",
+      "athleteName": "Cole Walsh",
+      "year": 2020,
+      "sport": "田徑"
+    },
+    {
+      "id": "usada-4cabe0247888",
+      "athleteName": "Jeff Martin",
+      "year": 2020,
+      "sport": "自行車"
+    },
+    {
+      "id": "usada-73b73fbed23a",
+      "athleteName": "Jasmine Blocker",
+      "year": 2020,
+      "sport": "田徑"
+    },
+    {
+      "id": "usada-80101a12888d",
+      "athleteName": "Danielle Rante",
+      "year": 2020,
+      "sport": "舉重"
+    },
+    {
+      "id": "usada-8d214edc5d96",
+      "athleteName": "Logan Storie",
+      "year": 2020,
+      "sport": "現代五項"
+    },
+    {
+      "id": "usada-8eb48dbaf6e2",
+      "athleteName": "Morgan Millican",
+      "year": 2020,
+      "sport": "舉重"
+    },
+    {
+      "id": "usada-90621c3eb5e4",
+      "athleteName": "Susanne Williams",
+      "year": 2020,
+      "sport": "舉重"
+    },
+    {
+      "id": "usada-a54a0549888f",
+      "athleteName": "Matthew McCullough",
+      "year": 2020,
+      "sport": "舉重"
+    },
+    {
+      "id": "usada-a6e4b38ecdbe",
+      "athleteName": "Samantha Dumala",
+      "year": 2020,
+      "sport": "滑水"
+    },
+    {
+      "id": "usada-ac7fef21590c",
+      "athleteName": "Obichukwu Igbokwe",
+      "year": 2020,
+      "sport": "田徑"
+    },
+    {
+      "id": "usada-c3a050be56a3",
+      "athleteName": "Richard Burkett",
+      "year": 2020,
+      "sport": "帕拉射箭"
+    },
+    {
+      "id": "usada-c60db428c672",
+      "athleteName": "Katherine Compton",
+      "year": 2020,
+      "sport": "自行車"
+    },
+    {
+      "id": "usada-fd1d2cf8f708",
+      "athleteName": "Megan Munsell",
+      "year": 2020,
+      "sport": "舉重"
+    },
+    {
+      "id": "usada-137ddb330f29",
+      "athleteName": "Kevin Castille",
+      "year": 2019,
+      "sport": "田徑"
+    },
+    {
+      "id": "usada-4518fb0dbd4d",
+      "athleteName": "Talina Le",
+      "year": 2019,
+      "sport": "跆拳道"
+    },
+    {
+      "id": "usada-4844a2d25120",
+      "athleteName": "Zach Gehm",
+      "year": 2019,
+      "sport": "田徑"
+    },
+    {
+      "id": "usada-496b0452d607",
+      "athleteName": "Robert Strange",
+      "year": 2019,
+      "sport": "舉重"
+    },
+    {
+      "id": "usada-5a1c3cf5b36f",
+      "athleteName": "Josue Cano",
+      "year": 2019,
+      "sport": "舉重"
+    },
+    {
+      "id": "usada-5eac04b001f6",
+      "athleteName": "Addison Jones",
+      "year": 2019,
+      "sport": "舉重"
+    },
+    {
+      "id": "usada-707cea3b489e",
+      "athleteName": "Jonathan Wood",
+      "year": 2019,
+      "sport": "自行車"
+    },
+    {
+      "id": "usada-74510fc23e03",
+      "athleteName": "Darcie Warren",
+      "year": 2019,
+      "sport": "舉重"
+    },
+    {
+      "id": "usada-75e40a8ec8cb",
+      "athleteName": "Mohamed Omar",
+      "year": 2019,
+      "sport": "舉重"
+    },
+    {
+      "id": "usada-8644c327e2ca",
+      "athleteName": "Todd Davis",
+      "year": 2019,
+      "sport": "田徑"
+    },
+    {
+      "id": "usada-8a0a2483bd13",
+      "athleteName": "Barbara Gicquel",
+      "year": 2019,
+      "sport": "自行車"
+    },
+    {
+      "id": "usada-990a455fba77",
+      "athleteName": "Jacqueline Galloway",
+      "year": 2019,
+      "sport": "跆拳道"
+    },
+    {
+      "id": "usada-9dd4639a6aac",
+      "athleteName": "Robert Pelegrin",
+      "year": 2019,
+      "sport": "自行車"
+    },
+    {
+      "id": "usada-a00b98f42826",
+      "athleteName": "William Licon",
+      "year": 2019,
+      "sport": "游泳"
+    },
+    {
+      "id": "usada-a187e411794f",
+      "athleteName": "Mallory Schafer",
+      "year": 2019,
+      "sport": "鐵人三項／鐵人兩項"
+    },
+    {
+      "id": "usada-a504ae6790e5",
+      "athleteName": "Kaley Anderson",
+      "year": 2019,
+      "sport": "舉重"
+    },
+    {
+      "id": "usada-ae780d447bf0",
+      "athleteName": "Janelle Shafer",
+      "year": 2019,
+      "sport": "舉重"
+    },
+    {
+      "id": "usada-b54bb0c30eb2",
+      "athleteName": "Kyler Allison",
+      "year": 2019,
+      "sport": "雪車"
+    },
+    {
+      "id": "usada-b714a3c460a7",
+      "athleteName": "Lauren Goss",
+      "year": 2019,
+      "sport": "鐵人三項"
+    },
+    {
+      "id": "usada-b91273ba81fa",
+      "athleteName": "Angela Carlberg",
+      "year": 2019,
+      "sport": "舉重"
+    },
+    {
+      "id": "usada-c88c72084b13",
+      "athleteName": "Rowdy Hurst",
+      "year": 2019,
+      "sport": "舉重"
+    },
+    {
+      "id": "usada-ceba58fad888",
+      "athleteName": "Natalie Franklin",
+      "year": 2019,
+      "sport": "舉重"
+    },
+    {
+      "id": "usada-d11c3ef3a336",
+      "athleteName": "Nicole Maynard",
+      "year": 2019,
+      "sport": "舉重"
+    },
+    {
+      "id": "usada-d4f42cda7250",
+      "athleteName": "Mandy Mosley",
+      "year": 2019,
+      "sport": "舉重"
+    },
+    {
+      "id": "usada-f534d40de6df",
+      "athleteName": "Janel Tisinger-Ledkins",
+      "year": 2019,
+      "sport": "短柄牆球"
+    },
+    {
+      "id": "usada-faf9ebfb231f",
+      "athleteName": "Joe Sacklow",
+      "year": 2019,
+      "sport": "舉重"
+    },
+    {
+      "id": "usada-fe88676c094a",
+      "athleteName": "John Gleaves",
+      "year": 2019,
+      "sport": "自行車"
+    },
+    {
+      "id": "usada-0f682f5a12d7",
+      "athleteName": "Marck Harrison",
+      "year": 2018,
+      "sport": "帕拉地板滾球"
+    },
+    {
+      "id": "usada-0f9636fca02d",
+      "athleteName": "Trevor Cuicchi",
+      "year": 2018,
+      "sport": "舉重"
+    },
+    {
+      "id": "usada-139867b729db",
+      "athleteName": "Steven Strickler",
+      "year": 2018,
+      "sport": "自行車"
+    },
+    {
+      "id": "usada-196afd5ac99f",
+      "athleteName": "Amanda Kendall",
+      "year": 2018,
+      "sport": "游泳"
+    },
+    {
+      "id": "usada-1afebbd6c57b",
+      "athleteName": "Cesar Colunga",
+      "year": 2018,
+      "sport": "空手道"
+    },
+    {
+      "id": "usada-1b4c6223d309",
+      "athleteName": "Michel Carrillo",
+      "year": 2018,
+      "sport": "自行車"
+    },
+    {
+      "id": "usada-48b4a6a3d8f2",
+      "athleteName": "Carl Grove",
+      "year": 2018,
+      "sport": "自行車"
+    },
+    {
+      "id": "usada-48d68f0e2e03",
+      "athleteName": "Ernest Prempeh",
+      "year": 2018,
+      "sport": "舉重"
+    },
+    {
+      "id": "usada-507362151651",
+      "athleteName": "Rachel Campbell",
+      "year": 2018,
+      "sport": "舉重／CrossFit"
+    },
+    {
+      "id": "usada-51b08866d858",
+      "athleteName": "Devin Logan",
+      "year": 2018,
+      "sport": "自由式滑雪"
+    },
+    {
+      "id": "usada-5541522b98d9",
+      "athleteName": "Cory Scott Juneau",
+      "year": 2018,
+      "sport": "滑板"
+    },
+    {
+      "id": "usada-5b1d89435a80",
+      "athleteName": "Bruce Mazur",
+      "year": 2018,
+      "sport": "自行車"
+    },
+    {
+      "id": "usada-5d85c8dbd1a0",
+      "athleteName": "Anthony Ferraro",
+      "year": 2018,
+      "sport": "帕拉柔道"
+    },
+    {
+      "id": "usada-5e279c9e9968",
+      "athleteName": "Cameron Dudeck",
+      "year": 2018,
+      "sport": "舉重"
+    },
+    {
+      "id": "usada-671281fb69ce",
+      "athleteName": "Ty Kurth",
+      "year": 2018,
+      "sport": "自行車"
+    },
+    {
+      "id": "usada-69dbcabe44bb",
+      "athleteName": "Joshua Gaskins",
+      "year": 2018,
+      "sport": "舉重"
+    },
+    {
+      "id": "usada-6b18a7917171",
+      "athleteName": "Cheyenne Schenk",
+      "year": 2018,
+      "sport": "舉重"
+    },
+    {
+      "id": "usada-70b898158395",
+      "athleteName": "James Vennera",
+      "year": 2018,
+      "sport": "射箭"
+    },
+    {
+      "id": "usada-7892ab1bda15",
+      "athleteName": "Ira Sorensen",
+      "year": 2018,
+      "sport": "自行車"
+    },
+    {
+      "id": "usada-8bbe5698646b",
+      "athleteName": "Abby Raymond",
+      "year": 2018,
+      "sport": "舉重"
+    },
+    {
+      "id": "usada-8e3e0cdfe74b",
+      "athleteName": "Victoria Francis",
+      "year": 2018,
+      "sport": "角力"
+    },
+    {
+      "id": "usada-998b9264b440",
+      "athleteName": "Mijail Gonzalez",
+      "year": 2018,
+      "sport": "自行車"
+    },
+    {
+      "id": "usada-9c2bd61dbab6",
+      "athleteName": "Raul Diaz",
+      "year": 2018,
+      "sport": "自行車"
+    },
+    {
+      "id": "usada-9de5a5d1696d",
+      "athleteName": "Jessica Rivera",
+      "year": 2018,
+      "sport": "舉重"
+    },
+    {
+      "id": "usada-a54b4661de47",
+      "athleteName": "Enrique Lopez",
+      "year": 2018,
+      "sport": "自行車"
+    },
+    {
+      "id": "usada-a7c95fd980c0",
+      "athleteName": "Jennifer Pate",
+      "year": 2018,
+      "sport": "自行車"
+    },
+    {
+      "id": "usada-acd5a54c3768",
+      "athleteName": "David Pate",
+      "year": 2018,
+      "sport": "自行車"
+    },
+    {
+      "id": "usada-cc59982303fb",
+      "athleteName": "Jason Griffin",
+      "year": 2018,
+      "sport": "帕拉自行車"
+    },
+    {
+      "id": "usada-d148c75dad18",
+      "athleteName": "Robert Brown",
+      "year": 2018,
+      "sport": "舉重"
+    },
+    {
+      "id": "usada-d1537bff40b3",
+      "athleteName": "Laura Zeng",
+      "year": 2018,
+      "sport": "韻律體操"
+    },
+    {
+      "id": "usada-d75ed8b5f7e7",
+      "athleteName": "Joseph Baratto",
+      "year": 2018,
+      "sport": "自行車"
+    },
+    {
+      "id": "usada-e6341e3462ec",
+      "athleteName": "Stephen Bedford",
+      "year": 2018,
+      "sport": "自行車"
+    },
+    {
+      "id": "usada-e7f64638afe3",
+      "athleteName": "Taff Woolsey",
+      "year": 2018,
+      "sport": "舉重"
+    },
+    {
+      "id": "usada-e833e68d19e3",
+      "athleteName": "Scott Gross",
+      "year": 2018,
+      "sport": "自行車"
+    },
+    {
+      "id": "usada-ea0049989423",
+      "athleteName": "Jeff Tanski",
+      "year": 2018,
+      "sport": "自行車"
+    },
+    {
+      "id": "usada-ea963f8d28c3",
+      "athleteName": "Tiffany Parlor",
+      "year": 2018,
+      "sport": "舉重"
+    },
+    {
+      "id": "usada-f49825dfb87e",
+      "athleteName": "Sharon Jackson",
+      "year": 2018,
+      "sport": "短柄牆球"
+    },
+    {
+      "id": "usada-f75282803398",
+      "athleteName": "Abigail Dahlkemper",
+      "year": 2018,
+      "sport": "足球"
+    },
+    {
+      "id": "usada-fb72031d87b1",
+      "athleteName": "Alexandria Gochenour",
+      "year": 2018,
+      "sport": "田徑"
+    },
+    {
+      "id": "usada-07d30b0088c7",
+      "athleteName": "Julie Rosiek",
+      "year": 2017,
+      "sport": "鐵人三項"
+    },
+    {
+      "id": "usada-0c3ec7a2af1e",
+      "athleteName": "Scott McPherson",
+      "year": 2017,
+      "sport": "田徑"
+    },
+    {
+      "id": "usada-123713999e9c",
+      "athleteName": "Scott Glasgow",
+      "year": 2017,
+      "sport": "舉重"
+    },
+    {
+      "id": "usada-13a7b9335634",
+      "athleteName": "Amy Hay",
+      "year": 2017,
+      "sport": "舉重"
+    },
+    {
+      "id": "usada-1a29ad9ab5d6",
+      "athleteName": "Tam Nguyen",
+      "year": 2017,
+      "sport": "舉重"
+    },
+    {
+      "id": "usada-1b7ba3ce3c38",
+      "athleteName": "Frank Volrath",
+      "year": 2017,
+      "sport": "舉重"
+    },
+    {
+      "id": "usada-22983a4911f9",
+      "athleteName": "Emily Malinowski",
+      "year": 2017,
+      "sport": "舉重"
+    },
+    {
+      "id": "usada-2c9f4748c39c",
+      "athleteName": "Jay Henderson",
+      "year": 2017,
+      "sport": "自行車"
+    },
+    {
+      "id": "usada-31d2d25d4314",
+      "athleteName": "Michael Meacham",
+      "year": 2017,
+      "sport": "鐵人三項"
+    },
+    {
+      "id": "usada-3569c6e815d7",
+      "athleteName": "Alissandra Hipona",
+      "year": 2017,
+      "sport": "舉重"
+    },
+    {
+      "id": "usada-3d848274e422",
+      "athleteName": "Teresa Britt",
+      "year": 2017,
+      "sport": "舉重"
+    },
+    {
+      "id": "usada-491a96341462",
+      "athleteName": "Chris Carter",
+      "year": 2017,
+      "sport": "田徑"
+    },
+    {
+      "id": "usada-5028b81a128b",
+      "athleteName": "Carlee Acevedo-Fuller",
+      "year": 2017,
+      "sport": "舉重"
+    },
+    {
+      "id": "usada-503574acf7cc",
+      "athleteName": "Mihail (Mike) Alexandrov",
+      "year": 2017,
+      "sport": "游泳"
+    },
+    {
+      "id": "usada-5b6cb4ab463d",
+      "athleteName": "Riley Stohr",
+      "year": 2017,
+      "sport": "雪橇"
+    },
+    {
+      "id": "usada-5dd19e96b68c",
+      "athleteName": "Craig Webb",
+      "year": 2017,
+      "sport": "自行車"
+    },
+    {
+      "id": "usada-6e7d139bba18",
+      "athleteName": "Nicholas Gough",
+      "year": 2017,
+      "sport": "鐵人三項"
+    },
+    {
+      "id": "usada-74fda1ee0cc3",
+      "athleteName": "Miranda Merrell",
+      "year": 2017,
+      "sport": "舉重"
+    },
+    {
+      "id": "usada-7cdaea68994c",
+      "athleteName": "Shaquille Vance",
+      "year": 2017,
+      "sport": "帕拉田徑"
+    },
+    {
+      "id": "usada-7d929fe046a9",
+      "athleteName": "Megan Palicka",
+      "year": 2017,
+      "sport": "舉重"
+    },
+    {
+      "id": "usada-7ecfb208518e",
+      "athleteName": "Roger Ainslie",
+      "year": 2017,
+      "sport": "自行車"
+    },
+    {
+      "id": "usada-806eab5af83f",
+      "athleteName": "Sarah Heinzl",
+      "year": 2017,
+      "sport": "輪椅籃球"
+    },
+    {
+      "id": "usada-870d48eb51f7",
+      "athleteName": "John Schiefer",
+      "year": 2017,
+      "sport": "自行車"
+    },
+    {
+      "id": "usada-89c25ce0aa40",
+      "athleteName": "Darien Moore",
+      "year": 2017,
+      "sport": "田徑"
+    },
+    {
+      "id": "usada-8b83386b3243",
+      "athleteName": "Alyssa Travis",
+      "year": 2017,
+      "sport": "舉重"
+    },
+    {
+      "id": "usada-901736ce5e01",
+      "athleteName": "Lazaro Roman",
+      "year": 2017,
+      "sport": "舉重"
+    },
+    {
+      "id": "usada-a0a7483bcc7e",
+      "athleteName": "J.C. Cruse",
+      "year": 2017,
+      "sport": "雪車"
+    },
+    {
+      "id": "usada-a190ab7e50ab",
+      "athleteName": "Scot Harvey",
+      "year": 2017,
+      "sport": "自行車"
+    },
+    {
+      "id": "usada-ab372572f1a9",
+      "athleteName": "Tyler Moore",
+      "year": 2017,
+      "sport": "舉重"
+    },
+    {
+      "id": "usada-acfba90a8905",
+      "athleteName": "Amanda Geving",
+      "year": 2017,
+      "sport": "自行車"
+    },
+    {
+      "id": "usada-b16d0fb75234",
+      "athleteName": "Barry Miller",
+      "year": 2017,
+      "sport": "自行車"
+    },
+    {
+      "id": "usada-bfeee80825b1",
+      "athleteName": "Kaitlyn Jarrett",
+      "year": 2017,
+      "sport": "舉重"
+    },
+    {
+      "id": "usada-c42379b4285c",
+      "athleteName": "Daniel Frazier",
+      "year": 2017,
+      "sport": "自行車"
+    },
+    {
+      "id": "usada-dd1a97e9431d",
+      "athleteName": "Shaun Moffett",
+      "year": 2017,
+      "sport": "自行車"
+    },
+    {
+      "id": "usada-e211d17e78b9",
+      "athleteName": "Lemuel Grayson",
+      "year": 2017,
+      "sport": "舉重"
+    },
+    {
+      "id": "usada-e52ee6c67921",
+      "athleteName": "Lisa Roberts",
+      "year": 2017,
+      "sport": "鐵人三項"
+    },
+    {
+      "id": "usada-e6a03aa80344",
+      "athleteName": "David Less",
+      "year": 2017,
+      "sport": "自行車"
+    },
+    {
+      "id": "usada-f10f5acd5654",
+      "athleteName": "Zack Herbert",
+      "year": 2017,
+      "sport": "舉重"
+    },
+    {
+      "id": "usada-f40282760e72",
+      "athleteName": "Patrick \"Dillon\" Schrodt",
+      "year": 2017,
+      "sport": "雪車"
+    },
+    {
+      "id": "usada-fc2334e2f733",
+      "athleteName": "Zachary Wuebben",
+      "year": 2017,
+      "sport": "舉重"
+    },
+    {
+      "id": "usada-fe4d160648aa",
+      "athleteName": "Dylan Lima",
+      "year": 2017,
+      "sport": "自行車"
+    },
+    {
+      "id": "usada-005ef8b2c89f",
+      "athleteName": "Michael Nackoul",
+      "year": 2016,
+      "sport": "舉重"
+    },
+    {
+      "id": "usada-04a1e7f11069",
+      "athleteName": "Demi Payne",
+      "year": 2016,
+      "sport": "田徑"
+    },
+    {
+      "id": "usada-09d96ec873e6",
+      "athleteName": "Susan Dutta",
+      "year": 2016,
+      "sport": "馬術"
+    },
+    {
+      "id": "usada-0c3eeb120b51",
+      "athleteName": "Peter Park",
+      "year": 2016,
+      "sport": "帕拉田徑"
+    },
+    {
+      "id": "usada-1198265168e2",
+      "athleteName": "Liz Palmer",
+      "year": 2016,
+      "sport": "田徑"
+    },
+    {
+      "id": "usada-2a8b050c35ed",
+      "athleteName": "Molly Beckwith-Ludlow",
+      "year": 2016,
+      "sport": "田徑"
+    },
+    {
+      "id": "usada-359e0f8decd5",
+      "athleteName": "Jeff Schwab",
+      "year": 2016,
+      "sport": "自行車"
+    },
+    {
+      "id": "usada-35cf2f26656b",
+      "athleteName": "Nicole Moore",
+      "year": 2016,
+      "sport": "舉重"
+    },
+    {
+      "id": "usada-38afed413abd",
+      "athleteName": "Buster Brown",
+      "year": 2016,
+      "sport": "自行車"
+    },
+    {
+      "id": "usada-3a2b44290235",
+      "athleteName": "Gabriel Dawson",
+      "year": 2016,
+      "sport": "舉重"
+    },
+    {
+      "id": "usada-3d04ba268799",
+      "athleteName": "Justin Glanville",
+      "year": 2016,
+      "sport": "舉重"
+    },
+    {
+      "id": "usada-47a780e34432",
+      "athleteName": "Crystal Riggs",
+      "year": 2016,
+      "sport": "舉重"
+    },
+    {
+      "id": "usada-4c30c4355448",
+      "athleteName": "Robert Prenoveau",
+      "year": 2016,
+      "sport": "輪椅冰壺"
+    },
+    {
+      "id": "usada-55dafea87f5e",
+      "athleteName": "Kayla Bushey",
+      "year": 2016,
+      "sport": "田徑"
+    },
+    {
+      "id": "usada-5a084088440d",
+      "athleteName": "Roderick Green",
+      "year": 2016,
+      "sport": "坐式排球"
+    },
+    {
+      "id": "usada-5c49a520d9f7",
+      "athleteName": "David Bayer",
+      "year": 2016,
+      "sport": "舉重"
+    },
+    {
+      "id": "usada-6f442259c6e3",
+      "athleteName": "Anthony McLaughlin",
+      "year": 2016,
+      "sport": "舉重"
+    },
+    {
+      "id": "usada-6fde059a15f4",
+      "athleteName": "Mary Verrando-Higgins",
+      "year": 2016,
+      "sport": "自行車"
+    },
+    {
+      "id": "usada-74c3aeb782a0",
+      "athleteName": "Jessica Denney Phillips",
+      "year": 2016,
+      "sport": "舉重"
+    },
+    {
+      "id": "usada-792c30cdc646",
+      "athleteName": "Imani Oliver",
+      "year": 2016,
+      "sport": "田徑"
+    },
+    {
+      "id": "usada-8813abb5dfc8",
+      "athleteName": "James Howe II",
+      "year": 2016,
+      "sport": "跆拳道"
+    },
+    {
+      "id": "usada-8bd7326e338b",
+      "athleteName": "Tim Root",
+      "year": 2016,
+      "sport": "自行車"
+    },
+    {
+      "id": "usada-9078b2b3f8b8",
+      "athleteName": "Shawn D'Aurelio",
+      "year": 2016,
+      "sport": "自行車"
+    },
+    {
+      "id": "usada-97da51a4cd91",
+      "athleteName": "Angelique Matsushima",
+      "year": 2016,
+      "sport": "舉重"
+    },
+    {
+      "id": "usada-9c8b8e7bbb4c",
+      "athleteName": "Chris Creveling",
+      "year": 2016,
+      "sport": "競速滑冰"
+    },
+    {
+      "id": "usada-a19d120a5a90",
+      "athleteName": "Brandon Reyes",
+      "year": 2016,
+      "sport": "舉重"
+    },
+    {
+      "id": "usada-a866a19663a5",
+      "athleteName": "Robert Kyle Dosterschill",
+      "year": 2016,
+      "sport": "舉重"
+    },
+    {
+      "id": "usada-b06931c0b392",
+      "athleteName": "Robert Baatz",
+      "year": 2016,
+      "sport": "自行車"
+    },
+    {
+      "id": "usada-bdc4265e8819",
+      "athleteName": "Kimberly Ciolli",
+      "year": 2016,
+      "sport": "自行車"
+    },
+    {
+      "id": "usada-c269d76b2513",
+      "athleteName": "Ryan Pinney",
+      "year": 2016,
+      "sport": "帕拉自行車"
+    },
+    {
+      "id": "usada-cca09860726b",
+      "athleteName": "Joseph Lamour",
+      "year": 2016,
+      "sport": "手球"
+    },
+    {
+      "id": "usada-d14484534da6",
+      "athleteName": "Trell Kimmons",
+      "year": 2016,
+      "sport": "田徑"
+    },
+    {
+      "id": "usada-e238095a79ab",
+      "athleteName": "Vincent Pierik",
+      "year": 2016,
+      "sport": "舉重"
+    },
+    {
+      "id": "usada-e7645ab29f67",
+      "athleteName": "Joseph Mazzie",
+      "year": 2016,
+      "sport": "直排輪曲棍球"
+    },
+    {
+      "id": "usada-f8fb776d4fa9",
+      "athleteName": "Dawn Harper-Nelson",
+      "year": 2016,
+      "sport": "田徑"
+    },
+    {
+      "id": "usada-fcfbbcf8949b",
+      "athleteName": "Jonathan Sanford",
+      "year": 2016,
+      "sport": "田徑"
+    },
+    {
+      "id": "usada-1359b69cc9a8",
+      "athleteName": "Joseph Roberto",
+      "year": 2015,
+      "sport": "舉重"
+    },
+    {
+      "id": "usada-2428086c1745",
+      "athleteName": "Tara Harbert",
+      "year": 2015,
+      "sport": "棒球"
+    },
+    {
+      "id": "usada-2a7f0468db54",
+      "athleteName": "Michael Zoda",
+      "year": 2015,
+      "sport": "舉重"
+    },
+    {
+      "id": "usada-32c2c6bdacff",
+      "athleteName": "Michael Buckley",
+      "year": 2015,
+      "sport": "自行車"
+    },
+    {
+      "id": "usada-4366103d9b91",
+      "athleteName": "Tori Polk",
+      "year": 2015,
+      "sport": "田徑"
+    },
+    {
+      "id": "usada-47db4d671c02",
+      "athleteName": "Vikas Patel",
+      "year": 2015,
+      "sport": "田徑"
+    },
+    {
+      "id": "usada-4ab89c689116",
+      "athleteName": "Atlanta Westbrook",
+      "year": 2015,
+      "sport": "田徑"
+    },
+    {
+      "id": "usada-5682bad4c39a",
+      "athleteName": "Royce Dates",
+      "year": 2015,
+      "sport": "田徑"
+    },
+    {
+      "id": "usada-5ba221c74afd",
+      "athleteName": "Chris Hyun Cho",
+      "year": 2015,
+      "sport": "舉重"
+    },
+    {
+      "id": "usada-64a436bacae4",
+      "athleteName": "Michael Gingras",
+      "year": 2015,
+      "sport": "舉重"
+    },
+    {
+      "id": "usada-6d48feafc5e9",
+      "athleteName": "Nia Williams",
+      "year": 2015,
+      "sport": "橄欖球"
+    },
+    {
+      "id": "usada-83915e97921c",
+      "athleteName": "Jeff Prusmack",
+      "year": 2015,
+      "sport": "舉重"
+    },
+    {
+      "id": "usada-8ad943acd5b0",
+      "athleteName": "Jeffery Miller",
+      "year": 2015,
+      "sport": "自行車"
+    },
+    {
+      "id": "usada-994755070e39",
+      "athleteName": "Kenna Wolter",
+      "year": 2015,
+      "sport": "田徑"
+    },
+    {
+      "id": "usada-a71a79541adf",
+      "athleteName": "Cicely Kyle",
+      "year": 2015,
+      "sport": "舉重"
+    },
+    {
+      "id": "usada-b95ab234ef5b",
+      "athleteName": "Daniel Lehr",
+      "year": 2015,
+      "sport": "舉重"
+    },
+    {
+      "id": "usada-de625da34c51",
+      "athleteName": "Dylan Fischbach",
+      "year": 2015,
+      "sport": "輪椅籃球"
+    },
+    {
+      "id": "usada-e202db4ec31d",
+      "athleteName": "Ashley Paulson",
+      "year": 2015,
+      "sport": "鐵人三項"
+    },
+    {
+      "id": "usada-1205b7548666",
+      "athleteName": "Scott Hisaka",
+      "year": 2014,
+      "sport": "舉重"
+    },
+    {
+      "id": "usada-1f56bc7e39f1",
+      "athleteName": "Nick Mossberg",
+      "year": 2014,
+      "sport": "田徑"
+    },
+    {
+      "id": "usada-2368662f3457",
+      "athleteName": "Cliff Nielson",
+      "year": 2014,
+      "sport": "田徑"
+    },
+    {
+      "id": "usada-36b25b3d84e6",
+      "athleteName": "Jason Young",
+      "year": 2013,
+      "sport": "田徑"
+    },
+    {
+      "id": "usada-48f0300507d6",
+      "athleteName": "Michael Dunkum",
+      "year": 2013,
+      "sport": "角力"
+    },
+    {
+      "id": "usada-c624acaae104",
+      "athleteName": "Andrew Vrabel",
+      "year": 2013,
+      "sport": "舉重"
+    },
+    {
+      "id": "usada-edde57057db6",
+      "athleteName": "Cody Bidlow",
+      "year": 2013,
+      "sport": "田徑"
+    },
+    {
+      "id": "usada-c0ec4fad5514",
+      "athleteName": "Thomas Cawley",
+      "year": 2011,
+      "sport": "田徑"
+    },
+    {
+      "id": "usada-2791db22edc5",
+      "athleteName": "Bill Beyer",
+      "year": 2010,
+      "sport": "鐵人三項"
+    },
+    {
+      "id": "usada-aebc5c3ff7f3",
+      "athleteName": "Vahe Aivazian",
+      "year": 2010,
+      "sport": "自行車"
+    },
+    {
+      "id": "usada-e05e2fe6db96",
+      "athleteName": "Thomas Luton",
+      "year": 2010,
+      "sport": "自行車"
+    },
+    {
+      "id": "usada-9aa5cea0cfe1",
+      "athleteName": "Tammy Thomas",
+      "year": 2002,
+      "sport": "自行車"
+    }
+  ],
+  "datePending": [
+    {
+      "id": "ita-a9d763121732",
+      "athleteName": "Aymane Takzima",
+      "sources": [
+        {
+          "title": "個案官方公告",
+          "url": "https://ita.sport/news/the-ita-reports-that-athlete-aymane-takzima-has-accepted-a-3-year-ban-for-his-breach-of-anti-doping-rules/",
+          "type": "官方公告"
+        },
+        {
+          "title": "ITA 官方個案紀錄：Takzima, Aymane | Morocco | 20 November 2022",
+          "url": "https://ita.sport/anti-doping-rule-violations/",
+          "type": "官方名冊"
+        }
+      ]
+    },
+    {
+      "id": "aiu-b92f69a6866b",
+      "athleteName": "Patricia Álvarez Pérez",
+      "sources": [
+        {
+          "title": "Patricia Alvarez：AIU／World Athletics 個案決定",
+          "url": "https://www.athleticsintegrity.org/downloads/pdfs/disciplinary-process/en/260511-WA-v-Alvarez-Decision-Final.pdf",
+          "type": "官方個案文件"
+        },
+        {
+          "title": "AIU 官方個案紀錄：Patricia Alvarez | ESP | 11/05/2026",
+          "url": "https://www.athleticsintegrity.org/disciplinary-process/first-instance-decisions",
+          "type": "官方名冊"
+        }
+      ]
+    },
+    {
+      "id": "aiu-fcb63b1504c8",
+      "athleteName": "Kibiwott Kandie",
+      "sources": [
+        {
+          "title": "Kibiwott Kandie：AIU／World Athletics 個案決定",
+          "url": "https://www.athleticsintegrity.org/downloads/pdfs/disciplinary-process/en/Kibwott-KANDIE-Decision.pdf",
+          "type": "官方個案文件"
+        },
+        {
+          "title": "AIU 官方個案紀錄：Kibiwott Kandie | KEN | 25/06/2026",
+          "url": "https://www.athleticsintegrity.org/disciplinary-process/first-instance-decisions",
+          "type": "官方名冊"
+        }
+      ]
+    },
+    {
+      "id": "aiu-dbc9a1f66bb9",
+      "athleteName": "Nancy Jelagat Meto",
+      "sources": [
+        {
+          "title": "Nancy Jelagat Meto：AIU 個案決定",
+          "url": "https://www.athleticsintegrity.org/downloads/pdfs/disciplinary-process/en/AIU-24-175-Nancy-Jelagat-Meto-Decision.pdf",
+          "type": "官方個案文件"
+        },
+        {
+          "title": "AIU 官方個案紀錄：Nancy Jelagat Meto | KEN | 17/03/2026",
+          "url": "https://www.athleticsintegrity.org/disciplinary-process/first-instance-decisions",
+          "type": "官方名冊"
+        }
+      ]
+    },
+    {
+      "id": "aiu-190ce97cb856",
+      "athleteName": "Nobert Kigen",
+      "sources": [
+        {
+          "title": "Nobert Kigen：AIU 個案決定",
+          "url": "https://www.athleticsintegrity.org/downloads/pdfs/disciplinary-process/en/AIU-23-433-KIGEN-Decision.pdf",
+          "type": "官方個案文件"
+        },
+        {
+          "title": "AIU 官方個案紀錄：Nobert Kigen | KEN | 08/03/2024",
+          "url": "https://www.athleticsintegrity.org/disciplinary-process/first-instance-decisions",
+          "type": "官方名冊"
+        }
+      ]
+    },
+    {
+      "id": "usada-0f682f5a12d7",
+      "athleteName": "Marck Harrison",
+      "sources": [
+        {
+          "title": "U.S. Paralympic Boccia Athlete Marck Harrison Accepts Public Warning",
+          "url": "https://www.usada.org/sanction/marck-harrison-accepts-public-warning/",
+          "type": "官方個案文件"
+        },
+        {
+          "title": "USADA 官方處分名冊",
+          "url": "https://www.usada.org/results/sanctions/",
+          "type": "官方名冊"
+        }
+      ]
+    },
+    {
+      "id": "usada-f49825dfb87e",
+      "athleteName": "Sharon Jackson",
+      "sources": [
+        {
+          "title": "U.S. Racquetball Athlete Sharon Jackson Accepts Public Warning",
+          "url": "https://www.usada.org/sanction/sharon-jackson-accepts-public-warning/",
+          "type": "官方個案文件"
+        },
+        {
+          "title": "USADA 官方處分名冊",
+          "url": "https://www.usada.org/results/sanctions/",
+          "type": "官方名冊"
+        }
+      ]
+    }
+  ]
+}

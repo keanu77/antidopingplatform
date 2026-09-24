@@ -1,0 +1,541 @@
+{
+  "cases": [
+    {
+      "id": "usada-5eac04b001f6",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-7ef7e1f77f1fcd09",
+        "registry-a1c17e2f648b6c64"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-7ef7e1f77f1fcd09",
+          "startLine": 1,
+          "endLine": 9,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告確認 Addison Jones 於 2019-12-08 賽內檢出超過界限之 Carboxy-THC，處 6 個月禁賽且因教育減免 3 個月並取消成績"
+        },
+        {
+          "documentId": "registry-a1c17e2f648b6c64",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊登錄 6 個月禁賽含 3 個月暫緩及取消成績"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "nationality",
+          "explanation": "官方文件僅於標題載明「U.S. Weightlifting Athlete」並提及密西西比州居住地，無明確公民國籍或官方體育代表權證明，依規範列為不確定。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-7ef7e1f77f1fcd09",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "應補足代表權證明或將國籍標記為待確認。"
+        }
+      ]
+    },
+    {
+      "id": "usada-496b0452d607",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-fd47c7af507f97c0",
+        "registry-b7292658731890c8"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-fd47c7af507f97c0",
+          "startLine": 1,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告確認 Robert Strange 於 2019-08-16 IWF 大師世錦賽檢出 DHEA，考量遵醫囑使用非處方補充品認定較低過失處 1 年禁賽並取消成績"
+        },
+        {
+          "documentId": "registry-b7292658731890c8",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊記錄 1 年禁賽及取消成績"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "nationality",
+          "explanation": "公告雖於標題寫有「U.S. Weightlifting Athlete」、提及加州居住地並以其為美國運動員為由移交 USADA，但無正式公民國籍或代表隊資格證明，依規範列為不確定。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-fd47c7af507f97c0",
+              "startLine": 1,
+              "endLine": 9
+            }
+          ],
+          "suggestion": "建議補足運動員代表權證明或將國籍標記為待確認。"
+        }
+      ]
+    },
+    {
+      "id": "usada-a6e4b38ecdbe",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-9e72f4aed3e15ae9",
+        "registry-a61c532ac74ca4fe"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-9e72f4aed3e15ae9",
+          "startLine": 1,
+          "endLine": 7,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告確認 Samantha Dumala 因未事先取得 TUE 使用處方藥 spironolactone 接受公開警告，後續已取得未來使用之 TUE，未載明事件日期"
+        },
+        {
+          "documentId": "registry-a61c532ac74ca4fe",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "dates"
+          ],
+          "note": "名冊記錄滑水運動員接受公開警告"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "nationality",
+          "explanation": "公告僅於標題提及「U.S. Waterskiing Athlete」與佛羅里達州居住地，無明確法定國籍或體育代表權文件，依規範列為不確定。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-9e72f4aed3e15ae9",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "補足代表權或公民身分佐證，或將國籍欄位標註待確認。"
+        }
+      ]
+    },
+    {
+      "id": "usada-123713999e9c",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-01f27031a0280b63",
+        "registry-590d9fc54a14c1bc"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-01f27031a0280b63",
+          "startLine": 1,
+          "endLine": 12,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告確認舉重教練 Scott Glasgow 於 2017 年鼓勵選手使用 oxandrolone 構成共謀，處以 4 年禁賽"
+        },
+        {
+          "documentId": "registry-590d9fc54a14c1bc",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "dates"
+          ],
+          "note": "名冊記錄非分析共謀違規處 4 年禁賽"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "nationality",
+          "explanation": "文件僅於標題包含「U.S. Weightlifting Athlete」並提及猶他州居住地，缺乏明確法定國籍證明，依規範列為不確定。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-01f27031a0280b63",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "補充教練之正式國籍或代表身分證明，或標註為待確認。"
+        }
+      ]
+    },
+    {
+      "id": "usada-74fda1ee0cc3",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-ab550e62f8586321",
+        "registry-41b391be98a6fb1a"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-ab550e62f8586321",
+          "startLine": 1,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告確認 Miranda Merrell 因持有及使用教練提供之 oxandrolone 處 2 年禁賽，並取消自約略首次使用日 2017-05-01 起之成績"
+        },
+        {
+          "documentId": "registry-41b391be98a6fb1a",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊登錄 2 年禁賽及取消成績"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "nationality",
+          "explanation": "公告僅有標題「U.S. Weightlifting Athlete」與猶他州居住地資訊，無具體國籍或官方代表權紀錄，依規範列為不確定。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-ab550e62f8586321",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "補足正式國籍佐證，或將國籍調整為待確認。"
+        }
+      ]
+    },
+    {
+      "id": "usada-fb72031d87b1",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-e26b0ca7a530ec09",
+        "registry-433e5761715b8937"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-e26b0ca7a530ec09",
+          "startLine": 1,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告確認 Alexandria Gochenour 於 2018-06-24 全美戶外田徑錦標賽檢出 ostarine，接受 4 年禁賽並取消成績"
+        },
+        {
+          "documentId": "registry-433e5761715b8937",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊記錄田徑選手因 ostarine 處 4 年禁賽及取消成績"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "nationality",
+          "explanation": "公告僅於標題提及「U.S. Track and Field Athlete」及密蘇里州居住地，無明確公民國籍或國家隊代表權證明，依規範列為不確定。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-e26b0ca7a530ec09",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "補充代表權或公民資格之證明文件，或標註待確認。"
+        }
+      ]
+    },
+    {
+      "id": "usada-ae780d447bf0",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-2c3e1203825b05f8",
+        "registry-cf52020c33184405"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-2c3e1203825b05f8",
+          "startLine": 1,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告確認 Janelle Shafer 於 2019-01-21 賽外採樣檢出 ostarine，接受 4 年禁賽並取消成績"
+        },
+        {
+          "documentId": "registry-cf52020c33184405",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊記錄舉重選手因 ostarine 處 4 年禁賽及取消成績"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "nationality",
+          "explanation": "文件僅於標題出現「U.S. Weightlifting Athlete」與堪薩斯州居住地，缺乏明確法定國籍或官方代表權文件，依規範列為不確定。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-2c3e1203825b05f8",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "建議補足運動員代表權證明或將國籍標示為待確認。"
+        }
+      ]
+    },
+    {
+      "id": "usada-13a7b9335634",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-1e8a139dfc8d1850",
+        "doc-6a6845bf31f0107e",
+        "registry-9126f8e6bc125468"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-1e8a139dfc8d1850",
+          "startLine": 1,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "AAA 仲裁裁決 Amy Hay 於 2017-03-18 賽內檢出 ostarine，處以 2 年禁賽並取消第一名及後續成績"
+        },
+        {
+          "documentId": "doc-6a6845bf31f0107e",
+          "startLine": 1,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告確認 Amy Hay 於 2017-12-02 退休停算、2019-09-19 復出續算，因實質協助獲減免 6 個月，禁賽至 2020-07-25"
+        },
+        {
+          "documentId": "registry-9126f8e6bc125468",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊登錄原 2 年禁賽、減免處分、復出並於 2020-07-25 起可參賽"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "nationality",
+          "explanation": "公告僅於標題提及「U.S. Weightlifting Athlete」及奧勒岡州居住地，無明確公民國籍或官方代表隊證明，依規範列為不確定。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-1e8a139dfc8d1850",
+              "startLine": 1,
+              "endLine": 7
+            },
+            {
+              "documentId": "doc-6a6845bf31f0107e",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "補足代表權或公民資格之證明文件，或標註為待確認。"
+        }
+      ]
+    }
+  ]
+}

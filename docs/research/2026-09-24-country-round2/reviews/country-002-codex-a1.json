@@ -1,0 +1,88 @@
+{
+  "cases": [
+    {
+      "id": "usada-88685d4069ae",
+      "status": "supported",
+      "identity": "supported",
+      "country": "supported",
+      "temporalScope": "supported",
+      "evidence": [
+        {
+          "documentId": "country",
+          "startLine": 1,
+          "endLine": 1,
+          "note": "Team USA profile names Keiser Witte; its title supports Team USA as listed at lookup."
+        },
+        {
+          "documentId": "country",
+          "startLine": 448,
+          "endLine": 464,
+          "note": "The profile identifies him as a weightlifter, age 31, from Phoenix, and gives 2018 championship experience."
+        },
+        {
+          "documentId": "case",
+          "startLine": 7,
+          "endLine": 8,
+          "note": "USADA identifies Keiser Witte as a weightlifting athlete, age 27, of Tempe, with a 2022 competition sample."
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-a37e4ef92abb",
+      "status": "supported",
+      "identity": "supported",
+      "country": "supported",
+      "temporalScope": "supported",
+      "evidence": [
+        {
+          "documentId": "country",
+          "startLine": 1,
+          "endLine": 1,
+          "note": "Team USA profile names Christian Rodriguez Ocasio; its title supports Team USA as listed at lookup."
+        },
+        {
+          "documentId": "country",
+          "startLine": 448,
+          "endLine": 466,
+          "note": "The profile identifies him as a weightlifter, age 33, and lists 2019 World Championships and Pan American Games experience."
+        },
+        {
+          "documentId": "case",
+          "startLine": 7,
+          "endLine": 8,
+          "note": "USADA identifies Christian Rodriguez Ocasio as a weightlifting athlete, age 29, of Wadsworth, with a 2022 competition sample."
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-159a9ae15f32",
+      "status": "supported",
+      "identity": "supported",
+      "country": "supported",
+      "temporalScope": "supported",
+      "evidence": [
+        {
+          "documentId": "country",
+          "startLine": 1,
+          "endLine": 1,
+          "note": "Team USA profile names Ian Wilson; its title supports Team USA as listed at lookup."
+        },
+        {
+          "documentId": "country",
+          "startLine": 448,
+          "endLine": 465,
+          "note": "The profile identifies Ian Wilson, birth year 1994, Berkeley, California, and weightlifting context."
+        },
+        {
+          "documentId": "case",
+          "startLine": 7,
+          "endLine": 8,
+          "note": "USADA identifies Ian Wilson as a weightlifting athlete of Berkeley, California, age 28, in its 2022 notice."
+        }
+      ],
+      "findings": []
+    }
+  ]
+}

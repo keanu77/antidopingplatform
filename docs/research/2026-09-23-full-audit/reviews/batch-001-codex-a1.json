@@ -1,0 +1,351 @@
+{
+  "cases": [
+    {
+      "id": "ita-cd187870e58d",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-c11b0e559913cf29",
+        "registry-2985687c8e6a2a23"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-c11b0e559913cf29",
+          "startLine": 2,
+          "endLine": 8,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告確認義大利登山滑雪選手、clostebol 代謝物陽性、原四年處分及 CAS 改為20個月；確認非故意、無重大過失，並自採樣日起取消成績。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-f7e39df6dcca",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-ed2d66c5bf6c9a6e",
+        "registry-994f89df5c140102"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-ed2d66c5bf6c9a6e",
+          "startLine": 2,
+          "endLine": 7,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告確認美國壘球選手在世界盃樣本的 B 樣本陽性、及早承認適用一年減刑、三年處分及成績取消。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-34f66203f4e5",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-c0e635563a9e0d0c",
+        "registry-a4acacf5afa1fc4d"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-c0e635563a9e0d0c",
+          "startLine": 2,
+          "endLine": 4,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告確認英國職業鐵人三項選手在12個月內三次行蹤失誤，依2.4條裁處18個月並取消第三次失誤日起成績。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-a9d763121732",
+      "status": "issue",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "issue",
+        "dates": "issue",
+        "outcomes": "issue",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-f52ad9ef20613310",
+        "registry-67905e64310071f5"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-f52ad9ef20613310",
+          "startLine": 4,
+          "endLine": 7,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告載明原三年禁賽自2022年12月23日至2025年12月22日；撤銷暫停期間折抵後，原處分改自2023年4月13日至2026年4月12日，另加三年至2029年4月12日。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "sanction",
+          "kind": "contradiction",
+          "severity": "high",
+          "claim": "喪失原暫時禁賽折抵，原處分改至 2026-04-12 屆滿，再追加三年禁賽",
+          "explanation": "來源說明被撤銷的是2022年12月23日至2023年4月13日已獲的暫停禁賽折抵；原處分因此改自2023年4月13日起算，並非取消折抵後仍保留原處分期間。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-f52ad9ef20613310",
+              "startLine": 4,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "改述為撤銷原暫停禁賽折抵，原三年期間自2023年4月13日至2026年4月12日，另追加三年至2029年4月12日。"
+        },
+        {
+          "field": "dates",
+          "kind": "contradiction",
+          "severity": "high",
+          "claim": "官方所列禁賽期間：13 April 2026 until 12 April 2029",
+          "explanation": "這是追加三年的期間；公告同時列明調整後原三年處分為2023年4月13日至2026年4月12日。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-f52ad9ef20613310",
+              "startLine": 7,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "清楚標示原處分調整後期間與追加期間，避免把追加期間當成全部禁賽期。"
+        },
+        {
+          "field": "outcomes",
+          "kind": "contradiction",
+          "severity": "high",
+          "claim": "成績處理：From 23 December 2022 to 13 August 2026",
+          "explanation": "公告稱自2022年12月23日起取消所有個人成績；名冊的取消期間終點為2026年8月13日，與公告所列2026年8月3日決定日期不一致，且後續期間在公告中未獲說明。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-f52ad9ef20613310",
+              "startLine": 7,
+              "endLine": 7
+            },
+            {
+              "documentId": "registry-67905e64310071f5",
+              "startLine": 19,
+              "endLine": 20
+            }
+          ],
+          "suggestion": "保留公告支持的「自2022年12月23日起取消」；若要列終點，標示名冊所載日期並註明公告未說明該終點。"
+        }
+      ]
+    },
+    {
+      "id": "ita-e4463f173249",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-7432d68748db0570",
+        "registry-7ba2d8b48623ec06"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-7432d68748db0570",
+          "startLine": 2,
+          "endLine": 7,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告確認哈薩克綜合格鬥選手於世界錦標賽樣本檢出兩種物質、因加重情節六年禁賽，且違反暫時禁賽而無折抵。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-833ebc948a5c",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-8e6b9250cc056dd9",
+        "registry-3ff966147eabf9b0"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-8e6b9250cc056dd9",
+          "startLine": 3,
+          "endLine": 7,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告確認保加利亞輕艇選手規避採樣及干擾；初次裁決未認定違規，CAS後續撤銷並裁處六年，已服暫停禁賽期間折抵。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-007d4fee6f50",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-e63bc842cb26469c",
+        "registry-bf647fd42d21f471"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-e63bc842cb26469c",
+          "startLine": 2,
+          "endLine": 6,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告確認吉爾吉斯角力選手於比賽中 meldonium AAF、四年禁賽及自採樣日起取消成績；教學註記未推斷故意使用。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-eb2b272982be",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-7d004e730083fca2",
+        "registry-de3fa19441fc24b6"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-7d004e730083fca2",
+          "startLine": 2,
+          "endLine": 6,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告確認蒙古角力選手的 furosemide 起初為非典型發現，污染未獲證明後作為 AAF 及違規處理，禁賽兩年並取消自採樣日起成績。"
+        }
+      ],
+      "findings": []
+    }
+  ]
+}

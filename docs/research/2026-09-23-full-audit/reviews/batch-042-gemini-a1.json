@@ -1,0 +1,313 @@
+{
+  "cases": [
+    {
+      "id": "aiu-c8dba269da3e",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-79b1cf9e9b4185da",
+        "registry-4186a1ed3294fe6e"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-79b1cf9e9b4185da",
+          "startLine": 1,
+          "endLine": 12,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "選手姓名為 Kokebe Abeba Olekeba，為代表衣索比亞之路跑選手"
+        },
+        {
+          "documentId": "doc-79b1cf9e9b4185da",
+          "startLine": 55,
+          "endLine": 62,
+          "supports": [
+            "event",
+            "substance",
+            "dates"
+          ],
+          "note": "2024-11-02 常州西太湖半程馬拉松賽內樣本檢出 clostebol 代謝物"
+        },
+        {
+          "documentId": "doc-79b1cf9e9b4185da",
+          "startLine": 138,
+          "endLine": 155,
+          "supports": [
+            "event",
+            "education"
+          ],
+          "note": "選手說明無力支付 B 瓶費用並提交藥物包裝圖片，經審查未含 clostebol"
+        },
+        {
+          "documentId": "doc-79b1cf9e9b4185da",
+          "startLine": 254,
+          "endLine": 277,
+          "supports": [
+            "sanction",
+            "outcomes",
+            "dates",
+            "education"
+          ],
+          "note": "及早承認違規獲減免一年，處三年禁賽（自 2024-12-16 起）並取消 2024-11-02 起之競賽成績"
+        },
+        {
+          "documentId": "registry-4186a1ed3294fe6e",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "outcomes",
+            "dates"
+          ],
+          "note": "官方名冊紀錄 2025-03-07 裁決，禁賽三年（自 2024-12-16 起）並取消 2024-11-02 起成績"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "aiu-e9caa78a4236",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-3321bfdd66d3050f",
+        "registry-44adef09a22fd0c0"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-3321bfdd66d3050f",
+          "startLine": 1,
+          "endLine": 13,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "選手 Geoffrey Yegon 為來自肯亞之 36 歲路跑選手"
+        },
+        {
+          "documentId": "doc-3321bfdd66d3050f",
+          "startLine": 59,
+          "endLine": 64,
+          "supports": [
+            "event",
+            "substance",
+            "dates"
+          ],
+          "note": "2024-12-01 新加坡馬拉松賽內樣本檢出 triamcinolone acetonide"
+        },
+        {
+          "documentId": "doc-3321bfdd66d3050f",
+          "startLine": 87,
+          "endLine": 138,
+          "supports": [
+            "event",
+            "education"
+          ],
+          "note": "選手自稱因過敏自行購藥使用，後續未依限提供詳細資訊與正式答辯，視為承認違規並接受處分"
+        },
+        {
+          "documentId": "doc-3321bfdd66d3050f",
+          "startLine": 187,
+          "endLine": 196,
+          "supports": [
+            "sanction",
+            "outcomes",
+            "dates"
+          ],
+          "note": "判定禁賽兩年（自 2025-02-11 暫時停賽日起算）並取消 2024-12-01 起所有競賽成績"
+        },
+        {
+          "documentId": "registry-44adef09a22fd0c0",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "outcomes",
+            "dates"
+          ],
+          "note": "官方名冊紀錄 2025-03-05 裁決 Geoffrey Yegon 處兩年禁賽（自 2025-02-11 起）並取消 2024-12-01 起成績"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "aiu-4abd9315be9a",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-afe6343a335a7816",
+        "registry-eb9bc780b72205aa"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-afe6343a335a7816",
+          "startLine": 1,
+          "endLine": 12,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "選手 Careen Cheptoek 為來自肯亞之 31 歲馬拉松選手"
+        },
+        {
+          "documentId": "doc-afe6343a335a7816",
+          "startLine": 53,
+          "endLine": 63,
+          "supports": [
+            "event",
+            "substance",
+            "dates"
+          ],
+          "note": "2024-12-15 台北馬拉松賽內樣本檢出 methylprednisolone"
+        },
+        {
+          "documentId": "doc-afe6343a335a7816",
+          "startLine": 88,
+          "endLine": 120,
+          "supports": [
+            "event",
+            "education"
+          ],
+          "note": "選手提出之藥品未檢出該成分，亦推測可能來自共用補充飲品，最終簽署承認違規與接受後果協議"
+        },
+        {
+          "documentId": "doc-afe6343a335a7816",
+          "startLine": 146,
+          "endLine": 154,
+          "supports": [
+            "sanction",
+            "outcomes",
+            "dates"
+          ],
+          "note": "處兩年禁賽（自 2025-02-19 起）並取消 2024-12-15 起相關成績"
+        },
+        {
+          "documentId": "registry-eb9bc780b72205aa",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "outcomes",
+            "dates"
+          ],
+          "note": "官方名冊紀錄 2025-02-24 決定 Careen Cheptoek (KEN) 禁賽兩年（自 2025-02-19 起）及取消 2024-12-15 起成績"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "aiu-1b0e964f6fd3",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-de434ea74c11125b",
+        "registry-56ac89997adbfe19"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-de434ea74c11125b",
+          "startLine": 6,
+          "endLine": 15,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "選手 Sheila Jepkosgei Chesang 為來自肯亞之 38 歲馬拉松選手"
+        },
+        {
+          "documentId": "doc-de434ea74c11125b",
+          "startLine": 45,
+          "endLine": 53,
+          "supports": [
+            "event",
+            "substance",
+            "dates"
+          ],
+          "note": "2024-10-06 吉隆坡馬拉松賽內樣本檢出 methylprednisolone"
+        },
+        {
+          "documentId": "doc-de434ea74c11125b",
+          "startLine": 89,
+          "endLine": 109,
+          "supports": [
+            "event",
+            "education"
+          ],
+          "note": "選手提交呼吸道感染處方及用藥申報，經核對品項皆未包含 methylprednisolone"
+        },
+        {
+          "documentId": "doc-de434ea74c11125b",
+          "startLine": 123,
+          "endLine": 159,
+          "supports": [
+            "sanction",
+            "outcomes",
+            "dates"
+          ],
+          "note": "簽署接受後果，處兩年禁賽（自 2025-01-15 暫時停賽日起算）並取消 2024-10-06 起所有成績"
+        },
+        {
+          "documentId": "registry-56ac89997adbfe19",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "outcomes",
+            "dates"
+          ],
+          "note": "官方名冊紀錄 2025-02-13 最終裁決 Sheila Jepkosgei Chesang (KEN) 禁賽兩年（自 2025-01-15 起）並取消 2024-10-06 起成績"
+        }
+      ],
+      "findings": []
+    }
+  ]
+}

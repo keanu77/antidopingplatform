@@ -1,0 +1,431 @@
+{
+  "cases": [
+    {
+      "id": "ita-cd187870e58d",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-c11b0e559913cf29",
+        "registry-2985687c8e6a2a23"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-c11b0e559913cf29",
+          "startLine": 1,
+          "endLine": 2,
+          "supports": [
+            "identity",
+            "country",
+            "event"
+          ],
+          "note": "義大利登山滑雪運動員 Enrico Pellegrini，CAS 於 2026-09-11 裁定非故意及無重大過失，改判為 20 個月禁賽"
+        },
+        {
+          "documentId": "doc-c11b0e559913cf29",
+          "startLine": 3,
+          "endLine": 4,
+          "supports": [
+            "substance",
+            "event"
+          ],
+          "note": "2025-01-28 樣本檢出 clostebol 代謝物，禁用物質列表分類為非指定物質"
+        },
+        {
+          "documentId": "doc-c11b0e559913cf29",
+          "startLine": 8,
+          "endLine": 8,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "CAS 裁決 20 個月禁賽，2025-02-26 至 2026-10-25"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-f7e39df6dcca",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-ed2d66c5bf6c9a6e",
+        "registry-994f89df5c140102"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-ed2d66c5bf6c9a6e",
+          "startLine": 2,
+          "endLine": 3,
+          "supports": [
+            "identity",
+            "country",
+            "event"
+          ],
+          "note": "美國壘球選手 Cameron Schiller，接受禁賽後由 ITA 代表 WBSC 作成決定"
+        },
+        {
+          "documentId": "doc-ed2d66c5bf6c9a6e",
+          "startLine": 4,
+          "endLine": 5,
+          "supports": [
+            "substance",
+            "dates"
+          ],
+          "note": "2025-07-13 樣本檢出 19-norandrosterone，B 樣本確認"
+        },
+        {
+          "documentId": "doc-ed2d66c5bf6c9a6e",
+          "startLine": 6,
+          "endLine": 7,
+          "supports": [
+            "sanction",
+            "outcomes"
+          ],
+          "note": "及早承認機制適用一年減刑，最終 3 年禁賽，2025-08-08 至 2028-08-07"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-34f66203f4e5",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-c0e635563a9e0d0c",
+        "registry-a4acacf5afa1fc4d"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-c0e635563a9e0d0c",
+          "startLine": 2,
+          "endLine": 3,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance"
+          ],
+          "note": "英國職業鐵人三項運動員 Joe Skipper，2024-07-01 至 2025-05-15 間三次行蹤失誤，違反 article 2.4"
+        },
+        {
+          "documentId": "doc-c0e635563a9e0d0c",
+          "startLine": 4,
+          "endLine": 4,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "IHP 於 2026-08-17 裁決 18 個月禁賽，自 2026-05-18 起算，取消自 2025-05-15 起相關成績"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-a9d763121732",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "uncertain",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-f52ad9ef20613310",
+        "registry-67905e64310071f5"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-f52ad9ef20613310",
+          "startLine": 2,
+          "endLine": 3,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance"
+          ],
+          "note": "摩洛哥空手道運動員 Aymane Takzima，禁賽期間從事教練活動，違反 article 10.14.1"
+        },
+        {
+          "documentId": "doc-f52ad9ef20613310",
+          "startLine": 7,
+          "endLine": 7,
+          "supports": [
+            "sanction",
+            "outcomes"
+          ],
+          "note": "撤銷暫時禁賽折抵，追加 3 年禁賽，2026-04-13 至 2029-04-12"
+        }
+      ],
+      "findings": [
+        {
+          "field": "dates",
+          "kind": "insufficient_evidence",
+          "severity": "medium",
+          "claim": "違規發生日期（Violation Date）及成績處理終止日期",
+          "explanation": "官方名冊列「違規日：2022-11-20」，惟公告文件未明確說明該日期與禁賽期間教練活動之關連；成績處理終止日期「2026-08-13」僅出現於官方名冊，公告文件未提及此日期",
+          "sourceRefs": [
+            {
+              "documentId": "registry-67905e64310071f5",
+              "startLine": 14,
+              "endLine": 14
+            },
+            {
+              "documentId": "registry-67905e64310071f5",
+              "startLine": 20,
+              "endLine": 20
+            }
+          ],
+          "suggestion": "應釐清官方名冊中「2022-11-20」是否為原始 2.1/2.2 違規日期（而非本案 10.14.1 違規日期），以及「2026-08-13」終止日之計算依據"
+        }
+      ]
+    },
+    {
+      "id": "ita-e4463f173249",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-7432d68748db0570",
+        "registry-7ba2d8b48623ec06"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-7432d68748db0570",
+          "startLine": 2,
+          "endLine": 3,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance"
+          ],
+          "note": "哈薩克綜合格鬥運動員 Nursultan Mendybayev，2025-06-22 樣本檢出 drostanolone 代謝物及 meldonium"
+        },
+        {
+          "documentId": "doc-7432d68748db0570",
+          "startLine": 7,
+          "endLine": 10,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "因加重情節增加禁賽至 6 年，2026-08-12 至 2032-08-11；暫時禁賽違反未獲折抵"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-833ebc948a5c",
+      "status": "issue",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "issue",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-8e6b9250cc056dd9",
+        "registry-3ff966147eabf9b0"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-8e6b9250cc056dd9",
+          "startLine": 2,
+          "endLine": 3,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance"
+          ],
+          "note": "保加利亞輕艇運動員 Yoana Georgieva，2023-12-15 規避採樣及干擾，違反 article 2.3 及 2.5"
+        },
+        {
+          "documentId": "doc-8e6b9250cc056dd9",
+          "startLine": 6,
+          "endLine": 7,
+          "supports": [
+            "sanction",
+            "outcomes"
+          ],
+          "note": "CAS 於 2026-08-03 撤銷原判，改判 6 年禁賽（因加重情節），並取消自 2023-12-15 起成績"
+        },
+        {
+          "documentId": "doc-8e6b9250cc056dd9",
+          "startLine": 10,
+          "endLine": 10,
+          "supports": [
+            "dates"
+          ],
+          "note": "暫時禁賽 2024-06-10 至 2024-07-15（約 36 日）應自 6 年禁賽期扣除"
+        }
+      ],
+      "findings": [
+        {
+          "field": "dates",
+          "kind": "contradiction",
+          "severity": "high",
+          "claim": "禁賽終止日期計算",
+          "explanation": "公告文件載明 2026-08-03 開始 6 年禁賽，扣除暫時禁賽約 36 日（2024-06-10 至 2024-07-15），應終止於 2032-07-29 左右；惟官方名冊載終止日為 2032-06-27，相差約 32 日",
+          "sourceRefs": [
+            {
+              "documentId": "doc-8e6b9250cc056dd9",
+              "startLine": 7,
+              "endLine": 10
+            },
+            {
+              "documentId": "registry-3ff966147eabf9b0",
+              "startLine": 16,
+              "endLine": 16
+            }
+          ],
+          "suggestion": "確認官方名冊終止日期 2032-06-27 之計算方法，或名冊數據是否有誤"
+        }
+      ]
+    },
+    {
+      "id": "ita-007d4fee6f50",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-e63bc842cb26469c",
+        "registry-bf647fd42d21f471"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-e63bc842cb26469c",
+          "startLine": 2,
+          "endLine": 3,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance"
+          ],
+          "note": "吉爾吉斯角力運動員 Syimyk Makhmedov，2024-10-11 樣本檢出 meldonium，違反 article 2.1/2.2"
+        },
+        {
+          "documentId": "doc-e63bc842cb26469c",
+          "startLine": 6,
+          "endLine": 6,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "禁賽 4 年，2024-11-21 至 2028-11-20，取消自採樣日起相關成績"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-eb2b272982be",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-7d004e730083fca2",
+        "registry-de3fa19441fc24b6"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-7d004e730083fca2",
+          "startLine": 2,
+          "endLine": 3,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance"
+          ],
+          "note": "蒙古角力運動員 Erdenesuvd Bat Erdene，2023-09-21 樣本檢出利尿劑 furosemide"
+        },
+        {
+          "documentId": "doc-7d004e730083fca2",
+          "startLine": 5,
+          "endLine": 5,
+          "supports": [
+            "education"
+          ],
+          "note": "初為非典型發現，經調查未能證明污染來源，改列為不利檢驗結果及違規"
+        },
+        {
+          "documentId": "doc-7d004e730083fca2",
+          "startLine": 6,
+          "endLine": 6,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "禁賽 2 年，2026-08-04 至 2028-08-03，取消自採樣日起相關成績"
+        }
+      ],
+      "findings": []
+    }
+  ]
+}

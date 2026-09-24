@@ -1,0 +1,501 @@
+{
+  "cases": [
+    {
+      "id": "usada-8fb29d61bbde",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-4573ef41a84fb854",
+        "registry-f307394fc95bcc2e"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-4573ef41a84fb854",
+          "startLine": 7,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "event",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "帕拉單板滑雪選手於2023-01-17賽外獲通知後未提交檢體，依10.8.1由四年減為三年，自2023-02-24起算，並取消該日以後成績。"
+        },
+        {
+          "documentId": "registry-f307394fc95bcc2e",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction"
+          ],
+          "note": "名冊列拒絕提交檢體、三年禁賽及取消成績。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "nationality 美國",
+          "explanation": "公告標題稱美國帕拉單板滑雪選手並載猶他州居住地，且依USOPC政策管理，但正文未另載國籍或代表隊。僅憑標題、居住地與發布機構管轄不能確立國籍或參賽代表，也沒有相反或台灣證據。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-4573ef41a84fb854",
+              "startLine": 1,
+              "endLine": 8
+            }
+          ],
+          "suggestion": "補充能證明參賽代表或國籍的資料；在此之前應標為未確立，而非改寫成其他國籍。"
+        }
+      ]
+    },
+    {
+      "id": "usada-88685d4069ae",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-c7b3edadb1ceb71f",
+        "registry-fbfdf5830b5e4cb3"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-c7b3edadb1ceb71f",
+          "startLine": 7,
+          "endLine": 11,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "2022-12-04 North American Open Finals賽內尿液carboxy-THC超過判定界限180 ng/mL；賽外使用、與表現無關且完成處遇後減為一個月，自2023-01-13起，並取消該採樣日起成績。"
+        },
+        {
+          "documentId": "registry-fbfdf5830b5e4cb3",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction"
+          ],
+          "note": "名冊列舉重、大麻素、一個月禁賽及取消成績。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "nationality 美國",
+          "explanation": "標題稱美國舉重選手並載亞利桑那州居住地，正文未另載國籍或代表隊。不能只依美國選手標題、居住地與USADA管轄認定國籍或參賽代表，亦無相反證據。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-c7b3edadb1ceb71f",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "補充代表隊或國籍資料；未補前維持未確立。"
+        }
+      ]
+    },
+    {
+      "id": "usada-5f1f4ed8c4a9",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-cbf6e2f434564382",
+        "registry-e47388d08d625c68"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-cbf6e2f434564382",
+          "startLine": 8,
+          "endLine": 13,
+          "supports": [
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "2022-10-23賽內檢出chlorothiazide，來源為國外自行購買HCTZ且無TUE；另於10-21接受超過每12小時100 mL、不含禁藥的食鹽水與維他命輸注。禁賽12個月自2023-02-07接受日起，成績取消僅限10-21至10-23。"
+        },
+        {
+          "documentId": "registry-e47388d08d625c68",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction"
+          ],
+          "note": "名冊列chlorothiazide與非分析性靜脈使用、一年禁賽及取消成績。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "nationality 美國",
+          "explanation": "標題稱美國自行車選手並載邁阿密居住地，正文未另載國籍或代表隊。標題、居住地與管轄不足以確立國籍或參賽代表，也沒有相反或台灣證據。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-cbf6e2f434564382",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "補充代表隊或國籍來源；未補前不要把美國選手標題寫成已證實國籍。"
+        }
+      ]
+    },
+    {
+      "id": "usada-d7d75c2efaf9",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-0dbfd10e8292f451",
+        "registry-e6bd95b5cdd82584"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-0dbfd10e8292f451",
+          "startLine": 7,
+          "endLine": 12,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "2022-05-21 Joe Martin Stage Race檢出5-methylhexan-2-amine；補充品含該未標示成分，標籤另列DMAA。禁賽12個月自2022-06-21起，並取消2022-05-21起成績。"
+        },
+        {
+          "documentId": "registry-e6bd95b5cdd82584",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction"
+          ],
+          "note": "名冊列同一物質、一年禁賽及取消成績。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "nationality 美國",
+          "explanation": "公告以美國自行車選手為標題並載科羅拉多居住地，但未另說明國籍或代表何隊。依審查標準此不足以確立國籍或參賽代表，亦非已證明的錯誤國籍。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-0dbfd10e8292f451",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "另附代表隊或國籍證據后再標示美國。"
+        }
+      ]
+    },
+    {
+      "id": "usada-a37e4ef92abb",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-8880c299ebca801a",
+        "registry-00737ab887a2ad6b"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-8880c299ebca801a",
+          "startLine": 7,
+          "endLine": 11,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "2022-03-04 North American Open Series 1與大學全國賽檢出heptaminol；所提供的補充品混合物含octodrine且各標籤未列禁藥。禁賽12個月自2022-04-06起，並取消2022-03-04起成績。"
+        },
+        {
+          "documentId": "registry-00737ab887a2ad6b",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction"
+          ],
+          "note": "名冊列heptaminol與octodrine、一年禁賽及取消成績。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "nationality 美國",
+          "explanation": "標題稱美國舉重選手並載俄亥俄州居住地，正文沒有獨立的國籍或代表隊記載。不能僅依該標題與居住地確立國籍或參賽代表。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-8880c299ebca801a",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "補上代表隊或國籍資料；目前應維持未確立。"
+        }
+      ]
+    },
+    {
+      "id": "usada-091e5bf27388",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-ce50a2d3b06df684",
+        "registry-e77e02d113af23c2"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-ce50a2d3b06df684",
+          "startLine": 7,
+          "endLine": 12,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "2021-12-26賽外檢體經IRMS確認合成來源的testosterone或其前驅物；聽證當日接受四年。自2022-02-07起算，2022-03-14退休後停止計時。2007年前案超過十年，本案依規則視為首次。取消2021-12-26起成績。"
+        },
+        {
+          "documentId": "registry-e77e02d113af23c2",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "sanction",
+            "outcomes"
+          ],
+          "note": "名冊列四年禁賽、取消成績，並註明因退休而停止計時。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "nationality 美國",
+          "explanation": "標題為美國田徑選手並載內華達居住地，正文未另載國籍或代表隊。此組合不足以確立國籍或參賽代表，也沒有指出台灣或相反代表。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-ce50a2d3b06df684",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "需要代表隊或國籍的獨立記載才能支持「美國」。"
+        }
+      ]
+    },
+    {
+      "id": "usada-0265c80a975c",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-69d90391fc2a2f23",
+        "registry-3888a8a9809e2a09"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-69d90391fc2a2f23",
+          "startLine": 7,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "2022-10-17賽外檢出ostarine與LGD-4033代謝物；依10.8.1由四年減為三年。自2022-11-02起算，2022-11-08退休後停止計時，並取消2022-10-17起成績。"
+        },
+        {
+          "documentId": "registry-3888a8a9809e2a09",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction"
+          ],
+          "note": "名冊列ostarine、LGD-4033、三年禁賽、取消成績及退休停算。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "nationality 美國",
+          "explanation": "公告標題稱美國田徑選手並載奧勒岡居住地，沒有另行載明國籍或代表隊。依標準不能把美國選手標題單獨當成已確立的國籍或參賽代表。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-69d90391fc2a2f23",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "補代表隊或國籍證據；未補前標為未確立而非改判其他國籍。"
+        }
+      ]
+    },
+    {
+      "id": "usada-1c34e76fa2a0",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-2ea101af4111488b",
+        "registry-ca4a9166730924cd"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-2ea101af4111488b",
+          "startLine": 7,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "雪車選手於2022-03-29賽外獲通知後未提交檢體；調查認定屬過失而非故意，故由預設四年減為兩年。自2022-11-08接受日起算，並取消2022-03-29起成績。"
+        },
+        {
+          "documentId": "registry-ca4a9166730924cd",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction"
+          ],
+          "note": "名冊列拒絕提交檢體、兩年禁賽及取消成績。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "nationality 美國",
+          "explanation": "標題稱美國雪車選手並載亞特蘭大居住地，正文未另載國籍或代表隊。發布機構管轄、居住地與美國選手標題不足以確立國籍或參賽代表，亦無台灣證據或相反記載。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-2ea101af4111488b",
+              "startLine": 1,
+              "endLine": 8
+            }
+          ],
+          "suggestion": "另以代表隊名單或同等官方記載支持國籍欄；目前保持未確立。"
+        }
+      ]
+    }
+  ]
+}

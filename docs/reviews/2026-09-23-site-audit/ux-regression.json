@@ -1,0 +1,318 @@
+{
+  "startedAt": "2026-09-23T08:59:38.190Z",
+  "baseURL": "http://127.0.0.1:4179",
+  "buildIndexSha256": "3ae421488600dc5fdaf27c985f3302457cc8cabafdf3c1338c2af54b8fa55006",
+  "method": "Chromium headless; actual local build; API errors and response ordering injected in browser routes",
+  "feedbackRequestsBlocked": 0,
+  "externalRequestsBlocked": 0,
+  "results": [
+    {
+      "id": "desktop:cases-search-pagination-clear",
+      "description": "Actual API: paginate, search, clear pending search, restore all cases",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "status": "pass",
+      "pageErrors": [],
+      "evidence": {
+        "firstPageCount": 12,
+        "differentSecondPage": true,
+        "restoredTotal": 517,
+        "pendingSearchCancelled": true
+      },
+      "durationMs": 1301
+    },
+    {
+      "id": "desktop:cases-error-recovery",
+      "description": "A failed search is followed by a successful search without a stale error banner",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "status": "pass",
+      "pageErrors": [],
+      "evidence": {
+        "injectedStatus": 500,
+        "successfulRetryClearsError": true
+      },
+      "durationMs": 593
+    },
+    {
+      "id": "desktop:cases-response-race",
+      "description": "Late search A cannot replace already-rendered search B",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "status": "pass",
+      "pageErrors": [],
+      "evidence": {
+        "responseOrder": [
+          "B",
+          "A"
+        ],
+        "finalResult": "B"
+      },
+      "durationMs": 591
+    },
+    {
+      "id": "desktop:detail-404",
+      "description": "Missing case receives the 404-specific message",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "status": "pass",
+      "pageErrors": [],
+      "evidence": {
+        "notFoundShown": true,
+        "transportErrorNotShown": true
+      },
+      "durationMs": 548
+    },
+    {
+      "id": "desktop:detail-500-retry",
+      "description": "Existing case 500 is shown as loading failure and can be retried",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "status": "pass",
+      "pageErrors": [],
+      "evidence": {
+        "requestCount": 2,
+        "restoredCase": "aiu-8305315880ae"
+      },
+      "durationMs": 605
+    },
+    {
+      "id": "desktop:tue-enter-query-race",
+      "description": "Repeated Enter is deduplicated; editing query invalidates older response",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "status": "pass",
+      "pageErrors": [],
+      "evidence": {
+        "duplicateEnterRequests": 1,
+        "newQueryRequests": 1,
+        "finalQuery": "Query B"
+      },
+      "durationMs": 1028
+    },
+    {
+      "id": "desktop:tue-control-labels",
+      "description": "Decision selects are named and competition buttons expose selected state",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "status": "pass",
+      "pageErrors": [],
+      "evidence": {
+        "namedControls": [
+          "選擇藥物",
+          "給藥途徑",
+          "運動項目"
+        ],
+        "competitionStateExposed": true
+      },
+      "durationMs": 933
+    },
+    {
+      "id": "desktop:education-adrv-retry",
+      "description": "ADRV failure stops the spinner and its retry loads data",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "status": "pass",
+      "pageErrors": [],
+      "evidence": {
+        "requestCount": 2,
+        "retryRestoresPanel": true
+      },
+      "durationMs": 936
+    },
+    {
+      "id": "desktop:dropdown-escape-focus",
+      "description": "Desktop dropdown Escape closes and restores trigger focus",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "status": "pass",
+      "pageErrors": [],
+      "evidence": {
+        "closed": true,
+        "focusRestored": true
+      },
+      "durationMs": 578
+    },
+    {
+      "id": "mobile390:cases-search-pagination-clear",
+      "description": "Actual API: paginate, search, clear pending search, restore all cases",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "pass",
+      "pageErrors": [],
+      "evidence": {
+        "firstPageCount": 12,
+        "differentSecondPage": true,
+        "restoredTotal": 517,
+        "pendingSearchCancelled": true
+      },
+      "durationMs": 1424
+    },
+    {
+      "id": "mobile390:cases-error-recovery",
+      "description": "A failed search is followed by a successful search without a stale error banner",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "pass",
+      "pageErrors": [],
+      "evidence": {
+        "injectedStatus": 500,
+        "successfulRetryClearsError": true
+      },
+      "durationMs": 593
+    },
+    {
+      "id": "mobile390:cases-response-race",
+      "description": "Late search A cannot replace already-rendered search B",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "pass",
+      "pageErrors": [],
+      "evidence": {
+        "responseOrder": [
+          "B",
+          "A"
+        ],
+        "finalResult": "B"
+      },
+      "durationMs": 625
+    },
+    {
+      "id": "mobile390:detail-404",
+      "description": "Missing case receives the 404-specific message",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "pass",
+      "pageErrors": [],
+      "evidence": {
+        "notFoundShown": true,
+        "transportErrorNotShown": true
+      },
+      "durationMs": 552
+    },
+    {
+      "id": "mobile390:detail-500-retry",
+      "description": "Existing case 500 is shown as loading failure and can be retried",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "pass",
+      "pageErrors": [],
+      "evidence": {
+        "requestCount": 2,
+        "restoredCase": "aiu-8305315880ae"
+      },
+      "durationMs": 631
+    },
+    {
+      "id": "mobile390:tue-enter-query-race",
+      "description": "Repeated Enter is deduplicated; editing query invalidates older response",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "pass",
+      "pageErrors": [],
+      "evidence": {
+        "duplicateEnterRequests": 1,
+        "newQueryRequests": 1,
+        "finalQuery": "Query B"
+      },
+      "durationMs": 975
+    },
+    {
+      "id": "mobile390:tue-control-labels",
+      "description": "Decision selects are named and competition buttons expose selected state",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "pass",
+      "pageErrors": [],
+      "evidence": {
+        "namedControls": [
+          "選擇藥物",
+          "給藥途徑",
+          "運動項目"
+        ],
+        "competitionStateExposed": true
+      },
+      "durationMs": 1064
+    },
+    {
+      "id": "mobile390:education-adrv-retry",
+      "description": "ADRV failure stops the spinner and its retry loads data",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "pass",
+      "pageErrors": [],
+      "evidence": {
+        "requestCount": 2,
+        "retryRestoresPanel": true
+      },
+      "durationMs": 935
+    },
+    {
+      "id": "mobile390:mobile-menu-navigation",
+      "description": "390px navigation opens and selecting a destination closes it",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "pass",
+      "pageErrors": [],
+      "evidence": {
+        "navigatedTo": "/education",
+        "menuClosed": true
+      },
+      "durationMs": 682
+    },
+    {
+      "id": "mobile390:mobile-menu-escape-focus",
+      "description": "390px navigation Escape closes and restores its toggle focus",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "pass",
+      "pageErrors": [],
+      "evidence": {
+        "closed": true,
+        "focusRestored": true
+      },
+      "durationMs": 627
+    }
+  ],
+  "finishedAt": "2026-09-23T08:59:54.128Z",
+  "passed": 19,
+  "failed": 0
+}

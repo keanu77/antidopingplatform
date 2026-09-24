@@ -1,0 +1,350 @@
+{
+  "cases": [
+    {
+      "id": "usada-bfeee80825b1",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-d6c819fcf5292233",
+        "registry-4b727db26e030d46"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-d6c819fcf5292233",
+          "startLine": 7,
+          "endLine": 11,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "Kaitlyn Jarrett, 18 歲，舉重，美國，2017-12-14 賽外檢體檢出 higenamine，β2 致效劑，年齡與信賴家人建議為減輕因素，申報於檢體表，1 年禁賽自 2017-12-14 起，取消 2017-12-14 後成績"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-901736ce5e01",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-ffe6c15f0ffb3987",
+        "registry-8fb55d0a9cec95dd"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-ffe6c15f0ffb3987",
+          "startLine": 7,
+          "endLine": 9,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "Lazaro Roman，48 歲，舉重，美國，2017-11-11 美國碩士舉重錦標賽賽中檢體，higenamine、clomiphene、DHCMT M3 三類禁用物質陽性，4 年禁賽自 2017-12-12（臨時禁賽日期）起，取消 2017-11-11 後成績"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-503574acf7cc",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-b0ca747fc0dcecc9",
+        "registry-1736652b5541e306"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-b0ca747fc0dcecc9",
+          "startLine": 7,
+          "endLine": 9,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "Mihail (Mike) Alexandrov，32 歲，游泳，美國，2017-06-04 聖克拉拉 Arena Pro Swim Series 賽中檢體，benzoylecgonine 與 methylecgonine（cocaine 代謝物），S6 興奮劑，1 年禁賽自 2017-08-24（復出日）起，取消 2017-06-04 後成績"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-e6a03aa80344",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-a2093ed226eed092",
+        "registry-c3ea5a2a82421162"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-a2093ed226eed092",
+          "startLine": 7,
+          "endLine": 9,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "David Less，56 歲，自行車，美國，2017-10-13 賽外檢測拒絕提供檢體，非物質違規，2 年禁賽自 2017-10-13 起（通常 4 年減輕至 2 年），取消 2017-10-13 後成績"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-5dd19e96b68c",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-ce9a1f8df46210d5",
+        "registry-c4c3eb48602682ba"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-ce9a1f8df46210d5",
+          "startLine": 7,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "Craig Webb，57 歲，自行車，美國，2017-11-11 Bell's Iceman Cometh Challenge 分齡組名列前茅，2017-11-04 完賽後拒絕提供檢體，4 年禁賽自 2017-11-04 起，取消 2017-11-04 後成績"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-f49825dfb87e",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "uncertain",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "uncertain",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-f1e38c484db7ba07",
+        "registry-0d3e17b28c56e1d3"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-f1e38c484db7ba07",
+          "startLine": 7,
+          "endLine": 7,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "outcomes"
+          ],
+          "note": "Sharon Jackson，28 歲，短柄牆球，美國，spironolactone 處方藥未事先取得 TUE，採樣申報，後取得未來使用授權，公開警告"
+        }
+      ],
+      "findings": [
+        {
+          "field": "dates",
+          "kind": "insufficient_evidence",
+          "severity": "medium",
+          "claim": "事件採樣日期未提供",
+          "explanation": "源文件僅提供 2018 年 1 月 24 日公告日期，未記載實際採樣或違規事件日期",
+          "sourceRefs": [
+            {
+              "documentId": "doc-f1e38c484db7ba07",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "應補充採樣或違規事件實際日期"
+        },
+        {
+          "field": "event",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "採樣背景（賽中或賽外）未明確",
+          "explanation": "源文件未明確指明採樣是否為賽中、賽外或特定競賽，僅提及用藥申報",
+          "sourceRefs": [
+            {
+              "documentId": "doc-f1e38c484db7ba07",
+              "startLine": 7,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "應確認採樣是在競賽或賽外背景下進行"
+        }
+      ]
+    },
+    {
+      "id": "usada-0f682f5a12d7",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "uncertain",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "uncertain",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-720f87b48bd8b21e",
+        "registry-9161b2b423407a03"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-720f87b48bd8b21e",
+          "startLine": 7,
+          "endLine": 7,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "outcomes"
+          ],
+          "note": "Marck Harrison，38 歲，帕拉地板滾球，美國，chlorthalidone 處方藥未事先取得 TUE，採樣申報，後取得未來使用授權，公開警告"
+        }
+      ],
+      "findings": [
+        {
+          "field": "dates",
+          "kind": "insufficient_evidence",
+          "severity": "medium",
+          "claim": "事件採樣日期未提供",
+          "explanation": "源文件僅提供 2018 年 1 月 24 日公告日期，未記載實際採樣或違規事件日期",
+          "sourceRefs": [
+            {
+              "documentId": "doc-720f87b48bd8b21e",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "應補充採樣或違規事件實際日期"
+        },
+        {
+          "field": "event",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "採樣背景（賽中或賽外）未明確",
+          "explanation": "源文件未明確指明採樣是否為賽中、賽外或特定競賽，僅提及用藥申報",
+          "sourceRefs": [
+            {
+              "documentId": "doc-720f87b48bd8b21e",
+              "startLine": 7,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "應確認採樣是在競賽或賽外背景下進行"
+        }
+      ]
+    },
+    {
+      "id": "usada-8b83386b3243",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-ff166884055cb95a",
+        "registry-fadc2b332fac25f4"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-ff166884055cb95a",
+          "startLine": 7,
+          "endLine": 9,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "Alyssa Travis，32 歲，舉重，美國，2017-12-03 賽外檢測拒絕提供檢體，非物質違規，4 年禁賽自 2017-12-03 起，取消 2017-12-03 後成績"
+        }
+      ],
+      "findings": []
+    }
+  ]
+}

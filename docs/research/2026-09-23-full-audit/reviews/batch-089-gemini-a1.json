@@ -1,0 +1,506 @@
+{
+  "cases": [
+    {
+      "id": "usada-806eab5af83f",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-f1d5aec853de7790",
+        "registry-5e2d853b57f0bb1e"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-f1d5aec853de7790",
+          "startLine": 7,
+          "endLine": 9,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction"
+          ],
+          "note": "Sarah Heinzl 自願揭露於 2017-06-09 賽外檢測申報之補充品含 higenamine，檢體為陰性但產品確認含該成分，接受公開警告處分"
+        },
+        {
+          "documentId": "registry-5e2d853b57f0bb1e",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "dates"
+          ],
+          "note": "名冊記錄 Sarah Heinzl 非分析性使用 Higenamine 案於 2017-08-29 公開警告結案"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "nationality: 美國",
+          "explanation": "公告標題雖稱 U.S. 運動員且提及居住於亞利桑那州圖森，但依審核規範，新聞標題稱謂、居住地與發布機構管轄權不足以單獨證明國籍或體育代表權，所附文件缺乏明確國籍證明。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-f1d5aec853de7790",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "將國籍欄位標示為不確定（uncertain），或補充運動員所代表之國家代表隊或國籍官方證明文件。"
+        }
+      ]
+    },
+    {
+      "id": "usada-f10f5acd5654",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-b5ba3a2b2eecbe89",
+        "registry-94866fb0493b8d2b"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-b5ba3a2b2eecbe89",
+          "startLine": 7,
+          "endLine": 9,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "Zack Herbert 於 2017-06-20 賽外檢測拒絕採樣，處分減為兩年禁賽並取消 2017-06-20 起之競賽成績與獎牌"
+        },
+        {
+          "documentId": "registry-94866fb0493b8d2b",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "dates"
+          ],
+          "note": "名冊註記處分曾因退休停算，復出後自 2020-03-07 起可參賽"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "nationality: 美國",
+          "explanation": "公告標題稱 U.S. 舉重運動員且居住於猶他州，且內文提及管轄對象包含在美訓練比賽之外籍選手，無直接官方國籍或代表隊證明文件。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-b5ba3a2b2eecbe89",
+              "startLine": 1,
+              "endLine": 11
+            }
+          ],
+          "suggestion": "將國籍判定為不確定（uncertain），或補充分配國籍或體育代表權之官方佐證。"
+        }
+      ]
+    },
+    {
+      "id": "usada-5028b81a128b",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-5193113a5a13ddd4",
+        "registry-60ec4e6d99c87ebc"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-5193113a5a13ddd4",
+          "startLine": 7,
+          "endLine": 12,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "Carlee Acevedo-Fuller 於 2017-06-11 賽內檢體檢出 1,4-dimethylpentylamine 及 higenamine，因補充品標籤與教育背景因素獲處 9 個月禁賽並取消成績"
+        },
+        {
+          "documentId": "registry-60ec4e6d99c87ebc",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "dates"
+          ],
+          "note": "名冊記錄處分為 9 個月禁賽及成績取消，公告日 2017-08-16"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "nationality: 美國",
+          "explanation": "公告標題稱 U.S. 運動員且提及居住地加州貝克斯菲爾德，但缺乏直接確立國籍或國家體育代表權之具體證據。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-5193113a5a13ddd4",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "將國籍欄位標示為不確定（uncertain），或補充運動員所屬國家代表隊或公民身分佐證。"
+        }
+      ]
+    },
+    {
+      "id": "usada-491a96341462",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-8cb25029ec6901b6",
+        "registry-348d79b153c9e63b"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-8cb25029ec6901b6",
+          "startLine": 7,
+          "endLine": 12,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "Chris Carter 於 2017-02-22 賽外檢體檢出 ostarine，經確認為污染補充品減為 9 個月禁賽，自 2017-03-13 起算並取消 2017-02-22 起之競賽成績"
+        },
+        {
+          "documentId": "registry-348d79b153c9e63b",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "dates"
+          ],
+          "note": "名冊確認田徑選手 Chris Carter 因 Ostarine 處 9 個月禁賽並取消成績，公告日 2017-08-11"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "nationality: 美國",
+          "explanation": "來源僅有新聞稿標題稱 U.S. 運動員與德州赫恩居住地，依標準不足以推定具備美國國籍或代表美國出賽之官方身分。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-8cb25029ec6901b6",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "將國籍欄位調整為不確定（uncertain），待補充官方代表隊名冊或國籍證明文件。"
+        }
+      ]
+    },
+    {
+      "id": "usada-5b6cb4ab463d",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-639ff9e9f3e16afe",
+        "registry-25c3eb8e1e24bc8a"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-639ff9e9f3e16afe",
+          "startLine": 7,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "Riley Stohr 於 2017-03-18 賽內檢體檢出 carboxy-THC 超標，採納賽外使用解釋處 6 個月禁賽並取消成績"
+        },
+        {
+          "documentId": "registry-25c3eb8e1e24bc8a",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "dates"
+          ],
+          "note": "名冊記錄處分為 6 個月禁賽與成績取消，並註記處分因退休停算"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "nationality: 美國",
+          "explanation": "來源僅有新聞標題 U.S. 稱謂及紐約州薩拉納克湖居住地，依審核規則不足以單獨證明國籍或體育代表權。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-639ff9e9f3e16afe",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "將國籍標記為不確定（uncertain），或提供運動員國籍或國家體育代表權證明。"
+        }
+      ]
+    },
+    {
+      "id": "usada-a0a7483bcc7e",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-3fec8237ea6082d0",
+        "registry-8bdc53a75cd587c3"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-3fec8237ea6082d0",
+          "startLine": 7,
+          "endLine": 12,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "J.C. Cruse 於 2017-01-12 賽內檢出 DMBA，因補充品標籤雖列 DMAA 但未列 DMBA 且缺乏反禁藥教育，獲處 16 個月禁賽並取消成績"
+        },
+        {
+          "documentId": "registry-8bdc53a75cd587c3",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "dates"
+          ],
+          "note": "名冊記錄雪車選手 J.C. Cruse 因 DMBA 處 16 個月禁賽及取消成績，公告日 2017-07-20"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "nationality: 美國",
+          "explanation": "僅依賴公告標題 U.S. 運動員與底特律居住地，無法直接證明具備美國國籍或體育代表權。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-3fec8237ea6082d0",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "將國籍欄位標示為不確定（uncertain），或提供官方體育代表權或護照國籍佐證。"
+        }
+      ]
+    },
+    {
+      "id": "usada-55dafea87f5e",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-5ade2e545c3f73fa",
+        "registry-999e2abb2044801a"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-5ade2e545c3f73fa",
+          "startLine": 7,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "Kayla Bushey 於調查中承認依他人建議訂購及使用含 ostarine 與 arimistane 產品，處 2 年禁賽並取消 2016-06-11 起之競賽成績"
+        },
+        {
+          "documentId": "registry-999e2abb2044801a",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "dates"
+          ],
+          "note": "名冊記錄非分析違規（使用與持有）處 2 年禁賽及成績取消，公告日 2017-07-19"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "nationality: 美國",
+          "explanation": "發布機構管轄權、新聞標題 U.S. 稱謂及田納西州納許維爾居住地不足以確立正式國籍或體育代表權。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-5ade2e545c3f73fa",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "將國籍欄位標示為不確定（uncertain），或補充能證明代表權或公民身分之官方文件。"
+        }
+      ]
+    },
+    {
+      "id": "usada-0c3ec7a2af1e",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-a7ec63784c324d96",
+        "registry-8b8fcd812c70e28e"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-a7ec63784c324d96",
+          "startLine": 7,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "Scott McPherson 於 2017-02-18 賽內檢體經同位素比值質譜儀確認外源性類固醇，處 4 年禁賽，自 2017-03-23 起算並取消成績"
+        },
+        {
+          "documentId": "registry-8b8fcd812c70e28e",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "dates"
+          ],
+          "note": "名冊記錄處分為 4 年禁賽及成績取消，並註記處分因退休停算"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "nationality: 美國",
+          "explanation": "文件僅載明標題 U.S. 稱謂與德州拉伯克居住地，缺乏運動員國籍或正式體育代表權之直接佐證。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-a7ec63784c324d96",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "將國籍欄位標記為不確定（uncertain），或補充所屬國家協會註冊或國籍證明文件。"
+        }
+      ]
+    }
+  ]
+}

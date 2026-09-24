@@ -1,0 +1,395 @@
+{
+  "cases": [
+    {
+      "id": "ita-fa8d36509836",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-f14b8bf6b3ff90c9",
+        "registry-f0797b4ded4605d4"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-f14b8bf6b3ff90c9",
+          "startLine": 2,
+          "endLine": 7,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告確認選手、摩爾多瓦代表背景、賽事採樣與 meldonium 陽性；四年禁賽及自採樣日起取消成績。"
+        },
+        {
+          "documentId": "registry-f0797b4ded4605d4",
+          "startLine": 12,
+          "endLine": 20,
+          "supports": [
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊列 Art. 2.1、違規日、禁賽期及取消區間。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-64356cd7cd2b",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-8b61dde9df992977",
+        "registry-459f23880743e597"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-8b61dde9df992977",
+          "startLine": 2,
+          "endLine": 7,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "UCI 確認亞塞拜然車手、世錦賽兩份樣本、S6.A 分類、三年處分與接受後果；公告未列取消成績範圍。"
+        },
+        {
+          "documentId": "registry-459f23880743e597",
+          "startLine": 12,
+          "endLine": 22,
+          "supports": [
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊列 ADRV 條款、禁賽及取消區間，但處理方式欄為 N/A；頁面保留公告所述接受處分。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-ce72c7ec15a5",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-1f46ebcc4d9ebf4b",
+        "registry-2b524309cf8565fb"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-1f46ebcc4d9ebf4b",
+          "startLine": 2,
+          "endLine": 8,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告確認泰國泰拳選手在賽外檢測拒絕採樣、早期承認減一年、三年禁賽及取消相關成績。"
+        },
+        {
+          "documentId": "registry-2b524309cf8565fb",
+          "startLine": 12,
+          "endLine": 22,
+          "supports": [
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊確認 Art. 2.3、違規日、處分期間與取消區間。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-746841ced247",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-51fa9360df652ddf",
+        "registry-18d67d3af4f0a9e1"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-51fa9360df652ddf",
+          "startLine": 2,
+          "endLine": 7,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告確認黎巴嫩綜合格鬥選手、賽事陽性、stanozolol 分類、四年禁賽及自採樣日起取消成績。"
+        },
+        {
+          "documentId": "registry-18d67d3af4f0a9e1",
+          "startLine": 12,
+          "endLine": 20,
+          "supports": [
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊確認違規條款、日期、禁賽期及取消區間。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-e79063f8345e",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-2ef9277e224398d8",
+        "registry-370a4fdb23c685f2"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-2ef9277e224398d8",
+          "startLine": 2,
+          "endLine": 13,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告記載喬治亞選手的賽外 Ostarine 陽性、原無過失決定、上訴、CAS 撤銷並處四年；理由尚未詳述。"
+        },
+        {
+          "documentId": "registry-370a4fdb23c685f2",
+          "startLine": 12,
+          "endLine": 22,
+          "supports": [
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊列違規日、四年期間、取消成績區間及 CAS 上訴處理方式。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-04f56ae4f842",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-419a04968fad481c",
+        "registry-8dc5243d5eb443af"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-419a04968fad481c",
+          "startLine": 2,
+          "endLine": 13,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告確認摩爾多瓦舉重選手兩份里約樣本重驗 DHCMT、CAS ADD 確認違規後轉交 IWF，及早承認並接受七年後果，成績取消且包括獎牌。"
+        },
+        {
+          "documentId": "registry-8dc5243d5eb443af",
+          "startLine": 12,
+          "endLine": 22,
+          "supports": [
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊確認違規日、禁賽期、取消區間及接受後果方式。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-88498e611484",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-e6ea50b562d6979b",
+        "registry-bb0357b54f0930b2"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-e6ea50b562d6979b",
+          "startLine": 2,
+          "endLine": 9,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告確認奧地利雪橇選手累積三次行蹤失敗、接受二十個月處分，並取消自禁賽起個人賽果；並說明行蹤規則。"
+        },
+        {
+          "documentId": "registry-bb0357b54f0930b2",
+          "startLine": 12,
+          "endLine": 22,
+          "supports": [
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊確認 Art. 2.4、違規日、禁賽期間及取消賽果。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-279e2718f2fd",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-0ffb8b7ca0d750be",
+        "registry-4a2fd72e0a50a5bd"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-0ffb8b7ca0d750be",
+          "startLine": 2,
+          "endLine": 9,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告確認俄羅斯舉重選手、LIMS 所示 2015 樣本中的兩種禁用物質、四年禁賽及追溯取消成績。"
+        },
+        {
+          "documentId": "registry-4a2fd72e0a50a5bd",
+          "startLine": 12,
+          "endLine": 22,
+          "supports": [
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊確認 Art. 2.2、違規日、禁賽與取消區間。"
+        }
+      ],
+      "findings": []
+    }
+  ]
+}

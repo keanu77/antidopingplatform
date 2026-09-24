@@ -1,0 +1,400 @@
+{
+  "cases": [
+    {
+      "id": "ita-0252ec50e841",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-1e882bbd67968b03",
+        "registry-4ee008cc5ec121d6"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-1e882bbd67968b03",
+          "startLine": 2,
+          "endLine": 6,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告確認烏克蘭選手 Sapunov、禁賽期間參賽違規、追加禁賽及涵蓋相關期間的成績取消。"
+        },
+        {
+          "documentId": "registry-4ee008cc5ec121d6",
+          "startLine": 1,
+          "endLine": 22,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊以 Danylo Sapunov 列名，確認烏克蘭、鐵人三項、規則 10.14.1、禁賽期與成績取消期間。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-193d52584f41",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-6a998039ff72eb69",
+        "registry-ef6ce2c409670c78"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-6a998039ff72eb69",
+          "startLine": 2,
+          "endLine": 9,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告確認哈薩克柔術選手於 U-21 世錦賽樣本檢出 furosemide，及早承認後禁賽三年，並取消指定期間成績。"
+        },
+        {
+          "documentId": "registry-ef6ce2c409670c78",
+          "startLine": 1,
+          "endLine": 20,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊確認 Manarbek、哈薩克、柔術、furosemide 違規、禁賽與成績取消日期。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-3925ae12ac5d",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-ae3c62b6fe3e7518",
+        "registry-43ce269953049e92"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-ae3c62b6fe3e7518",
+          "startLine": 2,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告確認葡萄牙鐵人三項選手樣本檢出 mesterolone、三年禁賽、指定期間成績取消，且上訴期限屆滿。"
+        },
+        {
+          "documentId": "registry-43ce269953049e92",
+          "startLine": 1,
+          "endLine": 20,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊確認姓名、葡萄牙、鐵人三項、違規日期、物質、處分及成績取消期間。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-c0175e15bb03",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-589d9ce95208c4c4",
+        "registry-087ec10731edd19f"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-589d9ce95208c4c4",
+          "startLine": 2,
+          "endLine": 7,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告確認來自美國的高台跳水選手、世界水上運動錦標賽樣本檢出 methylphenidate、14 個月禁賽及相關成績取消。"
+        },
+        {
+          "documentId": "registry-087ec10731edd19f",
+          "startLine": 1,
+          "endLine": 20,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊確認姓名、美國、水上運動、methylphenidate 違規及處分和成績日期。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-2f8626bf852a",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-b50d16282eec6b77",
+        "registry-50cdcf16c65f1ad0"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-b50d16282eec6b77",
+          "startLine": 2,
+          "endLine": 7,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "UCI 公告確認義大利車手、BMX 賽事樣本、兩種合成代謝類固醇代謝物、18 個月禁賽及成績取消期。"
+        },
+        {
+          "documentId": "registry-50cdcf16c65f1ad0",
+          "startLine": 1,
+          "endLine": 20,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊確認姓名、義大利、自行車、兩項物質、違規日、禁賽與成績處理期間。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-5c094a50f6e6",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-debc1144ab867141",
+        "registry-e732e96b011cc2f0"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-debc1144ab867141",
+          "startLine": 2,
+          "endLine": 4,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "sanction",
+            "dates",
+            "education"
+          ],
+          "note": "UCI 公告確認巴西車手因十二個月內三次行蹤失誤受 20 個月禁賽。"
+        },
+        {
+          "documentId": "registry-e732e96b011cc2f0",
+          "startLine": 1,
+          "endLine": 20,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊確認姓名、巴西、自行車、規則 2.4、禁賽期間，且成績取消欄為 N/A；資料庫保留結果未知。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-7633257bebb2",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-ca17dc798b990818",
+        "registry-294a325bb07979a5"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-ca17dc798b990818",
+          "startLine": 2,
+          "endLine": 8,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告確認瑞士鐵人三項選手賽外樣本的 ligandrol AAF、親密接觸污染及無過失認定；違規成立、不處禁賽且無成績可取消。"
+        },
+        {
+          "documentId": "registry-294a325bb07979a5",
+          "startLine": 1,
+          "endLine": 20,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊確認姓名、瑞士、ligandrol 違規、無過失、無禁賽及成績取消欄為 N/A。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "sia-peter-bol-2023",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-2a4cddcb92c2e950"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-2a4cddcb92c2e950",
+          "startLine": 2,
+          "endLine": 25,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告確認澳洲選手曾獲合成 EPO 陽性通知，B 樣本非典型且未確認 A 樣本；後續 A 樣本陰性，該樣本不再推進違規程序，調查結束。"
+        }
+      ],
+      "findings": []
+    }
+  ]
+}

@@ -156,13 +156,13 @@ function ADeL() {
               CTADA 線上學習（台灣）
             </h3>
             <p className="text-sm text-blue-900/80 leading-relaxed">
-              台灣運動禁藥管制組織（CTADA）的中文線上學習平台，是全中運／全大運選手的必修課程。
+              CTADA 提供中文反禁藥學習資源。115 年全中運、全大運已取消將線上測驗通過證明列為報名條件，其他賽會請核對各自公告。
             </p>
           </div>
         </div>
         <p className="text-sm text-gray-500 leading-relaxed mt-3">
           兩者互補：ADeL 提供國際通用的多語言教育，CTADA
-          線上學習則是台灣選手參賽前的中文必修，建議依需求同時使用。
+          提供中文學習資源；學習要求與報名資格須分開確認。請參閱{" "}<a href="https://www.antidoping.org.tw/news/測驗平台公告/" target="_blank" rel="noopener noreferrer" className="underline text-emerald-700">CTADA 測驗平台公告</a>。
         </p>
       </section>
 

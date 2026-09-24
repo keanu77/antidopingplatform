@@ -1,0 +1,193 @@
+{
+  "cases": [
+    {
+      "id": "aiu-b92f69a6866b",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-ad2245436aeb34a6",
+        "registry-94cfcb0257571359"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-ad2245436aeb34a6",
+          "startLine": 39,
+          "endLine": 43,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "選手為西班牙籍中長跑運動員"
+        },
+        {
+          "documentId": "doc-ad2245436aeb34a6",
+          "startLine": 47,
+          "endLine": 55,
+          "supports": [
+            "identity",
+            "event",
+            "substance"
+          ],
+          "note": "2025年3月29日半馬賽事採樣驗出第S5類禁用物質Furosemide，違反規則2.1與2.2"
+        },
+        {
+          "documentId": "doc-ad2245436aeb34a6",
+          "startLine": 300,
+          "endLine": 306,
+          "supports": [
+            "event",
+            "education"
+          ],
+          "note": "仲裁員採信誤服家人藥物之來源解釋"
+        },
+        {
+          "documentId": "doc-ad2245436aeb34a6",
+          "startLine": 352,
+          "endLine": 355,
+          "supports": [
+            "sanction",
+            "education"
+          ],
+          "note": "未達無重大過失減刑標準，處兩年禁賽"
+        },
+        {
+          "documentId": "doc-ad2245436aeb34a6",
+          "startLine": 392,
+          "endLine": 405,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "禁賽兩年並折抵2025年7月14日起之暫時禁賽，取消2025年3月29日及至禁賽開始前之成績"
+        },
+        {
+          "documentId": "doc-ad2245436aeb34a6",
+          "startLine": 427,
+          "endLine": 431,
+          "supports": [
+            "dates"
+          ],
+          "note": "裁決發布於2026年5月11日"
+        },
+        {
+          "documentId": "registry-94cfcb0257571359",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "education"
+          ],
+          "note": "官方名冊登載處罰兩年，折抵自2025年7月14日起，誤植取消成績起日為2024年"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "aiu-8f7e371f423d",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-a93829abc53c0d24",
+        "registry-e2b3817558b70e1c"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-a93829abc53c0d24",
+          "startLine": 12,
+          "endLine": 12,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "選手為衣索比亞公路跑運動員"
+        },
+        {
+          "documentId": "doc-a93829abc53c0d24",
+          "startLine": 54,
+          "endLine": 70,
+          "supports": [
+            "event",
+            "substance",
+            "dates"
+          ],
+          "note": "2023年10月樣本經同位素比值質譜再分析確認檢出外源性睪固酮代謝物"
+        },
+        {
+          "documentId": "doc-a93829abc53c0d24",
+          "startLine": 144,
+          "endLine": 148,
+          "supports": [
+            "sanction",
+            "education"
+          ],
+          "note": "暫時禁賽期間參加2026年3月15日首爾馬拉松違反禁令，依法不予折抵暫時禁賽期"
+        },
+        {
+          "documentId": "doc-a93829abc53c0d24",
+          "startLine": 240,
+          "endLine": 254,
+          "supports": [
+            "sanction",
+            "dates"
+          ],
+          "note": "及早承認違規獲減刑一年，禁賽三年自2026年5月1日起至2029年4月30日止"
+        },
+        {
+          "documentId": "doc-a93829abc53c0d24",
+          "startLine": 269,
+          "endLine": 272,
+          "supports": [
+            "outcomes"
+          ],
+          "note": "取消自2023年10月22日起之所有成績與獎金頭銜"
+        },
+        {
+          "documentId": "doc-a93829abc53c0d24",
+          "startLine": 296,
+          "endLine": 299,
+          "supports": [
+            "outcomes",
+            "education"
+          ],
+          "note": "明確註記取消成績涵蓋違規參加之2026年3月15日賽事"
+        },
+        {
+          "documentId": "registry-e2b3817558b70e1c",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "outcomes"
+          ],
+          "note": "官方名冊登載禁賽3年自2026年5月1日起，取消2023年10月22日至2026年5月1日之成績"
+        }
+      ],
+      "findings": []
+    }
+  ]
+}

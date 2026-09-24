@@ -1,0 +1,374 @@
+{
+  "cases": [
+    {
+      "id": "usada-507362151651",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-98b5e5966aff8df1",
+        "registry-5c692a0a86c41fde"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-98b5e5966aff8df1",
+          "startLine": 7,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告確認舉重選手 Campbell 拒絕採樣、CrossFit 前案 oxandrolone、四年處分及成績取消起日。"
+        },
+        {
+          "documentId": "registry-5c692a0a86c41fde",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "sanction"
+          ],
+          "note": "名冊列四年停賽、成績損失及退休期間停止計算。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-0f9636fca02d",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-a77653f41c656959",
+        "registry-3185eae5782623b0"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-a77653f41c656959",
+          "startLine": 7,
+          "endLine": 11,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告確認舉重選手 Cuicchi 的 ostarine 陽性、補充品實驗室分析、九個月處分及成績取消。"
+        },
+        {
+          "documentId": "registry-3185eae5782623b0",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "sanction"
+          ],
+          "note": "名冊列 ostarine、九個月停賽及成績損失。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-5541522b98d9",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-a2dca52ea34b8a45",
+        "registry-ba6321af91f877cb"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-a2dca52ea34b8a45",
+          "startLine": 7,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告確認滑板選手 Juneau 在巴西賽事 THC 超過判定界限，轉交 USADA、教育減免後到期日及成績取消。"
+        },
+        {
+          "documentId": "registry-ba6321af91f877cb",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction"
+          ],
+          "note": "名冊姓名欄順序為 Juneau Scott, Cory，並列大麻素及六個月含三個月減免。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-1b4c6223d309",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-47219ac08501466c",
+        "registry-24aa961c70b145a0"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-47219ac08501466c",
+          "startLine": 7,
+          "endLine": 13,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告確認 Carrillo 的自行車賽事檢體及 EPO、類固醇相關物質、四年處分與結果取消日期。"
+        },
+        {
+          "documentId": "registry-24aa961c70b145a0",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction"
+          ],
+          "note": "名冊列 Carrillo、EPO、19-NA、AAS、clostebol、testosterone 及四年停賽。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-d148c75dad18",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-f461a31cdf445ae9",
+        "registry-b580fe5c8c31260d"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-f461a31cdf445ae9",
+          "startLine": 7,
+          "endLine": 11,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告確認 Brown 的舉重賽事 heptaminol 陽性、誤導標籤及產品分析、九個月處分和成績取消。"
+        },
+        {
+          "documentId": "registry-b580fe5c8c31260d",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction"
+          ],
+          "note": "名冊列 heptaminol、九個月停賽及成績損失。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-48b4a6a3d8f2",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-a15780c1e9a7d4d6",
+        "registry-d01f28592779bf11"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-a15780c1e9a7d4d6",
+          "startLine": 7,
+          "endLine": 11,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告分別記載 epitrenbolone 陽性、肉品較可能來源、補充品含 clomiphene、公開警告與當日成績取消。"
+        },
+        {
+          "documentId": "registry-d01f28592779bf11",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction"
+          ],
+          "note": "名冊列 trenbolone、clomiphene 及公開警告。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-acd5a54c3768",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-1649e19f4bdc9eda",
+        "registry-8902c5210dd45e2f"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-1649e19f4bdc9eda",
+          "startLine": 7,
+          "endLine": 11,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告確認 David Pate 的自行車賽事陽性、外源性合成代謝劑、四年處分起日及成績取消起日。"
+        },
+        {
+          "documentId": "registry-8902c5210dd45e2f",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction"
+          ],
+          "note": "名冊列 Pate、合成代謝類固醇、四年停賽及成績損失。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-d1537bff40b3",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-6334ea54ea93768e",
+        "registry-6461d926927848e4"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-6334ea54ea93768e",
+          "startLine": 7,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告確認 Zeng 的體操選手身分、acetazolamide 陽性、親屬處方藥來源、未申請 TUE、六個月處分及成績取消日期。"
+        },
+        {
+          "documentId": "registry-6461d926927848e4",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction"
+          ],
+          "note": "名冊列 Zeng、acetazolamide、六個月停賽及成績損失。"
+        }
+      ],
+      "findings": []
+    }
+  ]
+}

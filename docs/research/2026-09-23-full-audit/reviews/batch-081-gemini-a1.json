@@ -1,0 +1,504 @@
+{
+  "cases": [
+    {
+      "id": "usada-507362151651",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-98b5e5966aff8df1",
+        "registry-5c692a0a86c41fde"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-98b5e5966aff8df1",
+          "startLine": 7,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "USADA公告載明Campbell於2018-11-11賽外檢測拒絕採樣，且另涉CrossFit檢體陽性，處4年禁賽並自2018-05-17起取消成績"
+        },
+        {
+          "documentId": "registry-5c692a0a86c41fde",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "sanction"
+          ],
+          "note": "官方處分名冊登記4年禁賽、取消成績並註明因退休而停止計時"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "nationality",
+          "explanation": "來源僅在新聞標題提及U.S. Weightlifting Athlete及居住地位於新墨西哥州Alto，依審查標準不能直接推定國家體育代表權或確定國籍。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-98b5e5966aff8df1",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "補充該選手代表美國參賽之官方註記，或在缺乏具體代表權紀錄時標示為未定。"
+        }
+      ]
+    },
+    {
+      "id": "usada-0f9636fca02d",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-a77653f41c656959",
+        "registry-3185eae5782623b0"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-a77653f41c656959",
+          "startLine": 7,
+          "endLine": 11,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告載明Cuicchi於2018-06-14賽外檢測驗出ostarine，經實驗室化驗證實補充品受污染，接受9個月禁賽及取消成績"
+        },
+        {
+          "documentId": "registry-3185eae5782623b0",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction"
+          ],
+          "note": "處分名冊列記舉重選手Cuicchi因Ostarine處9個月禁賽與成績取消"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "nationality",
+          "explanation": "公告僅見標題稱U.S. Weightlifting Athlete及居住於亞利桑那州Mesa，未載明其具有美國國籍或代表美國出賽之正式紀錄。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-a77653f41c656959",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "補充官方代表隊身分或國籍證明文件，否則應將國籍標註為待確認。"
+        }
+      ]
+    },
+    {
+      "id": "usada-5541522b98d9",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-a2dca52ea34b8a45",
+        "registry-ba6321af91f877cb"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-a2dca52ea34b8a45",
+          "startLine": 7,
+          "endLine": 9,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告載明Juneau於2018-01-28在巴西賽事驗出Carboxy-THC超標，移交USADA後接受6個月禁賽，完成教育減為3個月並於2018-04-28期滿"
+        },
+        {
+          "documentId": "registry-ba6321af91f877cb",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction"
+          ],
+          "note": "處分名冊載明6個月禁賽附3個月減免與成績取消"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "nationality",
+          "explanation": "文本僅有標題U.S. Skateboarding Athlete與加州居住地，跨國移交管轄不能作為國籍或代表資格之完全證明。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-a2dca52ea34b8a45",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "補強選手代表美國之國際體育總會或奧會註冊資訊，或將國籍欄位改為未定。"
+        }
+      ]
+    },
+    {
+      "id": "usada-1b4c6223d309",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-47219ac08501466c",
+        "registry-24aa961c70b145a0"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-47219ac08501466c",
+          "startLine": 7,
+          "endLine": 13,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告載明Carrillo於2018-07-29賽事檢出EPO及外源性同化類固醇等物質，自2018-09-05起受4年禁賽並取消成績"
+        },
+        {
+          "documentId": "registry-24aa961c70b145a0",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction"
+          ],
+          "note": "名冊載明自行車選手Carrillo因EPO、19-NA、AAS、Clostebol、Testosterone處4年禁賽及取消成績"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "nationality",
+          "explanation": "來源僅有標題U.S. Cycling Athlete、邁阿密居住地及USA Cycling會員資格，不足以嚴格確立其國籍或國家體育代表權。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-47219ac08501466c",
+              "startLine": 1,
+              "endLine": 8
+            }
+          ],
+          "suggestion": "提供官方選手註冊國籍資料，或註記代表國籍缺乏直接書證。"
+        }
+      ]
+    },
+    {
+      "id": "usada-d148c75dad18",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-f461a31cdf445ae9",
+        "registry-b580fe5c8c31260d"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-f461a31cdf445ae9",
+          "startLine": 7,
+          "endLine": 11,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告載明Brown於2018-09-16檢出heptaminol，經查補充品具誤導性標籤並獲實驗室證實，處9個月禁賽並取消成績"
+        },
+        {
+          "documentId": "registry-b580fe5c8c31260d",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction"
+          ],
+          "note": "處分名冊登記舉重選手Brown因Heptaminol處9個月禁賽與成績取消"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "nationality",
+          "explanation": "公告標題U.S. Weightlifting Athlete與德州居住地依規範不足以單獨成立國籍或國家代表權。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-f461a31cdf445ae9",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "補充正式代表國或公民身分佐證，或在國籍欄註記未確定。"
+        }
+      ]
+    },
+    {
+      "id": "usada-48b4a6a3d8f2",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-a15780c1e9a7d4d6",
+        "registry-d01f28592779bf11"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-a15780c1e9a7d4d6",
+          "startLine": 7,
+          "endLine": 11,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告載明Grove於2018-07-11檢出epitrenbolone，USADA認定肉品污染可能性高，另查出補充品含clomiphene，處公開警告並取消當日成績"
+        },
+        {
+          "documentId": "registry-d01f28592779bf11",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction"
+          ],
+          "note": "名冊載明Carl Grove因Trenbolone及Clomiphene處Public Warning"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "nationality",
+          "explanation": "來源僅有標題U.S. Cycling Athlete及印第安納州Bristol居住地，未見完整國籍或正式國家代表資格文獻。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-a15780c1e9a7d4d6",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "補充運動員國籍或會員代表國之明確依據，或改列未定。"
+        }
+      ]
+    },
+    {
+      "id": "usada-acd5a54c3768",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-1649e19f4bdc9eda",
+        "registry-8902c5210dd45e2f"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-1649e19f4bdc9eda",
+          "startLine": 7,
+          "endLine": 11,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告載明Pate於2018-08-11比賽檢體測出外源性同化劑，自2018-10-03起受4年禁賽並取消成績"
+        },
+        {
+          "documentId": "registry-8902c5210dd45e2f",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction"
+          ],
+          "note": "處分名冊登記David Pate因Androgenic Anabolic Steroid處4年禁賽與取消成績"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "nationality",
+          "explanation": "文檔僅顯示標題U.S. Cycling Athlete、阿拉巴馬州居住地與美國自行車協會會員，無直接國籍或體育代表權證明。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-1649e19f4bdc9eda",
+              "startLine": 1,
+              "endLine": 8
+            }
+          ],
+          "suggestion": "補充確認國籍或運動代表權之官方來源，否則建議標示為待查。"
+        }
+      ]
+    },
+    {
+      "id": "usada-d1537bff40b3",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-6334ea54ea93768e",
+        "registry-6461d926927848e4"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-6334ea54ea93768e",
+          "startLine": 7,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告載明Zeng於2018-10-18賽外檢體檢出acetazolamide，來源為旅行時服用家長之高山症藥物且未獲TUE，受6個月禁賽及取消成績"
+        },
+        {
+          "documentId": "registry-6461d926927848e4",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction"
+          ],
+          "note": "處分名冊記錄體操選手Laura Zeng因Acetazolamide處6-Month Suspension與Loss of Results"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "nationality",
+          "explanation": "公告僅見標題U.S. Gymnastics Athlete與伊利諾州Libertyville居住地，欠缺直接證明國籍或代表權之法定紀錄。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-6334ea54ea93768e",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "補充運動員在國際體操總會註冊之代表國籍證明，若無則應在資料庫列為未定。"
+        }
+      ]
+    }
+  ]
+}

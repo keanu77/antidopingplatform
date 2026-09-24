@@ -1,0 +1,26 @@
+{
+  "id": "sia-peter-bol-2023",
+  "athleteName": "Peter Bol",
+  "year": 2023,
+  "yearBasis": "調查結束公告年",
+  "nationality": "澳洲",
+  "sport": "田徑",
+  "substance": "EPO 檢驗調查；B 樣本非典型，後續 A 樣本陰性",
+  "substanceCategory": "檢驗程序／未提出違規指控",
+  "eventBackground": "Sport Integrity Australia 於 2023-08-01 公告：Peter Bol 的 B 樣本為非典型發現，未確認 A 樣本；後續 A 樣本分析為陰性。機構不再就該樣本推進違規程序，調查已結束。",
+  "summary": "調查結束／未提出違規指控；無禁賽（該樣本不再推進違規程序）。",
+  "educationalNotes": "以該檢體與該次程序為範圍；非典型發現不等於違規成立，也不推論其他事件。",
+  "punishment": {
+    "banDuration": "無禁賽（該樣本不再推進違規程序）",
+    "resultsCancelled": false,
+    "medalStripped": false,
+    "otherPenalties": "限 2023-08-01 公告所述樣本與程序；未提出該樣本的違規指控。"
+  },
+  "sourceLinks": [],
+  "review": {
+    "nationalityAsListed": "Australian",
+    "nationalitySource": "https://www.sportintegrity.gov.au/news/media-statements/2023-08/update-peter-bol-matter",
+    "sourceLocator": "2023-08-01 Update on Peter Bol matter",
+    "personType": "Athlete"
+  }
+}

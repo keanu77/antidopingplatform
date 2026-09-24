@@ -1,0 +1,438 @@
+{
+  "cases": [
+    {
+      "id": "ita-cbcebbfdd45b",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-9516bdb462bd3939",
+        "registry-b180ddaae9600664"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-9516bdb462bd3939",
+          "startLine": 2,
+          "endLine": 5,
+          "supports": [
+            "identity",
+            "event",
+            "sanction",
+            "dates",
+            "education"
+          ],
+          "note": "UCI 指認荷蘭車手 Tolhoek 涉 AAS 違規，禁賽期間及一個月上訴期限如文中所述。"
+        },
+        {
+          "documentId": "registry-b180ddaae9600664",
+          "startLine": 1,
+          "endLine": 20,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "ITA 名冊列出姓名、荷蘭、自行車、2.1/2.2、違規日、禁賽及取消成績期間。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-e480a4db0b21",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-ae4b553b4d872aa5",
+        "registry-258fdf4c2d08db05"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-ae4b553b4d872aa5",
+          "startLine": 2,
+          "endLine": 9,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "ITA 指認加拿大游泳選手 Oleksiak，列出三次行蹤失誤、接受處分、禁賽期間及成績取消。"
+        },
+        {
+          "documentId": "registry-258fdf4c2d08db05",
+          "startLine": 1,
+          "endLine": 22,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊確認 2.4、24 個月、違規日、禁賽期間及成績取消區間。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-988542cf0fbe",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-9f504340c3700f4a",
+        "registry-7c9396f9bf53d506"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-9f504340c3700f4a",
+          "startLine": 2,
+          "endLine": 9,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "ITA 指認加拿大舉重選手 Bedward，說明賽事、modafinil 酸代謝物陽性、S6 分類、接受兩年處分及成績取消。"
+        },
+        {
+          "documentId": "registry-7c9396f9bf53d506",
+          "startLine": 1,
+          "endLine": 22,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊確認 2.1、違規日、禁賽期間及取消成績區間。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-2d3933d307ee",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-c38f147be7bca63e",
+        "registry-0ccbe2e503a4de71"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-c38f147be7bca63e",
+          "startLine": 2,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "ITA 指認韓國舉重選手 Kwon，說明賽外陽性、早期承認減刑、三年禁賽及成績取消。"
+        },
+        {
+          "documentId": "registry-0ccbe2e503a4de71",
+          "startLine": 1,
+          "endLine": 22,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊確認韓國、舉重、2.1、違規日、禁賽期間及成績取消區間。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-46228f83daa9",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-89b5b01a0d40b16e",
+        "registry-95b302f8173ac275"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-89b5b01a0d40b16e",
+          "startLine": 2,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "ITA 指認烏茲別克庫拉什選手 Kozokov，說明 Tashkent 賽事、meldonium 陽性、早期承認減刑及成績取消。"
+        },
+        {
+          "documentId": "registry-95b302f8173ac275",
+          "startLine": 1,
+          "endLine": 22,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊確認國別、運動、2.1/2.2、違規日、禁賽期間及取消成績區間。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-dbea69b05e29",
+      "status": "issue",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "issue",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-99a464510e842dc7",
+        "registry-820c22dfcc0f481f"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-99a464510e842dc7",
+          "startLine": 2,
+          "endLine": 5,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "UCI 確認希臘車手 Volikákis、里約樣本重驗、三年禁賽及該賽事遭取消資格。"
+        },
+        {
+          "documentId": "registry-820c22dfcc0f481f",
+          "startLine": 1,
+          "endLine": 20,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊列出 LGD-4033、違規日、禁賽期間及取消成績期間；該期間跨及 2017 年。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "outcomes",
+          "kind": "contradiction",
+          "severity": "medium",
+          "claim": "「里約該賽事成績取消」",
+          "explanation": "UCI 確認里約賽事取消資格；ITA 名冊另列取消成績期間至 2017-05-23，不能據此將處置限縮為里約賽事。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-99a464510e842dc7",
+              "startLine": 4,
+              "endLine": 4
+            },
+            {
+              "documentId": "registry-820c22dfcc0f481f",
+              "startLine": 19,
+              "endLine": 20
+            }
+          ],
+          "suggestion": "寫明里約賽事取消資格，並補充名冊所列 2016-08-16 至 2017-05-23 的成績取消期間。"
+        }
+      ]
+    },
+    {
+      "id": "ita-ba3a3cc60785",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-14a36cebfa11a555",
+        "registry-f6597da2b983bbe5"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-14a36cebfa11a555",
+          "startLine": 2,
+          "endLine": 6,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "ITA 指認奧地利舞者 Ambelj，確認拒絕賽外採樣、2.3 違規、四年禁賽及成績取消。"
+        },
+        {
+          "documentId": "registry-f6597da2b983bbe5",
+          "startLine": 1,
+          "endLine": 22,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊確認 Breaking、2.3、違規日、禁賽期間及成績取消期間。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-562db85b2505",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-97a8af07e6c68757",
+        "registry-90d76caa2603064f"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-97a8af07e6c68757",
+          "startLine": 2,
+          "endLine": 8,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "ITA 指認烏茲別克舉重選手 Fayzullaeva，確認青少年世錦賽賽內陽性、furosemide、兩年禁賽及個人成績取消。"
+        },
+        {
+          "documentId": "registry-90d76caa2603064f",
+          "startLine": 1,
+          "endLine": 22,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊確認 2.1、違規日、禁賽期間及取消成績區間。"
+        }
+      ],
+      "findings": []
+    }
+  ]
+}

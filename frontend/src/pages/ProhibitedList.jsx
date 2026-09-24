@@ -178,26 +178,35 @@ function ProhibitedList() {
                     </div>
                   )}
 
-                  {item.isSpecified !== undefined && (
+                  {(item.isSpecified !== undefined || item.specifiedStatus === "mixed") && (
                     <p className="text-xs">
                       <span
                         className={`inline-flex items-center gap-1 px-3 py-1 rounded-full font-medium ${
-                          item.isSpecified
+                          item.specifiedStatus === "mixed"
+                            ? "bg-blue-50 text-blue-700 border border-blue-200"
+                            : item.isSpecified
                             ? "bg-amber-50 text-amber-700 border border-amber-200"
                             : "bg-red-50 text-red-700 border border-red-200"
                         }`}
                       >
-                        {item.isSpecified ? (
+                        {item.specifiedStatus === "mixed" ? (
+                          <>
+                            <AlertTriangle className="w-3 h-3" /> 含特定與非特定物質
+                          </>
+                        ) : item.isSpecified ? (
                           <>
                             <AlertTriangle className="w-3 h-3" /> 特定物質
                           </>
                         ) : (
                           <>
                             <AlertTriangle className="w-3 h-3" />{" "}
-                            非特定物質（處罰較重）
+                            非特定物質
                           </>
                         )}
                       </span>
+                      {item.specifiedDetail && (
+                        <span className="block mt-2 text-gray-600">{item.specifiedDetail}</span>
+                      )}
                     </p>
                   )}
                 </div>

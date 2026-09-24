@@ -1,0 +1,75 @@
+{
+  "cases": [
+    {
+      "id": "aiu-8b52daa95cd1",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-710bee80b4e9aa8c",
+        "registry-0a8f651c45ebdc67"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-710bee80b4e9aa8c",
+          "startLine": 35,
+          "endLine": 47,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance"
+          ],
+          "note": "決定確認 Koech 為肯亞長跑選手；案件涉及血液生物護照異常及 Rule 2.2 指控。"
+        },
+        {
+          "documentId": "doc-710bee80b4e9aa8c",
+          "startLine": 1458,
+          "endLine": 1459,
+          "supports": [
+            "substance"
+          ],
+          "note": "紀律庭認定 Rule 2.2 違規成立。"
+        },
+        {
+          "documentId": "doc-710bee80b4e9aa8c",
+          "startLine": 1506,
+          "endLine": 1508,
+          "supports": [
+            "sanction",
+            "dates"
+          ],
+          "note": "四年禁賽自 2025-06-10 起算，至 2029-06-09 止。"
+        },
+        {
+          "documentId": "doc-710bee80b4e9aa8c",
+          "startLine": 1536,
+          "endLine": 1541,
+          "supports": [
+            "outcomes",
+            "dates"
+          ],
+          "note": "競賽成績自 2024-06-26 至 2025-06-10 取消。"
+        },
+        {
+          "documentId": "doc-710bee80b4e9aa8c",
+          "startLine": 925,
+          "endLine": 934,
+          "supports": [
+            "education"
+          ],
+          "note": "ABP 結合血液指標的縱向資料作為血液操作篩查，並非特定藥物陽性結果。"
+        }
+      ],
+      "findings": []
+    }
+  ]
+}

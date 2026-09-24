@@ -1,0 +1,258 @@
+{
+  "cases": [
+    {
+      "id": "usada-f75282803398",
+      "status": "supported",
+      "identity": "supported",
+      "country": "supported",
+      "temporalScope": "supported",
+      "evidence": [
+        {
+          "documentId": "case",
+          "startLine": 1,
+          "endLine": 7,
+          "note": "Abigail Dahlkemper, soccer, Menlo Park, age 24, in the May 4, 2018 notice."
+        },
+        {
+          "documentId": "country",
+          "startLine": 448,
+          "endLine": 472,
+          "note": "Team USA soccer profile Abby Dahlkemper, Menlo Park, and represented the U.S. since 2010; the note does not claim citizenship or every year."
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-51b08866d858",
+      "status": "supported",
+      "identity": "supported",
+      "country": "supported",
+      "temporalScope": "supported",
+      "evidence": [
+        {
+          "documentId": "case",
+          "startLine": 1,
+          "endLine": 8,
+          "note": "Devin Logan, freeski, age 26, sample December 7, 2018; Park City is residence, not the country claim."
+        },
+        {
+          "documentId": "country",
+          "startLine": 448,
+          "endLine": 483,
+          "note": "Team USA freestyle-skiing profile lists Olympian 2014, 2018 and 2022, including Pyeongchang 2018 results. West Dover is hometown only."
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-abb5a10e0ed3",
+      "status": "supported",
+      "identity": "supported",
+      "country": "supported",
+      "temporalScope": "supported",
+      "evidence": [
+        {
+          "documentId": "case",
+          "startLine": 1,
+          "endLine": 8,
+          "note": "Breezy Johnson, skiing, age 28, whereabouts failures in 2022–2023; Victor, Idaho is residence."
+        },
+        {
+          "documentId": "country",
+          "startLine": 448,
+          "endLine": 492,
+          "note": "Team USA alpine profile: 2018 Olympic results and withdrawal from the 2022 U.S. Olympic Team. The 14-month suspension text matches this case. Jackson Hole is hometown only."
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-d1537bff40b3",
+      "status": "supported",
+      "identity": "supported",
+      "country": "supported",
+      "temporalScope": "supported",
+      "evidence": [
+        {
+          "documentId": "case",
+          "startLine": 1,
+          "endLine": 8,
+          "note": "Laura Zeng, Libertyville, gymnastics, age 19, sample October 18, 2018."
+        },
+        {
+          "documentId": "country",
+          "startLine": 448,
+          "endLine": 482,
+          "note": "Team USA gymnastics profile, Libertyville, Olympic 2016 and 2020, and world-championship participation including 2018 in rhythmic apparatus events."
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-1c34e76fa2a0",
+      "status": "supported",
+      "identity": "supported",
+      "country": "supported",
+      "temporalScope": "supported",
+      "evidence": [
+        {
+          "documentId": "case",
+          "startLine": 1,
+          "endLine": 8,
+          "note": "Aja Evans, bobsled, age 35, failed sample collection March 29, 2022; Atlanta is residence."
+        },
+        {
+          "documentId": "country",
+          "startLine": 448,
+          "endLine": 498,
+          "note": "Team USA bobsled profile, Olympian 2014 and 2018, and 2022 USA Bobsled material calling her a U.S. bobsledder. Chicago is hometown only."
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-990a455fba77",
+      "status": "supported",
+      "identity": "supported",
+      "country": "supported",
+      "temporalScope": "supported",
+      "evidence": [
+        {
+          "documentId": "case",
+          "startLine": 1,
+          "endLine": 8,
+          "note": "Jacqueline Galloway, taekwondo, Dallas, age 23, sample February 12, 2019."
+        },
+        {
+          "documentId": "country",
+          "startLine": 448,
+          "endLine": 493,
+          "note": "Team USA profile Jackie Galloway, taekwondo, Wylie, Texas, Olympian 2016 with Rio bronze. Wylie aligns with the Dallas-area case address; the note does not extend past listed team periods."
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-a00b98f42826",
+      "status": "supported",
+      "identity": "supported",
+      "country": "supported",
+      "temporalScope": "supported",
+      "evidence": [
+        {
+          "documentId": "case",
+          "startLine": 1,
+          "endLine": 8,
+          "note": "William Licon, swimming, Austin, age 24, June 3, 2019 test."
+        },
+        {
+          "documentId": "country",
+          "startLine": 78,
+          "endLine": 83,
+          "note": "World Aquatics lists Will LICON, Nationality USA, Discipline Swimming. This supports only the as-listed-at-lookup note."
+        },
+        {
+          "documentId": "country",
+          "startLine": 218,
+          "endLine": 225,
+          "note": "Same profile: 200m breaststroke gold at age 24 on August 8, 2019. Event countries in the table are not used as his country."
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-503574acf7cc",
+      "status": "supported",
+      "identity": "supported",
+      "country": "supported",
+      "temporalScope": "supported",
+      "evidence": [
+        {
+          "documentId": "case",
+          "startLine": 1,
+          "endLine": 8,
+          "note": "Mihail (Mike) Alexandrov, swimming, age 32, sample June 4, 2017. Los Angeles is residence."
+        },
+        {
+          "documentId": "country",
+          "startLine": 78,
+          "endLine": 83,
+          "note": "World Aquatics lists Mike ALEXANDROV, Nationality USA, Swimming, which matches the lookup-only note and does not certify earlier eligibility."
+        },
+        {
+          "documentId": "country",
+          "startLine": 273,
+          "endLine": 276,
+          "note": "Age 28 at the June 25, 2013 result fits age 32 in 2017. European-meet rows are not treated as his listed country."
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-196afd5ac99f",
+      "status": "supported",
+      "identity": "supported",
+      "country": "supported",
+      "temporalScope": "supported",
+      "evidence": [
+        {
+          "documentId": "case",
+          "startLine": 1,
+          "endLine": 8,
+          "note": "Amanda Kendall, swimming, Bloomington, age 27, declaration February 14, 2018."
+        },
+        {
+          "documentId": "country",
+          "startLine": 78,
+          "endLine": 85,
+          "note": "October 24, 2011 official report says USA's Amanda Kendall won four Pan Am swimming golds. That is the stated 2011 period only, not 2018 or citizenship."
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-c60db428c672",
+      "status": "supported",
+      "identity": "supported",
+      "country": "supported",
+      "temporalScope": "supported",
+      "evidence": [
+        {
+          "documentId": "case",
+          "startLine": 1,
+          "endLine": 8,
+          "note": "Katherine Compton, cycling, age 42, sample September 16, 2020. Colorado Springs is residence."
+        },
+        {
+          "documentId": "country",
+          "startLine": 72,
+          "endLine": 73,
+          "note": "UCI cyclo-cross World Cup report names Pan-American champion Katherine Compton (USA), age 38, for that round. The note stays within that event and is not a citizenship claim."
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-ee1ce8ee98f6",
+      "status": "supported",
+      "identity": "supported",
+      "country": "supported",
+      "temporalScope": "supported",
+      "evidence": [
+        {
+          "documentId": "case",
+          "startLine": 1,
+          "endLine": 7,
+          "note": "Basketball athlete NaLyssa Smith, Indianapolis, age 23, in the July 22, 2024 warning. Indianapolis is residence."
+        },
+        {
+          "documentId": "country",
+          "startLine": 470,
+          "endLine": 474,
+          "note": "Team USA report: she played on Team USA and won gold at the 2018 FIBA Americas U18 Championship. The 2019 U19 withdrawal is not counted as participation. Indiana Fever is a club, not the country."
+        }
+      ],
+      "findings": []
+    }
+  ]
+}

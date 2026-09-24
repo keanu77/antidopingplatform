@@ -1,0 +1,455 @@
+{
+  "cases": [
+    {
+      "id": "usada-9e3ec5e00217",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-c8e1164c3409fdde",
+        "registry-914b8e749852a75e"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-c8e1164c3409fdde",
+          "startLine": 7,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告確認游泳選手 Gormley 的三次行蹤失誤、低過失一年禁賽及起算與成績取消日期。"
+        },
+        {
+          "documentId": "doc-c8e1164c3409fdde",
+          "startLine": 11,
+          "endLine": 12,
+          "supports": [
+            "education"
+          ],
+          "note": "公告說明行蹤資料與錯過檢測的用途及教育資訊。"
+        },
+        {
+          "documentId": "registry-914b8e749852a75e",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "sanction",
+            "outcomes"
+          ],
+          "note": "名冊列出三次行蹤失誤、一年停賽及成績取消。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-a065a9e92dd5",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-ddad7bf94ba28395",
+        "registry-237f23dadbeb65b2"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-ddad7bf94ba28395",
+          "startLine": 7,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告確認冰球選手、ostarine 陽性及補充品污染分析，並列禁賽、折抵及當日成績取消。"
+        },
+        {
+          "documentId": "registry-237f23dadbeb65b2",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "sanction",
+            "outcomes"
+          ],
+          "note": "名冊列出 ostarine、六個月停賽與成績取消。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-1035e17c5288",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-346adff2054e71b7",
+        "registry-69483df1b300cd7e"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-346adff2054e71b7",
+          "startLine": 7,
+          "endLine": 12,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告確認自行車選手於賽內檢體驗出 amphetamine、後續獲 TUE、禁賽與成績取消日期。"
+        },
+        {
+          "documentId": "registry-69483df1b300cd7e",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "sanction",
+            "outcomes"
+          ],
+          "note": "名冊列出 amphetamine、一年停賽及成績取消。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-82602147d7d4",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-37b6986c8ad26ac1",
+        "registry-a8d045d916697ebe"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-37b6986c8ad26ac1",
+          "startLine": 7,
+          "endLine": 11,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告確認 Abers 的自行車賽事、ibutamoren 與補充品分析、禁賽起算及成績取消。"
+        },
+        {
+          "documentId": "registry-a8d045d916697ebe",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "sanction",
+            "outcomes"
+          ],
+          "note": "名冊列出 ibutamoren、一年停賽及成績取消。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-22913fa5df5e",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-0fc13213d5fd3b1e",
+        "registry-8aa36e7e6aa390f5"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-0fc13213d5fd3b1e",
+          "startLine": 7,
+          "endLine": 11,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告確認舉重選手的 carboxy-THC 賽內檢體、賽外且與表現無關的使用、完成輔導、一個月禁賽及成績取消。"
+        },
+        {
+          "documentId": "registry-8aa36e7e6aa390f5",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "sanction",
+            "outcomes"
+          ],
+          "note": "名冊列出大麻素、一個月停賽及成績取消。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-48d68f0e2e03",
+      "status": "issue",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "issue",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-256e5a19dd09435b",
+        "doc-ba85662ece52e58e",
+        "registry-221e8242869c81e3"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-256e5a19dd09435b",
+          "startLine": 7,
+          "endLine": 9,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "原公告確認舉重項目、M3 等物質、四年禁賽及原案成績取消。"
+        },
+        {
+          "documentId": "doc-ba85662ece52e58e",
+          "startLine": 10,
+          "endLine": 11,
+          "supports": [
+            "event",
+            "sanction",
+            "dates"
+          ],
+          "note": "追加公告確認禁賽期間執教、追加四年、退休期間暫停計時及復出後連續服刑。"
+        },
+        {
+          "documentId": "registry-221e8242869c81e3",
+          "startLine": 1,
+          "endLine": 5,
+          "supports": [
+            "sanction"
+          ],
+          "note": "名冊區分原案與追加四年，並記載退休停算及更新日期。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "medium",
+          "claim": "nationality 為「美國」",
+          "explanation": "來源只載其居住地及美國舉重賽事／機構關聯，未明確證明其國籍或代表隊身分。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-256e5a19dd09435b",
+              "startLine": 7,
+              "endLine": 7
+            },
+            {
+              "documentId": "doc-ba85662ece52e58e",
+              "startLine": 10,
+              "endLine": 10
+            }
+          ],
+          "suggestion": "補充可核實的國籍或運動代表資料；否則將國家欄標為未確認。"
+        },
+        {
+          "field": "sanction",
+          "kind": "contradiction",
+          "severity": "high",
+          "claim": "「退休期間停止計時」且「復出後連續服滿剩餘處分」",
+          "explanation": "來源稱兩段處分在退休期間均暫停，復出後兩段處分連續執行；名冊另列「Indefinite*」，並未證明原四年已完整服畢或剩餘年數已確定。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-ba85662ece52e58e",
+              "startLine": 11,
+              "endLine": 11
+            },
+            {
+              "documentId": "registry-221e8242869c81e3",
+              "startLine": 5,
+              "endLine": 5
+            }
+          ],
+          "suggestion": "改述為退休期間處分暫停，兩段處分預定於復出後連續執行，避免聲稱已確定剩餘處分長度。"
+        }
+      ]
+    },
+    {
+      "id": "usada-c0bcc1cac884",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-ba85662ece52e58e",
+        "registry-36db03496e62e57a"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-ba85662ece52e58e",
+          "startLine": 7,
+          "endLine": 12,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates"
+          ],
+          "note": "公告確認 Chavez 為舉重教練，涉及借出證件協助 Prempeh 入場及調查中不實陳述，禁賽自暫停日起算。"
+        },
+        {
+          "documentId": "registry-36db03496e62e57a",
+          "startLine": 3,
+          "endLine": 3,
+          "supports": [
+            "sanction"
+          ],
+          "note": "名冊列出 Chavez 的篡改及共謀違規與四年停賽。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "medium",
+          "claim": "nationality 為「美國」",
+          "explanation": "來源載有居住地及美國舉重賽事、機構關聯，未明確證明其國籍或運動代表身分。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-ba85662ece52e58e",
+              "startLine": 7,
+              "endLine": 7
+            },
+            {
+              "documentId": "doc-ba85662ece52e58e",
+              "startLine": 10,
+              "endLine": 10
+            }
+          ],
+          "suggestion": "補充可核實的國籍或運動代表資料；否則將國家欄標為未確認。"
+        }
+      ]
+    },
+    {
+      "id": "usada-159a9ae15f32",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-e2a1f93ae6f5dfec",
+        "registry-286e819b1c6c70f5"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-e2a1f93ae6f5dfec",
+          "startLine": 7,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告確認 Wilson 的舉重項目、兩種合成代謝劑代謝物、及早承認減刑、三年禁賽起算及成績取消日期。"
+        },
+        {
+          "documentId": "registry-286e819b1c6c70f5",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "sanction",
+            "outcomes"
+          ],
+          "note": "名冊列出 stanozolol、drostanolone、三年停賽及成績取消。"
+        }
+      ],
+      "findings": []
+    }
+  ]
+}

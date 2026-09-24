@@ -1,0 +1,79 @@
+{
+  "cases": [
+    {
+      "id": "aiu-dbc9a1f66bb9",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-6a64314368dd066d",
+        "registry-378c5c78eb5059ec"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-6a64314368dd066d",
+          "startLine": 2,
+          "endLine": 13,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "決定書當事人為 Nancy Jelagat Meto，並記為來自肯亞的路跑選手。"
+        },
+        {
+          "documentId": "doc-6a64314368dd066d",
+          "startLine": 56,
+          "endLine": 66,
+          "supports": [
+            "event",
+            "substance",
+            "dates"
+          ],
+          "note": "2024-06-12 賽外尿液樣本檢出 furosemide。"
+        },
+        {
+          "documentId": "doc-6a64314368dd066d",
+          "startLine": 141,
+          "endLine": 169,
+          "supports": [
+            "event"
+          ],
+          "note": "肯亞國內管轄程序被高等法院撤銷後，WADA 指示 AIU 接手結果管理。"
+        },
+        {
+          "documentId": "doc-6a64314368dd066d",
+          "startLine": 234,
+          "endLine": 251,
+          "supports": [
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "furosemide 屬 2024 年 S5 特定物質；首次違規、未證明故意，禁賽兩年自 2024-08-11 起，並取消 2024-06-12 起成績。"
+        },
+        {
+          "documentId": "registry-378c5c78eb5059ec",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "education"
+          ],
+          "note": "名冊列 KEN、同一物質與條款，但禁賽起日寫 2026-02-05，與決定第 30.1 段不同。"
+        }
+      ],
+      "findings": []
+    }
+  ]
+}

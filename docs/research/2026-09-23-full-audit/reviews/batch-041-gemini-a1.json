@@ -1,0 +1,205 @@
+{
+  "cases": [
+    {
+      "id": "aiu-4213ba8b75b5",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-344fd9ceb1cc3b02",
+        "registry-d3996d8801849427"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-344fd9ceb1cc3b02",
+          "startLine": 6,
+          "endLine": 15,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "AIU裁決載明選手姓名Pradhan Kirulkar及來自印度之長跑選手身分"
+        },
+        {
+          "documentId": "doc-344fd9ceb1cc3b02",
+          "startLine": 49,
+          "endLine": 60,
+          "supports": [
+            "event",
+            "substance"
+          ],
+          "note": "2024年12月15日浦那半馬賽事採樣檢出Meldonium且無TUE"
+        },
+        {
+          "documentId": "doc-344fd9ceb1cc3b02",
+          "startLine": 140,
+          "endLine": 151,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "及早承認獲一年減免，自2025年2月19日起禁賽三年並取消2024年12月15日起之成績與獎項"
+        },
+        {
+          "documentId": "registry-d3996d8801849427",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "官方名冊登載2025年3月19日確認三年禁賽與取消自2024年12月15日起成績之最終裁決"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "aiu-4207202fdd60",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-584d3b1ce020639f",
+        "registry-1cc6a01b454460f2"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-584d3b1ce020639f",
+          "startLine": 6,
+          "endLine": 15,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "AIU裁決載明選手姓名Vivek More及印度長跑選手身分"
+        },
+        {
+          "documentId": "doc-584d3b1ce020639f",
+          "startLine": 49,
+          "endLine": 58,
+          "supports": [
+            "event",
+            "substance"
+          ],
+          "note": "2024年12月15日浦那半馬檢體檢出Mephentermine、Meldonium及dEPO且無TUE"
+        },
+        {
+          "documentId": "doc-584d3b1ce020639f",
+          "startLine": 150,
+          "endLine": 196,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "多種物質構成加重情節處六年禁賽，因及早承認減至五年，自2025年2月21日起算並取消2024年12月15日起成績"
+        },
+        {
+          "documentId": "registry-1cc6a01b454460f2",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "官方名冊登載2025年3月17日最終裁決五年禁賽與取消自2024年12月15日起成績"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "aiu-a88d58d818af",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-fcce95c873afda6e",
+        "registry-0f32a21f9b8f83af"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-fcce95c873afda6e",
+          "startLine": 1,
+          "endLine": 12,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "AIU裁決載明選手姓名Archana Laxman Jadhav及印度長跑選手身分"
+        },
+        {
+          "documentId": "doc-fcce95c873afda6e",
+          "startLine": 55,
+          "endLine": 69,
+          "supports": [
+            "event",
+            "substance"
+          ],
+          "note": "2024年12月15日浦那半馬檢體檢出Oxandrolone及其代謝物且無TUE"
+        },
+        {
+          "documentId": "doc-fcce95c873afda6e",
+          "startLine": 222,
+          "endLine": 236,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "未在規定期限內承認違規，維持四年禁賽自2025年1月7日起算並取消2024年12月15日起成績"
+        },
+        {
+          "documentId": "registry-0f32a21f9b8f83af",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "官方名冊登載2025年3月17日最終裁決四年禁賽自2025年1月7日起並取消自2024年12月15日起成績"
+        }
+      ],
+      "findings": []
+    }
+  ]
+}

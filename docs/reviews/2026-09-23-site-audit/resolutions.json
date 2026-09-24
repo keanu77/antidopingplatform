@@ -1,0 +1,18 @@
+{
+  "checkedAt": "2026-09-23T09:00:02.549336+00:00",
+  "method": "optimize candidate audit followed by independent verification; raw pass1/pass2 retained",
+  "resolved": [
+    "Feedback UI/API contract, write failures, origin/media-type, byte limits, atomic rate limits, prototype keys",
+    "CaseList clear, stale requests, error recovery; detail not-found vs failure",
+    "TUE duplicate/stale requests and form labels; education ADRV retry",
+    "Desktop/mobile Escape focus; Home missing data placeholders",
+    "Source publisher vs governing federation grouping",
+    "Quiz title/result focus and scroll position"
+  ],
+  "notClaimed": [
+    "500 case source reviews by every model",
+    "Every medical statement or external source fully audited",
+    "Cloudflare production D1 write verification",
+    "Current local changes deployed"
+  ]
+}

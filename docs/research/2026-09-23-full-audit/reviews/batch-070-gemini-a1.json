@@ -1,0 +1,508 @@
+{
+  "cases": [
+    {
+      "id": "usada-5f2ba9170fdc",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-a0d3c1046b46708d",
+        "registry-489f9378b0c7075e"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-a0d3c1046b46708d",
+          "startLine": 1,
+          "endLine": 8,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "Grace Bowlby 於賽外檢體檢出外用處方藥 spironolactone，檢測表申報且後續獲未來用藥 TUE，接受公開警告且無成績取消"
+        },
+        {
+          "documentId": "registry-489f9378b0c7075e",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "dates"
+          ],
+          "note": "官方處分名冊記載 Grace Bowlby 因冰球項目檢出 Spironolactone 於 2021-12-16 接受公開警告"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "美國",
+          "explanation": "官方個案文件僅在標題提及「U.S. Ice Hockey Athlete」並註記選手居住於明尼蘇達州 Edina，依審查規範，發布機構管轄權、居住地或新聞標題字樣不足以確立國籍或運動代表權。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-a0d3c1046b46708d",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "將國籍標註為不確定，或補充證明其具備美國國籍或代表美國參賽之官方資格佐證。"
+        }
+      ]
+    },
+    {
+      "id": "usada-05c2efe09f20",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-2cd304e8ea667812",
+        "registry-5f57f6dbd6aa45f5"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-2cd304e8ea667812",
+          "startLine": 1,
+          "endLine": 8,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "Trey Lampkin 賽外檢體檢出處方藥 HCTZ，因已停用該藥無須申請 TUE，接受公開警告且無成績取消"
+        },
+        {
+          "documentId": "registry-5f57f6dbd6aa45f5",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "dates"
+          ],
+          "note": "官方處分名冊記載 Trey Lampkin 因帕拉柔道項目檢出 HCTZ 於 2021-12-07 接受公開警告"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "美國",
+          "explanation": "官方個案公告僅於標題提及「U.S. Paralympic Judo Athlete」並記載其居住於俄亥俄州 Toledo，依審查規範不足以直接確立國籍或運動代表權。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-2cd304e8ea667812",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "將國籍欄位標註為不確定，或補充其代表美國參賽之正式代表權證明文件。"
+        }
+      ]
+    },
+    {
+      "id": "usada-f8c1f2c29e25",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-d215cc07f3a36ad6",
+        "registry-bb2a6615feb05d81"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-d215cc07f3a36ad6",
+          "startLine": 1,
+          "endLine": 8,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "Madeline Wethington 賽外檢體檢出皮膚科外用處方 spironolactone，申報並取得後續 TUE，處以公開警告且未取消成績"
+        },
+        {
+          "documentId": "registry-bb2a6615feb05d81",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "dates"
+          ],
+          "note": "官方處分名冊記載 Madeline Wethington 冰球項目檢出 Spironolactone 於 2021-12-06 接受公開警告"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "美國",
+          "explanation": "官方公告僅載有標題「U.S. Ice Hockey Athlete」與明尼蘇達州 Edina 之居住地，依審查標準不能僅憑居住地或標題逕行推定國籍或代表權。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-d215cc07f3a36ad6",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "將代表國籍調整為不確定，或補充官方運動代表權佐證資料。"
+        }
+      ]
+    },
+    {
+      "id": "usada-956ec8818b4b",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-2f2056215086cb71",
+        "registry-0d5d3f3592e6ee3a"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-2f2056215086cb71",
+          "startLine": 1,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "Jordan Adel 檢出 ibutamoren、ostarine、LGD-4033 及其代謝物，依 10.8.1 及早承認條款減為三年禁賽，取消 2021-10-12 起之成績"
+        },
+        {
+          "documentId": "registry-0d5d3f3592e6ee3a",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "dates"
+          ],
+          "note": "處分名冊記載 Jordan Adel 舉重項目檢出 Ostarine、LGD-4033、Ibutamoren 處三年禁賽並取消成績"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "美國",
+          "explanation": "公告僅在標題載明「U.S. Weightlifting Athlete」並註記德州 McKinney 居住地，依標準單憑發布單位管轄與居住地無法認定國籍或體育代表權。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-2f2056215086cb71",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "建議將國籍改列為不確定，或補足代表國家參賽或公民身分之官方紀錄。"
+        }
+      ]
+    },
+    {
+      "id": "usada-2afd16a939d4",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-8d6503b28b6c0b22",
+        "registry-6deb9a9f0dc18931"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-8d6503b28b6c0b22",
+          "startLine": 1,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "Noah Webb 於全美分齡鐵人三項賽檢體經 IRMS 確認外源性睪固酮或前驅物，處四年禁賽並取消 2021-08-07 起之成績"
+        },
+        {
+          "documentId": "registry-6deb9a9f0dc18931",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "dates"
+          ],
+          "note": "處分名冊記載 Noah Webb 因同化性雄性類固醇受四年禁賽並取消成績"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "美國",
+          "explanation": "官方文件僅提及洛杉磯居住地、全美分齡賽事與標題「U.S. Triathlon Athlete」，依審查規範不足以確立國籍或運動代表權。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-8d6503b28b6c0b22",
+              "startLine": 1,
+              "endLine": 8
+            }
+          ],
+          "suggestion": "將國籍欄位標註為不確定，或提供具體代表美國國家代表隊之官方憑據。"
+        }
+      ]
+    },
+    {
+      "id": "usada-003de817c96a",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-671744ac0a0ce8b8",
+        "registry-7714ab54e828e109"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-671744ac0a0ce8b8",
+          "startLine": 1,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "Hillary Tran 檢出古柯鹼代謝物與 d-甲基安非他命，後者證實源自受污染街頭藥物而減為一年禁賽，取消 2021-07-03 起成績"
+        },
+        {
+          "documentId": "registry-7714ab54e828e109",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "dates"
+          ],
+          "note": "處分名冊記載 Hillary Tran 因 Cocaine 及 D-methamphetamine 被處一年禁賽並取消成績"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "美國",
+          "explanation": "官方公告僅有標題「U.S. Weightlifting Athlete」及加州 San Bruno 居住地，依審查規範不足以作為確立國籍或代表權之充分證明。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-671744ac0a0ce8b8",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "國籍資訊建議改列為不確定，或補齊運動代表權或公民權佐證。"
+        }
+      ]
+    },
+    {
+      "id": "usada-557b3d045e61",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-d115ddecad017ff4",
+        "registry-b648c55f17af16e7"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-d115ddecad017ff4",
+          "startLine": 1,
+          "endLine": 9,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "田徑教練 Jamaal Daniels 向選手施用 DHEA 並篡改調查提供不實陳述，處四年禁賽，未提及成績取消"
+        },
+        {
+          "documentId": "registry-b648c55f17af16e7",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "dates"
+          ],
+          "note": "處分名冊記載 Jamaal Daniels 因非分析性違規（施用與篡改）受四年禁賽處分"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "美國",
+          "explanation": "文件僅載明標題「U.S. Paralympic Track & Field Coach」與北卡羅來納州 Raleigh 居住地，無法直接確立其國籍。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-d115ddecad017ff4",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "將國籍欄標記為不確定，或補充官方國籍紀錄。"
+        }
+      ]
+    },
+    {
+      "id": "usada-81ca863aa55c",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-8866f5e1a55452a8",
+        "registry-8ff1578b84ea8921"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-8866f5e1a55452a8",
+          "startLine": 1,
+          "endLine": 11,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "Matt McWhirter 在自行車分級賽事檢體經 IRMS 確認合成睪固酮或前驅物，處四年禁賽並取消 2021-06-19 起之成績"
+        },
+        {
+          "documentId": "registry-8ff1578b84ea8921",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "dates"
+          ],
+          "note": "處分名冊記載 Matt McWhirter 因同化性雄性類固醇受四年禁賽並取消成績"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "美國",
+          "explanation": "公告僅提及 USA Cycling 會員、亞利桑那州 Scottsdale 居住地與標題字樣，依審查規範不能以此推定國籍或代表權。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-8866f5e1a55452a8",
+              "startLine": 1,
+              "endLine": 8
+            }
+          ],
+          "suggestion": "將國籍改為不確定，或增補正式國籍或國家隊代表權證明。"
+        }
+      ]
+    }
+  ]
+}

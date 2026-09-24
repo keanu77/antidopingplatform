@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * rebuild-dataset.mjs — 從 repo 內的權威文件重建案例資料集。
+ * rebuild-dataset.mjs — 從歷史匯出及已查核勘誤重建案例資料集。
  *
  * 背景（2026-09-19）：Zeabur 專案 antidoping-platform 連同其 MongoDB 被刪除，
  * 且 Zeabur 為硬刪除、無備份，網路封存館亦無紀錄。本腳本從 git 內留存的資料重建。
@@ -8,7 +8,8 @@
  * ── 為什麼以「運動禁藥案例資料庫_完整清單.md」為唯一基底 ──
  * 該檔由 backend/export_cases_to_md.js 從當時的正式資料庫匯出（commit c3b96e5,
  * 2025-08-24，171 筆），且「移除所有虛構案例」的清理 commit(78858dd, 2025-08-22)
- * 發生在匯出之前，因此這 171 筆是清理後、逐筆有來源連結的版本。
+ * 發生在匯出之前。但 2026-09-22 外查發現來源多為首頁且含錯誤，
+ * 歷史匯出不等於已逐案驗證；必須再套用 data/case-corrections.json。
  *
  * ── 為什麼不直接合併 backend/ 下的種子腳本 ──
  * 那些腳本共可抽出約 500 筆，但：
@@ -28,9 +29,11 @@
  *
  * 用法：node scripts/rebuild-dataset.mjs [--out <path>]
  */
-import { readFileSync, writeFileSync, mkdirSync } from "node:fs";
+import { readFileSync, writeFileSync, mkdirSync, existsSync, readdirSync } from "node:fs";
+import { createHash } from "node:crypto";
 import { dirname, join, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
+import { applyCaseCorrections } from "./apply-case-corrections.mjs";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = resolve(__dirname, "..");
@@ -201,6 +204,120 @@ for (const ins of INSERTS) {
 
 cases.sort((a, b) => (b.year || 0) - (a.year || 0) || a.athleteName.localeCompare(b.athleteName));
 cases = cases.map((c, i) => ({ id: String(i + 1), ...c }));
+// Apply after assigning legacy IDs so quarantine/merges never renumber existing URLs.
+const review = JSON.parse(readFileSync(join(ROOT, "data/case-corrections.json"), "utf8"));
+cases = applyCaseCorrections(cases, review);
+// Unreviewed legacy narratives remain in the research archive, never in the API.
+cases = cases.filter((c) => c.review.status !== "pending");
+const curated = JSON.parse(readFileSync(join(ROOT, "data/curated-cases.json"), "utf8"));
+const additionIds = new Set(curated.map((c) => c.id));
+for (const item of curated) {
+  if (cases.some((c) => c.id === item.id)) throw new Error(`Duplicate curated ID: ${item.id}`);
+  cases.push(item);
+}
+// Keep source-comparison coverage separate from the editorial acceptance status.
+const auditDir = join(ROOT, "docs/research/2026-09-23-multi-llm-audit");
+const coverage = JSON.parse(readFileSync(join(auditDir, "coverage.json"), "utf8"));
+const auditCases = new Map(coverage.cases.map((c) => [c.id, c.modelSeats]));
+const evidenceCheck = JSON.parse(readFileSync(join(auditDir, "independent-structural-check.json"), "utf8"));
+const titleOnlyCountries = new Set(evidenceCheck.usCountrySupportedByArticleTitleIds);
+for (const c of cases) {
+  c.review.datasetGroup = additionIds.has(c.id) ? "new" : "legacy_corrected";
+  c.review.sourceComparison = {
+    checkedAt: coverage.checkedAt.slice(0, 10),
+    modelSeats: auditCases.get(c.id) ?? [],
+  };
+  if (titleOnlyCountries.has(c.id)) {
+    c.review.countryEvidence = {
+      status: "title_only",
+      note: "國家欄目前依官方公告標題的 U.S. 描述；代表國身分仍待補充官方資料，不能視為法律國籍已確認。",
+    };
+  }
+}
+// Source review answers are versioned separately from editorial corrections.
+// Never infer full coverage from a queued job or from a model's agreement.
+const modelReviewPath = join(ROOT, "data/case-model-reviews.json");
+const auditCorrectionPath = join(ROOT, "data/case-audit-corrections.json");
+if (existsSync(modelReviewPath) || existsSync(auditCorrectionPath)) {
+  if (!existsSync(modelReviewPath) || !existsSync(auditCorrectionPath)) throw new Error("Incomplete full-audit overlays");
+  const modelReview = JSON.parse(readFileSync(modelReviewPath, "utf8"));
+  const corrections = JSON.parse(readFileSync(auditCorrectionPath, "utf8"));
+  const rows = new Map(modelReview.cases.map((r) => [r.id, r]));
+  if (rows.size !== 500 || modelReview.cases.length !== 500 || [...rows.keys()].some((id) => !additionIds.has(id))) throw new Error("Full-audit coverage must match all 500 new IDs");
+  for (const fix of corrections.changes) {
+    const c = cases.find((item) => item.id === fix.id);
+    if (!c || !additionIds.has(c.id)) throw new Error(`Unknown audited case ${fix.id}`);
+    for (const [key, value] of Object.entries(fix.set)) setPath(c, key, value);
+  }
+  const canonical = (value) => Array.isArray(value) ? value.map(canonical)
+    : value && typeof value === "object" ? Object.fromEntries(Object.keys(value).sort().map((key) => [key, canonical(value[key])])) : value;
+  for (const c of cases) {
+    const row = rows.get(c.id);
+    if (!row) continue;
+    if (new Set(row.modelSeats).size < 2 || row.modelSeats.some((seat) => !["GPT", "Gemini", "Grok", "Claude"].includes(seat))) throw new Error(`Incomplete model families for ${c.id}`);
+    const claims = Object.fromEntries(Object.entries(c).filter(([key]) => !["review", "registryRecordAsPublished"].includes(key)));
+    claims.caseType = c.review.caseType;
+    claims.outcome = c.review.outcome;
+    const currentHash = createHash("sha256").update(JSON.stringify(canonical(claims))).digest("hex");
+    c.review.sourceComparison = {
+      checkedAt: modelReview.checkedAt,
+      modelSeats: row.modelSeats,
+      requestedModels: row.requestedModels,
+      auditedClaimsSha256: row.auditedClaimsSha256,
+      claimsChangedAfterReview: currentHash !== row.auditedClaimsSha256,
+      unresolvedSourceFields: row.unresolvedSourceFields,
+      reviewState: row.reviewState,
+    };
+  }
+}
+// New official country/date follow-ups do not overwrite historical model inputs.
+// The original overlay applies first, then each later round in name order.
+const roundDir = join(ROOT, "data/country-followups");
+const followupPaths = [
+  join(ROOT, "data/case-source-followups.json"),
+  ...(existsSync(roundDir) ? readdirSync(roundDir).filter((f) => f.endsWith(".json")).sort().map((f) => join(roundDir, f)) : []),
+].filter((p) => existsSync(p));
+const seen = new Set();
+for (const followupPath of followupPaths) {
+  const followup = JSON.parse(readFileSync(followupPath, "utf8"));
+  for (const fix of followup.countryChanges) {
+    const c = cases.find((item) => item.id === fix.id);
+    if (!c || seen.has(fix.id) || c.nationality !== fix.nationality || c.review.countryEvidence?.status !== "title_only") {
+      throw new Error(`Country follow-up precondition failed: ${fix.id}`);
+    }
+    if (!fix.sourceRefs?.length || new Set(fix.modelReview?.modelSeats).size < 2) throw new Error(`Incomplete country evidence: ${fix.id}`);
+    seen.add(fix.id);
+    delete c.review.countryFollowup; // a later round may resolve an earlier "held" case
+    c.review.nationalitySource = fix.sourceUrl;
+    c.review.nationalityAsListed = fix.countryAsListed;
+    c.review.countryEvidence = {
+      status: "official_country_as_listed",
+      checkedAt: followup.checkedAt,
+      scope: fix.scope,
+      note: fix.note,
+      sourceRefs: fix.sourceRefs,
+      modelReview: fix.modelReview,
+    };
+    c.review.sourceComparison.auditedUnresolvedSourceFields = [...c.review.sourceComparison.unresolvedSourceFields];
+    c.review.sourceComparison.unresolvedSourceFields = c.review.sourceComparison.unresolvedSourceFields.filter((field) => field !== "country");
+    c.review.sourceComparison.reviewState = c.review.sourceComparison.unresolvedSourceFields.length ? "source_limitations" : "editorial_adjudicated";
+  }
+  for (const check of followup.dateChecks) {
+    const c = cases.find((item) => item.id === check.id);
+    if (!c?.review.sourceComparison.unresolvedSourceFields.includes("dates") || check.resolution !== "unresolved") throw new Error(`Unexpected date follow-up: ${check.id}`);
+    c.review.dateFollowup = { checkedAt: followup.checkedAt, note: check.note, sourceRefs: check.sourceRefs };
+  }
+  for (const check of followup.heldCountryChecks) {
+    const c = cases.find((item) => item.id === check.id);
+    if (c?.review.countryEvidence?.status !== "title_only") throw new Error(`Held country annotation must stay unresolved: ${check.id}`);
+    c.review.countryFollowup = { checkedAt: followup.checkedAt, resolution: "held", note: check.reason };
+  }
+}
+cases.sort((a, b) => b.year - a.year || a.id.localeCompare(b.id));
+if (curated.length !== 500) throw new Error(`New-case target requires 500 additions; found ${curated.length}`);
+if (cases.length !== 517) throw new Error(`Expected 17 legacy corrections plus 500 additions; found ${cases.length}`);
+const aliases = JSON.parse(readFileSync(join(ROOT, "data/case-aliases.json"), "utf8"));
+if (JSON.stringify(aliases) !== JSON.stringify(review.redirects)) throw new Error("Alias map differs from reviewed merges");
 
 mkdirSync(dirname(OUT), { recursive: true });
 writeFileSync(OUT, JSON.stringify(cases, null, 1));

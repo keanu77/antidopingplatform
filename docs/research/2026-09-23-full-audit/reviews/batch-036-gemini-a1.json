@@ -1,0 +1,170 @@
+{
+  "cases": [
+    {
+      "id": "aiu-34aeaaef8366",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-92fb9250c40112c0",
+        "registry-902ec81dcdef5405"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-92fb9250c40112c0",
+          "startLine": 1,
+          "endLine": 12,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "裁決確認運動員為克羅埃西亞路跑選手 Andrej Hladnik"
+        },
+        {
+          "documentId": "doc-92fb9250c40112c0",
+          "startLine": 50,
+          "endLine": 71,
+          "supports": [
+            "event",
+            "substance",
+            "dates"
+          ],
+          "note": "2024-10-13 於薩格勒布馬拉松賽內採樣檢出 ostarine，2024-11-08 實施暫時禁賽"
+        },
+        {
+          "documentId": "doc-92fb9250c40112c0",
+          "startLine": 219,
+          "endLine": 221,
+          "supports": [
+            "event",
+            "education"
+          ],
+          "note": "實驗室檢測運動員送驗之補充品未檢出 ostarine，未證實污染來源"
+        },
+        {
+          "documentId": "doc-92fb9250c40112c0",
+          "startLine": 251,
+          "endLine": 277,
+          "supports": [
+            "event",
+            "sanction",
+            "education"
+          ],
+          "note": "運動員於 2025-01-01 暫時禁賽期間違規參賽，依法不予折抵暫時禁賽期"
+        },
+        {
+          "documentId": "doc-92fb9250c40112c0",
+          "startLine": 511,
+          "endLine": 537,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "及早承認違規獲減刑為禁賽三年，自 2025-06-06 起算且不折抵暫時禁賽，並取消 2024-10-13 起成績"
+        },
+        {
+          "documentId": "registry-902ec81dcdef5405",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "AIU 官方名冊登錄 Andrej Hladnik (CRO) 違反第 2.1 條 (Ostarine)，處以三年禁賽自 2025-06-06 起，取消 2024-10-13 起成績"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "aiu-c42fc707f5bf",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-fca0e88e6cd0d7ad",
+        "registry-0ab461ac1683e906"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-fca0e88e6cd0d7ad",
+          "startLine": 1,
+          "endLine": 14,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "裁決確認運動員為墨西哥路跑選手 Citlali Cristian Moscote，且為第二次反禁藥違規"
+        },
+        {
+          "documentId": "doc-fca0e88e6cd0d7ad",
+          "startLine": 60,
+          "endLine": 80,
+          "supports": [
+            "event",
+            "substance",
+            "dates"
+          ],
+          "note": "2025-01-12 瓦倫西亞 10 公里賽檢體檢出 Octodrine 及其代謝物 Heptaminol"
+        },
+        {
+          "documentId": "doc-fca0e88e6cd0d7ad",
+          "startLine": 172,
+          "endLine": 178,
+          "supports": [
+            "event",
+            "education"
+          ],
+          "note": "送驗之一款補充品未檢出 Octodrine，另一款獲製造商認證無禁用物質，污染來源未獲證實"
+        },
+        {
+          "documentId": "doc-fca0e88e6cd0d7ad",
+          "startLine": 236,
+          "endLine": 291,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "第二次違規基準為四年禁賽，因及早承認減為三年，自 2025-03-24 暫時禁賽日起算，取消 2025-01-12 起成績"
+        },
+        {
+          "documentId": "registry-0ab461ac1683e906",
+          "startLine": 1,
+          "endLine": 2,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "AIU 官方名冊確認 Citlali Cristian Moscote (MEX) 第二次違規處禁賽三年，自 2025-03-24 起算並取消 2025-01-12 起成績"
+        }
+      ],
+      "findings": []
+    }
+  ]
+}

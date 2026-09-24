@@ -1,0 +1,112 @@
+{
+  "cases": [
+    {
+      "id": "usada-88685d4069ae",
+      "status": "supported",
+      "identity": "supported",
+      "country": "supported",
+      "temporalScope": "supported",
+      "evidence": [
+        {
+          "documentId": "case",
+          "startLine": 1,
+          "endLine": 7,
+          "note": "Case title and line 7 confirm 'Keiser Witte' as U.S. Weightlifting Athlete in sport of weightlifting"
+        },
+        {
+          "documentId": "country",
+          "startLine": 1,
+          "endLine": 1,
+          "note": "Official Team USA profile title lists 'Keiser Witte'"
+        },
+        {
+          "documentId": "country",
+          "startLine": 448,
+          "endLine": 461,
+          "note": "Profile confirms name, sport (Weightlifting), hometown Phoenix AZ, and education Arizona State University (located in Tempe, matching USADA case location)"
+        },
+        {
+          "documentId": "case",
+          "startLine": 8,
+          "endLine": 8,
+          "note": "Sample collected December 4, 2022 at 2022 North American Open Finals under USADA Protocol for Olympic Movement Testing"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-a37e4ef92abb",
+      "status": "uncertain",
+      "identity": "uncertain",
+      "country": "supported",
+      "temporalScope": "supported",
+      "evidence": [
+        {
+          "documentId": "case",
+          "startLine": 7,
+          "endLine": 8,
+          "note": "Case identifies 'Christian Rodriguez Ocasio, of Wadsworth, Ohio' as weightlifter, age 29 at time of November 2022 sanction announcement"
+        },
+        {
+          "documentId": "country",
+          "startLine": 1,
+          "endLine": 1,
+          "note": "Official Team USA profile lists 'Christian Rodriguez Ocasio'"
+        },
+        {
+          "documentId": "country",
+          "startLine": 448,
+          "endLine": 460,
+          "note": "Profile shows age 33 (consistent with age 29 in Nov 2022 = born ~1992-1993), but lists hometown as Pleasanton, CA—different state from USADA case location"
+        },
+        {
+          "documentId": "case",
+          "startLine": 8,
+          "endLine": 8,
+          "note": "Sample collected March 4, 2022 under USADA jurisdiction"
+        }
+      ],
+      "findings": [
+        {
+          "field": "identity",
+          "explanation": "Significant location discrepancy: USADA case (line 7) lists 'Wadsworth, Ohio' while Team USA profile (line 458) lists 'Pleasanton, CA'—different states. Name, sport, and birth year (age 29 in 2022 matches age 33 in 2026 profile) are consistent, but geographic mismatch across states cannot be explained by typical metro-area variation or campus location. This suggests either relocation, outdated profile data, or potential identity ambiguity.",
+          "suggestion": "Verify subject identity using additional biographical identifiers (specific birthdate, weight class at March 2022 competition, competition history) before confirming country annotation"
+        }
+      ]
+    },
+    {
+      "id": "usada-159a9ae15f32",
+      "status": "supported",
+      "identity": "supported",
+      "country": "supported",
+      "temporalScope": "supported",
+      "evidence": [
+        {
+          "documentId": "case",
+          "startLine": 1,
+          "endLine": 7,
+          "note": "Case title and line 7 confirm 'Ian Wilson' as U.S. Weightlifting Athlete, 'of Berkley, Calif.' in sport of weightlifting"
+        },
+        {
+          "documentId": "country",
+          "startLine": 1,
+          "endLine": 1,
+          "note": "Official Team USA profile lists 'Ian Wilson'"
+        },
+        {
+          "documentId": "country",
+          "startLine": 448,
+          "endLine": 461,
+          "note": "Profile confirms name, sport (Weightlifting), birth year 1994 (consistent with age 28 in Feb 2022), and location Berkeley CA (matches USADA 'Berkley')"
+        },
+        {
+          "documentId": "case",
+          "startLine": 10,
+          "endLine": 10,
+          "note": "Sample collected December 2, 2021 during out-of-competition testing under USADA Protocol, establishing 2021 participation"
+        }
+      ],
+      "findings": []
+    }
+  ]
+}

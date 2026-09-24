@@ -1,0 +1,452 @@
+{
+  "cases": [
+    {
+      "id": "usada-8fb29d61bbde",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-4573ef41a84fb854",
+        "registry-f307394fc95bcc2e"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-4573ef41a84fb854",
+          "startLine": 7,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告確認帕拉單板滑雪、未提供檢體、及早承認後三年禁賽，並列起算日及成績取消範圍。"
+        },
+        {
+          "documentId": "registry-f307394fc95bcc2e",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "event",
+            "sanction"
+          ],
+          "note": "名冊列出 Tyler Burdick、帕拉單板滑雪及三年處分。"
+        },
+        {
+          "documentId": "doc-4573ef41a84fb854",
+          "startLine": 8,
+          "endLine": 8,
+          "supports": [
+            "education"
+          ],
+          "note": "公告描述未配合採樣可構成反禁藥規則違規，與教育重點一致。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-88685d4069ae",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-c7b3edadb1ceb71f",
+        "registry-fbfdf5830b5e4cb3"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-c7b3edadb1ceb71f",
+          "startLine": 7,
+          "endLine": 11,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告確認運動員、舉重、賽內 carboxy-THC 決定界限及一個月處分；列出相關規則、處遇條件、日期和成績取消。"
+        },
+        {
+          "documentId": "registry-fbfdf5830b5e4cb3",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "event",
+            "sanction"
+          ],
+          "note": "名冊確認 Witte、舉重、Cannabinoids、一個月處分及公告日期。"
+        },
+        {
+          "documentId": "doc-c7b3edadb1ceb71f",
+          "startLine": 9,
+          "endLine": 10,
+          "supports": [
+            "education"
+          ],
+          "note": "公告說明賽外且與表現無關，以及完成處遇，構成減至一個月的條件。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-5f1f4ed8c4a9",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-cbf6e2f434564382",
+        "registry-e47388d08d625c68"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-cbf6e2f434564382",
+          "startLine": 7,
+          "endLine": 13,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告確認自行車選手、兩項違規背景、未申請 TUE、十二個月處分起日及限定期間的成績取消。"
+        },
+        {
+          "documentId": "registry-e47388d08d625c68",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "event",
+            "sanction"
+          ],
+          "note": "名冊列出 Echeverri、自行車、chlorothiazide、靜脈輸注及一年處分。"
+        },
+        {
+          "documentId": "doc-cbf6e2f434564382",
+          "startLine": 10,
+          "endLine": 12,
+          "supports": [
+            "education"
+          ],
+          "note": "公告區分無禁用物質的輸注內容與超量輸注方法違規，並說明未取得 TUE。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-d7d75c2efaf9",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-0dbfd10e8292f451",
+        "registry-e6bd95b5cdd82584"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-0dbfd10e8292f451",
+          "startLine": 7,
+          "endLine": 12,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告確認自行車、Joe Martin 賽事、DMPA 陽性、補充品分析及標籤另列 DMAA，並列十二個月處分、起日和成績取消。"
+        },
+        {
+          "documentId": "registry-e6bd95b5cdd82584",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "event",
+            "sanction"
+          ],
+          "note": "名冊列出 Andrew、cycling、DMPA、一年處分及成績損失。"
+        },
+        {
+          "documentId": "doc-0dbfd10e8292f451",
+          "startLine": 11,
+          "endLine": 11,
+          "supports": [
+            "education"
+          ],
+          "note": "公告提醒美國膳食補充品缺乏上市前安全性與效能審查，需提高查核注意。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-a37e4ef92abb",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-8880c299ebca801a",
+        "registry-00737ab887a2ad6b"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-8880c299ebca801a",
+          "startLine": 7,
+          "endLine": 11,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告確認舉重、賽內 heptaminol 陽性、補充品混合物含 octodrine、十二個月處分及成績取消。"
+        },
+        {
+          "documentId": "registry-00737ab887a2ad6b",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "event",
+            "sanction"
+          ],
+          "note": "名冊記載 Rodriguez Ocasio、舉重、heptaminol／octodrine 及一年處分。"
+        },
+        {
+          "documentId": "doc-8880c299ebca801a",
+          "startLine": 9,
+          "endLine": 10,
+          "supports": [
+            "education"
+          ],
+          "note": "公告只確認受檢混合物含 octodrine，並說明未揭露禁用物質可視為污染；教育結論沒有把污染擴張至各原始產品。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-091e5bf27388",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-ce50a2d3b06df684",
+        "registry-e77e02d113af23c2"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-ce50a2d3b06df684",
+          "startLine": 7,
+          "endLine": 12,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告確認田徑、賽外檢體及合成來源類固醇、四年處分、退休停算、成績取消與 2007 前案按十年規則視作首次違規。"
+        },
+        {
+          "documentId": "registry-e77e02d113af23c2",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "event",
+            "sanction"
+          ],
+          "note": "名冊確認 Scherf、田徑、合成代謝類固醇、四年處分、退休停算及公告日期。"
+        },
+        {
+          "documentId": "doc-ce50a2d3b06df684",
+          "startLine": 10,
+          "endLine": 12,
+          "supports": [
+            "education"
+          ],
+          "note": "公告說明退休期間處分停算及本案前案間隔適用的規則時間窗。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-0265c80a975c",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-69d90391fc2a2f23",
+        "registry-3888a8a9809e2a09"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-69d90391fc2a2f23",
+          "startLine": 7,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告確認田徑、兩項賽外陽性物質、及早承認減刑、處分起日、退休停算及成績取消。"
+        },
+        {
+          "documentId": "registry-3888a8a9809e2a09",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "event",
+            "sanction"
+          ],
+          "note": "名冊列出 Mead、田徑、ostarine／LGD-4033、三年處分及退休停算。"
+        },
+        {
+          "documentId": "doc-69d90391fc2a2f23",
+          "startLine": 9,
+          "endLine": 10,
+          "supports": [
+            "education"
+          ],
+          "note": "公告分別說明及早承認減刑與退休期間停算；不能僅由起算日推定恢復資格日期。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-1c34e76fa2a0",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-2ea101af4111488b",
+        "registry-ca4a9166730924cd"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-2ea101af4111488b",
+          "startLine": 7,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告確認雪車、賽外未提供檢體、調查認定過失、兩年處分及成績取消範圍和日期。"
+        },
+        {
+          "documentId": "registry-ca4a9166730924cd",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "event",
+            "sanction"
+          ],
+          "note": "名冊確認 Evans、雪車、未配合採樣及兩年處分。"
+        },
+        {
+          "documentId": "doc-2ea101af4111488b",
+          "startLine": 8,
+          "endLine": 9,
+          "supports": [
+            "education"
+          ],
+          "note": "公告指出未提供檢體規則及非故意減刑依據，支持依主觀狀態和個案事實區別描述。"
+        }
+      ],
+      "findings": []
+    }
+  ]
+}

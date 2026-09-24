@@ -1,0 +1,500 @@
+{
+  "cases": [
+    {
+      "id": "usada-8e3e0cdfe74b",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-54979205f7063771",
+        "registry-d98a304b7c7be902"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-54979205f7063771",
+          "startLine": 7,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "Victoria Francis 因 2018-03-06 賽外檢體檢出 ostarine 接受一年禁賽與成績取消，並依第三方實驗室檢驗之污染產品規則獲得減輕。"
+        },
+        {
+          "documentId": "registry-d98a304b7c7be902",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction"
+          ],
+          "note": "官方處分名冊登記 Francis, Victoria 角力項目檢出 Ostarine 處一年禁賽並取消成績。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "國籍：美國",
+          "explanation": "官方公告僅於標題提及「U.S. Wrestling Athlete」及內文居住地「Colorado Springs, Colo.」，依評估規範，發布機構管轄權、居住地或新聞標題表述不足以直接確立國籍或運動代表權。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-54979205f7063771",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "將國籍或代表權標註為不確定（uncertain），或補充具體代表權或國籍佐證文件。"
+        }
+      ]
+    },
+    {
+      "id": "usada-22983a4911f9",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-c98c12df88f67871",
+        "registry-ae84d6375095a5be"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-c98c12df88f67871",
+          "startLine": 7,
+          "endLine": 9,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "Emily Malinowski 於 2017-12-10 賽內檢體檢出外源性合成代謝劑物質，原接受四年禁賽，因及時承認獲減免三個月改處 45 個月禁賽並取消成績。"
+        },
+        {
+          "documentId": "registry-ae84d6375095a5be",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction"
+          ],
+          "note": "官方處分名冊記錄 Malinowski, Emily 舉重項目因雄性素合成類固醇處 45 個月禁賽與取消成績。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "國籍：美國",
+          "explanation": "官方公告僅在標題載明「U.S. Weightlifting Athlete」並於內文記載居住於伊利諾州，依規範不可單憑標題或居住地推論國籍或代表權。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-c98c12df88f67871",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "將國籍／代表權改列為不確定，或增補代表隊或公民身分之官方佐證。"
+        }
+      ]
+    },
+    {
+      "id": "usada-04a1e7f11069",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-6024226da77992d4",
+        "registry-647a112d945338fd"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-6024226da77992d4",
+          "startLine": 7,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "Demi Payne 於 2016-03-12 全美室內田徑賽檢出 drostanolone 及代謝物，調查認定匿名飲料污染說不成立，處四年禁賽並取消成績。"
+        },
+        {
+          "documentId": "registry-647a112d945338fd",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction"
+          ],
+          "note": "官方處分名冊登記 Payne, Demi 田徑項目檢出 Drostanolone 處四年禁賽與取消成績。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "國籍：美國",
+          "explanation": "官方公告僅見標題「U.S. Track & Field Athlete」及內文德州居住地，依標準不足以直接證明選手國籍或運動代表權身分。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-6024226da77992d4",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "將國籍調整為不確定，或引用具體國家代表權或護照證明。"
+        }
+      ]
+    },
+    {
+      "id": "usada-69dbcabe44bb",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-514d77b22a822e8f",
+        "registry-8fa96a51a60f9a63"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-514d77b22a822e8f",
+          "startLine": 7,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "Joshua Gaskins 於 2018-03-03 檢出外源性合成代謝劑物質，經認定非蓄意作弊處兩年禁賽並取消成績。"
+        },
+        {
+          "documentId": "registry-8fa96a51a60f9a63",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction"
+          ],
+          "note": "官方處分名冊登記 Gaskins, Joshua 舉重項目因合成類固醇處兩年禁賽與取消成績。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "國籍：美國",
+          "explanation": "公告標題稱「U.S. Weightlifting Athlete」且內文載其居住於密蘇里州，依查核規範不可逕依標題、管轄機構或居住地推論國籍。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-514d77b22a822e8f",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "將國籍欄位標記為不確定，或補足具體代表權官方佐證。"
+        }
+      ]
+    },
+    {
+      "id": "usada-c42379b4285c",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-4b7fe9f5d81096d3",
+        "registry-504771f141b1bf15"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-4b7fe9f5d81096d3",
+          "startLine": 7,
+          "endLine": 13,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "Daniel Frazier 於 2017-09-09 檢出 clomiphene 及外源性合成代謝劑，雖經審查符合休閒選手 RCTUE 持續使用 testosterone，原案仍處一年禁賽。"
+        },
+        {
+          "documentId": "registry-504771f141b1bf15",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction"
+          ],
+          "note": "官方處分名冊登記 Frazier, Daniel 自行車項目因合成類固醇與排卵藥處一年禁賽與取消成績。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "國籍：美國",
+          "explanation": "公告標題稱「U.S. Cycling Athlete」並提及密西根州居住地及美國自行車協會會員，依規範此等表述不足以確立國籍或國家運動代表權。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-4b7fe9f5d81096d3",
+              "startLine": 1,
+              "endLine": 8
+            }
+          ],
+          "suggestion": "將國籍標記為不確定，或增列具體國家代表隊或國籍紀錄。"
+        }
+      ]
+    },
+    {
+      "id": "usada-5d85c8dbd1a0",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-857098bbdf5e7eae",
+        "registry-87b70b0144413fcf"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-857098bbdf5e7eae",
+          "startLine": 7,
+          "endLine": 9,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "Anthony Ferraro 於 2018-05-12 檢出超過判定界限之 Carboxy-THC，處六個月禁賽，完成教育後減免三個月並取消當日成績。"
+        },
+        {
+          "documentId": "registry-87b70b0144413fcf",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction"
+          ],
+          "note": "官方處分名冊登記 Ferraro, Anthony 帕拉柔道項目因大麻素處六個月禁賽（含三個月暫緩）與取消成績。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "國籍：美國",
+          "explanation": "公告僅於標題提及「U.S. Paralympic Judo Athlete」及內文紐澤西州居住地，依標準不能單憑標題或居住地直接認定國籍或代表權。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-857098bbdf5e7eae",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "將國籍或代表權改列為不確定，或提供正式代表權紀錄。"
+        }
+      ]
+    },
+    {
+      "id": "usada-5b1d89435a80",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-ddb8fc5c07611ce5",
+        "registry-235bbbebc5873940"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-ddb8fc5c07611ce5",
+          "startLine": 7,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "Bruce Mazur 於 2018-04-08 檢體檢出外源性合成代謝劑物質，處四年禁賽並取消 2018-04-08 起之競賽成績。"
+        },
+        {
+          "documentId": "registry-235bbbebc5873940",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction"
+          ],
+          "note": "官方處分名冊登記 Mazur, Bruce 自行車項目因合成類固醇處四年禁賽與取消成績。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "國籍：美國",
+          "explanation": "公告標題雖稱「U.S. Cycling Athlete」，內文僅提及新墨西哥州居住地與美國自行車協會會員，依規範不足以直接確立國籍或運動代表權。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-ddb8fc5c07611ce5",
+              "startLine": 1,
+              "endLine": 8
+            }
+          ],
+          "suggestion": "將國籍狀態列為不確定，或補入確認國籍與運動代表權之來源。"
+        }
+      ]
+    },
+    {
+      "id": "usada-31d2d25d4314",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-82b702f401e5b9dc",
+        "registry-62987924b3dd5edd"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-82b702f401e5b9dc",
+          "startLine": 7,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "Michael Meacham 於 2017-08-19 檢出 methenolone 與 boldenone，並承認自 2013-11 起用藥，因提供實質協助刑期由四年減為一年，成績溯及取消至 2013-11-01。"
+        },
+        {
+          "documentId": "registry-62987924b3dd5edd",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction"
+          ],
+          "note": "官方處分名冊登記 Meacham, Michael 鐵人三項項目因合成類固醇處一年禁賽與取消成績。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "國籍：美國",
+          "explanation": "公告僅見標題「U.S. Triathlon Athlete」與賓州居住地，依審核原則不足以證實運動代表權或國籍身分。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-82b702f401e5b9dc",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "將國籍調整為不確定，或補充運動代表隊或官方公民身分證明。"
+        }
+      ]
+    }
+  ]
+}

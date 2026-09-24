@@ -1,0 +1,292 @@
+{
+  "cases": [
+    {
+      "id": "aiu-90b4e5c36b5a",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-384294d5ec91fd9a",
+        "registry-4613900e6702967a"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-384294d5ec91fd9a",
+          "startLine": 1,
+          "endLine": 12,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "Elijah Kipkosgei 為肯亞路跑選手"
+        },
+        {
+          "documentId": "doc-384294d5ec91fd9a",
+          "startLine": 39,
+          "endLine": 54,
+          "supports": [
+            "event",
+            "substance"
+          ],
+          "note": "2024-11-24 中國防城港馬拉松樣本檢出 triamcinolone acetonide"
+        },
+        {
+          "documentId": "doc-384294d5ec91fd9a",
+          "startLine": 114,
+          "endLine": 140,
+          "supports": [
+            "education"
+          ],
+          "note": "選手放棄聽證且未於期限前回覆，依規則視為承認違規與接受後果"
+        },
+        {
+          "documentId": "doc-384294d5ec91fd9a",
+          "startLine": 174,
+          "endLine": 186,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "確認處以禁賽兩年（自 2024-12-20 起），並取消 2024-11-24 起成績"
+        },
+        {
+          "documentId": "registry-4613900e6702967a",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates"
+          ],
+          "note": "AIU 官方首審決定名冊紀錄核對一致"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "aiu-ce87ea8afd28",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-712eaf8331b1bbb1",
+        "registry-774de3efa1d4ca7a"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-712eaf8331b1bbb1",
+          "startLine": 1,
+          "endLine": 12,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "Faith Chepchirchir Kiprotich 為肯亞路跑選手"
+        },
+        {
+          "documentId": "doc-712eaf8331b1bbb1",
+          "startLine": 55,
+          "endLine": 72,
+          "supports": [
+            "event",
+            "substance"
+          ],
+          "note": "2024-09-29 蒂爾堡與 2024-10-06 里斯本樣本檢出 norandrosterone"
+        },
+        {
+          "documentId": "doc-712eaf8331b1bbb1",
+          "startLine": 136,
+          "endLine": 138,
+          "supports": [
+            "education"
+          ],
+          "note": "兩次檢驗異常依規則合併視為單一首次違規"
+        },
+        {
+          "documentId": "doc-712eaf8331b1bbb1",
+          "startLine": 173,
+          "endLine": 205,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "因及早承認減為三年禁賽（自 2024-12-23 起），取消 2024-09-29 起成績"
+        },
+        {
+          "documentId": "registry-774de3efa1d4ca7a",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates"
+          ],
+          "note": "AIU 官方名冊紀錄核對一致"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "aiu-6244681f445f",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-e778f107e2cc903c",
+        "registry-adab82f0305c1df8"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-e778f107e2cc903c",
+          "startLine": 6,
+          "endLine": 15,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "Ezekiel Kipkorir 為肯亞馬拉松選手"
+        },
+        {
+          "documentId": "doc-e778f107e2cc903c",
+          "startLine": 49,
+          "endLine": 55,
+          "supports": [
+            "event",
+            "substance"
+          ],
+          "note": "2024-08-25 海德拉巴馬拉松樣本檢出符合外源性睪固酮及其代謝物"
+        },
+        {
+          "documentId": "doc-e778f107e2cc903c",
+          "startLine": 139,
+          "endLine": 153,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "及早承認違規獲減免一年，處三年禁賽（自 2024-12-05 起）並取消 2024-08-25 起成績"
+        },
+        {
+          "documentId": "registry-adab82f0305c1df8",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates"
+          ],
+          "note": "AIU 官方名冊紀錄核對一致"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "aiu-4cb7a4743053",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-062194db9c645bff",
+        "registry-d412135de2fb3b21"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-062194db9c645bff",
+          "startLine": 1,
+          "endLine": 12,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "Aberash Mutala Amena 為衣索比亞路跑選手"
+        },
+        {
+          "documentId": "doc-062194db9c645bff",
+          "startLine": 56,
+          "endLine": 64,
+          "supports": [
+            "event",
+            "substance"
+          ],
+          "note": "2024-07-21 芭達雅半程馬拉松樣本檢出符合外源性睪固酮及其代謝物"
+        },
+        {
+          "documentId": "doc-062194db9c645bff",
+          "startLine": 87,
+          "endLine": 94,
+          "supports": [
+            "education"
+          ],
+          "note": "B 瓶檢驗確認 A 瓶結果，選手無法說明物質來源並請求原諒"
+        },
+        {
+          "documentId": "doc-062194db9c645bff",
+          "startLine": 175,
+          "endLine": 189,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "簽署承認書獲得及早承認減免，處三年禁賽（自 2024-10-14 起）並取消 2024-07-21 起成績"
+        },
+        {
+          "documentId": "registry-d412135de2fb3b21",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates"
+          ],
+          "note": "AIU 官方名冊紀錄核對一致"
+        }
+      ],
+      "findings": []
+    }
+  ]
+}

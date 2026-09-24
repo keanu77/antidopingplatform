@@ -1,0 +1,98 @@
+{
+  "cases": [
+    {
+      "id": "aiu-b487a4c8f0f5",
+      "status": "issue",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "issue",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-e06ab48b0ae23659",
+        "registry-380b04bbc2aaa8f6"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-e06ab48b0ae23659",
+          "startLine": 38,
+          "endLine": 60,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance"
+          ],
+          "note": "判決確認運動員為沙烏地阿拉伯長跑選手；亞運樣本檢出 dEPO 與 EPO，列為 2023 禁用清單 S2，全年禁用。"
+        },
+        {
+          "documentId": "doc-e06ab48b0ae23659",
+          "startLine": 78,
+          "endLine": 89,
+          "supports": [
+            "event",
+            "sanction"
+          ],
+          "note": "CAS 於 2024-09-17 確認 Article 2.1 違規；判決記載為第二次違規。"
+        },
+        {
+          "documentId": "doc-e06ab48b0ae23659",
+          "startLine": 953,
+          "endLine": 971,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "判決處以十年禁賽，自決定日起算，暫時禁賽期間折抵；取消 2023-09-26 至 2023-10-02 成績及相關獎項，實質協助問題未決定。"
+        },
+        {
+          "documentId": "registry-380b04bbc2aaa8f6",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "country",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "AIU 名冊列出 KSA、十年自 2023-10-02 起及成績取消期間。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "dates",
+          "kind": "contradiction",
+          "severity": "high",
+          "claim": "十年禁賽，折抵自 2023-10-02 起暫時禁賽",
+          "explanation": "判決明定十年禁賽自 2025-12-22 決定日起算，並將 2023-10-02 至決定日的暫時禁賽期間折抵。名冊摘要的「自 2023-10-02 起」是折抵後的記載，不能說成判決所定禁賽起算日。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-e06ab48b0ae23659",
+              "startLine": 957,
+              "endLine": 961
+            },
+            {
+              "documentId": "doc-e06ab48b0ae23659",
+              "startLine": 991,
+              "endLine": 993
+            },
+            {
+              "documentId": "registry-380b04bbc2aaa8f6",
+              "startLine": 1,
+              "endLine": 1
+            }
+          ],
+          "suggestion": "改寫為「判決於 2025-12-22 處以十年禁賽，自決定日起算，折抵 2023-10-02 起已服暫時禁賽期間」。"
+        }
+      ]
+    }
+  ]
+}

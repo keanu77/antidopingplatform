@@ -131,7 +131,7 @@ const tueContent = {
       tuePoints: [
         "需要提供明確的氣喘診斷證據",
         "運動誘發性氣喘需要運動激發試驗",
-        "吸入型Salbutamol(≤1600µg/24h且每8h≤600µg)、Formoterol(≤54µg/24h)、Salmeterol(≤200µg/24h)、Vilanterol(≤25µg/24h)在劑量閾值內免TUE",
+        "吸入型 Salbutamol（≤1600µg/24h 且任何 8h ≤600µg）、Formoterol（實際吸入劑量 ≤54µg/24h 且任何 12h ≤36µg）、Salmeterol（≤200µg/24h 且任何 8h ≤100µg）、Vilanterol（≤25µg/24h）在劑量例外範圍內免 TUE；超出例外仍需 TUE",
         "Terbutaline及所有口服Beta-2激動劑仍需申請TUE",
         "需要定期評估治療效果",
       ],

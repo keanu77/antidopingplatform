@@ -3,76 +3,38 @@ import { Newspaper, ExternalLink } from "lucide-react";
 
 const newsItems = [
   {
-    date: "2026-01",
+    date: "2026-01-01",
+    dateLabel: "2026 年 1 月 1 日生效",
     tag: "WADA 更新",
     tagColor: "bg-emerald-50 text-emerald-700",
     title: "2026 WADA 禁用清單正式生效",
     summary:
-      "新增一氧化碳（CO）為 M1 禁用方法、Tirzepatide 加入監控計畫、S0 明確列出 BPC-157、細胞移植納入 M3。",
+      "M1.4 禁止使用再呼吸系統或設備輸送一氧化碳，但由醫療或科學專業人員監督的診斷程序除外；M3.2 明列具有提升運動表現潛力的細胞組成部分，例如粒線體與核糖體。",
+    sourceTitle: "WADA 2026 禁用清單（英文 PDF）",
+    sourceUrl:
+      "https://www.wada-ama.org/sites/default/files/2025-09/2026list_en_final_clean_september_2025.pdf",
   },
   {
-    date: "2026-05",
-    tag: "爭議話題",
-    tagColor: "bg-red-50 text-red-700",
-    title: "Enhanced Games 在拉斯維加斯舉辦",
-    summary:
-      "明確允許使用禁藥的運動會，獎金高達 100 萬美元。USADA 負責人 Travis Tygart 稱其為「危險的小丑秀」。引發運動倫理大辯論。",
-  },
-  {
-    date: "2025-2026",
-    tag: "國際爭議",
-    tagColor: "bg-amber-50 text-amber-700",
-    title: "中國泳隊 23 人陽性事件持續發酵",
-    summary:
-      "2021 東京奧運前 23 名中國游泳選手檢出 Trimetazidine 陽性，WADA 接受「飯店廚房汙染」解釋。美國參議院舉行聽證會，扣留 730 萬美元 WADA 會費。",
-  },
-  {
-    date: "2024-2026",
+    date: "2026",
+    dateLabel: "2026 年監控計畫",
     tag: "監控追蹤",
     tagColor: "bg-amber-50 text-amber-700",
-    title: "Ozempic / Wegovy 可能在 2028 前被禁",
+    title: "Semaglutide 與 Tirzepatide 列於監控計畫",
     summary:
-      "Semaglutide 自 2024 列入監控，2026 新增 Tirzepatide。WADA 表示如收集到足夠濫用證據，可能在 LA 2028 奧運前禁用。量級運動受影響最大。",
+      "2026 年監控計畫列入 Semaglutide 與 Tirzepatide 的標記物，涵蓋賽內及賽外。監控計畫用於了解尚未列入禁用清單的物質是否存在運動濫用模式；列入監控不等於已禁用。",
+    sourceTitle: "WADA 2026 監控計畫（英文 PDF）",
+    sourceUrl:
+      "https://www.wada-ama.org/sites/default/files/2025-09/2026_list_monitoring_program_en_final_clean_september_2025.pdf",
   },
   {
-    date: "2025",
-    tag: "台灣案例",
-    tagColor: "bg-blue-50 text-blue-700",
-    title: "台灣近期違規案例",
-    summary:
-      "舉重選手廖怡慈因 Metandienone 禁賽至 2028；柔道選手張靜瑩因 Furosemide 禁賽至 2027；射擊選手因 Propranolol 禁賽至 2026。健美、輪椅籃球也有違規。",
-  },
-  {
-    date: "2026-03",
-    tag: "爭議話題",
-    tagColor: "bg-red-50 text-red-700",
-    title: "美國大學選手 BPC-157 疑雲",
-    summary:
-      "大學跑者 Seth Clevenger 轉學後打破 D3 5000m 紀錄超過 12 秒，前隊友指控其使用 BPC-157（S0 禁用物質）。超過 500 名 D3 選手連署要求調查。",
-  },
-  {
-    date: "2023-2025",
-    tag: "社群運動",
+    dateLabel: "WADA 官方宣導資源",
+    tag: "教育宣導",
     tagColor: "bg-emerald-50 text-emerald-700",
-    title: "WADA #NaturalIsEnough 運動",
+    title: "WADA #NaturalIsEnough 自然訓練宣導",
     summary:
-      "針對 20-24 歲健身房族群的社群運動，揭示社群媒體上的「完美體態」標準很多靠禁藥堆出來。提醒年輕人：真正的強大不需要靠藥物。",
-  },
-  {
-    date: "2025-09",
-    tag: "台灣里程碑",
-    tagColor: "bg-emerald-50 text-emerald-700",
-    title: "台灣『運動部』正式成立",
-    summary:
-      "2025 年 9 月 9 日行政院運動部正式成立，原教育部體育署運動禁藥管制相關業務改由運動部主政；CTADA 仍為我國唯一 WADA 承認之國家反禁藥組織（NADO）。",
-  },
-  {
-    date: "2025",
-    tag: "台灣里程碑",
-    tagColor: "bg-emerald-50 text-emerald-700",
-    title: "台灣首件研究案獲 WADA 補助",
-    summary:
-      "台灣運動禁藥防制研究首次獲得 WADA 補助，代表台灣在國際反禁藥研究領域的重要進展。",
+      "WADA 鼓勵以自然訓練追求健身目標，並認識同化性類固醇的身心風險。官方頁面透過健身創作者的經驗，討論體態壓力、同儕影響與健康訓練。",
+    sourceTitle: "WADA：Join the Natural Training Movement",
+    sourceUrl: "https://www.wada-ama.org/en/natural-is-enough",
   },
 ];
 
@@ -94,23 +56,31 @@ function News() {
           <h1 className="text-2xl md:text-3xl font-bold text-gray-900">
             最新消息
           </h1>
-          <p className="text-gray-500 text-sm">運動禁藥領域的重要動態與討論</p>
+          <p className="text-gray-500 text-sm">
+            以下是附官方來源的反禁藥重點整理，並非即時或完整的新聞清單。
+          </p>
         </div>
       </div>
 
       <div className="space-y-4">
-        {newsItems.map((item, i) => (
+        {newsItems.map((item) => (
           <article
-            key={i}
+            key={item.sourceUrl}
             className="bg-white rounded-2xl p-5 md:p-6 border border-gray-100 hover:shadow-lg hover:border-gray-200 transition-all duration-200 group"
           >
             <div className="flex items-center gap-3 mb-3">
-              <time
-                dateTime={item.date}
-                className="text-xs text-gray-400 font-mono"
-              >
-                {item.date}
-              </time>
+              {item.date ? (
+                <time
+                  dateTime={item.date}
+                  className="text-xs text-gray-400 font-mono"
+                >
+                  {item.dateLabel}
+                </time>
+              ) : (
+                <span className="text-xs text-gray-400 font-mono">
+                  {item.dateLabel}
+                </span>
+              )}
               <span
                 className={`text-xs px-3 py-1 rounded-full font-medium ${item.tagColor}`}
               >
@@ -123,6 +93,15 @@ function News() {
             <p className="text-sm text-gray-600 leading-relaxed">
               {item.summary}
             </p>
+            <a
+              href={item.sourceUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mt-4 inline-flex items-center gap-1 text-sm text-emerald-700 hover:underline"
+            >
+              {item.sourceTitle}
+              <ExternalLink className="h-4 w-4" aria-hidden="true" />
+            </a>
           </article>
         ))}
       </div>

@@ -1,0 +1,20 @@
+{
+  "seat": "gemini",
+  "requestedModel": "gemini-3.8-flash-medium",
+  "timeoutSeconds": 600,
+  "promptSha256": "8ccaaf395da5d91dbe1118fc43457299ac96467e3a249f875c6bc419eb19304d",
+  "exitCode": 0,
+  "elapsedSeconds": 22.5,
+  "providerMetadata": {
+    "status": "SUCCESS",
+    "usage": {
+      "input_tokens": 13222,
+      "output_tokens": 2365,
+      "thinking_tokens": 1847,
+      "cache_read_tokens": 0,
+      "total_tokens": 15587
+    }
+  },
+  "answerCharacters": 716,
+  "valid": true
+}

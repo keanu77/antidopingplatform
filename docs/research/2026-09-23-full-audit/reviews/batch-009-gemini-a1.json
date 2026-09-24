@@ -1,0 +1,406 @@
+{
+  "cases": [
+    {
+      "id": "ita-d8c0202bcd03",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-c3f48d3944af35db",
+        "registry-ca89136e486b57d6"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-c3f48d3944af35db",
+          "startLine": 1,
+          "endLine": 5,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "UCI 公告確認波蘭帕運自行車選手 Otylia Marczuk 接受四年禁賽及取消相關資格"
+        },
+        {
+          "documentId": "registry-ca89136e486b57d6",
+          "startLine": 1,
+          "endLine": 20,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "dates",
+            "outcomes",
+            "sanction"
+          ],
+          "note": "ITA 官方名冊記錄違規條款、禁賽期及取消成績區間"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-825ba0518559",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-05e713dc4ee843c0",
+        "registry-337220169d7b40cb"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-05e713dc4ee843c0",
+          "startLine": 1,
+          "endLine": 6,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "ITA 公告伊拉克鐵人三項選手 Baqer Idrees 因檢出 prednisone 及 prednisolone 接受兩年禁賽並取消成績"
+        },
+        {
+          "documentId": "registry-337220169d7b40cb",
+          "startLine": 1,
+          "endLine": 20,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "dates",
+            "outcomes",
+            "sanction"
+          ],
+          "note": "ITA 官方名冊載明違規日期、兩年禁賽起訖及成績取消區間"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-1e63725a68a7",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-41ab3e6a14e1f0f8",
+        "registry-bbfdac3420b5cce3"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-41ab3e6a14e1f0f8",
+          "startLine": 1,
+          "endLine": 5,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "education"
+          ],
+          "note": "ITA 公告德國雪車選手 Simon Wulff 達成案件解決協議禁賽21個月，未確認物質來源"
+        },
+        {
+          "documentId": "registry-bbfdac3420b5cce3",
+          "startLine": 1,
+          "endLine": 20,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "dates",
+            "sanction",
+            "outcomes"
+          ],
+          "note": "ITA 官方名冊記錄違規條款、禁賽期間 2024-12-07 至 2026-09-06 及取消成績區間"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-c8d8f0244027",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-3707bdb314a223f4",
+        "registry-0298e228d154674e"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-3707bdb314a223f4",
+          "startLine": 1,
+          "endLine": 7,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "ITA 公告哈薩克桑搏選手 Zhanela Nabiyeva 檢出西布曲明代謝物，接受兩年禁賽並取消成績"
+        },
+        {
+          "documentId": "registry-0298e228d154674e",
+          "startLine": 1,
+          "endLine": 20,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "dates",
+            "outcomes",
+            "sanction"
+          ],
+          "note": "ITA 官方名冊記載兩年禁賽期 2025-08-21 至 2027-08-20 及取消成績範圍"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-b7c414fb2d50",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-deaa5ae6f1c6c327",
+        "registry-94b8d140e441ca5e"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-deaa5ae6f1c6c327",
+          "startLine": 1,
+          "endLine": 9,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "ITA 公告模里西斯舉重選手 Martinson 檢出 GW1516 代謝物，及早承認獲一年減刑接受三年禁賽"
+        },
+        {
+          "documentId": "registry-94b8d140e441ca5e",
+          "startLine": 1,
+          "endLine": 20,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "dates",
+            "outcomes",
+            "sanction"
+          ],
+          "note": "ITA 官方名冊載明三年禁賽期間 2025-06-06 至 2028-06-05 及取消成績範圍"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-a3e679811edf",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-fda9d18f2b86e7f7",
+        "registry-ab20e6aacdecf2d3"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-fda9d18f2b86e7f7",
+          "startLine": 1,
+          "endLine": 5,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "ITA 公告菲律賓舉重選手 Vanessa Sarno 因三次行蹤失誤接受兩年禁賽並取消相關成績"
+        },
+        {
+          "documentId": "registry-ab20e6aacdecf2d3",
+          "startLine": 1,
+          "endLine": 20,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "dates",
+            "outcomes",
+            "sanction"
+          ],
+          "note": "ITA 官方名冊記錄行蹤違規日期 2025-01-01、兩年禁賽期及取消成績範圍"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-1aa44e921acb",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-35a97614163c5730",
+        "registry-dc594a1e7c7deb4a"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-35a97614163c5730",
+          "startLine": 1,
+          "endLine": 7,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "ITA 公告 CAS 駁回土耳其拳擊手 Erdemir 上訴，確認兩年禁賽至 2026-07-09 及取消相應成績"
+        },
+        {
+          "documentId": "registry-dc594a1e7c7deb4a",
+          "startLine": 1,
+          "endLine": 20,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "dates",
+            "outcomes",
+            "sanction"
+          ],
+          "note": "ITA 官方名冊載明禁賽期間 2024-07-10 至 2026-07-09 及取消成績區間"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-790fc95712eb",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-52119d5d84b63f62",
+        "registry-28a3427a9541087e"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-52119d5d84b63f62",
+          "startLine": 1,
+          "endLine": 8,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "ITA 公告敘利亞鐵人三項選手 Adnan Zaki 檢出興奮劑物質，接受兩年禁賽並取消成績"
+        },
+        {
+          "documentId": "registry-28a3427a9541087e",
+          "startLine": 1,
+          "endLine": 20,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "dates",
+            "outcomes",
+            "sanction"
+          ],
+          "note": "ITA 官方名冊載明兩年禁賽期間 2024-11-12 至 2026-11-11 及取消成績區間"
+        }
+      ],
+      "findings": []
+    }
+  ]
+}

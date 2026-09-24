@@ -20,23 +20,66 @@ import {
   Info,
   ExternalLink,
 } from "lucide-react";
-import { educationAPI } from "../services/api";
+import { educationAPI, casesAPI } from "../services/api";
+import { Link } from "react-router-dom";
+import CaseReviewNotice from "../components/CaseReviewNotice";
+
+const LEARNING_CASE_IDS = ["3", "8", "26", "48", "sun-yang-2018", "sia-peter-bol-2023"];
 
 function Education() {
   const [activeTab, setActiveTab] = useState("substances");
   const [wadaCategories, setWadaCategories] = useState([]);
-  const [, setMedicalSpecialties] = useState([]);
+  const [medicalSpecialties, setMedicalSpecialties] = useState([]);
   const [adrv, setAdrv] = useState(null);
+  const [adrvLoading, setAdrvLoading] = useState(true);
+  const [adrvError, setAdrvError] = useState(null);
+  const [adrvRetryCount, setAdrvRetryCount] = useState(0);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
+  const [learningCases, setLearningCases] = useState([]);
+  const [learningError, setLearningError] = useState(false);
 
   useEffect(() => {
     document.title = "教育專區 | 乾淨運動從你我開始";
     loadEducationalContent();
   }, []);
 
+  useEffect(() => {
+    let active = true;
+    setAdrvLoading(true);
+    setAdrvError(null);
+    educationAPI.getAdrv()
+      .then((response) => {
+        if (active) setAdrv(response.data);
+      })
+      .catch((error) => {
+        if (!active) return;
+        console.error("Failed to load ADRV content:", error);
+        setAdrvError("載入違規類型失敗，請檢查網路連線後再試。");
+      })
+      .finally(() => {
+        if (active) setAdrvLoading(false);
+      });
+    return () => { active = false; };
+  }, [adrvRetryCount]);
+
+  useEffect(() => {
+    if (activeTab !== "caseLearning") return;
+    let active = true;
+    Promise.all(LEARNING_CASE_IDS.map(id => casesAPI.getById(id)))
+      .then(responses => {
+        if (active) {
+          setLearningCases(responses.map(response => response.data));
+          setLearningError(false);
+        }
+      })
+      .catch(() => { if (active) setLearningError(true); });
+    return () => { active = false; };
+  }, [activeTab]);
+
   const loadEducationalContent = async () => {
     setLoading(true);
+    setError(null);
     try {
       const response = await educationAPI.getAll();
 
@@ -49,13 +92,6 @@ function Education() {
       setLoading(false);
     }
 
-    // 違規類型（ADRV）資料獨立載入，失敗不影響整頁其他分頁
-    try {
-      const adrvRes = await educationAPI.getAdrv();
-      setAdrv(adrvRes.data);
-    } catch (adrvError) {
-      console.error("Failed to load ADRV content:", adrvError);
-    }
   };
 
   if (loading) {
@@ -313,9 +349,22 @@ function Education() {
       {/* Violation Types (ADRV) Tab */}
       {activeTab === "violationTypes" && (
         <div role="tabpanel">
-          {!adrv ? (
+          {adrvLoading ? (
             <div className="flex justify-center items-center h-64">
               <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-primary-600"></div>
+            </div>
+          ) : adrvError || !adrv ? (
+            <div className="bg-red-50 border border-red-200 rounded-lg p-4">
+              <p className="text-red-700" role="alert">
+                {adrvError || "目前沒有可顯示的違規類型資料。"}
+              </p>
+              <button
+                type="button"
+                onClick={() => setAdrvRetryCount((count) => count + 1)}
+                className="mt-3 px-4 py-2 bg-primary-600 text-white rounded-lg hover:bg-primary-700"
+              >
+                重新載入
+              </button>
             </div>
           ) : (
             <div className="space-y-10">
@@ -466,18 +515,15 @@ function Education() {
             <div className="bg-white rounded-lg shadow-lg overflow-hidden">
               <div className="bg-amber-500 p-4 text-white flex items-center">
                 <AlertTriangle className="h-6 w-6 mr-2" />
-                <h3 className="text-xl font-bold">污染盛行率</h3>
+                <h3 className="text-xl font-bold">研究中的污染檢出比例</h3>
               </div>
               <div className="p-6 space-y-3">
                 <p className="text-gray-700">
-                  市售營養補充品受污染的比例約{" "}
-                  <span className="font-bold text-amber-700">9–15%</span>
-                  （依研究方法與產品類別而異），可能含有未標示的禁用成分。
+                  補充品可能含未標示的禁用成分。研究樣本、年份及產品類別不同，不能套用單一比例推估今日市場。
                 </p>
                 <p className="text-sm text-gray-600 bg-amber-50 p-3 rounded-lg border-l-2 border-amber-400">
-                  Geyer 等人 2004 年發表的研究檢測 634 件市售補充品，其中{" "}
-                  <span className="font-bold">14.8%</span>{" "}
-                  含有未標示的合成代謝雄性類固醇，足以造成藥檢陽性。
+                  Geyer 等人於 2000–2001 年購入 13 國共 634 件非荷爾蒙補充品，94 件（14.8%）檢出未標示的同化性雄性類固醇。這是特定歷史樣本，並非目前所有產品的污染率。{" "}
+                  <a className="underline text-emerald-700" href="https://pubmed.ncbi.nlm.nih.gov/14986195/" target="_blank" rel="noopener noreferrer">2004 年原始研究</a>
                 </p>
               </div>
             </div>
@@ -494,9 +540,7 @@ function Education() {
                   運動員對自己體內檢出的任何禁用物質負全責，無論是否出於故意或知情。
                 </p>
                 <p className="text-sm text-red-700 bg-red-50 p-3 rounded-lg border-l-2 border-red-400">
-                  「我不知道補充品含有禁藥」
-                  <span className="font-bold">不能作為免責理由</span>
-                  ，用藥與補充品的最終責任仍在運動員身上。
+                  成立物質存在違規不需證明故意或過失；但處分仍須依適用規則、污染證據及過失程度個別判斷，可能減輕或免除禁賽。
                 </p>
               </div>
             </div>
@@ -601,399 +645,59 @@ function Education() {
         </div>
       )}
 
-      {/* Case Learning Tab */}
+      {/* Case Learning Tab: shares the audited case records and their sources. */}
       {activeTab === "caseLearning" && (
         <div role="tabpanel" className="space-y-6">
-          {[
-            {
-              athlete: "莎拉波娃 (Maria Sharapova)",
-              year: 2016,
-              sport: "網球",
-              substance: "Meldonium",
-              lesson: "禁藥清單每年更新，運動員有責任了解最新規定",
-              consequence: "禁賽15個月",
-              keyPoints: [
-                "Meldonium於2016年1月加入禁藥清單",
-                "運動員聲稱不知道藥物已被禁用",
-                "強調定期檢查禁藥清單的重要性",
-              ],
-            },
-            {
-              athlete: "孫楊",
-              year: 2020,
-              sport: "游泳",
-              substance: "拒絕藥檢",
-              lesson: "配合藥檢是運動員的基本義務，拒絕檢測等同使用禁藥",
-              consequence: "禁賽4年3個月",
-              keyPoints: [
-                "破壞血液樣本導致無法檢測",
-                "質疑檢測人員資格不是拒絕檢測的理由",
-                "程序問題應事後申訴而非當場拒絕",
-              ],
-            },
-            {
-              athlete: "班強森 (Ben Johnson)",
-              year: 1988,
-              sport: "田徑",
-              substance: "Stanozolol",
-              lesson: "使用合成代謝類固醇的嚴重後果",
-              consequence: "剝奪奧運金牌，終身禁賽",
-              keyPoints: [
-                "奧運史上最大醜聞之一",
-                "促進了更嚴格的藥檢制度",
-                "對運動生涯的毀滅性影響",
-              ],
-            },
-            {
-              athlete: "詹尼克·辛納 (Jannik Sinner)",
-              year: 2024,
-              sport: "網球",
-              substance: "Clostebol",
-              lesson: "即使是意外接觸，禁藥在體內即構成違規",
-              consequence: "暫時停賽但不公布裁決，引發爭議",
-              keyPoints: [
-                "透過按摩師手部傷口意外接觸",
-                "ITIA認定無過失但引發公平性爭議",
-                "運動員對其整個運動團隊的行為負有責任",
-              ],
-            },
-            {
-              athlete: "羅賓遜·卡諾 (Robinson Cano)",
-              year: 2022,
-              sport: "棒球",
-              substance: "Stanozolol",
-              lesson: "再次違規的更嚴重後果和經濟影響",
-              consequence: "禁賽162場比賽，損失1200萬美元",
-              keyPoints: [
-                "10年內第二次被查出使用禁藥",
-                "導致經濟巨大損失和給球隊造成困擾",
-                "重複違規可能終結職業生涯",
-              ],
-            },
-            {
-              athlete: "塔拉·利平斯基 (Tara Lipinski)",
-              year: 1998,
-              sport: "體操",
-              substance: "Steroid-like substances",
-              lesson: "年輕運動員更需要特別保護和指導",
-              consequence: "沒有被檢出，但後來承認使用過增強藥物",
-              keyPoints: [
-                "年輕運動員容易被誤導使用禁藥",
-                "教練和領隊負有指導和保護責任",
-                "禁藥使用可能對成長期的運動員造成長期傷害",
-              ],
-            },
-            {
-              athlete: "羅伊·伊文斯 (Roy Evans)",
-              year: 2002,
-              sport: "武術",
-              substance: "Testosterone",
-              lesson: "TUE申請的重要性和正確使用方式",
-              consequence: "禁賽2年，後來申請TUE成功",
-              keyPoints: [
-                "TUE允許為了醫療目的使用某些禁藥",
-                "TUE申請需要充分的醫療證明和理由",
-                "運動員應於使用前申請，而非事後補救",
-              ],
-            },
-            {
-              athlete: "蘭斯·阿姆斯壯 (Lance Armstrong)",
-              year: 2012,
-              sport: "自行車",
-              substance: "EPO, 血液輸注, 類固醇",
-              lesson: "系統性禁藥使用的影響和對運動選手生涯的毀滅性後果",
-              consequence: "終身禁賽，7次環法冠軍被取消",
-              keyPoints: [
-                "長期系統性使用多種禁藥來提高表現",
-                "對整個運動界和粉絲造成巨大冷擊",
-                "詐欺和隱瞞的長期後果更加嚴重",
-              ],
-            },
-            {
-              athlete: "亞歷克斯·羅德里格斯 (Alex Rodriguez)",
-              year: 2014,
-              sport: "棒球",
-              substance: "生長激素, 類固醇",
-              lesson: "MLB中使用禁藥的經濟和法律後果",
-              consequence: "禁賽211場比賽，損失2500萬美元",
-              keyPoints: [
-                "參與Biogenesis醜聞，涉及多名MLB球員",
-                "MLB對禁藥使用的嚴廣調查和嚴厲處罰",
-                "損害名聲和經濟利益的長期影響",
-              ],
-            },
-            {
-              athlete: "瑞恩·洛切特 (Ryan Lochte)",
-              year: 2018,
-              sport: "游泳",
-              substance: "超量靜脈輸注",
-              lesson: "違反靜脈輸注限制的規定和醫療程序的重要性",
-              consequence: "禁賽14個月",
-              keyPoints: [
-                "超過100ml的靜脈輸注被視為M2物理操作",
-                "即使是醫療目的，也需要遵守WADA規定",
-                "運動員需要知道所有醫療程序的反禁藥規定",
-              ],
-            },
-          ].map((caseItem, index) => (
-            <div key={index} className="bg-white rounded-lg shadow-lg p-6">
+          <p className="text-sm text-gray-600">從已查核案例認識不同裁決結果，包括違規處分、合法 TUE 與未提出違規指控。</p>
+          {learningError && <p role="alert" className="text-red-700">案例載入失敗，請重新切換分頁再試。</p>}
+          {!learningError && learningCases.length === 0 && <p role="status">載入案例中…</p>}
+          {learningCases.map(caseItem => (
+            <div key={caseItem.id} className="bg-white rounded-lg shadow-lg p-6">
               <div className="flex items-start justify-between mb-4">
                 <div>
-                  <h3 className="text-xl font-bold text-gray-900 mb-1">
-                    {caseItem.athlete}
-                  </h3>
-                  <p className="text-gray-600">
-                    {caseItem.sport} • {caseItem.year}年
-                  </p>
+                  <h3 className="text-xl font-bold text-gray-900 mb-1">{caseItem.athleteName}</h3>
+                  <p className="text-gray-600">{caseItem.sport} • {caseItem.year}年</p>
                 </div>
-                <FileSearch className="h-8 w-8 text-primary-600" />
+                <FileSearch className="h-8 w-8 text-primary-600 shrink-0" />
               </div>
-
+              <CaseReviewNotice review={caseItem.review} compact />
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
                 <div className="bg-red-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-red-900 mb-2">
-                    違規物質/行為
-                  </h4>
+                  <h4 className="font-semibold text-red-900 mb-2">相關物質／行為</h4>
                   <p className="text-red-700">{caseItem.substance}</p>
                 </div>
                 <div className="bg-amber-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-amber-900 mb-2">
-                    處罰結果
-                  </h4>
-                  <p className="text-amber-700">{caseItem.consequence}</p>
+                  <h4 className="font-semibold text-amber-900 mb-2">處理結果</h4>
+                  <p className="text-amber-700">{caseItem.punishment.banDuration}</p>
                 </div>
               </div>
-
+              <p className="text-gray-700 mb-4">{caseItem.eventBackground}</p>
               <div className="mb-4">
                 <h4 className="font-semibold text-gray-900 mb-2 flex items-center">
-                  <GraduationCap className="h-4 w-4 mr-2 text-primary-600" />
-                  關鍵教訓
+                  <GraduationCap className="h-4 w-4 mr-2 text-primary-600" />教學重點
                 </h4>
-                <p className="text-gray-700 bg-primary-50 p-3 rounded-lg font-medium">
-                  {caseItem.lesson}
-                </p>
+                <p className="text-gray-700 bg-primary-50 p-3 rounded-lg">{caseItem.educationalNotes}</p>
               </div>
-
-              <div>
-                <h4 className="font-semibold text-gray-900 mb-2">要點分析</h4>
-                <ul className="space-y-2">
-                  {caseItem.keyPoints.map((point, pointIndex) => (
-                    <li
-                      key={pointIndex}
-                      className="flex items-start text-gray-700"
-                    >
-                      <CheckCircle className="h-4 w-4 mr-2 mt-0.5 text-green-600 flex-shrink-0" />
-                      <span className="text-sm">{point}</span>
-                    </li>
-                  ))}
-                </ul>
-              </div>
+              <Link to={`/cases/${caseItem.id}`} className="text-primary-700 underline">閱讀個案與官方來源</Link>
             </div>
           ))}
         </div>
       )}
 
-      {/* Medical Specialties Tab */}
+      {/* Medical Specialties Tab: use the same reviewed data as the API. */}
+      {activeTab === "specialties" && <p className="mb-4 text-sm text-gray-600">用藥選擇須依診斷與病情由醫師決定，請勿自行停藥；替代方向不等於個人治療建議或自動符合反禁藥規定。禁用分類與例外依 <a className="underline text-primary-700" href="https://www.wada-ama.org/sites/default/files/2025-09/2026list_en_final_clean_september_2025.pdf" target="_blank" rel="noopener noreferrer">2026 WADA 清單</a>核對。</p>}
       {activeTab === "specialties" && (
         <div role="tabpanel" className="grid grid-cols-1 md:grid-cols-2 gap-6">
-          {[
-            {
-              specialty: "精神科 / 神經科",
-              icon: "🧠",
-              description: "處理精神疾病和神經系統疾病相關的用藥需求",
-              conditions: [
-                {
-                  disease: "專注力失調及過度活躍症 (ADHD)",
-                  substances: [
-                    "哌醋甲酯 (Methylphenidate)",
-                    "安非他命衍生物 (Amphetamine derivatives)",
-                  ],
-                  category: "S6: 興奮劑",
-                  notes: "需要申請TUE，詳細記錄治療必要性和劑量",
-                  alternatives:
-                    "非藥物治療：行為療法、認知行為治療、生活型態調整",
-                },
-                {
-                  disease: "內因性睡眠障礙 (Intrinsic Sleep Disorders)",
-                  substances: ["興奮劑 (Stimulants)"],
-                  category: "S6: 興奮劑",
-                  notes: "須評估治療必要性，避免影響比賽表現",
-                  alternatives: "睡眠衛生、光照治療、褪黑激素療法",
-                },
-              ],
-            },
-            {
-              specialty: "內分泌科",
-              icon: "⚗️",
-              description: "內分泌系統疾病的荷爾蒙替代治療",
-              conditions: [
-                {
-                  disease: "腎上腺機能不全 (Adrenal Insufficiency)",
-                  substances: ["糖化皮質類固醇", "礦物質皮質類固醇"],
-                  category: "S9: 糖皮質激素",
-                  notes: "生命必須治療，需要醫療緊急證明",
-                  alternatives: "無替代治療，為生命必需用藥",
-                },
-                {
-                  disease: "糖尿病 (Diabetes)",
-                  substances: ["胰島素 (Insulin)"],
-                  category: "S4: 荷爾蒙及代謝調節劑",
-                  notes:
-                    "胰島素屬 S4.4「胰島素與胰島素模擬物」，全時段禁用，糖尿病患者使用須申請 TUE 並監控血糖。知名第一型糖尿病游泳名將 Gary Hall Jr 即在醫療監督下合法使用胰島素，於 2000、2004 奧運奪金，是糖尿病運動員經正當程序競技的代表案例。",
-                  alternatives:
-                    "第一型糖尿病須以胰島素維生、無替代方案；第二型糖尿病可考慮口服降血糖藥（如 metformin，非禁用）與飲食控制",
-                },
-                {
-                  disease: "男性性腺功能低下症候群 (Male Hypogonadism)",
-                  substances: [
-                    "睪固酮 (Testosterone)",
-                    "人類絨毛膜性腺激素 (hCG)",
-                  ],
-                  category: "S1: 合成代謝劑 / S2: 促紅血球生成素類",
-                  notes: "需要嚴格的TUE申請和監控",
-                  alternatives: "生活型態改善、營養補充、克洛米芬治療",
-                },
-                {
-                  disease: "生長激素不足 (GHD)",
-                  substances: ["生長激素 (Growth Hormone)"],
-                  category: "S2: 生長激素",
-                  notes: "成人和兒童轉換期需要特別評估",
-                  alternatives: "營養支持、運動治療（需醫師評估）",
-                },
-              ],
-            },
-            {
-              specialty: "內科 / 急診 / 各科",
-              icon: "🏥",
-              description: "一般內科和急診常見的禁藥使用情況",
-              conditions: [
-                {
-                  disease: "過敏性休克 (Anaphylaxis)",
-                  substances: ["糖化皮質類固醇 (Glucocorticoids)"],
-                  category: "S9: 糖皮質激素",
-                  notes: "緊急救命用藥，可事後申請追認TUE",
-                  alternatives: "無替代治療，為緊急救命用藥",
-                },
-                {
-                  disease: "靜脈輸注 (Intravenous Infusions)",
-                  substances: ["容量 > 每12小時100毫升"],
-                  category: "M2: 化學和物理操作",
-                  notes: "超過100ml/12小時需要TUE申請",
-                  alternatives: "口服補充、少量分次靜脈注射",
-                },
-                {
-                  disease: "疼痛管理 (Pain Management)",
-                  substances: ["麻醉劑 (Narcotics)", "大麻 (Cannabinoids)"],
-                  category: "S7: 麻醉劑 / S8: 大麻類",
-                  notes: "需要詳細疼痛評估和治療計畫",
-                  alternatives: "非類鴉片止痛劑、物理治療、針灸",
-                },
-              ],
-            },
-            {
-              specialty: "骨科 / 復健 / 疼痛",
-              icon: "🦴",
-              description: "骨骼肌肉系統疾病的治療用藥",
-              conditions: [
-                {
-                  disease: "骨骼肌肉問題 (Musculoskeletal Conditions)",
-                  substances: ["全身性糖化皮質類固醇", "麻醉劑 (Narcotics)"],
-                  category: "S9: 糖皮質激素 / S7: 麻醉劑",
-                  notes: "局部注射較全身性用藥風險低",
-                  alternatives: "物理治療、局部注射、非類固醇抗發炎藥",
-                },
-                {
-                  disease: "神經病變痛 (Neuropathic Pain)",
-                  substances: ["麻醉劑 (Narcotics)", "大麻 (Cannabinoids)"],
-                  category: "S7: 麻醉劑 / S8: 大麻類",
-                  notes: "需要神經科專科醫師評估",
-                  alternatives: "抗癲癇藥物、抗憂鬱藥物、神經阻斷術",
-                },
-              ],
-            },
-            {
-              specialty: "胸腔科 / 心臟科",
-              icon: "❤️",
-              description: "呼吸系統和心血管疾病相關用藥",
-              conditions: [
-                {
-                  disease: "氣喘 (Asthma)",
-                  substances: ["乙二型擬交感作用劑 (Beta-2-agonists)"],
-                  category: "S3: Beta-2激動劑",
-                  notes: "吸入型通常允許，口服或注射型需TUE",
-                  alternatives: "吸入型類固醇、白三烯受體拮抗劑",
-                },
-                {
-                  disease: "心血管疾病 (Cardiovascular Conditions)",
-                  substances: ["乙型交感神經阻斷劑 (Beta-blockers)"],
-                  category: "P1: Beta阻斷劑",
-                  notes: "特定運動項目禁用（射箭、撞球等）",
-                  alternatives: "鈣通道阻斷劑、ACE抑制劑、生活型態調整",
-                },
-              ],
-            },
-            {
-              specialty: "腸胃科 / 腎臟科",
-              icon: "🫁",
-              description: "消化系統和泌尿系統疾病治療",
-              conditions: [
-                {
-                  disease: "發炎性大腸疾病 (IBD)",
-                  substances: ["糖化皮質類固醇 (Glucocorticoids)"],
-                  category: "S9: 糖皮質激素",
-                  notes: "需要腸胃科專科醫師診斷證明",
-                  alternatives: "5-ASA類藥物、免疫調節劑、生物製劑",
-                },
-                {
-                  disease: "腎臟移植 / 腎衰竭",
-                  substances: [
-                    "全身性糖化皮質類固醇",
-                    "紅血球生成素 (EPO)",
-                    "利尿劑",
-                    "乙型阻斷劑",
-                  ],
-                  category: "多重分類",
-                  notes: "移植患者需要綜合評估，多重用藥TUE申請",
-                  alternatives: "需要腎臟科醫師個別評估",
-                },
-              ],
-            },
-            {
-              specialty: "耳鼻喉科",
-              icon: "👂",
-              description: "耳鼻喉相關疾病的治療用藥",
-              conditions: [
-                {
-                  disease: "鼻竇炎 (Sinusitis/Rhinosinusitis)",
-                  substances: ["偽麻黃鹼 (Pseudoephedrine)", "糖化皮質類固醇"],
-                  category: "S6: 興奮劑 / S9: 糖皮質激素",
-                  notes: "偽麻黃鹼在尿液濃度>150μg/mL時違規",
-                  alternatives: "鼻腔沖洗、局部血管收縮劑、抗組織胺",
-                },
-              ],
-            },
-            {
-              specialty: "婦產科",
-              icon: "🤱",
-              description: "女性生殖系統疾病相關治療",
-              conditions: [
-                {
-                  disease: "女性不孕症 (Female Infertility)",
-                  substances: ["clomiphene", "letrozole"],
-                  category: "S4.4: 代謝調節劑",
-                  notes: "需要生殖醫學專科醫師診斷和追蹤",
-                  alternatives: "生活型態調整、手術治療、輔助生殖技術",
-                },
-                {
-                  disease: "多囊性卵巢症候群 (PCOS)",
-                  substances: ["clomiphene", "letrozole"],
-                  category: "S4.4: 代謝調節劑",
-                  notes: "需要內分泌科或婦產科醫師長期追蹤",
-                  alternatives: "metformin、生活型態調整、手術治療",
-                },
-              ],
-            },
-          ].map((specialty, index) => (
+          {medicalSpecialties.map((specialty) => ({
+            ...specialty,
+            conditions: specialty.medications.map((medication) => ({
+              disease: medication.category,
+              substances: medication.substances,
+              category: medication.wadaCategory,
+              notes: medication.notes,
+              alternatives: medication.alternatives,
+            })),
+          })).map((specialty, index) => (
             <div
               key={index}
               className="bg-white rounded-lg shadow hover:shadow-lg transition-shadow"
@@ -1049,7 +753,7 @@ function Education() {
                       <div>
                         <h5 className="flex items-center text-sm font-semibold text-gray-800 mb-1">
                           <CheckCircle className="h-3 w-3 mr-1 text-green-600" />
-                          建議替代方案
+                          與醫師討論的治療方向
                         </h5>
                         <p className="text-xs text-gray-700 bg-gray-50 p-2 rounded border-l-2 border-green-400">
                           {condition.alternatives}

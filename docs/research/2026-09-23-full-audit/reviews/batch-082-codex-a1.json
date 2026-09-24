@@ -1,0 +1,523 @@
+{
+  "cases": [
+    {
+      "id": "usada-a54b4661de47",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-bb0de50be14e1b54",
+        "registry-ff11f8209c3e829a"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-bb0de50be14e1b54",
+          "startLine": 7,
+          "endLine": 12,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告確認 Lopez 為自行車選手，2018 年賽事尿檢 EPO 陽性、四年處分及成績取消範圍。"
+        },
+        {
+          "documentId": "registry-ff11f8209c3e829a",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "sanction"
+          ],
+          "note": "名冊記載 Enrique Lopez、自行車、EPO、四年禁賽及成績損失。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "medium",
+          "claim": "nationality：美國",
+          "explanation": "USADA 美國機構公告、佛州居住地及 USA Cycling 會員／受檢身分，未明確證明運動代表國籍或代表隊；也沒有台灣相關證據。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-bb0de50be14e1b54",
+              "startLine": 1,
+              "endLine": 8
+            }
+          ],
+          "suggestion": "將國家欄標為未由此資料確認，或補充明確記載其運動代表身分的來源。"
+        }
+      ]
+    },
+    {
+      "id": "usada-139867b729db",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-52bd28530ce10742",
+        "registry-1d3dca87762bb8e0"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-52bd28530ce10742",
+          "startLine": 7,
+          "endLine": 11,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告確認 Strickler 為自行車選手，賽內尿檢及專門分析、外源性合成代謝劑、四年處分與成績取消。"
+        },
+        {
+          "documentId": "registry-1d3dca87762bb8e0",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction"
+          ],
+          "note": "名冊確認 Strickler、自行車、合成代謝類別、四年禁賽及成績損失。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "medium",
+          "claim": "nationality：美國",
+          "explanation": "公告標題、加州居住地與 USA Cycling 會員／受檢身分不足以單獨確認其運動代表國家；無台灣相關證據。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-52bd28530ce10742",
+              "startLine": 1,
+              "endLine": 8
+            }
+          ],
+          "suggestion": "將國家標為未確認，或提供明確的代表隊／運動代表身分來源。"
+        }
+      ]
+    },
+    {
+      "id": "usada-dd1a97e9431d",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-b8ec104c5adae4dc",
+        "doc-59c94611b9b35604",
+        "registry-ce391d286ff828f0"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-b8ec104c5adae4dc",
+          "startLine": 7,
+          "endLine": 11,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "原公告確認 testosterone、clomiphene、無有效 TUE、原 21 個月處分、起算及原案成績取消起點。"
+        },
+        {
+          "documentId": "doc-59c94611b9b35604",
+          "startLine": 7,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "event",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "追加公告確認禁賽中參加 USA Cycling 核准活動、誤認活動不受限、追加三個月至總計 24 個月及新增成績取消範圍。"
+        },
+        {
+          "documentId": "registry-ce391d286ff828f0",
+          "startLine": 1,
+          "endLine": 2,
+          "supports": [
+            "identity",
+            "sanction",
+            "dates"
+          ],
+          "note": "名冊列明 21 個月原處分、追加三個月及更新日期。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "medium",
+          "claim": "nationality：美國",
+          "explanation": "美國機構公告、德州居住地及 USA Cycling 會員／活動資訊不能確證運動代表國家；沒有台灣相關證據。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-b8ec104c5adae4dc",
+              "startLine": 1,
+              "endLine": 8
+            },
+            {
+              "documentId": "doc-59c94611b9b35604",
+              "startLine": 7,
+              "endLine": 8
+            }
+          ],
+          "suggestion": "將國家標為未確認，或補上明確代表身分來源。"
+        }
+      ]
+    },
+    {
+      "id": "usada-ea0049989423",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-7ab29b7da26eaacd",
+        "registry-2b0f471260b4e69c"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-7ab29b7da26eaacd",
+          "startLine": 7,
+          "endLine": 11,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告確認 Tanski 為自行車選手，賽事與採樣日期、19-norsteroids 代謝物及專門分析、四年處分與成績取消。"
+        },
+        {
+          "documentId": "registry-2b0f471260b4e69c",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction"
+          ],
+          "note": "名冊確認 Tanski、自行車、合成代謝類別、四年禁賽及成績損失。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "medium",
+          "claim": "nationality：美國",
+          "explanation": "公告中的 U.S. 標題、喬治亞州居住地與 USA Cycling 會員／受檢身分，未明確證明運動代表國家；沒有台灣相關證據。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-7ab29b7da26eaacd",
+              "startLine": 1,
+              "endLine": 8
+            }
+          ],
+          "suggestion": "將國家標為未確認，或補充運動代表身分的明確來源。"
+        }
+      ]
+    },
+    {
+      "id": "usada-998b9264b440",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-17c5dc3ae704234f",
+        "registry-38c33f861d62bb97"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-17c5dc3ae704234f",
+          "startLine": 7,
+          "endLine": 12,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告確認 Gonzalez 為自行車選手，賽內 dexamethasone 陽性、當年特定途徑限制、四年處分及成績取消；未公開本案途徑。"
+        },
+        {
+          "documentId": "registry-38c33f861d62bb97",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction"
+          ],
+          "note": "名冊確認 Gonzalez、自行車、dexamethasone、四年禁賽及成績損失。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "medium",
+          "claim": "nationality：美國",
+          "explanation": "佛州居住地、USA Cycling 會員與美國反禁藥機構處理不等於明確運動代表國家；沒有台灣相關證據。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-17c5dc3ae704234f",
+              "startLine": 1,
+              "endLine": 8
+            }
+          ],
+          "suggestion": "將國家標為未確認，或提供明確的代表身分佐證。"
+        }
+      ]
+    },
+    {
+      "id": "usada-9c2bd61dbab6",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-2055bce2f4278b44",
+        "registry-d76dc4f9aa4428ec"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-2055bce2f4278b44",
+          "startLine": 7,
+          "endLine": 12,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告確認 Diaz 為自行車選手，EPO 與 dexamethasone 賽內陽性、本人承認使用、不同禁用時段、四年處分及依承認日期取消成績。"
+        },
+        {
+          "documentId": "registry-d76dc4f9aa4428ec",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction"
+          ],
+          "note": "名冊確認 Diaz、自行車、兩種物質、四年禁賽及成績損失。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "medium",
+          "claim": "nationality：美國",
+          "explanation": "公告中的 U.S. 標題、佛州居住地與 USA Cycling 會員／受檢身分不足以確認運動代表國家；沒有台灣相關證據。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-2055bce2f4278b44",
+              "startLine": 1,
+              "endLine": 8
+            }
+          ],
+          "suggestion": "將國家標為未確認，或補充明確運動代表身分的來源。"
+        }
+      ]
+    },
+    {
+      "id": "usada-5e279c9e9968",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-af0ec409903feccb",
+        "registry-73192a4867020d0f"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-af0ec409903feccb",
+          "startLine": 7,
+          "endLine": 9,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告確認 Dudeck 為舉重選手，賽外尿樣 M3 為 DHCMT 及相關合成代謝劑長效代謝物，承認違規、四年處分及成績取消。"
+        },
+        {
+          "documentId": "registry-73192a4867020d0f",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction"
+          ],
+          "note": "名冊確認 Dudeck、舉重、DHCMT、四年禁賽及成績損失。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "medium",
+          "claim": "nationality：美國",
+          "explanation": "印第安納州居住地及公告的美國運動項目脈絡未明確證明運動代表國家；資料沒有台灣相關證據。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-af0ec409903feccb",
+              "startLine": 1,
+              "endLine": 8
+            }
+          ],
+          "suggestion": "將國家欄標為未確認，或補充明確的運動代表身分來源。"
+        }
+      ]
+    },
+    {
+      "id": "usada-e6341e3462ec",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-79a9d57a7b1e91b9",
+        "registry-ce3bd2c800cc1111"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-79a9d57a7b1e91b9",
+          "startLine": 7,
+          "endLine": 12,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告確認 Bedford 為自行車選手，賽內 carboxy-THC 超過判定界限、六個月處分經教育減免三個月並列到期日，以及成績取消。"
+        },
+        {
+          "documentId": "registry-ce3bd2c800cc1111",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction"
+          ],
+          "note": "名冊確認 Bedford、自行車、大麻素、六個月處分附三個月減免及成績損失。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "medium",
+          "claim": "nationality：美國",
+          "explanation": "公告標題、俄勒岡州居住地與 USA Cycling 會員／受檢身分不足以確認運動代表國家；沒有台灣相關證據。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-79a9d57a7b1e91b9",
+              "startLine": 1,
+              "endLine": 8
+            }
+          ],
+          "suggestion": "將國家標為未確認，或提供明確運動代表身分來源。"
+        }
+      ]
+    }
+  ]
+}

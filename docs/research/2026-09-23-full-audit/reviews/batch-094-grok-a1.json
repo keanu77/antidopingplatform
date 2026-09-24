@@ -1,0 +1,534 @@
+{
+  "cases": [
+    {
+      "id": "usada-edde57057db6",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-5321565335ff1514",
+        "registry-830614bc73da0eff"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-5321565335ff1514",
+          "startLine": 7,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告載明田徑選手承認2013年1月至2016年6月使用並持有多類生長激素釋放因子，禁賽自2016-08-09起四年，並取消2013-01-01起成績。"
+        },
+        {
+          "documentId": "registry-830614bc73da0eff",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "sanction",
+            "outcomes"
+          ],
+          "note": "名冊列非分析肽類使用、四年停賽及取消成績，與公告處分一致。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "medium",
+          "claim": "nationality 美國",
+          "explanation": "來源僅有「U.S. Track & Field Athlete」標題與亞利桑那州居住地，不能據此確立國籍或代表隊；名冊亦未列代表國家。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-5321565335ff1514",
+              "startLine": 1,
+              "endLine": 7
+            },
+            {
+              "documentId": "registry-830614bc73da0eff",
+              "startLine": 1,
+              "endLine": 1
+            }
+          ],
+          "suggestion": "國籍改為未確立，除非另有證明其代表美國出賽的官方紀錄。"
+        }
+      ]
+    },
+    {
+      "id": "usada-8bd7326e338b",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-9723fc711dec9239",
+        "registry-d4479b5960a43bd3"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-9723fc711dec9239",
+          "startLine": 7,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告指自行車選手於2016-07-16 Anderson Banducci Twilight Criterium因名列前茅受檢並拒絕提供尿液，禁賽自2016-11-02起四年，成績自拒絕日起取消。"
+        },
+        {
+          "documentId": "registry-d4479b5960a43bd3",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "education"
+          ],
+          "note": "名冊用語為未到採樣，與公告的拒絕提供檢體不同；公開敘述已註明採公告。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "medium",
+          "claim": "nationality 美國",
+          "explanation": "僅有美國自行車選手標題、愛達荷居住地及美國自行車賽事管轄，不足以確立國籍或代表隊。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-9723fc711dec9239",
+              "startLine": 1,
+              "endLine": 7
+            },
+            {
+              "documentId": "registry-d4479b5960a43bd3",
+              "startLine": 1,
+              "endLine": 1
+            }
+          ],
+          "suggestion": "將國籍標為未確立，或補上代表隊證據。"
+        }
+      ]
+    },
+    {
+      "id": "usada-9078b2b3f8b8",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-d8198e0f7a8d3110",
+        "registry-7a88138ce796b300"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-d8198e0f7a8d3110",
+          "startLine": 1,
+          "endLine": 8,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "標題為自行車選手；內文稱2016-07-13賽外拒絕提供檢體，四年禁賽自2016-09-29接受處分起算，成績自拒絕日取消。"
+        },
+        {
+          "documentId": "registry-7a88138ce796b300",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "substance",
+            "sanction"
+          ],
+          "note": "名冊列拒絕提交檢體與四年停賽；所列10/03/2016為公告日，不是禁賽起日。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "medium",
+          "claim": "nationality 美國",
+          "explanation": "可讀內文未記載國籍或代表隊，標題的美國選手稱謂不足；同頁亦說明USADA管轄在美受檢的外國選手。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-d8198e0f7a8d3110",
+              "startLine": 1,
+              "endLine": 10
+            },
+            {
+              "documentId": "registry-7a88138ce796b300",
+              "startLine": 1,
+              "endLine": 1
+            }
+          ],
+          "suggestion": "不要把USADA標題當成國籍，改標未確立。"
+        }
+      ]
+    },
+    {
+      "id": "usada-d14484534da6",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-06c5b3908472acce",
+        "registry-8353251cbc95e09e"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-06c5b3908472acce",
+          "startLine": 7,
+          "endLine": 9,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "2016-03-12全美室內賽檢出1,3-dimethylbutylamine，調查認定經補充品攝入；兩年禁賽自2016-04-14暫時禁賽起，成績自採樣日取消。公告未認定未標示污染。"
+        },
+        {
+          "documentId": "registry-8353251cbc95e09e",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "substance",
+            "sanction"
+          ],
+          "note": "名冊物質與兩年停賽、取消成績一致。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "medium",
+          "claim": "nationality 美國",
+          "explanation": "標題、密西西比居住地與參加USATF室內賽，仍不是明示的國籍或代表國家。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-06c5b3908472acce",
+              "startLine": 1,
+              "endLine": 8
+            },
+            {
+              "documentId": "registry-8353251cbc95e09e",
+              "startLine": 1,
+              "endLine": 1
+            }
+          ],
+          "suggestion": "國籍改未確立，待有代表隊或國籍欄位的官方紀錄。"
+        }
+      ]
+    },
+    {
+      "id": "usada-359e0f8decd5",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-81be7ada17275308",
+        "registry-8845b82a8764b956"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-81be7ada17275308",
+          "startLine": 7,
+          "endLine": 12,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "2016-03-13 Tour of Corsicana檢體經IRMS確認外源性睾固酮類，醫師處方治療劑量且無提升表現意圖，但無有效TUE；兩年禁賽與成績取消均自採樣日。"
+        },
+        {
+          "documentId": "registry-8845b82a8764b956",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "substance",
+            "sanction"
+          ],
+          "note": "名冊以合成代謝雄性類固醇概括，不否定公告中的睾固酮確認。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "medium",
+          "claim": "nationality 美國",
+          "explanation": "只有美國自行車選手標題與美國國內賽事管轄，沒有國籍或代表隊陳述。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-81be7ada17275308",
+              "startLine": 1,
+              "endLine": 7
+            },
+            {
+              "documentId": "registry-8845b82a8764b956",
+              "startLine": 1,
+              "endLine": 1
+            }
+          ],
+          "suggestion": "國籍標未確立。"
+        }
+      ]
+    },
+    {
+      "id": "usada-74c3aeb782a0",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-1299506bebda49ef",
+        "registry-35356c62fd317401"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-1299506bebda49ef",
+          "startLine": 1,
+          "endLine": 8,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "舉重公告：2016-04-25賽外申報醫師施行、成分非禁用的靜脈輸注，六小時內超過50 mL；禁賽與取消成績自申報日，但內文未寫月數。"
+        },
+        {
+          "documentId": "registry-35356c62fd317401",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "sanction"
+          ],
+          "note": "名冊補上14個月停賽；同時列自行車與舉重，不推翻舉重身分。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "medium",
+          "claim": "nationality 美國",
+          "explanation": "僅標題稱美國舉重選手，名冊與內文都沒有國籍或代表隊。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-1299506bebda49ef",
+              "startLine": 1,
+              "endLine": 1
+            },
+            {
+              "documentId": "registry-35356c62fd317401",
+              "startLine": 1,
+              "endLine": 1
+            }
+          ],
+          "suggestion": "國籍改未確立。"
+        }
+      ]
+    },
+    {
+      "id": "usada-b06931c0b392",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-41dd4890b277c220",
+        "registry-98ae3b1d75848539"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-41dd4890b277c220",
+          "startLine": 7,
+          "endLine": 11,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "2016-03-12 Tour of Corsicana檢體經IRMS確認外源性合成代謝雄性類固醇，未指明具體藥名；病歷支持處方治療劑量但無有效TUE，兩年禁賽與成績取消自採樣日。"
+        },
+        {
+          "documentId": "registry-98ae3b1d75848539",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "sanction"
+          ],
+          "note": "名冊同為合成代謝雄性類固醇、兩年停賽及取消成績。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "medium",
+          "claim": "nationality 美國",
+          "explanation": "標題與德州居住地不能確立國籍或代表隊，名冊無國家欄。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-41dd4890b277c220",
+              "startLine": 1,
+              "endLine": 7
+            },
+            {
+              "documentId": "registry-98ae3b1d75848539",
+              "startLine": 1,
+              "endLine": 1
+            }
+          ],
+          "suggestion": "國籍標未確立。"
+        }
+      ]
+    },
+    {
+      "id": "usada-bdc4265e8819",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-0a00f60ef1ab934b",
+        "registry-9b43bfba5bdd5e0b"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-0a00f60ef1ab934b",
+          "startLine": 7,
+          "endLine": 11,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "2016-06-11 St. Francis Tulsa Tough檢出興奮劑proplyhexedrine（拼寫瑕疵）及IRMS確認的外源性合成代謝劑；處方藥與非處方治療劑量、無提升表現意圖但無有效TUE，兩年自採樣日。"
+        },
+        {
+          "documentId": "registry-9b43bfba5bdd5e0b",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "substance",
+            "sanction"
+          ],
+          "note": "名冊併列合成代謝雄性類固醇與Propylhexadrine、兩年停賽，與公告為同一物質的拼寫差異，並非另一藥物。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "medium",
+          "claim": "nationality 美國",
+          "explanation": "僅有美國自行車選手標題與德州居住地，不能確立國籍或代表隊。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-0a00f60ef1ab934b",
+              "startLine": 1,
+              "endLine": 7
+            },
+            {
+              "documentId": "registry-9b43bfba5bdd5e0b",
+              "startLine": 1,
+              "endLine": 1
+            }
+          ],
+          "suggestion": "國籍改未確立。"
+        }
+      ]
+    }
+  ]
+}

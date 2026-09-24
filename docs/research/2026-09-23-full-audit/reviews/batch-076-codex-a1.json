@@ -1,0 +1,511 @@
+{
+  "cases": [
+    {
+      "id": "usada-80101a12888d",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-934ce520fbf2be96",
+        "doc-bb44e623457f43e2",
+        "registry-c2708f813afce829"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-934ce520fbf2be96",
+          "startLine": 7,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告確認 Rante 為舉重選手，2020 年賽外檢出 19-NA，原處分四年並取消採樣日起成績。"
+        },
+        {
+          "documentId": "doc-bb44e623457f43e2",
+          "startLine": 7,
+          "endLine": 11,
+          "supports": [
+            "sanction",
+            "dates",
+            "education"
+          ],
+          "note": "2022 公告確認依 2021 Code 減一年，三年自 2020-03-04 起算。"
+        },
+        {
+          "documentId": "registry-c2708f813afce829",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "sanction",
+            "outcomes"
+          ],
+          "note": "名冊列四年處分、成績取消及後續減刑。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "medium",
+          "claim": "國籍：美國",
+          "explanation": "來源只載她來自俄亥俄州及美國舉重選手，未明確證明其國籍或代表國家。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-934ce520fbf2be96",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "改列代表國家未明，或補充明確的代表隊／國籍資料。"
+        }
+      ]
+    },
+    {
+      "id": "usada-e7f64638afe3",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-c16b7d61564236ed",
+        "registry-2e412ae4f7419768"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-c16b7d61564236ed",
+          "startLine": 7,
+          "endLine": 11,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告確認 Taff Woolsey 舉重案為持有 exemestane，始購日、處分開始日、兩年禁賽及取消成績日期均相符。"
+        },
+        {
+          "documentId": "registry-2e412ae4f7419768",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "sanction",
+            "outcomes"
+          ],
+          "note": "名冊列非分析持有案、兩年禁賽及成績取消。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "medium",
+          "claim": "國籍：美國",
+          "explanation": "來源稱美國舉重選手並載其華盛頓州居住地，但沒有明確的國籍或代表國家資料。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-c16b7d61564236ed",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "改列代表國家未明，或補充明確的代表隊／國籍資料。"
+        }
+      ]
+    },
+    {
+      "id": "usada-137ddb330f29",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-522a6e95fd6fd2a0",
+        "registry-584d2001aa022657"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-522a6e95fd6fd2a0",
+          "startLine": 7,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告確認 Castille 於 2019 大師 10K 賽奪第一，樣本確認外源性 19-NA；仲裁聽證前三日接受四年處分並取消該賽成績。"
+        },
+        {
+          "documentId": "registry-584d2001aa022657",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "sanction",
+            "outcomes"
+          ],
+          "note": "名冊列四年處分及成績取消。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "medium",
+          "claim": "國籍：美國",
+          "explanation": "公告稱其為美國田徑選手並列路易斯安那州居住地，未明確載明國籍或代表國家。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-522a6e95fd6fd2a0",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "改列代表國家未明，或補充明確的代表隊／國籍資料。"
+        }
+      ]
+    },
+    {
+      "id": "usada-83915e97921c",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-1ffa90af5d789205",
+        "registry-cb314cc94cec30b9"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-1ffa90af5d789205",
+          "startLine": 7,
+          "endLine": 11,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告確認 Prusmack 舉重案涉及持有及使用或企圖使用五種禁用類固醇，2020 接受四年處分，成績自首次購買日起取消。"
+        },
+        {
+          "documentId": "registry-cb314cc94cec30b9",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "sanction",
+            "outcomes"
+          ],
+          "note": "名冊列非分析持有及使用／企圖使用、四年處分及成績取消。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "medium",
+          "claim": "國籍：美國",
+          "explanation": "公告稱美國舉重選手並載加州居住地，未明確證明其國籍或代表國家。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-1ffa90af5d789205",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "改列代表國家未明，或補充明確的代表隊／國籍資料。"
+        }
+      ]
+    },
+    {
+      "id": "usada-3d04ba268799",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-31e8534f982f8e7e",
+        "registry-3ec103ffac370c10"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-31e8534f982f8e7e",
+          "startLine": 7,
+          "endLine": 12,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告確認 Glanville 舉重案涉及七次購買含多類禁物產品；四年處分自接受處分日開始，成績自首次購買日起取消。"
+        },
+        {
+          "documentId": "registry-3ec103ffac370c10",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "sanction",
+            "outcomes"
+          ],
+          "note": "名冊列非分析持有及使用／企圖使用、四年處分及成績取消。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "medium",
+          "claim": "國籍：美國",
+          "explanation": "公告稱美國舉重選手並列華盛頓州居住地，未明確載明國籍或代表國家。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-31e8534f982f8e7e",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "改列代表國家未明，或補充明確的代表隊／國籍資料。"
+        }
+      ]
+    },
+    {
+      "id": "usada-3795cadeeacf",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-8a63409fe96ea62c",
+        "registry-0e3e9e09236a37c8"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-8a63409fe96ea62c",
+          "startLine": 7,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告確認 Walsh 的賽內 carboxy-THC 檢體超過判定界限，受六個月禁賽並因完成輔導減三個月，取消該賽成績。"
+        },
+        {
+          "documentId": "registry-0e3e9e09236a37c8",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "sanction",
+            "outcomes"
+          ],
+          "note": "名冊列六個月處分、三個月延期及成績取消。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "medium",
+          "claim": "國籍：美國",
+          "explanation": "公告稱美國田徑選手並列亞利桑那州居住地，未明確載明國籍或代表國家。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-8a63409fe96ea62c",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "改列代表國家未明，或補充明確的代表隊／國籍資料。"
+        }
+      ]
+    },
+    {
+      "id": "usada-c88c72084b13",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-d927f04076388f4d",
+        "registry-b4522955810fcb06"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-d927f04076388f4d",
+          "startLine": 7,
+          "endLine": 11,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告確認 Hurst 於 2019 American Open Finals 檢出三類物質，四年禁賽自臨時停賽日起算，成績自採樣日起取消；列明各類別和禁用時段。"
+        },
+        {
+          "documentId": "registry-b4522955810fcb06",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "sanction",
+            "outcomes"
+          ],
+          "note": "名冊列 androgenic anabolic steroid、clomiphene、modafinil 及四年處分。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "medium",
+          "claim": "國籍：美國",
+          "explanation": "公告稱美國舉重選手並列猶他州居住地，未明確證明國籍或代表國家。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-d927f04076388f4d",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "改列代表國家未明，或補充明確的代表隊／國籍資料。"
+        }
+      ]
+    },
+    {
+      "id": "usada-fe88676c094a",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-f1104d8a5142baee",
+        "registry-b9c996cac52bfa4c"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-f1104d8a5142baee",
+          "startLine": 7,
+          "endLine": 9,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告確認 Gleaves 自行車案賽內檢出 oxandrolone 代謝物及 clomiphene 及其代謝物，受四年處分並取消採樣日起成績。"
+        },
+        {
+          "documentId": "registry-b9c996cac52bfa4c",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "sanction",
+            "outcomes"
+          ],
+          "note": "名冊列 oxandrolone、clomiphene、四年處分及成績取消。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "medium",
+          "claim": "國籍：美國",
+          "explanation": "公告稱美國自行車選手並列加州居住地，未明確載明國籍或代表國家。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-f1104d8a5142baee",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "改列代表國家未明，或補充明確的代表隊／國籍資料。"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "cases": [
+    {
+      "id": "usada-1afebbd6c57b",
+      "status": "supported",
+      "identity": "supported",
+      "country": "supported",
+      "temporalScope": "supported",
+      "evidence": [
+        {
+          "documentId": "country",
+          "startLine": 1,
+          "endLine": 1,
+          "note": "Team USA profile identifies Cesar Colunga."
+        },
+        {
+          "documentId": "country",
+          "startLine": 448,
+          "endLine": 464,
+          "note": "Profile lists his name, Plano hometown, WIKF USA membership, and karate career highlight."
+        },
+        {
+          "documentId": "case",
+          "startLine": 7,
+          "endLine": 8,
+          "note": "USADA identifies Cesar Colunga as a 20-year-old karate athlete from Plano."
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-2428086c1745",
+      "status": "issue",
+      "identity": "issue",
+      "country": "supported",
+      "temporalScope": "supported",
+      "evidence": [
+        {
+          "documentId": "country",
+          "startLine": 448,
+          "endLine": 463,
+          "note": "Team USA profile lists Tara Harbert under Softball, with Boulder hometown and World Cup team results."
+        },
+        {
+          "documentId": "case",
+          "startLine": 7,
+          "endLine": 8,
+          "note": "USADA identifies a 33-year-old Tara Harbert from Longmont as a baseball athlete."
+        }
+      ],
+      "findings": [
+        {
+          "field": "identity",
+          "explanation": "The profile is for a softball athlete and gives Boulder/Niwot/Colorado State details, while the case calls Harbert a baseball athlete from Longmont. The supplied documents do not establish that these are the same person.",
+          "suggestion": "Do not attach this profile's Team USA country annotation to the case without an official identity link, such as a matching dated roster or results record."
+        }
+      ]
+    },
+    {
+      "id": "usada-e7645ab29f67",
+      "status": "supported",
+      "identity": "supported",
+      "country": "supported",
+      "temporalScope": "supported",
+      "evidence": [
+        {
+          "documentId": "country",
+          "startLine": 116,
+          "endLine": 117,
+          "note": "World Skate's 2015 Senior Men match report lists Joseph Mazzie as a USA scorer."
+        },
+        {
+          "documentId": "case",
+          "startLine": 7,
+          "endLine": 8,
+          "note": "USADA identifies Joseph Mazzie as a 29-year-old roller hockey athlete from East Meadow."
+        }
+      ],
+      "findings": []
+    }
+  ]
+}

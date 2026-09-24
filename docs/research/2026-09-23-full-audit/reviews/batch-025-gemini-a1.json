@@ -1,0 +1,91 @@
+{
+  "cases": [
+    {
+      "id": "aiu-8b52daa95cd1",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-710bee80b4e9aa8c",
+        "registry-0a8f651c45ebdc67"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-710bee80b4e9aa8c",
+          "startLine": 35,
+          "endLine": 47,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance"
+          ],
+          "note": "Benard Kibet Koech 為肯亞田徑長跑選手，因運動員生物護照（ABP）血液模組異常被指控違反世界田徑反禁藥規則第 2.2 條"
+        },
+        {
+          "documentId": "doc-710bee80b4e9aa8c",
+          "startLine": 165,
+          "endLine": 165,
+          "supports": [
+            "dates",
+            "event"
+          ],
+          "note": "樣本 21 採樣日期為 2024 年 6 月 26 日，為後續認定違規與取消成績之起算基準日"
+        },
+        {
+          "documentId": "doc-710bee80b4e9aa8c",
+          "startLine": 258,
+          "endLine": 264,
+          "supports": [
+            "substance",
+            "education"
+          ],
+          "note": "尿液檢驗對 ESA 呈陰性，但專家小組依 ABP 縱向血液指標與異常序列判定極可能使用禁用物質或方法，證實非單一特定藥物檢出"
+        },
+        {
+          "documentId": "doc-710bee80b4e9aa8c",
+          "startLine": 1507,
+          "endLine": 1509,
+          "supports": [
+            "sanction",
+            "dates"
+          ],
+          "note": "裁決判處四年禁賽期，並准予折抵自 2025 年 6 月 10 日起已執行的暫時禁賽，禁賽期至 2029 年 6 月 9 日止"
+        },
+        {
+          "documentId": "doc-710bee80b4e9aa8c",
+          "startLine": 1540,
+          "endLine": 1541,
+          "supports": [
+            "sanction",
+            "outcomes"
+          ],
+          "note": "命令取消自 2024 年 6 月 26 日至 2025 年 6 月 10 日期間所獲得之所有參賽成績與獎勵"
+        },
+        {
+          "documentId": "registry-0a8f651c45ebdc67",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "AIU 官方名冊登記選手姓名、肯亞代碼 KEN、違規條款 Rule 2.2 ABP 案件、自 2025 年 6 月 10 日起禁賽 4 年及取消 2024 年 6 月 26 日至 2025 年 6 月 10 日成績"
+        }
+      ],
+      "findings": []
+    }
+  ]
+}

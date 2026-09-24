@@ -1,0 +1,176 @@
+{
+  "cases": [
+    {
+      "id": "aiu-1d505234acb6",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-7dca72f449698248",
+        "registry-9421c67eeada0f45"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-7dca72f449698248",
+          "startLine": 81,
+          "endLine": 103,
+          "supports": [
+            "identity",
+            "event",
+            "substance"
+          ],
+          "note": "決定確認 2013 與 2014 年四份樣本涉及 trenbolone、ostarine，且均曾被實驗室報為陰性；列明 2013 和 2014 年度禁用分類。"
+        },
+        {
+          "documentId": "doc-7dca72f449698248",
+          "startLine": 146,
+          "endLine": 147,
+          "supports": [
+            "country",
+            "education"
+          ],
+          "note": "決定記載選手姓名出現在 Clean Urine Bank 名單，並在背景說明俄羅斯操控方案。"
+        },
+        {
+          "documentId": "doc-7dca72f449698248",
+          "startLine": 297,
+          "endLine": 300,
+          "supports": [
+            "sanction"
+          ],
+          "note": "AIU 認定加重情節成立，依當年規則處以四年禁賽。"
+        },
+        {
+          "documentId": "doc-7dca72f449698248",
+          "startLine": 327,
+          "endLine": 354,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "處分自 2024-02-21 起算四年，取消自 2013-02-28 至決定日的成績，並包括獎牌等後果。"
+        },
+        {
+          "documentId": "registry-9421c67eeada0f45",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "country",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "AIU 名冊列其代表 RUS，四年自 2024-02-21 起，並取消 2013-02-28 起成績。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "aiu-7518b3ea3038",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-e10183027fda46aa",
+        "registry-17e08e310b458e69"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-e10183027fda46aa",
+          "startLine": 48,
+          "endLine": 69,
+          "supports": [
+            "identity",
+            "country",
+            "event"
+          ],
+          "note": "決定指明 Kumari Rachna 是印度鏈球選手，記載 2023-09-24 在印度採集兩份尿液樣本，並列 11 月賽內樣本。"
+        },
+        {
+          "documentId": "doc-e10183027fda46aa",
+          "startLine": 71,
+          "endLine": 108,
+          "supports": [
+            "event",
+            "substance"
+          ],
+          "note": "兩份 9 月樣本檢出所列類固醇及 DHCMT 代謝物；同日 clenbuterol 列為非典型結果，第二份因第一份比重不足而採集。"
+        },
+        {
+          "documentId": "doc-e10183027fda46aa",
+          "startLine": 145,
+          "endLine": 197,
+          "supports": [
+            "substance",
+            "education"
+          ],
+          "note": "AIU 調查 9 月及 11 月的 clenbuterol 非典型結果，要求提供飲食等污染資料；選手未提交資料後依程序作為異常分析結果追查。"
+        },
+        {
+          "documentId": "doc-e10183027fda46aa",
+          "startLine": 243,
+          "endLine": 269,
+          "supports": [
+            "substance",
+            "sanction",
+            "education"
+          ],
+          "note": "決定確認為第二次違規，列明先前禁賽及多種物質結果合併為第二次違規。"
+        },
+        {
+          "documentId": "doc-e10183027fda46aa",
+          "startLine": 303,
+          "endLine": 333,
+          "supports": [
+            "sanction"
+          ],
+          "note": "決定說明加重後的計算及未取得早期承認減刑。"
+        },
+        {
+          "documentId": "doc-e10183027fda46aa",
+          "startLine": 367,
+          "endLine": 388,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "處分為 2023-11-24 至 2035-11-23 禁賽，取消 2023-09-24 起成績，並列明上訴權。"
+        },
+        {
+          "documentId": "registry-17e08e310b458e69",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "AIU 名冊列其代表 IND、物質與違規條款、十二年禁賽及成績取消起日。"
+        }
+      ],
+      "findings": []
+    }
+  ]
+}

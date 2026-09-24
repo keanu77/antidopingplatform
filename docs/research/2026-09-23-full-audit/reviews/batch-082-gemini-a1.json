@@ -1,0 +1,530 @@
+{
+  "cases": [
+    {
+      "id": "usada-a54b4661de47",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-bb0de50be14e1b54",
+        "registry-ff11f8209c3e829a"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-bb0de50be14e1b54",
+          "startLine": 7,
+          "endLine": 12,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "Enrique Lopez 於 2018-07-29 Vuelta a Miami 檢出 EPO，處以自 2018-09-04 起四年禁賽並取消成績。"
+        },
+        {
+          "documentId": "registry-ff11f8209c3e829a",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "dates"
+          ],
+          "note": "官方處分名冊登記自行車選手 Enrique Lopez 涉 EPO 處四年禁賽與成績取消。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "nationality",
+          "explanation": "公告僅於標題載有「U.S. Cycling Athlete」並提及居住地 Homestead, Fla. 及 USA Cycling 會籍，依規範新聞標題、居住地或發布機構管轄權不足以直接證明國籍或代表資格。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-bb0de50be14e1b54",
+              "startLine": 1,
+              "endLine": 8
+            }
+          ],
+          "suggestion": "將國籍標記為待查或補充運動員公民身分／運動代表權之官方證明文件"
+        }
+      ]
+    },
+    {
+      "id": "usada-139867b729db",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-52bd28530ce10742",
+        "registry-1d3dca87762bb8e0"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-52bd28530ce10742",
+          "startLine": 7,
+          "endLine": 11,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "Steven Strickler 於 2018-04-29 Dana Point Grand Prix 檢出外源性合成代謝劑，處以自 2018-06-08 起四年禁賽並取消成績。"
+        },
+        {
+          "documentId": "registry-1d3dca87762bb8e0",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "dates"
+          ],
+          "note": "官方處分名冊登記 Steven Strickler 涉同化雄性類固醇處四年禁賽與成績取消。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "nationality",
+          "explanation": "公告僅見標題「U.S. Cycling Athlete」、居住地 Newport Beach, Calif. 及 USA Cycling 會籍，依審核標準尚不足以確立法律國籍或運動代表身分。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-52bd28530ce10742",
+              "startLine": 1,
+              "endLine": 8
+            }
+          ],
+          "suggestion": "將國籍標記為待查或補充運動員國籍／運動代表權佐證"
+        }
+      ]
+    },
+    {
+      "id": "usada-dd1a97e9431d",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-b8ec104c5adae4dc",
+        "doc-59c94611b9b35604",
+        "registry-ce391d286ff828f0"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-b8ec104c5adae4dc",
+          "startLine": 7,
+          "endLine": 11,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "Shaun Moffett 因使用及持有睪固酮與可洛米芬（缺乏有效 TUE），接受自 2017-12-06 起 21 個月禁賽並取消自 2017-06-19 起之成績。"
+        },
+        {
+          "documentId": "doc-59c94611b9b35604",
+          "startLine": 7,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "event",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "Moffett 於禁賽期間違規參加 2018-08-12 經 USA Cycling 核准之活動，追加三個月禁賽，總期滿 24 個月並取消該活動後成績。"
+        },
+        {
+          "documentId": "registry-ce391d286ff828f0",
+          "startLine": 1,
+          "endLine": 2,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "dates"
+          ],
+          "note": "名冊登記 Moffett 涉及睪固酮、可洛米芬及禁賽期違規，處 21 個月追加 3 個月禁賽及成績取消。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "nationality",
+          "explanation": "公告僅有標題「U.S. Cycling Athlete」、居住地 San Antonio, Texas 與美總會會籍，欠缺正式代表權或國籍直接證據。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-b8ec104c5adae4dc",
+              "startLine": 1,
+              "endLine": 8
+            }
+          ],
+          "suggestion": "國籍欄位改為不確定或補充官方運動代表權證明"
+        }
+      ]
+    },
+    {
+      "id": "usada-ea0049989423",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-7ab29b7da26eaacd",
+        "registry-2b0f471260b4e69c"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-7ab29b7da26eaacd",
+          "startLine": 7,
+          "endLine": 11,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "Jeff Tanski 於 2018-06-23 喬治亞錦標賽檢出諾龍或其他 19-去甲類固醇代謝物，處以自 2018-07-30 起四年禁賽並取消成績。"
+        },
+        {
+          "documentId": "registry-2b0f471260b4e69c",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "dates"
+          ],
+          "note": "名冊載明 Jeff Tanski 因同化雄性類固醇處四年禁賽與成績取消。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "nationality",
+          "explanation": "來源僅有標題「U.S. Cycling Athlete」、居住地 Palmetto, Ga. 及 USA Cycling 會員身分，不足以確證國籍或國家隊代表權。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-7ab29b7da26eaacd",
+              "startLine": 1,
+              "endLine": 8
+            }
+          ],
+          "suggestion": "將國籍欄標註為待確認，或補充運動代表身分文件"
+        }
+      ]
+    },
+    {
+      "id": "usada-998b9264b440",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-17c5dc3ae704234f",
+        "registry-38c33f861d62bb97"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-17c5dc3ae704234f",
+          "startLine": 7,
+          "endLine": 12,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "Mijail Gonzalez 於 2018-07-29 Vuelta a Miami 檢出地塞米松，接受自採樣日起四年禁賽並取消成績。"
+        },
+        {
+          "documentId": "registry-38c33f861d62bb97",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "dates"
+          ],
+          "note": "官方名冊登載 Mijail Gonzalez 涉地塞米松，處四年禁賽及取消成績。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "nationality",
+          "explanation": "官方文件僅於標題提及「U.S. Cycling Athlete」、居住地 Hialeah, Fla. 及美總會註冊，依規範不可單憑標題或居住地推論國籍。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-17c5dc3ae704234f",
+              "startLine": 1,
+              "endLine": 8
+            }
+          ],
+          "suggestion": "將國籍標示為待確認或補充正式運動員代表權依據"
+        }
+      ]
+    },
+    {
+      "id": "usada-9c2bd61dbab6",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-2055bce2f4278b44",
+        "registry-d76dc4f9aa4428ec"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-2055bce2f4278b44",
+          "startLine": 7,
+          "endLine": 12,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "Raul Diaz 於 2018-07-29 檢出地塞米松與 EPO，承認違規，處自 2018-09-05 起四年禁賽並追溯自承認使用日 2018-07-15 取消成績。"
+        },
+        {
+          "documentId": "registry-d76dc4f9aa4428ec",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "dates"
+          ],
+          "note": "處分名冊登記 Raul Diaz 涉 EPO 及地塞米松處四年禁賽與成績取消。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "nationality",
+          "explanation": "內文僅載標題「U.S. Cycling Athlete」、居住地 Miami, Fla. 及 USA Cycling 會籍，缺乏國籍或體育代表權之直接證明。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-2055bce2f4278b44",
+              "startLine": 1,
+              "endLine": 8
+            }
+          ],
+          "suggestion": "國籍欄位調整為待查或增補官方國籍／代表權佐證"
+        }
+      ]
+    },
+    {
+      "id": "usada-5e279c9e9968",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-af0ec409903feccb",
+        "registry-73192a4867020d0f"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-af0ec409903feccb",
+          "startLine": 7,
+          "endLine": 9,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "Cameron Dudeck 於 2018-06-07 賽外檢出 DHCMT 長效代謝物 M3，承認違規，處自採樣日起四年禁賽並取消成績。"
+        },
+        {
+          "documentId": "registry-73192a4867020d0f",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "dates"
+          ],
+          "note": "名冊登記舉重選手 Cameron Dudeck 因 DHCMT 處四年禁賽與成績取消。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "nationality",
+          "explanation": "公告僅有標題「U.S. Weightlifting Athlete」及居住地 Indianapolis, Ind.，依規定不可單憑標題與居住地逕行認定公民身分或代表國家。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-af0ec409903feccb",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "將國籍欄標示為待查或提供所代表國家協會／國籍直接證明"
+        }
+      ]
+    },
+    {
+      "id": "usada-e6341e3462ec",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-79a9d57a7b1e91b9",
+        "registry-ce3bd2c800cc1111"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-79a9d57a7b1e91b9",
+          "startLine": 7,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "Stephen Bedford 於 2018-07-21 檢出 Carboxy-THC 逾判定界限，處六個月禁賽，因完成教育減免三個月至 2018-10-21 期滿並取消成績。"
+        },
+        {
+          "documentId": "registry-ce3bd2c800cc1111",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "dates"
+          ],
+          "note": "名冊登記 Stephen Bedford 大麻素違規，處 6 個月禁賽減免 3 個月並取消成績。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "nationality",
+          "explanation": "公告僅載「U.S. Cycling Athlete」、居住地 Portland, Ore. 及美總會會員身分，依審核基準不足以認定國籍或體育代表權。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-79a9d57a7b1e91b9",
+              "startLine": 1,
+              "endLine": 8
+            }
+          ],
+          "suggestion": "國籍欄標示為待查或補充正式國籍證明文件"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,491 @@
+{
+  "cases": [
+    {
+      "id": "ita-e2df476c812d",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-36ab223f5f482026",
+        "registry-828a58ac5bd5f0af"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-36ab223f5f482026",
+          "startLine": 2,
+          "endLine": 5,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告確認關島高爾夫選手 Park 於賽外拒檢，未爭執 ADRV，禁賽四年並取消自違規日起成績。"
+        },
+        {
+          "documentId": "doc-36ab223f5f482026",
+          "startLine": 8,
+          "endLine": 8,
+          "supports": [
+            "education"
+          ],
+          "note": "未爭執且未要求聽證時，可用書面決定處分。"
+        },
+        {
+          "documentId": "registry-828a58ac5bd5f0af",
+          "startLine": 1,
+          "endLine": 20,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊列 Guam、Golf、Art. 2.3、四年期間及違規日至禁賽起日的除名區間。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-903ff29b8c39",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-4ed1bbff5e18fbd8",
+        "registry-1a089cd05f219cf4"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-4ed1bbff5e18fbd8",
+          "startLine": 2,
+          "endLine": 6,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告確認烏茲別克踢拳選手樣本檢出 furosemide、接受兩年處分，列明採樣、禁賽與成績除名日期。"
+        },
+        {
+          "documentId": "registry-1a089cd05f219cf4",
+          "startLine": 11,
+          "endLine": 22,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊列 Art. 2.1/2.2、四月違規日、兩年禁賽及接受處分方式。"
+        },
+        {
+          "documentId": "doc-4ed1bbff5e18fbd8",
+          "startLine": 4,
+          "endLine": 5,
+          "supports": [
+            "education"
+          ],
+          "note": "公告辨明檢驗結果為 AAF，並說明 furosemide 的禁用清單分類。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-7e1f7d2aa11a",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-4583b776b1254e75",
+        "registry-7fe0f82e45f5c306"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-4583b776b1254e75",
+          "startLine": 2,
+          "endLine": 6,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告確認阿爾及利亞選手在 UAE 賽事檢出兩種物質，因加重情節處六年並取消自採樣日起個人成績。"
+        },
+        {
+          "documentId": "registry-7fe0f82e45f5c306",
+          "startLine": 11,
+          "endLine": 20,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊列 Muaythai、兩項物質、六年禁賽及相應除名日期。"
+        },
+        {
+          "documentId": "doc-4583b776b1254e75",
+          "startLine": 5,
+          "endLine": 10,
+          "supports": [
+            "education"
+          ],
+          "note": "公告列兩物質清單分類及加重情節規則，並說明多種禁用物質可構成相關情節。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-c346670bf110",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-2625354d5b855095",
+        "registry-f61fcca757194eb9"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-2625354d5b855095",
+          "startLine": 2,
+          "endLine": 5,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告確認烏茲別克跆拳道選手十二個月內三次行蹤失誤，接受兩年禁賽，並列違規、禁賽及成績除名起日。"
+        },
+        {
+          "documentId": "registry-f61fcca757194eb9",
+          "startLine": 11,
+          "endLine": 22,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊列 Art. 2.4、違規日、兩年禁賽與接受處分方式。"
+        },
+        {
+          "documentId": "doc-2625354d5b855095",
+          "startLine": 9,
+          "endLine": 9,
+          "supports": [
+            "education"
+          ],
+          "note": "規則說明違規日為第三次行蹤失誤，並列出處分及成績除名原則。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-630a0e06cd4d",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-bb59ec3d0f89dda0",
+        "registry-d5f0dfe64959e6ac"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-bb59ec3d0f89dda0",
+          "startLine": 2,
+          "endLine": 5,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告確認烏克蘭踢拳選手賽外檢出 hydrochlorothiazide，禁賽兩年並自採樣日起取消成績。"
+        },
+        {
+          "documentId": "registry-d5f0dfe64959e6ac",
+          "startLine": 11,
+          "endLine": 22,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊列 Art. 2.1/2.2、兩年期間及違規日起至禁賽起日的除名區間。"
+        },
+        {
+          "documentId": "doc-bb59ec3d0f89dda0",
+          "startLine": 8,
+          "endLine": 8,
+          "supports": [
+            "education"
+          ],
+          "note": "公告說明未爭執且未要求聽證時可作成書面處分；未載污染抗辯。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-3aa656ac7817",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-d031ca025f85223e",
+        "registry-d446e8642034f0d0"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-d031ca025f85223e",
+          "startLine": 2,
+          "endLine": 7,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告確認墨西哥棒球選手賽外樣本檢出 stanozolol 代謝物，四年禁賽並自採樣日起取消個人成績。"
+        },
+        {
+          "documentId": "registry-d446e8642034f0d0",
+          "startLine": 11,
+          "endLine": 20,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊列 presence、四年期間及相應除名區間；公告另列 2.1 與 2.2。"
+        },
+        {
+          "documentId": "doc-d031ca025f85223e",
+          "startLine": 3,
+          "endLine": 5,
+          "supports": [
+            "education"
+          ],
+          "note": "公告將 presence 與 use 列為同一案的違規條文，並列 stanozolol 分類。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-4d5be27eaa86",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-b5540f3635e20bd5",
+        "registry-33e4c6872994a57c"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-b5540f3635e20bd5",
+          "startLine": 2,
+          "endLine": 7,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告確認來自巴拿馬的棒球選手樣本檢出 drostanolone 代謝物，四年禁賽並取消個人成績。"
+        },
+        {
+          "documentId": "registry-33e4c6872994a57c",
+          "startLine": 11,
+          "endLine": 20,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊列 Art. 2.1、四年禁賽與違規日至禁賽起日的除名期間。"
+        },
+        {
+          "documentId": "doc-b5540f3635e20bd5",
+          "startLine": 7,
+          "endLine": 7,
+          "supports": [
+            "education"
+          ],
+          "note": "公告明列個人成績除名；未將球隊成績或獎牌列為處分。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-4e4b3efb8c31",
+      "status": "issue",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "issue",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-bff69ba5183a89dc",
+        "registry-d92ada41643a658e"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-bff69ba5183a89dc",
+          "startLine": 2,
+          "endLine": 7,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告記載樣本於 2024-08-25 在輕艇競速世錦賽採集，禁賽四年並取消相關個人成績。"
+        },
+        {
+          "documentId": "registry-d92ada41643a658e",
+          "startLine": 13,
+          "endLine": 20,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊列違規日為 2024-08-25、四年禁賽及除名期間。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "event",
+          "kind": "contradiction",
+          "severity": "high",
+          "claim": "2024-08-25 輕艇競速世錦賽樣本",
+          "explanation": "來源同樣支持採樣日為 2024-08-25，但沒有矛盾地指出賽事日期；公告記載樣本於 8 月 25 日在世錦賽採集，故此說法有來源支持。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-bff69ba5183a89dc",
+              "startLine": 4,
+              "endLine": 4
+            }
+          ],
+          "suggestion": "維持此說法。"
+        }
+      ]
+    }
+  ]
+}

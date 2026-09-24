@@ -1,0 +1,89 @@
+{
+  "cases": [
+    {
+      "id": "aiu-dbc9a1f66bb9",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "uncertain",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-6a64314368dd066d",
+        "registry-378c5c78eb5059ec"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-6a64314368dd066d",
+          "startLine": 1,
+          "endLine": 13,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "Nancy Jelagat Meto 為代表肯亞之田徑路跑選手"
+        },
+        {
+          "documentId": "doc-6a64314368dd066d",
+          "startLine": 56,
+          "endLine": 66,
+          "supports": [
+            "event",
+            "substance"
+          ],
+          "note": "2024-06-12 賽外採樣檢出禁用物質 Furosemide"
+        },
+        {
+          "documentId": "doc-6a64314368dd066d",
+          "startLine": 234,
+          "endLine": 251,
+          "supports": [
+            "substance",
+            "sanction",
+            "outcomes"
+          ],
+          "note": "依 ADR 2.1 與 2.2 處以兩年禁賽並取消自 2024-06-12 起之相關成績"
+        },
+        {
+          "documentId": "registry-378c5c78eb5059ec",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction"
+          ],
+          "note": "官方名冊列載處兩年禁賽但記載起算日為 2026-02-05 並取消自 2024-06-12 起之成績"
+        }
+      ],
+      "findings": [
+        {
+          "field": "dates",
+          "kind": "material_ambiguity",
+          "severity": "medium",
+          "claim": "禁賽期間：自 2024-08-11 起兩年",
+          "explanation": "AIU 決定書第 30.1 段明定禁賽自 2024-08-11 起算兩年，但 AIU 官方首審名冊記載為自 2026-02-05 起算兩年，兩份官方資料對禁賽起算日存在實質歧異。公開主張逕自判定以原決定校正名冊，未如實呈現官方來源之歧異與不確定性。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-6a64314368dd066d",
+              "startLine": 247,
+              "endLine": 247
+            },
+            {
+              "documentId": "registry-378c5c78eb5059ec",
+              "startLine": 1,
+              "endLine": 1
+            }
+          ],
+          "suggestion": "應同時並列 AIU 決定書所載起算日（2024-08-11）與官方名冊所載起算日（2026-02-05），指明兩份官方紀錄存在實質歧異待釐清，不應單方面逕予校正。"
+        }
+      ]
+    }
+  ]
+}

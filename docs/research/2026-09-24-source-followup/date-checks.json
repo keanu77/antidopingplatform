@@ -1,0 +1,149 @@
+[
+  {
+    "id": "ita-a9d763121732",
+    "athleteName": "Aymane Takzima",
+    "checkedAt": "2026-09-24",
+    "resolution": "unresolved",
+    "note": "ITA 公告與名冊仍未列出各次執教的確切日期；名冊的 2022-11-20 早於公告的暫時停賽起日。維持兩段禁賽期間及日期疑義，不自行指定違規發生日。",
+    "sourceRefs": [
+      {
+        "url": "https://ita.sport/news/the-ita-reports-that-athlete-aymane-takzima-has-accepted-a-3-year-ban-for-his-breach-of-anti-doping-rules/",
+        "retrievedAt": "2026-09-23T23:32:00.180809+00:00",
+        "rawSha256": "05c639a68aa20f1307ef931a09c47ba5dbd7cf6eda73f742a97235742e6249c5",
+        "textSha256": "8d240943950b0b978183da9c1d6f8c9f59065f3cc5a3f656b16a1c13a0b290b9",
+        "textPath": ".cache/source-followups-20260924/472ca5fd0250258945f4.txt"
+      },
+      {
+        "url": "https://ita.sport/anti-doping-rule-violations/",
+        "retrievedAt": "2026-09-23T23:32:01.761857+00:00",
+        "rawSha256": "f38cbd44bdc0731485a3929b2cb782a49bf7cc85edbc0cbec0c8591b96a16a9f",
+        "textSha256": "21fd692e47e27ff043be09551036b27f3b81456a2c17ca1fd6b81b83353100ea",
+        "textPath": ".cache/source-followups-20260924/3671b741566efecd4174.txt"
+      }
+    ]
+  },
+  {
+    "id": "aiu-b92f69a6866b",
+    "athleteName": "Patricia Álvarez Pérez",
+    "checkedAt": "2026-09-24",
+    "resolution": "unresolved",
+    "note": "裁決仍記 2025-03-29 比賽／採樣與成績取消，名冊仍列 2024-03-29。保留原裁決日期並揭露名冊差異，沒有宣稱官方已更正。",
+    "sourceRefs": [
+      {
+        "url": "https://www.athleticsintegrity.org/downloads/pdfs/disciplinary-process/en/260511-WA-v-Alvarez-Decision-Final.pdf",
+        "retrievedAt": "2026-09-23T23:31:56.319475+00:00",
+        "rawSha256": "1e70452c070aa4768cb2bcb082f7a163c71ea9fa310e5e06e3e55ac4556bc712",
+        "textSha256": "ad2245436aeb34a6731f37163d575b583e9e3b1dabb2447d7a430a9ffee42f27",
+        "textPath": ".cache/source-followups-20260924/676de1d8634b1c3ee500.txt"
+      },
+      {
+        "url": "https://www.athleticsintegrity.org/disciplinary-process/first-instance-decisions",
+        "retrievedAt": "2026-09-23T23:31:56.243173+00:00",
+        "rawSha256": "3b5073e6f5978e641b687fe9a4f5d966e0147e8d2f8d25582fb0199dc74c45c4",
+        "textSha256": "16e198e8c295782b26bce12d34d88d0e965c8e2242a29b6cc6056ccb17e68785",
+        "textPath": ".cache/source-followups-20260924/479a74a41e3d9ad99a38.txt"
+      }
+    ]
+  },
+  {
+    "id": "aiu-fcb63b1504c8",
+    "athleteName": "Kibiwott Kandie",
+    "checkedAt": "2026-09-24",
+    "resolution": "unresolved",
+    "note": "裁決第 37、38 段的指控通知日期為 2026 年，第 46 段同一程序則寫 2025 年。原檔未變，持續標示文內矛盾；不影響已明列的禁賽及成績取消起日。",
+    "sourceRefs": [
+      {
+        "url": "https://www.athleticsintegrity.org/downloads/pdfs/disciplinary-process/en/Kibwott-KANDIE-Decision.pdf",
+        "retrievedAt": "2026-09-23T23:31:58.457456+00:00",
+        "rawSha256": "5a7a8e87cf1d9470bc7170ec3a0632d40d902b99fb6b4d9e5329cef884e17d1c",
+        "textSha256": "e113704817d07ffc46903242d611980f86123888d1cf541559c306830c0fcb5b",
+        "textPath": ".cache/source-followups-20260924/c2a2897e3ba88f7c1646.txt"
+      },
+      {
+        "url": "https://www.athleticsintegrity.org/disciplinary-process/first-instance-decisions",
+        "retrievedAt": "2026-09-23T23:31:56.243173+00:00",
+        "rawSha256": "3b5073e6f5978e641b687fe9a4f5d966e0147e8d2f8d25582fb0199dc74c45c4",
+        "textSha256": "16e198e8c295782b26bce12d34d88d0e965c8e2242a29b6cc6056ccb17e68785",
+        "textPath": ".cache/source-followups-20260924/479a74a41e3d9ad99a38.txt"
+      }
+    ]
+  },
+  {
+    "id": "aiu-dbc9a1f66bb9",
+    "athleteName": "Nancy Jelagat Meto",
+    "checkedAt": "2026-09-24",
+    "resolution": "unresolved",
+    "note": "裁決第 30.1 段仍列 2024-08-11 起算兩年，名冊仍列 2026-02-05。兩個日期繼續並列，未找到可在此次查閱來源中消除差異的更正。",
+    "sourceRefs": [
+      {
+        "url": "https://www.athleticsintegrity.org/downloads/pdfs/disciplinary-process/en/AIU-24-175-Nancy-Jelagat-Meto-Decision.pdf",
+        "retrievedAt": "2026-09-23T23:31:58.449369+00:00",
+        "rawSha256": "d0390beae5f9a55851fdf2c81972e0bd2388028f06eb30a2bef8765261a59618",
+        "textSha256": "6a64314368dd066de2a3f0f4882c159530dd8c70a86fa5b50d5bb7996d17df33",
+        "textPath": ".cache/source-followups-20260924/7768ffa2a3535426c91c.txt"
+      },
+      {
+        "url": "https://www.athleticsintegrity.org/disciplinary-process/first-instance-decisions",
+        "retrievedAt": "2026-09-23T23:31:56.243173+00:00",
+        "rawSha256": "3b5073e6f5978e641b687fe9a4f5d966e0147e8d2f8d25582fb0199dc74c45c4",
+        "textSha256": "16e198e8c295782b26bce12d34d88d0e965c8e2242a29b6cc6056ccb17e68785",
+        "textPath": ".cache/source-followups-20260924/479a74a41e3d9ad99a38.txt"
+      }
+    ]
+  },
+  {
+    "id": "aiu-190ce97cb856",
+    "athleteName": "Nobert Kigen",
+    "checkedAt": "2026-09-24",
+    "resolution": "unresolved",
+    "note": "裁決第 6 段仍將尿液檢驗通知寫為 2023-02-06，早於 2023-08-03 採樣。未採用這個可疑通知日，不自行改成其他年份。",
+    "sourceRefs": [
+      {
+        "url": "https://www.athleticsintegrity.org/downloads/pdfs/disciplinary-process/en/AIU-23-433-KIGEN-Decision.pdf",
+        "retrievedAt": "2026-09-23T23:31:58.638015+00:00",
+        "rawSha256": "97b7a9324b22c9a4206ddb33ac440626d838b9b6a294b6fe533be14ecf9a8b23",
+        "textSha256": "4d6ce0a40f99854a16013bb3461d59d1f09d54a0b3d94579825971076354f744",
+        "textPath": ".cache/source-followups-20260924/f8d42977dcfbc03ca3f8.txt"
+      },
+      {
+        "url": "https://www.athleticsintegrity.org/disciplinary-process/first-instance-decisions",
+        "retrievedAt": "2026-09-23T23:31:56.243173+00:00",
+        "rawSha256": "3b5073e6f5978e641b687fe9a4f5d966e0147e8d2f8d25582fb0199dc74c45c4",
+        "textSha256": "16e198e8c295782b26bce12d34d88d0e965c8e2242a29b6cc6056ccb17e68785",
+        "textPath": ".cache/source-followups-20260924/479a74a41e3d9ad99a38.txt"
+      }
+    ]
+  },
+  {
+    "id": "usada-0f682f5a12d7",
+    "athleteName": "Marck Harrison",
+    "checkedAt": "2026-09-24",
+    "resolution": "unresolved",
+    "note": "重讀個案公告仍未公布實際採樣日期或賽內／賽外情境。2018-01-24 是處分公告日期，不能當作採樣日期。",
+    "sourceRefs": [
+      {
+        "url": "https://www.usada.org/sanction/marck-harrison-accepts-public-warning/",
+        "retrievedAt": "2026-09-23T23:31:59.587835+00:00",
+        "rawSha256": "1286d00eeb342c69c439669dd99b49c7730e8ac81e2ab1ac55f5d17204fab874",
+        "textSha256": "0e7341357c74326be7c1566fc8b16acaea860a842e00927406fe6abbe3ad93ec",
+        "textPath": ".cache/source-followups-20260924/b6ec4ea873da74834802.txt"
+      }
+    ]
+  },
+  {
+    "id": "usada-f49825dfb87e",
+    "athleteName": "Sharon Jackson",
+    "checkedAt": "2026-09-24",
+    "resolution": "unresolved",
+    "note": "重讀個案公告仍未公布實際採樣日期或賽內／賽外情境。2018-01-24 是處分公告日期，不能當作採樣日期。",
+    "sourceRefs": [
+      {
+        "url": "https://www.usada.org/sanction/sharon-jackson-accepts-public-warning/",
+        "retrievedAt": "2026-09-23T23:32:01.950549+00:00",
+        "rawSha256": "0cadfeef5657aabdeb4a457c71ea48b75fca9c03f02685ae70b07e1a7bd18a82",
+        "textSha256": "83211a711d3a136e31de5bc7db58b424355b2dc81336192c645f0ab46629cd6b",
+        "textPath": ".cache/source-followups-20260924/72f816f92049dd28218b.txt"
+      }
+    ]
+  }
+]

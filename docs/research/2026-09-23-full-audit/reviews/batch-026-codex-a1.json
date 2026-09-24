@@ -1,0 +1,190 @@
+{
+  "cases": [
+    {
+      "id": "aiu-edc5ff29ebf6",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-bfd4375fd55d153f",
+        "registry-5c3e596e04df5346"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-bfd4375fd55d153f",
+          "startLine": 12,
+          "endLine": 12,
+          "supports": [
+            "identity",
+            "country",
+            "event"
+          ],
+          "note": "文件確認 Brian Limo 是來自肯亞的長跑選手。"
+        },
+        {
+          "documentId": "doc-bfd4375fd55d153f",
+          "startLine": 60,
+          "endLine": 75,
+          "supports": [
+            "event",
+            "substance"
+          ],
+          "note": "Drammen 10K-5K 賽事檢體的 salbutamol 超過 1000 ng/mL，且未獲或不會獲 TUE。"
+        },
+        {
+          "documentId": "doc-bfd4375fd55d153f",
+          "startLine": 133,
+          "endLine": 154,
+          "supports": [
+            "substance",
+            "education"
+          ],
+          "note": "他承認提交不實醫療文件；AIU 確認 2.1、2.2 與 2.5 違規。"
+        },
+        {
+          "documentId": "doc-bfd4375fd55d153f",
+          "startLine": 199,
+          "endLine": 200,
+          "supports": [
+            "substance",
+            "education"
+          ],
+          "note": "Salbutamol 屬 S3 指定物質，文件列出 2025 年清單及規則背景。"
+        },
+        {
+          "documentId": "doc-bfd4375fd55d153f",
+          "startLine": 291,
+          "endLine": 305,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "早期承認減一年後，處五年禁賽，自 2025-11-25 起，並取消 2025-04-05 起成績。"
+        },
+        {
+          "documentId": "registry-5c3e596e04df5346",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊列出姓名、KEN、違規、五年禁賽起日及取消成績起日。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "aiu-6b05a65fa97e",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-dbec7380b6eede2a",
+        "registry-43677d7eaad50008"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-dbec7380b6eede2a",
+          "startLine": 12,
+          "endLine": 12,
+          "supports": [
+            "identity",
+            "country",
+            "event"
+          ],
+          "note": "文件確認 Mercyline Chelangat 是來自烏干達的公路跑選手。"
+        },
+        {
+          "documentId": "doc-dbec7380b6eede2a",
+          "startLine": 55,
+          "endLine": 73,
+          "supports": [
+            "event",
+            "substance",
+            "dates"
+          ],
+          "note": "兩份樣本於 2025-08-13 及 2025-09-14 採集，均有與外源性來源一致的 testosterone 相關發現。"
+        },
+        {
+          "documentId": "doc-dbec7380b6eede2a",
+          "startLine": 200,
+          "endLine": 203,
+          "supports": [
+            "substance",
+            "sanction"
+          ],
+          "note": "她承認相關違規並接受所列後果。"
+        },
+        {
+          "documentId": "doc-dbec7380b6eede2a",
+          "startLine": 245,
+          "endLine": 251,
+          "supports": [
+            "substance",
+            "education"
+          ],
+          "note": "文件區分 clomiphene 的 S4.2 指定物質與 testosterone 的 S1.1 非指定物質。"
+        },
+        {
+          "documentId": "doc-dbec7380b6eede2a",
+          "startLine": 298,
+          "endLine": 310,
+          "supports": [
+            "substance",
+            "sanction",
+            "education"
+          ],
+          "note": "兩次樣本發現加上承認於 2025 年使用 clomiphene，構成加重情節；文件未將 clomiphene 描述為樣本檢出。"
+        },
+        {
+          "documentId": "doc-dbec7380b6eede2a",
+          "startLine": 336,
+          "endLine": 354,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "早期承認減一年後，處五年禁賽，自 2025-10-10 起，並取消 2025-08-13 起成績。"
+        },
+        {
+          "documentId": "registry-43677d7eaad50008",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊列出姓名、UGA、違規、五年禁賽起日及取消成績起日。"
+        }
+      ],
+      "findings": []
+    }
+  ]
+}

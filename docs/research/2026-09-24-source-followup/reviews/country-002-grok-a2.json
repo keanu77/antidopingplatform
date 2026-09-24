@@ -1,0 +1,305 @@
+{
+  "cases": [
+    {
+      "id": "usada-491a96341462",
+      "status": "supported",
+      "identity": "supported",
+      "country": "supported",
+      "temporalScope": "supported",
+      "evidence": [
+        {
+          "documentId": "country",
+          "startLine": 54,
+          "endLine": 59,
+          "note": "Current World Athletics profile lists Chris Carter, triple jump, country United States, born 11 Mar 1989."
+        },
+        {
+          "documentId": "case",
+          "startLine": 7,
+          "endLine": 8,
+          "note": "USADA 11 Aug 2017 release names Chris Carter, track and field, age 28, which matches that birth date; residence and the USADA title are not used as country."
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-d14484534da6",
+      "status": "supported",
+      "identity": "supported",
+      "country": "supported",
+      "temporalScope": "supported",
+      "evidence": [
+        {
+          "documentId": "country",
+          "startLine": 54,
+          "endLine": 61,
+          "note": "Current profile lists Trell Kimmons, sprints, country United States, born 13 Jul 1985."
+        },
+        {
+          "documentId": "case",
+          "startLine": 7,
+          "endLine": 8,
+          "note": "27 Sep 2016 USADA release names Trell Kimmons, track and field, age 31, matching that birth date."
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-04a1e7f11069",
+      "status": "supported",
+      "identity": "supported",
+      "country": "supported",
+      "temporalScope": "supported",
+      "evidence": [
+        {
+          "documentId": "country",
+          "startLine": 54,
+          "endLine": 59,
+          "note": "Current profile lists Demi Payne, pole vault, country United States, born 30 Sep 1991."
+        },
+        {
+          "documentId": "case",
+          "startLine": 5,
+          "endLine": 8,
+          "note": "24 Aug 2018 release names Demi Payne, track and field, age 26; the 12 Mar 2016 sample matches case year 2016. Age fits 30 Sep 1991."
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-f8fb776d4fa9",
+      "status": "supported",
+      "identity": "supported",
+      "country": "supported",
+      "temporalScope": "supported",
+      "evidence": [
+        {
+          "documentId": "country",
+          "startLine": 54,
+          "endLine": 59,
+          "note": "Current profile lists Dawn Harper-Nelson, 100m hurdles, country United States, born 13 May 1984."
+        },
+        {
+          "documentId": "case",
+          "startLine": 5,
+          "endLine": 8,
+          "note": "7 Feb 2017 release names Dawn Harper-Nelson, track and field, age 32, with a 1 Dec 2016 sample; age matches 13 May 1984."
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-137ddb330f29",
+      "status": "supported",
+      "identity": "supported",
+      "country": "supported",
+      "temporalScope": "supported",
+      "evidence": [
+        {
+          "documentId": "country",
+          "startLine": 55,
+          "endLine": 57,
+          "note": "Official results are the Houston Half Marathon on 14 Jan 2018."
+        },
+        {
+          "documentId": "country",
+          "startLine": 276,
+          "endLine": 279,
+          "note": "Men's half marathon lists Kevin Castille, born 17 Mar 1972, country code USA."
+        },
+        {
+          "documentId": "case",
+          "startLine": 7,
+          "endLine": 8,
+          "note": "16 Jul 2020 release names Kevin Castille, track and field, age 48, matching 17 Mar 1972; the 2019 test is not treated as extending the 2018 listing."
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-578b30358464",
+      "status": "supported",
+      "identity": "supported",
+      "country": "supported",
+      "temporalScope": "supported",
+      "evidence": [
+        {
+          "documentId": "country",
+          "startLine": 50,
+          "endLine": 52,
+          "note": "Results are the Duval County Challenge on 21 May 2022."
+        },
+        {
+          "documentId": "country",
+          "startLine": 311,
+          "endLine": 314,
+          "note": "Men's 400m lists Jaron Flournoy, born 24 Nov 1996, country code USA."
+        },
+        {
+          "documentId": "case",
+          "startLine": 1,
+          "endLine": 7,
+          "note": "15 Apr 2024 release names Jaron Flournoy, track and field, with the relevant possession in December 2022. The name and event are distinctive; the case states no age."
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-4366103d9b91",
+      "status": "supported",
+      "identity": "supported",
+      "country": "supported",
+      "temporalScope": "supported",
+      "evidence": [
+        {
+          "documentId": "country",
+          "startLine": 53,
+          "endLine": 74,
+          "note": "11 Aug 2011 World Athletics news publishes the 2011 World Championships Team USA roster."
+        },
+        {
+          "documentId": "country",
+          "startLine": 113,
+          "endLine": 113,
+          "note": "Women's long jump on that Team USA roster includes Tori Polk."
+        },
+        {
+          "documentId": "case",
+          "startLine": 7,
+          "endLine": 8,
+          "note": "15 Dec 2017 release names Tori Polk, track and field, age 34. The roster has no birth date; the full name and jumps event are the identity link. Scope stays the 2011 team period."
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-36b25b3d84e6",
+      "status": "uncertain",
+      "identity": "uncertain",
+      "country": "uncertain",
+      "temporalScope": "supported",
+      "evidence": [
+        {
+          "documentId": "country",
+          "startLine": 73,
+          "endLine": 74,
+          "note": "The same 2011 article is a Team USA World Championships roster."
+        },
+        {
+          "documentId": "country",
+          "startLine": 93,
+          "endLine": 93,
+          "note": "Men's discus on that roster includes one Jason Young, with no birth date or other identifier."
+        },
+        {
+          "documentId": "case",
+          "startLine": 7,
+          "endLine": 8,
+          "note": "12 May 2017 release names Jason Young of Lubbock, track and field, age 35, use from January 2013. It does not state discus or a birth date."
+        }
+      ],
+      "findings": [
+        {
+          "field": "identity",
+          "explanation": "Jason Young is a common name. The roster only places a Jason Young in the 2011 men's discus, while the USADA text gives track and field, age 35, and a Texas residence, not an event or birth date. The proposed exclusion of a namesake is not in these documents.",
+          "suggestion": "Do not attach this roster until a supplied document ties the Lubbock sanction to this discus thrower by birth date or event."
+        },
+        {
+          "field": "country",
+          "explanation": "USA is explicit for the roster's Jason Young, but that country cannot be quoted for this case while the identity link is unresolved.",
+          "suggestion": "Keep the 2011 Team USA discus line unused for this id until identity is documented."
+        }
+      ]
+    },
+    {
+      "id": "usada-2a8b050c35ed",
+      "status": "supported",
+      "identity": "supported",
+      "country": "supported",
+      "temporalScope": "supported",
+      "evidence": [
+        {
+          "documentId": "country",
+          "startLine": 53,
+          "endLine": 63,
+          "note": "10 Aug 2015 news lists the USA team for the 2015 World Championships."
+        },
+        {
+          "documentId": "country",
+          "startLine": 118,
+          "endLine": 119,
+          "note": "Women's 800m on that USA team includes Molly Beckwith-Ludlow."
+        },
+        {
+          "documentId": "case",
+          "startLine": 7,
+          "endLine": 8,
+          "note": "1 May 2017 release names Molly Beckwith-Ludlow, track and field, age 29, sample 21 Dec 2016. The hyphenated name matches; scope remains the 2015 team list."
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-fb72031d87b1",
+      "status": "supported",
+      "identity": "supported",
+      "country": "supported",
+      "temporalScope": "supported",
+      "evidence": [
+        {
+          "documentId": "country",
+          "startLine": 53,
+          "endLine": 58,
+          "note": "24 May 2018 preview concerns the Götzis combined-events meeting of 26-27 May 2018."
+        },
+        {
+          "documentId": "country",
+          "startLine": 70,
+          "endLine": 70,
+          "note": "It calls Alexandria Gochenour a compatriot of USA's Erica Bougard in that heptathlon field."
+        },
+        {
+          "documentId": "case",
+          "startLine": 7,
+          "endLine": 8,
+          "note": "17 Dec 2019 release names Alexandria (Alex) Gochenour, track and field, age 26, sample 24 Jun 2018. Name, alias, and combined-events timing match. Scope is that 2018 entry, not citizenship."
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-792c30cdc646",
+      "status": "uncertain",
+      "identity": "supported",
+      "country": "supported",
+      "temporalScope": "uncertain",
+      "evidence": [
+        {
+          "documentId": "country",
+          "startLine": 182,
+          "endLine": 183,
+          "note": "The supplied page is the women's senior triple-jump top list for 2016."
+        },
+        {
+          "documentId": "country",
+          "startLine": 911,
+          "endLine": 918,
+          "note": "Imani Oliver, born 7 Mar 1993, is listed with country code USA for a 31 May 2016 mark. Riga is the venue, not the country."
+        },
+        {
+          "documentId": "case",
+          "startLine": 7,
+          "endLine": 8,
+          "note": "9 May 2017 release names Imani Oliver, track and field, age 24, sample 7 Jul 2016, which matches 7 Mar 1993."
+        }
+      ],
+      "findings": [
+        {
+          "field": "temporalScope",
+          "explanation": "The 2016 top list supports USA for that season's listed mark, but the note also states that a newer record lists Jamaica and that no transfer date is assumed. No supplied document shows a later Jamaica listing or any transfer.",
+          "suggestion": "Limit the note to the 2016 top-list USA row, and drop the Jamaica clause unless a supplied later record is added."
+        }
+      ]
+    }
+  ]
+}

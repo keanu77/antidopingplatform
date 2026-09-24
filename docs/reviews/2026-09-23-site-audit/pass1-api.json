@@ -1,0 +1,218 @@
+{
+  "audit": "pass1-api",
+  "date": "2026-09-23",
+  "scope": [
+    "functions/api/[[path]].js",
+    "functions/_lib",
+    "frontend/src/services",
+    "frontend build config",
+    "feedback frontend/API contract"
+  ],
+  "execution": {
+    "mode": "read-only source audit plus in-memory esbuild/write:false onRequest probes",
+    "external_requests": 0,
+    "real_feedback_writes": 0,
+    "deployment": false,
+    "files_written": [
+      ".claude/audit/pass1-api.json"
+    ],
+    "excluded": [
+      "statistics aggregation semantics (parent owns)",
+      "legacy Express vulnerabilities as production findings"
+    ],
+    "limitations": [
+      "No production Cloudflare/D1 configuration or WAF settings inspected.",
+      "Local Response behavior and thrown exceptions are verified; actual Cloudflare error rendering/status was not requested.",
+      "No CVE inference from dependency presence."
+    ]
+  },
+  "findings": [
+    {
+      "id": "API-01",
+      "priority": "P1",
+      "title": "回饋介面與 Cloudflare 寫入契約不一致，錯誤回報無法送出",
+      "locations": [
+        "functions/api/[[path]].js:34",
+        "functions/api/[[path]].js:50",
+        "functions/api/[[path]].js:53",
+        "frontend/src/components/FeedbackBar.jsx:232",
+        "frontend/src/components/FeedbackBar.jsx:294",
+        "frontend/src/components/FeedbackBar.jsx:318"
+      ],
+      "evidence": [
+        "UI sends type:error, description, errorType, toolSlug, url, loadedAt; API only recognizes rating|issue and reads message/page/elapsedMs.",
+        "Local onRequest with {type:'error',description:'案例資料有誤',errorType:'案例資料錯誤',toolSlug:'/cases/1'} returns HTTP 400 {error:'請提供 1-5 的評分'} before D1.",
+        "Local {type:'feedback',rating:3,message:'內容不夠清楚',toolSlug:'/cases/1',issueType:'資料有誤',email:'example@example.test'} returns 200; stub INSERT bind is type='rating',rating=3,message='內容不夠清楚',page=''.",
+        "email/role/issueType/suggestion/refs/resultSnapshot are never persisted by the current API. loadedAt never reaches the elapsedMs check."
+      ],
+      "impact": "所有內容錯誤回報失敗；一般評分/回饋失去所屬頁面，分類及回覆資訊無法履行介面承諾。",
+      "recommendation": "建立前後端共用、明確驗證的回饋 schema，對齊 rating/feedback/error 或集中轉換成 rating/issue；保留必要來源欄位，移除未實作的回覆承諾，加入真實 UI payload 的 D1 stub 合約測試。"
+    },
+    {
+      "id": "API-02",
+      "priority": "P2",
+      "title": "回饋 D1 缺席或寫入失敗仍回 200 ok，前端誤判送達",
+      "locations": [
+        "functions/api/[[path]].js:57",
+        "functions/api/[[path]].js:78",
+        "frontend/src/components/FeedbackBar.jsx:76",
+        "frontend/src/components/FeedbackBar.jsx:340"
+      ],
+      "evidence": [
+        "Local valid rating with env={} logs FEEDBACK_DB 未綁定 then returns HTTP 200 {ok:true}.",
+        "Local D1 stub prepare() throwing 'Simulated D1 outage' returns the same HTTP 200 {ok:true}.",
+        "postFeedback treats every res.ok as delivery success; submit sets mode='sent' and markRated. flushPending discards successful responses."
+      ],
+      "impact": "D1 故障時回報內容永久遺失，介面卻顯示『已送出』並清除重送資料。",
+      "recommendation": "真實儲存失敗回 503/no-store，可重试類型保留本地佇列；honeypot 的靜默成功與服務故障分開。限制敏感本地暫存的保存期間。"
+    },
+    {
+      "id": "API-03",
+      "priority": "P2",
+      "title": "使用者輸入直接查一般物件，繼承鍵造成例外或偽命中",
+      "locations": [
+        "functions/api/[[path]].js:132",
+        "functions/api/[[path]].js:158",
+        "functions/_lib/store.js:183"
+      ],
+      "evidence": [
+        "GET /api/stats/__proto__ throws 'fn is not a function'; /api/stats/hasOwnProperty throws 'Cannot convert undefined or null to object'.",
+        "GET /api/stats/constructor returns HTTP 200 {} instead of 404.",
+        "POST /api/tue/check {drugName:'__proto__'} returns HTTP 200 {drugName:'__proto__',matchedKey:'__proto__'}, missing all normal TUE fields; constructor behaves likewise.",
+        "GET /api/education/articles/constructor returns HTTP 200 with an empty body."
+      ],
+      "impact": "未知端點可觸發未捕捉例外；藥物查詢會把非藥名當命中，破壞 API 回應契約。",
+      "recommendation": "改用 Map 或 Object.hasOwn(table,key)；stats 僅呼叫自有且為函式的處理器，substances 僅回傳自有資料，articles 移除不必要的物件 fallback。"
+    },
+    {
+      "id": "API-04",
+      "priority": "P2",
+      "title": "回饋接受跨站 text/plain JSON，缺少寫入來源和媒體型別檢查",
+      "locations": [
+        "functions/api/[[path]].js:25",
+        "functions/api/[[path]].js:36",
+        "functions/api/[[path]].js:202"
+      ],
+      "evidence": [
+        "Local onRequest receives Origin:https://unrelated.test, Content-Type:text/plain, and body {type:'rating',rating:5}; response is 200 and the in-memory D1 stub records one INSERT.",
+        "No Origin, Sec-Fetch-Site, or Content-Type validation exists before feedback writes. Missing elapsedMs passes the time trap.",
+        "OPTIONS returns 204 without CORS allow headers; this denies cross-origin JSON preflight, but it does not stop a simple text/plain request from reaching the write handler."
+      ],
+      "impact": "第三方網頁可借訪客 IP 發送跨站垃圾評分、占用頻率額度。這是公開回饋完整性問題，未發現私人資料跨站讀取。",
+      "recommendation": "回饋明確要求 application/json，校驗可接受的同源 Origin/Fetch Metadata；機器人防護仍須搭配服務端速率限制，不能只依賴可任意填寫的 elapsedMs。",
+      "uncertainty": "未查核線上 WAF 是否另外攔截；已確認應用程式本身接受。"
+    },
+    {
+      "id": "API-05",
+      "priority": "P2",
+      "title": "回饋計數與 INSERT 分開，並行請求可超過每小時 10 筆",
+      "locations": [
+        "functions/api/[[path]].js:69",
+        "functions/api/[[path]].js:75"
+      ],
+      "evidence": [
+        "A deterministic in-memory D1 probe used one IP and held 25 SELECT count operations until all read the same pre-insert count, then released them.",
+        "Result: 25 SELECTs, 25 INSERTs, all HTTP 200, although the intended limit is 10 per hour.",
+        "The handler executes read-count and insert as two separate awaited SQL statements."
+      ],
+      "impact": "頻率限制無法約束同時到達的請求，D1 可被多筆垃圾寫入。",
+      "recommendation": "把額度判斷與寫入收斂成資料庫可保證原子性的單一操作，或採用適合此寫入需求的服務端 rate limiter；加並行到達測試。",
+      "uncertainty": "重現的是程式容許的競態交錯；未對真實 D1 發送壓力或寫入。"
+    },
+    {
+      "id": "API-06",
+      "priority": "P2",
+      "title": "JSON 上限以字元判定且先完整讀取，呼叫端未一致處理 bad/tooLarge",
+      "locations": [
+        "functions/api/[[path]].js:25",
+        "functions/api/[[path]].js:143",
+        "functions/api/[[path]].js:175"
+      ],
+      "evidence": [
+        "No Content-Length case with JSON {type:'rating',rating:4,message:'中'.repeat(20000)} has 20,041 UTF-16 units but 60,041 UTF-8 bytes; local handler accepts 200 and prepares an INSERT despite MAX_BODY_BYTES=32,768.",
+        "request.text() fully buffers the body before checking raw.length.",
+        "POST /api/education/quizzes/1/answer with malformed '{' or a >32 KB ASCII answer returns HTTP 200 {correct:false,...} instead of 400/413.",
+        "Oversized TUE body is reported as missing drug name (400), because tooLarge is ignored."
+      ],
+      "impact": "大小限制不符合宣告且不能限制讀取記憶體；不合法輸入被當有效作答，錯誤分類不一致。",
+      "recommendation": "用串流累計實際 bytes，超限即停止；統一回傳並處理 400/413，驗證 body 必須是 JSON object，再進行端點欄位檢查。"
+    },
+    {
+      "id": "API-07",
+      "priority": "P2",
+      "title": "根目錄要求 Node 18，已鎖定的前端建置器要求 Node 20.19 或 22.12 以上",
+      "locations": [
+        "package.json:6",
+        "frontend/package-lock.json:1546",
+        "frontend/package-lock.json:5166",
+        "README.md:30"
+      ],
+      "evidence": [
+        "Root package.json declares engines.node='18.x'; README says Node.js 16+.",
+        "Installed and locked vite@7.1.2 and @vitejs/plugin-react@5.0.0 both declare engines.node='^20.19.0 || >=22.12.0'.",
+        "Current audit runtime is Node v26.5.0; no Node 18 build was attempted."
+      ],
+      "impact": "依專案宣告新建的 CI/開發環境不符合實際 frontend build 支援範圍，導致不可重現安裝或建置失敗。",
+      "recommendation": "統一 package engines、開發版本檔、Cloudflare build runtime 與 README 到一個受目前套件支援的 Node 版本；以鎖檔安裝驗證。"
+    },
+    {
+      "id": "API-08",
+      "priority": "P2",
+      "title": "預設開發與測試仍走已退役 Express，無法代表 Cloudflare 生產行為",
+      "locations": [
+        "package.json:11",
+        "package.json:17",
+        "frontend/src/services/api.js:4",
+        "frontend/src/services/api.js:19",
+        "vitest.config.js:7",
+        "CLAUDE.md:11",
+        "frontend/vite.config.js:5"
+      ],
+      "evidence": [
+        "npm run dev starts nodemon server.js and npm test includes backend/**/*.test.js; both target legacy Express/MongoDB.",
+        "The Vite development client requests http://localhost:8080/api, while FeedbackBar uses same-origin /api/feedback; vite.config.js has no /api proxy.",
+        "CLAUDE.md still states Express is production and describes legacy CORS/helmet behavior as current.",
+        "Unused casesAPI.create/update/delete remain exported; actual Cloudflare /cases rejects those methods with 405. rg found no consumers."
+      ],
+      "impact": "日常開發與預設測試可綠燈但漏掉當前 API 回歸；回饋在普通 Vite 開發伺服器上進入離線暫存而非現行 API。",
+      "recommendation": "提供明確 cf:dev / Cloudflare API contract tests 作為目前主流程，統一前端 API base/proxy；將 legacy scripts/docs 明示封存並移除死去的 mutation exports。此項不是把 legacy Express 當成線上漏洞。"
+    }
+  ],
+  "non_blocking_observations": [
+    {
+      "topic": "517 cases payload",
+      "evidence": "data/cases.json=1,511,477 B; local esbuild node bundle=2,192,477 B, gzip=246,792 B. List limit12=15,427 B/gzip3,824 B; limit100=121,762 B/gzip19,148 B. limit1000 caps to100. Full review metadata contributes 9,938/78,643 B to these respective uncompressed lists.",
+      "assessment": "No demonstrated performance blocker at current size. review can be projected to UI-required fields if growth becomes material. This is not the actual Cloudflare production artifact size."
+    },
+    {
+      "topic": "Cache",
+      "evidence": "Static APIs return public,max-age=3600; feedback/TUE check/quiz answer/health no-store. Frontend search cache TTL=5min and filters=10min. No explicit Cache API/ETag/dataset revision exists.",
+      "assessment": "Browser responses may stay stale for one hour after data corrections. Cloudflare edge cache hit behavior was not checked; do not assume CACHE_1H implies worker edge caching."
+    },
+    {
+      "topic": "Read-only and errors",
+      "evidence": "Case mutations are 405; public stats/education/tue reads also accept POST/DELETE because there is no method gate. DELETE /api/stats/overview returns200 but does not mutate. Extra trailing segments such as /api/cases/filters/anything are ignored. A 310-digit page value serializes currentPage:null.",
+      "assessment": "Recommend explicit route shape/method/finite pagination checks when tightening API contracts; no unauthorized case write found."
+    },
+    {
+      "topic": "SQL and search",
+      "evidence": "Feedback uses bound SQL parameters; case search escapes regex metacharacters and limits search length to200; detail access reads only static bundled datasets.",
+      "assessment": "No SQL injection or regex injection demonstrated in current Cloudflare paths."
+    },
+    {
+      "topic": "Privacy",
+      "evidence": "D1 persists a deterministic 64-bit prefix of SHA256(IP+'|antidoping') with every feedback row. No feedback read API exists. Repo migration/handler includes no retention deletion. Client pending queue stores full payload including optional email and complete URL in localStorage, with a count cap of20 but no expiry.",
+      "assessment": "IP hash is a stable pseudonymous identifier, not proven anonymous. Actual D1 retention/access rules are unverified; review retention and client pending lifetime while fixing schema. No assertion of legal noncompliance."
+    },
+    {
+      "topic": "Security headers",
+      "evidence": "No frontend/public/_headers file or Functions response security-header wrapper is present in source.",
+      "assessment": "Live Cloudflare response headers were not inspected; do not assume legacy Express helmet applies, and do not claim the deployed site lacks all platform-provided security headers."
+    },
+    {
+      "topic": "Smoke side effects",
+      "evidence": "npm run smoke invokes production by default and writes one valid feedback unless SKIP_WRITE=1. Existing fixture uses type:issue/message/page, so it does not cover the real UI contract.",
+      "assessment": "The smoke command was not run in this audit. Keep read-only verification explicit; add UI contract tests using a stub, never production feedback."
+    }
+  ]
+}

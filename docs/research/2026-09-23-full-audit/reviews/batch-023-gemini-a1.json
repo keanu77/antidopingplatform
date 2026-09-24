@@ -1,0 +1,171 @@
+{
+  "cases": [
+    {
+      "id": "aiu-bc0ceeb232fa",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-81a5ee5e34ea30f6",
+        "registry-e5ac53bb7d7ed83f"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-81a5ee5e34ea30f6",
+          "startLine": 38,
+          "endLine": 39,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "選手為來自印度的30歲中長跑運動員"
+        },
+        {
+          "documentId": "doc-81a5ee5e34ea30f6",
+          "startLine": 62,
+          "endLine": 64,
+          "supports": [
+            "event",
+            "dates"
+          ],
+          "note": "2025年5月30日於南韓龜尾亞洲田徑錦標賽進行賽內採樣"
+        },
+        {
+          "documentId": "doc-81a5ee5e34ea30f6",
+          "startLine": 66,
+          "endLine": 73,
+          "supports": [
+            "substance"
+          ],
+          "note": "首爾實驗室檢出甲基睪固酮代謝物，屬禁用清單S1.1同化雄性類固醇"
+        },
+        {
+          "documentId": "doc-81a5ee5e34ea30f6",
+          "startLine": 610,
+          "endLine": 620,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "紀律庭裁定四年禁賽，折抵2025年6月24日起暫時禁賽至2029年6月23日，取消2025年5月30日起成績"
+        },
+        {
+          "documentId": "doc-81a5ee5e34ea30f6",
+          "startLine": 580,
+          "endLine": 596,
+          "supports": [
+            "education"
+          ],
+          "note": "紀律庭審理後採信選手證詞，駁回AIU關於其違反暫時禁賽的指控"
+        },
+        {
+          "documentId": "registry-e5ac53bb7d7ed83f",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "官方名冊登載裁決日2026年2月25日、四年禁賽與取消成績紀錄"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "aiu-e51af3de2c02",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-fe571b9b5329027b",
+        "registry-8b30dfd2a4cc08bd"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-fe571b9b5329027b",
+          "startLine": 12,
+          "endLine": 12,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "選手為來自肯亞的32歲路跑運動員"
+        },
+        {
+          "documentId": "doc-fe571b9b5329027b",
+          "startLine": 55,
+          "endLine": 63,
+          "supports": [
+            "event",
+            "dates",
+            "substance"
+          ],
+          "note": "2025年11月23日雅加達賽事檢出外源性睪固酮及其代謝物"
+        },
+        {
+          "documentId": "doc-fe571b9b5329027b",
+          "startLine": 99,
+          "endLine": 103,
+          "supports": [
+            "education"
+          ],
+          "note": "AIU於裁決註釋載明選手賽外使用甲基培尼皮質醇不構成違規且無法解釋睪固酮陽性結果"
+        },
+        {
+          "documentId": "doc-fe571b9b5329027b",
+          "startLine": 183,
+          "endLine": 193,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "因及早承認獲一年減輕，處三年禁賽（2026年1月23日至2029年1月22日）並取消2025年11月23日起成績"
+        },
+        {
+          "documentId": "doc-fe571b9b5329027b",
+          "startLine": 226,
+          "endLine": 226,
+          "supports": [
+            "dates"
+          ],
+          "note": "裁決決定正式作成日期為2026年2月20日"
+        },
+        {
+          "documentId": "registry-8b30dfd2a4cc08bd",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "dates",
+            "sanction",
+            "outcomes",
+            "education"
+          ],
+          "note": "名冊行紀錄三年禁賽與取消成績，並呈現20/12/2025之誤植裁決日期"
+        }
+      ],
+      "findings": []
+    }
+  ]
+}

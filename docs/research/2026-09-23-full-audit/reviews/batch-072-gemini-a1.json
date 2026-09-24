@@ -1,0 +1,528 @@
+{
+  "cases": [
+    {
+      "id": "usada-6295d61b3ba5",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-974cdab561660490",
+        "registry-7e69e9c9e2406be8"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-974cdab561660490",
+          "startLine": 7,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "Montgomery 於 2021-04-10 賽內檢出 carboxy-THC 超過 180 ng/mL，依 2021 濫用物質條款完成輔導後接受自 2021-04-30 起 1 個月禁賽，取消 2021-04-10 起成績"
+        },
+        {
+          "documentId": "registry-7e69e9c9e2406be8",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "dates"
+          ],
+          "note": "處分名冊登記 Montgomery 田徑項目、大麻素、1 個月禁賽及成績取消，公告日 2021-06-03"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "美國",
+          "explanation": "文件僅於標題提及「U.S. Track & Field Athlete」及內文提及居住地德州休士頓，依審核基準，發布機構管轄權、居住地或標題敘述不足以直接確立國籍或國家代表隊身分，屬證據不足。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-974cdab561660490",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "補充代表美國出賽之官方紀錄或國籍證明文件，或將國籍標記為待確認。"
+        }
+      ]
+    },
+    {
+      "id": "usada-4844a2d25120",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-91f525800d169fd4",
+        "doc-ad459b4dff131a28",
+        "registry-203fdaa7a45bcd25"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-91f525800d169fd4",
+          "startLine": 7,
+          "endLine": 9,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "Gehm 於 2019-06-22 全美 U20 錦標賽檢出 1,4-DMPA 接受 2 年禁賽並取消該日起成績"
+        },
+        {
+          "documentId": "doc-ad459b4dff131a28",
+          "startLine": 7,
+          "endLine": 11,
+          "supports": [
+            "event",
+            "sanction",
+            "dates",
+            "education"
+          ],
+          "note": "Gehm 於禁賽期間之 2020 年 1 至 3 月誤認規定而參加 NCAA 賽事，追加 3 個月禁賽，總期滿延長為 27 個月"
+        },
+        {
+          "documentId": "registry-203fdaa7a45bcd25",
+          "startLine": 1,
+          "endLine": 2,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "dates"
+          ],
+          "note": "處分名冊載明原處分 2 年禁賽、取消成績並追加 3 個月禁賽"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "美國",
+          "explanation": "來源僅於標題稱「U.S. Track & Field Athlete」且內文標示居住地為賓州 Harmony，無代表隊資格或公民身分佐證，依審核規範歸類為國籍證據不足。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-91f525800d169fd4",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "補強選手代表美國參賽之官方資格登記，或調整國籍為待確認。"
+        }
+      ]
+    },
+    {
+      "id": "usada-7df0d8ede93d",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-8e96e4ced3f806e1",
+        "registry-aa050546252a6bdc"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-8e96e4ced3f806e1",
+          "startLine": 7,
+          "endLine": 9,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "Pearson 承認購買、使用及向另一名不知情選手施用 LGD-4033，接受自 2021-05-05 起終身禁賽，該名選手成績取消，公告未記載 Pearson 個人之成績取消"
+        },
+        {
+          "documentId": "registry-aa050546252a6bdc",
+          "startLine": 1,
+          "endLine": 3,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "dates"
+          ],
+          "note": "處分名冊列記 Pearson 非分析性違規（持有、使用／企圖使用、施用 LGD-4033）終身禁賽"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "美國",
+          "explanation": "官方文件僅有標題「U.S. Rowing Athlete」與加州爾灣居住地紀錄，不足以充分證實其國籍或運動代表隊身分。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-8e96e4ced3f806e1",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "補充其國家代表隊出賽紀錄或官方國籍證明，否則應維持國籍待確認。"
+        }
+      ]
+    },
+    {
+      "id": "usada-c19d2e9f8557",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-a14c953736eb73ce",
+        "registry-6e28442244310306"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-a14c953736eb73ce",
+          "startLine": 7,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "Jackson 於 2021-03-04 賽內檢體檢出 carboxy-THC 超過 180 ng/mL，因非賽事表現相關且完成輔導，接受自 2021-03-25 起 1 個月禁賽，取消 2021-03-04 起成績"
+        },
+        {
+          "documentId": "registry-6e28442244310306",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "dates"
+          ],
+          "note": "處分名冊登記 Jackson 游泳項目、大麻素、1 個月禁賽與成績取消"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "美國",
+          "explanation": "文件標題「U.S. Swimming Athlete」及德州奧斯汀居住地不能作為國籍或代表身分之絕對證明，證據未達充分標準。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-a14c953736eb73ce",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "增補官方代表隊或國際泳聯代表資格紀錄，或標示為待確認。"
+        }
+      ]
+    },
+    {
+      "id": "usada-aebc5c3ff7f3",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-3d452cab964e0551",
+        "registry-243a8dc7e656a3ea"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-3d452cab964e0551",
+          "startLine": 7,
+          "endLine": 21,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "Aivazian 經調查確認持有及使用或企圖使用十種禁用物質，仲裁聽證前一日簽署處分接受 4 年禁賽，並自 2010-06-16 首次用藥日起取消競賽成績"
+        },
+        {
+          "documentId": "registry-243a8dc7e656a3ea",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "dates"
+          ],
+          "note": "處分名冊登記自行車選手 Aivazian 涉及十種禁用物質之 4 年禁賽與成績取消"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "美國",
+          "explanation": "文件僅記載「U.S. Cycling Athlete」與加州伍德蘭希爾斯居住地，缺乏明確國籍或會員代表資格證明，依規範判定證據不足。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-3d452cab964e0551",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "補附美國代表身分或公民證件資料，或改標為待查證。"
+        }
+      ]
+    },
+    {
+      "id": "usada-ac7fef21590c",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-16ef74dc65077ddd",
+        "registry-23d278be102e9215"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-16ef74dc65077ddd",
+          "startLine": 7,
+          "endLine": 9,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "Igbokwe 於 2020-05-26 賽外檢體檢出類固醇長效代謝物 M3，因提供實質協助獲核定自採樣日起 30 個月禁賽並取消同日起成績"
+        },
+        {
+          "documentId": "registry-23d278be102e9215",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "dates"
+          ],
+          "note": "處分名冊登記 Igbokwe 田徑項目、DHCMT、30 個月禁賽及成績取消"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "美國",
+          "explanation": "公告標題「U.S. Track & Field Athlete」與居住地德州休士頓不能直接等同國籍或運動代表身分，依審核準則應列為證據不足。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-16ef74dc65077ddd",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "提供世界田總國家代表登錄或官方國籍證明，或修正為待確認。"
+        }
+      ]
+    },
+    {
+      "id": "usada-c3a050be56a3",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-19cd5f26d5dc3e89",
+        "registry-f4a92298cd5e6a81"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-19cd5f26d5dc3e89",
+          "startLine": 7,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "Burkett 於 2020-08-14 檢出睪固酮，雖為醫療處方且申報但採樣時無有效 TUE，後續取得前瞻性 TUE，接受 15 個月禁賽並追溯自 2020-04-02 首次用藥日起取消成績"
+        },
+        {
+          "documentId": "registry-f4a92298cd5e6a81",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "dates"
+          ],
+          "note": "處分名冊列記 Burkett 帕拉射箭項目、睪固酮、15 個月禁賽與成績取消"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "美國",
+          "explanation": "來源文件僅標明「U.S. Paralympic Archery Athlete」及居住地賓州 New Castle，不足以建立確定國籍或代表身分。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-19cd5f26d5dc3e89",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "補充帕拉林匹克國家代表隊證明或公民身分佐證，或將國籍調整為待確認。"
+        }
+      ]
+    },
+    {
+      "id": "usada-1205b7548666",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-5a1a3d0c9f42a95f",
+        "registry-e92f1751f9da595f"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-5a1a3d0c9f42a95f",
+          "startLine": 7,
+          "endLine": 11,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "Hisaka 於 2014-10 至 2015-04 間五次網購多種禁用物質，因非分析性持有違規接受自 2020-12-15 起 4 年禁賽，並自 2014-10-31 首次購買日起取消成績"
+        },
+        {
+          "documentId": "registry-e92f1751f9da595f",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "dates"
+          ],
+          "note": "處分名冊載明舉重選手 Hisaka 非分析性持有與使用／企圖使用違規、4 年禁賽與成績取消"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "美國",
+          "explanation": "公告標題「U.S. Weightlifting Athlete」及加州 Concord 居住地記載，依標準不足以單獨確立選手國籍或國家代表身分。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-5a1a3d0c9f42a95f",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "補充美國舉重協會代表資格證明或官方身分證明，或改為國籍待查。"
+        }
+      ]
+    }
+  ]
+}

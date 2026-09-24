@@ -1,0 +1,29 @@
+ M data/cases.json
+ M frontend/index.html
+ M frontend/scripts/prerender.js
+ M frontend/scripts/routes-meta.js
+ M frontend/src/pages/CaseDetail.jsx
+ M frontend/src/pages/CaseList.jsx
+ M frontend/src/pages/Education.jsx
+ M frontend/src/pages/Home.jsx
+ M frontend/src/pages/Statistics.jsx
+ M functions/_lib/store.js
+ M package.json
+ M scripts/rebuild-dataset.mjs
+ M tests/smoke/cloudflare-api.smoke.mjs
+?? .claude/
+?? HANDOFF.md
+?? data/case-aliases.json
+?? data/case-corrections.json
+?? data/curated-cases.json
+?? docs/
+?? frontend/src/components/CaseReviewNotice.jsx
+?? functions/_lib/case-outcome.mjs
+?? scripts/apply-case-corrections.mjs
+?? scripts/audit-new-case-completion.mjs
+?? scripts/build-reviewed-cases.py
+?? scripts/fetch-case-evidence.py
+?? scripts/ocr-case-evidence.py
+?? scripts/ocr-case-evidence.swift
+?? scripts/prepare-usada-evidence.py
+?? tests/reviewed-cases.test.mjs

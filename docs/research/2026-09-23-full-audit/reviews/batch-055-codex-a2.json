@@ -1,0 +1,283 @@
+{
+  "cases": [
+    {
+      "id": "aiu-6754540e0597",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-ca943c9ca44183e0",
+        "registry-a655b17668902c62"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-ca943c9ca44183e0",
+          "startLine": 48,
+          "endLine": 48,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "決定確認她是來自肯亞的長跑選手。"
+        },
+        {
+          "documentId": "doc-ca943c9ca44183e0",
+          "startLine": 63,
+          "endLine": 71,
+          "supports": [
+            "event",
+            "substance"
+          ],
+          "note": "2023年11月5日泰國春武里賽事樣本檢出外源性睪固酮代謝物；列為S1.1、隨時禁用的非特定物質。"
+        },
+        {
+          "documentId": "doc-ca943c9ca44183e0",
+          "startLine": 84,
+          "endLine": 90,
+          "supports": [
+            "dates"
+          ],
+          "note": "暫時禁賽自2023年12月22日起；她未在期限內回覆指控。"
+        },
+        {
+          "documentId": "doc-ca943c9ca44183e0",
+          "startLine": 122,
+          "endLine": 145,
+          "supports": [
+            "sanction",
+            "education"
+          ],
+          "note": "她未回覆指控，故被視為承認；決定載明這是第二次違規，前案為生物護照案並處四年禁賽。"
+        },
+        {
+          "documentId": "doc-ca943c9ca44183e0",
+          "startLine": 203,
+          "endLine": 220,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "未取得及早承認減免；處八年禁賽至2031年12月21日，並取消自2023年11月5日起的成績及相關後果。"
+        },
+        {
+          "documentId": "registry-a655b17668902c62",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "AIU名冊列出肯亞籍代表代碼KEN、睪固酮、八年禁賽及取消成績起日。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "aiu-b803fd27b415",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-2ccd51ec2a506fa5",
+        "registry-f087fa22991d9de3"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-2ccd51ec2a506fa5",
+          "startLine": 48,
+          "endLine": 51,
+          "supports": [
+            "identity",
+            "country",
+            "event"
+          ],
+          "note": "決定確認該肯亞長跑選手及2023年9月10日泰國Krabi半程馬拉松採樣。"
+        },
+        {
+          "documentId": "doc-2ccd51ec2a506fa5",
+          "startLine": 66,
+          "endLine": 80,
+          "supports": [
+            "substance"
+          ],
+          "note": "樣本檢出19-norandrosterone及19-noretiocholanolone代謝物，且無相應TUE。"
+        },
+        {
+          "documentId": "doc-2ccd51ec2a506fa5",
+          "startLine": 82,
+          "endLine": 103,
+          "supports": [
+            "event",
+            "sanction"
+          ],
+          "note": "AIU通知陽性分析及暫時禁賽，選手未回覆，後續提出指控。"
+        },
+        {
+          "documentId": "doc-2ccd51ec2a506fa5",
+          "startLine": 144,
+          "endLine": 160,
+          "supports": [
+            "event",
+            "sanction"
+          ],
+          "note": "他於2023年11月26日參加馬來西亞賽事；AIU指出暫時禁賽期間參賽可能影響禁賽期折抵。"
+        },
+        {
+          "documentId": "doc-2ccd51ec2a506fa5",
+          "startLine": 208,
+          "endLine": 217,
+          "supports": [
+            "substance",
+            "sanction",
+            "education"
+          ],
+          "note": "代謝物屬S1.1、隨時禁用的非特定物質；未證明違規非故意，故適用四年禁賽。"
+        },
+        {
+          "documentId": "doc-2ccd51ec2a506fa5",
+          "startLine": 262,
+          "endLine": 302,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "四年禁賽自2024年1月25日起；取消自9月10日起的成績，且暫停期間參賽不折抵禁賽並另取消該賽事成績。"
+        },
+        {
+          "documentId": "registry-f087fa22991d9de3",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "AIU名冊列出KEN、該代謝物案、四年禁賽及成績取消起日。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "aiu-8b4d6c038f72",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-df769ceb00772c9b",
+        "registry-6d766e12402b63f4"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-df769ceb00772c9b",
+          "startLine": 17,
+          "endLine": 17,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "決定確認Kisorio為來自肯亞的長跑選手。"
+        },
+        {
+          "documentId": "doc-df769ceb00772c9b",
+          "startLine": 49,
+          "endLine": 67,
+          "supports": [
+            "event",
+            "substance"
+          ],
+          "note": "2023年10月8日薩格勒布馬拉松樣本檢出recombinant EPO。"
+        },
+        {
+          "documentId": "doc-df769ceb00772c9b",
+          "startLine": 79,
+          "endLine": 117,
+          "supports": [
+            "event",
+            "sanction"
+          ],
+          "note": "他最初未回覆；指控通知載明可於期限內簽署承認以取得一年減免。"
+        },
+        {
+          "documentId": "doc-df769ceb00772c9b",
+          "startLine": 126,
+          "endLine": 140,
+          "supports": [
+            "sanction",
+            "education"
+          ],
+          "note": "他被視為放棄聽證並接受指控後果，並在2024年1月10日簽署承認及接受表。"
+        },
+        {
+          "documentId": "doc-df769ceb00772c9b",
+          "startLine": 160,
+          "endLine": 162,
+          "supports": [
+            "substance"
+          ],
+          "note": "EPO列為S2、隨時禁用的非特定物質。"
+        },
+        {
+          "documentId": "doc-df769ceb00772c9b",
+          "startLine": 197,
+          "endLine": 215,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "及早承認取得一年減免，禁賽三年自2023年12月1日起，取消自10月8日起的成績。"
+        },
+        {
+          "documentId": "registry-6d766e12402b63f4",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "AIU名冊列出KEN、EPO、三年禁賽及成績取消起日。"
+        }
+      ],
+      "findings": []
+    }
+  ]
+}

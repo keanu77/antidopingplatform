@@ -1,0 +1,420 @@
+{
+  "cases": [
+    {
+      "id": "ita-53e58cf7fa92",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-ed6c147fe27fd685",
+        "registry-7f3f5c269294d2db"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-ed6c147fe27fd685",
+          "startLine": 2,
+          "endLine": 11,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告確認土耳其空手道選手、三次行蹤失誤及兩年禁賽；CAS維持違規與禁賽並恢復自2023年10月11日起的成績。"
+        },
+        {
+          "documentId": "registry-7f3f5c269294d2db",
+          "startLine": 1,
+          "endLine": 20,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊列出選手、土耳其、空手道、違規日期、禁賽與取消成績期間；其禁賽末日與公告不同，個案公告及教育說明已採CAS更新。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-b982468f3f91",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-ddb95c44e9f6b7c3",
+        "registry-c0b88163f585d8eb"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-ddb95c44e9f6b7c3",
+          "startLine": 2,
+          "endLine": 8,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告確認委內瑞拉棒球選手於U-23世界盃檢出stanozolol，早期承認後接受三年禁賽，並取消自採樣日起的個人成績；未提及污染或無過失。"
+        },
+        {
+          "documentId": "registry-c0b88163f585d8eb",
+          "startLine": 1,
+          "endLine": 22,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊確認選手、委內瑞拉、棒球、stanozolol相關違規、禁賽日期、成績取消及接受後果程序。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-ebd5cbdb73ff",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-554cb7ae826f8d1a",
+        "registry-4fa67ce722808b15"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-554cb7ae826f8d1a",
+          "startLine": 2,
+          "endLine": 7,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告確認俄羅斯角力選手於U23世錦賽樣本檢出Tamoxifen，接受兩年禁賽並取消自採樣日起成績；說明物質分類及接受後果程序。"
+        },
+        {
+          "documentId": "registry-4fa67ce722808b15",
+          "startLine": 1,
+          "endLine": 22,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊列出選手、俄羅斯、角力、Tamoxifen代謝物、違規及禁賽期間、成績取消與接受後果。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-938905a31f25",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-78a6f79f4b37b50d",
+        "registry-229764114eb54a9c"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-78a6f79f4b37b50d",
+          "startLine": 2,
+          "endLine": 5,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告確認墨西哥踢拳選手Melissa的三次行蹤失誤、兩年禁賽期間及自2023年2月25日起取消成績，並與另一選手的成績日期分列。"
+        },
+        {
+          "documentId": "registry-229764114eb54a9c",
+          "startLine": 1,
+          "endLine": 22,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "Melissa的名冊列項確認墨西哥、踢拳、行蹤違規、日期、禁賽及取消成績期間；後續另一列為不同選手。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-08218f4c9c3b",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-78a6f79f4b37b50d",
+        "registry-229764114eb54a9c"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-78a6f79f4b37b50d",
+          "startLine": 2,
+          "endLine": 4,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告確認吉爾吉斯踢拳選手Ikbol的三次行蹤失誤、兩年禁賽及自2023年1月1日起取消成績，與Melissa的日期分列。"
+        },
+        {
+          "documentId": "registry-229764114eb54a9c",
+          "startLine": 25,
+          "endLine": 46,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "Ikbol的名冊列項確認吉爾吉斯、踢拳、行蹤違規日期、禁賽與取消成績期間及處理程序。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-2c53ad98024e",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-c62fbb4cb4ad0a79",
+        "registry-a6d4d449db08cb1d"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-c62fbb4cb4ad0a79",
+          "startLine": 2,
+          "endLine": 7,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告確認克羅埃西亞舉重選手Tia的歐洲錦標賽樣本有Ostarine分析結果，CAS ADD認定存在與使用違規，處四年禁賽並取消自採樣日起成績。"
+        },
+        {
+          "documentId": "registry-a6d4d449db08cb1d",
+          "startLine": 1,
+          "endLine": 22,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊確認選手、克羅埃西亞、舉重、ostarine相關違規、日期、禁賽、成績處置及CAS ADD程序。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-959ddec62197",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-c62fbb4cb4ad0a79",
+        "registry-a6d4d449db08cb1d"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-c62fbb4cb4ad0a79",
+          "startLine": 2,
+          "endLine": 7,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告確認克羅埃西亞舉重選手Goran的歐洲錦標賽樣本有Ostarine分析結果，CAS ADD認定存在與使用違規，處四年禁賽並取消自採樣日起成績。"
+        },
+        {
+          "documentId": "registry-a6d4d449db08cb1d",
+          "startLine": 25,
+          "endLine": 46,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "Goran的名冊列項確認克羅埃西亞、舉重、ostarine相關違規、日期、禁賽、成績處置及CAS ADD程序。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-3f8157eb3fb3",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-97d89ec3f891900f",
+        "registry-e4118ca0f570d3bd"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-97d89ec3f891900f",
+          "startLine": 2,
+          "endLine": 4,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告確認法國拳擊選手因十二個月內三次行蹤失誤受24個月禁賽，自2024年4月6日至2026年4月5日，並取消自2023年6月16日起成績。"
+        },
+        {
+          "documentId": "registry-e4118ca0f570d3bd",
+          "startLine": 1,
+          "endLine": 22,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊確認選手全名、法國、拳擊、三次行蹤失誤、違規日期、禁賽和成績取消期間。"
+        }
+      ],
+      "findings": []
+    }
+  ]
+}

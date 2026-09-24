@@ -1,0 +1,80 @@
+{
+  "checkedAt": "2026-09-24T00:44:10.152017+00:00",
+  "datasetSha256": "a37f9ec223bedf64c96b5bf17c31960c2b30606c7de03bcc06bdb929d7d66cb0",
+  "cases": 517,
+  "newCases": 500,
+  "countryEvidencePending": 215,
+  "countrySourcesAdded": 43,
+  "countryLookupProfiles": 27,
+  "countryAnnotationsChangedAfterModelReview": 11,
+  "countryModelCoverage": {
+    "casesAttempted": 44,
+    "atLeastTwoModels": 44,
+    "allFourModels": 24,
+    "perModel": {
+      "gemini": 26,
+      "grok": 39,
+      "claude": 42,
+      "codex": 43
+    },
+    "validWholeBatches": 8,
+    "nonvalidWholeBatches": 24,
+    "validCaseRowsFromIncompleteBatches": 62,
+    "flaggedIds": [
+      "usada-091e5bf27388",
+      "usada-137ddb330f29",
+      "usada-4366103d9b91",
+      "usada-36b25b3d84e6",
+      "usada-fb72031d87b1",
+      "usada-792c30cdc646",
+      "usada-3b36b9d0fea7",
+      "usada-5d85c8dbd1a0",
+      "usada-abb5a10e0ed3",
+      "usada-a00b98f42826",
+      "usada-503574acf7cc",
+      "usada-c60db428c672",
+      "usada-ee1ce8ee98f6"
+    ],
+    "insufficientCoverageIds": []
+  },
+  "datesUnresolved": 7,
+  "sourceSnapshotsHashVerified": 64,
+  "tests": {
+    "reviewedCases": 15,
+    "cloudflareApi": 12,
+    "frontend": 39,
+    "totalFresh": 66
+  },
+  "lint": "passed",
+  "pythonCompile": "passed",
+  "completionAudit": "500/500 errors=[]",
+  "build": "passed",
+  "buildVersion": {
+    "sha": "60f7073a9deb98af0b117735717250e638bee9ba",
+    "builtAt": "2026-09-24T00:38:16.794Z"
+  },
+  "buildIndexSha256": "0a648f4642007a693e8fbba9b90de4697ec4bc81c7415a45b0eee109754a059c",
+  "browserChecks": 12,
+  "browserErrors": [],
+  "diffCheck": "passed",
+  "productionOverview": {
+    "totalCases": 171,
+    "uniqueSports": 28,
+    "uniqueCountries": 36,
+    "uniqueSubstances": 93,
+    "totalSports": 28,
+    "totalCountries": 36
+  },
+  "productionVersion": {
+    "sha": "e0f0c69463c284b8ba0e07786270ed5bb919bbff",
+    "builtAt": "2026-09-19T10:02:25.719Z"
+  },
+  "gitHubMain": "60f7073a9deb98af0b117735717250e638bee9ba",
+  "published": false,
+  "runningModelProcesses": 0,
+  "notes": [
+    "Only country/identity sources were re-reviewed by models; previous 500-case coverage unchanged.",
+    "The first browser assertion expected a nonexistent local-only label; corrected the test, no product defect.",
+    "No commit, push, or deploy."
+  ]
+}

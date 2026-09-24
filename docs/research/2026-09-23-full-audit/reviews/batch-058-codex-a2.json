@@ -1,0 +1,326 @@
+{
+  "cases": [
+    {
+      "id": "aiu-65a2f8bc978d",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-9bea21f46783534c",
+        "registry-9ba7d59681005916"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-9bea21f46783534c",
+          "startLine": 18,
+          "endLine": 18,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "決定書確認 Barsosio 為肯亞長跑選手。"
+        },
+        {
+          "documentId": "doc-9bea21f46783534c",
+          "startLine": 69,
+          "endLine": 81,
+          "supports": [
+            "event",
+            "substance",
+            "education"
+          ],
+          "note": "ABP 專家審查多段血液異常，認為可能涉及血液操控或禁用物質；這不是直接驗出 EPO。"
+        },
+        {
+          "documentId": "doc-9bea21f46783534c",
+          "startLine": 105,
+          "endLine": 108,
+          "supports": [
+            "substance",
+            "event",
+            "dates"
+          ],
+          "note": "AIU 依 ADR 2.2 提出指控，主張六年禁賽並取消 2022-05-09 起成績。"
+        },
+        {
+          "documentId": "doc-9bea21f46783534c",
+          "startLine": 134,
+          "endLine": 138,
+          "supports": [
+            "sanction",
+            "substance"
+          ],
+          "note": "選手承認違規並接受所提後果。"
+        },
+        {
+          "documentId": "doc-9bea21f46783534c",
+          "startLine": 248,
+          "endLine": 253,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "最終為 2023-09-06 起五年禁賽，並取消 2022-05-09 起成績及相關後果。"
+        },
+        {
+          "documentId": "doc-9bea21f46783534c",
+          "startLine": 282,
+          "endLine": 287,
+          "supports": [
+            "sanction",
+            "dates",
+            "education"
+          ],
+          "note": "因暫時禁賽期間參賽，不折抵該期間。"
+        },
+        {
+          "documentId": "registry-9ba7d59681005916",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "country",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊列出 KEN、五年禁賽自 2023-09-06 起及取消 2022-05-09 起成績。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "aiu-3d6cd250fd44",
+      "status": "issue",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "issue"
+      },
+      "sourcesRead": [
+        "doc-fe28bbe4b665ec16",
+        "registry-4d73076ac3c54e33"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-fe28bbe4b665ec16",
+          "startLine": 18,
+          "endLine": 18,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "決定書確認 Jimma 為衣索比亞長跑選手。"
+        },
+        {
+          "documentId": "doc-fe28bbe4b665ec16",
+          "startLine": 50,
+          "endLine": 52,
+          "supports": [
+            "event",
+            "dates"
+          ],
+          "note": "Doha 樣本於 2023-01-20 採集。"
+        },
+        {
+          "documentId": "doc-fe28bbe4b665ec16",
+          "startLine": 67,
+          "endLine": 75,
+          "supports": [
+            "event",
+            "dates",
+            "substance"
+          ],
+          "note": "香港樣本於 2023-02-12 採集，並於 2023-03-31 回報 EPO 陽性。"
+        },
+        {
+          "documentId": "doc-fe28bbe4b665ec16",
+          "startLine": 99,
+          "endLine": 108,
+          "supports": [
+            "substance",
+            "education"
+          ],
+          "note": "選手提出治療時使用被稱為維生素的藥物之說法；AIU 認為該解釋未能說明第二份樣本結果。"
+        },
+        {
+          "documentId": "doc-fe28bbe4b665ec16",
+          "startLine": 110,
+          "endLine": 113,
+          "supports": [
+            "substance",
+            "dates"
+          ],
+          "note": "Doha 樣本於 2023-06-05 回報 EPO 陽性，晚於香港樣本的通報日期。"
+        },
+        {
+          "documentId": "doc-fe28bbe4b665ec16",
+          "startLine": 231,
+          "endLine": 234,
+          "supports": [
+            "substance",
+            "sanction"
+          ],
+          "note": "決定認定兩份檢體顯示多次使用 EPO，構成加重情節。"
+        },
+        {
+          "documentId": "doc-fe28bbe4b665ec16",
+          "startLine": 268,
+          "endLine": 287,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "承認後定為五年，起算日為 2023-06-15 並折抵自 2023-04-04 起的暫時禁賽；取消 2023-01-20 起成績。"
+        },
+        {
+          "documentId": "registry-4d73076ac3c54e33",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "country",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊列為 ETH、五年禁賽自 2023-04-04 起及取消 2023-01-20 起成績。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "education",
+          "kind": "contradiction",
+          "severity": "medium",
+          "claim": "「主文自 2023-06-15 起五年，並折抵自 2023-04-04 起的暫時禁賽」",
+          "explanation": "決定書明載五年禁賽自 2023-06-15 起，且另給予自 2023-04-04 起暫時禁賽期間的折抵；名冊所列起始日為折抵後日期。教育說明把兩者合併描述，容易令讀者誤以為實際禁賽起算日就是折抵後日期。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-fe28bbe4b665ec16",
+              "startLine": 281,
+              "endLine": 283
+            },
+            {
+              "documentId": "registry-4d73076ac3c54e33",
+              "startLine": 1,
+              "endLine": 1
+            }
+          ],
+          "suggestion": "分開表述決定書列出的禁賽起算日與折抵後名冊所列起始日。"
+        }
+      ]
+    },
+    {
+      "id": "aiu-6d028ca80c10",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-4c9c7043b4b2c174",
+        "registry-f508f4412469cc42"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-4c9c7043b4b2c174",
+          "startLine": 88,
+          "endLine": 101,
+          "supports": [
+            "event",
+            "dates",
+            "substance"
+          ],
+          "note": "2012-10-12 賽外尿液樣本的 LIMS 顯示 DHCMT，實驗室當時回報陰性。"
+        },
+        {
+          "documentId": "doc-4c9c7043b4b2c174",
+          "startLine": 92,
+          "endLine": 93,
+          "supports": [
+            "substance"
+          ],
+          "note": "DHCMT 列於 2012 年禁用清單的 S1.1.a 合成代謝類固醇。"
+        },
+        {
+          "documentId": "doc-4c9c7043b4b2c174",
+          "startLine": 148,
+          "endLine": 157,
+          "supports": [
+            "event",
+            "dates",
+            "education"
+          ],
+          "note": "決定依違規發生時適用的 2012–2013 IAAF 規則處理。"
+        },
+        {
+          "documentId": "doc-4c9c7043b4b2c174",
+          "startLine": 192,
+          "endLine": 202,
+          "supports": [
+            "substance",
+            "sanction"
+          ],
+          "note": "AIU 根據 LIMS 與相關證據認定使用禁用物質，違反當時 IAAF 規則。"
+        },
+        {
+          "documentId": "doc-4c9c7043b4b2c174",
+          "startLine": 240,
+          "endLine": 249,
+          "supports": [
+            "sanction",
+            "education"
+          ],
+          "note": "AIU 認定此違規涉及俄羅斯反檢測計畫及加重情節，判處四年禁賽。"
+        },
+        {
+          "documentId": "doc-4c9c7043b4b2c174",
+          "startLine": 271,
+          "endLine": 284,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "裁決日為 2023-05-25；禁賽四年，取消自 2012-10-12 至裁決日的成績及相關後果。"
+        },
+        {
+          "documentId": "registry-f508f4412469cc42",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "country",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊列為 RUS、四年禁賽自 2023-05-25 起及取消所述期間成績。"
+        }
+      ],
+      "findings": []
+    }
+  ]
+}

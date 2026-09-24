@@ -1,0 +1,144 @@
+{
+  "cases": [
+    {
+      "id": "usada-9c8b8e7bbb4c",
+      "status": "supported",
+      "identity": "supported",
+      "country": "supported",
+      "temporalScope": "supported",
+      "evidence": [
+        {
+          "documentId": "country",
+          "startLine": 448,
+          "endLine": 450,
+          "note": "Team USA 頁列名為 Chris Creveling，並標示 Olympian 2014，支持美國作為該官方頁查閱時的運動代表國標註。"
+        },
+        {
+          "documentId": "country",
+          "startLine": 460,
+          "endLine": 470,
+          "note": "官方頁列年齡 39 歲及 Sochi 2014 奧運經歷，與案件所述 2017 年 30 歲及競速滑冰相符。"
+        },
+        {
+          "documentId": "case",
+          "startLine": 7,
+          "endLine": 8,
+          "note": "USADA 案件指名 Chris Creveling、競速滑冰，並記載 2017 年 30 歲；居住地不同不構成身份矛盾。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-8d214edc5d96",
+      "status": "supported",
+      "identity": "supported",
+      "country": "supported",
+      "temporalScope": "supported",
+      "evidence": [
+        {
+          "documentId": "country",
+          "startLine": 92,
+          "endLine": 102,
+          "note": "UIPM 選手頁列 Logan Storie、Nation: United States，並連到 2018 年 UIPM 對 Logan Storie (United States) 的聲明。"
+        },
+        {
+          "documentId": "case",
+          "startLine": 7,
+          "endLine": 8,
+          "note": "USADA 案件記載 Logan Storie、五項運動、首次違規由 UIPM 處理，與官方選手頁及其關聯聲明吻合。"
+        },
+        {
+          "documentId": "country",
+          "startLine": 95,
+          "endLine": 96,
+          "note": "官方頁明確列示 United States；只支持查閱時資料頁所列國家。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-5b6cb4ab463d",
+      "status": "supported",
+      "identity": "supported",
+      "country": "supported",
+      "temporalScope": "supported",
+      "evidence": [
+        {
+          "documentId": "country",
+          "startLine": 448,
+          "endLine": 459,
+          "note": "Team USA 頁列 Riley Stohr，運動為雪橇，並列其年齡及 Whitehall 家鄉。"
+        },
+        {
+          "documentId": "case",
+          "startLine": 7,
+          "endLine": 8,
+          "note": "USADA 案件列 Riley Stohr、雪橇及 21 歲；與 Team USA 頁所列當前年齡及運動資訊相符，家鄉差異不構成身份矛盾。"
+        },
+        {
+          "documentId": "country",
+          "startLine": 457,
+          "endLine": 459,
+          "note": "官方 Team USA 選手頁支持美國作為查閱時的運動代表國標註。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-4518fb0dbd4d",
+      "status": "supported",
+      "identity": "supported",
+      "country": "supported",
+      "temporalScope": "supported",
+      "evidence": [
+        {
+          "documentId": "country",
+          "startLine": 448,
+          "endLine": 450,
+          "note": "Team USA 頁將 Talina Le 列於跆拳道選手資料。"
+        },
+        {
+          "documentId": "country",
+          "startLine": 473,
+          "endLine": 488,
+          "note": "頁面列出美國國家隊選拔及 2009 年美國國家隊經歷，支持美國作為頁面查閱時的運動代表國標註。"
+        },
+        {
+          "documentId": "case",
+          "startLine": 7,
+          "endLine": 8,
+          "note": "USADA 案件指名 Talina Le、跆拳道、26 歲；與 Team USA 頁的姓名和運動吻合，年齡相符，家鄉差異不構成身份矛盾。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-b6074d0cf1fc",
+      "status": "supported",
+      "identity": "supported",
+      "country": "supported",
+      "temporalScope": "supported",
+      "evidence": [
+        {
+          "documentId": "country",
+          "startLine": 448,
+          "endLine": 458,
+          "note": "Team USA 頁列 Lindsey Corrigan，並提供年齡 21 歲及 Napa, CA 家鄉。"
+        },
+        {
+          "documentId": "case",
+          "startLine": 7,
+          "endLine": 8,
+          "note": "USADA 案件指名 Lindsey Corrigan、跆拳道、Napa 並記載 18 歲，與官方選手頁的姓名、運動及地點相符，年齡差可由查閱時間差解釋。"
+        },
+        {
+          "documentId": "country",
+          "startLine": 448,
+          "endLine": 450,
+          "note": "該官方選手頁以 Team USA 身分列出 Lindsey Corrigan，支持查閱時的美國運動代表國標註。"
+        }
+      ],
+      "findings": []
+    }
+  ]
+}

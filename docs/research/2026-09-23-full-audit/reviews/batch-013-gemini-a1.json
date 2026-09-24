@@ -1,0 +1,414 @@
+{
+  "cases": [
+    {
+      "id": "ita-53e58cf7fa92",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-ed6c147fe27fd685",
+        "registry-7f3f5c269294d2db"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-ed6c147fe27fd685",
+          "startLine": 2,
+          "endLine": 6,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates"
+          ],
+          "note": "WKF一審小組認定土耳其空手道選手Ali Sofuoğlu於2023年內發生三次行蹤失誤構成違規，處以2年禁賽（2025-03-31至2027-03-30）及取消自2023-10-11起成績"
+        },
+        {
+          "documentId": "doc-ed6c147fe27fd685",
+          "startLine": 10,
+          "endLine": 11,
+          "supports": [
+            "event",
+            "sanction",
+            "outcomes",
+            "education"
+          ],
+          "note": "CAS於2025-07-15做成裁決維持2年禁賽但恢復選手自2023-10-11起原先被取消的成績"
+        },
+        {
+          "documentId": "registry-7f3f5c269294d2db",
+          "startLine": 1,
+          "endLine": 22,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "dates",
+            "sanction"
+          ],
+          "note": "官方名冊登載Ali Sofuoglu、土耳其、空手道、第2.4條行蹤失誤違規及2年禁賽"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-b982468f3f91",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-ddb95c44e9f6b7c3",
+        "registry-c0b88163f585d8eb"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-ddb95c44e9f6b7c3",
+          "startLine": 2,
+          "endLine": 7,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "委內瑞拉棒球選手Olivares Medina於U-23世界盃檢出司坦諾唑，因及早承認獲減刑1年，接受3年禁賽（2024-10-23至2027-10-22）並取消自2024-09-14起成績"
+        },
+        {
+          "documentId": "registry-c0b88163f585d8eb",
+          "startLine": 1,
+          "endLine": 22,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "dates",
+            "sanction"
+          ],
+          "note": "官方名冊載明棒球選手Olivares Medina、委內瑞拉、司坦諾唑代謝物、違規日2024-09-14與3年禁賽"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-ebd5cbdb73ff",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-554cb7ae826f8d1a",
+        "registry-4fa67ce722808b15"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-554cb7ae826f8d1a",
+          "startLine": 2,
+          "endLine": 6,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "俄羅斯角力選手Baboryko於U23世錦賽檢出泰莫西芬，未提爭議並接受後果，處2年禁賽（2024-12-20至2026-12-19）及取消自2024-10-23起成績"
+        },
+        {
+          "documentId": "registry-4fa67ce722808b15",
+          "startLine": 1,
+          "endLine": 22,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "dates",
+            "sanction"
+          ],
+          "note": "官方名冊載明Baboryko、俄羅斯、角力、泰莫西芬代謝物違規與2年禁賽"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-938905a31f25",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-78a6f79f4b37b50d",
+        "registry-229764114eb54a9c"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-78a6f79f4b37b50d",
+          "startLine": 2,
+          "endLine": 5,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "墨西哥踢拳選手Martinez Acevez因12個月內3次行蹤失誤，處2年禁賽（2025-03-13至2027-03-12）及取消自2023-02-25起成績"
+        },
+        {
+          "documentId": "registry-229764114eb54a9c",
+          "startLine": 1,
+          "endLine": 22,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "dates",
+            "sanction"
+          ],
+          "note": "官方名冊登載Martinez Acevez、墨西哥、踢拳、第2.4條違規日2023-02-25與2年禁賽"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-08218f4c9c3b",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-78a6f79f4b37b50d",
+        "registry-229764114eb54a9c"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-78a6f79f4b37b50d",
+          "startLine": 2,
+          "endLine": 4,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "吉爾吉斯踢拳選手Fozilzhanov因12個月內3次行蹤失誤，處2年禁賽（2025-03-13至2027-03-12）及取消自2023-01-01起成績"
+        },
+        {
+          "documentId": "registry-229764114eb54a9c",
+          "startLine": 25,
+          "endLine": 46,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "dates",
+            "sanction"
+          ],
+          "note": "官方名冊登載Fozilzhanov、吉爾吉斯、踢拳、第2.4條違規日2023-01-01與2年禁賽"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-2c53ad98024e",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-c62fbb4cb4ad0a79",
+        "registry-a6d4d449db08cb1d"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-c62fbb4cb4ad0a79",
+          "startLine": 2,
+          "endLine": 7,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "克羅埃西亞舉重選手Tovarlaža於2023-04-19歐錦賽檢出奧斯塔林，CAS ADD聽證後裁決4年禁賽（2023-07-05至2027-07-04）及取消自採樣日起成績"
+        },
+        {
+          "documentId": "registry-a6d4d449db08cb1d",
+          "startLine": 1,
+          "endLine": 22,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "dates",
+            "sanction"
+          ],
+          "note": "官方名冊登載Tovarlaza、克羅埃西亞、舉重、奧斯塔林物質違規日2023-04-19與4年禁賽"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-959ddec62197",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-c62fbb4cb4ad0a79",
+        "registry-a6d4d449db08cb1d"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-c62fbb4cb4ad0a79",
+          "startLine": 2,
+          "endLine": 7,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "克羅埃西亞舉重選手Ćetković於2023-04-19歐錦賽檢出奧斯塔林，CAS ADD裁定4年禁賽（2023-07-05至2027-07-04）及取消自採樣日起成績"
+        },
+        {
+          "documentId": "registry-a6d4d449db08cb1d",
+          "startLine": 25,
+          "endLine": 46,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "dates",
+            "sanction"
+          ],
+          "note": "官方名冊登載Cetkovic、克羅埃西亞、舉重、奧斯塔林物質違規日2023-04-19與4年禁賽"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-3f8157eb3fb3",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-97d89ec3f891900f",
+        "registry-e4118ca0f570d3bd"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-97d89ec3f891900f",
+          "startLine": 2,
+          "endLine": 4,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "法國拳擊選手Cruveillier因12個月內3次行蹤失誤，處24個月禁賽（2024-04-06至2026-04-05）及取消自2023-06-16起成績"
+        },
+        {
+          "documentId": "registry-e4118ca0f570d3bd",
+          "startLine": 1,
+          "endLine": 22,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "dates",
+            "sanction"
+          ],
+          "note": "官方名冊登載Cruveillier、法國、拳擊、第2.4條違規日2023-06-16與2年禁賽"
+        }
+      ],
+      "findings": []
+    }
+  ]
+}

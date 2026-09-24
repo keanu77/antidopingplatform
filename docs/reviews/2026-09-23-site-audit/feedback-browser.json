@@ -1,0 +1,392 @@
+{
+  "startedAt": "2026-09-23T08:59:38.189Z",
+  "baseURL": "http://127.0.0.1:4179",
+  "buildIndexSha256": "3ae421488600dc5fdaf27c985f3302457cc8cabafdf3c1338c2af54b8fa55006",
+  "method": "Chromium headless; feedback POSTs fulfilled in browser routing with injected 503, 429, and 200; no persistence",
+  "actualFeedbackServerRequests": 0,
+  "interceptedFeedbackRequests": 16,
+  "blockedExternalRequests": 0,
+  "results": [
+    {
+      "id": "desktop:five-star-503-retry",
+      "description": "Five-star 503 shows undelivered, keeps stars retryable, and marks rated only after 200 ok",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "status": "pass",
+      "pageErrors": [],
+      "evidence": {
+        "statuses": [
+          503,
+          200
+        ],
+        "failureMarkedRated": false,
+        "retryAvailable": true,
+        "successMarkedRated": true
+      },
+      "durationMs": 730,
+      "capturedPayloads": [
+        {
+          "page": "/cases",
+          "toolSlug": "/cases",
+          "url": "http://127.0.0.1:4179/cases",
+          "loadedAt": 1790153978353,
+          "website": "",
+          "type": "rating",
+          "rating": 5
+        },
+        {
+          "page": "/cases",
+          "toolSlug": "/cases",
+          "url": "http://127.0.0.1:4179/cases",
+          "loadedAt": 1790153978353,
+          "website": "",
+          "type": "rating",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "id": "desktop:rating-429-retry",
+      "description": "Rate-limit response does not show success or consume local rating state",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "status": "pass",
+      "pageErrors": [],
+      "evidence": {
+        "statuses": [
+          429,
+          200
+        ],
+        "attemptedRequests": 2,
+        "retryAvailable": true
+      },
+      "durationMs": 678,
+      "capturedPayloads": [
+        {
+          "page": "/cases",
+          "toolSlug": "/cases",
+          "url": "http://127.0.0.1:4179/cases",
+          "loadedAt": 1790153979105,
+          "website": "",
+          "type": "rating",
+          "rating": 5
+        },
+        {
+          "page": "/cases",
+          "toolSlug": "/cases",
+          "url": "http://127.0.0.1:4179/cases",
+          "loadedAt": 1790153979105,
+          "website": "",
+          "type": "rating",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "id": "desktop:error-form-payload-reply-retention",
+      "description": "Error form preserves selected reply email and all fields across 503/429, confirming only after accepted 200",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "status": "pass",
+      "pageErrors": [],
+      "evidence": {
+        "statuses": [
+          503,
+          429,
+          200
+        ],
+        "payloadFieldsChecked": [
+          "type",
+          "errorType",
+          "description",
+          "suggestion",
+          "refs",
+          "role",
+          "email",
+          "page",
+          "toolSlug",
+          "website"
+        ],
+        "replyEmailPreserved": true,
+        "confirmationWaitsForSuccess": true
+      },
+      "durationMs": 842,
+      "capturedPayloads": [
+        {
+          "page": "/cases",
+          "toolSlug": "/cases",
+          "url": "http://127.0.0.1:4179/cases",
+          "loadedAt": 1790153979807,
+          "website": "",
+          "type": "error",
+          "errorType": "案例資料錯誤",
+          "description": "瀏覽器測試：案例資訊需要修正",
+          "suggestion": "測試建議內容",
+          "refs": "https://example.test/reference",
+          "role": "醫師/醫療人員",
+          "email": "regression@example.test",
+          "viewport": "1440x1000",
+          "resultSnapshot": "標題：案例搜尋 | 乾淨運動從你我開始\nH1：相關案例\nURL：http://127.0.0.1:4179/cases"
+        },
+        {
+          "page": "/cases",
+          "toolSlug": "/cases",
+          "url": "http://127.0.0.1:4179/cases",
+          "loadedAt": 1790153979807,
+          "website": "",
+          "type": "error",
+          "errorType": "案例資料錯誤",
+          "description": "瀏覽器測試：案例資訊需要修正",
+          "suggestion": "測試建議內容",
+          "refs": "https://example.test/reference",
+          "role": "醫師/醫療人員",
+          "email": "regression@example.test",
+          "viewport": "1440x1000",
+          "resultSnapshot": "標題：案例搜尋 | 乾淨運動從你我開始\nH1：相關案例\nURL：http://127.0.0.1:4179/cases"
+        },
+        {
+          "page": "/cases",
+          "toolSlug": "/cases",
+          "url": "http://127.0.0.1:4179/cases",
+          "loadedAt": 1790153979807,
+          "website": "",
+          "type": "error",
+          "errorType": "案例資料錯誤",
+          "description": "瀏覽器測試：案例資訊需要修正",
+          "suggestion": "測試建議內容",
+          "refs": "https://example.test/reference",
+          "role": "醫師/醫療人員",
+          "email": "regression@example.test",
+          "viewport": "1440x1000",
+          "resultSnapshot": "標題：案例搜尋 | 乾淨運動從你我開始\nH1：相關案例\nURL：http://127.0.0.1:4179/cases"
+        }
+      ]
+    },
+    {
+      "id": "desktop:http-200-without-ok-is-not-delivery",
+      "description": "HTTP 200 with ok:false does not trigger confirmation or a rated marker",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "status": "pass",
+      "pageErrors": [],
+      "evidence": {
+        "status": 200,
+        "responseOk": false,
+        "deliveryConfirmed": false,
+        "attemptedRequests": 1
+      },
+      "durationMs": 623,
+      "capturedPayloads": [
+        {
+          "page": "/cases",
+          "toolSlug": "/cases",
+          "url": "http://127.0.0.1:4179/cases",
+          "loadedAt": 1790153980688,
+          "website": "",
+          "type": "rating",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "id": "mobile390:five-star-503-retry",
+      "description": "Five-star 503 shows undelivered, keeps stars retryable, and marks rated only after 200 ok",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "pass",
+      "pageErrors": [],
+      "evidence": {
+        "statuses": [
+          503,
+          200
+        ],
+        "failureMarkedRated": false,
+        "retryAvailable": true,
+        "successMarkedRated": true
+      },
+      "durationMs": 663,
+      "capturedPayloads": [
+        {
+          "page": "/cases",
+          "toolSlug": "/cases",
+          "url": "http://127.0.0.1:4179/cases",
+          "loadedAt": 1790153981343,
+          "website": "",
+          "type": "rating",
+          "rating": 5
+        },
+        {
+          "page": "/cases",
+          "toolSlug": "/cases",
+          "url": "http://127.0.0.1:4179/cases",
+          "loadedAt": 1790153981343,
+          "website": "",
+          "type": "rating",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "id": "mobile390:rating-429-retry",
+      "description": "Rate-limit response does not show success or consume local rating state",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "pass",
+      "pageErrors": [],
+      "evidence": {
+        "statuses": [
+          429,
+          200
+        ],
+        "attemptedRequests": 2,
+        "retryAvailable": true
+      },
+      "durationMs": 762,
+      "capturedPayloads": [
+        {
+          "page": "/cases",
+          "toolSlug": "/cases",
+          "url": "http://127.0.0.1:4179/cases",
+          "loadedAt": 1790153982036,
+          "website": "",
+          "type": "rating",
+          "rating": 5
+        },
+        {
+          "page": "/cases",
+          "toolSlug": "/cases",
+          "url": "http://127.0.0.1:4179/cases",
+          "loadedAt": 1790153982036,
+          "website": "",
+          "type": "rating",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "id": "mobile390:error-form-payload-reply-retention",
+      "description": "Error form preserves selected reply email and all fields across 503/429, confirming only after accepted 200",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "pass",
+      "pageErrors": [],
+      "evidence": {
+        "statuses": [
+          503,
+          429,
+          200
+        ],
+        "payloadFieldsChecked": [
+          "type",
+          "errorType",
+          "description",
+          "suggestion",
+          "refs",
+          "role",
+          "email",
+          "page",
+          "toolSlug",
+          "website"
+        ],
+        "replyEmailPreserved": true,
+        "confirmationWaitsForSuccess": true
+      },
+      "durationMs": 840,
+      "capturedPayloads": [
+        {
+          "page": "/cases",
+          "toolSlug": "/cases",
+          "url": "http://127.0.0.1:4179/cases",
+          "loadedAt": 1790153982856,
+          "website": "",
+          "type": "error",
+          "errorType": "案例資料錯誤",
+          "description": "瀏覽器測試：案例資訊需要修正",
+          "suggestion": "測試建議內容",
+          "refs": "https://example.test/reference",
+          "role": "醫師/醫療人員",
+          "email": "regression@example.test",
+          "viewport": "390x844",
+          "resultSnapshot": "標題：案例搜尋 | 乾淨運動從你我開始\nH1：相關案例\nURL：http://127.0.0.1:4179/cases"
+        },
+        {
+          "page": "/cases",
+          "toolSlug": "/cases",
+          "url": "http://127.0.0.1:4179/cases",
+          "loadedAt": 1790153982856,
+          "website": "",
+          "type": "error",
+          "errorType": "案例資料錯誤",
+          "description": "瀏覽器測試：案例資訊需要修正",
+          "suggestion": "測試建議內容",
+          "refs": "https://example.test/reference",
+          "role": "醫師/醫療人員",
+          "email": "regression@example.test",
+          "viewport": "390x844",
+          "resultSnapshot": "標題：案例搜尋 | 乾淨運動從你我開始\nH1：相關案例\nURL：http://127.0.0.1:4179/cases"
+        },
+        {
+          "page": "/cases",
+          "toolSlug": "/cases",
+          "url": "http://127.0.0.1:4179/cases",
+          "loadedAt": 1790153982856,
+          "website": "",
+          "type": "error",
+          "errorType": "案例資料錯誤",
+          "description": "瀏覽器測試：案例資訊需要修正",
+          "suggestion": "測試建議內容",
+          "refs": "https://example.test/reference",
+          "role": "醫師/醫療人員",
+          "email": "regression@example.test",
+          "viewport": "390x844",
+          "resultSnapshot": "標題：案例搜尋 | 乾淨運動從你我開始\nH1：相關案例\nURL：http://127.0.0.1:4179/cases"
+        }
+      ]
+    },
+    {
+      "id": "mobile390:http-200-without-ok-is-not-delivery",
+      "description": "HTTP 200 with ok:false does not trigger confirmation or a rated marker",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "pass",
+      "pageErrors": [],
+      "evidence": {
+        "status": 200,
+        "responseOk": false,
+        "deliveryConfirmed": false,
+        "attemptedRequests": 1
+      },
+      "durationMs": 603,
+      "capturedPayloads": [
+        {
+          "page": "/cases",
+          "toolSlug": "/cases",
+          "url": "http://127.0.0.1:4179/cases",
+          "loadedAt": 1790153983714,
+          "website": "",
+          "type": "rating",
+          "rating": 5
+        }
+      ]
+    }
+  ],
+  "finishedAt": "2026-09-23T08:59:44.298Z",
+  "passed": 8,
+  "failed": 0
+}

@@ -1,0 +1,310 @@
+{
+  "cases": [
+    {
+      "id": "aiu-ce72b844c773",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-9d04ac280ab8d5df",
+        "registry-68419f74ceb71574"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-9d04ac280ab8d5df",
+          "startLine": 18,
+          "endLine": 23,
+          "supports": [
+            "identity",
+            "country",
+            "substance"
+          ],
+          "note": "決定書載明喬治亞鐵餅／鉛球選手 Benik Abramyan，並記載 2011 年首次違規。"
+        },
+        {
+          "documentId": "doc-9d04ac280ab8d5df",
+          "startLine": 64,
+          "endLine": 89,
+          "supports": [
+            "event",
+            "substance",
+            "dates"
+          ],
+          "note": "2021-07-31 東京賽外尿液檢出 metandienone 代謝物、DHCMT 及其代謝物、tamoxifen 代謝物。"
+        },
+        {
+          "documentId": "doc-9d04ac280ab8d5df",
+          "startLine": 303,
+          "endLine": 314,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "第二次違規經提早接受後為七年，自 2021-08-03 起算，並取消 2021-07-31 起成績。"
+        },
+        {
+          "documentId": "registry-68419f74ceb71574",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "country",
+            "sanction",
+            "outcomes"
+          ],
+          "note": "名冊列 GEO、相同三種物質、七年及自 2021-07-31 取消成績。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "aiu-33d05bfbbad3",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-33e286c2013d0e4e",
+        "registry-4fe8ffe0e0740e3d"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-33e286c2013d0e4e",
+          "startLine": 17,
+          "endLine": 18,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "決定書稱其為衣索比亞路跑選手。"
+        },
+        {
+          "documentId": "doc-33e286c2013d0e4e",
+          "startLine": 64,
+          "endLine": 75,
+          "supports": [
+            "event",
+            "substance",
+            "dates"
+          ],
+          "note": "2021-09-05 伊茲密爾賽內尿液，以及 10-10 安卡拉賽外尿液與血液，均檢出重組 EPO。"
+        },
+        {
+          "documentId": "doc-33e286c2013d0e4e",
+          "startLine": 125,
+          "endLine": 160,
+          "supports": [
+            "event",
+            "education"
+          ],
+          "note": "選手主張他人注射止痛藥且非故意，AIU 認定其未能證明非知情違規。"
+        },
+        {
+          "documentId": "doc-33e286c2013d0e4e",
+          "startLine": 210,
+          "endLine": 222,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "首次違規加重為六年，折抵 2022-02-04 起暫時禁賽至 2028-02-03，並取消 2021-09-05 起成績。"
+        },
+        {
+          "documentId": "registry-4fe8ffe0e0740e3d",
+          "startLine": 1,
+          "endLine": 2,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction"
+          ],
+          "note": "名冊列 ETH、EPO 的 2.1 與 2.2、六年及自 2021-09-05 取消成績。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-ccd3766a65f8",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-568422568ecb0157",
+        "doc-4a43b57c34ccb0f9",
+        "doc-0f830db1915c0ab7",
+        "registry-fba8592b84ccd70d"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-568422568ecb0157",
+          "startLine": 7,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "自行車選手三次行蹤失誤日期、十六個月自 2025-12-08 起，以及取消 2025-10-02 起成績，均與主張一致。"
+        },
+        {
+          "documentId": "doc-4a43b57c34ccb0f9",
+          "startLine": 7,
+          "endLine": 11,
+          "supports": [
+            "event",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "2026-07-25 參加 USA Cycling 認可的 Dust Bowl 100，因誤解再加兩個月，合計十八個月，並另取消該賽成績。"
+        },
+        {
+          "documentId": "registry-fba8592b84ccd70d",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction"
+          ],
+          "note": "名冊列同一非分析違規、十六個月及追加兩個月，但未載國籍。"
+        },
+        {
+          "documentId": "doc-0f830db1915c0ab7",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity"
+          ],
+          "note": "UCI 頁面僅有姓名標題，抽出文字沒有國籍或代表隊資料。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "medium",
+          "claim": "nationality: 美國",
+          "explanation": "公告只寫田納西州 Milligan 居住地及 USADA 管轄，UCI 抽出文字與處分名冊都未載明國籍或代表美國參賽。居住地與發布機構不足以證成國籍，但也沒有相反證據。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-568422568ecb0157",
+              "startLine": 7,
+              "endLine": 8
+            },
+            {
+              "documentId": "doc-0f830db1915c0ab7",
+              "startLine": 1,
+              "endLine": 1
+            },
+            {
+              "documentId": "registry-fba8592b84ccd70d",
+              "startLine": 1,
+              "endLine": 1
+            }
+          ],
+          "suggestion": "將國籍改為未明，或補上載明國籍／代表隊的 UCI 選手頁或官方報名紀錄；不要單以居住地或 USADA 管轄記載為美國。"
+        }
+      ]
+    },
+    {
+      "id": "usada-30c9fa7aa386",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-cde299b86c2c79c3",
+        "doc-a917b52ec62dd164",
+        "registry-8765fc99e3a8ad98"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-cde299b86c2c79c3",
+          "startLine": 7,
+          "endLine": 9,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "2026-08-06 賽外尿液檢出 spironolactone 代謝物 canrenone；痤瘡處方、採樣時無 TUE、公開警告、賽後取得未來使用 TUE，且無成績可取消。"
+        },
+        {
+          "documentId": "doc-cde299b86c2c79c3",
+          "startLine": 8,
+          "endLine": 8,
+          "supports": [
+            "substance"
+          ],
+          "note": "USADA 將其歸為利尿劑與掩蔽劑類、全程禁用，與 S5 類別相符。"
+        },
+        {
+          "documentId": "doc-a917b52ec62dd164",
+          "startLine": 1,
+          "endLine": 35,
+          "supports": [
+            "identity",
+            "country",
+            "event"
+          ],
+          "note": "Team USA 個人頁記載其為輪椅籃球帕運選手，並有美國隊巴黎 2024 銀牌等隊伍成績。"
+        },
+        {
+          "documentId": "registry-8765fc99e3a8ad98",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "dates"
+          ],
+          "note": "名冊列輪椅籃球、spironolactone 與 2026-09-01 公開警告。"
+        }
+      ],
+      "findings": []
+    }
+  ]
+}

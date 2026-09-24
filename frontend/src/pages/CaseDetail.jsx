@@ -11,16 +11,35 @@ import {
   BookOpen,
 } from "lucide-react";
 import { casesAPI } from "../services/api";
+import CaseReviewNotice from "../components/CaseReviewNotice";
 
 function CaseDetail() {
   const { id } = useParams();
   const navigate = useNavigate();
   const [caseData, setCaseData] = useState(null);
   const [loading, setLoading] = useState(true);
+  const [loadError, setLoadError] = useState(null);
+  const [retryCount, setRetryCount] = useState(0);
 
   useEffect(() => {
-    loadCase();
-  }, [id]);
+    let active = true;
+    setLoading(true);
+    setCaseData(null);
+    setLoadError(null);
+    casesAPI.getById(id)
+      .then((response) => {
+        if (active) setCaseData(response.data);
+      })
+      .catch((error) => {
+        if (!active) return;
+        console.error("Failed to load case:", error);
+        setLoadError(error.response?.status === 404 ? "notFound" : "loadFailed");
+      })
+      .finally(() => {
+        if (active) setLoading(false);
+      });
+    return () => { active = false; };
+  }, [id, retryCount]);
 
   // P2: 更新頁面 title
   useEffect(() => {
@@ -31,18 +50,6 @@ function CaseDetail() {
       document.title = "乾淨運動從你我開始";
     };
   }, [caseData]);
-
-  const loadCase = async () => {
-    setLoading(true);
-    try {
-      const response = await casesAPI.getById(id);
-      setCaseData(response.data);
-    } catch (error) {
-      console.error("Failed to load case:", error);
-    } finally {
-      setLoading(false);
-    }
-  };
 
   if (loading) {
     return (
@@ -55,7 +62,18 @@ function CaseDetail() {
   if (!caseData) {
     return (
       <div className="text-center py-12">
-        <p className="text-gray-600">案例不存在</p>
+        <p className="text-gray-600" role={loadError === "notFound" ? undefined : "alert"}>
+          {loadError === "notFound" ? "案例不存在" : "載入案例失敗，請檢查網路連線後再試。"}
+        </p>
+        {loadError !== "notFound" && (
+          <button
+            type="button"
+            onClick={() => setRetryCount((count) => count + 1)}
+            className="block mx-auto mt-4 px-4 py-2 bg-primary-600 text-white rounded-lg hover:bg-primary-700"
+          >
+            重新載入
+          </button>
+        )}
         <Link
           to="/cases"
           className="text-primary-600 hover:text-primary-700 mt-4 inline-block"
@@ -101,7 +119,7 @@ function CaseDetail() {
               <h1 className="text-3xl font-bold mb-2">
                 {caseData.athleteName}
               </h1>
-              <div className="flex items-center gap-4 text-danger-100">
+              <div className="flex flex-wrap items-center gap-4 text-danger-100">
                 <span className="flex items-center">
                   <MapPin className="h-4 w-4 mr-1" />
                   {caseData.nationality}
@@ -124,19 +142,21 @@ function CaseDetail() {
 
         {/* Content */}
         <div className="p-8">
+          <CaseReviewNotice review={caseData.review} />
+          {caseData.yearBasis && <p className="mb-6 text-sm text-gray-600">年份依據：{caseData.yearBasis}</p>}
           {/* Substance Info */}
           <div className="mb-8">
             <h2 className="text-xl font-semibold text-gray-900 mb-4">
-              禁用物質
+              涉及物質、方法或程序
             </h2>
             <div className="bg-gray-50 rounded-lg p-4">
-              <div className="flex items-center gap-3 mb-3">
+              <div className="flex flex-wrap items-center gap-3 mb-3">
                 <span
                   className={`px-3 py-1 rounded-full border ${substanceCategoryColors[caseData.substanceCategory] || "bg-gray-100 text-gray-700"}`}
                 >
                   {caseData.substanceCategory}
                 </span>
-                <span className="text-lg font-medium text-gray-900">
+                <span className="text-lg font-medium text-gray-900 break-words min-w-0">
                   {caseData.substance}
                 </span>
               </div>
@@ -166,7 +186,7 @@ function CaseDetail() {
           {/* Punishment */}
           <div className="mb-8">
             <h2 className="text-xl font-semibold text-gray-900 mb-4">
-              處罰結果
+              裁決與處理結果
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               <div className="bg-gray-50 rounded-lg p-4">
@@ -207,7 +227,7 @@ function CaseDetail() {
                 <div className="bg-gray-50 rounded-lg p-4 md:col-span-2">
                   <div className="flex items-center mb-2">
                     <AlertTriangle className="h-5 w-5 text-gray-600 mr-2" />
-                    <span className="font-medium text-gray-900">其他處罰</span>
+                    <span className="font-medium text-gray-900">其他結果與說明</span>
                   </div>
                   <p className="text-gray-700">
                     {caseData.punishment.otherPenalties}
@@ -246,9 +266,9 @@ function CaseDetail() {
                         {sourceTypeIcons[source.type] || "📄"}
                       </span>
                       <div>
-                        <p className="font-medium text-gray-900">
+                        <a href={source.url} target="_blank" rel="noopener noreferrer" className="font-medium text-blue-700 underline break-words">
                           {source.title}
-                        </p>
+                        </a>
                         <p className="text-sm text-gray-500">{source.type}</p>
                       </div>
                     </div>

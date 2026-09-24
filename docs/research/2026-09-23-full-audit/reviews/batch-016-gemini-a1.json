@@ -1,0 +1,220 @@
+{
+  "cases": [
+    {
+      "id": "aiu-8305315880ae",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-bdd9d24bc541ad0f",
+        "registry-3e5c86ce3c2362fe"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-bdd9d24bc541ad0f",
+          "startLine": 12,
+          "endLine": 12,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "Yamile Herrera 為墨西哥短跑選手"
+        },
+        {
+          "documentId": "doc-bdd9d24bc541ad0f",
+          "startLine": 54,
+          "endLine": 63,
+          "supports": [
+            "event",
+            "substance"
+          ],
+          "note": "2026年5月2日世界田徑接力賽採樣檢出氧雄龍（Oxandrolone）及其代謝物"
+        },
+        {
+          "documentId": "doc-bdd9d24bc541ad0f",
+          "startLine": 98,
+          "endLine": 100,
+          "supports": [
+            "education"
+          ],
+          "note": "克倫特羅（Clenbuterol）非典型發現因選手承認主要違規未再追究"
+        },
+        {
+          "documentId": "doc-bdd9d24bc541ad0f",
+          "startLine": 161,
+          "endLine": 171,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "及早承認違規獲減刑為禁賽三年（2026-06-03至2029-06-02），取消墨西哥接力隊自2026-05-02起之成績"
+        },
+        {
+          "documentId": "registry-3e5c86ce3c2362fe",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates"
+          ],
+          "note": "AIU名冊記錄Herrera（MEX）因氧雄龍禁賽3年自2026年6月3日起算"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "aiu-4d69497d2000",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-1d4adeeaed30132c",
+        "registry-85bb369800c288b7"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-1d4adeeaed30132c",
+          "startLine": 2,
+          "endLine": 7,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance"
+          ],
+          "note": "衣索比亞選手Gudaf Tsegay於2025年12月5日賽外檢查檢出復乳唑（Letrozole）代謝物"
+        },
+        {
+          "documentId": "doc-1d4adeeaed30132c",
+          "startLine": 13,
+          "endLine": 15,
+          "supports": [
+            "education"
+          ],
+          "note": "運動員提交醫療文件及證據說明，但內容未公開"
+        },
+        {
+          "documentId": "doc-1d4adeeaed30132c",
+          "startLine": 16,
+          "endLine": 30,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "各方簽署案件解決協議，禁賽4個月（2026-06-01至2026-09-30），取消2025年12月5日起之比賽成績"
+        },
+        {
+          "documentId": "registry-85bb369800c288b7",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "AIU名冊載明Tsegay（ETH）依案件解決協議處以4個月禁賽及自2025-12-05起取消成績"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "aiu-b3119208d998",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-9588f18d4ac5e19a",
+        "registry-fc7f1357643586b1"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-9588f18d4ac5e19a",
+          "startLine": 12,
+          "endLine": 12,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "Deborah Sang 為肯亞道路長跑選手"
+        },
+        {
+          "documentId": "doc-9588f18d4ac5e19a",
+          "startLine": 57,
+          "endLine": 77,
+          "supports": [
+            "event",
+            "substance"
+          ],
+          "note": "2025年4月6日貝爾格勒檢體再分析檢出外源性睪固酮，2026年1月31日利雅德檢體檢出潑尼松及潑尼松龍"
+        },
+        {
+          "documentId": "doc-9588f18d4ac5e19a",
+          "startLine": 132,
+          "endLine": 134,
+          "supports": [
+            "education"
+          ],
+          "note": "兩次不利分析發現合併視為單一違規處分，不重複計數"
+        },
+        {
+          "documentId": "doc-9588f18d4ac5e19a",
+          "startLine": 228,
+          "endLine": 281,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "因使用多種禁用物質加重為6年，及早承認減至5年（自2026-03-11起），取消2025年4月6日起之成績"
+        },
+        {
+          "documentId": "registry-fc7f1357643586b1",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates",
+            "education"
+          ],
+          "note": "名冊登載禁賽5年自2026年3月11日起；名冊成績取消起日誤載為4月16日，裁決本文確定為4月6日"
+        }
+      ],
+      "findings": []
+    }
+  ]
+}

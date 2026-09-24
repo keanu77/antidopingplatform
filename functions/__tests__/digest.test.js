@@ -1,12 +1,31 @@
 import { describe, it, expect } from "vitest";
-import { summarize, buildDigestText, buildDigestHtml, secretMatches, rowFromD1 } from "../_lib/digest.js";
+import {
+  summarize,
+  buildDigestText,
+  buildDigestHtml,
+  secretMatches,
+  rowFromD1,
+} from "../_lib/digest.js";
 
 const rows = [
   { type: "rating", toolSlug: "/tue", rating: 2 },
   { type: "rating", toolSlug: "/tue", rating: 4 },
   { type: "rating", toolSlug: "/cases", rating: 5 },
-  { type: "feedback", toolSlug: "/cases", rating: 1, issueType: "載入太慢", message: "<b>慢</b>", email: "a@b.co" },
-  { type: "error", toolSlug: "/tue", errorType: "內容有誤", description: "年份錯", url: "javascript:alert(1)" },
+  {
+    type: "feedback",
+    toolSlug: "/cases",
+    rating: 1,
+    issueType: "載入太慢",
+    message: "<b>慢</b>",
+    email: "a@b.co",
+  },
+  {
+    type: "error",
+    toolSlug: "/tue",
+    errorType: "內容有誤",
+    description: "年份錯",
+    url: "javascript:alert(1)",
+  },
   { type: "issue", toolSlug: "/smoke", message: "舊版問題回報" },
 ];
 
@@ -21,7 +40,10 @@ describe("summarize", () => {
   it("舊版 issue 併入文字建議，不會從信裡消失", () => {
     const s = summarize(rows);
     expect(s.errors).toHaveLength(1);
-    expect(s.messages.map((m) => m.message)).toEqual(["<b>慢</b>", "舊版問題回報"]);
+    expect(s.messages.map((m) => m.message)).toEqual([
+      "<b>慢</b>",
+      "舊版問題回報",
+    ]);
   });
 });
 
@@ -53,7 +75,88 @@ describe("secretMatches", () => {
 
 describe("rowFromD1", () => {
   it("snake_case 欄位轉成彙整用的欄位名，page 即 toolSlug", () => {
-    expect(rowFromD1({ type: "error", page: "/tue", error_type: "內容有誤", issue_type: null, rating: null, description: "d" }))
-      .toMatchObject({ type: "error", toolSlug: "/tue", errorType: "內容有誤", description: "d" });
+    expect(
+      rowFromD1({
+        type: "error",
+        page: "/tue",
+        error_type: "內容有誤",
+        issue_type: null,
+        rating: null,
+        description: "d",
+      }),
+    ).toMatchObject({
+      type: "error",
+      toolSlug: "/tue",
+      errorType: "內容有誤",
+      description: "d",
+    });
+  });
+
+  it("feedback-v1：message 內的 JSON 還原成原始類型與欄位", () => {
+    const detail = {
+      格式: "feedback-v1",
+      回饋類型: "error",
+      錯誤類型: "案例資料錯誤",
+      問題描述: "年份錯",
+      建議內容: "核對來源",
+      參考來源: "https://x.invalid",
+      填寫者身分: "一般民眾",
+      回覆聯絡信箱: "a@b.co",
+      頁面網址: "https://site/cases/1",
+    };
+    expect(
+      rowFromD1({
+        type: "issue",
+        page: "/cases/1",
+        rating: null,
+        message: JSON.stringify(detail),
+      }),
+    ).toMatchObject({
+      type: "error",
+      toolSlug: "/cases/1",
+      message: "",
+      errorType: "案例資料錯誤",
+      description: "年份錯",
+      suggestion: "核對來源",
+      refs: "https://x.invalid",
+      role: "一般民眾",
+      email: "a@b.co",
+      url: "https://site/cases/1",
+    });
+  });
+
+  it("feedback-v1 的 feedback 類型：評分與使用回饋還原，但仍不計入平均", () => {
+    const detail = {
+      格式: "feedback-v1",
+      回饋類型: "feedback",
+      評分: 2,
+      問題類型: "載入太慢",
+      使用回饋: "很慢",
+    };
+    const row = rowFromD1({
+      type: "issue",
+      page: "/tue",
+      rating: null,
+      message: JSON.stringify(detail),
+    });
+    expect(row).toMatchObject({
+      type: "feedback",
+      rating: 2,
+      issueType: "載入太慢",
+      message: "很慢",
+    });
+    expect(summarize([row]).ratings).toHaveLength(0);
+    expect(summarize([row]).messages).toHaveLength(1);
+  });
+
+  it("非 JSON 的舊 issue 訊息原樣保留", () => {
+    expect(
+      rowFromD1({
+        type: "issue",
+        page: "/smoke",
+        rating: null,
+        message: "{壞掉的 json",
+      }),
+    ).toMatchObject({ type: "issue", message: "{壞掉的 json" });
   });
 });

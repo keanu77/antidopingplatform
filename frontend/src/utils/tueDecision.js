@@ -125,7 +125,7 @@ export function evaluateDrug(
         sportRestricted: restrictedList,
       };
     }
-    // 射箭、射擊：賽內與賽外皆禁；其餘精準運動：僅賽內禁
+    // 賽外受限項目由資料指定，包含射箭、射擊及列名的 CMAS 水下運動。
     if (outOfCompList.includes(sport)) {
       return {
         verdict: "needs-tue",
@@ -144,7 +144,7 @@ export function evaluateDrug(
     }
     return {
       verdict: "permitted",
-      reasons: [`${sport}僅賽內禁用 P1 Beta 阻斷劑；賽外使用允許、不需 TUE`],
+      reasons: [`${sport}僅賽內禁用 P1 Beta 阻斷劑；賽外使用不禁，但須留意賽內檢體殘留。若有醫療需要，應向反禁藥組織確認 TUE 要求`],
       sportRestricted: restrictedList,
     };
   }
@@ -154,7 +154,9 @@ export function evaluateDrug(
     if (!inCompetition) {
       return {
         verdict: "permitted",
-        reasons: ["僅賽內禁用；賽外使用允許、不需 TUE"],
+        reasons: [
+          "僅賽內禁用；賽外使用不禁，但須留意賽內檢體殘留及清除期。若賽外治療導致賽內不利分析結果，必要時須申請回溯 TUE；應保留診療紀錄",
+        ],
         washout,
       };
     }
