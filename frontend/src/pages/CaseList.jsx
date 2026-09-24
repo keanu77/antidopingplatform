@@ -11,6 +11,7 @@ import {
 } from "lucide-react";
 import { casesAPI } from "../services/api";
 import CaseReviewNotice from "../components/CaseReviewNotice";
+import { hasSubstanceCategoryLabel } from "../utils/substanceCategory";
 import { searchCache, filterCache } from "../utils/cache";
 import { debounce } from "../utils/debounce";
 
@@ -405,7 +406,7 @@ function CaseList() {
                 <option value="">全部</option>
                 {filterOptions.substanceCategories.map((category) => (
                   <option key={category} value={category}>
-                    {category}
+                    {hasSubstanceCategoryLabel(category) ? category : "未分類"}
                   </option>
                 ))}
               </select>
@@ -496,11 +497,11 @@ function CaseList() {
                   </div>
 
                   <div className="flex flex-wrap gap-2">
-                    <span
+                    {hasSubstanceCategoryLabel(caseItem.substanceCategory) && <span
                       className={`px-2 py-1 text-xs rounded-full ${substanceCategoryColors[caseItem.substanceCategory] || "bg-gray-100 text-gray-700"}`}
                     >
                       {caseItem.substanceCategory}
-                    </span>
+                    </span>}
                     <span className="px-2 py-1 text-xs rounded-full bg-gray-100 text-gray-700">
                       {caseItem.substance}
                     </span>

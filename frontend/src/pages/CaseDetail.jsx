@@ -12,6 +12,7 @@ import {
 } from "lucide-react";
 import { casesAPI } from "../services/api";
 import CaseReviewNotice from "../components/CaseReviewNotice";
+import { hasSubstanceCategoryLabel } from "../utils/substanceCategory";
 
 function CaseDetail() {
   const { id } = useParams();
@@ -151,11 +152,11 @@ function CaseDetail() {
             </h2>
             <div className="bg-gray-50 rounded-lg p-4">
               <div className="flex flex-wrap items-center gap-3 mb-3">
-                <span
+                {hasSubstanceCategoryLabel(caseData.substanceCategory) && <span
                   className={`px-3 py-1 rounded-full border ${substanceCategoryColors[caseData.substanceCategory] || "bg-gray-100 text-gray-700"}`}
                 >
                   {caseData.substanceCategory}
-                </span>
+                </span>}
                 <span className="text-lg font-medium text-gray-900 break-words min-w-0">
                   {caseData.substance}
                 </span>
