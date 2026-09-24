@@ -26,7 +26,9 @@ SCOPES = {'official_profile_at_lookup', 'official_team_or_event_record', 'nation
 EXTRA_DOMAINS = {'usaweightlifting.org', 'iwf.net', 'usacycling.org', 'usatriathlon.org',
                  'teamusa.org', 'usapowerlifting.com', 'worldtriathlon.org', 'olympics.com',
                  'usahockey.com', 'triathlon.org', 'usabs.com', 'usrowing.org', 'usspeedskating.org',
-                 'usafieldhockey.com', 'uipmworld.org', 'themat.com', 'worldrowing.com', 'eagles.rugby'}
+                 'usafieldhockey.com', 'uipmworld.org', 'themat.com', 'worldrowing.com', 'eagles.rugby',
+                 'worldboccia.com', 'worldarchery.sport', 'iwwf.sport', 'usarchery.org',
+                 'usankf.org', 'usarugby.org', 'worldskate.org', 'fei.org', 'usef.org'}
 
 
 def load(name, path):

@@ -1,5 +1,14 @@
 [
   {
+    "url": "https://www.usarchery.org/article/archers-return-to-gwangju-for-the-world-archery-para-championships",
+    "retrievedAt": "2026-09-24T06:02:14.227029+00:00",
+    "status": "downloaded_unreviewed",
+    "rawPath": ".cache/2026-09-24-country-round2/53f0d9e0b715ddf2b33e.raw",
+    "textPath": ".cache/2026-09-24-country-round2/53f0d9e0b715ddf2b33e.txt",
+    "rawSha256": "f9c2ec2177a6b6dd91d027216a2bf071dfe4dfcc06269545762088a310c1b7e0",
+    "textSha256": "91171027eef07b5f4c526f48f2fe7eb4f9556a1d4b284520000bacd9d143d145"
+  },
+  {
     "url": "https://triathlon.org/athletes/profile/40842/lauren-goss",
     "retrievedAt": "2026-09-24T05:25:28.180933+00:00",
     "status": "downloaded_unreviewed",
@@ -27,6 +36,15 @@
     "textSha256": "ce2dd1da96d0c8437ed33a295d8f017d98a0e7a13ba0d8b3c8de16968abf85e0"
   },
   {
+    "url": "https://www.teamusa.com/profiles/cesar-colunga",
+    "retrievedAt": "2026-09-24T06:02:58.487943+00:00",
+    "status": "downloaded_unreviewed",
+    "rawPath": ".cache/2026-09-24-country-round2/0261019516c30d96a632.raw",
+    "textPath": ".cache/2026-09-24-country-round2/0261019516c30d96a632.txt",
+    "rawSha256": "b256906477710513cb0b1bb90c67787fdd4745789005769b2add2e1b06fd40ab",
+    "textSha256": "c459e7bbbb356d3c551a841e9e1c815d44ba2b4254486a59818035cc641d186f"
+  },
+  {
     "url": "https://usacycling.org/article/twenty-national-titles-awarded-at-the-2023-usa-cycling-madison-track-national-championships",
     "retrievedAt": "2026-09-24T05:25:29.102651+00:00",
     "status": "downloaded_unreviewed",
@@ -34,6 +52,15 @@
     "textPath": ".cache/2026-09-24-country-round2/c6a49821905b9b704a24.txt",
     "rawSha256": "a4ee9adf40cfb32a1359d535fbf8d4740849b2b057ae3a7ccc0473e7ab0eff9e",
     "textSha256": "03c431a107951ca6f0918ce082bb6f266c0fe44697df7118701e0e75ff1f99c8"
+  },
+  {
+    "url": "https://www.worldskate.org/inline-hockey/news-inline-hockey/1771-rosario-2015-senior-men-usa,-france,-latvia-and-czech-republic-pass-to-the-semifinals.html",
+    "retrievedAt": "2026-09-24T06:02:58.936703+00:00",
+    "status": "downloaded_unreviewed",
+    "rawPath": ".cache/2026-09-24-country-round2/4da13c379e7ea8cf5c30.raw",
+    "textPath": ".cache/2026-09-24-country-round2/4da13c379e7ea8cf5c30.txt",
+    "rawSha256": "09a2f54ada56293fcd88376c7d1152aac22bcc1d66dbea69f52656ebb1d960fc",
+    "textSha256": "c6c0a2c605f507360fdb46d1458492bb2fbde46bf07e57b4cb93f7c350f7b105"
   },
   {
     "url": "https://teamusa.usahockey.com/news_article/show/731818",
@@ -117,6 +144,15 @@
     "textSha256": "df14e26f73f707f9efeabaef3e754c867d8916566bb1d6cd8fc0a58e7df099ff"
   },
   {
+    "url": "https://ems.iwwf.sport/Athletes/Profile/745a82a7-7f09-4a7d-a04f-04f6f7105d61",
+    "retrievedAt": "2026-09-24T06:01:51.807693+00:00",
+    "status": "downloaded_unreviewed",
+    "rawPath": ".cache/2026-09-24-country-round2/73b99fc5d17b692de103.raw",
+    "textPath": ".cache/2026-09-24-country-round2/73b99fc5d17b692de103.txt",
+    "rawSha256": "425d0a68542274e563806f37faed8c926c959882cca6e76d00e7a2da9533d6d4",
+    "textSha256": "4c1dfbe4dc21c76070f5efc7293cec6d643656b3f9f70a591bed8411ab468a6e"
+  },
+  {
     "url": "https://www.teamusa.com/profiles/logan-storie",
     "retrievedAt": "2026-09-24T05:28:08.775005+00:00",
     "status": "downloaded_unreviewed",
@@ -133,6 +169,24 @@
     "textPath": ".cache/2026-09-24-country-round2/72cfecac4aa949df0d4c.txt",
     "rawSha256": "7672b1f9c4c5a44cc678dbdf19ba1cd320bba2846ed4631f5df3a64985dd5636",
     "textSha256": "c3bd960c7da231a4d90a15ab0e35e53105d7c46fe020ce5f144b21346e1e4c42"
+  },
+  {
+    "url": "https://www.worldboccia.com/2021/12/09/sao-paulo-rc-day-1-results/",
+    "retrievedAt": "2026-09-24T06:01:53.718598+00:00",
+    "status": "downloaded_unreviewed",
+    "rawPath": ".cache/2026-09-24-country-round2/76780315d566a5c8a5ae.raw",
+    "textPath": ".cache/2026-09-24-country-round2/76780315d566a5c8a5ae.txt",
+    "rawSha256": "ee377dccf3b56906aaca835310444e011898a369a0fe68259dadeed16822be14",
+    "textSha256": "5fefe8aa593b82d95baa32178873dc1ad9c13f99864322e19e30f69875866b1c"
+  },
+  {
+    "url": "https://www.usef.org/team-usa/athletes/susan_dutta",
+    "retrievedAt": "2026-09-24T06:02:58.334587+00:00",
+    "status": "downloaded_unreviewed",
+    "rawPath": ".cache/2026-09-24-country-round2/323db8512b24afe146f8.raw",
+    "textPath": ".cache/2026-09-24-country-round2/323db8512b24afe146f8.txt",
+    "rawSha256": "5a180c2ff82ac5028c6aadf2b5f1510dcadf0235060f1e9fa72a22cce81c2956",
+    "textSha256": "31522af799df87dfa9eb97790c2e4c832529da3d68114d87291acbf7a6e0f03a"
   },
   {
     "url": "https://www.teamusa.com/profiles/riley-stohr",
@@ -223,6 +277,15 @@
     "textPath": ".cache/2026-09-24-country-round2/599f1386e022f9bb9527.txt",
     "rawSha256": "d1ac166dda746643264539ec2d40521827ab40e310e860c5ad9f32ed997881e3",
     "textSha256": "599cb66adb4c50258509ffc7cc3ebff752269d2c781f0f7d4b03b839173da9e8"
+  },
+  {
+    "url": "https://www.teamusa.com/profiles/james-howe",
+    "retrievedAt": "2026-09-24T06:06:32.905964+00:00",
+    "status": "downloaded_unreviewed",
+    "rawPath": ".cache/2026-09-24-country-round2/76767f047470f1d987a6.raw",
+    "textPath": ".cache/2026-09-24-country-round2/76767f047470f1d987a6.txt",
+    "rawSha256": "206ce7950a07a57cf2d932f136264e81bcfe953bfadcee434e7eff72d7be328f",
+    "textSha256": "d6b54a189f5f5519cc71e05558e7b4a1bfcad008d6d9e0243a1cb41f6540171f"
   },
   {
     "url": "https://www.teamusa.com/profiles/kyler-allison",
@@ -349,5 +412,14 @@
     "textPath": ".cache/2026-09-24-country-round2/b0e6a0e033382d47d6ec.txt",
     "rawSha256": "281efd94b01897fc70f54af8cdb908526a12ec6f7eda66cf0fbed14e509e282a",
     "textSha256": "75088edcf377584ec667407de33f89e1a806cb01797a4ae16547c49c79df83da"
+  },
+  {
+    "url": "https://www.teamusa.com/profiles/tara-harbert",
+    "retrievedAt": "2026-09-24T06:02:57.754598+00:00",
+    "status": "downloaded_unreviewed",
+    "rawPath": ".cache/2026-09-24-country-round2/a2cb09d55f16fb026c09.raw",
+    "textPath": ".cache/2026-09-24-country-round2/a2cb09d55f16fb026c09.txt",
+    "rawSha256": "15371566094c6aa400b74ac8dc21e9b1f78d037c7603cfdffe5499ccb969947f",
+    "textSha256": "01548073ab5b35ee0a2c0b680269289c044da4f9c2944546fdccd609dc090be7"
   }
 ]

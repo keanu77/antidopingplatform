@@ -1,6 +1,6 @@
 {
   "baselineSha256": "a37f9ec223bedf64c96b5bf17c31960c2b30606c7de03bcc06bdb929d7d66cb0",
-  "caseCount": 30,
+  "caseCount": 37,
   "batches": [
     {
       "batch": "country-001",
@@ -93,6 +93,34 @@
       "caseIds": [
         "usada-a0a7483bcc7e",
         "usada-de625da34c51"
+      ]
+    },
+    {
+      "batch": "country-010",
+      "path": ".cache/2026-09-24-country-round2/packets/country-010.json",
+      "sha256": "3a23340da119ec7d61ca68d9a6d16eed13ee58a8b8370e282222382a274e47c3",
+      "caseIds": [
+        "usada-cbc321b291f0",
+        "usada-a6e4b38ecdbe",
+        "usada-c3a050be56a3"
+      ]
+    },
+    {
+      "batch": "country-011",
+      "path": ".cache/2026-09-24-country-round2/packets/country-011.json",
+      "sha256": "e36b31d0a272bfbfcc50ca15dc580cad9ffc3f6050c068f71c6bb28ce3211cab",
+      "caseIds": [
+        "usada-1afebbd6c57b",
+        "usada-2428086c1745",
+        "usada-e7645ab29f67"
+      ]
+    },
+    {
+      "batch": "country-012",
+      "path": ".cache/2026-09-24-country-round2/packets/country-012.json",
+      "sha256": "eda8ecf21d791d3c8d5505cb59818f2c59e45a1684ec3ef0a0737b78c1675f7a",
+      "caseIds": [
+        "usada-8813abb5dfc8"
       ]
     }
   ]

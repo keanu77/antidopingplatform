@@ -3302,5 +3302,866 @@
       "codex"
     ],
     "coverageComplete": true
+  },
+  {
+    "id": "usada-cbc321b291f0",
+    "athleteName": "Wyatt Struxness",
+    "modelReviews": [
+      {
+        "seat": "claude",
+        "requestedModel": "haiku",
+        "batch": "country-010",
+        "attempt": 1,
+        "packetSha256": "3a23340da119ec7d61ca68d9a6d16eed13ee58a8b8370e282222382a274e47c3",
+        "answerSha256": "c91e29bc19b9a3527af04d378b4f23f8acc9ba95c472bdddbff66bc7124867f8",
+        "characterStart": 27,
+        "characterEnd": 761,
+        "wholeBatchValid": true,
+        "answer": {
+          "id": "usada-cbc321b291f0",
+          "status": "supported",
+          "identity": "supported",
+          "country": "supported",
+          "temporalScope": "supported",
+          "evidence": [
+            {
+              "documentId": "country",
+              "startLine": 93,
+              "endLine": 93,
+              "note": "World Boccia official report (2021-12-09) explicitly identifies 'American Wyatt Struxness' competing at São Paulo Americas Regional Championships"
+            },
+            {
+              "documentId": "case",
+              "startLine": 1,
+              "endLine": 7,
+              "note": "USADA official record confirms Wyatt Struxness, age 25, of San Antonio, Texas, Para boccia athlete; case dated July 2022"
+            }
+          ],
+          "findings": []
+        }
+      },
+      {
+        "seat": "codex",
+        "requestedModel": "gpt-6-luna",
+        "batch": "country-010",
+        "attempt": 1,
+        "packetSha256": "3a23340da119ec7d61ca68d9a6d16eed13ee58a8b8370e282222382a274e47c3",
+        "answerSha256": "f18ed2b6509e5c9b31ae87c57ee2a9b7c78ae92945147ded07cd3c0925137b98",
+        "characterStart": 10,
+        "characterEnd": 473,
+        "wholeBatchValid": true,
+        "answer": {
+          "id": "usada-cbc321b291f0",
+          "status": "supported",
+          "identity": "supported",
+          "country": "supported",
+          "temporalScope": "supported",
+          "evidence": [
+            {
+              "documentId": "country",
+              "startLine": 89,
+              "endLine": 93,
+              "note": "World Boccia describes the 2021 Americas Regional Championships and identifies Wyatt Struxness as American."
+            },
+            {
+              "documentId": "case",
+              "startLine": 7,
+              "endLine": 7,
+              "note": "USADA identifies Wyatt Struxness as a 25-year-old Para boccia athlete from San Antonio."
+            }
+          ],
+          "findings": []
+        }
+      }
+    ],
+    "findings": [],
+    "modelSeats": [
+      "claude",
+      "codex"
+    ],
+    "coverageComplete": true
+  },
+  {
+    "id": "usada-a6e4b38ecdbe",
+    "athleteName": "Samantha Dumala",
+    "modelReviews": [
+      {
+        "seat": "claude",
+        "requestedModel": "haiku",
+        "batch": "country-010",
+        "attempt": 1,
+        "packetSha256": "3a23340da119ec7d61ca68d9a6d16eed13ee58a8b8370e282222382a274e47c3",
+        "answerSha256": "c91e29bc19b9a3527af04d378b4f23f8acc9ba95c472bdddbff66bc7124867f8",
+        "characterStart": 767,
+        "characterEnd": 2078,
+        "wholeBatchValid": true,
+        "answer": {
+          "id": "usada-a6e4b38ecdbe",
+          "status": "issue",
+          "identity": "issue",
+          "country": "supported",
+          "temporalScope": "supported",
+          "evidence": [
+            {
+              "documentId": "country",
+              "startLine": 15,
+              "endLine": 17,
+              "note": "IWWF official athlete profile header lists 'STADLBAUR Samantha' with ID USA800121646, year of birth 1997"
+            },
+            {
+              "documentId": "case",
+              "startLine": 1,
+              "endLine": 7,
+              "note": "USADA record identifies 'Samantha Dumala, of Wellington, Fla.' age 22, waterskiing athlete; case dated January 7, 2020"
+            }
+          ],
+          "findings": [
+            {
+              "field": "identity",
+              "explanation": "Surname mismatch: IWWF official record lists athlete name as 'STADLBAUR Samantha' not 'Dumala'. Birth year (1997), sport (waterskiing), location (Wellington, Fla. aligns with IWWF results from Florida), and approximate age match USADA 2020 record for Samantha Dumala age 22. This strongly suggests name change (likely marriage) but is not documented in supplied materials.",
+              "suggestion": "Confirm relationship between STADLBAUR and Dumala surnames and verify this is the same individual before annotating country from IWWF profile."
+            }
+          ]
+        }
+      },
+      {
+        "seat": "codex",
+        "requestedModel": "gpt-6-luna",
+        "batch": "country-010",
+        "attempt": 1,
+        "packetSha256": "3a23340da119ec7d61ca68d9a6d16eed13ee58a8b8370e282222382a274e47c3",
+        "answerSha256": "f18ed2b6509e5c9b31ae87c57ee2a9b7c78ae92945147ded07cd3c0925137b98",
+        "characterStart": 474,
+        "characterEnd": 1133,
+        "wholeBatchValid": true,
+        "answer": {
+          "id": "usada-a6e4b38ecdbe",
+          "status": "supported",
+          "identity": "supported",
+          "country": "supported",
+          "temporalScope": "supported",
+          "evidence": [
+            {
+              "documentId": "country",
+              "startLine": 14,
+              "endLine": 17,
+              "note": "IWWF profile identifies STADLBAUR Samantha, athlete number USA800121646, born 1997."
+            },
+            {
+              "documentId": "country",
+              "startLine": 98,
+              "endLine": 113,
+              "note": "The profile lists USA for 2021 and 2022 results, including the 2021 World Waterski Championships."
+            },
+            {
+              "documentId": "case",
+              "startLine": 7,
+              "endLine": 7,
+              "note": "USADA identifies Samantha Dumala as a 22-year-old waterski athlete from Wellington, matching the sport and age with the profile’s 1997 birth year."
+            }
+          ],
+          "findings": []
+        }
+      }
+    ],
+    "findings": [
+      {
+        "seat": "claude",
+        "requestedModel": "haiku",
+        "batch": "country-010",
+        "attempt": 1,
+        "packetSha256": "3a23340da119ec7d61ca68d9a6d16eed13ee58a8b8370e282222382a274e47c3",
+        "answerSha256": "c91e29bc19b9a3527af04d378b4f23f8acc9ba95c472bdddbff66bc7124867f8",
+        "characterStart": 767,
+        "characterEnd": 2078,
+        "wholeBatchValid": true,
+        "countsForCoverage": true,
+        "field": "identity",
+        "explanation": "Surname mismatch: IWWF official record lists athlete name as 'STADLBAUR Samantha' not 'Dumala'. Birth year (1997), sport (waterskiing), location (Wellington, Fla. aligns with IWWF results from Florida), and approximate age match USADA 2020 record for Samantha Dumala age 22. This strongly suggests name change (likely marriage) but is not documented in supplied materials.",
+        "suggestion": "Confirm relationship between STADLBAUR and Dumala surnames and verify this is the same individual before annotating country from IWWF profile."
+      }
+    ],
+    "modelSeats": [
+      "claude",
+      "codex"
+    ],
+    "coverageComplete": true
+  },
+  {
+    "id": "usada-c3a050be56a3",
+    "athleteName": "Richard Burkett",
+    "modelReviews": [
+      {
+        "seat": "claude",
+        "requestedModel": "haiku",
+        "batch": "country-010",
+        "attempt": 1,
+        "packetSha256": "3a23340da119ec7d61ca68d9a6d16eed13ee58a8b8370e282222382a274e47c3",
+        "answerSha256": "c91e29bc19b9a3527af04d378b4f23f8acc9ba95c472bdddbff66bc7124867f8",
+        "characterStart": 2084,
+        "characterEnd": 4477,
+        "wholeBatchValid": true,
+        "answer": {
+          "id": "usada-c3a050be56a3",
+          "status": "issue",
+          "identity": "uncertain",
+          "country": "issue",
+          "temporalScope": "issue",
+          "evidence": [
+            {
+              "documentId": "country",
+              "startLine": 195,
+              "endLine": 195,
+              "note": "USA Archery article (dated September 22, 2025) lists 'Richard Burkett Jr.' in Compound Open Men division"
+            },
+            {
+              "documentId": "country",
+              "startLine": 218,
+              "endLine": 219,
+              "note": "USA Archery official team roster: 'Richard Burkett Jr.' Compound Open Men"
+            },
+            {
+              "documentId": "case",
+              "startLine": 1,
+              "endLine": 8,
+              "note": "USADA record (dated April 5, 2021): 'Richard Burkett, of New Castle, Pa.' age 49, Para archery; tested positive August 14, 2020"
+            }
+          ],
+          "findings": [
+            {
+              "field": "identity",
+              "explanation": "Name suffix discrepancy: USADA 2021 record lists 'Richard Burkett' without 'Jr.', while USA Archery 2025 lists 'Richard Burkett Jr.' Both refer to age ~49, Para archery, same location. Likely same person but suffix inconsistency creates ambiguity.",
+              "suggestion": "Verify whether 'Jr.' designation is used consistently or if records refer to different individuals."
+            },
+            {
+              "field": "country",
+              "explanation": "Source used (USA Archery 2025 World Para Championships report) documents sporting affiliation for 2025, not 2020. Official team roster, event records, or results from 2020 competitions would be needed to establish country affiliation during the violation period (August 14, 2020).",
+              "suggestion": "Locate 2020 official USA Archery team records from Target Nationals (August 14, 2020) or other 2020 international para archery competitions."
+            },
+            {
+              "field": "temporalScope",
+              "explanation": "Proposal states 'do not infer 2020 representation from 2025 report', yet uses 2025 source as primary evidence for 2020 country identity. This internal contradiction means evidence does not match the temporal scope of the case (2020).",
+              "suggestion": "Acknowledge that only 2020-era or contemporaneous official records can support country affiliation for 2020 violation; 2025 records document current affiliation only."
+            }
+          ]
+        }
+      },
+      {
+        "seat": "codex",
+        "requestedModel": "gpt-6-luna",
+        "batch": "country-010",
+        "attempt": 1,
+        "packetSha256": "3a23340da119ec7d61ca68d9a6d16eed13ee58a8b8370e282222382a274e47c3",
+        "answerSha256": "f18ed2b6509e5c9b31ae87c57ee2a9b7c78ae92945147ded07cd3c0925137b98",
+        "characterStart": 1134,
+        "characterEnd": 1806,
+        "wholeBatchValid": true,
+        "answer": {
+          "id": "usada-c3a050be56a3",
+          "status": "supported",
+          "identity": "supported",
+          "country": "supported",
+          "temporalScope": "supported",
+          "evidence": [
+            {
+              "documentId": "country",
+              "startLine": 193,
+              "endLine": 195,
+              "note": "USA Archery says the U.S. Para Archery Team will represent the United States in 2025 and lists Richard Burkett Jr. in Compound Open Men."
+            },
+            {
+              "documentId": "country",
+              "startLine": 217,
+              "endLine": 219,
+              "note": "The USA Team roster lists Richard Burkett Jr. as Compound Open Men."
+            },
+            {
+              "documentId": "case",
+              "startLine": 7,
+              "endLine": 8,
+              "note": "USADA identifies Richard Burkett, age 49, as a Para archery athlete; the sport and name match, though the USA Archery roster adds Jr."
+            }
+          ],
+          "findings": []
+        }
+      }
+    ],
+    "findings": [
+      {
+        "seat": "claude",
+        "requestedModel": "haiku",
+        "batch": "country-010",
+        "attempt": 1,
+        "packetSha256": "3a23340da119ec7d61ca68d9a6d16eed13ee58a8b8370e282222382a274e47c3",
+        "answerSha256": "c91e29bc19b9a3527af04d378b4f23f8acc9ba95c472bdddbff66bc7124867f8",
+        "characterStart": 2084,
+        "characterEnd": 4477,
+        "wholeBatchValid": true,
+        "countsForCoverage": true,
+        "field": "identity",
+        "explanation": "Name suffix discrepancy: USADA 2021 record lists 'Richard Burkett' without 'Jr.', while USA Archery 2025 lists 'Richard Burkett Jr.' Both refer to age ~49, Para archery, same location. Likely same person but suffix inconsistency creates ambiguity.",
+        "suggestion": "Verify whether 'Jr.' designation is used consistently or if records refer to different individuals."
+      },
+      {
+        "seat": "claude",
+        "requestedModel": "haiku",
+        "batch": "country-010",
+        "attempt": 1,
+        "packetSha256": "3a23340da119ec7d61ca68d9a6d16eed13ee58a8b8370e282222382a274e47c3",
+        "answerSha256": "c91e29bc19b9a3527af04d378b4f23f8acc9ba95c472bdddbff66bc7124867f8",
+        "characterStart": 2084,
+        "characterEnd": 4477,
+        "wholeBatchValid": true,
+        "countsForCoverage": true,
+        "field": "country",
+        "explanation": "Source used (USA Archery 2025 World Para Championships report) documents sporting affiliation for 2025, not 2020. Official team roster, event records, or results from 2020 competitions would be needed to establish country affiliation during the violation period (August 14, 2020).",
+        "suggestion": "Locate 2020 official USA Archery team records from Target Nationals (August 14, 2020) or other 2020 international para archery competitions."
+      },
+      {
+        "seat": "claude",
+        "requestedModel": "haiku",
+        "batch": "country-010",
+        "attempt": 1,
+        "packetSha256": "3a23340da119ec7d61ca68d9a6d16eed13ee58a8b8370e282222382a274e47c3",
+        "answerSha256": "c91e29bc19b9a3527af04d378b4f23f8acc9ba95c472bdddbff66bc7124867f8",
+        "characterStart": 2084,
+        "characterEnd": 4477,
+        "wholeBatchValid": true,
+        "countsForCoverage": true,
+        "field": "temporalScope",
+        "explanation": "Proposal states 'do not infer 2020 representation from 2025 report', yet uses 2025 source as primary evidence for 2020 country identity. This internal contradiction means evidence does not match the temporal scope of the case (2020).",
+        "suggestion": "Acknowledge that only 2020-era or contemporaneous official records can support country affiliation for 2020 violation; 2025 records document current affiliation only."
+      }
+    ],
+    "modelSeats": [
+      "claude",
+      "codex"
+    ],
+    "coverageComplete": true
+  },
+  {
+    "id": "usada-1afebbd6c57b",
+    "athleteName": "Cesar Colunga",
+    "modelReviews": [
+      {
+        "seat": "claude",
+        "requestedModel": "haiku",
+        "batch": "country-011",
+        "attempt": 1,
+        "packetSha256": "e36b31d0a272bfbfcc50ca15dc580cad9ffc3f6050c068f71c6bb28ce3211cab",
+        "answerSha256": "466244199ef1b1ca5161a71480346767135622556b3dbee065d3061fe7756b83",
+        "characterStart": 27,
+        "characterEnd": 1017,
+        "wholeBatchValid": true,
+        "answer": {
+          "id": "usada-1afebbd6c57b",
+          "status": "supported",
+          "identity": "supported",
+          "country": "supported",
+          "temporalScope": "supported",
+          "evidence": [
+            {
+              "documentId": "country",
+              "startLine": 1,
+              "endLine": 1,
+              "note": "官方 Team USA 頁面標題明確確認 Cesar Colunga"
+            },
+            {
+              "documentId": "country",
+              "startLine": 462,
+              "endLine": 462,
+              "note": "WIKF USA（世界空手道聯合會美國分會）成員"
+            },
+            {
+              "documentId": "country",
+              "startLine": 464,
+              "endLine": 464,
+              "note": "2013 年瓜達拉哈拉世界青年及少年錦標賽代表美國參賽"
+            },
+            {
+              "documentId": "case",
+              "startLine": 1,
+              "endLine": 1,
+              "note": "USADA 案件標題確認為美國空手道運動員"
+            },
+            {
+              "documentId": "case",
+              "startLine": 8,
+              "endLine": 8,
+              "note": "2018 年 1 月 13 日美國空手道高級隊試選中檢測呈陽性"
+            }
+          ],
+          "findings": []
+        }
+      },
+      {
+        "seat": "codex",
+        "requestedModel": "gpt-6-luna",
+        "batch": "country-011",
+        "attempt": 1,
+        "packetSha256": "e36b31d0a272bfbfcc50ca15dc580cad9ffc3f6050c068f71c6bb28ce3211cab",
+        "answerSha256": "88989c7a92a9cdefc18e003364f253c6370cbaee0b78a6dee085b7cd1051c9ef",
+        "characterStart": 10,
+        "characterEnd": 547,
+        "wholeBatchValid": true,
+        "answer": {
+          "id": "usada-1afebbd6c57b",
+          "status": "supported",
+          "identity": "supported",
+          "country": "supported",
+          "temporalScope": "supported",
+          "evidence": [
+            {
+              "documentId": "country",
+              "startLine": 1,
+              "endLine": 1,
+              "note": "Team USA profile identifies Cesar Colunga."
+            },
+            {
+              "documentId": "country",
+              "startLine": 448,
+              "endLine": 464,
+              "note": "Profile lists his name, Plano hometown, WIKF USA membership, and karate career highlight."
+            },
+            {
+              "documentId": "case",
+              "startLine": 7,
+              "endLine": 8,
+              "note": "USADA identifies Cesar Colunga as a 20-year-old karate athlete from Plano."
+            }
+          ],
+          "findings": []
+        }
+      }
+    ],
+    "findings": [],
+    "modelSeats": [
+      "claude",
+      "codex"
+    ],
+    "coverageComplete": true
+  },
+  {
+    "id": "usada-2428086c1745",
+    "athleteName": "Tara Harbert",
+    "modelReviews": [
+      {
+        "seat": "claude",
+        "requestedModel": "haiku",
+        "batch": "country-011",
+        "attempt": 1,
+        "packetSha256": "e36b31d0a272bfbfcc50ca15dc580cad9ffc3f6050c068f71c6bb28ce3211cab",
+        "answerSha256": "466244199ef1b1ca5161a71480346767135622556b3dbee065d3061fe7756b83",
+        "characterStart": 1023,
+        "characterEnd": 2673,
+        "wholeBatchValid": true,
+        "answer": {
+          "id": "usada-2428086c1745",
+          "status": "issue",
+          "identity": "issue",
+          "country": "supported",
+          "temporalScope": "uncertain",
+          "evidence": [
+            {
+              "documentId": "country",
+              "startLine": 1,
+              "endLine": 1,
+              "note": "官方 Team USA 頁面標題確認 Tara Harbert"
+            },
+            {
+              "documentId": "country",
+              "startLine": 448,
+              "endLine": 448,
+              "note": "Team USA 頁面運動項目列為「Softball」（女性壘球）"
+            },
+            {
+              "documentId": "country",
+              "startLine": 463,
+              "endLine": 465,
+              "note": "2008、2010、2014 年世界盃女性隊記錄"
+            },
+            {
+              "documentId": "case",
+              "startLine": 1,
+              "endLine": 1,
+              "note": "USADA 標題列為「US Baseball Athlete」"
+            },
+            {
+              "documentId": "case",
+              "startLine": 7,
+              "endLine": 7,
+              "note": "USADA 紀錄列地點為 Longmont, Colorado；Team USA 官方頁面列 Boulder, CO"
+            }
+          ],
+          "findings": [
+            {
+              "field": "identity",
+              "explanation": "運動項目存在命名不一致：Team USA 官方檔案明確列為「Softball」（第 448 行），但 USADA 案件標題稱「Baseball」且第 7 行指「sport of baseball」。地點也不完全相符：Team USA 列 Boulder, CO；USADA 列 Longmont, Colorado。",
+              "suggestion": "確認該運動員在 2015 年 USADA 檢測時的正式項目分類（Softball vs Baseball），以及是否為同一人。Longmont 和 Boulder 為相鄰城市，可能代表居住地 vs 訓練地差異，但應核實。"
+            },
+            {
+              "field": "temporalScope",
+              "explanation": "Team USA 官方記錄中最後已知的代表美國紀錄為 2014 年世界盃（第 463 行），案例發生於 2015 年 6 月至 8 月。無 2015 年代表美國參賽之直接證據。",
+              "suggestion": "查證該運動員在 2015 年是否仍為美國代表隊成員；官方檔案之年份限制未覆蓋案件發生期間。"
+            }
+          ]
+        }
+      },
+      {
+        "seat": "codex",
+        "requestedModel": "gpt-6-luna",
+        "batch": "country-011",
+        "attempt": 1,
+        "packetSha256": "e36b31d0a272bfbfcc50ca15dc580cad9ffc3f6050c068f71c6bb28ce3211cab",
+        "answerSha256": "88989c7a92a9cdefc18e003364f253c6370cbaee0b78a6dee085b7cd1051c9ef",
+        "characterStart": 548,
+        "characterEnd": 1419,
+        "wholeBatchValid": true,
+        "answer": {
+          "id": "usada-2428086c1745",
+          "status": "issue",
+          "identity": "issue",
+          "country": "supported",
+          "temporalScope": "supported",
+          "evidence": [
+            {
+              "documentId": "country",
+              "startLine": 448,
+              "endLine": 463,
+              "note": "Team USA profile lists Tara Harbert under Softball, with Boulder hometown and World Cup team results."
+            },
+            {
+              "documentId": "case",
+              "startLine": 7,
+              "endLine": 8,
+              "note": "USADA identifies a 33-year-old Tara Harbert from Longmont as a baseball athlete."
+            }
+          ],
+          "findings": [
+            {
+              "field": "identity",
+              "explanation": "The profile is for a softball athlete and gives Boulder/Niwot/Colorado State details, while the case calls Harbert a baseball athlete from Longmont. The supplied documents do not establish that these are the same person.",
+              "suggestion": "Do not attach this profile's Team USA country annotation to the case without an official identity link, such as a matching dated roster or results record."
+            }
+          ]
+        }
+      }
+    ],
+    "findings": [
+      {
+        "seat": "claude",
+        "requestedModel": "haiku",
+        "batch": "country-011",
+        "attempt": 1,
+        "packetSha256": "e36b31d0a272bfbfcc50ca15dc580cad9ffc3f6050c068f71c6bb28ce3211cab",
+        "answerSha256": "466244199ef1b1ca5161a71480346767135622556b3dbee065d3061fe7756b83",
+        "characterStart": 1023,
+        "characterEnd": 2673,
+        "wholeBatchValid": true,
+        "countsForCoverage": true,
+        "field": "identity",
+        "explanation": "運動項目存在命名不一致：Team USA 官方檔案明確列為「Softball」（第 448 行），但 USADA 案件標題稱「Baseball」且第 7 行指「sport of baseball」。地點也不完全相符：Team USA 列 Boulder, CO；USADA 列 Longmont, Colorado。",
+        "suggestion": "確認該運動員在 2015 年 USADA 檢測時的正式項目分類（Softball vs Baseball），以及是否為同一人。Longmont 和 Boulder 為相鄰城市，可能代表居住地 vs 訓練地差異，但應核實。"
+      },
+      {
+        "seat": "claude",
+        "requestedModel": "haiku",
+        "batch": "country-011",
+        "attempt": 1,
+        "packetSha256": "e36b31d0a272bfbfcc50ca15dc580cad9ffc3f6050c068f71c6bb28ce3211cab",
+        "answerSha256": "466244199ef1b1ca5161a71480346767135622556b3dbee065d3061fe7756b83",
+        "characterStart": 1023,
+        "characterEnd": 2673,
+        "wholeBatchValid": true,
+        "countsForCoverage": true,
+        "field": "temporalScope",
+        "explanation": "Team USA 官方記錄中最後已知的代表美國紀錄為 2014 年世界盃（第 463 行），案例發生於 2015 年 6 月至 8 月。無 2015 年代表美國參賽之直接證據。",
+        "suggestion": "查證該運動員在 2015 年是否仍為美國代表隊成員；官方檔案之年份限制未覆蓋案件發生期間。"
+      },
+      {
+        "seat": "codex",
+        "requestedModel": "gpt-6-luna",
+        "batch": "country-011",
+        "attempt": 1,
+        "packetSha256": "e36b31d0a272bfbfcc50ca15dc580cad9ffc3f6050c068f71c6bb28ce3211cab",
+        "answerSha256": "88989c7a92a9cdefc18e003364f253c6370cbaee0b78a6dee085b7cd1051c9ef",
+        "characterStart": 548,
+        "characterEnd": 1419,
+        "wholeBatchValid": true,
+        "countsForCoverage": true,
+        "field": "identity",
+        "explanation": "The profile is for a softball athlete and gives Boulder/Niwot/Colorado State details, while the case calls Harbert a baseball athlete from Longmont. The supplied documents do not establish that these are the same person.",
+        "suggestion": "Do not attach this profile's Team USA country annotation to the case without an official identity link, such as a matching dated roster or results record."
+      }
+    ],
+    "modelSeats": [
+      "claude",
+      "codex"
+    ],
+    "coverageComplete": true
+  },
+  {
+    "id": "usada-e7645ab29f67",
+    "athleteName": "Joseph Mazzie",
+    "modelReviews": [
+      {
+        "seat": "claude",
+        "requestedModel": "haiku",
+        "batch": "country-011",
+        "attempt": 1,
+        "packetSha256": "e36b31d0a272bfbfcc50ca15dc580cad9ffc3f6050c068f71c6bb28ce3211cab",
+        "answerSha256": "466244199ef1b1ca5161a71480346767135622556b3dbee065d3061fe7756b83",
+        "characterStart": 2679,
+        "characterEnd": 3673,
+        "wholeBatchValid": true,
+        "answer": {
+          "id": "usada-e7645ab29f67",
+          "status": "issue",
+          "identity": "supported",
+          "country": "supported",
+          "temporalScope": "issue",
+          "evidence": [
+            {
+              "documentId": "country",
+              "startLine": 117,
+              "endLine": 117,
+              "note": "World Skate 官方報導明確列出 Joseph Mazzie (USA) 在 2015 年 Rosario 錦標賽中進球"
+            },
+            {
+              "documentId": "case",
+              "startLine": 1,
+              "endLine": 1,
+              "note": "USADA 標題確認為美國直排輪曲棍球運動員"
+            },
+            {
+              "documentId": "case",
+              "startLine": 8,
+              "endLine": 8,
+              "note": "案件發生於 2016 年 8 月 24 日"
+            }
+          ],
+          "findings": [
+            {
+              "field": "temporalScope",
+              "explanation": "提供的國家來源為 2015 年 6 月 Rosario 世界錦標賽官方報導。案件年份為 2016 年 8 月，距官方紀錄逾 1 年。編輯已註明「不據此推定 2016 年代表資格」。單一 2015 年賽事紀錄無法確立 2016 年的運動隸屬資格。",
+              "suggestion": "尋求 2016 年美國隊列名或官方記錄以直接支持 2016 年代表身份，或將時間範圍限制在已驗證的 2015 年期間。"
+            }
+          ]
+        }
+      },
+      {
+        "seat": "codex",
+        "requestedModel": "gpt-6-luna",
+        "batch": "country-011",
+        "attempt": 1,
+        "packetSha256": "e36b31d0a272bfbfcc50ca15dc580cad9ffc3f6050c068f71c6bb28ce3211cab",
+        "answerSha256": "88989c7a92a9cdefc18e003364f253c6370cbaee0b78a6dee085b7cd1051c9ef",
+        "characterStart": 1420,
+        "characterEnd": 1857,
+        "wholeBatchValid": true,
+        "answer": {
+          "id": "usada-e7645ab29f67",
+          "status": "supported",
+          "identity": "supported",
+          "country": "supported",
+          "temporalScope": "supported",
+          "evidence": [
+            {
+              "documentId": "country",
+              "startLine": 116,
+              "endLine": 117,
+              "note": "World Skate's 2015 Senior Men match report lists Joseph Mazzie as a USA scorer."
+            },
+            {
+              "documentId": "case",
+              "startLine": 7,
+              "endLine": 8,
+              "note": "USADA identifies Joseph Mazzie as a 29-year-old roller hockey athlete from East Meadow."
+            }
+          ],
+          "findings": []
+        }
+      }
+    ],
+    "findings": [
+      {
+        "seat": "claude",
+        "requestedModel": "haiku",
+        "batch": "country-011",
+        "attempt": 1,
+        "packetSha256": "e36b31d0a272bfbfcc50ca15dc580cad9ffc3f6050c068f71c6bb28ce3211cab",
+        "answerSha256": "466244199ef1b1ca5161a71480346767135622556b3dbee065d3061fe7756b83",
+        "characterStart": 2679,
+        "characterEnd": 3673,
+        "wholeBatchValid": true,
+        "countsForCoverage": true,
+        "field": "temporalScope",
+        "explanation": "提供的國家來源為 2015 年 6 月 Rosario 世界錦標賽官方報導。案件年份為 2016 年 8 月，距官方紀錄逾 1 年。編輯已註明「不據此推定 2016 年代表資格」。單一 2015 年賽事紀錄無法確立 2016 年的運動隸屬資格。",
+        "suggestion": "尋求 2016 年美國隊列名或官方記錄以直接支持 2016 年代表身份，或將時間範圍限制在已驗證的 2015 年期間。"
+      }
+    ],
+    "modelSeats": [
+      "claude",
+      "codex"
+    ],
+    "coverageComplete": true
+  },
+  {
+    "id": "usada-8813abb5dfc8",
+    "athleteName": "James Howe II",
+    "modelReviews": [
+      {
+        "seat": "claude",
+        "requestedModel": "haiku",
+        "batch": "country-012",
+        "attempt": 1,
+        "packetSha256": "eda8ecf21d791d3c8d5505cb59818f2c59e45a1684ec3ef0a0737b78c1675f7a",
+        "answerSha256": "9730e3383609f006120a350ef1b5022211e3ecff21c971000967ce98f0be1518",
+        "characterStart": 27,
+        "characterEnd": 1933,
+        "wholeBatchValid": false,
+        "answer": {
+          "id": "usada-8813abb5dfc8",
+          "status": "issue",
+          "identity": "issue",
+          "country": "supported",
+          "temporalScope": "uncertain",
+          "evidence": [
+            {
+              "documentId": "country",
+              "startLine": 448,
+              "endLine": 449,
+              "note": "Team USA官方頁標題：James Howe（無II後綴）"
+            },
+            {
+              "documentId": "country",
+              "startLine": 455,
+              "endLine": 458,
+              "note": "Team USA官方頁年齡39、城鎮San Ramon"
+            },
+            {
+              "documentId": "case",
+              "startLine": 1,
+              "endLine": 1,
+              "note": "USADA標題明確稱「Howe II」"
+            },
+            {
+              "documentId": "case",
+              "startLine": 7,
+              "endLine": 7,
+              "note": "USADA：James Howe II, of Miami, Florida / 2016年7月年齡29"
+            },
+            {
+              "documentId": "case",
+              "startLine": 8,
+              "endLine": 8,
+              "note": "USADA確認USA Taekwondo Senior Team Trials參賽資格"
+            }
+          ],
+          "findings": [
+            {
+              "field": "identity",
+              "explanation": "名字後綴不符：USADA文件明確稱「James Howe II」（case第1、7行），但Team USA官方頁面只顯示「James Howe」（country第448-449行），無II後綴。",
+              "suggestion": "須確認Team USA頁面確實屬同一人；Team USA官方列表通常完整呈現正式名字，此項差異需澄清。"
+            },
+            {
+              "field": "identity",
+              "explanation": "城市信息矛盾：USADA記載「Miami, Florida」（case第7行），但Team USA官方頁Hometown列「San Ramon」（country第457-458行）。",
+              "suggestion": "可能代表現居地與出生地/成長地的差異，但需確認是否為同一人。"
+            },
+            {
+              "field": "temporalScope",
+              "explanation": "Team USA官方頁面為當前查閱時資料，無2016年明確標記。提議範圍「official_profile_at_lookup」僅能支持查閱時的代表身份，不足以回溯確認2016年代表資格。USADA case文件本身明確確認2016年7月美國代表身份（含USA Taekwondo Senior Team Trials），但此證據與提議的「official_profile_at_lookup」來源框架不符。",
+              "suggestion": "若要支持2016年代表身份，應明確以USADA case文件為主要依據；若依賴Team USA官方頁面，時間範圍應限制為「查閱時點」或需補充其他2016年代表資格證明。"
+            }
+          ]
+        }
+      },
+      {
+        "seat": "codex",
+        "requestedModel": "gpt-6-luna",
+        "batch": "country-012",
+        "attempt": 1,
+        "packetSha256": "eda8ecf21d791d3c8d5505cb59818f2c59e45a1684ec3ef0a0737b78c1675f7a",
+        "answerSha256": "6261c499a50d95fd998027715bc3f740ff4a2c5fe37f12884e5ddb47c1f08b12",
+        "characterStart": 10,
+        "characterEnd": 730,
+        "wholeBatchValid": true,
+        "answer": {
+          "id": "usada-8813abb5dfc8",
+          "status": "supported",
+          "identity": "supported",
+          "country": "supported",
+          "temporalScope": "supported",
+          "evidence": [
+            {
+              "documentId": "country",
+              "startLine": 448,
+              "endLine": 458,
+              "note": "Team USA profile identifies James Howe, lists Taekwondo in the profile navigation, and gives age 39 and hometown San Ramon. The proposed country is accurately limited to how Team USA lists him at lookup."
+            },
+            {
+              "documentId": "case",
+              "startLine": 7,
+              "endLine": 8,
+              "note": "USADA identifies James Howe II as a taekwondo athlete, age 29, of Miami, Florida, in its July 2016 notice. The shared name, sport, and age are consistent with the profile; differing hometowns and the omitted II suffix do not establish a mismatch."
+            }
+          ],
+          "findings": []
+        }
+      }
+    ],
+    "findings": [
+      {
+        "seat": "claude",
+        "requestedModel": "haiku",
+        "batch": "country-012",
+        "attempt": 1,
+        "packetSha256": "eda8ecf21d791d3c8d5505cb59818f2c59e45a1684ec3ef0a0737b78c1675f7a",
+        "answerSha256": "9730e3383609f006120a350ef1b5022211e3ecff21c971000967ce98f0be1518",
+        "characterStart": 27,
+        "characterEnd": 1933,
+        "wholeBatchValid": false,
+        "countsForCoverage": true,
+        "field": "identity",
+        "explanation": "名字後綴不符：USADA文件明確稱「James Howe II」（case第1、7行），但Team USA官方頁面只顯示「James Howe」（country第448-449行），無II後綴。",
+        "suggestion": "須確認Team USA頁面確實屬同一人；Team USA官方列表通常完整呈現正式名字，此項差異需澄清。"
+      },
+      {
+        "seat": "claude",
+        "requestedModel": "haiku",
+        "batch": "country-012",
+        "attempt": 1,
+        "packetSha256": "eda8ecf21d791d3c8d5505cb59818f2c59e45a1684ec3ef0a0737b78c1675f7a",
+        "answerSha256": "9730e3383609f006120a350ef1b5022211e3ecff21c971000967ce98f0be1518",
+        "characterStart": 27,
+        "characterEnd": 1933,
+        "wholeBatchValid": false,
+        "countsForCoverage": true,
+        "field": "identity",
+        "explanation": "城市信息矛盾：USADA記載「Miami, Florida」（case第7行），但Team USA官方頁Hometown列「San Ramon」（country第457-458行）。",
+        "suggestion": "可能代表現居地與出生地/成長地的差異，但需確認是否為同一人。"
+      },
+      {
+        "seat": "claude",
+        "requestedModel": "haiku",
+        "batch": "country-012",
+        "attempt": 1,
+        "packetSha256": "eda8ecf21d791d3c8d5505cb59818f2c59e45a1684ec3ef0a0737b78c1675f7a",
+        "answerSha256": "9730e3383609f006120a350ef1b5022211e3ecff21c971000967ce98f0be1518",
+        "characterStart": 27,
+        "characterEnd": 1933,
+        "wholeBatchValid": false,
+        "countsForCoverage": true,
+        "field": "temporalScope",
+        "explanation": "Team USA官方頁面為當前查閱時資料，無2016年明確標記。提議範圍「official_profile_at_lookup」僅能支持查閱時的代表身份，不足以回溯確認2016年代表資格。USADA case文件本身明確確認2016年7月美國代表身份（含USA Taekwondo Senior Team Trials），但此證據與提議的「official_profile_at_lookup」來源框架不符。",
+        "suggestion": "若要支持2016年代表身份，應明確以USADA case文件為主要依據；若依賴Team USA官方頁面，時間範圍應限制為「查閱時點」或需補充其他2016年代表資格證明。"
+      }
+    ],
+    "modelSeats": [
+      "claude",
+      "codex"
+    ],
+    "coverageComplete": true
   }
 ]

@@ -1,0 +1,98 @@
+{
+  "cases": [
+    {
+      "id": "usada-cbc321b291f0",
+      "status": "supported",
+      "identity": "supported",
+      "country": "supported",
+      "temporalScope": "supported",
+      "evidence": [
+        {
+          "documentId": "country",
+          "startLine": 93,
+          "endLine": 93,
+          "note": "World Boccia official report (2021-12-09) explicitly identifies 'American Wyatt Struxness' competing at São Paulo Americas Regional Championships"
+        },
+        {
+          "documentId": "case",
+          "startLine": 1,
+          "endLine": 7,
+          "note": "USADA official record confirms Wyatt Struxness, age 25, of San Antonio, Texas, Para boccia athlete; case dated July 2022"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-a6e4b38ecdbe",
+      "status": "issue",
+      "identity": "issue",
+      "country": "supported",
+      "temporalScope": "supported",
+      "evidence": [
+        {
+          "documentId": "country",
+          "startLine": 15,
+          "endLine": 17,
+          "note": "IWWF official athlete profile header lists 'STADLBAUR Samantha' with ID USA800121646, year of birth 1997"
+        },
+        {
+          "documentId": "case",
+          "startLine": 1,
+          "endLine": 7,
+          "note": "USADA record identifies 'Samantha Dumala, of Wellington, Fla.' age 22, waterskiing athlete; case dated January 7, 2020"
+        }
+      ],
+      "findings": [
+        {
+          "field": "identity",
+          "explanation": "Surname mismatch: IWWF official record lists athlete name as 'STADLBAUR Samantha' not 'Dumala'. Birth year (1997), sport (waterskiing), location (Wellington, Fla. aligns with IWWF results from Florida), and approximate age match USADA 2020 record for Samantha Dumala age 22. This strongly suggests name change (likely marriage) but is not documented in supplied materials.",
+          "suggestion": "Confirm relationship between STADLBAUR and Dumala surnames and verify this is the same individual before annotating country from IWWF profile."
+        }
+      ]
+    },
+    {
+      "id": "usada-c3a050be56a3",
+      "status": "issue",
+      "identity": "uncertain",
+      "country": "issue",
+      "temporalScope": "issue",
+      "evidence": [
+        {
+          "documentId": "country",
+          "startLine": 195,
+          "endLine": 195,
+          "note": "USA Archery article (dated September 22, 2025) lists 'Richard Burkett Jr.' in Compound Open Men division"
+        },
+        {
+          "documentId": "country",
+          "startLine": 218,
+          "endLine": 219,
+          "note": "USA Archery official team roster: 'Richard Burkett Jr.' Compound Open Men"
+        },
+        {
+          "documentId": "case",
+          "startLine": 1,
+          "endLine": 8,
+          "note": "USADA record (dated April 5, 2021): 'Richard Burkett, of New Castle, Pa.' age 49, Para archery; tested positive August 14, 2020"
+        }
+      ],
+      "findings": [
+        {
+          "field": "identity",
+          "explanation": "Name suffix discrepancy: USADA 2021 record lists 'Richard Burkett' without 'Jr.', while USA Archery 2025 lists 'Richard Burkett Jr.' Both refer to age ~49, Para archery, same location. Likely same person but suffix inconsistency creates ambiguity.",
+          "suggestion": "Verify whether 'Jr.' designation is used consistently or if records refer to different individuals."
+        },
+        {
+          "field": "country",
+          "explanation": "Source used (USA Archery 2025 World Para Championships report) documents sporting affiliation for 2025, not 2020. Official team roster, event records, or results from 2020 competitions would be needed to establish country affiliation during the violation period (August 14, 2020).",
+          "suggestion": "Locate 2020 official USA Archery team records from Target Nationals (August 14, 2020) or other 2020 international para archery competitions."
+        },
+        {
+          "field": "temporalScope",
+          "explanation": "Proposal states 'do not infer 2020 representation from 2025 report', yet uses 2025 source as primary evidence for 2020 country identity. This internal contradiction means evidence does not match the temporal scope of the case (2020).",
+          "suggestion": "Acknowledge that only 2020-era or contemporaneous official records can support country affiliation for 2020 violation; 2025 records document current affiliation only."
+        }
+      ]
+    }
+  ]
+}

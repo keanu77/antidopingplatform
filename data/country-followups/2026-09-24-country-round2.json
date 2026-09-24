@@ -758,6 +758,99 @@
         "packetSha256": "48eed7a04f08e136cfc698ad57a0c62ecf3925e18194fe89dede1cb4627eca34",
         "annotationUpdatedAfterReview": false
       }
+    },
+    {
+      "id": "usada-cbc321b291f0",
+      "athleteName": "Wyatt Struxness",
+      "nationality": "美國",
+      "sourceUrl": "https://www.worldboccia.com/2021/12/09/sao-paulo-rc-day-1-results/",
+      "countryAsListed": "American（2021 World Boccia Americas Regional Championships）",
+      "scope": "official_team_or_event_record",
+      "note": "依 World Boccia 2021 年美洲區域錦標賽官方報導稱其為美國選手；本案事件為 2022 年，不據此推定 2022 年代表資格，也非法律國籍認證。",
+      "sourceRefs": [
+        {
+          "url": "https://www.worldboccia.com/2021/12/09/sao-paulo-rc-day-1-results/",
+          "retrievedAt": "2026-09-24T06:01:53.718598+00:00",
+          "rawSha256": "ee377dccf3b56906aaca835310444e011898a369a0fe68259dadeed16822be14",
+          "textSha256": "5fefe8aa593b82d95baa32178873dc1ad9c13f99864322e19e30f69875866b1c"
+        }
+      ],
+      "modelReview": {
+        "checkedAt": "2026-09-24",
+        "scope": "country_and_identity_only",
+        "modelSeats": [
+          "Claude",
+          "GPT"
+        ],
+        "requestedModels": [
+          "gpt-6-luna",
+          "haiku"
+        ],
+        "packetSha256": "3a23340da119ec7d61ca68d9a6d16eed13ee58a8b8370e282222382a274e47c3",
+        "annotationUpdatedAfterReview": false
+      }
+    },
+    {
+      "id": "usada-1afebbd6c57b",
+      "athleteName": "Cesar Colunga",
+      "nationality": "美國",
+      "sourceUrl": "https://www.teamusa.com/profiles/cesar-colunga",
+      "countryAsListed": "Team USA",
+      "scope": "official_profile_at_lookup",
+      "note": "補充來源為本次查閱的 Team USA 官方選手頁；頁面所列經歷有各自年份，不據此推定本案事件當年代表資格，也非法律國籍認證。",
+      "sourceRefs": [
+        {
+          "url": "https://www.teamusa.com/profiles/cesar-colunga",
+          "retrievedAt": "2026-09-24T06:02:58.487943+00:00",
+          "rawSha256": "b256906477710513cb0b1bb90c67787fdd4745789005769b2add2e1b06fd40ab",
+          "textSha256": "c459e7bbbb356d3c551a841e9e1c815d44ba2b4254486a59818035cc641d186f"
+        }
+      ],
+      "modelReview": {
+        "checkedAt": "2026-09-24",
+        "scope": "country_and_identity_only",
+        "modelSeats": [
+          "Claude",
+          "GPT"
+        ],
+        "requestedModels": [
+          "gpt-6-luna",
+          "haiku"
+        ],
+        "packetSha256": "e36b31d0a272bfbfcc50ca15dc580cad9ffc3f6050c068f71c6bb28ce3211cab",
+        "annotationUpdatedAfterReview": false
+      }
+    },
+    {
+      "id": "usada-e7645ab29f67",
+      "athleteName": "Joseph Mazzie",
+      "nationality": "美國",
+      "sourceUrl": "https://www.worldskate.org/inline-hockey/news-inline-hockey/1771-rosario-2015-senior-men-usa,-france,-latvia-and-czech-republic-pass-to-the-semifinals.html",
+      "countryAsListed": "USA（2015 World Skate inline hockey Senior Men, Rosario）",
+      "scope": "official_team_or_event_record",
+      "note": "依 World Skate 2015 年 Rosario 世界輪滑曲棍球錦標賽官方報導列為 USA 隊得分者；本案事件為 2016 年，不據此推定 2016 年代表資格，也非法律國籍認證。",
+      "sourceRefs": [
+        {
+          "url": "https://www.worldskate.org/inline-hockey/news-inline-hockey/1771-rosario-2015-senior-men-usa,-france,-latvia-and-czech-republic-pass-to-the-semifinals.html",
+          "retrievedAt": "2026-09-24T06:02:58.936703+00:00",
+          "rawSha256": "09a2f54ada56293fcd88376c7d1152aac22bcc1d66dbea69f52656ebb1d960fc",
+          "textSha256": "c6c0a2c605f507360fdb46d1458492bb2fbde46bf07e57b4cb93f7c350f7b105"
+        }
+      ],
+      "modelReview": {
+        "checkedAt": "2026-09-24",
+        "scope": "country_and_identity_only",
+        "modelSeats": [
+          "Claude",
+          "GPT"
+        ],
+        "requestedModels": [
+          "gpt-6-luna",
+          "haiku"
+        ],
+        "packetSha256": "e36b31d0a272bfbfcc50ca15dc580cad9ffc3f6050c068f71c6bb28ce3211cab",
+        "annotationUpdatedAfterReview": false
+      }
     }
   ],
   "heldCountryChecks": [
@@ -784,6 +877,22 @@
     {
       "id": "usada-1035e17c5288",
       "reason": "僅有美國國內協會賽事／獎項紀錄，未明列選手代表國家；模型指出不足以支持國家欄位。為一致起見，本輪不以國內賽事紀錄升級國家證據，維持待確認。"
+    },
+    {
+      "id": "usada-a6e4b38ecdbe",
+      "reason": "IWWF 官方選手頁目前列名 STADLBAUR Samantha（出生年 1997、USA），頁面未出現 Dumala；雖可能為婚後改姓，但官方資料無法連結同人，維持待確認。"
+    },
+    {
+      "id": "usada-c3a050be56a3",
+      "reason": "USA Archery 2025 年報導列 Richard Burkett Jr.，與 USADA 2021 年公告的 Richard Burkett 名稱有後綴差異，且未列城市或年齡；名單晚於本案五年。無法以官方資料確認同人，維持待確認。"
+    },
+    {
+      "id": "usada-2428086c1745",
+      "reason": "兩模型均指出同人疑義：Team USA 頁為壘球（Softball）、Boulder, CO，USADA 為棒球、Longmont；未找到可連結同人的官方棒球國家隊資料，維持待確認。"
+    },
+    {
+      "id": "usada-8813abb5dfc8",
+      "reason": "Claude 指出同人疑義：USADA 為 James Howe II、of Miami，Team USA 頁為 James Howe、Hometown San Ramon；名稱後綴與城市均不同，無其他官方資料可連結，維持待確認。"
     }
   ],
   "dateChecks": []

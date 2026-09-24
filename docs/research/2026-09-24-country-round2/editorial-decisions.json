@@ -54,5 +54,25 @@
   "usada-de625da34c51": {
     "disposition": "accepted_as_proposed",
     "reason": "Claude 指出 2018 年名單晚於本案（2015）；既有註記已限定為 2018 年名單時期、不推定 2015 年代表資格。兩模型均支持身分。"
+  },
+  "usada-a6e4b38ecdbe": {
+    "disposition": "held",
+    "reason": "IWWF 官方選手頁目前列名 STADLBAUR Samantha（出生年 1997、USA），頁面未出現 Dumala；雖可能為婚後改姓，但官方資料無法連結同人，維持待確認。"
+  },
+  "usada-c3a050be56a3": {
+    "disposition": "held",
+    "reason": "USA Archery 2025 年報導列 Richard Burkett Jr.，與 USADA 2021 年公告的 Richard Burkett 名稱有後綴差異，且未列城市或年齡；名單晚於本案五年。無法以官方資料確認同人，維持待確認。"
+  },
+  "usada-2428086c1745": {
+    "disposition": "held",
+    "reason": "兩模型均指出同人疑義：Team USA 頁為壘球（Softball）、Boulder, CO，USADA 為棒球、Longmont；未找到可連結同人的官方棒球國家隊資料，維持待確認。"
+  },
+  "usada-e7645ab29f67": {
+    "disposition": "accepted_as_proposed",
+    "reason": "Claude 指出 2015 年賽事早於本案（2016）；既有註記已限定為 2015 年賽事時期、不推定 2016 年代表資格。兩模型均支持身分。"
+  },
+  "usada-8813abb5dfc8": {
+    "disposition": "held",
+    "reason": "Claude 指出同人疑義：USADA 為 James Howe II、of Miami，Team USA 頁為 James Howe、Hometown San Ramon；名稱後綴與城市均不同，無其他官方資料可連結，維持待確認。"
   }
 }

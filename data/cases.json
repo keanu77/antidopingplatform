@@ -21331,8 +21331,8 @@
    "caseType": "居家照護分藥錯誤／公開警告",
    "checkedAt": "2026-09-23",
    "sourceLocator": "U.S. Boccia Athlete Wyatt Struxness Accepts Public Warning：個案公告標題及全部個案實質段落；含物質／規則、處分、日期與成績後果，止於通用教育資訊前",
-   "nationalitySource": "https://www.usada.org/sanction/wyatt-struxness-accepts-public-warning/",
-   "nationalityAsListed": "U.S. Boccia",
+   "nationalitySource": "https://www.worldboccia.com/2021/12/09/sao-paulo-rc-day-1-results/",
+   "nationalityAsListed": "American（2021 World Boccia Americas Regional Championships）",
    "personType": "Athlete",
    "sourceRow": 191,
    "outcome": "公開警告，無禁賽",
@@ -21356,14 +21356,39 @@
     ],
     "auditedClaimsSha256": "34af8852c553f9be7fc59ba8c905cef4ace66e462b351ae0d702be059434aaca",
     "claimsChangedAfterReview": false,
-    "unresolvedSourceFields": [
+    "unresolvedSourceFields": [],
+    "reviewState": "editorial_adjudicated",
+    "auditedUnresolvedSourceFields": [
      "country"
-    ],
-    "reviewState": "source_limitations"
+    ]
    },
    "countryEvidence": {
-    "status": "title_only",
-    "note": "國家欄目前依官方公告標題的 U.S. 描述；代表國身分仍待補充官方資料，不能視為法律國籍已確認。"
+    "status": "official_country_as_listed",
+    "checkedAt": "2026-09-24",
+    "scope": "official_team_or_event_record",
+    "note": "依 World Boccia 2021 年美洲區域錦標賽官方報導稱其為美國選手；本案事件為 2022 年，不據此推定 2022 年代表資格，也非法律國籍認證。",
+    "sourceRefs": [
+     {
+      "url": "https://www.worldboccia.com/2021/12/09/sao-paulo-rc-day-1-results/",
+      "retrievedAt": "2026-09-24T06:01:53.718598+00:00",
+      "rawSha256": "ee377dccf3b56906aaca835310444e011898a369a0fe68259dadeed16822be14",
+      "textSha256": "5fefe8aa593b82d95baa32178873dc1ad9c13f99864322e19e30f69875866b1c"
+     }
+    ],
+    "modelReview": {
+     "checkedAt": "2026-09-24",
+     "scope": "country_and_identity_only",
+     "modelSeats": [
+      "Claude",
+      "GPT"
+     ],
+     "requestedModels": [
+      "gpt-6-luna",
+      "haiku"
+     ],
+     "packetSha256": "3a23340da119ec7d61ca68d9a6d16eed13ee58a8b8370e282222382a274e47c3",
+     "annotationUpdatedAfterReview": false
+    }
    }
   },
   "registryRecordAsPublished": {
@@ -25455,6 +25480,11 @@
    "countryEvidence": {
     "status": "title_only",
     "note": "國家欄目前依官方公告標題的 U.S. 描述；代表國身分仍待補充官方資料，不能視為法律國籍已確認。"
+   },
+   "countryFollowup": {
+    "checkedAt": "2026-09-24",
+    "resolution": "held",
+    "note": "IWWF 官方選手頁目前列名 STADLBAUR Samantha（出生年 1997、USA），頁面未出現 Dumala；雖可能為婚後改姓，但官方資料無法連結同人，維持待確認。"
    }
   },
   "registryRecordAsPublished": {
@@ -25646,6 +25676,11 @@
    "countryEvidence": {
     "status": "title_only",
     "note": "國家欄目前依官方公告標題的 U.S. 描述；代表國身分仍待補充官方資料，不能視為法律國籍已確認。"
+   },
+   "countryFollowup": {
+    "checkedAt": "2026-09-24",
+    "resolution": "held",
+    "note": "USA Archery 2025 年報導列 Richard Burkett Jr.，與 USADA 2021 年公告的 Richard Burkett 名稱有後綴差異，且未列城市或年齡；名單晚於本案五年。無法以官方資料確認同人，維持待確認。"
    }
   },
   "registryRecordAsPublished": {
@@ -28958,8 +28993,8 @@
    "caseType": "處方 methylphenidate／後續 TUE",
    "checkedAt": "2026-09-23",
    "sourceLocator": "U.S. Karate Athlete Cesar Colunga Accepts Sanction for Anti-Doping Rule Violation：個案公告標題及全部個案實質段落；含物質／規則、處分、日期與成績後果，止於通用教育資訊前",
-   "nationalitySource": "https://www.usada.org/sanction/cesar-colunga-accepts-doping-sanction/",
-   "nationalityAsListed": "U.S. Karate",
+   "nationalitySource": "https://www.teamusa.com/profiles/cesar-colunga",
+   "nationalityAsListed": "Team USA",
    "personType": "Athlete",
    "sourceRow": 451,
    "outcome": "4個月",
@@ -28983,14 +29018,39 @@
     ],
     "auditedClaimsSha256": "9269506ff7ae263f73758edf7d07e13f79735748455d6a2082ef9240586d80f7",
     "claimsChangedAfterReview": false,
-    "unresolvedSourceFields": [
+    "unresolvedSourceFields": [],
+    "reviewState": "editorial_adjudicated",
+    "auditedUnresolvedSourceFields": [
      "country"
-    ],
-    "reviewState": "source_limitations"
+    ]
    },
    "countryEvidence": {
-    "status": "title_only",
-    "note": "國家欄目前依官方公告標題的 U.S. 描述；代表國身分仍待補充官方資料，不能視為法律國籍已確認。"
+    "status": "official_country_as_listed",
+    "checkedAt": "2026-09-24",
+    "scope": "official_profile_at_lookup",
+    "note": "補充來源為本次查閱的 Team USA 官方選手頁；頁面所列經歷有各自年份，不據此推定本案事件當年代表資格，也非法律國籍認證。",
+    "sourceRefs": [
+     {
+      "url": "https://www.teamusa.com/profiles/cesar-colunga",
+      "retrievedAt": "2026-09-24T06:02:58.487943+00:00",
+      "rawSha256": "b256906477710513cb0b1bb90c67787fdd4745789005769b2add2e1b06fd40ab",
+      "textSha256": "c459e7bbbb356d3c551a841e9e1c815d44ba2b4254486a59818035cc641d186f"
+     }
+    ],
+    "modelReview": {
+     "checkedAt": "2026-09-24",
+     "scope": "country_and_identity_only",
+     "modelSeats": [
+      "Claude",
+      "GPT"
+     ],
+     "requestedModels": [
+      "gpt-6-luna",
+      "haiku"
+     ],
+     "packetSha256": "e36b31d0a272bfbfcc50ca15dc580cad9ffc3f6050c068f71c6bb28ce3211cab",
+     "annotationUpdatedAfterReview": false
+    }
    }
   },
   "registryRecordAsPublished": {
@@ -37789,6 +37849,11 @@
    "countryEvidence": {
     "status": "title_only",
     "note": "國家欄目前依官方公告標題的 U.S. 描述；代表國身分仍待補充官方資料，不能視為法律國籍已確認。"
+   },
+   "countryFollowup": {
+    "checkedAt": "2026-09-24",
+    "resolution": "held",
+    "note": "Claude 指出同人疑義：USADA 為 James Howe II、of Miami，Team USA 頁為 James Howe、Hometown San Ramon；名稱後綴與城市均不同，無其他官方資料可連結，維持待確認。"
    }
   },
   "registryRecordAsPublished": {
@@ -38906,8 +38971,8 @@
    "caseType": "RAD140 與 ibutamoren 陽性",
    "checkedAt": "2026-09-23",
    "sourceLocator": "U.S. Roller Hockey Athlete, Mazzie, Accepts Sanction for Anti-Doping Rule Violation：個案公告標題及全部個案實質段落；含物質／規則、處分、日期與成績後果，止於通用教育資訊前",
-   "nationalitySource": "https://www.usada.org/sanction/joseph-mazzie-accepts-doping-sanction/",
-   "nationalityAsListed": "U.S. Roller Hockey",
+   "nationalitySource": "https://www.worldskate.org/inline-hockey/news-inline-hockey/1771-rosario-2015-senior-men-usa,-france,-latvia-and-czech-republic-pass-to-the-semifinals.html",
+   "nationalityAsListed": "USA（2015 World Skate inline hockey Senior Men, Rosario）",
    "personType": "Athlete",
    "sourceRow": 582,
    "outcome": "4年",
@@ -38931,14 +38996,39 @@
     ],
     "auditedClaimsSha256": "c0932b725553bd1c9de5dcb000c66d9831dd28975a77d7b81098d1725a67b969",
     "claimsChangedAfterReview": false,
-    "unresolvedSourceFields": [
+    "unresolvedSourceFields": [],
+    "reviewState": "editorial_adjudicated",
+    "auditedUnresolvedSourceFields": [
      "country"
-    ],
-    "reviewState": "source_limitations"
+    ]
    },
    "countryEvidence": {
-    "status": "title_only",
-    "note": "國家欄目前依官方公告標題的 U.S. 描述；代表國身分仍待補充官方資料，不能視為法律國籍已確認。"
+    "status": "official_country_as_listed",
+    "checkedAt": "2026-09-24",
+    "scope": "official_team_or_event_record",
+    "note": "依 World Skate 2015 年 Rosario 世界輪滑曲棍球錦標賽官方報導列為 USA 隊得分者；本案事件為 2016 年，不據此推定 2016 年代表資格，也非法律國籍認證。",
+    "sourceRefs": [
+     {
+      "url": "https://www.worldskate.org/inline-hockey/news-inline-hockey/1771-rosario-2015-senior-men-usa,-france,-latvia-and-czech-republic-pass-to-the-semifinals.html",
+      "retrievedAt": "2026-09-24T06:02:58.936703+00:00",
+      "rawSha256": "09a2f54ada56293fcd88376c7d1152aac22bcc1d66dbea69f52656ebb1d960fc",
+      "textSha256": "c6c0a2c605f507360fdb46d1458492bb2fbde46bf07e57b4cb93f7c350f7b105"
+     }
+    ],
+    "modelReview": {
+     "checkedAt": "2026-09-24",
+     "scope": "country_and_identity_only",
+     "modelSeats": [
+      "Claude",
+      "GPT"
+     ],
+     "requestedModels": [
+      "gpt-6-luna",
+      "haiku"
+     ],
+     "packetSha256": "e36b31d0a272bfbfcc50ca15dc580cad9ffc3f6050c068f71c6bb28ce3211cab",
+     "annotationUpdatedAfterReview": false
+    }
    }
   },
   "registryRecordAsPublished": {
@@ -39374,6 +39464,11 @@
    "countryEvidence": {
     "status": "title_only",
     "note": "國家欄目前依官方公告標題的 U.S. 描述；代表國身分仍待補充官方資料，不能視為法律國籍已確認。"
+   },
+   "countryFollowup": {
+    "checkedAt": "2026-09-24",
+    "resolution": "held",
+    "note": "兩模型均指出同人疑義：Team USA 頁為壘球（Softball）、Boulder, CO，USADA 為棒球、Longmont；未找到可連結同人的官方棒球國家隊資料，維持待確認。"
    }
   },
   "registryRecordAsPublished": {

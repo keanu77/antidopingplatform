@@ -178,5 +178,205 @@
     ],
     "result": "source_fetch_blocked",
     "note": "USA Rugby（eagles.rugby）2025 年代表隊名單頁回應 HTTP 429，本輪無法保存原件；另知其為南非出生，須以官方名單確認代表美國。維持待補證，下輪重試。"
+  },
+  {
+    "id": "usada-b0f378938e1f",
+    "athleteName": "Gregory Walker",
+    "searchedAt": "2026-09-24",
+    "queries": [
+      "\"Gregory Walker\" Paralympic track and field USA"
+    ],
+    "result": "not_found",
+    "note": "僅找到轉載與基金會介紹頁；未找到官方選手或代表隊資料。維持待補證。"
+  },
+  {
+    "id": "usada-cc59982303fb",
+    "athleteName": "Jason Griffin",
+    "searchedAt": "2026-09-24",
+    "queries": [
+      "\"Jason Griffin\" para cycling USA"
+    ],
+    "result": "not_found",
+    "note": "僅找到 USADA 公告、第三方成績與媒體頁；未找到官方選手或代表隊資料。維持待補證。"
+  },
+  {
+    "id": "usada-0c3eeb120b51",
+    "athleteName": "Peter Park",
+    "searchedAt": "2026-09-24",
+    "queries": [
+      "\"Peter Park\" Paralympic sprinter USA"
+    ],
+    "result": "not_found",
+    "note": "未找到可辨識的官方選手資料。維持待補證。"
+  },
+  {
+    "id": "usada-4c30c4355448",
+    "athleteName": "Robert Prenoveau",
+    "searchedAt": "2026-09-24",
+    "queries": [
+      "\"Robert Prenoveau\" wheelchair curling"
+    ],
+    "result": "not_found",
+    "note": "僅找到 USADA 公告、轉載、維基百科與部落格；採樣於國內選拔賽，未取得官方代表隊名單。維持待補證。"
+  },
+  {
+    "id": "usada-0f682f5a12d7",
+    "athleteName": "Marck Harrison",
+    "searchedAt": "2026-09-24",
+    "queries": [
+      "\"Marck Harrison\" boccia"
+    ],
+    "result": "source_fetch_blocked",
+    "note": "搜尋結果有 Team USA 帕拉地板滾球舊版選手頁（teamusa.org），但下載時連線中斷，無法保存原件。維持待補證，下輪重試。"
+  },
+  {
+    "id": "usada-09d96ec873e6",
+    "athleteName": "Susan Dutta",
+    "searchedAt": "2026-09-24",
+    "queries": [
+      "\"Susan Dutta\" equestrian"
+    ],
+    "result": "source_fetch_blocked",
+    "note": "找到 FEI 與 US Equestrian 官方選手頁，但 FEI 回應 HTTP 403、US Equestrian 頁面內容由程式載入無法擷取文字。維持待補證，下輪重試。"
+  },
+  {
+    "id": "usada-6d48feafc5e9",
+    "athleteName": "Nia Williams",
+    "searchedAt": "2026-09-24",
+    "queries": [
+      "\"Nia Williams\" rugby USA Eagles women"
+    ],
+    "result": "source_fetch_blocked",
+    "note": "找到 USA Rugby 選手頁，但連線逾時無法保存原件；另有同名大學球員，需以官方資料辨識。維持待補證，下輪重試。"
+  },
+  {
+    "id": "usada-f49825dfb87e",
+    "athleteName": "Sharon Jackson",
+    "searchedAt": "2026-09-24",
+    "queries": [
+      "\"Sharon Jackson\" racquetball USA Racquetball team"
+    ],
+    "result": "domestic_only",
+    "note": "僅找到美國國內賽事紀錄；依本輪一致原則不作為國家證據。維持待補證。"
+  },
+  {
+    "id": "usada-cca09860726b",
+    "athleteName": "Joseph Lamour",
+    "searchedAt": "2026-09-24",
+    "queries": [
+      "\"Joseph Lamour\" team handball USA"
+    ],
+    "result": "not_found",
+    "note": "僅找到 USADA 公告、轉載與維基百科大學賽紀錄；未找到官方國家隊資料。維持待補證。"
+  },
+  {
+    "id": "usada-70b898158395",
+    "athleteName": "James Vennera",
+    "searchedAt": "2026-09-24",
+    "queries": [
+      "\"James Vennera\" archery"
+    ],
+    "result": "domestic_only",
+    "note": "僅找到 USADA 公告與 USA Archery 分級資料庫（國內）；依一致原則不作為國家證據。維持待補證。"
+  },
+  {
+    "id": "usada-48f0300507d6",
+    "athleteName": "Michael Dunkum",
+    "searchedAt": "2026-09-24",
+    "queries": [
+      "\"Michael Dunkum\" wrestling"
+    ],
+    "result": "not_found",
+    "note": "僅找到影片、第三方紀錄與轉載；未取得 USA Wrestling 官方國家隊資料。維持待補證。"
+  },
+  {
+    "id": "usada-507362151651",
+    "athleteName": "Rachel Campbell",
+    "searchedAt": "2026-09-24",
+    "queries": [
+      "\"Rachel Campbell\" weightlifting CrossFit USADA"
+    ],
+    "result": "not_found",
+    "note": "僅找到 CrossFit 賽事與媒體頁；無奧林匹克運動官方選手或代表隊資料。維持待補證。"
+  },
+  {
+    "id": "usada-f534d40de6df",
+    "athleteName": "Janel Tisinger-Ledkins",
+    "searchedAt": "2026-09-24",
+    "queries": [
+      "\"Janel Tisinger-Ledkins\" Team USA racquetball"
+    ],
+    "result": "source_fetch_blocked",
+    "note": "USA Racquetball 舊版 Team USA 報導（teamusa.org）連線中斷無法保存原件；現行網站僅有委員名單。維持待補證，下輪重試。"
+  },
+  {
+    "id": "usada-e202db4ec31d",
+    "athleteName": "Ashley Paulson",
+    "searchedAt": "2026-09-24",
+    "queries": [
+      "\"Ashley Paulson\" triathlete OR ultrarunner"
+    ],
+    "result": "not_found",
+    "note": "僅找到媒體報導；未取得官方國家代表隊或國際總會選手頁。維持待補證。"
+  },
+  {
+    "id": "usada-31d2d25d4314",
+    "athleteName": "Michael Meacham",
+    "searchedAt": "2026-09-24",
+    "queries": [
+      "\"Michael Meacham\" triathlon USADA"
+    ],
+    "result": "not_found",
+    "note": "僅找到 USADA 公告；未找到官方選手資料。維持待補證。"
+  },
+  {
+    "id": "usada-07d30b0088c7",
+    "athleteName": "Julie Rosiek",
+    "searchedAt": "2026-09-24",
+    "queries": [
+      "\"Julie Rosiek\" triathlon USADA"
+    ],
+    "result": "not_found",
+    "note": "僅找到 USADA 公告；未找到官方選手資料。維持待補證。"
+  },
+  {
+    "id": "usada-6e7d139bba18",
+    "athleteName": "Nicholas Gough",
+    "searchedAt": "2026-09-24",
+    "queries": [
+      "\"Nicholas Gough\" triathlon USADA"
+    ],
+    "result": "not_found",
+    "note": "未找到官方選手資料。維持待補證。"
+  },
+  {
+    "id": "usada-e52ee6c67921",
+    "athleteName": "Lisa Roberts",
+    "searchedAt": "2026-09-24",
+    "queries": [
+      "\"Lisa Roberts\" triathlon profile"
+    ],
+    "result": "not_found",
+    "note": "姓名常見，未找到可辨識的官方選手資料。維持待補證。"
+  },
+  {
+    "id": "usada-2791db22edc5",
+    "athleteName": "Bill Beyer",
+    "searchedAt": "2026-09-24",
+    "queries": [
+      "\"Bill Beyer\" triathlon profile"
+    ],
+    "result": "not_found",
+    "note": "未找到官方選手資料。維持待補證。"
+  },
+  {
+    "id": "usada-557b3d045e61",
+    "athleteName": "Jamaal Daniels",
+    "searchedAt": "2026-09-24",
+    "queries": [
+      "\"Jamaal Daniels\" Paralympic coach"
+    ],
+    "result": "not_found",
+    "note": "身分為教練（Athlete Support Personnel），不適用選手代表資格；未找到官方資料。維持待補證。"
   }
 ]

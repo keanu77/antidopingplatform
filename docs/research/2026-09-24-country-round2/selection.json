@@ -421,5 +421,103 @@
       "US men",
       "2018"
     ]
+  },
+  {
+    "id": "usada-cbc321b291f0",
+    "sourceUrl": "https://www.worldboccia.com/2021/12/09/sao-paulo-rc-day-1-results/",
+    "scope": "official_team_or_event_record",
+    "countryAsListed": "American（2021 World Boccia Americas Regional Championships）",
+    "temporalNote": "依 World Boccia 2021 年美洲區域錦標賽官方報導稱其為美國選手；本案事件為 2022 年，不據此推定 2022 年代表資格，也非法律國籍認證。",
+    "identityRationale": "同名 Wyatt Struxness、地板滾球（Para）；官方報導稱 American Wyatt Struxness；未列城市或年齡（USADA 稱 of San Antonio, Texas、25 歲）。",
+    "matchTerms": [
+      "Struxness",
+      "American",
+      "São Paulo",
+      "Regional"
+    ]
+  },
+  {
+    "id": "usada-a6e4b38ecdbe",
+    "sourceUrl": "https://ems.iwwf.sport/Athletes/Profile/745a82a7-7f09-4a7d-a04f-04f6f7105d61",
+    "scope": "official_profile_at_lookup",
+    "countryAsListed": "USA",
+    "temporalNote": "補充來源為本次查閱的官方選手資料所列國家；不據此認證法律國籍、事件當時代表資格或完整代表國變更史。",
+    "identityRationale": "同名 Samantha Dumala、滑水；國際滑水總會（IWWF）官方選手頁列 USA、出生年 1997、選手編號 USA800121646；USADA 2020 稱 of Wellington, Fla.，官方頁未列城市。",
+    "matchTerms": [
+      "Dumala",
+      "DUMALA",
+      "USA",
+      "Year of birth"
+    ]
+  },
+  {
+    "id": "usada-c3a050be56a3",
+    "sourceUrl": "https://www.usarchery.org/article/archers-return-to-gwangju-for-the-world-archery-para-championships",
+    "scope": "official_team_or_event_record",
+    "countryAsListed": "United States（2025 World Archery Para Championships）",
+    "temporalNote": "依 USA Archery 2025 年世界帕拉射箭錦標賽美國代表隊報導辨識代表隊；本案事件為 2020 年，不據此推定 2020 年代表資格，也非法律國籍認證。",
+    "identityRationale": "Richard Burkett／Richard Burkett Jr.、帕拉射箭（Compound Open Men）；USA Archery 報導列為代表美國的十名選手之一；未列城市或年齡（USADA 稱 of New Castle, Pa.、49 歲），名字多一個 Jr. 後綴。",
+    "matchTerms": [
+      "Burkett",
+      "represent the United States",
+      "Compound Open"
+    ]
+  },
+  {
+    "id": "usada-1afebbd6c57b",
+    "sourceUrl": "https://www.teamusa.com/profiles/cesar-colunga",
+    "scope": "official_profile_at_lookup",
+    "countryAsListed": "Team USA",
+    "temporalNote": "補充來源為本次查閱的 Team USA 官方選手頁；頁面所列經歷有各自年份，不據此推定本案事件當年代表資格，也非法律國籍認證。",
+    "identityRationale": "同名 Cesar Colunga、空手道；Team USA 頁列 Hometown Plano, TX、Age 28（查閱時），與 USADA 2018-05 of Plano, Texas、20 歲相符。",
+    "matchTerms": [
+      "Colunga",
+      "Hometown",
+      "Plano",
+      "Age"
+    ]
+  },
+  {
+    "id": "usada-2428086c1745",
+    "sourceUrl": "https://www.teamusa.com/profiles/tara-harbert",
+    "scope": "official_profile_at_lookup",
+    "countryAsListed": "Team USA",
+    "temporalNote": "補充來源為本次查閱的 Team USA 官方選手頁；頁面所列經歷有各自年份，不據此推定本案事件當年代表資格，也非法律國籍認證。",
+    "identityRationale": "同名 Tara Harbert；Team USA 頁列 Hometown Boulder, CO、Niwot High School、Colorado State，Age 42（查閱時）；USADA 2015-12 稱 of Longmont, Colorado（鄰近城市）、33 歲，年齡約相符但可能差一歲；項目頁面標題為 Softball，USADA 為 baseball，需判斷。",
+    "matchTerms": [
+      "Harbert",
+      "Hometown",
+      "Boulder",
+      "Niwot",
+      "Age"
+    ]
+  },
+  {
+    "id": "usada-e7645ab29f67",
+    "sourceUrl": "https://www.worldskate.org/inline-hockey/news-inline-hockey/1771-rosario-2015-senior-men-usa,-france,-latvia-and-czech-republic-pass-to-the-semifinals.html",
+    "scope": "official_team_or_event_record",
+    "countryAsListed": "USA（2015 World Skate inline hockey Senior Men, Rosario）",
+    "temporalNote": "依 World Skate 2015 年 Rosario 世界輪滑曲棍球錦標賽官方報導列為 USA 隊得分者；本案事件為 2016 年，不據此推定 2016 年代表資格，也非法律國籍認證。",
+    "identityRationale": "同名 Joseph Mazzie、輪滑曲棍球；官方報導列 Joseph Mazzie (USA)；未列城市或年齡（USADA 稱 of East Meadow, N.Y.、29 歲）。",
+    "matchTerms": [
+      "Mazzie",
+      "USA",
+      "Rosario",
+      "Senior Men"
+    ]
+  },
+  {
+    "id": "usada-8813abb5dfc8",
+    "sourceUrl": "https://www.teamusa.com/profiles/james-howe",
+    "scope": "official_profile_at_lookup",
+    "countryAsListed": "Team USA",
+    "temporalNote": "補充來源為本次查閱的 Team USA 官方選手頁；頁面所列經歷有各自年份，不據此推定本案事件當年代表資格，也非法律國籍認證。",
+    "identityRationale": "James Howe／James Howe II、跆拳道；Team USA 頁 Age 39（查閱時），與 USADA 2016-07 稱 29 歲相符；USADA 稱 of Miami, Florida，官方頁列 Hometown San Ramon，城市不同；官方頁未列 II 後綴。",
+    "matchTerms": [
+      "Howe",
+      "Age",
+      "Hometown",
+      "Taekwondo"
+    ]
   }
 ]
