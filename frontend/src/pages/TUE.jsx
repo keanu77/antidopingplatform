@@ -18,6 +18,7 @@ import {
   XCircle,
 } from "lucide-react";
 import { tueAPI } from "../services/api";
+import TaiwanDrugLookupCard from "../components/TaiwanDrugLookupCard";
 import {
   evaluateDrug,
   availableRoutes,
@@ -1514,6 +1515,8 @@ function TUE() {
                 );
               })()}
           </div>
+
+          <TaiwanDrugLookupCard />
 
           {/* P1-11 多步決策工具（途徑 × 賽內外 × 運動項目） */}
           <div className="bg-white rounded-lg shadow-lg p-6">
