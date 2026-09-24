@@ -235,7 +235,11 @@ test("analysis keeps full denominators, unknown outcomes and actual independent 
     assert.equal(data[field].unknown, cases.filter((c) => c.punishment[field] == null).length);
   }
   const categories = (await api("/api/stats/substance-distribution")).data;
-  assert.equal(categories.reduce((sum, row) => sum + row.count, 0), expectedTotal);
+  const unclassified = cases.filter(c => c.substanceCategory === "年度禁用清單分類未另核對");
+  assert.equal(unclassified.length, 190);
+  assert.equal(categories.reduce((sum, row) => sum + row.count, 0), expectedTotal - unclassified.length);
+  assert.ok(!categories.some(row => /未.*核對|未標示/.test(row.category)));
+  assert.equal((await api("/api/cases?limit=1")).data.totalCases, expectedTotal, "chart exclusions must not delete case records");
   assert.ok(categories.some((row) => row.category === "其他標籤" && row.count > 0));
   assert.equal(byId("usada-a00b98f42826").review.countryEvidence.status, "official_country_as_listed");
   assert.equal(byId("usada-d8d5e2c3a318").review.countryEvidence, undefined);

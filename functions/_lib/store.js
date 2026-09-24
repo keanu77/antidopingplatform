@@ -146,7 +146,11 @@ export const stats = {
       .map(({ key, count }) => ({ sport: key, count }));
   },
   substanceDistribution() {
-    return topWithRemainder(countBy((c) => c.substanceCategory || "未標示"))
+    return topWithRemainder(countBy((c) => {
+      const label = c.substanceCategory?.trim();
+      // Exclude unknown classifications before grouping the remainder.
+      return !label || /未.*核對|未標示/.test(label) ? null : label;
+    }))
       .map(({ key, count }) => ({ category: key, count }));
   },
   nationalityDistribution() {
