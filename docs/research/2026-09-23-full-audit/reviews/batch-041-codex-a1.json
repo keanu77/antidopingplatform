@@ -1,0 +1,235 @@
+{
+  "cases": [
+    {
+      "id": "aiu-4213ba8b75b5",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-344fd9ceb1cc3b02",
+        "registry-d3996d8801849427"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-344fd9ceb1cc3b02",
+          "startLine": 15,
+          "endLine": 15,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "決定稱 Kirulkar 為來自印度的長跑選手。"
+        },
+        {
+          "documentId": "doc-344fd9ceb1cc3b02",
+          "startLine": 49,
+          "endLine": 57,
+          "supports": [
+            "event",
+            "substance"
+          ],
+          "note": "2024年12月15日浦那半馬賽內尿樣檢出 meldonium，未獲或可獲 TUE。"
+        },
+        {
+          "documentId": "doc-344fd9ceb1cc3b02",
+          "startLine": 101,
+          "endLine": 102,
+          "supports": [
+            "substance"
+          ],
+          "note": "決定依2024禁用清單列為 S4.4 代謝調節劑、非特定物質且任何時間禁用。"
+        },
+        {
+          "documentId": "doc-344fd9ceb1cc3b02",
+          "startLine": 123,
+          "endLine": 151,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "早期承認使四年主張處分減一年；禁賽自2025年2月19日起三年，並取消自2024年12月15日起成績及相關後果。"
+        },
+        {
+          "documentId": "doc-344fd9ceb1cc3b02",
+          "startLine": 152,
+          "endLine": 164,
+          "supports": [
+            "education"
+          ],
+          "note": "選手接受後果並放棄聽證；文件列有上訴權，未證明違規動機。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "aiu-4207202fdd60",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-584d3b1ce020639f",
+        "registry-1cc6a01b454460f2"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-584d3b1ce020639f",
+          "startLine": 15,
+          "endLine": 15,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "決定稱 More 為來自印度的長跑選手。"
+        },
+        {
+          "documentId": "doc-584d3b1ce020639f",
+          "startLine": 49,
+          "endLine": 58,
+          "supports": [
+            "event",
+            "substance"
+          ],
+          "note": "2024年12月15日浦那半馬賽內尿樣檢出 mephentermine、meldonium 與 darbepoetin，無適用 TUE。"
+        },
+        {
+          "documentId": "doc-584d3b1ce020639f",
+          "startLine": 99,
+          "endLine": 110,
+          "supports": [
+            "substance"
+          ],
+          "note": "決定列出三種物質的2024禁用清單類別，並依規則計算四年標準處分。"
+        },
+        {
+          "documentId": "doc-584d3b1ce020639f",
+          "startLine": 149,
+          "endLine": 196,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "多種物質構成加重情節，六年處分因及早承認減一年；五年禁賽自2025年2月21日起，成績自2024年12月15日起取消。"
+        },
+        {
+          "documentId": "doc-584d3b1ce020639f",
+          "startLine": 197,
+          "endLine": 209,
+          "supports": [
+            "education"
+          ],
+          "note": "More 接受後果並放棄聽證；決定列有上訴權。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "aiu-a88d58d818af",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-fcce95c873afda6e",
+        "registry-0f32a21f9b8f83af"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-fcce95c873afda6e",
+          "startLine": 1,
+          "endLine": 12,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "決定確認 Jadhav 身分，並稱她為來自印度的長距離跑者。"
+        },
+        {
+          "documentId": "doc-fcce95c873afda6e",
+          "startLine": 55,
+          "endLine": 69,
+          "supports": [
+            "event",
+            "substance"
+          ],
+          "note": "2024年12月15日浦那半馬賽內檢出 oxandrolone 及代謝物，無適用 TUE。"
+        },
+        {
+          "documentId": "doc-fcce95c873afda6e",
+          "startLine": 80,
+          "endLine": 94,
+          "supports": [
+            "substance",
+            "education"
+          ],
+          "note": "她要求 B 瓶分析，但未於期限內支付費用；文件記載其後被視為放棄分析權。"
+        },
+        {
+          "documentId": "doc-fcce95c873afda6e",
+          "startLine": 107,
+          "endLine": 128,
+          "supports": [
+            "education"
+          ],
+          "note": "文件記載未完成 B 瓶分析，另有診斷報告所載其他尿液藥物檢查結果。"
+        },
+        {
+          "documentId": "doc-fcce95c873afda6e",
+          "startLine": 160,
+          "endLine": 190,
+          "supports": [
+            "sanction",
+            "education"
+          ],
+          "note": "Jadhav 未於延長期限前簽署接受後果表，亦未按期限回覆。"
+        },
+        {
+          "documentId": "doc-fcce95c873afda6e",
+          "startLine": 212,
+          "endLine": 236,
+          "supports": [
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "Oxandrolone 為 S1.1 非特定物質；決定維持四年禁賽，自2025年1月7日起，並取消自2024年12月15日起成績及相關後果。"
+        },
+        {
+          "documentId": "doc-fcce95c873afda6e",
+          "startLine": 255,
+          "endLine": 255,
+          "supports": [
+            "dates"
+          ],
+          "note": "AIU 決定日期為2025年3月17日。"
+        }
+      ],
+      "findings": []
+    }
+  ]
+}

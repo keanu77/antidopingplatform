@@ -1,0 +1,508 @@
+{
+  "cases": [
+    {
+      "id": "usada-4366103d9b91",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-2dfaf659679b89e8",
+        "registry-3a95206b3acd028f"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-2dfaf659679b89e8",
+          "startLine": 7,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告Polk因持有禁用肽類非分析違規接受兩年禁賽並取消2015年5月15日起成績"
+        },
+        {
+          "documentId": "registry-3a95206b3acd028f",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction"
+          ],
+          "note": "名冊登記Polk持有肽類兩年禁賽及取消成績"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "美國",
+          "explanation": "官方公告僅於標題提及「U.S. Track & Field Athlete」及居住地德州Plano，依規定標題與居住地不足以確立國籍或運動代表權。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-2dfaf659679b89e8",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "補充國籍或運動代表權官方佐證，或將國籍註明為未確立"
+        }
+      ]
+    },
+    {
+      "id": "usada-2c9f4748c39c",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-212aa2f7c418f495",
+        "registry-49a213d538987a8c"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-212aa2f7c418f495",
+          "startLine": 7,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告Henderson檢出THC超標處六個月禁賽，完成教育減為三個月"
+        },
+        {
+          "documentId": "registry-49a213d538987a8c",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction"
+          ],
+          "note": "名冊登記Henderson大麻素違規處六個月禁賽含三個月暫緩及取消成績"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "美國",
+          "explanation": "官方來源僅於標題提及「U.S. Cycling Athlete」及明尼蘇達州居住地，不足以直接確立國籍或體育代表權。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-212aa2f7c418f495",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "補充國籍或代表權證明文件，或將國籍標註為未確立"
+        }
+      ]
+    },
+    {
+      "id": "usada-5682bad4c39a",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-da26e02795ba2984",
+        "registry-2c901242ca701431"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-da26e02795ba2984",
+          "startLine": 7,
+          "endLine": 11,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告Dates因使用持有ostarine、施用共謀及篡改接受四年禁賽並取消2015年7月1日起成績"
+        },
+        {
+          "documentId": "registry-2c901242ca701431",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction"
+          ],
+          "note": "名冊登記Dates使用與持有ostarine處四年禁賽及取消成績"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "美國",
+          "explanation": "官方公告僅於標題標示「U.S. Track & Field Athlete」及居住地田納西州Nashville，缺乏確立國籍或代表權之直接官方證據。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-da26e02795ba2984",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "補充運動代表權或國籍官方證明，或標註為未確立"
+        }
+      ]
+    },
+    {
+      "id": "usada-e52ee6c67921",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-1851b118d360615e",
+        "registry-5af97d8369087394"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-1851b118d360615e",
+          "startLine": 7,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告Roberts申報並檢出vilanterol，查證屬醫療劑量並已取得TUE，處公開警告及取消單場成績"
+        },
+        {
+          "documentId": "registry-5af97d8369087394",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction"
+          ],
+          "note": "名冊登記Roberts檢出vilanterol處公開警告及取消成績"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "美國",
+          "explanation": "官方文件僅於標題稱「U.S. Triathlon Athlete」與亞利桑那州Tucson居住地，不足以直接確立國籍或體育代表權。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-1851b118d360615e",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "補充代表隊或國籍官方證明，或將國籍欄位標註為未確立"
+        }
+      ]
+    },
+    {
+      "id": "usada-4ab89c689116",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-03a068a9f39e457b",
+        "registry-acd9e7e8bdc86631"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-03a068a9f39e457b",
+          "startLine": 7,
+          "endLine": 11,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告Westbrook因持有使用ostarine與篡改共謀處四年禁賽並取消2015年8月1日起成績"
+        },
+        {
+          "documentId": "registry-acd9e7e8bdc86631",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction"
+          ],
+          "note": "名冊登記Westbrook使用與持有ostarine處四年禁賽及取消成績"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "美國",
+          "explanation": "公告僅在標題提及「U.S. Track & Field Athlete」及居住地田納西州Fairview，依審查標準不足以確立國籍或運動代表權。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-03a068a9f39e457b",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "補強國籍或代表權證明文件，或標註為未確立"
+        }
+      ]
+    },
+    {
+      "id": "usada-7cdaea68994c",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-5c0d489ca3289c8f",
+        "registry-749b3e1b77bfed8c"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-5c0d489ca3289c8f",
+          "startLine": 7,
+          "endLine": 11,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告Vance逃避採樣原處四年禁賽，因及時承認減為三年，並取消2017年6月10日起成績"
+        },
+        {
+          "documentId": "registry-749b3e1b77bfed8c",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction"
+          ],
+          "note": "名冊登記Vance逃避採樣處四年禁賽減一年及取消成績"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "美國",
+          "explanation": "公告標題稱「U.S. Paralympic Track & Field Athlete」且居住於密西西比州，內文第11行亦說明管轄範圍涵蓋在美外國運動員，無法直接確立其國籍。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-5c0d489ca3289c8f",
+              "startLine": 1,
+              "endLine": 11
+            }
+          ],
+          "suggestion": "補強代表權或國籍官方證明，或將國籍標註為未確立"
+        }
+      ]
+    },
+    {
+      "id": "usada-870d48eb51f7",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-52381391b77f34ac",
+        "registry-1fc8d22aee247bb7"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-52381391b77f34ac",
+          "startLine": 7,
+          "endLine": 11,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告Schiefer檢出clomiphene及其代謝物，查為三個月前結束之醫師處方，認定輕度過失處六個月禁賽並取消成績"
+        },
+        {
+          "documentId": "registry-1fc8d22aee247bb7",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction"
+          ],
+          "note": "名冊登記Schiefer檢出clomiphene及其代謝物處六個月禁賽及取消成績"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "美國",
+          "explanation": "官方來源僅於標題提及「U.S. Cycling Athlete」及加州Union City居住地，依標準不足以確立國籍或運動代表權。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-52381391b77f34ac",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "補強國籍或代表權證明文件，或標註為未確立"
+        }
+      ]
+    },
+    {
+      "id": "usada-fc2334e2f733",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-e3af902208d955d6",
+        "registry-a6ec01819b187c60"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-e3af902208d955d6",
+          "startLine": 7,
+          "endLine": 9,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告Wuebben檢出clomiphene與ritalinic acid多種禁藥，接受四年禁賽並取消2017年4月9日起成績"
+        },
+        {
+          "documentId": "registry-a6ec01819b187c60",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction"
+          ],
+          "note": "名冊登記Wuebben檢出clomiphene與ritalinic acid處四年禁賽及取消成績"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "美國",
+          "explanation": "公告僅於標題稱「U.S. Weightlifting Athlete」並載明北卡羅來納州居住地，不足以直接確立國籍或體育代表權。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-e3af902208d955d6",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "補充國籍或運動代表權直接官方文件，或將國籍標註為未確立"
+        }
+      ]
+    }
+  ]
+}

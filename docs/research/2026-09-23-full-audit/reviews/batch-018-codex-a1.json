@@ -1,0 +1,90 @@
+{
+  "cases": [
+    {
+      "id": "aiu-5403f5195c51",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-30989e8909b42df0",
+        "registry-cdd6da6c3a3057d3"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-30989e8909b42df0",
+          "startLine": 41,
+          "endLine": 48,
+          "supports": [
+            "identity",
+            "country",
+            "substance"
+          ],
+          "note": "決定確認 Chepkwony 為肯亞長跑選手，指控及裁決涉及 ADR 2.2 使用禁用物質或方法。"
+        },
+        {
+          "documentId": "doc-30989e8909b42df0",
+          "startLine": 61,
+          "endLine": 67,
+          "supports": [
+            "event",
+            "substance"
+          ],
+          "note": "ABP 專家認定 2024 年 8 月兩份血樣異常，屬血液禁藥證據，並非特定物質檢測。"
+        },
+        {
+          "documentId": "doc-30989e8909b42df0",
+          "startLine": 725,
+          "endLine": 736,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "裁決認定違規，處四年禁賽並取消自 2024 年 8 月 24 日起成績。"
+        },
+        {
+          "documentId": "doc-30989e8909b42df0",
+          "startLine": 779,
+          "endLine": 784,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "處分列明禁賽至 2029 年 12 月 7 日，並取消相關獎牌、頭銜、積分及獎金。"
+        },
+        {
+          "documentId": "registry-cdd6da6c3a3057d3",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "AIU 名冊列出肯亞選手、ABP 案、四年禁賽及自 2024 年 8 月 24 日起取消成績。"
+        },
+        {
+          "documentId": "doc-30989e8909b42df0",
+          "startLine": 740,
+          "endLine": 746,
+          "supports": [
+            "education"
+          ],
+          "note": "決定說明自願暫停參賽承諾並未視為暫時禁賽。"
+        }
+      ],
+      "findings": []
+    }
+  ]
+}

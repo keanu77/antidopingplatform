@@ -1,0 +1,411 @@
+{
+  "cases": [
+    {
+      "id": "ita-33dbfad751c1",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-0500db106f1433b5",
+        "registry-b5a94f78b791ee96"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-0500db106f1433b5",
+          "startLine": 1,
+          "endLine": 7,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告載明喬治亞角力選手Avtandil Kentchadze於2024-10-31及2025-01-13檢出clomifene，接受禁賽20個月（2025-05-25至2027-01-24）及取消2024-10-31至2025-09-04成績。"
+        },
+        {
+          "documentId": "registry-b5a94f78b791ee96",
+          "startLine": 1,
+          "endLine": 22,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊確認選手姓名、喬治亞國籍、角力運動、違規條款Art. 2.1/2.2 clomifene、禁賽20個月與期間、以及成績取消期間。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-19c95510831f",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-7326eb3bd67378a9",
+        "registry-cfe82c7af2b5505c"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-7326eb3bd67378a9",
+          "startLine": 1,
+          "endLine": 9,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告載明烏茲別克桑搏選手Shokhrukhbek Gapurov於2025-09-21檢出meldonium，因及早承認獲一年減輕，接受3年禁賽（2025-10-28至2028-10-27）並取消2025-09-21至2025-10-28成績。"
+        },
+        {
+          "documentId": "registry-cfe82c7af2b5505c",
+          "startLine": 1,
+          "endLine": 22,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊確認烏茲別克桑搏選手Gapurov違規物質meldonium、違規日期2025-09-21、禁賽3年（2025-10-28至2028-10-27）及成績取消範圍。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-c9475e60a3ed",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-0c20bac742c82c2f",
+        "registry-90bb019b580eaf15"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-0c20bac742c82c2f",
+          "startLine": 1,
+          "endLine": 6,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告載明厄瓜多舉重選手Neisi Patricia Dajomes Barrera於2025-04-07檢出clomifene，接受禁賽14個月（2025-06-02至2026-08-01）及取消成績。"
+        },
+        {
+          "documentId": "registry-90bb019b580eaf15",
+          "startLine": 1,
+          "endLine": 22,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊載明厄瓜多舉重選手違規日2025-04-07、Art. 2.1/2.2 clomifene、禁賽14個月（2025-06-02至2026-08-01）及成績取消（2025-04-07至2025-06-02）。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-bb6ebcfb3ce5",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-a2bd9b038d2945e4",
+        "registry-a179c2441ca07416"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-a2bd9b038d2945e4",
+          "startLine": 1,
+          "endLine": 5,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告載明法國體操選手Cameron-Lie Bernard因12個月內三次行蹤失誤，接受22個月禁賽（2025-10-27至2027-08-26）並取消2025-06-26起之成績。"
+        },
+        {
+          "documentId": "registry-a179c2441ca07416",
+          "startLine": 1,
+          "endLine": 22,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊確認法國體操選手Bernard之違規日2025-06-26、Art. 2.4行蹤違規、禁賽22個月（2025-10-27至2027-08-26）及成績取消至2025-10-27。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-260e332c1c14",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-d3445630641b6afc",
+        "registry-5e311c8ae4ead330"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-d3445630641b6afc",
+          "startLine": 1,
+          "endLine": 6,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告載明古巴棒球選手Yadir Drake Dominguez於2024-11-17 Premier12賽事檢出clomifene，處以兩年禁賽（2025-01-16至2027-01-15）及取消2024-11-17起之成績。"
+        },
+        {
+          "documentId": "registry-5e311c8ae4ead330",
+          "startLine": 1,
+          "endLine": 22,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊載明古巴棒球選手Drake Dominguez之違規日2024-11-17、物質clomifene、禁賽2年（2025-01-16至2027-01-15）及成績取消（2024-11-17至2025-01-16）。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-31e91f5916a4",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-a832de0fd0dce33f",
+        "registry-b7cb724d2513b1fb"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-a832de0fd0dce33f",
+          "startLine": 1,
+          "endLine": 7,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告載明西班牙棒球選手Anderson De León於2025-02-23經典賽資格賽檢出安非他命、甲基安非他命與康力龍代謝物，因加重情節處5年禁賽（2025-04-30至2030-04-29）並取消成績。"
+        },
+        {
+          "documentId": "registry-b7cb724d2513b1fb",
+          "startLine": 1,
+          "endLine": 22,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊載明西班牙棒球選手De Leon違規日2025-02-23、三種物質違規、禁賽5年（2025-04-30至2030-04-29）及成績取消（2025-02-23至2025-04-30）。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-9ade5d350db5",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-95f8487235d7c592",
+        "registry-bf3635c04f70a081"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-95f8487235d7c592",
+          "startLine": 1,
+          "endLine": 8,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告載明墨西哥角力選手Jose Andres Vargas Rueda於2025-05-13沙灘角力系列賽檢出Carboxy-THC，接受3個月禁賽（2025-08-29至2025-11-28）及成績取消。"
+        },
+        {
+          "documentId": "registry-bf3635c04f70a081",
+          "startLine": 1,
+          "endLine": 22,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊載明墨西哥角力選手違規日2025-05-13、Art. 2.1/2.2 Carboxy-THC、禁賽3個月（2025-08-29至2025-11-28）及成績取消（2025-05-13至2025-08-29）。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-cfefdacd2d92",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-f09b96f6d385de27",
+        "registry-4936117b0adbe796"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-f09b96f6d385de27",
+          "startLine": 1,
+          "endLine": 4,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates"
+          ],
+          "note": "UCI公告載明哥倫比亞自行車選手Martha Bayona Pineda因三次行蹤失誤被處以18個月禁賽（2025-04-23至2026-10-22），未提及成績取消。"
+        },
+        {
+          "documentId": "registry-4936117b0adbe796",
+          "startLine": 1,
+          "endLine": 22,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊確認哥倫比亞自行車選手Bayona Pineda之違規日為05/12/2024、禁賽18個月（2025-04-23至2026-10-22），成績取消欄標示為N/A，支持未建立成績取消之記載。"
+        }
+      ],
+      "findings": []
+    }
+  ]
+}

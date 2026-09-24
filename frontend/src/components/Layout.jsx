@@ -22,6 +22,7 @@ function DropdownMenu({ label, items, pathname, onNavigate }) {
   const [open, setOpen] = useState(false);
   const [focusIndex, setFocusIndex] = useState(-1);
   const ref = useRef(null);
+  const triggerRef = useRef(null);
   const menuRef = useRef(null);
   const timeout = useRef(null);
 
@@ -64,8 +65,10 @@ function DropdownMenu({ label, items, pathname, onNavigate }) {
         break;
       case "Escape":
         e.preventDefault();
+        clearTimeout(timeout.current);
         setOpen(false);
         setFocusIndex(-1);
+        triggerRef.current?.focus();
         break;
       case "Home":
         e.preventDefault();
@@ -97,6 +100,7 @@ function DropdownMenu({ label, items, pathname, onNavigate }) {
       onMouseLeave={handleLeave}
     >
       <button
+        ref={triggerRef}
         className={`flex items-center gap-1 px-3 py-2 rounded-lg text-sm font-medium transition-all duration-200 ${
           isActive
             ? "bg-emerald-50 text-emerald-700"
@@ -153,6 +157,7 @@ function DropdownMenu({ label, items, pathname, onNavigate }) {
 function Layout({ children }) {
   const location = useLocation();
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const mobileToggleRef = useRef(null);
 
   const primaryItems = [
     { path: "/", label: "首頁", icon: Home },
@@ -182,6 +187,13 @@ function Layout({ children }) {
 
   const handleLinkClick = () => {
     setMobileMenuOpen(false);
+  };
+
+  const handleMobileKeyDown = (event) => {
+    if (event.key !== "Escape" || !mobileMenuOpen) return;
+    event.preventDefault();
+    setMobileMenuOpen(false);
+    mobileToggleRef.current?.focus();
   };
 
   return (
@@ -247,9 +259,13 @@ function Layout({ children }) {
 
             {/* Mobile toggle */}
             <button
+              ref={mobileToggleRef}
               className="md:hidden p-2 rounded-lg text-gray-600 hover:bg-gray-100 transition"
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+              onKeyDown={handleMobileKeyDown}
               aria-label={mobileMenuOpen ? "關閉選單" : "開啟選單"}
+              aria-expanded={mobileMenuOpen}
+              aria-controls="mobile-navigation"
             >
               {mobileMenuOpen ? (
                 <X className="h-6 w-6" />
@@ -262,7 +278,7 @@ function Layout({ children }) {
 
         {/* Mobile Menu */}
         {mobileMenuOpen && (
-          <nav className="md:hidden bg-white border-t border-gray-100 shadow-xl max-h-[calc(100vh-4rem)] overflow-y-auto">
+          <nav id="mobile-navigation" onKeyDown={handleMobileKeyDown} className="md:hidden bg-white border-t border-gray-100 shadow-xl max-h-[calc(100vh-4rem)] overflow-y-auto">
             <div className="px-4 py-3 space-y-4">
               {navGroups.map((group) => (
                 <div key={group.label}>

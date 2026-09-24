@@ -1,0 +1,105 @@
+{
+  "current": {
+    "records": 171,
+    "year_min": 1966,
+    "year_max": 2024,
+    "source_links": 263,
+    "unique_source_urls": 15,
+    "homepage_links": 262,
+    "no_case_specific_source": 171,
+    "old_random_generator_fingerprint_matches": 0,
+    "generic_background_count": 13,
+    "flags_nonexclusive": {
+      "缺個案專屬來源": 171,
+      "TUE或合法用藥須分區": 11,
+      "指控或疑似須核實": 13,
+      "集體事件非單人案件": 7,
+      "支援人員非運動項目": 3,
+      "同事件重複候選": 2
+    },
+    "targeted_review_records": 23,
+    "targeted_review_statuses": {
+      "有問題": 16,
+      "無法查證需人工確認": 6,
+      "確認正確": 1
+    },
+    "source_commit": "60f7073a9deb98af0b117735717250e638bee9ba",
+    "taiwan_labeled_records": 0,
+    "cases_sha256": "a2b569c398bd0592522a008b67bcb3525de8e5192cca96378ec43a00e1401da6"
+  },
+  "sources": {
+    "USADA": {
+      "url": "https://www.usada.org/results/sanctions/",
+      "retrieved_date": "2026-09-22",
+      "snapshot_sha256": "bafa8a6ac723fa897574dc1845b3b7ffdd3fa912c24c9c8aafa7f46cd7f2cead",
+      "rows": 1058,
+      "named_rows": 665,
+      "unique_named_name_keys": 627,
+      "statuses": {
+        "announced": 1058
+      },
+      "individual_types": {
+        "not separately classified in source table": 1058
+      },
+      "resolved_or_announced_with_link_rows": 665,
+      "resolved_or_announced_with_link_unique_name_keys": 627,
+      "selected_name_keys_matching_existing": 11
+    },
+    "ITA": {
+      "url": "https://ita.sport/anti-doping-rule-violations/",
+      "retrieved_date": "2026-09-22",
+      "snapshot_sha256": "cfe1e72e0637b09dd3d640fe3eb94eb99e497bc71020a59d5c4799b271b46dae",
+      "rows": 615,
+      "named_rows": 615,
+      "unique_named_name_keys": 592,
+      "statuses": {
+        "Resolved": 459,
+        "Ongoing": 11,
+        "On-going": 120,
+        "Resoved": 1,
+        "Concluded - (case referred to World Athletics for further consequences)": 1,
+        "Concluded - (case referred to International Judo Federation for further consequences)": 2,
+        "Concluded - (case referred to International Federation for further consequences)": 1,
+        "N/A": 1,
+        "Concluded": 1,
+        "Concluded (case referred to World Athletics (AIU) for further consequences)": 5,
+        "Concluded (case referred to Fédération Internationale de Ski for further consequences)": 2,
+        "Concluded (case referred to International Bobsleigh and Skeleton Federation for further consequences)": 1,
+        "Concluded (case referred to International Skating Union for further consequences)": 1,
+        "Concluded - (case referred to World Aquatics for further consequences)": 1,
+        "Concluded (case referred to World Athletics for further consequences)": 2,
+        "Concluded (case referred to UCI for further consequences)": 3,
+        "Provisional Suspension": 1,
+        "Concluded (case referred to FIBA for further consequences)": 2
+      },
+      "individual_types": {
+        "Athlete": 601,
+        "Athhlete": 1,
+        "N/A": 2,
+        "Athlete Support Personnel": 9,
+        "Official": 1,
+        "Coach": 1
+      },
+      "resolved_or_announced_with_link_rows": 173,
+      "resolved_or_announced_with_link_unique_name_keys": 170,
+      "selected_name_keys_matching_existing": 2
+    }
+  },
+  "combined": {
+    "selected_rows": 838,
+    "unique_name_keys": 796,
+    "name_keys_matching_existing": 13,
+    "candidate_new_name_keys": 783,
+    "known_taiwan_rows_excluded_all_statuses": 2,
+    "known_taiwan_rows_excluded_with_link": 0,
+    "new_name_keys_with_other_country_in_source": 168,
+    "new_name_keys_requiring_nationality_check": 615,
+    "deduplication_limit": "Sorted accent-stripped ASCII name tokens only; not verified identity/event deduplication. USADA may include support personnel. ITA resolved status is a screening field, not independent appeal-status review."
+  },
+  "broader_pool_including_ita_without_individual_link": {
+    "rows": 1123,
+    "unique_name_keys": 1070,
+    "candidate_new_name_keys": 1057,
+    "warning": "Not additive to combined pool. Individual decision links are missing for some ITA rows."
+  }
+}

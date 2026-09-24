@@ -1,0 +1,402 @@
+{
+  "cases": [
+    {
+      "id": "usada-f75282803398",
+      "status": "supported",
+      "identity": "supported",
+      "country": "supported",
+      "temporalScope": "supported",
+      "evidence": [
+        {
+          "documentId": "country",
+          "startLine": 1,
+          "endLine": 1,
+          "note": "Title confirms 'Abby Dahlkemper | Team USA'"
+        },
+        {
+          "documentId": "country",
+          "startLine": 449,
+          "endLine": 450,
+          "note": "Name listed as Abby / Dahlkemper"
+        },
+        {
+          "documentId": "country",
+          "startLine": 448,
+          "endLine": 448,
+          "note": "Sport: Soccer"
+        },
+        {
+          "documentId": "country",
+          "startLine": 465,
+          "endLine": 466,
+          "note": "Hometown: Menlo Park, CA"
+        },
+        {
+          "documentId": "country",
+          "startLine": 472,
+          "endLine": 472,
+          "note": "Has represented the U.S. since 2010 when she first appeared for the U-17s"
+        },
+        {
+          "documentId": "case",
+          "startLine": 1,
+          "endLine": 1,
+          "note": "USADA confirms 'U.S. Soccer Athlete Abigail Dahlkemper' with date May 4, 2018"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-51b08866d858",
+      "status": "supported",
+      "identity": "supported",
+      "country": "supported",
+      "temporalScope": "supported",
+      "evidence": [
+        {
+          "documentId": "country",
+          "startLine": 1,
+          "endLine": 1,
+          "note": "Title: 'Devin Logan | Team USA'"
+        },
+        {
+          "documentId": "country",
+          "startLine": 449,
+          "endLine": 450,
+          "note": "Name: Devin / Logan"
+        },
+        {
+          "documentId": "country",
+          "startLine": 448,
+          "endLine": 448,
+          "note": "Sport: Freestyle Skiing"
+        },
+        {
+          "documentId": "country",
+          "startLine": 451,
+          "endLine": 451,
+          "note": "Olympian 2014, 2018, 2022"
+        },
+        {
+          "documentId": "case",
+          "startLine": 1,
+          "endLine": 7,
+          "note": "USADA confirms 'U.S. Ski Athlete Devin Logan' tested positive on December 7, 2018, aged 26"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-abb5a10e0ed3",
+      "status": "supported",
+      "identity": "supported",
+      "country": "supported",
+      "temporalScope": "supported",
+      "evidence": [
+        {
+          "documentId": "country",
+          "startLine": 1,
+          "endLine": 1,
+          "note": "Title: 'Breezy Johnson | Team USA'"
+        },
+        {
+          "documentId": "country",
+          "startLine": 449,
+          "endLine": 450,
+          "note": "Name: Breezy / Johnson"
+        },
+        {
+          "documentId": "country",
+          "startLine": 448,
+          "endLine": 448,
+          "note": "Sport: Alpine Skiing"
+        },
+        {
+          "documentId": "country",
+          "startLine": 451,
+          "endLine": 452,
+          "note": "Olympian 2018, 2026"
+        },
+        {
+          "documentId": "country",
+          "startLine": 467,
+          "endLine": 467,
+          "note": "Hometown: Jackson Hole, WY"
+        },
+        {
+          "documentId": "case",
+          "startLine": 1,
+          "endLine": 7,
+          "note": "USADA confirms 'U.S. Skiing Athlete Breezy Johnson' with whereabouts violations dated October 29, 2022; June 13, 2023; October 10, 2023"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-d1537bff40b3",
+      "status": "supported",
+      "identity": "supported",
+      "country": "supported",
+      "temporalScope": "supported",
+      "evidence": [
+        {
+          "documentId": "country",
+          "startLine": 1,
+          "endLine": 1,
+          "note": "Title: 'Laura Zeng | Team USA'"
+        },
+        {
+          "documentId": "country",
+          "startLine": 449,
+          "endLine": 450,
+          "note": "Name: Laura / Zeng"
+        },
+        {
+          "documentId": "country",
+          "startLine": 451,
+          "endLine": 451,
+          "note": "Olympian 2016, 2020"
+        },
+        {
+          "documentId": "country",
+          "startLine": 460,
+          "endLine": 460,
+          "note": "Hometown: Libertyville, IL"
+        },
+        {
+          "documentId": "case",
+          "startLine": 1,
+          "endLine": 7,
+          "note": "USADA confirms 'U.S. Gymnastics Athlete Laura Zeng, of Libertyville, Ill.' tested positive October 18, 2018, aged 19"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-1c34e76fa2a0",
+      "status": "supported",
+      "identity": "supported",
+      "country": "supported",
+      "temporalScope": "supported",
+      "evidence": [
+        {
+          "documentId": "country",
+          "startLine": 1,
+          "endLine": 1,
+          "note": "Title: 'Aja Evans | Team USA'"
+        },
+        {
+          "documentId": "country",
+          "startLine": 449,
+          "endLine": 450,
+          "note": "Name: Aja / Evans"
+        },
+        {
+          "documentId": "country",
+          "startLine": 448,
+          "endLine": 448,
+          "note": "Sport: Bobsled"
+        },
+        {
+          "documentId": "country",
+          "startLine": 451,
+          "endLine": 451,
+          "note": "Olympian 2014, 2018"
+        },
+        {
+          "documentId": "case",
+          "startLine": 1,
+          "endLine": 7,
+          "note": "USADA confirms 'U.S. Bobsled Athlete Aja Evans' failed to submit sample on March 29, 2022, aged 35"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-990a455fba77",
+      "status": "supported",
+      "identity": "supported",
+      "country": "supported",
+      "temporalScope": "supported",
+      "evidence": [
+        {
+          "documentId": "country",
+          "startLine": 1,
+          "endLine": 1,
+          "note": "Title: 'Jackie Galloway | Team USA'"
+        },
+        {
+          "documentId": "country",
+          "startLine": 449,
+          "endLine": 450,
+          "note": "Name: Jackie / Galloway (Jacqueline is full form)"
+        },
+        {
+          "documentId": "country",
+          "startLine": 448,
+          "endLine": 448,
+          "note": "Sport: Taekwondo"
+        },
+        {
+          "documentId": "country",
+          "startLine": 451,
+          "endLine": 451,
+          "note": "Olympian 2016"
+        },
+        {
+          "documentId": "country",
+          "startLine": 466,
+          "endLine": 466,
+          "note": "Hometown: Wylie, TX"
+        },
+        {
+          "documentId": "case",
+          "startLine": 1,
+          "endLine": 7,
+          "note": "USADA confirms 'U.S. Taekwondo Athlete Jacqueline Galloway' tested positive February 12, 2019, aged 23"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-a00b98f42826",
+      "status": "supported",
+      "identity": "supported",
+      "country": "supported",
+      "temporalScope": "supported",
+      "evidence": [
+        {
+          "documentId": "country",
+          "startLine": 78,
+          "endLine": 79,
+          "note": "Name listed: Will / LICON"
+        },
+        {
+          "documentId": "country",
+          "startLine": 80,
+          "endLine": 81,
+          "note": "Nationality: USA"
+        },
+        {
+          "documentId": "country",
+          "startLine": 82,
+          "endLine": 83,
+          "note": "Discipline: Swimming"
+        },
+        {
+          "documentId": "case",
+          "startLine": 1,
+          "endLine": 7,
+          "note": "USADA confirms 'U.S. Swimming Athlete William Licon, of Austin, Texas' tested June 3, 2019, aged 24"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-503574acf7cc",
+      "status": "supported",
+      "identity": "supported",
+      "country": "supported",
+      "temporalScope": "supported",
+      "evidence": [
+        {
+          "documentId": "country",
+          "startLine": 78,
+          "endLine": 79,
+          "note": "Name listed: Mike / ALEXANDROV"
+        },
+        {
+          "documentId": "country",
+          "startLine": 80,
+          "endLine": 81,
+          "note": "Nationality: USA"
+        },
+        {
+          "documentId": "country",
+          "startLine": 82,
+          "endLine": 83,
+          "note": "Discipline: Swimming"
+        },
+        {
+          "documentId": "country",
+          "startLine": 159,
+          "endLine": 170,
+          "note": "Competition record shows 2010 World Championships (25m) in UAE with USA affiliation"
+        },
+        {
+          "documentId": "case",
+          "startLine": 1,
+          "endLine": 7,
+          "note": "USADA confirms 'U.S. Swimming Athlete Mihail Alexandrov, of Los Angeles, Calif.' tested positive June 4, 2017, aged 32"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-196afd5ac99f",
+      "status": "supported",
+      "identity": "supported",
+      "country": "supported",
+      "temporalScope": "supported",
+      "evidence": [
+        {
+          "documentId": "country",
+          "startLine": 85,
+          "endLine": 85,
+          "note": "World Aquatics news article (October 24, 2011) states: 'USA's Amanda Kendall picked up four gold medals' at Pan American Games"
+        },
+        {
+          "documentId": "case",
+          "startLine": 1,
+          "endLine": 7,
+          "note": "USADA confirms 'U.S. Swimming Athlete Amanda Kendall, of Bloomington, Ind.' tested February 14, 2018, aged 27"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-c60db428c672",
+      "status": "supported",
+      "identity": "supported",
+      "country": "supported",
+      "temporalScope": "supported",
+      "evidence": [
+        {
+          "documentId": "country",
+          "startLine": 73,
+          "endLine": 73,
+          "note": "UCI Cyclo-cross World Cup report states: 'Pan-American champion Katherine Compton (USA)'"
+        },
+        {
+          "documentId": "case",
+          "startLine": 1,
+          "endLine": 7,
+          "note": "USADA confirms 'U.S. Cycling Athlete Katherine Compton, of Colorado Springs, Colo.' tested positive September 16, 2020, aged 42"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-ee1ce8ee98f6",
+      "status": "supported",
+      "identity": "supported",
+      "country": "supported",
+      "temporalScope": "supported",
+      "evidence": [
+        {
+          "documentId": "country",
+          "startLine": 474,
+          "endLine": 474,
+          "note": "Team USA news article states: 'She did, however, play with Howard to help Team USA win a gold medal in Mexico City at the FIBA Americas U18 Championship in 2018' (referring to NaLyssa Smith)"
+        },
+        {
+          "documentId": "case",
+          "startLine": 1,
+          "endLine": 7,
+          "note": "USADA confirms 'U.S. Basketball Athlete NaLyssa Smith, of Indianapolis, Ind.' tested positive June 2, 2024, aged 23"
+        }
+      ],
+      "findings": []
+    }
+  ]
+}

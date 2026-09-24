@@ -81,7 +81,8 @@ export const prohibitedList = [
       "Insulin",
     ],
     medicalUse: "乳癌、糖尿病、女性不孕症、多囊性卵巢症候群",
-    isSpecified: true,
+    specifiedStatus: "mixed",
+    specifiedDetail: "S4.1、S4.2 為特定物質；S4.3、S4.4 為非特定物質。",
   },
   {
     id: "s5",
@@ -115,7 +116,8 @@ export const prohibitedList = [
       "MDMA（濫用物質）",
     ],
     medicalUse: "過敏性反應、注意力不足過動症、感冒及流感症狀",
-    isSpecified: true,
+    specifiedStatus: "mixed",
+    specifiedDetail: "S6.A 為非特定物質；S6.B 為特定物質。未在本節明列的興奮劑屬特定物質。",
   },
   {
     id: "s7",
@@ -154,7 +156,7 @@ export const prohibitedList = [
     nameEn: "Glucocorticoids",
     timing: "in-competition",
     description:
-      "僅賽內禁用：口服、直腸及注射（含關節內、肌腱周圍、肌肉、靜脈）途徑於賽內皆禁用；吸入、鼻、眼、皮膚等局部途徑允許；賽外任何途徑不禁、不需 TUE。須留意 washout（口服 prednisolone 約 3 天、肌肉注射 triamcinolone acetonide 最長約 60 天）",
+      "賽內口服、直腸及所有注射途徑（含關節內、肌腱周圍、肌肉、靜脈）禁用；吸入、鼻、眼、皮膚等途徑依核准劑量與適應症使用時允許。賽外使用不禁，但賽內檢體仍可能有殘留，必要時須申請回溯 TUE。清除期從最後一劑算至賽內期間開始：例如口服 prednisolone 至少 3 天、肌注 triamcinolone acetonide 至少 60 天；緩釋製劑可能更久，並非保證不會驗出。",
     keySubstances: [
       "Dexamethasone",
       "Prednisolone",
@@ -180,7 +182,7 @@ export const prohibitedList = [
     name: "化學及物理操作",
     nameEn: "Chemical and Physical Manipulation",
     timing: "method",
-    description: "替換尿液、竄改檢體。靜脈注射/輸液超過 100mL/12hr 需 TUE",
+    description: "禁止替換尿液或竄改檢體。任何 12 小時內靜脈注射／輸液總量超過 100mL 屬 M2.2 禁用方法，但合法的醫院治療、外科手術或臨床診斷程序為例外；不符合例外而有醫療需要時須申請 TUE。方法例外不代表輸注的禁用物質也獲准。",
     keySubstances: ["替換或竄改尿液檢體", "靜脈注射 >100mL/12hr"],
   },
   {
@@ -199,7 +201,7 @@ export const prohibitedList = [
     nameEn: "Beta-blockers",
     timing: "particular-sports",
     description:
-      "僅特定運動禁用：射箭、射擊、水中運動（CMAS 潛水）為賽內外皆禁；賽車、撞球、飛鏢、高爾夫、迷你高爾夫等其餘項目僅賽內禁用",
+      "射箭（WA）、射擊（ISSF／IPC），以及 CMAS 自由潛水、魚槍捕魚、水下標靶射擊的所有分項，賽內與賽外皆禁用；汽車運動（FIA）、撞球（WCBS）、飛鏢（WDF）、高爾夫（IGF）、迷你高爾夫（WMF）僅賽內禁用。",
     keySubstances: ["Propranolol", "Atenolol", "Metoprolol", "Bisoprolol"],
     medicalUse: "心衰竭、高血壓",
     isSpecified: true,

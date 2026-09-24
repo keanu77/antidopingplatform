@@ -1,0 +1,81 @@
+{
+  "checkedAt": "2026-09-24T00:42:26.776Z",
+  "base": "http://127.0.0.1:4179",
+  "checks": [
+    {
+      "width": 1280,
+      "path": "/statistics",
+      "passed": true,
+      "overflow": 0
+    },
+    {
+      "width": 1280,
+      "path": "/cases/usada-792c30cdc646",
+      "passed": true,
+      "overflow": 0
+    },
+    {
+      "width": 1280,
+      "path": "/cases/usada-091e5bf27388",
+      "passed": true,
+      "overflow": 0
+    },
+    {
+      "width": 1280,
+      "path": "/cases/usada-36b25b3d84e6",
+      "passed": true,
+      "overflow": 0
+    },
+    {
+      "width": 1280,
+      "path": "/cases/aiu-dbc9a1f66bb9",
+      "passed": true,
+      "overflow": 0
+    },
+    {
+      "width": 1280,
+      "path": "/cases/usada-f49825dfb87e",
+      "passed": true,
+      "overflow": 0
+    },
+    {
+      "width": 390,
+      "path": "/statistics",
+      "passed": true,
+      "overflow": 0
+    },
+    {
+      "width": 390,
+      "path": "/cases/usada-792c30cdc646",
+      "passed": true,
+      "overflow": 0
+    },
+    {
+      "width": 390,
+      "path": "/cases/usada-091e5bf27388",
+      "passed": true,
+      "overflow": 0
+    },
+    {
+      "width": 390,
+      "path": "/cases/usada-36b25b3d84e6",
+      "passed": true,
+      "overflow": 0
+    },
+    {
+      "width": 390,
+      "path": "/cases/aiu-dbc9a1f66bb9",
+      "passed": true,
+      "overflow": 0
+    },
+    {
+      "width": 390,
+      "path": "/cases/usada-f49825dfb87e",
+      "passed": true,
+      "overflow": 0
+    }
+  ],
+  "errors": [],
+  "datasetSha256": "a37f9ec223bedf64c96b5bf17c31960c2b30606c7de03bcc06bdb929d7d66cb0",
+  "buildIndexSha256": "0a648f4642007a693e8fbba9b90de4697ec4bc81c7415a45b0eee109754a059c"
+}

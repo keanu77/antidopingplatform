@@ -1,0 +1,526 @@
+{
+  "cases": [
+    {
+      "id": "usada-5a084088440d",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-c217909ba80c82c5",
+        "registry-2f6dbcb16d5f6da8"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-c217909ba80c82c5",
+          "startLine": 7,
+          "endLine": 11,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "Roderick Green 於 2016 年 11 月 15 日檢驗出 ostarine，確認補充品污染後處 9 個月禁賽並取消成績"
+        },
+        {
+          "documentId": "registry-2f6dbcb16d5f6da8",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "education"
+          ],
+          "note": "處分名冊列坐式排球與田徑項目、ostarine、9 個月禁賽與成績取消"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "美國",
+          "explanation": "官方個案公告僅於標題提及『U.S. Sitting Volleyball Athlete』且內文僅列居住地（Piedmont, Okla.），依規範管轄權、居住地或新聞標題不足以單獨確立其公民國籍或體育代表權。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-c217909ba80c82c5",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "需補充代表權或國籍直接證明文件，或將國籍欄位標註為待確認。"
+        }
+      ]
+    },
+    {
+      "id": "usada-4c30c4355448",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-14df68207576a7d7",
+        "registry-084a4001769ce1ac"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-14df68207576a7d7",
+          "startLine": 7,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "Robert Prenoveau 因處方利尿劑陽性接受公開警告並取消採樣當日成績，後續獲准 TUE"
+        },
+        {
+          "documentId": "registry-084a4001769ce1ac",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction"
+          ],
+          "note": "名冊確認公開警告與成績取消處分"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "美國",
+          "explanation": "來源僅於標題記載『U.S. Wheelchair Curling Athlete』並提及居住於紐約州，缺乏官方直接證明之國籍或體育代表權文件。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-14df68207576a7d7",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "補充其國家代表權或國籍佐證，或將國籍欄標記為待查。"
+        }
+      ]
+    },
+    {
+      "id": "usada-3a2b44290235",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-84ac6465ad0f54c7",
+        "registry-dbfd5d0e662e4cc0"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-84ac6465ad0f54c7",
+          "startLine": 7,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "Gabriel Dawson 檢出 amphetamine 且未持有或申請 TUE，處 4 年禁賽並取消成績"
+        },
+        {
+          "documentId": "registry-dbfd5d0e662e4cc0",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction"
+          ],
+          "note": "名冊記載 Dawson 舉重項目、amphetamine、4 年禁賽及取消成績"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "美國",
+          "explanation": "文本僅見標題『U.S. Weightlifting Athlete』與居住地 Saint Joseph, Mo.，依審查標準不足以逕行認定國籍或體育代表權。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-84ac6465ad0f54c7",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "提供國籍或代表國家參賽之官方紀錄，或調整為待確立。"
+        }
+      ]
+    },
+    {
+      "id": "usada-e238095a79ab",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-8d23b6c49365047d",
+        "registry-0c7bda59ba859d3f"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-8d23b6c49365047d",
+          "startLine": 7,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "Vincent Pierik 承認使用合成代謝劑且檢體多項陽性，處 4 年禁賽並回溯取消自首次使用日起成績"
+        },
+        {
+          "documentId": "registry-0c7bda59ba859d3f",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction"
+          ],
+          "note": "處分名冊列記 19-NA、drostanolone 及 epitrenbolone，4 年禁賽與取消成績"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "美國",
+          "explanation": "個案公告僅以標題稱『U.S. Weightlifting Athlete』及列示住址 Irmo, S.C.，缺乏具體國籍或代表權佐證。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-8d23b6c49365047d",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "補充運動員官方國籍或代表權證明，或註記未確立。"
+        }
+      ]
+    },
+    {
+      "id": "usada-9aa5cea0cfe1",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-d75d70475cfb2232",
+        "doc-c2a57261faf0ae59",
+        "registry-19f6f005a9c9b7d0"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-d75d70475cfb2232",
+          "startLine": 7,
+          "endLine": 9,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates"
+          ],
+          "note": "Tammy Thomas 於 2002 年因第二次違規被處終身禁賽"
+        },
+        {
+          "documentId": "doc-c2a57261faf0ae59",
+          "startLine": 7,
+          "endLine": 12,
+          "supports": [
+            "event",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "服滿逾 14 年後依 2015 Code 上限與申請，於 2017 年 2 月 28 日終止剩餘禁賽"
+        },
+        {
+          "documentId": "registry-19f6f005a9c9b7d0",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "outcomes"
+          ],
+          "note": "名冊記錄終身禁賽、成績取消及處分減輕"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "美國",
+          "explanation": "文件僅載新聞標題『U.S. Cyclist』與居住地，USADA 亦註明管轄範圍涵蓋在美外國運動員，無法由現有文本直接確認其公民國籍或代表權。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-d75d70475cfb2232",
+              "startLine": 1,
+              "endLine": 7
+            },
+            {
+              "documentId": "doc-c2a57261faf0ae59",
+              "startLine": 14,
+              "endLine": 14
+            }
+          ],
+          "suggestion": "補充代表國家正式依據，或改列國籍為待查。"
+        }
+      ]
+    },
+    {
+      "id": "usada-f8fb776d4fa9",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-580b5e49d23e5a1a",
+        "registry-61c67cc9718fb97b"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-580b5e49d23e5a1a",
+          "startLine": 7,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "Dawn Harper-Nelson 因高血壓處方藥檢出 hydrochlorothiazide，處 3 個月禁賽並取消成績"
+        },
+        {
+          "documentId": "registry-61c67cc9718fb97b",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction"
+          ],
+          "note": "名冊確認田徑項目、hydrochlorothiazide、3 個月禁賽及成績取消"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "美國",
+          "explanation": "僅有公告標題『U.S. Track & Field Athlete』及居住地 Los Angeles, Calif.，未有明確國籍或代表權直接佐證。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-580b5e49d23e5a1a",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "提供官方代表權證明或將國籍標註為待確認。"
+        }
+      ]
+    },
+    {
+      "id": "usada-c624acaae104",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-68be8f9c57d18c2e",
+        "registry-3af0cb7e747ca362"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-68be8f9c57d18c2e",
+          "startLine": 7,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "Andrew Vrabel 承認持有使用禁用生長激素釋放相關胜肽，處 4 年禁賽並取消成績"
+        },
+        {
+          "documentId": "registry-3af0cb7e747ca362",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "sanction",
+            "outcomes"
+          ],
+          "note": "名冊註記非分析違規、4 年禁賽、成績取消及因退休而停算處分"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "美國",
+          "explanation": "官方公告僅於標題使用『U.S. Weightlifting Athlete』並提及居住於 Chicago, Ill.，依規範不足以單獨確立其國籍或體育代表權。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-68be8f9c57d18c2e",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "補充代表權或公民國籍證明，或標記為未確立。"
+        }
+      ]
+    },
+    {
+      "id": "usada-97da51a4cd91",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-d9edbf675b475092",
+        "registry-4b434970e291ede3"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-d9edbf675b475092",
+          "startLine": 7,
+          "endLine": 11,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "Angelique Matsushima 賽內檢出 THC 超標，接受 6 個月禁賽，完成教育課程後減免 3 個月並取消成績"
+        },
+        {
+          "documentId": "registry-4b434970e291ede3",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction"
+          ],
+          "note": "名冊列示 Cannabinoids、6 個月禁賽（含 3 個月暫緩/減免）及成績取消"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "美國",
+          "explanation": "僅有公告標題『U.S. Weightlifting Athlete』與居住地 Verona, Wis.，依稽核規範不足以單獨證實國籍或代表權。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-d9edbf675b475092",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "需補充官方代表權或國籍佐證，或列為待確認。"
+        }
+      ]
+    }
+  ]
+}

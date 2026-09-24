@@ -4,7 +4,7 @@
   "description": "Sports Doping Cases Database Platform",
   "main": "server.js",
   "engines": {
-    "node": "18.x"
+    "node": ">=22.13.0"
   },
   "scripts": {
     "build": "cd frontend && npm install && npm run build",
@@ -20,10 +20,15 @@
     "knip": "knip",
     "depcheck": "depcheck",
     "data:rebuild": "node scripts/rebuild-dataset.mjs",
+    "data:reviewed": "python3 scripts/build-reviewed-cases.py && node scripts/rebuild-dataset.mjs",
+    "test:reviewed": "node --test tests/reviewed-cases.test.mjs",
     "cf:build": "npm --prefix frontend run build",
     "cf:deploy": "npm run cf:build && wrangler pages deploy frontend/dist --project-name antidoping-platform --branch main --commit-dirty=true",
     "cf:migrate": "wrangler d1 execute antidoping-feedback --remote --file=migrations/0001_feedback.sql",
-    "smoke": "node tests/smoke/cloudflare-api.smoke.mjs"
+    "smoke": "node tests/smoke/cloudflare-api.smoke.mjs",
+    "audit:completion": "node scripts/audit-new-case-completion.mjs",
+    "test:api": "node --test tests/cloudflare-contract.test.mjs",
+    "test:rules": "node --test tests/education-rules.test.mjs"
   },
   "dependencies": {
     "compression": "^1.8.1",

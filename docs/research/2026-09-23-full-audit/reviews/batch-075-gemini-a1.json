@@ -1,0 +1,86 @@
+{
+  "cases": [
+    {
+      "id": "usada-d8d5e2c3a318",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-0d207fb81e437c8b",
+        "doc-85be39ec8c394c5b",
+        "doc-d0b7d789334f106b",
+        "doc-b56a0c0a60e12aa1",
+        "registry-9d5bc6905cc5c40b"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-0d207fb81e437c8b",
+          "startLine": 7,
+          "endLine": 11,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "USADA公告自行車選手第二次違規檢出vilanterol處6個月禁賽自2020-10-16起並取消成績，拒絕追溯TUE但核准未來TUE"
+        },
+        {
+          "documentId": "doc-85be39ec8c394c5b",
+          "startLine": 7,
+          "endLine": 10,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "因2021年WADA禁用清單規則變更，經申請於2021-01-04終止服滿近3個月後的剩餘禁賽期"
+        },
+        {
+          "documentId": "doc-d0b7d789334f106b",
+          "startLine": 257,
+          "endLine": 258,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "官方成績冊列明選手代表巴西（BRA）出賽自行車項目"
+        },
+        {
+          "documentId": "doc-b56a0c0a60e12aa1",
+          "startLine": 112,
+          "endLine": 112,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "菁英女子組出賽名單顯示選手國家代碼為巴西（BRA）"
+        },
+        {
+          "documentId": "registry-9d5bc6905cc5c40b",
+          "startLine": 1,
+          "endLine": 2,
+          "supports": [
+            "identity",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "USADA處分紀錄載明6個月禁賽、取消成績並於2021-01-05更新減刑"
+        }
+      ],
+      "findings": []
+    }
+  ]
+}

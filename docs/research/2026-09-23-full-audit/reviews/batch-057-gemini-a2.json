@@ -1,0 +1,270 @@
+{
+  "cases": [
+    {
+      "id": "aiu-3741d9499180",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-e117d34199d385cb",
+        "registry-a57c5d7d9c62abde"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-e117d34199d385cb",
+          "startLine": 6,
+          "endLine": 17,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "選手姓名 Esther Birundu Borura，為肯亞長跑運動員"
+        },
+        {
+          "documentId": "doc-e117d34199d385cb",
+          "startLine": 49,
+          "endLine": 53,
+          "supports": [
+            "event",
+            "dates",
+            "substance"
+          ],
+          "note": "2023年6月30日於肯亞賽外採樣，檢驗報告呈現外源性 19-Norandrosterone 不良分析結果"
+        },
+        {
+          "documentId": "doc-e117d34199d385cb",
+          "startLine": 103,
+          "endLine": 107,
+          "supports": [
+            "event",
+            "education"
+          ],
+          "note": "選手承認使用禁藥，陳述於2023年4月購買並於5月注射"
+        },
+        {
+          "documentId": "doc-e117d34199d385cb",
+          "startLine": 217,
+          "endLine": 227,
+          "supports": [
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "依據及早承認規定處3年禁賽，自2023年9月6日起算，取消2023年6月30日採樣日起之相關成績"
+        },
+        {
+          "documentId": "registry-a57c5d7d9c62abde",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "AIU 官方名冊確認肯亞選手 Esther Birundu Borura 遭處禁賽3年及取消成績處分"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "aiu-d662751a534d",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-d67601193691bf0b",
+        "registry-04d0fe7493ab7703"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-d67601193691bf0b",
+          "startLine": 6,
+          "endLine": 18,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "選手姓名 Janat Chemusto，為烏干達中長跑運動員"
+        },
+        {
+          "documentId": "doc-d67601193691bf0b",
+          "startLine": 50,
+          "endLine": 73,
+          "supports": [
+            "event",
+            "substance",
+            "dates"
+          ],
+          "note": "2023年5月13日奈洛比 Kip Keino Classic 賽內採樣檢出外源性 19-Norandrosterone"
+        },
+        {
+          "documentId": "doc-d67601193691bf0b",
+          "startLine": 107,
+          "endLine": 110,
+          "supports": [
+            "event"
+          ],
+          "note": "AIU 審查選手提交之醫療文件，認定無法合理解釋檢出物質之來源"
+        },
+        {
+          "documentId": "doc-d67601193691bf0b",
+          "startLine": 161,
+          "endLine": 170,
+          "supports": [
+            "event",
+            "education"
+          ],
+          "note": "選手雖於10月7日提交日期載為10月4日之承認表，但未能證明係於期限前完成"
+        },
+        {
+          "documentId": "doc-d67601193691bf0b",
+          "startLine": 225,
+          "endLine": 247,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "因未能及時承認而無法享有1年減免，處4年禁賽自2023年7月13日起算，取消2023年5月13日起之成績"
+        },
+        {
+          "documentId": "registry-04d0fe7493ab7703",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "AIU 官方名冊確認烏干達選手 Janat Chemusto 違規處4年禁賽及取消成績"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "aiu-b420ee0df19f",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-ac3adc385d9b5128",
+        "registry-1c08bde50bee8771"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-ac3adc385d9b5128",
+          "startLine": 6,
+          "endLine": 19,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "選手姓名 Jennifer Gonzalez Caro，為智利長跑運動員"
+        },
+        {
+          "documentId": "doc-ac3adc385d9b5128",
+          "startLine": 41,
+          "endLine": 74,
+          "supports": [
+            "event",
+            "substance",
+            "dates"
+          ],
+          "note": "2022年5月8日智利賽內與10月10日南美運動會賽外採樣均檢出 EPO"
+        },
+        {
+          "documentId": "doc-ac3adc385d9b5128",
+          "startLine": 90,
+          "endLine": 110,
+          "supports": [
+            "event",
+            "outcomes"
+          ],
+          "note": "ODESUR 先取消南美運動會成績，智利反禁藥仲裁庭（TED）隨後就首次違規處4年禁賽"
+        },
+        {
+          "documentId": "doc-ac3adc385d9b5128",
+          "startLine": 189,
+          "endLine": 198,
+          "supports": [
+            "event",
+            "sanction",
+            "education"
+          ],
+          "note": "因第二次採樣發生於首次違規通知前，兩次事件依法併為單一違規審理並以加重處分計算"
+        },
+        {
+          "documentId": "doc-ac3adc385d9b5128",
+          "startLine": 249,
+          "endLine": 258,
+          "supports": [
+            "sanction",
+            "education"
+          ],
+          "note": "考量多次使用等加重情節，AIU 認定適用上限6年禁賽處分"
+        },
+        {
+          "documentId": "doc-ac3adc385d9b5128",
+          "startLine": 286,
+          "endLine": 300,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "確認6年禁賽自2022年11月7日起算，AIU 取消2022年10月10日至11月7日成績並註記智利 TED 已處理先前期程成績"
+        },
+        {
+          "documentId": "registry-1c08bde50bee8771",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "AIU 官方名冊確認智利選手 Jennifer Gonzalez Caro 遭處6年禁賽及取消特定期間成績"
+        }
+      ],
+      "findings": []
+    }
+  ]
+}

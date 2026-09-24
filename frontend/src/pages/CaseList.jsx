@@ -1,4 +1,4 @@
-import { useState, useEffect, useCallback, useMemo } from "react";
+import { useState, useEffect, useCallback, useMemo, useRef } from "react";
 import { Link } from "react-router-dom";
 import {
   Search,
@@ -10,19 +10,22 @@ import {
   ChevronRight,
 } from "lucide-react";
 import { casesAPI } from "../services/api";
+import CaseReviewNotice from "../components/CaseReviewNotice";
 import { searchCache, filterCache } from "../utils/cache";
 import { debounce } from "../utils/debounce";
 
+const EMPTY_FILTERS = {
+  search: "",
+  sport: "",
+  nationality: "",
+  year: "",
+  substanceCategory: "",
+  punishmentType: "",
+};
+
 function CaseList() {
   const [cases, setCases] = useState([]);
-  const [filters, setFilters] = useState({
-    search: "",
-    sport: "",
-    nationality: "",
-    year: "",
-    substanceCategory: "",
-    punishmentType: "",
-  });
+  const [filters, setFilters] = useState(EMPTY_FILTERS);
   const [filterOptions, setFilterOptions] = useState({
     sports: [],
     nationalities: [],
@@ -38,6 +41,9 @@ function CaseList() {
   const [loading, setLoading] = useState(false);
   const [showFilters, setShowFilters] = useState(false);
   const [error, setError] = useState(null);
+  const mountedRef = useRef(false);
+  const requestIdRef = useRef(0);
+  const filterRequestIdRef = useRef(0);
 
   useEffect(() => {
     document.title = "案例搜尋 | 乾淨運動從你我開始";
@@ -48,24 +54,9 @@ function CaseList() {
     setShowFilters((prev) => !prev);
   }, []);
 
-  useEffect(() => {
-    const initializeData = async () => {
-      await loadFilterOptions();
-      // 使用初始的空篩選條件載入資料
-      const initialFilters = {
-        search: "",
-        sport: "",
-        nationality: "",
-        year: "",
-        substanceCategory: "",
-        punishmentType: "",
-      };
-      await loadCases(initialFilters, 1);
-    };
-    initializeData();
-  }, []); // 空依賴，只在組件掛載時執行一次
-
   const loadFilterOptions = useCallback(async () => {
+    const requestId = ++filterRequestIdRef.current;
+    const isCurrent = () => mountedRef.current && requestId === filterRequestIdRef.current;
     try {
       // 檢查快取
       const cacheKey = "filter-options";
@@ -77,6 +68,7 @@ function CaseList() {
       }
 
       const response = await casesAPI.getFilterOptions();
+      if (!isCurrent()) return;
       const options = {
         ...response.data,
         punishmentTypes: [
@@ -92,6 +84,7 @@ function CaseList() {
       setFilterOptions(options);
       filterCache.set({ key: cacheKey }, options);
     } catch (error) {
+      if (!isCurrent()) return;
       console.error("Failed to load filter options:", error);
       // Fallback: 使用預設選項
       const fallbackOptions = {
@@ -112,15 +105,16 @@ function CaseList() {
     }
   }, []);
 
-  const loadCases = useCallback(async (searchParams, pageNum) => {
-    const actualParams = searchParams || filters;
-    const actualPage = pageNum || pagination.currentPage;
-
+  const loadCases = useCallback(async (searchParams = EMPTY_FILTERS, pageNum = 1) => {
+    if (!mountedRef.current) return;
+    const requestId = ++requestIdRef.current;
+    const isCurrent = () => mountedRef.current && requestId === requestIdRef.current;
     setLoading(true);
+    setError(null);
     try {
       const params = {
-        ...actualParams,
-        page: actualPage,
+        ...searchParams,
+        page: pageNum,
         limit: 12,
       };
 
@@ -138,6 +132,7 @@ function CaseList() {
       }
 
       const response = await casesAPI.getAll(params);
+      if (!isCurrent()) return;
       const data = response.data;
 
       setCases(data.cases);
@@ -150,6 +145,7 @@ function CaseList() {
       // 儲存到快取
       searchCache.set(params, data);
     } catch (error) {
+      if (!isCurrent()) return;
       console.error("Failed to load cases:", error);
       setError("載入案例資料失敗，請稍後再試。");
       // 發生錯誤時清空快取並設定預設狀態
@@ -161,7 +157,7 @@ function CaseList() {
         totalCases: 0,
       });
     } finally {
-      setLoading(false);
+      if (isCurrent()) setLoading(false);
     }
   }, []);
 
@@ -174,9 +170,23 @@ function CaseList() {
     [loadCases],
   );
 
+  useEffect(() => {
+    mountedRef.current = true;
+    // 兩項請求各自啟動，避免篩選選項較慢時覆蓋使用者的新搜尋。
+    void loadFilterOptions();
+    void loadCases(EMPTY_FILTERS, 1);
+    return () => {
+      mountedRef.current = false;
+      requestIdRef.current += 1;
+      filterRequestIdRef.current += 1;
+      debouncedSearch.cancel();
+    };
+  }, [loadFilterOptions, loadCases, debouncedSearch]);
+
   const handleFilterChange = useCallback(
     (key, value) => {
       const newFilters = { ...filters, [key]: value };
+      requestIdRef.current += 1;
       setFilters(newFilters);
       setPagination((prev) => ({ ...prev, currentPage: 1 }));
 
@@ -197,14 +207,10 @@ function CaseList() {
   );
 
   const clearFilters = () => {
-    setFilters({
-      search: "",
-      sport: "",
-      nationality: "",
-      year: "",
-      substanceCategory: "",
-      punishmentType: "",
-    });
+    debouncedSearch.cancel();
+    setFilters(EMPTY_FILTERS);
+    setPagination((prev) => ({ ...prev, currentPage: 1 }));
+    void loadCases(EMPTY_FILTERS, 1);
   };
 
   const substanceCategoryColors = {
@@ -222,6 +228,7 @@ function CaseList() {
       <div className="mb-8">
         <h1 className="text-3xl font-bold text-gray-900 mb-4">相關案例</h1>
         <p className="text-gray-600">搜尋並篩選國際運動禁藥案例</p>
+        <p className="mt-3 text-sm text-gray-600">收錄違規、污染、合法 TUE 與處分撤銷等教學案例。每筆標示查核層級；官方名冊核對不代表裁決全文已審閱。年份依事件年或官方裁決公布年，詳見個案。</p>
       </div>
 
       {/* Search Bar */}
@@ -231,7 +238,7 @@ function CaseList() {
             <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 h-5 w-5 text-gray-400" />
             <input
               type="text"
-              placeholder="智能搜尋：支援拼寫錯誤容錯，搜尋運動員姓名、藥物或運動項目..."
+              placeholder="搜尋選手、教練姓名、藥物或運動項目（支援拼寫容錯）"
               value={filters.search}
               onChange={(e) => handleFilterChange("search", e.target.value)}
               aria-label="搜尋案例"
@@ -290,7 +297,7 @@ function CaseList() {
                 htmlFor="filter-nationality"
                 className="block text-sm font-medium text-gray-700 mb-2"
               >
-                國籍
+                來源所列國家／地區
               </label>
               <select
                 id="filter-nationality"
@@ -424,6 +431,7 @@ function CaseList() {
                     </div>
                   </div>
 
+                  <CaseReviewNotice review={caseItem.review} compact />
                   <div className="space-y-2 mb-4">
                     <div className="flex items-center text-sm text-gray-600">
                       <MapPin className="h-4 w-4 mr-2" />
@@ -449,7 +457,7 @@ function CaseList() {
                   {caseItem.punishment && (
                     <div className="mt-4 pt-4 border-t border-gray-200">
                       <p className="text-sm text-gray-600">
-                        處罰：
+                        處理結果：
                         <span className="font-semibold">
                           {caseItem.punishment.banDuration}
                         </span>
@@ -466,6 +474,7 @@ function CaseList() {
             <div className="flex justify-center items-center gap-2 mt-8">
               <button
                 onClick={() => {
+                  debouncedSearch.cancel();
                   const newPage = pagination.currentPage - 1;
                   setPagination((prev) => ({ ...prev, currentPage: newPage }));
                   loadCases(filters, newPage);
@@ -490,6 +499,7 @@ function CaseList() {
                       <button
                         key={page}
                         onClick={() => {
+                          debouncedSearch.cancel();
                           setPagination((prev) => ({
                             ...prev,
                             currentPage: page,
@@ -517,6 +527,7 @@ function CaseList() {
 
               <button
                 onClick={() => {
+                  debouncedSearch.cancel();
                   const newPage = pagination.currentPage + 1;
                   setPagination((prev) => ({ ...prev, currentPage: newPage }));
                   loadCases(filters, newPage);

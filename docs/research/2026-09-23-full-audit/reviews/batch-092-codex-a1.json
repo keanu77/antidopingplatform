@@ -1,0 +1,518 @@
+{
+  "cases": [
+    {
+      "id": "usada-5a084088440d",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-c217909ba80c82c5",
+        "registry-2f6dbcb16d5f6da8"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-c217909ba80c82c5",
+          "startLine": 7,
+          "endLine": 11,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "確認姓名、坐式排球、賽外採樣、ostarine、九個月處分及成績取消。"
+        },
+        {
+          "documentId": "registry-2f6dbcb16d5f6da8",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "event",
+            "sanction"
+          ],
+          "note": "名冊列田徑與排球、ostarine、九個月及成績喪失。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "國籍／代表：美國",
+          "explanation": "公告標題及居住地支持美國關聯，但未明確證明國籍或代表資格。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-c217909ba80c82c5",
+              "startLine": 1,
+              "endLine": 8
+            }
+          ],
+          "suggestion": "若資料欄指國籍或代表國，補具明確來源；否則標為未確認。"
+        }
+      ]
+    },
+    {
+      "id": "usada-4c30c4355448",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-14df68207576a7d7",
+        "registry-084a4001769ce1ac"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-14df68207576a7d7",
+          "startLine": 7,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "確認輪椅冰壺選手、選拔賽採樣、利尿劑陽性、後續 TUE、公開警告及當日成績取消。"
+        },
+        {
+          "documentId": "registry-084a4001769ce1ac",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "event",
+            "sanction"
+          ],
+          "note": "名冊列輪椅冰壺、相關利尿劑及公開警告與成績喪失。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "國籍／代表：美國",
+          "explanation": "標題與美國居住地不足以證明國籍或代表國。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-14df68207576a7d7",
+              "startLine": 1,
+              "endLine": 8
+            }
+          ],
+          "suggestion": "補具代表國或國籍來源，否則標為未確認。"
+        }
+      ]
+    },
+    {
+      "id": "usada-3a2b44290235",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-84ac6465ad0f54c7",
+        "registry-dbfd5d0e662e4cc0"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-84ac6465ad0f54c7",
+          "startLine": 7,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "確認舉重選手、全美錦標賽採樣、amphetamine、未申請或取得 TUE、四年處分及成績取消。"
+        },
+        {
+          "documentId": "registry-dbfd5d0e662e4cc0",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "event",
+            "sanction"
+          ],
+          "note": "名冊列舉重、amphetamine、四年禁賽及成績喪失。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "國籍／代表：美國",
+          "explanation": "USADA 標題與美國所在地不足以單獨確認國籍或代表國。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-84ac6465ad0f54c7",
+              "startLine": 1,
+              "endLine": 8
+            }
+          ],
+          "suggestion": "補具明確代表國或國籍來源，否則標為未確認。"
+        }
+      ]
+    },
+    {
+      "id": "usada-e238095a79ab",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-8d23b6c49365047d",
+        "registry-0c7bda59ba859d3f"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-8d23b6c49365047d",
+          "startLine": 7,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "確認舉重、American Open 賽事與採樣日、多種合成代謝劑及其來源、承認使用、四年處分與成績取消起日。"
+        },
+        {
+          "documentId": "registry-0c7bda59ba859d3f",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction"
+          ],
+          "note": "名冊確認 19-NA、drostanolone、epitrenbolone、四年禁賽及成績喪失。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "國籍／代表：美國",
+          "explanation": "標題與居住地不足以證明國籍或代表國。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-8d23b6c49365047d",
+              "startLine": 1,
+              "endLine": 8
+            }
+          ],
+          "suggestion": "補具明確代表國或國籍來源，否則標為未確認。"
+        }
+      ]
+    },
+    {
+      "id": "usada-9aa5cea0cfe1",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-d75d70475cfb2232",
+        "doc-c2a57261faf0ae59",
+        "registry-19f6f005a9c9b7d0"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-d75d70475cfb2232",
+          "startLine": 7,
+          "endLine": 9,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates"
+          ],
+          "note": "確認 Tammy Thomas、自行車、norbolethone、第二次違規原終身處分及起算日。"
+        },
+        {
+          "documentId": "doc-c2a57261faf0ae59",
+          "startLine": 7,
+          "endLine": 12,
+          "supports": [
+            "identity",
+            "country",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "確認服刑逾十四年、依 2015 Code 上限及申請終止餘期；公告並記載她後來公開承認使用。"
+        },
+        {
+          "documentId": "registry-19f6f005a9c9b7d0",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "sanction"
+          ],
+          "note": "名冊列終身禁賽、成績喪失及處分更新日期。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "國籍／代表：美國",
+          "explanation": "公告標題及居住地呈現美國關聯，但未明確記載其代表國或國籍。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-d75d70475cfb2232",
+              "startLine": 1,
+              "endLine": 7
+            },
+            {
+              "documentId": "doc-c2a57261faf0ae59",
+              "startLine": 7,
+              "endLine": 8
+            }
+          ],
+          "suggestion": "補具代表國或國籍的明確來源，否則標為未確認。"
+        }
+      ]
+    },
+    {
+      "id": "usada-f8fb776d4fa9",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-580b5e49d23e5a1a",
+        "registry-61c67cc9718fb97b"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-580b5e49d23e5a1a",
+          "startLine": 7,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "確認田徑、賽外採樣、hydrochlorothiazide、IAAF 轉交處理、處方來源、三個月處分及成績取消。"
+        },
+        {
+          "documentId": "registry-61c67cc9718fb97b",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction"
+          ],
+          "note": "名冊列田徑、hydrochlorothiazide、三個月禁賽及成績喪失。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "國籍／代表：美國",
+          "explanation": "USADA 標題及居住地不足以確認國籍或代表國。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-580b5e49d23e5a1a",
+              "startLine": 1,
+              "endLine": 9
+            }
+          ],
+          "suggestion": "補具明確代表國或國籍來源，否則標為未確認。"
+        }
+      ]
+    },
+    {
+      "id": "usada-c624acaae104",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-68be8f9c57d18c2e",
+        "registry-3af0cb7e747ca362"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-68be8f9c57d18c2e",
+          "startLine": 7,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "確認舉重、承認違規、物質類別與期間、四年處分、起算日及成績取消日期。"
+        },
+        {
+          "documentId": "registry-3af0cb7e747ca362",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "sanction"
+          ],
+          "note": "名冊記載四年禁賽、成績喪失及因退休暫停計算。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "國籍／代表：美國",
+          "explanation": "標題及芝加哥所在地不足以明確確認國籍或代表國。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-68be8f9c57d18c2e",
+              "startLine": 1,
+              "endLine": 8
+            }
+          ],
+          "suggestion": "補具明確代表國或國籍來源，否則標為未確認。"
+        }
+      ]
+    },
+    {
+      "id": "usada-97da51a4cd91",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-d9edbf675b475092",
+        "registry-4b434970e291ede3"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-d9edbf675b475092",
+          "startLine": 7,
+          "endLine": 12,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "確認舉重、全美大學錦標賽採樣、賽外使用說法、六個月期間教育減免三個月、起訖及成績取消。"
+        },
+        {
+          "documentId": "registry-4b434970e291ede3",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "sanction",
+            "outcomes"
+          ],
+          "note": "名冊列 cannabinoid、六個月且減免三個月與成績喪失。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "國籍／代表：美國",
+          "explanation": "標題及居住地不足以明確證明國籍或代表國。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-d9edbf675b475092",
+              "startLine": 1,
+              "endLine": 8
+            }
+          ],
+          "suggestion": "補具明確代表國或國籍來源，否則標為未確認。"
+        }
+      ]
+    }
+  ]
+}

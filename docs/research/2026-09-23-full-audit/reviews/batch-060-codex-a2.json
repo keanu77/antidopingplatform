@@ -1,0 +1,131 @@
+{
+  "cases": [
+    {
+      "id": "aiu-004d2e74c500",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-f87cc7dd938257ec",
+        "registry-70a9f8193d39dd0b"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-f87cc7dd938257ec",
+          "startLine": 79,
+          "endLine": 104,
+          "supports": [
+            "identity",
+            "event",
+            "substance"
+          ],
+          "note": "裁決記載兩份樣本於2012年採集，涉及所列物質，當時均回報陰性；並列出當年禁用分類。"
+        },
+        {
+          "documentId": "doc-f87cc7dd938257ec",
+          "startLine": 296,
+          "endLine": 318,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "裁決於2023年1月11日作成，處四年禁賽，並取消2012年6月20日至裁決日的成績及其後果。"
+        },
+        {
+          "documentId": "registry-70a9f8193d39dd0b",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "country",
+            "sanction",
+            "dates"
+          ],
+          "note": "AIU名冊列其代表RUS，禁賽自2023年1月11日起，成績取消至該日。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "aiu-a32c696dcdbb",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-f3be8df470dfb26c",
+        "registry-5f3be53a84577b3b"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-f3be8df470dfb26c",
+          "startLine": 81,
+          "endLine": 104,
+          "supports": [
+            "identity",
+            "event",
+            "substance"
+          ],
+          "note": "裁決記載2012年DHCMT樣本及當時陰性回報。"
+        },
+        {
+          "documentId": "doc-f3be8df470dfb26c",
+          "startLine": 121,
+          "endLine": 175,
+          "supports": [
+            "event",
+            "substance"
+          ],
+          "note": "2013與2014年樣本涉及oxandrolone，且原回報陰性。"
+        },
+        {
+          "documentId": "doc-f3be8df470dfb26c",
+          "startLine": 183,
+          "endLine": 200,
+          "supports": [
+            "education"
+          ],
+          "note": "選手曾詢問樣本是否重新分析，並於後續回信表示無法提出反證。"
+        },
+        {
+          "documentId": "doc-f3be8df470dfb26c",
+          "startLine": 358,
+          "endLine": 376,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "裁決於2023年1月11日作成，處四年禁賽，並取消2012年6月20日至裁決日的成績及相關後果。"
+        },
+        {
+          "documentId": "registry-5f3be53a84577b3b",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "country",
+            "sanction",
+            "dates"
+          ],
+          "note": "AIU名冊列其代表RUS，禁賽自2023年1月11日起，成績取消至該日。"
+        }
+      ],
+      "findings": []
+    }
+  ]
+}

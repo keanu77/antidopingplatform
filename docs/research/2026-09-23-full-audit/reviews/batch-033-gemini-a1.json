@@ -1,0 +1,230 @@
+{
+  "cases": [
+    {
+      "id": "aiu-c07d6fc3cced",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-4409f04226e04674",
+        "registry-37879f6509c20211"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-4409f04226e04674",
+          "startLine": 1,
+          "endLine": 12,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "AIU 決定書載明選手 Joyline Chepngeno 為來自肯亞之越野跑選手。"
+        },
+        {
+          "documentId": "doc-4409f04226e04674",
+          "startLine": 55,
+          "endLine": 62,
+          "supports": [
+            "event",
+            "substance"
+          ],
+          "note": "2025年8月9日瑞士 Sierre-Zinal 賽事採樣檢出 Triamcinolone acetonide。"
+        },
+        {
+          "documentId": "doc-4409f04226e04674",
+          "startLine": 124,
+          "endLine": 132,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "裁處兩年禁賽自 2025-09-08 起算，並取消 2025-08-09 起之所有成績與獎項。"
+        },
+        {
+          "documentId": "doc-4409f04226e04674",
+          "startLine": 67,
+          "endLine": 87,
+          "supports": [
+            "education"
+          ],
+          "note": "選手無有效 TUE，其說明膝部注射並簽署承認違規，AIU 認定非故意處兩年禁賽。"
+        },
+        {
+          "documentId": "registry-37879f6509c20211",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "AIU 官方名冊載明肯亞代表、違規條款與物質、自 2025-09-08 起禁賽2年及取消 2025-08-09 起成績。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "aiu-6d0ee595fa54",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-dd9766b6446140ef",
+        "registry-8364bbfa844e9d2b"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-dd9766b6446140ef",
+          "startLine": 1,
+          "endLine": 13,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "AIU 決定書載明選手 Maryna Bekh-Romanchuk 為烏克蘭田徑跳遠及三級跳選手。"
+        },
+        {
+          "documentId": "doc-dd9766b6446140ef",
+          "startLine": 56,
+          "endLine": 64,
+          "supports": [
+            "event",
+            "substance"
+          ],
+          "note": "2024年12月7日烏克蘭賽外樣本經 IRMS 分析確認含外源性 5αAdiol 與 5βAdiol。"
+        },
+        {
+          "documentId": "doc-dd9766b6446140ef",
+          "startLine": 229,
+          "endLine": 243,
+          "supports": [
+            "event",
+            "education"
+          ],
+          "note": "選手否認用藥並提出內源睪固酮醫學解釋，但未於展延期限內申請聽證，依法視為接受後果。"
+        },
+        {
+          "documentId": "doc-dd9766b6446140ef",
+          "startLine": 282,
+          "endLine": 292,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "確認處以四年禁賽自 2025-05-13 起算，並取消 2024-12-07 起相關成績。"
+        },
+        {
+          "documentId": "registry-8364bbfa844e9d2b",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "AIU 名冊登記烏克蘭籍、睪固酮違規、四年禁賽自 2025-05-13 起及取消成績自 2024-12-07 起。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "aiu-f52e72e49a35",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-202cb2d546dc1b8e",
+        "registry-47305eb1056b62a6"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-202cb2d546dc1b8e",
+          "startLine": 1,
+          "endLine": 13,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "AIU 決定書載明選手 Roncer Kipkorir Konga 為肯亞路跑選手。"
+        },
+        {
+          "documentId": "doc-202cb2d546dc1b8e",
+          "startLine": 59,
+          "endLine": 69,
+          "supports": [
+            "event",
+            "substance"
+          ],
+          "note": "2024年12月29日肯亞賽外採樣，初檢陰性後經追加分析確認含外源性睪固酮及其代謝物。"
+        },
+        {
+          "documentId": "doc-202cb2d546dc1b8e",
+          "startLine": 134,
+          "endLine": 171,
+          "supports": [
+            "education"
+          ],
+          "note": "選手稱使用草藥及補充品，但 APMU 認定與檢驗出的外源性睪固酮代謝物結果不符。"
+        },
+        {
+          "documentId": "doc-202cb2d546dc1b8e",
+          "startLine": 243,
+          "endLine": 261,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "選手及早承認違規獲減刑一年，處三年禁賽自 2025-06-16 起，取消 2024-12-29 起成績。"
+        },
+        {
+          "documentId": "registry-47305eb1056b62a6",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "AIU 官方名冊載明肯亞代表、睪固酮違規、自 2025-06-16 起禁賽3年及取消 2024-12-29 起成績。"
+        }
+      ],
+      "findings": []
+    }
+  ]
+}

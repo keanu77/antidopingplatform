@@ -1,0 +1,291 @@
+{
+  "cases": [
+    {
+      "id": "aiu-ce72b844c773",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-9d04ac280ab8d5df",
+        "registry-68419f74ceb71574"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-9d04ac280ab8d5df",
+          "startLine": 18,
+          "endLine": 23,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "sanction"
+          ],
+          "note": "確認選手為喬治亞田徑選手，曾於2011年違規禁賽兩年，本案構成第二次反禁藥違規"
+        },
+        {
+          "documentId": "doc-9d04ac280ab8d5df",
+          "startLine": 64,
+          "endLine": 89,
+          "supports": [
+            "event",
+            "substance",
+            "dates"
+          ],
+          "note": "2021-07-31 東京奧運賽外採樣檢出 metandienone 代謝物、DHCMT 及其代謝物與 tamoxifen 代謝物"
+        },
+        {
+          "documentId": "doc-9d04ac280ab8d5df",
+          "startLine": 308,
+          "endLine": 314,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "自2021-08-03起算七年禁賽，並取消自2021-07-31起之所有成績與獎牌獎項"
+        },
+        {
+          "documentId": "registry-68419f74ceb71574",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "AIU 官方名冊確認喬治亞選手 Abramyan 處分七年禁賽及取消成績"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "aiu-33d05bfbbad3",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-33e286c2013d0e4e",
+        "registry-4fe8ffe0e0740e3d"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-33e286c2013d0e4e",
+          "startLine": 17,
+          "endLine": 18,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "確認選手為衣索比亞路跑運動員"
+        },
+        {
+          "documentId": "doc-33e286c2013d0e4e",
+          "startLine": 64,
+          "endLine": 76,
+          "supports": [
+            "event",
+            "substance",
+            "dates"
+          ],
+          "note": "2021-09-05 賽內尿檢及 10-10 賽外尿檢與血檢均檢出重組 EPO"
+        },
+        {
+          "documentId": "doc-33e286c2013d0e4e",
+          "startLine": 102,
+          "endLine": 146,
+          "supports": [
+            "event",
+            "education"
+          ],
+          "note": "選手辯稱受傷接受他人止痛針注射，AIU 認定未能證明不知情使用"
+        },
+        {
+          "documentId": "doc-33e286c2013d0e4e",
+          "startLine": 216,
+          "endLine": 222,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "因加重情節處以六年禁賽，折抵暫時禁賽至 2028-02-03，並取消自 2021-09-05 起成績"
+        },
+        {
+          "documentId": "registry-4fe8ffe0e0740e3d",
+          "startLine": 1,
+          "endLine": 2,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "官方處分名冊登記衣索比亞選手 Gelaw 禁賽六年及取消成績"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-ccd3766a65f8",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-568422568ecb0157",
+        "doc-4a43b57c34ccb0f9",
+        "doc-0f830db1915c0ab7",
+        "registry-fba8592b84ccd70d"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-568422568ecb0157",
+          "startLine": 7,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "自行車選手 Evan Boyle 於 2025 年累積三次行蹤失誤接受 16 個月禁賽，自 2025-12-08 起算並取消 2025-10-02 起成績"
+        },
+        {
+          "documentId": "doc-4a43b57c34ccb0f9",
+          "startLine": 7,
+          "endLine": 11,
+          "supports": [
+            "event",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "禁賽期間參加 2026-07-25 Dust Bowl 100，追加兩個月禁賽改為十八個月，並取消該賽事成績"
+        },
+        {
+          "documentId": "registry-fba8592b84ccd70d",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction"
+          ],
+          "note": "USADA 名冊記錄 16 個月禁賽、成績取消及追加 2 個月禁賽"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "medium",
+          "claim": "nationality",
+          "explanation": "公告僅載明選手居住於田納西州 Milligan（of Milligan, Tenn.）及受 USADA 管轄，所附 UCI 頁面與名冊均無國籍或體育代表隊欄位，依稽核規範不得以管轄機構或居住地推定國籍。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-568422568ecb0157",
+              "startLine": 7,
+              "endLine": 8
+            },
+            {
+              "documentId": "doc-0f830db1915c0ab7",
+              "startLine": 1,
+              "endLine": 70
+            }
+          ],
+          "suggestion": "補充選手所屬國家協會或國籍之直接官方證明，或於該欄位載明待確認。"
+        }
+      ]
+    },
+    {
+      "id": "usada-30c9fa7aa386",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-cde299b86c2c79c3",
+        "doc-a917b52ec62dd164",
+        "registry-8765fc99e3a8ad98"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-cde299b86c2c79c3",
+          "startLine": 7,
+          "endLine": 9,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "Emily Oberst 於 2026-08-06 賽外檢體驗出 canrenone，因痤瘡治療用藥且事前未取得 TUE 接受公開警告，後續已獲核未來使用 TUE，無須取消競賽成績"
+        },
+        {
+          "documentId": "doc-a917b52ec62dd164",
+          "startLine": 1,
+          "endLine": 35,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "Team USA 官方運動員資料確認其代表美國出賽巴黎帕運輪椅籃球項目獲得銀牌"
+        },
+        {
+          "documentId": "registry-8765fc99e3a8ad98",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "dates"
+          ],
+          "note": "USADA 處分名冊登記 2026-09-01 對 Emily Oberst 發布公開警告"
+        }
+      ],
+      "findings": []
+    }
+  ]
+}

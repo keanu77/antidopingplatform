@@ -1,6 +1,6 @@
 # Cloudflare Pages 設定（2026-09-19 由 Zeabur Express + MongoDB 遷移）。
 #
-# 架構改變：171 筆案例與所有教育／TUE 內容改為 build 期編入 bundle 的靜態資料，
+# 架構改變：案例與所有教育／TUE 內容改為 build 期編入 bundle 的靜態資料，
 # 不再需要 MongoDB；唯一需要寫入的「使用者回饋」改用 D1。
 #
 # 部署：npm run cf:deploy
@@ -9,7 +9,7 @@ compatibility_date = "2025-05-05"
 compatibility_flags = ["nodejs_compat"]
 pages_build_output_dir = "frontend/dist"
 
-# 回饋寫入（functions/api/[[path]].js）。未綁定時回饋會被靜默略過而非報錯。
+# 回饋寫入（functions/api/[[path]].js）。未綁定或寫入失敗時回傳 503，前端應提示重試。
 [[d1_databases]]
 binding = "FEEDBACK_DB"
 database_name = "antidoping-feedback"

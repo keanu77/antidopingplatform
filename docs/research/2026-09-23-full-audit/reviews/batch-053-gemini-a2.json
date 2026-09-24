@@ -1,0 +1,164 @@
+{
+  "cases": [
+    {
+      "id": "aiu-95dce4e66605",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-b30592d0b78a35b3",
+        "registry-bece340cfe1045e0"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-b30592d0b78a35b3",
+          "startLine": 18,
+          "endLine": 19,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "選手姓名為 Caroline Chepkoech Kipkirui，代表哈薩克的長跑運動員。"
+        },
+        {
+          "documentId": "doc-b30592d0b78a35b3",
+          "startLine": 85,
+          "endLine": 93,
+          "supports": [
+            "event",
+            "substance"
+          ],
+          "note": "自 2023-02-09 起 12 個月內累積三次行蹤違規（2023-02-09、2023-06-19、2023-11-27），構成 ADR 2.4 違規。"
+        },
+        {
+          "documentId": "doc-b30592d0b78a35b3",
+          "startLine": 308,
+          "endLine": 314,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "禁賽兩年，計入 2024-02-21 起之暫時禁賽至 2026-02-20，並取消自 2023-11-27 起之所有成績。"
+        },
+        {
+          "documentId": "doc-b30592d0b78a35b3",
+          "startLine": 129,
+          "endLine": 132,
+          "supports": [
+            "education"
+          ],
+          "note": "選手須自行承擔行蹤申報責任，委由第三方處理未符規定不可作為抗辯理由；翌日採樣或逾時攔截採樣亦不免除違規。"
+        },
+        {
+          "documentId": "registry-bece340cfe1045e0",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊確認哈薩克籍選手 Kipkirui 違反行蹤規定，自 2024-02-21 禁賽 2 年並取消 2023-11-27 起成績。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "aiu-60a72a5b7a67",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-d6fde6a3ae44a15b",
+        "registry-d3a756085c980ea1"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-d6fde6a3ae44a15b",
+          "startLine": 17,
+          "endLine": 17,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "選手姓名為 Purity Temutai Komen，為肯亞路跑運動員。"
+        },
+        {
+          "documentId": "doc-d6fde6a3ae44a15b",
+          "startLine": 72,
+          "endLine": 82,
+          "supports": [
+            "event",
+            "substance"
+          ],
+          "note": "2022-10-13 於世界軍人越野錦標賽檢體檢出外源性 19-Norandrosterone，違反 ADR 2.1 與 2.2。"
+        },
+        {
+          "documentId": "doc-d6fde6a3ae44a15b",
+          "startLine": 84,
+          "endLine": 100,
+          "supports": [
+            "event",
+            "substance"
+          ],
+          "note": "2023-05-12 採樣時向檢驗人員指引錯誤方向後失聯，構成 ADR 2.3 逃避採樣違規。"
+        },
+        {
+          "documentId": "doc-d6fde6a3ae44a15b",
+          "startLine": 379,
+          "endLine": 385,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "合併處罰並考量加重情節處六年禁賽，自 2023-07-06 起算，並取消 2022-10-13 起所有競賽成績。"
+        },
+        {
+          "documentId": "doc-d6fde6a3ae44a15b",
+          "startLine": 250,
+          "endLine": 264,
+          "supports": [
+            "education"
+          ],
+          "note": "未如期回覆指控視同默認違規及接受處分，且未簽回承認表單因而無法享有減刑一年的寬減規定。"
+        },
+        {
+          "documentId": "registry-d3a756085c980ea1",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊記載肯亞選手 Komen 涉及檢出禁藥與逃避採樣，自 2023-07-06 禁賽 6 年並取消 2022-10-13 起成績。"
+        }
+      ],
+      "findings": []
+    }
+  ]
+}

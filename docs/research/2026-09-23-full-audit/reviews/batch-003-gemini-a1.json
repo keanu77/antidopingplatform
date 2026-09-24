@@ -1,0 +1,420 @@
+{
+  "cases": [
+    {
+      "id": "ita-8e2a8b3f698b",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-bd7967cbb2f6b6ed",
+        "registry-f0cc659e25447339"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-bd7967cbb2f6b6ed",
+          "startLine": 1,
+          "endLine": 8,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告記載土耳其舉重選手 Batu Han Yuksel 於 2023-07-28 檢出 oxymetholone 代謝物構成第二次違規，CAS ADD 處 8 年禁賽並經 CAS 駁回上訴確認，禁賽自 2027-07-27 至 2035-07-26 接續執行，成績取消期間為 2023-07-28 至 2023-08-29"
+        },
+        {
+          "documentId": "registry-f0cc659e25447339",
+          "startLine": 1,
+          "endLine": 22,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊登載選手姓名、國籍土耳其、舉重、違規條款 Art. 2.1/2.2、違規日 2023-07-28、禁賽 8 年（2027-07-27 至 2035-07-26）及成績取消區間"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-cd387471474e",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-9c561dad28e4e6a0",
+        "registry-224e920f02e14fdd"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-9c561dad28e4e6a0",
+          "startLine": 1,
+          "endLine": 5,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告記載印度射箭選手 Prathamesh Samadhan Jawkar 因 12 個月內 3 次行蹤失誤違反規則第 2.4 條，接受禁賽 2 年自 2026-04-19 至 2028-04-18，取消 2025-10-01 起成績"
+        },
+        {
+          "documentId": "registry-224e920f02e14fdd",
+          "startLine": 1,
+          "endLine": 22,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊載明印度射箭選手、條款 Art. 2.4、違規日 2025-10-01、禁賽 2 年（2026-04-19 至 2028-04-18）及成績取消自 2025-10-01 至 2026-04-19"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-b38ccaa15f5a",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-b6a94324d2dfb5da",
+        "registry-78097dcff8bf4bde"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-b6a94324d2dfb5da",
+          "startLine": 1,
+          "endLine": 6,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告記載俄羅斯體操選手 Daniil Kuzmin 於 2026-02-03 檢出 boldenone，及早承認獲扣減一年後接受禁賽 3 年自 2026-03-20 至 2029-03-19，取消 2026-02-03 起個人成績"
+        },
+        {
+          "documentId": "registry-78097dcff8bf4bde",
+          "startLine": 1,
+          "endLine": 22,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊登載選手姓名、國籍俄羅斯、體操、Art. 2.1/2.2 boldenone、違規日 2026-02-03、禁賽 3 年（2026-03-20 至 2029-03-19）及成績取消區間"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-ae0903caad5e",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-aea4c5f1e61f1b81",
+        "registry-09dd054e1a1023bb"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-aea4c5f1e61f1b81",
+          "startLine": 1,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告記載烏茲別克桑搏選手 Gulsevar Urakova 於 2025 年世界運動會賽前與 8 月 14 日檢體檢出 LGD-4033、RAD140 及 ostarine，接受 FIAS 禁賽 5 年自 2025-09-04 至 2030-09-03，成績取消自 2025-08-04 起"
+        },
+        {
+          "documentId": "registry-09dd054e1a1023bb",
+          "startLine": 1,
+          "endLine": 22,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊載明烏茲別克桑搏選手、違規日 2025-08-04 與 2025-08-14、檢出物質為 Ostarine、Ligandrol 與 RAD140、禁賽 5 年自 2025-09-04 至 2030-09-03、成績取消區間 2025-08-04 至 2025-09-04"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-07adfc13fc45",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-aea4c5f1e61f1b81",
+        "registry-09dd054e1a1023bb"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-aea4c5f1e61f1b81",
+          "startLine": 1,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告記載烏茲別克桑搏選手 Ozodbek Murotov 於 2025-08-12 賽外檢體檢出 19-norandrosterone，及早承認後接受禁賽 3 年自 2025-09-10 至 2028-09-09，取消 2025-08-12 起個人成績"
+        },
+        {
+          "documentId": "registry-09dd054e1a1023bb",
+          "startLine": 25,
+          "endLine": 46,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊載明烏茲別克桑搏選手、違規日 2025-08-12、檢出物質 19-norandrosterone、禁賽 3 年自 2025-09-10 至 2028-09-09、成績取消 2025-08-12 至 2025-09-10"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-568a6741e703",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-ed054f882f1ef9bf",
+        "registry-cf40270ea3e4cab0"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-ed054f882f1ef9bf",
+          "startLine": 1,
+          "endLine": 7,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告記載土庫曼庫拉什選手 Dayanch Omirov 於 2025-06-18 與 2025-07-15 檢體分別檢出 meldonium 與 metandienone 代謝物，因加重情節處以 6 年禁賽自 2025-07-23 至 2031-07-22，取消 2025-06-18 起成績"
+        },
+        {
+          "documentId": "registry-cf40270ea3e4cab0",
+          "startLine": 1,
+          "endLine": 22,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊載明土庫曼庫拉什選手、違規日 2025-06-18、檢出物質 Meldonium 與 Metandienone 代謝物、禁賽 6 年（2025-07-23 至 2031-07-22）、成績取消自 2025-06-18 起"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-32742f90fa3f",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-542136464f503c1b",
+        "registry-54a26aca07df78d8"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-542136464f503c1b",
+          "startLine": 1,
+          "endLine": 7,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告記載亞塞拜然綜合格鬥選手 Nihad Fozail Oglu Nihad 於 2025-06-22 檢體檢出 meldonium，未提出抗辯，ITA 處以 4 年禁賽自 2025-07-31 至 2029-07-30，取消 2025-06-22 起成績"
+        },
+        {
+          "documentId": "registry-54a26aca07df78d8",
+          "startLine": 1,
+          "endLine": 22,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊載明亞塞拜然綜合格鬥選手、違規日 2025-06-22、條款 Art. 2.1 Meldonium、禁賽 4 年（2025-07-31 至 2029-07-30）、成績取消自 2025-06-22 起"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-06d43cb2bedd",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-f37b91e58a0fc611",
+        "registry-ff53ae598d70f02f"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-f37b91e58a0fc611",
+          "startLine": 1,
+          "endLine": 4,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告記載巴西跆拳道選手 Maicon de Andrade Siqueira 因 12 個月內 3 次行蹤失誤違反條款 2.4，處以 2 年禁賽自 2026-01-19 至 2028-01-18，成績取消自 2025-07-13 起"
+        },
+        {
+          "documentId": "registry-ff53ae598d70f02f",
+          "startLine": 1,
+          "endLine": 22,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊載明巴西跆拳道選手（姓氏拼為 de Andrade Sigueira）、條款 Art 2.4、違規日 2025-07-13、禁賽 2 年（2026-01-19 至 2028-01-18）、成績取消區間 2025-07-13 至 2026-01-19"
+        }
+      ],
+      "findings": []
+    }
+  ]
+}

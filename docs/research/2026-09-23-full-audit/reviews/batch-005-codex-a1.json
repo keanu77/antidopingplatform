@@ -1,0 +1,449 @@
+{
+  "cases": [
+    {
+      "id": "ita-33dbfad751c1",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-0500db106f1433b5",
+        "registry-b5a94f78b791ee96"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-0500db106f1433b5",
+          "startLine": 2,
+          "endLine": 7,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告確認喬治亞角力選手兩次樣本檢出 clomifene、20 個月禁賽及成績取消期間。"
+        },
+        {
+          "documentId": "registry-b5a94f78b791ee96",
+          "startLine": 1,
+          "endLine": 20,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊列出選手、國家、項目、違規條款、處分期間及成績取消期間。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-19c95510831f",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-7326eb3bd67378a9",
+        "registry-cfe82c7af2b5505c"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-7326eb3bd67378a9",
+          "startLine": 2,
+          "endLine": 9,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告確認烏茲別克桑搏選手、meldonium 陽性結果、提早承認、三年處分及取消成績。"
+        },
+        {
+          "documentId": "registry-cfe82c7af2b5505c",
+          "startLine": 1,
+          "endLine": 20,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊列出違規日期、meldonium、三年禁賽及成績處理區間。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-c9475e60a3ed",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-0c20bac742c82c2f",
+        "registry-90bb019b580eaf15"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-0c20bac742c82c2f",
+          "startLine": 2,
+          "endLine": 6,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告確認厄瓜多舉重選手樣本檢出 clomifene、14 個月禁賽及成績處理。"
+        },
+        {
+          "documentId": "registry-90bb019b580eaf15",
+          "startLine": 1,
+          "endLine": 20,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊確認違規日期、物質、處分及成績取消期間。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-bb6ebcfb3ce5",
+      "status": "issue",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "issue",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-a2bd9b038d2945e4",
+        "registry-a179c2441ca07416"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-a2bd9b038d2945e4",
+          "startLine": 2,
+          "endLine": 5,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告確認法國體操選手三次行蹤失誤、22 個月禁賽，且自 2025 年 6 月 26 日起取消個人賽成績並包括獎牌、積分與獎品。"
+        },
+        {
+          "documentId": "registry-a179c2441ca07416",
+          "startLine": 1,
+          "endLine": 20,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊列出違規日期、禁賽期間及成績處理期間。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "outcomes",
+          "kind": "contradiction",
+          "severity": "medium",
+          "claim": "成績處理：From 26 June 2025 until 27 October 2025",
+          "explanation": "公告稱自 2025 年 6 月 26 日起取消個人賽成績，並包括獎牌、積分及獎品；將取消範圍寫成只到 10 月 27 日，縮窄了公告所述範圍。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-a2bd9b038d2945e4",
+              "startLine": 5,
+              "endLine": 5
+            },
+            {
+              "documentId": "registry-a179c2441ca07416",
+              "startLine": 19,
+              "endLine": 20
+            }
+          ],
+          "suggestion": "依公告改為「2025 年 6 月 26 日起」；若另列截至 10 月 27 日，須標明那是名冊所列期間，並說明與公告範圍的差異。"
+        }
+      ]
+    },
+    {
+      "id": "ita-260e332c1c14",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-d3445630641b6afc",
+        "registry-5e311c8ae4ead330"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-d3445630641b6afc",
+          "startLine": 2,
+          "endLine": 6,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告確認古巴棒球選手在 2024 Premier12 樣本檢出 clomifene，處分兩年並取消成績。"
+        },
+        {
+          "documentId": "registry-5e311c8ae4ead330",
+          "startLine": 1,
+          "endLine": 20,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊列出古巴、棒球、clomifene、兩年禁賽及成績處理期間。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-31e91f5916a4",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-a832de0fd0dce33f",
+        "registry-b7cb724d2513b1fb"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-a832de0fd0dce33f",
+          "startLine": 2,
+          "endLine": 7,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告確認西班牙棒球選手於經典賽資格賽檢出三種物質，因加重情節處以五年禁賽並取消成績。"
+        },
+        {
+          "documentId": "registry-b7cb724d2513b1fb",
+          "startLine": 1,
+          "endLine": 20,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊確認選手、國家、項目、物質、禁賽與成績取消期間。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-9ade5d350db5",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-95f8487235d7c592",
+        "registry-bf3635c04f70a081"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-95f8487235d7c592",
+          "startLine": 2,
+          "endLine": 8,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告確認墨西哥角力選手 Carboxy-THC 違規、三個月處分及成績取消。"
+        },
+        {
+          "documentId": "registry-bf3635c04f70a081",
+          "startLine": 1,
+          "endLine": 20,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊列出違規條款、日期、禁賽及成績取消期間。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-cfefdacd2d92",
+      "status": "issue",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "issue",
+        "substance": "not_applicable",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-f09b96f6d385de27",
+        "registry-4936117b0adbe796"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-f09b96f6d385de27",
+          "startLine": 2,
+          "endLine": 5,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "sanction",
+            "dates"
+          ],
+          "note": "UCI 公告確認哥倫比亞自行車選手三次行蹤失誤、18 個月處分，期間自 2025 年 4 月 23 日至 2026 年 10 月 22 日。"
+        },
+        {
+          "documentId": "registry-4936117b0adbe796",
+          "startLine": 1,
+          "endLine": 20,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊將違規日期列為 05/12/2024，並將取消成績與處理方式列為 N/A。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "event",
+          "kind": "material_ambiguity",
+          "severity": "medium",
+          "claim": "year: 2024；eventBackground 稱 UCI 確認三次行蹤失誤",
+          "explanation": "名冊的 05/12/2024 日期格式不明；公告只確認 12 個月內三次失誤，未提供違規日期，無法由公告核定年份。",
+          "sourceRefs": [
+            {
+              "documentId": "registry-4936117b0adbe796",
+              "startLine": 13,
+              "endLine": 14
+            },
+            {
+              "documentId": "doc-f09b96f6d385de27",
+              "startLine": 2,
+              "endLine": 4
+            }
+          ],
+          "suggestion": "將年份標示為名冊日期格式未明，或補充可核實的違規日期來源。"
+        }
+      ]
+    }
+  ]
+}

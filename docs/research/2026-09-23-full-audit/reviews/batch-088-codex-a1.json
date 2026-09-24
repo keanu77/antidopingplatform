@@ -1,0 +1,501 @@
+{
+  "cases": [
+    {
+      "id": "usada-4366103d9b91",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-2dfaf659679b89e8",
+        "registry-3a95206b3acd028f"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-2dfaf659679b89e8",
+          "startLine": 7,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "USADA 記載 Polk 為田徑選手，因非分析證據涉及肽類持有，接受兩年處分，並列出禁賽起算與成績取消日期。"
+        },
+        {
+          "documentId": "registry-3a95206b3acd028f",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "sanction"
+          ],
+          "note": "名冊列出 Polk、田徑、肽類持有及兩年處分。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "國籍：美國",
+          "explanation": "來源只稱美國田徑選手並列德州居住地，未明確確認其國籍或代表國家。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-2dfaf659679b89e8",
+              "startLine": 1,
+              "endLine": 8
+            }
+          ],
+          "suggestion": "改列代表國家未確認，或補充能確認其代表身分的來源。"
+        }
+      ]
+    },
+    {
+      "id": "usada-2c9f4748c39c",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-212aa2f7c418f495",
+        "registry-49a213d538987a8c"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-212aa2f7c418f495",
+          "startLine": 7,
+          "endLine": 11,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "USADA 記載 Henderson 於 2017 年 Green Acres Cyclocross 採樣，檢出賽內超過判定界限的 THC 代謝物，處分減免後於 2018-02-12 到期，取消當日成績。"
+        },
+        {
+          "documentId": "registry-49a213d538987a8c",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "sanction",
+            "outcomes"
+          ],
+          "note": "名冊列出 Henderson、自行車、大麻素、六個月處分並減免三個月及取消成績。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "國籍：美國",
+          "explanation": "來源稱其為美國自行車選手並列明尼蘇達州居住地，但未明確說明國籍或代表國家。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-212aa2f7c418f495",
+              "startLine": 1,
+              "endLine": 8
+            }
+          ],
+          "suggestion": "改列代表國家未確認，或補充能確認其代表身分的來源。"
+        }
+      ]
+    },
+    {
+      "id": "usada-5682bad4c39a",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-da26e02795ba2984",
+        "registry-2c901242ca701431"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-da26e02795ba2984",
+          "startLine": 7,
+          "endLine": 11,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "USADA 記載 Dates 約自 2015 年 7 月持有並使用含 ostarine 補充品，另涉篡改、施用與共謀，處分四年並取消自 2015-07-01 起成績。"
+        },
+        {
+          "documentId": "registry-2c901242ca701431",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "sanction",
+            "outcomes"
+          ],
+          "note": "名冊列出 Dates、田徑、ostarine 持有使用、四年處分及成績取消。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "國籍：美國",
+          "explanation": "來源稱其為美國田徑選手並列田納西州居住地，未明確確認國籍或代表國家。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-da26e02795ba2984",
+              "startLine": 1,
+              "endLine": 8
+            }
+          ],
+          "suggestion": "改列代表國家未確認，或補充能確認其代表身分的來源。"
+        }
+      ]
+    },
+    {
+      "id": "usada-e52ee6c67921",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-1851b118d360615e",
+        "registry-5af97d8369087394"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-1851b118d360615e",
+          "startLine": 7,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "USADA 記載 Roberts 在 Challenge Roth 申報並檢出 vilanterol，治療劑量由醫師照護；其後取得 TUE，受公開警告且該賽成績取消。"
+        },
+        {
+          "documentId": "registry-5af97d8369087394",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "sanction",
+            "outcomes"
+          ],
+          "note": "名冊列出 Roberts、鐵人三項、vilanterol、公開警告及成績取消。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "國籍：美國",
+          "explanation": "標題稱美國鐵人三項選手，正文列亞利桑那州居住地；未明確確認國籍或代表國家。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-1851b118d360615e",
+              "startLine": 1,
+              "endLine": 8
+            }
+          ],
+          "suggestion": "改列代表國家未確認，或補充能確認其代表身分的來源。"
+        }
+      ]
+    },
+    {
+      "id": "usada-4ab89c689116",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-03a068a9f39e457b",
+        "registry-acd9e7e8bdc86631"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-03a068a9f39e457b",
+          "startLine": 7,
+          "endLine": 11,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "USADA 記載 Westbrook 約自 2015 年 8 月持有並使用含 ostarine 補充品，另涉篡改及共謀，受四年處分並取消自 2015-08-01 起成績。"
+        },
+        {
+          "documentId": "registry-acd9e7e8bdc86631",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "sanction",
+            "outcomes"
+          ],
+          "note": "名冊列出 Westbrook、田徑、ostarine 持有使用、四年處分及成績取消。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "國籍：美國",
+          "explanation": "來源稱其為美國田徑選手並列田納西州居住地，未明確確認國籍或代表國家。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-03a068a9f39e457b",
+              "startLine": 1,
+              "endLine": 8
+            }
+          ],
+          "suggestion": "改列代表國家未確認，或補充能確認其代表身分的來源。"
+        }
+      ]
+    },
+    {
+      "id": "usada-7cdaea68994c",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-5c0d489ca3289c8f",
+        "registry-749b3e1b77bfed8c"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-5c0d489ca3289c8f",
+          "startLine": 7,
+          "endLine": 9,
+          "supports": [
+            "identity",
+            "event",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "USADA 記載 Vance 在被通知賽內檢測後逃避採樣，原四年處分因及時承認減為三年，並取消自逃避日後成績。"
+        },
+        {
+          "documentId": "registry-749b3e1b77bfed8c",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "sanction",
+            "outcomes"
+          ],
+          "note": "名冊列出 Vance、帕拉田徑、逃避採樣及四年處分減一年並取消成績。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "國籍：美國",
+          "explanation": "標題稱美國帕拉田徑選手，正文列密西西比州居住地；未明確確認國籍或代表國家。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-5c0d489ca3289c8f",
+              "startLine": 1,
+              "endLine": 8
+            }
+          ],
+          "suggestion": "改列代表國家未確認，或補充能確認其代表身分的來源。"
+        }
+      ]
+    },
+    {
+      "id": "usada-870d48eb51f7",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-52381391b77f34ac",
+        "registry-1fc8d22aee247bb7"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-52381391b77f34ac",
+          "startLine": 7,
+          "endLine": 11,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "USADA 記載 Schiefer 在全美大師場地賽檢出 clomiphene 及代謝物，醫療療程已結束三個月以上，因較低過失減為六個月並取消自採樣日起成績。"
+        },
+        {
+          "documentId": "registry-1fc8d22aee247bb7",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "sanction",
+            "outcomes"
+          ],
+          "note": "名冊列出 Schiefer、自行車、clomiphene 與代謝物、六個月處分及成績取消。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "國籍：美國",
+          "explanation": "來源稱其為美國自行車選手並列加州居住地，但未明確確認國籍或代表國家。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-52381391b77f34ac",
+              "startLine": 1,
+              "endLine": 8
+            }
+          ],
+          "suggestion": "改列代表國家未確認，或補充能確認其代表身分的來源。"
+        }
+      ]
+    },
+    {
+      "id": "usada-fc2334e2f733",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-e3af902208d955d6",
+        "registry-a6ec01819b187c60"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-e3af902208d955d6",
+          "startLine": 7,
+          "endLine": 9,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "USADA 記載 Wuebben 在全國大學及 U25 錦標賽檢出 clomiphene 與 ritalinic acid，接受四年處分，自暫時禁賽日起算並取消自比賽日起成績。"
+        },
+        {
+          "documentId": "registry-a6ec01819b187c60",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "sanction",
+            "outcomes"
+          ],
+          "note": "名冊列出 Wuebben、舉重、clomiphene 與 ritalinic acid、四年處分及成績取消。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "國籍：美國",
+          "explanation": "標題稱美國舉重選手，正文列北卡羅來納州居住地；未明確確認國籍或代表國家。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-e3af902208d955d6",
+              "startLine": 1,
+              "endLine": 8
+            }
+          ],
+          "suggestion": "改列代表國家未確認，或補充能確認其代表身分的來源。"
+        }
+      ]
+    }
+  ]
+}

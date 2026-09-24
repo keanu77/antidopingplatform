@@ -1,0 +1,59 @@
+{
+  "checkedAt": "2026-09-23T09:01:34.555399+00:00",
+  "buildVersion": {
+    "sha": "60f7073a9deb98af0b117735717250e638bee9ba",
+    "builtAt": "2026-09-23T08:59:04.082Z"
+  },
+  "buildIndexSha256": "3ae421488600dc5fdaf27c985f3302457cc8cabafdf3c1338c2af54b8fa55006",
+  "dataSha256": "52513ba9e6040d6781c5dcfacbd440b0ba1f976c92812e404de370e860beff52",
+  "checks": {
+    "caseApiAndEducationRuleTests": {
+      "pass": 34,
+      "fail": 0
+    },
+    "frontendUnitTests": {
+      "pass": 39,
+      "fail": 0
+    },
+    "legacyBackendTests": {
+      "pass": 60,
+      "fail": 0
+    },
+    "routesAtTwoWidths": {
+      "pass": 26,
+      "fail": 0
+    },
+    "siteInteractions": {
+      "pass": 12,
+      "fail": 0
+    },
+    "uxRecoveryAndRaces": {
+      "pass": 19,
+      "fail": 0
+    },
+    "feedbackUi": {
+      "pass": 8,
+      "fail": 0
+    },
+    "eslint": "pass",
+    "build": "pass",
+    "diffCheck": "pass",
+    "newCasesCompletion": 500,
+    "npmAuditRootVulnerabilities": 0,
+    "npmAuditFrontendVulnerabilities": 0,
+    "liveVsGitHubReadOnlyApi": {
+      "matched": 191,
+      "total": 191
+    },
+    "liveGitVersionMatch": false
+  },
+  "publication": "not committed, not pushed, not deployed",
+  "productionCount": 171,
+  "localCount": 517,
+  "limitations": [
+    "Data factual accuracy is not established by software tests",
+    "No true production D1 feedback submission",
+    "Independent model source coverage is 15, not all 500",
+    "252 title-only national labels still need representative-country evidence"
+  ]
+}

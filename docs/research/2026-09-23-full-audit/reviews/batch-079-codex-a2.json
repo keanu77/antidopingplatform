@@ -1,0 +1,534 @@
+{
+  "cases": [
+    {
+      "id": "usada-d11c3ef3a336",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-83a8baae53a65406",
+        "registry-c3c5f5f0a7ff2916"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-83a8baae53a65406",
+          "startLine": 7,
+          "endLine": 9,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告確認選手、舉重、2019年4月30日賽外採樣、多項物質、四年處分及成績取消。"
+        },
+        {
+          "documentId": "registry-c3c5f5f0a7ff2916",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "sanction"
+          ],
+          "note": "名冊列出 Maynard、舉重、多項物質、四年停賽及成績損失。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "medium",
+          "claim": "國籍：美國",
+          "explanation": "公告稱其為 U.S. Weightlifting 選手並提供居住地，未明確證明其國籍或代表國家。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-83a8baae53a65406",
+              "startLine": 1,
+              "endLine": 1
+            },
+            {
+              "documentId": "doc-83a8baae53a65406",
+              "startLine": 7,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "補充能明確證明其代表國家或國籍的資料；否則標為國家／代表資訊未確認。"
+        }
+      ]
+    },
+    {
+      "id": "usada-a00b98f42826",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-8fa8f1613481be15",
+        "registry-1e24620129e86e72"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-8fa8f1613481be15",
+          "startLine": 7,
+          "endLine": 9,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "education"
+          ],
+          "note": "公告確認游泳選手申報吸入劑，檢體陰性；因醫囑治療氣喘、如實申報及無事前 TUE 而接受公開警告。"
+        },
+        {
+          "documentId": "registry-1e24620129e86e72",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "sanction"
+          ],
+          "note": "名冊記載 vilanterol 使用違規及公開警告。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "medium",
+          "claim": "國籍：美國",
+          "explanation": "標題稱 U.S. Swimming 選手，公告並列德州居住地，但未明確證明國籍或代表國家。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-8fa8f1613481be15",
+              "startLine": 1,
+              "endLine": 1
+            },
+            {
+              "documentId": "doc-8fa8f1613481be15",
+              "startLine": 7,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "補充明確的代表國家或國籍來源；否則標為未確認。"
+        }
+      ]
+    },
+    {
+      "id": "usada-a187e411794f",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-a231b05f60dd3ff3",
+        "registry-14bc4762e5b3266f"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-a231b05f60dd3ff3",
+          "startLine": 7,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告確認鐵人三項選手於兩項賽事採樣驗出 higenamine，補充品標籤列有該成分，並記載十個月停賽及成績取消。"
+        },
+        {
+          "documentId": "registry-14bc4762e5b3266f",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "sanction"
+          ],
+          "note": "名冊記載 higenamine、十個月停賽及公告日期。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "medium",
+          "claim": "國籍：美國",
+          "explanation": "公告標題及賽事名稱不足以明確證明國籍或代表國家；列出的印第安納州居住地也不構成證明。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-a231b05f60dd3ff3",
+              "startLine": 1,
+              "endLine": 1
+            },
+            {
+              "documentId": "doc-a231b05f60dd3ff3",
+              "startLine": 7,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "補充明確的代表國家或國籍證據；否則標為未確認。"
+        }
+      ]
+    },
+    {
+      "id": "usada-990a455fba77",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-d0ac10e85c780039",
+        "registry-3ced4661a7c4f489"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-d0ac10e85c780039",
+          "startLine": 7,
+          "endLine": 11,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告確認跆拳道選手 ibutamoren 陽性、維他命檢出未標示成分且較可能製程污染，並記載六個月停賽及成績取消。"
+        },
+        {
+          "documentId": "registry-3ced4661a7c4f489",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "sanction"
+          ],
+          "note": "名冊記載 ibutamoren、六個月停賽及公告日期。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "medium",
+          "claim": "國籍：美國",
+          "explanation": "標題稱 U.S. Taekwondo 選手且公告列出德州居住地，未明確證明國籍或代表國家。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-d0ac10e85c780039",
+              "startLine": 1,
+              "endLine": 1
+            },
+            {
+              "documentId": "doc-d0ac10e85c780039",
+              "startLine": 7,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "補充明確的代表國家或國籍證據；否則標為未確認。"
+        }
+      ]
+    },
+    {
+      "id": "usada-faf9ebfb231f",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-70a2630acf11df4f",
+        "registry-26dfb5d876122817"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-70a2630acf11df4f",
+          "startLine": 7,
+          "endLine": 11,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告確認舉重選手於比賽中多項物質陽性，興奮劑來自受污染補充品但無法確認 ostarine 與 LGD-4033 來源，並處四年及取消成績。"
+        },
+        {
+          "documentId": "registry-26dfb5d876122817",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "sanction"
+          ],
+          "note": "名冊列出相關物質、四年停賽及成績損失。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "medium",
+          "claim": "國籍：美國",
+          "explanation": "公告標題稱 U.S. Weightlifting 選手並列紐約州居住地，未明確證明國籍或代表國家。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-70a2630acf11df4f",
+              "startLine": 1,
+              "endLine": 1
+            },
+            {
+              "documentId": "doc-70a2630acf11df4f",
+              "startLine": 7,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "補充明確的代表國家或國籍證據；否則標為未確認。"
+        }
+      ]
+    },
+    {
+      "id": "usada-5dca0d670577",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-2d9de201cc0e1da9",
+        "doc-5c5eba58e03a838f",
+        "registry-bcbd24f374aa676b"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-2d9de201cc0e1da9",
+          "startLine": 7,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告確認空手道選手於成人代表隊選拔賽 LGD-4033 代謝物陽性，污染補充品導致陽性，並處九個月及取消成績。"
+        },
+        {
+          "documentId": "doc-5c5eba58e03a838f",
+          "startLine": 16,
+          "endLine": 21,
+          "supports": [
+            "country"
+          ],
+          "note": "Team USA 個人頁列出美國國家隊及泛美運動會美國隊經歷。"
+        },
+        {
+          "documentId": "registry-bcbd24f374aa676b",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "sanction"
+          ],
+          "note": "名冊列出 LGD-4033、九個月停賽及成績損失。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "medium",
+          "claim": "國籍：美國",
+          "explanation": "Team USA 頁面證明其曾代表美國隊參賽，但未證明國籍；聲稱國籍超出來源所能確認的範圍。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-5c5eba58e03a838f",
+              "startLine": 19,
+              "endLine": 21
+            }
+          ],
+          "suggestion": "將欄位改為曾代表美國隊，或另補明確國籍證據。"
+        }
+      ]
+    },
+    {
+      "id": "usada-74510fc23e03",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-fe00bc6c30e3cc06",
+        "registry-b90a38a53c670661"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-fe00bc6c30e3cc06",
+          "startLine": 7,
+          "endLine": 9,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告確認舉重選手於賽外檢測拒絕尿檢，屬第二次違規，處八年並取消自拒檢日起成績。"
+        },
+        {
+          "documentId": "registry-b90a38a53c670661",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "sanction"
+          ],
+          "note": "名冊記載拒絕採樣、八年停賽及成績損失。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "medium",
+          "claim": "國籍：美國",
+          "explanation": "公告標題稱 U.S. Weightlifting 選手並列猶他州居住地，未明確證明國籍或代表國家。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-fe00bc6c30e3cc06",
+              "startLine": 1,
+              "endLine": 1
+            },
+            {
+              "documentId": "doc-fe00bc6c30e3cc06",
+              "startLine": 7,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "補充明確的代表國家或國籍證據；否則標為未確認。"
+        }
+      ]
+    },
+    {
+      "id": "usada-4518fb0dbd4d",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-602e23255235d0bf",
+        "registry-57b4c0de00ce4fe4"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-602e23255235d0bf",
+          "startLine": 7,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告確認跆拳道選手 higenamine 陽性，補充品標籤列有禁用物質且她如實申報並配合，處十八個月及取消成績。"
+        },
+        {
+          "documentId": "registry-57b4c0de00ce4fe4",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "sanction"
+          ],
+          "note": "名冊記載 higenamine、十八個月停賽及成績損失。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "medium",
+          "claim": "國籍：美國",
+          "explanation": "標題稱 U.S. Taekwondo 選手，公告所列佛州居住地未明確證明國籍或代表國家。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-602e23255235d0bf",
+              "startLine": 1,
+              "endLine": 1
+            },
+            {
+              "documentId": "doc-602e23255235d0bf",
+              "startLine": 7,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "補充明確的代表國家或國籍證據；否則標為未確認。"
+        }
+      ]
+    }
+  ]
+}

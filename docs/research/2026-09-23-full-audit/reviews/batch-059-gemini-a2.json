@@ -1,0 +1,217 @@
+{
+  "cases": [
+    {
+      "id": "aiu-424f8426301d",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-8cadea214e048f3d",
+        "registry-8229602aec75fc40"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-8cadea214e048f3d",
+          "startLine": 5,
+          "endLine": 6,
+          "supports": [
+            "identity"
+          ],
+          "note": "AIU 裁決載明選手姓名為 Bogdan Pishchalnikov"
+        },
+        {
+          "documentId": "registry-8229602aec75fc40",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "country",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊載明俄羅斯代表 RUS 選手 Bogdan Pishchalnikov 處四年禁賽與成績取消起訖"
+        },
+        {
+          "documentId": "doc-8cadea214e048f3d",
+          "startLine": 88,
+          "endLine": 90,
+          "supports": [
+            "event",
+            "substance"
+          ],
+          "note": "2012年7月15日賽內採樣於 LIMS 顯示檢出外源性類固醇 DHCMT"
+        },
+        {
+          "documentId": "doc-8cadea214e048f3d",
+          "startLine": 337,
+          "endLine": 342,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "AIU 處以自2023年3月20日裁決日起算四年禁賽，並取消2012年7月15日起至裁決日成績"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "aiu-1146ed3b5c0e",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-833ffaa86a830b21",
+        "registry-913dd215bca5cb19"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-833ffaa86a830b21",
+          "startLine": 17,
+          "endLine": 17,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "AIU 裁決確認選手 Esther Macharia 來自肯亞"
+        },
+        {
+          "documentId": "doc-833ffaa86a830b21",
+          "startLine": 49,
+          "endLine": 50,
+          "supports": [
+            "event"
+          ],
+          "note": "2022年12月4日新加坡馬拉松賽事中採集尿液樣本"
+        },
+        {
+          "documentId": "doc-833ffaa86a830b21",
+          "startLine": 65,
+          "endLine": 68,
+          "supports": [
+            "substance"
+          ],
+          "note": "杜哈實驗室報告檢出外源性睪固酮及其代謝物不利分析結果"
+        },
+        {
+          "documentId": "doc-833ffaa86a830b21",
+          "startLine": 73,
+          "endLine": 75,
+          "supports": [
+            "education"
+          ],
+          "note": "AIU 審查確認選手未獲或未具備睪固酮之治療用藥豁免 (TUE)"
+        },
+        {
+          "documentId": "doc-833ffaa86a830b21",
+          "startLine": 199,
+          "endLine": 204,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "AIU 處以自2023年2月21日暫時停賽日起算四年禁賽，並取消2022年12月4日起之成績"
+        },
+        {
+          "documentId": "registry-913dd215bca5cb19",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊登記肯亞選手 Esther Macharia 睪固酮違規，處四年禁賽與成績取消"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "aiu-33e7c4d969f7",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-461804689a3375b0",
+        "registry-f492458a7d44ff15"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-461804689a3375b0",
+          "startLine": 5,
+          "endLine": 6,
+          "supports": [
+            "identity",
+            "education"
+          ],
+          "note": "裁決標題載明選手拼寫為 Anton Luboslavskiy"
+        },
+        {
+          "documentId": "registry-f492458a7d44ff15",
+          "startLine": 1,
+          "endLine": 2,
+          "supports": [
+            "identity",
+            "country",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "名冊登記拼寫為 Anton Lyuboslavskiy，代表 RUS，確認自2023年1月11日起禁賽四年與成績取消"
+        },
+        {
+          "documentId": "doc-461804689a3375b0",
+          "startLine": 85,
+          "endLine": 102,
+          "supports": [
+            "event",
+            "substance"
+          ],
+          "note": "2012年6月20日與7月4日樣本在 LIMS 紀錄均檢出 DHCMT"
+        },
+        {
+          "documentId": "doc-461804689a3375b0",
+          "startLine": 291,
+          "endLine": 296,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "AIU 處以自2023年1月11日裁決日起算四年禁賽，並取消2012年6月20日起之成績"
+        }
+      ],
+      "findings": []
+    }
+  ]
+}

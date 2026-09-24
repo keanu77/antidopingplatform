@@ -73,12 +73,13 @@ async function postFeedback(payload) {
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(payload),
     });
-    if (res.ok) return { ok: true, absent: false, tooMany: false };
-    if (res.status === 429) return { ok: false, absent: false, tooMany: true };
+    const data = await res.json().catch(() => null);
+    if (res.ok && data?.ok === true) return { ok: true, absent: false, tooMany: false };
+    if (res.status === 429) return { ok: false, absent: false, tooMany: true, error: data?.error };
     // 404/405 → 端點不存在（多半是純前端 dev）→ 視為離線暫存。
     if (res.status === 404 || res.status === 405)
       return { ok: false, absent: true, tooMany: false };
-    return { ok: false, absent: false, tooMany: false };
+    return { ok: false, absent: false, tooMany: false, error: data?.error };
   } catch {
     return { ok: false, absent: true, tooMany: false }; // 網路錯誤 / 離線
   }
@@ -90,8 +91,9 @@ function queue(payload) {
     const arr = raw ? JSON.parse(raw) : [];
     arr.push(payload);
     localStorage.setItem(KEY_PENDING, JSON.stringify(arr.slice(-20)));
+    return true;
   } catch {
-    /* localStorage 不可用 → 放棄暫存，不阻斷 */
+    return false;
   }
 }
 
@@ -231,6 +233,7 @@ export default function FeedbackBar() {
 
   function base() {
     return {
+      page: slug,
       toolSlug: slug,
       url: typeof location !== "undefined" ? window.location.href : "",
       loadedAt: loadedAtRef.current,
@@ -260,15 +263,26 @@ export default function FeedbackBar() {
     setErr("");
   }
 
-  // 點星即記分（樂觀）：5 星道謝、≤4 星展開使用回饋表。
+  // 寫入成功才記為已評分；失敗保留重試入口。
   async function rate(n) {
-    if (mode === "rated") return;
+    if (mode === "rated" || busy) return;
+    setBusy(true);
+    setErr("");
     setStars(n);
     setHover(0);
-    markRated();
     const payload = { ...base(), type: "rating", rating: n };
     const r = await postFeedback(payload);
-    if (!r.ok && r.absent) queue(payload);
+    setBusy(false);
+    if (!r.ok) {
+      if (r.absent && queue(payload)) {
+        setMode("queued");
+        window.setTimeout(() => setMode("collapsed"), 2500);
+      } else {
+        setErr(r.error || "回饋尚未送達，請稍後再試");
+      }
+      return;
+    }
+    markRated();
     if (n === 5) {
       setMode("thanks");
       window.setTimeout(() => setMode("rated"), 2200);
@@ -334,6 +348,7 @@ export default function FeedbackBar() {
   }
 
   async function submit(payload) {
+    if (busy) return;
     setBusy(true);
     const r = await postFeedback(payload);
     setBusy(false);
@@ -342,14 +357,16 @@ export default function FeedbackBar() {
       setMode("sent");
       window.setTimeout(() => setMode("rated"), 2500);
     } else if (r.absent) {
-      queue(payload);
-      markRated();
-      setMode("queued");
-      window.setTimeout(() => setMode("rated"), 2500);
+      if (queue(payload)) {
+        setMode("queued");
+        window.setTimeout(() => setMode("rated"), 2500);
+      } else {
+        setErr("回饋尚未送達，也無法暫存，請稍後再試");
+      }
     } else if (r.tooMany) {
-      setErr("送出太頻繁，請稍後再試");
+      setErr(r.error || "送出太頻繁，請稍後再試");
     } else {
-      setErr("送出失敗，請稍後再試");
+      setErr(r.error || "回饋尚未送達，請稍後再試");
     }
   }
 
@@ -361,7 +378,7 @@ export default function FeedbackBar() {
     return ratedWithinTTL(slug);
   }
   function close() {
-    setMode(stars || isRated() ? "rated" : "collapsed");
+    setMode(isRated() ? "rated" : "collapsed");
   }
 
   const fillTo = hover || stars;
@@ -638,6 +655,7 @@ export default function FeedbackBar() {
                       type="button"
                       className="adp-fb-star"
                       aria-label={`${n} 星`}
+                      disabled={busy}
                       onMouseEnter={() => setHover(n)}
                       onMouseLeave={() => setHover(0)}
                       onClick={() => rate(n)}
@@ -655,6 +673,7 @@ export default function FeedbackBar() {
               >
                 {mode === "rated" ? "回報問題" : "發現內容有誤？回報問題"}
               </button>
+              {mode === "collapsed" && err && <span role="alert" className="adp-fb-err">{err}</span>}
             </>
           )}
         </div>

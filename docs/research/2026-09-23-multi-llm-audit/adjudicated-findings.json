@@ -1,0 +1,159 @@
+[
+  {
+    "id": "A01",
+    "proposedBy": [
+      "Codex",
+      "Gemini",
+      "Grok"
+    ],
+    "severity": "P2",
+    "status": "confirmed_evidence_presentation_limitation",
+    "issue": "國家欄未在UI區分官方運動身分、代表國及僅由USADA標題支持的資訊。",
+    "affectedMetadataCount": 252,
+    "verification": "USADA標題描述U.S.不能普遍推出代表國。Paparella同時有U.S.標題與官方BRA名冊，現有Paparella已正確標巴西。252為接受紀錄以公告標題支持美國欄位的數量，不代表252筆國家欄已證實錯誤。",
+    "locations": [
+      "frontend/src/pages/CaseList.jsx:295",
+      "frontend/src/pages/CaseDetail.jsx:108",
+      "docs/research/2026-09-23-multi-llm-audit/independent-structural-check.json"
+    ],
+    "suggestion": "標示國家欄定義及來源種類；需要代表國結論時優先補官方選手頁或出賽名冊，不能僅換UI文字便視為身分已核實。"
+  },
+  {
+    "id": "A02",
+    "proposedBy": [
+      "Codex"
+    ],
+    "severity": "P2",
+    "status": "confirmed_scope_limit_not_data_error",
+    "issue": "completion gate不等同獨立多模型事實複核。",
+    "verification": "程式檢查accepted/findings/manifest雜湊，未核模型數及來源語意。本次15件來源抽查、8件由至少兩席對讀，其中4件三席均對讀，不能外推500。原報告本來也揭露查核範圍，不將其說成已造假。",
+    "locations": [
+      "scripts/audit-new-case-completion.mjs:15",
+      "scripts/audit-new-case-completion.mjs:21",
+      "docs/research/2026-09-23-multi-llm-audit/coverage.json"
+    ],
+    "suggestion": "維持編輯審核完成與獨立多模型複核兩份狀態及逐案coverage。"
+  },
+  {
+    "id": "A03",
+    "proposedBy": [
+      "Moderator"
+    ],
+    "severity": "P2",
+    "status": "confirmed_wording_issue",
+    "caseId": "usada-d8d5e2c3a318",
+    "issue": "禁賽摘要使用「服刑」容易誤解為刑事監禁。",
+    "verification": "官方來源說明sports suspension，沒有刑事服刑敘述。",
+    "locations": [
+      "data/curated-cases.json:20560",
+      "data/curated-cases.json:20565",
+      "data/curated-cases.json:20603"
+    ],
+    "sourceUrl": "https://www.usada.org/sanction/flavia-paparella-granted-reduced-sanction/",
+    "suggestion": "改為「原禁賽6個月，執行近3個月後終止剩餘禁賽」。本輪只記錄建議，未改資料。"
+  },
+  {
+    "id": "R01",
+    "proposedBy": [
+      "Gemini"
+    ],
+    "proposedSeverity": "P1",
+    "status": "rejected_false_positive",
+    "caseId": "usada-74c3aeb782a0",
+    "issue": "14個月及Denney僅在名冊，公告正文未列，應視為P1。",
+    "verification": "2026-09-23重新查USADA官方名冊，Denney Phillips, Jessica列14 Month Suspension並連同一公告；公開eventBackground原本已明示官方名冊列14個月。原查核方法允許公告加官方名冊交叉，故未證實內容錯誤。",
+    "sourceUrl": "https://www.usada.org/results/sanctions/",
+    "locator": "姓名Denney Phillips, Jessica；公告日08/24/2016；web擷取第795行；凍結HTML row-609。",
+    "caution": "不能因正文未列，就推斷是排版漏字；也不能誤稱只靠公告正文已確認14個月。"
+  },
+  {
+    "id": "R02",
+    "proposedBy": [
+      "Gemini"
+    ],
+    "proposedSeverity": "P2",
+    "status": "already_handled",
+    "caseId": "usada-123713999e9c",
+    "issue": "標題Athlete而內文coach。",
+    "verification": "資料review.personType已是Athlete Support Personnel，eventBackground/educationalNotes明示教練；不是現有資料錯誤。"
+  },
+  {
+    "id": "R03",
+    "proposedBy": [
+      "Gemini"
+    ],
+    "proposedSeverity": "P2",
+    "status": "already_handled",
+    "caseId": "usada-de625da34c51",
+    "issue": "禁賽期出賽未延長禁賽的例外。",
+    "verification": "資料已明示僅追加取消成績，沒有把追加出賽寫成必然延長禁賽。"
+  },
+  {
+    "id": "R04",
+    "proposedBy": [
+      "Codex"
+    ],
+    "status": "resolved_independent_registry_check",
+    "caseId": "usada-2428086c1745",
+    "issue": "退休停算只核到轉錄名冊。",
+    "verification": "2026-09-23官方名冊Harbert, Tara列Sanction tolled due to retirement，与公開資料相符。",
+    "sourceUrl": "https://www.usada.org/results/sanctions/",
+    "locator": "Harbert, Tara；12/21/2015；web擷取第840行。"
+  },
+  {
+    "id": "R05",
+    "proposedBy": [
+      "Gemini"
+    ],
+    "status": "rejected_overgeneralization_in_model_answer",
+    "issue": "模型結論說8案國籍經官方PDF核實並排除台灣。",
+    "verification": "來源包僅Paparella提供BRA官方PDF，Emily另有TeamUSA頁，其餘多依USADA標題。不能把Paparella的PDF身分證据外推到全部8件，更不能外推500件。"
+  },
+  {
+    "id": "G01",
+    "proposedBy": [
+      "Grok"
+    ],
+    "proposedSeverity": "P2",
+    "status": "resolved_by_official_registry_not_data_error",
+    "caseId": "usada-74c3aeb782a0",
+    "issue": "模型未直接讀名冊原頁，因此將14個月列待確認並建議刪去確定期間。",
+    "verification": "Grok對其輸入正文未含期間的範圍判斷成立；主持人於2026-09-23再次核對官方名冊，Denney Phillips, Jessica列14 Month Suspension，並連回2016-08-24同一公告。無須將已查證欄位改成未知。公告加官方名冊的整合方法仍有效。",
+    "sourceUrl": "https://www.usada.org/results/sanctions/",
+    "locator": "Denney Phillips, Jessica；08/24/2016；14 Month Suspension - Loss of Results。"
+  },
+  {
+    "id": "G02",
+    "proposedBy": [
+      "Grok"
+    ],
+    "proposedSeverity": "P2",
+    "status": "optional_clarity_edit_not_confirmed_factual_error",
+    "caseId": "usada-d8d5e2c3a318",
+    "issue": "摘要「TUE與禁用清單變更減刑」並列可能讓讀者誤會TUE是減免原因。",
+    "verification": "正文及教育註已明確寫追溯TUE未獲准、清單變更終止剩餘禁賽；Grok也承認正文正確。可精簡摘要以降低歧義，但未確認為新增核心事實錯誤。",
+    "suggestion": "可改「第二次違規／追溯TUE未准；清單變更終止剩餘禁賽」，並連同A03修正服刑用語。",
+    "sourceUrls": [
+      "https://www.usada.org/sanction/flavia-paparella-accepts-second-doping-sanction/",
+      "https://www.usada.org/sanction/flavia-paparella-granted-reduced-sanction/"
+    ]
+  },
+  {
+    "id": "G03",
+    "proposedBy": [
+      "Grok"
+    ],
+    "status": "rejected_overgeneralization_in_model_answer",
+    "issue": "假陽性表稱八件皆非台灣選手、符合排除條件，但同一回答指出六件國家身分證據不足。",
+    "verification": "固定來源包僅Paparella含BRA官方名冊、Oberst含TeamUSA頁；其他六件未在本次取得同等明確身分證據。不能從這份回答宣稱八件已全部完成排除範圍驗證；也未發現實際台灣選手。"
+  },
+  {
+    "id": "G04",
+    "proposedBy": [
+      "Grok"
+    ],
+    "status": "partly_supported_recommendation_with_inference_limit",
+    "issue": "將USADA標題U.S.一律說成管轄／居所用語，並建議六件統一改成USADA管轄、國籍未知。",
+    "verification": "Paparella的BRA證據足以反證不能普遍將U.S.標題等同代表國，但不直接證明每個標題作者使用U.S.的唯一意義。主持人保留A01的證據強度限制，建議補明確官方運動身分資料，不推定六件美國欄位均錯誤，也不要求護照。"
+  }
+]

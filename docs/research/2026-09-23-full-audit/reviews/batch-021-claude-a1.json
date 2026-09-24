@@ -1,0 +1,93 @@
+{
+  "cases": [
+    {
+      "id": "aiu-dbc9a1f66bb9",
+      "status": "issue",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "issue",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-6a64314368dd066d",
+        "registry-378c5c78eb5059ec"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-6a64314368dd066d",
+          "startLine": 13,
+          "endLine": 13,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "Nancy Jelagat Meto，40 歲肯亞籍長距離跑步運動員"
+        },
+        {
+          "documentId": "doc-6a64314368dd066d",
+          "startLine": 56,
+          "endLine": 58,
+          "supports": [
+            "event"
+          ],
+          "note": "2024 年 6 月 12 日在肯亞伊滕進行的賽外尿液樣本採集"
+        },
+        {
+          "documentId": "doc-6a64314368dd066d",
+          "startLine": 66,
+          "endLine": 66,
+          "supports": [
+            "substance"
+          ],
+          "note": "檢測出呋塞米（Furosemide）不利分析結果"
+        },
+        {
+          "documentId": "doc-6a64314368dd066d",
+          "startLine": 235,
+          "endLine": 235,
+          "supports": [
+            "substance"
+          ],
+          "note": "呋塞米列於 WADA 2024 年禁用清單 S5 類別（利尿劑及偽裝劑）"
+        },
+        {
+          "documentId": "doc-6a64314368dd066d",
+          "startLine": 247,
+          "endLine": 251,
+          "supports": [
+            "sanction",
+            "outcomes"
+          ],
+          "note": "禁賽 2 年自 2024 年 8 月 11 日起；取消 2024 年 6 月 12 日起相關成績，沒收獎項、獎牌及獎金"
+        }
+      ],
+      "findings": [
+        {
+          "field": "dates",
+          "kind": "contradiction",
+          "severity": "high",
+          "claim": "禁賽起始日期",
+          "explanation": "決定文件第 30.1 段明確指出禁賽期自 2024 年 8 月 11 日起；官方名冊登錄顯示自 2026 年 2 月 5 日起。兩份官方來源日期不符。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-6a64314368dd066d",
+              "startLine": 247,
+              "endLine": 247
+            },
+            {
+              "documentId": "registry-378c5c78eb5059ec",
+              "startLine": 1,
+              "endLine": 1
+            }
+          ],
+          "suggestion": "澄清官方名冊 2026 年 2 月 5 日是否代表決定公開登記日期，而非禁賽實際起始日期；確認是否存在後續更正"
+        }
+      ]
+    }
+  ]
+}

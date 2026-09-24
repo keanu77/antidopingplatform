@@ -1,0 +1,784 @@
+{
+  "checkedAt": "2026-09-23T04:37:30.093Z",
+  "repository": "https://github.com/keanu77/antidopingplatform",
+  "website": "https://antidopingplatform.sportsmedicine.tw",
+  "localSha": "60f7073a9deb98af0b117735717250e638bee9ba",
+  "remoteSha": "60f7073a9deb98af0b117735717250e638bee9ba",
+  "liveVersion": {
+    "sha": "e0f0c69463c284b8ba0e07786270ed5bb919bbff",
+    "builtAt": "2026-09-19T10:02:25.719Z"
+  },
+  "gitCommitMatches": false,
+  "githubCaseCount": 171,
+  "liveCaseCount": 171,
+  "localWorkingTreeCaseCount": 517,
+  "matched": 191,
+  "total": 191,
+  "results": [
+    {
+      "path": "/api/cases/3",
+      "match": true
+    },
+    {
+      "path": "/api/cases/4",
+      "match": true
+    },
+    {
+      "path": "/api/cases/1",
+      "match": true
+    },
+    {
+      "path": "/api/cases/2",
+      "match": true
+    },
+    {
+      "path": "/api/cases/6",
+      "match": true
+    },
+    {
+      "path": "/api/cases/8",
+      "match": true
+    },
+    {
+      "path": "/api/cases/5",
+      "match": true
+    },
+    {
+      "path": "/api/cases/7",
+      "match": true
+    },
+    {
+      "path": "/api/cases/11",
+      "match": true
+    },
+    {
+      "path": "/api/cases/9",
+      "match": true
+    },
+    {
+      "path": "/api/cases/12",
+      "match": true
+    },
+    {
+      "path": "/api/cases/10",
+      "match": true
+    },
+    {
+      "path": "/api/cases/13",
+      "match": true
+    },
+    {
+      "path": "/api/cases/14",
+      "match": true
+    },
+    {
+      "path": "/api/cases/15",
+      "match": true
+    },
+    {
+      "path": "/api/cases/16",
+      "match": true
+    },
+    {
+      "path": "/api/cases/17",
+      "match": true
+    },
+    {
+      "path": "/api/cases/18",
+      "match": true
+    },
+    {
+      "path": "/api/cases/19",
+      "match": true
+    },
+    {
+      "path": "/api/cases/20",
+      "match": true
+    },
+    {
+      "path": "/api/cases/21",
+      "match": true
+    },
+    {
+      "path": "/api/cases/22",
+      "match": true
+    },
+    {
+      "path": "/api/cases/23",
+      "match": true
+    },
+    {
+      "path": "/api/cases/24",
+      "match": true
+    },
+    {
+      "path": "/api/cases/28",
+      "match": true
+    },
+    {
+      "path": "/api/cases/27",
+      "match": true
+    },
+    {
+      "path": "/api/cases/25",
+      "match": true
+    },
+    {
+      "path": "/api/cases/26",
+      "match": true
+    },
+    {
+      "path": "/api/cases/30",
+      "match": true
+    },
+    {
+      "path": "/api/cases/31",
+      "match": true
+    },
+    {
+      "path": "/api/cases/29",
+      "match": true
+    },
+    {
+      "path": "/api/cases/32",
+      "match": true
+    },
+    {
+      "path": "/api/cases/33",
+      "match": true
+    },
+    {
+      "path": "/api/cases/34",
+      "match": true
+    },
+    {
+      "path": "/api/cases/36",
+      "match": true
+    },
+    {
+      "path": "/api/cases/35",
+      "match": true
+    },
+    {
+      "path": "/api/cases/37",
+      "match": true
+    },
+    {
+      "path": "/api/cases/38",
+      "match": true
+    },
+    {
+      "path": "/api/cases/40",
+      "match": true
+    },
+    {
+      "path": "/api/cases/39",
+      "match": true
+    },
+    {
+      "path": "/api/cases/42",
+      "match": true
+    },
+    {
+      "path": "/api/cases/41",
+      "match": true
+    },
+    {
+      "path": "/api/cases/43",
+      "match": true
+    },
+    {
+      "path": "/api/cases/44",
+      "match": true
+    },
+    {
+      "path": "/api/cases/45",
+      "match": true
+    },
+    {
+      "path": "/api/cases/46",
+      "match": true
+    },
+    {
+      "path": "/api/cases/47",
+      "match": true
+    },
+    {
+      "path": "/api/cases/48",
+      "match": true
+    },
+    {
+      "path": "/api/cases/49",
+      "match": true
+    },
+    {
+      "path": "/api/cases/50",
+      "match": true
+    },
+    {
+      "path": "/api/cases/51",
+      "match": true
+    },
+    {
+      "path": "/api/cases/52",
+      "match": true
+    },
+    {
+      "path": "/api/cases/53",
+      "match": true
+    },
+    {
+      "path": "/api/cases/54",
+      "match": true
+    },
+    {
+      "path": "/api/cases/55",
+      "match": true
+    },
+    {
+      "path": "/api/cases/56",
+      "match": true
+    },
+    {
+      "path": "/api/cases/57",
+      "match": true
+    },
+    {
+      "path": "/api/cases/58",
+      "match": true
+    },
+    {
+      "path": "/api/cases/60",
+      "match": true
+    },
+    {
+      "path": "/api/cases/59",
+      "match": true
+    },
+    {
+      "path": "/api/cases/61",
+      "match": true
+    },
+    {
+      "path": "/api/cases/62",
+      "match": true
+    },
+    {
+      "path": "/api/cases/63",
+      "match": true
+    },
+    {
+      "path": "/api/cases/64",
+      "match": true
+    },
+    {
+      "path": "/api/cases/65",
+      "match": true
+    },
+    {
+      "path": "/api/cases/66",
+      "match": true
+    },
+    {
+      "path": "/api/cases/67",
+      "match": true
+    },
+    {
+      "path": "/api/cases/68",
+      "match": true
+    },
+    {
+      "path": "/api/cases/69",
+      "match": true
+    },
+    {
+      "path": "/api/cases/70",
+      "match": true
+    },
+    {
+      "path": "/api/cases/71",
+      "match": true
+    },
+    {
+      "path": "/api/cases/72",
+      "match": true
+    },
+    {
+      "path": "/api/cases/73",
+      "match": true
+    },
+    {
+      "path": "/api/cases/74",
+      "match": true
+    },
+    {
+      "path": "/api/cases/75",
+      "match": true
+    },
+    {
+      "path": "/api/cases/76",
+      "match": true
+    },
+    {
+      "path": "/api/cases/77",
+      "match": true
+    },
+    {
+      "path": "/api/cases/78",
+      "match": true
+    },
+    {
+      "path": "/api/cases/79",
+      "match": true
+    },
+    {
+      "path": "/api/cases/80",
+      "match": true
+    },
+    {
+      "path": "/api/cases/81",
+      "match": true
+    },
+    {
+      "path": "/api/cases/83",
+      "match": true
+    },
+    {
+      "path": "/api/cases/82",
+      "match": true
+    },
+    {
+      "path": "/api/cases/84",
+      "match": true
+    },
+    {
+      "path": "/api/cases/85",
+      "match": true
+    },
+    {
+      "path": "/api/cases/86",
+      "match": true
+    },
+    {
+      "path": "/api/cases/88",
+      "match": true
+    },
+    {
+      "path": "/api/cases/87",
+      "match": true
+    },
+    {
+      "path": "/api/cases/89",
+      "match": true
+    },
+    {
+      "path": "/api/cases/90",
+      "match": true
+    },
+    {
+      "path": "/api/cases/91",
+      "match": true
+    },
+    {
+      "path": "/api/cases/92",
+      "match": true
+    },
+    {
+      "path": "/api/cases/93",
+      "match": true
+    },
+    {
+      "path": "/api/cases/94",
+      "match": true
+    },
+    {
+      "path": "/api/cases/95",
+      "match": true
+    },
+    {
+      "path": "/api/cases/96",
+      "match": true
+    },
+    {
+      "path": "/api/cases/97",
+      "match": true
+    },
+    {
+      "path": "/api/cases/98",
+      "match": true
+    },
+    {
+      "path": "/api/cases/100",
+      "match": true
+    },
+    {
+      "path": "/api/cases/99",
+      "match": true
+    },
+    {
+      "path": "/api/cases/101",
+      "match": true
+    },
+    {
+      "path": "/api/cases/102",
+      "match": true
+    },
+    {
+      "path": "/api/cases/103",
+      "match": true
+    },
+    {
+      "path": "/api/cases/105",
+      "match": true
+    },
+    {
+      "path": "/api/cases/104",
+      "match": true
+    },
+    {
+      "path": "/api/cases/106",
+      "match": true
+    },
+    {
+      "path": "/api/cases/107",
+      "match": true
+    },
+    {
+      "path": "/api/cases/109",
+      "match": true
+    },
+    {
+      "path": "/api/cases/108",
+      "match": true
+    },
+    {
+      "path": "/api/cases/110",
+      "match": true
+    },
+    {
+      "path": "/api/cases/111",
+      "match": true
+    },
+    {
+      "path": "/api/cases/112",
+      "match": true
+    },
+    {
+      "path": "/api/cases/113",
+      "match": true
+    },
+    {
+      "path": "/api/cases/114",
+      "match": true
+    },
+    {
+      "path": "/api/cases/116",
+      "match": true
+    },
+    {
+      "path": "/api/cases/115",
+      "match": true
+    },
+    {
+      "path": "/api/cases/117",
+      "match": true
+    },
+    {
+      "path": "/api/cases/118",
+      "match": true
+    },
+    {
+      "path": "/api/cases/119",
+      "match": true
+    },
+    {
+      "path": "/api/cases/120",
+      "match": true
+    },
+    {
+      "path": "/api/cases/121",
+      "match": true
+    },
+    {
+      "path": "/api/cases/122",
+      "match": true
+    },
+    {
+      "path": "/api/cases/123",
+      "match": true
+    },
+    {
+      "path": "/api/cases/125",
+      "match": true
+    },
+    {
+      "path": "/api/cases/124",
+      "match": true
+    },
+    {
+      "path": "/api/cases/126",
+      "match": true
+    },
+    {
+      "path": "/api/cases/127",
+      "match": true
+    },
+    {
+      "path": "/api/cases/128",
+      "match": true
+    },
+    {
+      "path": "/api/cases/129",
+      "match": true
+    },
+    {
+      "path": "/api/cases/130",
+      "match": true
+    },
+    {
+      "path": "/api/cases/131",
+      "match": true
+    },
+    {
+      "path": "/api/cases/133",
+      "match": true
+    },
+    {
+      "path": "/api/cases/132",
+      "match": true
+    },
+    {
+      "path": "/api/cases/134",
+      "match": true
+    },
+    {
+      "path": "/api/cases/135",
+      "match": true
+    },
+    {
+      "path": "/api/cases/137",
+      "match": true
+    },
+    {
+      "path": "/api/cases/136",
+      "match": true
+    },
+    {
+      "path": "/api/cases/138",
+      "match": true
+    },
+    {
+      "path": "/api/cases/139",
+      "match": true
+    },
+    {
+      "path": "/api/cases/141",
+      "match": true
+    },
+    {
+      "path": "/api/cases/140",
+      "match": true
+    },
+    {
+      "path": "/api/cases/142",
+      "match": true
+    },
+    {
+      "path": "/api/cases/143",
+      "match": true
+    },
+    {
+      "path": "/api/cases/145",
+      "match": true
+    },
+    {
+      "path": "/api/cases/144",
+      "match": true
+    },
+    {
+      "path": "/api/cases/146",
+      "match": true
+    },
+    {
+      "path": "/api/cases/147",
+      "match": true
+    },
+    {
+      "path": "/api/cases/149",
+      "match": true
+    },
+    {
+      "path": "/api/cases/148",
+      "match": true
+    },
+    {
+      "path": "/api/cases/150",
+      "match": true
+    },
+    {
+      "path": "/api/cases/151",
+      "match": true
+    },
+    {
+      "path": "/api/cases/152",
+      "match": true
+    },
+    {
+      "path": "/api/cases/153",
+      "match": true
+    },
+    {
+      "path": "/api/cases/154",
+      "match": true
+    },
+    {
+      "path": "/api/cases/155",
+      "match": true
+    },
+    {
+      "path": "/api/cases/156",
+      "match": true
+    },
+    {
+      "path": "/api/cases/157",
+      "match": true
+    },
+    {
+      "path": "/api/cases/158",
+      "match": true
+    },
+    {
+      "path": "/api/cases/159",
+      "match": true
+    },
+    {
+      "path": "/api/cases/160",
+      "match": true
+    },
+    {
+      "path": "/api/cases/161",
+      "match": true
+    },
+    {
+      "path": "/api/cases/162",
+      "match": true
+    },
+    {
+      "path": "/api/cases/163",
+      "match": true
+    },
+    {
+      "path": "/api/cases/164",
+      "match": true
+    },
+    {
+      "path": "/api/cases/166",
+      "match": true
+    },
+    {
+      "path": "/api/cases/165",
+      "match": true
+    },
+    {
+      "path": "/api/cases/167",
+      "match": true
+    },
+    {
+      "path": "/api/cases/168",
+      "match": true
+    },
+    {
+      "path": "/api/cases/169",
+      "match": true
+    },
+    {
+      "path": "/api/cases/170",
+      "match": true
+    },
+    {
+      "path": "/api/cases/171",
+      "match": true
+    },
+    {
+      "path": "/api/cases?limit=100&page=1",
+      "match": true
+    },
+    {
+      "path": "/api/cases/filters",
+      "match": true
+    },
+    {
+      "path": "/api/cases?limit=100&page=2",
+      "match": true
+    },
+    {
+      "path": "/api/stats/overview",
+      "match": true
+    },
+    {
+      "path": "/api/stats/sport-distribution",
+      "match": true
+    },
+    {
+      "path": "/api/stats/yearly-trends",
+      "match": true
+    },
+    {
+      "path": "/api/stats/substance-distribution",
+      "match": true
+    },
+    {
+      "path": "/api/stats/nationality-distribution",
+      "match": true
+    },
+    {
+      "path": "/api/stats/ban-duration-distribution",
+      "match": true
+    },
+    {
+      "path": "/api/stats/punishment-stats",
+      "match": true
+    },
+    {
+      "path": "/api/education/",
+      "match": true
+    },
+    {
+      "path": "/api/education/substances",
+      "match": true
+    },
+    {
+      "path": "/api/education/articles",
+      "match": true
+    },
+    {
+      "path": "/api/education/adrv",
+      "match": true
+    },
+    {
+      "path": "/api/tue/basic",
+      "match": true
+    },
+    {
+      "path": "/api/tue/",
+      "match": true
+    },
+    {
+      "path": "/api/tue/diseases",
+      "match": true
+    },
+    {
+      "path": "/api/tue/application",
+      "match": true
+    },
+    {
+      "path": "/api/tue/tools",
+      "match": true
+    },
+    {
+      "path": "/api/tue/substances",
+      "match": true
+    }
+  ],
+  "scope": "Read-only comparison with freshly fetched origin/main; production writes, deployment and runtime feedback database excluded. Local uncommitted expansion differs from GitHub and production."
+}

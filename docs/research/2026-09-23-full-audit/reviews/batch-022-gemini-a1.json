@@ -1,0 +1,80 @@
+{
+  "cases": [
+    {
+      "id": "aiu-7f1ad8515185",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-0a3cd6185fa39714",
+        "registry-bada628893083f9f"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-0a3cd6185fa39714",
+          "startLine": 43,
+          "endLine": 47,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "裁決書確認運動員身分 Fred Kerley，為美國田徑短跑選手"
+        },
+        {
+          "documentId": "registry-bada628893083f9f",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊載明 Fred Kerley 代表 USA，涉 Article 2.4 行蹤違規，處 2 年禁賽（自 2025-08-12 起算）並取消 2024-12-06 起之成績"
+        },
+        {
+          "documentId": "doc-0a3cd6185fa39714",
+          "startLine": 1394,
+          "endLine": 1396,
+          "supports": [
+            "event",
+            "substance"
+          ],
+          "note": "審裁庭認定運動員於 2024 年 5 月 11 日、6 月 13 日及 12 月 6 日三次行蹤違規成立"
+        },
+        {
+          "documentId": "doc-0a3cd6185fa39714",
+          "startLine": 1748,
+          "endLine": 1765,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "裁決主文判處 2 年禁賽，折抵 2025-08-12 起之暫時禁賽至 2027-08-11 止，取消 2024-12-06 至 2025-08-12 期間成績，並命分擔 3,000 英鎊訴訟費用"
+        },
+        {
+          "documentId": "doc-0a3cd6185fa39714",
+          "startLine": 625,
+          "endLine": 627,
+          "supports": [
+            "education"
+          ],
+          "note": "審裁庭敘明行蹤義務處分旨在維持未預告抽檢體系，不論有無使用禁藥證據均應裁處"
+        }
+      ],
+      "findings": []
+    }
+  ]
+}

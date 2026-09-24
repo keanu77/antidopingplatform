@@ -1,0 +1,419 @@
+{
+  "cases": [
+    {
+      "id": "ita-cbcebbfdd45b",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-9516bdb462bd3939",
+        "registry-b180ddaae9600664"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-9516bdb462bd3939",
+          "startLine": 2,
+          "endLine": 5,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates"
+          ],
+          "note": "UCI 裁決荷蘭自行車選手 Antwan Tolhoek 因同化雄甾類固醇違規，禁賽四年自 2024-02-07 至 2028-02-06，一個月內可上訴"
+        },
+        {
+          "documentId": "registry-b180ddaae9600664",
+          "startLine": 1,
+          "endLine": 20,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "ITA 名冊登錄荷蘭選手違規日期 2023-11-27，禁賽四年至 2028-02-06 及成績取消區間"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-e480a4db0b21",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "uncertain",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-ae4b553b4d872aa5",
+        "registry-258fdf4c2d08db05"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-ae4b553b4d872aa5",
+          "startLine": 2,
+          "endLine": 5,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "outcomes"
+          ],
+          "note": "加拿大游泳選手 Penelope Oleksiak 因行蹤失誤接受兩年禁賽，期間 2025-07-15 至 2027-07-14 並取消 2025-06-16 起成績"
+        },
+        {
+          "documentId": "registry-258fdf4c2d08db05",
+          "startLine": 1,
+          "endLine": 22,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "ITA 名冊登載違規日期 2025-06-16、禁賽兩年（24個月）及協議處分方案"
+        }
+      ],
+      "findings": [
+        {
+          "field": "dates",
+          "kind": "insufficient_evidence",
+          "severity": "medium",
+          "claim": "2025-11-25 公告確認接受兩年處分",
+          "explanation": "擷取的 ITA 公告內文及官方名冊皆未包含 2025-11-25 此一公告發布日期，缺乏原始文獻依據。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-ae4b553b4d872aa5",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "補充含有發布日期的官方公告原文截圖或中繼資料，或於敘述中移除未經佐證的具體公告發布日期。"
+        }
+      ]
+    },
+    {
+      "id": "ita-988542cf0fbe",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-9f504340c3700f4a",
+        "registry-7c9396f9bf53d506"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-9f504340c3700f4a",
+          "startLine": 2,
+          "endLine": 8,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "加拿大舉重選手 Shania Sophia Bedward 於 2024-09-19 賽內驗出莫達非尼代謝物，接受兩年禁賽自 2024-09-19 至 2026-09-18 並取消成績"
+        },
+        {
+          "documentId": "registry-7c9396f9bf53d506",
+          "startLine": 1,
+          "endLine": 22,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "ITA 名冊登錄 2024-09-19 違規日期、兩年禁賽期及協議處分"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-2d3933d307ee",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-c38f147be7bca63e",
+        "registry-0ccbe2e503a4de71"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-c38f147be7bca63e",
+          "startLine": 2,
+          "endLine": 9,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "韓國舉重選手 Dae Hee Kwon 於 2025-02-26 賽外檢出曲美他嗪，及早承認獲減刑一年裁處三年禁賽（2025-04-14 至 2028-04-13）"
+        },
+        {
+          "documentId": "registry-0ccbe2e503a4de71",
+          "startLine": 1,
+          "endLine": 22,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "ITA 名冊登記 2025-02-26 違規、三年禁賽與 2025-02-26 至 2025-04-14 成績取消"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-46228f83daa9",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-89b5b01a0d40b16e",
+        "registry-95b302f8173ac275"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-89b5b01a0d40b16e",
+          "startLine": 2,
+          "endLine": 9,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "烏茲別克庫拉什選手 Erkin Kozokov 於 2024-12-17 賽事檢出米屈肼，因及早承認獲一年減刑裁處三年禁賽（2025-01-30 至 2028-01-29）"
+        },
+        {
+          "documentId": "registry-95b302f8173ac275",
+          "startLine": 1,
+          "endLine": 22,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "ITA 名冊登載 2024-12-17 違規日、三年禁賽期與成績取消至 2025-01-30"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-dbea69b05e29",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-99a464510e842dc7",
+        "registry-820c22dfcc0f481f"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-99a464510e842dc7",
+          "startLine": 2,
+          "endLine": 5,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "希臘自行車選手 Christos Volikákis 2016-08-16 里約奧運樣本重驗檢出 LGD-4033 代謝物，接受三年禁賽（2024-03-15 至 2027-03-14）及該賽事取消資格"
+        },
+        {
+          "documentId": "registry-820c22dfcc0f481f",
+          "startLine": 1,
+          "endLine": 20,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "ITA 名冊登記 2016-08-16 違規日、三年禁賽期間與成績取消範圍"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-ba3a3cc60785",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-14a36cebfa11a555",
+        "registry-f6597da2b983bbe5"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-14a36cebfa11a555",
+          "startLine": 2,
+          "endLine": 5,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "奧地利霹靂舞舞者 Fouad Ambelj 於 2024-06-27 賽外拒絕採樣，接受四年禁賽（2025-06-10 至 2029-06-09）並取消自 2024-06-27 起之成績"
+        },
+        {
+          "documentId": "registry-f6597da2b983bbe5",
+          "startLine": 1,
+          "endLine": 22,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "ITA 名冊登錄 2024-06-27 違規日、Article 2.3 拒檢違規、四年禁賽期與成績取消"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-562db85b2505",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-97a8af07e6c68757",
+        "registry-90d76caa2603064f"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-97a8af07e6c68757",
+          "startLine": 2,
+          "endLine": 7,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "烏茲別克舉重選手 Dilnoza Fayzullaeva 於 2024-05-25 賽內檢驗檢出呋塞米，接受兩年禁賽（2024-08-08 至 2026-08-07）並取消個人成績至禁賽起日"
+        },
+        {
+          "documentId": "registry-90d76caa2603064f",
+          "startLine": 1,
+          "endLine": 22,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "ITA 名冊登記 2024-05-25 違規日、呋塞米代謝物、兩年禁賽期與 2024-05-25 至 2024-08-08 成績取消"
+        }
+      ],
+      "findings": []
+    }
+  ]
+}

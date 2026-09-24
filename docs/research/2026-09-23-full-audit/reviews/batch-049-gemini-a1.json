@@ -1,0 +1,232 @@
+{
+  "cases": [
+    {
+      "id": "aiu-cceafd3f0bb9",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-7965c4bbba692062",
+        "registry-2a2c2172d042daf4"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-7965c4bbba692062",
+          "startLine": 6,
+          "endLine": 15,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "確認選手姓名為 Ibrahim Mukunga Wachira，為肯亞路跑選手。"
+        },
+        {
+          "documentId": "doc-7965c4bbba692062",
+          "startLine": 49,
+          "endLine": 54,
+          "supports": [
+            "event",
+            "substance",
+            "dates"
+          ],
+          "note": "2022年9月10日於愛沙尼亞塔林賽事採樣檢出 Tamoxifen 代謝物與 19-Norandrosterone。"
+        },
+        {
+          "documentId": "doc-7965c4bbba692062",
+          "startLine": 244,
+          "endLine": 275,
+          "supports": [
+            "substance",
+            "sanction",
+            "education"
+          ],
+          "note": "因使用多種禁用物質構成加重情節處以六年禁賽，案件維持物質違規認定。"
+        },
+        {
+          "documentId": "doc-7965c4bbba692062",
+          "startLine": 280,
+          "endLine": 288,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "確認處以自2022年10月4日起六年禁賽，並取消自2022年9月10日起所有成績與沒收獎項。"
+        },
+        {
+          "documentId": "registry-2a2c2172d042daf4",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates"
+          ],
+          "note": "官方名冊登載肯亞選手 Ibrahim Mukunga Wachira 因檢出相關物質處以六年禁賽及取消成績。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "aiu-d7f7ab7b8f83",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-0b4d6b758e2e6b3e",
+        "registry-5182c4f2d0d928cd"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-0b4d6b758e2e6b3e",
+          "startLine": 1,
+          "endLine": 12,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "確認選手為肯亞路跑選手 Elias Kiprono Kemei。"
+        },
+        {
+          "documentId": "doc-0b4d6b758e2e6b3e",
+          "startLine": 56,
+          "endLine": 61,
+          "supports": [
+            "event",
+            "substance",
+            "dates"
+          ],
+          "note": "2024年2月10日於奈及利亞拉哥斯馬拉松採樣檢出 Trimetazidine。"
+        },
+        {
+          "documentId": "doc-0b4d6b758e2e6b3e",
+          "startLine": 98,
+          "endLine": 115,
+          "supports": [
+            "education"
+          ],
+          "note": "選手陳述不諳使用電子郵件及不知道禁用規定，經說明不符免責要件，僅依規定考量及早承認。"
+        },
+        {
+          "documentId": "doc-0b4d6b758e2e6b3e",
+          "startLine": 185,
+          "endLine": 199,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "依及早承認規定減為三年禁賽，自2024年3月19日起算，並取消2024年2月10日起所有成績。"
+        },
+        {
+          "documentId": "registry-5182c4f2d0d928cd",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates"
+          ],
+          "note": "官方名冊登載 Elias Kiprono Kemei 處三年禁賽並取消自2024年2月10日起成績。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "aiu-edd71a37c411",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-de6d519372cb8c92",
+        "registry-668b0af911702fe7"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-de6d519372cb8c92",
+          "startLine": 6,
+          "endLine": 15,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "確認選手為肯亞馬拉松選手 Josephine Chepkoech。"
+        },
+        {
+          "documentId": "doc-de6d519372cb8c92",
+          "startLine": 49,
+          "endLine": 57,
+          "supports": [
+            "event",
+            "substance",
+            "dates"
+          ],
+          "note": "2024年2月18日於西班牙塞維亞賽事採樣檢出外源性睪固酮代謝物。"
+        },
+        {
+          "documentId": "doc-de6d519372cb8c92",
+          "startLine": 79,
+          "endLine": 93,
+          "supports": [
+            "substance",
+            "education"
+          ],
+          "note": "載明此為第二次違規，前次違規為2014年12月31日採樣檢出諾龍代謝物，兩案物質不同。"
+        },
+        {
+          "documentId": "doc-de6d519372cb8c92",
+          "startLine": 147,
+          "endLine": 158,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "二次違規基準八年處分因及早承認減免一年，處七年禁賽自2024年5月7日起算，取消2024年2月18日起成績。"
+        },
+        {
+          "documentId": "registry-668b0af911702fe7",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates"
+          ],
+          "note": "官方名冊登載 Josephine Chepkoech 第二次違規處七年禁賽及取消自2024年2月18日起成績。"
+        }
+      ],
+      "findings": []
+    }
+  ]
+}

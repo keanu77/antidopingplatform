@@ -1,0 +1,79 @@
+{
+  "usada-091e5bf27388": {
+    "disposition": "held",
+    "reason": "採納年齡配對疑義。新下載 USADA 公告仍為 2022-11-29，內文稱 37 歲；World Athletics 出生日期 1986-09-18 推得當時 36 歲。原提案誤寫 2024 年公告。暫不解除本件國家待補證，不把來源差異稱為虛構案例。"
+  },
+  "usada-137ddb330f29": {
+    "disposition": "accepted_with_supplement",
+    "reason": "依建議追加事件同年 2019-04-06 Cooper River Bridge Run 官方成績，列 Kevin Castille、1972-03-17、USA；原 2018 資料不足以獨立證明 2019 年代表資格。",
+    "sourceUrl": "https://worldathletics.org/competition/calendar-results/results/7129502",
+    "note": "依 2019-04-06 Cooper River Bridge Run 的官方成績表列美國（USA）；出生日期與 USADA 公告年齡相符。這是該賽事紀錄的國家欄，非法律國籍認證。"
+  },
+  "usada-4366103d9b91": {
+    "disposition": "accepted_with_supplement",
+    "reason": "追加 World Athletics 個人頁：Tori Polk、1983-09-21、跳遠及 United States；與 USADA 公告 34 歲相符。清楚限定目前官方資料所列國家，不推論 2011 至 2015 全期間代表資格。",
+    "sourceUrl": "https://worldathletics.org/athletes/athlete=14319116",
+    "scope": "official_profile_at_lookup",
+    "note": "補充查閱時 World Athletics 個人資料所列美國；另有 2011 年美國世錦賽名單。未以這兩份資料認證 2015 年事件當時的代表資格或法律國籍。"
+  },
+  "usada-36b25b3d84e6": {
+    "disposition": "accepted_with_supplement",
+    "reason": "追加 World Athletics 1981-05-27 鐵餅選手資料及 Team USA 個人頁（Lubbock、45 歲、2012 奧運鐵餅），與 USADA 2017 年公告 35 歲及 Lubbock 配對，排除同名牙買加短跑選手。",
+    "sourceUrl": "https://worldathletics.org/athletes/united-states/jason-young-14255732",
+    "additionalSources": ["https://www.teamusa.com/profiles/jason-young"],
+    "scope": "official_profile_at_lookup",
+    "note": "依 World Athletics 的 1981 年出生鐵餅選手資料列美國，並用 Team USA 的 Lubbock、年齡與 2012 奧運紀錄核對同名身分；不認證 2013 年事件時的法律國籍或完整代表資格。"
+  },
+  "usada-fb72031d87b1": {
+    "disposition": "accepted_with_supplement",
+    "reason": "原官方新聞的 compatriots 可支持美國描述，但原文沒有直接把 USA 國家碼寫在本人姓名旁；追加 World Athletics 個人頁的 United States 與 1993-02-17，改用該頁為主來源。",
+    "sourceUrl": "https://worldathletics.org/athletes/united-states/alex-gochenour-14378189",
+    "scope": "official_profile_at_lookup",
+    "note": "依查閱時 World Athletics 個人資料列美國；Alex／Alexandria 拼名亦見 USADA，出生日期與公告年齡相符。2018 年官方新聞另有美國同國選手描述；不認證法律國籍或完整代表權歷史。"
+  },
+  "usada-792c30cdc646": {
+    "disposition": "accepted_with_supplement",
+    "reason": "2016 年成績表確有 Imani Oliver、1993-03-07、USA；Gemini 回覆自述截斷且缺處分文件引用，未計該席覆蓋。追加 2025 年官方賽事資料確認較新紀錄為 JAM；不推定轉籍生效日。",
+    "additionalSources": ["https://assets.aws.worldathletics.org/document/679eb2a12c2aa609b74b9193.pdf"],
+    "note": "本案依 2016 年 World Athletics 成績表列美國（USA）；2025 年官方賽事資料列牙買加（JAM），不回填本案，也不推定轉籍生效日。"
+  },
+  "usada-3b36b9d0fea7": {
+    "disposition": "accepted_with_supplement",
+    "reason": "追加 Team USA 2022-06-20 全國賽報導，將 Richard Browne Jr. 與 2012 倫敦帕運銀牌、2015 世錦賽及本案同一 2022 全國賽連結。此處僅辨識身分，不用賽後新聞撤銷 USADA 的成績取消處分。",
+    "additionalSources": ["https://www.teamusa.com/news/2022/june/20/newcomers-and-paralympians-shine-at-para-track-and-field-nationals"],
+    "note": "IPC 個人資料列美國；另以 Team USA 2022 年全國賽報導及 2012 帕運紀錄交叉辨識。資料僅用於國家與身分配對，不變更後續處分或承認遭取消成績有效。"
+  },
+  "usada-5d85c8dbd1a0": {
+    "disposition": "accepted_with_supplement",
+    "reason": "採納無年份名單與缺個人資料問題。改用 Team USA 個人頁，明列 Spring Lake, NJ、31 歲、J1 柔道及 2018 年世錦賽，與 USADA 2018 年 23 歲當事人相符。",
+    "sourceUrl": "https://www.teamusa.com/profiles/anthony-ferraro",
+    "scope": "official_profile_at_lookup",
+    "note": "依查閱時 Team USA 個人資料辨識美國運動身分，Spring Lake、柔道項目及年齡相符，頁面另載 2018 年世錦賽。未採用無年份名單來認證特定年度代表資格，也非法律國籍認證。"
+  },
+  "usada-abb5a10e0ed3": {
+    "disposition": "accepted_with_scope_clarification",
+    "reason": "來源有官方 Team USA 個人資料與 2018／2026 奧運紀錄，但不能由此證明 2023 年當時代表資格。改為明列查閱時官方個人資料的範圍。",
+    "scope": "official_profile_at_lookup",
+    "note": "依查閱時 Team USA 個人資料辨識美國運動身分，頁面載有 2018／2026 奧運紀錄；不據此認證 2023 年事件時代表資格或法律國籍。"
+  },
+  "usada-a00b98f42826": {
+    "disposition": "accepted_as_proposed",
+    "reason": "Gemini 回覆自述其輸入缺失，未提供成對來源引用，故未計該席。完整固定包實際有 William Licon 的 USADA 文件；GPT、Grok、Claude 三席均有有效身分及國家對讀，保留查閱時 World Aquatics Nationality: USA 的限定範圍。"
+  },
+  "usada-503574acf7cc": {
+    "disposition": "accepted_with_scope_clarification",
+    "reason": "GPT 指出目前國家欄不能證明 2017 年代表資格；同意此限制。原 temporalNote 已有限定，公開註記再次明示不證明 2017 年，並不宣稱法律國籍。",
+    "note": "依查閱時 World Aquatics Nationality 欄列美國（USA），USADA 已列 Mihail（Mike）別名。此補充不認證 2017 年當時代表資格、出生國或法律國籍。"
+  },
+  "usada-c60db428c672": {
+    "disposition": "accepted_with_scope_clarification",
+    "reason": "UCI 文章正文明列 Katherine Compton (USA)，原 HTML 的 DateCategory 元件列 29 Nov 2014；純文字抽取遺漏日期。補列原始 HTML 定位並明示僅支持該時期。",
+    "rawLocator": "data-component=DateCategory; data-prop-date=29 Nov 2014",
+    "note": "依 UCI 2014-11-29 世界盃報導列美國（USA）；發布日期由官方 HTML 日期欄核對。未據此認證 2020 年事件當時的代表資格，也非法律國籍認證。"
+  },
+  "usada-ee1ce8ee98f6": {
+    "disposition": "accepted_with_scope_clarification",
+    "reason": "採納時間界線，官方文章可確認 2018 年 Team USA U18 參賽，不能擴張為 2024 年代表資格。公開註記明列兩個年份。",
+    "note": "官方 Team USA 報導確認 2018 年 U18 美洲錦標賽代表美國；2019 年原定參賽後因傷退出。此資料不單獨證明 2024 年事件時代表資格或法律國籍。"
+  }
+}

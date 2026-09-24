@@ -11,9 +11,9 @@ const steps = [
     details: [
       "藥檢人員（DCO）通知你被選為受檢對象",
       "受通知後，在 DCO 陪同下盡快到藥檢站報到",
-      "未成年運動員應有陪同人員（教練、家長）",
+      "未成年運動員應獲告知可由代表（如教練、家長）陪同",
     ],
-    tips: "合理延遲理由：完成訓練、參加頒獎、接受治療等。但必須在 DCO 視線範圍內。",
+    tips: "合理延遲須先經 DCO 許可，例如完成訓練、參加頒獎或接受治療；期間仍須接受持續監督。",
   },
   {
     num: 2,
@@ -35,12 +35,12 @@ const steps = [
     color: "bg-amber-600",
     lightColor: "bg-amber-100 text-amber-700",
     details: [
-      "藥檢人員與運動員必須是同性別",
+      "直接目視尿液採集的 DCO／陪同官須與運動員同性別",
       "選擇採樣杯和密封瓶",
       "在監督下提供尿液樣本（至少 90mL）",
       "將尿液分裝到 A 瓶和 B 瓶",
     ],
-    tips: "未成年運動員的陪同人員與藥檢代表會監督藥檢人員的執行過程。",
+    tips: "未成年人採樣須有額外保護安排；代表可觀察執行採樣的人員，通常不直接觀看排尿，並依適用規範及運動員意願安排。",
   },
   {
     num: 4,
@@ -49,10 +49,10 @@ const steps = [
     color: "bg-gray-800",
     lightColor: "bg-gray-100 text-gray-700",
     details: [
-      "檢查七處號碼是否一致（如有疑慮可要求更換）",
+      "核對 A、B 瓶、外盒與表單上的檢體編號是否一致",
       "填寫 7 日內使用的藥品或營養品資訊",
       "簽署藥檢紀錄表",
-      "檢體與表單副本將寄至藥檢實驗室",
+      "檢體與不含姓名等身分資訊的實驗室表單副本送至 WADA 認證實驗室",
     ],
     tips: "保留你的副本！如有異議，請在表單上註明。",
   },
@@ -83,6 +83,7 @@ function TestingProcess() {
                   : "bg-gray-100 text-gray-400"
               }`}
               aria-label={`步驟 ${step.num}: ${step.title}`}
+              aria-current={i === active ? "step" : undefined}
             >
               {step.num}
               <span className={`absolute -bottom-6 text-xs font-medium whitespace-nowrap ${
@@ -152,12 +153,14 @@ function TestingProcess() {
         </div>
       </div>
 
+      <p className="mt-5 text-sm text-gray-600">流程依適用規範與採樣方式調整。參考：<a className="text-emerald-700 underline" href="https://www.usada.org/sample-collection-process/" target="_blank" rel="noopener noreferrer">USADA 採樣流程說明</a>、<a className="text-emerald-700 underline" href="https://www.wada-ama.org/en/athletes-support-personnel/anti-doping-process" target="_blank" rel="noopener noreferrer">WADA 反禁藥流程</a>。</p>
+
       {/* Other testing methods */}
       <div className="mt-8 grid grid-cols-1 sm:grid-cols-3 gap-4">
         {[
-          { pct: "~90%", type: "尿液檢測", desc: "最主要的檢測方式", color: "text-emerald-600" },
-          { pct: "~10%", type: "血液檢測", desc: "由授證醫檢師採集靜脈血液", color: "text-blue-600" },
-          { pct: "NEW", type: "乾血點檢測", desc: "2022 北京冬奧開始，指尖一滴血", color: "text-amber-600" },
+          { pct: "尿液", type: "尿液檢測", desc: "依採樣規範取得至少 90mL，並確認比重", color: "text-emerald-600" },
+          { pct: "血液", type: "血液檢測", desc: "由具適用資格的血液採樣人員採集", color: "text-blue-600" },
+          { pct: "DBS", type: "乾血點檢測", desc: "以少量微血管血液採樣，採樣位置依裝置而異", color: "text-amber-600" },
         ].map((m) => (
           <div key={m.type} className="bg-white rounded-2xl p-5 border border-gray-100 text-center hover:shadow-md transition-shadow">
             <p className={`text-2xl font-black ${m.color} mb-1`}>{m.pct}</p>

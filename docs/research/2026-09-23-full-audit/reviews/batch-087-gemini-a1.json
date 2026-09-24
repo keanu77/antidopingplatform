@@ -1,0 +1,514 @@
+{
+  "cases": [
+    {
+      "id": "usada-e211d17e78b9",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-5928b836d3e64a02",
+        "registry-33b389ed6a8a14c9"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-5928b836d3e64a02",
+          "startLine": 1,
+          "endLine": 8,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "Grayson 於 2017-09-08 採樣陽性，因處方藥未先取得 TUE 接受公開警告並取消當日成績，後續獲准未來 TUE"
+        },
+        {
+          "documentId": "registry-33b389ed6a8a14c9",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "dates"
+          ],
+          "note": "官方名冊登載 Grayson 舉重項目氫氯噻嗪公開警告處分，日期為 2018-01-22"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "medium",
+          "claim": "美國",
+          "explanation": "文件僅見標題稱 U.S. 運動員、居住地科羅拉多斯普林斯與 USADA 管轄權，依規範不足以單獨確立國籍或運動代表身分，無台灣相關事證，屬證據不足。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-5928b836d3e64a02",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "建議將國籍與代表身分標記為不確定，或補充具體代表隊與公民身分證明。"
+        }
+      ]
+    },
+    {
+      "id": "usada-2791db22edc5",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-de864ec7ffe21e51",
+        "registry-de2b3f8b0c1189b4"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-de864ec7ffe21e51",
+          "startLine": 1,
+          "endLine": 11,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "Beyer 經調查承認自 2010 年 8 月使用處方睪固酮但無 TUE，接受自 2017-04-14 起兩年禁賽並取消自 2010-08-16 起成績"
+        },
+        {
+          "documentId": "registry-de2b3f8b0c1189b4",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "官方名冊登載 Beyer 鐵人三項睪固酮禁賽兩年並取消成績，日期為 2018-01-19"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "medium",
+          "claim": "美國",
+          "explanation": "公告標題稱 U.S. 運動員、居住地維吉尼亞州雷斯頓及 USADA 管轄權，依審查標準不足以直接認定國籍或體育代表權，無台灣相關事證，屬證據不足。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-de864ec7ffe21e51",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "建議將國籍註記為不確定，或增列正式代表隊或公民身分官方紀錄。"
+        }
+      ]
+    },
+    {
+      "id": "usada-70b898158395",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-e204693633bf1e49",
+        "registry-f3804e9f83cb3d30"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-e204693633bf1e49",
+          "startLine": 1,
+          "endLine": 7,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "Vennera 因使用醫師處方美托洛爾構成非故意違規，採樣時申報並取得後續 TUE，接受公開警告，未記載成績取消"
+        },
+        {
+          "documentId": "registry-f3804e9f83cb3d30",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "dates"
+          ],
+          "note": "官方名冊登載 Vennera 射箭項目美托洛爾公開警告處分，公告日期為 2018-01-05"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "medium",
+          "claim": "美國",
+          "explanation": "官方個案僅有 U.S. 運動員標題、北卡羅來納州居住地及管轄發布機構，不足以完全證實國籍或代表身分，無台灣相關事證，列為不確定。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-e204693633bf1e49",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "建議將國籍標記為不確定，或提供明確的國家代表隊註冊證明。"
+        }
+      ]
+    },
+    {
+      "id": "usada-8ad943acd5b0",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-b3d566b6e0979e26",
+        "registry-06d926d5fa661c86"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-b3d566b6e0979e26",
+          "startLine": 1,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "Miller 承認持有使用多種禁用物質及施用共謀，經實質協助後處分減為四年，自 2016-11-15 起算並取消自 2015-01-01 起成績"
+        },
+        {
+          "documentId": "registry-06d926d5fa661c86",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "官方名冊登載 Miller 自行車項目四年禁賽並取消成績，公告日期為 2017-12-28"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "medium",
+          "claim": "美國",
+          "explanation": "來源僅有 U.S. 運動員標題、肯塔基州路易維爾居住地及發布機構管轄權，不足以確立國籍或代表權，無台灣相關事證，屬證據不足。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-b3d566b6e0979e26",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "建議將國籍欄位調整為不確定，或補強官方代表資格佐證。"
+        }
+      ]
+    },
+    {
+      "id": "usada-47db4d671c02",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-adda0c5f072f8299",
+        "registry-2d62cb305fba0ad5"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-adda0c5f072f8299",
+          "startLine": 1,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "Patel 因持有及使用標示含 ostarine 補充品接受四年禁賽，自 2017-01-27 起算，並取消自 2015-06-01 起成績"
+        },
+        {
+          "documentId": "registry-2d62cb305fba0ad5",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "官方名冊登載 Patel 田徑非分析 ostarine 處分四年禁賽與取消成績，並註記因退休停止計時"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "medium",
+          "claim": "美國",
+          "explanation": "文件僅記載 U.S. 運動員標題、印第安納州布魯明頓居住地與 USADA 發布，依審查規範不足以獨立證明國籍或代表隊，無台灣相關事證，屬證據不足。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-adda0c5f072f8299",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "建議將國籍欄標示為不確定，或補充運動員國籍身分證明文件。"
+        }
+      ]
+    },
+    {
+      "id": "usada-994755070e39",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-1408e0e0f2251504",
+        "registry-2f9a8591e7c4b9e4"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-1408e0e0f2251504",
+          "startLine": 1,
+          "endLine": 11,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "Wolter 因教練建議使用含 ostarine 及 methylstenbolone 補充品，經配合與實質協助處分減為兩年，自 2016-12-13 起算並取消 2015-11-30 起成績"
+        },
+        {
+          "documentId": "registry-2f9a8591e7c4b9e4",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "官方名冊登載 Wolter 田徑非分析兩項同化劑違規，處以兩年禁賽並取消成績，日期為 2017-12-22"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "medium",
+          "claim": "美國",
+          "explanation": "公告僅見標題稱 U.S. 運動員、居住地加州聖瑪麗亞及 USADA 管轄，不足以單獨證明國籍或特定代表權，無台灣相關事證，屬證據不足。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-1408e0e0f2251504",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "建議將國籍欄改記為不確定，或增列正式官方國籍證明。"
+        }
+      ]
+    },
+    {
+      "id": "usada-fcfbbcf8949b",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-a044865cf937ac6d",
+        "registry-98e8145537c5c99b"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-a044865cf937ac6d",
+          "startLine": 1,
+          "endLine": 11,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "Sanford 依教練建議使用標示 ostarine 補充品，考量未受反禁藥教育定兩年後因實質協助減為一年，自 2017-06-02 起算並取消 2016-04-01 起成績"
+        },
+        {
+          "documentId": "registry-98e8145537c5c99b",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "官方名冊登載 Sanford 田徑使用及持有 ostarine 一年禁賽並取消成績，日期為 2017-12-21"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "medium",
+          "claim": "美國",
+          "explanation": "來源僅呈現 U.S. 運動員標題、喬治亞州科尼爾斯居住地與發布機構管轄權，不足以確立國籍或體育代表身分，無台灣相關事證，列為不確定。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-a044865cf937ac6d",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "建議將國籍欄標記為不確定，或提供官方代表資格紀錄。"
+        }
+      ]
+    },
+    {
+      "id": "usada-2a7f0468db54",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-14dacd247064ea8c",
+        "registry-e99cdd6d993fb164"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-14dacd247064ea8c",
+          "startLine": 1,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "Zoda 承認網購並使用肽類物質，經實質協助後處分減為兩年，自 2016-07-20 起算並取消自 2015-03-19 首次購買日起成績"
+        },
+        {
+          "documentId": "registry-e99cdd6d993fb164",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "官方名冊登載 Zoda 舉重項目非分析持有肽類處分兩年禁賽與取消成績，日期為 2017-12-20"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "medium",
+          "claim": "美國",
+          "explanation": "公告僅包含 U.S. 運動員標題、賓夕法尼亞州亞德利居住地及 USADA 管轄權，依規範不足以單獨確立國籍或代表身分，無台灣相關事證，屬證據不足。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-14dacd247064ea8c",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "建議將國籍欄註記為不確定，或補充官方公民身分或代表資格佐證。"
+        }
+      ]
+    }
+  ]
+}

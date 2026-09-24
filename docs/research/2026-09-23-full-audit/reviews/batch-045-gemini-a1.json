@@ -1,0 +1,272 @@
+{
+  "cases": [
+    {
+      "id": "aiu-ab4d36119437",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-ad4d7918fe167ae0",
+        "registry-38f80b062dadb821"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-ad4d7918fe167ae0",
+          "startLine": 1,
+          "endLine": 12,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "Yimer Bililign 係衣索比亞 28 歲路跑選手"
+        },
+        {
+          "documentId": "doc-ad4d7918fe167ae0",
+          "startLine": 50,
+          "endLine": 60,
+          "supports": [
+            "event",
+            "substance",
+            "dates"
+          ],
+          "note": "2024-06-23 雅加達賽內樣本檢出 S9 類禁用物質 prednisone 及 prednisolone"
+        },
+        {
+          "documentId": "doc-ad4d7918fe167ae0",
+          "startLine": 197,
+          "endLine": 206,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "確認違反 ADR 2.1，處以自 2024-09-06 起 2 年禁賽並取消 2024-06-23 起成績"
+        },
+        {
+          "documentId": "registry-38f80b062dadb821",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "官方名冊紀錄禁賽 2 年自 2024-09-06 起算，取消 2024-06-23 起成績"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "aiu-1625199d365e",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-b8bb2be3e68bd3c5",
+        "registry-8f86c7ae8f7a1ead"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-b8bb2be3e68bd3c5",
+          "startLine": 1,
+          "endLine": 12,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "Faith Chepkoech 係肯亞 21 歲路跑選手"
+        },
+        {
+          "documentId": "doc-b8bb2be3e68bd3c5",
+          "startLine": 55,
+          "endLine": 61,
+          "supports": [
+            "event",
+            "substance",
+            "dates"
+          ],
+          "note": "2024-07-26 於肯亞採集之賽外樣本檢出重組 EPO"
+        },
+        {
+          "documentId": "doc-b8bb2be3e68bd3c5",
+          "startLine": 165,
+          "endLine": 178,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "及早承認違規獲減免 1 年，處自 2024-09-06 起 3 年禁賽並取消 2024-07-26 起成績"
+        },
+        {
+          "documentId": "registry-8f86c7ae8f7a1ead",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊載明違反 ADR 2.1 與 2.2，禁賽 3 年自 2024-09-06 起算"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "aiu-e9edda7565bd",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-71bcbdb975a113b4",
+        "registry-7424cc79e2c3dfa3"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-71bcbdb975a113b4",
+          "startLine": 1,
+          "endLine": 13,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "Taoufik Allam 係摩洛哥 35 歲田徑選手"
+        },
+        {
+          "documentId": "doc-71bcbdb975a113b4",
+          "startLine": 57,
+          "endLine": 64,
+          "supports": [
+            "event",
+            "substance",
+            "dates"
+          ],
+          "note": "2024-04-21 荷蘭恩斯赫德馬拉松樣本檢出重組 EPO"
+        },
+        {
+          "documentId": "doc-71bcbdb975a113b4",
+          "startLine": 135,
+          "endLine": 142,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "及早承認減免 1 年，處 3 年禁賽並折抵自 2024-08-16 起之暫時禁賽"
+        },
+        {
+          "documentId": "registry-7424cc79e2c3dfa3",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊載明處以 3 年禁賽自 2024-08-16 起算，取消 2024-04-21 起成績"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "aiu-1e9026a457aa",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-67d36a1c4789eb08",
+        "registry-6aae1a4d3d1edc51"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-67d36a1c4789eb08",
+          "startLine": 1,
+          "endLine": 12,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "Shintsetseg Chuluunkhuu 係蒙古 36 歲馬拉松選手"
+        },
+        {
+          "documentId": "doc-67d36a1c4789eb08",
+          "startLine": 55,
+          "endLine": 61,
+          "supports": [
+            "event",
+            "substance",
+            "dates"
+          ],
+          "note": "2024-05-04 吉爾吉斯馬拉松樣本檢出 meldonium"
+        },
+        {
+          "documentId": "doc-67d36a1c4789eb08",
+          "startLine": 191,
+          "endLine": 212,
+          "supports": [
+            "sanction",
+            "dates",
+            "education"
+          ],
+          "note": "簽署接受處分逾期一日，無法享有 1 年減免，維持處以 4 年禁賽自 2024-06-11 起算"
+        },
+        {
+          "documentId": "registry-6aae1a4d3d1edc51",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊載明違反 ADR 2.1 及 2.2，處 4 年禁賽自 2024-06-11 起算，取消 2024-05-04 起成績"
+        }
+      ],
+      "findings": []
+    }
+  ]
+}

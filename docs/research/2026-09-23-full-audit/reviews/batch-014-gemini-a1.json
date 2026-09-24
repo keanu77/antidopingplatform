@@ -1,0 +1,402 @@
+{
+  "cases": [
+    {
+      "id": "ita-341b2385fca6",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-84f54c36adad387e",
+        "registry-10426b3bcc0759db"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-84f54c36adad387e",
+          "startLine": 2,
+          "endLine": 5,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "ITA公告俄羅斯跆拳道選手Dolzhikova因2014年11月樣本含tuaminoheptane遭實驗室掩蓋，處兩年禁賽並取消相應期間成績"
+        },
+        {
+          "documentId": "registry-10426b3bcc0759db",
+          "startLine": 1,
+          "endLine": 22,
+          "supports": [
+            "identity",
+            "country",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "官方名冊登載Dolzhikova禁賽期間為2024年11月1日至2026年10月31日，違規日為2014年11月20日"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-48033ebac0a5",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-a61f2929d671ba20",
+        "registry-63ecaba8227d4705"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-a61f2929d671ba20",
+          "startLine": 2,
+          "endLine": 8,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "ITA報告烏茲別克舉重選手Djangabaev檢出ostarine代謝物，屬第二次違規，處八年禁賽自2024年3月11日至2032年3月10日"
+        },
+        {
+          "documentId": "registry-63ecaba8227d4705",
+          "startLine": 1,
+          "endLine": 22,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "官方名冊記載Djangabaev檢驗陽性違反條例2.1並處八年禁賽"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-51fcd6a4c084",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-f92a02fd0ec6af1b",
+        "registry-2d18428e64b24739"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-f92a02fd0ec6af1b",
+          "startLine": 2,
+          "endLine": 5,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "CAS ADD裁定印度拳擊選手Gitika Narwal因三次行蹤失誤處一年禁賽自2025年2月26日至2026年2月25日，並取消自2023年4月1日起成績"
+        },
+        {
+          "documentId": "registry-2d18428e64b24739",
+          "startLine": 1,
+          "endLine": 22,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "官方名冊列出Narwal違規日2023年4月1日及一年禁賽期間"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-f6281c790b34",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-2d690efdd12508fa",
+        "registry-e158b8cbe79fa59b"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-2d690efdd12508fa",
+          "startLine": 2,
+          "endLine": 4,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "ITA公告蒙特內哥羅踢拳選手Vusurovic賽外檢測檢出furosemide處24個月禁賽至2025年11月12日，取消自2023年8月26日起成績"
+        },
+        {
+          "documentId": "registry-e158b8cbe79fa59b",
+          "startLine": 1,
+          "endLine": 22,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "官方名冊載明Vusurovic禁賽期間自2023年11月13日至2025年11月12日"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-b29e6a80ce73",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-b4d81b00d6793284",
+        "registry-240b1b6b79730ff5"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-b4d81b00d6793284",
+          "startLine": 2,
+          "endLine": 4,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates"
+          ],
+          "note": "CAS ADD確認巴基斯坦舉重教練Waqas Akbar涉竄改與共謀違規處四年資格限制自2025年2月24日至2029年2月23日"
+        },
+        {
+          "documentId": "registry-240b1b6b79730ff5",
+          "startLine": 1,
+          "endLine": 22,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "官方名冊記錄Muhammad Waqas Akbar隊職員身分與四年禁賽期間，取消成績欄標註N/A"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-0ac13662ff6f",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-b4d81b00d6793284",
+        "registry-240b1b6b79730ff5"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-b4d81b00d6793284",
+          "startLine": 2,
+          "endLine": 4,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates"
+          ],
+          "note": "CAS ADD裁處巴基斯坦前副主席Amjad Amin Butt涉竄改及共謀違規四年禁賽自2025年2月24日至2029年2月23日"
+        },
+        {
+          "documentId": "registry-240b1b6b79730ff5",
+          "startLine": 25,
+          "endLine": 46,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "官方名冊確認Amjad Amin Butt身分與四年禁賽處分，成績取消為N/A"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-6b41f5733e9d",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-84f54c36adad387e",
+        "registry-10426b3bcc0759db"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-84f54c36adad387e",
+          "startLine": 2,
+          "endLine": 5,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "ITA公告俄羅斯跆拳道選手Volkova因2014年11月樣本含furosemide未通報，處兩年禁賽並取消2014年11月19日至2024年11月1日成績"
+        },
+        {
+          "documentId": "registry-10426b3bcc0759db",
+          "startLine": 25,
+          "endLine": 46,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "官方名冊記錄Volkova違規日為2014年11月19日及兩年禁賽期間"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-59e32de02a5a",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-478b9ee87559175d",
+        "registry-0bd060c29fe03c9d"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-478b9ee87559175d",
+          "startLine": 2,
+          "endLine": 4,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "ITA公告塞爾維亞拳擊手Nad Varga檢出stanozolol代謝物，依及早承認協議處三年禁賽至2027年11月12日並取消相關成績"
+        },
+        {
+          "documentId": "registry-0bd060c29fe03c9d",
+          "startLine": 1,
+          "endLine": 22,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "官方名冊列出Nad Varga自2024年11月13日至2027年11月12日禁賽期間及違規條款2.1"
+        }
+      ],
+      "findings": []
+    }
+  ]
+}

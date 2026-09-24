@@ -1,0 +1,440 @@
+{
+  "cases": [
+    {
+      "id": "ita-8e2a8b3f698b",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-bd7967cbb2f6b6ed",
+        "registry-f0cc659e25447339"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-bd7967cbb2f6b6ed",
+          "startLine": 2,
+          "endLine": 8,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告確認運動員及土耳其代表身分、2023年樣本、第二次違規、物質、CAS駁回上訴及禁賽與成績處理日期。"
+        },
+        {
+          "documentId": "registry-f0cc659e25447339",
+          "startLine": 1,
+          "endLine": 20,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊列明姓名、Türkiye、舉重、違規條款及日期、八年禁賽與成績取消期間。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-cd387471474e",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-9c561dad28e4e6a0",
+        "registry-224e920f02e14fdd"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-9c561dad28e4e6a0",
+          "startLine": 2,
+          "endLine": 8,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告確認印度射箭選手、三次行蹤失誤、接受兩年禁賽及成績取消；說明行蹤違規及接受後果程序。"
+        },
+        {
+          "documentId": "registry-224e920f02e14fdd",
+          "startLine": 1,
+          "endLine": 22,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊列出姓名、印度、射箭、2.4條款、違規日、禁賽期及成績取消期間。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-b38ccaa15f5a",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-b6a94324d2dfb5da",
+        "registry-78097dcff8bf4bde"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-b6a94324d2dfb5da",
+          "startLine": 2,
+          "endLine": 7,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告確認俄羅斯體操選手、boldenone陽性、早期承認減期及禁賽與成績處理；減期理由不涉及污染認定。"
+        },
+        {
+          "documentId": "registry-78097dcff8bf4bde",
+          "startLine": 1,
+          "endLine": 22,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊核實姓名、代表國、項目、物質、三年禁賽及成績取消日期。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-ae0903caad5e",
+      "status": "issue",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "issue",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-aea4c5f1e61f1b81",
+        "registry-09dd054e1a1023bb"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-aea4c5f1e61f1b81",
+          "startLine": 2,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告分別列出 Urakova 的兩次檢體及物質、12月裁決、轉交FIAS、五年禁賽及成績取消。"
+        },
+        {
+          "documentId": "registry-09dd054e1a1023bb",
+          "startLine": 1,
+          "endLine": 23,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "Urakova 名冊列出違規日為8月4日及14日，與公告所述賽前檢體及賽中檢體一致。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "dates",
+          "kind": "contradiction",
+          "severity": "medium",
+          "claim": "Gulsevar Urakova 的 2025-08-04 及 2025-08-14 樣本涉及 LGD-4033、RAD140 等 SARMs，前次另有 ostarine。",
+          "explanation": "官方公告指出賽前樣本含 LGD-4033、RAD140 及 ostarine；8月14日樣本則含 LGD-4033 與 RAD140。名冊只列兩個違規日期，未支持把 ostarine 歸於「前次」檢體。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-aea4c5f1e61f1b81",
+              "startLine": 5,
+              "endLine": 5
+            },
+            {
+              "documentId": "registry-09dd054e1a1023bb",
+              "startLine": 13,
+              "endLine": 14
+            }
+          ],
+          "suggestion": "改為明確寫出賽前樣本含三種物質、8月14日樣本含兩種物質。"
+        }
+      ]
+    },
+    {
+      "id": "ita-07adfc13fc45",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-aea4c5f1e61f1b81",
+        "registry-09dd054e1a1023bb"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-aea4c5f1e61f1b81",
+          "startLine": 2,
+          "endLine": 8,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告確認烏茲別克桑搏選手、賽外樣本及19-norandrosterone、三年禁賽與成績取消；並區分其與同公告另一選手的案件。"
+        },
+        {
+          "documentId": "registry-09dd054e1a1023bb",
+          "startLine": 25,
+          "endLine": 46,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊列出 Murotov 個人資料、違規條款、日期、禁賽期及成績取消期間。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-568a6741e703",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-ed054f882f1ef9bf",
+        "registry-cf40270ea3e4cab0"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-ed054f882f1ef9bf",
+          "startLine": 2,
+          "endLine": 11,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告確認土庫曼庫拉什選手、兩次賽外檢體與物質、加重情節下六年禁賽及成績取消起點。"
+        },
+        {
+          "documentId": "registry-cf40270ea3e4cab0",
+          "startLine": 1,
+          "endLine": 22,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊核實選手資料、兩種物質、違規日期、六年禁賽及成績取消期間。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-32742f90fa3f",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-542136464f503c1b",
+        "registry-54a26aca07df78d8"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-542136464f503c1b",
+          "startLine": 2,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告確認選手姓名及亞塞拜然身分、MMA賽事樣本、meldonium陽性、四年禁賽與成績取消，並說明未爭議違規後的裁決程序。"
+        },
+        {
+          "documentId": "registry-54a26aca07df78d8",
+          "startLine": 1,
+          "endLine": 22,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊以 Nihad 為姓、Nihad Fozail Oglu 為其餘姓名，核實項目、物質、禁賽及取消成績期間。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-06d43cb2bedd",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-f37b91e58a0fc611",
+        "registry-ff53ae598d70f02f"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-f37b91e58a0fc611",
+          "startLine": 1,
+          "endLine": 7,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告確認 Maicon de Andrade Siqueira、巴西跆拳道選手、三次行蹤失誤、兩年禁賽及成績取消。"
+        },
+        {
+          "documentId": "registry-ff53ae598d70f02f",
+          "startLine": 1,
+          "endLine": 22,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊使用 Maicon de Andrade Sigueira 拼法，列出巴西跆拳道選手、2.4條款及相關日期；教育說明交叉核對拼法有據。"
+        }
+      ],
+      "findings": []
+    }
+  ]
+}

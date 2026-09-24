@@ -1,0 +1,368 @@
+{
+  "cases": [
+    {
+      "id": "ita-d8c0202bcd03",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-c3f48d3944af35db",
+        "registry-ca89136e486b57d6"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-c3f48d3944af35db",
+          "startLine": 2,
+          "endLine": 7,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates"
+          ],
+          "note": "UCI 確認波蘭帕運自行車選手 Marczuk 因巴黎帕運採樣違規，物質、四年禁賽期間及取消該賽事資格。"
+        },
+        {
+          "documentId": "registry-ca89136e486b57d6",
+          "startLine": 19,
+          "endLine": 20,
+          "supports": [
+            "outcomes"
+          ],
+          "note": "名冊列明 2024-08-25 至 2024-08-28 的取消成績期間。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-825ba0518559",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-05e713dc4ee843c0",
+        "registry-337220169d7b40cb"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-05e713dc4ee843c0",
+          "startLine": 2,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "education"
+          ],
+          "note": "ITA 確認伊拉克鐵人三項選手 Idrees 的採樣、陽性分析、S9 分類、接受處分及兩年禁賽；並說明仍有上訴權。"
+        },
+        {
+          "documentId": "registry-337220169d7b40cb",
+          "startLine": 19,
+          "endLine": 20,
+          "supports": [
+            "outcomes"
+          ],
+          "note": "名冊列明自採樣日起至禁賽開始日的取消成績期間。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-1e63725a68a7",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-41ab3e6a14e1f0f8",
+        "registry-bbfdac3420b5cce3"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-41ab3e6a14e1f0f8",
+          "startLine": 2,
+          "endLine": 5,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "education"
+          ],
+          "note": "ITA 確認德國雪車選手 Wulff 的賽內陽性分析、協議、21 個月禁賽；稱無故意跡象但未能確認物質來源。"
+        },
+        {
+          "documentId": "registry-bbfdac3420b5cce3",
+          "startLine": 19,
+          "endLine": 20,
+          "supports": [
+            "outcomes"
+          ],
+          "note": "名冊列明取消成績期間；案例將 medalStripped 保留為未知。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-c8d8f0244027",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-3707bdb314a223f4",
+        "registry-0298e228d154674e"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-3707bdb314a223f4",
+          "startLine": 2,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "ITA 確認哈薩克桑搏選手 Nabiyeva 的採樣、兩項代謝物、S6.B 分類、兩年禁賽及包含獎牌的成績取消。"
+        },
+        {
+          "documentId": "registry-0298e228d154674e",
+          "startLine": 19,
+          "endLine": 20,
+          "supports": [
+            "outcomes"
+          ],
+          "note": "名冊列明採樣日至禁賽開始日的取消成績期間。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-b7c414fb2d50",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-deaa5ae6f1c6c327",
+        "registry-94b8d140e441ca5e"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-deaa5ae6f1c6c327",
+          "startLine": 2,
+          "endLine": 14,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "ITA 確認模里西斯舉重選手 Martinson 的 GW1516 代謝物、賽事採樣、因及早承認減少一年及三年禁賽，並取消相關成績。"
+        },
+        {
+          "documentId": "registry-94b8d140e441ca5e",
+          "startLine": 19,
+          "endLine": 20,
+          "supports": [
+            "outcomes"
+          ],
+          "note": "名冊列明採樣日至禁賽開始日的取消成績期間。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-a3e679811edf",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-fda9d18f2b86e7f7",
+        "registry-ab20e6aacdecf2d3"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-fda9d18f2b86e7f7",
+          "startLine": 2,
+          "endLine": 9,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "ITA 確認菲律賓舉重選手 Sarno 在十二個月內三次行蹤失誤，依第 2.4 條處理，接受兩年禁賽及相關成績取消。"
+        },
+        {
+          "documentId": "registry-ab20e6aacdecf2d3",
+          "startLine": 13,
+          "endLine": 20,
+          "supports": [
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊列出違規成立日、禁賽期間與取消成績期間。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-1aa44e921acb",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-35a97614163c5730",
+        "registry-dc594a1e7c7deb4a"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-35a97614163c5730",
+          "startLine": 2,
+          "endLine": 9,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "education"
+          ],
+          "note": "ITA 確認土耳其拳擊手 Erdemir 的 ATF、後續違規裁決、兩年禁賽及 CAS 駁回上訴，並列明成績取消期間。"
+        },
+        {
+          "documentId": "registry-dc594a1e7c7deb4a",
+          "startLine": 19,
+          "endLine": 20,
+          "supports": [
+            "outcomes"
+          ],
+          "note": "名冊列明 2024-02-17 至 2024-07-10 的取消成績期間。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-790fc95712eb",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-52119d5d84b63f62",
+        "registry-28a3427a9541087e"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-52119d5d84b63f62",
+          "startLine": 2,
+          "endLine": 12,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "ITA 確認敘利亞鐵人三項選手 Zaki 的陽性分析、物質分類、自願暫時禁賽、接受處分及兩年禁賽，並指出自採樣日起取消成績。"
+        },
+        {
+          "documentId": "registry-28a3427a9541087e",
+          "startLine": 19,
+          "endLine": 20,
+          "supports": [
+            "outcomes"
+          ],
+          "note": "名冊列明採樣日至禁賽開始日的取消成績期間。"
+        }
+      ],
+      "findings": []
+    }
+  ]
+}

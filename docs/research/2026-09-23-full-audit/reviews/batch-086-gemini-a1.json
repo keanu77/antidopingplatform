@@ -1,0 +1,515 @@
+{
+  "cases": [
+    {
+      "id": "usada-bfeee80825b1",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-d6c819fcf5292233",
+        "registry-4b727db26e030d46"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-d6c819fcf5292233",
+          "startLine": 7,
+          "endLine": 11,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "Kaitlyn Jarrett 於 2017-12-14 賽外檢出 higenamine，因年齡及信賴家人減為一年禁賽並取消成績"
+        },
+        {
+          "documentId": "registry-4b727db26e030d46",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "dates"
+          ],
+          "note": "處分名冊記載 Jarrett, Kaitlyn 舉重 higenamine 禁賽 1 年及取消成績，公告日 2018-03-23"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "美國",
+          "explanation": "官方個案公告僅於標題記載「U.S. Weightlifting Athlete」並說明其居住於加州，依標準不足以直接證明國籍或代表資格。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-d6c819fcf5292233",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "補充具體代表權或國籍證明文件，或將國籍欄位標註為待確認（uncertain）。"
+        }
+      ]
+    },
+    {
+      "id": "usada-901736ce5e01",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-ffe6c15f0ffb3987",
+        "registry-8fb55d0a9cec95dd"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-ffe6c15f0ffb3987",
+          "startLine": 7,
+          "endLine": 9,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "Lazaro Roman 於 2017-11-11 賽事檢出 higenamine、clomiphene 及 DHCMT 代謝物 M3，處四年禁賽並取消成績"
+        },
+        {
+          "documentId": "registry-8fb55d0a9cec95dd",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "dates"
+          ],
+          "note": "名冊記錄 Roman, Lazaro 舉重檢出多種物質，禁賽 4 年及取消成績，公告日 2018-03-09"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "美國",
+          "explanation": "官方個案公告僅見標題「U.S. Weightlifting Athlete」及居住地邁阿密，依審查標準不足以確立國籍或體育代表權。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-ffe6c15f0ffb3987",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "補充選手國籍或國家代表隊證明，或將國籍欄位調整為待確認（uncertain）。"
+        }
+      ]
+    },
+    {
+      "id": "usada-503574acf7cc",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-b0ca747fc0dcecc9",
+        "registry-1736652b5541e306"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-b0ca747fc0dcecc9",
+          "startLine": 7,
+          "endLine": 9,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "Mihail Alexandrov 於 2017-06-04 賽事檢出古柯鹼代謝物，自 2017-08-24 復出日起處一年禁賽並取消成績"
+        },
+        {
+          "documentId": "registry-1736652b5541e306",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "dates"
+          ],
+          "note": "名冊登載 Alexandrov, Mihail (Mike) 游泳檢出 Benzoylecgonine 與 Methylecgonine，處 1 年禁賽及取消成績，日期 2018-03-06"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "美國",
+          "explanation": "文本僅有標題「U.S. Swimming Athlete」及洛杉磯居住地敘述，依稽核規範不足以斷定國籍或體育代表權。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-b0ca747fc0dcecc9",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "補充選手代表國家出賽或公民身份證明，或將國籍欄位標註為待確認（uncertain）。"
+        }
+      ]
+    },
+    {
+      "id": "usada-e6a03aa80344",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-a2093ed226eed092",
+        "registry-c3ea5a2a82421162"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-a2093ed226eed092",
+          "startLine": 7,
+          "endLine": 9,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "David Less 於 2017-10-13 賽外拒絕提供檢體，因減輕情節獲減為兩年禁賽並取消成績"
+        },
+        {
+          "documentId": "registry-c3ea5a2a82421162",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "dates"
+          ],
+          "note": "名冊記載 Less, David 自行車非分析違規（拒絕採樣），處 2 年禁賽及取消成績，公告日 2018-01-29"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "美國",
+          "explanation": "官方公告僅於標題提及「U.S. Cycling Athlete」並註明居住地紐約州漢堡，不足以直接證明國籍或代表權。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-a2093ed226eed092",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "補充國籍或正式體育代表資格依據，或改列待確認（uncertain）。"
+        }
+      ]
+    },
+    {
+      "id": "usada-5dd19e96b68c",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-ce9a1f8df46210d5",
+        "registry-c4c3eb48602682ba"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-ce9a1f8df46210d5",
+          "startLine": 7,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "Craig Webb 於 2017-11-04 賽事完賽後拒絕採樣，接受自拒絕日起四年禁賽並取消成績"
+        },
+        {
+          "documentId": "registry-c4c3eb48602682ba",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "dates"
+          ],
+          "note": "名冊記錄 Webb, Craig 自行車拒絕接受檢體採集，處 4 年禁賽及取消成績，公告日 2018-01-26"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "美國",
+          "explanation": "來源僅含標題「U.S. Cycling Athlete Craig Webb」與密西根居住地資訊，依規定不能單憑此確立國籍或國家代表身分。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-ce9a1f8df46210d5",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "補充國籍證明或國家代表隊出賽資料，或將國籍欄標記為待確認（uncertain）。"
+        }
+      ]
+    },
+    {
+      "id": "usada-f49825dfb87e",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-f1e38c484db7ba07",
+        "registry-0d3e17b28c56e1d3"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-f1e38c484db7ba07",
+          "startLine": 7,
+          "endLine": 7,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "Sharon Jackson 因未事前取得 TUE 使用處方 spironolactone，採樣時申報並後續獲未來 TUE，接受公開警告"
+        },
+        {
+          "documentId": "registry-0d3e17b28c56e1d3",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "dates"
+          ],
+          "note": "名冊記載 Jackson, Sharon 短柄牆球使用 Spironolactone，處分 Public Warning，日期 2018-01-24"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "美國",
+          "explanation": "個案公告僅以「U.S. Racquetball Athlete」為標題且註明居住於喬治亞州亞特蘭大，缺乏確鑿國籍或體育代表權證明。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-f1e38c484db7ba07",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "補充國籍官方資料或體育代表身分依據，或改標為待確認（uncertain）。"
+        }
+      ]
+    },
+    {
+      "id": "usada-0f682f5a12d7",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-720f87b48bd8b21e",
+        "registry-9161b2b423407a03"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-720f87b48bd8b21e",
+          "startLine": 7,
+          "endLine": 7,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "Marck Harrison 帕拉地板滾球選手未事前取得 TUE 使用處方 chlorthalidone，採樣時申報並取得未來 TUE，接受公開警告"
+        },
+        {
+          "documentId": "registry-9161b2b423407a03",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "dates"
+          ],
+          "note": "名冊記載 Harrison, Marck 地板滾球使用 Chlorthalidone，處分 Public Warning，公告日 2018-01-24"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "美國",
+          "explanation": "文件標題「U.S. Paralympic Boccia Athlete」與俄亥俄居住地不能作為國籍或體育代表權之單一充分證據。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-720f87b48bd8b21e",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "提供國籍或國家隊代表資格憑據，或將國籍欄位標示為待確認（uncertain）。"
+        }
+      ]
+    },
+    {
+      "id": "usada-8b83386b3243",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-ff166884055cb95a",
+        "registry-fadc2b332fac25f4"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-ff166884055cb95a",
+          "startLine": 7,
+          "endLine": 9,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "Alyssa Travis 於 2017-12-03 賽外拒絕提供檢體，接受自拒絕日起四年禁賽並取消成績"
+        },
+        {
+          "documentId": "registry-fadc2b332fac25f4",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "dates"
+          ],
+          "note": "處分名冊記錄 Travis, Alyssa 舉重拒絕採樣違規，處 4 年禁賽及取消成績，日期 2018-01-23"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "美國",
+          "explanation": "來源公告標題記載「U.S. Weightlifting Athlete」且居住辛辛那提，依查核規範不足以確立國籍或體育代表權。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-ff166884055cb95a",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "補充選手正式國籍或代表權證明文件，或將國籍調整為待確認（uncertain）。"
+        }
+      ]
+    }
+  ]
+}

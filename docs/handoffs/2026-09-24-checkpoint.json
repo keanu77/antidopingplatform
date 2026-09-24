@@ -1,0 +1,18 @@
+{
+  "checkedAt": "2026-09-24T01:34:08.807216+00:00",
+  "branch": "main",
+  "head": "60f7073a9deb98af0b117735717250e638bee9ba",
+  "datasetSha256": "a37f9ec223bedf64c96b5bf17c31960c2b30606c7de03bcc06bdb929d7d66cb0",
+  "localCases": 517,
+  "pendingCountryEvidence": 215,
+  "previousValidation": "docs/research/2026-09-24-source-followup/validation.json",
+  "previousValidationCheckedAt": "2026-09-24T00:44:10.152017+00:00",
+  "testsRerunForHandoff": false,
+  "lastObservedProductionCases": 171,
+  "lastObservedProductionTime": "2026-09-24T00:44:10.152017+00:00",
+  "productionRecheckedForHandoff": false,
+  "previewPort4179Listening": false,
+  "commitPushDeployInThisHandoff": false,
+  "nextBatchStarted": false,
+  "archive": "docs/handoffs/2026-09-24.md"
+}

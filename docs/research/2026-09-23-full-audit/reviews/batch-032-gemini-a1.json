@@ -1,0 +1,176 @@
+{
+  "cases": [
+    {
+      "id": "aiu-1da4c803b608",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-33adcdf82d47c6ce",
+        "registry-86d831322a144216"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-33adcdf82d47c6ce",
+          "startLine": 31,
+          "endLine": 32,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "紀律庭裁決確認選手 Esther Gitahi 為肯亞中長跑運動員"
+        },
+        {
+          "documentId": "doc-33adcdf82d47c6ce",
+          "startLine": 36,
+          "endLine": 37,
+          "supports": [
+            "event",
+            "dates"
+          ],
+          "note": "2024年4月13日在波士頓 B.A.A. 5K 賽事採集賽內尿液樣本"
+        },
+        {
+          "documentId": "doc-33adcdf82d47c6ce",
+          "startLine": 55,
+          "endLine": 63,
+          "supports": [
+            "substance"
+          ],
+          "note": "A 樣本分析檢出禁用物質 EPO，屬於 S2 類別"
+        },
+        {
+          "documentId": "doc-33adcdf82d47c6ce",
+          "startLine": 470,
+          "endLine": 486,
+          "supports": [
+            "sanction",
+            "education"
+          ],
+          "note": "裁決指出選手於檢查表申報注射 Alfa 且配合提供資料，紀律庭未依加重情節加重處罰，維持四年禁賽"
+        },
+        {
+          "documentId": "doc-33adcdf82d47c6ce",
+          "startLine": 509,
+          "endLine": 516,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "裁定四年禁賽並折抵 2024年8月6日起暫時禁賽，取消 2023年7月1日至 2024年8月6日間成績"
+        },
+        {
+          "documentId": "registry-86d831322a144216",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "官方名冊紀錄 Esther Gitahi 因 EPO 違規自 2024年8月6日起禁賽四年並取消 2023年7月1日起成績"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "aiu-89efc48649bb",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-c78fe76370466770",
+        "registry-6ffc50a839f2b650"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-c78fe76370466770",
+          "startLine": 12,
+          "endLine": 12,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "裁決載明 Cornelius Kibet Kiplagat 為肯亞長跑運動員"
+        },
+        {
+          "documentId": "doc-c78fe76370466770",
+          "startLine": 55,
+          "endLine": 61,
+          "supports": [
+            "event",
+            "dates",
+            "substance"
+          ],
+          "note": "2025年7月29日肯亞賽外採集尿液樣本檢出 EPO 與 CERA"
+        },
+        {
+          "documentId": "doc-c78fe76370466770",
+          "startLine": 194,
+          "endLine": 201,
+          "supports": [
+            "sanction",
+            "education"
+          ],
+          "note": "因使用多種禁用物質構成加重情節，禁賽期由基準四年提高至六年"
+        },
+        {
+          "documentId": "doc-c78fe76370466770",
+          "startLine": 226,
+          "endLine": 234,
+          "supports": [
+            "sanction",
+            "education"
+          ],
+          "note": "選手及早承認違規與接受後果，獲減免一年禁賽"
+        },
+        {
+          "documentId": "doc-c78fe76370466770",
+          "startLine": 240,
+          "endLine": 245,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "確認處以自 2025年9月11日起五年禁賽，並取消 2025年7月29日起所有成績"
+        },
+        {
+          "documentId": "registry-6ffc50a839f2b650",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "官方名冊紀錄自 2025年9月11日起禁賽五年並取消 2025年7月29日起成績"
+        }
+      ],
+      "findings": []
+    }
+  ]
+}

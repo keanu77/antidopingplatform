@@ -1,11 +1,15 @@
 /**
  * 靜態資料層 — 取代原本的 MongoDB。
  *
- * 全部資料在 build 期就編進 Worker bundle（171 筆案例約 150 KB），
+ * 全部資料在 build 期就編進 Worker bundle；研究待查檔不會編入。
  * 查詢／篩選／統計一律在記憶體中完成，因此沒有資料庫容器、沒有連線延遲。
  * 回應格式逐一對齊原 backend/routes/*.js，前端不需修改。
  */
 import cases from "../../data/cases.json";
+// Only the alias map is bundled; research quarantine records stay outside the API.
+import caseAliases from "../../data/case-aliases.json";
+import { hasBan, banDurationCategory } from "./case-outcome.mjs";
+import { topWithRemainder, reviewSummary, isCountryPending } from "./case-statistics.mjs";
 import wadaCategories from "../../backend/data/wada-categories.json";
 import quizzes from "../../backend/data/quizzes.json";
 import specialties from "../../backend/data/medical-specialties.json";
@@ -28,7 +32,7 @@ function matchesPunishmentType(c, type) {
   const other = String(c.punishment?.otherPenalties ?? "");
   switch (type) {
     case "禁賽":
-      return ban !== "" && !/無處罰|無禁賽|無（成功|無正式禁賽/i.test(ban);
+      return hasBan(c);
     case "獎牌剝奪":
       return c.punishment?.medalStripped === true;
     case "成績取消":
@@ -81,13 +85,15 @@ export function queryCases({ sport, nationality, year, substanceCategory, punish
       resultsCancelled: c.punishment?.resultsCancelled,
     },
     summary: c.summary,
+    review: c.review,
   }));
 
   return { cases: list, totalCases: total, currentPage: page, totalPages: Math.ceil(total / limit), limit };
 }
 
 export function getCaseById(id) {
-  const c = cases.find((x) => String(x.id) === String(id));
+  const canonicalId = caseAliases[String(id)] ?? String(id);
+  const c = cases.find((x) => String(x.id) === canonicalId);
   return c ? { ...c, _id: c.id } : null;
 }
 
@@ -112,6 +118,9 @@ function countBy(keyFn) {
 }
 
 export const stats = {
+  reviewSummary() {
+    return reviewSummary(cases);
+  },
   overview() {
     const uniq = (fn) => new Set(cases.map(fn).filter(Boolean)).size;
     const sports = uniq((c) => c.sport);
@@ -137,9 +146,7 @@ export const stats = {
       .map(({ key, count }) => ({ sport: key, count }));
   },
   substanceDistribution() {
-    return countBy((c) => c.substanceCategory)
-      .sort((a, b) => b.count - a.count)
-      .slice(0, 10)
+    return topWithRemainder(countBy((c) => c.substanceCategory || "未標示"))
       .map(({ key, count }) => ({ category: key, count }));
   },
   nationalityDistribution() {
@@ -152,7 +159,10 @@ export const stats = {
     return countBy((c) => c.nationality)
       .sort((a, b) => b.count - a.count)
       .slice(0, 15)
-      .map(({ key, count }) => ({ country: key, count }));
+      .map(({ key, count }) => {
+        const pending = cases.filter((c) => c.nationality === key && isCountryPending(c)).length;
+        return { country: key, count, confirmed: count - pending, pending };
+      });
   },
   punishmentStats() {
     return {
@@ -161,27 +171,7 @@ export const stats = {
     };
   },
   banDurationDistribution() {
-    // 分支順序與原 $switch 完全一致（先命中者為準）
-    const branches = [
-      [/無處罰|合法tue|tue證明|無禁賽|無正式禁賽|無（成功|當時合法/, "無處罰 (TUE/合法)"],
-      [/死亡|國家系統性禁藥受害者/, "死亡/特殊情況"],
-      [/終身|10年|無限期停賽/, "終身禁賽"],
-      [/1個月|6個月|3個月/, "1-6個月"],
-      [/7個月|8個月|9個月|12個月|1年/, "7-12個月"],
-      [/14個月|15個月|18個月|2年|22個月|21個月/, "1-2年"],
-      [/3年|2-4年不等/, "2-3年"],
-      [/4年|4年3個月|8年|4年集體禁賽|6年|5年/, "4年以上"],
-      [/退役|自行退役|已退役|退役後/, "退役"],
-      [/追溯性道德譴責|學術聲譽受損|車隊解散|終身禁入體育界|聲譽受損/, "聲譽受損"],
-      [/無確鑿證據|暫時禁賽|暫時禁賽後撤銷|無證據確鑿/, "暫時禁賽：無確鑿證據"],
-      [/場禁賽|場比賽|球季|賽季|80場|162場|211場|50場|65場|25場|20場|10場/, "特定比賽場次"],
-    ];
-    const categorise = (c) => {
-      const v = lower(c.punishment?.banDuration);
-      for (const [re, label] of branches) if (re.test(v)) return label;
-      return "其他";
-    };
-    const rows = countBy(categorise).sort((a, b) => b.count - a.count);
+    const rows = countBy(banDurationCategory).sort((a, b) => b.count - a.count);
     const total = rows.reduce((a, r) => a + r.count, 0) || 1;
     return rows.map(({ key, count }) => ({
       category: key,
@@ -195,7 +185,7 @@ export const stats = {
 export function lookupSubstance(query) {
   const wada = substancesData.substances || {};
   const q = lower(query).trim();
-  if (wada[q]) return { key: q, info: wada[q] };
+  if (Object.hasOwn(wada, q)) return { key: q, info: wada[q] };
   for (const [key, info] of Object.entries(wada)) {
     const aliases = (info.aliases || []).map((a) => lower(a));
     if (aliases.includes(q) || lower(info.displayName) === q) return { key, info };

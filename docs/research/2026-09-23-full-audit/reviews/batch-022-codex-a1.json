@@ -1,0 +1,71 @@
+{
+  "cases": [
+    {
+      "id": "aiu-7f1ad8515185",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-0a3cd6185fa39714",
+        "registry-bada628893083f9f"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-0a3cd6185fa39714",
+          "startLine": 43,
+          "endLine": 58,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance"
+          ],
+          "note": "判決確認 Fred Kerley 是美國短跑選手，案件依 WA ADR Rule 2.4 涉及三次行蹤違失。"
+        },
+        {
+          "documentId": "doc-0a3cd6185fa39714",
+          "startLine": 1749,
+          "endLine": 1764,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "裁決認定違規，禁賽兩年並折抵自 2025-08-12 起已服暫時禁賽期間；原則至 2027-08-11，並取消 2024-12-06 至 2025-08-12 的成績，另分擔 £3,000 法律費用。"
+        },
+        {
+          "documentId": "doc-0a3cd6185fa39714",
+          "startLine": 618,
+          "endLine": 627,
+          "supports": [
+            "education"
+          ],
+          "note": "判決說明行蹤義務可獨立構成違規，無論是否有藥物使用證據。"
+        },
+        {
+          "documentId": "registry-bada628893083f9f",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "AIU 名冊列 Kerley、USA、Rule 2.4 行蹤違失、兩年及成績取消期間。"
+        }
+      ],
+      "findings": []
+    }
+  ]
+}

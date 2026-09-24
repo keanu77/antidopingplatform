@@ -1,0 +1,466 @@
+{
+  "cases": [
+    {
+      "id": "usada-de625da34c51",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-f76276cb6be70095",
+        "doc-22ba9d9b5d7bfdbb",
+        "registry-630388ac30948f53"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-f76276cb6be70095",
+          "startLine": 7,
+          "endLine": 9,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "南達科他州 Vermillion 的帕運籃球選手 Dylan Fischbach，因 2015-08-22 賽外未交檢體接受 24 個月禁賽，自 2015-10-27 暫時禁賽起算，並取消該日以後成績。"
+        },
+        {
+          "documentId": "doc-22ba9d9b5d7bfdbb",
+          "startLine": 7,
+          "endLine": 8,
+          "supports": [
+            "event",
+            "substance",
+            "sanction",
+            "outcomes",
+            "education"
+          ],
+          "note": "禁賽期間仍參加大學層級 NWBA 賽事；協會與選手誤以為禁令不含該賽，過失被認為可忽略，處分是取消成績而非公告延長禁賽。"
+        },
+        {
+          "documentId": "registry-630388ac30948f53",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "sanction",
+            "outcomes"
+          ],
+          "note": "名冊為兩年禁賽、取消成績及追加取消成績，原公告 2015-12-18、更新 2016-04-11。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "medium",
+          "claim": "nationality 美國",
+          "explanation": "來源只寫美國帕運籃球選手標題、南達科他州居住地及 USADA 管轄，沒有載明國籍或參賽代表國家，不能把居住地或「US athlete」標題當成已證實的代表國家。未見台灣或中華台北證據。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-f76276cb6be70095",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "國籍改為未明，或補上載明代表國家的官方紀錄；不要只依居住地或 USADA 標題標成美國。"
+        }
+      ]
+    },
+    {
+      "id": "usada-e202db4ec31d",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-b91ff89823ed1dcf",
+        "registry-ddb0d76ebc291e47"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-b91ff89823ed1dcf",
+          "startLine": 7,
+          "endLine": 9,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "猶他州 Pleasant Grove 的鐵人三項選手 Ashley Paulson，2015-09-14 賽外尿液檢出 ostarine；其使用的補充品經檢驗確認含 ostarine，禁賽六個月，自 2015-10-16 收到暫時禁賽通知起算，並取消採樣日以後成績。"
+        },
+        {
+          "documentId": "registry-ddb0d76ebc291e47",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "outcomes"
+          ],
+          "note": "名冊為鐵人三項、Ostarine、六個月禁賽並取消成績，公告日 2016-03-31。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "medium",
+          "claim": "nationality 美國",
+          "explanation": "公告僅以美國鐵人三項選手標題及猶他州居住地描述，沒有單獨載明國籍或參賽代表國家。未見台灣或中華台北證據。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-b91ff89823ed1dcf",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "將國籍標為未明，除非另有官方文件寫明代表國家。"
+        }
+      ]
+    },
+    {
+      "id": "usada-5ba221c74afd",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-d9380827cd46fa64",
+        "registry-a4d48d72719c5e42"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-d9380827cd46fa64",
+          "startLine": 7,
+          "endLine": 8,
+          "supports": [
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "Cho 於 2015-12-05 Reno American Open 賽內檢出 dimethylbutylamine，屬興奮劑且為特定物質；選手證明非故意提升表現，並因補充品成分難辨識而過失低。禁賽自 2016-03-24 接受處分起算，取消採樣日以後成績。公告摘錄未寫明月數。"
+        },
+        {
+          "documentId": "registry-a4d48d72719c5e42",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "outcomes"
+          ],
+          "note": "名冊列 Chris Hyun Cho、舉重、Dimethylbutylamine、六個月禁賽並取消成績。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "medium",
+          "claim": "nationality 美國",
+          "explanation": "本案摘錄沒有居住地，只有「US Weightlifting Athlete」標題與 USADA 管轄，不足以證明國籍或代表國家。未見台灣或中華台北證據。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-d9380827cd46fa64",
+              "startLine": 1,
+              "endLine": 1
+            },
+            {
+              "documentId": "registry-a4d48d72719c5e42",
+              "startLine": 1,
+              "endLine": 1
+            }
+          ],
+          "suggestion": "國籍改未明，或補上寫明代表國家的來源；六個月禁賽可維持，因名冊已記載。"
+        }
+      ]
+    },
+    {
+      "id": "usada-32c2c6bdacff",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-feb5118ae12c4af1",
+        "registry-f27c859afbad802e"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-feb5118ae12c4af1",
+          "startLine": 7,
+          "endLine": 8,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "自行車選手 Buckley 的 2015-12-05 賽外檢體檢出經 CIR／IRMS 確認的外源性合成代謝類固醇，以及 anastrozole、LGD-4033、ostarine。禁賽自 2016-01-20 暫時禁賽起算，取消採樣日以後成績；公告摘錄未寫禁賽年數。IRMS 只對應外源性類固醇。"
+        },
+        {
+          "documentId": "registry-f27c859afbad802e",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "outcomes"
+          ],
+          "note": "名冊列 Michael Buckley、自行車及上述物質，並記載四年禁賽與取消成績。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "medium",
+          "claim": "nationality 美國",
+          "explanation": "只有「US Cycling Athlete」標題，摘錄未寫居住地、國籍或代表國家。未見台灣或中華台北證據。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-feb5118ae12c4af1",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "國籍改未明；四年禁賽可依名冊保留，並維持 IRMS 僅確認外源性類固醇的寫法。"
+        }
+      ]
+    },
+    {
+      "id": "usada-a71a79541adf",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-6fdb43be051b9a5d",
+        "registry-522a3433c17fd754"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-6fdb43be051b9a5d",
+          "startLine": 7,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "佛羅里達州 Pensacola 的舉重選手 Cicely Kyle，2015-08-14 全美錦標賽檢出合成代謝雄性類固醇或其前驅物，禁賽兩年，自 2015-10-02 收到暫時禁賽通知起算並取消該日以後成績。她在採樣表申報 DHEA，並自述不知非處方產品可含禁用物質；這是選手說明，不是污染檢驗。"
+        },
+        {
+          "documentId": "registry-522a3433c17fd754",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "outcomes"
+          ],
+          "note": "名冊為舉重、雄性合成代謝類固醇、兩年禁賽並取消成績。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "medium",
+          "claim": "nationality 美國",
+          "explanation": "「US Weightlifting athlete」標題與佛羅里達居住地不能單獨證明國籍或代表國家。未見台灣或中華台北證據。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-6fdb43be051b9a5d",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "國籍改未明；DHEA 繼續寫成採樣表申報與選手說明，不要寫成實驗室污染結論。"
+        }
+      ]
+    },
+    {
+      "id": "usada-1359b69cc9a8",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-955f5d3df44cd923",
+        "registry-796a313999598375"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-955f5d3df44cd923",
+          "startLine": 7,
+          "endLine": 8,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "舉重選手 Roberto 於 2015-06-07 加州 Monrovia 大師錦標賽檢出 GHRP-2，四年禁賽自 2015-07-10 暫時禁賽起算，並取消採樣日以後成績。"
+        },
+        {
+          "documentId": "registry-796a313999598375",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "outcomes"
+          ],
+          "note": "名冊列 Joseph Roberto、舉重、GHRP-2 與四年禁賽；「GHRP-24-Year」是欄位黏連，不是另一物質。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "medium",
+          "claim": "nationality 美國",
+          "explanation": "摘錄只有美國舉重選手標題，沒有國籍或代表國家。比賽在加州不能推定代表國家。未見台灣或中華台北證據。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-955f5d3df44cd923",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "國籍改未明；物質維持 GHRP-2，不要改寫成直接檢出人類生長激素。"
+        }
+      ]
+    },
+    {
+      "id": "usada-2428086c1745",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-72927413b83d3f20",
+        "registry-c5c3bc32b928b79f"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-72927413b83d3f20",
+          "startLine": 7,
+          "endLine": 9,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "科羅拉多州 Longmont 的棒球選手 Tara Harbert，2015-06-23 與 07-06 賽外檢出 tamoxifen 及其代謝物，並於 08-22 無充分理由拒絕採樣；第一次與第二次違規合計八年，自 2015-07-07 首次暫時禁賽通知起算，取消 2015-06-23 以後成績。公告未提退休停算。"
+        },
+        {
+          "documentId": "registry-c5c3bc32b928b79f",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "outcomes"
+          ],
+          "note": "名冊為八年禁賽、取消成績，並註記因退休而停止計算禁賽期間，但未公布復出後剩餘期間。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "medium",
+          "claim": "nationality 美國",
+          "explanation": "僅有美國棒球選手標題與科羅拉多居住地，沒有國籍或代表國家。未見台灣或中華台北證據。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-72927413b83d3f20",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "國籍改未明；八年及退休停算可保留，但應註明停算來自名冊、剩餘期間未公開，且退休停算不代表違規被撤銷。"
+        }
+      ]
+    }
+  ]
+}

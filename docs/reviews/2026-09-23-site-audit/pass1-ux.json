@@ -1,0 +1,119 @@
+{
+  "audit": "pass1-ux",
+  "mode": "read-only source audit",
+  "status": "source_confirmed_pending_browser_reproduction",
+  "scope": {
+    "included": ["frontend/src/App.jsx", "frontend/src/pages except Statistics.jsx", "frontend/src/components", "frontend/src/services", "frontend/src/utils/cache.js", "frontend/src/utils/debounce.js"],
+    "excluded": ["Statistics.jsx (parent ownership)", "medical and regulatory content accuracy", "FeedbackBar findings (API audit ownership)", "deployment"],
+    "notes": ["No comparison entry, state or route exists in the frontend; do not describe an absent feature as a broken live link.", "Current 517-case dataset has no relatedCases entries; CaseDetail route-change stale-data risk is not reported as a currently reachable related-case operation.", "All reported locations refer to the source inspected before parent fixes.", "No code, build, data or deployment was changed by this audit."]
+  },
+  "findings": [
+    {
+      "id": "UX-01",
+      "severity": "P2",
+      "title": "清除所有篩選沒有重新載入案例",
+      "file": "frontend/src/pages/CaseList.jsx",
+      "line": 200,
+      "endLine": 209,
+      "trigger": "在 /cases 搜尋一個結果較少的人名或選擇運動篩選，等待結果完成，再按『清除所有篩選』。",
+      "evidence": "clearFilters 只呼叫 setFilters。唯一掛載 effect 為空依賴，沒有 filters effect；載入只由 handleFilterChange、提交及分頁呼叫，因此欄位變空後清單與總數仍是舊篩選結果。待執行的 debouncedSearch 亦未取消，可再將剛清除的條件結果寫回。",
+      "suggestion": "取消 debounce，將空條件与第 1 頁一次傳入 loadCases，並同步重置篩選與頁碼。",
+      "verification": "confirmed by complete event/state call path; browser reproduction pending"
+    },
+    {
+      "id": "UX-02",
+      "severity": "P2",
+      "title": "較慢的舊搜尋請求會覆蓋較新的搜尋結果",
+      "file": "frontend/src/pages/CaseList.jsx",
+      "line": 141,
+      "endLine": 149,
+      "trigger": "搜尋 A 並等待超過 300 ms 讓請求送出，再改查 B；讓 B 先回應、A 後回應。輸入框保留 B，畫面最後顯示 A 的案例與總數。另一觸發為初始 filters 請求尚未完成時先輸入搜尋，初始化隨後仍載入空條件。",
+      "evidence": "每次 loadCases 都無條件 setCases/setPagination/setLoading，沒有序號、取消或 active 條件。52–65 的初始化在 loadFilterOptions 之後固定 loadCases(initialFilters, 1)。快取命中也沒有讓先前 in-flight 回應失效。",
+      "suggestion": "為每次查詢建立 request ID 或 AbortController，只允許最新查詢更新資料、錯誤與 loading；初始化不要在使用者已查詢後重設空條件，卸載時取消 debounce。",
+      "verification": "confirmed by asynchronous update call paths; controlled network ordering pending"
+    },
+    {
+      "id": "UX-03",
+      "severity": "P2",
+      "title": "搜尋成功恢復後仍顯示載入失敗",
+      "file": "frontend/src/pages/CaseList.jsx",
+      "line": 120,
+      "endLine": 155,
+      "trigger": "先使一次案例查詢回應 500 或離線，再恢復網路並搜尋另一個未快取條件。案例正常顯示，但紅色『載入案例資料失敗』持續存在。",
+      "evidence": "setError 僅在 catch 設成失敗訊息；整個 component 沒有 setError(null)，成功與快取命中分支均不清除。",
+      "suggestion": "啟動最新請求及成功回應時清除 error；過期請求不得重設現行錯誤。",
+      "verification": "confirmed by all setError call sites; browser network-failure injection pending"
+    },
+    {
+      "id": "UX-04",
+      "severity": "P2",
+      "title": "詳情暫時載入失敗被顯示為案例不存在",
+      "file": "frontend/src/pages/CaseDetail.jsx",
+      "line": 41,
+      "endLine": 59,
+      "trigger": "直接開啟一個確實存在的 /cases/:id，讓詳情 API 回應 500 或請求失敗。",
+      "evidence": "catch 僅 console.error；finally 關閉 loading 後 caseData 仍為 null，56–59 立即顯示『案例不存在』，沒有可見的連線錯誤或重試操作。404 與連線/服務失敗沒有區分。",
+      "suggestion": "分開 notFound 和 loadError；僅 404 顯示不存在，其他失敗保留明確錯誤與重試入口。切換 id 時亦重設資料並保護過期回應。",
+      "verification": "confirmed by all error/render branches; browser network-failure injection pending"
+    },
+    {
+      "id": "UX-05",
+      "severity": "P2",
+      "title": "TUE 快速查詢可同時送出多次並回填過期藥物結果",
+      "file": "frontend/src/pages/TUE.jsx",
+      "line": 110,
+      "endLine": 122,
+      "relatedLocations": ["frontend/src/pages/TUE.jsx:1444", "frontend/src/pages/TUE.jsx:1445", "frontend/src/pages/TUE.jsx:1452"],
+      "trigger": "輸入藥物 A 並按 Enter，請求未完成時改成 B 再按 Enter；令 B 先完成、A 後完成。最後输入框是 B，結果卡卻是 A，且先完成的請求會解除 loading。",
+      "evidence": "按鈕雖因 drugCheckLoading disabled，輸入框的 Enter handler 無條件呼叫 handleDrugCheck；handler 沒有 loading guard、request ID 或 abort。setDrugCheckResult 與 finally 均無条件更新。修改 query 也不清除上一結果。",
+      "suggestion": "用單一 form submit 入口和請求序號/取消保護；結果綁定實際提交的 query，輸入改變時清除或明確標出舊結果。",
+      "verification": "confirmed by keyboard entry and async call paths; controlled network ordering pending"
+    },
+    {
+      "id": "UX-06",
+      "severity": "P2",
+      "title": "教育專區的違規類型載入失敗後永久轉圈",
+      "file": "frontend/src/pages/Education.jsx",
+      "line": 73,
+      "endLine": 78,
+      "relatedLocations": ["frontend/src/pages/Education.jsx:336"],
+      "trigger": "讓 /api/education 成功、/api/education/adrv 失敗，再點『違規類型』。",
+      "evidence": "ADRV catch 只 console.error，不設定錯誤或完成狀態；render 只判斷 !adrv，永遠顯示 spinner。切換分頁不會重新呼叫 loadEducationalContent。",
+      "suggestion": "獨立追蹤 ADRV loading/error，失敗顯示可操作的錯誤與重試；完成後不得繼續 loading。",
+      "verification": "confirmed by request/error/tab rendering path; browser network-failure injection pending"
+    },
+    {
+      "id": "UX-07",
+      "severity": "P2",
+      "title": "導覽下拉選單按 Escape 後焦點丟失",
+      "file": "frontend/src/components/Layout.jsx",
+      "line": 65,
+      "endLine": 69,
+      "trigger": "桌面寬度下以 Tab 聚焦『學習專區』，按 ArrowDown 展開並聚焦第一個選單連結，再按 Escape。",
+      "evidence": "Escape 將 open=false，使目前聚焦的 Link 被卸載，但沒有將焦點還給 trigger button。ref 在外層 div 且未作 focus restore；focus effect 只在 open 時聚焦連結。使用者失去原本導覽位置，後續 Tab 順序不連續。",
+      "suggestion": "為 trigger 建立 ref，Escape 收合後 focus trigger；一起處理 Tab/焦點離開時收合，避免選單持續覆蓋其他操作。",
+      "verification": "confirmed by focus target unmount and missing restore; keyboard browser reproduction pending"
+    },
+    {
+      "id": "UX-08",
+      "severity": "P2",
+      "title": "TUE 決策工具的選單沒有可存取名稱且賽內外選擇只用顏色呈現",
+      "file": "frontend/src/pages/TUE.jsx",
+      "line": 1518,
+      "endLine": 1525,
+      "relatedLocations": ["frontend/src/pages/TUE.jsx:1545", "frontend/src/pages/TUE.jsx:1571", "frontend/src/pages/TUE.jsx:1582", "frontend/src/pages/TUE.jsx:1600"],
+      "trigger": "以讀屏軟體/可存取樹巡覽『實用工具』下的選擇藥物、給藥途徑、運動項目與賽內/賽外按鈕。",
+      "evidence": "三個 label 是 select 的相鄰元素，沒有 htmlFor/id 關聯，也沒有 aria-label/aria-labelledby。賽內與賽外按鈕只有動態 className，沒有 aria-pressed 或 radio checked 狀態，讀屏無法得知目前選擇。",
+      "suggestion": "為三個 label/select 綁定穩定 id/htmlFor；賽內外採有 legend 的原生 radio 群組，或加入 aria-pressed 與群組名称。",
+      "verification": "confirmed by complete rendered JSX control attributes; accessibility-tree browser check pending"
+    }
+  ],
+  "coverageWithoutConfirmedFindings": [
+    "Quiz: menu, scenario, quiz scoring, next question, completion and reset state transitions; no confirmed scoring defect found.",
+    "ProhibitedList: local case-insensitive English/code search, timing filters, accordion and zero-result state.",
+    "TestingProcess: step selection and previous/next boundary controls.",
+    "ADeL, Resources, News, NotFound: static page rendering and internal route presence; external destinations not revalidated in this UX audit.",
+    "FeedbackBar reviewed for surrounding UI context; its findings are delegated to the separate API audit.",
+    "Mobile sizing requires real browser validation and is not declared passed by this source-only audit."
+  ]
+}

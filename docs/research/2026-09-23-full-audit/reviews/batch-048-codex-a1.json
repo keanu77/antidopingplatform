@@ -1,0 +1,314 @@
+{
+  "cases": [
+    {
+      "id": "aiu-0640a36be24f",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-bd69fb733165d4af",
+        "registry-e45986abe18a1d0e"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-bd69fb733165d4af",
+          "startLine": 15,
+          "endLine": 15,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "裁決稱她為來自玻利維亞的公路跑者。"
+        },
+        {
+          "documentId": "doc-bd69fb733165d4af",
+          "startLine": 49,
+          "endLine": 56,
+          "supports": [
+            "event",
+            "substance"
+          ],
+          "note": "2024 年聖保羅賽事檢體檢出 Oxandrolone、Stanozolol；列為 S1.1 非特定物質，全年禁用。"
+        },
+        {
+          "documentId": "doc-bd69fb733165d4af",
+          "startLine": 77,
+          "endLine": 77,
+          "supports": [
+            "education"
+          ],
+          "note": "裁決明言這是首次違規。"
+        },
+        {
+          "documentId": "doc-bd69fb733165d4af",
+          "startLine": 143,
+          "endLine": 149,
+          "supports": [
+            "sanction",
+            "education"
+          ],
+          "note": "多種禁用物質構成加重情節，原定六年；未證明非故意且未證明不知情。"
+        },
+        {
+          "documentId": "doc-bd69fb733165d4af",
+          "startLine": 166,
+          "endLine": 185,
+          "supports": [
+            "sanction",
+            "dates"
+          ],
+          "note": "她及早承認並接受後果，獲一年減免。"
+        },
+        {
+          "documentId": "doc-bd69fb733165d4af",
+          "startLine": 190,
+          "endLine": 194,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "禁賽五年自 2024-05-13 起，並取消 2024-04-07 起成績及相關後果。"
+        },
+        {
+          "documentId": "registry-e45986abe18a1d0e",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊記載姓名、BOL、違規類別、五年處分起日及成績取消起日。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "aiu-4f2d1634e1c2",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-618ca10347d296ac",
+        "registry-6de836b303183566"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-618ca10347d296ac",
+          "startLine": 15,
+          "endLine": 15,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "裁決稱她為來自肯亞的馬拉松選手。"
+        },
+        {
+          "documentId": "doc-618ca10347d296ac",
+          "startLine": 34,
+          "endLine": 36,
+          "supports": [
+            "event",
+            "dates"
+          ],
+          "note": "2022-11-20 Kampala 馬拉松採集第一份賽內檢體。"
+        },
+        {
+          "documentId": "doc-618ca10347d296ac",
+          "startLine": 46,
+          "endLine": 50,
+          "supports": [
+            "substance"
+          ],
+          "note": "第一檢體含 19NA、19NE，裁決說明與 nandrolone 或其前驅物代謝物一致。"
+        },
+        {
+          "documentId": "doc-618ca10347d296ac",
+          "startLine": 74,
+          "endLine": 80,
+          "supports": [
+            "event",
+            "substance",
+            "dates"
+          ],
+          "note": "2023-10-08 Sofia 賽內檢體含 clomifene、canrenone、19NA。"
+        },
+        {
+          "documentId": "doc-618ca10347d296ac",
+          "startLine": 119,
+          "endLine": 125,
+          "supports": [
+            "event",
+            "substance",
+            "dates"
+          ],
+          "note": "2023-11-16 肯亞賽外檢體含 clomifene 與 19NA。"
+        },
+        {
+          "documentId": "doc-618ca10347d296ac",
+          "startLine": 194,
+          "endLine": 205,
+          "supports": [
+            "sanction",
+            "substance"
+          ],
+          "note": "裁決記錄 2018 年前案及相關歷史禁用清單分類。"
+        },
+        {
+          "documentId": "doc-618ca10347d296ac",
+          "startLine": 206,
+          "endLine": 217,
+          "supports": [
+            "substance",
+            "education"
+          ],
+          "note": "Clomifene、Canrenone 分類列於 2023 清單；裁決將前兩份樣本合併為第二次違規。"
+        },
+        {
+          "documentId": "doc-618ca10347d296ac",
+          "startLine": 227,
+          "endLine": 252,
+          "supports": [
+            "education",
+            "sanction",
+            "dates"
+          ],
+          "note": "第一檢體通知早於第三檢體；裁決認定第三次違規適用終身禁賽。"
+        },
+        {
+          "documentId": "doc-618ca10347d296ac",
+          "startLine": 257,
+          "endLine": 261,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "終身禁賽自 2023-11-22 起，成績自 2022-11-20 起取消。"
+        },
+        {
+          "documentId": "registry-6de836b303183566",
+          "startLine": 1,
+          "endLine": 2,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊列出肯亞代表代碼、第二與第三次違規物質及終身處分和成績取消日期。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "aiu-c7469bd46410",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-292e962d61702ceb",
+        "registry-2a9a66a09b2e9ee1"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-292e962d61702ceb",
+          "startLine": 15,
+          "endLine": 15,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "裁決稱她為來自肯亞的馬拉松選手。"
+        },
+        {
+          "documentId": "doc-292e962d61702ceb",
+          "startLine": 49,
+          "endLine": 55,
+          "supports": [
+            "event",
+            "substance"
+          ],
+          "note": "2024-04-07 Milano Marathon 檢體的 testosterone 及代謝物符合外源性來源。"
+        },
+        {
+          "documentId": "doc-292e962d61702ceb",
+          "startLine": 98,
+          "endLine": 104,
+          "supports": [
+            "substance",
+            "sanction"
+          ],
+          "note": "Testosterone 列為 S1.1 非特定物質；未證明非故意，適用四年基準期。"
+        },
+        {
+          "documentId": "doc-292e962d61702ceb",
+          "startLine": 121,
+          "endLine": 140,
+          "supports": [
+            "sanction",
+            "dates"
+          ],
+          "note": "她及早承認並接受四年主張，獲一年減免。"
+        },
+        {
+          "documentId": "doc-292e962d61702ceb",
+          "startLine": 144,
+          "endLine": 151,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "三年禁賽自 2024-06-07 起，取消 2024-04-07 起成績；她承認違規並接受後果。"
+        },
+        {
+          "documentId": "registry-2a9a66a09b2e9ee1",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊記載 KEN、違規物質、三年處分起日及成績取消起日。"
+        }
+      ],
+      "findings": []
+    }
+  ]
+}

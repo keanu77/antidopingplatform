@@ -1,0 +1,496 @@
+{
+  "cases": [
+    {
+      "id": "usada-6fde059a15f4",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-00cd6def8012397b",
+        "registry-b88f146774d88ede"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-00cd6def8012397b",
+          "startLine": 7,
+          "endLine": 11,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告載明 Mary Verrando-Higgins 於 2016 年 5 月 24 日全美大師暨帕拉公路自行車錦標賽檢出 methyltestosterone 代謝物，因醫療處方且無意圖減為 1 年禁賽並取消成績"
+        },
+        {
+          "documentId": "registry-b88f146774d88ede",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "sanction",
+            "substance"
+          ],
+          "note": "名冊確認自行車選手 Verrando-Higgins 因 methyltestosterone 代謝物處 1 年禁賽及取消成績"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "nationality: 美國",
+          "explanation": "來源僅於標題提及「U.S. Cycling Athlete」及居住於佛羅里達州奧卡拉，依規範發布機構管轄權、居住地或標題稱謂不足以直接證實實質國籍或國際體育代表權。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-00cd6def8012397b",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "應補足正式國籍或代表隊註冊證明，或將國籍欄位標註為待確認。"
+        }
+      ]
+    },
+    {
+      "id": "usada-47a780e34432",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-089ba536dd848f82",
+        "registry-e514a42b14f0e9ec"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-089ba536dd848f82",
+          "startLine": 7,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告載明 Crystal Riggs 於 2016 年 5 月 7 日全美舉重錦標賽檢出 furosemide，接受醫師治療但無有效 TUE，自 2016 年 6 月 10 日起處 6 個月禁賽並取消 5 月 7 日起成績"
+        },
+        {
+          "documentId": "registry-e514a42b14f0e9ec",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "sanction",
+            "substance"
+          ],
+          "note": "名冊確認舉重選手 Riggs 因 Furosemide 處 6 個月禁賽並取消成績"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "nationality: 美國",
+          "explanation": "來源僅於標題載明「U.S. Weightlifting Athlete」並註記居住於加州卡馬里奧，依規範不足以單獨確立國籍或代表權。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-089ba536dd848f82",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "應補充其代表美國參賽之官方資格或國籍佐證，或將國籍註記為待確認。"
+        }
+      ]
+    },
+    {
+      "id": "usada-c0ec4fad5514",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-74abc1dbf614a831",
+        "registry-00b6835995127f0b"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-74abc1dbf614a831",
+          "startLine": 7,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告載明 Thomas Cawley 承認自 2011 年 7 月至 2015 年 12 月持有並使用 GHRFs、GHRH 類似物等肽類激素，處 4 年禁賽並取消 2011 年 7 月 10 日起成績"
+        },
+        {
+          "documentId": "registry-00b6835995127f0b",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "sanction",
+            "substance"
+          ],
+          "note": "名冊確認田徑選手 Cawley 因非分析性使用處 4 年禁賽，並註記因退休而停止計時"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "nationality: 美國",
+          "explanation": "文本僅於標題提及「U.S. Track & Field Athlete」與居住地紐澤西州，未提供正式國籍或代表權證明。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-74abc1dbf614a831",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "應提供其代表權或國籍證明文件，或將國籍改為待確認。"
+        }
+      ]
+    },
+    {
+      "id": "usada-1198265168e2",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-09a8bc965363ba06",
+        "registry-ba11aaf4ba8fe95f"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-09a8bc965363ba06",
+          "startLine": 7,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告載明 Liz Palmer 於 2016 年 3 月 5 日全美大師室內田徑錦標賽檢出 methandienone 代謝物，及時承認獲減免 6 個月，處 3 年 6 個月禁賽並取消成績"
+        },
+        {
+          "documentId": "registry-ba11aaf4ba8fe95f",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "sanction",
+            "substance"
+          ],
+          "note": "名冊確認田徑選手 Palmer 因 methandienone 代謝物處 4 年禁賽減免 6 個月及取消成績"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "nationality: 美國",
+          "explanation": "來源僅有標題稱「U.S. Track & Field Athlete」及居住地加州普拉亞維斯塔，依審核標準不足以直接證明國籍。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-09a8bc965363ba06",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "應補充官方國籍或國際代表資格紀錄，或將國籍標記為待確認。"
+        }
+      ]
+    },
+    {
+      "id": "usada-09d96ec873e6",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-5f821a12cad00acf",
+        "registry-4370a9001814a20f"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-5f821a12cad00acf",
+          "startLine": 7,
+          "endLine": 9,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告載明 Susan Dutta 於 2016 年 3 月 19 日賽事檢體檢出 methylprednisolone，屬賽外緊急治療但無有效 TUE，接受公開警告並取消當日成績"
+        },
+        {
+          "documentId": "registry-4370a9001814a20f",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "sanction",
+            "substance"
+          ],
+          "note": "名冊確認馬術選手 Dutta 因 Methylprednisolone 處公開警告並取消成績"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "nationality: 美國",
+          "explanation": "文本僅在標題提及「U.S. Equestrian Athlete」，無明確國籍登記或體育代表權證明。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-5f821a12cad00acf",
+              "startLine": 1,
+              "endLine": 1
+            }
+          ],
+          "suggestion": "補充選手國籍或代表國家的官方紀錄，或調整為待確認。"
+        }
+      ]
+    },
+    {
+      "id": "usada-8813abb5dfc8",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-29c37a73976ce7ab"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-29c37a73976ce7ab",
+          "startLine": 7,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告載明 James Howe II 於 2016 年 5 月 1 日美國成年國家隊選拔賽檢出 carboxy-THC 超過 180 ng/mL，處 6 個月禁賽，完成教育課程減免 3 個月並取消成績"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "nationality: 美國",
+          "explanation": "僅有標題「U.S. Taekwondo Athlete」與居住地邁阿密，雖參加選拔賽但未直接確立代表權或實質公民國籍。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-29c37a73976ce7ab",
+              "startLine": 1,
+              "endLine": 8
+            }
+          ],
+          "suggestion": "應補強國籍或正式入選代表之文件，或將國籍欄位維持待確認。"
+        }
+      ]
+    },
+    {
+      "id": "usada-6d48feafc5e9",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-f2c49d5f0bf78740",
+        "registry-5403b5b2787894bf"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-f2c49d5f0bf78740",
+          "startLine": 7,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告載明 Nia Williams 於 2015 年 11 月 6 日賽外及 12 月 3 日杜拜系列賽檢出 19-NA 與 drostanolone 代謝物，處 4 年禁賽並取消成績"
+        },
+        {
+          "documentId": "registry-5403b5b2787894bf",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "sanction",
+            "substance"
+          ],
+          "note": "名冊確認橄欖球選手 Williams 因 19-NA 及 Drostanolone 代謝物處 4 年禁賽與取消成績"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "nationality: 美國",
+          "explanation": "公告僅載有標題「U.S. Rugby Athlete」及加州聖地牙哥居住地，杜拜賽事未明寫所代表國家隊，不足以認定國籍。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-f2c49d5f0bf78740",
+              "startLine": 1,
+              "endLine": 8
+            }
+          ],
+          "suggestion": "需補充代表美國隊出賽或公民國籍之官方佐證，或將國籍標註為待確認。"
+        }
+      ]
+    },
+    {
+      "id": "usada-b95ab234ef5b",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-34c0dea18ff340a6",
+        "registry-bfc31a1326edef4d"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-34c0dea18ff340a6",
+          "startLine": 7,
+          "endLine": 11,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告載明 Daniel Lehr 於 2015 年 8 月 15 日全美舉重錦標賽檢出 1-androstenedione 及 ostarine 代謝物，及時承認減免 3 個月，處 3 年 9 個月禁賽並取消成績"
+        },
+        {
+          "documentId": "registry-bfc31a1326edef4d",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "sanction",
+            "substance"
+          ],
+          "note": "名冊確認舉重選手 Lehr 因 Androstenedione、Ostarine 處 4 年禁賽減免 3 個月及取消成績"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "nationality: 美國",
+          "explanation": "來源僅有標題「U.S. Weightlifting Athlete」與加州里彭居住地，缺乏明確體育代表權或國籍直接證據。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-34c0dea18ff340a6",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "應補足正式國籍證明或代表隊紀錄，或將國籍欄標示為待確認。"
+        }
+      ]
+    }
+  ]
+}

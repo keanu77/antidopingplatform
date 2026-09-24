@@ -1,0 +1,410 @@
+{
+  "cases": [
+    {
+      "id": "ita-e2df476c812d",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-36ab223f5f482026",
+        "registry-828a58ac5bd5f0af"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-36ab223f5f482026",
+          "startLine": 1,
+          "endLine": 5,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "ITA官方公告證實關島高爾夫選手Eugene Kim Park因2023年10月16日拒絕接受賽外採樣，依第2.3條受處四年禁賽（2025年6月24日至2029年6月23日）及取消2023年10月16日起之成績。"
+        },
+        {
+          "documentId": "registry-828a58ac5bd5f0af",
+          "startLine": 1,
+          "endLine": 22,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "ITA名冊登錄該案違規日為2023年10月16日，處分途徑為Sanctioning Decision，禁賽4年。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-903ff29b8c39",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-4ed1bbff5e18fbd8",
+        "registry-1a089cd05f219cf4"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-4ed1bbff5e18fbd8",
+          "startLine": 1,
+          "endLine": 6,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "ITA公告證實烏茲別克踢拳選手Shukhratova Rukhshona於2025年4月11日賽內檢測驗出furosemide，接受二年禁賽處分（2025年5月23日至2027年5月22日）並取消2025年4月11日起成績。"
+        },
+        {
+          "documentId": "registry-1a089cd05f219cf4",
+          "startLine": 1,
+          "endLine": 22,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "ITA官方名冊登錄姓名為Shukhratova, Rukhshona，處分方式為Agreement on Consequences，禁賽2年。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-7e1f7d2aa11a",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-4583b776b1254e75",
+        "registry-7fe0f82e45f5c306"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-4583b776b1254e75",
+          "startLine": 1,
+          "endLine": 6,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "ITA公告證實阿爾及利亞泰拳選手Abderrezzak Lamrani於2024年10月27日賽內檢測驗出metandienone代謝物及ostarine，因加重情節處以六年禁賽（2025年6月23日至2031年6月22日）並取消成績。"
+        },
+        {
+          "documentId": "registry-7fe0f82e45f5c306",
+          "startLine": 1,
+          "endLine": 22,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "ITA官方名冊登錄該案違規日為2024年10月27日，禁賽6年，途徑為Sanctioning Decision。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-c346670bf110",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-2625354d5b855095",
+        "registry-f61fcca757194eb9"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-2625354d5b855095",
+          "startLine": 1,
+          "endLine": 5,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "ITA公告證實烏茲別克跆拳道選手Ulugbek Rashitov因12個月內三次行蹤失誤（違規成立日2025年2月3日），接受二年禁賽處分（自願暫時禁賽日2025年5月13日起至2027年5月12日）。"
+        },
+        {
+          "documentId": "registry-f61fcca757194eb9",
+          "startLine": 1,
+          "endLine": 22,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "ITA官方名冊登錄該案違規日為2025年2月3日，禁賽期間為2025年5月13日至2027年5月12日，取消成績至禁賽起日。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-630a0e06cd4d",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-bb59ec3d0f89dda0",
+        "registry-d5f0dfe64959e6ac"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-bb59ec3d0f89dda0",
+          "startLine": 1,
+          "endLine": 5,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "ITA公告證實烏克蘭踢拳選手Danylo Matiash於2024年8月26日賽外檢測驗出hydrochlorothiazide，以書面處分處二年禁賽（2024年11月19日至2026年11月18日）並取消成績。"
+        },
+        {
+          "documentId": "registry-d5f0dfe64959e6ac",
+          "startLine": 1,
+          "endLine": 22,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "ITA官方名冊記載該案違規日2024年8月26日，決議途徑為Sanctioning Decision，禁賽2年。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-3aa656ac7817",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-d031ca025f85223e",
+        "registry-d446e8642034f0d0"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-d031ca025f85223e",
+          "startLine": 1,
+          "endLine": 7,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "ITA公告證實墨西哥棒球選手Noel Salas Buitimea於2024年11月7日賽外檢測驗出stanozolol代謝物，依第2.1與2.2條作成四年禁賽處分（2024年12月3日至2028年12月2日）。"
+        },
+        {
+          "documentId": "registry-d446e8642034f0d0",
+          "startLine": 1,
+          "endLine": 22,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "ITA官方名冊登錄該案違規日為2024年11月7日，ADRV項記載Art. 2.1，禁賽4年，途徑為Sanctioning Decision。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-4d5be27eaa86",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-b5540f3635e20bd5",
+        "registry-33e4c6872994a57c"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-b5540f3635e20bd5",
+          "startLine": 1,
+          "endLine": 7,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "ITA公告證實巴拿馬棒球選手Ruben Dario Tejada Abrego於2024年11月8日賽外檢測驗出drostanolone代謝物，作成四年禁賽處分（2024年12月3日至2028年12月2日）並取消個人成績。"
+        },
+        {
+          "documentId": "registry-33e4c6872994a57c",
+          "startLine": 1,
+          "endLine": 22,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "ITA官方名冊載明該案違規日為2024年11月8日，處分途徑為Sanctioning Decision，禁賽4年。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-4e4b3efb8c31",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-bff69ba5183a89dc",
+        "registry-d92ada41643a658e"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-bff69ba5183a89dc",
+          "startLine": 1,
+          "endLine": 7,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "ITA公告證實葡萄牙輕艇選手Francisca Dias Laia於2024年8月25日世錦賽檢測驗出DHCMT代謝物，接受四年禁賽處分（2025年5月30日至2029年5月29日）並取消世錦賽成績及採樣日起成績。"
+        },
+        {
+          "documentId": "registry-d92ada41643a658e",
+          "startLine": 1,
+          "endLine": 22,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "ITA官方名冊登錄該案違規日為2024年8月25日，決議途徑為Agreement on Consequences，禁賽4年。"
+        }
+      ],
+      "findings": []
+    }
+  ]
+}

@@ -1,0 +1,411 @@
+{
+  "cases": [
+    {
+      "id": "ita-541fa9bb989c",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-8660482c034e7989",
+        "registry-1ff104a7aba9bbb7"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-8660482c034e7989",
+          "startLine": 2,
+          "endLine": 7,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "ITA 公告確認美國跳水選手 Jaclynn Reese Fowler 於 2023 成都世大運檢出安非他命，經 FISU 與世界水上運動總會處置，處四年禁賽（2025-05-30 至 2029-05-29）並取消成績"
+        },
+        {
+          "documentId": "registry-1ff104a7aba9bbb7",
+          "startLine": 1,
+          "endLine": 22,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "ITA 官方名冊登記 Fowler Jaclynn Reese（USA，跳水），違規日期 2023-08-01，禁賽期間 2025-05-30 至 2029-05-29，成績取消 2023-08-01 至 2025-05-30"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-fe501f1c5029",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-951e3f9bf5bfe669",
+        "registry-f9732e0a6006ef7a"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-951e3f9bf5bfe669",
+          "startLine": 2,
+          "endLine": 8,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "ITA 公告哥倫比亞棒球選手 Francisco Acuña Rocha 於 2023 泛美運動會檢出 Carboxy-THC，接受兩年禁賽（2025-05-22 至 2027-05-21）並取消 2023-10-28 起成績"
+        },
+        {
+          "documentId": "registry-f9732e0a6006ef7a",
+          "startLine": 1,
+          "endLine": 22,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "ITA 官方名冊載明 Acuña Rocha Francisco（Colombia，棒球），違規日期 2023-10-28，禁賽兩年（2025-05-22 至 2027-05-21），成績取消 2023-10-28 至 2025-05-22"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-18dfc5fc2384",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-23f6fe48bf1c44b3",
+        "registry-4a71b2ba6506bd1b"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-23f6fe48bf1c44b3",
+          "startLine": 2,
+          "endLine": 6,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "ITA 代表 UWW 公告哈薩克選手 Sarsen Zhetibayev 於 2024-10-12 世界寢技格鬥錦標賽檢出寶丹酮，及早承認獲減免一年後處三年禁賽（2025-02-07 至 2028-02-06），取消採樣日起成績"
+        },
+        {
+          "documentId": "registry-4a71b2ba6506bd1b",
+          "startLine": 1,
+          "endLine": 22,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "ITA 官方名冊登記 Zhetibayev Sarsen（Kazakhstan，寢技格鬥），違規日 2024-10-12，禁賽三年（2025-02-07 至 2028-02-06）"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-4be75fd7dbcc",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-36eef28b8fb54e4d",
+        "registry-bb9430215d6b1621"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-36eef28b8fb54e4d",
+          "startLine": 2,
+          "endLine": 7,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "ITA 代表 IHF 公告巴林手球選手 Ahmed Jalal Abbas Mansoor Fadhul 於 2024 亞洲男子手球錦標賽檢出 5-methylhexan-2-amine，接受兩年禁賽（2024-01-23 至 2026-01-22），上訴期限已滿"
+        },
+        {
+          "documentId": "registry-bb9430215d6b1621",
+          "startLine": 1,
+          "endLine": 22,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "ITA 官方名冊記載 Jalal Ahmed（Bahrain，手球），違規日期 2024-01-23，禁賽兩年（2024-01-23 至 2026-01-22），成績取消 2024-01-23 至 2026-01-22"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-cdb375c17d7b",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-1abf8a2fb5c9a764",
+        "registry-3686784008f10650"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-1abf8a2fb5c9a764",
+          "startLine": 2,
+          "endLine": 8,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "CAS ADD 於 2025-05-22 裁決中國舉重選手呂小軍（Xiaojun Lyu）2022-10-30 賽外檢出 EPO 違規，處四年禁賽（2022-10-30 至 2026-10-29），並取消 2022-10-30 至 2022-12-20 之成績"
+        },
+        {
+          "documentId": "registry-3686784008f10650",
+          "startLine": 1,
+          "endLine": 22,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "ITA 官方名冊載明 Lyu Xiaojun（China，舉重），EPO 違規，禁賽 2022-10-30 至 2026-10-29，成績取消 2022-10-30 至 2022-12-20"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-f81d31071239",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-9c2a29326cb2f6fe",
+        "registry-8a0f429aeb6082b9"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-9c2a29326cb2f6fe",
+          "startLine": 2,
+          "endLine": 4,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "education"
+          ],
+          "note": "UCI 與 ITA 公告確認 CAS 駁回哥倫比亞自行車手 Miguel Ángel López 上訴，維持因 2022 環義賽期間使用與持有 Menotropin 之四年禁賽處分（2023-07-25 至 2027-07-24）"
+        },
+        {
+          "documentId": "registry-8a0f429aeb6082b9",
+          "startLine": 1,
+          "endLine": 20,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "ITA 官方名冊記載 Lopez Moreno Miguel Angel（Colombia，自行車），違反 Art. 2.2 / 2.6，禁賽期 25 July 2023 - 24 July 2027，取消成績 3 May 2022 - 25 July 2023"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-b004f8594e83",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-6352a364879e7fd7",
+        "registry-ba727ff1d05dd16c"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-6352a364879e7fd7",
+          "startLine": 2,
+          "endLine": 6,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "ITA 代表 IKA 公告埃及庫拉什選手 Mariam Hamdy Mostafa 於 2023-07-09 非洲錦標賽檢出 furosemide，作成兩年禁賽（2025-05-05 至 2027-05-04）並取消 2023-07-09 起之成績"
+        },
+        {
+          "documentId": "registry-ba727ff1d05dd16c",
+          "startLine": 1,
+          "endLine": 22,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "ITA 官方名冊登記 Mostafa Mariam Hamdy（Egypt，庫拉什），違規日期 2023-07-09，禁賽兩年（2025-05-05 至 2027-05-04），成績取消 2023-07-09 至 2025-05-05"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-fb7d5559b03e",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-1239d562c82500a3",
+        "registry-290ab650a0370f99"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-1239d562c82500a3",
+          "startLine": 2,
+          "endLine": 9,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "ITA 代表 UWW 公告哈薩克選手 Samat Aitpanbet 於 2024-10-12 世界寢技格鬥錦標賽檢出 drostanolone 及 clomifene，及早承認獲一年減免，接受三年禁賽（2024-12-03 至 2027-12-02）及取消成績"
+        },
+        {
+          "documentId": "registry-290ab650a0370f99",
+          "startLine": 1,
+          "endLine": 22,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "ITA 官方名冊記載 Aitpanbet Samat（Kazakhstan，寢技格鬥），違規日期 2024-10-12，禁賽三年（2024-12-03 至 2027-12-02），成績取消 2024-10-12 至 2024-12-03"
+        }
+      ],
+      "findings": []
+    }
+  ]
+}

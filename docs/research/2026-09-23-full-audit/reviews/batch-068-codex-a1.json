@@ -1,0 +1,500 @@
+{
+  "cases": [
+    {
+      "id": "usada-ad29940bbb3c",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-7c6e754f6c9e74ee",
+        "registry-426368398547298f"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-7c6e754f6c9e74ee",
+          "startLine": 7,
+          "endLine": 19,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "USADA確認Nash為自行車選手，列出多項違規、物質、終身禁賽及成績取消日期；檢舉調查始於2021年12月。"
+        },
+        {
+          "documentId": "registry-426368398547298f",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction"
+          ],
+          "note": "名冊列出Nash、自行車、非分析違規及終身處分。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "國籍：美國",
+          "explanation": "公告標題稱美國自行車選手，並列居住地喬治亞州；這些資料未直接證明國籍或其正式代表國家。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-7c6e754f6c9e74ee",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "將國籍標為未確認，或補充可確認其代表國家的官方資料。"
+        }
+      ]
+    },
+    {
+      "id": "usada-06a9eec196b6",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-5b9c5581df4f1163",
+        "registry-84f594001009f6bb"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-5b9c5581df4f1163",
+          "startLine": 7,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "USADA確認Howes的BMX賽內檢體及carboxy-THC結果、三個月處分起日與成績取消日期。"
+        },
+        {
+          "documentId": "registry-84f594001009f6bb",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction"
+          ],
+          "note": "名冊確認Howes、自行車、cannabinoids及三個月處分。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "國籍：美國",
+          "explanation": "公告標題稱美國BMX選手，正文僅列亞利桑那州居住地，未直接確認國籍或代表國家。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-5b9c5581df4f1163",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "標示國籍未確認，或補充正式代表國家的來源。"
+        }
+      ]
+    },
+    {
+      "id": "usada-cbc321b291f0",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-0a6ddae8fd9b0655",
+        "registry-ef858c8e443dc62e"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-0a6ddae8fd9b0655",
+          "startLine": 1,
+          "endLine": 8,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告確認Struxness為boccia選手，因照護團隊誤給家人furosemide而接受公開警告；賽外採樣故無成績取消。"
+        },
+        {
+          "documentId": "registry-ef858c8e443dc62e",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction"
+          ],
+          "note": "名冊確認Struxness、boccia、furosemide及公開警告。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "國籍：美國",
+          "explanation": "公告標題稱美國boccia選手，正文列德州居住地；未直接確認國籍或代表國家。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-0a6ddae8fd9b0655",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "標示國籍未確認，或補充正式代表國家的來源。"
+        }
+      ]
+    },
+    {
+      "id": "usada-2a3f0160a9f3",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-749020a82659414d",
+        "registry-720d627a213b501b"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-749020a82659414d",
+          "startLine": 7,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "USADA確認Monastyrskyi的輕艇賽事、meldonium陽性、早期承認減一年及三年處分與成績取消日期。"
+        },
+        {
+          "documentId": "registry-720d627a213b501b",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction"
+          ],
+          "note": "名冊列出Monastyrskyi、Canoe、meldonium及三年處分。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "國籍：美國",
+          "explanation": "公告標題稱美國輕艇選手，正文列紐澤西州居住地；未直接證明國籍或代表國家。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-749020a82659414d",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "標示國籍未確認，或補充正式代表國家的來源。"
+        }
+      ]
+    },
+    {
+      "id": "usada-10e9f0a6f725",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-f36b1923d482fcc2",
+        "registry-ab19af83499c9df8"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-f36b1923d482fcc2",
+          "startLine": 7,
+          "endLine": 12,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates"
+          ],
+          "note": "USADA確認Kynard的田徑身分、超量生理食鹽水輸注、未獲TUE、六個月處分起日及退休期間停算。"
+        },
+        {
+          "documentId": "registry-ab19af83499c9df8",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction"
+          ],
+          "note": "名冊確認Kynard、田徑、IV使用及六個月處分。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "國籍：美國",
+          "explanation": "公告標題稱美國田徑選手，正文列喬治亞州居住地；未直接確認國籍或代表國家。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-f36b1923d482fcc2",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "標示國籍未確認，或補充正式代表國家的來源。"
+        }
+      ]
+    },
+    {
+      "id": "usada-73473ebf3acd",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-e499d15657d4975d",
+        "registry-3606bbddc08297d4"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-e499d15657d4975d",
+          "startLine": 7,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "USADA確認Irizarry的田徑賽事、meldonium陽性、早期承認減一年、三年處分及成績取消日期。"
+        },
+        {
+          "documentId": "registry-3606bbddc08297d4",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction"
+          ],
+          "note": "名冊確認Irizarry、田徑、meldonium及三年處分。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "國籍：美國",
+          "explanation": "公告標題稱美國田徑選手，正文列紐澤西州居住地；未直接確認國籍或代表國家。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-e499d15657d4975d",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "標示國籍未確認，或補充正式代表國家的來源。"
+        }
+      ]
+    },
+    {
+      "id": "usada-a11b3068ba54",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-867e4b8c0112fe38",
+        "registry-443859e18e61a551"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-867e4b8c0112fe38",
+          "startLine": 7,
+          "endLine": 9,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "USADA確認Valdes的自行車賽內檢體、stanozolol代謝物、四年處分起日及自採樣日起成績取消。"
+        },
+        {
+          "documentId": "registry-443859e18e61a551",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction"
+          ],
+          "note": "名冊列出Valdes、自行車、stanozolol及四年處分。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "國籍：美國",
+          "explanation": "公告標題稱美國自行車選手，正文列佛羅里達州居住地；未直接確認國籍或代表國家。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-867e4b8c0112fe38",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "標示國籍未確認，或補充正式代表國家的來源。"
+        }
+      ]
+    },
+    {
+      "id": "usada-f3337bee1348",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-6e8d64ed2aef9f21",
+        "registry-7275d980b7aeae24"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-6e8d64ed2aef9f21",
+          "startLine": 7,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "USADA確認Borrego Lee的自行車賽內phentermine檢測、早期承認減一年、三年處分起日及成績取消日期。"
+        },
+        {
+          "documentId": "registry-7275d980b7aeae24",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction"
+          ],
+          "note": "名冊確認Borrego Lee、自行車、phentermine及三年處分。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "國籍：美國",
+          "explanation": "公告標題稱美國自行車選手，正文列佛羅里達州居住地；未直接確認國籍或代表國家。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-6e8d64ed2aef9f21",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "標示國籍未確認，或補充正式代表國家的來源。"
+        }
+      ]
+    }
+  ]
+}

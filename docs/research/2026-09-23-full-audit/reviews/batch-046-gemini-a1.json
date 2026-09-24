@@ -1,0 +1,235 @@
+{
+  "cases": [
+    {
+      "id": "aiu-6ad885e39ba8",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-0c7e3f21a58e221f",
+        "registry-d901aefd0280ab4e"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-0c7e3f21a58e221f",
+          "startLine": 6,
+          "endLine": 15,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "確認選手為烏克蘭馬拉松選手 Nataliya Lehonkova"
+        },
+        {
+          "documentId": "doc-0c7e3f21a58e221f",
+          "startLine": 49,
+          "endLine": 64,
+          "supports": [
+            "event",
+            "substance",
+            "dates"
+          ],
+          "note": "確認2024年4月21日荷蘭恩斯赫德馬拉松賽內檢出重組EPO，2024年8月21日起暫時停賽"
+        },
+        {
+          "documentId": "doc-0c7e3f21a58e221f",
+          "startLine": 71,
+          "endLine": 85,
+          "supports": [
+            "event",
+            "education"
+          ],
+          "note": "確認選手先於8月27日提出疑問，後於8月28日簽署承認違規與接受處分表單"
+        },
+        {
+          "documentId": "doc-0c7e3f21a58e221f",
+          "startLine": 116,
+          "endLine": 156,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "確認依早期承認規定將4年減為3年禁賽（自2024年8月21日起算），並取消2024年4月21日起所有成績"
+        },
+        {
+          "documentId": "registry-d901aefd0280ab4e",
+          "startLine": 1,
+          "endLine": 2,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "官方名冊登錄確認UKR代表、規則第2.1與2.2條EPO違規、2024年8月21日起禁賽3年及取消2024年4月21日起成績"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "aiu-4a9a2c98804d",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-8ed49a7486c4626d",
+        "registry-427f0d27cfc1456e"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-8ed49a7486c4626d",
+          "startLine": 1,
+          "endLine": 12,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "確認選手為阿根廷田徑選手 Federico Bruno"
+        },
+        {
+          "documentId": "doc-8ed49a7486c4626d",
+          "startLine": 34,
+          "endLine": 59,
+          "supports": [
+            "event",
+            "substance",
+            "dates"
+          ],
+          "note": "確認2022年10月12日南美運動會及2023年4月25日CNAD賽外檢體均檢出EPO"
+        },
+        {
+          "documentId": "doc-8ed49a7486c4626d",
+          "startLine": 203,
+          "endLine": 237,
+          "supports": [
+            "sanction",
+            "education"
+          ],
+          "note": "確認因二次採樣早於首次通知視為單一違規，AIU認定多次使用構成加重情節處6年禁賽並與國內處分同時執行"
+        },
+        {
+          "documentId": "doc-8ed49a7486c4626d",
+          "startLine": 313,
+          "endLine": 320,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "確認自2023年7月18日起禁賽6年，並取消自2022年10月12日起的所有成績"
+        },
+        {
+          "documentId": "registry-427f0d27cfc1456e",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "官方名冊登錄確認ARG代表、Article 2.1 EPO、2023年7月18日起禁賽6年及取消2022年10月12日起成績"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "aiu-3e47571f3755",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-00abdfc085d3b9d2",
+        "registry-8685f84d8d49b0ff"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-00abdfc085d3b9d2",
+          "startLine": 1,
+          "endLine": 12,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "確認選手為肯亞公路跑運動員 Dorcas Jepchirchir Tuitoek"
+        },
+        {
+          "documentId": "doc-00abdfc085d3b9d2",
+          "startLine": 55,
+          "endLine": 84,
+          "supports": [
+            "event",
+            "substance",
+            "dates"
+          ],
+          "note": "確認2024年7月25日賽外檢體檢出重組EPO，2024年8月30日通知停賽，9月6日簽署承認違規"
+        },
+        {
+          "documentId": "doc-00abdfc085d3b9d2",
+          "startLine": 118,
+          "endLine": 143,
+          "supports": [
+            "sanction",
+            "education"
+          ],
+          "note": "確認依早期承認規定獲得1年減免，由4年減為3年禁賽，無認定污染來源"
+        },
+        {
+          "documentId": "doc-00abdfc085d3b9d2",
+          "startLine": 161,
+          "endLine": 169,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "確認自2024年8月30日起禁賽3年，並取消自2024年7月25日起的競賽成績"
+        },
+        {
+          "documentId": "registry-8685f84d8d49b0ff",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "官方名冊登錄確認KEN代表、規則第2.1與2.2條EPO違規、2024年8月30日起禁賽3年及取消2024年7月25日起成績"
+        }
+      ],
+      "findings": []
+    }
+  ]
+}

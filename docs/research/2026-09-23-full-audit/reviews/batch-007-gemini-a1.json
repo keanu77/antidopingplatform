@@ -1,0 +1,412 @@
+{
+  "cases": [
+    {
+      "id": "ita-5e7e6ea76e46",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-eba6ed63e83dd566",
+        "registry-b76198c4b53018c8"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-eba6ed63e83dd566",
+          "startLine": 1,
+          "endLine": 4,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告證實烏克蘭泰拳選手 Oleh Pryimachov 因 12 個月內三次行蹤失誤（IFMA 規則第 2.4 條），接受兩年禁賽（2025-10-14 至 2027-10-13）及取消 2024-02-22 起之成績"
+        },
+        {
+          "documentId": "registry-b76198c4b53018c8",
+          "startLine": 1,
+          "endLine": 22,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊載明違規日為 2024-02-22，處兩年禁賽及取消 2024-02-22 至 2025-10-14 之成績，案件以裁決決定結案"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-671290710875",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-c3db2e01c33bad40",
+        "registry-1f55abee27e9ae1f"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-c3db2e01c33bad40",
+          "startLine": 1,
+          "endLine": 6,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告證實英國雪車選手 Arran Gulliver 於 2025-03-02 賽外檢驗驗出 ostarine，確立非故意違規並接受兩年禁賽（2025-03-24 至 2027-03-23）及取消成績"
+        },
+        {
+          "documentId": "registry-1f55abee27e9ae1f",
+          "startLine": 1,
+          "endLine": 22,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "官方名冊紀錄 2025-03-02 違規，處以兩年禁賽及 2025-03-02 至 2025-03-24 取消成績，以處分協議解決"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-cd4ff5268813",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-2d7bece753668d96",
+        "registry-8bb3927864609067"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-2d7bece753668d96",
+          "startLine": 1,
+          "endLine": 9,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告證實奈及利亞舉重選手 Lucky Joseph 於 2026-05-16 非洲錦標賽檢出 stanozolol 代謝物，接受四年禁賽（2026-06-11 至 2030-06-10）並取消採樣日至暫時禁賽期間之成績"
+        },
+        {
+          "documentId": "registry-8bb3927864609067",
+          "startLine": 1,
+          "endLine": 22,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊確認違規日期 2026-05-16，禁賽期 2026-06-11 至 2030-06-10，取消成績區間為 2026-05-16 至 2026-06-11，以處分協議解決"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-51c526c62685",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-82aafa01815af994",
+        "registry-70a0d8566ecd13f6"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-82aafa01815af994",
+          "startLine": 1,
+          "endLine": 7,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告證實哈薩克綜合格鬥選手 Aidyn Tolepbayev 於 2024-12-14 世錦賽檢出 meldonium，處四年禁賽（2025-03-03 至 2029-03-02）及取消 2024-12-14 至 2025-03-03 之成績"
+        },
+        {
+          "documentId": "registry-70a0d8566ecd13f6",
+          "startLine": 1,
+          "endLine": 22,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "官方名冊記載 2024-12-14 違規，處四年禁賽及取消 2024-12-14 至 2025-03-03 成績，以裁決決定結案"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-097e950d5957",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-ceaebb8755adc33b",
+        "registry-df2caf0ab839ecf3"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-ceaebb8755adc33b",
+          "startLine": 1,
+          "endLine": 7,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告證實哈薩克綜合格鬥選手 Mazhit Sardarov 於 2024-12-14 世錦賽檢出 meldonium，處四年禁賽（2025-02-24 至 2029-02-23）並取消 2024-12-14 至 2025-02-24 之成績"
+        },
+        {
+          "documentId": "registry-df2caf0ab839ecf3",
+          "startLine": 1,
+          "endLine": 22,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "官方名冊載明違規日 2024-12-14，禁賽期 2025-02-24 至 2029-02-23，取消成績區間 2024-12-14 至 2025-02-24"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-03eeb52b0fd1",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-9274abfded30f944",
+        "registry-5fae52494c8ee3d0"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-9274abfded30f944",
+          "startLine": 1,
+          "endLine": 7,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告證實烏茲別克桑搏選手 Khakimjon Ismoilov 於 2025-04-14 亞錦賽檢出 clomifene，接受兩年禁賽（2025-12-14 至 2027-12-13）及取消 2025-04-14 至 2025-12-13 成績"
+        },
+        {
+          "documentId": "registry-5fae52494c8ee3d0",
+          "startLine": 1,
+          "endLine": 22,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊確認違規日期 2025-04-14，禁賽期間自 2025-12-14 至 2027-12-13，成績取消期間至 2025-12-13"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-189277da5c1a",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-0f7451126ef6b0b3",
+        "registry-e8d9a16c9004077f"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-0f7451126ef6b0b3",
+          "startLine": 1,
+          "endLine": 6,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告證實阿根廷綜合格鬥選手 Mauro Gabriel Gómez 於 2024-07-07 泛美錦標賽檢出 furosemide，處兩年禁賽（2025-11-03 至 2027-11-02）及取消 2024-07-07 起之成績"
+        },
+        {
+          "documentId": "registry-e8d9a16c9004077f",
+          "startLine": 1,
+          "endLine": 22,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "官方名冊載明違規日期 2024-07-07，禁賽期 2025-11-03 至 2027-11-02，取消成績自 2024-07-07 起"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-55fa8485fa30",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-2c956b2beb6d3535",
+        "registry-67b16bcd51ccbca3"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-2c956b2beb6d3535",
+          "startLine": 1,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告證實伊拉克舉重選手 Qasim Hasan Abdulhussein Al-Lami 於 2024-10-30 賽外檢驗檢出 stanozolol 代謝物，為第二次違規，因及早承認扣減一年後接受七年禁賽（2024-12-09 至 2031-12-08）及取消成績"
+        },
+        {
+          "documentId": "registry-67b16bcd51ccbca3",
+          "startLine": 1,
+          "endLine": 22,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "官方名冊載明違規日 2024-10-30，禁賽期 2024-12-09 至 2031-12-08，取消成績期間 2024-10-30 至 2024-12-09，以處分協議解決"
+        }
+      ],
+      "findings": []
+    }
+  ]
+}

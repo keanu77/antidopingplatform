@@ -1,0 +1,377 @@
+{
+  "cases": [
+    {
+      "id": "usada-b16d0fb75234",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-710bc66447d79460",
+        "registry-cae1cd0ce549d270"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-710bc66447d79460",
+          "startLine": 7,
+          "endLine": 11,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告確認自行車選手、兩份同日賽內樣本、外源性合成代謝劑相關物質、補充品來源證據、一年處分及自採樣日起取消成績。"
+        },
+        {
+          "documentId": "registry-cae1cd0ce549d270",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction"
+          ],
+          "note": "名冊列 Miller、自行車、合成代謝類固醇及一年處分。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-fe4d160648aa",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-816d0ed289b861f5",
+        "registry-018f1da5b2fadf00"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-816d0ed289b861f5",
+          "startLine": 7,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告確認自行車選手、賽外樣本及 testosterone 類合成代謝劑、處方藥但無有效 TUE、四年減為三年及成績取消。"
+        },
+        {
+          "documentId": "registry-018f1da5b2fadf00",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction"
+          ],
+          "note": "名冊列 Lima、自行車、testosterone 及三年處分。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-3d848274e422",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-ef20595ab6ab2996",
+        "registry-d05391660897d6c3"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-ef20595ab6ab2996",
+          "startLine": 7,
+          "endLine": 9,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告確認舉重選手於指定賽事樣本檢出 higenamine，屬 β2 致效劑特定物質，處兩年並取消採樣日起成績。"
+        },
+        {
+          "documentId": "registry-d05391660897d6c3",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction"
+          ],
+          "note": "名冊列 Britt、舉重、higenamine 及兩年處分。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-7d929fe046a9",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-28e1031528ad8ee0",
+        "registry-27a6bfa61d174b76"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-28e1031528ad8ee0",
+          "startLine": 7,
+          "endLine": 11,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告確認舉重、兩種非特定合成代謝劑及賽外採樣；實質協助減刑、退休後停算、復出受測後續服餘期及成績取消。"
+        },
+        {
+          "documentId": "registry-27a6bfa61d174b76",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction"
+          ],
+          "note": "名冊列 Palicka、舉重、ostarine 與 RAD140、三年處分及退休停算。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-1b7ba3ce3c38",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-9a49fa4e265e312e",
+        "registry-0a6070af00ba2814"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-9a49fa4e265e312e",
+          "startLine": 7,
+          "endLine": 11,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告確認舉重、三種列名物質及其類別、四年處分、退休停算及成績取消；IRMS 僅述外源性類固醇結果。"
+        },
+        {
+          "documentId": "registry-0a6070af00ba2814",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction"
+          ],
+          "note": "名冊確認 Volrath、舉重、三種物質、四年處分及退休停算。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-6e7d139bba18",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-0ae559f89a89276b",
+        "registry-7d10f21a6957aa19"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-0ae559f89a89276b",
+          "startLine": 7,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告確認鐵人三項選手賽外尿樣檢出 EPO，屬 S2 類非特定物質；四年期自暫時禁賽日起算，取消自採樣日起成績。"
+        },
+        {
+          "documentId": "registry-7d10f21a6957aa19",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction"
+          ],
+          "note": "名冊確認 Gough、鐵人三項、EPO 及四年處分。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-07d30b0088c7",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-44e7c2645ec246aa",
+        "registry-7f4555ce53897363"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-44e7c2645ec246aa",
+          "startLine": 7,
+          "endLine": 11,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告確認鐵人三項選手、外源性合成代謝劑陽性、治療劑量處方來源獲接受但無有效 TUE、兩年處分及成績取消。"
+        },
+        {
+          "documentId": "registry-7f4555ce53897363",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction"
+          ],
+          "note": "名冊列 Rosiek、鐵人三項、合成代謝類固醇及兩年處分。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-8bbe5698646b",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-3bb01b1617719446",
+        "registry-5531e72c3914958e"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-3bb01b1617719446",
+          "startLine": 8,
+          "endLine": 13,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告確認舉重選手青少年補充品含未標示 ostarine，年齡與依賴家人納入過失評估，處三個月且取消採樣日起成績。"
+        },
+        {
+          "documentId": "registry-5531e72c3914958e",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction"
+          ],
+          "note": "名冊確認 Raymond、舉重、ostarine、三個月處分及成績結果取消。"
+        }
+      ],
+      "findings": []
+    }
+  ]
+}

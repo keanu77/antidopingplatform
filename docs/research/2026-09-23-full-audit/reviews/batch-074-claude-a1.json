@@ -1,0 +1,231 @@
+{
+  "cases": [
+    {
+      "id": "usada-8eb48dbaf6e2",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-4a0a3e1ed760fd2a",
+        "registry-7b4f7d8ad33ee524"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-4a0a3e1ed760fd2a",
+          "startLine": 7,
+          "endLine": 9,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "Morgan Millican，舉重選手，Acworth, Ga.，2020年3月5日美式舉重公開賽檢出clomiphene及其代謝物，兩年禁賽自採樣日起計，取消該日起之成績。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-9594a41ee3f8",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-4526bb6822053b1d",
+        "doc-7f987bce4b63fc3f",
+        "registry-a1636e923040dda0"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-4526bb6822053b1d",
+          "startLine": 7,
+          "endLine": 12,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "Ridouane Harroufi，田徑選手，Fort Collins, Colo.，2020年3月7日及5月12日檢體檢出外源性合成代謝劑，兩次採樣前未獲首次陽性通知故合併一次違規；因2013年EPO前案，八年禁賽自2020年6月12日起計，取消自3月7日起之成績含全美錦標賽冠軍。"
+        },
+        {
+          "documentId": "doc-7f987bce4b63fc3f",
+          "startLine": 66,
+          "endLine": 66,
+          "supports": [
+            "country"
+          ],
+          "note": "World Athletics官方檔案：摩洛哥身分至2020年2月19日止，2020年2月20日起符合代表美國資格。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-a54a0549888f",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-637b2d78ef979460",
+        "registry-3ea63550d2c10bec"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-637b2d78ef979460",
+          "startLine": 7,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "Matthew McCullough，舉重選手，Houston, Texas，2020年7月28日賽外檢體檢出higenamine，USADA確認源自兩種標籤列有此物質之膳食補充品，因誠實申報並全程配合減刑至20個月禁賽，自採樣日起計，取消該日起之成績。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-707cea3b489e",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-c61798885142fec6",
+        "registry-a71bfe17282afd1a"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-c61798885142fec6",
+          "startLine": 7,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "Jonathan Wood，自行車選手，2019年4月29日賽外檢體檢出外源性testosterone，醫療記錄審查確認為處方用藥惟缺有效TUE，兩年禁賽自2019年6月20日起計，取消自首次用藥2017年6月21日起之全部成績。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-ea963f8d28c3",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-a51bd540635053eb",
+        "registry-07e9bcf0501c9111"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-a51bd540635053eb",
+          "startLine": 8,
+          "endLine": 9,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "Tiffany Parlor，舉重選手，USADA調查Transformix Peptides出貨紀錄，發現其2018年1月4日網購含clenbuterol產品並寄至住處，四年禁賽自2020年8月31日起計，取消自購買禁用物質2018年1月4日起之全部成績。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-8a0a2483bd13",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-495010c2b64b72ce",
+        "registry-87ee4ca84a02e8fc"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-495010c2b64b72ce",
+          "startLine": 8,
+          "endLine": 13,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "Barbara Gicquel，自行車選手，Salinas, Calif.，2019年8月29日世界紀錄認證採樣檢出methyltestosterone代謝物，追溯TUE申請因所提文件未符規範遭拒，一年禁賽自採樣日起計；經獨立仲裁，成績取消自2015年8月29日起（運動員知悉藥物含禁用物質之日）。"
+        }
+      ],
+      "findings": []
+    }
+  ]
+}

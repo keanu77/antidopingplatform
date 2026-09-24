@@ -1,0 +1,379 @@
+{
+  "cases": [
+    {
+      "id": "aiu-c8dba269da3e",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-79b1cf9e9b4185da",
+        "registry-4186a1ed3294fe6e"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-79b1cf9e9b4185da",
+          "startLine": 12,
+          "endLine": 12,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "決定列名及其來自衣索比亞。"
+        },
+        {
+          "documentId": "doc-79b1cf9e9b4185da",
+          "startLine": 55,
+          "endLine": 61,
+          "supports": [
+            "event",
+            "substance"
+          ],
+          "note": "常州半馬樣本於11月2日採集，11月19日檢出 clostebol 代謝物。"
+        },
+        {
+          "documentId": "doc-79b1cf9e9b4185da",
+          "startLine": 138,
+          "endLine": 157,
+          "supports": [
+            "education"
+          ],
+          "note": "她稱無力支付 B 瓶分析費，藥物照片未證明含 clostebol。"
+        },
+        {
+          "documentId": "doc-79b1cf9e9b4185da",
+          "startLine": 203,
+          "endLine": 204,
+          "supports": [
+            "sanction"
+          ],
+          "note": "她簽署承認違規並接受後果。"
+        },
+        {
+          "documentId": "doc-79b1cf9e9b4185da",
+          "startLine": 226,
+          "endLine": 228,
+          "supports": [
+            "substance"
+          ],
+          "note": "2024 清單將 clostebol 列為 S1.1、非特定物質且全年禁用。"
+        },
+        {
+          "documentId": "doc-79b1cf9e9b4185da",
+          "startLine": 272,
+          "endLine": 277,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "三年禁賽自12月16日起，11月2日起成績取消並 forfeiture 相關後果。"
+        },
+        {
+          "documentId": "registry-4186a1ed3294fe6e",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊列出姓名、ETH、違規物質、三年處分及成績取消日期。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "aiu-e9caa78a4236",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-3321bfdd66d3050f",
+        "registry-44adef09a22fd0c0"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-3321bfdd66d3050f",
+          "startLine": 13,
+          "endLine": 13,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "決定列出 Geoffrey Yegon，並稱其來自肯亞。"
+        },
+        {
+          "documentId": "doc-3321bfdd66d3050f",
+          "startLine": 59,
+          "endLine": 64,
+          "supports": [
+            "event",
+            "substance"
+          ],
+          "note": "新加坡馬拉松12月1日樣本於1月2日報告 triamcinolone acetonide 陽性分析結果。"
+        },
+        {
+          "documentId": "doc-3321bfdd66d3050f",
+          "startLine": 69,
+          "endLine": 70,
+          "supports": [
+            "education"
+          ],
+          "note": "AIU 記載沒有已核准或將核准的 TUE。"
+        },
+        {
+          "documentId": "doc-3321bfdd66d3050f",
+          "startLine": 83,
+          "endLine": 111,
+          "supports": [
+            "sanction",
+            "education"
+          ],
+          "note": "他承認使用並稱為治療過敏而自行購藥，後未提供要求的補充資料。"
+        },
+        {
+          "documentId": "doc-3321bfdd66d3050f",
+          "startLine": 117,
+          "endLine": 138,
+          "supports": [
+            "sanction",
+            "education"
+          ],
+          "note": "未在指控期限內回覆，AIU 視為放棄聽證、承認違規及接受後果。"
+        },
+        {
+          "documentId": "doc-3321bfdd66d3050f",
+          "startLine": 177,
+          "endLine": 179,
+          "supports": [
+            "substance"
+          ],
+          "note": "2024 清單列為 S9 糖皮質類固醇及特定物質，限賽內特定給藥途徑禁用。"
+        },
+        {
+          "documentId": "doc-3321bfdd66d3050f",
+          "startLine": 191,
+          "endLine": 196,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "兩年禁賽自2月11日起，12月1日起成績取消並 forfeiture 相關後果。"
+        },
+        {
+          "documentId": "registry-44adef09a22fd0c0",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊列出姓名、KEN、違規物質、兩年處分及成績取消日期。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "aiu-4abd9315be9a",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-afe6343a335a7816",
+        "registry-eb9bc780b72205aa"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-afe6343a335a7816",
+          "startLine": 12,
+          "endLine": 12,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "決定列 Careen Cheptoek，並稱其來自肯亞。"
+        },
+        {
+          "documentId": "doc-afe6343a335a7816",
+          "startLine": 53,
+          "endLine": 59,
+          "supports": [
+            "event",
+            "substance"
+          ],
+          "note": "台北馬拉松12月15日樣本檢出 methylprednisolone。"
+        },
+        {
+          "documentId": "doc-afe6343a335a7816",
+          "startLine": 61,
+          "endLine": 76,
+          "supports": [
+            "substance",
+            "education"
+          ],
+          "note": "2024 清單分類為 S9；未核准 TUE，且未見允許途徑造成檢出。"
+        },
+        {
+          "documentId": "doc-afe6343a335a7816",
+          "startLine": 88,
+          "endLine": 120,
+          "supports": [
+            "education",
+            "sanction"
+          ],
+          "note": "所提藥物沒有證據含該成分；共用補充飲品是她的推測，並簽署承認及接受後果。"
+        },
+        {
+          "documentId": "doc-afe6343a335a7816",
+          "startLine": 139,
+          "endLine": 154,
+          "supports": [
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "記載特定物質、兩年處分自2月19日起，12月15日起成績取消及相關後果。"
+        },
+        {
+          "documentId": "registry-eb9bc780b72205aa",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊列姓名、KEN、違規條文、兩年禁賽及取消成績日期。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "aiu-1b0e964f6fd3",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-de434ea74c11125b",
+        "registry-56ac89997adbfe19"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-de434ea74c11125b",
+          "startLine": 15,
+          "endLine": 15,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "決定列 Sheila Jepkosgei Chesang，並稱其來自肯亞。"
+        },
+        {
+          "documentId": "doc-de434ea74c11125b",
+          "startLine": 45,
+          "endLine": 53,
+          "supports": [
+            "event",
+            "substance"
+          ],
+          "note": "吉隆坡馬拉松10月6日採樣，檢出 methylprednisolone；列為2024清單 S9 特定物質。"
+        },
+        {
+          "documentId": "doc-de434ea74c11125b",
+          "startLine": 56,
+          "endLine": 62,
+          "supports": [
+            "education"
+          ],
+          "note": "沒有已核准 TUE，且未見允許途徑造成檢出。"
+        },
+        {
+          "documentId": "doc-de434ea74c11125b",
+          "startLine": 89,
+          "endLine": 111,
+          "supports": [
+            "education"
+          ],
+          "note": "醫療處方藥物不含該成分，賽前申報的品項也無證據解釋檢出。"
+        },
+        {
+          "documentId": "doc-de434ea74c11125b",
+          "startLine": 123,
+          "endLine": 124,
+          "supports": [
+            "sanction"
+          ],
+          "note": "收到她簽署的承認違規及接受後果表格。"
+        },
+        {
+          "documentId": "doc-de434ea74c11125b",
+          "startLine": 148,
+          "endLine": 159,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "決定兩年禁賽自1月15日起，取消10月6日起成績及相關後果。"
+        },
+        {
+          "documentId": "registry-56ac89997adbfe19",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊列姓名、KEN、違規物質、兩年禁賽及成績取消日期。"
+        }
+      ],
+      "findings": []
+    }
+  ]
+}

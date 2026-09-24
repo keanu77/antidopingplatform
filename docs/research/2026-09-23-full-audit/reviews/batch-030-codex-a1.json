@@ -1,0 +1,211 @@
+{
+  "cases": [
+    {
+      "id": "aiu-8afca5fd5947",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-44caad3429b829f2",
+        "registry-4abb3d4f2dd0f473"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-44caad3429b829f2",
+          "startLine": 79,
+          "endLine": 90,
+          "supports": [
+            "identity",
+            "event",
+            "substance"
+          ],
+          "note": "裁決記載三份 2013 年樣本含禁用物質，其中 6 月 14 日樣本檢出 ostarine，依當年清單列為 S1.2。"
+        },
+        {
+          "documentId": "doc-44caad3429b829f2",
+          "startLine": 221,
+          "endLine": 225,
+          "supports": [
+            "substance",
+            "sanction"
+          ],
+          "note": "AIU 依 LIMS 與分析資料認定 2013 年使用 ostarine、salmeterol 及 fluticasone propionate，構成使用違規。"
+        },
+        {
+          "documentId": "doc-44caad3429b829f2",
+          "startLine": 321,
+          "endLine": 334,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "裁決於 2025 年 11 月 7 日作成，處四年禁賽，並取消 2013 年 6 月 14 日至決定日成績及相關後果。"
+        },
+        {
+          "documentId": "registry-4abb3d4f2dd0f473",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "country",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "AIU 名冊列 Kotulskaya、RUS、四年自 2025 年 11 月 7 日起及自 2013 年 6 月 14 日起取消成績。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "aiu-e6f07ad6983e",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-d3c23cdf6e47579f",
+        "registry-97123cc2a331ad14"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-d3c23cdf6e47579f",
+          "startLine": 79,
+          "endLine": 89,
+          "supports": [
+            "identity",
+            "event",
+            "substance"
+          ],
+          "note": "裁決記載 Novikova (Pandakova) 的 2013 年 7 月 2 日樣本檢出 methandienone，列為當年 S1.1.a 禁用合成代謝類固醇。"
+        },
+        {
+          "documentId": "doc-d3c23cdf6e47579f",
+          "startLine": 156,
+          "endLine": 158,
+          "supports": [
+            "education"
+          ],
+          "note": "她否認指控但未要求舉行聽證。"
+        },
+        {
+          "documentId": "doc-d3c23cdf6e47579f",
+          "startLine": 204,
+          "endLine": 210,
+          "supports": [
+            "substance",
+            "sanction"
+          ],
+          "note": "AIU 依 LIMS、分析資料及 McLaren 報告認定她使用禁用物質並違規。"
+        },
+        {
+          "documentId": "doc-d3c23cdf6e47579f",
+          "startLine": 280,
+          "endLine": 296,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "裁決於 2025 年 11 月 7 日作成，處四年禁賽，並取消 2013 年 7 月 2 日至決定日成績及相關後果。"
+        },
+        {
+          "documentId": "registry-97123cc2a331ad14",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "country",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "AIU 名冊列 Marina Novikova Pandakova、RUS、四年自 2025 年 11 月 7 日起及自 2013 年 7 月 2 日起取消成績。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "aiu-513c0f4ab313",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-0624693762adb546",
+        "registry-41ac3ca82d4f2ab8"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-0624693762adb546",
+          "startLine": 79,
+          "endLine": 89,
+          "supports": [
+            "identity",
+            "event",
+            "substance"
+          ],
+          "note": "裁決記載 Ablyazov 的 2013 年 7 月 3 日樣本檢出 metenolone 及代謝物，列為當年 S1.1.a 禁用合成代謝類固醇。"
+        },
+        {
+          "documentId": "doc-0624693762adb546",
+          "startLine": 176,
+          "endLine": 186,
+          "supports": [
+            "substance",
+            "sanction"
+          ],
+          "note": "AIU 依 LIMS、分析資料及 McLaren 報告認定使用 metenolone，構成使用違規。"
+        },
+        {
+          "documentId": "doc-0624693762adb546",
+          "startLine": 269,
+          "endLine": 285,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "裁決處四年禁賽，自決定日起算，取消 2013 年 7 月 3 日至決定日成績；決定日期為 2025 年 11 月 7 日。"
+        },
+        {
+          "documentId": "registry-41ac3ca82d4f2ab8",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "country",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "AIU 名冊列 Marat Ablyazov、RUS、四年自 2025 年 11 月 7 日起及自 2013 年 7 月 3 日起取消成績。"
+        }
+      ],
+      "findings": []
+    }
+  ]
+}

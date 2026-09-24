@@ -1,0 +1,321 @@
+{
+  "cases": [
+    {
+      "id": "aiu-c07d6fc3cced",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-4409f04226e04674",
+        "registry-37879f6509c20211"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-4409f04226e04674",
+          "startLine": 12,
+          "endLine": 12,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "決定書記載她是來自肯亞的越野與山地跑者。"
+        },
+        {
+          "documentId": "doc-4409f04226e04674",
+          "startLine": 55,
+          "endLine": 62,
+          "supports": [
+            "event",
+            "substance",
+            "dates"
+          ],
+          "note": "2025年8月9日於瑞士 Sierre-Zinal 賽中採樣，8月29日報告檢出 triamcinolone acetonide。"
+        },
+        {
+          "documentId": "doc-4409f04226e04674",
+          "startLine": 67,
+          "endLine": 68,
+          "supports": [
+            "education"
+          ],
+          "note": "決定書確認該樣本沒有獲准的 TUE。"
+        },
+        {
+          "documentId": "doc-4409f04226e04674",
+          "startLine": 84,
+          "endLine": 87,
+          "supports": [
+            "event",
+            "education"
+          ],
+          "note": "她表示七月接受未指明注射治療膝痛，並簽署承認違規及接受後果的表格。"
+        },
+        {
+          "documentId": "doc-4409f04226e04674",
+          "startLine": 114,
+          "endLine": 116,
+          "supports": [
+            "substance",
+            "education"
+          ],
+          "note": "2025禁用清單將該物列為 S9 糖皮質類固醇；特定給藥途徑在賽中禁用。"
+        },
+        {
+          "documentId": "doc-4409f04226e04674",
+          "startLine": 121,
+          "endLine": 136,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "AIU無故意證據，決定兩年禁賽自9月8日起，並取消8月9日起成績及相關後果。"
+        },
+        {
+          "documentId": "registry-37879f6509c20211",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊列明兩年處分起日及自8月9日起取消成績。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "aiu-6d0ee595fa54",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-dd9766b6446140ef",
+        "registry-8364bbfa844e9d2b"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-dd9766b6446140ef",
+          "startLine": 12,
+          "endLine": 13,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "決定書記載她是烏克蘭運動員，專長跳遠與三級跳遠。"
+        },
+        {
+          "documentId": "doc-dd9766b6446140ef",
+          "startLine": 56,
+          "endLine": 63,
+          "supports": [
+            "event",
+            "substance",
+            "dates"
+          ],
+          "note": "2024年12月7日於烏克蘭賽外採尿；後續分析顯示與外源性來源一致的睪固酮代謝物。"
+        },
+        {
+          "documentId": "doc-dd9766b6446140ef",
+          "startLine": 130,
+          "endLine": 140,
+          "supports": [
+            "event",
+            "substance"
+          ],
+          "note": "B瓶分析確認A瓶的不利分析結果。"
+        },
+        {
+          "documentId": "doc-dd9766b6446140ef",
+          "startLine": 110,
+          "endLine": 119,
+          "supports": [
+            "education"
+          ],
+          "note": "她否認服用睪固酮，並提出病史與治療說明。"
+        },
+        {
+          "documentId": "doc-dd9766b6446140ef",
+          "startLine": 174,
+          "endLine": 192,
+          "supports": [
+            "sanction",
+            "education"
+          ],
+          "note": "她未在期限內回覆指控；AIU視為放棄聽證、承認違規並接受後果。"
+        },
+        {
+          "documentId": "doc-dd9766b6446140ef",
+          "startLine": 222,
+          "endLine": 227,
+          "supports": [
+            "education"
+          ],
+          "note": "AIU指出她的解釋針對內源性睪固酮，與外源性分析發現不同。"
+        },
+        {
+          "documentId": "doc-dd9766b6446140ef",
+          "startLine": 272,
+          "endLine": 274,
+          "supports": [
+            "substance"
+          ],
+          "note": "決定書列出2024清單分類 S1.1，並稱睪固酮為任何時間禁用的非特定物質。"
+        },
+        {
+          "documentId": "doc-dd9766b6446140ef",
+          "startLine": 282,
+          "endLine": 303,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "四年禁賽自2025年5月13日起，取消2024年12月7日起成績及相關後果；決定有上訴權。"
+        },
+        {
+          "documentId": "registry-8364bbfa844e9d2b",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊列明四年處分起日及自2024年12月7日起取消成績。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "aiu-f52e72e49a35",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-202cb2d546dc1b8e",
+        "registry-47305eb1056b62a6"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-202cb2d546dc1b8e",
+          "startLine": 13,
+          "endLine": 13,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "決定書記載他是來自肯亞的公路跑者。"
+        },
+        {
+          "documentId": "doc-202cb2d546dc1b8e",
+          "startLine": 59,
+          "endLine": 69,
+          "supports": [
+            "event",
+            "substance",
+            "dates"
+          ],
+          "note": "2024年12月29日於肯亞賽外採樣；初步分析陰性，追加分析發現與外源性來源一致的睪固酮及代謝物。"
+        },
+        {
+          "documentId": "doc-202cb2d546dc1b8e",
+          "startLine": 74,
+          "endLine": 80,
+          "supports": [
+            "education"
+          ],
+          "note": "決定書稱沒有已核准或將核准的 TUE，且未見足以造成該發現的程序偏差。"
+        },
+        {
+          "documentId": "doc-202cb2d546dc1b8e",
+          "startLine": 107,
+          "endLine": 122,
+          "supports": [
+            "event",
+            "education"
+          ],
+          "note": "他提及維生素、蛋白質補充品、母親製作的草藥及 TestoXT Booster。"
+        },
+        {
+          "documentId": "doc-202cb2d546dc1b8e",
+          "startLine": 124,
+          "endLine": 157,
+          "supports": [
+            "substance",
+            "education"
+          ],
+          "note": "AIU認為草藥或補充品未能解釋發現；他提出可能提高睪固酮的猜測，APMU認為與外源性分析結果不一致。"
+        },
+        {
+          "documentId": "doc-202cb2d546dc1b8e",
+          "startLine": 167,
+          "endLine": 181,
+          "supports": [
+            "sanction",
+            "education"
+          ],
+          "note": "AIU維持違規指控，之後收到他簽署的承認違規及接受後果表格。"
+        },
+        {
+          "documentId": "doc-202cb2d546dc1b8e",
+          "startLine": 203,
+          "endLine": 205,
+          "supports": [
+            "substance"
+          ],
+          "note": "決定書依2024清單列為 S1.1 同化性雄性類固醇，任何時間禁用。"
+        },
+        {
+          "documentId": "doc-202cb2d546dc1b8e",
+          "startLine": 243,
+          "endLine": 265,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "及早承認獲一年減期；三年禁賽自2025年6月16日起，取消2024年12月29日起成績及相關後果。"
+        },
+        {
+          "documentId": "registry-47305eb1056b62a6",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊列明三年處分起日及自2024年12月29日起取消成績。"
+        }
+      ],
+      "findings": []
+    }
+  ]
+}

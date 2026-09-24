@@ -1,0 +1,82 @@
+{
+  "cases": [
+    {
+      "id": "aiu-b487a4c8f0f5",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-e06ab48b0ae23659",
+        "registry-380b04bbc2aaa8f6"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-e06ab48b0ae23659",
+          "startLine": 38,
+          "endLine": 40,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "確認選手為沙烏地阿拉伯之長跑運動員 Yousef Mohammed Al-Asiri"
+        },
+        {
+          "documentId": "doc-e06ab48b0ae23659",
+          "startLine": 49,
+          "endLine": 68,
+          "supports": [
+            "event",
+            "substance",
+            "dates"
+          ],
+          "note": "載明於2023年9月26日及28日杭州亞運期間採集之樣本檢出 darbepoetin 與 EPO"
+        },
+        {
+          "documentId": "doc-e06ab48b0ae23659",
+          "startLine": 78,
+          "endLine": 81,
+          "supports": [
+            "event",
+            "education"
+          ],
+          "note": "CAS確認違規後由世界田徑紀律庭判定第二次違規之處分後果"
+        },
+        {
+          "documentId": "doc-e06ab48b0ae23659",
+          "startLine": 957,
+          "endLine": 971,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "決定判處十年禁賽並折抵自2023年10月2日起之暫時禁賽，取消相應成績，且實質協助事項未於本裁決處理"
+        },
+        {
+          "documentId": "registry-380b04bbc2aaa8f6",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "官方名冊紀錄裁決日期2025年12月22日、10年禁賽及取消2023年9月26日至10月2日成績"
+        }
+      ],
+      "findings": []
+    }
+  ]
+}

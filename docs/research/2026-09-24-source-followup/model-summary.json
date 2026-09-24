@@ -1,0 +1,30 @@
+{
+  "casesAttempted": 44,
+  "atLeastTwoModels": 44,
+  "allFourModels": 24,
+  "perModel": {
+    "gemini": 26,
+    "grok": 39,
+    "claude": 42,
+    "codex": 43
+  },
+  "validWholeBatches": 8,
+  "nonvalidWholeBatches": 24,
+  "validCaseRowsFromIncompleteBatches": 62,
+  "flaggedIds": [
+    "usada-091e5bf27388",
+    "usada-137ddb330f29",
+    "usada-4366103d9b91",
+    "usada-36b25b3d84e6",
+    "usada-fb72031d87b1",
+    "usada-792c30cdc646",
+    "usada-3b36b9d0fea7",
+    "usada-5d85c8dbd1a0",
+    "usada-abb5a10e0ed3",
+    "usada-a00b98f42826",
+    "usada-503574acf7cc",
+    "usada-c60db428c672",
+    "usada-ee1ce8ee98f6"
+  ],
+  "insufficientCoverageIds": []
+}

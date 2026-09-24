@@ -1,0 +1,5817 @@
+[
+  {
+    "id": "usada-6dc325261e9f",
+    "name": "Rider Samelo do Amaral",
+    "sourceRow": 1,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/rider-samelo-do-amaral-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-8e1d65dfe7c0",
+    "name": "Erin Oprea",
+    "sourceRow": 2,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/erin-oprea-receives-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-ccd3766a65f8",
+    "name": "Evan Boyle",
+    "sourceRow": 3,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/evan-boyle-accepts-sanction/",
+      "https://www.usada.org/sanction/evan-boyle-violates-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-93e00bb84c4c",
+    "name": "Laura Meador",
+    "sourceRow": 4,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/laura-meador-receives-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-30c9fa7aa386",
+    "name": "Emily Oberst",
+    "sourceRow": 6,
+    "sourceUrls": [
+      "https://www.usada.org/sanction-public-warning/emily-oberst-accepts-public-warning/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-4627891bdf0e",
+    "name": "Aleia Hobbs",
+    "sourceRow": 7,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/aleia-hobbs-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-77a0fcaef768",
+    "name": "Jara MacDermott",
+    "sourceRow": 8,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/jara-macdermott-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-40e2da9dc8b0",
+    "name": "Ariana Aguila-Ramos",
+    "sourceRow": 9,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/ariana-aguila-ramos-receives-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-d1a485990d82",
+    "name": "Brian Morris",
+    "sourceRow": 10,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/brian-morris-receives-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-c03c20f6ac76",
+    "name": "Jonah Koech",
+    "sourceRow": 11,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/jonah-koech-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-6ab5eb1a3841",
+    "name": "Adam Miller",
+    "sourceRow": 13,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/adam-miller-receives-doping-sanction-arbitrator/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-da5b8b02bbfe",
+    "name": "Chase Zilcosky",
+    "sourceRow": 14,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/chase-zilcosky-receives-doping-sanction-arbitrator/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-e10ad83f3958",
+    "name": "Bert Trabing",
+    "sourceRow": 15,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/bert-trabing-receives-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-844c20128ec3",
+    "name": "Monzavous “Rae” Edwards",
+    "sourceRow": 17,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/monzavous-rae-edwards-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-fedc93f2d121",
+    "name": "Angel Quintero",
+    "sourceRow": 18,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/angel-quintero-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-410c7e7f2422",
+    "name": "Hanna Digenis",
+    "sourceRow": 19,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/hanna-digenis-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-d036b8ba0a76",
+    "name": "Roosevelt De Sousa",
+    "sourceRow": 21,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/roosevelt-de-sousa-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-7f693ddcd1dc",
+    "name": "Adane Anmaw Mengesha",
+    "sourceRow": 22,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/adane-anmaw-mengesha-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-1dbae8679127",
+    "name": "Colleen Moon",
+    "sourceRow": 23,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/colleen-moon-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-15e69d825114",
+    "name": "Annie Gough",
+    "sourceRow": 24,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/annie-gough-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-82d034547425",
+    "name": "Valeria Cardozo Cabrera",
+    "sourceRow": 25,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/valeria-cardozo-cabrera-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-c819a24224d4",
+    "name": "Anthony Aguilar",
+    "sourceRow": 26,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/anthony-aguilar-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-9c22bd789da6",
+    "name": "Alia Armstrong",
+    "sourceRow": 27,
+    "sourceUrls": [
+      "https://www.usada.org/sanction-public-warning/alia-armstrong-accepts-public-warning/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-61e3a8703c9b",
+    "name": "Blaine Terry",
+    "sourceRow": 28,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/blaine-terry-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-a1481018bf93",
+    "name": "Manteo Mitchell",
+    "sourceRow": 29,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/manteo-mitchell-receives-doping-sanction-arbitrator/",
+      "https://www.usada.org/sanction-public-warning/manteo-mitchell-public-warning-sanction-violation/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-117edae7e0db",
+    "name": "Joshua Phillips",
+    "sourceRow": 30,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/joshua-phillips-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-279815a6502f",
+    "name": "Aaron Brooks",
+    "sourceRow": 31,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/aaron-brooks-receives-doping-sanction-arbitrator/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-f1cde6566bd6",
+    "name": "Roy Lesui",
+    "sourceRow": 32,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/roy-lesui-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-bd60c40950dc",
+    "name": "Daniel \"Jason\" Sandor",
+    "sourceRow": 33,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/daniel-jason-sandor-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-e29c0a4003c4",
+    "name": "Weston Winegar",
+    "sourceRow": 34,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/weston-winegar-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-098d37f7628b",
+    "name": "Movlid Khaybulaev",
+    "sourceRow": 35,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/movlid-khaybulaev-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-48765523c8a1",
+    "name": "Rachelyn Teague",
+    "sourceRow": 36,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/rachelyn-teague-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-57d7cd8a7255",
+    "name": "Kartik Kumar",
+    "sourceRow": 37,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/kartik-kumar-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-11a6fc916bc0",
+    "name": "Bernard Yuan",
+    "sourceRow": 39,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/bernard-yuan-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-8119bf409dd1",
+    "name": "Semaj Street",
+    "sourceRow": 40,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/semaj-street-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-78e27bdaebf5",
+    "name": "Devon Kell",
+    "sourceRow": 41,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/devon-kell-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-381c917a2157",
+    "name": "Brad Didier",
+    "sourceRow": 42,
+    "sourceUrls": [
+      "https://www.usada.org/sanction-public-warning/brad-didier-accepts-public-warning/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-7526c843f4af",
+    "name": "Adam Hagerman",
+    "sourceRow": 43,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/adam-hagerman-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-4c0d4c35fd32",
+    "name": "Barron Mosteller",
+    "sourceRow": 44,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/barron-mosteller-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-5b41848e9a68",
+    "name": "Anthony McCauley",
+    "sourceRow": 45,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/anthony-mccauley-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-5e1394a78fe9",
+    "name": "Michael Hooker",
+    "sourceRow": 48,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/michael-hooker-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-ceefc0837edf",
+    "name": "Aaron Keith",
+    "sourceRow": 49,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/aaron-keith-receives-extended-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-c2a1e23bcef9",
+    "name": "Shadrack Biwott",
+    "sourceRow": 50,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/shadrack-biwott-receives-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-41602f5d6075",
+    "name": "Karl Moore",
+    "sourceRow": 51,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/karl-moore-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-b59f109b9314",
+    "name": "Daniel Wade",
+    "sourceRow": 52,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/daniel-wade-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-7774f20822ed",
+    "name": "Robert Jerry Qualls",
+    "sourceRow": 53,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/robert-qualls-accepts-doping-sanction/",
+      "https://www.usada.org/sanction/robert-jerry-qualls-accepts-additional-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-ecd83bbd57a3",
+    "name": "Ricky Kim",
+    "sourceRow": 54,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/kim-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-1213517fe002",
+    "name": "Tiffany Hoffner",
+    "sourceRow": 55,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/tiffany-hoffner-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-1d535fe9e176",
+    "name": "Michael Vowell",
+    "sourceRow": 56,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/michael-vowell-and-athlete-accept-doping-sanctions/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-b7e2479f80a4",
+    "name": "Ray Williams",
+    "sourceRow": 58,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/ray-williams-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-867e644968cc",
+    "name": "Francisco Lo",
+    "sourceRow": 59,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/francisco-lo-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-313ebf768fc3",
+    "name": "Nicolas Recio",
+    "sourceRow": 60,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/nicolas-recio-receives-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-6c0ae67a6f7e",
+    "name": "Kevin Reeve Jr.",
+    "sourceRow": 61,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/paralympic-fencing/kevin-reeve-jr-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-ad62fefac4a0",
+    "name": "Steven Doughty",
+    "sourceRow": 62,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/steven-doughty-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-2741fde520a2",
+    "name": "Sean FitzSimons",
+    "sourceRow": 63,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/sean-fitzsimons-accepts-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-399fca21e0d9",
+    "name": "Alexander Shabliy",
+    "sourceRow": 64,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/alexander-shabliy-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-3b4bb534d258",
+    "name": "Jayden Edwards",
+    "sourceRow": 65,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/jayden-edwards-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-e1be0d337e28",
+    "name": "Nicholas Dondzila",
+    "sourceRow": 66,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/nicholas-dondzila-receives-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-79ec9d4e1035",
+    "name": "Thomas Gilman",
+    "sourceRow": 67,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/thomas-gilman-accepts-whereabouts-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-e836b3e32b2d",
+    "name": "Aaron Waldon",
+    "sourceRow": 68,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/aaron-waldon-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-eda6e1ffdaad",
+    "name": "Zebenzui Ruiz",
+    "sourceRow": 69,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/zebenzui-ruiz-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-cf2656f8c70c",
+    "name": "Taila Santos",
+    "sourceRow": 70,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/taila-santos-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-b72f58e4ab2e",
+    "name": "Mohammad Alaqraa",
+    "sourceRow": 71,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/mohammad-alaqraa-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-5615bba463ec",
+    "name": "James Carter Jr.",
+    "sourceRow": 72,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/james-carter-jr-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-ef410799b2a8",
+    "name": "Shawnti Jackson",
+    "sourceRow": 73,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/shawnti-jackson-accepts-public-warning/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-5e4b8080c989",
+    "name": "Isabella Winkler",
+    "sourceRow": 74,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/isabella-winkler-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-de303d306375",
+    "name": "Cassio Felipe Sousa Costa",
+    "sourceRow": 75,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/cassio-felipe-sousa-costa-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-4a1869ebadfd",
+    "name": "Michelle Quinn",
+    "sourceRow": 77,
+    "sourceUrls": [
+      "https://www.usada.org/sanction-public-warning/michelle-quinn-accepts-public-warning/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-0b1c632e92ed",
+    "name": "Jay Jay Wilson",
+    "sourceRow": 78,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/jay-jay-wilson-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-f15ca9c21501",
+    "name": "Robert Karaś",
+    "sourceRow": 79,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/independent-arbitrator-imposes-sanction-robert-karas/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-53ef2e702ec2",
+    "name": "Yul Moldauer",
+    "sourceRow": 80,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/yul-moldauer-accepts-whereabouts-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-b0c8736bc632",
+    "name": "Ben Provisor",
+    "sourceRow": 81,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/ben-provisor-accepts-whereabouts-violation/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-ec23f838144c",
+    "name": "Don Madge",
+    "sourceRow": 82,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/don-madge-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-1e9d66090021",
+    "name": "Nicholas Pierce",
+    "sourceRow": 83,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/nicholas-pierce-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-2aa97cb5e5c1",
+    "name": "Loretta Turner",
+    "sourceRow": 84,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/loretta-turner-receives-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-b3e7a1ecbc8e",
+    "name": "Pedro Pimenta",
+    "sourceRow": 85,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/pedro-pimenta-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-d725d08947f9",
+    "name": "Daniel James",
+    "sourceRow": 86,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/daniel-james-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-6ef8a087f2dc",
+    "name": "Sydney Milani",
+    "sourceRow": 87,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/sydney-milani-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-e79a57a34e2d",
+    "name": "Yatan Bueno",
+    "sourceRow": 88,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/yatan-bueno-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-4a02c413ff6b",
+    "name": "Fellipe Andrew Leandro Silva",
+    "sourceRow": 89,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/andrew-leandro-silva-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-7244bd781bb6",
+    "name": "Michael Smith",
+    "sourceRow": 90,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/michael-smith-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-59fb0a5417e4",
+    "name": "Blagoy Ivanov",
+    "sourceRow": 91,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/blagoy-ivanov-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-a25ab7629e29",
+    "name": "Kamryn Lute",
+    "sourceRow": 92,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/independent-arbitrator-imposes-sanction-kamryn-lute/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-25958bca1e21",
+    "name": "Cary Cooper",
+    "sourceRow": 93,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/cary-cooper-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-947f10f32fba",
+    "name": "Bruno Cappelozza",
+    "sourceRow": 94,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/bruno-cappelozza-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-56c015d731e4",
+    "name": "Johnny Maynard",
+    "sourceRow": 95,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/johnny-maynard-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-b83eca28445b",
+    "name": "Uanderson Ferreira de Oliveira",
+    "sourceRow": 96,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/uanderson-ferreira-de-oliveira-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-ee1ce8ee98f6",
+    "name": "NaLyssa Smith",
+    "sourceRow": 97,
+    "sourceUrls": [
+      "https://www.usada.org/sanction-public-warning/nalyssa-smith-accepts-public-warning/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-63ca8053cf2c",
+    "name": "Gokhan Saricam",
+    "sourceRow": 98,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/gokhan-saricam-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-63133187a47b",
+    "name": "Michael Brinegar",
+    "sourceRow": 100,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/michael-brinegar-receives-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-c459cc791bed",
+    "name": "Ella Nicholson",
+    "sourceRow": 103,
+    "sourceUrls": [
+      "https://www.usada.org/sanction-public-warning/ella-nicholson-accepts-public-warning/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-57cde63ea0a1",
+    "name": "Kensey McMahon",
+    "sourceRow": 104,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/arbitrator-imposes-doping-sanction-kensey-mcmahon/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-abb5a10e0ed3",
+    "name": "Breezy Johnson",
+    "sourceRow": 105,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/breezy-johnson-accepts-whereabouts-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-f3103133922d",
+    "name": "Joshua Mauk",
+    "sourceRow": 106,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/joshua-mauk-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-d8e0b94bb7f7",
+    "name": "Aaron Babet",
+    "sourceRow": 107,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/aaron-babet-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-5f12b76c5614",
+    "name": "William Porter",
+    "sourceRow": 108,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/william-porter-receives-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-578b30358464",
+    "name": "Jaron Flournoy",
+    "sourceRow": 110,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/jaron-flournoy-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-b21f902c3497",
+    "name": "Ruben Martinez Jr.",
+    "sourceRow": 111,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/ruben-martinez-jr-accepts-doping-violation/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-f58e43507d86",
+    "name": "Ilija Tadic",
+    "sourceRow": 112,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/ilija-tadic-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-126057c00f9c",
+    "name": "Nathan Lugo",
+    "sourceRow": 113,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/nathan-lugo-accepts-doping-violation/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-16f2d1c7b31c",
+    "name": "Frank Travieso",
+    "sourceRow": 114,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/frank-travieso-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-03cbaa641dbb",
+    "name": "Christian DesChamps",
+    "sourceRow": 115,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/christian-deschamps-accepts-anti-doping-violation/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-42343d04a699",
+    "name": "Katelyn Kirby",
+    "sourceRow": 116,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/katelyn-kirby-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-aae44fe053bb",
+    "name": "Wyatt Davis",
+    "sourceRow": 118,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/wyatt-davis-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-77f46816dcf9",
+    "name": "Andre Luiz Novaes Porfirio",
+    "sourceRow": 119,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/andre-luiz-novaes-porfirio-receives-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-7da5b8af5ba7",
+    "name": "Tyler Sundeen",
+    "sourceRow": 120,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/tyler-sundeen-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-8091f0d610a6",
+    "name": "Ina Pfuhler",
+    "sourceRow": 121,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/ina-pfuhler-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-688edbbd7a1e",
+    "name": "Daniel Rodriguez",
+    "sourceRow": 122,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/daniel-rodriguez-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-18da72e16a59",
+    "name": "Mariah Park",
+    "sourceRow": 123,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/mariah-park-accepts-public-warning/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-da041cee5592",
+    "name": "John Frey",
+    "sourceRow": 124,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/john-frey-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-1a38746bd246",
+    "name": "Kanak Jha",
+    "sourceRow": 125,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/kanak-jha-receives-doping-sanction/",
+      "https://www.usada.org/sanction/arbitrator-confirms-kanak-jha-violated-provisional-suspension/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-cbf0f5afcf61",
+    "name": "Evan Forrest",
+    "sourceRow": 126,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/evan-forrest-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-e13aa658e684",
+    "name": "Nina Cutro-Kelly",
+    "sourceRow": 128,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/nina-cutro-kelly-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-5c5d5188ddf0",
+    "name": "Alyssa Wilson",
+    "sourceRow": 130,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/alyssa-wilson-accepts-public-warning/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-7761c747be5c",
+    "name": "Cortney Casey",
+    "sourceRow": 131,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/cortney-casey-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-7b5f2aab1115",
+    "name": "Zach Taylor",
+    "sourceRow": 132,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/zach-taylor-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-7e6f399372a6",
+    "name": "Allison Ostrander",
+    "sourceRow": 133,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/track-field/allison-ostrander-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-79470a91247a",
+    "name": "Roger Whitham",
+    "sourceRow": 135,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/roger-whitham-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-ea30e84daaab",
+    "name": "Chad Olsen",
+    "sourceRow": 136,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/chad-olen-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-5fa815d176f6",
+    "name": "Toccata Murphy",
+    "sourceRow": 137,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/toccata-murphy-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-ecb1617ae94b",
+    "name": "Braxton Smith",
+    "sourceRow": 138,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/braxton-smith-accepts-doping-sanction"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-8acc4528cb6b",
+    "name": "Addie Bracy",
+    "sourceRow": 139,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/addie-bracy-accepts-public-warning/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-390e39fcb5e4",
+    "name": "Jose De Souza",
+    "sourceRow": 140,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/jose-de-souza-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-b03e0386a601",
+    "name": "Katerina Brim",
+    "sourceRow": 141,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/katerina-brim-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-b6074d0cf1fc",
+    "name": "Lindsey Corrigan",
+    "sourceRow": 142,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/lindsey-corrigan-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-3e2c75f84c3d",
+    "name": "Breanna Clark",
+    "sourceRow": 143,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/breanna-clark-accepts-public-warning/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-2b96b69ac470",
+    "name": "Marc Marquez",
+    "sourceRow": 144,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/marc-marquez-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-16d75b89499a",
+    "name": "Andrea Dowling",
+    "sourceRow": 145,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/andrea-dowling-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-2a3c48254d2a",
+    "name": "Tara Davis-Woodhall",
+    "sourceRow": 146,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/tara-davis-woodhall-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-dfd3cbf80ae6",
+    "name": "Zachary Schober",
+    "sourceRow": 147,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/zachary-schobert-receives-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-c78a9bf8a861",
+    "name": "Quentin Willey",
+    "sourceRow": 148,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/quentin-willey-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-8fb29d61bbde",
+    "name": "Tyler Burdick",
+    "sourceRow": 150,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/tyler-burdick-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-83d2ffe2a7e7",
+    "name": "Micael Galvão",
+    "sourceRow": 151,
+    "sourceUrls": [
+      "https://www.usada.org/uncategorized/micael-galvao-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-630abd4055f6",
+    "name": "Robert Scavilla",
+    "sourceRow": 152,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/robert-scavilla-receives-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-ad591e88eaac",
+    "name": "Igor Nascimento da Costa Feliz",
+    "sourceRow": 155,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/five-brazilian-jiu-jitsu-athletes-accept-doping-sanctions/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-cce00d104f78",
+    "name": "Jonnatas Gracie Araujo da Silva",
+    "sourceRow": 156,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/five-brazilian-jiu-jitsu-athletes-accept-doping-sanctions/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-3e202650e51a",
+    "name": "Roberto de Abreu Filho",
+    "sourceRow": 157,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/five-brazilian-jiu-jitsu-athletes-accept-doping-sanctions/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-504a85cdef1b",
+    "name": "José Henrique Cardoso",
+    "sourceRow": 158,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/five-brazilian-jiu-jitsu-athletes-accept-doping-sanctions/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-8db602748013",
+    "name": "S. Vagner Rocha",
+    "sourceRow": 159,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/five-brazilian-jiu-jitsu-athletes-accept-doping-sanctions/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-88685d4069ae",
+    "name": "Keiser Witte",
+    "sourceRow": 161,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/keiser-witte-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-e8f1b4bfd4ae",
+    "name": "Carlos do Carmo Mota",
+    "sourceRow": 162,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/carlos-do-carmo-mota-accepts-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-5f1f4ed8c4a9",
+    "name": "Alejandra Echeverri",
+    "sourceRow": 163,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/alejandra-echeverri-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-a1b9a80449df",
+    "name": "Hamdy Abdelwahab",
+    "sourceRow": 164,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/hamdy-abdelwahab-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-4ec484828c9b",
+    "name": "Elias Montañez Barroso",
+    "sourceRow": 165,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/elias-montanez-barroso-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-80560c14a6e2",
+    "name": "Noslen Ruiz-Gutierrez",
+    "sourceRow": 166,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/noslen-ruiz-gutierrez-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-d7d75c2efaf9",
+    "name": "Sidney Andrew",
+    "sourceRow": 168,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/sidney-andrew-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-a37e4ef92abb",
+    "name": "Christian Rodriguez Ocasio",
+    "sourceRow": 169,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/christian-rodriguez-ocasio-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-091e5bf27388",
+    "name": "Lindsey Scherf",
+    "sourceRow": 170,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/lindsey-scherf-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-0265c80a975c",
+    "name": "Hassan Mead",
+    "sourceRow": 171,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/hassan-mead-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-1c34e76fa2a0",
+    "name": "Aja Evans",
+    "sourceRow": 172,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/aja-evans-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-05a51bc91d1e",
+    "name": "Garrett Scantling",
+    "sourceRow": 173,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/garrett-scantling-accepts-doping-violation/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-365cbd5fbcea",
+    "name": "Arika Skoog",
+    "sourceRow": 174,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/arika-skoog-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-a05b0f247593",
+    "name": "Rene Navarrete",
+    "sourceRow": 175,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/rene-navarrete-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-036e3cec1c79",
+    "name": "Bobby Green",
+    "sourceRow": 176,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/bobby-green-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-13e15093f36a",
+    "name": "Catarina Guimarães",
+    "sourceRow": 177,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/catarina-guimaraes-accepts-public-warning/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-f52c1e4100e8",
+    "name": "Joshua Bringas",
+    "sourceRow": 178,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/joshua-bringas-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-a5c35e52d77b",
+    "name": "Elizeu Zaleski dos Santos",
+    "sourceRow": 179,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/elizeu-zaleski-dos-santos-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-14b9bb743904",
+    "name": "Olivia Ray",
+    "sourceRow": 180,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/olivia-ray-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-3b36b9d0fea7",
+    "name": "Richard Browne",
+    "sourceRow": 181,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/richard-browne-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-83fd4f8e5e5c",
+    "name": "Timothy Hearn",
+    "sourceRow": 182,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/timothy-hearn-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-77feffe8dfef",
+    "name": "Nelson Trujillo",
+    "sourceRow": 183,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/nelson-trujillo-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-06ec1067d02c",
+    "name": "Clint Jordan",
+    "sourceRow": 184,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/clint-jordan-receives-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-b68e25402487",
+    "name": "Ellis Coleman",
+    "sourceRow": 185,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/ellis-coleman-receives-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-b0f378938e1f",
+    "name": "Gregory Walker",
+    "sourceRow": 186,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/gregory-walker-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-edbbe5e82ff0",
+    "name": "Riekert Hattingh",
+    "sourceRow": 187,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/riekert-hattingh-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-ad29940bbb3c",
+    "name": "Jackson \"Huntley\" Nash",
+    "sourceRow": 188,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/jackson-huntley-nash-receives-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-06a9eec196b6",
+    "name": "Lucas Howes",
+    "sourceRow": 189,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/lucas-howes-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-e69d8013d7f1",
+    "name": "Miles Johns",
+    "sourceRow": 190,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/miles-johns-accepts-public-warning/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-cbc321b291f0",
+    "name": "Wyatt Struxness",
+    "sourceRow": 191,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/wyatt-struxness-accepts-public-warning/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-3c2722021b7b",
+    "name": "Sabina Allen",
+    "sourceRow": 193,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/rodchenkov-act-sanction-sabina-allen/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-2a3f0160a9f3",
+    "name": "Andrii Monastyrskyi",
+    "sourceRow": 194,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/andrii-monastyrskyi-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-10e9f0a6f725",
+    "name": "Erik Kynard",
+    "sourceRow": 195,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/erik-kynard-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-3218c77f1514",
+    "name": "Ashlee Evans-Smith",
+    "sourceRow": 196,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/ashlee-evans-smith-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-f43ec15afb81",
+    "name": "Erin Blanchfield",
+    "sourceRow": 197,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/erin-blanchfield-accepts-public-warning/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-80bb8bacffc2",
+    "name": "Tricia Downing",
+    "sourceRow": 198,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/tricia-downing-receives-sanction-aaa-arbitrator/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-73473ebf3acd",
+    "name": "Ana Irizarry",
+    "sourceRow": 199,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/ana-irizarry-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-a11b3068ba54",
+    "name": "Hanncer Valdes",
+    "sourceRow": 200,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/hanncer-valdes-receives-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-e59ba74ae75a",
+    "name": "Taylor Graham",
+    "sourceRow": 201,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/taylor-graham-receives-four-year-sanction-aaa/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-f3337bee1348",
+    "name": "Geony Borrego Lee",
+    "sourceRow": 202,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/geony-borrego-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-9e3ec5e00217",
+    "name": "Isabel Gormley",
+    "sourceRow": 203,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/isabel-gormley-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-a065a9e92dd5",
+    "name": "Dryden McKay",
+    "sourceRow": 204,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/dryden-mckay-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-1035e17c5288",
+    "name": "Daniel Summerhill",
+    "sourceRow": 205,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/daniel-summerhill-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-82602147d7d4",
+    "name": "Brian Abers",
+    "sourceRow": 206,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/brian-abers-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-22913fa5df5e",
+    "name": "Ahje Palmer",
+    "sourceRow": 207,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/ahje-palmer-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-2abe20ee65f3",
+    "name": "Zviad Lazishvili",
+    "sourceRow": 208,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/zviad-lazishvili-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-48d68f0e2e03",
+    "name": "Ernest Prempeh",
+    "sourceRow": 209,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/ernest-prempeh-accepts-doping-sanction/",
+      "https://www.usada.org/sanction/ernest-prempeh-bernabe-chavez-accept-sanctions/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-c0bcc1cac884",
+    "name": "Bernabe Chavez",
+    "sourceRow": 210,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/ernest-prempeh-bernabe-chavez-accept-sanctions/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-159a9ae15f32",
+    "name": "Ian Wilson",
+    "sourceRow": 211,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/ian-wilson-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-e3b6cc414701",
+    "name": "Eliud Ngetich",
+    "sourceRow": 212,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/eliud-ngetich-accepts-doping-sanction-2/",
+      "https://www.usada.org/sanction/eliud-ngetich-accepts-updated-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-5f2ba9170fdc",
+    "name": "Grace Bowlby",
+    "sourceRow": 214,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/grace-bowlby-accepts-public-warning/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-05c2efe09f20",
+    "name": "Trey Lampkin",
+    "sourceRow": 215,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/trey-lampkin-accepts-public-warning/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-f8c1f2c29e25",
+    "name": "Madeline Wethington",
+    "sourceRow": 216,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/madeline-wethington-accepts-public-warning/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-956ec8818b4b",
+    "name": "Jordan Adel",
+    "sourceRow": 217,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/jordan-adel-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-2afd16a939d4",
+    "name": "Noah Webb",
+    "sourceRow": 218,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/noah-webb-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-6771fb3fd2f3",
+    "name": "Ryan Benoit",
+    "sourceRow": 219,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/ryan-benoit-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-003de817c96a",
+    "name": "Hillary Tran",
+    "sourceRow": 220,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/hillary-tran-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-557b3d045e61",
+    "name": "Jamaal Daniels",
+    "sourceRow": 221,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/jamaal-daniels-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-a990c717c928",
+    "name": "Desmond Jackson",
+    "sourceRow": 222,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/desmond-jackson-receives-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-eeab0866c5bb",
+    "name": "Geraldo Augusto de Freitas",
+    "sourceRow": 223,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/geraldo-augusto-de-freitas-receives-two-year-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-81ca863aa55c",
+    "name": "Matt McWhirter",
+    "sourceRow": 224,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/matt-mcwhirter-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-7047ef231eac",
+    "name": "Jacob Lacoste",
+    "sourceRow": 225,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/jacob-lacoste-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-1369ca7d3c05",
+    "name": "Rogerio Bontorin",
+    "sourceRow": 226,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/rogerio-bontorin-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-669c86e73b92",
+    "name": "McAben Prince",
+    "sourceRow": 227,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/mcaben-receives-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-351d25ab89cb",
+    "name": "Liliya Shakirova",
+    "sourceRow": 229,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/liliya-shakirova-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-f72472960e40",
+    "name": "Christian Buckley",
+    "sourceRow": 230,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/christian-buckley-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-c60db428c672",
+    "name": "Katherine Compton",
+    "sourceRow": 231,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/katherine-compton-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-6cd0ab12872b",
+    "name": "Regina Hancock",
+    "sourceRow": 232,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/regina-hancock-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-8d214edc5d96",
+    "name": "Logan Storie",
+    "sourceRow": 233,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/logan-storie-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-86242388c5b3",
+    "name": "Juancamilo Ronderos Alvis",
+    "sourceRow": 234,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/juancamilo-ronderos-alvis-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-4532d9be6aef",
+    "name": "James Nelson",
+    "sourceRow": 236,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/aaa-arbitrator-sanction-james-nelson/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-7628a0e6aa8d",
+    "name": "Erik Koch",
+    "sourceRow": 238,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/erik-koch-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-f708f100d313",
+    "name": "Josh Sisson",
+    "sourceRow": 239,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/josh-sisson-receives-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-86ac6516e020",
+    "name": "Luis Gallardo",
+    "sourceRow": 240,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/luis-gallardo-receives-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-6295d61b3ba5",
+    "name": "Kahmari Montgomery",
+    "sourceRow": 241,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/kahmari-montgomery-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-4844a2d25120",
+    "name": "Zach Gehm",
+    "sourceRow": 242,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/zach-gehm-accepts-doping-sanction/",
+      "https://www.usada.org/sanction/zach-gehm-accepts-additional-ineligibility/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-7df0d8ede93d",
+    "name": "Keir Pearson",
+    "sourceRow": 243,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/keir-pearson-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-dfb8a172c67b",
+    "name": "Oskar Piechota",
+    "sourceRow": 244,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/oskar-piechota-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-c19d2e9f8557",
+    "name": "Tate Jackson",
+    "sourceRow": 246,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/tate-jackson-accepts-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-fa18394398b5",
+    "name": "Rebekah Koehly",
+    "sourceRow": 247,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/rebekah-koehly-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-aebc5c3ff7f3",
+    "name": "Vahe Aivazian",
+    "sourceRow": 248,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/vahe-aivazian-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-ac7fef21590c",
+    "name": "Obichukwu Igbokwe",
+    "sourceRow": 249,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/obichukwu-igbokwe-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-c3a050be56a3",
+    "name": "Richard Burkett",
+    "sourceRow": 250,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/richard-burkett-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-373b06f78b01",
+    "name": "James Ellis",
+    "sourceRow": 251,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/james-ellis-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-16a6d74b059e",
+    "name": "Lorenzo Thomas",
+    "sourceRow": 252,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/aaa-arbitrator-imposes-sanction-lorenzo-thomas/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-f658b747c928",
+    "name": "Abu Azaitar",
+    "sourceRow": 253,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/abu-azaitar-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-94c72a4dc63a",
+    "name": "Raquel Pennington",
+    "sourceRow": 254,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/raquel-pennington-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-91eea3a6b316",
+    "name": "Andre Ewell",
+    "sourceRow": 255,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/andre-ewell-receives-public-warning/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-a379c3b29720",
+    "name": "Eduarda Neves Santanna",
+    "sourceRow": 256,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/eduarda-neves-santanna-receives-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-17daa0c2c27e",
+    "name": "Vinicius Moreira Castro",
+    "sourceRow": 257,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/vinicius-moreira-castro-receives-public-warning/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-1205b7548666",
+    "name": "Scott Hisaka",
+    "sourceRow": 258,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/scott-hisaka-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-73b73fbed23a",
+    "name": "Jasmine Blocker",
+    "sourceRow": 260,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/jasmine-blocker-accepts-public-warning"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-fd1d2cf8f708",
+    "name": "Megan Munsell",
+    "sourceRow": 261,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/megan-munsell-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-90621c3eb5e4",
+    "name": "Susanne Williams",
+    "sourceRow": 263,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/susanne-williams-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-9dd4639a6aac",
+    "name": "Robert Pelegrin",
+    "sourceRow": 264,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/robert-pelegrin-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-6fd6d5dd6713",
+    "name": "Chi Lewis-Parry",
+    "sourceRow": 265,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/chi-lewis-parry-receives-doping-sanction-arbitrator/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-7d4a790cfe5c",
+    "name": "Marc-Andre Barriault",
+    "sourceRow": 266,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/marc-andre-barriault-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-94f849562124",
+    "name": "Yair Rodriguez",
+    "sourceRow": 267,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/yair-rodriguez-accepts-sanction-anti-doping-policy-violation/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-6f442259c6e3",
+    "name": "Anthony McLaughlin",
+    "sourceRow": 268,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/anthony-mclaughlin-receives-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-9ea9f3b4b3ea",
+    "name": "Olivia Fiechter",
+    "sourceRow": 270,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/olivia-fiechter-accepts-public-warning/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-514a9b52486f",
+    "name": "Jesse Ronson",
+    "sourceRow": 271,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/jesse-ronson-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-3569c6e815d7",
+    "name": "Alissandra Hipona",
+    "sourceRow": 272,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/alissandra-hipona-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-e74b4b168fe7",
+    "name": "Kamal Bey",
+    "sourceRow": 274,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/kamal-bey-accepts-whereabouts-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-73bb01a62b52",
+    "name": "Chase Sherman",
+    "sourceRow": 276,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/chase-sherman-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-d8d5e2c3a318",
+    "name": "Flavia Paparella",
+    "sourceRow": 277,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/flavia-paparella-accepts-second-doping-sanction/",
+      "https://www.usada.org/sanction/flavia-paparella-granted-reduced-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-4cabe0247888",
+    "name": "Jeff Martin",
+    "sourceRow": 278,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/jeff-martin-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-8eb48dbaf6e2",
+    "name": "Morgan Millican",
+    "sourceRow": 279,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/morgan-millican-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-9594a41ee3f8",
+    "name": "Ridouane Harroufi",
+    "sourceRow": 280,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/ridouane-harroufi-accepts-second-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-6d7104e9ac1f",
+    "name": "Lara Fritzen Procopio",
+    "sourceRow": 281,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/lara-fritzen-procopio-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-a54a0549888f",
+    "name": "Matthew McCullough",
+    "sourceRow": 282,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/matthew-mccullough-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-1787fc5090e0",
+    "name": "Jorge Gonzalez Villa",
+    "sourceRow": 283,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/jorge-gonzalez-villa-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-707cea3b489e",
+    "name": "Jonathan Wood",
+    "sourceRow": 284,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/jonathan-wood-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-ea963f8d28c3",
+    "name": "Tiffany Parlor",
+    "sourceRow": 285,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/tiffany-parlor-recieves-doping-violation/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-37ae6bf15449",
+    "name": "Daton Fix",
+    "sourceRow": 286,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/aaa-panel-imposes-doping-sanction-daton-fix/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-bbdeee1d7362",
+    "name": "Oleksandr Doskalchuk",
+    "sourceRow": 287,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/oleksandr-doskalchuk-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-676472168809",
+    "name": "Vince Murdock",
+    "sourceRow": 288,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/vince-murdock-accepts-doping-sanction/",
+      "https://www.usada.org/sanction/vince-murdock-receives-reduced-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-8a0a2483bd13",
+    "name": "Barbara Gicquel",
+    "sourceRow": 289,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/barbara-gicquel-accepts-doping-sanction-2/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-08e3532ce7d1",
+    "name": "Vladyslav Dombrovskiy",
+    "sourceRow": 290,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/vladyslav-dombrovskiy-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-1425183e428c",
+    "name": "Gilbert Melendez",
+    "sourceRow": 291,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/arbitrator-imposes-two-year-sanction-gilbert-melendez/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-80101a12888d",
+    "name": "Danielle Rante",
+    "sourceRow": 292,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/danielle-rante-accepts-doping-sanction/",
+      "https://www.usada.org/sanction/danielle-rante-reduced-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-e7f64638afe3",
+    "name": "Taff Woolsey",
+    "sourceRow": 293,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/taff-woolsey-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-137ddb330f29",
+    "name": "Kevin Castille",
+    "sourceRow": 294,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/kevin-castille-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-83915e97921c",
+    "name": "Jeff Prusmack",
+    "sourceRow": 295,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/jeff-prusmack-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-8d51c89a8536",
+    "name": "Leynier Alonso",
+    "sourceRow": 296,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/leynier-alonso-receives-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-eafdd3c03924",
+    "name": "Bruno Arruda da Silva",
+    "sourceRow": 297,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/bruno-arruda-da-silva-receives-doping-sanction-arbitrator/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-3dd49161ce16",
+    "name": "Rachael Ostovich-Berdon",
+    "sourceRow": 298,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/rachael-ostovich-berdon-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-3d04ba268799",
+    "name": "Justin Glanville",
+    "sourceRow": 301,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/justin-glanville-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-3795cadeeacf",
+    "name": "Cole Walsh",
+    "sourceRow": 302,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/cole-walsh-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-05cd97d7014d",
+    "name": "Isidro Romero Noboa",
+    "sourceRow": 303,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/isidro-romero-noboa-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-c88c72084b13",
+    "name": "Rowdy Hurst",
+    "sourceRow": 306,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/rowdy-hurst-receives-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-b43321c58f24",
+    "name": "Lucas Penchel",
+    "sourceRow": 308,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/lucas-penchel-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-fe88676c094a",
+    "name": "John Gleaves",
+    "sourceRow": 309,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/john-gleaves-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-1c8439008ca9",
+    "name": "Daniel Bond",
+    "sourceRow": 310,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/aaa-panel-imposes-sanction-daniel-bond/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-a970c25b4e4e",
+    "name": "Manuel Aguero",
+    "sourceRow": 311,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/manuel-aguero-receives-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-5eac04b001f6",
+    "name": "Addison Jones",
+    "sourceRow": 313,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/addison-jones-accepts-doping-violation/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-e65db4cc5c30",
+    "name": "Isabela de Padua",
+    "sourceRow": 315,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/isabela-de-padua-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-496b0452d607",
+    "name": "Robert Strange",
+    "sourceRow": 316,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/robert-strange-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-34cfb7fa96a6",
+    "name": "Kaynan Duarte",
+    "sourceRow": 318,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/kaynan-duarte-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-b024cd546e97",
+    "name": "Diego Sanchez",
+    "sourceRow": 320,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/diego-sanchez-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-8230115a6e4d",
+    "name": "Fabricio Werdum",
+    "sourceRow": 321,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/fabricio-werdum-receives-doping-sanction/",
+      "https://ufc.usada.org/fabricio-werdum-granted-reduced-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-12c4a880e67d",
+    "name": "Dequan Townsend",
+    "sourceRow": 323,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/dequan-townsend-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-a6e4b38ecdbe",
+    "name": "Samantha Dumala",
+    "sourceRow": 324,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/samantha-dumala-accepts-public-warning/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-823f36ff7d72",
+    "name": "Ted Dreaver",
+    "sourceRow": 325,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/ted-dreaver-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-fff03d725b56",
+    "name": "Cristofer Martinez",
+    "sourceRow": 326,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/cristofer-martinez-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-845196752e7d",
+    "name": "Khalid Taha",
+    "sourceRow": 327,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/khalid-taha-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-123713999e9c",
+    "name": "Scott Glasgow",
+    "sourceRow": 328,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/scott-glasgow-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-74fda1ee0cc3",
+    "name": "Miranda Merrell",
+    "sourceRow": 329,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/miranda-merrell-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-1b9c387fbd5c",
+    "name": "Priscila Cachoeira Gomes da Silva",
+    "sourceRow": 330,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/priscila-cachoeira-gomes-da-silva-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-fb72031d87b1",
+    "name": "Alexandria Gochenour",
+    "sourceRow": 331,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/alexandria-gochenour-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-ae780d447bf0",
+    "name": "Janelle Shafer",
+    "sourceRow": 332,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/janelle-shafer-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-6e424bc53694",
+    "name": "Stirley Jones",
+    "sourceRow": 333,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/aaa-panel-imposes-doping-sanction-for-stirley-jones/",
+      "https://www.usada.org/sanction/cas-upholds-four-year-sanction-stirley-jones/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-13a7b9335634",
+    "name": "Amy Hay",
+    "sourceRow": 334,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/aaa-panel-imposes-doping-sanction-amy-hay/",
+      "https://www.usada.org/sanction/amy-hay-granted-reduced-sanction-doping/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-065cb1c212f2",
+    "name": "Lawrence Letellier",
+    "sourceRow": 335,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/lawrence-letellier-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-389af2a830c9",
+    "name": "Erik Nunez",
+    "sourceRow": 337,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/erik-nunez-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-a504ae6790e5",
+    "name": "Kaley Anderson",
+    "sourceRow": 338,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/kaley-anderson-accept-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-90b022f70eb8",
+    "name": "Istela Iane Nunes Souza",
+    "sourceRow": 339,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/istela-iane-nunes-souza-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-89acf5709b63",
+    "name": "Giacomo Y Frederico Salvador de Lemos",
+    "sourceRow": 340,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/giacomo-lemos-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-e098e2f1ce3a",
+    "name": "John Allan Arte",
+    "sourceRow": 341,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/john-allan-arte-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-2ef8b37f0a14",
+    "name": "Melissa Gatto Regonha",
+    "sourceRow": 342,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/melissa-gatto-regonha-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-671281fb69ce",
+    "name": "Ty Kurth",
+    "sourceRow": 343,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/ty-kurth-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-aa328ab33954",
+    "name": "Conor Dwyer",
+    "sourceRow": 344,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/aaa-panel-imposes-20-month-sanction-on-swimming-athlete-conor-dwyer/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-ceba58fad888",
+    "name": "Natalie Franklin",
+    "sourceRow": 345,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/natalie-franklin-receives-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-b54bb0c30eb2",
+    "name": "Kyler Allison",
+    "sourceRow": 346,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/kyler-allison-receives-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-8644c327e2ca",
+    "name": "Todd Davis",
+    "sourceRow": 347,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/todd-davis-receives-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-5a1c3cf5b36f",
+    "name": "Josue Cano",
+    "sourceRow": 348,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/josue-cano-receives-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-3b0468bad7e7",
+    "name": "Alberto Salazar",
+    "sourceRow": 349,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/aaa-panel-4-year-sanctions-alberto-salazar-jeffrey-brown/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-3a962582a492",
+    "name": "Jeffrey Brown",
+    "sourceRow": 350,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/aaa-panel-4-year-sanctions-alberto-salazar-jeffrey-brown/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-b91273ba81fa",
+    "name": "Angela Carlberg",
+    "sourceRow": 351,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/angela-carlberg-accepts-public-warning/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-3c12ca27364f",
+    "name": "David Branch",
+    "sourceRow": 352,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/david-branch-receives-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-d9cf95fdf2a4",
+    "name": "Sarah Frota Lima",
+    "sourceRow": 353,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/sarah-frota-lima-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-2889cf64a1c2",
+    "name": "Dmitry Smolyakov",
+    "sourceRow": 354,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/Dmitry-Smolyakov-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-b714a3c460a7",
+    "name": "Lauren Goss",
+    "sourceRow": 355,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/lauren-goss-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-d11c3ef3a336",
+    "name": "Nicole Maynard",
+    "sourceRow": 356,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/nicole-maynard-receives-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-c9c45b394560",
+    "name": "Thibault Gouti",
+    "sourceRow": 357,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/thibault-gouti-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-a03174806ed8",
+    "name": "CB Dollaway",
+    "sourceRow": 358,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/cb-dollaway-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-32d8930ed871",
+    "name": "Roman Dolidze",
+    "sourceRow": 359,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/roman-dolidze-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-771916e2cfce",
+    "name": "Michael Bond",
+    "sourceRow": 360,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/michael-bond-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-5dca0d670577",
+    "name": "Joane Orbon",
+    "sourceRow": 361,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/joane-obon-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-a00b98f42826",
+    "name": "William Licon",
+    "sourceRow": 362,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/william-licon-accepts-public-warning/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-a187e411794f",
+    "name": "Mallory Schafer",
+    "sourceRow": 363,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/mallory-schafer-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-990a455fba77",
+    "name": "Jacqueline Galloway",
+    "sourceRow": 364,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/jacqueline-galloway-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-71fc969430be",
+    "name": "Alen Amedovski",
+    "sourceRow": 365,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/alen-amedovski-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-faf9ebfb231f",
+    "name": "Joe Sacklow",
+    "sourceRow": 366,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/joe-sacklow-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-74510fc23e03",
+    "name": "Darcie Warren",
+    "sourceRow": 367,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/darcie-warren-receives-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-3de5b33b9fdb",
+    "name": "Ivan Shtyrkov",
+    "sourceRow": 368,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/ivan-shtyrkov-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-4518fb0dbd4d",
+    "name": "Talina Le",
+    "sourceRow": 369,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/talina-le-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-d4f42cda7250",
+    "name": "Mandy Mosley",
+    "sourceRow": 370,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/mandy-mosely-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-f59f89e55219",
+    "name": "Yaozong Hu",
+    "sourceRow": 371,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/yaozong-hu-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-ac47db4ccee4",
+    "name": "Alex Gorgees",
+    "sourceRow": 372,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/alex-gorgees-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-5e63cf8c55ef",
+    "name": "Elizabeth Waterstraat",
+    "sourceRow": 373,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/elizabeth-waterstraat-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-75e40a8ec8cb",
+    "name": "Mohamed Omar",
+    "sourceRow": 375,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/mohamed-omar-receives-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-2c050c48715f",
+    "name": "Amanda Ribas",
+    "sourceRow": 376,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/amanda-ribas-accepts-doping-sanction/",
+      "https://www.usada.org/sanction/amanda-ribas-granted-a-reduced-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-f534d40de6df",
+    "name": "Janel Tisinger-Ledkins",
+    "sourceRow": 377,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/janel-tisinger-ledkins-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-e1fc141505fa",
+    "name": "Carlos Costa",
+    "sourceRow": 378,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/paulo-costa-and-carlos-costa-accept-doping-sanctions/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-462a6517ccaf",
+    "name": "Paulo Costa",
+    "sourceRow": 379,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/paulo-costa-and-carlos-costa-accept-doping-sanctions/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-1f960c291519",
+    "name": "Nicco Montano",
+    "sourceRow": 380,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/usada-resolves-four-ostarine-cases-under-ufc-anti-doping-policy/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-b29f10fc161f",
+    "name": "Marvin Vettori",
+    "sourceRow": 382,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/usada-resolves-four-ostarine-cases-under-ufc-anti-doping-policy/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-1f1979880ecd",
+    "name": "Augusto Mendes",
+    "sourceRow": 383,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/usada-resolves-four-ostarine-cases-under-ufc-anti-doping-policy/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-a4b1409ba4dc",
+    "name": "Walt Harris",
+    "sourceRow": 384,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/walt-harris-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-4ca308b750ba",
+    "name": "Mairbek Taisumov",
+    "sourceRow": 386,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/mairbek-taisumov-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-dd1158042972",
+    "name": "Azamat Murzakanov",
+    "sourceRow": 388,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/azamat-murzakanov-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-d75ed8b5f7e7",
+    "name": "Joseph Baratto",
+    "sourceRow": 390,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/joseph-baratto-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-51b08866d858",
+    "name": "Devin Logan",
+    "sourceRow": 392,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/devin-logan-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-6b18a7917171",
+    "name": "Cheyenne Schenk",
+    "sourceRow": 393,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/cheyenne-schenk-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-808be827a112",
+    "name": "Khalid Murtazaliev",
+    "sourceRow": 394,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/khalid-murtazaliev-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-469cf6cbde0b",
+    "name": "Jake Collier",
+    "sourceRow": 395,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/jake-collier-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-7892ab1bda15",
+    "name": "Ira Sorensen",
+    "sourceRow": 396,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/ira-sorenson-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-a7c95fd980c0",
+    "name": "Jennifer Pate",
+    "sourceRow": 397,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/jennifer-pate-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-507362151651",
+    "name": "Rachel Campbell",
+    "sourceRow": 398,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/rachel-campbell-receives-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-0f9636fca02d",
+    "name": "Trevor Cuicchi",
+    "sourceRow": 399,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/trevor-cuicchi-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-5541522b98d9",
+    "name": "Cory Juneau Scott",
+    "sourceRow": 400,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/cory-scott-juneau-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-1b4c6223d309",
+    "name": "Michel Carrillo",
+    "sourceRow": 401,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/michel-carrillo-receives-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-62a4fd748f72",
+    "name": "Jennifer Maia",
+    "sourceRow": 402,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/jennifer-maia-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-d148c75dad18",
+    "name": "Robert Brown",
+    "sourceRow": 403,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/robert-brown-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-48b4a6a3d8f2",
+    "name": "Carl Grove",
+    "sourceRow": 404,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/carl-grove-accepts-public-warning/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-acd5a54c3768",
+    "name": "David Pate",
+    "sourceRow": 405,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/david-pate-receives-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-d1537bff40b3",
+    "name": "Laura Zeng",
+    "sourceRow": 406,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/laura-zeng-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-9d043f074433",
+    "name": "Stefan Sekulic",
+    "sourceRow": 407,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/stefan-sekulic-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-ba35ceec6892",
+    "name": "Bharat Vijay Kandare",
+    "sourceRow": 408,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/bharat-vijay-kandare-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-c0efba522bf2",
+    "name": "Paulo Miyao",
+    "sourceRow": 410,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/paulo-miyao-accepts-doping-sanction/",
+      "https://www.usada.org/sanction/paulo-miyao-accepts-additional-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-a54b4661de47",
+    "name": "Enrique Lopez",
+    "sourceRow": 411,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/enrique-lopez-receives-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-139867b729db",
+    "name": "Steven Strickler",
+    "sourceRow": 412,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/steven-strickler-receives-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-b0ba08c3c442",
+    "name": "Polo Reyes",
+    "sourceRow": 413,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/polo-reyes-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-f4f935c438aa",
+    "name": "Luis Garcia del Moral",
+    "sourceRow": 414,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/members-of-the-united-states-postal-service-pro-cycling-team-doping-conspiracy-dr-garcia-del-moral-dr-ferrari-and-trainer-marti-receive-lifetime-bans-for-doping-violations/",
+      "https://www.usada.org/sanction/del-moral-reduced-sanction-cooperation/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-b9e2fbd7eebf",
+    "name": "Pedro Celaya Lazama",
+    "sourceRow": 416,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/aaa-panel-imposes-ban-for-team-director-bruyneel-team-doctor-celaya-and-team-trainer-marti-for-involvement-in-the-united-states-postal-service-usps-pro-cycling-team-doping-conspiracy/",
+      "https://www.usada.org/sanction/usada-statement-cas-decision-bruyneel-celaya-marti/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-571fbfcf1b29",
+    "name": "Jose Marti",
+    "sourceRow": 417,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/aaa-panel-imposes-ban-for-team-director-bruyneel-team-doctor-celaya-and-team-trainer-marti-for-involvement-in-the-united-states-postal-service-usps-pro-cycling-team-doping-conspiracy/",
+      "https://www.usada.org/sanction/usada-statement-cas-decision-bruyneel-celaya-marti/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-dd1a97e9431d",
+    "name": "Shaun Moffett",
+    "sourceRow": 418,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/shaun-moffett-accepts-doping-sanction/",
+      "https://www.usada.org/sanction/shaun-moffett-accepts-additional-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-ea0049989423",
+    "name": "Jeff Tanski",
+    "sourceRow": 419,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/jeff-tanski-receives-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-3de97241ad1f",
+    "name": "Bradley Scott",
+    "sourceRow": 420,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/bradley-scott-accepts-doping-sanction"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-998b9264b440",
+    "name": "Mijail Gonzalez",
+    "sourceRow": 421,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/mijail-gonzalez-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-b990939e8002",
+    "name": "Bob Eyler",
+    "sourceRow": 422,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/aaa-arbitrator-imposes-doping-sanction-on-archery-athlete-bob-eyler/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-9c2bd61dbab6",
+    "name": "Raul Diaz",
+    "sourceRow": 424,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/raul-diaz-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-9f7df256f65e",
+    "name": "Adam Hunter",
+    "sourceRow": 426,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/adam-hunter-accepts-doping-sanction/",
+      "https://www.usada.org/sanction/adam-hunter-accepts-disqualification-of-results-after-violation/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-5e279c9e9968",
+    "name": "Cameron Dudeck",
+    "sourceRow": 430,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/cameron-dudeck-receives-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-e6341e3462ec",
+    "name": "Stephen Bedford",
+    "sourceRow": 431,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/stephen-bedford-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-8e3e0cdfe74b",
+    "name": "Victoria Francis",
+    "sourceRow": 432,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/victoria-francis-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-22983a4911f9",
+    "name": "Emily Malinowski",
+    "sourceRow": 434,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/emily-malinowski-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-04a1e7f11069",
+    "name": "Demi Payne",
+    "sourceRow": 435,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/demi-payne-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-69dbcabe44bb",
+    "name": "Joshua Gaskins",
+    "sourceRow": 436,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/joshua-gaskins-receives-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-c42379b4285c",
+    "name": "Daniel Frazier",
+    "sourceRow": 438,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/daniel-frazier-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-ae00cea53d18",
+    "name": "Charles Ssekyaaya",
+    "sourceRow": 439,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/charles-ssekyaaya-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-5d85c8dbd1a0",
+    "name": "Anthony Ferraro",
+    "sourceRow": 440,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/anthony-ferraro-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-5b1d89435a80",
+    "name": "Bruce Mazur",
+    "sourceRow": 441,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/bruce-mazur-receives-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-31d2d25d4314",
+    "name": "Michael Meacham",
+    "sourceRow": 445,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/michael-meacham-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-bf339aba153c",
+    "name": "Michał Oleksiejczuk",
+    "sourceRow": 446,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/michal-oleksiejczuk-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-7ecfb208518e",
+    "name": "Roger Ainslie",
+    "sourceRow": 447,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/roger-ainslie-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-38afed413abd",
+    "name": "Buster Brown",
+    "sourceRow": 448,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/buster-brown-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-e833e68d19e3",
+    "name": "Scott Gross",
+    "sourceRow": 449,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/scott-gross-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-9917ceb31d16",
+    "name": "Jordan Chipangama",
+    "sourceRow": 450,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/jordan-chipangama-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-1afebbd6c57b",
+    "name": "Cesar Colunga",
+    "sourceRow": 451,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/cesar-colunga-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-196afd5ac99f",
+    "name": "Amanda Kendall",
+    "sourceRow": 452,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/amanda-kendall-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-f75282803398",
+    "name": "Abigail Dahlkemper",
+    "sourceRow": 453,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/abigail-dahlkemper-accepts-public-warning/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-0a1e2a424b5b",
+    "name": "Antonio Rogerio Nogueira",
+    "sourceRow": 454,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/compounding-pharmacies-supply-tainted-supplements-behind-three-positive-tests/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-87e9b09724cd",
+    "name": "Junior dos Santos Almeida",
+    "sourceRow": 455,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/compounding-pharmacies-supply-tainted-supplements-behind-three-positive-tests/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-de424069b5d7",
+    "name": "Marcos Rogerio De Lima",
+    "sourceRow": 456,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/compounding-pharmacies-supply-tainted-supplements-behind-three-positive-tests/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-cc59982303fb",
+    "name": "Jason Griffin",
+    "sourceRow": 457,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/jason-griffin-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-9de5a5d1696d",
+    "name": "Jessica Rivera",
+    "sourceRow": 458,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/jessica-rivera-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-b16d0fb75234",
+    "name": "Barry Miller",
+    "sourceRow": 459,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/barry-miller-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-fe4d160648aa",
+    "name": "Dylan Lima",
+    "sourceRow": 460,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/dylan-lima-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-4b80a1fd50dc",
+    "name": "Nick Diaz",
+    "sourceRow": 461,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/nick-diaz-accepts-whereabouts-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-3d848274e422",
+    "name": "Teresa Britt",
+    "sourceRow": 462,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/teresa-britt-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-f274a171317b",
+    "name": "Ben Rothwell",
+    "sourceRow": 463,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/ben-rothwell-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-7d929fe046a9",
+    "name": "Megan Palicka",
+    "sourceRow": 464,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/megan-palicka-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-1b7ba3ce3c38",
+    "name": "Frank Volrath",
+    "sourceRow": 465,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/frank-volrath-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-6e7d139bba18",
+    "name": "Nicholas Gough",
+    "sourceRow": 466,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/nicholas-gough-receives-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-07d30b0088c7",
+    "name": "Julie Rosiek",
+    "sourceRow": 467,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/julie-rosiek-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-8bbe5698646b",
+    "name": "Abby Raymond",
+    "sourceRow": 468,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/abby-raymond-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-577401ce7bba",
+    "name": "Amanda Lemos",
+    "sourceRow": 469,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/amanda-lemos-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-63ed291f5546",
+    "name": "Josh Barnett",
+    "sourceRow": 470,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/josh-barnett-public-reprimand-doping-violation/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-bfeee80825b1",
+    "name": "Kaitlyn Jarrett",
+    "sourceRow": 471,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/kaitlyn-jarrett-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-901736ce5e01",
+    "name": "Lazaro Roman",
+    "sourceRow": 472,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/lazaro-roman-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-fe5a5b519af6",
+    "name": "Ion Cutelaba",
+    "sourceRow": 473,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/ion-cutelaba-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-e74528bb3264",
+    "name": "Cynthia Calvillo",
+    "sourceRow": 474,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/athlete-cynthia-calvillo-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-503574acf7cc",
+    "name": "Mihail (Mike) Alexandrov",
+    "sourceRow": 475,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/mike-alexandrov-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-f08f80372bdf",
+    "name": "Azunna Anyanwu",
+    "sourceRow": 476,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/azunna-anyanwu-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-e1d08c1250a0",
+    "name": "Zubaira Tukhugov",
+    "sourceRow": 477,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/ruslan-magomedov-zubaira-tukhugov-accept-doping-sanctions/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-cff74eefb316",
+    "name": "Jim Wallhead",
+    "sourceRow": 479,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/jim-wallhead-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-912d8ebf07fb",
+    "name": "Carls John de Tomas",
+    "sourceRow": 480,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/carls-john-de-tomas-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-558f18bd53c0",
+    "name": "James Mulheron",
+    "sourceRow": 481,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/james-mulheron-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-e6a03aa80344",
+    "name": "David Less",
+    "sourceRow": 482,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/david-less-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-5dd19e96b68c",
+    "name": "Craig Webb",
+    "sourceRow": 484,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/craig-webb-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-d71fd4910a16",
+    "name": "Jennifer Schumm",
+    "sourceRow": 485,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/aaa-panel-imposes-doping-sanction-jennifer-schumm/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-f49825dfb87e",
+    "name": "Sharon Jackson",
+    "sourceRow": 486,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/sharon-jackson-accepts-public-warning/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-0f682f5a12d7",
+    "name": "Marck Harrison",
+    "sourceRow": 487,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/marck-harrison-accepts-public-warning/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-8b83386b3243",
+    "name": "Alyssa Travis",
+    "sourceRow": 488,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/alyssa-travis-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-e211d17e78b9",
+    "name": "Lemuel Grayson",
+    "sourceRow": 489,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/lemuel-grayson-accepts-public-warning/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-2791db22edc5",
+    "name": "Bill Beyer",
+    "sourceRow": 490,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/bill-beyer-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-c7fd7d1dc042",
+    "name": "Francisco Rivera",
+    "sourceRow": 491,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/francisco-rivera-recieves-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-70b898158395",
+    "name": "James Vennera",
+    "sourceRow": 494,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/james-vennera-accepts-public-warning/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-8ad943acd5b0",
+    "name": "Jeffery Miller",
+    "sourceRow": 495,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/jeffery-miller-accepts-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-47db4d671c02",
+    "name": "Vikas Patel",
+    "sourceRow": 496,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/vikas-patel-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-994755070e39",
+    "name": "Kenna Wolter",
+    "sourceRow": 497,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/kenna-wolter-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-fcfbbcf8949b",
+    "name": "Jonathan Sanford",
+    "sourceRow": 498,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/jonathan-sanford-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-2a7f0468db54",
+    "name": "Michael Zoda",
+    "sourceRow": 499,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/michael-zoda-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-4366103d9b91",
+    "name": "Tori Polk",
+    "sourceRow": 500,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/tori-polk-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-89962cb00226",
+    "name": "Abdelmounaim Harroufi",
+    "sourceRow": 501,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/abdelmounaim-harroufi-receives-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-2c9f4748c39c",
+    "name": "Jay Henderson",
+    "sourceRow": 502,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/jay-henderson-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-c3130704636c",
+    "name": "Nana Owusu-Nyantekyi",
+    "sourceRow": 504,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/nana-owusu-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-8b342ddf5775",
+    "name": "Ryan Bailey",
+    "sourceRow": 505,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/aaa-panel-imposes-doping-sanction-for-ryan-bailey/",
+      "https://www.usada.org/sanction/cas-extends-sanction-length-ryan-bailey-doping-violation/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-67c062784c51",
+    "name": "Jenna Blandford",
+    "sourceRow": 506,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/aaa-arbitrator-imposes-doping-sanction-jenna-blandford/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-5682bad4c39a",
+    "name": "Royce Dates",
+    "sourceRow": 507,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/royce-dates-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-e52ee6c67921",
+    "name": "Lisa Roberts",
+    "sourceRow": 508,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/lisa-roberts-accepts-public-warning-doping-violation/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-4ab89c689116",
+    "name": "Atlanta Westbrook",
+    "sourceRow": 511,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/atlanta-westbrook-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-1db3f78a557b",
+    "name": "Carlos Felipe Cabral de Almeida",
+    "sourceRow": 513,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/carlos-felipe-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-5688f0d988a6",
+    "name": "Jesse Taylor",
+    "sourceRow": 514,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/jesse-taylor-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-7cdaea68994c",
+    "name": "Shaquille Vance",
+    "sourceRow": 515,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/shaquille-vance-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-605b6bd5216d",
+    "name": "Nick Roehrick",
+    "sourceRow": 516,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/nick-roehrick-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-870d48eb51f7",
+    "name": "John Schiefer",
+    "sourceRow": 517,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/john-schiefer-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-fc2334e2f733",
+    "name": "Zachary Wuebben",
+    "sourceRow": 518,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/zachary-wuebben-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-806eab5af83f",
+    "name": "Sarah Heinzl",
+    "sourceRow": 519,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/sarah-heinzl-accepts-public-warning-anti-doping-rule-violation/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-f10f5acd5654",
+    "name": "Zack Herbert",
+    "sourceRow": 521,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/zack-herbert-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-e8037781be81",
+    "name": "Guido Cannetti",
+    "sourceRow": 522,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/guido-cannetti-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-5028b81a128b",
+    "name": "Carlee Acevedo-Fuller",
+    "sourceRow": 523,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/carlee-acevedo-fuller-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-9ec9818d5795",
+    "name": "Marquise Goodwin",
+    "sourceRow": 524,
+    "sourceUrls": [
+      "https://www.usada.org/sanctiong/marquise-goodwin-accepts-whereabouts-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-491a96341462",
+    "name": "Chris Carter",
+    "sourceRow": 525,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/chris-carter-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-f0deefc6363c",
+    "name": "Tony Blazejack",
+    "sourceRow": 526,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/aaa-panel-imposes-doping-sanction-for-tony-blazejack/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-5b6cb4ab463d",
+    "name": "Riley Stohr",
+    "sourceRow": 527,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/riley-stohr-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-a0a7483bcc7e",
+    "name": "J.C. Cruse",
+    "sourceRow": 528,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/jc-cruse-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-55dafea87f5e",
+    "name": "Kayla Bushey",
+    "sourceRow": 529,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/kayla-bushey-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-0c3ec7a2af1e",
+    "name": "Scott McPherson",
+    "sourceRow": 530,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/scott-mcpherson-receives-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-1a29ad9ab5d6",
+    "name": "Tam Nguyen",
+    "sourceRow": 531,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/tam-nguyen-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-e80b8ce9da72",
+    "name": "Gea Johnson",
+    "sourceRow": 532,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/gea-johnson-receives-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-57d24bc2a3bf",
+    "name": "Benjamin Barnes",
+    "sourceRow": 533,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/benjamin-barnes-receives-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-5c49a520d9f7",
+    "name": "David Bayer",
+    "sourceRow": 534,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/david-bayer-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-5db3549805d5",
+    "name": "Ariel Gibilaro",
+    "sourceRow": 538,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/ariel-gibilaro-accepts-public-warning/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-0c3eeb120b51",
+    "name": "Peter Park",
+    "sourceRow": 540,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/peter-park-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-005ef8b2c89f",
+    "name": "Michael Nackoul",
+    "sourceRow": 541,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/michael-nackoul-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-a866a19663a5",
+    "name": "Robert Kyle Dosterschill",
+    "sourceRow": 542,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/robert-dosterschill-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-ab372572f1a9",
+    "name": "Tyler Moore",
+    "sourceRow": 543,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/tyler-moore-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-9c8b8e7bbb4c",
+    "name": "Chris Creveling",
+    "sourceRow": 544,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/chris-creveling-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-36b25b3d84e6",
+    "name": "Jason Young",
+    "sourceRow": 545,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/jason-young-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-64a436bacae4",
+    "name": "Michael Gingras",
+    "sourceRow": 547,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/michael-gingras-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-792c30cdc646",
+    "name": "Imani Oliver",
+    "sourceRow": 548,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/imani-oliver-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-89c25ce0aa40",
+    "name": "Darien Moore",
+    "sourceRow": 550,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/darien-moore-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-a190ab7e50ab",
+    "name": "Scot Harvey",
+    "sourceRow": 551,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/scot-harvey-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-2368662f3457",
+    "name": "Cliff Nielson",
+    "sourceRow": 552,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/cliff-nielson-receives-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-2a8b050c35ed",
+    "name": "Molly Beckwith-Ludlow",
+    "sourceRow": 553,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/molly-beckwith-ludlow-accepts-public-warning/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-852d1592d47d",
+    "name": "Francisco Mir",
+    "sourceRow": 554,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/francisco-mir-receives-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-62cd624955ca",
+    "name": "Brianna Rollins",
+    "sourceRow": 555,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/brianna-rollins-receives-whereabouts-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-acfba90a8905",
+    "name": "Amanda Geving",
+    "sourceRow": 556,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/amanda-geving-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-f40282760e72",
+    "name": "Patrick \"Dillon\" Schrodt",
+    "sourceRow": 557,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/patrick-schrodt-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-aaeab6e9ad9f",
+    "name": "Justin Ledet",
+    "sourceRow": 558,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/justin-ledet-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-47637df7337b",
+    "name": "Lyman Good",
+    "sourceRow": 559,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/lyman-good-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-4c8477ef4e9c",
+    "name": "Matheus Nicolau Pereira",
+    "sourceRow": 560,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/matheus-nicolau-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-dddef1b59fd2",
+    "name": "Mary Hall",
+    "sourceRow": 561,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/mary-hall-receives-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-306630d492a8",
+    "name": "Leonardo Pires Nogueira",
+    "sourceRow": 562,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/leonardo-pires-nogueira-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-af663e2ba611",
+    "name": "Viscardi Andrade",
+    "sourceRow": 563,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/viscardi-andrade-receives-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-5a084088440d",
+    "name": "Roderick Green",
+    "sourceRow": 565,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/roderick-green-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-4c30c4355448",
+    "name": "Robert Prenoveau",
+    "sourceRow": 566,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/robert-prenoveau-accepts-public-warning/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-3a2b44290235",
+    "name": "Gabriel Dawson",
+    "sourceRow": 568,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/gabriel-dawson-receives-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-d002f5de5fe5",
+    "name": "Tom Lawlor",
+    "sourceRow": 569,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/tom-lawlor-accepts-sanction-for-anti-doping-policy-violation/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-e238095a79ab",
+    "name": "Vincent Pierik",
+    "sourceRow": 570,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/vincent-pierik-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-9aa5cea0cfe1",
+    "name": "Tammy Thomas",
+    "sourceRow": 571,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/u-s-cyclist-thomas-receives-lifetime-suspension-from-usada-for-positive-drug-test/",
+      "https://www.usada.org/sanction/tammy-thomas-granted-sanction-reduction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-f8fb776d4fa9",
+    "name": "Dawn Harper-Nelson",
+    "sourceRow": 572,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/dawn-harper-nelson-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-4a3b32d0a68f",
+    "name": "Luis Felipe Olivieri",
+    "sourceRow": 575,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/felipe-olivieri-receives-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-c624acaae104",
+    "name": "Andrew Vrabel",
+    "sourceRow": 576,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/andrew-vrabel-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-8ec50c866d5f",
+    "name": "Charis Chan",
+    "sourceRow": 577,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/charis-chan-receives-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-97da51a4cd91",
+    "name": "Angelique Matsushima",
+    "sourceRow": 578,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/angelique-matsushima-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-cca09860726b",
+    "name": "Joseph Lamour",
+    "sourceRow": 580,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/joseph-lamour-receives-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-f317e438106d",
+    "name": "Carlos Diego Ferreira",
+    "sourceRow": 581,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/carlos-digeo-ferreira-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-e7645ab29f67",
+    "name": "Joseph Mazzie",
+    "sourceRow": 582,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/joseph-mazzie-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-1f56bc7e39f1",
+    "name": "Nick Mossberg",
+    "sourceRow": 584,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/nicholas-mossberg-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-e05e2fe6db96",
+    "name": "Thomas Luton",
+    "sourceRow": 585,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/thomas-luton-receives-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-a19d120a5a90",
+    "name": "Brandon Reyes",
+    "sourceRow": 586,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/brandon-reyes-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-35cf2f26656b",
+    "name": "Nicole Moore",
+    "sourceRow": 587,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/nicole-moore-accepts-doping-violation/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-c269d76b2513",
+    "name": "Ryan Pinney",
+    "sourceRow": 588,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/ryan-pinney-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-ebf1a0d4dc1e",
+    "name": "Lyoto Machida",
+    "sourceRow": 589,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/lyoto-machida-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-48f0300507d6",
+    "name": "Michael Dunkum",
+    "sourceRow": 591,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/michael-dunkum-accepts-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-edde57057db6",
+    "name": "Cody Bidlow",
+    "sourceRow": 593,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/cody-bidlow-accepts-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-8bd7326e338b",
+    "name": "Tim Root",
+    "sourceRow": 594,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/tim-root-receives-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-8ddced539859",
+    "name": "Camilo Ulloa",
+    "sourceRow": 595,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/camilo-ulloa-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-c74a8d070951",
+    "name": "Abdul-Kerim Edilov",
+    "sourceRow": 596,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/abdul-kerin-edilov-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-2f9240d9a0fa",
+    "name": "Nate Diaz",
+    "sourceRow": 598,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/nate-diaz-accepts-public-warning/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-bdee2b92bd81",
+    "name": "Oscar Tovar",
+    "sourceRow": 599,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/oscar-tovar-accepts-doping-sanction/",
+      "https://www.usada.org/oscar-tovar-accepts-disqualification-results/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-9078b2b3f8b8",
+    "name": "Shawn D'Aurelio",
+    "sourceRow": 600,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/shawn-daurelio-accepts-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-d14484534da6",
+    "name": "Trell Kimmons",
+    "sourceRow": 601,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/trell-kimmons-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-359e0f8decd5",
+    "name": "Jeff Schwab",
+    "sourceRow": 602,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/jeff-schwab-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-b4b0b68cd6ef",
+    "name": "Rizelyx Rivera",
+    "sourceRow": 603,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/rizelyx-rivera-receives-doping-violation/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-c094b52b3bf1",
+    "name": "Ana Milena Fagua Raquira",
+    "sourceRow": 605,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/ana-raquira-receives-doping-violation/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-74c3aeb782a0",
+    "name": "Jessica Denney Phillips",
+    "sourceRow": 608,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/jessica-phillips-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-b06931c0b392",
+    "name": "Robert Baatz",
+    "sourceRow": 609,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/robert-baatz-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-bdc4265e8819",
+    "name": "Kimberly Ciolli",
+    "sourceRow": 610,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/kimberly-ciolli-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-7e8de6d6b9b2",
+    "name": "Gebo Burka Gameda",
+    "sourceRow": 611,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/gebo-burka-gameda-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-6fde059a15f4",
+    "name": "Mary Verrando-Higgins",
+    "sourceRow": 612,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/mary-verrando-higgins-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-47a780e34432",
+    "name": "Crystal Riggs",
+    "sourceRow": 613,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/crystal-riggs-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-c0ec4fad5514",
+    "name": "Thomas Cawley",
+    "sourceRow": 614,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/thomas-cawley-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-8dad49f14d57",
+    "name": "Robert Anderson",
+    "sourceRow": 616,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/robert-anderson-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-1198265168e2",
+    "name": "Liz Palmer",
+    "sourceRow": 617,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/liz-palmer-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-8cb3a0dde92d",
+    "name": "Gino Bough",
+    "sourceRow": 621,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/gino-bough-accepts-sanction-for-whereabouts-violation/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-833c7bedcdbc",
+    "name": "Gregory Pizza",
+    "sourceRow": 625,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/aaa-imposes-sanction-greg-pizza/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-09d96ec873e6",
+    "name": "Susan Dutta",
+    "sourceRow": 626,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/susan-dutta-accepts-public-warning-for-anti-doping-rule-violation/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-8813abb5dfc8",
+    "name": "James Howe",
+    "sourceRow": 629,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/james-howe-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-9f3992ac546c",
+    "name": "BJ Penn",
+    "sourceRow": 631,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/jay-dee-penn-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-da438080c91f",
+    "name": "Sam Tierney",
+    "sourceRow": 632,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/sam-tierney-receives-public-warning/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-6d48feafc5e9",
+    "name": "Nia Williams",
+    "sourceRow": 634,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/nia-williams-receives-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-e67569c5712b",
+    "name": "Tim Means",
+    "sourceRow": 635,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/tim-means-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-7dd4ae313b2a",
+    "name": "Diego Brandao",
+    "sourceRow": 636,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/diego-brandao-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-7aef356ce2b0",
+    "name": "Breno Correina Abrantes Faria",
+    "sourceRow": 637,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/breno-faria-accepts-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-b95ab234ef5b",
+    "name": "Daniel Lehr",
+    "sourceRow": 638,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/daniel-lehr-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-de625da34c51",
+    "name": "Dylan Fischbach",
+    "sourceRow": 639,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/dylan-fischbach-accepts-doping-sanction/",
+      "https://www.usada.org/sanction/dylan-fischbach-receives-disqualification-of-results/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-e221314138b0",
+    "name": "Yamile Lugo",
+    "sourceRow": 640,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/yamile-lugo-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-4a1c4aeb0b50",
+    "name": "Yoel Romero",
+    "sourceRow": 641,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/yoel-romero-accepts-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-35a1a3f475de",
+    "name": "Landon De Castroverde",
+    "sourceRow": 642,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/landon-de-castroverde-receives-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-e202db4ec31d",
+    "name": "Ashley Paulson",
+    "sourceRow": 643,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/ashley-paulson-accepts-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-5ba221c74afd",
+    "name": "Chris Hyun Cho",
+    "sourceRow": 644,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/hyun-cho-accepts-doping-saction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-32c2c6bdacff",
+    "name": "Michael Buckley",
+    "sourceRow": 645,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/michael-buckley-accepts-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-823621394e12",
+    "name": "Gleison Tibau",
+    "sourceRow": 648,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/gleison-tibau-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-fd034487d104",
+    "name": "Blake (Patrick) Leeper",
+    "sourceRow": 649,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/us-paralympic-track-field-athlete-leeper-accepts-sanction-for-anti-doping-rule-violation/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-a71a79541adf",
+    "name": "Cicely Kyle",
+    "sourceRow": 650,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/cicely-kyle-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-1359b69cc9a8",
+    "name": "Joseph Roberto",
+    "sourceRow": 651,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/roberto-receives-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-7bc5cb200d7f",
+    "name": "Lilian Mariita",
+    "sourceRow": 652,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/lilian-mariita-receives-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-2428086c1745",
+    "name": "Tara Harbert",
+    "sourceRow": 653,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/tara-harbert-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-b82a5605734c",
+    "name": "Nelson Rolo",
+    "sourceRow": 654,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/nelson-rolo-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-a840386ff960",
+    "name": "Todd Hickman",
+    "sourceRow": 655,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/us-cycling-athlete-hickman-accepts-sanction-for-anti-doping-rule-violation/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-51d0670e75d0",
+    "name": "Mirko Filipovic",
+    "sourceRow": 656,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/mirko-filipovic-receives-doping-violations/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-f0b961ae7b29",
+    "name": "Brian Coushay",
+    "sourceRow": 658,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/brian-coushay-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-06ecf3294b60",
+    "name": "Mohamed Trafeh",
+    "sourceRow": 660,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/aaa-arbitrator-imposes-four-year-sanction-us-track-field-athlete-trafeh-non-analytical-anti-doping-violations-involving-use-epo-evading-testing/",
+      "https://www.usada.org/sanction/cas-decision-extend-sanction-trafeh/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-92915a0a9ab8",
+    "name": "Jason Rybka",
+    "sourceRow": 661,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/jason-rybka-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-37c4254f57db",
+    "name": "Emily Field",
+    "sourceRow": 662,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/emily-field-accepts-whereabouts-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-06946c17f404",
+    "name": "Robert Radcliffe",
+    "sourceRow": 663,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/robert-radcliffe-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-c866b3941e2a",
+    "name": "Brook Radcliffe",
+    "sourceRow": 664,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/brook-radcliffe-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-054c6fc3db94",
+    "name": "Kyle Schmidt",
+    "sourceRow": 665,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/kyle-schmidt-accepts-doping-sanction/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-76eb43a9a1ca",
+    "name": "Deanna McGillivray",
+    "sourceRow": 668,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/deanna-mcgillivray/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-084b6a39152d",
+    "name": "Joseph Mutinda",
+    "sourceRow": 669,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/kenyan-track-field-athlete-mutinda-accepts-usada-sanction-rule-violations/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-e3e0fb3d8968",
+    "name": "Wayne Odesnik",
+    "sourceRow": 670,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/decision-wayne-odesnik/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-a2eb5c4bd912",
+    "name": "Atalelech Ketema Asfaw",
+    "sourceRow": 671,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/aaa-panel-imposes-sanction-asfaw/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-dcd272507163",
+    "name": "Geert Leinders",
+    "sourceRow": 672,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/pro-cycling-team-rabobank-board-member-chief-team-doctor-leinders-receives-lifetime-ban-multiple-anti-doping-rule-violations/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-0b6c0ad1910b",
+    "name": "Jonathan North",
+    "sourceRow": 673,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/us-weightlifting-athlete-north-receives-sanction-rule-violation/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-c85eeeb4361d",
+    "name": "Jon Drummond",
+    "sourceRow": 677,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/aaa-panel-imposes-eight-year-ban-us-track-field-coach-drummond-multiple-anti-doping-rule-violations/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-e70ba7874bc8",
+    "name": "Braulio Estima",
+    "sourceRow": 678,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/brazilian-jiu-jitsu-athlete-estima-accepts-sanction-for-rule-violation/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-599b60c4d3c6",
+    "name": "Nikki Carlin",
+    "sourceRow": 679,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/us-weightlifting-athlete-carlin-accepts-sanction-for-rule-violation/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-fa785d4d0152",
+    "name": "James Martin",
+    "sourceRow": 685,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/us-cycling-athlete-martin-receives-sanction-rule-violation/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-aeda365fe404",
+    "name": "Paul Koon",
+    "sourceRow": 694,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/u-s-boxing-athlete-koon-receives-sanction-for-anti-doping-rule-violation/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-221e320636c1",
+    "name": "Tyler Flanagan",
+    "sourceRow": 727,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/us-snowboarding-athlete-flanagan-accepts-sanction-for-anti-doping-rule-violation/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-b6d15f8181f0",
+    "name": "Matthew DiBuono",
+    "sourceRow": 782,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/us-track-and-field-athlete-accepts-sanction-for-doping-violation-3/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-efe8775f0db9",
+    "name": "Mark Block",
+    "sourceRow": 798,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/international-track-field-sports-agent-and-event-manager-mark-block-receives-10-year-suspension-from-independent-arbitration-panel-based-on-participation-in-balco-drug-conspiracy/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-436c5e560019",
+    "name": "Raymond Stewart",
+    "sourceRow": 819,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/u-s-track-field-coach-raymond-stewart-receives-lifetime-suspension/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-aa80c89f28c3",
+    "name": "Trevor Graham",
+    "sourceRow": 861,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/usada-imposes-lifetime-ban-against-former-track-field-coach-trevor-graham/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-2e23b0f3debc",
+    "name": "Remi Korchemny",
+    "sourceRow": 879,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/korchemny-withdraws-challenge-to-u-s-anti-doping-agency-charges/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  },
+  {
+    "id": "usada-c455cfaffdb7",
+    "name": "Tony Dees",
+    "sourceRow": 892,
+    "sourceUrls": [
+      "https://www.usada.org/sanction/u-s-track-athlete-dees-receives-lifetime-suspension-from-usada-for-positive-drug-tests/"
+    ],
+    "status": "pending_individual_review",
+    "nationality": "unknown_until_individual_review"
+  }
+]

@@ -1,0 +1,522 @@
+{
+  "cases": [
+    {
+      "id": "usada-ad29940bbb3c",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-7c6e754f6c9e74ee",
+        "registry-426368398547298f"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-7c6e754f6c9e74ee",
+          "startLine": 1,
+          "endLine": 19,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "USADA公告自行車選手Jackson Huntley Nash因多項非檢驗與物質違規被處終身禁賽並取消2021年12月15日起成績"
+        },
+        {
+          "documentId": "registry-426368398547298f",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "USADA官方名冊載明Nash之非檢驗多項違規處以終身禁賽與取消成績"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "medium",
+          "claim": "美國",
+          "explanation": "文件僅於標題提及「U.S. Cycling Athlete」並提及居住於喬治亞州瑪麗埃塔，依審查原則，機構管轄權、居住地或新聞標題稱呼不足以直接證實其國籍或運動代表權，現有來源證據不充分。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-7c6e754f6c9e74ee",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "將國籍或代表隊歸屬列為不確定，或補充明確載有國籍／體育代表權的官方參賽註冊紀錄。"
+        }
+      ]
+    },
+    {
+      "id": "usada-06a9eec196b6",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-5b9c5581df4f1163",
+        "registry-84f594001009f6bb"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-5b9c5581df4f1163",
+          "startLine": 1,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "BMX選手Lucas Howes於2022年5月15日賽內檢出carboxy-THC超標，接受3個月禁賽並取消該日起成績"
+        },
+        {
+          "documentId": "registry-84f594001009f6bb",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊確認Howes因大麻素被處3個月禁賽及取消成績"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "medium",
+          "claim": "美國",
+          "explanation": "官方文件僅在標題載有「U.S. BMX Athlete」並載明居住於亞利桑那州斯科茨代爾，依規範不能僅憑發布機構管轄、居住地或標題稱呼推定國籍或代表權。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-5b9c5581df4f1163",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "將國籍欄位標註為不確定，或補充官方國籍或代表權所屬證明。"
+        }
+      ]
+    },
+    {
+      "id": "usada-cbc321b291f0",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-0a6ddae8fd9b0655",
+        "registry-ef858c8e443dc62e"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-0a6ddae8fd9b0655",
+          "startLine": 1,
+          "endLine": 8,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "地板滾球選手Wyatt Struxness因照護人員分藥錯誤誤服furosemide，接受公開警告且無禁賽期間，因屬賽外檢驗無成績需取消"
+        },
+        {
+          "documentId": "registry-ef858c8e443dc62e",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "dates"
+          ],
+          "note": "名冊載明Struxness因Furosemide處分公開警告"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "medium",
+          "claim": "美國",
+          "explanation": "公告僅於標題使用「U.S. Boccia Athlete」且正文僅述及居住於德州聖安東尼奧，缺乏獨立之官方國籍或代表隊歸屬證明。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-0a6ddae8fd9b0655",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "標註國籍證據不充分，或補入證明其代表國籍之正式身分文件。"
+        }
+      ]
+    },
+    {
+      "id": "usada-2a3f0160a9f3",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-749020a82659414d",
+        "registry-720d627a213b501b"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-749020a82659414d",
+          "startLine": 1,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "輕艇選手Andrii Monastyrskyi於2022年4月15日選拔賽檢出meldonium，依及早承認規定獲減刑為3年禁賽並取消成績"
+        },
+        {
+          "documentId": "registry-720d627a213b501b",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊記錄Monastyrskyi因Meldonium受3年禁賽處分並取消成績"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "medium",
+          "claim": "美國",
+          "explanation": "文件標題為「U.S. Canoe Athlete」且提及居住於紐澤西州林登，雖於美國選拔賽檢驗，但依原則不能逕由主管機關或標題稱呼推定確定國籍。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-749020a82659414d",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "國籍審查判定為證據不充分，建議補具選手體育國籍或公民身分之證明文件。"
+        }
+      ]
+    },
+    {
+      "id": "usada-10e9f0a6f725",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-f36b1923d482fcc2",
+        "registry-ab19af83499c9df8"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-f36b1923d482fcc2",
+          "startLine": 1,
+          "endLine": 12,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "田徑選手Erik Kynard Jr.因社群圖片調查確認接受超量食鹽水靜脈輸注且無TUE，接受6個月禁賽，退休期間禁賽期停止計算"
+        },
+        {
+          "documentId": "registry-ab19af83499c9df8",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "dates"
+          ],
+          "note": "名冊記錄Kynard非檢驗性靜脈輸注違規，處6個月禁賽"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "medium",
+          "claim": "美國",
+          "explanation": "公告僅在標題寫為「U.S. Track & Field Athlete」並記載其居住於喬治亞州亞特蘭大，缺乏直接國籍或體育代表權證明。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-f36b1923d482fcc2",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "將國籍欄標記為證據不足／不確定，需補充明確的國籍或國家代表隊證明文件。"
+        }
+      ]
+    },
+    {
+      "id": "usada-73473ebf3acd",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-e499d15657d4975d",
+        "registry-3606bbddc08297d4"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-e499d15657d4975d",
+          "startLine": 1,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "田徑選手Ana Irizarry於大師室內錦標賽檢出meldonium，依及早承認規定獲減為3年禁賽並取消成績"
+        },
+        {
+          "documentId": "registry-3606bbddc08297d4",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊確認Irizarry因Meldonium處3年禁賽及取消成績"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "medium",
+          "claim": "美國",
+          "explanation": "官方文檔僅有新聞標題稱「U.S. Track & Field Athlete」以及居住於紐澤西州帕賽克，依審查原則不足以確定運動代表權或國籍。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-e499d15657d4975d",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "將國籍改列不確定，或引證選手官方註冊之國籍資料。"
+        }
+      ]
+    },
+    {
+      "id": "usada-a11b3068ba54",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-867e4b8c0112fe38",
+        "registry-443859e18e61a551"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-867e4b8c0112fe38",
+          "startLine": 1,
+          "endLine": 9,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "自行車選手Hanncer Valdes於南佛羅里達賽檢出stanozolol代謝物，受4年禁賽處分並取消成績"
+        },
+        {
+          "documentId": "registry-443859e18e61a551",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊記錄Valdes因Stanozolol處4年禁賽與取消成績"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "medium",
+          "claim": "美國",
+          "explanation": "文件僅於標題使用「U.S. Cycling Athlete」並提及居住於佛羅里達州彭布羅克派恩斯，不足以確認選手國籍或特定體育代表權。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-867e4b8c0112fe38",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "國籍欄位調整為不確定，或補充其代表美國參賽之官方身分紀錄。"
+        }
+      ]
+    },
+    {
+      "id": "usada-f3337bee1348",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-6e8d64ed2aef9f21",
+        "registry-7275d980b7aeae24"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-6e8d64ed2aef9f21",
+          "startLine": 1,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "自行車選手Geony Borrego Lee於2022年2月5日賽內檢出phentermine，依及早承認獲1年減刑處以3年禁賽並取消成績"
+        },
+        {
+          "documentId": "registry-7275d980b7aeae24",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊證實Borrego Lee因Phentermine處以3年禁賽與取消成績"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "medium",
+          "claim": "美國",
+          "explanation": "公告僅在標題稱「U.S. Cycling Athlete」並列出居住地為佛羅里達州邁阿密，依規範不能單憑發布單位管轄或居住地認定國籍。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-6e8d64ed2aef9f21",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "將國籍欄位判定為不確定，或引述選手具備美國國籍／代表權的官方證明。"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,206 @@
+{
+  "cases": [
+    {
+      "id": "aiu-aa575a1e2dbf",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-4c99aa11ce873490",
+        "registry-d1443f648805fc1e"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-4c99aa11ce873490",
+          "startLine": 12,
+          "endLine": 13,
+          "supports": [
+            "identity",
+            "country",
+            "event"
+          ],
+          "note": "決定確認 Kinyanjui 為肯亞長跑選手。"
+        },
+        {
+          "documentId": "doc-4c99aa11ce873490",
+          "startLine": 57,
+          "endLine": 74,
+          "supports": [
+            "event",
+            "substance",
+            "dates"
+          ],
+          "note": "2024年12月27日在肯亞 Keringet 賽外採尿，檢出 CERA；列為全年禁用的 S2.1 非特定物質。"
+        },
+        {
+          "documentId": "doc-4c99aa11ce873490",
+          "startLine": 171,
+          "endLine": 184,
+          "supports": [
+            "substance",
+            "education"
+          ],
+          "note": "決定認定 CERA 的存在與使用違規，並以血液護照支持2024年9月另一次使用；9月部分也可能是其他 ESA。"
+        },
+        {
+          "documentId": "doc-4c99aa11ce873490",
+          "startLine": 232,
+          "endLine": 244,
+          "supports": [
+            "sanction",
+            "substance"
+          ],
+          "note": "多次使用構成加重情節，AIU主張六年禁賽。"
+        },
+        {
+          "documentId": "doc-4c99aa11ce873490",
+          "startLine": 279,
+          "endLine": 293,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "及早承認減一年，禁賽五年自2025年2月11日起；取消2024年9月21日至2025年2月11日成績及相關後果。"
+        },
+        {
+          "documentId": "doc-4c99aa11ce873490",
+          "startLine": 324,
+          "endLine": 330,
+          "supports": [
+            "dates"
+          ],
+          "note": "決定日期為2025年6月6日，並載明特定機關可上訴。"
+        },
+        {
+          "documentId": "registry-d1443f648805fc1e",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "AIU名冊列出肯亞、CERA及ABP案、五年處分起算日和自2024年9月21日起取消成績。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "aiu-5f5be6118fe3",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-08843ba1acb5b7b5",
+        "registry-86a63bcbc19b7b52"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-08843ba1acb5b7b5",
+          "startLine": 1,
+          "endLine": 12,
+          "supports": [
+            "identity",
+            "country",
+            "event"
+          ],
+          "note": "決定確認 Tekam 為印度長跑選手。"
+        },
+        {
+          "documentId": "doc-08843ba1acb5b7b5",
+          "startLine": 34,
+          "endLine": 39,
+          "supports": [
+            "substance"
+          ],
+          "note": "案件違反 ADR 2.3，涉及規避、拒絕或未提交採樣。"
+        },
+        {
+          "documentId": "doc-08843ba1acb5b7b5",
+          "startLine": 57,
+          "endLine": 68,
+          "supports": [
+            "event",
+            "dates"
+          ],
+          "note": "2024年12月15日浦那半馬賽後，她接獲賽內採樣通知。"
+        },
+        {
+          "documentId": "doc-08843ba1acb5b7b5",
+          "startLine": 79,
+          "endLine": 99,
+          "supports": [
+            "event",
+            "substance",
+            "education"
+          ],
+          "note": "她進入人群後失去DCO視線，最終未採得樣本，支持以規避採樣描述而非藥物陽性。"
+        },
+        {
+          "documentId": "doc-08843ba1acb5b7b5",
+          "startLine": 125,
+          "endLine": 126,
+          "supports": [
+            "sanction"
+          ],
+          "note": "Tekam簽署承認違規及接受後果表格。"
+        },
+        {
+          "documentId": "doc-08843ba1acb5b7b5",
+          "startLine": 177,
+          "endLine": 197,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "及早承認後處分為三年，自2025年5月20日起，取消2024年12月15日起的成績及相關後果。"
+        },
+        {
+          "documentId": "doc-08843ba1acb5b7b5",
+          "startLine": 233,
+          "endLine": 233,
+          "supports": [
+            "dates"
+          ],
+          "note": "決定日期為2025年6月4日。"
+        },
+        {
+          "documentId": "registry-86a63bcbc19b7b52",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "AIU名冊列出印度、採樣違規、三年處分起算日及取消成績的起始日。"
+        }
+      ],
+      "findings": []
+    }
+  ]
+}

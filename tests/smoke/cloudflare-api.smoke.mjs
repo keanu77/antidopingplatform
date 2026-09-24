@@ -107,7 +107,7 @@ await check("中文篩選與搜尋可用", async () => {
   const byPunish = await getJson("/api/cases?" + new URLSearchParams({ punishmentType: "獎牌剝奪" }));
   expect(byPunish.totalCases > 0, "處罰類型篩選無結果");
   expect(byPunish.cases.every((c) => c.punishment.medalStripped === true), "獎牌剝奪篩選不準");
-  const search = await getJson("/api/cases?" + new URLSearchParams({ search: "Armstrong" }));
+  const search = await getJson("/api/cases?" + new URLSearchParams({ search: "Knighton" }));
   expect(search.totalCases >= 1, "搜尋無結果");
   return `田徑 ${bySport.totalCases}、獎牌剝奪 ${byPunish.totalCases}`;
 });

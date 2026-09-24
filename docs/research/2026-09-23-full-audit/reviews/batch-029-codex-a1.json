@@ -1,0 +1,219 @@
+{
+  "cases": [
+    {
+      "id": "aiu-46aeac00cc17",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-9427b4a620c60ae1",
+        "registry-4bd0f4537242b3e5"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-9427b4a620c60ae1",
+          "startLine": 32,
+          "endLine": 36,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "裁決確認 Chelangat 為肯亞長跑選手；另記載她曾代表肯亞參賽。"
+        },
+        {
+          "documentId": "doc-9427b4a620c60ae1",
+          "startLine": 48,
+          "endLine": 59,
+          "supports": [
+            "event",
+            "substance"
+          ],
+          "note": "列明兩份樣本的日期、種類及 EPO，並指控違反第2.1及2.2條。"
+        },
+        {
+          "documentId": "doc-9427b4a620c60ae1",
+          "startLine": 60,
+          "endLine": 70,
+          "supports": [
+            "event",
+            "education"
+          ],
+          "note": "她否認違規並質疑採樣運送；AIU主張故意及加重情節，這些主張不等於裁決結論。"
+        },
+        {
+          "documentId": "doc-9427b4a620c60ae1",
+          "startLine": 256,
+          "endLine": 268,
+          "supports": [
+            "substance"
+          ],
+          "note": "EPO列為S2非特定物質，全年禁用；AIU判斷沒有已核發或可核發的TUE。"
+        },
+        {
+          "documentId": "doc-9427b4a620c60ae1",
+          "startLine": 567,
+          "endLine": 569,
+          "supports": [
+            "event",
+            "substance"
+          ],
+          "note": "審裁庭認定第2.1及2.2條違規成立。"
+        },
+        {
+          "documentId": "doc-9427b4a620c60ae1",
+          "startLine": 677,
+          "endLine": 688,
+          "supports": [
+            "sanction",
+            "education"
+          ],
+          "note": "審裁庭認定多次使用等加重情節及故意使用。"
+        },
+        {
+          "documentId": "doc-9427b4a620c60ae1",
+          "startLine": 724,
+          "endLine": 739,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "六年禁賽，折抵自2025年5月20日起暫時禁賽；哥本哈根半馬成績取消並有相關後果。"
+        },
+        {
+          "documentId": "doc-9427b4a620c60ae1",
+          "startLine": 741,
+          "endLine": 771,
+          "supports": [
+            "dates",
+            "outcomes"
+          ],
+          "note": "另取消2024年9月15日至2025年5月20日的競賽成績及相關後果。"
+        },
+        {
+          "documentId": "registry-4bd0f4537242b3e5",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊列明六年、自2025年5月20日起計及自2024年9月15日起取消成績。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "aiu-c3a658ea8149",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-03043a748e9475a6",
+        "registry-5c113b02cad5b128"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-03043a748e9475a6",
+          "startLine": 1,
+          "endLine": 13,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "AIU決定確認 Cheruiyot 為肯亞長跑選手。"
+        },
+        {
+          "documentId": "doc-03043a748e9475a6",
+          "startLine": 56,
+          "endLine": 64,
+          "supports": [
+            "event",
+            "substance"
+          ],
+          "note": "2025年9月28日在摩洛哥賽事進行賽內尿液採樣，檢出曲安奈德。"
+        },
+        {
+          "documentId": "doc-03043a748e9475a6",
+          "startLine": 69,
+          "endLine": 77,
+          "supports": [
+            "substance",
+            "education"
+          ],
+          "note": "決定記載沒有已核發的TUE，且未見可解釋檢出結果的標準偏離或允許途徑攝入跡象。"
+        },
+        {
+          "documentId": "doc-03043a748e9475a6",
+          "startLine": 86,
+          "endLine": 87,
+          "supports": [
+            "sanction",
+            "education"
+          ],
+          "note": "運動員簽署違規承認及接受處分表格。"
+        },
+        {
+          "documentId": "doc-03043a748e9475a6",
+          "startLine": 114,
+          "endLine": 122,
+          "supports": [
+            "substance",
+            "sanction",
+            "education"
+          ],
+          "note": "曲安奈德列於S9糖皮質類固醇；指定途徑下賽內禁用，AIU稱無故意證據並判兩年。"
+        },
+        {
+          "documentId": "doc-03043a748e9475a6",
+          "startLine": 124,
+          "endLine": 136,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "決定確認違規、兩年禁賽自2025年10月31日起，並取消採樣日起成績及相關後果。"
+        },
+        {
+          "documentId": "doc-03043a748e9475a6",
+          "startLine": 143,
+          "endLine": 147,
+          "supports": [
+            "dates"
+          ],
+          "note": "AIU決定列有後續上訴權。"
+        },
+        {
+          "documentId": "registry-5c113b02cad5b128",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊列明兩年、自2025年10月31日起計及自2025年9月28日起取消成績。"
+        }
+      ],
+      "findings": []
+    }
+  ]
+}

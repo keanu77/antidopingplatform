@@ -1,0 +1,174 @@
+{
+  "cases": [
+    {
+      "id": "aiu-aa575a1e2dbf",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-4c99aa11ce873490",
+        "registry-d1443f648805fc1e"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-4c99aa11ce873490",
+          "startLine": 1,
+          "endLine": 13,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "AIU決定書載明當事人為肯亞長跑運動員Daniel Kinyanjui。"
+        },
+        {
+          "documentId": "doc-4c99aa11ce873490",
+          "startLine": 57,
+          "endLine": 74,
+          "supports": [
+            "event",
+            "substance"
+          ],
+          "note": "2024年12月27日肯亞賽外檢體檢出S2.1非特定禁用物質CERA。"
+        },
+        {
+          "documentId": "doc-4c99aa11ce873490",
+          "startLine": 111,
+          "endLine": 125,
+          "supports": [
+            "event",
+            "substance",
+            "education"
+          ],
+          "note": "專家小組確認2024年9月及12月血液護照異常構成使用禁用物質/方法之實質證據。"
+        },
+        {
+          "documentId": "doc-4c99aa11ce873490",
+          "startLine": 232,
+          "endLine": 262,
+          "supports": [
+            "sanction"
+          ],
+          "note": "因多次使用認定加重情節處6年禁賽，經及早承認與接受後果依規減免1年為5年。"
+        },
+        {
+          "documentId": "doc-4c99aa11ce873490",
+          "startLine": 288,
+          "endLine": 294,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "處分自2025年2月11日起禁賽5年，並取消2024年9月21日至2025年2月11日間所有成績。"
+        },
+        {
+          "documentId": "registry-d1443f648805fc1e",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "AIU官方名冊登載Daniel Kinyanjui（肯亞）涉CERA及ABP案，處5年禁賽及取消自2024年9月21日起成績。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "aiu-5f5be6118fe3",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-08843ba1acb5b7b5",
+        "registry-86a63bcbc19b7b52"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-08843ba1acb5b7b5",
+          "startLine": 1,
+          "endLine": 12,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "AIU決定書載明當事人為印度長跑運動員Varsha Tekam。"
+        },
+        {
+          "documentId": "doc-08843ba1acb5b7b5",
+          "startLine": 34,
+          "endLine": 38,
+          "supports": [
+            "substance"
+          ],
+          "note": "確認違反規則第2.3條規避、拒絕或未能提交檢體。"
+        },
+        {
+          "documentId": "doc-08843ba1acb5b7b5",
+          "startLine": 57,
+          "endLine": 99,
+          "supports": [
+            "event",
+            "education"
+          ],
+          "note": "2024年12月15日浦那半馬賽後接獲口頭採樣通知後遁入人群失聯，未完成採樣，非藥物陽性。"
+        },
+        {
+          "documentId": "doc-08843ba1acb5b7b5",
+          "startLine": 134,
+          "endLine": 186,
+          "supports": [
+            "sanction"
+          ],
+          "note": "違規基礎禁賽4年，運動員簽署承認並接受後果，依及早承認規定減免1年為3年。"
+        },
+        {
+          "documentId": "doc-08843ba1acb5b7b5",
+          "startLine": 190,
+          "endLine": 198,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "處分自2025年5月20日起禁賽3年，並取消自2024年12月15日起之競賽成績與獎項。"
+        },
+        {
+          "documentId": "registry-86a63bcbc19b7b52",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "AIU官方名冊登載Varsha Tekam（印度）違反第2.3條，自2025年5月20日起禁賽3年及取消2024年12月15日起成績。"
+        }
+      ],
+      "findings": []
+    }
+  ]
+}

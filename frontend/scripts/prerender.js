@@ -125,7 +125,7 @@ emit(
   {
     title: "運動禁藥案例詳情 | 乾淨運動從你我開始",
     description:
-      "查看此運動禁藥違規案例的選手、違規物質、WADA 分類、處罰結果與新聞／官方來源連結。",
+      "查看反禁藥教學案例的事件、查核狀態、最新處理結果與官方來源；案例包含合法 TUE、污染及撤銷處分等不同情境。",
     url: `${SITE_URL}/cases`,
   },
   join(distDir, "cases-detail.html"),

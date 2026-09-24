@@ -1,4 +1,4 @@
-import { useState, useMemo } from "react";
+import { useState, useMemo, useEffect, useRef } from "react";
 import {
   CheckCircle,
   XCircle,
@@ -18,6 +18,13 @@ function Quiz() {
   const [revealed, setRevealed] = useState(false);
   const [score, setScore] = useState(0);
   const [, setAnswers] = useState([]);
+  const headingRef = useRef(null);
+
+  useEffect(() => {
+    const heading = headingRef.current;
+    heading?.focus({ preventScroll: true });
+    heading?.scrollIntoView({ behavior: "auto", block: "start" });
+  }, [mode, current]);
 
   const quizQuestions = useMemo(() => {
     const all = [...knowledgeQuestions, ...scenarioQuestions];
@@ -69,7 +76,11 @@ function Quiz() {
     return (
       <div className="max-w-2xl mx-auto">
         <div className="mb-8">
-          <h1 className="text-2xl md:text-3xl font-bold text-gray-900 mb-2">
+          <h1
+            ref={headingRef}
+            tabIndex={-1}
+            className="text-2xl md:text-3xl font-bold text-gray-900 mb-2 scroll-mt-24"
+          >
             互動測驗
           </h1>
           <p className="text-gray-500">測試你對運動禁藥的了解程度</p>
@@ -159,7 +170,13 @@ function Quiz() {
             }`}
           />
         </div>
-        <h2 className="text-2xl font-bold text-gray-900 mb-4">測驗結果</h2>
+        <h2
+          ref={headingRef}
+          tabIndex={-1}
+          className="text-2xl font-bold text-gray-900 mb-4 scroll-mt-24"
+        >
+          測驗結果
+        </h2>
         <div
           className={`text-7xl font-black mb-2 ${
             percentage >= 80
@@ -217,7 +234,11 @@ function Quiz() {
 
       {/* Question */}
       <div className="bg-white rounded-2xl p-6 md:p-8 shadow-sm border border-gray-100 mb-5">
-        <h2 className="text-lg md:text-xl font-bold text-gray-900 mb-6 leading-relaxed">
+        <h2
+          ref={headingRef}
+          tabIndex={-1}
+          className="text-lg md:text-xl font-bold text-gray-900 mb-6 leading-relaxed scroll-mt-24"
+        >
           {q.question}
         </h2>
 

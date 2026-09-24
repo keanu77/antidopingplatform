@@ -1,0 +1,406 @@
+{
+  "cases": [
+    {
+      "id": "ita-2f61a44eca24",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-f1c24efd79b81bf1",
+        "registry-9e37ddf4bac55bf4"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-f1c24efd79b81bf1",
+          "startLine": 1,
+          "endLine": 5,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction"
+          ],
+          "note": "突尼西亞舉重選手 Aziz Mannai 因外源性睪固酮及代謝物陽性接受4年禁賽處分"
+        },
+        {
+          "documentId": "doc-f1c24efd79b81bf1",
+          "startLine": 9,
+          "endLine": 9,
+          "supports": [
+            "dates",
+            "outcomes",
+            "sanction"
+          ],
+          "note": "禁賽期自 2023-04-04 至 2027-04-03，取消 2022-09-27 至 2023-04-04 期間成績"
+        },
+        {
+          "documentId": "registry-9e37ddf4bac55bf4",
+          "startLine": 1,
+          "endLine": 20,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "dates",
+            "outcomes"
+          ],
+          "note": "官方名冊登錄選手身分、違規條款 Art. 2.1/2.2、採樣日期與禁賽及取消成績區間"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-aec1146d524c",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-e63858b0959bf81a",
+        "registry-5577a0030b074208"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-e63858b0959bf81a",
+          "startLine": 1,
+          "endLine": 6,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "義大利自由車選手 Giovanni Carboni 因生物護照異常被判4年禁賽及取消成績"
+        },
+        {
+          "documentId": "registry-5577a0030b074208",
+          "startLine": 1,
+          "endLine": 20,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "dates",
+            "outcomes",
+            "sanction"
+          ],
+          "note": "官方名冊記載違規條款 Art. 2.2、禁賽期 2025-09-11 至 2029-09-10 及取消成績範圍"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-fcfe8d64fea6",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-7fe7c47e71939cd9",
+        "registry-55cc5acd081bc32d"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-7fe7c47e71939cd9",
+          "startLine": 1,
+          "endLine": 6,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "沙烏地阿拉伯鐵人三項選手 Alghamdi 檢出 boldenone 與 CERA，依加重情節處6年禁賽（2026-01-15 至 2032-01-14）並取消自 2025-11-14 起成績"
+        },
+        {
+          "documentId": "registry-55cc5acd081bc32d",
+          "startLine": 1,
+          "endLine": 20,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction"
+          ],
+          "note": "官方名冊確認選手姓名、國籍、項目、違規物質 Art. 2.1/2.2 及6年禁賽"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-68fd2d094cdf",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-1084e6f5c493c973",
+        "registry-c1f02cb636302d77"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-1084e6f5c493c973",
+          "startLine": 1,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "education"
+          ],
+          "note": "委內瑞拉舉重選手 Sanguino Matamoros 兩次採樣依單一違規處理並接受4年禁賽"
+        },
+        {
+          "documentId": "registry-c1f02cb636302d77",
+          "startLine": 1,
+          "endLine": 20,
+          "supports": [
+            "identity",
+            "country",
+            "dates",
+            "outcomes",
+            "sanction"
+          ],
+          "note": "名冊載明禁賽期 2025-03-07 至 2029-03-06 及取消 2024-11-28 至 2025-03-07 成績"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-ac5538c7a75e",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-56eca104f575f219",
+        "registry-c7da4fef8ce10f0f"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-56eca104f575f219",
+          "startLine": 1,
+          "endLine": 7,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "奈及利亞舉重選手 Bosah 檢出外源睪固酮，因及早承認獲1年減免處以3年禁賽（2026-06-05 至 2029-06-04）"
+        },
+        {
+          "documentId": "registry-c7da4fef8ce10f0f",
+          "startLine": 1,
+          "endLine": 20,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊確認違規條款 Art. 2.1/2.2、禁賽期 2026-06-05 至 2029-06-04 及成績取消區間"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-9d8065b6dab5",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-b6c81d88c75a4f09",
+        "registry-6423e8bfc764cbc8"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-b6c81d88c75a4f09",
+          "startLine": 1,
+          "endLine": 8,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "中國場地自由車選手林俊紅 2016 年歷史檢體重檢呈類固醇陽性，接受4年禁賽並追溯取消自 2016-01-16 起成績"
+        },
+        {
+          "documentId": "registry-6423e8bfc764cbc8",
+          "startLine": 1,
+          "endLine": 20,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "dates",
+            "outcomes",
+            "sanction"
+          ],
+          "note": "名冊記錄兩次 2016 違規採樣日期，禁賽期 2025-10-07 至 2029-10-06 及取消成績區間"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-226edfa93a4f",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-27f0707f422797f5",
+        "registry-523e2a5676a757db"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-27f0707f422797f5",
+          "startLine": 1,
+          "endLine": 8,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "墨西哥射箭選手 Bernal Sanchez 檢出 nandrolone，官方公告載明3年禁賽（2025-12-22 至 2028-12-21）"
+        },
+        {
+          "documentId": "registry-523e2a5676a757db",
+          "startLine": 1,
+          "endLine": 20,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "outcomes"
+          ],
+          "note": "名冊確認3年禁賽處分與取消成績範圍，名冊結束年份欄位誤植為 2025"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-19210cce34cd",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-65e218e1aa5ee08c",
+        "registry-0b9d524f630eec8f"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-65e218e1aa5ee08c",
+          "startLine": 1,
+          "endLine": 5,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "蒙古拳擊選手 Tegshjargal 因12個月內3次行蹤失誤接受2年禁賽（2026-06-10 至 2028-06-09）並取消相關成績"
+        },
+        {
+          "documentId": "registry-0b9d524f630eec8f",
+          "startLine": 1,
+          "endLine": 20,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "dates",
+            "outcomes",
+            "sanction"
+          ],
+          "note": "名冊確認 Art. 2.4 行蹤義務違規、2年禁賽處分及 2025-11-29 至 2026-06-10 成績取消期間"
+        }
+      ],
+      "findings": []
+    }
+  ]
+}

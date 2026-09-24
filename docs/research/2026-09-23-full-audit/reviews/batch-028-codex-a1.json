@@ -1,0 +1,199 @@
+{
+  "cases": [
+    {
+      "id": "aiu-d9d3f6f972eb",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-7ed15c9507d59b28",
+        "registry-ff8fd894bcda0f41"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-7ed15c9507d59b28",
+          "startLine": 12,
+          "endLine": 12,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "決定書稱 Wortesa 為來自衣索比亞的長跑選手。"
+        },
+        {
+          "documentId": "doc-7ed15c9507d59b28",
+          "startLine": 55,
+          "endLine": 61,
+          "supports": [
+            "event",
+            "substance",
+            "dates"
+          ],
+          "note": "2025年6月15日貴陽馬拉松採樣，檢出 EPO。"
+        },
+        {
+          "documentId": "doc-7ed15c9507d59b28",
+          "startLine": 170,
+          "endLine": 176,
+          "supports": [
+            "substance",
+            "sanction",
+            "dates"
+          ],
+          "note": "12月9日正式指控，12月17日簽署承認及接受後果文件。"
+        },
+        {
+          "documentId": "doc-7ed15c9507d59b28",
+          "startLine": 198,
+          "endLine": 200,
+          "supports": [
+            "substance",
+            "education"
+          ],
+          "note": "文件列出當年 EPO 分類及全年禁用性質。"
+        },
+        {
+          "documentId": "doc-7ed15c9507d59b28",
+          "startLine": 231,
+          "endLine": 249,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "依正式指控後承認規則減為三年，自臨時停賽日計，並取消採樣日起成績。"
+        },
+        {
+          "documentId": "registry-ff8fd894bcda0f41",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊列 ETH、EPO 違規、三年及成績取消日期。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "aiu-0031fcaf050f",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-59413f04ff278e49",
+        "registry-34bccec8c57904a5"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-59413f04ff278e49",
+          "startLine": 12,
+          "endLine": 12,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "決定書稱 Koigi 為來自肯亞的公路賽跑者。"
+        },
+        {
+          "documentId": "doc-59413f04ff278e49",
+          "startLine": 55,
+          "endLine": 62,
+          "supports": [
+            "event",
+            "substance",
+            "dates"
+          ],
+          "note": "2025年10月26日雅加達賽事採樣，檢出 methylprednisolone。"
+        },
+        {
+          "documentId": "doc-59413f04ff278e49",
+          "startLine": 67,
+          "endLine": 75,
+          "supports": [
+            "substance",
+            "education"
+          ],
+          "note": "此物質無相應 TUE，且文件稱未見由賽後輸液造成該發現。"
+        },
+        {
+          "documentId": "doc-59413f04ff278e49",
+          "startLine": 88,
+          "endLine": 102,
+          "supports": [
+            "education"
+          ],
+          "note": "賽後脫水治療輸液另獲追溯 TUE。"
+        },
+        {
+          "documentId": "doc-59413f04ff278e49",
+          "startLine": 112,
+          "endLine": 115,
+          "supports": [
+            "sanction",
+            "education"
+          ],
+          "note": "選手承認使用禁用物質並接受指控所列後果。"
+        },
+        {
+          "documentId": "doc-59413f04ff278e49",
+          "startLine": 137,
+          "endLine": 149,
+          "supports": [
+            "substance",
+            "sanction"
+          ],
+          "note": "文件列明 2025 年分類、賽內禁用條件及兩年期後果。"
+        },
+        {
+          "documentId": "doc-59413f04ff278e49",
+          "startLine": 163,
+          "endLine": 167,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "禁賽自12月9日起，取消10月26日起成績。"
+        },
+        {
+          "documentId": "registry-34bccec8c57904a5",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊列 KEN、methylprednisolone 違規、兩年期及成績取消日期。"
+        }
+      ],
+      "findings": []
+    }
+  ]
+}

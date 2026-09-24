@@ -1,0 +1,18 @@
+{
+  "objective": "完成新增500例",
+  "status": "complete",
+  "newCasesRequired": 500,
+  "legacyCorrectionCasesExcludedFromNewCount": 17,
+  "totalExpected": 517,
+  "requirements": [
+    "500 additions must be distinct from the 171-record baseline; conservatively exclude baseline names until an independent event is specifically proven.",
+    "Exclude Taiwanese athletes using explicit official nationality evidence; do not infer nationality from the sanctioning agency or residence.",
+    "Preserve the accepted first 50 individual reviews and keep unresolved conflicts out of the accepted set.",
+    "For each addition, audit identity, event, substance or rule, outcome, sanction period, source locator, and the known procedural status; resolve or quarantine conflicting evidence.",
+    "Distinguish lawful TUE, no-fault ADRV, withdrawn proceedings, overturned decisions, and upheld sanctions.",
+    "A download, name match, parsed table, passing schema test, or registry-only review must not be reported as individual decision or announcement review.",
+    "Record factual review results, evidence level, and any unresolved limitation per case, and verify data rebuild, APIs, frontend behavior, and actual local-versus-remote state before claiming completion."
+  ],
+  "currentGap": "500/500 additions individually reviewed; 0 remain at registry level. No deployment performed.",
+  "completedAt": "2026-09-23T04:42:02.154742+00:00"
+}

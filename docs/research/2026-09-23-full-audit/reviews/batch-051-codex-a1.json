@@ -1,0 +1,289 @@
+{
+  "cases": [
+    {
+      "id": "aiu-00ff932a881a",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-52fe9293beb71e23",
+        "registry-8e888843b7c626a4"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-52fe9293beb71e23",
+          "startLine": 12,
+          "endLine": 12,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "決定確認 Mutua 為肯亞公路跑者。"
+        },
+        {
+          "documentId": "doc-52fe9293beb71e23",
+          "startLine": 49,
+          "endLine": 57,
+          "supports": [
+            "event",
+            "substance"
+          ],
+          "note": "曼谷半馬賽內樣本檢出外源性睪固酮及 trimetazidine。"
+        },
+        {
+          "documentId": "doc-52fe9293beb71e23",
+          "startLine": 112,
+          "endLine": 118,
+          "supports": [
+            "education"
+          ],
+          "note": "AIU 發現先前寄錯電郵地址，重發通知後收到運動員承認及接受後果。"
+        },
+        {
+          "documentId": "doc-52fe9293beb71e23",
+          "startLine": 137,
+          "endLine": 143,
+          "supports": [
+            "substance"
+          ],
+          "note": "決定載明兩物質在 2023 禁用清單的分類及全年禁用狀態。"
+        },
+        {
+          "documentId": "doc-52fe9293beb71e23",
+          "startLine": 238,
+          "endLine": 247,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "主文為自 2024-01-29 起禁賽五年，並取消 2023-12-03 起成績及其後果。"
+        },
+        {
+          "documentId": "registry-8e888843b7c626a4",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "AIU 名冊列五年處分、自 2024-01-29 起及 2023-12-03 起成績取消。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "aiu-f014dcb08163",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-15e5b0ee65865dce",
+        "registry-8bab3036f16a10fa"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-15e5b0ee65865dce",
+          "startLine": 12,
+          "endLine": 12,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "決定確認 Kimutai 為來自巴林的公路跑者。"
+        },
+        {
+          "documentId": "doc-15e5b0ee65865dce",
+          "startLine": 56,
+          "endLine": 62,
+          "supports": [
+            "event",
+            "substance"
+          ],
+          "note": "肯亞 Kapsabet 的賽外尿液及血液樣本均檢出 EPO。"
+        },
+        {
+          "documentId": "doc-15e5b0ee65865dce",
+          "startLine": 90,
+          "endLine": 92,
+          "supports": [
+            "education",
+            "sanction"
+          ],
+          "note": "兩份樣本的發現依規則合併為一次首次違規。"
+        },
+        {
+          "documentId": "doc-15e5b0ee65865dce",
+          "startLine": 113,
+          "endLine": 115,
+          "supports": [
+            "substance"
+          ],
+          "note": "決定載明 EPO 的 2024 禁用清單分類及全年禁用狀態。"
+        },
+        {
+          "documentId": "doc-15e5b0ee65865dce",
+          "startLine": 170,
+          "endLine": 175,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "主文為自 2024-03-28 起禁賽三年，取消 2024-02-02 起成績及其後果。"
+        },
+        {
+          "documentId": "registry-8bab3036f16a10fa",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "country",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊列 BRN、三年處分、自 2024-03-28 起及 2 月 2 日起成績取消。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "aiu-5e53b892648b",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-f4c1481d3ce19bb6",
+        "registry-7618e21344ba5962"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-f4c1481d3ce19bb6",
+          "startLine": 18,
+          "endLine": 18,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "決定確認 Soliyeva 為烏茲別克短跑選手。"
+        },
+        {
+          "documentId": "doc-f4c1481d3ce19bb6",
+          "startLine": 50,
+          "endLine": 68,
+          "supports": [
+            "event",
+            "substance"
+          ],
+          "note": "2023 亞洲田徑錦標賽曼谷賽內樣本檢出 meldonium。"
+        },
+        {
+          "documentId": "doc-f4c1481d3ce19bb6",
+          "startLine": 73,
+          "endLine": 78,
+          "supports": [
+            "substance",
+            "education"
+          ],
+          "note": "AIU 確認沒有已核發或可核發的該物質 TUE。"
+        },
+        {
+          "documentId": "doc-f4c1481d3ce19bb6",
+          "startLine": 90,
+          "endLine": 110,
+          "supports": [
+            "education"
+          ],
+          "note": "運動員稱使用 Ripronat，決定記載其含 meldonium；此為當事人說明。"
+        },
+        {
+          "documentId": "doc-f4c1481d3ce19bb6",
+          "startLine": 131,
+          "endLine": 140,
+          "supports": [
+            "education"
+          ],
+          "note": "文件記載醫療文件及 AIU 對其內容的理解，並出現第 13 段日期時序異常。"
+        },
+        {
+          "documentId": "doc-f4c1481d3ce19bb6",
+          "startLine": 196,
+          "endLine": 203,
+          "supports": [
+            "substance",
+            "education"
+          ],
+          "note": "決定列 meldonium 的 2023 清單分類，並稱未證明違規非故意。"
+        },
+        {
+          "documentId": "doc-f4c1481d3ce19bb6",
+          "startLine": 223,
+          "endLine": 229,
+          "supports": [
+            "sanction",
+            "education"
+          ],
+          "note": "收到控罪通知後，運動員及早承認並接受後果而獲一年減免。"
+        },
+        {
+          "documentId": "doc-f4c1481d3ce19bb6",
+          "startLine": 236,
+          "endLine": 249,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "主文為自 2023-09-13 起禁賽三年，取消錦標賽及 2023-07-13 起成績。"
+        },
+        {
+          "documentId": "doc-f4c1481d3ce19bb6",
+          "startLine": 175,
+          "endLine": 179,
+          "supports": [
+            "education"
+          ],
+          "note": "AIU 說明調查仍在進行，並保留適當情況下追加違規指控的權利。"
+        },
+        {
+          "documentId": "registry-7618e21344ba5962",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "country",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊列 UZB、三年處分、自 2023-09-13 起及 7 月 13 日起成績取消。"
+        }
+      ],
+      "findings": []
+    }
+  ]
+}

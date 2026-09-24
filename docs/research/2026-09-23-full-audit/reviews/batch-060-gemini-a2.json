@@ -1,0 +1,151 @@
+{
+  "cases": [
+    {
+      "id": "aiu-004d2e74c500",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-f87cc7dd938257ec",
+        "registry-70a9f8193d39dd0b"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-f87cc7dd938257ec",
+          "startLine": 5,
+          "endLine": 6,
+          "supports": [
+            "identity"
+          ],
+          "note": "裁決載明當事人為田徑選手 Yevgeniya Polyakova"
+        },
+        {
+          "documentId": "registry-70a9f8193d39dd0b",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "country",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "官方名冊登載選手代表國籍為 RUS，自2023年1月11日起禁賽四年並取消2012年6月20日至2023年1月11日之成績"
+        },
+        {
+          "documentId": "doc-f87cc7dd938257ec",
+          "startLine": 85,
+          "endLine": 104,
+          "supports": [
+            "event",
+            "substance",
+            "dates"
+          ],
+          "note": "裁決確認2012年6月20日樣本驗出DHCMT，7月16日樣本驗出methyl-1-testosterone、oxandrolone與acetazolamide"
+        },
+        {
+          "documentId": "doc-f87cc7dd938257ec",
+          "startLine": 300,
+          "endLine": 308,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "裁決主文宣告自裁決日起處四年禁賽，並取消自2012年6月20日起之全部成績"
+        },
+        {
+          "documentId": "doc-f87cc7dd938257ec",
+          "startLine": 161,
+          "endLine": 163,
+          "supports": [
+            "education"
+          ],
+          "note": "確認依2012年違規當時規則處理，教育提示區分採樣與裁決年份及物質種類符合裁決內文"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "aiu-a32c696dcdbb",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-f3be8df470dfb26c",
+        "registry-5f3be53a84577b3b"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-f3be8df470dfb26c",
+          "startLine": 5,
+          "endLine": 6,
+          "supports": [
+            "identity"
+          ],
+          "note": "裁決載明當事人為田徑選手 Yekaterina Strokova"
+        },
+        {
+          "documentId": "registry-5f3be53a84577b3b",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "country",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "官方名冊登載選手代表國籍為 RUS，處四年禁賽並取消2012年6月20日至2023年1月11日成績"
+        },
+        {
+          "documentId": "doc-f3be8df470dfb26c",
+          "startLine": 87,
+          "endLine": 151,
+          "supports": [
+            "event",
+            "substance",
+            "dates"
+          ],
+          "note": "裁決認定2012年兩次採樣涉DHCMT，2013年及2014年採樣涉oxandrolone"
+        },
+        {
+          "documentId": "doc-f3be8df470dfb26c",
+          "startLine": 183,
+          "endLine": 201,
+          "supports": [
+            "education"
+          ],
+          "note": "裁決程序歷程載明莫斯科實驗室樣本已無從重新分析，且選手曾提出詢問與電郵回覆"
+        },
+        {
+          "documentId": "doc-f3be8df470dfb26c",
+          "startLine": 358,
+          "endLine": 366,
+          "supports": [
+            "sanction",
+            "outcomes"
+          ],
+          "note": "裁決主文確認違反規則處四年禁賽，並取消2012年6月20日起之各項競賽成績"
+        }
+      ],
+      "findings": []
+    }
+  ]
+}

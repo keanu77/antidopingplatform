@@ -1,0 +1,168 @@
+{
+  "cases": [
+    {
+      "id": "aiu-95dce4e66605",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-b30592d0b78a35b3",
+        "registry-bece340cfe1045e0"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-b30592d0b78a35b3",
+          "startLine": 18,
+          "endLine": 19,
+          "supports": [
+            "identity",
+            "country",
+            "event"
+          ],
+          "note": "決定確認她是長跑選手，代表哈薩克。"
+        },
+        {
+          "documentId": "doc-b30592d0b78a35b3",
+          "startLine": 85,
+          "endLine": 92,
+          "supports": [
+            "event",
+            "substance"
+          ],
+          "note": "確認三次行蹤違規的日期，第一項為申報失誤，後兩項為錯過檢測或申報失誤。"
+        },
+        {
+          "documentId": "doc-b30592d0b78a35b3",
+          "startLine": 109,
+          "endLine": 132,
+          "supports": [
+            "education"
+          ],
+          "note": "決定指出委託第三方更新不構成申辯，並記錄她隔日曾受檢的說法。"
+        },
+        {
+          "documentId": "doc-b30592d0b78a35b3",
+          "startLine": 308,
+          "endLine": 314,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "確認兩年禁賽，自決定日起算並折抵自2024年2月21日起的暫時禁賽；取消自2023年11月27日起的成績。"
+        },
+        {
+          "documentId": "registry-bece340cfe1045e0",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "AIU名冊列出KAZ、2年禁賽及取消自2023年11月27日起的成績。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "aiu-60a72a5b7a67",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-d6fde6a3ae44a15b",
+        "registry-d3a756085c980ea1"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-d6fde6a3ae44a15b",
+          "startLine": 17,
+          "endLine": 17,
+          "supports": [
+            "identity",
+            "country",
+            "event"
+          ],
+          "note": "決定稱她為肯亞公路跑者。"
+        },
+        {
+          "documentId": "doc-d6fde6a3ae44a15b",
+          "startLine": 72,
+          "endLine": 82,
+          "supports": [
+            "event",
+            "substance"
+          ],
+          "note": "確認2022年10月13日軍人越野賽檢體含外源性來源一致的norandrosterone；列為S1.1非特定禁用物質。"
+        },
+        {
+          "documentId": "doc-d6fde6a3ae44a15b",
+          "startLine": 87,
+          "endLine": 100,
+          "supports": [
+            "event",
+            "substance"
+          ],
+          "note": "記錄2023年5月採樣嘗試及她提供不完整、導向錯誤方向的指引。"
+        },
+        {
+          "documentId": "doc-d6fde6a3ae44a15b",
+          "startLine": 227,
+          "endLine": 261,
+          "supports": [
+            "event",
+            "sanction",
+            "education"
+          ],
+          "note": "她未及時回應指控，也未簽署可取得一年減幅的表格；AIU因此視為接受指控與處分。"
+        },
+        {
+          "documentId": "doc-d6fde6a3ae44a15b",
+          "startLine": 380,
+          "endLine": 385,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "確認六年禁賽自2023年7月6日起，並取消自2022年10月13日起的成績。"
+        },
+        {
+          "documentId": "registry-d3a756085c980ea1",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "AIU名冊列出KEN、違規類別、六年禁賽及取消成績起日。"
+        }
+      ],
+      "findings": []
+    }
+  ]
+}

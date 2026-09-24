@@ -1,0 +1,398 @@
+{
+  "cases": [
+    {
+      "id": "usada-7774f20822ed",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-15d772c8dd211e25",
+        "doc-66e61748a65dc00e",
+        "registry-b8f7b94cc358c327"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-15d772c8dd211e25",
+          "startLine": 7,
+          "endLine": 11,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告確認田徑選手 Robert Qualls 的採樣物質、及早承認減為三年及起算日，並取消採樣日起成績。"
+        },
+        {
+          "documentId": "doc-66e61748a65dc00e",
+          "startLine": 7,
+          "endLine": 11,
+          "supports": [
+            "identity",
+            "event",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "追加處分公告確認兩場賽事、禁賽期間參賽及追加三個月，合計39個月並取消兩賽成績。"
+        },
+        {
+          "documentId": "registry-b8f7b94cc358c327",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "substance",
+            "sanction",
+            "dates"
+          ],
+          "note": "名冊列出三年處分及追加三個月，更新日期為2025-08-13。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-25958bca1e21",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-638cd53b51617496",
+        "registry-dbbaa84a4db1616e"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-638cd53b51617496",
+          "startLine": 7,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告確認 Cooper 在大師戶外賽拒絕採樣、符合休閒運動員規則，禁賽兩年並取消拒絕採樣日起成績。"
+        },
+        {
+          "documentId": "registry-dbbaa84a4db1616e",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction"
+          ],
+          "note": "名冊列出 Cary Cooper 的拒絕採樣違規及兩年處分。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-56c015d731e4",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-53d06c8357c795ad",
+        "registry-c312907c511d3356"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-53d06c8357c795ad",
+          "startLine": 7,
+          "endLine": 11,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告確認 Maynard 的田徑賽事、各項陽性分析、類別與禁用時段、及早承認減刑及成績取消。"
+        },
+        {
+          "documentId": "registry-c312907c511d3356",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "dates"
+          ],
+          "note": "名冊列出 Maynard 的相關物質及三年處分。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-ee1ce8ee98f6",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-7947519017a421ee",
+        "registry-ac78894d3df0ce77"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-7947519017a421ee",
+          "startLine": 7,
+          "endLine": 8,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告確認 Smith 因未先取得TUE使用 spironolactone 而接受公開警告，事後取得未來治療TUE，賽外採樣無競賽成績可取消。"
+        },
+        {
+          "documentId": "registry-ac78894d3df0ce77",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction"
+          ],
+          "note": "名冊記為 canrenone，並列公開警告；公告則記載 spironolactone，與其代謝物可相符。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-c459cc791bed",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-96e64a4696a72b71",
+        "registry-d7c52395de0cef91"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-96e64a4696a72b71",
+          "startLine": 7,
+          "endLine": 9,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告確認 Nicholson 為舉重選手，因外用 spironolactone 未先取得TUE受公開警告，後取得未來使用TUE；並提醒外用產品也需核對。"
+        },
+        {
+          "documentId": "registry-d7c52395de0cef91",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction"
+          ],
+          "note": "名冊列出 Nicholson 的公開警告及 canrenone。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-abb5a10e0ed3",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-2e0ddca2876c6f62",
+        "registry-a1a2b57cfde5ad8e"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-2e0ddca2876c6f62",
+          "startLine": 7,
+          "endLine": 11,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告確認 Johnson 的滑雪身分、三次行蹤失誤日期、較低過失評估、14個月處分及自第三次失誤日起取消成績。"
+        },
+        {
+          "documentId": "registry-a1a2b57cfde5ad8e",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "dates"
+          ],
+          "note": "名冊確認三次行蹤失誤及14個月處分。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-578b30358464",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-2a6bfc8000e3b87c",
+        "registry-f76923610e7c7f87"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-2a6bfc8000e3b87c",
+          "startLine": 7,
+          "endLine": 11,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告確認 Flournoy 在會員期間持有 ostarine，使用發生於會員資格屆滿後且不受規則管轄，經及早承認受三年禁賽及取消成績。"
+        },
+        {
+          "documentId": "registry-f76923610e7c7f87",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction"
+          ],
+          "note": "名冊將違規列為持有，並確認三年處分。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-16f2d1c7b31c",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-8a14000036313632",
+        "registry-4303be14d49ed158"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-8a14000036313632",
+          "startLine": 7,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告確認 Travieso 的 ephedrine 濃度超過閾值、未有有效TUE且不符合追溯TUE，接受六個月處分並取消採樣日起成績。"
+        },
+        {
+          "documentId": "registry-4303be14d49ed158",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "dates"
+          ],
+          "note": "名冊確認 ephedrine 與六個月處分。"
+        }
+      ],
+      "findings": []
+    }
+  ]
+}

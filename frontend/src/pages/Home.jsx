@@ -18,14 +18,14 @@ import {
 import { statsAPI } from "../services/api";
 
 const facts = [
-  "115 年起，全中運、全大運、全民運動會及全國身心障礙國民運動會報名已無需進行運動禁藥測驗，但選手仍應具備反禁藥基本知識",
-  "許多市售感冒藥含有 pseudoephedrine（偽麻黃鹼），屬於 S6 興奮劑，賽內禁用",
-  "PRP 注射不算運動禁藥，但靜脈雷射 ILIB 算！因為涉及靜脈內操作",
-  "Ozempic（瘦瘦筆）目前列入 WADA 監控計畫，可能在 2028 奧運前被禁",
+  "115 年全中運、全大運及全民運動會取消將線上測驗通過證明列為報名條件；選手仍應學習反禁藥知識，其他賽會依各自公告",
+  "部分感冒藥含 pseudoephedrine（偽麻黃鹼），屬 S6 興奮劑；賽內尿液濃度超過 150µg/mL 時禁用，用藥前應核對規範",
+  "PRP 注射本身不在禁用清單；侵入式靜脈雷射 ILIB 可能涉及 M1.3 以物理方式操縱血管內血液，須就具體療程確認",
+  "2026 年 semaglutide（Ozempic）與 tirzepatide 的標記物列入 WADA 賽內、賽外監控計畫，兩者尚未列入禁用清單",
   "2026 年 WADA 新增一氧化碳（CO）非診斷用途為禁用方法",
-  "BPC-157 在健身圈很流行，但屬於 S0 未經核可之物質，沒有 TUE 豁免途徑",
-  "嚴格責任原則：誤服誤用不能成為躲避處罰的理由",
-  "吸入式 Salbutamol 有條件豁免，但 24 小時不能超過 1600 微克",
+  "BPC-157 屬於 S0 未經核可之物質，賽內、賽外皆禁用；醫療宣傳不代表已有人體治療核准或 TUE 核准",
+  "嚴格責任原則：成立檢體中存在禁用物質的違規，不需證明故意或過失；禁賽等處分仍依過失程度及適用規則個別評估",
+  "吸入式 Salbutamol 的劑量例外為 24 小時內不超過 1600 微克，且任何 8 小時內不超過 600 微克；超出例外需 TUE",
 ];
 
 const navCards = [
@@ -67,7 +67,7 @@ const navCards = [
   {
     to: "/news",
     title: "最新消息",
-    desc: "Ozempic 監控、Enhanced Games、台灣案例",
+    desc: "禁藥監控、國際案例與反禁藥規範更新",
     icon: Newspaper,
     gradient: "from-gray-600 to-gray-800",
   },
@@ -75,12 +75,12 @@ const navCards = [
 
 function Home() {
   const [stats, setStats] = useState({
-    totalCases: 0,
-    totalSports: 0,
-    totalCountries: 0,
+    totalCases: null,
+    totalSports: null,
+    totalCountries: null,
     recentCases: [],
   });
-  const [error] = useState(null);
+  const [error, setError] = useState(null);
 
   const randomFact = useMemo(
     () => facts[Math.floor(Math.random() * facts.length)],
@@ -93,12 +93,13 @@ function Home() {
   }, []);
 
   const loadStats = async () => {
+    setError(null);
     try {
       const response = await statsAPI.getOverview();
       setStats(response.data);
     } catch (err) {
       console.error("Failed to load stats:", err);
-      // 後端未啟動時靜默使用預設值，不顯示錯誤
+      setError("案例統計暫時無法載入，請重新整理後再試。其他學習功能仍可使用。");
     }
   };
 
@@ -157,20 +158,20 @@ function Home() {
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
           {[
             {
-              num: stats.totalCases || "100+",
-              label: "禁藥案例",
+              num: stats.totalCases ?? "—",
+              label: "教學案例",
               icon: AlertTriangle,
               color: "text-red-600 bg-red-50",
             },
             {
-              num: stats.totalSports || "30+",
+              num: stats.totalSports ?? "—",
               label: "運動項目",
               icon: Trophy,
               color: "text-emerald-600 bg-emerald-50",
             },
             {
-              num: stats.totalCountries || "40+",
-              label: "涉及國家",
+              num: stats.totalCountries ?? "—",
+              label: "來源所列國家／地區",
               icon: Users,
               color: "text-blue-600 bg-blue-50",
             },

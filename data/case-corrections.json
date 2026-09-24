@@ -1,0 +1,655 @@
+{
+  "reviewedAt": "2026-09-22",
+  "scope": "已確認的核心事實校正；尚未宣稱全庫所有內容查核完成。首批 50 件候選另行審核，不在此匯入。",
+  "corrections": [
+    {
+      "id": "1",
+      "expectedName": "Erriyon Knighton",
+      "reason": "網站仍列暫時禁賽、調查中；AIU 上訴表已列 2025-09-12 CAS 四年禁賽，並列特定期間成績取消。",
+      "set": {
+        "eventBackground": "Erriyon Knighton 的 2024 年樣本檢出 trenbolone 代謝物。原審接受污染肉品說法、未處禁賽；CAS 於 2025 年 9 月 12 日撤銷原審結果，裁處四年禁賽。AIU 於同年 10 月公布裁決說明，指出本案未能證明污染來源及非故意。",
+        "summary": "從原審到上訴結果改變的案例：同一事件需保留裁決歷程，並使用最新結果。",
+        "educationalNotes": "陽性結果、來源舉證與故意認定是不同問題；不能把未被採信的污染抗辯寫成已獲裁決確認。",
+        "punishment": {
+          "banDuration": "4年（CAS，2025-09-12；折抵已服暫時禁賽）",
+          "resultsCancelled": true,
+          "medalStripped": null,
+          "otherPenalties": "取消 2024-03-26 至 2024-04-12 的成績；折抵 2024-04-12 至 2024-06-19 暫時禁賽。"
+        },
+        "sourceLinks": [
+          {
+            "title": "2025-09-12 Erriyon Knighton 列",
+            "url": "https://www.athleticsintegrity.org/disciplinary-process/appeal-decisions",
+            "type": "官方文件"
+          },
+          {
+            "title": "第 1 頁，2025-10-21 公告",
+            "url": "https://www.athleticsintegrity.org/downloads/pdfs/other/NEWS-CAS-Appeal-Panel-Knighton-Failed-to-Establish-His-ADRV-Was-Not-Intentional.pdf",
+            "type": "官方文件"
+          }
+        ],
+        "review": {
+          "status": "core_checked",
+          "caseType": "已成立違規／上訴改判",
+          "outcome": "CAS 四年禁賽；原審結果已撤銷",
+          "checkedAt": "2026-09-22",
+          "scope": "事件、裁決結果及本頁教學摘要；不代表其他獨立事件的結論"
+        }
+      }
+    },
+    {
+      "id": "2",
+      "expectedName": "Iga Swiatek",
+      "reason": "一個月禁賽正確，但模板式「因使用」欠缺裁決認定的藥物污染、非故意及無重大過失脈絡。不能將陽性結果直接寫成蓄意使用。",
+      "set": {
+        "eventBackground": "Iga Swiatek 的 2024 年樣本檢出 trimetazidine。ITIA 接受其所用 melatonin 藥品受污染的證據，認定非故意及無重大過失或疏忽；她接受一個月禁賽。",
+        "summary": "藥品污染可影響過失認定與制裁，但仍須如實呈現成立的違規及裁決結果。",
+        "educationalNotes": "「污染來源獲接受」、「沒有故意」與「沒有違規」不是同一件事。用藥紀錄與可追溯的產品證據有助於釐清來源。",
+        "punishment": {
+          "banDuration": "1個月",
+          "resultsCancelled": null,
+          "medalStripped": null,
+          "otherPenalties": "繳回 Cincinnati 賽事獎金；本頁不將獎金處置擴張成所有成績取消。"
+        },
+        "sourceLinks": [
+          {
+            "title": "2024-11-28，melatonin contamination、No Significant Fault or Negligence",
+            "url": "https://www.itia.tennis/news/sanctions/polish-tennis-player-iga-swiatek-accepts-one-month-suspension-under-tennis-anti-doping-programme/",
+            "type": "官方文件"
+          }
+        ],
+        "review": {
+          "status": "core_checked",
+          "caseType": "污染／已成立違規",
+          "outcome": "非故意、無重大過失；禁賽一個月",
+          "checkedAt": "2026-09-22",
+          "scope": "事件、裁決結果及本頁教學摘要；不代表其他獨立事件的結論"
+        }
+      }
+    },
+    {
+      "id": "3",
+      "expectedName": "Jannik Sinner",
+      "reason": "三個月和解禁賽已更新；但 resultsCancelled=false 與同筆的印第安維爾斯積分、獎金被扣及 ITIA 公告矛盾，背景亦缺非故意污染脈絡。",
+      "set": {
+        "eventBackground": "Jannik Sinner 的 2024 年樣本檢出 clostebol。原審接受經支援團隊造成非故意暴露的證據，認定無過失；印第安維爾斯賽事成績、積分及獎金仍被取消。WADA 上訴後，2025 年以三個月禁賽和解。",
+        "summary": "同一污染事件的原審、上訴與和解需串成時間線；取消賽事成績與禁賽是不同後果。",
+        "educationalNotes": "無故意或無過失認定不必然保留檢測相關賽事的成績。教學應分開說明來源、過失、個人禁賽及成績處置。",
+        "punishment": {
+          "banDuration": "3個月（2025 年和解）",
+          "resultsCancelled": true,
+          "medalStripped": null,
+          "otherPenalties": "印第安維爾斯賽事成績、積分及獎金取消。"
+        },
+        "sourceLinks": [
+          {
+            "title": "2025-02-15，三個月和解",
+            "url": "https://www.itia.tennis/news/sanctions/itia-statement/",
+            "type": "官方文件"
+          },
+          {
+            "title": "2024-08-20，Indian Wells results、points and prize money disqualified",
+            "url": "https://www.itia.tennis/news/sanctions/independent-tribunal-rules-no-fault-or-negligence-in-case-of-italian-player-jannik-sinner/",
+            "type": "官方文件"
+          }
+        ],
+        "review": {
+          "status": "core_checked",
+          "caseType": "污染／和解處分",
+          "outcome": "2025 年和解禁賽三個月",
+          "checkedAt": "2026-09-22",
+          "scope": "事件、裁決結果及本頁教學摘要；不代表其他獨立事件的結論"
+        }
+      }
+    },
+    {
+      "id": "8",
+      "expectedName": "Simona Halep",
+      "reason": "網站四年是原處分，CAS 已於 2024-03-05 改為九個月；「2022 年 7 月起」取消成績亦與裁決不符。",
+      "set": {
+        "eventBackground": "Simona Halep 於 2022 年美網檢出 roxadustat，另面對生物護照指控。CAS 於 2024 年 3 月裁定，roxadustat 與受污染補充劑有關；仍有需負責的過失，但原四年禁賽改為九個月。CAS 未維持原審的生物護照違規結論。",
+        "summary": "上訴後制裁從四年改為九個月，展示污染證據與過失認定對裁決的影響。",
+        "educationalNotes": "受污染產品不自動免除責任；應讀取最新裁決，分辨物質陽性與生物護照等不同指控各自的結果。",
+        "punishment": {
+          "banDuration": "9個月（自 2022-10-07 起；CAS 2024 改判）",
+          "resultsCancelled": true,
+          "medalStripped": null,
+          "otherPenalties": "取消 2022-08-29 至 2022-10-07 的成績。"
+        },
+        "sourceLinks": [
+          {
+            "title": "2024-10-10，公布完整裁決與九個月結果",
+            "url": "https://www.itia.tennis/news/sanctions/full-decision-in-the-case-of-simona-halep-v-itia/",
+            "type": "官方文件"
+          },
+          {
+            "title": "第 58 頁裁決主文；期間由搜尋索引取得",
+            "url": "https://www.itia.tennis/media/g5qnwa52/cas-10025-10227-award-final-redacted.pdf",
+            "type": "官方文件"
+          }
+        ],
+        "review": {
+          "status": "core_checked",
+          "caseType": "污染／上訴減刑",
+          "outcome": "CAS 改為九個月，非原判四年",
+          "checkedAt": "2026-09-22",
+          "scope": "事件、裁決結果及本頁教學摘要；不代表其他獨立事件的結論"
+        },
+        "substanceCategory": "S2: 肽類激素、生長因子、相關物質及模擬物（HIF 活化劑）"
+      }
+    },
+    {
+      "id": "9",
+      "expectedName": "Blessing Okagbare",
+      "reason": "網站十年尚未反映 2022 年追加一年後的十一年總禁賽。",
+      "set": {
+        "eventBackground": "Blessing Okagbare 在 2021 年的 EPO／生長激素及配合調查相關案件先受十年禁賽；AIU 於 2022 年 6 月宣布，因額外的規避採樣等違規再追加一年，累計十一年。",
+        "summary": "不同違規可導致追加制裁，資料不能停留在最早公布的十年處分。",
+        "educationalNotes": "應分清原始物質案件、調查配合義務與之後的追加制裁，並核對受影響的個人及接力賽成績。",
+        "punishment": {
+          "banDuration": "11年（原十年，加追加一年）",
+          "resultsCancelled": true,
+          "medalStripped": null,
+          "otherPenalties": "取消自 2021-06-13 起的相關成績，影響東京奧運前的接力資格。"
+        },
+        "sourceLinks": [
+          {
+            "title": "2022-06-27，additional one-year、total eleven years",
+            "url": "https://www.athleticsintegrity.org/downloads/pdfs/know-us/en/Press-Release-blessing.pdf",
+            "type": "官方文件"
+          }
+        ],
+        "review": {
+          "status": "core_checked",
+          "caseType": "已成立違規／追加制裁",
+          "outcome": "累計十一年禁賽",
+          "checkedAt": "2026-09-22",
+          "scope": "事件、裁決結果及本頁教學摘要；不代表其他獨立事件的結論"
+        }
+      }
+    },
+    {
+      "id": "11",
+      "expectedName": "Sha'Carri Richardson",
+      "reason": "事件與一個月禁賽有官方支持；資料的 S6 興奮劑分類有誤，大麻素屬 S8。",
+      "set": {
+        "eventBackground": "Sha’Carri Richardson 在 2021 年美國奧運選拔賽的樣本檢出 THC 代謝物。USADA 公告其接受一個月禁賽，並取消 6 月 19 日的比賽結果，因此未能以該次百米成績取得東京奧運資格。",
+        "summary": "大麻素的賽內規則與濫用物質處理案例；不是 S6 興奮劑案例。",
+        "educationalNotes": "WADA 分類為 S8 大麻素。禁賽期限、賽果取消及奧運資格是不同後果，應依該年度規則與個案處理。",
+        "punishment": {
+          "banDuration": "1個月（自 2021-06-28 起）",
+          "resultsCancelled": true,
+          "medalStripped": null,
+          "otherPenalties": "取消 2021-06-19 選拔賽結果及相應獎勵。"
+        },
+        "sourceLinks": [
+          {
+            "title": "2021-07-02，cannabinoids 與一個月禁賽",
+            "url": "https://www.usada.org/sanction/shacarri-richardson-accepts-doping-sanction/",
+            "type": "官方文件"
+          },
+          {
+            "title": "S8 Cannabinoids",
+            "url": "https://www.usada.org/athlete-advisory/athlete-advisory-2020-prohibited-list/",
+            "type": "官方文件"
+          }
+        ],
+        "review": {
+          "status": "core_checked",
+          "caseType": "已成立違規／大麻素",
+          "outcome": "THC 相關違規；禁賽一個月",
+          "checkedAt": "2026-09-22",
+          "scope": "事件、裁決結果及本頁教學摘要；不代表其他獨立事件的結論"
+        },
+        "substance": "THC（大麻素）",
+        "substanceCategory": "S8: 大麻素"
+      }
+    },
+    {
+      "id": "13",
+      "expectedName": "Christian Coleman",
+      "reason": "兩年禁賽已被 CAS 改為十八個月；行蹤申報違規不是「使用錯過檢測被檢出」，亦不能分類為 M2 化學與物理操縱。",
+      "set": {
+        "eventBackground": "Christian Coleman 因十二個月內的三次行蹤申報失誤而受制裁。CAS 於 2021 年把原兩年禁賽改為十八個月，從 2020 年 5 月 14 日起算。本案不是樣本檢出某種禁用物質。",
+        "summary": "即使沒有物質陽性，行蹤申報失誤仍可能構成反禁藥規則違反。",
+        "educationalNotes": "行蹤申報屬 ADRV 第 2.4 條，應與禁用物質分類及 M2 干擾方法分開。",
+        "punishment": {
+          "banDuration": "18個月（自 2020-05-14 起；CAS 改判）",
+          "resultsCancelled": null,
+          "medalStripped": null,
+          "otherPenalties": "未能參加東京奧運；取消成績範圍未在本次引用公告中確認。"
+        },
+        "sourceLinks": [
+          {
+            "title": "2021-04-16，一頁公告：18 months、whereabouts failures",
+            "url": "https://www.athleticsintegrity.org/downloads/pdfs/know-us/en/AIU-PRESS-RELEASE-ATHLETICS-INTEGRITY-UNIT-WELCOMES-CAS-DECISION-TO-BAN-CHRISTIAN-COLEMAN.pdf",
+            "type": "官方文件"
+          }
+        ],
+        "review": {
+          "status": "core_checked",
+          "caseType": "已成立違規／行蹤申報",
+          "outcome": "CAS 改為十八個月禁賽",
+          "checkedAt": "2026-09-22",
+          "scope": "事件、裁決結果及本頁教學摘要；不代表其他獨立事件的結論"
+        },
+        "substance": "行蹤申報失誤（非禁用物質陽性）",
+        "substanceCategory": "ADRV 2.4: 行蹤申報失誤"
+      }
+    },
+    {
+      "id": "23",
+      "expectedName": "Wilson Kipsang",
+      "reason": "網站列六年；AIU 官方清單及年度報告所列 Wilson Kipsang 處分為四年，涉及行蹤申報與干擾。",
+      "set": {
+        "eventBackground": "Wilson Kipsang Kiprotich 因行蹤申報失誤及干擾反禁藥程序受到四年禁賽。AIU 的處分清單列禁賽至 2024 年 1 月 9 日，並列出其成績取消期間。",
+        "summary": "行蹤失誤與提出不實資料是不同違規行為，不能一律描述為服用禁藥。",
+        "educationalNotes": "應分開記錄違規類型、處分決定及生效日期；姓名別名需合併比對，避免重複事件。",
+        "punishment": {
+          "banDuration": "4年（至 2024-01-09）",
+          "resultsCancelled": true,
+          "medalStripped": null,
+          "otherPenalties": "成績取消範圍依 AIU 個案清單／裁決。"
+        },
+        "sourceLinks": [
+          {
+            "title": "Wilson Kipsang Kiprotich 列：4 years",
+            "url": "https://www.athleticsintegrity.org/downloads/pdfs/disciplinary-process/en/Latest-Santions-AUGUST-2020.pdf",
+            "type": "官方文件"
+          },
+          {
+            "title": "Whereabouts and tampering 案件表",
+            "url": "https://www.athleticsintegrity.org/downloads/pdfs/know-us/en/AIU-Road-Running-Report-2020-2021.pdf",
+            "type": "官方文件"
+          }
+        ],
+        "review": {
+          "status": "core_checked",
+          "caseType": "已成立違規／行蹤申報及干擾",
+          "outcome": "四年禁賽",
+          "checkedAt": "2026-09-22",
+          "scope": "事件、裁決結果及本頁教學摘要；不代表其他獨立事件的結論"
+        },
+        "substance": "行蹤申報失誤及干擾程序",
+        "substanceCategory": "ADRV 2.4／2.5: 行蹤申報及干擾"
+      }
+    },
+    {
+      "id": "26",
+      "expectedName": "Ryan Lochte",
+      "reason": "限核心主張：2018 年超量靜脈輸注、禁用方法、十四個月禁賽，與 USADA 公告一致。這不等於整筆教育文字全部查證完成。",
+      "set": {
+        "eventBackground": "Ryan Lochte 在 2018 年接受超過規定總量的靜脈輸注，且不屬於規則列出的醫療例外、未有核准 TUE。USADA 公告十四個月禁賽；本案不涉及輸注物質本身被禁止的認定。",
+        "summary": "即使輸注成分本身未禁用，輸注方法仍可能違反反禁藥規則。",
+        "educationalNotes": "本案適用的 M2 規則以十二小時內總量超過 100 mL 為界，並有住院治療、手術、臨床診斷等醫療例外；必要時須另行申請 TUE。",
+        "punishment": {
+          "banDuration": "14個月（自 2018-05-24 起）",
+          "resultsCancelled": null,
+          "medalStripped": null,
+          "otherPenalties": "處分涉及輸注方法。"
+        },
+        "sourceLinks": [
+          {
+            "title": "2018-07-23：14 months、100 mL within 12 hours",
+            "url": "https://www.usada.org/sanction/ryan-lochte-accepts-doping-sanction/",
+            "type": "官方文件"
+          }
+        ],
+        "review": {
+          "status": "core_checked",
+          "caseType": "已成立違規／禁用方法",
+          "outcome": "靜脈輸注違規；十四個月禁賽",
+          "checkedAt": "2026-09-22",
+          "scope": "事件、裁決結果及本頁教學摘要；不代表其他獨立事件的結論"
+        }
+      }
+    },
+    {
+      "id": "41",
+      "expectedName": "Gil Roberts",
+      "reason": "Probenecid 事件發生於 2017 年；免除禁賽依據為接吻造成間接暴露之無過失裁決，並非網站所稱 2016 年取得 TUE。後續 2022、2023 年另有不同案件。",
+      "set": {
+        "eventBackground": "Gil Roberts 的 2017 年樣本檢出 probenecid。仲裁庭接受接吻造成間接暴露的證據，認定無過失或疏忽而免除禁賽。這不是 2016 年取得 TUE 的案例；其後另有獨立事件，不能與本案混寫。",
+        "summary": "間接暴露的來源與無過失須經證據審查，不能直接套用其他案件。",
+        "educationalNotes": "「無過失免禁賽」不同於「合法 TUE」，也不代表此人其他時間的所有案件都已獲免責。",
+        "punishment": {
+          "banDuration": "無禁賽（2017 年無過失裁決；非 TUE）",
+          "resultsCancelled": false,
+          "medalStripped": false,
+          "otherPenalties": "僅描述本次 2017 年 Probenecid 事件。"
+        },
+        "sourceLinks": [
+          {
+            "title": "2017-07-10 仲裁裁決，第 25 頁主文",
+            "url": "https://www.usada.org/wp-content/uploads/07_12_17-Gil-Roberts-AAA-FinalAward.pdf",
+            "type": "官方文件"
+          },
+          {
+            "title": "2024 年裁決，第 8–11 段回顧歷次事件",
+            "url": "https://www.usada.org/wp-content/uploads/Gil-Roberts-Final-Award.pdf",
+            "type": "官方文件"
+          }
+        ],
+        "review": {
+          "status": "core_checked",
+          "caseType": "污染／無過失免禁賽",
+          "outcome": "2017 年無過失裁決；不是 TUE",
+          "checkedAt": "2026-09-22",
+          "scope": "事件、裁決結果及本頁教學摘要；不代表其他獨立事件的結論"
+        },
+        "year": 2017
+      }
+    },
+    {
+      "id": "45",
+      "expectedName": "Nijat Rahimov",
+      "reason": "八年禁賽與里約成績取消有來源支持，但此次處分原因是 2016 年尿液樣本替換，並非資料所寫 Turinabol。",
+      "set": {
+        "eventBackground": "ITA 公告 CAS 反禁藥庭於 2022 年裁定 Nijat Rahimov 在 2016 年涉及尿液樣本替換，處以八年禁賽，取消 2016 年 3 月 15 日至 2021 年 1 月 18 日的比賽結果，包括里約奧運金牌。",
+        "summary": "本案制裁針對樣本替換，不應誤寫為 Turinabol 陽性。",
+        "educationalNotes": "反禁藥違規不只包含服用物質；樣本替換與干擾採樣程序也須獨立分類。",
+        "punishment": {
+          "banDuration": "8年（2022 年 CAS ADD 裁決）",
+          "resultsCancelled": true,
+          "medalStripped": true,
+          "otherPenalties": "取消 2016-03-15 至 2021-01-18 的結果，包括里約奧運金牌。"
+        },
+        "sourceLinks": [
+          {
+            "title": "2022-03-22：urine substitution、eight years",
+            "url": "https://ita.sport/news/the-ita-welcomes-decision-of-cas-add-to-sanction-weightlifter-nijat-rahimov-for-adrv-of-swapping-samples/",
+            "type": "官方文件"
+          }
+        ],
+        "review": {
+          "status": "core_checked",
+          "caseType": "已成立違規／樣本替換",
+          "outcome": "八年禁賽，取消里約奧運金牌",
+          "checkedAt": "2026-09-22",
+          "scope": "事件、裁決結果及本頁教學摘要；不代表其他獨立事件的結論"
+        },
+        "substance": "尿液樣本替換",
+        "substanceCategory": "M2: 化學與物理操縱（樣本替換）"
+      }
+    },
+    {
+      "id": "48",
+      "expectedName": "Simone Biles",
+      "reason": "USA Gymnastics 明確表示已有核准 TUE，沒有違反藥檢規則；背景卻寫「違規」。同筆 substance 與 eventBackground 對 Methylphenidate 的中文名稱不一致，後者寫成另一藥物甲基苯丙胺。",
+      "set": {
+        "eventBackground": "USA Gymnastics 於 2016 年公開確認 Simone Biles 已提交並取得所需治療用途豁免，沒有違反藥檢規則，包括里約奧運期間。本頁以官方聲明說明 TUE 制度，不使用外洩醫療紀錄作為個案來源。",
+        "summary": "合法 TUE 是受規範的醫療使用途徑，本案例不列為已成立禁藥違規。",
+        "educationalNotes": "使用受規範的藥物不等於作弊；須依適用規則確認是否需要 TUE、是否已核准，以及其適用條件。",
+        "punishment": {
+          "banDuration": "無處罰（合法 TUE）",
+          "resultsCancelled": false,
+          "medalStripped": false,
+          "otherPenalties": "官方確認未違反藥檢規則。"
+        },
+        "sourceLinks": [
+          {
+            "title": "2016-09-13 官方聲明：TUE 已核准、no drug testing rules have been violated",
+            "url": "https://usagym.org/usa-gymnastics-statement-regarding-simone-biles-and-wada-hack/",
+            "type": "官方文件"
+          }
+        ],
+        "review": {
+          "status": "core_checked",
+          "caseType": "合法 TUE／醫療用藥",
+          "outcome": "官方確認已核准 TUE，未違反藥檢規則",
+          "checkedAt": "2026-09-22",
+          "scope": "事件、裁決結果及本頁教學摘要；不代表其他獨立事件的結論"
+        },
+        "substance": "經核准 TUE 的醫療用藥（以官方聲明為限）",
+        "substanceCategory": "TUE: 合法治療用途豁免"
+      }
+    },
+    {
+      "id": "58",
+      "expectedName": "Alexander Legkov",
+      "reason": "CAS 已撤銷 IOC 所涉裁決，恢復索契成績；網站仍列終身禁賽與金牌取消。這不是對所有歷史爭議作概括結論。",
+      "set": {
+        "eventBackground": "Alexander Legkov 曾因索契冬奧相關指控受到 IOC 處分。CAS 在本案認為證據不足以確立所指違規，撤銷相關處分，恢復其索契比賽結果。不能繼續把已撤銷處分寫成目前有效的終身禁賽。",
+        "summary": "系統性調查背景不能取代個案舉證；教學需呈現上訴後的結果。",
+        "educationalNotes": "本案裁決結果只涵蓋裁決所審理的指控與處分；不要把它與另一次奧運的參賽邀請決定混為一談。",
+        "punishment": {
+          "banDuration": "本案處分撤銷（CAS 2018）",
+          "resultsCancelled": false,
+          "medalStripped": false,
+          "otherPenalties": "索契成績及相應獎牌恢復。"
+        },
+        "sourceLinks": [
+          {
+            "title": "CAS 2017/A/5379，第 163 頁及裁決主文：set aside、results reinstated",
+            "url": "https://jurisprudence.tas-cas.org/Shared%20Documents/5379.pdf",
+            "type": "官方文件"
+          }
+        ],
+        "review": {
+          "status": "primary_excerpt_checked",
+          "caseType": "原處分撤銷／未成立違規",
+          "outcome": "CAS 撤銷本案 IOC 處分，恢復索契成績",
+          "checkedAt": "2026-09-22",
+          "scope": "CAS 裁決主文已核對；舊 PDF 連結的全文取得仍需追蹤"
+        },
+        "substance": "索契樣本與干擾相關指控（本案未成立）",
+        "substanceCategory": "不適用：本案未成立違規"
+      }
+    },
+    {
+      "id": "59",
+      "expectedName": "Alexander Tretiakov",
+      "reason": "CAS 2017/A/5429 主文撤銷 IOC 2017-11-22 決定並恢復索契成績；網站仍呈現終身禁賽、取消金牌。",
+      "set": {
+        "eventBackground": "Alexander Tretiakov 曾因索契冬奧相關指控受到 IOC 處分。CAS 在本案認為證據不足以確立所指違規，撤銷相關處分，恢復其索契比賽結果。不能繼續把已撤銷處分寫成目前有效的終身禁賽。",
+        "summary": "系統性調查背景不能取代個案舉證；教學需呈現上訴後的結果。",
+        "educationalNotes": "本案裁決結果只涵蓋裁決所審理的指控與處分；不要把它與另一次奧運的參賽邀請決定混為一談。",
+        "punishment": {
+          "banDuration": "本案處分撤銷（CAS 2018）",
+          "resultsCancelled": false,
+          "medalStripped": false,
+          "otherPenalties": "索契成績及相應獎牌恢復。"
+        },
+        "sourceLinks": [
+          {
+            "title": "第 159 頁主文，appeal upheld、all results reinstated",
+            "url": "https://jurisprudence.tas-cas.org/Shared%20Documents/5429.pdf",
+            "type": "官方文件"
+          }
+        ],
+        "review": {
+          "status": "primary_excerpt_checked",
+          "caseType": "原處分撤銷／未成立違規",
+          "outcome": "CAS 撤銷本案 IOC 處分，恢復索契成績",
+          "checkedAt": "2026-09-22",
+          "scope": "CAS 裁決主文已核對；舊 PDF 連結的全文取得仍需追蹤"
+        },
+        "substance": "索契樣本與干擾相關指控（本案未成立）",
+        "substanceCategory": "不適用：本案未成立違規"
+      }
+    },
+    {
+      "id": "65",
+      "expectedName": "Sun Yang",
+      "reason": "2014 年 Trimetazidine 三個月禁賽與 2018 年採樣事件是不同違規。2021 年重審處理的是後者，裁處五十一個月；2014 年前案被用於再犯處分計算，不是兩案合併重審。",
+      "set": {
+        "eventBackground": "Sun Yang 在 2014 年的 trimetazidine 事件受到三個月禁賽。2021 年 CAS 裁決在審理另一次 2018 年採樣事件時回顧此前案；並未把 2014 年事件重新裁為五十一個月禁賽。",
+        "summary": "同一人的不同違規事件應分開記錄，前案可能影響再犯處分計算。",
+        "educationalNotes": "Trimetazidine 的年度分類曾由 S6 改為 S4，歷史案件不能直接套用現行分類。2018 年的採樣程序事件另列一案。",
+        "punishment": {
+          "banDuration": "3個月（2014 年事件）",
+          "resultsCancelled": null,
+          "medalStripped": null,
+          "otherPenalties": "具體成績取消範圍待補 2014 年原始裁決，未據後案推定。"
+        },
+        "sourceLinks": [
+          {
+            "title": "第 4–6 頁事件範圍；第 85 頁第 384–388 段；第 88 頁主文",
+            "url": "https://aquaticsintegrity.com/wp-content/uploads/2023/01/Award_6148__FINAL_.pdf",
+            "type": "官方文件"
+          },
+          {
+            "title": "WADA 2014 年會議紀錄：2015 年清單的 Trimetazidine 分類調整",
+            "url": "https://www.wada-ama.org/sites/default/files/resources/files/wada_hmr_committee_minutes_2014_09_3-4.pdf",
+            "type": "WADA"
+          }
+        ],
+        "review": {
+          "status": "core_checked",
+          "caseType": "已成立違規／2014 年物質事件",
+          "outcome": "2014 年三個月禁賽；與 2018 採樣事件分開",
+          "checkedAt": "2026-09-22",
+          "scope": "事件、裁決結果及本頁教學摘要；不代表其他獨立事件的結論"
+        },
+        "substanceCategory": "S6.b: 特定興奮劑（2014 年清單）"
+      }
+    },
+    {
+      "id": "134",
+      "expectedName": "C.J. Hunter",
+      "reason": "C.J. Hunter 與 CJ Hunter 為同一人、同一組 2000 年 Nandrolone 事件，重複計數。官方說明為 2000 年夏季四次陽性，2001 年 3 月禁賽兩年；不得籠統寫為在雪梨奧運中被檢出。",
+      "set": {
+        "eventBackground": "World Athletics 的官方說明指出，C.J. Hunter 在 2000 年夏季四次樣本檢出 nandrolone，於 2001 年 3 月受到兩年禁賽。C.J. Hunter 與 CJ Hunter 是同一人，本頁合併原本重複的兩筆紀錄。",
+        "summary": "同一姓名的不同拼寫不應重複計為案例；檢測時間與處分時間也應分開。",
+        "educationalNotes": "本頁只描述 2000 年檢測與其後處分，不根據其他人物或其他案件的關聯推定新的違規。",
+        "punishment": {
+          "banDuration": "2年（2001 年 3 月處分）",
+          "resultsCancelled": null,
+          "medalStripped": null,
+          "otherPenalties": "未參加雪梨奧運；本次來源未確認各場成績取消範圍。"
+        },
+        "sourceLinks": [
+          {
+            "title": "2003-12-12，four positives during summer 2000、two-year suspension March 2001",
+            "url": "https://worldathletics.org/news/news/iaaf-comment-regarding-cj-hunter-allegations",
+            "type": "官方文件"
+          }
+        ],
+        "review": {
+          "status": "core_checked",
+          "caseType": "已成立違規／合併重複紀錄",
+          "outcome": "同一 2000 年事件；兩年禁賽",
+          "checkedAt": "2026-09-22",
+          "scope": "事件、裁決結果及本頁教學摘要；不代表其他獨立事件的結論"
+        }
+      }
+    }
+  ],
+  "quarantine": [
+    {
+      "id": "10",
+      "expectedName": "Jennifer Thompson",
+      "reason": "未取得足以支持「Jennifer Thompson 2021 Ostarine 污染、警告」的官方個案來源；同名或搜尋未命中均不能判定虛構。",
+      "status": "pending_primary_evidence"
+    },
+    {
+      "id": "15",
+      "expectedName": "Adam Peaty",
+      "reason": "未取得支持 2019 年 Prednisolone 合法 TUE 之公開官方個案資料；資料內「合法 TUE」與背景「違規」也互相矛盾。",
+      "status": "pending_primary_evidence"
+    },
+    {
+      "id": "16",
+      "expectedName": "Blaine Sumner",
+      "reason": "未取得支持 2019 年 Testosterone TUE 的官方個案資料；背景仍把其稱為違規。",
+      "status": "pending_primary_evidence"
+    },
+    {
+      "id": "20",
+      "expectedName": "Stefi Cohen",
+      "reason": "未取得支持「2019 Cardarine 污染、禁賽六個月」的官方裁決；與無關新聞或社群猜測不能互相代證。",
+      "status": "pending_primary_evidence"
+    },
+    {
+      "id": "85",
+      "expectedName": "Sharif Sharifov",
+      "reason": "未取得 Turinabol 四年禁賽及奧運金牌剝奪的官方裁決。UWW 運動員頁仍介紹其倫敦奧運冠軍身分，與網站的取消金牌主張衝突；介紹頁本身不能證明從未有過任何違規。",
+      "status": "pending_primary_evidence"
+    },
+    {
+      "id": "164",
+      "expectedName": "Zlatan Vanev",
+      "reason": "未取得支持 Zlatan Vanev 在 1984 年因 Stanozolol 被禁十八個月的官方個案資料。其他年代或相似姓名的舉重禁賽不能直接套用。",
+      "status": "pending_primary_evidence"
+    },
+    {
+      "id": "27",
+      "expectedName": "Serena Williams",
+      "reason": "原資料把合法 TUE 寫成違規，且僅附機構首頁，缺少可支持具名藥物、日期與 TUE 核准的公開個案證據；暫移待查，不判定為虛構。",
+      "status": "pending_primary_evidence"
+    },
+    {
+      "id": "32",
+      "expectedName": "Justin Rose",
+      "reason": "原資料把合法 TUE 寫成違規，且僅附機構首頁，缺少可支持具名藥物、日期與 TUE 核准的公開個案證據；暫移待查，不判定為虛構。",
+      "status": "pending_primary_evidence"
+    },
+    {
+      "id": "42",
+      "expectedName": "Lizzie Armitstead",
+      "reason": "原資料把合法 TUE 寫成違規，且僅附機構首頁，缺少可支持具名藥物、日期與 TUE 核准的公開個案證據；暫移待查，不判定為虛構。",
+      "status": "pending_primary_evidence"
+    },
+    {
+      "id": "53",
+      "expectedName": "Mo Farah",
+      "reason": "原資料把合法 TUE 寫成違規，且僅附機構首頁，缺少可支持具名藥物、日期與 TUE 核准的公開個案證據；暫移待查，不判定為虛構。",
+      "status": "pending_primary_evidence"
+    },
+    {
+      "id": "76",
+      "expectedName": "Bradley Wiggins",
+      "reason": "原資料把合法 TUE 寫成違規，且僅附機構首頁，缺少可支持具名藥物、日期與 TUE 核准的公開個案證據；暫移待查，不判定為虛構。",
+      "status": "pending_primary_evidence"
+    },
+    {
+      "id": "83",
+      "expectedName": "Rafael Nadal",
+      "reason": "原資料把合法 TUE 寫成違規，且僅附機構首頁，缺少可支持具名藥物、日期與 TUE 核准的公開個案證據；暫移待查，不判定為虛構。",
+      "status": "pending_primary_evidence"
+    },
+    {
+      "id": "89",
+      "expectedName": "Venus Williams",
+      "reason": "原資料把合法 TUE 寫成違規，且僅附機構首頁，缺少可支持具名藥物、日期與 TUE 核准的公開個案證據；暫移待查，不判定為虛構。",
+      "status": "pending_primary_evidence"
+    }
+  ],
+  "redirects": {
+    "135": "134"
+  },
+  "additions": [
+    {
+      "id": "sun-yang-2018",
+      "athleteName": "Sun Yang",
+      "year": 2018,
+      "sport": "游泳",
+      "nationality": "中國",
+      "substance": "拒絕／未完成採樣與干擾採樣程序",
+      "substanceCategory": "ADRV 2.3／2.5: 採樣程序違規",
+      "eventBackground": "2018 年 9 月的採樣事件引發 FINA 與 CAS 程序。原 CAS 裁決被瑞士聯邦法院撤銷後，由新的仲裁庭重審；2021 年裁決處以四年三個月禁賽，自 2020 年 2 月 28 日起算。這是與 2014 年物質事件不同的案件。",
+      "punishment": {
+        "banDuration": "4年3個月（2021 年 CAS 裁決，自 2020-02-28 起）",
+        "resultsCancelled": false,
+        "medalStripped": false,
+        "otherPenalties": "本案裁決未取消 2018 年採樣事件後、禁賽起算前的競賽結果。"
+      },
+      "summary": "採樣程序、程序公正與再犯制裁計算的案例。",
+      "educationalNotes": "採樣程序違規不需要以某物質陽性為前提；重審的程序原因與違規實體判斷須分開說明。",
+      "sourceLinks": [
+        {
+          "title": "第 4–6 頁事件範圍；第 85 頁第 384–388 段；第 88 頁主文",
+          "url": "https://aquaticsintegrity.com/wp-content/uploads/2023/01/Award_6148__FINAL_.pdf",
+          "type": "官方文件"
+        }
+      ],
+      "review": {
+        "status": "core_checked",
+        "caseType": "已成立違規／採樣程序",
+        "outcome": "2021 年 CAS 重審裁處五十一個月",
+        "checkedAt": "2026-09-22",
+        "scope": "2018 年事件及 2021 年裁決主文"
+      }
+    }
+  ]
+}

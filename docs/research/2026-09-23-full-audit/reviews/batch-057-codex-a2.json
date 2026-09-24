@@ -1,0 +1,277 @@
+{
+  "cases": [
+    {
+      "id": "aiu-3741d9499180",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-e117d34199d385cb",
+        "registry-a57c5d7d9c62abde"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-e117d34199d385cb",
+          "startLine": 17,
+          "endLine": 17,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "決定確認選手姓名及其來自肯亞。"
+        },
+        {
+          "documentId": "doc-e117d34199d385cb",
+          "startLine": 49,
+          "endLine": 68,
+          "supports": [
+            "event",
+            "substance",
+            "dates"
+          ],
+          "note": "2023年6月30日肯亞賽外採樣，檢出符合外源性來源的19-Norandrosterone。"
+        },
+        {
+          "documentId": "doc-e117d34199d385cb",
+          "startLine": 103,
+          "endLine": 107,
+          "supports": [
+            "substance",
+            "education"
+          ],
+          "note": "選手承認違規及曾購買、注射禁用物質；這是承認使用的紀錄。"
+        },
+        {
+          "documentId": "doc-e117d34199d385cb",
+          "startLine": 222,
+          "endLine": 227,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "三年禁賽自2023年9月6日起，取消自6月30日起的成績及相關後果。"
+        },
+        {
+          "documentId": "registry-a57c5d7d9c62abde",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊列肯亞代表碼及相同違規、禁賽與成績取消範圍。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "aiu-d662751a534d",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-d67601193691bf0b",
+        "registry-04d0fe7493ab7703"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-d67601193691bf0b",
+          "startLine": 18,
+          "endLine": 18,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "決定確認選手姓名及其來自烏干達。"
+        },
+        {
+          "documentId": "doc-d67601193691bf0b",
+          "startLine": 50,
+          "endLine": 73,
+          "supports": [
+            "event",
+            "substance",
+            "dates"
+          ],
+          "note": "2023年5月13日奈洛比 Kip Keino Classic 賽內採樣，檢出外源性19-Norandrosterone；決定列明2023年清單 S1.1 分類。"
+        },
+        {
+          "documentId": "doc-d67601193691bf0b",
+          "startLine": 102,
+          "endLine": 110,
+          "supports": [
+            "substance",
+            "education"
+          ],
+          "note": "醫療文件所列藥物無法解釋檢出；AIU仍認定違規。"
+        },
+        {
+          "documentId": "doc-d67601193691bf0b",
+          "startLine": 148,
+          "endLine": 169,
+          "supports": [
+            "sanction",
+            "dates",
+            "education"
+          ],
+          "note": "表格雖標日期為10月4日，10月7日才交回且未證明截止日前完成。"
+        },
+        {
+          "documentId": "doc-d67601193691bf0b",
+          "startLine": 222,
+          "endLine": 247,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "四年禁賽自2023年7月13日起，取消自5月13日起成績及相關後果。"
+        },
+        {
+          "documentId": "registry-04d0fe7493ab7703",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊列烏干達代表碼及相同違規、禁賽與成績取消範圍。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "aiu-b420ee0df19f",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-ac3adc385d9b5128",
+        "registry-1c08bde50bee8771"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-ac3adc385d9b5128",
+          "startLine": 18,
+          "endLine": 19,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "決定確認 Jennifer Gonzalez-Caro 為智利長跑選手。"
+        },
+        {
+          "documentId": "doc-ac3adc385d9b5128",
+          "startLine": 41,
+          "endLine": 74,
+          "supports": [
+            "event",
+            "substance",
+            "dates"
+          ],
+          "note": "記載2022年5月8日智利賽內及10月10日南美運動會賽外樣本均檢出EPO，並列S2分類。"
+        },
+        {
+          "documentId": "doc-ac3adc385d9b5128",
+          "startLine": 88,
+          "endLine": 109,
+          "supports": [
+            "event",
+            "sanction",
+            "outcomes"
+          ],
+          "note": "ODESUR取消南美運動會個人成績；智利TED另處四年禁賽。"
+        },
+        {
+          "documentId": "doc-ac3adc385d9b5128",
+          "startLine": 193,
+          "endLine": 198,
+          "supports": [
+            "event",
+            "education"
+          ],
+          "note": "第二樣本採集早於首次通知，兩次違規依規則作為單一違規處理。"
+        },
+        {
+          "documentId": "doc-ac3adc385d9b5128",
+          "startLine": 249,
+          "endLine": 258,
+          "supports": [
+            "sanction",
+            "education"
+          ],
+          "note": "AIU以多次使用等加重情節將標準四年增加兩年為六年。"
+        },
+        {
+          "documentId": "doc-ac3adc385d9b5128",
+          "startLine": 286,
+          "endLine": 292,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "AIU六年禁賽自2022年11月7日起，並列明其新增取消成績期間及既有裁決除外。"
+        },
+        {
+          "documentId": "doc-ac3adc385d9b5128",
+          "startLine": 297,
+          "endLine": 300,
+          "supports": [
+            "outcomes",
+            "education"
+          ],
+          "note": "註腳說明TED已處理從首樣本日至暫停日起的成績取消範圍。"
+        },
+        {
+          "documentId": "registry-1c08bde50bee8771",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊列智利代表碼及AIU六年處分起日與取消成績期間。"
+        }
+      ],
+      "findings": []
+    }
+  ]
+}

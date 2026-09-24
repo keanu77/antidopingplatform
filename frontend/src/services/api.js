@@ -31,6 +31,7 @@ export const statsAPI = {
   getPunishmentStats: () => api.get("/stats/punishment-stats"),
   getBanDurationDistribution: () => api.get("/stats/ban-duration-distribution"),
   getOverview: () => api.get("/stats/overview"),
+  getReviewSummary: () => api.get("/stats/review-summary"),
 };
 
 // Education API

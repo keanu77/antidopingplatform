@@ -1,0 +1,321 @@
+{
+  "cases": [
+    {
+      "id": "ita-3bea7cef0331",
+      "status": "issue",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "issue",
+        "education": "issue"
+      },
+      "sourcesRead": [
+        "doc-66869ab21e2aa86f",
+        "registry-22292fd14a5eed15"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-66869ab21e2aa86f",
+          "startLine": 2,
+          "endLine": 4,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates"
+          ],
+          "note": "UCI稱哈薩克車手Ilkhan Dostiyev兩份樣本檢出CERA，接受處分，禁賽2024-09-09至2028-09-08；公告未寫成績處置。"
+        },
+        {
+          "documentId": "registry-22292fd14a5eed15",
+          "startLine": 12,
+          "endLine": 20,
+          "supports": [
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊載Art. 2.1/2.2 CERA、同一禁賽期，並載取消資格2024-07-30至2024-09-09。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "outcomes",
+          "kind": "contradiction",
+          "severity": "medium",
+          "claim": "resultsCancelled為null，並稱成績取消範圍未知",
+          "explanation": "個案公告確實未寫個人成績取消，但所引ITA名冊已載明取消資格自2024-07-30至2024-09-09。把該欄留空並稱未知，與名冊已確立的成績後果不符。",
+          "sourceRefs": [
+            {
+              "documentId": "registry-22292fd14a5eed15",
+              "startLine": 19,
+              "endLine": 20
+            },
+            {
+              "documentId": "doc-66869ab21e2aa86f",
+              "startLine": 2,
+              "endLine": 4
+            }
+          ],
+          "suggestion": "依名冊將成績取消改為已確立，期間寫2024-07-30至2024-09-09；獎牌欄可維持未知。"
+        },
+        {
+          "field": "education",
+          "kind": "contradiction",
+          "severity": "medium",
+          "claim": "公告沒有列成績取消範圍，該欄保留未知",
+          "explanation": "教育註記只依公告沉默推斷範圍未知，忽略同一來源組合中的名冊已列出取消資格期間，會讓讀者以為成績後果尚未確立。",
+          "sourceRefs": [
+            {
+              "documentId": "registry-22292fd14a5eed15",
+              "startLine": 19,
+              "endLine": 20
+            }
+          ],
+          "suggestion": "改寫為公告未載、但ITA名冊載明2024-07-30至2024-09-09取消資格，且兩份樣本仍屬同一案。"
+        }
+      ]
+    },
+    {
+      "id": "ita-b419c5a1a737",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-d95f72f0e56f9e42",
+        "registry-244a312793bca3a6"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-d95f72f0e56f9e42",
+          "startLine": 2,
+          "endLine": 5,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "outcomes"
+          ],
+          "note": "印度拳擊手因十二個月內三次行蹤失誤被禁賽22個月至2025-07-16，並取消2022-12-11至2024-05-17成績。"
+        },
+        {
+          "documentId": "registry-244a312793bca3a6",
+          "startLine": 14,
+          "endLine": 20,
+          "supports": [
+            "dates",
+            "sanction",
+            "outcomes"
+          ],
+          "note": "名冊違規日為2022-12-11，禁賽自2023-09-17至2025-07-16，取消成績期間與公告一致。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-92183cbe5be3",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-bfaca5a7548575c9",
+        "registry-e0b96ef58b363dce"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-bfaca5a7548575c9",
+          "startLine": 2,
+          "endLine": 5,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "outcomes",
+            "education"
+          ],
+          "note": "巴西IRONMAN選手賽外樣本檢出clomifene，接受兩年禁賽至2024-10-03，並取消陽性日之後成績；未提個人診斷或TUE。"
+        },
+        {
+          "documentId": "registry-e0b96ef58b363dce",
+          "startLine": 12,
+          "endLine": 16,
+          "supports": [
+            "substance",
+            "sanction",
+            "dates"
+          ],
+          "note": "名冊為Art. 2.1 clomifene，禁賽2022-10-04至2024-10-04前一日。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-5ab80b907039",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-41aa31f829df0aed",
+        "registry-e40d0c257876af9b"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-41aa31f829df0aed",
+          "startLine": 5,
+          "endLine": 6,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "education"
+          ],
+          "note": "CAS ADD認定前IWF主席Tamas Ajan構成結果管理竄改及共謀，處以裁決日起終身禁賽；並非其本人藥檢陽性。"
+        },
+        {
+          "documentId": "registry-e40d0c257876af9b",
+          "startLine": 3,
+          "endLine": 20,
+          "supports": [
+            "country",
+            "dates",
+            "sanction",
+            "outcomes"
+          ],
+          "note": "名冊載匈牙利、舉重、官員、違規日2012年5月、2022-06-16起終身禁賽，成績取消為N/A。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-9a8b5dd8e2a1",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-d995c584a4576d61",
+        "registry-8818b14551ae696e"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-d995c584a4576d61",
+          "startLine": 2,
+          "endLine": 5,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "葡萄牙衝浪選手拒檢，CAS維持三年禁賽，自2023-07-13起，並維持取消2022-04-17至2023-07-13成績。"
+        },
+        {
+          "documentId": "registry-8818b14551ae696e",
+          "startLine": 12,
+          "endLine": 20,
+          "supports": [
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊為Art. 2.3，禁賽至2026-07-12，取消成績期間與上訴決定一致。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "aiu-fcb63b1504c8",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-e113704817d07ffc",
+        "registry-326df059e071680c"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-e113704817d07ffc",
+          "startLine": 367,
+          "endLine": 377,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "決定主文確認肯亞選手承認拒絕採樣與竄改，八年連續禁賽因及早承認減為七年，自2025-03-14起，並取消2025-03-01起成績。"
+        },
+        {
+          "documentId": "registry-326df059e071680c",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "outcomes"
+          ],
+          "note": "名冊列KEN、同一兩項條文、七年自2025-03-14起，以及自2025-03-01取消成績。"
+        }
+      ],
+      "findings": []
+    }
+  ]
+}

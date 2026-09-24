@@ -1,0 +1,530 @@
+{
+  "cases": [
+    {
+      "id": "usada-9e3ec5e00217",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-c8e1164c3409fdde",
+        "registry-914b8e749852a75e"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-c8e1164c3409fdde",
+          "startLine": 7,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "Gormley 因 12 個月內累積 3 次行蹤失誤（1 次申報失誤、2 次錯過檢測），因過失程度低接受自 2022-03-22 起禁賽 1 年並取消 2021-12-12 起成績"
+        },
+        {
+          "documentId": "registry-914b8e749852a75e",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "outcomes"
+          ],
+          "note": "名冊登記 3 次行蹤非分析違規處分 1 年禁賽及成績取消"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "nationality: 美國",
+          "explanation": "公告僅於標題提及 U.S. Swimming Athlete 並載明其居住於紐約州 Wainscott 與 USADA 管轄，依審查標準不能僅憑居住地、管轄機構或標題文字認定國籍或體育代表權。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-c8e1164c3409fdde",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "補充代表國家參賽紀錄或官方國籍證明文件，或於國籍欄位註明待證實。"
+        }
+      ]
+    },
+    {
+      "id": "usada-a065a9e92dd5",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-ddad7bf94ba28395",
+        "registry-237f23dadbeb65b2"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-ddad7bf94ba28395",
+          "startLine": 7,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "McKay 於 2022-01-23 賽外檢體檢出 ostarine，證實補充品污染後接受自 2022-04-14 起 6 個月禁賽，折抵 3 天暫時禁賽，並取消採樣當日成績"
+        },
+        {
+          "documentId": "registry-237f23dadbeb65b2",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "outcomes"
+          ],
+          "note": "處分名冊登記 ostarine 陽性禁賽 6 個月及成績取消"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "nationality: 美國",
+          "explanation": "來源僅有標題 U.S. Hockey Athlete 及明尼蘇達州 Mankato 居住地資訊，依審查標準不足以確證實質國籍或代表資格。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-ddad7bf94ba28395",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "補強所代表國家隊出賽紀錄或公民身份佐證。"
+        }
+      ]
+    },
+    {
+      "id": "usada-1035e17c5288",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-346adff2054e71b7",
+        "registry-69483df1b300cd7e"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-346adff2054e71b7",
+          "startLine": 7,
+          "endLine": 12,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "Summerhill 於 2021-08-14 賽內檢驗檢出 amphetamine，雖其後取得 TUE，仍接受自 2021-09-02 起 1 年禁賽並取消 2021-08-14 起成績"
+        },
+        {
+          "documentId": "registry-69483df1b300cd7e",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "outcomes"
+          ],
+          "note": "官方名冊記載自行車選手 Summerhill 因 amphetamine 接受 1 年禁賽與取消成績"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "nationality: 美國",
+          "explanation": "來源僅顯示 U.S. Cycling Athlete 標題與科羅拉多州居住地，依規則不能僅憑管轄與居住地推論代表權或國籍。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-346adff2054e71b7",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "增補所屬國家體育代表權證明或官方身分證明資料。"
+        }
+      ]
+    },
+    {
+      "id": "usada-82602147d7d4",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-37b6986c8ad26ac1",
+        "registry-a8d045d916697ebe"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-37b6986c8ad26ac1",
+          "startLine": 7,
+          "endLine": 11,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "Abers 於 2021-09-16 大師錦標賽檢出 ibutamoren，實驗室確認補充品污染後處分自 2021-10-06 起 1 年禁賽並取消採樣日起成績"
+        },
+        {
+          "documentId": "registry-a8d045d916697ebe",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "outcomes"
+          ],
+          "note": "名冊登記 Abers 因 ibutamoren 處以 1 年禁賽及取消成績"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "nationality: 美國",
+          "explanation": "文本記載參與美國自行車大師賽事、居住科羅拉多州及標題稱 U.S. Athlete，尚未達到確立運動代表權或國籍的證據門檻。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-37b6986c8ad26ac1",
+              "startLine": 1,
+              "endLine": 8
+            }
+          ],
+          "suggestion": "核實其在國際總會註冊之代表國籍或公民身分資料。"
+        }
+      ]
+    },
+    {
+      "id": "usada-22913fa5df5e",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-0fc13213d5fd3b1e",
+        "registry-8aa36e7e6aa390f5"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-0fc13213d5fd3b1e",
+          "startLine": 7,
+          "endLine": 11,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "Palmer 於 2021-11-07 檢出 Carboxy-THC 超過 180 ng/mL，符合賽外無關表現且完成輔導，處自 2021-12-15 起 1 個月禁賽並取消成績"
+        },
+        {
+          "documentId": "registry-8aa36e7e6aa390f5",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "outcomes"
+          ],
+          "note": "處分名冊登記舉重選手 Palmer 因大麻素接受 1 個月禁賽與成績取消"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "nationality: 美國",
+          "explanation": "公告僅見 U.S. Weightlifting Athlete 標題與加州居住地，缺乏代表權或國籍的直接正式佐證。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-0fc13213d5fd3b1e",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "補充其代表美國出賽之登記資料或官方國籍依據。"
+        }
+      ]
+    },
+    {
+      "id": "usada-48d68f0e2e03",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-256e5a19dd09435b",
+        "doc-ba85662ece52e58e",
+        "registry-221e8242869c81e3"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-256e5a19dd09435b",
+          "startLine": 7,
+          "endLine": 9,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "Prempeh 於 2018-12-07 檢出 DHCMT 代謝物 M3 接受 4 年禁賽並取消當日起成績"
+        },
+        {
+          "documentId": "doc-ba85662ece52e58e",
+          "startLine": 7,
+          "endLine": 11,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "Prempeh 於禁賽期間執教違反處分追加 4 年禁賽合計 8 年，因退休暫停計時並於復出後連續執行"
+        },
+        {
+          "documentId": "registry-221e8242869c81e3",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊載明前案類固醇 4 年禁賽及執教追加 4 年禁賽，並註記退休暫停計時"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "nationality: 美國",
+          "explanation": "公告僅有發布機構標題稱 U.S. Weightlifting Athlete/Coaches 與紐澤西居住地，缺乏明確代表權或公民權證據。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-256e5a19dd09435b",
+              "startLine": 1,
+              "endLine": 7
+            },
+            {
+              "documentId": "doc-ba85662ece52e58e",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "提供官方參賽或代表權檔案以確證國籍歸屬。"
+        }
+      ]
+    },
+    {
+      "id": "usada-c0bcc1cac884",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-ba85662ece52e58e",
+        "registry-36db03496e62e57a"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-ba85662ece52e58e",
+          "startLine": 7,
+          "endLine": 12,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "Chavez 借出教練證並於調查中作不實陳述，因共謀與篡改接受自 2021-09-02 起 4 年禁賽"
+        },
+        {
+          "documentId": "registry-36db03496e62e57a",
+          "startLine": 3,
+          "endLine": 3,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊登記 Chavez 因篡改與共謀處 4 年禁賽"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "nationality: 美國",
+          "explanation": "僅在新聞標題提及 U.S. Weightlifting Coaches 及載明佛羅里達州居住地，不能充作證明所屬國籍之充分依據。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-ba85662ece52e58e",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "查證其教練註冊身分或官方國籍證明。"
+        }
+      ]
+    },
+    {
+      "id": "usada-159a9ae15f32",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-e2a1f93ae6f5dfec",
+        "registry-286e819b1c6c70f5"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-e2a1f93ae6f5dfec",
+          "startLine": 7,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "Wilson 於 2021-12-02 賽外檢出 stanozolol 與 drostanolone 代謝物，因及早承認自 4 年減為 3 年禁賽，自 2022-01-05 起算並取消成績"
+        },
+        {
+          "documentId": "registry-286e819b1c6c70f5",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "outcomes"
+          ],
+          "note": "官方名冊登記 Wilson 因類固醇處 3 年禁賽並取消成績"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "nationality: 美國",
+          "explanation": "來源僅有 U.S. Weightlifting Athlete 標題及加州居住地，無法直接確立其法定國籍或運動代表權。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-e2a1f93ae6f5dfec",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "補齊所屬國家總會選手代表權或國籍佐證資料。"
+        }
+      ]
+    }
+  ]
+}

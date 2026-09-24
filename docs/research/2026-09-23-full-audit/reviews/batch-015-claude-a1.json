@@ -1,0 +1,405 @@
+{
+  "cases": [
+    {
+      "id": "ita-3bea7cef0331",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-66869ab21e2aa86f",
+        "registry-22292fd14a5eed15"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-66869ab21e2aa86f",
+          "startLine": 2,
+          "endLine": 2,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction"
+          ],
+          "note": "哈薩克自行車手Ilkhan Dostiyev因CERA違規受四年禁賽，涉及兩份樣本（2024年7月30日賽外、8月17日羅馬尼亞環賽）"
+        },
+        {
+          "documentId": "doc-66869ab21e2aa86f",
+          "startLine": 3,
+          "endLine": 3,
+          "supports": [
+            "dates",
+            "sanction"
+          ],
+          "note": "禁賽期間2024年9月9日至2028年9月8日"
+        },
+        {
+          "documentId": "registry-22292fd14a5eed15",
+          "startLine": 3,
+          "endLine": 5,
+          "supports": [
+            "country",
+            "event",
+            "substance"
+          ],
+          "note": "官方名冊確認哈薩克、自行車、Art. 2.1 / 2.2 - CERA"
+        },
+        {
+          "documentId": "registry-22292fd14a5eed15",
+          "startLine": 14,
+          "endLine": 16,
+          "supports": [
+            "dates",
+            "event"
+          ],
+          "note": "違規日期2024年7月30日及8月17日；禁賽期2024年9月9日至2028年9月8日"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-b419c5a1a737",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-d95f72f0e56f9e42",
+        "registry-244a312793bca3a6"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-d95f72f0e56f9e42",
+          "startLine": 2,
+          "endLine": 3,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction"
+          ],
+          "note": "印度拳擊手Parveen Hooda因十二個月內三次行蹤失誤受22個月禁賽，至2025年7月16日"
+        },
+        {
+          "documentId": "doc-d95f72f0e56f9e42",
+          "startLine": 5,
+          "endLine": 5,
+          "supports": [
+            "outcomes"
+          ],
+          "note": "2022年12月11日至2024年5月17日期間的成績取消"
+        },
+        {
+          "documentId": "registry-244a312793bca3a6",
+          "startLine": 3,
+          "endLine": 5,
+          "supports": [
+            "country",
+            "event",
+            "sanction"
+          ],
+          "note": "官方名冊：印度、拳擊、22個月禁賽期"
+        },
+        {
+          "documentId": "registry-244a312793bca3a6",
+          "startLine": 16,
+          "endLine": 20,
+          "supports": [
+            "dates",
+            "outcomes"
+          ],
+          "note": "禁賽期2023年9月17日至2025年7月16日；成績取消期2022年12月11日至2024年5月17日"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-92183cbe5be3",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-bfaca5a7548575c9",
+        "registry-e0b96ef58b363dce"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-bfaca5a7548575c9",
+          "startLine": 2,
+          "endLine": 5,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "outcomes"
+          ],
+          "note": "巴西IRONMAN運動員Derik Felix Afornali因2022年10月4日賽外樣本檢出clomifene（Art 2.1），接受2年禁賽至2024年10月3日，成績自陽性樣本日起取消"
+        },
+        {
+          "documentId": "registry-e0b96ef58b363dce",
+          "startLine": 3,
+          "endLine": 5,
+          "supports": [
+            "country",
+            "event",
+            "sanction"
+          ],
+          "note": "官方名冊：巴西、Ironman、2年禁賽期"
+        },
+        {
+          "documentId": "registry-e0b96ef58b363dce",
+          "startLine": 16,
+          "endLine": 20,
+          "supports": [
+            "dates",
+            "outcomes"
+          ],
+          "note": "禁賽期2022年10月4日至2024年10月3日；成績取消2022年10月4日至2023年10月13日"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-5ab80b907039",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-41aa31f829df0aed",
+        "registry-e40d0c257876af9b"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-41aa31f829df0aed",
+          "startLine": 2,
+          "endLine": 6,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction"
+          ],
+          "note": "前IWF主席Tamas Ajan因竄改結果管理程序（Art 2.5）及共謀涉及運動員反禁藥違規（Art 2.9），受終身禁賽"
+        },
+        {
+          "documentId": "registry-e40d0c257876af9b",
+          "startLine": 2,
+          "endLine": 5,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "sanction"
+          ],
+          "note": "官方名冊：Ajan, Tamas；匈牙利；舉重；終身禁賽"
+        },
+        {
+          "documentId": "registry-e40d0c257876af9b",
+          "startLine": 12,
+          "endLine": 16,
+          "supports": [
+            "substance",
+            "dates"
+          ],
+          "note": "Art. 2.5 - 竄改；Art. 2.9 - 共謀；違規日期2012年5月；禁賽自2022年6月16日起終身"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-9a8b5dd8e2a1",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-d995c584a4576d61",
+        "registry-8818b14551ae696e"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-d995c584a4576d61",
+          "startLine": 2,
+          "endLine": 2,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction"
+          ],
+          "note": "葡萄牙衝浪手Vasco Ribeiro因2022年4月17日拒絕提供樣本受反禁藥違規，CAS確認3年禁賽"
+        },
+        {
+          "documentId": "doc-d995c584a4576d61",
+          "startLine": 5,
+          "endLine": 5,
+          "supports": [
+            "dates",
+            "outcomes"
+          ],
+          "note": "3年禁賽自2023年7月13日起；成績取消期2022年4月17日至2023年7月13日"
+        },
+        {
+          "documentId": "registry-8818b14551ae696e",
+          "startLine": 2,
+          "endLine": 5,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "sanction"
+          ],
+          "note": "官方名冊：Ribeiro, Vasco；葡萄牙；衝浪；3年禁賽"
+        },
+        {
+          "documentId": "registry-8818b14551ae696e",
+          "startLine": 14,
+          "endLine": 20,
+          "supports": [
+            "dates"
+          ],
+          "note": "違規日期2022年4月17日；禁賽2023年7月13日至2026年7月12日；成績取消2022年4月17日至2023年7月13日"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "aiu-fcb63b1504c8",
+      "status": "issue",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "issue",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-e113704817d07ffc",
+        "registry-326df059e071680c"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-e113704817d07ffc",
+          "startLine": 13,
+          "endLine": 18,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "Kibiwott Kandie，30歲肯亞菁英半馬運動員，曾於2020年創造瓦倫西亞半馬世界紀錄"
+        },
+        {
+          "documentId": "doc-e113704817d07ffc",
+          "startLine": 60,
+          "endLine": 75,
+          "supports": [
+            "event"
+          ],
+          "note": "2025年3月1日賽外測試於Eldama Ravine住址；11:35到達，11:45通知運動員；運動員於12:57後離開"
+        },
+        {
+          "documentId": "doc-e113704817d07ffc",
+          "startLine": 264,
+          "endLine": 267,
+          "supports": [
+            "substance"
+          ],
+          "note": "AIU確認違反第2.3條（拒絕採樣）及第2.5條（竄改）"
+        },
+        {
+          "documentId": "doc-e113704817d07ffc",
+          "startLine": 372,
+          "endLine": 377,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "7年禁賽自2025年3月14日起；2025年3月1日起成績取消"
+        },
+        {
+          "documentId": "registry-326df059e071680c",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates"
+          ],
+          "note": "官方名冊：Kandie, KEN，Art 2.3 & 2.5，7年禁賽自2025年3月14日；成績取消自2025年3月1日"
+        }
+      ],
+      "findings": [
+        {
+          "field": "dates",
+          "kind": "material_ambiguity",
+          "severity": "medium",
+          "claim": "控告通知書發出日期",
+          "explanation": "原始文件第269行記載「6 May 2026」，第359行記載「6 May 2025」。根據時間序列（測試2025年3月1日、初步禁賽2025年3月14日、決定簽署2026年6月25日），2025年更符合邏輯，但原始文件存在明確矛盾。其他關鍵日期（測試、禁賽起日、禁賽期間）均無疑義。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-e113704817d07ffc",
+              "startLine": 269,
+              "endLine": 269
+            },
+            {
+              "documentId": "doc-e113704817d07ffc",
+              "startLine": 359,
+              "endLine": 359
+            }
+          ],
+          "suggestion": "應驗證原始決定文件確認第269行「6 May 2026」是否為年份誤植；若為OCR或轉錄錯誤，應更正為2025年以符合事件時序"
+        }
+      ]
+    }
+  ]
+}

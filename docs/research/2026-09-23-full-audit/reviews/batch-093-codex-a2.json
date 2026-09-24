@@ -1,0 +1,441 @@
+{
+  "cases": [
+    {
+      "id": "usada-cca09860726b",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-437318f0696d93bf",
+        "registry-247f1e705d63eddb"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-437318f0696d93bf",
+          "startLine": 7,
+          "endLine": 9,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告確認手球選手、2016年5月15日全國錦標賽檢體含 amphetamine、兩年禁賽及自採樣日起取消成績。"
+        },
+        {
+          "documentId": "registry-247f1e705d63eddb",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "sanction"
+          ],
+          "note": "名冊列出 Lamour、手球、amphetamine、兩年處分及成績損失。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-e7645ab29f67",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-0ff9f5f8ef73199c",
+        "registry-27618315d32ee835"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-0ff9f5f8ef73199c",
+          "startLine": 7,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告確認直排輪曲棍球選手、賽外檢體的 RAD140 與 ibutamoren、分類、四年禁賽及成績取消。"
+        },
+        {
+          "documentId": "registry-27618315d32ee835",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "sanction"
+          ],
+          "note": "名冊列出 Mazzie、Roller Sports、兩項物質、四年處分及成績損失。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-1f56bc7e39f1",
+      "status": "issue",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "issue",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-40cb6d78eb498383",
+        "registry-2ff1f5bb18f94ad0"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-40cb6d78eb498383",
+          "startLine": 7,
+          "endLine": 12,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告載明田徑選手、承認持有使用肽類、四年處分、承認日開始計期及自約略首次取得日起取消成績。"
+        },
+        {
+          "documentId": "registry-2ff1f5bb18f94ad0",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "sanction"
+          ],
+          "note": "名冊明列因退休而暫停計算制裁期間。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "sanction",
+          "kind": "contradiction",
+          "severity": "medium",
+          "claim": "目前名冊另列退休停算",
+          "explanation": "名冊確實註記退休期間停算，但公告只載接受四年處分，未在提供文字中確認目前是否退休或停算；把名冊註記寫成此人目前狀態超出來源可證範圍。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-40cb6d78eb498383",
+              "startLine": 7,
+              "endLine": 8
+            },
+            {
+              "documentId": "registry-2ff1f5bb18f94ad0",
+              "startLine": 1,
+              "endLine": 1
+            }
+          ],
+          "suggestion": "改寫為「名冊註記制裁因退休而暫停計算」，避免斷言目前退休狀態或完整剩餘期間。"
+        }
+      ]
+    },
+    {
+      "id": "usada-e05e2fe6db96",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-5bcac1467da84140",
+        "registry-399bc7d4ba437db0"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-5bcac1467da84140",
+          "startLine": 7,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告載明自行車選手、調查背景、2010至2012年持有使用三種物質、四年處分、處分日起算及賽季起始日起取消成績。"
+        },
+        {
+          "documentId": "registry-399bc7d4ba437db0",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "sanction"
+          ],
+          "note": "名冊確認 Luton、自行車、非分析持有使用、四年處分及成績損失。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-a19d120a5a90",
+      "status": "issue",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "issue",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-da203cf85b903322",
+        "registry-d713e7eade177639"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-da203cf85b903322",
+          "startLine": 7,
+          "endLine": 12,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告確認舉重選手、DMBA 陽性、賽事和採樣日期、指定興奮劑類別、補充品說明及六個月處分。"
+        },
+        {
+          "documentId": "registry-d713e7eade177639",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction"
+          ],
+          "note": "名冊確認 DMBA、六個月處分與成績損失。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "substance",
+          "kind": "contradiction",
+          "severity": "medium",
+          "claim": "S6 興奮劑",
+          "explanation": "公告將 DMBA 列為指定物質及 Simulants（刺激劑）；「興奮劑」容易與禁用清單的 Stimulants 類別混淆，分類表述不符原公告用語。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-da203cf85b903322",
+              "startLine": 8,
+              "endLine": 8
+            }
+          ],
+          "suggestion": "改為「指定物質，Simulants（刺激劑），賽內禁用」，保留公告所載歷史分類名稱。"
+        }
+      ]
+    },
+    {
+      "id": "usada-35cf2f26656b",
+      "status": "issue",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "issue",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-973aae028e0d1388",
+        "registry-473a2d1db5ec4d84"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-973aae028e0d1388",
+          "startLine": 7,
+          "endLine": 12,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告確認舉重選手、DMBA 陽性、誤導標示和查詢成分的情節、六個月處分及採樣日起取消成績。"
+        },
+        {
+          "documentId": "registry-473a2d1db5ec4d84",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction"
+          ],
+          "note": "名冊確認 DMBA、六個月處分及成績損失。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "substance",
+          "kind": "contradiction",
+          "severity": "medium",
+          "claim": "S6 興奮劑",
+          "explanation": "公告將 DMBA 列為指定物質及 Simulants（刺激劑）；此處「興奮劑」可能誤指禁用清單中的 Stimulants 類別。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-973aae028e0d1388",
+              "startLine": 8,
+              "endLine": 8
+            }
+          ],
+          "suggestion": "改為公告所載「指定物質，Simulants（刺激劑），賽內禁用」。"
+        }
+      ]
+    },
+    {
+      "id": "usada-c269d76b2513",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-e091c16b8d32a034",
+        "registry-fa53aca755098d1e"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-e091c16b8d32a034",
+          "startLine": 7,
+          "endLine": 12,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告確認帕拉自行車選手、IRMS 確認外源性合成代謝劑、處方治療劑量和無禁藥意圖的說明、TUE 因替代療法遭拒、18個月處分及成績後果。"
+        },
+        {
+          "documentId": "registry-fa53aca755098d1e",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction"
+          ],
+          "note": "名冊列出 Pinney、帕拉自行車、雄性類固醇、18個月處分及成績損失。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-48f0300507d6",
+      "status": "issue",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "issue",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-b6059280eae8d144",
+        "registry-8ed3be6a1f0a23c9"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-b6059280eae8d144",
+          "startLine": 7,
+          "endLine": 9,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告確認 Dunkum 承認持有使用多類禁用肽類、期間、認定類別、禁賽起算及成績取消日期。"
+        },
+        {
+          "documentId": "registry-8ed3be6a1f0a23c9",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "sanction"
+          ],
+          "note": "名冊明列四年處分、成績損失及因退休而暫停計算。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "sanction",
+          "kind": "contradiction",
+          "severity": "medium",
+          "claim": "目前名冊註記退休停算",
+          "explanation": "名冊註記制裁因退休而暫停計算，但公告節錄未確認現況或完整剩餘刑期；應將其呈現為名冊記載，而非已獨立核實的目前狀態。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-b6059280eae8d144",
+              "startLine": 5,
+              "endLine": 9
+            },
+            {
+              "documentId": "registry-8ed3be6a1f0a23c9",
+              "startLine": 1,
+              "endLine": 1
+            }
+          ],
+          "suggestion": "改為「名冊註記制裁因退休而暫停計算；完整餘期未由本資料確立」。"
+        }
+      ]
+    }
+  ]
+}

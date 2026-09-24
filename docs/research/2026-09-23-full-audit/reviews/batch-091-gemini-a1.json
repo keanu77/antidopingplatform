@@ -1,0 +1,492 @@
+{
+  "cases": [
+    {
+      "id": "usada-64a436bacae4",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-54abd6452587e840",
+        "registry-3e5e28ec4e51f101"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-54abd6452587e840",
+          "startLine": 7,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "Gingras 接受 12 年禁賽，承認持有、販運及施用睪固酮與販運 LGD-4033，因實質協助減刑，自 2017-01-16 起計並取消 2015-10-16 起成績"
+        },
+        {
+          "documentId": "registry-3e5e28ec4e51f101",
+          "startLine": 1,
+          "endLine": 3,
+          "supports": [
+            "sanction",
+            "outcomes"
+          ],
+          "note": "名冊記錄由終身禁賽減至 12 年，因退休停止計時"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "medium",
+          "claim": "nationality: 美國",
+          "explanation": "公告僅載「U.S. Weightlifting Coach」與居住於俄勒岡州，未提供明確國籍或代表隊身分證明，依規則屬證據不足。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-54abd6452587e840",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "應將國籍標記為不確定或補充具體代表隊／公民身分官方紀錄"
+        }
+      ]
+    },
+    {
+      "id": "usada-792c30cdc646",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-4af07e7cfec77f79",
+        "registry-e53ef26e0e342dd2"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-4af07e7cfec77f79",
+          "startLine": 7,
+          "endLine": 11,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "Oliver 於 2016-07-07 奧運選拔賽檢出 ostarine，因教練建議訂購含 ostarine 與 arimistane 產品，因自願承認與實質協助獲 1 年禁賽，自採樣日起計並取消 2016-03-16 起成績"
+        },
+        {
+          "documentId": "registry-e53ef26e0e342dd2",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "sanction",
+            "outcomes"
+          ],
+          "note": "名冊確認田徑選手 Oliver 處以 1 年禁賽及取消成績"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "medium",
+          "claim": "nationality: 美國",
+          "explanation": "來源僅載標題「U.S. Track & Field Athlete」及居住於田納西州納許維爾，依審核標準標題指稱不足以確立實際國籍。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-4af07e7cfec77f79",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "應將國籍標記為不確定或補充官方代表權／國籍證明"
+        }
+      ]
+    },
+    {
+      "id": "usada-89c25ce0aa40",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-ddd0eb787d1f6c20",
+        "registry-c833bfb60d9c0674"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-ddd0eb787d1f6c20",
+          "startLine": 7,
+          "endLine": 9,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "Moore 於 2017-03-04 室內田徑錦標賽檢出 methandienone 代謝物，接受 4 年禁賽，自採樣日起計並取消該日起成績"
+        },
+        {
+          "documentId": "registry-c833bfb60d9c0674",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "sanction",
+            "outcomes"
+          ],
+          "note": "名冊確認 Moore 因 Methandienone 處 4 年禁賽並取消成績"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "medium",
+          "claim": "nationality: 美國",
+          "explanation": "文件標題「U.S. Track & Field Athlete」與加州居住地不足以確立確定國籍，缺乏具體公民權或國際代表隊紀錄。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-ddd0eb787d1f6c20",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "應將國籍標記為不確定或補充官方國籍身分文件"
+        }
+      ]
+    },
+    {
+      "id": "usada-a190ab7e50ab",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-3b02f4c525a98fa1",
+        "registry-939075ac6784a879"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-3b02f4c525a98fa1",
+          "startLine": 7,
+          "endLine": 9,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "Harvey 於 2017-03-20 賽外檢測拒絕採樣，接受 4 年禁賽，自拒絕日起計並取消該日起成績"
+        },
+        {
+          "documentId": "registry-939075ac6784a879",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "sanction",
+            "outcomes"
+          ],
+          "note": "名冊確認自行車選手 Harvey 因拒絕採樣處 4 年禁賽及取消成績"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "medium",
+          "claim": "nationality: 美國",
+          "explanation": "僅有標題「U.S. Cycling Athlete」與加州居住地，且內文提及管轄外國運動員，不足以證明其確切國籍。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-3b02f4c525a98fa1",
+              "startLine": 1,
+              "endLine": 11
+            }
+          ],
+          "suggestion": "應將國籍標記為不確定或補足國籍證據"
+        }
+      ]
+    },
+    {
+      "id": "usada-2368662f3457",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-651a60f419032123",
+        "registry-a1b5010bc4f3ac04"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-651a60f419032123",
+          "startLine": 7,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "Nielson 因 2014-09-14 至 2015-05-18 期間持有及使用 GRF 等肽類物質，處 4 年禁賽，自 2017-04-26 起計並取消 2014-09-14 起成績"
+        },
+        {
+          "documentId": "registry-a1b5010bc4f3ac04",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "sanction",
+            "outcomes"
+          ],
+          "note": "名冊載明 Nielson 因非分析性肽類使用及持有處 4 年禁賽並取消成績"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "medium",
+          "claim": "nationality: 美國",
+          "explanation": "文件僅記載標題「U.S. Track & Field Athlete」及居住亞利桑那州，不足以直接確立國籍。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-651a60f419032123",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "應將國籍標記為不確定或提供證明代表權／國籍之文件"
+        }
+      ]
+    },
+    {
+      "id": "usada-2a8b050c35ed",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-ff52053a6702e695",
+        "registry-43d462aef7a40b52"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-ff52053a6702e695",
+          "startLine": 7,
+          "endLine": 9,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "Beckwith-Ludlow 於 2016-12-21 檢出 clomiphene 代謝物，經查為婦產科生育目的處方，接受公開警告且無禁賽"
+        },
+        {
+          "documentId": "registry-43d462aef7a40b52",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "sanction",
+            "outcomes"
+          ],
+          "note": "名冊載明 Beckwith-Ludlow 因 Clomiphene 處以公開警告"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "medium",
+          "claim": "nationality: 美國",
+          "explanation": "新聞標題提及「U.S. Track & Field Athlete」且居住印第安納州，但缺乏具體國籍或代表隊官方資料。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-ff52053a6702e695",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "應將國籍標記為不確定或補足代表身分證明"
+        }
+      ]
+    },
+    {
+      "id": "usada-acfba90a8905",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-07073bc57c0469c4",
+        "registry-89fa8252ff881ceb"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-07073bc57c0469c4",
+          "startLine": 7,
+          "endLine": 11,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "Geving 於 2017-01-18 檢出 acetazolamide，為預防高山症用藥且無 TUE，處 12 個月禁賽，自採樣日起計並取消該日起成績"
+        },
+        {
+          "documentId": "registry-89fa8252ff881ceb",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "sanction",
+            "outcomes"
+          ],
+          "note": "名冊記載 Geving 因 Acetazolamide 處以 1 年禁賽及取消成績"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "medium",
+          "claim": "nationality: 美國",
+          "explanation": "公告雖載「U.S. Cycling Athlete」及佛羅里達州居住地，但無直接國籍或代表權證明。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-07073bc57c0469c4",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "應將國籍標記為不確定或補充具體國籍證據"
+        }
+      ]
+    },
+    {
+      "id": "usada-f40282760e72",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-6ec96ab3f12fe3ee",
+        "registry-44e4ce10c5368933"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-6ec96ab3f12fe3ee",
+          "startLine": 1,
+          "endLine": 11,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "Schrodt 於 2017-01-12 北美盃檢出 DMBA，因補充品標示含 DMAA 但未標 DMBA 且未入檢測池，處 16 個月禁賽，自採樣日起計並取消成績"
+        },
+        {
+          "documentId": "registry-44e4ce10c5368933",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "sanction",
+            "outcomes"
+          ],
+          "note": "名冊載明 Schrodt, Patrick \"Dillon\" 因 DMBA 處 16 個月禁賽及取消成績"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "medium",
+          "claim": "nationality: 美國",
+          "explanation": "公告標題雖稱「U.S. Bobsled Athlete」，但依審核規範標題指稱不足以確立實際國籍。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-6ec96ab3f12fe3ee",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "應將國籍標記為不確定或補充代表隊/國籍官方資料"
+        }
+      ]
+    }
+  ]
+}

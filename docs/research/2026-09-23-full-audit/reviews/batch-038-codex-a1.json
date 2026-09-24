@@ -1,0 +1,158 @@
+{
+  "cases": [
+    {
+      "id": "aiu-83ec752ef25a",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-81fefebcfce12936",
+        "registry-5dad579ccd96d330"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-81fefebcfce12936",
+          "startLine": 12,
+          "endLine": 12,
+          "supports": [
+            "identity",
+            "country",
+            "event"
+          ],
+          "note": "決定書確認姓名、衣索比亞背景及田徑運動；列出三次行蹤失誤日期。"
+        },
+        {
+          "documentId": "doc-81fefebcfce12936",
+          "startLine": 343,
+          "endLine": 367,
+          "supports": [
+            "education",
+            "sanction"
+          ],
+          "note": "決定書說明語言障礙及代理人兩次未更新屬過失評估因素，且不免除運動員責任。"
+        },
+        {
+          "documentId": "doc-81fefebcfce12936",
+          "startLine": 384,
+          "endLine": 398,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "確認承認第2.4條違規、22個月禁賽自2025年2月5日起，並取消2024年10月13日起成績及相關後果。"
+        },
+        {
+          "documentId": "registry-5dad579ccd96d330",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊列出ETH、行蹤失誤、22個月禁賽起日及取消成績起日。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "aiu-79e1da0d7788",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-3fcdf3b2f12284c4",
+        "registry-78c7d1f55794737b"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-3fcdf3b2f12284c4",
+          "startLine": 12,
+          "endLine": 12,
+          "supports": [
+            "identity",
+            "country",
+            "event"
+          ],
+          "note": "決定書確認姓名、肯亞背景及公路跑者身分。"
+        },
+        {
+          "documentId": "doc-3fcdf3b2f12284c4",
+          "startLine": 56,
+          "endLine": 76,
+          "supports": [
+            "event",
+            "substance"
+          ],
+          "note": "2025年2月15日在奈及利亞賽內採尿，檢出曲美他嗪並通知分析結果及暫時停賽。"
+        },
+        {
+          "documentId": "doc-3fcdf3b2f12284c4",
+          "startLine": 114,
+          "endLine": 121,
+          "supports": [
+            "substance",
+            "sanction"
+          ],
+          "note": "曲美他嗪依2025禁用清單屬S4.4、全時禁用非特定物質；決定認定未證明非故意。"
+        },
+        {
+          "documentId": "doc-3fcdf3b2f12284c4",
+          "startLine": 141,
+          "endLine": 152,
+          "supports": [
+            "education",
+            "dates"
+          ],
+          "note": "文件註明正式指控通知未曾發出，先前為分析結果及可能違規的通知。"
+        },
+        {
+          "documentId": "doc-3fcdf3b2f12284c4",
+          "startLine": 166,
+          "endLine": 180,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "早期承認減一年，三年禁賽自2025年4月1日起，取消2月15日至4月1日成績及相關後果。"
+        },
+        {
+          "documentId": "registry-78c7d1f55794737b",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊拼作Nehamiah，列KEN、曲美他嗪、三年禁賽起日及取消成績起日。"
+        }
+      ],
+      "findings": []
+    }
+  ]
+}

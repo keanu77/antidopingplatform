@@ -1,0 +1,477 @@
+{
+  "cases": [
+    {
+      "id": "ita-2f61a44eca24",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-f1c24efd79b81bf1",
+        "registry-9e37ddf4bac55bf4"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-f1c24efd79b81bf1",
+          "startLine": 2,
+          "endLine": 9,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告確認突尼西亞舉重選手 Mannai 在青年及青少年錦標賽樣本檢出外源性睪固酮及 adiols，接受四年禁賽並取消指定期間成績。"
+        },
+        {
+          "documentId": "registry-9e37ddf4bac55bf4",
+          "startLine": 11,
+          "endLine": 22,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊確認違規條款、採樣日、禁賽及成績取消期間與協議處理方式。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-aec1146d524c",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-e63858b0959bf81a",
+        "registry-5577a0030b074208"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-e63858b0959bf81a",
+          "startLine": 2,
+          "endLine": 6,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告確認義大利車手、ABP 血液數值異常及 Article 2.2 違規，裁處四年並取消指定期間成績。"
+        },
+        {
+          "documentId": "registry-5577a0030b074208",
+          "startLine": 11,
+          "endLine": 22,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊確認違規日期、四年期間及成績取消期間；另列審裁庭處理。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-fcfe8d64fea6",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-7fe7c47e71939cd9",
+        "registry-55cc5acd081bc32d"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-7fe7c47e71939cd9",
+          "startLine": 2,
+          "endLine": 6,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告確認沙烏地三鐵選手 Alghamdi 的 boldenone 及 CERA 陽性結果、加重情節、六年禁賽與成績取消。"
+        },
+        {
+          "documentId": "registry-55cc5acd081bc32d",
+          "startLine": 11,
+          "endLine": 22,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊確認違規條款、事件日、處理機關及列示的處分欄位。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-68fd2d094cdf",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-1084e6f5c493c973",
+        "registry-c1f02cb636302d77"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-1084e6f5c493c973",
+          "startLine": 2,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告確認委內瑞拉舉重選手的兩份樣本均檢出 stanozolol 代謝物，依規則合併為首次違規並因及早承認減刑。"
+        },
+        {
+          "documentId": "registry-c1f02cb636302d77",
+          "startLine": 11,
+          "endLine": 22,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊確認同一違規的兩個採樣日、四年禁賽期間及成績取消期間。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-ac5538c7a75e",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-56eca104f575f219",
+        "registry-c7da4fef8ce10f0f"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-56eca104f575f219",
+          "startLine": 2,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告確認奈及利亞舉重選手樣本檢出外源性睪固酮及 adiol(s)，因及早承認減一年並處三年禁賽。"
+        },
+        {
+          "documentId": "registry-c7da4fef8ce10f0f",
+          "startLine": 11,
+          "endLine": 22,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊確認物質條款、違規日、禁賽期與成績取消期間。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-9d8065b6dab5",
+      "status": "issue",
+      "checks": {
+        "identity": "supported",
+        "country": "issue",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-b6c81d88c75a4f09",
+        "registry-6423e8bfc764cbc8"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-b6c81d88c75a4f09",
+          "startLine": 2,
+          "endLine": 8,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告稱 Lin 為中國場地車手，列出兩份樣本、外源性 adiols、四年禁賽及追溯取消成績。"
+        },
+        {
+          "documentId": "registry-6423e8bfc764cbc8",
+          "startLine": 1,
+          "endLine": 20,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊列中國、單車、違規條款與日期及處分期間。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "contradiction",
+          "severity": "high",
+          "claim": "中國場地車手（中國）",
+          "explanation": "公告明確將選手稱為中國場地車手，名冊亦列 China；但其樣本來自香港與日本舉行的賽事，並未提供參賽代表隊或國籍證據，無法據此確立中國代表身分。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-b6c81d88c75a4f09",
+              "startLine": 2,
+              "endLine": 4
+            },
+            {
+              "documentId": "registry-6423e8bfc764cbc8",
+              "startLine": 1,
+              "endLine": 4
+            }
+          ],
+          "suggestion": "補入能確認其代表隊或國籍的來源；若無，將國家欄標為未能由本資料包確認。"
+        }
+      ]
+    },
+    {
+      "id": "ita-226edfa93a4f",
+      "status": "issue",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "issue",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-27f0707f422797f5",
+        "registry-523e2a5676a757db"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-27f0707f422797f5",
+          "startLine": 2,
+          "endLine": 9,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "education"
+          ],
+          "note": "ITA 公告確認墨西哥射箭選手、nandrolone、三年期間及樣本後至暫停日的成績取消。"
+        },
+        {
+          "documentId": "registry-523e2a5676a757db",
+          "startLine": 11,
+          "endLine": 20,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊列出三年禁賽，但結束日期年份與公告不一致。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "outcomes",
+          "kind": "contradiction",
+          "severity": "medium",
+          "claim": "ITA 名冊把結束年誤列為 2025，本頁採用兩份個案公告。",
+          "explanation": "提供的 ITA 名冊列禁賽至 2025-12-21，與兩份公告所列 2028-12-21 相矛盾；資料包只有 ITA 公告，沒有聲稱可讀取的 World Archery 公告文本，因此「兩份公告一致」在本資料包未獲佐證。",
+          "sourceRefs": [
+            {
+              "documentId": "registry-523e2a5676a757db",
+              "startLine": 15,
+              "endLine": 16
+            },
+            {
+              "documentId": "doc-27f0707f422797f5",
+              "startLine": 7,
+              "endLine": 8
+            }
+          ],
+          "suggestion": "保留公告所載 2028-12-21，明確標示其與名冊日期不一致；若要聲稱另一份公告亦相符，需提供該公告文本。"
+        }
+      ]
+    },
+    {
+      "id": "ita-19210cce34cd",
+      "status": "issue",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "issue",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-65e218e1aa5ee08c",
+        "registry-0b9d524f630eec8f"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-65e218e1aa5ee08c",
+          "startLine": 2,
+          "endLine": 5,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告確認蒙古拳擊選手、三次行蹤失誤、第三次違規日及兩年禁賽與成績取消範圍。"
+        },
+        {
+          "documentId": "registry-0b9d524f630eec8f",
+          "startLine": 11,
+          "endLine": 20,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊確認 Article 2.4、違規日、結束日期欄及成績取消期間。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "dates",
+          "kind": "contradiction",
+          "severity": "high",
+          "claim": "兩年禁賽自 2026-06-10 至 2028-06-09。",
+          "explanation": "公告列期間為 2026-06-10 至 2028-06-09；名冊的禁賽欄只列 2028-06-09，沒有起始日期。不可把名冊的結束日期誤讀為完整官方期間。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-65e218e1aa5ee08c",
+              "startLine": 5,
+              "endLine": 5
+            },
+            {
+              "documentId": "registry-0b9d524f630eec8f",
+              "startLine": 15,
+              "endLine": 16
+            }
+          ],
+          "suggestion": "將禁賽期間標明依據公告所載；名冊僅佐證結束日期。"
+        }
+      ]
+    }
+  ]
+}

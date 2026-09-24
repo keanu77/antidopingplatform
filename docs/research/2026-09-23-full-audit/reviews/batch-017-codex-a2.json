@@ -1,0 +1,189 @@
+{
+  "cases": [
+    {
+      "id": "aiu-b92f69a6866b",
+      "status": "issue",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "issue",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-ad2245436aeb34a6",
+        "registry-94cfcb0257571359"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-ad2245436aeb34a6",
+          "startLine": 39,
+          "endLine": 55,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance"
+          ],
+          "note": "裁決確認她是西班牙籍中長跑選手；2025年3月29日半馬樣本檢出呋塞米，涉及規則2.1及2.2。"
+        },
+        {
+          "documentId": "doc-ad2245436aeb34a6",
+          "startLine": 300,
+          "endLine": 306,
+          "supports": [
+            "sanction",
+            "education"
+          ],
+          "note": "裁決接受誤認藥片為布洛芬的來源說法。"
+        },
+        {
+          "documentId": "doc-ad2245436aeb34a6",
+          "startLine": 352,
+          "endLine": 355,
+          "supports": [
+            "sanction",
+            "education"
+          ],
+          "note": "裁決認定未證成無重大過失，判處兩年禁賽。"
+        },
+        {
+          "documentId": "doc-ad2245436aeb34a6",
+          "startLine": 392,
+          "endLine": 405,
+          "supports": [
+            "dates",
+            "outcomes"
+          ],
+          "note": "禁賽自裁決日起算並抵免自2025年7月14日起實際暫時禁賽；取消採樣賽事及後續至禁賽開始的成績。"
+        },
+        {
+          "documentId": "registry-94cfcb0257571359",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊列出兩年禁賽自2025年7月14日起，並記載成績自2024年3月29日起取消。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "dates",
+          "kind": "contradiction",
+          "severity": "high",
+          "claim": "名冊的 2024-03-29 與裁決不符",
+          "explanation": "裁決明定取消2025年3月29日賽事成績，並規定採樣日至禁賽開始間的其他成績亦取消；名冊卻列自2024年3月29日起取消。教育註記將名冊記載說成與裁決不符，和所引名冊內容一致，但資料庫的結果範圍仍須依裁決表述。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-ad2245436aeb34a6",
+              "startLine": 398,
+              "endLine": 405
+            },
+            {
+              "documentId": "registry-94cfcb0257571359",
+              "startLine": 1,
+              "endLine": 1
+            }
+          ],
+          "suggestion": "將結果取消範圍按裁決寫為2025年3月29日賽事及採樣日至禁賽開始間的其他成績；如保留名冊日期，標示為名冊與裁決存在差異。"
+        }
+      ]
+    },
+    {
+      "id": "aiu-8f7e371f423d",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-a93829abc53c0d24",
+        "registry-e2b3817558b70e1c"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-a93829abc53c0d24",
+          "startLine": 12,
+          "endLine": 12,
+          "supports": [
+            "identity",
+            "country",
+            "event"
+          ],
+          "note": "裁決稱她為來自衣索比亞的公路跑選手。"
+        },
+        {
+          "documentId": "doc-a93829abc53c0d24",
+          "startLine": 54,
+          "endLine": 79,
+          "supports": [
+            "event",
+            "substance"
+          ],
+          "note": "兩份2023年樣本最初陰性，2026年進一步分析發現與外源性睪固酮一致的代謝物。"
+        },
+        {
+          "documentId": "doc-a93829abc53c0d24",
+          "startLine": 213,
+          "endLine": 215,
+          "supports": [
+            "substance"
+          ],
+          "note": "裁決依2023年禁用清單將睪固酮及其代謝物列為S1.1非特定物質。"
+        },
+        {
+          "documentId": "doc-a93829abc53c0d24",
+          "startLine": 240,
+          "endLine": 254,
+          "supports": [
+            "sanction",
+            "dates"
+          ],
+          "note": "她於2026年5月1日提早承認並接受四年主張禁賽，減一年後自該日禁賽三年。"
+        },
+        {
+          "documentId": "doc-a93829abc53c0d24",
+          "startLine": 269,
+          "endLine": 299,
+          "supports": [
+            "outcomes",
+            "dates"
+          ],
+          "note": "自2023年10月22日起取消成績，包括2026年3月15日賽事。"
+        },
+        {
+          "documentId": "registry-e2b3817558b70e1c",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊記載三年禁賽自2026年5月1日起，並自2023年10月22日至該日起取消成績。"
+        },
+        {
+          "documentId": "doc-a93829abc53c0d24",
+          "startLine": 118,
+          "endLine": 122,
+          "supports": [
+            "education"
+          ],
+          "note": "未申請B瓶分析後被視為放棄該分析權利。"
+        }
+      ],
+      "findings": []
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+ M README.md
+ M backend/__tests__/tue.test.js
+ M backend/data/medical-specialties.json
+ M backend/data/substances.json
+ M backend/data/wada-categories.json
+ M backend/routes/tue.js
+ M data/cases.json
+ M data/tue-content.json
+ M frontend/index.html
+ M frontend/package-lock.json
+ M frontend/package.json
+ M frontend/scripts/prerender.js
+ M frontend/scripts/routes-meta.js
+ M frontend/src/components/FeedbackBar.jsx
+ M frontend/src/components/Layout.jsx
+ M frontend/src/data/prohibitedList.js
+ M frontend/src/data/quiz.js
+ M frontend/src/pages/ADeL.jsx
+ M frontend/src/pages/CaseDetail.jsx
+ M frontend/src/pages/CaseList.jsx
+ M frontend/src/pages/Education.jsx
+ M frontend/src/pages/Home.jsx
+ M frontend/src/pages/News.jsx
+ M frontend/src/pages/ProhibitedList.jsx
+ M frontend/src/pages/Quiz.jsx
+ M frontend/src/pages/Statistics.jsx
+ M frontend/src/pages/TUE.jsx
+ M frontend/src/pages/TestingProcess.jsx
+ M frontend/src/services/api.js
+ M frontend/src/utils/tueDecision.js
+ M frontend/src/utils/tueDecision.test.js
+ M functions/_lib/store.js
+ M functions/api/[[path]].js
+ M package-lock.json
+ M package.json
+ M scripts/rebuild-dataset.mjs
+ M tests/smoke/cloudflare-api.smoke.mjs
+ M wrangler.toml
+?? .claude/
+?? HANDOFF.md
+?? data/case-aliases.json
+?? data/case-audit-corrections.json
+?? data/case-corrections.json
+?? data/case-model-reviews.json
+?? data/case-source-followups.json
+?? data/curated-cases.json
+?? docs/
+?? frontend/src/components/CaseReviewNotice.jsx
+?? frontend/src/data/statisticsEvidence.js
+?? functions/_lib/case-outcome.mjs
+?? functions/_lib/case-statistics.mjs
+?? scripts/apply-case-corrections.mjs
+?? scripts/apply-country-followup.py
+?? scripts/apply-full-case-audit.py
+?? scripts/audit-new-case-completion.mjs
+?? scripts/build-reviewed-cases.py
+?? scripts/fetch-case-evidence.py
+?? scripts/fetch-source-followups.py
+?? scripts/ocr-case-evidence.py
+?? scripts/ocr-case-evidence.swift
+?? scripts/prepare-country-followup.py
+?? scripts/prepare-full-case-audit.py
+?? scripts/prepare-usada-evidence.py
+?? scripts/record-country-audit-limitations.py
+?? scripts/run-country-followup-audit.py
+?? scripts/run-full-case-audit.py
+?? scripts/summarize-country-followup.py
+?? scripts/summarize-full-case-audit.py
+?? tests/cloudflare-contract.test.mjs
+?? tests/education-rules.test.mjs
+?? tests/reviewed-cases.test.mjs

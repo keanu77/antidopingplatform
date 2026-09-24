@@ -1,0 +1,251 @@
+{
+  "cases": [
+    {
+      "id": "aiu-cceafd3f0bb9",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-7965c4bbba692062",
+        "registry-2a2c2172d042daf4"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-7965c4bbba692062",
+          "startLine": 15,
+          "endLine": 15,
+          "supports": [
+            "identity",
+            "country",
+            "event"
+          ],
+          "note": "決定稱 Wachira 為來自肯亞的公路跑者。"
+        },
+        {
+          "documentId": "doc-7965c4bbba692062",
+          "startLine": 49,
+          "endLine": 54,
+          "supports": [
+            "event",
+            "substance",
+            "dates"
+          ],
+          "note": "2022年9月10日於 Tallinn 賽內採樣，檢出 tamoxifen 代謝物及 19-NA。"
+        },
+        {
+          "documentId": "doc-7965c4bbba692062",
+          "startLine": 269,
+          "endLine": 275,
+          "supports": [
+            "substance",
+            "sanction",
+            "education"
+          ],
+          "note": "決定依多種禁用物質的加重情節處六年，且未認定不知情；未另列篡改違規。"
+        },
+        {
+          "documentId": "doc-7965c4bbba692062",
+          "startLine": 280,
+          "endLine": 288,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "禁賽自2022年10月4日起六年，取消自9月10日起成績及相關後果。"
+        },
+        {
+          "documentId": "registry-2a2c2172d042daf4",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊列 KEN、兩物質、六年禁賽及成績取消期間。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "aiu-d7f7ab7b8f83",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-0b4d6b758e2e6b3e",
+        "registry-5182c4f2d0d928cd"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-0b4d6b758e2e6b3e",
+          "startLine": 12,
+          "endLine": 12,
+          "supports": [
+            "identity",
+            "country",
+            "event"
+          ],
+          "note": "決定稱 Kemei 為來自肯亞的公路跑者。"
+        },
+        {
+          "documentId": "doc-0b4d6b758e2e6b3e",
+          "startLine": 56,
+          "endLine": 61,
+          "supports": [
+            "event",
+            "substance",
+            "dates"
+          ],
+          "note": "2024年2月10日 Lagos 馬拉松賽內樣本檢出 trimetazidine。"
+        },
+        {
+          "documentId": "doc-0b4d6b758e2e6b3e",
+          "startLine": 91,
+          "endLine": 96,
+          "supports": [
+            "substance",
+            "education"
+          ],
+          "note": "他承認使用該物質，並表示不知其為禁用物質。"
+        },
+        {
+          "documentId": "doc-0b4d6b758e2e6b3e",
+          "startLine": 162,
+          "endLine": 187,
+          "supports": [
+            "sanction",
+            "dates",
+            "education"
+          ],
+          "note": "決定適用及早承認減期；不知禁用並未使他免責。"
+        },
+        {
+          "documentId": "doc-0b4d6b758e2e6b3e",
+          "startLine": 189,
+          "endLine": 199,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "最終處三年，自2024年3月19日起，並取消自2月10日起成績及相關後果。"
+        },
+        {
+          "documentId": "registry-5182c4f2d0d928cd",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊列 KEN、trimetazidine、三年禁賽及成績取消期間。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "aiu-edd71a37c411",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-de6d519372cb8c92",
+        "registry-668b0af911702fe7"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-de6d519372cb8c92",
+          "startLine": 15,
+          "endLine": 15,
+          "supports": [
+            "identity",
+            "country",
+            "event"
+          ],
+          "note": "決定稱 Chepkoech 為來自肯亞的馬拉松選手。"
+        },
+        {
+          "documentId": "doc-de6d519372cb8c92",
+          "startLine": 49,
+          "endLine": 57,
+          "supports": [
+            "event",
+            "substance",
+            "dates"
+          ],
+          "note": "2024年2月18日 Sevilla 賽內樣本的代謝物符合外源性來源，並指向 testosterone。"
+        },
+        {
+          "documentId": "doc-de6d519372cb8c92",
+          "startLine": 79,
+          "endLine": 93,
+          "supports": [
+            "substance",
+            "sanction",
+            "dates"
+          ],
+          "note": "決定確認第二次違規；前案為2014年樣本中的 norandrosterone，禁賽期為2015至2017年。"
+        },
+        {
+          "documentId": "doc-de6d519372cb8c92",
+          "startLine": 143,
+          "endLine": 158,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "及早承認與接受後果後，最終禁賽七年，自5月7日起，並取消自2月18日起成績及相關後果。"
+        },
+        {
+          "documentId": "registry-668b0af911702fe7",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊列 KEN、testosterone、第二次違規及七年處分期間。"
+        }
+      ],
+      "findings": []
+    }
+  ]
+}

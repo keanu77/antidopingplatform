@@ -1,0 +1,499 @@
+{
+  "cases": [
+    {
+      "id": "usada-d4f42cda7250",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-33564fb14092690c",
+        "registry-1e2ce959ca70edfe"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-33564fb14092690c",
+          "startLine": 7,
+          "endLine": 11,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "Mosley 於 2019-02-28 檢測陽性，承認使用含禁用成分之補充品，接受 16 個月禁賽並取消成績"
+        },
+        {
+          "documentId": "registry-1e2ce959ca70edfe",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction"
+          ],
+          "note": "處分名冊記錄 Mosley 舉重項目禁用成分陽性處 16 個月禁賽及取消成績"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "nationality",
+          "explanation": "官方公告僅於標題載明「U.S. Weightlifting Athlete」及居住於南卡羅來納州，未直接出具正式國籍或體育代表權證明，依審查規範屬證據不足。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-33564fb14092690c",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "補充運動員正式國籍或體育代表權文件，或將國籍欄位標註為待確認。"
+        }
+      ]
+    },
+    {
+      "id": "usada-75e40a8ec8cb",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-2345eccfeb0b7541",
+        "registry-3e398a99d9b8b244"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-2345eccfeb0b7541",
+          "startLine": 7,
+          "endLine": 9,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "Omar 於 2019-01-29 賽外檢出 clomiphene 及其代謝物，處兩年禁賽並取消成績"
+        },
+        {
+          "documentId": "registry-3e398a99d9b8b244",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction"
+          ],
+          "note": "處分名冊登載 Omar 舉重項目違規處 2 年禁賽及取消成績"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "nationality",
+          "explanation": "公告僅以「U.S. Weightlifting Athlete」標題及紐澤西州居住地描述，缺乏正式國籍或代表隊身分證明。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-2345eccfeb0b7541",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "補足法定國籍或體育代表身分證明，或於國籍欄位標註待查。"
+        }
+      ]
+    },
+    {
+      "id": "usada-f534d40de6df",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-d05a3bb48588add4",
+        "registry-de4afbc6905ad696"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-d05a3bb48588add4",
+          "startLine": 7,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "Tisinger-Ledkins 於 2019-02-09 檢出 octopamine 代謝物，接受 16 個月禁賽並取消成績"
+        },
+        {
+          "documentId": "registry-de4afbc6905ad696",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction"
+          ],
+          "note": "處分名冊登載 Tisinger-Ledkins 於短柄牆球項目 octopamine 陽性處 16 個月禁賽"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "nationality",
+          "explanation": "官方文件僅有標題「U.S. Racquetball Athlete」及猶他州居住地資訊，不能單憑標題或管轄推論國籍。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-d05a3bb48588add4",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "補充代表權或公民身分具體資料，或將國籍標示為不確定。"
+        }
+      ]
+    },
+    {
+      "id": "usada-d75ed8b5f7e7",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-37dfc71e56c1aee7",
+        "registry-c6f7616bedeb24b3"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-37dfc71e56c1aee7",
+          "startLine": 7,
+          "endLine": 13,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "Baratto 檢出睪固酮相關物質，獲休閒級 RCTUE 但接受一年禁賽並取消 2004 年起成績"
+        },
+        {
+          "documentId": "registry-c6f7616bedeb24b3",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction"
+          ],
+          "note": "處分名冊記錄 Baratto 自行車同化類固醇違規處 1 年禁賽與成績取消"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "nationality",
+          "explanation": "公告標題雖稱「U.S. Cycling Athlete」並提及西雅圖居住地與總會會員，未確立其法定國籍或國家代表身分。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-37dfc71e56c1aee7",
+              "startLine": 1,
+              "endLine": 8
+            }
+          ],
+          "suggestion": "補充正式國籍或體育代表權來源文件，或標記為未確定。"
+        }
+      ]
+    },
+    {
+      "id": "usada-51b08866d858",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-610e976f8cfbf530",
+        "registry-c3e8f002c1e66484"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-610e976f8cfbf530",
+          "startLine": 7,
+          "endLine": 9,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "Logan 於 2018-12-07 檢出 carboxy-THC 超標，處 6 個月禁賽經教育減免 3 個月並取消成績"
+        },
+        {
+          "documentId": "registry-c3e8f002c1e66484",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction"
+          ],
+          "note": "名冊載明 Logan 大麻素違規處 6 個月禁賽併 3 個月暫緩／減免與取消成績"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "nationality",
+          "explanation": "文件標題「U.S. Ski Athlete」及居住地猶他州帕克城不能作為正式國籍或體育代表權之完全依據。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-610e976f8cfbf530",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "補足代表隊身分或公民身分具體事證，或將國籍欄位註記為不確定。"
+        }
+      ]
+    },
+    {
+      "id": "usada-6b18a7917171",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-16166c469a6e0f7a",
+        "registry-ec23dbf37421478f"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-16166c469a6e0f7a",
+          "startLine": 7,
+          "endLine": 8,
+          "supports": [
+            "identity",
+            "event",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "Schenk 接受 6 個月禁賽處分，完成教育後減免 3 個月，並取消 2018-12-09 起成績"
+        },
+        {
+          "documentId": "registry-ec23dbf37421478f",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction"
+          ],
+          "note": "名冊載明 Schenk 舉重大麻素陽性處 6 個月禁賽（3 個月減免）及取消成績"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "nationality",
+          "explanation": "公告僅於標題提及「U.S. Weightlifting Athlete」並記載居住於佛羅里達州，未直接佐證法定國籍。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-16166c469a6e0f7a",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "補充國籍或正式代表權證明，或將該欄位標記為待證實。"
+        }
+      ]
+    },
+    {
+      "id": "usada-7892ab1bda15",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-9252ec944c68e79a",
+        "registry-d17d69cbcf52f7fb"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-9252ec944c68e79a",
+          "startLine": 7,
+          "endLine": 12,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "Sorensen 於 2018-09-08 檢出外源性睪固酮，缺有效 TUE 處兩年禁賽並取消自 2011 年起成績"
+        },
+        {
+          "documentId": "registry-d17d69cbcf52f7fb",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction"
+          ],
+          "note": "處分名冊載明 Sorensen 自行車項目類固醇違規處 2 年禁賽與取消成績"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "nationality",
+          "explanation": "文件標題「U.S. Cycling Athlete」與猶他州居住地僅屬標題描述與住址，不足以確立其法定國籍或體育代表身分。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-9252ec944c68e79a",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "提供國籍或國家代表身分證明文件，或於國籍欄位調整為待查。"
+        }
+      ]
+    },
+    {
+      "id": "usada-a7c95fd980c0",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-12725ec07fbb6907",
+        "registry-5e342d2bb7895d9e"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-12725ec07fbb6907",
+          "startLine": 7,
+          "endLine": 12,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "Pate 於 2018-08-11 檢出外源性合成代謝類固醇，處以 4 年禁賽並取消該日起成績"
+        },
+        {
+          "documentId": "registry-5e342d2bb7895d9e",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction"
+          ],
+          "note": "處分名冊記錄 Pate 自行車同化類固醇違規處 4 年禁賽及取消成績"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "nationality",
+          "explanation": "公告僅以標題「U.S. Cycling Athlete」及阿拉巴馬州居住地陳述，缺乏正式國籍或體育代表權證明。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-12725ec07fbb6907",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "補足代表身分或公民身分具體資料，或將國籍欄位標註為待確認。"
+        }
+      ]
+    }
+  ]
+}

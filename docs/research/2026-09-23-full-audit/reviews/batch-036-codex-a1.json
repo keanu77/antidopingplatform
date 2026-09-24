@@ -1,0 +1,194 @@
+{
+  "cases": [
+    {
+      "id": "aiu-34aeaaef8366",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-92fb9250c40112c0",
+        "registry-902ec81dcdef5405"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-92fb9250c40112c0",
+          "startLine": 12,
+          "endLine": 12,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "決定書確認 Hladnik 為克羅埃西亞公路跑者。"
+        },
+        {
+          "documentId": "doc-92fb9250c40112c0",
+          "startLine": 50,
+          "endLine": 56,
+          "supports": [
+            "event",
+            "substance",
+            "dates"
+          ],
+          "note": "2024 年 10 月 13 日 Zagreb 馬拉松賽內樣本檢出 Ostarine。"
+        },
+        {
+          "documentId": "doc-92fb9250c40112c0",
+          "startLine": 219,
+          "endLine": 222,
+          "supports": [
+            "education",
+            "substance"
+          ],
+          "note": "送驗的 Glutamine、Creatine、L-arginine 均未檢出 Ostarine。"
+        },
+        {
+          "documentId": "doc-92fb9250c40112c0",
+          "startLine": 293,
+          "endLine": 295,
+          "supports": [
+            "substance"
+          ],
+          "note": "B 樣本分析確認 A 樣本的不利分析結果。"
+        },
+        {
+          "documentId": "doc-92fb9250c40112c0",
+          "startLine": 363,
+          "endLine": 377,
+          "supports": [
+            "sanction",
+            "education"
+          ],
+          "note": "AIU 認為未能證明來源或非故意；說明暫時禁賽違規及早承認減期規則。"
+        },
+        {
+          "documentId": "doc-92fb9250c40112c0",
+          "startLine": 478,
+          "endLine": 485,
+          "supports": [
+            "substance"
+          ],
+          "note": "決定書依 2024 禁用清單列 Ostarine 為 S1.2、任何時候禁用的非特定物質。"
+        },
+        {
+          "documentId": "doc-92fb9250c40112c0",
+          "startLine": 521,
+          "endLine": 537,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "三年禁賽自 2025 年 6 月 6 日起；自 2024 年 10 月 13 日起成績取消，且不折抵暫時禁賽。"
+        },
+        {
+          "documentId": "registry-902ec81dcdef5405",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "country",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "AIU 名冊列 Hladnik、CRO、三年自 2025 年 6 月 6 日起及 2024 年 10 月 13 日起成績取消。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "aiu-c42fc707f5bf",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-fca0e88e6cd0d7ad",
+        "registry-0ab461ac1683e906"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-fca0e88e6cd0d7ad",
+          "startLine": 12,
+          "endLine": 14,
+          "supports": [
+            "identity",
+            "country",
+            "event"
+          ],
+          "note": "決定書確認 Moscote 為墨西哥公路跑者，且本案為第二次違規。"
+        },
+        {
+          "documentId": "doc-fca0e88e6cd0d7ad",
+          "startLine": 60,
+          "endLine": 66,
+          "supports": [
+            "event",
+            "substance",
+            "dates"
+          ],
+          "note": "2025 年 1 月 12 日瓦倫西亞 10 公里賽樣本檢出 Octodrine 及代謝物 Heptaminol。"
+        },
+        {
+          "documentId": "doc-fca0e88e6cd0d7ad",
+          "startLine": 172,
+          "endLine": 182,
+          "supports": [
+            "substance",
+            "education"
+          ],
+          "note": "送驗的一項補充品未檢出 Octodrine；另一產品廠商稱經測試不含禁用物質，運動員仍承認違規。"
+        },
+        {
+          "documentId": "doc-fca0e88e6cd0d7ad",
+          "startLine": 233,
+          "endLine": 238,
+          "supports": [
+            "substance"
+          ],
+          "note": "決定書列 Octodrine 為 2025 清單 S6 特定物質、賽內禁用，並說明二次違規適用四年基準。"
+        },
+        {
+          "documentId": "doc-fca0e88e6cd0d7ad",
+          "startLine": 276,
+          "endLine": 291,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "她於 2025 年 5 月 26 日承認並接受後，三年禁賽自 3 月 24 日起，並取消自 1 月 12 日起成績。"
+        },
+        {
+          "documentId": "registry-0ab461ac1683e906",
+          "startLine": 1,
+          "endLine": 2,
+          "supports": [
+            "identity",
+            "country",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "AIU 名冊列 Moscote、MEX、第二次違規、三年自 2025 年 3 月 24 日起及 1 月 12 日起成績取消。"
+        }
+      ],
+      "findings": []
+    }
+  ]
+}

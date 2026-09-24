@@ -1,0 +1,31 @@
+{
+  "checkedAt": "2026-09-22T08:49:46.702491+00:00",
+  "dataSha256": "5b1f35dd13d3994916e43b6133b9939e97a8ac341096643e54c1fc4694d9effa",
+  "localCaseCount": 500,
+  "liveCaseCount": 171,
+  "deployed": false,
+  "pushed": false,
+  "checks": [
+    {
+      "command": "npm run test:reviewed",
+      "result": "passed",
+      "testGroups": 8,
+      "detailRoutesCovered": 500
+    },
+    {
+      "command": "npm --prefix frontend test",
+      "result": "passed",
+      "tests": 38
+    },
+    {
+      "command": "npm --prefix frontend run build",
+      "result": "passed",
+      "prerenderedHtml": 11
+    },
+    {
+      "command": "git diff --check",
+      "result": "passed"
+    }
+  ],
+  "browserEvidence": "browser-validation.json"
+}

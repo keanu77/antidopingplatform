@@ -1,0 +1,212 @@
+{
+  "cases": [
+    {
+      "id": "aiu-65a2f8bc978d",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-9bea21f46783534c",
+        "registry-9ba7d59681005916"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-9bea21f46783534c",
+          "startLine": 18,
+          "endLine": 18,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "選手姓名及所屬國家為肯亞之長跑選手"
+        },
+        {
+          "documentId": "doc-9bea21f46783534c",
+          "startLine": 75,
+          "endLine": 81,
+          "supports": [
+            "event",
+            "substance"
+          ],
+          "note": "專家小組認定2022年血液樣本異常具血液操控特徵並判定極可能使用禁藥"
+        },
+        {
+          "documentId": "doc-9bea21f46783534c",
+          "startLine": 248,
+          "endLine": 253,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "處自2023年9月6日起五年禁賽並取消自2022年5月9日起所有成績"
+        },
+        {
+          "documentId": "doc-9bea21f46783534c",
+          "startLine": 282,
+          "endLine": 287,
+          "supports": [
+            "sanction",
+            "dates",
+            "education"
+          ],
+          "note": "因於暫時禁賽期間違規參賽而不予折抵暫時禁賽期"
+        },
+        {
+          "documentId": "registry-9ba7d59681005916",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊登載肯亞選手ABP案禁賽5年及成績取消起算日"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "aiu-3d6cd250fd44",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-fe28bbe4b665ec16",
+        "registry-4d73076ac3c54e33"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-fe28bbe4b665ec16",
+          "startLine": 18,
+          "endLine": 18,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "選手姓名及所屬國家為衣索比亞之長跑選手"
+        },
+        {
+          "documentId": "doc-fe28bbe4b665ec16",
+          "startLine": 50,
+          "endLine": 75,
+          "supports": [
+            "event",
+            "substance"
+          ],
+          "note": "2023年杜哈及香港採樣均檢出重組EPO陽性"
+        },
+        {
+          "documentId": "doc-fe28bbe4b665ec16",
+          "startLine": 281,
+          "endLine": 287,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "處自2023年6月15日起五年禁賽並折抵暫時禁賽且取消2023年1月20日起成績"
+        },
+        {
+          "documentId": "registry-4d73076ac3c54e33",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊登載衣索比亞選手EPO違規禁賽5年折抵自4月4日起"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "aiu-6d028ca80c10",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-4c9c7043b4b2c174",
+        "registry-f508f4412469cc42"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-4c9c7043b4b2c174",
+          "startLine": 5,
+          "endLine": 6,
+          "supports": [
+            "identity"
+          ],
+          "note": "裁決對象為田徑運動員Vasiliy Kharlamov"
+        },
+        {
+          "documentId": "doc-4c9c7043b4b2c174",
+          "startLine": 88,
+          "endLine": 101,
+          "supports": [
+            "event",
+            "substance"
+          ],
+          "note": "2012年賽外樣本含DHCMT但遭莫斯科實驗室隱瞞並回報陰性"
+        },
+        {
+          "documentId": "doc-4c9c7043b4b2c174",
+          "startLine": 278,
+          "endLine": 284,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "自裁決日起處四年禁賽並取消2012年10月12日至裁決日成績"
+        },
+        {
+          "documentId": "registry-f508f4412469cc42",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊登載俄羅斯（RUS）選手LIMS歷史證據案處4年禁賽及成績取消區間"
+        }
+      ],
+      "findings": []
+    }
+  ]
+}

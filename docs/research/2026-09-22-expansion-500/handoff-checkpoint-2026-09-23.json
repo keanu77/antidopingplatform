@@ -1,0 +1,34 @@
+{
+  "recordedAt": "2026-09-23T00:22:04+09:00",
+  "newReviewed": 257,
+  "newTarget": 500,
+  "registryOnlyPending": 243,
+  "totalLocalCases": 517,
+  "acceptedUsadaCases": 21,
+  "readButNotAccepted": 8,
+  "documentManifestCounts": {
+    "downloaded_unreviewed": 568,
+    "download_failed": 32,
+    "unexpected_content": 1
+  },
+  "totalDocumentRecords": 601,
+  "usadaDocumentRecords": 380,
+  "nextUsTitleCandidates": 120,
+  "individualDispositionCounts": {
+    "accepted": 207,
+    "held": 3,
+    "needs_final_source": 14
+  },
+  "branch": "main",
+  "head": "60f7073a9deb98af0b117735717250e638bee9ba",
+  "commitPushDeployPerformed": false,
+  "production": "Last known 171 cases from previous live check; not freshly verified at handoff.",
+  "tests": {
+    "reviewed": "10/10 pass at 257 cases",
+    "completion": "in_progress; 257 reviewed, 243 pending, errors []; exit 1 expected",
+    "diffCheck": "pass",
+    "frontendBuildBrowser": "Previous 500-total snapshot stale; no fresh final 517 validation"
+  },
+  "runningProcesses": "None; both USADA download batches completed.",
+  "goalToolStatus": "paused (pre-existing; not changed by handoff)"
+}

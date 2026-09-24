@@ -1,0 +1,270 @@
+{
+  "cases": [
+    {
+      "id": "usada-f75282803398",
+      "status": "supported",
+      "identity": "supported",
+      "country": "supported",
+      "temporalScope": "supported",
+      "evidence": [
+        {
+          "documentId": "country",
+          "startLine": 448,
+          "endLine": 472,
+          "note": "Team USA profile identifies Abby Dahlkemper as a soccer athlete and says she has represented the U.S. since 2010."
+        },
+        {
+          "documentId": "case",
+          "startLine": 7,
+          "endLine": 7,
+          "note": "USADA case identifies Abigail Dahlkemper, age 24, as a soccer athlete from Menlo Park."
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-51b08866d858",
+      "status": "supported",
+      "identity": "supported",
+      "country": "supported",
+      "temporalScope": "supported",
+      "evidence": [
+        {
+          "documentId": "country",
+          "startLine": 448,
+          "endLine": 451,
+          "note": "Team USA profile lists Devin Logan in freestyle skiing and records her as an Olympian in 2014, 2018, and 2022."
+        },
+        {
+          "documentId": "case",
+          "startLine": 7,
+          "endLine": 8,
+          "note": "USADA identifies Devin Logan, age 26, as a freeski athlete; the sample was collected in December 2018."
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-abb5a10e0ed3",
+      "status": "issue",
+      "identity": "supported",
+      "country": "supported",
+      "temporalScope": "issue",
+      "evidence": [
+        {
+          "documentId": "country",
+          "startLine": 448,
+          "endLine": 452,
+          "note": "Team USA profile identifies Breezy Johnson as an alpine skier and records Olympic participation in 2018 and 2026."
+        },
+        {
+          "documentId": "case",
+          "startLine": 7,
+          "endLine": 8,
+          "note": "USADA identifies Breezy Johnson, age 28, as a skiing athlete and dates the whereabouts failures to 2022–2023."
+        }
+      ],
+      "findings": [
+        {
+          "field": "temporalScope",
+          "explanation": "The proposed 2023 case period is outside the profile’s stated Olympic periods of 2018 and 2026; it does not document her sporting affiliation in 2023.",
+          "suggestion": "Use a dated official record that establishes USA affiliation for the relevant 2023 period, or limit the annotation to the profile’s explicitly listed Olympic periods."
+        }
+      ]
+    },
+    {
+      "id": "usada-d1537bff40b3",
+      "status": "supported",
+      "identity": "supported",
+      "country": "supported",
+      "temporalScope": "supported",
+      "evidence": [
+        {
+          "documentId": "country",
+          "startLine": 448,
+          "endLine": 451,
+          "note": "Team USA profile identifies Laura Zeng as a gymnastics athlete and lists her Olympic years as 2016 and 2020."
+        },
+        {
+          "documentId": "case",
+          "startLine": 7,
+          "endLine": 8,
+          "note": "USADA identifies Laura Zeng, age 19, as a gymnastics athlete from Libertyville in 2018."
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-1c34e76fa2a0",
+      "status": "supported",
+      "identity": "supported",
+      "country": "supported",
+      "temporalScope": "supported",
+      "evidence": [
+        {
+          "documentId": "country",
+          "startLine": 448,
+          "endLine": 451,
+          "note": "Team USA profile identifies Aja Evans as a bobsled athlete and lists Olympic participation in 2014 and 2018."
+        },
+        {
+          "documentId": "case",
+          "startLine": 7,
+          "endLine": 8,
+          "note": "USADA identifies Aja Evans, age 35, as a bobsled athlete in the 2022 case."
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-990a455fba77",
+      "status": "supported",
+      "identity": "supported",
+      "country": "supported",
+      "temporalScope": "supported",
+      "evidence": [
+        {
+          "documentId": "country",
+          "startLine": 448,
+          "endLine": 451,
+          "note": "Team USA profile identifies Jackie Galloway as a taekwondo athlete and lists Olympic participation in 2016."
+        },
+        {
+          "documentId": "case",
+          "startLine": 7,
+          "endLine": 8,
+          "note": "USADA identifies Jacqueline Galloway, age 23, as a taekwondo athlete in 2019."
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-a00b98f42826",
+      "status": "supported",
+      "identity": "supported",
+      "country": "supported",
+      "temporalScope": "supported",
+      "evidence": [
+        {
+          "documentId": "country",
+          "startLine": 78,
+          "endLine": 83,
+          "note": "World Aquatics profile lists Will Licon, nationality USA, discipline swimming."
+        },
+        {
+          "documentId": "case",
+          "startLine": 7,
+          "endLine": 8,
+          "note": "USADA identifies William Licon, age 24, as a swimmer in 2019."
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-503574acf7cc",
+      "status": "uncertain",
+      "identity": "supported",
+      "country": "supported",
+      "temporalScope": "uncertain",
+      "evidence": [
+        {
+          "documentId": "country",
+          "startLine": 78,
+          "endLine": 83,
+          "note": "World Aquatics profile lists Mike Alexandrov, nationality USA, discipline swimming."
+        },
+        {
+          "documentId": "case",
+          "startLine": 7,
+          "endLine": 8,
+          "note": "USADA identifies Mihail (Mike) Alexandrov, age 32, as a swimmer in the 2017 case."
+        }
+      ],
+      "findings": [
+        {
+          "field": "temporalScope",
+          "explanation": "The official profile’s current nationality listing supports USA as listed at lookup; it does not establish which country he represented in 2017.",
+          "suggestion": "Label the annotation as USA on the World Aquatics profile at lookup, or use a dated 2017 sporting record to establish affiliation for that period."
+        }
+      ]
+    },
+    {
+      "id": "usada-196afd5ac99f",
+      "status": "supported",
+      "identity": "supported",
+      "country": "supported",
+      "temporalScope": "supported",
+      "evidence": [
+        {
+          "documentId": "country",
+          "startLine": 78,
+          "endLine": 85,
+          "note": "The dated 2011 World Aquatics report identifies Amanda Kendall as USA’s athlete and records her medals at the Pan Am Games."
+        },
+        {
+          "documentId": "case",
+          "startLine": 7,
+          "endLine": 8,
+          "note": "USADA identifies Amanda Kendall, age 27, as a swimmer in the 2018 case."
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-c60db428c672",
+      "status": "issue",
+      "identity": "supported",
+      "country": "supported",
+      "temporalScope": "issue",
+      "evidence": [
+        {
+          "documentId": "country",
+          "startLine": 71,
+          "endLine": 73,
+          "note": "UCI report identifies Katherine Compton as USA at a cyclo-cross World Cup event; these lines do not state the event date."
+        },
+        {
+          "documentId": "case",
+          "startLine": 7,
+          "endLine": 8,
+          "note": "USADA identifies Katherine Compton, age 42, as a cycling athlete in a case involving a September 2020 test."
+        }
+      ],
+      "findings": [
+        {
+          "field": "temporalScope",
+          "explanation": "The supplied UCI report excerpt establishes USA sporting affiliation at its event but gives no date, so it cannot establish the affiliation’s period or connect it to the 2020 case year.",
+          "suggestion": "Use a dated official UCI result or other official sporting record for the relevant period, or scope the annotation only to the undated event report."
+        }
+      ]
+    },
+    {
+      "id": "usada-ee1ce8ee98f6",
+      "status": "issue",
+      "identity": "supported",
+      "country": "supported",
+      "temporalScope": "issue",
+      "evidence": [
+        {
+          "documentId": "country",
+          "startLine": 470,
+          "endLine": 474,
+          "note": "Team USA article says NaLyssa Smith played for Team USA at the 2018 FIBA Americas U18 Championship."
+        },
+        {
+          "documentId": "case",
+          "startLine": 1,
+          "endLine": 7,
+          "note": "USADA identifies NaLyssa Smith as a U.S. basketball athlete in a 2024 public warning."
+        }
+      ],
+      "findings": [
+        {
+          "field": "temporalScope",
+          "explanation": "The country source establishes Team USA participation in 2018, while the case year is 2024; the source does not establish her 2024 sporting affiliation.",
+          "suggestion": "Scope the annotation to her documented 2018 U18 participation, or cite a dated official record establishing USA affiliation in 2024."
+        }
+      ]
+    }
+  ]
+}

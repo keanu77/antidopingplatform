@@ -1,0 +1,389 @@
+{
+  "cases": [
+    {
+      "id": "usada-5eac04b001f6",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-7ef7e1f77f1fcd09",
+        "registry-a1c17e2f648b6c64"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-7ef7e1f77f1fcd09",
+          "startLine": 7,
+          "endLine": 9,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告確認舉重選手、賽內 carboxy-THC 180 ng/mL、六個月禁賽教育減免三個月，並取消採樣日起成績。"
+        },
+        {
+          "documentId": "registry-a1c17e2f648b6c64",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "sanction",
+            "outcomes"
+          ],
+          "note": "名冊列六個月處分含三個月延期及成績損失。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-496b0452d607",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-fd47c7af507f97c0",
+        "registry-b7292658731890c8"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-fd47c7af507f97c0",
+          "startLine": 7,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告確認舉重選手、DHEA 賽內陽性、醫師指示使用非處方補充品、一年處分及成績取消。"
+        },
+        {
+          "documentId": "registry-b7292658731890c8",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "sanction",
+            "outcomes"
+          ],
+          "note": "名冊列 DHEA 一年處分與成績損失。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-a6e4b38ecdbe",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-9e72f4aed3e15ae9",
+        "registry-a61c532ac74ca4fe"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-9e72f4aed3e15ae9",
+          "startLine": 5,
+          "endLine": 7,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "education"
+          ],
+          "note": "公告於2020年1月7日確認水上滑水選手因 spironolactone 未先取得 TUE 接受公開警告，之後取得授權未來使用的 TUE。"
+        },
+        {
+          "documentId": "registry-a61c532ac74ca4fe",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "sanction"
+          ],
+          "note": "名冊列 spironolactone 公開警告及公告日期。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-123713999e9c",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-01f27031a0280b63",
+        "registry-590d9fc54a14c1bc"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-01f27031a0280b63",
+          "startLine": 7,
+          "endLine": 12,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告指出 Glasgow 是舉重教練，2017年鼓勵選手使用含 oxandrolone 的禁用物質，依共謀規則處四年；後續僅一名選手成立違規。"
+        },
+        {
+          "documentId": "registry-590d9fc54a14c1bc",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "sanction"
+          ],
+          "note": "名冊列非分析型共謀及四年處分。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-74fda1ee0cc3",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-ab550e62f8586321",
+        "registry-41b391be98a6fb1a"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-ab550e62f8586321",
+          "startLine": 7,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告確認舉重、oxandrolone 持有及使用、因不知教練提供的具體物質而減為兩年，且區分處分起日與成績取消起日。"
+        },
+        {
+          "documentId": "registry-41b391be98a6fb1a",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "sanction",
+            "outcomes"
+          ],
+          "note": "名冊列兩年處分及成績損失。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-fb72031d87b1",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-e26b0ca7a530ec09",
+        "registry-433e5761715b8937"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-e26b0ca7a530ec09",
+          "startLine": 7,
+          "endLine": 11,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告確認田徑選手在全美戶外錦標賽檢體檢出 ostarine、四年處分及成績取消；補充品內容為一般資訊。"
+        },
+        {
+          "documentId": "registry-433e5761715b8937",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "sanction",
+            "outcomes"
+          ],
+          "note": "名冊列 ostarine 四年處分及成績損失。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-ae780d447bf0",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-2c3e1203825b05f8",
+        "registry-cf52020c33184405"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-2c3e1203825b05f8",
+          "startLine": 7,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告確認舉重選手賽外檢出 ostarine，四年處分自採樣日起算並取消該日起成績。"
+        },
+        {
+          "documentId": "registry-cf52020c33184405",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "sanction",
+            "outcomes"
+          ],
+          "note": "名冊列 ostarine 四年處分及成績損失。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-13a7b9335634",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-1e8a139dfc8d1850",
+        "doc-6a6845bf31f0107e",
+        "registry-9126f8e6bc125468"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-1e8a139dfc8d1850",
+          "startLine": 7,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "初始公告確認 ostarine 陽性、AAA 原判兩年、處分起日為接受暫停日起，並取消採樣日起含第一名的成績。"
+        },
+        {
+          "documentId": "doc-6a6845bf31f0107e",
+          "startLine": 7,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "後續公告確認減六個月、退休期間停算、復出後續服剩餘處分，預定2020年7月25日屆滿。"
+        },
+        {
+          "documentId": "registry-9126f8e6bc125468",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "sanction",
+            "dates"
+          ],
+          "note": "名冊記載減刑、復出後可參賽日期及更新日期。"
+        }
+      ],
+      "findings": []
+    }
+  ]
+}

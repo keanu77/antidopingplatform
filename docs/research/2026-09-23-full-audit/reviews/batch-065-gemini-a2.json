@@ -1,0 +1,508 @@
+{
+  "cases": [
+    {
+      "id": "usada-5c5d5188ddf0",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-467a550bbd759b19",
+        "registry-619d44c5ddfce5ec"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-467a550bbd759b19",
+          "startLine": 1,
+          "endLine": 8,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "Alyssa Wilson 因在醫師照護下使用 spironolactone 未事先取得 TUE，2023年5月30日賽外檢體陽性，接受公開警告且無取消成績"
+        },
+        {
+          "documentId": "registry-619d44c5ddfce5ec",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "dates"
+          ],
+          "note": "名冊記錄 Wilson 於2023年9月18日因 Canrenone 接受公開警告"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "美國",
+          "explanation": "公告標題雖稱 U.S. 運動員並提及紐澤西居住地，但未提供明確之國籍或體育代表權證明，依規定應列為不確定。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-467a550bbd759b19",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "應補充官方國籍或代表權證明，或將國籍標註為待證實。"
+        }
+      ]
+    },
+    {
+      "id": "usada-7e6f399372a6",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-327a92e2d70b456b",
+        "registry-b430a99cae6eb7f0"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-327a92e2d70b456b",
+          "startLine": 7,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "Allison Ostrander 2023年3月30日賽外檢體檢出 canrenone，因口服痤瘡藥 spironolactone 未取得 TUE，接受4個月禁賽並取消成績"
+        },
+        {
+          "documentId": "registry-b430a99cae6eb7f0",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "dates"
+          ],
+          "note": "名冊確認 Ostrander 處分4個月禁賽及取消成績，公告日2023年8月25日"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "美國",
+          "explanation": "文件僅載明標題 U.S. 運動員及西雅圖居住地，依審核規範不足以直接確立國籍或運動代表權。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-327a92e2d70b456b",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "補充運動員國籍或代表隊官方資料，或將代表權標記為不確定。"
+        }
+      ]
+    },
+    {
+      "id": "usada-79470a91247a",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-c55a791326333773",
+        "registry-cdd766953e3693f4"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-c55a791326333773",
+          "startLine": 7,
+          "endLine": 12,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "Roger Whitham 經檢舉後於2023年5月4日受檢檢出多種禁用物質，依及早承認規定減為3年禁賽並取消成績"
+        },
+        {
+          "documentId": "registry-cdd766953e3693f4",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "dates"
+          ],
+          "note": "名冊登載 Whitham 因 Boldenone、GW1516、Ibutamoren、Ostarine 處分3年禁賽與取消成績"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "美國",
+          "explanation": "來源僅有新聞標題 U.S. 運動員及德州居住地資訊，缺少明確的法定國籍或運動代表權官方證據。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-c55a791326333773",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "提供國籍或國家協會代表權證明，否則應維持不確定分類。"
+        }
+      ]
+    },
+    {
+      "id": "usada-ea30e84daaab",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-331b43f1b976e19d",
+        "registry-4339013799a256a3"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-331b43f1b976e19d",
+          "startLine": 7,
+          "endLine": 11,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "Chad Olsen 在2023年3月19日大師錦標賽檢出 epitrenbolone，經及早承認減為3年禁賽並取消成績"
+        },
+        {
+          "documentId": "registry-4339013799a256a3",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "dates"
+          ],
+          "note": "名冊證實 Olsen 舉重項目檢出 Epitrenbolone，處3年禁賽及取消成績"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "美國",
+          "explanation": "僅依據標題提及 U.S. 運動員與佛州居住地，不足以充分推定國籍或代表權。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-331b43f1b976e19d",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "需補強國籍或體育代表權來源文件，或標記為證據不足。"
+        }
+      ]
+    },
+    {
+      "id": "usada-8acc4528cb6b",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-6584faab1528852b",
+        "registry-b1a38f1b1f24161e"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-6584faab1528852b",
+          "startLine": 7,
+          "endLine": 9,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "Addie Bracy 於2023年4月26日接受超量靜脈輸注並主動申報，未符合追溯 TUE，接受公開警告且無取消成績"
+        },
+        {
+          "documentId": "registry-b1a38f1b1f24161e",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "dates"
+          ],
+          "note": "名冊登錄 Bracy 非分析性靜脈輸注違規，處以公開警告"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "美國",
+          "explanation": "來源僅有 U.S. 運動員標題與科羅拉多州居住地，未載明代表權或國籍具體事實。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-6584faab1528852b",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "補充正式代表隊或公民身分佐證，或列為不確定。"
+        }
+      ]
+    },
+    {
+      "id": "usada-b03e0386a601",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-d160210ebe6a5f00",
+        "registry-7cb5dffe217ef9ef"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-d160210ebe6a5f00",
+          "startLine": 7,
+          "endLine": 12,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "Katerina Brim 於2022年10月19日採樣申報使用 insulin，分析陰性但追溯 TUE 遭 WADA 否決，處1年禁賽並取消成績"
+        },
+        {
+          "documentId": "registry-7cb5dffe217ef9ef",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "dates"
+          ],
+          "note": "名冊記錄 Brim 帕拉自行車項目因 Insulin 處1年禁賽與取消成績"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "美國",
+          "explanation": "文章僅提及 U.S. 帕拉自行車運動員及密西根居住地，依規定不構成國籍的充分證明。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-d160210ebe6a5f00",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "應補齊官方國籍登錄資料或代表權證明。"
+        }
+      ]
+    },
+    {
+      "id": "usada-b6074d0cf1fc",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-fc90b720c4f22cb7",
+        "registry-710ecb2287bb70f8"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-fc90b720c4f22cb7",
+          "startLine": 7,
+          "endLine": 11,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "Lindsey Corrigan 於2022年8月27日未提供檢體，因退休誤解等過失接受2年禁賽，退休期間停止計時並取消成績"
+        },
+        {
+          "documentId": "registry-710ecb2287bb70f8",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "dates"
+          ],
+          "note": "名冊載明 Corrigan 拒絕受檢處2年禁賽及取消成績"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "美國",
+          "explanation": "僅有標題敘述 U.S. 運動員與加州居住地，不能逕行推定具備美國國籍或正式代表權。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-fc90b720c4f22cb7",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "應增補國籍或所屬國家奧會代表證明。"
+        }
+      ]
+    },
+    {
+      "id": "usada-3e2c75f84c3d",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-2d7c2021e2389f81",
+        "registry-f16efc581a1778d1"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-2d7c2021e2389f81",
+          "startLine": 7,
+          "endLine": 8,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "Breanna Clark 2023年3月7日檢體檢出 HCTZ，因家人照護分藥錯誤誤服，接受公開警告且無取消成績"
+        },
+        {
+          "documentId": "registry-f16efc581a1778d1",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "dates"
+          ],
+          "note": "名冊載明 Clark 因 Hydrochlorothiazide (HCTZ) 接受公開警告"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "美國",
+          "explanation": "內文僅說明為 U.S. 帕拉運動員及洛杉磯居民，缺乏法律國籍或運動代表權的直接佐證。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-2d7c2021e2389f81",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "補充官方國籍或國家隊代表資格證明文件。"
+        }
+      ]
+    }
+  ]
+}

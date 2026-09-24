@@ -1,0 +1,192 @@
+{
+  "cases": [
+    {
+      "id": "aiu-4117ae6a5114",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-009143a693066337",
+        "registry-3e685d0d3482ea2d"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-009143a693066337",
+          "startLine": 12,
+          "endLine": 12,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "AIU 決定確認選手為坦尚尼亞長跑選手 Jackline Sakilu。"
+        },
+        {
+          "documentId": "doc-009143a693066337",
+          "startLine": 55,
+          "endLine": 73,
+          "supports": [
+            "event",
+            "substance"
+          ],
+          "note": "記載 2025 年 3 月 16 日首份樣本與 8 月 5 日第二份樣本均檢出外源性睪固酮代謝物。"
+        },
+        {
+          "documentId": "doc-009143a693066337",
+          "startLine": 139,
+          "endLine": 154,
+          "supports": [
+            "event",
+            "substance"
+          ],
+          "note": "記載進一步檢驗 2024 年 6 月 29 日第三份樣本與 2025 年 8 月 19 日第四份樣本均檢出外源性睪固酮代謝物。"
+        },
+        {
+          "documentId": "doc-009143a693066337",
+          "startLine": 218,
+          "endLine": 222,
+          "supports": [
+            "education"
+          ],
+          "note": "選手未於期限內回應正式指控，依規則視為放棄聽證權、承認違規並接受處分。"
+        },
+        {
+          "documentId": "doc-009143a693066337",
+          "startLine": 284,
+          "endLine": 287,
+          "supports": [
+            "sanction"
+          ],
+          "note": "裁決依違規間隔超過 12 個月之規定適用連續執行，兩段各 4 年合計 8 年。"
+        },
+        {
+          "documentId": "doc-009143a693066337",
+          "startLine": 339,
+          "endLine": 352,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "因多次使用之加重情節增加 2 年，總計禁賽 10 年，自 2025 年 9 月 17 日起算，並取消 2024 年 6 月 29 日起之所有成績。"
+        },
+        {
+          "documentId": "registry-3e685d0d3482ea2d",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "AIU 官方名冊登載 Jackline Sakilu（TAN）案，確認 10 年禁賽自 2025-09-17 起算及取消 2024-06-29 起成績。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "aiu-25538d1692b0",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-e59c5f178db1ef31",
+        "registry-b7d5ff508f358a5b"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-e59c5f178db1ef31",
+          "startLine": 13,
+          "endLine": 13,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "AIU 決定確認選手為印度短跑選手 Sneha Kolleri。"
+        },
+        {
+          "documentId": "doc-e59c5f178db1ef31",
+          "startLine": 81,
+          "endLine": 91,
+          "supports": [
+            "event",
+            "substance"
+          ],
+          "note": "2025 年 5 月 10 日廣州賽內樣本檢出康力龍代謝物。"
+        },
+        {
+          "documentId": "doc-e59c5f178db1ef31",
+          "startLine": 234,
+          "endLine": 238,
+          "supports": [
+            "event",
+            "substance"
+          ],
+          "note": "2025 年 4 月 30 日昌迪加爾樣本進一步分析後檢出康力龍代謝物。"
+        },
+        {
+          "documentId": "doc-e59c5f178db1ef31",
+          "startLine": 264,
+          "endLine": 266,
+          "supports": [
+            "education"
+          ],
+          "note": "AIU 另行取得之密封同款產品為不同批次（MT25157 vs MT25031），檢驗未檢出康力龍。"
+        },
+        {
+          "documentId": "doc-e59c5f178db1ef31",
+          "startLine": 316,
+          "endLine": 319,
+          "supports": [
+            "education"
+          ],
+          "note": "裁決註腳載明 AIU 僅保留主張竄改等進一步違規之權利，並未認定竄改成立。"
+        },
+        {
+          "documentId": "doc-e59c5f178db1ef31",
+          "startLine": 397,
+          "endLine": 425,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "選手於時限內簽署承認違規表格，獲及早承認減刑 1 年至 3 年禁賽，自 2025-05-23 起算，並取消 2025-04-30 起之個人及接力隊成績。"
+        },
+        {
+          "documentId": "registry-b7d5ff508f358a5b",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "AIU 官方名冊登載 Sneha Kolleri（IND）案，確認 3 年禁賽自 2025-05-23 起算及取消 2025-04-30 起成績。"
+        }
+      ],
+      "findings": []
+    }
+  ]
+}

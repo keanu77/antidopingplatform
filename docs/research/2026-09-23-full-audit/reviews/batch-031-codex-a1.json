@@ -1,0 +1,192 @@
+{
+  "cases": [
+    {
+      "id": "aiu-efd2d8d072ff",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-da0e477ddb9d1312",
+        "registry-727e347d555a47fc"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-da0e477ddb9d1312",
+          "startLine": 1,
+          "endLine": 2,
+          "supports": [
+            "identity"
+          ],
+          "note": "決定書確認運動員姓名。"
+        },
+        {
+          "documentId": "doc-da0e477ddb9d1312",
+          "startLine": 85,
+          "endLine": 89,
+          "supports": [
+            "event",
+            "substance"
+          ],
+          "note": "2014 年 5 月 19 日田徑樣本檢出 ostarine，適用當年 S1.2 分類。"
+        },
+        {
+          "documentId": "doc-da0e477ddb9d1312",
+          "startLine": 149,
+          "endLine": 177,
+          "supports": [
+            "substance",
+            "education"
+          ],
+          "note": "依違規發生時的 2014–2015 規則認定使用；規則不要求證明故意或知情使用。"
+        },
+        {
+          "documentId": "doc-da0e477ddb9d1312",
+          "startLine": 218,
+          "endLine": 226,
+          "supports": [
+            "sanction"
+          ],
+          "note": "AIU 認定加重情節，裁處四年禁賽。"
+        },
+        {
+          "documentId": "doc-da0e477ddb9d1312",
+          "startLine": 243,
+          "endLine": 271,
+          "supports": [
+            "country",
+            "dates",
+            "outcomes",
+            "sanction"
+          ],
+          "note": "決定書列明採樣日至決定日成績取消、四年禁賽自決定日起算及決定日期。"
+        },
+        {
+          "documentId": "registry-727e347d555a47fc",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "country",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "AIU 名冊列 Ivashko、RUS、四年及成績取消起日。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "aiu-6d47d6430f87",
+      "status": "issue",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "issue",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-16a42052f18e3ee5",
+        "registry-c4e05d596481c19a"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-16a42052f18e3ee5",
+          "startLine": 13,
+          "endLine": 13,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "決定書稱 Cheruiyot 為肯亞道路跑者。"
+        },
+        {
+          "documentId": "doc-16a42052f18e3ee5",
+          "startLine": 59,
+          "endLine": 65,
+          "supports": [
+            "event",
+            "substance"
+          ],
+          "note": "2025 年 9 月 21 日布宜諾斯艾利斯馬拉松賽內尿液樣本呈 trimetazidine 陽性分析結果。"
+        },
+        {
+          "documentId": "doc-16a42052f18e3ee5",
+          "startLine": 114,
+          "endLine": 122,
+          "supports": [
+            "substance",
+            "education"
+          ],
+          "note": "決定書依 2025 禁用清單稱其為 S4 非特定物質，並認定未證明非故意。"
+        },
+        {
+          "documentId": "doc-16a42052f18e3ee5",
+          "startLine": 142,
+          "endLine": 161,
+          "supports": [
+            "sanction",
+            "education"
+          ],
+          "note": "運動員於收到通知當日承認並接受處分，獲一年減免。"
+        },
+        {
+          "documentId": "doc-16a42052f18e3ee5",
+          "startLine": 163,
+          "endLine": 177,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "AIU 確認三年禁賽自 10 月 23 日起，並取消 9 月 21 日起成績。"
+        },
+        {
+          "documentId": "registry-c4e05d596481c19a",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "country",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "AIU 名冊列 KEN、三年及相關起算日期。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "sanction",
+          "kind": "contradiction",
+          "severity": "high",
+          "claim": "「依及早承認減免一年，禁賽三年，自 2025-10-23 起」",
+          "explanation": "決定書稱承認發生於 2025-10-23，該日是 Notice of Allegation，不是 Notice of Charge；決定書腳註說從未發出 Notice of Charge。Rule 10.8.1 減免條件明文要求通知違規 charge 後 20 日內承認，故來源支持承認及三年結果，但未支持所述減免依據適用於這個程序。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-16a42052f18e3ee5",
+              "startLine": 142,
+              "endLine": 153
+            },
+            {
+              "documentId": "doc-16a42052f18e3ee5",
+              "startLine": 160,
+              "endLine": 169
+            }
+          ],
+          "suggestion": "保留三年處分及承認事實；將「依及早承認減免一年」標為決定書所述的減免理由，並註明決定書同時記載未曾發出 Notice of Charge，避免把程序條件是否滿足寫成已無疑義。"
+        }
+      ]
+    }
+  ]
+}

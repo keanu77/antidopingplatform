@@ -75,7 +75,7 @@
     "detectability": "尿液檢測，某些物質有劑量閾值限制",
     "icon": "🫁",
     "prohibitionType": "全時段禁用（吸入劑有劑量閾值豁免）",
-    "note": "吸入型Salbutamol（≤1600µg/24h且每8h≤600µg）、Formoterol（≤54µg/24h）、Salmeterol（≤200µg/24h）、Vilanterol（≤25µg/24h）在劑量閾值內免TUE；Terbutaline及口服Beta-2激動劑需TUE"
+    "note": "吸入型 Salbutamol（≤1600µg/24h 且任何 8h ≤600µg）、Formoterol（實際吸入劑量 ≤54µg/24h 且任何 12h ≤36µg）、Salmeterol（≤200µg/24h 且任何 8h ≤100µg）、Vilanterol（≤25µg/24h）在劑量例外範圍內免 TUE；超出例外、Terbutaline 及口服 Beta-2 激動劑仍需 TUE"
   },
   {
     "id": 5,
@@ -210,6 +210,6 @@
     "detectability": "可在尿液中檢出",
     "icon": "🎯",
     "prohibitionType": "特定運動項目禁用",
-    "note": "射箭、射擊、水中運動為賽內外皆禁；賽車、撞球、飛鏢、高爾夫、迷你高爾夫等其餘項目僅賽內禁用"
+    "note": "射箭（WA）、射擊（ISSF／IPC），以及 CMAS 自由潛水、魚槍捕魚、水下標靶射擊的所有分項，賽內與賽外皆禁用；汽車運動（FIA）、撞球（WCBS）、飛鏢（WDF）、高爾夫（IGF）、迷你高爾夫（WMF）僅賽內禁用"
   }
 ]

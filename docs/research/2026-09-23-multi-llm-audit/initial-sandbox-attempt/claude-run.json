@@ -1,0 +1,9 @@
+{
+  "seat": "claude",
+  "startedAt": "2026-09-23T04:50:27.013881+00:00",
+  "timeoutSeconds": 180,
+  "readOnlyRequested": true,
+  "exitCode": 1,
+  "status": "failed",
+  "elapsedSeconds": 2.81
+}

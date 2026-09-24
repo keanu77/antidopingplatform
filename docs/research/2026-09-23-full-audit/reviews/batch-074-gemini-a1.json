@@ -1,0 +1,365 @@
+{
+  "cases": [
+    {
+      "id": "usada-8eb48dbaf6e2",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-4a0a3e1ed760fd2a",
+        "registry-7b4f7d8ad33ee524"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-4a0a3e1ed760fd2a",
+          "startLine": 7,
+          "endLine": 9,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告記載 Morgan Millican 於 2020-03-05 賽內檢出 clomiphene 及代謝物，接受自採樣日起兩年禁賽並取消成績。"
+        },
+        {
+          "documentId": "registry-7b4f7d8ad33ee524",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "sanction"
+          ],
+          "note": "名冊登載舉重選手 Morgan Millican 因 clomiphene 處以兩年禁賽與取消成績。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "medium",
+          "claim": "nationality",
+          "explanation": "公告僅在標題寫有「U.S. Weightlifting Athlete」及居住地喬治亞州，依審查原則，發布單位管轄權、居住地或標題敘述不足以直接確立運動代表權或國籍，現有來源證據不足。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-4a0a3e1ed760fd2a",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "將國籍或代表權改列為待確認（uncertain），或補入載有國家代表隊登錄資格的官方資料。"
+        }
+      ]
+    },
+    {
+      "id": "usada-9594a41ee3f8",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-4526bb6822053b1d",
+        "doc-7f987bce4b63fc3f",
+        "registry-a1636e923040dda0"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-4526bb6822053b1d",
+          "startLine": 7,
+          "endLine": 12,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告載明 Harroufi 於 2020-03-07 賽內及 05-12 賽外檢體經 CIR 檢出外源性合成代謝劑，因未接獲前次通知視為單一違規，併計 2013 年 EPO 違規處以八年禁賽並取消成績。"
+        },
+        {
+          "documentId": "doc-7f987bce4b63fc3f",
+          "startLine": 53,
+          "endLine": 66,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "世界田徑總會個人檔案記載其自 2020-02-20 起具代表美國參加國家代表賽事之資格。"
+        },
+        {
+          "documentId": "registry-a1636e923040dda0",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "sanction"
+          ],
+          "note": "處分名冊登載 Harroufi 因同化類固醇處以八年禁賽及取消成績。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-a54a0549888f",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-637b2d78ef979460",
+        "registry-3ea63550d2c10bec"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-637b2d78ef979460",
+          "startLine": 7,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告載明 McCullough 於 2020-07-28 賽外檢體檢出 higenamine，源於標籤標示之補充品，因主動申報且配合調查處 20 個月禁賽並取消成績。"
+        },
+        {
+          "documentId": "registry-3ea63550d2c10bec",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "sanction"
+          ],
+          "note": "名冊登載舉重選手 McCullough 因 higenamine 處以 20 個月禁賽與取消成績。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "medium",
+          "claim": "nationality",
+          "explanation": "來源僅於文章標題記載「U.S. Weightlifting Athlete」及居住德州休士頓，依審查標準，標題字樣與居住地不足以確立官方國籍或運動代表權。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-637b2d78ef979460",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "將國籍欄位標註為待確認（uncertain），或補充官方代表隊登錄證明。"
+        }
+      ]
+    },
+    {
+      "id": "usada-707cea3b489e",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-c61798885142fec6",
+        "registry-a71bfe17282afd1a"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-c61798885142fec6",
+          "startLine": 7,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告載明 Wood 於 2019-04-29 賽外檢出外源性睪固酮，因缺乏有效 TUE 處以兩年禁賽，成績追溯取消至首次用藥日 2017-06-21。"
+        },
+        {
+          "documentId": "registry-a71bfe17282afd1a",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "sanction"
+          ],
+          "note": "名冊登載自行車選手 Jonathan Wood 因合成代謝類固醇處以兩年禁賽與取消成績。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "medium",
+          "claim": "nationality",
+          "explanation": "公告僅在新聞標題提及「U.S. Cycling Athlete」，內文未提供其國籍或運動代表資格的具體依據，依標準無法直接推論國籍。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-c61798885142fec6",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "將國籍狀態調整為待確認（uncertain），或引證運動代表權檔案以資證明。"
+        }
+      ]
+    },
+    {
+      "id": "usada-ea963f8d28c3",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-a51bd540635053eb",
+        "registry-07e9bcf0501c9111"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-a51bd540635053eb",
+          "startLine": 8,
+          "endLine": 9,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "調查證實 Parlor 於 2018-01-04 網購 clenbuterol 產品寄至住處，受四年禁賽並自購買日起取消競賽成績。"
+        },
+        {
+          "documentId": "registry-07e9bcf0501c9111",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "sanction"
+          ],
+          "note": "名冊登載舉重選手 Tiffany Parlor 因非分析性違規（持有與使用/企圖使用）處四年禁賽與取消成績。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "medium",
+          "claim": "nationality",
+          "explanation": "來源僅於標題使用「U.S. Weightlifting Athlete」，未見國籍或代表權正式登錄依據，依審查規範屬證據不足。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-a51bd540635053eb",
+              "startLine": 1,
+              "endLine": 8
+            }
+          ],
+          "suggestion": "將國籍欄位註記為待確認（uncertain），或補充明確具備代表權或國籍之證明資料。"
+        }
+      ]
+    },
+    {
+      "id": "usada-8a0a2483bd13",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-495010c2b64b72ce",
+        "registry-87ee4ca84a02e8fc"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-495010c2b64b72ce",
+          "startLine": 7,
+          "endLine": 13,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告載明 Gicquel 於 2019-08-29 檢出甲基睪固酮代謝物，回溯性 TUE 遭拒，接受一年禁賽；仲裁判定自其知情之 2015-08-29 起取消成績。"
+        },
+        {
+          "documentId": "registry-87ee4ca84a02e8fc",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "sanction"
+          ],
+          "note": "名冊登載自行車選手 Barbara Gicquel 因 methyltestosterone 處以一年禁賽與取消成績。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "medium",
+          "claim": "nationality",
+          "explanation": "官方文件僅在標題載明「U.S. Cycling Athlete」並提及加州居住地與 USA Cycling 認證檢驗，缺少代表權或國籍明文紀錄，依規範屬證據不足。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-495010c2b64b72ce",
+              "startLine": 1,
+              "endLine": 8
+            }
+          ],
+          "suggestion": "將國籍欄位調整為待確認（uncertain），或補充國際總會或代表隊註冊來源。"
+        }
+      ]
+    }
+  ]
+}

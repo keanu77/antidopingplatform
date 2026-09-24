@@ -57,14 +57,14 @@
       "routes": {
         "inhaled": {
           "status": "permitted-threshold",
-          "threshold": "24 小時內 ≤54µg",
-          "note": "吸入劑在 24 小時內 ≤54µg 免 TUE"
+          "threshold": "實際吸入劑量：24 小時內 ≤54µg，且任何 12 小時內 ≤36µg",
+          "note": "吸入劑以實際吸入劑量（delivered dose）計，24 小時內 ≤54µg，且任何 12 小時內 ≤36µg，符合此劑量例外時免 TUE"
         },
         "oral": { "status": "needs-tue", "note": "口服 Beta-2 激動劑仍需 TUE" }
       },
       "sportRestricted": null,
       "washout": null,
-      "note": "吸入劑在 24 小時內 ≤54µg 免 TUE；口服 Beta-2 激動劑仍需 TUE"
+      "note": "吸入劑以實際吸入劑量（delivered dose）計，24 小時內 ≤54µg，且任何 12 小時內 ≤36µg，符合此劑量例外時免 TUE；超出例外劑量或口服仍需 TUE"
     },
     "salmeterol": {
       "displayName": "Salmeterol 沙美特羅",
@@ -243,10 +243,10 @@
       "needsTUE": true,
       "tueEligible": true,
       "routes": null,
-      "sportRestricted": ["射箭", "射擊", "高爾夫", "飛鏢", "撞球", "汽車運動", "水下運動", "滑雪／雪板（部分項目）"],
-      "sportRestrictedOutOfComp": ["射箭", "射擊"],
+      "sportRestricted": ["射箭", "射擊", "高爾夫", "迷你高爾夫", "飛鏢", "撞球", "汽車運動", "自由潛水（CMAS）", "魚槍捕魚（CMAS）", "水下標靶射擊（CMAS）"],
+      "sportRestrictedOutOfComp": ["射箭", "射擊", "自由潛水（CMAS）", "魚槍捕魚（CMAS）", "水下標靶射擊（CMAS）"],
       "washout": null,
-      "note": "僅在特定精準運動項目賽內禁用（射箭、射擊亦賽外禁用）；於這些項目若有醫療需要須申請 TUE，其他運動項目一般允許"
+      "note": "射箭（WA）、射擊（ISSF／IPC），以及 CMAS 自由潛水、魚槍捕魚、水下標靶射擊的所有分項，賽內與賽外皆禁用；汽車運動（FIA）、撞球（WCBS）、飛鏢（WDF）、高爾夫（IGF）、迷你高爾夫（WMF）僅賽內禁用。受限情境有醫療需要須申請 TUE"
     },
     "atenolol": {
       "displayName": "Atenolol 阿替洛爾",
@@ -257,10 +257,10 @@
       "needsTUE": true,
       "tueEligible": true,
       "routes": null,
-      "sportRestricted": ["射箭", "射擊", "高爾夫", "飛鏢", "撞球", "汽車運動", "水下運動", "滑雪／雪板（部分項目）"],
-      "sportRestrictedOutOfComp": ["射箭", "射擊"],
+      "sportRestricted": ["射箭", "射擊", "高爾夫", "迷你高爾夫", "飛鏢", "撞球", "汽車運動", "自由潛水（CMAS）", "魚槍捕魚（CMAS）", "水下標靶射擊（CMAS）"],
+      "sportRestrictedOutOfComp": ["射箭", "射擊", "自由潛水（CMAS）", "魚槍捕魚（CMAS）", "水下標靶射擊（CMAS）"],
       "washout": null,
-      "note": "僅在特定精準運動項目賽內禁用（射箭、射擊亦賽外禁用）；於這些項目若有醫療需要須申請 TUE，其他運動項目一般允許"
+      "note": "射箭（WA）、射擊（ISSF／IPC），以及 CMAS 自由潛水、魚槍捕魚、水下標靶射擊的所有分項，賽內與賽外皆禁用；汽車運動（FIA）、撞球（WCBS）、飛鏢（WDF）、高爾夫（IGF）、迷你高爾夫（WMF）僅賽內禁用。受限情境有醫療需要須申請 TUE"
     },
     "furosemide": {
       "displayName": "Furosemide 呋塞米",
@@ -343,8 +343,8 @@
         "topical": { "status": "permitted", "note": "皮膚／鼻／眼等局部途徑允許" }
       },
       "sportRestricted": null,
-      "washout": "口服／直腸約 3 天、肌肉注射約 10 天（依 WADA 糖皮質激素清除期指引）",
-      "note": "僅賽內禁用（口服、直腸及注射含關節內／肌腱周圍／肌肉／靜脈）；賽外任何途徑不禁、不需 TUE；賽內全身性使用須 TUE，washout 依途徑：口服／直腸約 3 天、肌注約 10 天"
+      "washout": "自最後一劑至賽內期間開始：口服／直腸至少 3 天，肌肉或局部注射至少 10 天；緩釋製劑可能超過此時間，並非保證不會驗出（WADA 2025 年 9 月指引）",
+      "note": "賽內口服、直腸及所有注射途徑（含關節內／肌腱周圍／肌肉／靜脈）禁用，醫療需要須 TUE；吸入／鼻／眼／皮膚等途徑按核准劑量與適應症使用時允許。賽外使用不禁，但可能在賽內檢體留下殘留而出現不利分析結果，必要時須申請回溯 TUE；應保留診療紀錄，清除期不是檢測陰性的保證"
     },
     "dexamethasone": {
       "displayName": "Dexamethasone 地塞米松",
@@ -362,8 +362,8 @@
         "topical": { "status": "permitted", "note": "鼻／眼／皮膚等局部途徑允許" }
       },
       "sportRestricted": null,
-      "washout": "口服／直腸約 3 天、肌肉注射約 5 天（依 WADA 糖皮質激素清除期指引）",
-      "note": "僅賽內禁用（口服、直腸及注射，含關節內／肌腱周圍／肌肉／靜脈）；吸入／鼻／眼／皮膚等局部途徑允許；賽外不禁；賽內使用須 TUE"
+      "washout": "自最後一劑至賽內期間開始：口服／直腸或局部注射至少 3 天，肌肉注射至少 5 天；緩釋製劑可能超過此時間，並非保證不會驗出（WADA 2025 年 9 月指引）",
+      "note": "賽內口服、直腸及所有注射途徑（含關節內／肌腱周圍／肌肉／靜脈）禁用，醫療需要須 TUE；吸入／鼻／眼／皮膚等途徑按核准劑量與適應症使用時允許。賽外使用不禁，但可能在賽內檢體留下殘留而出現不利分析結果，必要時須申請回溯 TUE；應保留診療紀錄"
     },
     "hydrocortisone": {
       "displayName": "Hydrocortisone 氫化可體松",
@@ -381,8 +381,8 @@
         "topical": { "status": "permitted", "note": "鼻／眼／皮膚等局部途徑允許" }
       },
       "sportRestricted": null,
-      "washout": "口服／直腸約 3 天（依 WADA 糖皮質激素清除期指引；其餘途徑另計）",
-      "note": "僅賽內禁用（口服、直腸及注射，含關節內／肌腱周圍／肌肉／靜脈）；吸入／鼻／眼／皮膚等局部途徑允許；賽外不禁"
+      "washout": "自最後一劑至賽內期間開始：口服／直腸至少 3 天；其餘途徑須另查指引，緩釋製劑可能超過表列時間，並非保證不會驗出（WADA 2025 年 9 月指引）",
+      "note": "賽內口服、直腸及所有注射途徑（含關節內／肌腱周圍／肌肉／靜脈）禁用，醫療需要須 TUE；吸入／鼻／眼／皮膚等途徑按核准劑量與適應症使用時允許。賽外使用不禁，但可能在賽內檢體留下殘留而出現不利分析結果，必要時須申請回溯 TUE；應保留診療紀錄"
     },
     "testosterone": {
       "displayName": "Testosterone 睪固酮",
@@ -390,12 +390,12 @@
       "wadaCode": "S1",
       "categoryLabel": "S1: 合成代謝劑",
       "prohibition": "in-and-out",
-      "needsTUE": false,
-      "tueEligible": false,
+      "needsTUE": true,
+      "tueEligible": true,
       "routes": null,
       "sportRestricted": null,
       "washout": null,
-      "note": "全時段禁用；因難以符合 TUE 核准條件，實務上極少獲准（男性性腺功能低下等情況需嚴格審查）"
+      "note": "全時段禁用；有醫療需要可依 WADA 指引申請 TUE，須由醫師評估並由 TUEC 個案審查，並非自動核准。2026 男性性腺功能低下指引涵蓋器質性病因，另列體質性青春期延遲的特殊情況；單純功能性低睪固酮不符合該指引的核准條件"
     },
     "nandrolone": {
       "displayName": "Nandrolone 諾龍",

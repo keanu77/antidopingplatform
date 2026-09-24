@@ -1,0 +1,251 @@
+{
+  "cases": [
+    {
+      "id": "aiu-5f4a21c5bb08",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-d4fc52f4a8e190b7",
+        "registry-24dd56839a4fc0e7"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-d4fc52f4a8e190b7",
+          "startLine": 1,
+          "endLine": 12,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "Roman Kokoshko 為烏克蘭鉛球選手"
+        },
+        {
+          "documentId": "doc-d4fc52f4a8e190b7",
+          "startLine": 75,
+          "endLine": 82,
+          "supports": [
+            "event"
+          ],
+          "note": "確認於2024年1月1日、5月2日及10月29日累積三次行蹤違規"
+        },
+        {
+          "documentId": "doc-d4fc52f4a8e190b7",
+          "startLine": 343,
+          "endLine": 358,
+          "supports": [
+            "event",
+            "education"
+          ],
+          "note": "考量烏克蘭戰事情境與首次納入名單等過失程度，AIU判定適用22個月禁賽"
+        },
+        {
+          "documentId": "doc-d4fc52f4a8e190b7",
+          "startLine": 365,
+          "endLine": 382,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "自2024年12月20日起禁賽22個月，並取消2024年10月29日起之所有成績與獎牌"
+        },
+        {
+          "documentId": "registry-24dd56839a4fc0e7",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "官方名冊紀錄烏克蘭選手行蹤違規處以22個月禁賽並取消成績"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "aiu-0ddb7eb4095a",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-f037dc20788de33b",
+        "registry-8300b567fd894a7a"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-f037dc20788de33b",
+          "startLine": 1,
+          "endLine": 12,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "Daniel Do Nascimento 為巴西路跑選手"
+        },
+        {
+          "documentId": "doc-f037dc20788de33b",
+          "startLine": 55,
+          "endLine": 85,
+          "supports": [
+            "event",
+            "substance"
+          ],
+          "note": "2024年7月4日檢體驗出三種同化類固醇，7月7日檢體亦檢出其中兩種物質"
+        },
+        {
+          "documentId": "doc-f037dc20788de33b",
+          "startLine": 123,
+          "endLine": 125,
+          "supports": [
+            "event",
+            "education"
+          ],
+          "note": "巴西反禁藥機構將首次檢驗結果移交AIU合併處理，不作為累犯認定"
+        },
+        {
+          "documentId": "doc-f037dc20788de33b",
+          "startLine": 252,
+          "endLine": 302,
+          "supports": [
+            "sanction",
+            "education"
+          ],
+          "note": "使用多種物質構成加重情節處6年，因及早承認與接受處分依規定減免1年至5年"
+        },
+        {
+          "documentId": "doc-f037dc20788de33b",
+          "startLine": 309,
+          "endLine": 320,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "自2024年7月15日起禁賽5年，並取消2024年7月4日起的所有成績與獎項"
+        },
+        {
+          "documentId": "registry-8300b567fd894a7a",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "官方名冊登載巴西選手檢出三種物質處以5年禁賽並取消成績"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "aiu-fc3d628c829c",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-44656b0aa88bec87",
+        "registry-f6cb0e4a09ac31e7"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-44656b0aa88bec87",
+          "startLine": 1,
+          "endLine": 12,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "Brian Kipsang 為肯亞路跑選手"
+        },
+        {
+          "documentId": "doc-44656b0aa88bec87",
+          "startLine": 55,
+          "endLine": 60,
+          "supports": [
+            "event",
+            "substance"
+          ],
+          "note": "2025年3月16日羅馬賽內檢體驗出曲安奈德 (Triamcinolone acetonide)"
+        },
+        {
+          "documentId": "doc-44656b0aa88bec87",
+          "startLine": 82,
+          "endLine": 90,
+          "supports": [
+            "event",
+            "education"
+          ],
+          "note": "選手未依限要求B瓶分析視同放棄，並於2025年5月1日簽署承認違規與接受後果"
+        },
+        {
+          "documentId": "doc-44656b0aa88bec87",
+          "startLine": 114,
+          "endLine": 122,
+          "supports": [
+            "substance",
+            "sanction"
+          ],
+          "note": "曲安奈德屬S9糖皮質類固醇特定物質，無蓄意證據處以標準2年禁賽"
+        },
+        {
+          "documentId": "doc-44656b0aa88bec87",
+          "startLine": 128,
+          "endLine": 132,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "禁賽期自簽署接受之2025年5月1日起算2年，並取消2025年3月16日起之成績"
+        },
+        {
+          "documentId": "registry-f6cb0e4a09ac31e7",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "官方名冊登載肯亞選手檢出曲安奈德自2025年5月1日起禁賽2年"
+        }
+      ],
+      "findings": []
+    }
+  ]
+}

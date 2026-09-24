@@ -1,0 +1,313 @@
+{
+  "cases": [
+    {
+      "id": "aiu-28bc02b13e2c",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-eee6fc4d891a7df8",
+        "registry-3797632aa72665c6"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-eee6fc4d891a7df8",
+          "startLine": 18,
+          "endLine": 18,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "文件確認她是來自肯亞的馬拉松選手。"
+        },
+        {
+          "documentId": "doc-eee6fc4d891a7df8",
+          "startLine": 50,
+          "endLine": 51,
+          "supports": [
+            "event",
+            "dates"
+          ],
+          "note": "2023年11月3日在肯亞伊滕提供賽外尿液樣本。"
+        },
+        {
+          "documentId": "doc-eee6fc4d891a7df8",
+          "startLine": 66,
+          "endLine": 69,
+          "supports": [
+            "substance"
+          ],
+          "note": "檢驗發現 recombinant EPO。"
+        },
+        {
+          "documentId": "doc-eee6fc4d891a7df8",
+          "startLine": 91,
+          "endLine": 92,
+          "supports": [
+            "sanction",
+            "education"
+          ],
+          "note": "她簽署承認違規及接受後果的表格。"
+        },
+        {
+          "documentId": "doc-eee6fc4d891a7df8",
+          "startLine": 111,
+          "endLine": 113,
+          "supports": [
+            "substance",
+            "education"
+          ],
+          "note": "EPO 屬2023年清單 S2，為任何時候禁用的非特定物質。"
+        },
+        {
+          "documentId": "doc-eee6fc4d891a7df8",
+          "startLine": 163,
+          "endLine": 168,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "禁賽三年自暫時禁賽日2023年12月4日起；取消自11月3日起的成績及相關後果。"
+        },
+        {
+          "documentId": "registry-3797632aa72665c6",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊列出肯亞代碼、三年禁賽起日及取消成績起日。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "aiu-d5a54df0bdcb",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-0403475031379c52",
+        "registry-c4f0f916f831c713"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-0403475031379c52",
+          "startLine": 18,
+          "endLine": 18,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "文件確認他是來自肯亞的馬拉松選手。"
+        },
+        {
+          "documentId": "doc-0403475031379c52",
+          "startLine": 50,
+          "endLine": 51,
+          "supports": [
+            "event",
+            "dates"
+          ],
+          "note": "2023年9月10日在塔林馬拉松賽中提供尿液樣本。"
+        },
+        {
+          "documentId": "doc-0403475031379c52",
+          "startLine": 66,
+          "endLine": 69,
+          "supports": [
+            "substance"
+          ],
+          "note": "樣本檢出外源性 norandrosterone。"
+        },
+        {
+          "documentId": "doc-0403475031379c52",
+          "startLine": 97,
+          "endLine": 99,
+          "supports": [
+            "education"
+          ],
+          "note": "使用止痛藥治療腿後肌傷是選手的說法，並稱不知藥物含禁用物質。"
+        },
+        {
+          "documentId": "doc-0403475031379c52",
+          "startLine": 145,
+          "endLine": 147,
+          "supports": [
+            "substance",
+            "education"
+          ],
+          "note": "外源性 norandrosterone 屬2023年清單 S1.1，為任何時候禁用的非特定物質。"
+        },
+        {
+          "documentId": "doc-0403475031379c52",
+          "startLine": 191,
+          "endLine": 196,
+          "supports": [
+            "sanction",
+            "education"
+          ],
+          "note": "他簽署承認違規並接受後果，適用及早承認減一年。"
+        },
+        {
+          "documentId": "doc-0403475031379c52",
+          "startLine": 203,
+          "endLine": 208,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "禁賽三年自2023年11月3日起；取消自9月10日起成績及相關後果。"
+        },
+        {
+          "documentId": "registry-c4f0f916f831c713",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊列出肯亞代碼、三年禁賽起日及取消成績起日。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "aiu-f462aefdfa47",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-8f2901db77d90c96",
+        "registry-04faee55fc8e9e9a"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-8f2901db77d90c96",
+          "startLine": 18,
+          "endLine": 18,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "文件確認 Samir Jouaher 為摩洛哥中距離選手。"
+        },
+        {
+          "documentId": "doc-8f2901db77d90c96",
+          "startLine": 42,
+          "endLine": 50,
+          "supports": [
+            "event",
+            "dates"
+          ],
+          "note": "2022年5月15日 Marrakech 馬拉松尿樣及11月19日 Abu Dhabi 10公里賽血樣。"
+        },
+        {
+          "documentId": "doc-8f2901db77d90c96",
+          "startLine": 68,
+          "endLine": 85,
+          "supports": [
+            "event",
+            "substance",
+            "dates"
+          ],
+          "note": "前兩份樣本報告 CERA 與 EPO；2023年2月11日 Riyadh 賽尿樣後也報告 EPO。"
+        },
+        {
+          "documentId": "doc-8f2901db77d90c96",
+          "startLine": 97,
+          "endLine": 108,
+          "supports": [
+            "sanction",
+            "education"
+          ],
+          "note": "審查稱無能涵蓋 EPO 或 CERA 的 TUE。"
+        },
+        {
+          "documentId": "doc-8f2901db77d90c96",
+          "startLine": 164,
+          "endLine": 177,
+          "supports": [
+            "education"
+          ],
+          "note": "他曾提交醫療文件並請求聽證，AIU認為文件日期不能解釋異常結果。"
+        },
+        {
+          "documentId": "doc-8f2901db77d90c96",
+          "startLine": 208,
+          "endLine": 211,
+          "supports": [
+            "sanction",
+            "education"
+          ],
+          "note": "2023年12月5日撤回聽證請求、承認違規並接受所列後果。"
+        },
+        {
+          "documentId": "doc-8f2901db77d90c96",
+          "startLine": 324,
+          "endLine": 343,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "決定以多次及多種物質的加重情節判六年；自決定日起計並折抵自2023年3月14日起暫時禁賽，取消自2022年5月15日起成績。"
+        },
+        {
+          "documentId": "doc-8f2901db77d90c96",
+          "startLine": 364,
+          "endLine": 364,
+          "supports": [
+            "dates"
+          ],
+          "note": "決定日期為2023年12月14日。"
+        },
+        {
+          "documentId": "registry-04faee55fc8e9e9a",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊列出 MAR 代碼、六年禁賽起日及取消成績起日。"
+        }
+      ],
+      "findings": []
+    }
+  ]
+}

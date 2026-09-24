@@ -1,0 +1,508 @@
+{
+  "cases": [
+    {
+      "id": "usada-03cbaa641dbb",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-0e649d419159ab40",
+        "registry-f35efa6f6443a94d"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-0e649d419159ab40",
+          "startLine": 7,
+          "endLine": 11,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "DesChamps 因12個月內累積3次行蹤申報失誤接受14個月禁賽，自2024年1月24日復出日起算並取消相關成績"
+        },
+        {
+          "documentId": "registry-f35efa6f6443a94d",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction"
+          ],
+          "note": "官方處分名冊登載自由車選手 DesChamps 處以14個月禁賽及取消成績"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "美國",
+          "explanation": "官方來源僅於標題載明「U.S. Cycling Athlete」並提及居住於德州，依規範發布機構管轄權、居住地或新聞標題不能單獨作為國籍或體育代表隊之充分依據，證據不足以確立國籍。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-0e649d419159ab40",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "將國籍標註為待確認或補充代表美國之官方運動代表資格佐證。"
+        }
+      ]
+    },
+    {
+      "id": "usada-42343d04a699",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-feae9535c7883d33",
+        "registry-75009cdd277a8bed"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-feae9535c7883d33",
+          "startLine": 7,
+          "endLine": 12,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "Kirby 於全美錦標賽檢體驗出合成睪固酮並承認使用 oxandrolone，因及早承認獲一年減免處以三年禁賽"
+        },
+        {
+          "documentId": "registry-75009cdd277a8bed",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction"
+          ],
+          "note": "處分名冊載明舉重選手 Kirby 因 Testosterone 與 Oxandrolone 處以3年禁賽與取消成績"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "美國",
+          "explanation": "官方公告僅有「U.S. Weightlifting Athlete」標題、科羅拉多州居住地及全美錦標賽參賽紀錄，不足以直接確立體育代表國籍或公民身分。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-feae9535c7883d33",
+              "startLine": 1,
+              "endLine": 8
+            }
+          ],
+          "suggestion": "將國籍狀態列為待確認或補充運動員所屬代表國家之證明文件。"
+        }
+      ]
+    },
+    {
+      "id": "usada-7da5b8af5ba7",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-61405baa368f0cc3",
+        "registry-0db96c201cb72622"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-61405baa368f0cc3",
+          "startLine": 7,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "Sundeen 於賽內檢體驗出 ritalinic acid，雖有醫囑但 TUE 申請遭拒，處以六個月禁賽及取消成績"
+        },
+        {
+          "documentId": "registry-0db96c201cb72622",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction"
+          ],
+          "note": "名冊載明曲棍球選手 Sundeen 因 Ritalinic Acid 接受6個月禁賽及取消成績"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "美國",
+          "explanation": "來源僅有標題「U.S. Field Hockey Athlete」與加州居住地，依標準不足以充分證明國籍或代表國家。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-61405baa368f0cc3",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "將國籍標註為待確認或補充代表國家隊參賽資格證明。"
+        }
+      ]
+    },
+    {
+      "id": "usada-8091f0d610a6",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-86e34ef8e6337e86",
+        "registry-ad672b6af6d5a1bf"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-86e34ef8e6337e86",
+          "startLine": 7,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "Pfuhler 賽內檢體確認外源性合成代謝劑且無有效 TUE，處以兩年禁賽並取消相關競賽成績"
+        },
+        {
+          "documentId": "registry-ad672b6af6d5a1bf",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction"
+          ],
+          "note": "名冊記錄自行車選手 Pfuhler 處以2年禁賽與取消成績，並註記因退休暫停執行"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "美國",
+          "explanation": "來源僅於新聞標題標記「U.S. Cycling Athlete」，內文未具體載明公民國籍或代表國家，證據不足以確立國籍。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-86e34ef8e6337e86",
+              "startLine": 1,
+              "endLine": 1
+            }
+          ],
+          "suggestion": "將國籍列為待確認或補足所屬體育代表國家的依據。"
+        }
+      ]
+    },
+    {
+      "id": "usada-18da72e16a59",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-2be91821baeeb17e",
+        "registry-784c23f2762693e5"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-2be91821baeeb17e",
+          "startLine": 7,
+          "endLine": 8,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "Park 因未事先取得 TUE 使用 chlorthalidone 接受公開警告，賽外檢測無成績需取消"
+        },
+        {
+          "documentId": "registry-784c23f2762693e5",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction"
+          ],
+          "note": "名冊確認舉重選手 Park 違規物質為 Chlorthalidone，處分為 Public Warning"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "美國",
+          "explanation": "僅有標題「U.S. Weightlifting Athlete」及居住賓州資訊，未有明確國籍或代表國家身分之實質記錄。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-2be91821baeeb17e",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "將國籍調整為待確認或補充運動員所屬代表國家之證明。"
+        }
+      ]
+    },
+    {
+      "id": "usada-da041cee5592",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-020540a31c5d6f41",
+        "registry-42fc0df02b374b7f"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-020540a31c5d6f41",
+          "startLine": 7,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "Frey 在紀錄認證採樣中拒絕受檢，適用休閒運動員規定接受兩年禁賽並取消成績"
+        },
+        {
+          "documentId": "registry-42fc0df02b374b7f",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction"
+          ],
+          "note": "名冊記錄自行車選手 Frey 因拒絕提供檢體處以2年禁賽與取消成績"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "美國",
+          "explanation": "來源僅有標題「U.S. Cycling Athlete」與新墨西哥州居住地，不足以直接確立選手之國籍或代表國家。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-020540a31c5d6f41",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "將國籍狀態調整為待確認或補充具代表性的官方資格證明。"
+        }
+      ]
+    },
+    {
+      "id": "usada-cbf0f5afcf61",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-49ba8a1e4794d7b9",
+        "registry-7c2edbf2c061646f"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-49ba8a1e4794d7b9",
+          "startLine": 7,
+          "endLine": 12,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "Forrest 檢體檢出 boldenone 等多種合成代謝劑與外源性睪固酮，因及早承認獲一年減免接受三年禁賽"
+        },
+        {
+          "documentId": "registry-7c2edbf2c061646f",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction"
+          ],
+          "note": "名冊載明舉重選手 Forrest 檢出多種同化類固醇處以3年禁賽與取消成績"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "美國",
+          "explanation": "公告僅見標題「U.S. Weightlifting Athlete」及北卡羅來納州居住地，欠缺運動代表國籍或公民身分之直接證明。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-49ba8a1e4794d7b9",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "標註國籍待確認或補充代表國資格依據。"
+        }
+      ]
+    },
+    {
+      "id": "usada-e13aa658e684",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-b85887a97d3134e3",
+        "registry-e1bc65311d5c00ae"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-b85887a97d3134e3",
+          "startLine": 7,
+          "endLine": 11,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "Cutro-Kelly 賽外檢體檢出 DHEA，因使用補充品前未核實禁用成分接受兩年禁賽"
+        },
+        {
+          "documentId": "registry-e1bc65311d5c00ae",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction"
+          ],
+          "note": "名冊載明柔道選手 Cutro-Kelly 因同化類固醇處以2年禁賽與取消成績"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "美國",
+          "explanation": "文章標題雖提及「U.S. Judo Athlete」且居於德州，但依規定不得僅憑標題與居住地推斷國籍，證據不足以確立。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-b85887a97d3134e3",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "將國籍標記為待確認或提供其所代表國家之正式記錄。"
+        }
+      ]
+    }
+  ]
+}

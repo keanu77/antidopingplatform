@@ -1,0 +1,229 @@
+{
+  "cases": [
+    {
+      "id": "aiu-4117ae6a5114",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-009143a693066337",
+        "registry-3e685d0d3482ea2d"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-009143a693066337",
+          "startLine": 12,
+          "endLine": 12,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "決定書確認姓名及坦尚尼亞背景。"
+        },
+        {
+          "documentId": "doc-009143a693066337",
+          "startLine": 55,
+          "endLine": 73,
+          "supports": [
+            "event",
+            "substance"
+          ],
+          "note": "列出首兩份樣本日期、地點及外源性睪固酮代謝物結果。"
+        },
+        {
+          "documentId": "doc-009143a693066337",
+          "startLine": 139,
+          "endLine": 153,
+          "supports": [
+            "event",
+            "substance"
+          ],
+          "note": "另兩份樣本分別於2024及2025年採集，亦有相關代謝物結果。"
+        },
+        {
+          "documentId": "doc-009143a693066337",
+          "startLine": 242,
+          "endLine": 245,
+          "supports": [
+            "substance"
+          ],
+          "note": "說明代謝物與睪固酮的關係及禁用清單分類。"
+        },
+        {
+          "documentId": "doc-009143a693066337",
+          "startLine": 277,
+          "endLine": 287,
+          "supports": [
+            "sanction"
+          ],
+          "note": "裁決跨十二個月違規連續執行，基礎合計八年。"
+        },
+        {
+          "documentId": "doc-009143a693066337",
+          "startLine": 332,
+          "endLine": 341,
+          "supports": [
+            "sanction",
+            "education"
+          ],
+          "note": "以多次違規認定加重情節，追加兩年；未證明非故意。"
+        },
+        {
+          "documentId": "doc-009143a693066337",
+          "startLine": 206,
+          "endLine": 222,
+          "supports": [
+            "education",
+            "sanction"
+          ],
+          "note": "未回覆指控後被視為放棄聽證、承認違規並接受後果。"
+        },
+        {
+          "documentId": "doc-009143a693066337",
+          "startLine": 347,
+          "endLine": 352,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "十年自2025年9月17日起，2024年6月29日起成績取消並含相關後果。"
+        },
+        {
+          "documentId": "registry-3e685d0d3482ea2d",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "country",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊列坦尚尼亞代表、十年禁賽起日及取消成績起日。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "aiu-25538d1692b0",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-e59c5f178db1ef31",
+        "registry-b7d5ff508f358a5b"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-e59c5f178db1ef31",
+          "startLine": 13,
+          "endLine": 13,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "決定書確認姓名及印度背景。"
+        },
+        {
+          "documentId": "doc-e59c5f178db1ef31",
+          "startLine": 74,
+          "endLine": 91,
+          "supports": [
+            "event",
+            "substance"
+          ],
+          "note": "列出4月30日樣本後續分析及5月10日樣本的司坦唑醇代謝物結果與分類。"
+        },
+        {
+          "documentId": "doc-e59c5f178db1ef31",
+          "startLine": 223,
+          "endLine": 225,
+          "supports": [
+            "education"
+          ],
+          "note": "AIU另取密封產品的批號與當事人產品批號不同。"
+        },
+        {
+          "documentId": "doc-e59c5f178db1ef31",
+          "startLine": 276,
+          "endLine": 280,
+          "supports": [
+            "education",
+            "substance"
+          ],
+          "note": "當事人交回的未密封產品檢出司坦唑醇，另取密封產品未檢出。"
+        },
+        {
+          "documentId": "doc-e59c5f178db1ef31",
+          "startLine": 310,
+          "endLine": 343,
+          "supports": [
+            "education",
+            "sanction"
+          ],
+          "note": "污染產品抗辯未獲接受，後來簽署承認違規及接受後果文件。"
+        },
+        {
+          "documentId": "doc-e59c5f178db1ef31",
+          "startLine": 397,
+          "endLine": 415,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "及早承認減一年，三年自暫時停賽日起算，並自4月30日起取消個人成績。"
+        },
+        {
+          "documentId": "doc-e59c5f178db1ef31",
+          "startLine": 421,
+          "endLine": 425,
+          "supports": [
+            "outcomes"
+          ],
+          "note": "規定同期所屬接力隊相關成績亦取消。"
+        },
+        {
+          "documentId": "doc-e59c5f178db1ef31",
+          "startLine": 317,
+          "endLine": 319,
+          "supports": [
+            "education"
+          ],
+          "note": "裁決保留提出竄改等進一步違規及追加後果的權利，未在此認定竄改成立。"
+        },
+        {
+          "documentId": "registry-b7d5ff508f358a5b",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "country",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊列印度代表、三年禁賽起日及取消成績起日。"
+        }
+      ],
+      "findings": []
+    }
+  ]
+}

@@ -1,0 +1,166 @@
+{
+  "cases": [
+    {
+      "id": "aiu-edc5ff29ebf6",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-bfd4375fd55d153f",
+        "registry-5c3e596e04df5346"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-bfd4375fd55d153f",
+          "startLine": 1,
+          "endLine": 12,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "確定運動員為肯亞長跑選手 Brian Limo"
+        },
+        {
+          "documentId": "doc-bfd4375fd55d153f",
+          "startLine": 60,
+          "endLine": 65,
+          "supports": [
+            "event",
+            "substance"
+          ],
+          "note": "2025-04-05 Drammen 賽事檢體檢出 salbutamol 超過 1000 ng/mL"
+        },
+        {
+          "documentId": "doc-bfd4375fd55d153f",
+          "startLine": 133,
+          "endLine": 154,
+          "supports": [
+            "event",
+            "substance"
+          ],
+          "note": "運動員承認提出虛假就醫及處方文件構成第 2.5 條篡改違規"
+        },
+        {
+          "documentId": "doc-bfd4375fd55d153f",
+          "startLine": 257,
+          "endLine": 305,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "物質違規2年與篡改4年合併連續執行為6年，及早承認減免1年為5年，自2025-11-25起算並取消自2025-04-05起成績"
+        },
+        {
+          "documentId": "registry-5c3e596e04df5346",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "AIU 官方名冊登記 Brian Limo (KEN) 遭判處5年禁賽及取消成績處分"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "aiu-6b05a65fa97e",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-dbec7380b6eede2a",
+        "registry-43677d7eaad50008"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-dbec7380b6eede2a",
+          "startLine": 1,
+          "endLine": 12,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "確定運動員為烏干達路跑選手 Mercyline Chelangat"
+        },
+        {
+          "documentId": "doc-dbec7380b6eede2a",
+          "startLine": 55,
+          "endLine": 73,
+          "supports": [
+            "event",
+            "substance"
+          ],
+          "note": "2025-08-13 與 2025-09-14 採集之檢體均呈現外源性睪固酮陽性反應"
+        },
+        {
+          "documentId": "doc-dbec7380b6eede2a",
+          "startLine": 298,
+          "endLine": 310,
+          "supports": [
+            "event",
+            "substance",
+            "sanction"
+          ],
+          "note": "檢出睪固酮及承認使用 clomiphene 構成多次及多種物質加重情節，標準處分提高至6年"
+        },
+        {
+          "documentId": "doc-dbec7380b6eede2a",
+          "startLine": 336,
+          "endLine": 354,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "及早承認處分減免1年為5年，自2025-10-10起算並取消自2025-08-13起之成績"
+        },
+        {
+          "documentId": "doc-dbec7380b6eede2a",
+          "startLine": 144,
+          "endLine": 175,
+          "supports": [
+            "education"
+          ],
+          "note": "醫療文件記錄之藥物均不含睪固酮，且 clomiphene 係依運動員承認使用認定"
+        },
+        {
+          "documentId": "registry-43677d7eaad50008",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "AIU 官方名冊登記 Mercyline Chelangat (UGA) 遭處5年禁賽及取消成績處分"
+        }
+      ],
+      "findings": []
+    }
+  ]
+}

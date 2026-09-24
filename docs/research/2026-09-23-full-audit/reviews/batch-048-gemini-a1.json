@@ -1,0 +1,248 @@
+{
+  "cases": [
+    {
+      "id": "aiu-0640a36be24f",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-bd69fb733165d4af",
+        "registry-e45986abe18a1d0e"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-bd69fb733165d4af",
+          "startLine": 6,
+          "endLine": 15,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "確認運動員為代表玻利維亞之女子路跑選手 Helen Daniela Baltazar。"
+        },
+        {
+          "documentId": "doc-bd69fb733165d4af",
+          "startLine": 49,
+          "endLine": 56,
+          "supports": [
+            "event",
+            "substance"
+          ],
+          "note": "2024年4月7日聖保羅馬拉松賽內樣本檢出 Oxandrolone 及 Stanozolol。"
+        },
+        {
+          "documentId": "doc-bd69fb733165d4af",
+          "startLine": 143,
+          "endLine": 165,
+          "supports": [
+            "sanction",
+            "education"
+          ],
+          "note": "多種禁用物質構成加重情節基礎處分六年，及早承認獲一年減免。"
+        },
+        {
+          "documentId": "doc-bd69fb733165d4af",
+          "startLine": 190,
+          "endLine": 194,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "自2024年5月13日起禁賽五年，取消2024年4月7日起所有競賽成績與沒收獎牌。"
+        },
+        {
+          "documentId": "registry-e45986abe18a1d0e",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "官方註冊名冊登載5年禁賽處分、生效日與成績取消範圍。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "aiu-4f2d1634e1c2",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-618ca10347d296ac",
+        "registry-6de836b303183566"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-618ca10347d296ac",
+          "startLine": 6,
+          "endLine": 15,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "確認運動員為肯亞馬拉松選手 Beatrice Toroitich。"
+        },
+        {
+          "documentId": "doc-618ca10347d296ac",
+          "startLine": 34,
+          "endLine": 50,
+          "supports": [
+            "event",
+            "substance",
+            "dates"
+          ],
+          "note": "2022年11月20日坎帕拉馬拉松檢體檢出 19-NA 與 19-NE。"
+        },
+        {
+          "documentId": "doc-618ca10347d296ac",
+          "startLine": 74,
+          "endLine": 80,
+          "supports": [
+            "event",
+            "substance",
+            "dates"
+          ],
+          "note": "2023年10月8日索菲亞馬拉松檢體檢出 Clomifene、Canrenone 及 19-NA。"
+        },
+        {
+          "documentId": "doc-618ca10347d296ac",
+          "startLine": 120,
+          "endLine": 125,
+          "supports": [
+            "event",
+            "substance",
+            "dates"
+          ],
+          "note": "2023年11月16日賽外檢體再檢出 Clomifene 及 19-NA。"
+        },
+        {
+          "documentId": "doc-618ca10347d296ac",
+          "startLine": 214,
+          "endLine": 238,
+          "supports": [
+            "event",
+            "sanction",
+            "education"
+          ],
+          "note": "前兩樣本依規則合併為第二次違規，通知後採集之第三樣本構成第三次違規。"
+        },
+        {
+          "documentId": "doc-618ca10347d296ac",
+          "startLine": 257,
+          "endLine": 261,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "裁定自2023年11月22日起終身禁賽，取消自2022年11月20日起之成績與獎牌。"
+        },
+        {
+          "documentId": "registry-6de836b303183566",
+          "startLine": 1,
+          "endLine": 2,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊登記第二與第三次違規、終身禁賽及成績取消日期。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "aiu-c7469bd46410",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-292e962d61702ceb",
+        "registry-2a9a66a09b2e9ee1"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-292e962d61702ceb",
+          "startLine": 6,
+          "endLine": 15,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "確認運動員為肯亞馬拉松選手 Sophy Jepchirchir。"
+        },
+        {
+          "documentId": "doc-292e962d61702ceb",
+          "startLine": 49,
+          "endLine": 55,
+          "supports": [
+            "event",
+            "substance",
+            "dates"
+          ],
+          "note": "2024年4月7日米蘭馬拉松檢體檢出外源性睪固酮及其代謝物。"
+        },
+        {
+          "documentId": "doc-292e962d61702ceb",
+          "startLine": 138,
+          "endLine": 148,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "承認違規獲減免一年，處自2024年6月7日起禁賽三年並取消2024年4月7日起成績。"
+        },
+        {
+          "documentId": "registry-2a9a66a09b2e9ee1",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊記錄外源性睪固酮違規、三年禁賽自2024年6月7日生效及成績取消。"
+        }
+      ],
+      "findings": []
+    }
+  ]
+}

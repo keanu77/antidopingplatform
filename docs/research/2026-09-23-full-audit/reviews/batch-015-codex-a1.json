@@ -1,0 +1,319 @@
+{
+  "cases": [
+    {
+      "id": "ita-3bea7cef0331",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-66869ab21e2aa86f",
+        "registry-22292fd14a5eed15"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-66869ab21e2aa86f",
+          "startLine": 2,
+          "endLine": 4,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "sanction",
+            "dates"
+          ],
+          "note": "UCI 稱哈薩克車手 Dostiyev 因兩份樣本的 CERA 違規受四年禁賽，期間自 2024-09-09 至 2028-09-08，並接受處分。"
+        },
+        {
+          "documentId": "registry-22292fd14a5eed15",
+          "startLine": 11,
+          "endLine": 20,
+          "supports": [
+            "substance",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊列 Art. 2.1/2.2、兩個違規日期、禁賽期間及 2024-07-30 至 2024-09-09 的取消資格期間。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-b419c5a1a737",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-d95f72f0e56f9e42",
+        "registry-244a312793bca3a6"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-d95f72f0e56f9e42",
+          "startLine": 2,
+          "endLine": 6,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "ITA 稱印度拳擊手 Hooda 因十二個月內三次行蹤失誤受 22 個月禁賽至 2025-07-16，並取消 2022-12-11 至 2024-05-17 的成績。"
+        },
+        {
+          "documentId": "registry-244a312793bca3a6",
+          "startLine": 11,
+          "endLine": 22,
+          "supports": [
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊列 Art. 2.4、22 個月、禁賽期間、成績取消期間及協議處分。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-92183cbe5be3",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-bfaca5a7548575c9",
+        "registry-e0b96ef58b363dce"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-bfaca5a7548575c9",
+          "startLine": 2,
+          "endLine": 5,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "ITA 稱巴西選手 Afornali 的 2022-10-04 賽外樣本對 clomifene 呈不利分析結果，接受兩年禁賽，期間至 2024-10-03，並取消該日後取得的比賽成績。"
+        },
+        {
+          "documentId": "registry-e0b96ef58b363dce",
+          "startLine": 11,
+          "endLine": 22,
+          "supports": [
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊列 Art. 2.1、禁賽期間及成績取消期間至 2023-10-13。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-5ab80b907039",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-41aa31f829df0aed",
+        "registry-e40d0c257876af9b"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-41aa31f829df0aed",
+          "startLine": 2,
+          "endLine": 7,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction"
+          ],
+          "note": "ITA 稱前 IWF 主席 Ajan 經 CAS ADD 程序認定違反 IWF ADR 第 2.5、2.9 條並受終身禁賽；違規為結果管理竄改及共謀。"
+        },
+        {
+          "documentId": "registry-e40d0c257876af9b",
+          "startLine": 9,
+          "endLine": 22,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊列官員類別、匈牙利、舉重、2012 年 5 月違規、2022-06-16 起終身禁賽，且未列成績取消。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-9a8b5dd8e2a1",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-d995c584a4576d61",
+        "registry-8818b14551ae696e"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-d995c584a4576d61",
+          "startLine": 2,
+          "endLine": 5,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "CAS 維持葡萄牙衝浪選手 Ribeiro 因拒絕採樣構成第 2.3 條違規及三年禁賽，並維持拒檢日起至 2023-07-13 的成績取消。"
+        },
+        {
+          "documentId": "registry-8818b14551ae696e",
+          "startLine": 11,
+          "endLine": 22,
+          "supports": [
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊列第 2.3 條、違規日、禁賽期間、取消資格期間及 CAS ADD 處理方式。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "aiu-fcb63b1504c8",
+      "status": "issue",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "issue",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-e113704817d07ffc",
+        "registry-326df059e071680c"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-e113704817d07ffc",
+          "startLine": 269,
+          "endLine": 280,
+          "supports": [
+            "sanction",
+            "dates"
+          ],
+          "note": "決定記載 2026-05-06 發出指控通知，早期承認期限為 5 月 26 日。"
+        },
+        {
+          "documentId": "doc-e113704817d07ffc",
+          "startLine": 359,
+          "endLine": 377,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "決定確認七年禁賽自 2025-03-14 起，並取消 2025-03-01 起成績及相關獎牌等後果；此處另記 2025 年通知與承認日期。"
+        },
+        {
+          "documentId": "registry-326df059e071680c",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "AIU 名冊列肯亞、拒絕採樣與竄改、七年自 2025-03-14 起及自 2025-03-01 起取消成績。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "dates",
+          "kind": "contradiction",
+          "severity": "high",
+          "claim": "「後續程序提交的證明被查明不實」及「再因及早承認減為七年」的程序年序未交代",
+          "explanation": "決定正文記載 2026 年 5 月 6 日發出指控通知、5 月 20 日收到承認表（第 269–283 行），但後文第 359–361 行卻寫成 2025 年 5 月 6 日及 5 月 26 日，與前述年份矛盾。七年結果及起日有明確記載，但程序日期本身在官方文件內不一致。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-e113704817d07ffc",
+              "startLine": 269,
+              "endLine": 283
+            },
+            {
+              "documentId": "doc-e113704817d07ffc",
+              "startLine": 359,
+              "endLine": 365
+            }
+          ],
+          "suggestion": "保留官方決定明載的七年及起日；程序年份標為文件內不一致，待 AIU 澄清後再採用。"
+        }
+      ]
+    }
+  ]
+}

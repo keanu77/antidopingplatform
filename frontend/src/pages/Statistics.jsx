@@ -1,538 +1,146 @@
-import { useState, useEffect, useMemo } from "react";
-import {
-  Chart as ChartJS,
-  CategoryScale,
-  LinearScale,
-  BarElement,
-  ArcElement,
-  Title,
-  Tooltip,
-  Legend,
-} from "chart.js";
+import { useState, useEffect, useCallback } from "react";
+import { Chart as ChartJS, CategoryScale, LinearScale, BarElement, ArcElement, Title, Tooltip, Legend } from "chart.js";
 import { Bar, Doughnut } from "react-chartjs-2";
-import {
-  BarChart3,
-  PieChart,
-  TrendingUp,
-  Clock,
-  Trophy,
-  Users,
-  AlertTriangle,
-} from "lucide-react";
+import { BarChart3, AlertTriangle, ExternalLink } from "lucide-react";
 import { statsAPI } from "../services/api";
+import { majorEvents, evidenceCards } from "../data/statisticsEvidence";
 
-ChartJS.register(
-  CategoryScale,
-  LinearScale,
-  BarElement,
-  ArcElement,
-  Title,
-  Tooltip,
-  Legend,
-);
+ChartJS.register(CategoryScale, LinearScale, BarElement, ArcElement, Title, Tooltip, Legend);
+const colors = ["#2563eb", "#059669", "#9333ea", "#d97706", "#e11d48", "#0891b2", "#4f46e5", "#65a30d", "#c2410c", "#64748b"];
+const options = {
+  responsive: true,
+  maintainAspectRatio: false,
+  plugins: { legend: { display: false } },
+  scales: { y: { beginAtZero: true, ticks: { precision: 0 } } },
+};
+const chartData = (rows) => ({
+  labels: rows.map((row) => row.label),
+  datasets: [{ label: "案例數", data: rows.map((row) => row.count), backgroundColor: rows.map((_, i) => colors[i % colors.length]) }],
+});
+
+function ChartPanel({ title, note, rows, doughnut = false }) {
+  const description = rows.map((row) => `${row.label} ${row.count} 件`).join("、");
+  return <section className="min-w-0 bg-white rounded-xl border border-gray-200 p-4 sm:p-6">
+    <h2 className="text-lg font-bold text-gray-900">{title}</h2>
+    <p className="text-sm text-gray-600 mt-2 mb-4">{note}</p>
+    <div className="h-80" role="img" aria-label={`${title}：${description}`}>
+      {doughnut
+        ? <Doughnut data={chartData(rows)} options={{ responsive: true, maintainAspectRatio: false, plugins: { legend: { position: "bottom", labels: { boxWidth: 12, font: { size: 11 } } } } }} />
+        : <Bar data={chartData(rows)} options={options} />}
+    </div>
+    <details className="mt-4 text-sm">
+      <summary className="cursor-pointer text-primary-700 font-medium">查看圖表數值</summary>
+      <table className="w-full mt-3 text-left">
+        <caption className="sr-only">{title}數值表</caption>
+        <thead><tr><th scope="col" className="py-2">分類</th><th scope="col" className="py-2 text-right">案例數</th></tr></thead>
+        <tbody>{rows.map((row) => <tr key={row.label} className="border-t border-gray-100"><th scope="row" className="py-2 font-normal">{row.label}</th><td className="py-2 text-right">{row.count}</td></tr>)}</tbody>
+      </table>
+    </details>
+  </section>;
+}
 
 function Statistics() {
-  const [sportDistribution, setSportDistribution] = useState([]);
-  const [substanceDistribution, setSubstanceDistribution] = useState([]);
-  const [banDurationDistribution, setBanDurationDistribution] = useState([]);
-  const [punishmentStats, setPunishmentStats] = useState(null);
+  const [data, setData] = useState(null);
   const [loading, setLoading] = useState(true);
-  const [showTimeline, setShowTimeline] = useState(true);
   const [error, setError] = useState(null);
-
-  useEffect(() => {
-    document.title = "數據統計 | 乾淨運動從你我開始";
-    loadAllStats();
-  }, []);
-
-  const chartOptions = useMemo(
-    () => ({
-      responsive: true,
-      maintainAspectRatio: false,
-      plugins: {
-        legend: {
-          position: "bottom",
-        },
-      },
-    }),
-    [],
-  );
-
-  const loadAllStats = async () => {
+  const load = useCallback(async () => {
     setLoading(true);
+    setError(null);
     try {
-      const [sport, substance, punishment, banDuration] = await Promise.all([
-        statsAPI.getSportDistribution(),
-        statsAPI.getSubstanceDistribution(),
-        statsAPI.getPunishmentStats(),
-        statsAPI.getBanDurationDistribution(),
+      const [sport, substance, ban, yearly, review] = await Promise.all([
+        statsAPI.getSportDistribution(), statsAPI.getSubstanceDistribution(),
+        statsAPI.getBanDurationDistribution(), statsAPI.getYearlyTrends(), statsAPI.getReviewSummary(),
       ]);
+      setData({ sport: sport.data, substance: substance.data, ban: ban.data, yearly: yearly.data, review: review.data });
+    } catch {
+      setError("統計資料暫時無法載入，請重試。尚未取得的數字不會以預設值代替。");
+      setData(null);
+    } finally { setLoading(false); }
+  }, []);
+  useEffect(() => { document.title = "資料庫分析 | 乾淨運動從你我開始"; load(); }, [load]);
 
-      setSportDistribution(sport.data);
-      setSubstanceDistribution(substance.data);
-      setPunishmentStats(punishment.data);
-      setBanDurationDistribution(banDuration.data);
-    } catch (error) {
-      console.error("Failed to load statistics:", error);
-      setError("載入統計資料失敗，請稍後再試。");
-    } finally {
-      setLoading(false);
-    }
-  };
+  if (loading) return <div role="status" className="py-16 text-center text-gray-600">載入資料庫分析中…</div>;
+  if (error) return <div role="alert" className="rounded-xl border border-red-200 bg-red-50 p-6"><p>{error}</p><button onClick={load} className="mt-4 rounded-lg bg-primary-700 px-4 py-2 text-white">重新載入</button></div>;
+  const { review } = data;
+  const total = review.totalCases;
+  const sportRows = data.sport.map((row) => ({ label: row.sport, count: row.count }));
+  const substanceRows = data.substance.map((row) => ({ label: row.category, count: row.count }));
+  const sourceRows = review.sourceDistribution.map((row) => ({ label: row.source, count: row.count }));
+  const sourceLeader = sourceRows[0];
+  const countryRows = (review.countryConfirmedDistribution ?? []).map((row) => ({ label: row.country, count: row.count }));
 
-  if (loading) {
-    return (
-      <div className="flex justify-center items-center h-64">
-        <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-primary-600"></div>
+  return <div>
+    <header className="mb-8">
+      <h1 className="text-3xl font-bold text-gray-900">資料庫案例分析</h1>
+      <p className="mt-3 text-gray-600">依目前收錄資料整理事件、來源與處分分布。最新案例查核日期：{review.lastReviewedAt || "未提供"}。</p>
+      <div className="mt-4 rounded-xl border border-amber-200 bg-amber-50 p-4 text-sm text-amber-950">
+        <p className="font-semibold flex items-center gap-2"><AlertTriangle className="h-4 w-4 shrink-0" />這是教學案例集，不是禁藥盛行率調查</p>
+        <p className="mt-2">包含違規、污染、合法 TUE、未提出指控及處分撤銷等不同情境；案例數不等於違規人數。各來源公開程度及收錄策略不同，不能據此比較國家或運動項目的違規風險。</p>
       </div>
-    );
-  }
+    </header>
 
-  // Chart configurations
-  const sportDistributionData = {
-    labels: sportDistribution.map((item) => item.sport),
-    datasets: [
-      {
-        label: "案例數量",
-        data: sportDistribution.map((item) => item.count),
-        backgroundColor: [
-          "rgba(239, 68, 68, 0.8)",
-          "rgba(59, 130, 246, 0.8)",
-          "rgba(34, 197, 94, 0.8)",
-          "rgba(168, 85, 247, 0.8)",
-          "rgba(251, 146, 60, 0.8)",
-          "rgba(236, 72, 153, 0.8)",
-          "rgba(20, 184, 166, 0.8)",
-          "rgba(251, 191, 36, 0.8)",
-          "rgba(100, 116, 139, 0.8)",
-          "rgba(217, 119, 6, 0.8)",
-        ],
-      },
-    ],
-  };
-
-  const substanceDistributionData = {
-    labels: substanceDistribution.map((item) => item.category),
-    datasets: [
-      {
-        data: substanceDistribution.map((item) => item.count),
-        backgroundColor: [
-          "rgba(239, 68, 68, 0.8)",
-          "rgba(168, 85, 247, 0.8)",
-          "rgba(59, 130, 246, 0.8)",
-          "rgba(20, 184, 166, 0.8)",
-          "rgba(34, 197, 94, 0.8)",
-          "rgba(236, 72, 153, 0.8)",
-          "rgba(100, 116, 139, 0.8)",
-          "rgba(251, 146, 60, 0.8)",
-          "rgba(251, 191, 36, 0.8)",
-          "rgba(217, 119, 6, 0.8)",
-        ],
-      },
-    ],
-  };
-
-  const banDurationData = {
-    labels: banDurationDistribution.map((item) => item.category),
-    datasets: [
-      {
-        label: "案例數量",
-        data: banDurationDistribution.map((item) => item.count),
-        backgroundColor: [
-          "rgba(34, 197, 94, 0.8)", // 無處罰 - 綠色
-          "rgba(251, 191, 36, 0.8)", // 3個月內 - 黃色
-          "rgba(251, 146, 60, 0.8)", // 3-12個月 - 橘色
-          "rgba(168, 85, 247, 0.8)", // 1-2年 - 紫色
-          "rgba(59, 130, 246, 0.8)", // 2-4年 - 藍色
-          "rgba(239, 68, 68, 0.8)", // 4年以上 - 紅色
-          "rgba(75, 85, 99, 0.8)", // 終身 - 深灰色
-        ],
-        borderWidth: 1,
-        borderColor: "rgba(255, 255, 255, 1)",
-      },
-    ],
-  };
-
-  // 重大禁藥事件時間軸
-  const majorEvents = [
-    {
-      year: 1988,
-      title: "漢城奧運Ben Johnson事件",
-      description: "100公尺金牌得主被發現使用類固醇，震驚全世界",
-      impact: "奧運史上最著名的禁藥醜聞",
-      icon: Trophy,
-      color: "bg-red-500",
-    },
-    {
-      year: 1999,
-      title: "WADA成立",
-      description: "世界反禁藥機構成立，統一全球反禁藥標準",
-      impact: "現代反禁藥體系的開始",
-      icon: Users,
-      color: "bg-blue-500",
-    },
-    {
-      year: 2003,
-      title: "BALCO醜聞爆發",
-      description: "美國多名頂級運動員涉及設計類固醇THG",
-      impact: "揭露了系統性的禁藥使用網絡",
-      icon: AlertTriangle,
-      color: "bg-orange-500",
-    },
-    {
-      year: 2012,
-      title: "Lance Armstrong承認使用禁藥",
-      description: "自行車傳奇人物承認職業生涯使用EPO等禁藥",
-      impact: "7屆環法冠軍被剝奪，運動史上最大醜聞",
-      icon: Trophy,
-      color: "bg-yellow-500",
-    },
-    {
-      year: 2014,
-      title: "俄羅斯索契冬奧醜聞",
-      description: "俄羅斯被發現系統性國家層面的禁藥計畫",
-      impact: "導致俄羅斯在多屆奧運受到制裁",
-      icon: Users,
-      color: "bg-red-500",
-    },
-    {
-      year: 2016,
-      title: "Meldonium大規模檢出",
-      description: "包括Sharapova在內的多名運動員檢出新禁用藥物",
-      impact: "凸顯禁用清單更新對運動員的影響",
-      icon: AlertTriangle,
-      color: "bg-purple-500",
-    },
-    {
-      year: 2022,
-      title: "Kamila Valieva北京冬奧爭議",
-      description: "15歲花式滑冰選手的禁藥檢測引發未成年人保護討論",
-      impact: "推動對年輕運動員的保護政策改革",
-      icon: Trophy,
-      color: "bg-pink-500",
-    },
-  ];
-
-  return (
-    <div>
-      <div className="mb-8">
-        <h1 className="text-3xl font-bold text-gray-900 mb-4">
-          資料庫案例數據統計
-        </h1>
-        <p className="text-gray-600 mb-2">
-          透過數據視覺化，清晰了解運動禁藥相關案例的樣貌
-        </p>
-        {error && (
-          <div className="bg-red-50 border border-red-200 rounded-lg p-4 mb-6 flex items-center">
-            <AlertTriangle className="h-5 w-5 text-red-600 mr-2 flex-shrink-0" />
-            <p className="text-red-700">{error}</p>
-          </div>
-        )}
-        <p className="text-sm text-amber-600 bg-amber-50 border border-amber-200 rounded-lg px-4 py-2 inline-block">
-          ⚠️ 資料並非涵蓋所有案例，請以審慎態度解讀
-        </p>
-      </div>
-
-      {/* Punishment Stats Cards */}
-      {punishmentStats && (
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
-          <div className="bg-white rounded-lg shadow p-6">
-            <div className="flex items-center justify-between mb-4">
-              <h3 className="text-lg font-semibold text-gray-900">
-                獎牌被剝奪
-              </h3>
-              <div className="bg-danger-100 p-2 rounded-lg">
-                <TrendingUp className="h-5 w-5 text-danger-600" />
-              </div>
-            </div>
-            <p className="text-3xl font-bold text-danger-600">
-              {punishmentStats.medalStripped}
-            </p>
-            <p className="text-sm text-gray-500 mt-1">案例</p>
-          </div>
-          <div className="bg-white rounded-lg shadow p-6">
-            <div className="flex items-center justify-between mb-4">
-              <h3 className="text-lg font-semibold text-gray-900">
-                成績被取消
-              </h3>
-              <div className="bg-primary-100 p-2 rounded-lg">
-                <BarChart3 className="h-5 w-5 text-primary-600" />
-              </div>
-            </div>
-            <p className="text-3xl font-bold text-primary-600">
-              {punishmentStats.resultsCancelled}
-            </p>
-            <p className="text-sm text-gray-500 mt-1">案例</p>
-          </div>
-        </div>
-      )}
-
-      {/* Charts Grid */}
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
-        {/* Sport Distribution */}
-        <div className="bg-white rounded-lg shadow p-6">
-          <h2 className="text-xl font-semibold text-gray-900 mb-4 flex items-center">
-            <BarChart3 className="h-5 w-5 mr-2 text-primary-600" />
-            運動項目分布（前10名）
-          </h2>
-          <div
-            style={{ height: "350px" }}
-            role="img"
-            aria-label={`運動項目分布圖表：${sportDistribution.map((s) => `${s.sport} ${s.count}件`).join("、")}`}
-          >
-            <Bar
-              data={sportDistributionData}
-              options={{
-                ...chartOptions,
-                plugins: {
-                  ...chartOptions.plugins,
-                  legend: { display: false },
-                },
-              }}
-            />
-          </div>
-        </div>
-
-        {/* Substance Distribution */}
-        <div className="bg-white rounded-lg shadow p-6">
-          <h2 className="text-xl font-semibold text-gray-900 mb-4 flex items-center">
-            <PieChart className="h-5 w-5 mr-2 text-primary-600" />
-            WADA禁藥類型分布
-          </h2>
-          <div
-            style={{ height: "350px" }}
-            role="img"
-            aria-label={`禁藥類型分布圖表：${substanceDistribution.map((s) => `${s.category} ${s.count}件`).join("、")}`}
-          >
-            <Doughnut
-              data={substanceDistributionData}
-              options={{
-                ...chartOptions,
-                plugins: {
-                  ...chartOptions.plugins,
-                  legend: {
-                    position: "right",
-                    labels: {
-                      boxWidth: 12,
-                      padding: 10,
-                      font: {
-                        size: 11,
-                      },
-                    },
-                  },
-                },
-              }}
-            />
-          </div>
-        </div>
-
-        {/* Ban Duration Distribution */}
-        <div className="bg-white rounded-lg shadow p-6 lg:col-span-2">
-          <h2 className="text-xl font-semibold text-gray-900 mb-4 flex items-center">
-            <TrendingUp className="h-5 w-5 mr-2 text-primary-600" />
-            禁賽期限分布統計
-          </h2>
-          <div
-            style={{ height: "350px" }}
-            role="img"
-            aria-label={`禁賽期限分布圖表：${banDurationDistribution.map((s) => `${s.category} ${s.count}件(${s.percentage}%)`).join("、")}`}
-          >
-            <Bar
-              data={banDurationData}
-              options={{
-                ...chartOptions,
-                plugins: {
-                  ...chartOptions.plugins,
-                  legend: { display: false },
-                  tooltip: {
-                    callbacks: {
-                      afterLabel: function (context) {
-                        const item = banDurationDistribution[context.dataIndex];
-                        return `${item.percentage}% (${item.count}/${banDurationDistribution.reduce((a, b) => a + b.count, 0)} 案例)`;
-                      },
-                    },
-                  },
-                },
-                scales: {
-                  x: {
-                    grid: {
-                      display: false,
-                    },
-                  },
-                  y: {
-                    beginAtZero: true,
-                    ticks: {
-                      stepSize: 5,
-                    },
-                    title: {
-                      display: true,
-                      text: "案例數量",
-                    },
-                  },
-                },
-              }}
-            />
-          </div>
-
-          {/* Legend/Summary */}
-          <div className="mt-4 grid grid-cols-2 md:grid-cols-4 gap-3">
-            {banDurationDistribution.map((item, index) => (
-              <div
-                key={index}
-                className="flex items-center justify-between p-2 bg-gray-50 rounded"
-              >
-                <div className="flex items-center">
-                  <div
-                    className="w-3 h-3 rounded mr-2"
-                    style={{
-                      backgroundColor: [
-                        "rgba(34, 197, 94, 0.8)",
-                        "rgba(251, 191, 36, 0.8)",
-                        "rgba(251, 146, 60, 0.8)",
-                        "rgba(168, 85, 247, 0.8)",
-                        "rgba(59, 130, 246, 0.8)",
-                        "rgba(239, 68, 68, 0.8)",
-                        "rgba(75, 85, 99, 0.8)",
-                      ][index],
-                    }}
-                  />
-                  <span className="text-sm text-gray-700">{item.category}</span>
-                </div>
-                <span className="text-sm font-semibold text-gray-900">
-                  {item.percentage}%
-                </span>
-              </div>
-            ))}
-          </div>
-        </div>
-      </div>
-
-      {/* 重大事件時間軸 */}
-      {showTimeline && (
-        <div className="bg-white rounded-lg shadow p-6 mt-8">
-          <div className="flex items-center justify-between mb-6">
-            <div className="flex items-center">
-              <Clock className="h-6 w-6 text-primary-600 mr-2" />
-              <h2 className="text-xl font-semibold text-gray-900">
-                重大運動禁藥事件時間軸
-              </h2>
-            </div>
-            <button
-              onClick={() => setShowTimeline(false)}
-              className="text-gray-400 hover:text-gray-600 transition"
-            >
-              ×
-            </button>
-          </div>
-
-          <div className="relative">
-            {/* 時間軸線 */}
-            <div className="absolute left-8 top-0 bottom-0 w-0.5 bg-gray-200"></div>
-
-            <div className="space-y-8">
-              {majorEvents.map((event) => {
-                const IconComponent = event.icon;
-                return (
-                  <div key={event.year} className="relative flex items-start">
-                    {/* 時間軸點 */}
-                    <div
-                      className={`flex-shrink-0 w-16 h-16 ${event.color} rounded-full flex items-center justify-center text-white relative z-10`}
-                    >
-                      <IconComponent className="h-8 w-8" />
-                    </div>
-
-                    {/* 事件內容 */}
-                    <div className="ml-6 bg-gray-50 rounded-lg p-4 flex-1">
-                      <div className="flex items-center mb-2">
-                        <span className="text-2xl font-bold text-primary-600 mr-3">
-                          {event.year}
-                        </span>
-                        <h3 className="text-lg font-semibold text-gray-900">
-                          {event.title}
-                        </h3>
-                      </div>
-                      <p className="text-gray-700 mb-2">{event.description}</p>
-                      <p className="text-sm text-gray-600 font-medium">
-                        影響：{event.impact}
-                      </p>
-                    </div>
-                  </div>
-                );
-              })}
-            </div>
-          </div>
-
-          <div className="mt-6 text-center">
-            <p className="text-sm text-gray-500">
-              這些重大事件塑造了現代反禁藥體系，每個案例都是重要的教育資源
-            </p>
-          </div>
-        </div>
-      )}
-
-      {!showTimeline && (
-        <div className="mt-8 text-center">
-          <button
-            onClick={() => setShowTimeline(true)}
-            className="flex items-center mx-auto text-primary-600 hover:text-primary-700 transition"
-          >
-            <Clock className="h-5 w-5 mr-2" />
-            顯示重大事件時間軸
-          </button>
-        </div>
-      )}
-
-      {/* P2-4 反禁藥實證數據（外部同儕審查文獻，非本平台案例資料庫衍生） */}
-      <div className="mt-12 bg-blue-50 border border-blue-200 rounded-lg p-6">
-        <div className="flex items-start mb-4">
-          <div className="flex-shrink-0 p-2 bg-blue-100 rounded-lg mr-4">
-            <BarChart3 className="h-6 w-6 text-blue-600" />
-          </div>
-          <div>
-            <h2 className="text-xl font-bold text-gray-900">反禁藥實證數據</h2>
-            <p className="text-sm text-blue-700 mt-1">
-              以下數據引用自外部同儕審查文獻，並非由上方本平台案例資料庫衍生，用於破除「TUE＝作弊」等常見迷思。
-            </p>
-          </div>
-        </div>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-          <div className="bg-white rounded-lg p-5 shadow-sm">
-            <p className="text-sm text-gray-500 mb-1">頂尖賽會 TUE 盛行率</p>
-            <p className="text-3xl font-bold text-blue-600">0.90%</p>
-            <p className="text-sm text-gray-700 mt-1">
-              奧運運動員持有 TUE 的比例僅約 0.90%（帕運約 2.76%），顯示 TUE
-              在頂尖運動中並不普遍。
-            </p>
-            <p className="text-xs text-gray-400 mt-2">
-              來源：Vernec et al., BJSM 2024（2016–2022 四屆奧運／帕運合計）
-            </p>
-          </div>
-          <div className="bg-white rounded-lg p-5 shadow-sm">
-            <p className="text-sm text-gray-500 mb-1">持 TUE 與奪牌關聯</p>
-            <p className="text-3xl font-bold text-blue-600">RR ≈ 1.07</p>
-            <p className="text-sm text-gray-700 mt-1">
-              持有 TUE 與奪牌之間無有意義關聯（校正後相對風險 1.07，95% CI
-              0.69–1.56，統計上不顯著）；合法 TUE 不等於提升奪牌機率。
-            </p>
-            <p className="text-xs text-gray-400 mt-2">
-              來源：Vernec &amp; Healy, BJSM 2020（2010–2018 五屆奧運）
-            </p>
-          </div>
-          <div className="bg-white rounded-lg p-5 shadow-sm">
-            <p className="text-sm text-gray-500 mb-1">補充劑污染比例</p>
-            <p className="text-3xl font-bold text-blue-600">約 9–15%</p>
-            <p className="text-sm text-gray-700 mt-1">
-              市售運動補充劑可能遭禁用物質污染，比例因產品類別與檢測方法而異，部分研究報告更高。這是選用第三方認證產品的重要理由。
-            </p>
-            <p className="text-xs text-gray-400 mt-2">
-              來源：Geyer et al., IJSM 2004（634 件、14.8%）；系統性回顧 Al-Saad
-              et al., 2026
-            </p>
-          </div>
-        </div>
-      </div>
+    <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 mb-6">
+      {[
+        [total, "收錄教學案例", `${review.newCases} 件新增＋${review.correctedLegacyCases} 件既有校正／分案`],
+        [review.coreChecked, "核心事實已查核", `另 ${review.primaryExcerptChecked} 件為裁決主文核對`],
+        [review.sourceCompared, "本輪獨立來源複核", "複核覆蓋不等於所有欄位均已確認"],
+        [review.comparedByAtLeastTwo, "至少兩模型來源對讀", `其中 ${review.comparedByThree} 件由至少三模型對讀`],
+      ].map(([number, label, detail]) => <div key={label} className="rounded-xl border border-gray-200 bg-white p-4 sm:p-5">
+        <p className="text-3xl font-bold text-primary-700">{number}</p><p className="mt-2 font-semibold text-gray-900">{label}</p><p className="mt-1 text-xs text-gray-600">{detail}</p>
+      </div>)}
     </div>
-  );
+
+    <section className="bg-blue-50 border border-blue-200 rounded-xl p-5 mb-8">
+      <h2 className="font-bold text-gray-900">如何解讀這批資料</h2>
+      <ul className="list-disc pl-5 mt-3 space-y-2 text-sm text-gray-700">
+        {sourceLeader && <li>主要公開來源以 {sourceLeader.label} 最多，{sourceLeader.count}／{total} 件（{(sourceLeader.count / total * 100).toFixed(1)}%）；反映本次蒐集來源的分布，不代表該機構或地區違規較多。</li>}
+        <li>官方文件的編輯查核與模型來源對讀分開計算。目前 {review.sourceCompared} 件取得模型對讀回覆，{review.comparedByAtLeastTwo} 件至少有兩個模型參與。覆蓋件數不代表所有欄位都已確認；模型提出的疑義仍須回到原文判定。</li>
+        {review.modelCoverage && <li>各模型覆蓋：{Object.entries(review.modelCoverage).map(([model, count]) => `${model} ${count} 件`).join("、")}；其中 {review.comparedByFour} 件取得四個模型回覆。同一案例可由多個模型對讀，不能將各模型件數相加當作案例總數。</li>}
+        {review.changedAfterModelReview > 0 && <li>{review.changedAfterModelReview} 件已依來源修正文字；模型回覆對應修正前的版本，修正版尚未再次送交模型對讀。</li>}
+        {review.sourceDatesUnresolved > 0 && <li>{review.sourceDatesUnresolved} 件的來源日期有缺漏或歧義，個案頁有進一步說明。</li>}
+        <li>國家／地區沿用來源描述，並非法律國籍認證。其中 {review.countryEvidencePending} 件依公告標題標示，代表國身分仍待補證，國家分布圖只計入其餘 {review.countryConfirmedDenominator} 件；也不能因此宣稱台灣選手排除條件已逐件獨立核實。</li>
+        {review.countrySourceFollowups > 0 && <li>另於 {review.lastCountryFollowupAt} 為 {review.countrySourceFollowups} 件補充官方選手資料、代表隊或賽事紀錄，並另做國家欄位模型對讀。其中 {review.countryProfileAtLookup} 件依查閱時官方個人資料列國家，尚不能據此確認事件當時的代表資格；各案保留適用時期說明。</li>}
+        <li>禁賽、公開警告、成績取消和獎牌處置是不同後果。未知不等於沒有，禁賽期間的減免與停算以個案說明為準。</li>
+      </ul>
+    </section>
+
+    <section className="mb-8 bg-white rounded-xl border border-gray-200 p-5">
+      <h2 className="text-lg font-bold text-gray-900">成績與獎牌後果</h2>
+      <p className="text-sm text-gray-600 mt-2 mb-4">分母為全部 {total} 件；「明確無」與「來源未確認」分開計算。</p>
+      <div className="overflow-x-auto"><table className="w-full text-sm text-left">
+        <caption className="sr-only">成績取消與獎牌剝奪的確認及未知數</caption>
+        <thead><tr className="border-b"><th scope="col" className="p-2">後果</th><th scope="col" className="p-2">確認有</th><th scope="col" className="p-2">明確無</th><th scope="col" className="p-2">來源未確認</th></tr></thead>
+        <tbody>{[["成績取消", review.resultsCancelled], ["獎牌剝奪", review.medalStripped]].map(([label, value]) => <tr key={label} className="border-b"><th scope="row" className="p-2 font-medium">{label}</th><td className="p-2">{value.confirmed}</td><td className="p-2">{value.explicitlyAbsent}</td><td className="p-2">{value.unknown}</td></tr>)}</tbody>
+      </table></div>
+    </section>
+
+    <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+      <ChartPanel title="主要公開來源" note="依各案主要來源分組，每件只計一次；不等同裁決機構或所屬國家。" rows={sourceRows} />
+      <ChartPanel title="運動項目分布（前十項）" note={`圖中涵蓋 ${sportRows.reduce((sum, row) => sum + row.count, 0)}／${total} 件，其餘項目未顯示；不可解讀為項目盛行率。`} rows={sportRows} />
+      {countryRows.length > 0 && <ChartPanel title="國家／地區分布（已有國家來源）" note={`分母為國家欄位已有來源依據的 ${review.countryConfirmedDenominator}／${total} 件；另 ${review.countryEvidencePending} 件僅依公告標題標示，待補證前不計入此圖。前十五名以外合併為「其他國家／地區」；不可解讀為國家違規風險。`} rows={countryRows} />}
+      <ChartPanel title="物質／規則標籤分布" note={`分母為全部 ${total} 件。前九種標籤以外合併為「其他標籤」；混合分類及非物質違規保留原標示，不當成單一 WADA 物質計數。`} rows={substanceRows} doughnut />
+      <ChartPanel title="禁賽期限分布" note={`依個案公開處分文字分組，共 ${total} 件。「無禁賽」也可能包含公開警告或違規成立但免禁賽，不能視為全部無違規。`} rows={data.ban.map((row) => ({ label: row.category, count: row.count }))} />
+      <div className="lg:col-span-2"><ChartPanel title="收錄案例年份分布" note="年份依個案事件年或裁決公布年，且收錄並不完整；不得解讀為每年違規發生率或上升下降趨勢。" rows={data.yearly.map((row) => ({ label: String(row.year), count: row.count }))} /></div>
+    </div>
+
+    <section className="mt-10 rounded-xl border border-gray-200 bg-white p-5 sm:p-6">
+      <h2 className="text-xl font-bold text-gray-900">反禁藥事件與制度時間軸</h2>
+      <p className="text-sm text-gray-600 mt-2">以下是有來源的背景整理；賽會、調查公布及裁決日期分別標明，不納入上方案例數。</p>
+      <ol className="mt-5 space-y-5">{majorEvents.map((event) => <li key={event.year} className="border-l-2 border-primary-200 pl-4">
+        <p className="text-sm font-bold text-primary-700">{event.year}</p><h3 className="font-bold mt-1">{event.title}</h3><p className="text-sm text-gray-700 mt-2">{event.description}</p><p className="text-sm text-gray-600 mt-1">{event.impact}</p>
+        <a href={event.sourceUrl} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1 text-primary-700 underline text-sm mt-2">{event.sourceTitle}<ExternalLink className="h-3 w-3" /></a>
+      </li>)}</ol>
+    </section>
+
+    <section className="mt-10 rounded-xl border border-blue-200 bg-blue-50 p-5 sm:p-6">
+      <h2 className="text-xl font-bold text-gray-900 flex gap-2 items-center"><BarChart3 className="h-5 w-5" />外部研究：分母與適用範圍</h2>
+      <p className="text-sm text-blue-900 mt-2">以下引用原始研究，與本站案例統計分開。研究中的關聯與檢出比例不能直接外推到所有運動員或產品。</p>
+      <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 mt-5">{evidenceCards.map((card) => <article key={card.title} className="rounded-xl bg-white p-5">
+        <h3 className="font-semibold text-gray-800">{card.title}</h3><p className="text-2xl font-bold text-primary-700 my-3">{card.value}</p><p className="text-sm text-gray-700 leading-relaxed">{card.body}</p>
+        <a href={card.sourceUrl} target="_blank" rel="noopener noreferrer" className="inline-flex gap-1 items-center text-sm text-primary-700 underline mt-4">{card.sourceTitle}<ExternalLink className="h-3 w-3 shrink-0" /></a>
+      </article>)}</div>
+    </section>
+  </div>;
 }
 
 export default Statistics;

@@ -1,0 +1,165 @@
+{
+  "cases": [
+    {
+      "id": "aiu-50084e62b4f1",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-ee0f1171a00313b3",
+        "registry-06417e9aa2149f09"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-ee0f1171a00313b3",
+          "startLine": 1,
+          "endLine": 12,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "確認選手為印度女子長跑選手 Pooja Aatmaram"
+        },
+        {
+          "documentId": "doc-ee0f1171a00313b3",
+          "startLine": 58,
+          "endLine": 91,
+          "supports": [
+            "event",
+            "substance",
+            "education"
+          ],
+          "note": "確認 2025-11-23 孟買半馬賽後接獲口頭採樣通知、未簽署檢查表、離開陪同人員且最終未採集樣本"
+        },
+        {
+          "documentId": "doc-ee0f1171a00313b3",
+          "startLine": 170,
+          "endLine": 224,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "及早承認違規獲減免一年，處以自 2026-02-03 起禁賽三年並取消 2025-11-23 起成績"
+        },
+        {
+          "documentId": "doc-ee0f1171a00313b3",
+          "startLine": 244,
+          "endLine": 244,
+          "supports": [
+            "dates"
+          ],
+          "note": "AIU 決定書簽發日期為 2026-02-20"
+        },
+        {
+          "documentId": "registry-06417e9aa2149f09",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates",
+            "education"
+          ],
+          "note": "名冊紀錄裁決日期誤載為 20/12/2025，其餘選手、國籍、違規條款與處罰均相符"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "aiu-cd329977c5ef",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-add64a51eafa761c",
+        "registry-4b6ccb89dc0fa064"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-add64a51eafa761c",
+          "startLine": 1,
+          "endLine": 12,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "確認選手為奈及利亞女子長跑選手 Blessing Solomon"
+        },
+        {
+          "documentId": "doc-add64a51eafa761c",
+          "startLine": 55,
+          "endLine": 62,
+          "supports": [
+            "event",
+            "substance"
+          ],
+          "note": "確認 2025-12-06 阿布加半馬賽後尿液樣本檢出曲美他嗪（Trimetazidine）"
+        },
+        {
+          "documentId": "doc-add64a51eafa761c",
+          "startLine": 82,
+          "endLine": 86,
+          "supports": [
+            "event",
+            "education"
+          ],
+          "note": "選手表示不知物質來源但未爭執檢驗結果並簽署承認與接受處分表"
+        },
+        {
+          "documentId": "doc-add64a51eafa761c",
+          "startLine": 163,
+          "endLine": 174,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "適用及早承認減免一年，確認自 2026-02-05 起禁賽三年並取消 2025-12-06 起所有成績"
+        },
+        {
+          "documentId": "doc-add64a51eafa761c",
+          "startLine": 195,
+          "endLine": 195,
+          "supports": [
+            "dates"
+          ],
+          "note": "AIU 決定書簽發日期為 2026-02-12"
+        },
+        {
+          "documentId": "registry-4b6ccb89dc0fa064",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊紀錄 2026-02-12 決定，確認禁賽三年自 2026-02-05 起並取消 2025-12-06 起成績"
+        }
+      ],
+      "findings": []
+    }
+  ]
+}

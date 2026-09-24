@@ -1,0 +1,280 @@
+{
+  "cases": [
+    {
+      "id": "aiu-1c2227c89e40",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-622ff04672e48c75",
+        "registry-f47309c1e2431f70"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-622ff04672e48c75",
+          "startLine": 12,
+          "endLine": 12,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "決定確認選手為肯亞公路跑者 Beatrice Jelagat Cherop。"
+        },
+        {
+          "documentId": "doc-622ff04672e48c75",
+          "startLine": 55,
+          "endLine": 65,
+          "supports": [
+            "event",
+            "substance"
+          ],
+          "note": "吉隆坡馬拉松樣本於 10 月 6 日採集；檢出曲安奈德，屬 2024 年 S9 糖皮質類固醇，在賽內特定給藥途徑禁用。"
+        },
+        {
+          "documentId": "doc-622ff04672e48c75",
+          "startLine": 93,
+          "endLine": 94,
+          "supports": [
+            "sanction"
+          ],
+          "note": "選手表示接受違規及指控所列後果。"
+        },
+        {
+          "documentId": "doc-622ff04672e48c75",
+          "startLine": 130,
+          "endLine": 148,
+          "supports": [
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "決定指出無故意違規證據，處以兩年禁賽，自 11 月 27 日起，並取消 10 月 6 日起成績及相關後果。"
+        },
+        {
+          "documentId": "doc-622ff04672e48c75",
+          "startLine": 70,
+          "endLine": 78,
+          "supports": [
+            "education"
+          ],
+          "note": "決定記載無已核准或可核准的 TUE，並說明給藥途徑與樣本檢出的審查。"
+        },
+        {
+          "documentId": "registry-f47309c1e2431f70",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "AIU 名冊列出兩年禁賽起日及取消成績起日，與個案決定相符。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "aiu-8cfa8b5cb399",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-f34583f0430a802e",
+        "registry-1f3337ee486be486"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-f34583f0430a802e",
+          "startLine": 15,
+          "endLine": 15,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "決定確認 Kibrom Weldemicael 為厄利垂亞馬拉松選手。"
+        },
+        {
+          "documentId": "doc-f34583f0430a802e",
+          "startLine": 49,
+          "endLine": 57,
+          "supports": [
+            "event",
+            "substance"
+          ],
+          "note": "日內瓦馬拉松 5 月 5 日樣本報告含 EPO 及 furosemide。"
+        },
+        {
+          "documentId": "doc-f34583f0430a802e",
+          "startLine": 72,
+          "endLine": 99,
+          "supports": [
+            "event",
+            "sanction"
+          ],
+          "note": "選手提出高地訓練說法並要求 B 樣本分析，後因未確認及未付款被視為放棄分析權。"
+        },
+        {
+          "documentId": "doc-f34583f0430a802e",
+          "startLine": 105,
+          "endLine": 110,
+          "supports": [
+            "substance",
+            "education"
+          ],
+          "note": "選手否認使用 EPO，且未能解釋 EPO 或 furosemide 的存在；AIU 維持違規認定。"
+        },
+        {
+          "documentId": "doc-f34583f0430a802e",
+          "startLine": 163,
+          "endLine": 167,
+          "supports": [
+            "substance"
+          ],
+          "note": "決定列 EPO 為 S2、furosemide 為 S5，並分別說明禁用時段及指定物質分類。"
+        },
+        {
+          "documentId": "doc-f34583f0430a802e",
+          "startLine": 212,
+          "endLine": 240,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "AIU 以多種禁用物質作為加重情節，處以六年禁賽，自 8 月 9 日起，取消 5 月 5 日起成績。"
+        },
+        {
+          "documentId": "doc-f34583f0430a802e",
+          "startLine": 228,
+          "endLine": 231,
+          "supports": [
+            "sanction",
+            "education"
+          ],
+          "note": "選手未在期限內完成承認及接受後果程序，因此不適用一年減免。"
+        },
+        {
+          "documentId": "registry-1f3337ee486be486",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "AIU 名冊記載六年禁賽及取消成績日期，與決定一致。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "aiu-3a4df5768c56",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-2ae4f42b493869ec",
+        "registry-b13f026e99c485ca"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-2ae4f42b493869ec",
+          "startLine": 15,
+          "endLine": 15,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "決定確認 Emmaculate Anyango Achol 為肯亞長跑選手。"
+        },
+        {
+          "documentId": "doc-2ae4f42b493869ec",
+          "startLine": 49,
+          "endLine": 71,
+          "supports": [
+            "event",
+            "substance"
+          ],
+          "note": "決定列出 2 月至 6 月採集的四份尿液及一份血液樣本，發現符合外源性來源的睪固酮代謝物及 EPO。"
+        },
+        {
+          "documentId": "doc-2ae4f42b493869ec",
+          "startLine": 115,
+          "endLine": 120,
+          "supports": [
+            "substance",
+            "education"
+          ],
+          "note": "醫療收據及 X 光影像未能解釋樣本中物質；AIU 維持違規認定。"
+        },
+        {
+          "documentId": "doc-2ae4f42b493869ec",
+          "startLine": 141,
+          "endLine": 159,
+          "supports": [
+            "sanction",
+            "education"
+          ],
+          "note": "選手未回覆指控，也未簽回早期承認表，未取得一年減免。"
+        },
+        {
+          "documentId": "doc-2ae4f42b493869ec",
+          "startLine": 190,
+          "endLine": 199,
+          "supports": [
+            "substance"
+          ],
+          "note": "決定依 2024 禁用清單列外源性睪固酮為 S1.1、EPO 為 S2，均為全時禁用非指定物質。"
+        },
+        {
+          "documentId": "doc-2ae4f42b493869ec",
+          "startLine": 238,
+          "endLine": 273,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "AIU 以多種物質及多次樣本作為加重情節，處以六年禁賽，自 9 月 26 日起，取消 2 月 3 日起成績及相關後果。"
+        },
+        {
+          "documentId": "registry-b13f026e99c485ca",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "AIU 名冊記載六年禁賽及取消成績日期，與決定相符。"
+        }
+      ],
+      "findings": []
+    }
+  ]
+}

@@ -1,0 +1,416 @@
+{
+  "cases": [
+    {
+      "id": "ita-d7db49f1b2dd",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-78e24498fdbfd32d",
+        "registry-6d1a35f3422a0db6"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-78e24498fdbfd32d",
+          "startLine": 1,
+          "endLine": 9,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告證實亞塞拜然舉重選手Nurlan Rasulov因檢出睪固酮相關代謝物及寶丹酮，經加重情節與及早承認減刑後接受5年禁賽（2025-11-28至2030-11-27）及取消成績。"
+        },
+        {
+          "documentId": "registry-6d1a35f3422a0db6",
+          "startLine": 1,
+          "endLine": 22,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "官方名冊列載Rasulov（亞塞拜然、舉重），違規日2025-10-24，禁賽期2025-11-28至2030-11-27，取消成績期間2025-10-24至2025-11-28。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-5f619325ade9",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-1aba437e949cd839",
+        "registry-f506b4f280c7b305"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-1aba437e949cd839",
+          "startLine": 1,
+          "endLine": 7,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告證實巴西跆拳道選手Vitória Maciel Marcos於2025-05-31檢出furosemide，接受2年禁賽（2026-02-18至2028-02-17）並取消相應期間成績。"
+        },
+        {
+          "documentId": "registry-f506b4f280c7b305",
+          "startLine": 1,
+          "endLine": 22,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "官方名冊登載Maciel Marcos（巴西、跆拳道），違規物質為furosemide，禁賽期間2026-02-18至2028-02-17，取消成績2025-05-31至2026-02-18。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-1adba3098100",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-35a991e756c0077d",
+        "registry-24a226fc802615d2"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-35a991e756c0077d",
+          "startLine": 1,
+          "endLine": 6,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告證實哥倫比亞棒球選手Jean Carlos Herrera Malambo因2025-11-08樣本檢出司坦唑醇，依及早承認獲減刑1年，接受3年禁賽（2026-01-20至2029-01-19）及取消成績。"
+        },
+        {
+          "documentId": "registry-24a226fc802615d2",
+          "startLine": 1,
+          "endLine": 22,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊確認個案結案協議結果為3年禁賽（2026-01-20至2029-01-19）及成績取消（2025-11-08至2026-01-20）。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-198c619f0668",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-ba837b32d60fa8a4",
+        "registry-7a173c1e3429444d"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-ba837b32d60fa8a4",
+          "startLine": 1,
+          "endLine": 11,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告確認保加利亞桑搏選手Plamen Yordanov於2025-04-23檢出米屈肼，因違反暫時禁賽規定自裁決日2025-12-03起算4年禁賽至2029-12-02，並取消自2025-04-23起成績。"
+        },
+        {
+          "documentId": "registry-7a173c1e3429444d",
+          "startLine": 1,
+          "endLine": 22,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "官方名冊載明Yordanov違規日2025-04-23，處分4年禁賽（2025-12-03至2029-12-02）及取消成績（2025-04-23至2025-12-03）。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-9eba591f99e3",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-d7fdab4ddc9740da",
+        "registry-6d7567b62e0b74cd"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-d7fdab4ddc9740da",
+          "startLine": 1,
+          "endLine": 6,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告證實摩洛哥柔術選手Ilyas Aasli於2024-12-13檢出四氫大麻酚代謝物，處以2年禁賽（2026-03-02至2028-03-01）及取消成績。"
+        },
+        {
+          "documentId": "registry-6d7567b62e0b74cd",
+          "startLine": 1,
+          "endLine": 22,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊記錄Aasli因Carboxy-THC違規，處以2年禁賽（2026-03-02至2028-03-01）及成績取消（2024-12-13至2026-03-02）。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-bb0170cfc7d7",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-225a24523b6435c1",
+        "registry-ae00da929be8cf82"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-225a24523b6435c1",
+          "startLine": 1,
+          "endLine": 6,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告證實喬治亞輕艇選手Levan Tatunashvili於2025-05-23檢出米屈肼，因及早承認減刑1年，接受3年禁賽（2025-06-25至2028-06-24）及取消成績。"
+        },
+        {
+          "documentId": "registry-ae00da929be8cf82",
+          "startLine": 1,
+          "endLine": 22,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊記錄Tatunashvili（喬治亞、輕艇）接受3年禁賽（2025-06-25至2028-06-24），取消成績期間2025-05-23至2025-06-25。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-a2293b7b4dd2",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-6a4db5abab17db50",
+        "registry-f06defc13925bd50"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-6a4db5abab17db50",
+          "startLine": 1,
+          "endLine": 8,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告證實越南舉重選手Dinh Thi Pham於2025-07-05檢出furosemide，自願暫時禁賽後接受2年禁賽（2025-08-23至2027-08-22）並取消成績。"
+        },
+        {
+          "documentId": "registry-f06defc13925bd50",
+          "startLine": 1,
+          "endLine": 22,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊登載Pham因furosemide處以2年禁賽（2025-08-23至2027-08-22），成績取消期間2025-07-05至2025-08-23。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-4466be90e20a",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-f889cf973f344970",
+        "registry-8065dfbde2346837"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-f889cf973f344970",
+          "startLine": 1,
+          "endLine": 6,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告確認CAS ADD於2026-01-26裁決蒙古角力選手Tsogbadrakh Tseveensuren因2025-03-29樣本檢出睪固酮處以4年禁賽（2025-06-19至2029-06-18）並取消成績。"
+        },
+        {
+          "documentId": "registry-8065dfbde2346837",
+          "startLine": 1,
+          "endLine": 22,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊記錄Tseveensuren（蒙古、角力）由CAS ADD裁決4年禁賽（2025-06-19至2029-06-18），成績取消自2025-03-29至2025-06-19。"
+        }
+      ],
+      "findings": []
+    }
+  ]
+}

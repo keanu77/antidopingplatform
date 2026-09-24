@@ -1,0 +1,380 @@
+{
+  "cases": [
+    {
+      "id": "aiu-ab4d36119437",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-ad4d7918fe167ae0",
+        "registry-38f80b062dadb821"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-ad4d7918fe167ae0",
+          "startLine": 12,
+          "endLine": 12,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "文件確認 Bililign 是來自衣索比亞的公路跑者。"
+        },
+        {
+          "documentId": "doc-ad4d7918fe167ae0",
+          "startLine": 50,
+          "endLine": 60,
+          "supports": [
+            "event",
+            "substance"
+          ],
+          "note": "6月23日雅加達賽內採樣，檢出兩種糖皮質類固醇；列為 S9 指定物質。"
+        },
+        {
+          "documentId": "doc-ad4d7918fe167ae0",
+          "startLine": 111,
+          "endLine": 126,
+          "supports": [
+            "event",
+            "substance"
+          ],
+          "note": "B 瓶確認 A 瓶結果；選手提及兩種止痛藥並表示接受後果。"
+        },
+        {
+          "documentId": "doc-ad4d7918fe167ae0",
+          "startLine": 197,
+          "endLine": 206,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "確定兩年禁賽自9月6日起，取消6月23日起成績及相關後果。"
+        },
+        {
+          "documentId": "doc-ad4d7918fe167ae0",
+          "startLine": 194,
+          "endLine": 195,
+          "supports": [
+            "education"
+          ],
+          "note": "AIU 無意圖證據；與教育說明所述區分相符。"
+        },
+        {
+          "documentId": "registry-38f80b062dadb821",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊列出兩年處分起日及自6月23日起取消成績。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "aiu-1625199d365e",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-b8bb2be3e68bd3c5",
+        "registry-8f86c7ae8f7a1ead"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-b8bb2be3e68bd3c5",
+          "startLine": 12,
+          "endLine": 12,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "文件確認 Chepkoech 是來自肯亞的公路跑者。"
+        },
+        {
+          "documentId": "doc-b8bb2be3e68bd3c5",
+          "startLine": 55,
+          "endLine": 61,
+          "supports": [
+            "event",
+            "substance"
+          ],
+          "note": "7月26日在肯亞伊滕賽外採樣，檢出 recombinant EPO。"
+        },
+        {
+          "documentId": "doc-b8bb2be3e68bd3c5",
+          "startLine": 83,
+          "endLine": 94,
+          "supports": [
+            "event",
+            "education"
+          ],
+          "note": "訪談記載她稱遭不明人士注射不明物質，並承認違規；9月22日簽署接受後果。"
+        },
+        {
+          "documentId": "doc-b8bb2be3e68bd3c5",
+          "startLine": 118,
+          "endLine": 120,
+          "supports": [
+            "substance"
+          ],
+          "note": "EPO 列為 S2 非指定、全年禁用物質。"
+        },
+        {
+          "documentId": "doc-b8bb2be3e68bd3c5",
+          "startLine": 165,
+          "endLine": 178,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "早期承認減免一年，三年禁賽自9月6日起，取消7月26日起成績。"
+        },
+        {
+          "documentId": "doc-b8bb2be3e68bd3c5",
+          "startLine": 201,
+          "endLine": 207,
+          "supports": [
+            "dates"
+          ],
+          "note": "決定日期為9月24日；註明未曾發出正式指控通知。"
+        },
+        {
+          "documentId": "registry-8f86c7ae8f7a1ead",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊確認三年處分及取消成績的起始日。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "aiu-e9edda7565bd",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-71bcbdb975a113b4",
+        "registry-7424cc79e2c3dfa3"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-71bcbdb975a113b4",
+          "startLine": 13,
+          "endLine": 13,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "文件確認 Allam 是摩洛哥中距離跑者。"
+        },
+        {
+          "documentId": "doc-71bcbdb975a113b4",
+          "startLine": 57,
+          "endLine": 64,
+          "supports": [
+            "event",
+            "substance"
+          ],
+          "note": "4月21日恩斯赫德馬拉松賽內尿液樣本檢出 recombinant EPO。"
+        },
+        {
+          "documentId": "doc-71bcbdb975a113b4",
+          "startLine": 111,
+          "endLine": 113,
+          "supports": [
+            "substance"
+          ],
+          "note": "EPO 列為 S2 非指定、全年禁用物質。"
+        },
+        {
+          "documentId": "doc-71bcbdb975a113b4",
+          "startLine": 128,
+          "endLine": 133,
+          "supports": [
+            "sanction",
+            "dates"
+          ],
+          "note": "9月19日簽署接受處分，依及早承認規則減免一年。"
+        },
+        {
+          "documentId": "doc-71bcbdb975a113b4",
+          "startLine": 135,
+          "endLine": 160,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "三年禁賽折抵8月16日起暫時禁賽，取消4月21日起成績及相關後果。"
+        },
+        {
+          "documentId": "doc-71bcbdb975a113b4",
+          "startLine": 182,
+          "endLine": 182,
+          "supports": [
+            "dates"
+          ],
+          "note": "決定日期為9月24日，與採樣日及暫時禁賽日不同。"
+        },
+        {
+          "documentId": "registry-7424cc79e2c3dfa3",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊確認三年處分自8月16日起及取消成績起日。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "aiu-1e9026a457aa",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-67d36a1c4789eb08",
+        "registry-6aae1a4d3d1edc51"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-67d36a1c4789eb08",
+          "startLine": 12,
+          "endLine": 12,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "文件確認 Chuluunkhuu 是來自蒙古的馬拉松選手。"
+        },
+        {
+          "documentId": "doc-67d36a1c4789eb08",
+          "startLine": 55,
+          "endLine": 61,
+          "supports": [
+            "event",
+            "substance"
+          ],
+          "note": "5月4日在吉爾吉斯 Issyk-Kul Silk Road Marathon 賽內採樣，檢出 meldonium。"
+        },
+        {
+          "documentId": "doc-67d36a1c4789eb08",
+          "startLine": 154,
+          "endLine": 155,
+          "supports": [
+            "substance"
+          ],
+          "note": "Meldonium 列為 S4.4 非指定、全年禁用物質。"
+        },
+        {
+          "documentId": "doc-67d36a1c4789eb08",
+          "startLine": 108,
+          "endLine": 115,
+          "supports": [
+            "event",
+            "substance"
+          ],
+          "note": "醫療文件不足以解釋檢出；指控包括存在及使用違規。"
+        },
+        {
+          "documentId": "doc-67d36a1c4789eb08",
+          "startLine": 134,
+          "endLine": 135,
+          "supports": [
+            "sanction",
+            "education"
+          ],
+          "note": "未在9月5日期限前交回接受表。"
+        },
+        {
+          "documentId": "doc-67d36a1c4789eb08",
+          "startLine": 186,
+          "endLine": 194,
+          "supports": [
+            "sanction",
+            "dates"
+          ],
+          "note": "9月5日期限屆滿未交表，因此不獲早期承認減免。"
+        },
+        {
+          "documentId": "doc-67d36a1c4789eb08",
+          "startLine": 200,
+          "endLine": 205,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "四年禁賽自6月11日起，取消5月4日起成績及相關後果。"
+        },
+        {
+          "documentId": "doc-67d36a1c4789eb08",
+          "startLine": 211,
+          "endLine": 212,
+          "supports": [
+            "sanction",
+            "dates"
+          ],
+          "note": "簽署表格於9月6日收到，晚於期限。"
+        },
+        {
+          "documentId": "registry-6aae1a4d3d1edc51",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊確認四年處分及成績取消起日。"
+        }
+      ],
+      "findings": []
+    }
+  ]
+}

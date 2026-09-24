@@ -1,0 +1,27 @@
+import { readFileSync, writeFileSync, mkdtempSync } from 'node:fs';
+import { join } from 'node:path';
+import { execFileSync, execFile } from 'node:child_process';
+import { promisify,isDeepStrictEqual } from 'node:util';
+import { build } from '/Users/ethanwu/Documents/Vibe coding/claude/Antidopingplatform/frontend/node_modules/esbuild/lib/main.js';
+const exec=promisify(execFile),root=process.cwd(),base='https://antidopingplatform.sportsmedicine.tw';
+const dir='docs/reviews/2026-09-23-site-audit/';
+const localSha=execFileSync('git',['rev-parse','HEAD'],{encoding:'utf8'}).trim();
+const remoteSha=execFileSync('git',['rev-parse','origin/main'],{encoding:'utf8'}).trim();
+const snapshot=mkdtempSync('/private/tmp/antidoping-github-final-');
+execFileSync('tar',['-xf','-','-C',snapshot],{input:execFileSync('git',['archive','--format=tar','origin/main','functions','data','backend/data'],{maxBuffer:25*1024*1024})});
+const githubCases=JSON.parse(readFileSync(join(snapshot,'data/cases.json')));
+const b=await build({entryPoints:[join(snapshot,'functions/api/[[path]].js')],bundle:true,write:false,platform:'node',format:'esm'});
+const {onRequest}=await import('data:text/javascript;base64,'+Buffer.from(b.outputFiles[0].text).toString('base64'));
+async function get(path){const {stdout}=await exec('curl',['-fsSL','--connect-timeout','8','--max-time','30',base+path],{maxBuffer:8*1024*1024});return JSON.parse(stdout)}
+const liveVersion=await get('/version.json'),liveList=await get('/api/cases?limit=1');
+const paths=githubCases.map(c=>'/api/cases/'+encodeURIComponent(c.id));
+for(let p=1;p<=Math.ceil(githubCases.length/100);p++)paths.push('/api/cases?limit=100&page='+p);
+paths.push('/api/cases/filters');
+for(const x of ['overview','yearly-trends','sport-distribution','substance-distribution','nationality-distribution','ban-duration-distribution','punishment-stats'])paths.push('/api/stats/'+x);
+for(const x of ['','substances','adrv','articles'])paths.push('/api/education/'+x);
+for(const x of ['','basic','application','diseases','tools','substances'])paths.push('/api/tue/'+x);
+const results=[];let cursor=0;
+await Promise.all(Array.from({length:4},async()=>{while(cursor<paths.length){const path=paths[cursor++];try{const url=new URL(base+path);const response=await onRequest({request:new Request(url),env:{},params:{path:url.pathname.slice(5).split('/')}});const expected=await response.json(),actual=await get(path);results.push({path,match:isDeepStrictEqual(expected,actual)})}catch(e){results.push({path,match:false,error:e.message})}}}));
+const report={checkedAt:new Date().toISOString(),repository:'https://github.com/keanu77/antidopingplatform',website:base,localSha,remoteSha,liveVersion,gitCommitMatches:localSha===remoteSha&&liveVersion.sha===remoteSha,githubCaseCount:githubCases.length,liveCaseCount:liveList.totalCases,localWorkingTreeCaseCount:JSON.parse(readFileSync('data/cases.json')).length,matched:results.filter(x=>x.match).length,total:results.length,results,scope:'Read-only comparison with freshly fetched origin/main; production writes, deployment and runtime feedback database excluded. Local uncommitted expansion differs from GitHub and production.'};
+writeFileSync(dir+'remote-verification-2026-09-23.json',JSON.stringify(report,null,2)+'\n');console.log(JSON.stringify({...report,results:results.filter(x=>!x.match)},null,2));
+if(results.some(x=>!x.match)||!report.gitCommitMatches)process.exitCode=1;

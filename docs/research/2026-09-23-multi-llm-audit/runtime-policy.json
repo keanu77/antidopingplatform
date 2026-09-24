@@ -1,0 +1,14 @@
+{
+  "updatedAt": "2026-09-23T06:15:16.937815+00:00",
+  "authorizedScope": "所有 multi-LLM 審核模型",
+  "defaultTimeoutSeconds": 600,
+  "models": [
+    "Claude",
+    "Codex/GPT",
+    "Gemini",
+    "Grok"
+  ],
+  "innerCliTimeoutSeconds": 600,
+  "originalRunRecordsImmutable": true,
+  "note": "此為後續執行預設，不回寫既有180秒逾時歷史或自動重跑模型。"
+}

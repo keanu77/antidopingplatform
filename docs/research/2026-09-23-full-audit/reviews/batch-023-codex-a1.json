@@ -1,0 +1,184 @@
+{
+  "cases": [
+    {
+      "id": "aiu-bc0ceeb232fa",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-81a5ee5e34ea30f6",
+        "registry-e5ac53bb7d7ed83f"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-81a5ee5e34ea30f6",
+          "startLine": 38,
+          "endLine": 39,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "裁決稱她是來自印度的中距離跑者。"
+        },
+        {
+          "documentId": "doc-81a5ee5e34ea30f6",
+          "startLine": 45,
+          "endLine": 53,
+          "supports": [
+            "event",
+            "substance"
+          ],
+          "note": "指控涉及5月30日樣本中的甲基睪固酮代謝物，涵蓋規則2.1與2.2。"
+        },
+        {
+          "documentId": "doc-81a5ee5e34ea30f6",
+          "startLine": 71,
+          "endLine": 73,
+          "supports": [
+            "substance"
+          ],
+          "note": "列為2025年S1.1合成代謝雄性類固醇，全年禁用的非特定物質。"
+        },
+        {
+          "documentId": "doc-81a5ee5e34ea30f6",
+          "startLine": 544,
+          "endLine": 547,
+          "supports": [
+            "sanction",
+            "education"
+          ],
+          "note": "未證明非故意，DNA檢測請求被駁回，裁決判四年禁賽。"
+        },
+        {
+          "documentId": "doc-81a5ee5e34ea30f6",
+          "startLine": 559,
+          "endLine": 567,
+          "supports": [
+            "dates",
+            "outcomes"
+          ],
+          "note": "暫時禁賽自6月24日起折抵；亞洲錦標賽個人成績取消並有相關後果。"
+        },
+        {
+          "documentId": "doc-81a5ee5e34ea30f6",
+          "startLine": 595,
+          "endLine": 596,
+          "supports": [
+            "education"
+          ],
+          "note": "裁決認定違反暫時禁賽的指控未獲證明。"
+        },
+        {
+          "documentId": "doc-81a5ee5e34ea30f6",
+          "startLine": 611,
+          "endLine": 620,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "裁決日為2026年2月25日；禁賽折抵後於2029年6月23日屆滿，5月30日起成績取消。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "aiu-e51af3de2c02",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-fe571b9b5329027b",
+        "registry-8b30dfd2a4cc08bd"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-fe571b9b5329027b",
+          "startLine": 1,
+          "endLine": 12,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "AIU裁決確認Samperu是來自肯亞的公路跑者。"
+        },
+        {
+          "documentId": "doc-fe571b9b5329027b",
+          "startLine": 55,
+          "endLine": 62,
+          "supports": [
+            "event",
+            "substance"
+          ],
+          "note": "11月23日雅加達賽事樣本檢出與外源性來源一致的睪固酮代謝物。"
+        },
+        {
+          "documentId": "doc-fe571b9b5329027b",
+          "startLine": 135,
+          "endLine": 143,
+          "supports": [
+            "substance"
+          ],
+          "note": "裁決列為S1.1合成代謝雄性類固醇及全年禁用的非特定物質，認定違規並適用四年基準。"
+        },
+        {
+          "documentId": "doc-fe571b9b5329027b",
+          "startLine": 85,
+          "endLine": 103,
+          "supports": [
+            "education",
+            "substance"
+          ],
+          "note": "他提及的甲基潑尼松龍治療用藥未能解釋睪固酮陽性，該次賽外使用本身不構成違規。"
+        },
+        {
+          "documentId": "doc-fe571b9b5329027b",
+          "startLine": 174,
+          "endLine": 192,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "早期承認使禁賽減為三年，自2026年1月23日至2029年1月22日；自採樣日起成績取消。"
+        },
+        {
+          "documentId": "doc-fe571b9b5329027b",
+          "startLine": 219,
+          "endLine": 226,
+          "supports": [
+            "dates"
+          ],
+          "note": "裁決署名日期為2026年2月20日，並載有上訴權利。"
+        },
+        {
+          "documentId": "registry-8b30dfd2a4cc08bd",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "sanction",
+            "dates"
+          ],
+          "note": "名冊確認三年禁賽及2026年1月23日起算，但其列示裁決日期為2025年12月20日。"
+        }
+      ],
+      "findings": []
+    }
+  ]
+}

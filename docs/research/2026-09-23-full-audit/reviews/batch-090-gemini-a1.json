@@ -1,0 +1,511 @@
+{
+  "cases": [
+    {
+      "id": "usada-1a29ad9ab5d6",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-9523bfec22635a9d",
+        "registry-0bbe948a88fdbd9e"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-9523bfec22635a9d",
+          "startLine": 7,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "Nguyen 在 2017-06-03 賽事拒絕採樣，接受四年禁賽及取消當日起成績"
+        },
+        {
+          "documentId": "registry-0bbe948a88fdbd9e",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "dates"
+          ],
+          "note": "官方處分名冊登錄 4 年禁賽及取消成績，公告日 2017-07-14"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "nationality: 美國",
+          "explanation": "文件標題之「U.S. Weightlifting Athlete」及居住地依規範不足以直接確立國籍或代表隊身分，且 USADA 管轄涵蓋在美外籍選手，國籍證據不足。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-9523bfec22635a9d",
+              "startLine": 1,
+              "endLine": 12
+            }
+          ],
+          "suggestion": "標註國籍或運動代表身分待查，避免逕行斷定為美國籍。"
+        }
+      ]
+    },
+    {
+      "id": "usada-5c49a520d9f7",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-4627a29b88a6e291",
+        "registry-41109c815ff20b02"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-4627a29b88a6e291",
+          "startLine": 7,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "Bayer 賽外檢體檢出 clomiphene 與 GW1516 代謝物，因配合調查獲減為兩年半禁賽，取消自 2015-10-16 起成績"
+        },
+        {
+          "documentId": "registry-41109c815ff20b02",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "dates"
+          ],
+          "note": "處分名冊記載 Bayer 舉重物質違規處 2.5 年禁賽及成績取消"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "nationality: 美國",
+          "explanation": "僅有新聞稿標題 U.S. 運動員與科羅拉多居住地記載，缺乏正式國籍或代表權證明，依稽核規範屬證據不足。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-4627a29b88a6e291",
+              "startLine": 1,
+              "endLine": 12
+            }
+          ],
+          "suggestion": "將國籍欄位標註為待確認或補充代表身分資料。"
+        }
+      ]
+    },
+    {
+      "id": "usada-0c3eeb120b51",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-cea5f15fa5677b9d",
+        "registry-7332469319b01f69"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-cea5f15fa5677b9d",
+          "startLine": 7,
+          "endLine": 11,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "Park 申報並檢出外源性合成代謝劑，屬處方劑量但無事前 TUE，處 21 個月禁賽自 2016-11-04 起算"
+        },
+        {
+          "documentId": "registry-7332469319b01f69",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "dates"
+          ],
+          "note": "名冊登記帕拉田徑選手 21 個月禁賽並取消成績"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "nationality: 美國",
+          "explanation": "官方公告僅載明伊利諾州居住地與標題 U.S. 帕拉選手，未載明國籍證明，不足以確立其國籍。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-cea5f15fa5677b9d",
+              "startLine": 1,
+              "endLine": 13
+            }
+          ],
+          "suggestion": "將國籍調整為待查或補充公民權與代表國家證明。"
+        }
+      ]
+    },
+    {
+      "id": "usada-005ef8b2c89f",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-3d4fa05c22f7a999",
+        "registry-9bddb70b7830f584"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-3d4fa05c22f7a999",
+          "startLine": 7,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "Nackoul 承認於 2016 年 3 月持有多種禁用肽類物質，處 4 年禁賽自 2016-09-15 起算，取消 2016-03-17 起成績"
+        },
+        {
+          "documentId": "registry-9bddb70b7830f584",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "dates"
+          ],
+          "note": "處分名冊登記舉重非分析違規（持有肽類）處 4 年禁賽及取消成績"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "nationality: 美國",
+          "explanation": "僅依標題稱 U.S. 運動員與賓州居住地無法充分證明國籍，依指引列為不確定。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-3d4fa05c22f7a999",
+              "startLine": 1,
+              "endLine": 12
+            }
+          ],
+          "suggestion": "國籍應註記為未經官方代表權或身分文件確立。"
+        }
+      ]
+    },
+    {
+      "id": "usada-a866a19663a5",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-aba2b895462e662d",
+        "registry-02b1a89afbb94651"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-aba2b895462e662d",
+          "startLine": 7,
+          "endLine": 12,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "Dosterschill 檢出安非他命與同化雄性類固醇代謝物，爭執管轄權經 AAA 仲裁確認後接受 4 年禁賽自 2016-04-27 起算"
+        },
+        {
+          "documentId": "registry-02b1a89afbb94651",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "dates"
+          ],
+          "note": "名冊登記舉重選手檢出多種同化類固醇與安非他命處 4 年禁賽"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "nationality: 美國",
+          "explanation": "文本僅記載密蘇里州居住地與發布機構標題字樣，不足以證明國籍或特定國家代表隊資格。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-aba2b895462e662d",
+              "startLine": 1,
+              "endLine": 14
+            }
+          ],
+          "suggestion": "國籍標註待補充代表隊或國籍具體證據。"
+        }
+      ]
+    },
+    {
+      "id": "usada-ab372572f1a9",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-f84b9f9d73ee7ce4",
+        "registry-384995e1c9426cd1"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-f84b9f9d73ee7ce4",
+          "startLine": 7,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "Moore 檢出 ostarine 無法證明來源處 4 年禁賽自 2017-02-08 起算，取消當日起成績"
+        },
+        {
+          "documentId": "registry-384995e1c9426cd1",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊註記 4 年禁賽，並因退休暫停計算執行期（sanction tolled due to retirement）"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "nationality: 美國",
+          "explanation": "僅見標題 U.S. 運動員描述，無代表權或國籍直接證據，依稽核規範視為證據不足。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-f84b9f9d73ee7ce4",
+              "startLine": 1,
+              "endLine": 12
+            }
+          ],
+          "suggestion": "將國籍列為待確認。"
+        }
+      ]
+    },
+    {
+      "id": "usada-9c8b8e7bbb4c",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-b857072fc52e1f9b",
+        "registry-7e7effec89e7d7cd"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-b857072fc52e1f9b",
+          "startLine": 7,
+          "endLine": 9,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "Creveling 檢出 clomiphene 接受 4 年禁賽自 2016-11-18 起算，取消 2016-10-18 起成績"
+        },
+        {
+          "documentId": "registry-7e7effec89e7d7cd",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊載明競速滑冰選手處 4 年禁賽且因退休而停止計時"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "nationality: 美國",
+          "explanation": "官方發布機構標題及猶他州居住地不足以確立公民身分或代表國籍，證據不足。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-b857072fc52e1f9b",
+              "startLine": 1,
+              "endLine": 11
+            }
+          ],
+          "suggestion": "標明代表權或國籍尚待外部官方佐證。"
+        }
+      ]
+    },
+    {
+      "id": "usada-36b25b3d84e6",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-20d8d0a920e53601",
+        "registry-94e8f664a7e7b566"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-20d8d0a920e53601",
+          "startLine": 7,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "Young 承認自 2013 年 1 月持有並使用禁用生長因子胜肽，處 4 年禁賽自 2016-11-17 起算，取消 2013-01-24 起成績"
+        },
+        {
+          "documentId": "registry-94e8f664a7e7b566",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "處分名冊登記 4 年禁賽並註記因退休停止計時"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "nationality: 美國",
+          "explanation": "僅憑德州拉伯克居住地及標題稱 U.S. 運動員無法確立國籍或代表身分，依稽核指引為不確定。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-20d8d0a920e53601",
+              "startLine": 1,
+              "endLine": 12
+            }
+          ],
+          "suggestion": "將國籍欄改為待確認，避免以居住地推定國籍。"
+        }
+      ]
+    }
+  ]
+}

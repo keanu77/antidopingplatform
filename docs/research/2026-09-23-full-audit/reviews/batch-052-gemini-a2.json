@@ -1,0 +1,221 @@
+{
+  "cases": [
+    {
+      "id": "aiu-e23728ce2e6d",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-141915128341dfce",
+        "registry-9110e94062ae1592"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-141915128341dfce",
+          "startLine": 18,
+          "endLine": 19,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "確認選手為肯亞中長跑選手 Winnie Jemutai Boinett"
+        },
+        {
+          "documentId": "doc-141915128341dfce",
+          "startLine": 51,
+          "endLine": 71,
+          "supports": [
+            "event",
+            "substance"
+          ],
+          "note": "2023-11-12 西班牙塞維亞賽內採樣檢出外源性睪固酮及其代謝物"
+        },
+        {
+          "documentId": "doc-141915128341dfce",
+          "startLine": 94,
+          "endLine": 100,
+          "supports": [
+            "education"
+          ],
+          "note": "選手說明就醫但無完整藥物文件，隨後自願簽署承認違規"
+        },
+        {
+          "documentId": "doc-141915128341dfce",
+          "startLine": 191,
+          "endLine": 196,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "裁決處分自 2024-02-29 起禁賽 3 年並取消 2023-11-12 起所有成績"
+        },
+        {
+          "documentId": "registry-9110e94062ae1592",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊確認禁賽 3 年自 2024-02-29 起及取消 2023-11-12 起成績"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "aiu-190ce97cb856",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-4d6ce0a40f99854a",
+        "registry-69b9a0e22c3e6e59"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-4d6ce0a40f99854a",
+          "startLine": 18,
+          "endLine": 18,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "確認選手為肯亞路跑選手 Nobert Kigen"
+        },
+        {
+          "documentId": "doc-4d6ce0a40f99854a",
+          "startLine": 50,
+          "endLine": 73,
+          "supports": [
+            "event",
+            "substance",
+            "education"
+          ],
+          "note": "2023-08-03 賽外採樣檢出睪固酮代謝物及庚酸睪固酮，第 6 段報告年份顯為 2024 誤植為 2023"
+        },
+        {
+          "documentId": "doc-4d6ce0a40f99854a",
+          "startLine": 193,
+          "endLine": 198,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "處分自 2024-02-27 起禁賽 3 年並取消 2023-08-03 起所有成績"
+        },
+        {
+          "documentId": "registry-69b9a0e22c3e6e59",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊登載自 2024-02-27 起禁賽 3 年與取消 2023-08-03 起成績"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "aiu-0b4c25ed084d",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-0b7f5b1140a7d4d8",
+        "registry-89fe52bfd26ff8a4"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-0b7f5b1140a7d4d8",
+          "startLine": 17,
+          "endLine": 17,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "確認選手為巴林路跑選手 Rosemary Mumo Katua"
+        },
+        {
+          "documentId": "doc-0b7f5b1140a7d4d8",
+          "startLine": 49,
+          "endLine": 74,
+          "supports": [
+            "event",
+            "substance"
+          ],
+          "note": "2023-10-22 與 11-12 雅加達賽事檢驗均驗出 triamcinolone acetonide"
+        },
+        {
+          "documentId": "doc-0b7f5b1140a7d4d8",
+          "startLine": 140,
+          "endLine": 146,
+          "supports": [
+            "education"
+          ],
+          "note": "選手獲准申請追溯 TUE 但因資料不全遭退回且未完成補件程序"
+        },
+        {
+          "documentId": "doc-0b7f5b1140a7d4d8",
+          "startLine": 323,
+          "endLine": 328,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "因二次違規及早承認處分自 2023-12-19 起禁賽 4 年並取消 2023-10-22 起成績"
+        },
+        {
+          "documentId": "registry-89fe52bfd26ff8a4",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊確認二次違規處分 4 年自 2023-12-19 起並取消 2023-10-22 起成績"
+        }
+      ],
+      "findings": []
+    }
+  ]
+}

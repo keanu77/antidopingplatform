@@ -1,0 +1,531 @@
+{
+  "cases": [
+    {
+      "id": "usada-7774f20822ed",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-15d772c8dd211e25",
+        "doc-66e61748a65dc00e",
+        "registry-b8f7b94cc358c327"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-15d772c8dd211e25",
+          "startLine": 7,
+          "endLine": 11,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "Robert Qualls因2024年2月24日賽事檢出多種物質及早承認獲3年禁賽，自2024年4月2日起算並取消成績"
+        },
+        {
+          "documentId": "doc-66e61748a65dc00e",
+          "startLine": 7,
+          "endLine": 11,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "Robert Jerry Qualls因禁賽期參加田協認可賽事追加3個月禁賽，總禁賽延長為39個月並取消該等賽事成績"
+        },
+        {
+          "documentId": "registry-b8f7b94cc358c327",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "dates"
+          ],
+          "note": "處分名冊登記3年禁賽、追加3個月禁賽及取消成績"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "medium",
+          "claim": "美國",
+          "explanation": "官方文件僅於標題使用 U.S. 運動員及提及居住於內華達州雷諾，依審查規範，機構管轄權、居住地或新聞標題不足以確立國籍或體育代表權。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-15d772c8dd211e25",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "補充選手具美國國籍或代表美國出賽之官方證明，或將國籍標註為待確認。"
+        }
+      ]
+    },
+    {
+      "id": "usada-25958bca1e21",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-638cd53b51617496",
+        "registry-dbbaa84a4db1616e"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-638cd53b51617496",
+          "startLine": 7,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "Cary Cooper於2024年7月20日賽事拒絕採樣，認定為休閒運動員處2年禁賽，自2024年7月31日起算並取消成績"
+        },
+        {
+          "documentId": "registry-dbbaa84a4db1616e",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "dates"
+          ],
+          "note": "處分名冊載明田徑選手拒絕採樣處2年禁賽與取消成績"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "medium",
+          "claim": "美國",
+          "explanation": "官方公告僅於標題稱 U.S. 運動員及提及居住於德州休士頓，依審查標準不足以獨立認定其國籍或體育代表權。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-638cd53b51617496",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "補充其國籍或官方體育代表權證明，或將國籍調整為待確認。"
+        }
+      ]
+    },
+    {
+      "id": "usada-56c015d731e4",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-53d06c8357c795ad",
+        "registry-c312907c511d3356"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-53d06c8357c795ad",
+          "startLine": 7,
+          "endLine": 11,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "Johnny Maynard於2024年3月23日大師室內錦標賽檢出多項物質，及早承認獲減為3年禁賽，自2024年4月25日起算並取消成績"
+        },
+        {
+          "documentId": "registry-c312907c511d3356",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "dates"
+          ],
+          "note": "處分名冊登記檢出RAD140等物質處以3年禁賽及取消成績"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "medium",
+          "claim": "美國",
+          "explanation": "來源僅在標題稱 U.S. 運動員且內文提及居住於俄亥俄州，無明確國籍或代表隊身分證明，依規範屬證據不足。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-53d06c8357c795ad",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "補足運動員代表美國出賽之資格或官方國籍紀錄，或將國籍標註為待確認。"
+        }
+      ]
+    },
+    {
+      "id": "usada-ee1ce8ee98f6",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-7947519017a421ee",
+        "registry-ac78894d3df0ce77"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-7947519017a421ee",
+          "startLine": 7,
+          "endLine": 8,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "NaLyssa Smith於2024年6月2日賽外檢出spironolactone，因治療痤瘡未先取得TUE獲公開警告，無成績取消"
+        },
+        {
+          "documentId": "registry-ac78894d3df0ce77",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "dates"
+          ],
+          "note": "處分名冊登記籃球選手檢出Canrenone處以公開警告"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "medium",
+          "claim": "美國",
+          "explanation": "官方公告僅於新聞標題提及 U.S. 運動員與印第安納波利斯居住地，未明確載明國籍或正式體育代表權資訊。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-7947519017a421ee",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "提供正式體育代表權或國籍證明文件，或標註國籍為待確認。"
+        }
+      ]
+    },
+    {
+      "id": "usada-c459cc791bed",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-96e64a4696a72b71",
+        "registry-d7c52395de0cef91"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-96e64a4696a72b71",
+          "startLine": 7,
+          "endLine": 9,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "Ella Nicholson因外用痤瘡藥物於2024年5月3日賽外檢驗陽性，未先取得TUE獲公開警告，無成績取消"
+        },
+        {
+          "documentId": "registry-d7c52395de0cef91",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "dates"
+          ],
+          "note": "處分名冊登記舉重選手檢出Canrenone處以公開警告"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "medium",
+          "claim": "美國",
+          "explanation": "來源文件僅在標題稱 U.S. 舉重運動員及記載居住俄亥俄州，不足以直接確立官方國籍或代表權。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-96e64a4696a72b71",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "補強國籍或代表權證明，或於資料庫將國籍改為待確認。"
+        }
+      ]
+    },
+    {
+      "id": "usada-abb5a10e0ed3",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-2e0ddca2876c6f62",
+        "registry-a1a2b57cfde5ad8e"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-2e0ddca2876c6f62",
+          "startLine": 7,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "Breezy Johnson於12個月內累積三次行蹤失誤，因過失程度較低處14個月禁賽，自2023年10月10日起算並取消成績"
+        },
+        {
+          "documentId": "registry-a1a2b57cfde5ad8e",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "dates"
+          ],
+          "note": "處分名冊登記滑雪選手三次行蹤申報失誤處14個月禁賽及取消成績"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "medium",
+          "claim": "美國",
+          "explanation": "來源僅在標題稱 U.S. 運動員及居住於愛達荷州，無直接官方國籍或代表國家參賽紀錄，依規範屬證據不足。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-2e0ddca2876c6f62",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "補充其官方國籍或體育代表權依據，或將國籍調整為待確認。"
+        }
+      ]
+    },
+    {
+      "id": "usada-578b30358464",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-2a6bfc8000e3b87c",
+        "registry-f76923610e7c7f87"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-2a6bfc8000e3b87c",
+          "startLine": 7,
+          "endLine": 11,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "Jaron Flournoy因於田協會員期間持有ostarine，及早承認獲減為3年禁賽，並自2022年12月1日起取消競賽成績"
+        },
+        {
+          "documentId": "registry-f76923610e7c7f87",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "dates"
+          ],
+          "note": "處分名冊登記田徑選手非檢驗違規（持有）處以3年禁賽及取消成績"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "medium",
+          "claim": "美國",
+          "explanation": "官方公告僅於標題提及 U.S. 運動員、居住於密西根州及曾為美國田協會員，不足以直接證明法定國籍或體育代表權。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-2a6bfc8000e3b87c",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "補充官方國籍或體育代表權證明，或將國籍欄位標註為待確認。"
+        }
+      ]
+    },
+    {
+      "id": "usada-16f2d1c7b31c",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-8a14000036313632",
+        "registry-4303be14d49ed158"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-8a14000036313632",
+          "startLine": 7,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "Frank Travieso於2023年9月3日賽事檢出超標ephedrine，因無有效TUE且不符追溯條件處6個月禁賽，自2023年9月21日起算"
+        },
+        {
+          "documentId": "registry-4303be14d49ed158",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction",
+            "dates"
+          ],
+          "note": "處分名冊登記自行車選手檢出Ephedrine處以6個月禁賽及取消成績"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "medium",
+          "claim": "美國",
+          "explanation": "官方來源僅於標題使用 U.S. 運動員及內文標註居住喬治亞州雅典，缺乏具體國籍或代表隊身分證明，依規範屬證據不足。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-8a14000036313632",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "補強國籍或國際體育代表權之官方紀錄，或將國籍調整為待確認。"
+        }
+      ]
+    }
+  ]
+}

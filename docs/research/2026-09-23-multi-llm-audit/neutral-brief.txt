@@ -1,0 +1,28 @@
+你是獨立外部審查員，請審核一個運動禁藥教學資料集的證據與準確性。不要替編輯者辯護，也不要預設有錯；模型共識不是事實證據。
+
+只讀審查：不要修改任何檔案、執行build、部署、git寫入、聯繫他人或讀取憑證。回答直接寫在你的最後回覆中，主程序會保存。不讀本次其他席次的輸出。你沒有前輪對話；以下是必要背景。
+
+根目錄：/Users/ethanwu/Documents/Vibe coding/claude/Antidopingplatform
+A = docs/research/2026-09-23-multi-llm-audit
+E = docs/research/2026-09-22-expansion-500
+B = docs/research/2026-09-22-case-corrections-batch-01
+
+使用者要先校正既有資料、首批50件後擴增到新增500件，排除台灣選手；可納入污染、撤案、TUE及歷史爭議。檔案現況（數量是結構觀察，並非已證明內容真實）：data/curated-cases.json有500新條目，data/cases.json有517；首批reviews有50accepted、2held；後續individual-case-reviews有450accepted、3held、16needs_final_source。17是既有校正/分案，不算新增。141件舊案尚待查，13件重大來源疑義已隔離。沒有commit/push/deploy。前次191個production API回應與GitHub171件版本一致，version SHA不同。本次資料雜湊81585990d76b5d4015fa92c3a39f2d8ad60470da67177e010ac40c7db2511a07。
+
+可读檔案：
+1. A/case-evidence-index.json：全部500件的精簡欄位與官方文件的本機textPath、URL、locator。
+2. data/curated-cases.json、data/cases.json：公開敘述、結果、教育解釋。
+3. E/individual-case-reviews.json、E/individual-source-manifest.json、E/announcement-reviewed-cases.json：審核結論與來源，不要把審核者自己的文字當成獨立證據。
+4. B/reviews.json、B/source-manifest.json、B/baseline-cases.json：首批及舊名單。
+5. scripts/build-reviewed-cases.py、scripts/audit-new-case-completion.mjs、functions/_lib/case-outcome.mjs、frontend/src/pages/CaseDetail.jsx、frontend/src/pages/Education.jsx、tests/reviewed-cases.test.mjs。
+6. E/README.md：編輯團隊宣稱的完成範圍。
+
+任務在3分鐘內完成；先用程式或查詢檢查全500條目的身分重複、國家身分/台灣排除、處分及日期的內部一致性、證據鏈是否真能支持宣稱。再盡量讀官方textPath並逐案比對公開敘述。A/priority-case-ids.json列了一组按處分變更、警告、TUE、非分析違規、國家身分、歷史方法門檻等不同情境選的候選，並非預設有錯；你可另選樣本。至少嘗試核對8件，時間足夠則增加，但必須誠實列明實際來源對讀案例ID。全文很多，不要把沒有讀完的來源算成實質查核。
+
+重點：國家身分是否有官方明列，USADA管轄/美國居住地/U.S. athlete標題能支持到哪一層？同一人別名、上訴、處分延長是否重複計數？公告支援的是處分還是暫時禁賽？TUE、陰性申報、無過失違規、公開警告、撤案是否混同？起訖/退休停算、污染證據、成績取消/獎牌剝奪未知值、歷史當年規則是否被誤解？測試是否只證明欄位/資料一致而不能證明事實？既有171案被移出141待查是否應在完成宣稱中說清楚？
+
+請繁體中文回覆，使用以下段落：
+- 實際模型（如工具告知）、審查範圍：結構檢查筆數、實際來源對讀ID、未完成範圍。
+- 可驗證發現：每項severity(P0/P1/P2)、caseId、檔案行號或JSON路徑、公開原句、來源原句/定位(引文短於25字英文)、推理、建議；來源不足用「無法查證需人工確認」，不要當作已證實錯誤。
+- 刻意嘗試否定但排除的疑點（false positives）。
+- 結論：已證明什麼、尚不能證明什麼，是否支持「500件全部經獨立多模型複審通過」。最多10個有證據的問題，沒有就明確說沒有但不擴大範圍。

@@ -1,0 +1,512 @@
+{
+  "cases": [
+    {
+      "id": "usada-05a51bc91d1e",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-f83dc2eb24d71295",
+        "registry-03289fdb3314d48a"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-f83dc2eb24d71295",
+          "startLine": 7,
+          "endLine": 13,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "USADA確認田徑選手三次行蹤失誤及提交修改郵件，協議處三年，並列起算與取消成績期間。"
+        },
+        {
+          "documentId": "registry-03289fdb3314d48a",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "sanction",
+            "outcomes"
+          ],
+          "note": "名冊列三次行蹤失誤、竄改、三年處分及成績損失。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "medium",
+          "claim": "nationality：美國",
+          "explanation": "來源將選手列入美國反禁藥制度並以美國選手為標題，但未明確確認其國籍或代表國；所在地不足以單獨證明國籍。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-f83dc2eb24d71295",
+              "startLine": 1,
+              "endLine": 10
+            }
+          ],
+          "suggestion": "改標為美國反禁藥制度管轄／代表關係待確認，或補充可證明代表國的官方資料。"
+        }
+      ]
+    },
+    {
+      "id": "usada-365cbd5fbcea",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-94994948da541878",
+        "registry-4ecc48b4b95d8f9b"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-94994948da541878",
+          "startLine": 7,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告確認拳擊選手兩次賽外樣本皆為 furosemide，首次通知前第二次採樣故合併一次違規；未申請TUE，處一年並取消相關成績。"
+        },
+        {
+          "documentId": "registry-4ecc48b4b95d8f9b",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "sanction",
+            "outcomes"
+          ],
+          "note": "名冊列拳擊、furosemide、一年處分及成績損失。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "medium",
+          "claim": "nationality：美國",
+          "explanation": "公告標題稱美國拳擊選手並列波士頓居住地，但未明確確認國籍或代表國。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-94994948da541878",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "以反禁藥管轄或所在地描述取代國籍，除非另有代表國證據。"
+        }
+      ]
+    },
+    {
+      "id": "usada-13e15093f36a",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "uncertain",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-c0150af1b6d6d9ca",
+        "registry-a2ef79439250ce00"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-c0150af1b6d6d9ca",
+          "startLine": 7,
+          "endLine": 9,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告確認兩次超過100毫升／12小時輸注、未符合TUE或例外，並指出賽外無競賽成績可取消。"
+        },
+        {
+          "documentId": "registry-a2ef79439250ce00",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "sanction",
+            "outcomes"
+          ],
+          "note": "名冊將違規記為輸注使用，處以公開警告。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "medium",
+          "claim": "nationality：美國",
+          "explanation": "美國帕拉選手標題及新澤西所在地未明確證明其國籍或代表國。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-c0150af1b6d6d9ca",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "改為美國反禁藥管轄／代表關係待確認，或補充官方代表國資料。"
+        },
+        {
+          "field": "sanction",
+          "kind": "insufficient_evidence",
+          "severity": "low",
+          "claim": "沒有禁賽期間",
+          "explanation": "公告明載接受公開警告，名冊亦列公開警告；但所提供資料沒有明確說明警告是否伴隨任何禁賽期間。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-c0150af1b6d6d9ca",
+              "startLine": 7,
+              "endLine": 9
+            },
+            {
+              "documentId": "registry-a2ef79439250ce00",
+              "startLine": 1,
+              "endLine": 1
+            }
+          ],
+          "suggestion": "保留公開警告結果；若要確稱無禁賽，補充明確說明該處分不含禁賽的來源。"
+        }
+      ]
+    },
+    {
+      "id": "usada-3b36b9d0fea7",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-e03bacaccd416f3f",
+        "registry-971795e0f332c186"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-e03bacaccd416f3f",
+          "startLine": 7,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告確認帕拉田徑、全國錦標賽賽內檢體 carboxy-THC 高於180 ng/mL判定界限、三個月處分及成績取消。"
+        },
+        {
+          "documentId": "registry-971795e0f332c186",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "sanction",
+            "outcomes"
+          ],
+          "note": "名冊記載大麻素、三個月處分及成績損失。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "medium",
+          "claim": "nationality：美國",
+          "explanation": "公告標題及美國全國錦標賽參賽背景未明確證明選手國籍或代表國。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-e03bacaccd416f3f",
+              "startLine": 1,
+              "endLine": 8
+            }
+          ],
+          "suggestion": "改標代表國待確認，或補充能證明其代表國的官方資料。"
+        }
+      ]
+    },
+    {
+      "id": "usada-77feffe8dfef",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-562a7ceff069f88d",
+        "registry-c253cd1b13e67e77"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-562a7ceff069f88d",
+          "startLine": 7,
+          "endLine": 11,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告確認自行車選手 EPO 非典型結果後調查、第二次拒絕血液採樣；十二年處分於退休期間暫停計時及取消其後賽績。"
+        },
+        {
+          "documentId": "registry-c253cd1b13e67e77",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "sanction",
+            "outcomes"
+          ],
+          "note": "名冊記為拒絕採樣、十二年處分、成績損失及退休期間暫停計時。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "medium",
+          "claim": "nationality：美國",
+          "explanation": "公告以美國自行車選手為標題並列佛羅里達所在地，未明確確認其國籍或代表國。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-562a7ceff069f88d",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "以代表國待確認描述，或補充官方代表國資料。"
+        }
+      ]
+    },
+    {
+      "id": "usada-06ec1067d02c",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-7161268621d88b7c",
+        "registry-f88440bc08a08e6e"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-7161268621d88b7c",
+          "startLine": 7,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告確認舉重選手大師賽賽內樣本，IRMS確認合成來源的睪固酮或前驅物，處四年並取消相關成績。"
+        },
+        {
+          "documentId": "registry-f88440bc08a08e6e",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "sanction",
+            "outcomes"
+          ],
+          "note": "名冊列合成代謝類固醇、四年處分及成績損失。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "medium",
+          "claim": "nationality：美國",
+          "explanation": "公告標題稱美國舉重選手並列科羅拉多所在地，未明確確認國籍或代表國。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-7161268621d88b7c",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "以管轄或代表國待確認描述，或補充官方代表國證據。"
+        }
+      ]
+    },
+    {
+      "id": "usada-b0f378938e1f",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-ca500bef39f720c9",
+        "registry-b73a36e8129f6356"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-ca500bef39f720c9",
+          "startLine": 7,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告確認帕拉田徑選手於 Desert Challenge Games 賽內檢體 carboxy-THC 超過180 ng/mL，接受三個月處分並取消其後賽績。"
+        },
+        {
+          "documentId": "registry-b73a36e8129f6356",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "sanction",
+            "outcomes"
+          ],
+          "note": "名冊列大麻素、三個月處分及成績損失。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "medium",
+          "claim": "nationality：美國",
+          "explanation": "美國帕拉田徑標題及德州所在地不足以明確證明國籍或代表國。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-ca500bef39f720c9",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "改標代表國待確認，或補充官方代表國資料。"
+        }
+      ]
+    },
+    {
+      "id": "usada-edbbe5e82ff0",
+      "status": "uncertain",
+      "checks": {
+        "identity": "supported",
+        "country": "uncertain",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-71d7cdd6c77b074c",
+        "registry-555cf204c0c65d68"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-71d7cdd6c77b074c",
+          "startLine": 7,
+          "endLine": 11,
+          "supports": [
+            "identity",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告確認橄欖球選手賽外 tamoxifen 陽性、治療劑量符合前瞻TUE條件但未事前取得TUE，處六個月並僅取消採樣當日成績。"
+        },
+        {
+          "documentId": "registry-555cf204c0c65d68",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "sanction",
+            "outcomes"
+          ],
+          "note": "名冊列橄欖球、tamoxifen、六個月處分及成績損失。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "kind": "insufficient_evidence",
+          "severity": "medium",
+          "claim": "nationality：美國",
+          "explanation": "美國橄欖球選手標題及俄亥俄所在地未明確證明國籍或代表國。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-71d7cdd6c77b074c",
+              "startLine": 1,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "將國籍／代表國標為待確認，或補充明確代表關係的官方證據。"
+        }
+      ]
+    }
+  ]
+}

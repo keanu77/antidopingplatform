@@ -1,0 +1,78 @@
+{
+  "baselineSha256": "faccca573557067f62ece4e689800a85efd8900ac34b20dca1a4f862c3ba1faa",
+  "caseCount": 44,
+  "batches": [
+    {
+      "batch": "country-001",
+      "path": ".cache/source-followups-20260924/packets/country-001.json",
+      "sha256": "6fc6c2c4587946dfbe3c39dd991209475ddf22bf3eaa3c3cf2576412a279c83b",
+      "caseIds": [
+        "usada-7e6f399372a6",
+        "usada-5c5d5188ddf0",
+        "usada-0265c80a975c",
+        "usada-05a51bc91d1e",
+        "usada-10e9f0a6f725",
+        "usada-091e5bf27388",
+        "usada-6295d61b3ba5",
+        "usada-3795cadeeacf",
+        "usada-73b73fbed23a",
+        "usada-ac7fef21590c",
+        "usada-4844a2d25120"
+      ]
+    },
+    {
+      "batch": "country-002",
+      "path": ".cache/source-followups-20260924/packets/country-002.json",
+      "sha256": "3755501d32fd827b2209d34962d5b481adc45fa085cdef0576b6aecf13689073",
+      "caseIds": [
+        "usada-491a96341462",
+        "usada-d14484534da6",
+        "usada-04a1e7f11069",
+        "usada-f8fb776d4fa9",
+        "usada-137ddb330f29",
+        "usada-578b30358464",
+        "usada-4366103d9b91",
+        "usada-36b25b3d84e6",
+        "usada-2a8b050c35ed",
+        "usada-fb72031d87b1",
+        "usada-792c30cdc646"
+      ]
+    },
+    {
+      "batch": "country-003",
+      "path": ".cache/source-followups-20260924/packets/country-003.json",
+      "sha256": "8e2ffa62101821e8dc4e06d311445c68f7577f2a5840ddcc6278001a57d8f98a",
+      "caseIds": [
+        "usada-3e2c75f84c3d",
+        "usada-13e15093f36a",
+        "usada-3b36b9d0fea7",
+        "usada-7cdaea68994c",
+        "usada-b03e0386a601",
+        "usada-c269d76b2513",
+        "usada-5a084088440d",
+        "usada-e13aa658e684",
+        "usada-5d85c8dbd1a0",
+        "usada-8fb29d61bbde",
+        "usada-5541522b98d9"
+      ]
+    },
+    {
+      "batch": "country-004",
+      "path": ".cache/source-followups-20260924/packets/country-004.json",
+      "sha256": "dfa677fb3149fefc2465ade5e2c494c3fb27ec0aa20e953a6e7f095fc36b562a",
+      "caseIds": [
+        "usada-f75282803398",
+        "usada-51b08866d858",
+        "usada-abb5a10e0ed3",
+        "usada-d1537bff40b3",
+        "usada-1c34e76fa2a0",
+        "usada-990a455fba77",
+        "usada-a00b98f42826",
+        "usada-503574acf7cc",
+        "usada-196afd5ac99f",
+        "usada-c60db428c672",
+        "usada-ee1ce8ee98f6"
+      ]
+    }
+  ]
+}

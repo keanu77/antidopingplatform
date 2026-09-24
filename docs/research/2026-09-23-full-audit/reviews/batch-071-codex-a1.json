@@ -1,0 +1,402 @@
+{
+  "cases": [
+    {
+      "id": "usada-7047ef231eac",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-5c4d7ec135f7fa89",
+        "registry-7a036ee7d199474c"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-5c4d7ec135f7fa89",
+          "startLine": 7,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告確認姓名、舉重、檢體日期與賽事、兩種物質及IRMS結果，並載明三年處分、起算及成績取消。"
+        },
+        {
+          "documentId": "registry-7a036ee7d199474c",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction"
+          ],
+          "note": "名冊相符列出Lacoste、舉重、clomiphene與19-NA及三年處分。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-669c86e73b92",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-abb7b3ab664abcfc",
+        "registry-557e5479c4935fe6"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-abb7b3ab664abcfc",
+          "startLine": 7,
+          "endLine": 12,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告確認Prince為自行車選手及USA Cycling會員，賽事、外源性AAS判讀界限、四年處分與成績取消日期。"
+        },
+        {
+          "documentId": "registry-557e5479c4935fe6",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction"
+          ],
+          "note": "名冊列出Prince、cycling、AAS、四年處分及成績損失。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-f72472960e40",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-ba090f56bb8f2385",
+        "registry-f42e129d613d74ff"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-ba090f56bb8f2385",
+          "startLine": 7,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告確認Buckley、舉重、ostarine檢體與賽事日期、及早承認減刑、三年處分及成績取消。"
+        },
+        {
+          "documentId": "registry-f42e129d613d74ff",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction"
+          ],
+          "note": "名冊相符列出Buckley、ostarine與三年處分及成績損失。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-c60db428c672",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-8c05725038f11bd9",
+        "registry-8befacb888048065"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-8c05725038f11bd9",
+          "startLine": 7,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告確認Compton、自行車、賽外檢體日期、外源性合成代謝劑判讀、四年處分及成績取消。"
+        },
+        {
+          "documentId": "registry-8befacb888048065",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction"
+          ],
+          "note": "名冊列出Compton、自行車、AAS、四年處分及成績損失。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-6cd0ab12872b",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-a966022f4707a83a",
+        "registry-4a4d9024526d24f9"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-a966022f4707a83a",
+          "startLine": 7,
+          "endLine": 9,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告確認Hancock、舉重、stanozolol代謝物、賽事採樣日、四年處分起日及成績取消起日。"
+        },
+        {
+          "documentId": "registry-4a4d9024526d24f9",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction"
+          ],
+          "note": "名冊列出Hancock、舉重、stanozolol與四年處分及成績損失。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-8d214edc5d96",
+      "status": "issue",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "issue",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-8f3c57c39cb5ec1c",
+        "registry-a00316f01b69f8b3"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-8f3c57c39cb5ec1c",
+          "startLine": 7,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告確認Storie、五項賽、檢體日期、三類物質、第二次違規與實質協助減刑；文中明言LGD-4033及其代謝物。"
+        },
+        {
+          "documentId": "registry-a00316f01b69f8b3",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊列出退休停算、已復出及自2026-12-31可參賽。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "substance",
+          "kind": "contradiction",
+          "severity": "medium",
+          "claim": "substance：ostarine、LGD-4033 及代謝物、GW1516",
+          "explanation": "公告列明GW1516（GW501516），名冊列作GW15166，與資料庫的GW1516有文字差異；應保留公告所載名稱，名冊拼寫亦有歧異。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-8f3c57c39cb5ec1c",
+              "startLine": 8,
+              "endLine": 8
+            },
+            {
+              "documentId": "registry-a00316f01b69f8b3",
+              "startLine": 1,
+              "endLine": 1
+            }
+          ],
+          "suggestion": "以個案公告的GW1516（GW501516）為準，並註明名冊該列拼寫為GW15166。"
+        }
+      ]
+    },
+    {
+      "id": "usada-f708f100d313",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-8210a2dbeedaecc3",
+        "registry-439372e51c2dfa89"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-8210a2dbeedaecc3",
+          "startLine": 7,
+          "endLine": 9,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告確認Sisson、帕拉柔道、賽外拒絕提供檢體、四年處分起日及成績取消起日。"
+        },
+        {
+          "documentId": "registry-439372e51c2dfa89",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction"
+          ],
+          "note": "名冊將事件列為非分析性拒絕提交檢體，四年處分並損失成績。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-86ac6516e020",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-2035221d7fd2d2e3",
+        "registry-ac95d261eae0e7a0"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-2035221d7fd2d2e3",
+          "startLine": 7,
+          "endLine": 13,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告確認Gallardo、舉重、多項代謝物及物質類別、採樣日、四年處分起日與成績取消起日。"
+        },
+        {
+          "documentId": "registry-ac95d261eae0e7a0",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "substance",
+            "sanction"
+          ],
+          "note": "名冊列出Gallardo、舉重、相關物質及四年處分和成績損失。"
+        }
+      ],
+      "findings": []
+    }
+  ]
+}

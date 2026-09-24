@@ -39,8 +39,8 @@ const prednisolone = {
 };
 const testosterone = {
   prohibition: "in-and-out",
-  needsTUE: false,
-  tueEligible: false,
+  needsTUE: true,
+  tueEligible: true,
   routes: null,
 };
 const insulin = {
@@ -128,11 +128,12 @@ describe("evaluateDrug — 僅賽內禁用 + 途徑差異（糖皮質激素 pred
     }).verdict;
     expect(inj).not.toBe(inh);
   });
-  it("賽外任何途徑 → 允許（不需 TUE）", () => {
-    expect(
-      evaluateDrug(prednisolone, { route: "injection", inCompetition: false })
-        .verdict,
-    ).toBe("permitted");
+  it("賽外使用不禁，但提醒賽內殘留與必要時回溯 TUE", () => {
+    const result = evaluateDrug(prednisolone, { route: "injection", inCompetition: false });
+    expect(result.verdict).toBe("permitted");
+    expect(result.reasons.join(" ")).toContain("賽內檢體殘留");
+    expect(result.reasons.join(" ")).toContain("回溯 TUE");
+    expect(result.reasons.join(" ")).not.toContain("不需 TUE");
   });
   it("賽內未選途徑 → needs-tue（提示選途徑）", () => {
     const r = evaluateDrug(prednisolone, { route: null, inCompetition: true });
@@ -147,8 +148,11 @@ describe("evaluateDrug — 僅賽內禁用 + 途徑差異（糖皮質激素 pred
 });
 
 describe("evaluateDrug — 全時段禁用、無途徑差異", () => {
-  it("testosterone（tueEligible=false）→ 禁用（實務極少獲准）", () => {
-    expect(evaluateDrug(testosterone, {}).verdict).toBe("prohibited");
+  it("testosterone 有醫療需要 → 需申請 TUE、由 TUEC 個案審查", () => {
+    expect(evaluateDrug(testosterone, {}).verdict).toBe("needs-tue");
+  });
+  it("明確標記不可獲准的全時段禁用物質 → 禁用", () => {
+    expect(evaluateDrug({ prohibition: "in-and-out", tueEligible: false }, {}).verdict).toBe("prohibited");
   });
   it("insulin（tueEligible=true）→ 需 TUE", () => {
     expect(evaluateDrug(insulin, {}).verdict).toBe("needs-tue");

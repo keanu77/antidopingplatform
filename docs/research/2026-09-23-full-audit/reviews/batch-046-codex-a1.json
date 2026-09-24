@@ -1,0 +1,347 @@
+{
+  "cases": [
+    {
+      "id": "aiu-6ad885e39ba8",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-0c7e3f21a58e221f",
+        "registry-d901aefd0280ab4e"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-0c7e3f21a58e221f",
+          "startLine": 15,
+          "endLine": 15,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "決定確認選手為來自烏克蘭的馬拉松跑者。"
+        },
+        {
+          "documentId": "doc-0c7e3f21a58e221f",
+          "startLine": 49,
+          "endLine": 53,
+          "supports": [
+            "event",
+            "substance",
+            "dates"
+          ],
+          "note": "2024年4月21日 Enschede 馬拉松賽內尿樣檢出 EPO。"
+        },
+        {
+          "documentId": "doc-0c7e3f21a58e221f",
+          "startLine": 83,
+          "endLine": 85,
+          "supports": [
+            "sanction",
+            "education"
+          ],
+          "note": "選手簽署承認違規及接受後果文件。"
+        },
+        {
+          "documentId": "doc-0c7e3f21a58e221f",
+          "startLine": 109,
+          "endLine": 111,
+          "supports": [
+            "substance"
+          ],
+          "note": "EPO 屬 S2 非特定物質，全年禁用。"
+        },
+        {
+          "documentId": "doc-0c7e3f21a58e221f",
+          "startLine": 152,
+          "endLine": 156,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "禁賽三年自2024年8月21日起，並取消自採樣日的成績及相關後果。"
+        },
+        {
+          "documentId": "doc-0c7e3f21a58e221f",
+          "startLine": 56,
+          "endLine": 57,
+          "supports": [
+            "education"
+          ],
+          "note": "決定記載未獲授予或預期獲授予該 EPO 的 TUE。"
+        },
+        {
+          "documentId": "doc-0c7e3f21a58e221f",
+          "startLine": 67,
+          "endLine": 82,
+          "supports": [
+            "education"
+          ],
+          "note": "文件記載可藉及早承認接受處分減一年。"
+        },
+        {
+          "documentId": "registry-d901aefd0280ab4e",
+          "startLine": 1,
+          "endLine": 2,
+          "supports": [
+            "identity",
+            "country",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "AIU 名冊列出 UKR、三年禁賽起日及取消成績起日。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "aiu-4a9a2c98804d",
+      "status": "issue",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "issue",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-8ed49a7486c4626d",
+        "registry-427f0d27cfc1456e"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-8ed49a7486c4626d",
+          "startLine": 12,
+          "endLine": 12,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "決定確認選手 Federico Bruno 來自阿根廷。"
+        },
+        {
+          "documentId": "doc-8ed49a7486c4626d",
+          "startLine": 34,
+          "endLine": 59,
+          "supports": [
+            "event",
+            "substance",
+            "dates"
+          ],
+          "note": "2022年10月賽內樣本與2023年4月賽外樣本均檢出 EPO。"
+        },
+        {
+          "documentId": "doc-8ed49a7486c4626d",
+          "startLine": 138,
+          "endLine": 144,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "國內裁決另就第二樣本處四年禁賽，自2023年9月7日起。"
+        },
+        {
+          "documentId": "doc-8ed49a7486c4626d",
+          "startLine": 161,
+          "endLine": 175,
+          "supports": [
+            "event",
+            "outcomes"
+          ],
+          "note": "ODESUR 確認南美運動會個人成績取消，進一步後果交由 AIU 處理。"
+        },
+        {
+          "documentId": "doc-8ed49a7486c4626d",
+          "startLine": 253,
+          "endLine": 255,
+          "supports": [
+            "substance"
+          ],
+          "note": "EPO 屬 S2 非特定物質，全年禁用。"
+        },
+        {
+          "documentId": "doc-8ed49a7486c4626d",
+          "startLine": 315,
+          "endLine": 320,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "AIU 六年禁賽自2023年7月18日起，取消自2022年10月12日起的成績。"
+        },
+        {
+          "documentId": "doc-8ed49a7486c4626d",
+          "startLine": 204,
+          "endLine": 211,
+          "supports": [
+            "sanction",
+            "education"
+          ],
+          "note": "AIU 主張多次使用構成加重情節，六年與國內禁賽同時執行。"
+        },
+        {
+          "documentId": "doc-8ed49a7486c4626d",
+          "startLine": 228,
+          "endLine": 237,
+          "supports": [
+            "education",
+            "dates"
+          ],
+          "note": "首次陽性通知在第二次採樣後，依規則按單一違規處理。"
+        },
+        {
+          "documentId": "registry-427f0d27cfc1456e",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "country",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "AIU 名冊列出 ARG、六年禁賽起日及取消成績起日。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "dates",
+          "kind": "contradiction",
+          "severity": "high",
+          "claim": "禁賽期間：自 2023-07-18 起六年",
+          "explanation": "AIU 最終決定明定六年禁賽自2023年7月18日暫時停賽日起算；文件提及的國內四年處分則自2023年9月7日起，兩者同時執行。公開敘述將處分日期寫成2023年7月18日正確，但未區分這是 AIU 六年處分起日，且事件年份欄標示2022年、日期語境未混淆。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-8ed49a7486c4626d",
+              "startLine": 138,
+              "endLine": 143
+            },
+            {
+              "documentId": "doc-8ed49a7486c4626d",
+              "startLine": 315,
+              "endLine": 316
+            }
+          ],
+          "suggestion": "標明2023年7月18日是 AIU 六年處分起日；另註國內四年處分自2023年9月7日起並同時執行。"
+        }
+      ]
+    },
+    {
+      "id": "aiu-3e47571f3755",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-00abdfc085d3b9d2",
+        "registry-8685f84d8d49b0ff"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-00abdfc085d3b9d2",
+          "startLine": 12,
+          "endLine": 12,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "決定確認 Tuitoek 是來自肯亞的公路跑者。"
+        },
+        {
+          "documentId": "doc-00abdfc085d3b9d2",
+          "startLine": 55,
+          "endLine": 61,
+          "supports": [
+            "event",
+            "substance",
+            "dates"
+          ],
+          "note": "2024年7月25日在肯亞 Kapsabet 採集的賽外尿樣檢出 EPO。"
+        },
+        {
+          "documentId": "doc-00abdfc085d3b9d2",
+          "startLine": 83,
+          "endLine": 84,
+          "supports": [
+            "sanction",
+            "education"
+          ],
+          "note": "選手於9月6日簽署承認違規及接受後果文件。"
+        },
+        {
+          "documentId": "doc-00abdfc085d3b9d2",
+          "startLine": 108,
+          "endLine": 110,
+          "supports": [
+            "substance"
+          ],
+          "note": "EPO 屬 S2 非特定物質，全年禁用。"
+        },
+        {
+          "documentId": "doc-00abdfc085d3b9d2",
+          "startLine": 164,
+          "endLine": 169,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "禁賽三年自2024年8月30日起，取消自採樣日起的成績及相關後果。"
+        },
+        {
+          "documentId": "doc-00abdfc085d3b9d2",
+          "startLine": 66,
+          "endLine": 71,
+          "supports": [
+            "education"
+          ],
+          "note": "決定記載未獲授予或預期獲授予該 EPO 的 TUE。"
+        },
+        {
+          "documentId": "doc-00abdfc085d3b9d2",
+          "startLine": 142,
+          "endLine": 143,
+          "supports": [
+            "education"
+          ],
+          "note": "決定記載因及早承認接受處分減一年。"
+        },
+        {
+          "documentId": "registry-8685f84d8d49b0ff",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "country",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "AIU 名冊列出 KEN、三年處分及取消成績起日。"
+        }
+      ],
+      "findings": []
+    }
+  ]
+}

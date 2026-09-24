@@ -1,0 +1,429 @@
+{
+  "cases": [
+    {
+      "id": "ita-5e7e6ea76e46",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-eba6ed63e83dd566",
+        "registry-b76198c4b53018c8"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-eba6ed63e83dd566",
+          "startLine": 2,
+          "endLine": 4,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "公告確認烏克蘭泰拳選手因三次行蹤失誤違規，兩年禁賽及成績取消期間。"
+        },
+        {
+          "documentId": "registry-b76198c4b53018c8",
+          "startLine": 1,
+          "endLine": 20,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊列明選手、國家、運動、條款、違規日、禁賽期及取消成績期間。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-671290710875",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-c3db2e01c33bad40",
+        "registry-1f55abee27e9ae1f"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-c3db2e01c33bad40",
+          "startLine": 2,
+          "endLine": 7,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告確認英國雪車選手樣本檢出奧斯他林、非故意、接受兩年禁賽及相關日期。"
+        },
+        {
+          "documentId": "registry-1f55abee27e9ae1f",
+          "startLine": 1,
+          "endLine": 20,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊核實國家、項目、條款、違規日、禁賽期與取消成績期間。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-cd4ff5268813",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-2d7bece753668d96",
+        "registry-8bb3927864609067"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-2d7bece753668d96",
+          "startLine": 2,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告確認奈及利亞舉重選手於非洲錦標賽採樣陽性、接受四年禁賽及成績取消期間。"
+        },
+        {
+          "documentId": "registry-8bb3927864609067",
+          "startLine": 1,
+          "endLine": 20,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊核實 stanozolol 代謝物、條款、違規日、禁賽期及取消成績期間。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-51c526c62685",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-82aafa01815af994",
+        "registry-70a0d8566ecd13f6"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-82aafa01815af994",
+          "startLine": 2,
+          "endLine": 8,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告確認哈薩克綜合格鬥選手於 GAMMA 世界錦標賽樣本檢出 meldonium、四年禁賽及賽事成績取消。"
+        },
+        {
+          "documentId": "registry-70a0d8566ecd13f6",
+          "startLine": 1,
+          "endLine": 23,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊核實本人條款、違規日、禁賽與成績處理期間。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-097e950d5957",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-ceaebb8755adc33b",
+        "registry-df2caf0ab839ecf3"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-ceaebb8755adc33b",
+          "startLine": 2,
+          "endLine": 8,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告確認哈薩克綜合格鬥選手於同場世界錦標賽 meldonium 陽性，四年禁賽及成績取消。"
+        },
+        {
+          "documentId": "registry-df2caf0ab839ecf3",
+          "startLine": 1,
+          "endLine": 23,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊列明 Sardarov 本人之違規日、條款、禁賽及取消成績期間。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-03eeb52b0fd1",
+      "status": "issue",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "issue",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-9274abfded30f944",
+        "registry-5fae52494c8ee3d0"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-9274abfded30f944",
+          "startLine": 4,
+          "endLine": 7,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告指出取消成績至 2025 年 12 月 13 日，且明言包含獎牌、積分與獎品 forfeiture。"
+        },
+        {
+          "documentId": "registry-5fae52494c8ee3d0",
+          "startLine": 19,
+          "endLine": 20,
+          "supports": [
+            "outcomes"
+          ],
+          "note": "名冊列出取消成績期間至禁賽開始前一日。"
+        }
+      ],
+      "findings": [
+        {
+          "field": "outcomes",
+          "kind": "contradiction",
+          "severity": "high",
+          "claim": "medalStripped: null",
+          "explanation": "官方公告明確列出相關賽事成績取消，並包含獎牌、積分及獎品 forfeiture；將獎牌結果留作 null 與已確認結果不符。",
+          "sourceRefs": [
+            {
+              "documentId": "doc-9274abfded30f944",
+              "startLine": 7,
+              "endLine": 7
+            }
+          ],
+          "suggestion": "將獎牌後果記為已確認取消／ forfeiture，並說明適用於所列期間的個人競賽成績。"
+        }
+      ]
+    },
+    {
+      "id": "ita-189277da5c1a",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-0f7451126ef6b0b3",
+        "registry-e8d9a16c9004077f"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-0f7451126ef6b0b3",
+          "startLine": 2,
+          "endLine": 7,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告確認阿根廷 MMA 選手於泛美錦標賽樣本檢出 furosemide，兩年禁賽並取消自採樣日起成績。"
+        },
+        {
+          "documentId": "registry-e8d9a16c9004077f",
+          "startLine": 1,
+          "endLine": 20,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊核實違規條款、日期、禁賽期及取消成績自 2024 年 7 月 7 日起。"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ita-55fa8485fa30",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-2c956b2beb6d3535",
+        "registry-67b16bcd51ccbca3"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-2c956b2beb6d3535",
+          "startLine": 2,
+          "endLine": 10,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes",
+            "education"
+          ],
+          "note": "公告確認伊拉克舉重選手第二次違規、及早承認減一年，七年禁賽及取消成績期間。"
+        },
+        {
+          "documentId": "registry-67b16bcd51ccbca3",
+          "startLine": 1,
+          "endLine": 22,
+          "supports": [
+            "identity",
+            "country",
+            "event",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊核實 stanozolol 相關物質、違規日、七年禁賽及取消成績期間。"
+        }
+      ],
+      "findings": []
+    }
+  ]
+}

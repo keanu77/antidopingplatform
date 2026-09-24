@@ -1,0 +1,9 @@
+{
+  "seat": "Gemini bounded source comparison",
+  "startedAt": "2026-09-23T04:56:14.451619+00:00",
+  "caseCount": 8,
+  "toolsRequested": false,
+  "exitCode": 0,
+  "status": "returned",
+  "elapsedSeconds": 93.92
+}

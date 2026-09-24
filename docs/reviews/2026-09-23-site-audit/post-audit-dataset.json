@@ -1,0 +1,19 @@
+{
+  "checkedAt": "2026-09-23T08:58:43.894511+00:00",
+  "historicalMultiModelDatasetSha256": "81585990d76b5d4015fa92c3a39f2d8ad60470da67177e010ac40c7db2511a07",
+  "currentDatasetSha256": "52513ba9e6040d6781c5dcfacbd440b0ba1f976c92812e404de370e860beff52",
+  "caseCount": 517,
+  "newCases": 500,
+  "legacyCorrectedCases": 17,
+  "sourceCompared": 15,
+  "atLeastTwoModels": 8,
+  "threeModels": 4,
+  "titleOnlyCountryEvidence": 252,
+  "all500IndependentlyMultiModelAudited": false,
+  "postAuditChanges": [
+    "Paparella: replace imprisonment wording with sporting suspension and clarify retrospective TUE not granted / list change termination",
+    "Record source-comparison coverage and title-only country evidence in generated dataset",
+    "No new multi-model source review was run for the corrected dataset"
+  ],
+  "historicalAnswersUnchanged": true
+}

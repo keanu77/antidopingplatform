@@ -1,0 +1,558 @@
+[
+  {
+    "batch_id": "B01-01",
+    "source_url": "https://ita.sport/news/the-ita-acknowledges-the-cas-award-partially-upholding-the-appeal-of-ski-mountaineering-athlete-enrico-pellegrini/",
+    "snapshot_sha256": "d3e5593edc7a5b9a159e65a94a8daa13317f1380226edbff3b579cecabca97ff",
+    "title": "The ITA acknowledges the CAS Award partially upholding the appeal of Ski Mountaineering athlete Enrico Pellegrini",
+    "retrieved_date": "2026-09-22",
+    "word_count": 314,
+    "date_candidates": [
+      "18 September 2026"
+    ]
+  },
+  {
+    "batch_id": "B01-02",
+    "source_url": "https://ita.sport/news/the-ita-reports-that-softball-player-cameron-schiller-has-accepted-a-3-year-ban-for-his-anti-doping-rule-violation/",
+    "snapshot_sha256": "968658c19e4812a2fadf4aaf3306a87c963672ee6c2940184c8cd7ccbf81e02c",
+    "title": "The ITA reports that softball player Cameron Schiller has accepted a 3-year ban for his anti-doping rule violation",
+    "retrieved_date": "2026-09-22",
+    "word_count": 418,
+    "date_candidates": [
+      "16 September 2026"
+    ]
+  },
+  {
+    "batch_id": "B01-03",
+    "source_url": "https://ita.sport/news/the-ita-acknowledges-the-international-hearing-panel-decision-sanctioning-ironman-athlete-joe-skipper/",
+    "snapshot_sha256": "1ec21dd252bae3420a900afd5eb91ab5dc0b25683cec36d2ba20ea7c373d6c32",
+    "title": "The ITA acknowledges the International Hearing Panel decision sanctioning Ironman athlete Joe Skipper",
+    "retrieved_date": "2026-09-22",
+    "word_count": 455,
+    "date_candidates": [
+      "4 September 2026"
+    ]
+  },
+  {
+    "batch_id": "B01-04",
+    "source_url": "https://ita.sport/news/the-ita-reports-that-athlete-aymane-takzima-has-accepted-a-3-year-ban-for-his-breach-of-anti-doping-rules/",
+    "snapshot_sha256": "97ce339b3e1e4e4a870a46da4890d7b8784c5e8e1e8730da6d2dc7502a345e5b",
+    "title": "The ITA reports that athlete Aymane Takzima has accepted a 3-year ban for his breach of anti-doping rules",
+    "retrieved_date": "2026-09-22",
+    "word_count": 446,
+    "date_candidates": [
+      "28 August 2026"
+    ]
+  },
+  {
+    "batch_id": "B01-05",
+    "source_url": "https://ita.sport/news/the-ita-reports-that-mixed-martial-arts-athlete-nursultan-mendybayev-has-been-sanctioned-with-a-six-year-ban/",
+    "snapshot_sha256": "93a7f7ff62ddf8e5d2a049a58340468e74d19633825fcc6da75fce527210118c",
+    "title": "The ITA reports that Mixed Martial Arts athlete Nursultan Mendybayev has been sanctioned with a six‑year ban",
+    "retrieved_date": "2026-09-22",
+    "word_count": 421,
+    "date_candidates": [
+      "27 August 2026"
+    ]
+  },
+  {
+    "batch_id": "B01-06",
+    "source_url": "https://ita.sport/news/cas-imposes-six-year-ban-on-bulgarian-canoeist-yoana-georgieva/",
+    "snapshot_sha256": "220d3926d540be91376469f26d82fdc00832550dc56e84fef182ad799ec79cca",
+    "title": "CAS imposes six-year ban on Bulgarian canoeist Yoana Georgieva",
+    "retrieved_date": "2026-09-22",
+    "word_count": 528,
+    "date_candidates": [
+      "20 August 2026"
+    ]
+  },
+  {
+    "batch_id": "B01-07",
+    "source_url": "https://ita.sport/news/the-ita-reports-that-wrestler-syimyk-makhmedov-has-been-sanctioned-with-a-four-year-period-of-ineligibility/",
+    "snapshot_sha256": "bab5ed24351ee89a7c60e5ba27754047e7baa32e6751824ca181e62d57a188b3",
+    "title": "The ITA reports that wrestler Syimyk Makhmedov has been sanctioned with a four-year period of ineligibility",
+    "retrieved_date": "2026-09-22",
+    "word_count": 342,
+    "date_candidates": [
+      "11 August 2026"
+    ]
+  },
+  {
+    "batch_id": "B01-08",
+    "source_url": "https://ita.sport/news/the-ita-reports-that-wrestler-erdenesuvd-bat-erdene-has-been-sanctioned-with-a-two-year-period-of-ineligibility/",
+    "snapshot_sha256": "e7c8abd3677353a00a29ee0f4a3908ff7ab69c8a9c437ee043096096c92aa672",
+    "title": "The ITA reports that wrestler Erdenesuvd Bat Erdene has been sanctioned with a two-year period of ineligibility",
+    "retrieved_date": "2026-09-22",
+    "word_count": 446,
+    "date_candidates": [
+      "11 August 2026"
+    ]
+  },
+  {
+    "batch_id": "B01-09",
+    "source_url": "https://ita.sport/news/the-ita-reports-that-weightlifter-aziz-mannai-has-been-sanctioned-with-a-4-year-period-of-ineligibility/",
+    "snapshot_sha256": "8362962c4f5b14a0207de00decd7e7faec57bb00184289daf3d2983c6f25f551",
+    "title": "The ITA reports that weightlifter Aziz Mannai has been sanctioned with a 4-year period of ineligibility",
+    "retrieved_date": "2026-09-22",
+    "word_count": 422,
+    "date_candidates": [
+      "7 August 2026"
+    ]
+  },
+  {
+    "batch_id": "B01-10",
+    "source_url": "https://ita.sport/news/the-ita-acknowledges-the-uci-anti-doping-tribunal-decision-sanctioning-giovanni-carboni/",
+    "snapshot_sha256": "ecf327407d11673298c5ad35750c61cece5e2358727ce023320f927c2545820f",
+    "title": "The ITA acknowledges the UCI Anti-Doping Tribunal decision sanctioning Giovanni Carboni",
+    "retrieved_date": "2026-09-22",
+    "word_count": 387,
+    "date_candidates": [
+      "6 August 2026"
+    ]
+  },
+  {
+    "batch_id": "B01-11",
+    "source_url": "https://ita.sport/news/the-ita-reports-that-triathlete-abdulrahman-alghamdi-has-been-sanctioned-with-a-6-year-period-of-ineligibility/",
+    "snapshot_sha256": "ce7cdc1a5dfa948227dd2957102256135eb244687b98ab506f36c24a3e98f0a7",
+    "title": "The ITA reports that triathlete Abdulrahman Alghamdi has been sanctioned with a 6-year period of ineligibility",
+    "retrieved_date": "2026-09-22",
+    "word_count": 400,
+    "date_candidates": [
+      "31 July 2026"
+    ]
+  },
+  {
+    "batch_id": "B01-12",
+    "source_url": "https://ita.sport/news/the-ita-reports-that-weightlifter-jhohan-david-sanguino-matamoros-has-accepted-a-4-year-ban-for-his-adrv/",
+    "snapshot_sha256": "4c59d4b85373977bfbc2f7e12e268173150fd86d4ef590935ff45d1f407937df",
+    "title": "The ITA reports that weightlifter Jhohan David Sanguino Matamoros has accepted a 4 year ban for his ADRV",
+    "retrieved_date": "2026-09-22",
+    "word_count": 565,
+    "date_candidates": [
+      "30 July 2026"
+    ]
+  },
+  {
+    "batch_id": "B01-13",
+    "source_url": "https://ita.sport/news/the-ita-reports-that-weightlifter-brenda-uchenna-bosah-has-been-sanctioned-with-a-3-year-period-of-ineligibility/",
+    "snapshot_sha256": "592170fe0fcfea0fcbd099dfd0cd3e931255be4e7f52f53ed32afb75791c6559",
+    "title": "The ITA reports that weightlifter Brenda Uchenna Bosah has been sanctioned with a 3-year period of ineligibility",
+    "retrieved_date": "2026-09-22",
+    "word_count": 397,
+    "date_candidates": [
+      "30 July 2026"
+    ]
+  },
+  {
+    "batch_id": "B01-14",
+    "source_url": "https://ita.sport/news/the-ita-reports-that-rider-junhong-lin-has-accepted-a-4-year-period-of-ineligibility-for-her-anti-doping-rule-violation/",
+    "snapshot_sha256": "2aab32b18525f3ed6b19d40ff5bea19040e84b6208ac75be50463d0ebfdfdc0c",
+    "title": "The ITA reports that rider Junhong Lin has accepted a 4-year period of ineligibility for her anti-doping rule violation",
+    "retrieved_date": "2026-09-22",
+    "word_count": 485,
+    "date_candidates": [
+      "29 July 2026"
+    ]
+  },
+  {
+    "batch_id": "B01-15",
+    "source_url": "https://ita.sport/news/the-ita-reports-that-archer-mariana-bernal-sanchez-has-accepted-a-3-year-ban-for-her-anti-doping-rule-violation/",
+    "snapshot_sha256": "3c1ded04450d1c08b20caed4db149292ea34aabb7ac67102f2b6965635d60040",
+    "title": "The ITA reports that archer Mariana Bernal Sanchez has accepted a 3-year ban for her anti-doping rule violation",
+    "retrieved_date": "2026-09-22",
+    "word_count": 437,
+    "date_candidates": [
+      "2 July 2026"
+    ]
+  },
+  {
+    "batch_id": "B01-16",
+    "source_url": "https://ita.sport/news/the-ita-acknowledges-the-international-hearing-panel-decision-sanctioning-wushu-athlete-parveen-sharma/",
+    "snapshot_sha256": "a3eac0f64fe6ddf41e601ee267e939b37288ed9bc830a92c966918c1e331e450",
+    "title": "The ITA acknowledges the International Hearing Panel decision sanctioning wushu athlete Parveen Sharma",
+    "retrieved_date": "2026-09-22",
+    "word_count": 430,
+    "date_candidates": [
+      "27 June 2026"
+    ]
+  },
+  {
+    "batch_id": "B01-17",
+    "source_url": "https://ita.sport/news/the-ita-reports-that-boxer-enkhtur-tegshjargal-accepted-a-2-year-sanction-for-three-whereabouts-failures/",
+    "snapshot_sha256": "9b0a4e72f75d714e2e9c8187027a2376f185bc68f842e2a13226af130e377b63",
+    "title": "The ITA reports that boxer Enkhtur Tegshjargal accepted a 2-year sanction for three whereabouts failures",
+    "retrieved_date": "2026-09-22",
+    "word_count": 320,
+    "date_candidates": [
+      "24 June 2026"
+    ]
+  },
+  {
+    "batch_id": "B01-18",
+    "source_url": "https://ita.sport/news/court-of-arbitration-for-sport-confirms-eight-year-ban-imposed-on-turkish-weightlifter-batu-han-yuksel/",
+    "snapshot_sha256": "9eb5962a31da5f806cdfb46323849431a83ed724bbe2618e400440a53aa604d7",
+    "title": "Court of Arbitration for Sport confirms eight-year ban imposed on Turkish weightlifter Batu Han Yuksel",
+    "retrieved_date": "2026-09-22",
+    "word_count": 336,
+    "date_candidates": [
+      "10 June 2026"
+    ]
+  },
+  {
+    "batch_id": "B01-19",
+    "source_url": "https://ita.sport/news/the-ita-reports-that-archer-prathamesh-samadhan-jawkar-has-accepted-a-2-year-sanction-for-three-whereabouts-failures/",
+    "snapshot_sha256": "39aee48d7077cd26eec8d5c74a576b4d64b6c29e5655b34c5b323b85bf12e84e",
+    "title": "The ITA reports that archer Prathamesh Samadhan Jawkar has accepted a 2-year sanction for three whereabouts failures",
+    "retrieved_date": "2026-09-22",
+    "word_count": 318,
+    "date_candidates": [
+      "5 June 2026"
+    ]
+  },
+  {
+    "batch_id": "B01-20",
+    "source_url": "https://ita.sport/news/the-ita-reports-that-gymnast-daniil-kuzmin-has-been-sanctioned-with-a-3-year-period-of-ineligibility/",
+    "snapshot_sha256": "568f6c07c597566a8563954220e0c7ee6a2b44add7f8ef9ef316f7e0694c3fb9",
+    "title": "The ITA reports that gymnast Daniil Kuzmin has been sanctioned with a 3-year period of ineligibility",
+    "retrieved_date": "2026-09-22",
+    "word_count": 382,
+    "date_candidates": [
+      "29 May 2026"
+    ]
+  },
+  {
+    "batch_id": "B01-21",
+    "source_url": "https://ita.sport/news/the-ita-reports-that-two-sambo-athletes-have-been-sanctioned-with-a-5-and-3-year-period-of-ineligibility-respectively/",
+    "snapshot_sha256": "4dca4b14478063a98624296e2f2eab9e0eb3bc8ee2a7edf51461dc6eb6d1b887",
+    "title": "The ITA reports that two Sambo athletes have been sanctioned with a 5- and 3-year period of ineligibility, respectively",
+    "retrieved_date": "2026-09-22",
+    "word_count": 696,
+    "date_candidates": [
+      "13 May 2026"
+    ]
+  },
+  {
+    "batch_id": "B01-22",
+    "source_url": "https://ita.sport/news/the-ita-reports-that-two-sambo-athletes-have-been-sanctioned-with-a-5-and-3-year-period-of-ineligibility-respectively/",
+    "snapshot_sha256": "4fafa2b1dd00c4d27447c8b69018d0e458bb5102bef24d0f728802e5edf842e5",
+    "title": "The ITA reports that two Sambo athletes have been sanctioned with a 5- and 3-year period of ineligibility, respectively",
+    "retrieved_date": "2026-09-22",
+    "word_count": 696,
+    "date_candidates": [
+      "13 May 2026"
+    ]
+  },
+  {
+    "batch_id": "B01-23",
+    "source_url": "https://ita.sport/news/the-ita-reports-that-kurash-athlete-dayanch-omirov-has-been-sanctioned-with-a-six-year-period-of-ineligibility/",
+    "snapshot_sha256": "7bf4e11b12dd6443e359b90ca77cb25f77974a96fcd0725ebf7c48faebc08d74",
+    "title": "The ITA reports that kurash athlete Dayanch Omirov has been sanctioned with a six‑year period of ineligibility",
+    "retrieved_date": "2026-09-22",
+    "word_count": 416,
+    "date_candidates": [
+      "12 May 2026"
+    ]
+  },
+  {
+    "batch_id": "B01-24",
+    "source_url": "https://ita.sport/news/the-ita-reports-that-mma-athlete-nihad-fozail-oglu-nihad-has-been-sanctioned-with-a-four-year-period-of-ineligibility/",
+    "snapshot_sha256": "2acb92f28094405f8fe34a0c3a1c0dae102cf2469bc4cce04d2cec5656a878aa",
+    "title": "The ITA reports that MMA athlete Nihad Fozail Oglu Nihad has been sanctioned with a four-year period of ineligibility",
+    "retrieved_date": "2026-09-22",
+    "word_count": 358,
+    "date_candidates": [
+      "11 May 2026"
+    ]
+  },
+  {
+    "batch_id": "B01-25",
+    "source_url": "https://ita.sport/news/the-ita-reports-that-taekwondo-athlete-maicol-de-andrade-siqueira-receives-a-2-year-period-of-ineligibility/",
+    "snapshot_sha256": "15d07c469d1cad60a0ec35a8af6384d66846fbf5483dafda180bc0d28ae75a89",
+    "title": "The ITA reports that taekwondo athlete Maicon de Andrade Siqueira receives a 2-year period of ineligibility",
+    "retrieved_date": "2026-09-22",
+    "word_count": 289,
+    "date_candidates": [
+      "8 May 2026"
+    ]
+  },
+  {
+    "batch_id": "B01-26",
+    "source_url": "https://ita.sport/news/the-ita-reports-that-weightlifter-nurlan-rasulov-has-accepted-a-5-year-ban-for-his-anti-doping-rule-violation/",
+    "snapshot_sha256": "c083b4e90990f0afb09d80f0877cbcea31e0756d33391e66db10c1a86afec411",
+    "title": "The ITA reports that weightlifter Nurlan Rasulov has accepted a 5‑year ban for his anti‑doping rule violation",
+    "retrieved_date": "2026-09-22",
+    "word_count": 681,
+    "date_candidates": [
+      "7 May 2026"
+    ]
+  },
+  {
+    "batch_id": "B01-27",
+    "source_url": "https://ita.sport/news/the-ita-reports-that-athlete-vitoria-maciel-marcos-has-accepted-a-2-year-ban-for-her-anti-doping-rule-violation/",
+    "snapshot_sha256": "fc23552dc5f027db80646216b4bf2e302b67684f067102e246eb0b95b12f889e",
+    "title": "The ITA reports that athlete Vitória Maciel Marcos has accepted a 2-year ban for her anti-doping rule violation",
+    "retrieved_date": "2026-09-22",
+    "word_count": 399,
+    "date_candidates": [
+      "17 April 2026"
+    ]
+  },
+  {
+    "batch_id": "B01-28",
+    "source_url": "https://ita.sport/news/the-ita-reports-that-baseball-player-jean-carlos-herrera-malambo-has-been-sanctioned-with-a-3-year-period-of-ineligibility/",
+    "snapshot_sha256": "fd9553c5a918af881107874d428b595884034c25659dcd87780cb924bc3ca3d0",
+    "title": "The ITA reports that baseball player Jean Carlos Herrera Malambo has been sanctioned with a 3-year period of ineligibility",
+    "retrieved_date": "2026-09-22",
+    "word_count": 383,
+    "date_candidates": [
+      "1 April 2026"
+    ]
+  },
+  {
+    "batch_id": "B01-29",
+    "source_url": "https://ita.sport/news/the-ita-reports-that-sambo-athlete-plamen-yordanov-has-been-sanctioned-with-a-four-year-period-of-ineligibility/",
+    "snapshot_sha256": "0edc297421b8f5126fa893bfc05a1d8f8c7bf9398709bb1c59f2df55d673aa41",
+    "title": "The ITA reports that Sambo athlete Plamen Yordanov has been sanctioned with a four-year period of ineligibility",
+    "retrieved_date": "2026-09-22",
+    "word_count": 405,
+    "date_candidates": [
+      "12 March 2026"
+    ]
+  },
+  {
+    "batch_id": "B01-30",
+    "source_url": "https://ita.sport/news/the-ita-reports-that-ju-jitsu-athlete-ilyas-aasli-has-been-sanctioned-with-a-two-year-period-of-ineligibility/",
+    "snapshot_sha256": "41e40f9ea35be32c692041f999c1361c39d60520c0e69393b5900664cb8b7fc3",
+    "title": "The ITA reports that Ju-Jitsu athlete Ilyas Aasli has been sanctioned with a two-year period of ineligibility",
+    "retrieved_date": "2026-09-22",
+    "word_count": 342,
+    "date_candidates": [
+      "11 March 2026"
+    ]
+  },
+  {
+    "batch_id": "B01-31",
+    "source_url": "https://ita.sport/news/the-ita-reports-that-canoeist-levan-tatunashvili-has-been-sanctioned-with-a-3-year-period-of-ineligibility/",
+    "snapshot_sha256": "1227e0c7a6b61ea599a5d9a8d747fdd77203db00b7bc46db497a0bcdf0d9e29a",
+    "title": "The ITA reports that Canoeist Levan Tatunashvili has been sanctioned with a 3-year period of ineligibility",
+    "retrieved_date": "2026-09-22",
+    "word_count": 415,
+    "date_candidates": [
+      "6 March 2026"
+    ]
+  },
+  {
+    "batch_id": "B01-32",
+    "source_url": "https://ita.sport/news/the-ita-reports-that-weightlifter-dinh-thi-pham-has-accepted-a-2-year-ban-for-her-anti-doping-rule-violation/",
+    "snapshot_sha256": "e6475c84cee72bf1bd49e7e3f8f5d011ef8234a2cb052428e47d400861fa839c",
+    "title": "The ITA reports that weightlifter Dinh Thi Pham has accepted a 2-year ban for her anti-doping rule violation",
+    "retrieved_date": "2026-09-22",
+    "word_count": 380,
+    "date_candidates": [
+      "5 March 2026"
+    ]
+  },
+  {
+    "batch_id": "B01-33",
+    "source_url": "https://ita.sport/news/the-ita-acknowledges-the-cas-add-decision-sanctioning-wrestler-tsogbadrakh-tseveensuren/",
+    "snapshot_sha256": "9d74c846fba32743c0473096efb7de95af57881c5ccc3868c6c338e4dcb15b48",
+    "title": "The ITA acknowledges the CAS ADD decision sanctioning Wrestler Tsogbadrakh Tseveensuren",
+    "retrieved_date": "2026-09-22",
+    "word_count": 280,
+    "date_candidates": [
+      "4 March 2026"
+    ]
+  },
+  {
+    "batch_id": "B01-34",
+    "source_url": "https://ita.sport/news/the-ita-reports-that-wrestler-avtandil-kentchadze-has-been-sanctioned-with-a-20-month-period-of-ineligibility/",
+    "snapshot_sha256": "5d40072f9ed10b4c05f1751834698483b9269964489e4d5241c5338dd8250881",
+    "title": "The ITA reports that Wrestler Avtandil Kentchadze has been sanctioned with a 20-month period of ineligibility",
+    "retrieved_date": "2026-09-22",
+    "word_count": 382,
+    "date_candidates": [
+      "4 March 2026"
+    ]
+  },
+  {
+    "batch_id": "B01-35",
+    "source_url": "https://ita.sport/news/the-ita-reports-that-sambo-athlete-shokhrukhbek-gapurov-has-accepted-a-3-year-ban-for-his-anti-doping-rule-violation/",
+    "snapshot_sha256": "d190fa481e3b5713777ffa3b7ddc4f389e314456647ad51c9c513fb9706e103f",
+    "title": "The ITA reports that Sambo athlete Shokhrukhbek Gapurov has accepted a 3-year ban for his anti-doping rule violation",
+    "retrieved_date": "2026-09-22",
+    "word_count": 548,
+    "date_candidates": [
+      "2 March 2026"
+    ]
+  },
+  {
+    "batch_id": "B01-36",
+    "source_url": "https://ita.sport/news/the-ita-reports-that-weightlifter-neisi-patricia-dajomes-barrera-has-been-sanctioned-with-a-14-month-period-of-ineligibility/",
+    "snapshot_sha256": "e193d800752d71103fed001e76ca5f46e18458925ac9570ae86708f723dbee0a",
+    "title": "The ITA reports that weightlifter Neisi Patricia Dajomes Barrera has been sanctioned with a 14-month period of ineligibility",
+    "retrieved_date": "2026-09-22",
+    "word_count": 343,
+    "date_candidates": [
+      "27 February 2026"
+    ]
+  },
+  {
+    "batch_id": "B01-37",
+    "source_url": "https://ita.sport/news/the-ita-reports-that-gymnast-cameron-lie-bernard-accepted-a-22-month-sanction-for-three-whereabouts-failures/",
+    "snapshot_sha256": "bc671a3d6ee2b421b673dd732381a380128cc4525312b87eb08ead17f1613045",
+    "title": "The ITA reports that gymnast Cameron-Lie Bernard accepted a 22-month sanction for three whereabouts failures",
+    "retrieved_date": "2026-09-22",
+    "word_count": 305,
+    "date_candidates": [
+      "26 February 2026"
+    ]
+  },
+  {
+    "batch_id": "B01-38",
+    "source_url": "https://ita.sport/news/the-ita-reports-that-baseball-player-yadir-drake-dominguez-has-been-sanctioned-with-a-two-year-period-of-ineligibility/",
+    "snapshot_sha256": "6348980d46b6b3e4b563d9fb9d8227ac9d724191c2592a282a03364ab18d1d88",
+    "title": "The ITA reports that baseball player Yadir Drake Dominguez has been sanctioned with a two-year period of ineligibility",
+    "retrieved_date": "2026-09-22",
+    "word_count": 254,
+    "date_candidates": [
+      "25 February 2026"
+    ]
+  },
+  {
+    "batch_id": "B01-39",
+    "source_url": "https://ita.sport/news/the-ita-reports-that-baseball-player-anderson-de-leon-has-been-sanctioned-with-a-5-year-period-of-ineligibility/",
+    "snapshot_sha256": "45b004dc0d61c9aaa5711db7643ed21d96ae28dd6a8c3a2cdb6fae054c4b0ce2",
+    "title": "The ITA reports that baseball player Anderson de León has been sanctioned with a 5-year period of ineligibility",
+    "retrieved_date": "2026-09-22",
+    "word_count": 379,
+    "date_candidates": [
+      "18 February 2026"
+    ]
+  },
+  {
+    "batch_id": "B01-40",
+    "source_url": "https://ita.sport/news/the-ita-reports-that-wrestler-jose-andres-vargas-rueda-has-accepted-a-3-month-ban-for-his-anti-doping-rule-violation/",
+    "snapshot_sha256": "cb7b69c686947d0b2681fea958174c26b78c5a7c3f38343fee64599e8cc10d80",
+    "title": "The ITA reports that wrestler Jose Andres Vargas Rueda has accepted a 3-month ban for his anti-doping rule violation",
+    "retrieved_date": "2026-09-22",
+    "word_count": 419,
+    "date_candidates": [
+      "13 February 2026"
+    ]
+  },
+  {
+    "batch_id": "B01-41",
+    "source_url": "https://www.uci.org/pressrelease/uci-statement-concerning-martha-bayona-pineda/1lVG810ExGkBop80wVieJ8",
+    "snapshot_sha256": "47fc0766bab782b2058dff9be28341a7fc0376137f52f1c6b4529d5c982ffb94",
+    "title": "UCI statement concerning Martha Bayona Pineda",
+    "retrieved_date": "2026-09-22",
+    "word_count": 255,
+    "date_candidates": []
+  },
+  {
+    "batch_id": "B01-42",
+    "source_url": "https://ita.sport/news/the-ita-reports-that-athlete-daniil-sapunov-has-accepted-a-3-5-year-ban-for-his-breach-of-anti-doping-rules/",
+    "snapshot_sha256": "2ae0d43089646811731f1da0f1e6d7f398965625a3428fc45118f424e47ece4a",
+    "title": "The ITA reports that athlete Daniil Sapunov has accepted a 3.5-year ban for his breach of anti-doping rules",
+    "retrieved_date": "2026-09-22",
+    "word_count": 383,
+    "date_candidates": [
+      "4 February 2026"
+    ]
+  },
+  {
+    "batch_id": "B01-43",
+    "source_url": "https://ita.sport/news/the-ita-reports-that-ju-jitsu-athlete-ibrahim-manarbek-has-accepted-a-3-year-sanction-for-his-anti-doping-rule-violation/",
+    "snapshot_sha256": "755aadfb3a7b7a6bae80b0829e083badbfa5700e6ac0d635bdf38a7d2a9f44e2",
+    "title": "The ITA reports that Ju-Jitsu athlete Ibrahim Manarbek has accepted a 3-year sanction for his anti-doping rule violation",
+    "retrieved_date": "2026-09-22",
+    "word_count": 437,
+    "date_candidates": [
+      "3 February 2026"
+    ]
+  },
+  {
+    "batch_id": "B01-44",
+    "source_url": "https://ita.sport/news/the-ita-reports-that-triathlete-pedro-afonso-pinto-gaspar-has-accepted-a-3-year-sanction-for-his-adrv/",
+    "snapshot_sha256": "7f59f118ce2f666619aca6c0bcbcdadf4fd6262ca49beb494a2c7283cf987d31",
+    "title": "The ITA reports that triathlete Pedro Afonso Pinto Gaspar has accepted a 3-year sanction for his ADRV",
+    "retrieved_date": "2026-09-22",
+    "word_count": 577,
+    "date_candidates": [
+      "26 January 2026"
+    ]
+  },
+  {
+    "batch_id": "B01-45",
+    "source_url": "https://ita.sport/news/the-ita-acknowledges-cas-add-decision-to-sanction-surfer-miguel-tudela-chiozza-with-16-months-of-ineligibility/",
+    "snapshot_sha256": "80d8f5423cae3e48ad22636c07872c1a6810765422312f90d1d8d60336652330",
+    "title": "The ITA acknowledges CAS ADD decision to sanction surfer Miguel Tudela Chiozza with 16 months of ineligibility",
+    "retrieved_date": "2026-09-22",
+    "word_count": 354,
+    "date_candidates": [
+      "7 January 2026"
+    ]
+  },
+  {
+    "batch_id": "B01-46",
+    "source_url": "https://ita.sport/news/the-ita-reports-that-high-diver-scott-lazeroff-has-accepted-a-14-months-ban-for-his-anti-doping-rule-violation/",
+    "snapshot_sha256": "1c9c7f87f18e295145b3ac8bae82c2b5b2f2acfc5f1aa8b03a15505b5b3720a9",
+    "title": "The ITA reports that high diver Scott Lazeroff has accepted a 14-months ban for his anti-doping rule violation",
+    "retrieved_date": "2026-09-22",
+    "word_count": 368,
+    "date_candidates": [
+      "3 December 2025"
+    ]
+  },
+  {
+    "batch_id": "B01-47",
+    "source_url": "https://www.uci.org/pressrelease/uci-statement-concerning-martti-sciortino2/6LSIAEbHLYFbHiRMGN2Has",
+    "snapshot_sha256": "be7b81ca6773d27a714591e26a55c2f63318bebadd503dcc043511dd4e2ac368",
+    "title": "UCI statement concerning Martti Sciortino",
+    "retrieved_date": "2026-09-22",
+    "word_count": 294,
+    "date_candidates": []
+  },
+  {
+    "batch_id": "B01-48",
+    "source_url": "https://www.uci.org/pressrelease/uci-statement-concerning-vinicius-rangel-costa/2QNZgFdmqSwMSKg92jBxqj",
+    "snapshot_sha256": "9585172ec5c0dcb9c1a842ecbdff016827b2fde3878b4302f60fd019df3249a2",
+    "title": "UCI statement concerning Vinicius Rangel Costa",
+    "retrieved_date": "2026-09-22",
+    "word_count": 235,
+    "date_candidates": []
+  },
+  {
+    "batch_id": "B01-49",
+    "source_url": "https://ita.sport/news/ironman-athlete-imogen-simmonds-accepts-a-finding-of-no-fault-for-her-anti-doping-rule-violation/",
+    "snapshot_sha256": "d555814ab884ce4cdd13fc94a69cbf03af5ce4f0da55700a989c5f39d08c28f2",
+    "title": "IRONMAN athlete Imogen Simmonds accepts a finding of no fault for her anti-doping rule violation",
+    "retrieved_date": "2026-09-22",
+    "word_count": 540,
+    "date_candidates": [
+      "24 October 2025"
+    ]
+  },
+  {
+    "batch_id": "B01-50",
+    "source_url": "https://www.sportintegrity.gov.au/news/media-statements/2023-08/update-peter-bol-matter",
+    "title": "Update on Peter Bol matter",
+    "retrieved_date": "2026-09-22",
+    "publication_date": "2023-08-01",
+    "retrieval": "web.open verified official article; direct curl failed HTTP/2 and timeout, including an escalated retry",
+    "snapshot_sha256": null
+  },
+  {
+    "batch_id": "B01-51",
+    "source_url": "https://ita.sport/news/the-ita-reports-that-muaythai-athlete-oleh-pryimachov-has-been-sanctioned-with-a-4-year-period-of-ineligibility/",
+    "snapshot_sha256": "a15393296d31f2ff541842cdad52b0e3977c2ffee33e3b0464042fd65ac38597",
+    "title": "The ITA reports that Muaythai athlete Oleh Pryimachov has been sanctioned with a 2-year period of ineligibility",
+    "retrieved_date": "2026-09-22"
+  },
+  {
+    "batch_id": "B01-52",
+    "source_url": "https://ita.sport/news/the-ita-reports-that-bobsleigh-athlete-arran-gulliver-has-been-sanctioned-with-a-2-year-period-of-ineligibility/",
+    "snapshot_sha256": "f7279258cc35685a7172340a3a847bd83948bb97be087fcdd84ad9b0baa35374",
+    "title": "The ITA reports that Bobsleigh athlete Arran Gulliver has been sanctioned with a 2-year period of ineligibility",
+    "retrieved_date": "2026-09-22"
+  }
+]

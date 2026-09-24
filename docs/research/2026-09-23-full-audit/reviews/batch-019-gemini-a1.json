@@ -1,0 +1,188 @@
+{
+  "cases": [
+    {
+      "id": "aiu-55fc8ff094dc",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-3fee4e5d2e085b0e",
+        "registry-f7f99b4ffb445605"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-3fee4e5d2e085b0e",
+          "startLine": 1,
+          "endLine": 12,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "確認運動員為加拿大籍田徑撐竿跳選手 Alysha Newman"
+        },
+        {
+          "documentId": "doc-3fee4e5d2e085b0e",
+          "startLine": 74,
+          "endLine": 83,
+          "supports": [
+            "event",
+            "dates"
+          ],
+          "note": "確認於2025年2月27日、8月17日及8月23日發生三次行蹤失誤"
+        },
+        {
+          "documentId": "doc-3fee4e5d2e085b0e",
+          "startLine": 95,
+          "endLine": 99,
+          "supports": [
+            "event",
+            "education"
+          ],
+          "note": "腳註確認第四次失誤發生於2025年11月14日，不構成本次2.4條違規要素"
+        },
+        {
+          "documentId": "doc-3fee4e5d2e085b0e",
+          "startLine": 468,
+          "endLine": 475,
+          "supports": [
+            "sanction",
+            "dates",
+            "education"
+          ],
+          "note": "確認因過失程度減為20個月，並因程序延遲回溯2個月自2025年12月3日起算"
+        },
+        {
+          "documentId": "doc-3fee4e5d2e085b0e",
+          "startLine": 499,
+          "endLine": 504,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "確認禁賽期為2025年12月3日至2027年8月2日，取消2025年8月23日起之成績"
+        },
+        {
+          "documentId": "registry-f7f99b4ffb445605",
+          "startLine": 3,
+          "endLine": 3,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊登記2026年4月29日發布最終決定，禁賽20個月自2025年12月3日起算，取消2025年8月23日起成績"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "aiu-f9e275550d3f",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-e18f59e89e8a2e76",
+        "registry-d51a8052ac61b562"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-e18f59e89e8a2e76",
+          "startLine": 1,
+          "endLine": 12,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "確認運動員為肯亞籍馬拉松選手 Albert Korir"
+        },
+        {
+          "documentId": "doc-e18f59e89e8a2e76",
+          "startLine": 55,
+          "endLine": 78,
+          "supports": [
+            "event",
+            "substance",
+            "dates"
+          ],
+          "note": "確認2025年10月3日、13日及21日三份賽外樣本均檢出 CERA 陽性反應"
+        },
+        {
+          "documentId": "doc-e18f59e89e8a2e76",
+          "startLine": 131,
+          "endLine": 131,
+          "supports": [
+            "event",
+            "education"
+          ],
+          "note": "確認此為該運動員首次反禁藥規則違規，三份樣本合併處理"
+        },
+        {
+          "documentId": "doc-e18f59e89e8a2e76",
+          "startLine": 198,
+          "endLine": 205,
+          "supports": [
+            "sanction",
+            "education"
+          ],
+          "note": "確認因多次使用構成加重情節，禁賽期加重至6年"
+        },
+        {
+          "documentId": "doc-e18f59e89e8a2e76",
+          "startLine": 230,
+          "endLine": 236,
+          "supports": [
+            "sanction",
+            "education"
+          ],
+          "note": "確認依及早承認並接受處分條款扣減1年，最終處以5年禁賽"
+        },
+        {
+          "documentId": "doc-e18f59e89e8a2e76",
+          "startLine": 243,
+          "endLine": 248,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "確認禁賽期自2026年1月8日至2031年1月7日，取消自2025年10月3日起之所有成績"
+        },
+        {
+          "documentId": "registry-d51a8052ac61b562",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "名冊登記2026年3月27日發布最終決定，禁賽5年自2026年1月8日起算，取消2025年10月3日起成績"
+        }
+      ],
+      "findings": []
+    }
+  ]
+}

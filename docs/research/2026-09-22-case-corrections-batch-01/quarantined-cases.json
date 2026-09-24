@@ -1,0 +1,466 @@
+[
+  {
+    "review": {
+      "id": "10",
+      "expectedName": "Jennifer Thompson",
+      "reason": "未取得足以支持「Jennifer Thompson 2021 Ostarine 污染、警告」的官方個案來源；同名或搜尋未命中均不能判定虛構。",
+      "status": "pending_primary_evidence"
+    },
+    "original": {
+      "id": "10",
+      "athleteName": "Jennifer Thompson",
+      "year": 2021,
+      "sport": "健力",
+      "nationality": "美國",
+      "substance": "Ostarine（污染）",
+      "substanceCategory": "S1.2: 其他合成代謝劑",
+      "eventBackground": "2021年期間，健力選手Jennifer Thompson因使用Ostarine（污染）被檢出，成為近年重要的禁藥案例。",
+      "punishment": {
+        "banDuration": "警告",
+        "resultsCancelled": false,
+        "medalStripped": false,
+        "otherPenalties": "加強補充劑檢測"
+      },
+      "summary": "2021年健力界的重要禁藥案例，展現了S1.2: 其他合成代謝劑類物質的危害。",
+      "educationalNotes": "合成代謝類固醇能增加肌肉量和力量，但會對心血管系統造成嚴重副作用。",
+      "sourceLinks": [
+        {
+          "title": "WADA - Jennifer Thompson Case",
+          "url": "https://www.wada-ama.org/",
+          "type": "WADA"
+        }
+      ]
+    }
+  },
+  {
+    "review": {
+      "id": "15",
+      "expectedName": "Adam Peaty",
+      "reason": "未取得支持 2019 年 Prednisolone 合法 TUE 之公開官方個案資料；資料內「合法 TUE」與背景「違規」也互相矛盾。",
+      "status": "pending_primary_evidence"
+    },
+    "original": {
+      "id": "15",
+      "athleteName": "Adam Peaty",
+      "year": 2019,
+      "sport": "游泳",
+      "nationality": "英國",
+      "substance": "Prednisolone (強體松)",
+      "substanceCategory": "S9: 糖皮質激素",
+      "eventBackground": "2019年，游泳選手Adam Peaty因Prednisolone (強體松)違規成為國際體育界關注焦點。",
+      "punishment": {
+        "banDuration": "無處罰（合法TUE）",
+        "resultsCancelled": false,
+        "medalStripped": false,
+        "otherPenalties": "無"
+      },
+      "summary": "2019年游泳界的重要禁藥案例，展現了S9: 糖皮質激素類物質的危害。",
+      "educationalNotes": "此物質被列為禁用是因為其對運動表現的不當提升和潛在健康風險。",
+      "sourceLinks": [
+        {
+          "title": "WADA - Adam Peaty Case",
+          "url": "https://www.wada-ama.org/",
+          "type": "WADA"
+        },
+        {
+          "title": "World Aquatics",
+          "url": "https://www.worldaquatics.com/",
+          "type": "官方文件"
+        }
+      ]
+    }
+  },
+  {
+    "review": {
+      "id": "16",
+      "expectedName": "Blaine Sumner",
+      "reason": "未取得支持 2019 年 Testosterone TUE 的官方個案資料；背景仍把其稱為違規。",
+      "status": "pending_primary_evidence"
+    },
+    "original": {
+      "id": "16",
+      "athleteName": "Blaine Sumner",
+      "year": 2019,
+      "sport": "健力",
+      "nationality": "美國",
+      "substance": "Testosterone（TUE）",
+      "substanceCategory": "S1: 合成代謝劑",
+      "eventBackground": "2019年，健力選手Blaine Sumner因Testosterone（TUE）違規成為國際體育界關注焦點。",
+      "punishment": {
+        "banDuration": "無（合法TUE）",
+        "resultsCancelled": false,
+        "medalStripped": false,
+        "otherPenalties": "引發爭議"
+      },
+      "summary": "2019年健力界的重要禁藥案例，展現了S1: 合成代謝劑類物質的危害。",
+      "educationalNotes": "睪固酮是最基本的合成代謝類固醇，天然存在於人體但過量使用屬違規。",
+      "sourceLinks": [
+        {
+          "title": "WADA - Blaine Sumner Case",
+          "url": "https://www.wada-ama.org/",
+          "type": "WADA"
+        }
+      ]
+    }
+  },
+  {
+    "review": {
+      "id": "20",
+      "expectedName": "Stefi Cohen",
+      "reason": "未取得支持「2019 Cardarine 污染、禁賽六個月」的官方裁決；與無關新聞或社群猜測不能互相代證。",
+      "status": "pending_primary_evidence"
+    },
+    "original": {
+      "id": "20",
+      "athleteName": "Stefi Cohen",
+      "year": 2019,
+      "sport": "健力",
+      "nationality": "美國",
+      "substance": "Cardarine（污染）",
+      "substanceCategory": "S4.4: 代謝調節劑",
+      "eventBackground": "2019年，健力選手Stefi Cohen因Cardarine（污染）違規成為國際體育界關注焦點。",
+      "punishment": {
+        "banDuration": "6個月",
+        "resultsCancelled": false,
+        "medalStripped": false,
+        "otherPenalties": "加強教育"
+      },
+      "summary": "2019年健力界的重要禁藥案例，展現了S4.4: 代謝調節劑類物質的危害。",
+      "educationalNotes": "代謝調節劑能影響新陳代謝和氧氣利用，但會對心臟造成負擔。",
+      "sourceLinks": [
+        {
+          "title": "WADA - Stefi Cohen Case",
+          "url": "https://www.wada-ama.org/",
+          "type": "WADA"
+        }
+      ]
+    }
+  },
+  {
+    "review": {
+      "id": "85",
+      "expectedName": "Sharif Sharifov",
+      "reason": "未取得 Turinabol 四年禁賽及奧運金牌剝奪的官方裁決。UWW 運動員頁仍介紹其倫敦奧運冠軍身分，與網站的取消金牌主張衝突；介紹頁本身不能證明從未有過任何違規。",
+      "status": "pending_primary_evidence"
+    },
+    "original": {
+      "id": "85",
+      "athleteName": "Sharif Sharifov",
+      "year": 2012,
+      "sport": "摔跤",
+      "nationality": "亞塞拜然",
+      "substance": "Turinabol",
+      "substanceCategory": "S1.1: 外源性合成代謝雄激素類固醇",
+      "eventBackground": "2012年，摔跤選手Sharif Sharifov因Turinabol違規成為國際體育界關注焦點。",
+      "punishment": {
+        "banDuration": "4年",
+        "resultsCancelled": true,
+        "medalStripped": true,
+        "otherPenalties": "奧運金牌被取消"
+      },
+      "summary": "2012年摔跤界的重要禁藥案例，展現了S1.1: 外源性合成代謝雄激素類固醇類物質的危害。",
+      "educationalNotes": "合成代謝類固醇能增加肌肉量和力量，但會對心血管系統造成嚴重副作用。",
+      "sourceLinks": [
+        {
+          "title": "WADA - Sharif Sharifov Case",
+          "url": "https://www.wada-ama.org/",
+          "type": "WADA"
+        }
+      ]
+    }
+  },
+  {
+    "review": {
+      "id": "164",
+      "expectedName": "Zlatan Vanev",
+      "reason": "未取得支持 Zlatan Vanev 在 1984 年因 Stanozolol 被禁十八個月的官方個案資料。其他年代或相似姓名的舉重禁賽不能直接套用。",
+      "status": "pending_primary_evidence"
+    },
+    "original": {
+      "id": "164",
+      "athleteName": "Zlatan Vanev",
+      "year": 1984,
+      "sport": "舉重",
+      "nationality": "保加利亞",
+      "substance": "Stanozolol",
+      "substanceCategory": "S1: 合成代謝劑",
+      "eventBackground": "1984年保加利亞舉重選手Zlatan Vanev因使用Stanozolol被檢出陽性，是早期舉重禁藥案例之一。",
+      "punishment": {
+        "banDuration": "18個月",
+        "resultsCancelled": true,
+        "medalStripped": false,
+        "otherPenalties": "保加利亞舉重隊多名選手同批違規"
+      },
+      "summary": "1980年代保加利亞舉重系統性使用禁藥的重要案例之一。",
+      "educationalNotes": "Stanozolol是強效合成代謝類固醇，能顯著增加力量和肌肉量，但對肝臟和心血管系統有嚴重副作用。",
+      "sourceLinks": [
+        {
+          "title": "IWF Historical Records",
+          "url": "https://www.iwf.net/",
+          "type": "官方文件"
+        }
+      ]
+    }
+  },
+  {
+    "review": {
+      "id": "27",
+      "expectedName": "Serena Williams",
+      "reason": "原資料把合法 TUE 寫成違規，且僅附機構首頁，缺少可支持具名藥物、日期與 TUE 核准的公開個案證據；暫移待查，不判定為虛構。",
+      "status": "pending_primary_evidence"
+    },
+    "original": {
+      "id": "27",
+      "athleteName": "Serena Williams",
+      "year": 2018,
+      "sport": "網球",
+      "nationality": "美國",
+      "substance": "多種處方藥物",
+      "substanceCategory": "TUE合法使用",
+      "eventBackground": "2018年，網球選手Serena Williams因多種處方藥物違規成為國際體育界關注焦點。",
+      "punishment": {
+        "banDuration": "無處罰（合法TUE）",
+        "resultsCancelled": false,
+        "medalStripped": false,
+        "otherPenalties": "隱私爭議"
+      },
+      "summary": "2018年網球界的重要禁藥案例，展現了TUE合法使用類物質的危害。",
+      "educationalNotes": "此物質被列為禁用是因為其對運動表現的不當提升和潛在健康風險。",
+      "sourceLinks": [
+        {
+          "title": "WADA - Serena Williams Case",
+          "url": "https://www.wada-ama.org/",
+          "type": "WADA"
+        },
+        {
+          "title": "ITF",
+          "url": "https://www.itftennis.com/",
+          "type": "官方文件"
+        }
+      ]
+    }
+  },
+  {
+    "review": {
+      "id": "32",
+      "expectedName": "Justin Rose",
+      "reason": "原資料把合法 TUE 寫成違規，且僅附機構首頁，缺少可支持具名藥物、日期與 TUE 核准的公開個案證據；暫移待查，不判定為虛構。",
+      "status": "pending_primary_evidence"
+    },
+    "original": {
+      "id": "32",
+      "athleteName": "Justin Rose",
+      "year": 2017,
+      "sport": "高爾夫",
+      "nationality": "英國",
+      "substance": "Anti-inflammatory (抗炎藥)",
+      "substanceCategory": "S9: 糖皮質激素",
+      "eventBackground": "2017年，高爾夫選手Justin Rose因Anti-inflammatory (抗炎藥)違規成為國際體育界關注焦點。",
+      "punishment": {
+        "banDuration": "無處罰（合法TUE）",
+        "resultsCancelled": false,
+        "medalStripped": false,
+        "otherPenalties": "無"
+      },
+      "summary": "2017年高爾夫界的重要禁藥案例，展現了S9: 糖皮質激素類物質的危害。",
+      "educationalNotes": "此物質被列為禁用是因為其對運動表現的不當提升和潛在健康風險。",
+      "sourceLinks": [
+        {
+          "title": "WADA - Justin Rose Case",
+          "url": "https://www.wada-ama.org/",
+          "type": "WADA"
+        }
+      ]
+    }
+  },
+  {
+    "review": {
+      "id": "42",
+      "expectedName": "Lizzie Armitstead",
+      "reason": "原資料把合法 TUE 寫成違規，且僅附機構首頁，缺少可支持具名藥物、日期與 TUE 核准的公開個案證據；暫移待查，不判定為虛構。",
+      "status": "pending_primary_evidence"
+    },
+    "original": {
+      "id": "42",
+      "athleteName": "Lizzie Armitstead",
+      "year": 2016,
+      "sport": "自行車",
+      "nationality": "英國",
+      "substance": "Prednisolone (強體松)",
+      "substanceCategory": "S9: 糖皮質激素",
+      "eventBackground": "2016年，自行車選手Lizzie Armitstead因Prednisolone (強體松)違規成為國際體育界關注焦點。",
+      "punishment": {
+        "banDuration": "無處罰（合法TUE）",
+        "resultsCancelled": false,
+        "medalStripped": false,
+        "otherPenalties": "無"
+      },
+      "summary": "2016年自行車界的重要禁藥案例，展現了S9: 糖皮質激素類物質的危害。",
+      "educationalNotes": "此物質被列為禁用是因為其對運動表現的不當提升和潛在健康風險。",
+      "sourceLinks": [
+        {
+          "title": "WADA - Lizzie Armitstead Case",
+          "url": "https://www.wada-ama.org/",
+          "type": "WADA"
+        },
+        {
+          "title": "UCI",
+          "url": "https://www.uci.org/",
+          "type": "官方文件"
+        }
+      ]
+    }
+  },
+  {
+    "review": {
+      "id": "53",
+      "expectedName": "Mo Farah",
+      "reason": "原資料把合法 TUE 寫成違規，且僅附機構首頁，缺少可支持具名藥物、日期與 TUE 核准的公開個案證據；暫移待查，不判定為虛構。",
+      "status": "pending_primary_evidence"
+    },
+    "original": {
+      "id": "53",
+      "athleteName": "Mo Farah",
+      "year": 2015,
+      "sport": "田徑",
+      "nationality": "英國",
+      "substance": "L-carnitine注射",
+      "substanceCategory": "S2.1: 促紅血球生成素類",
+      "eventBackground": "2015年，田徑選手Mo Farah因L-carnitine注射違規成為國際體育界關注焦點。",
+      "punishment": {
+        "banDuration": "無處罰（合法TUE）",
+        "resultsCancelled": false,
+        "medalStripped": false,
+        "otherPenalties": "媒體質疑"
+      },
+      "summary": "2015年田徑界的重要禁藥案例，展現了S2.1: 促紅血球生成素類類物質的危害。",
+      "educationalNotes": "EPO和生長激素能提高運動表現，但會增加血栓、中風和器官肥大風險。",
+      "sourceLinks": [
+        {
+          "title": "WADA - Mo Farah Case",
+          "url": "https://www.wada-ama.org/",
+          "type": "WADA"
+        },
+        {
+          "title": "World Athletics",
+          "url": "https://www.worldathletics.org/",
+          "type": "官方文件"
+        }
+      ]
+    }
+  },
+  {
+    "review": {
+      "id": "76",
+      "expectedName": "Bradley Wiggins",
+      "reason": "原資料把合法 TUE 寫成違規，且僅附機構首頁，缺少可支持具名藥物、日期與 TUE 核准的公開個案證據；暫移待查，不判定為虛構。",
+      "status": "pending_primary_evidence"
+    },
+    "original": {
+      "id": "76",
+      "athleteName": "Bradley Wiggins",
+      "year": 2012,
+      "sport": "自行車",
+      "nationality": "英國",
+      "substance": "Triamcinolone (曲安奈德)",
+      "substanceCategory": "S9: 糖皮質激素",
+      "eventBackground": "2012年，自行車選手Bradley Wiggins因Triamcinolone (曲安奈德)違規成為國際體育界關注焦點。",
+      "punishment": {
+        "banDuration": "無處罰（合法TUE）",
+        "resultsCancelled": false,
+        "medalStripped": false,
+        "otherPenalties": "道德爭議"
+      },
+      "summary": "2012年自行車界的重要禁藥案例，展現了S9: 糖皮質激素類物質的危害。",
+      "educationalNotes": "此物質被列為禁用是因為其對運動表現的不當提升和潛在健康風險。",
+      "sourceLinks": [
+        {
+          "title": "WADA - Bradley Wiggins Case",
+          "url": "https://www.wada-ama.org/",
+          "type": "WADA"
+        },
+        {
+          "title": "UCI",
+          "url": "https://www.uci.org/",
+          "type": "官方文件"
+        }
+      ]
+    }
+  },
+  {
+    "review": {
+      "id": "83",
+      "expectedName": "Rafael Nadal",
+      "reason": "原資料把合法 TUE 寫成違規，且僅附機構首頁，缺少可支持具名藥物、日期與 TUE 核准的公開個案證據；暫移待查，不判定為虛構。",
+      "status": "pending_primary_evidence"
+    },
+    "original": {
+      "id": "83",
+      "athleteName": "Rafael Nadal",
+      "year": 2012,
+      "sport": "網球",
+      "nationality": "西班牙",
+      "substance": "Corticosteroid (皮質類固醇)",
+      "substanceCategory": "S9: 糖皮質激素",
+      "eventBackground": "2012年，網球選手Rafael Nadal因Corticosteroid (皮質類固醇)違規成為國際體育界關注焦點。",
+      "punishment": {
+        "banDuration": "無處罰（合法TUE）",
+        "resultsCancelled": false,
+        "medalStripped": false,
+        "otherPenalties": "無"
+      },
+      "summary": "2012年網球界的重要禁藥案例，展現了S9: 糖皮質激素類物質的危害。",
+      "educationalNotes": "此物質被列為禁用是因為其對運動表現的不當提升和潛在健康風險。",
+      "sourceLinks": [
+        {
+          "title": "WADA - Rafael Nadal Case",
+          "url": "https://www.wada-ama.org/",
+          "type": "WADA"
+        },
+        {
+          "title": "ITF",
+          "url": "https://www.itftennis.com/",
+          "type": "官方文件"
+        }
+      ]
+    }
+  },
+  {
+    "review": {
+      "id": "89",
+      "expectedName": "Venus Williams",
+      "reason": "原資料把合法 TUE 寫成違規，且僅附機構首頁，缺少可支持具名藥物、日期與 TUE 核准的公開個案證據；暫移待查，不判定為虛構。",
+      "status": "pending_primary_evidence"
+    },
+    "original": {
+      "id": "89",
+      "athleteName": "Venus Williams",
+      "year": 2011,
+      "sport": "網球",
+      "nationality": "美國",
+      "substance": "自體免疫疾病藥物",
+      "substanceCategory": "TUE合法使用",
+      "eventBackground": "2011年，網球選手Venus Williams因自體免疫疾病藥物違規成為國際體育界關注焦點。",
+      "punishment": {
+        "banDuration": "無處罰（合法TUE）",
+        "resultsCancelled": false,
+        "medalStripped": false,
+        "otherPenalties": "健康挑戰"
+      },
+      "summary": "2011年網球界的重要禁藥案例，展現了TUE合法使用類物質的危害。",
+      "educationalNotes": "此物質被列為禁用是因為其對運動表現的不當提升和潛在健康風險。",
+      "sourceLinks": [
+        {
+          "title": "WADA - Venus Williams Case",
+          "url": "https://www.wada-ama.org/",
+          "type": "WADA"
+        },
+        {
+          "title": "ITF",
+          "url": "https://www.itftennis.com/",
+          "type": "官方文件"
+        }
+      ]
+    }
+  }
+]

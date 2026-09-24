@@ -1,0 +1,259 @@
+{
+  "cases": [
+    {
+      "id": "aiu-28bc02b13e2c",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-eee6fc4d891a7df8",
+        "registry-3797632aa72665c6"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-eee6fc4d891a7df8",
+          "startLine": 18,
+          "endLine": 18,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "選手為25歲肯亞馬拉松運動員"
+        },
+        {
+          "documentId": "doc-eee6fc4d891a7df8",
+          "startLine": 50,
+          "endLine": 51,
+          "supports": [
+            "event",
+            "dates"
+          ],
+          "note": "2023年11月3日在肯亞伊滕進行賽外採樣"
+        },
+        {
+          "documentId": "doc-eee6fc4d891a7df8",
+          "startLine": 66,
+          "endLine": 69,
+          "supports": [
+            "substance"
+          ],
+          "note": "檢出重組紅血球生成素（EPO）陽性反應"
+        },
+        {
+          "documentId": "doc-eee6fc4d891a7df8",
+          "startLine": 158,
+          "endLine": 168,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "及早承認違規獲減免一年，處三年禁賽（自2023年12月4日起）並取消自2023年11月3日起成績"
+        },
+        {
+          "documentId": "registry-3797632aa72665c6",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "AIU名冊確認裁決紀錄、三年禁賽自2023年12月4日起及自2023年11月3日起取消成績"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "aiu-d5a54df0bdcb",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-0403475031379c52",
+        "registry-c4f0f916f831c713"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-0403475031379c52",
+          "startLine": 18,
+          "endLine": 18,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "選手為27歲肯亞馬拉松運動員"
+        },
+        {
+          "documentId": "doc-0403475031379c52",
+          "startLine": 50,
+          "endLine": 51,
+          "supports": [
+            "event",
+            "dates"
+          ],
+          "note": "2023年9月10日在愛沙尼亞塔林馬拉松賽內採樣"
+        },
+        {
+          "documentId": "doc-0403475031379c52",
+          "startLine": 66,
+          "endLine": 69,
+          "supports": [
+            "substance"
+          ],
+          "note": "檢測出外源性19-去甲雄酮（Norandrosterone）陽性"
+        },
+        {
+          "documentId": "doc-0403475031379c52",
+          "startLine": 97,
+          "endLine": 99,
+          "supports": [
+            "education"
+          ],
+          "note": "選手陳述為治療腿後肌受傷使用止痛藥，但未證明非故意或排除違規"
+        },
+        {
+          "documentId": "doc-0403475031379c52",
+          "startLine": 198,
+          "endLine": 208,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "適用及早承認減免一年，禁賽三年（自2023年11月3日起）並取消自2023年9月10日起所有成績"
+        },
+        {
+          "documentId": "registry-c4f0f916f831c713",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "官方名冊登載處罰三年禁賽（自2023年11月3日起）及取消2023年9月10日起成績"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "aiu-f462aefdfa47",
+      "status": "supported",
+      "checks": {
+        "identity": "supported",
+        "country": "supported",
+        "event": "supported",
+        "substance": "supported",
+        "sanction": "supported",
+        "dates": "supported",
+        "outcomes": "supported",
+        "education": "supported"
+      },
+      "sourcesRead": [
+        "doc-8f2901db77d90c96",
+        "registry-04faee55fc8e9e9a"
+      ],
+      "evidence": [
+        {
+          "documentId": "doc-8f2901db77d90c96",
+          "startLine": 18,
+          "endLine": 18,
+          "supports": [
+            "identity",
+            "country"
+          ],
+          "note": "選手為38歲摩洛哥中長跑運動員"
+        },
+        {
+          "documentId": "doc-8f2901db77d90c96",
+          "startLine": 42,
+          "endLine": 50,
+          "supports": [
+            "event",
+            "dates"
+          ],
+          "note": "2022年5月15日馬拉喀什與2022年11月19日阿布達比採樣"
+        },
+        {
+          "documentId": "doc-8f2901db77d90c96",
+          "startLine": 68,
+          "endLine": 76,
+          "supports": [
+            "substance"
+          ],
+          "note": "檢測結果分別呈現CERA與重組EPO陽性"
+        },
+        {
+          "documentId": "doc-8f2901db77d90c96",
+          "startLine": 82,
+          "endLine": 92,
+          "supports": [
+            "event",
+            "substance",
+            "dates"
+          ],
+          "note": "2023年2月11日利雅德馬拉松採樣亦檢出EPO陽性"
+        },
+        {
+          "documentId": "doc-8f2901db77d90c96",
+          "startLine": 208,
+          "endLine": 211,
+          "supports": [
+            "event",
+            "education"
+          ],
+          "note": "選手於2023年12月5日撤回聽證請求，承認違規並接受處分"
+        },
+        {
+          "documentId": "doc-8f2901db77d90c96",
+          "startLine": 337,
+          "endLine": 343,
+          "supports": [
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "因加重情節處六年禁賽，自2023年12月14日決定日起算並折抵自2023年3月14日起之暫時禁賽，取消自2022年5月15日起成績"
+        },
+        {
+          "documentId": "registry-04faee55fc8e9e9a",
+          "startLine": 1,
+          "endLine": 1,
+          "supports": [
+            "identity",
+            "country",
+            "substance",
+            "sanction",
+            "dates",
+            "outcomes"
+          ],
+          "note": "AIU名冊確認六年禁賽（自2023年3月14日起計）及取消2022年5月15日起成績"
+        }
+      ],
+      "findings": []
+    }
+  ]
+}
