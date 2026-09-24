@@ -1,0 +1,140 @@
+{
+  "cases": [
+    {
+      "id": "usada-365cbd5fbcea",
+      "status": "supported",
+      "identity": "supported",
+      "country": "supported",
+      "temporalScope": "supported",
+      "evidence": [
+        {
+          "documentId": "country",
+          "startLine": 1,
+          "endLine": 1,
+          "note": "Team USA profile header confirms athlete affiliation at lookup"
+        },
+        {
+          "documentId": "country",
+          "startLine": 448,
+          "endLine": 450,
+          "note": "Boxing sport and athlete name Arika Skoog confirmed"
+        },
+        {
+          "documentId": "country",
+          "startLine": 454,
+          "endLine": 457,
+          "note": "Age 33, Hometown Boston MA align with USADA record (age 29 in Oct 2022; 33 in 2026 lookup is consistent)"
+        },
+        {
+          "documentId": "case",
+          "startLine": 1,
+          "endLine": 7,
+          "note": "USADA sanction confirms U.S. boxer Arika Skoog of Boston, Mass., October 2022"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-806eab5af83f",
+      "status": "supported",
+      "identity": "supported",
+      "country": "supported",
+      "temporalScope": "supported",
+      "evidence": [
+        {
+          "documentId": "country",
+          "startLine": 79,
+          "endLine": 85,
+          "note": "IPC official announcement dated 30 Jan 2017 of 2017 US women's wheelchair basketball national team"
+        },
+        {
+          "documentId": "country",
+          "startLine": 91,
+          "endLine": 91,
+          "note": "Sarah Heinzl listed from University of Arizona on official 2017 national team roster"
+        },
+        {
+          "documentId": "country",
+          "startLine": 104,
+          "endLine": 104,
+          "note": "Sarah Heinzl appears in formal 2017 US women's wheelchair basketball national team roster"
+        },
+        {
+          "documentId": "case",
+          "startLine": 7,
+          "endLine": 7,
+          "note": "USADA sanction confirms Sarah Heinzl of Tucson, Ariz., wheelchair basketball athlete, August 2017"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-7da5b8af5ba7",
+      "status": "supported",
+      "identity": "supported",
+      "country": "supported",
+      "temporalScope": "supported",
+      "evidence": [
+        {
+          "documentId": "country",
+          "startLine": 1,
+          "endLine": 1,
+          "note": "USA Field Hockey official profile header confirms athlete affiliation at lookup"
+        },
+        {
+          "documentId": "country",
+          "startLine": 108,
+          "endLine": 108,
+          "note": "Tyler Sundeen athlete name confirmed on USA Field Hockey official profile"
+        },
+        {
+          "documentId": "country",
+          "startLine": 118,
+          "endLine": 121,
+          "note": "Age 32, Hometown Simi Valley CA align with USADA record (age 30 in Jan 2024; 32 in 2026 lookup is consistent with 2-year gap)"
+        },
+        {
+          "documentId": "case",
+          "startLine": 7,
+          "endLine": 7,
+          "note": "USADA sanction confirms Tyler Sundeen of Simi Valley, Calif., field hockey athlete, January 2024 (May 2023 test)"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-5f2ba9170fdc",
+      "status": "issue",
+      "identity": "supported",
+      "country": "supported",
+      "temporalScope": "issue",
+      "evidence": [
+        {
+          "documentId": "country",
+          "startLine": 13,
+          "endLine": 13,
+          "note": "USA Hockey official announcement of U.S. Women's National Under-18 Team roster for 2016 IIHF event"
+        },
+        {
+          "documentId": "country",
+          "startLine": 17,
+          "endLine": 18,
+          "note": "Grace Bowlby listed on 2016 U18 official roster (Edina, Minn.)"
+        },
+        {
+          "documentId": "case",
+          "startLine": 7,
+          "endLine": 7,
+          "note": "USADA sanction identifies Grace Bowlby of Edina, Minn., ice hockey athlete, December 2021"
+        }
+      ],
+      "findings": [
+        {
+          "field": "temporalScope",
+          "explanation": "Provided source document (2016 U18 Women's Worlds official roster) establishes sporting affiliation for 2016, not 2021. The case year is 2021, creating a five-year gap. While the proposal's temporalNote acknowledges this temporal mismatch ('本案事件為 2021 年，不據此推定 2021 年代表資格'), no official USA Hockey documentation for 2020–2021 period is supplied to confirm ongoing national team affiliation at case time.",
+          "suggestion": "Secure an official USA Hockey team roster, international competition entry list, or results record dated 2021 or adjacent year to establish Grace Bowlby's sporting country affiliation for the case period. The 2016 U18 roster alone confirms only 2016 eligibility."
+        }
+      ]
+    }
+  ]
+}

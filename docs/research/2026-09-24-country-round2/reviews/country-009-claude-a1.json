@@ -1,0 +1,83 @@
+{
+  "cases": [
+    {
+      "id": "usada-a0a7483bcc7e",
+      "status": "supported",
+      "identity": "supported",
+      "country": "supported",
+      "temporalScope": "supported",
+      "evidence": [
+        {
+          "documentId": "country",
+          "startLine": 448,
+          "endLine": 449,
+          "note": "Name confirmed in official Team USA profile: 'JC Cruse'"
+        },
+        {
+          "documentId": "case",
+          "startLine": 7,
+          "endLine": 7,
+          "note": "Case identity match: 'J.C. Cruse, of Detroit, Mich., an athlete in the sport of bobsled'"
+        },
+        {
+          "documentId": "country",
+          "startLine": 1,
+          "endLine": 1,
+          "note": "Official sporting country: 'JC Cruse | Team USA'"
+        },
+        {
+          "documentId": "country",
+          "startLine": 467,
+          "endLine": 469,
+          "note": "Temporal support: '2016-2017 North American Cup in two-man for pilot' overlaps case year 2017"
+        },
+        {
+          "documentId": "case",
+          "startLine": 1,
+          "endLine": 1,
+          "note": "Case source confirms: 'U.S. Bobsled Athlete, J.C. Cruse'"
+        },
+        {
+          "documentId": "case",
+          "startLine": 8,
+          "endLine": 8,
+          "note": "Violation date 'January 12, 2017' falls within documented 2016-2017 competition period"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-de625da34c51",
+      "status": "issue",
+      "identity": "supported",
+      "country": "issue",
+      "temporalScope": "issue",
+      "evidence": [
+        {
+          "documentId": "case",
+          "startLine": 7,
+          "endLine": 7,
+          "note": "Case identity: 'Dylan Fischbach, of Vermillion, South Dakota, an athlete in the sport of Paralympic basketball'"
+        },
+        {
+          "documentId": "country",
+          "startLine": 94,
+          "endLine": 94,
+          "note": "Name confirmed in IPC 2018 report: 'Dylan Fischbach' named to U.S. Men's National Team"
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "explanation": "The supplied country document (IPC 2018 official report) establishes Fischbach's affiliation as a member of the 2018 U.S. Men's National Wheelchair Basketball Team. However, this document dates to January 2018. The case year is 2015 (violation date August 22, 2015 per case document line 8). An official team roster establishes sporting affiliation only for its stated period. The 2018 roster cannot demonstrate USA sporting affiliation for 2015 without independent evidence from that period. The proposed temporalNote explicitly warns against this inference ('本案事件為2015年，不據此推定2015年代表資格').",
+          "suggestion": "Provide dated official evidence from 2015 or earlier—such as 2015 ParaPan Am Games roster (referenced at case document line 97), 2015 national team selection records, or official IWBF competition results from that year—to establish USA sporting affiliation for the case period."
+        },
+        {
+          "field": "temporalScope",
+          "explanation": "The country document year (2018) and case year (2015) are separated by 3 years. IPC line 94 notes this was Fischbach's 'first U.S. Men's National Team' selection in 2018, not in 2015. Alignment of temporal scope requires the sporting country and its documented competitive record to match the case's temporal position.",
+          "suggestion": "Identify an official source—name list, competition roster, or dated qualifier result—that explicitly documents Fischbach as representing USA in wheelchair basketball during or before 2015."
+        }
+      ]
+    }
+  ]
+}

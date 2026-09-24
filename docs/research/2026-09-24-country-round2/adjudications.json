@@ -1,0 +1,220 @@
+[
+  {
+    "id": "usada-c459cc791bed",
+    "athleteName": "Ella Nicholson",
+    "disposition": "accepted_as_proposed",
+    "reason": "官方國家／代表隊資料與身分配對已核對，保留來源時期及法律國籍限制。",
+    "modelFindingsConsidered": 0
+  },
+  {
+    "id": "usada-18da72e16a59",
+    "athleteName": "Mariah Park",
+    "disposition": "held",
+    "reason": "官方 2021 泛美錦標賽名單僅能以姓名與項目比對；USADA 2023 公告所列城市（Pittsburgh）與量級未見於該名單，且名單早於本案兩年。未找到可連結同人的官方資料，維持待確認。",
+    "modelFindingsConsidered": 2
+  },
+  {
+    "id": "usada-42343d04a699",
+    "athleteName": "Katelyn Kirby",
+    "disposition": "held",
+    "reason": "僅有美國國內協會賽事／獎項紀錄，未明列選手代表國家；模型指出不足以支持國家欄位。為一致起見，本輪不以國內賽事紀錄升級國家證據，維持待確認。",
+    "modelFindingsConsidered": 0
+  },
+  {
+    "id": "usada-88685d4069ae",
+    "athleteName": "Keiser Witte",
+    "disposition": "accepted_with_additional_source",
+    "reason": "Claude 對 Tempe／Phoenix 城市差異提出 uncertain；另以 USA Weightlifting 2023-02-24 官方聲明佐證：該聲明直接指稱 2021 泛美冠軍 Keiser Witte 因 North American Open Finals 樣本受處分，與 USADA 本案一致，可連結同人。",
+    "additionalSources": [
+      "https://www.usaweightlifting.org/news/features/2023/february/24/usa-weightlifting-statement-on-keiser-witte"
+    ],
+    "note": "Team USA（USOPC）官方選手頁列為 Team USA 舉重選手；USA Weightlifting 2023 年官方聲明直接指涉本案。頁面所列國際賽經歷有各自年份，不據此推定本案事件當年代表資格，也非法律國籍認證。",
+    "modelFindingsConsidered": 2
+  },
+  {
+    "id": "usada-a37e4ef92abb",
+    "athleteName": "Christian Rodriguez Ocasio",
+    "disposition": "held",
+    "reason": "Team USA 官方頁所列家鄉（Pleasanton, CA）與 USADA 公告（Wadsworth, Ohio）不同州，模型指出同人疑義；另有波多黎各訓練背景，未找到可連結同人的官方資料前維持待確認。",
+    "modelFindingsConsidered": 3
+  },
+  {
+    "id": "usada-159a9ae15f32",
+    "athleteName": "Ian Wilson",
+    "disposition": "accepted_as_proposed",
+    "reason": "兩模型均支持身分與國家；Claude 就頁面無賽事年份提出 temporalScope uncertain，已由既有註記限定為查閱時官方選手頁、不推定事件當年代表資格，無需改寫。",
+    "modelFindingsConsidered": 1
+  },
+  {
+    "id": "usada-25958bca1e21",
+    "athleteName": "Cary Cooper",
+    "disposition": "accepted_as_proposed",
+    "reason": "官方國家／代表隊資料與身分配對已核對，保留來源時期及法律國籍限制。",
+    "modelFindingsConsidered": 0
+  },
+  {
+    "id": "usada-89c25ce0aa40",
+    "athleteName": "Darien Moore",
+    "disposition": "accepted_as_proposed",
+    "reason": "官方國家／代表隊資料與身分配對已核對，保留來源時期及法律國籍限制。",
+    "modelFindingsConsidered": 0
+  },
+  {
+    "id": "usada-73473ebf3acd",
+    "athleteName": "Ana Irizarry",
+    "disposition": "held",
+    "reason": "僅有美國國內協會賽事／獎項紀錄，未明列選手代表國家；模型指出不足以支持國家欄位。為一致起見，本輪不以國內賽事紀錄升級國家證據，維持待確認。",
+    "modelFindingsConsidered": 3
+  },
+  {
+    "id": "usada-a065a9e92dd5",
+    "athleteName": "Dryden McKay",
+    "disposition": "held",
+    "reason": "僅有美國國內協會賽事／獎項紀錄，未明列選手代表國家；模型指出不足以支持國家欄位。為一致起見，本輪不以國內賽事紀錄升級國家證據，維持待確認。",
+    "modelFindingsConsidered": 2
+  },
+  {
+    "id": "usada-f8c1f2c29e25",
+    "athleteName": "Madeline Wethington",
+    "disposition": "accepted_as_proposed",
+    "reason": "官方國家／代表隊資料與身分配對已核對，保留來源時期及法律國籍限制。",
+    "modelFindingsConsidered": 0
+  },
+  {
+    "id": "usada-9e3ec5e00217",
+    "athleteName": "Isabel Gormley",
+    "disposition": "accepted_as_proposed",
+    "reason": "官方國家／代表隊資料與身分配對已核對，保留來源時期及法律國籍限制。",
+    "modelFindingsConsidered": 0
+  },
+  {
+    "id": "usada-f40282760e72",
+    "athleteName": "Patrick \"Dillon\" Schrodt",
+    "disposition": "accepted_as_proposed",
+    "reason": "官方國家／代表隊資料與身分配對已核對，保留來源時期及法律國籍限制。",
+    "modelFindingsConsidered": 0
+  },
+  {
+    "id": "usada-b54bb0c30eb2",
+    "athleteName": "Kyler Allison",
+    "disposition": "accepted_as_proposed",
+    "reason": "官方國家／代表隊資料與身分配對已核對，保留來源時期及法律國籍限制。",
+    "modelFindingsConsidered": 0
+  },
+  {
+    "id": "usada-b714a3c460a7",
+    "athleteName": "Lauren Goss",
+    "disposition": "accepted_as_proposed",
+    "reason": "官方國家／代表隊資料與身分配對已核對，保留來源時期及法律國籍限制。",
+    "modelFindingsConsidered": 0
+  },
+  {
+    "id": "usada-2afd16a939d4",
+    "athleteName": "Noah Webb",
+    "disposition": "accepted_as_proposed",
+    "reason": "官方國家／代表隊資料與身分配對已核對，保留來源時期及法律國籍限制。",
+    "modelFindingsConsidered": 0
+  },
+  {
+    "id": "usada-1035e17c5288",
+    "athleteName": "Daniel Summerhill",
+    "disposition": "held",
+    "reason": "僅有美國國內協會賽事／獎項紀錄，未明列選手代表國家；模型指出不足以支持國家欄位。為一致起見，本輪不以國內賽事紀錄升級國家證據，維持待確認。",
+    "modelFindingsConsidered": 1
+  },
+  {
+    "id": "usada-365cbd5fbcea",
+    "athleteName": "Arika Skoog",
+    "disposition": "accepted_as_proposed",
+    "reason": "官方國家／代表隊資料與身分配對已核對，保留來源時期及法律國籍限制。",
+    "modelFindingsConsidered": 0
+  },
+  {
+    "id": "usada-806eab5af83f",
+    "athleteName": "Sarah Heinzl",
+    "disposition": "accepted_as_proposed",
+    "reason": "官方國家／代表隊資料與身分配對已核對，保留來源時期及法律國籍限制。",
+    "modelFindingsConsidered": 0
+  },
+  {
+    "id": "usada-7da5b8af5ba7",
+    "athleteName": "Tyler Sundeen",
+    "disposition": "accepted_as_proposed",
+    "reason": "官方國家／代表隊資料與身分配對已核對，保留來源時期及法律國籍限制。",
+    "modelFindingsConsidered": 0
+  },
+  {
+    "id": "usada-5f2ba9170fdc",
+    "athleteName": "Grace Bowlby",
+    "disposition": "accepted_as_proposed",
+    "reason": "Claude 指出名單年份（2016）早於本案（2021）；既有註記已限定為 2016 年賽事時期、不推定 2021 年代表資格。Edina, Minn. 與 USADA 一致，身分由兩模型支持。",
+    "modelFindingsConsidered": 1
+  },
+  {
+    "id": "usada-9c8b8e7bbb4c",
+    "athleteName": "Chris Creveling",
+    "disposition": "accepted_as_proposed",
+    "reason": "官方國家／代表隊資料與身分配對已核對，保留來源時期及法律國籍限制。",
+    "modelFindingsConsidered": 0
+  },
+  {
+    "id": "usada-8d214edc5d96",
+    "athleteName": "Logan Storie",
+    "disposition": "accepted_as_proposed",
+    "reason": "官方國家／代表隊資料與身分配對已核對，保留來源時期及法律國籍限制。",
+    "modelFindingsConsidered": 0
+  },
+  {
+    "id": "usada-5b6cb4ab463d",
+    "athleteName": "Riley Stohr",
+    "disposition": "accepted_as_proposed",
+    "reason": "官方國家／代表隊資料與身分配對已核對，保留來源時期及法律國籍限制。",
+    "modelFindingsConsidered": 0
+  },
+  {
+    "id": "usada-4518fb0dbd4d",
+    "athleteName": "Talina Le",
+    "disposition": "accepted_as_proposed",
+    "reason": "官方頁家鄉（Woodinville）與 USADA（Miami）不同，但同名、同項目、年齡相符，兩模型均支持身分；國家欄位維持查閱時官方頁範圍。",
+    "modelFindingsConsidered": 0
+  },
+  {
+    "id": "usada-b6074d0cf1fc",
+    "athleteName": "Lindsey Corrigan",
+    "disposition": "accepted_as_proposed",
+    "reason": "官方國家／代表隊資料與身分配對已核對，保留來源時期及法律國籍限制。",
+    "modelFindingsConsidered": 0
+  },
+  {
+    "id": "usada-8e3e0cdfe74b",
+    "athleteName": "Victoria Francis",
+    "disposition": "accepted_with_additional_source",
+    "reason": "Claude 指出 2014 年報導無法連結 2018 年；另以 Team USA 官方選手頁佐證：Residence Colorado Springs、生日 1994-04-24（2018-08 為 24 歲）與 USADA 一致，並列 2016-17 Team USA 排名。",
+    "additionalSources": [
+      "https://www.teamusa.com/profiles/victoria-francis"
+    ],
+    "note": "USA Wrestling 官方報導列其為 2014 年世界青年錦標賽美國（USA）選手；Team USA 官方頁列 2016-17 Team USA 排名。不據此推定 2018 年事件當時代表資格，也非法律國籍認證。",
+    "modelFindingsConsidered": 2
+  },
+  {
+    "id": "usada-7df0d8ede93d",
+    "athleteName": "Keir Pearson",
+    "disposition": "accepted_as_proposed",
+    "reason": "官方國家／代表隊資料與身分配對已核對，保留來源時期及法律國籍限制。",
+    "modelFindingsConsidered": 0
+  },
+  {
+    "id": "usada-a0a7483bcc7e",
+    "athleteName": "J.C. Cruse",
+    "disposition": "accepted_as_proposed",
+    "reason": "官方國家／代表隊資料與身分配對已核對，保留來源時期及法律國籍限制。",
+    "modelFindingsConsidered": 0
+  },
+  {
+    "id": "usada-de625da34c51",
+    "athleteName": "Dylan Fischbach",
+    "disposition": "accepted_as_proposed",
+    "reason": "Claude 指出 2018 年名單晚於本案（2015）；既有註記已限定為 2018 年名單時期、不推定 2015 年代表資格。兩模型均支持身分。",
+    "modelFindingsConsidered": 2
+  }
+]

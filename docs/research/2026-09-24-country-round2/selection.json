@@ -1,0 +1,425 @@
+[
+  {
+    "id": "usada-c459cc791bed",
+    "sourceUrl": "https://www.usaweightlifting.org/news/2024/september/28/18-medals-numerous-national-records-highlight-junior-world-championships-for-usa",
+    "scope": "official_team_or_event_record",
+    "countryAsListed": "Team USA（2024 IWF Junior World Championships）",
+    "temporalNote": "依 USA Weightlifting 2024 年 IWF 世界青年錦標賽 Team USA 成績報導辨識代表隊；僅適用該賽事時期，非法律國籍認證。",
+    "identityRationale": "同名 Ella Nicholson、舉重、2024 年；USADA 2024-06 公告，Team USA 報導 2024-09 列其 76 kg 成績與 18 歲。",
+    "matchTerms": [
+      "Nicholson",
+      "Team USA",
+      "United States"
+    ]
+  },
+  {
+    "id": "usada-18da72e16a59",
+    "sourceUrl": "https://www.usaweightlifting.org/news/features/2021/november/03/usa-weightlifting-starts-new-olympic-quad-with-20-athlete-team-at-pan-american-championship",
+    "scope": "official_team_or_event_record",
+    "countryAsListed": "USA Weightlifting 代表隊（2021 Pan American Championships）",
+    "temporalNote": "依 USA Weightlifting 2021 年泛美錦標賽代表隊名單辨識代表隊；本案事件為 2023 年，不據此推定 2023 年代表資格，也非法律國籍認證。",
+    "identityRationale": "同名 Mariah Park、舉重、女子 71 kg；USADA 2023 公告未列量級，需檢查姓名與項目以外的識別資訊是否足夠。",
+    "matchTerms": [
+      "Mariah Park",
+      "Americans",
+      "20-Athlete Team",
+      "71kg"
+    ]
+  },
+  {
+    "id": "usada-42343d04a699",
+    "sourceUrl": "https://www.usaweightlifting.org/news/2023/july/17/over-1750-lifters-travel-to-colorado-springs-for-the-2023-usa-weightlifting-national-championship-event",
+    "scope": "national_federation_event_record",
+    "countryAsListed": "USA Weightlifting 2023 全國錦標賽（國內賽）",
+    "temporalNote": "USA Weightlifting 報導列其為 2023 年全國錦標賽成年組冠軍，與 USADA 所述採樣賽事相同；僅證明參加美國國內協會賽事，不等於國家代表隊資格或法律國籍。",
+    "identityRationale": "同名 Katelyn Kirby、舉重；USADA 所述採樣賽事即 2023 USA Weightlifting National Championships（2023-06-30），USA Weightlifting 報導同賽事列其為成年組女子冠軍。",
+    "matchTerms": [
+      "Kirby",
+      "National Championships",
+      "senior division"
+    ]
+  },
+  {
+    "id": "usada-88685d4069ae",
+    "sourceUrl": "https://www.teamusa.com/profiles/keiser-witte-1142318",
+    "scope": "official_profile_at_lookup",
+    "countryAsListed": "Team USA",
+    "temporalNote": "補充來源為本次查閱的 Team USA（USOPC）官方選手頁；頁面所列國際賽經歷有各自年份，不據此推定本案事件當年代表資格，也非法律國籍認證。",
+    "identityRationale": "同名 Keiser Witte、舉重、超重量級；USADA 稱 of Tempe, Ariz.，Team USA 頁列 Hometown Phoenix, AZ、Arizona State University；城市不同需判斷是否足以辨識同人。",
+    "matchTerms": [
+      "Witte",
+      "Hometown",
+      "Phoenix",
+      "Arizona State",
+      "Pan American",
+      "World Championship"
+    ]
+  },
+  {
+    "id": "usada-a37e4ef92abb",
+    "sourceUrl": "https://www.teamusa.com/profiles/christian-rodriguez-ocasio",
+    "scope": "official_profile_at_lookup",
+    "countryAsListed": "Team USA",
+    "temporalNote": "補充來源為本次查閱的 Team USA（USOPC）官方選手頁；頁面所列國際賽經歷有各自年份，不據此推定本案事件當年代表資格，也非法律國籍認證。",
+    "identityRationale": "同名 Christian Rodriguez Ocasio、舉重；USADA 稱 of Wadsworth, Ohio，Team USA 頁列 Hometown Pleasanton, CA，城市不符需判斷；另須注意波多黎各為獨立奧會，不能只憑姓名推定。",
+    "matchTerms": [
+      "Rodriguez Ocasio",
+      "Hometown",
+      "Pleasanton",
+      "Education",
+      "Pan American",
+      "World Championships"
+    ]
+  },
+  {
+    "id": "usada-159a9ae15f32",
+    "sourceUrl": "https://www.teamusa.com/profiles/ian-wilson",
+    "scope": "official_profile_at_lookup",
+    "countryAsListed": "Team USA",
+    "temporalNote": "補充來源為本次查閱的 Team USA（USOPC）官方選手頁；頁面所列國際賽經歷有各自年份，不據此推定本案事件當年代表資格，也非法律國籍認證。",
+    "identityRationale": "同名 Ian Wilson、舉重；USADA 拼作 of Berkley, Calif. 且 2022-02 時 28 歲，Team USA 頁列 Berkeley, CA、出生年 1994，年齡約相符（未列生日，僅推算）。",
+    "matchTerms": [
+      "Ian Wilson",
+      "Wilson",
+      "Birth year",
+      "Berkeley",
+      "Barbell Club"
+    ]
+  },
+  {
+    "id": "usada-25958bca1e21",
+    "sourceUrl": "https://worldathletics.org/athletes/united-states/cary-cooper-15146776",
+    "scope": "official_profile_at_lookup",
+    "countryAsListed": "United States",
+    "temporalNote": "補充來源為本次查閱的官方選手資料所列國家；不據此認證法律國籍、事件當時代表資格或完整代表國變更史。",
+    "identityRationale": "同名 Cary Cooper、田徑擲部；World Athletics 生日 1969-04-23，USADA 2024-08 稱 55 歲相符；成績地點 Houston, TX 與 USADA of Houston 一致。",
+    "matchTerms": [
+      "COOPER",
+      "United States",
+      "1969",
+      "Houston"
+    ]
+  },
+  {
+    "id": "usada-89c25ce0aa40",
+    "sourceUrl": "https://worldathletics.org/athletes/united-states/darien-moore-14468449",
+    "scope": "official_profile_at_lookup",
+    "countryAsListed": "United States",
+    "temporalNote": "補充來源為本次查閱的官方選手資料所列國家；不據此認證法律國籍、事件當時代表資格或完整代表國變更史。",
+    "identityRationale": "同名 Darien Moore、田徑鉛球；World Athletics 生日 1991-06-10，USADA 2017-05 稱 25 歲相符；USADA 稱 of Bakersfield, Calif.，官方頁未列城市。",
+    "matchTerms": [
+      "MOORE",
+      "United States",
+      "1991",
+      "Shot Put"
+    ]
+  },
+  {
+    "id": "usada-73473ebf3acd",
+    "sourceUrl": "https://www.usatf.org/news/2022/world-and-american-records-fall-at-usatf-masters-i",
+    "scope": "national_federation_event_record",
+    "countryAsListed": "USATF 2022 Masters Indoor Championships（國內協會賽事報導）",
+    "temporalNote": "USATF 報導其於 2022 年 USATF 室內大師賽創美國紀錄，與 USADA 所述採樣賽事相同；僅證明參加美國國內協會賽事，不等於國家代表隊資格或法律國籍。",
+    "identityRationale": "同名 Ana Irizarry、田徑；USATF 報導列 Passaic, New Jersey，與 USADA of Passaic, N.J. 一致；同為 2022 USATF Masters Indoor Championships。",
+    "matchTerms": [
+      "Irizarry",
+      "Passaic",
+      "Masters Indoor"
+    ]
+  },
+  {
+    "id": "usada-a065a9e92dd5",
+    "sourceUrl": "https://www.usahockey.com/news_article/show/1227898",
+    "scope": "national_federation_event_record",
+    "countryAsListed": "USA Hockey 2022 年度大學最佳球員獎（國內協會獎項）",
+    "temporalNote": "USA Hockey 2022 年官方報導頒發年度大學最佳球員獎；僅證明美國國內協會認可之大學賽事經歷，不等於國家代表隊資格或法律國籍。",
+    "identityRationale": "同名 Dryden McKay、冰球守門員、2022 年；USADA 稱 of Mankato, Minn.（Minnesota State 所在地），USA Hockey 報導其效力 Minnesota State、Downers Grove, Ill. 出身。",
+    "matchTerms": [
+      "McKay",
+      "Minnesota State",
+      "Downers Grove",
+      "USA Hockey"
+    ]
+  },
+  {
+    "id": "usada-f8c1f2c29e25",
+    "sourceUrl": "https://teamusa.usahockey.com/news_article/show/731818",
+    "scope": "official_team_or_event_record",
+    "countryAsListed": "U.S. Women's National Under-18 Team（2017）",
+    "temporalNote": "依 USA Hockey 2017 年 U18 女子國家隊名單辨識代表隊；本案事件為 2021 年，不據此推定 2021 年代表資格，也非法律國籍認證。",
+    "identityRationale": "同名 Madeline Wethington、冰球；名單列 Edina, Minn.，與 USADA of Edina, Minn. 一致。",
+    "matchTerms": [
+      "Wethington",
+      "Under-18",
+      "Edina"
+    ]
+  },
+  {
+    "id": "usada-9e3ec5e00217",
+    "sourceUrl": "https://www.worldaquatics.com/athletes/1137517/isabel-gormley/profile",
+    "scope": "official_profile_at_lookup",
+    "countryAsListed": "USA",
+    "temporalNote": "補充來源為本次查閱的官方選手資料所列國家；不據此認證法律國籍、事件當時代表資格或完整代表國變更史。",
+    "identityRationale": "同名 Isabel Gormley、游泳；World Aquatics 列 Nationality USA；官方頁未列生日或城市，USADA 稱 of Wainscott, N.Y.、20 歲且屬 USADA RTP。",
+    "matchTerms": [
+      "GORMLEY",
+      "Nationality",
+      "USA",
+      "Swimming"
+    ]
+  },
+  {
+    "id": "usada-f40282760e72",
+    "sourceUrl": "https://www.teamusa.com/profiles/dillon-schrodt",
+    "scope": "official_profile_at_lookup",
+    "countryAsListed": "Team USA",
+    "temporalNote": "補充來源為本次查閱的 Team USA（USOPC）官方選手頁；頁面所列經歷有各自年份，不據此推定本案事件當年代表資格，也非法律國籍認證。",
+    "identityRationale": "同名 Dillon Schrodt、雪車；Team USA 頁列 2016-2017 North American Cup 經歷（含 Park City 1/17），與 USADA 所述 2017-01-12 IBSF North American Cup 採樣相符。",
+    "matchTerms": [
+      "Schrodt",
+      "Bobsled",
+      "North American Cup",
+      "CAREER HIGHLIGHTS"
+    ]
+  },
+  {
+    "id": "usada-b54bb0c30eb2",
+    "sourceUrl": "https://www.teamusa.com/profiles/kyler-allison",
+    "scope": "official_profile_at_lookup",
+    "countryAsListed": "Team USA",
+    "temporalNote": "補充來源為本次查閱的 Team USA（USOPC）官方選手頁；頁面所列經歷有各自年份，不據此推定本案事件當年代表資格，也非法律國籍認證。",
+    "identityRationale": "同名 Kyler Allison、雪車；Team USA 頁列 Hometown Austin, TX、Age 42（查閱時），與 USADA 2019 年 of Austin, Texas、35 歲相符。",
+    "matchTerms": [
+      "Allison",
+      "Hometown",
+      "Austin",
+      "Age",
+      "bobsled"
+    ]
+  },
+  {
+    "id": "usada-b714a3c460a7",
+    "sourceUrl": "https://triathlon.org/athletes/profile/40842/lauren-goss",
+    "scope": "official_profile_at_lookup",
+    "countryAsListed": "United States",
+    "temporalNote": "補充來源為本次查閱的官方選手資料所列國家；不據此認證法律國籍、事件當時代表資格或完整代表國變更史。",
+    "identityRationale": "同名 Lauren Goss、鐵人三項；World Triathlon 列 United States、出生年 1988，USADA 2019-09 稱 31 歲相符；USADA 稱 of Boulder, Colo.，官方頁未列城市。",
+    "matchTerms": [
+      "Goss",
+      "United States",
+      "1988",
+      "Athlete ID"
+    ]
+  },
+  {
+    "id": "usada-2afd16a939d4",
+    "sourceUrl": "https://triathlon.org/athletes/profile/77677/noah-webb",
+    "scope": "official_profile_at_lookup",
+    "countryAsListed": "United States",
+    "temporalNote": "補充來源為本次查閱的官方選手資料所列國家；不據此認證法律國籍、事件當時代表資格或完整代表國變更史。",
+    "identityRationale": "同名 Noah Webb、鐵人三項；World Triathlon 列 United States、出生年 1973，USADA 2021 稱 48 歲相符；官方頁未列城市（USADA 稱 Los Angeles）。",
+    "matchTerms": [
+      "Webb",
+      "United States",
+      "1973",
+      "Athlete ID"
+    ]
+  },
+  {
+    "id": "usada-1035e17c5288",
+    "sourceUrl": "https://usacycling.org/article/twenty-national-titles-awarded-at-the-2023-usa-cycling-madison-track-national-championships",
+    "scope": "national_federation_event_record",
+    "countryAsListed": "USA Cycling 2023 Madison 場地全國錦標賽（國內賽）",
+    "temporalNote": "USA Cycling 報導其獲 2023 年 Madison 場地全國冠軍；本案事件為 2021 年，僅證明參加美國國內協會賽事，不等於國家代表隊資格或法律國籍。",
+    "identityRationale": "Danny／Daniel Summerhill、自行車；USA Cycling 報導列 Centennial, Colo.，與 USADA of Centennial, Colo. 一致。",
+    "matchTerms": [
+      "Summerhill",
+      "Centennial",
+      "Elite Men"
+    ]
+  },
+  {
+    "id": "usada-365cbd5fbcea",
+    "sourceUrl": "https://www.teamusa.com/profiles/arika-skoog-1201458",
+    "scope": "official_profile_at_lookup",
+    "countryAsListed": "Team USA",
+    "temporalNote": "補充來源為本次查閱的 Team USA 官方選手頁；頁面所列經歷有各自年份，不據此推定本案事件當年代表資格，也非法律國籍認證。",
+    "identityRationale": "同名 Arika Skoog、拳擊；Team USA 頁列 Hometown Boston, MA、Age 33（查閱時），與 USADA 2022-10 of Boston, Mass.、29 歲相符。",
+    "matchTerms": [
+      "Skoog",
+      "Hometown",
+      "Boston",
+      "Age",
+      "USA Boxing"
+    ]
+  },
+  {
+    "id": "usada-806eab5af83f",
+    "sourceUrl": "https://www.paralympic.org/news/us-women-s-wheelchair-basketball-national-team-named",
+    "scope": "official_team_or_event_record",
+    "countryAsListed": "2017 US women's wheelchair basketball national team",
+    "temporalNote": "依國際帕拉林匹克委員會（IPC）2017 年報導之美國女子輪椅籃球國家隊名單辨識代表隊；與本案同年，但非法律國籍認證。",
+    "identityRationale": "同名 Sarah Heinzl、輪椅籃球、2017 年；IPC 報導稱其來自 University of Arizona，USADA 稱 of Tucson, Ariz.（該校所在城市）。",
+    "matchTerms": [
+      "Heinzl",
+      "national team",
+      "2017",
+      "Team USA"
+    ]
+  },
+  {
+    "id": "usada-7da5b8af5ba7",
+    "sourceUrl": "https://www.usafieldhockey.com/profiles/tyler-sundeen",
+    "scope": "official_profile_at_lookup",
+    "countryAsListed": "USA Field Hockey",
+    "temporalNote": "補充來源為本次查閱的 USA Field Hockey 官方選手頁；不據此推定本案事件當年代表資格，也非法律國籍認證。",
+    "identityRationale": "同名 Tyler Sundeen、曲棍球；官方頁列 Hometown Simi Valley, CA、Age 32（查閱時），與 USADA 2024-01 of Simi Valley, Calif.、30 歲相符。",
+    "matchTerms": [
+      "Sundeen",
+      "Hometown",
+      "Simi Valley",
+      "Age"
+    ]
+  },
+  {
+    "id": "usada-5f2ba9170fdc",
+    "sourceUrl": "https://teamusa.usahockey.com/news_article/show/582368-roster-announced-for-2016-u18-women-s-worlds",
+    "scope": "official_team_or_event_record",
+    "countryAsListed": "U.S. Women's National Under-18 Team（2016 IIHF U18 Women's Worlds）",
+    "temporalNote": "依 USA Hockey 2016 年 U18 女子世界錦標賽美國隊名單辨識代表隊；本案事件為 2021 年，不據此推定 2021 年代表資格，也非法律國籍認證。",
+    "identityRationale": "同名 Grace Bowlby、冰球；名單列 Edina, Minn.，與 USADA of Edina, Minn. 一致。",
+    "matchTerms": [
+      "Bowlby",
+      "Edina",
+      "U18",
+      "Roster"
+    ]
+  },
+  {
+    "id": "usada-9c8b8e7bbb4c",
+    "sourceUrl": "https://www.teamusa.com/profiles/chris-creveling-859947",
+    "scope": "official_profile_at_lookup",
+    "countryAsListed": "Team USA（Olympian 2014）",
+    "temporalNote": "補充來源為本次查閱的 Team USA 官方選手頁；頁面所列經歷有各自年份，不據此推定本案事件當年代表資格，也非法律國籍認證。",
+    "identityRationale": "同名 Chris Creveling、競速滑冰；Team USA 頁列 Olympian 2014、Age 39（查閱時），與 USADA 2017-05 稱 30 歲相符；USADA 稱 of Salt Lake City，官方頁列 Hometown Kintnersville, PA，城市不同。",
+    "matchTerms": [
+      "Creveling",
+      "Olympian",
+      "Age",
+      "Hometown"
+    ]
+  },
+  {
+    "id": "usada-8d214edc5d96",
+    "sourceUrl": "https://www.uipmworld.org/athlete/logan-storie",
+    "scope": "official_profile_at_lookup",
+    "countryAsListed": "United States",
+    "temporalNote": "補充來源為本次查閱的官方選手資料所列國家；不據此認證法律國籍、事件當時代表資格或完整代表國變更史。",
+    "identityRationale": "同名 Logan Storie、現代五項；UIPM 官方頁列 Nation: United States，並連到 UIPM 對 Logan Storie (USA) 的禁藥聲明，與 USADA 所述首次違規相符。",
+    "matchTerms": [
+      "STORIE",
+      "Nation",
+      "United States",
+      "Storie"
+    ]
+  },
+  {
+    "id": "usada-5b6cb4ab463d",
+    "sourceUrl": "https://www.teamusa.com/profiles/riley-stohr",
+    "scope": "official_profile_at_lookup",
+    "countryAsListed": "Team USA",
+    "temporalNote": "補充來源為本次查閱的 Team USA 官方選手頁；頁面所列經歷有各自年份，不據此推定本案事件當年代表資格，也非法律國籍認證。",
+    "identityRationale": "同名 Riley Stohr、雪橇；Team USA 頁 Age 30（查閱時），與 USADA 2017-07 稱 21 歲大致相符；USADA 稱 of Saranac Lake, N.Y.，官方頁列 Hometown Whitehall，城市不同。",
+    "matchTerms": [
+      "Stohr",
+      "Age",
+      "Hometown",
+      "Luge",
+      "luge"
+    ]
+  },
+  {
+    "id": "usada-4518fb0dbd4d",
+    "sourceUrl": "https://www.teamusa.com/profiles/talina-le",
+    "scope": "official_profile_at_lookup",
+    "countryAsListed": "Team USA",
+    "temporalNote": "補充來源為本次查閱的 Team USA 官方選手頁；頁面所列經歷有各自年份，不據此推定本案事件當年代表資格，也非法律國籍認證。",
+    "identityRationale": "同名 Talina Le、跆拳道；Team USA 頁 Age 33（查閱時），與 USADA 2019-07 稱 26 歲相符；USADA 稱 of Miami, Fla.，官方頁列 Hometown Woodinville，城市不同。",
+    "matchTerms": [
+      "Talina",
+      "Age",
+      "Hometown",
+      "Taekwondo"
+    ]
+  },
+  {
+    "id": "usada-b6074d0cf1fc",
+    "sourceUrl": "https://www.teamusa.com/profiles/lindsey-corrigan",
+    "scope": "official_profile_at_lookup",
+    "countryAsListed": "Team USA",
+    "temporalNote": "補充來源為本次查閱的 Team USA 官方選手頁；頁面所列經歷有各自年份，不據此推定本案事件當年代表資格，也非法律國籍認證。",
+    "identityRationale": "同名 Lindsey Corrigan、跆拳道；Team USA 頁列 Hometown Napa, CA、Age 21（查閱時），與 USADA 2023-05 of Napa, California、18 歲相符。",
+    "matchTerms": [
+      "Corrigan",
+      "Age",
+      "Hometown",
+      "Napa"
+    ]
+  },
+  {
+    "id": "usada-8e3e0cdfe74b",
+    "sourceUrl": "https://www.themat.com/news/2024/february/01/victoria-francis-elevated-to-2014-junior-world-silver-medalist-after-anti-doping-violation-by-opponent",
+    "scope": "official_team_or_event_record",
+    "countryAsListed": "USA（2014 Junior World Championships）",
+    "temporalNote": "依 USA Wrestling 官方報導，其於 2014 年世界青年錦標賽以美國（USA）選手身分參賽；本案事件為 2018 年，不據此推定 2018 年代表資格，也非法律國籍認證。",
+    "identityRationale": "同名 Victoria Francis、女子自由式角力；USA Wrestling 報導稱 U.S. women's freestyle wrestler、圖說 (USA)；未列城市或年齡（USADA 稱 of Colorado Springs、2018 年 24 歲）。",
+    "matchTerms": [
+      "Francis",
+      "USA",
+      "U.S. women",
+      "Junior World"
+    ]
+  },
+  {
+    "id": "usada-7df0d8ede93d",
+    "sourceUrl": "https://worldrowing.com/athlete/8404",
+    "scope": "official_team_or_event_record",
+    "countryAsListed": "USA（1992 World Rowing results）",
+    "temporalNote": "依 World Rowing 官方選手頁所列 1992 年美國（USA）比賽紀錄辨識代表隊；本案事件為 2021 年，不據此推定 2021 年代表資格，也非法律國籍認證。",
+    "identityRationale": "同名 Keir Pearson、划船；World Rowing 列 USA 男子四人單槳 1992 年紀錄；USADA 2021 稱 of Irvine, California、54 歲，與 1992 年奧運選手年齡相容，但官方頁未列生日。",
+    "matchTerms": [
+      "PEARSON",
+      "Country",
+      "USA",
+      "1992"
+    ]
+  },
+  {
+    "id": "usada-a0a7483bcc7e",
+    "sourceUrl": "https://www.teamusa.com/profiles/jc-cruse",
+    "scope": "official_profile_at_lookup",
+    "countryAsListed": "Team USA",
+    "temporalNote": "補充來源為本次查閱的 Team USA 官方選手頁；頁面所列經歷有各自年份，不據此推定本案事件當年代表資格，也非法律國籍認證。",
+    "identityRationale": "同名 J.C.／JC Cruse、雪車；Team USA 頁稱 Originally from Detroit, Mich.，與 USADA of Detroit, Mich. 一致。",
+    "matchTerms": [
+      "Cruse",
+      "Detroit",
+      "Albion",
+      "bobsled"
+    ]
+  },
+  {
+    "id": "usada-de625da34c51",
+    "sourceUrl": "https://www.paralympic.org/news/2018-us-men-s-basketball-team-named",
+    "scope": "official_team_or_event_record",
+    "countryAsListed": "2018 U.S. Men's National Wheelchair Basketball Team",
+    "temporalNote": "依國際帕拉林匹克委員會（IPC）2018 年報導之美國男子輪椅籃球國家隊名單辨識代表隊；本案事件為 2015 年，不據此推定 2015 年代表資格，也非法律國籍認證。",
+    "identityRationale": "同名 Dylan Fischbach、輪椅籃球；IPC 報導稱 NWBA 大學組球員首度入選美國男子國家隊；USADA 2015 稱 of Vermillion, South Dakota、20 歲，官方報導未列城市或年齡。",
+    "matchTerms": [
+      "Fischbach",
+      "national team",
+      "US men",
+      "2018"
+    ]
+  }
+]

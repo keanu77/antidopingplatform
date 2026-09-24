@@ -10,7 +10,7 @@ spec = importlib.util.spec_from_file_location('country_audit', ROOT / 'scripts/r
 audit = importlib.util.module_from_spec(spec); spec.loader.exec_module(audit)
 REPORT, CACHE = audit.REPORT, audit.CACHE
 
-if __name__ == '__main__':
+def main(audit=audit, REPORT=REPORT, CACHE=CACHE):
     manifest = json.loads((REPORT / 'packet-manifest.json').read_text())
     packets = {b['batch']: json.loads((ROOT / b['path']).read_text()) for b in manifest['batches']}
     runs = [json.loads(p.read_text()) for p in (CACHE / 'model-runs').glob('*/*/attempt-*/run.json')]
@@ -64,3 +64,7 @@ if __name__ == '__main__':
                'insufficientCoverageIds': [r['id'] for r in rows if not r['coverageComplete']]}
     (REPORT / 'model-summary.json').write_text(json.dumps(summary, ensure_ascii=False, indent=2)+'\n')
     print(json.dumps(summary, ensure_ascii=False, indent=2))
+
+
+if __name__ == '__main__':
+    main()

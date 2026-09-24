@@ -1,0 +1,48 @@
+{
+  "cases": [
+    {
+      "id": "usada-8e3e0cdfe74b",
+      "status": "supported",
+      "identity": "supported",
+      "country": "supported",
+      "temporalScope": "supported",
+      "evidence": [
+        {
+          "documentId": "country",
+          "startLine": 206,
+          "endLine": 213,
+          "note": "USA Wrestling identifies Victoria Francis as a U.S. women’s freestyle wrestler and describes her 2014 Junior World Championships result; lines 221–223 list her as silver medalist for the United States."
+        },
+        {
+          "documentId": "case",
+          "startLine": 1,
+          "endLine": 8,
+          "note": "USADA’s 2018 notice names Victoria Francis, identifies wrestling, and reports age 24, consistent with the wrestler in the country source."
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-7df0d8ede93d",
+      "status": "supported",
+      "identity": "supported",
+      "country": "supported",
+      "temporalScope": "supported",
+      "evidence": [
+        {
+          "documentId": "country",
+          "startLine": 20,
+          "endLine": 38,
+          "note": "World Rowing profile identifies Keir Pearson and lists his 1992 Olympic Games men’s quadruple sculls result with country USA; the profile gives birth date 15/12/1966 at line 22."
+        },
+        {
+          "documentId": "case",
+          "startLine": 1,
+          "endLine": 8,
+          "note": "USADA names Keir Pearson, identifies rowing, and reports age 54 in its May 2021 notice, consistent with the profile’s birth date."
+        }
+      ],
+      "findings": []
+    }
+  ]
+}

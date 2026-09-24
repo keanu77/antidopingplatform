@@ -1,0 +1,1613 @@
+請以獨立 UI/UX 審核顧問身分分析繁體中文運動反禁藥教學網站，並評估是否及何處適合加入 AI 生成圖片。這是分析任務，不修改網站、不生圖。只用以下固定證據，不調用工具，不讀其他模型答案，不假裝看過截圖或做過操作；你收到的是實測 DOM 與程式碼，主持人另外檢視截圖。沒有使用者訪談或流量資料，不能聲稱改善轉換率。請用繁體中文，1000-1600字。輸出：(1)保留的優點 (2)最多5項優先UI/UX問題，分已證實/推論/待驗，引用檔名與行號或DOM路由與寬度 (3)首頁、藥檢流程、測驗、TUE、案例、統計的生圖適用矩陣，允許建議完全不加圖 (4)最小試驗方案及驗收條件 (5)反對你自身結論的理由與未知。獨立權衡教學理解、操作效率、信任、無障礙、手機空間、載入速度、真假事件圖像。規則及醫學內容未於本輪重新審核，不替它們背書。共識不等於事實。
+
+LIVE DOM EVIDENCE:
+{"at": "2026-09-24T05:14:56.574Z", "base": "https://antidopingplatform.sportsmedicine.tw", "pages": [{"width": 1280, "path": "/", "title": "乾淨運動從你我開始 | 運動禁藥案例資料庫", "text": "乾淨運動從你我開始\n\n運動禁藥互動教學平台 — 禁用清單查詢、情境測驗、藥檢流程、TUE 指南\n\n開始測驗\n瀏覽禁用清單\n\n你知道嗎？\n\nPRP 注射本身不在禁用清單；侵入式靜脈雷射 ILIB 可能涉及 M1.3 以物理方式操縱血管內血液，須就具體療程確認\n\n517\n\n教學案例\n\n64\n\n運動項目\n\n65\n\n來源所列國家／地區\n\nS0-P1\n\n完整禁用分類\n\n探索學習模組\n禁用清單\n\n2026 WADA 禁用物質與方法分類瀏覽\n\n互動測驗\n\n「這個算不算禁藥？」情境題 + 知識測驗\n\n藥檢流程\n\n四步驟圖解：通知→報到→採樣→表單\n\nTUE 指南\n\n治療用途豁免申請決策樹\n\n案例搜尋\n\n國際運動禁藥案例，支援多條件篩選\n\n最新消息\n\n禁藥監控、國際案例與反禁藥規範更新\n\nYour Body,\nYour Responsibility!\n\n運動員要對自己所吃下的任何物質及使用的方法負責，誤服誤用不能成為躲避處罰的理由", "overflow": 0, "images": 0, "height": 1896, "feedbackHeight": 65.875, "headings": [{"text": "乾淨運動從你我開始", "y": 128}, {"text": "探索學習模組", "y": 714}]}, {"width": 1280, "path": "/cases", "title": "案例搜尋 | 乾淨運動從你我開始", "text": "相關案例\n\n搜尋並篩選國際運動禁藥案例\n\n收錄違規、污染、合法 TUE 與處分撤銷等教學案例。每筆標示查核層級；官方名冊核對不代表裁決全文已審閱。年份依事件年或官方裁決公布年，詳見個案。\n\n篩選 ▼\n搜尋\n\n找到 517 個案例\n\nYamile Herrera\n\n田徑\n\n及早承認／接力賽隊伍後果 · 核心事實已查核\n\n墨西哥\n2026\n年度禁用清單分類未另核對\nPresence/Use of Prohibited Substance (Oxandrolone) (Article 2.1 and Article 2.2)\n\n處理結果：3年\n\nAymane Takzima\n\n空手道\n\n禁賽期間參與活動 · 核心事實已查核\n\n來源日期有缺漏或歧義，請一併閱讀下方個案說明。\n\n摩洛哥\n2026\n禁賽期間參與活動規定\n10.14.1 - Prohibition against Participation during Provisional Suspension and Ineligibility\n\n處理結果：追加3年\n\nBrenda Uchenna Bosah\n\n舉重\n\n物質相關違規／及早承認 · 核心事實已查核\n\n奈及利亞\n2026\n年度禁用清單分類未另核對\nArt. 2.1/2.2 - Presence of Exogenous Testosterone and at least one of the Adiols (5aAdiol and/or 5bAdiol)\n\n處理結果：3年\n\nDaniil Kuzmin\n\n體操\n\n物質相關違規／及早承認 · 核心事實已查核\n\n俄羅斯\n2026\n年度禁用清單分類未另核對\nArt. 2.1/2.2 - Presence of boldenone and its metabolite 5β-androst-1-ene-17β-ol-3one\n\n處理結果：3年\n\nLucky Joseph\n\n舉重\n\n物質相關違規／接受處分 · 核心事實已查核\n\n奈及利亞\n2026\n年度禁用清單分類未另核對\nArt. 2.1/2.2 - Presence of Stanozolol metabolite - stanozolol-N-glucuronide\n\n處理結果：4年\n\nEmily Oberst\n\n輪椅籃球\n\n未事先取得 TUE／公開警告與未來用藥授權 · 核心事實已查核\n\n美國\n2026\nS5 利尿劑和掩蔽劑\nspironolactone 代謝物 canrenone；採樣時未取得 TUE\n\n處理結果：公開警告，無禁賽\n\nAlice Koigi\n\n田徑\n\n物質相關違規／另有合法 TUE · 核心事實已查核\n\n肯亞\n2025\n年度禁用清單分類未另核對\nPresence/Use of Prohibited Substances (Methylprednisolone) (Article 2.1 and Article 2.2)\n\n處理結果：2年\n\nJudy Jelagat Kemboi\n\n田徑\n\n利尿劑／未證實藥物污染 · 核心事實已查核\n\n肯亞\n2025\n年度禁用清單分類未另核對\nPresence/Use of a Prohibited Substance ( Hydrochlorothiazide ) (Article 2.1 and Article 2.2)\n\n處理結果：2年\n\nMorine Gesare Michira\n\n田徑\n\n補充品標示成分／接受處分 · 核心事實已查核\n\n肯亞\n2025\n年度禁用清單分類未另核對\nPresence/Use of a Prohibited Substance (Higenamine and Octodrine) (Article 2.1 and Article 2.2)\n\n處理結果：2年\n\nSneha Kolleri\n\n田徑\n\n污染抗辯未獲接受／及早承認 · 核心事實已查核\n\n印度\n2025\n年度禁用清單分類未另核對\nPresence/Use of a Prohibited Substance (Stanozolol) (Article 2.1 and Article 2.2)\n\n處理結果：3年\n\nFelix Kirui\n\n田徑\n\n糖皮質類固醇／接受處分 · 核心事實已查核\n\n肯亞\n2025\n年度禁用清單分類未另核對\nPresence/Use of a Prohibited Substance (Triamcinolone acetonide) (Article 2.1 and Article 2.2)\n\n處理結果：2年\n\nGudaf TSEGAY\n\n田徑\n\n案件解決協議／物質相關違規 · 核心事實已查核\n\n衣索比亞\n2025\n年度禁用清單分類未另核對\nPresence/Use of Prohibited Substance (Metabolite of Letrozole) (Article 2.1 and Article 2.2)\n\n處理結果：4個月\n\n1\n2\n...\n44", "overflow": 0, "images": 0, "height": 2345, "feedbackHeight": 65.875, "search": {"x": 32, "y": 220, "width": 1011.84375, "height": 42, "top": 220, "right": 1043.84375, "bottom": 262, "left": 32}, "headings": [{"text": "相關案例", "y": 80}]}, {"width": 1280, "path": "/statistics", "title": "資料庫分析 | 乾淨運動從你我開始", "text": "資料庫案例分析\n\n依目前收錄資料整理事件、來源與處分分布。最新案例查核日期：2026-09-23。\n\n這是教學案例集，不是禁藥盛行率調查\n\n包含違規、污染、合法 TUE、未提出指控及處分撤銷等不同情境；案例數不等於違規人數。各來源公開程度及收錄策略不同，不能據此比較國家或運動項目的違規風險。\n\n517\n\n收錄教學案例\n\n500 件新增＋17 件既有校正／分案\n\n515\n\n核心事實已查核\n\n另 2 件為裁決主文核對\n\n500\n\n本輪獨立來源複核\n\n複核覆蓋不等於所有欄位均已確認\n\n500\n\n至少兩模型來源對讀\n\n其中 15 件由至少三模型對讀\n\n如何解讀這批資料\n主要公開來源以 USADA 最多，267／517 件（51.6%）；反映本次蒐集來源的分布，不代表該機構或地區違規較多。\n官方文件的編輯查核與模型來源對讀分開計算。目前 500 件取得模型對讀回覆，500 件至少有兩個模型參與。覆蓋件數不代表所有欄位都已確認；模型提出的疑義仍須回到原文判定。\n各模型覆蓋：GPT 463 件、Gemini 485 件、Grok 53 件、Claude 29 件；其中 15 件取得四個模型回覆。同一案例可由多個模型對讀，不能將各模型件數相加當作案例總數。\n16 件已依來源修正文字；模型回覆對應修正前的版本，修正版尚未再次送交模型對讀。\n7 件的來源日期有缺漏或歧義，個案頁有進一步說明。\n國家／地區沿用來源描述，並非法律國籍認證。其中 215 件依公告標題標示，代表國身分仍待補證，國家分布圖只計入其餘 302 件；也不能因此宣稱台灣選手排除條件已逐件獨立核實。\n另於 2026-09-24 為 43 件補充官方選手資料、代表隊或賽事紀錄，並另做國家欄位模型對讀。其中 27 件依查閱時官方個人資料列國家，尚不能據此確認事件當時的代表資格；各案保留適用時期說明。\n禁賽、公開警告、成績取消和獎牌處置是不同後果。未知不等於沒有，禁賽期間的減免與停算以個案說明為準。\n成績與獎牌後果\n\n分母為全部 517 件；「明確無」與「來源未確認」分開計算。\n\n成績取消與獎牌剝奪的確認及未知數\n後果\t確認有\t明確無\t來源未確認\n成績取消\t467\t23\t27\n獎牌剝奪\t1\t7\t509\n主要公開來源\n\n依各案主要來源分組，每件只計一次；不等同裁決機構或所屬國家。\n\n查看圖表數值\n運動項目分布（前十項）\n\n圖中涵蓋 413／517 件，其餘項目未顯示；不可解讀為項目盛行率。\n\n查看圖表數值\n國家／地區分布（已有國家來源）\n\n分母為國家欄位已有來源依據的 302／517 件；另 215 件僅依公告標題標示，待補證前不計入此圖。前十五名以外合併為「其他國家／地區」；不可解讀為國家違規風險。\n\n查看圖表數值\n物質／規則標籤分布\n\n分母為全部 517 件。前九種標籤以外合併為「其他標籤」；混合分類及非物質違規保留原標示，不當成單一 WADA 物質計數。\n\n查看圖表數值\n禁賽期限分布\n\n依個案公開處分文字分組，共 517 件。「無禁賽」也可能包含公開警告或違規成立但免禁賽，不能視為全部無違規。\n\n查看圖表數值\n收錄案例年份分布\n\n年份依個案事件年或裁決公布年，且收錄並不完整；不得解讀為每年違規發生率或上升下降趨勢。\n\n查看圖表數值\n反禁藥事件與制度時間軸\n\n以下是有來源的背景整理；賽會、調查公布及裁決日期分別標明，不納入上方案例數。\n\n1988\n\n漢城奧運 Ben Johnson 禁藥事件\n\nBen Johnson 在男子 100 公尺決賽後檢出同化性類固醇 stanozolol，金牌與紀錄遭撤銷。\n\n原奪冠成績因禁藥違規被取消。\n\n加拿大奧會：Ben Johnson\n\n1999\n\nWADA 成立\n\n世界反禁藥機構於 1999 年 11 月 10 日成立，推動各國與各運動項目的反禁藥規則協調。\n\n建立跨政府與運動組織合作的國際反禁藥機構。\n\nWADA：組織與歷史\n\n2003\n\nBALCO 與 THG 調查\n\nUSADA 於 2003 年取得檢舉樣本，實驗室辨識出設計型類固醇 THG，並於運動員檢體中檢出。\n\n促成 THG 檢測方法的建立與分享，以及後續違規案件調查。\n\nUSADA：BALCO 事件時間表\n\n2012\n\nLance Armstrong 遭終身禁賽\n\nUSADA 於 2012 年宣布終身禁賽，並取消其自 1998 年 8 月 1 日起的競賽成績。\n\n其七屆環法冠軍頭銜遭撤銷。\n\nUSADA：2012 年報\n\n2014\n\n索契冬奧檢體操弄事件\n\n2016 年公布的 McLaren 調查報告，揭露包括 2014 年索契冬奧在內的俄羅斯制度性禁藥管制操弄。\n\n報告揭露檢體調換與掩蓋陽性結果的制度性問題。\n\nWADA：McLaren 調查報告第二部分（2016）\n\n2016\n\nMeldonium 列入禁用清單\n\nMeldonium 自 2016 年 1 月 1 日起於賽內及賽外禁用，同年出現多起相關檢測案件。\n\nIPC 提醒運動員與支援組織核對藥物成分及禁用清單變更。\n\nIPC：Meldonium 公告（2016）\n\n2022\n\nKamila Valieva 北京冬奧爭議\n\n北京冬奧期間，Valieva 於 2021 年 12 月 25 日採集的檢體被通報檢出 trimetazidine，引發未成年運動員保護與暫時禁賽爭議。\n\nCAS 於 2024 年裁定禁賽四年，自 2021 年 12 月 25 日起算，並取消該日起的競賽成績。\n\nCAS：Valieva 案完整裁決（2024）\n外部研究：分母與適用範圍\n\n以下引用原始研究，與本站案例統計分開。研究中的關聯與檢出比例不能直接外推到所有運動員或產品。\n\n研究賽會的 TUE 持有比例\n\n0.90%\n\n2016–2022 年四屆奧運與四屆帕運中，參賽者持有效 TUE 的合計比例分別為 0.90% 與 2.76%。這些結果限於研究涵蓋的賽會，不能代表所有運動員。\n\nVernec et al., BJSM 2024（四屆奧運與四屆帕運，共八個賽會）\n持 TUE 與奪牌的觀察性關聯\n\nRR 1.07\n\n2010–2018 年五屆奧運個人項目的分析，調整國家資源差異後，持 TUE 與奪牌的相對風險為 1.07（95% CI 0.69–1.56）。研究未見統計顯著關聯，但不能據此證明 TUE 對奪牌完全沒有影響。\n\nVernec & Healy, BJSM 2020（個人項目運動員參賽紀錄）\n特定研究樣本的補充劑檢出率\n\n14.8%\n\nGeyer 等人於 2000–2001 年，在 13 國購入的 634 件非荷爾蒙營養補充劑中，94 件（14.8%）檢出標示未列出的同化性雄性類固醇。這是特定研究樣本的結果，不能當作現今所有市售補充劑的污染率。\n\nGeyer et al., International Journal of Sports Medicine, 2004", "overflow": 0, "images": 0, "height": 5148, "feedbackHeight": 65.875, "headings": [{"text": "資料庫案例分析", "y": 80}, {"text": "如何解讀這批資料", "y": 457}, {"text": "成績與獎牌後果", "y": 803}, {"text": "主要公開來源", "y": 1064}, {"text": "運動項目分布（前十項）", "y": 1064}, {"text": "國家／地區分布（已有國家來源）", "y": 1566}, {"text": "物質／規則標籤分布", "y": 1566}, {"text": "禁賽期限分布", "y": 2088}, {"text": "收錄案例年份分布", "y": 2610}, {"text": "反禁藥事件與制度時間軸", "y": 3128}, {"text": "外部研究：分母與適用範圍", "y": 4317}]}, {"width": 1280, "path": "/testing-process", "title": "藥檢流程說明 | 乾淨運動從你我開始", "text": "藥檢流程\n\n尿液藥檢四步驟 — 了解你的權利與義務\n\n1\n通知\n2\n報到\n3\n採樣\n4\n完成表單\n\n步驟 1\n\n通知\n1\n藥檢人員（DCO）通知你被選為受檢對象\n2\n受通知後，在 DCO 陪同下盡快到藥檢站報到\n3\n未成年運動員應獲告知可由代表（如教練、家長）陪同\n\n注意事項\n\n合理延遲須先經 DCO 許可，例如完成訓練、參加頒獎或接受治療；期間仍須接受持續監督。\n\n上一步\n下一步\n\n流程依適用規範與採樣方式調整。參考：USADA 採樣流程說明、WADA 反禁藥流程。\n\n尿液\n\n尿液檢測\n\n依採樣規範取得至少 90mL，並確認比重\n\n血液\n\n血液檢測\n\n由具適用資格的血液採樣人員採集\n\nDBS\n\n乾血點檢測\n\n以少量微血管血液採樣，採樣位置依裝置而異", "overflow": 0, "images": 0, "height": 1355, "feedbackHeight": 65.875, "headings": [{"text": "藥檢流程", "y": 80}, {"text": "通知", "y": 333}]}, {"width": 1280, "path": "/tue", "title": "TUE 治療用途豁免指南 | 乾淨運動從你我開始", "text": "治療用途豁免 (TUE) 專區\n\n了解TUE申請流程、獲取專業指引，確保合規用藥\n\n基礎知識\n申請指引\n疾病分類\n實用工具\n什麼是TUE？\n\n運動員如因治療病症而必須使用到禁用清單上的禁用物質或方法時，須申請治療用途豁免（Therapeutic Use Exemption, TUE），申請案件將由醫師組成的TUE審查委員會進行審查。運動員取得TUE核可後方得使用該禁用物質或方法，而不受違反運動禁藥管制規則之處分。\n\nTUE可查詢來源\n• 禁用清單\n• 運動禁藥諮詢平台\nTUE核准標準\n\n依2023年ISTUE第4.2條，以下四項核可條件皆須同時符合，方能取得核可：\n\n1. 清楚的醫療診斷（ISTUE 4.2a）\n\n運動員有清楚的醫療診斷，治療該疾病/症狀必須使用禁用物質或方法\n\n2. 不會額外提升運動表現（ISTUE 4.2b）\n\n依機率權衡，治療用的物質或方法將不會產生超出回復正常健康狀態的額外運動表現提升\n\n3. 無其他合理替代方法（ISTUE 4.2c）\n\n除了該禁用物質或方法之外，沒有其他合理可行的治療替代方法（不以先試用其他方法並失敗為要件）\n\n4. 非基於先前違規使用（ISTUE 4.2d）\n\n必須使用該禁用物質或方法的原因，不得為用於治療先前違規使用禁用物質或方法所致之疾患\n\n申請對象分類\n國際級運動員\n\n向國際單項運動總會申請\n\n常見包含：需填報行蹤之TP/RTP運動員、參與總會舉辦特定賽事之運動員\n\n國家級運動員及非國家級運動員\n\n向中華運動禁藥防制基金會申請\n\n參與國際賽事運動員\n\n依據賽事競賽規程辦理（如：亞運、奧運、世界錦標賽）\n\n申請時間規定\n隨時禁用物質（S0~S5、M1~M3）\n\n無論賽內或賽外皆禁用，無論是否參賽，應儘速提出申請\n\n賽內禁用物質（S6~S9）\n\n依賽事主辦單位訂定之申請日期為原則，一般為賽前30天\n\n賽內期：指運動員表定參賽之前一日23:59起算直到比賽與檢體採集流程結束為止\n\n特定運動禁用（P1 β阻斷劑）\n\n射箭（WA）、射擊（ISSF／IPC），以及 CMAS 自由潛水、魚槍捕魚、水下標靶射擊的所有分項，賽內與賽外皆禁用；汽車運動（FIA）、撞球（WCBS）、飛鏢（WDF）、高爾夫（IGF）、迷你高爾夫（WMF）僅賽內禁用。受限情境有醫療需要時，須依規定申請 TUE。\n\n申請時程依該運動屬「賽內外皆禁」或「僅賽內禁」而定，請對照最新版禁用清單 P1 適用運動。\n\n特殊情況申請\n\n下列「特殊情況」得於使用後提出回溯性申請或申請截止日期後提出，但仍須符合所有核可條件：\n\n緊急醫療\n無充足時間於接受藥檢前提出申請\n非國家級運動員接受檢測\n於賽外使用「賽內禁用物質」\n審查時程\n審查結果原則上將於收到完整申請資料起21個日曆天(calendar days)內通知\n因特殊情況於賽事前30天後申請時，如距賽事少於21天，不保證於賽事前完成審查\n非國家級運動員：任何情況皆無須於使用前申請，如出現不利檢測報告時，可提出回溯性TUE申請", "overflow": 0, "images": 0, "height": 2745, "feedbackHeight": 65.875, "headings": [{"text": "治療用途豁免 (TUE) 專區", "y": 80}]}, {"width": 1280, "path": "/quiz", "title": "反禁藥互動測驗 | 乾淨運動從你我開始", "text": "互動測驗\n\n測試你對運動禁藥的了解程度\n\n情境題：這個算不算禁藥？\n\nPRP、高壓氧、ILIB、感冒藥、Ozempic... 逐題揭曉答案\n\n8 題\n知識測驗（計分）\n\n隨機 10 題，答完顯示分數與解析\n\n滿分 10 分", "overflow": 0, "images": 0, "height": 974, "feedbackHeight": 65.875, "headings": [{"text": "互動測驗", "y": 80}]}, {"width": 1280, "path": "/education", "title": "教育專區 | 乾淨運動從你我開始", "text": "教育專區\n\n學習運動禁藥相關知識，提升反禁藥意識\n\n禁藥知識\n常見誤區\n違規類型\n補充劑安全\n案例學習\n各科專區\n🧪\nS0\n\nS0: 未批准物質\n\n任何未獲得政府衛生管理當局批准供人類治療使用的藥物或實驗物質。\n\n作用機制\n\n由於屬於實驗階段，作用機制可能不明確或存在未知副作用。\n\n健康風險\n\n未知的健康風險、可能造成嚴重副作用、長期影響不明\n\n常見例子\n\n實驗性SARM、新型類固醇前體、研發階段的藥物\n\n💪\nS1\n\nS1: 合成代謝劑\n\n包括外源性和內源性合成代謝雄激素類固醇及其他合成代謝劑。\n\n作用機制\n\n模擬睪固酮作用，增加蛋白質合成，促進肌肉生長和力量提升。\n\n健康風險\n\n肝損傷、心血管疾病、情緒波動、荷爾蒙失調、男性女性化、女性男性化\n\n常見例子\n\n睪固酮、南德龍(Nandrolone)、康力龍(Stanozolol)、口服妥納龍(Turinabol)\n\n📈\nS2\n\nS2: 肽類激素、生長因子\n\n影響生長、細胞分裂和再生的天然或合成肽類物質。\n\n作用機制\n\n刺激生長激素釋放、增加紅血球生成、促進組織修復和肌肉生長。\n\n健康風險\n\n關節疼痛、糖尿病風險、心臟肥大、血栓、中風\n\n常見例子\n\nEPO、生長激素(HGH)、IGF-1、促性腺激素\n\n🫁\nS3\n\nS3: Beta-2激動劑\n\n作用於Beta-2腎上腺素受體的物質，可放鬆支氣管平滑肌。\n\n作用機制\n\n擴張支氣管、增加氧氣攝取、可能具有合成代謝效果。\n\n健康風險\n\n心律不整、肌肉震顫、頭痛、心率加快、電解質失衡\n\n常見例子\n\nSalbutamol、Terbutaline、Formoterol、Salmeterol\n\n⚖️\nS4\n\nS4: 激素和代謝調節劑\n\n影響激素平衡和新陳代謝的物質和方法。\n\n作用機制\n\n調節激素水平、影響脂肪代謝、調節血糖、改善心血管功能。\n\n健康風險\n\n激素失調、肝功能異常、心血管疾病、血糖異常\n\n常見例子\n\nMeldonium、芳香酶抑制劑、抗雌激素物質、胰島素(Insulin)、代謝調節劑\n\n💧\nS5\n\nS5: 利尿劑和掩蔽劑\n\n用於快速減重或掩蓋其他禁藥使用的物質。\n\n作用機制\n\n增加尿液產生、稀釋禁藥濃度、快速減少體重。\n\n健康風險\n\n嚴重脫水、電解質失衡、腎功能損害、血壓異常\n\n常見例子\n\nFurosemide、Hydrochlorothiazide、Spironolactone、Probenecid\n\n⚡\nS6\n\nS6: 興奮劑\n\n刺激中樞神經系統，增強警覺性和能量的物質。\n\n作用機制\n\n刺激交感神經系統、增加腎上腺素分泌、提高專注力和反應速度。\n\n健康風險\n\n心律不整、高血壓、焦慮、成癮、心臟病發作\n\n常見例子\n\n安非他命、可卡因、MDMA、Modafinil、高劑量咖啡因\n\n💊\nS7\n\nS7: 麻醉劑\n\n強效鎮痛劑，可能掩蓋傷痛並產生欣快感。\n\n作用機制\n\n作用於鴉片受體，產生鎮痛和欣快效果，可能掩蓋運動傷害。\n\n健康風險\n\n呼吸抑制、成癮、認知能力下降、掩蓋嚴重傷害\n\n常見例子\n\n嗎啡、芬太尼、海洛因、Tramadol（2024新增）\n\n🍃\nS8\n\nS8: 大麻類\n\n大麻及其活性成分四氫大麻酚(THC)。\n\n作用機制\n\n作用於大麻素受體，影響協調性、判斷力和反應時間。\n\n健康風險\n\n注意力不集中、協調性下降、記憶力影響、可能成癮\n\n常見例子\n\n大麻、THC、合成大麻素\n\n🩹\nS9\n\nS9: 糖皮質激素\n\n具有強效抗炎作用的類固醇激素。\n\n作用機制\n\n強效抗炎、抑制免疫反應、可能增強耐力和減少疲勞感。\n\n健康風險\n\n免疫抑制、骨質疏鬆、肌肉萎縮、血糖升高\n\n常見例子\n\nPrednisolone、Dexamethasone、Cortisone、Hydrocortisone\n\n🩸\nM1\n\nM1: 血液和血液成分操作\n\n涉及血液、血液成分或影響氧氣輸送的禁用方法。\n\n作用機制\n\n增加血液中紅血球數量、提高氧氣輸送能力。\n\n健康風險\n\n血栓、感染、免疫反應、血液系統疾病\n\n常見例子\n\n血液輸注、人工氧氣載體、血液替代品、一氧化碳（CO，非診斷用途，2026新增M1.4）\n\n🔬\nM2\n\nM2: 化學和物理操作\n\n篡改或企圖篡改樣本完整性的行為。\n\n作用機制\n\n稀釋樣本、替換樣本、加入掩蔽物質。\n\n健康風險\n\n法律後果、終身禁賽、名譽受損\n\n常見例子\n\n樣本替換、尿液稀釋、加入蛋白酶、導尿管使用\n\n🧬\nM3\n\nM3: 基因和細胞禁藥\n\n基因治療、基因編輯和細胞治療的非治療性使用。\n\n作用機制\n\n改變基因表達、增強肌肉生長、改善氧氣利用。\n\n健康風險\n\n未知長期風險、免疫反應、基因不穩定\n\n常見例子\n\n基因治療載體、基因編輯技術、幹細胞療法\n\n🎯\nP1\n\nP1: Beta阻斷劑\n\n在特定需要精準度和穩定性的運動中被禁用。\n\n作用機制\n\n降低心率、減少震顫、提高精準度。\n\n健康風險\n\n心率過低、血壓下降、運動能力下降\n\n常見例子\n\nPropranolol、Atenolol、Metoprolol", "overflow": 0, "images": 0, "height": 3891, "feedbackHeight": 65.875, "headings": [{"text": "教育專區", "y": 80}]}, {"width": 1280, "path": "/cases/usada-792c30cdc646", "title": "Imani Oliver | 乾淨運動從你我開始", "text": "返回\nImani Oliver\n美國\n田徑\n2016\n\n教練建議用藥／陽性與實質協助 · 核心事實已查核\n\n1年\n\n查核日期：2026-09-23。處分依查核時取得的來源記錄，不是即時參賽資格查詢。\n\n查核範圍：已逐案核對官方個案文件與名冊的身分、事件、規則及處分；未聲稱所有裁決全文或後續救濟程序均已審閱。\n\n國家／地區依據：官方來源（原文：USA）\n\n本案依 2016 年 World Athletics 成績表列美國（USA）；2025 年官方賽事資料列牙買加（JAM），不回填本案，也不推定轉籍生效日。\n\n國家資料補查：2026-09-24；Claude、GPT、Grok 對讀。本次範圍限國家來源及身分配對，未重審全部處分內容。\n\n國家補查的模型疑義已依官方資料處理；其後補入的來源或註記尚未再次送交模型。\n\n來源交叉對讀：GPT、Gemini。這表示已取得模型對讀回覆；疑義仍須依官方原文判定，不等於每個欄位均已確認。\n\n官方紀錄定位：U.S. Track & Field Athlete Imani Oliver Accepts Sanction for Anti-Doping Rule Violation：個案公告標題及全部個案實質段落；含物質／規則、處分、日期與成績後果，止於通用教育資訊前\n\n年份依據：事件年份（依官方個案公告核對）\n\n涉及物質、方法或程序\nS1 合成代謝劑／S4 激素與代謝調節劑\nostarine；另有 arimistane 產品使用及訂購證據\n\n尿液檢出 ostarine 與另一產品的訂購使用證據應分開，不能全部改成陽性檢體。\n\n事件背景\n\nImani Oliver 在 2016-07-07 美國奧運田徑選拔賽檢出 ostarine。調查確認她依 Thinking Feet 教練 Kenta Bell 的建議於 03-16 購買明列 ostarine 及另一含 arimistane 的產品，因自願承認、配合及實質協助，處一年禁賽。\n\n裁決與處理結果\n禁賽期限\n\n1年\n\n成績被取消\n\n是\n\n其他結果與說明\n\n自 2016-07-07 採樣日起一年。取消自 2016-03-16 訂購含 ostarine 與 arimistane 產品日起的競賽成績。\n\n案例摘要\n\n教練建議用藥／陽性與實質協助；1年。\n\n資料來源\n📄\nU.S. Track & Field Athlete Imani Oliver Accepts Sanction for Anti-Doping Rule Violation\n\n官方個案文件\n\n📄\nUSADA 官方處分名冊\n\n官方名冊", "overflow": 0, "images": 0, "height": 2105, "feedbackHeight": 65.875, "headings": [{"text": "Imani Oliver", "y": 160}, {"text": "涉及物質、方法或程序", "y": 650}, {"text": "事件背景", "y": 852}, {"text": "裁決與處理結果", "y": 980}, {"text": "案例摘要", "y": 1256}, {"text": "資料來源", "y": 1390}]}, {"width": 390, "path": "/", "title": "乾淨運動從你我開始 | 運動禁藥案例資料庫", "text": "乾淨運動\n從你我開始\n\n運動禁藥互動教學平台 — 禁用清單查詢、情境測驗、藥檢流程、TUE 指南\n\n開始測驗\n瀏覽禁用清單\n\n你知道嗎？\n\n2026 年 semaglutide（Ozempic）與 tirzepatide 的標記物列入 WADA 賽內、賽外監控計畫，兩者尚未列入禁用清單\n\n517\n\n教學案例\n\n64\n\n運動項目\n\n65\n\n來源所列國家／地區\n\nS0-P1\n\n完整禁用分類\n\n探索學習模組\n禁用清單\n\n2026 WADA 禁用物質與方法分類瀏覽\n\n互動測驗\n\n「這個算不算禁藥？」情境題 + 知識測驗\n\n藥檢流程\n\n四步驟圖解：通知→報到→採樣→表單\n\nTUE 指南\n\n治療用途豁免申請決策樹\n\n案例搜尋\n\n國際運動禁藥案例，支援多條件篩選\n\n最新消息\n\n禁藥監控、國際案例與反禁藥規範更新\n\nYour Body,\nYour Responsibility!\n\n運動員要對自己所吃下的任何物質及使用的方法負責，誤服誤用不能成為躲避處罰的理由", "overflow": 0, "images": 0, "height": 3301, "feedbackHeight": 148.96875, "headings": [{"text": "乾淨運動\n從你我開始", "y": 112}, {"text": "探索學習模組", "y": 976}]}, {"width": 390, "path": "/cases", "title": "案例搜尋 | 乾淨運動從你我開始", "text": "相關案例\n\n搜尋並篩選國際運動禁藥案例\n\n收錄違規、污染、合法 TUE 與處分撤銷等教學案例。每筆標示查核層級；官方名冊核對不代表裁決全文已審閱。年份依事件年或官方裁決公布年，詳見個案。\n\n篩選 ▼\n搜尋\n\n找到 517 個案例\n\nYamile Herrera\n\n田徑\n\n及早承認／接力賽隊伍後果 · 核心事實已查核\n\n墨西哥\n2026\n年度禁用清單分類未另核對\nPresence/Use of Prohibited Substance (Oxandrolone) (Article 2.1 and Article 2.2)\n\n處理結果：3年\n\nAymane Takzima\n\n空手道\n\n禁賽期間參與活動 · 核心事實已查核\n\n來源日期有缺漏或歧義，請一併閱讀下方個案說明。\n\n摩洛哥\n2026\n禁賽期間參與活動規定\n10.14.1 - Prohibition against Participation during Provisional Suspension and Ineligibility\n\n處理結果：追加3年\n\nBrenda Uchenna Bosah\n\n舉重\n\n物質相關違規／及早承認 · 核心事實已查核\n\n奈及利亞\n2026\n年度禁用清單分類未另核對\nArt. 2.1/2.2 - Presence of Exogenous Testosterone and at least one of the Adiols (5aAdiol and/or 5bAdiol)\n\n處理結果：3年\n\nDaniil Kuzmin\n\n體操\n\n物質相關違規／及早承認 · 核心事實已查核\n\n俄羅斯\n2026\n年度禁用清單分類未另核對\nArt. 2.1/2.2 - Presence of boldenone and its metabolite 5β-androst-1-ene-17β-ol-3one\n\n處理結果：3年\n\nLucky Joseph\n\n舉重\n\n物質相關違規／接受處分 · 核心事實已查核\n\n奈及利亞\n2026\n年度禁用清單分類未另核對\nArt. 2.1/2.2 - Presence of Stanozolol metabolite - stanozolol-N-glucuronide\n\n處理結果：4年\n\nEmily Oberst\n\n輪椅籃球\n\n未事先取得 TUE／公開警告與未來用藥授權 · 核心事實已查核\n\n美國\n2026\nS5 利尿劑和掩蔽劑\nspironolactone 代謝物 canrenone；採樣時未取得 TUE\n\n處理結果：公開警告，無禁賽\n\nAlice Koigi\n\n田徑\n\n物質相關違規／另有合法 TUE · 核心事實已查核\n\n肯亞\n2025\n年度禁用清單分類未另核對\nPresence/Use of Prohibited Substances (Methylprednisolone) (Article 2.1 and Article 2.2)\n\n處理結果：2年\n\nJudy Jelagat Kemboi\n\n田徑\n\n利尿劑／未證實藥物污染 · 核心事實已查核\n\n肯亞\n2025\n年度禁用清單分類未另核對\nPresence/Use of a Prohibited Substance ( Hydrochlorothiazide ) (Article 2.1 and Article 2.2)\n\n處理結果：2年\n\nMorine Gesare Michira\n\n田徑\n\n補充品標示成分／接受處分 · 核心事實已查核\n\n肯亞\n2025\n年度禁用清單分類未另核對\nPresence/Use of a Prohibited Substance (Higenamine and Octodrine) (Article 2.1 and Article 2.2)\n\n處理結果：2年\n\nSneha Kolleri\n\n田徑\n\n污染抗辯未獲接受／及早承認 · 核心事實已查核\n\n印度\n2025\n年度禁用清單分類未另核對\nPresence/Use of a Prohibited Substance (Stanozolol) (Article 2.1 and Article 2.2)\n\n處理結果：3年\n\nFelix Kirui\n\n田徑\n\n糖皮質類固醇／接受處分 · 核心事實已查核\n\n肯亞\n2025\n年度禁用清單分類未另核對\nPresence/Use of a Prohibited Substance (Triamcinolone acetonide) (Article 2.1 and Article 2.2)\n\n處理結果：2年\n\nGudaf TSEGAY\n\n田徑\n\n案件解決協議／物質相關違規 · 核心事實已查核\n\n衣索比亞\n2025\n年度禁用清單分類未另核對\nPresence/Use of Prohibited Substance (Metabolite of Letrozole) (Article 2.1 and Article 2.2)\n\n處理結果：4個月\n\n1\n2\n...\n44", "overflow": 0, "images": 0, "height": 5856, "feedbackHeight": 148.96875, "search": {"x": 16, "y": 260, "width": 153.84375, "height": 42, "top": 260, "right": 169.84375, "bottom": 302, "left": 16}, "headings": [{"text": "相關案例", "y": 80}]}, {"width": 390, "path": "/statistics", "title": "資料庫分析 | 乾淨運動從你我開始", "text": "資料庫案例分析\n\n依目前收錄資料整理事件、來源與處分分布。最新案例查核日期：2026-09-23。\n\n這是教學案例集，不是禁藥盛行率調查\n\n包含違規、污染、合法 TUE、未提出指控及處分撤銷等不同情境；案例數不等於違規人數。各來源公開程度及收錄策略不同，不能據此比較國家或運動項目的違規風險。\n\n517\n\n收錄教學案例\n\n500 件新增＋17 件既有校正／分案\n\n515\n\n核心事實已查核\n\n另 2 件為裁決主文核對\n\n500\n\n本輪獨立來源複核\n\n複核覆蓋不等於所有欄位均已確認\n\n500\n\n至少兩模型來源對讀\n\n其中 15 件由至少三模型對讀\n\n如何解讀這批資料\n主要公開來源以 USADA 最多，267／517 件（51.6%）；反映本次蒐集來源的分布，不代表該機構或地區違規較多。\n官方文件的編輯查核與模型來源對讀分開計算。目前 500 件取得模型對讀回覆，500 件至少有兩個模型參與。覆蓋件數不代表所有欄位都已確認；模型提出的疑義仍須回到原文判定。\n各模型覆蓋：GPT 463 件、Gemini 485 件、Grok 53 件、Claude 29 件；其中 15 件取得四個模型回覆。同一案例可由多個模型對讀，不能將各模型件數相加當作案例總數。\n16 件已依來源修正文字；模型回覆對應修正前的版本，修正版尚未再次送交模型對讀。\n7 件的來源日期有缺漏或歧義，個案頁有進一步說明。\n國家／地區沿用來源描述，並非法律國籍認證。其中 215 件依公告標題標示，代表國身分仍待補證，國家分布圖只計入其餘 302 件；也不能因此宣稱台灣選手排除條件已逐件獨立核實。\n另於 2026-09-24 為 43 件補充官方選手資料、代表隊或賽事紀錄，並另做國家欄位模型對讀。其中 27 件依查閱時官方個人資料列國家，尚不能據此確認事件當時的代表資格；各案保留適用時期說明。\n禁賽、公開警告、成績取消和獎牌處置是不同後果。未知不等於沒有，禁賽期間的減免與停算以個案說明為準。\n成績與獎牌後果\n\n分母為全部 517 件；「明確無」與「來源未確認」分開計算。\n\n成績取消與獎牌剝奪的確認及未知數\n後果\t確認有\t明確無\t來源未確認\n成績取消\t467\t23\t27\n獎牌剝奪\t1\t7\t509\n主要公開來源\n\n依各案主要來源分組，每件只計一次；不等同裁決機構或所屬國家。\n\n查看圖表數值\n運動項目分布（前十項）\n\n圖中涵蓋 413／517 件，其餘項目未顯示；不可解讀為項目盛行率。\n\n查看圖表數值\n國家／地區分布（已有國家來源）\n\n分母為國家欄位已有來源依據的 302／517 件；另 215 件僅依公告標題標示，待補證前不計入此圖。前十五名以外合併為「其他國家／地區」；不可解讀為國家違規風險。\n\n查看圖表數值\n物質／規則標籤分布\n\n分母為全部 517 件。前九種標籤以外合併為「其他標籤」；混合分類及非物質違規保留原標示，不當成單一 WADA 物質計數。\n\n查看圖表數值\n禁賽期限分布\n\n依個案公開處分文字分組，共 517 件。「無禁賽」也可能包含公開警告或違規成立但免禁賽，不能視為全部無違規。\n\n查看圖表數值\n收錄案例年份分布\n\n年份依個案事件年或裁決公布年，且收錄並不完整；不得解讀為每年違規發生率或上升下降趨勢。\n\n查看圖表數值\n反禁藥事件與制度時間軸\n\n以下是有來源的背景整理；賽會、調查公布及裁決日期分別標明，不納入上方案例數。\n\n1988\n\n漢城奧運 Ben Johnson 禁藥事件\n\nBen Johnson 在男子 100 公尺決賽後檢出同化性類固醇 stanozolol，金牌與紀錄遭撤銷。\n\n原奪冠成績因禁藥違規被取消。\n\n加拿大奧會：Ben Johnson\n\n1999\n\nWADA 成立\n\n世界反禁藥機構於 1999 年 11 月 10 日成立，推動各國與各運動項目的反禁藥規則協調。\n\n建立跨政府與運動組織合作的國際反禁藥機構。\n\nWADA：組織與歷史\n\n2003\n\nBALCO 與 THG 調查\n\nUSADA 於 2003 年取得檢舉樣本，實驗室辨識出設計型類固醇 THG，並於運動員檢體中檢出。\n\n促成 THG 檢測方法的建立與分享，以及後續違規案件調查。\n\nUSADA：BALCO 事件時間表\n\n2012\n\nLance Armstrong 遭終身禁賽\n\nUSADA 於 2012 年宣布終身禁賽，並取消其自 1998 年 8 月 1 日起的競賽成績。\n\n其七屆環法冠軍頭銜遭撤銷。\n\nUSADA：2012 年報\n\n2014\n\n索契冬奧檢體操弄事件\n\n2016 年公布的 McLaren 調查報告，揭露包括 2014 年索契冬奧在內的俄羅斯制度性禁藥管制操弄。\n\n報告揭露檢體調換與掩蓋陽性結果的制度性問題。\n\nWADA：McLaren 調查報告第二部分（2016）\n\n2016\n\nMeldonium 列入禁用清單\n\nMeldonium 自 2016 年 1 月 1 日起於賽內及賽外禁用，同年出現多起相關檢測案件。\n\nIPC 提醒運動員與支援組織核對藥物成分及禁用清單變更。\n\nIPC：Meldonium 公告（2016）\n\n2022\n\nKamila Valieva 北京冬奧爭議\n\n北京冬奧期間，Valieva 於 2021 年 12 月 25 日採集的檢體被通報檢出 trimetazidine，引發未成年運動員保護與暫時禁賽爭議。\n\nCAS 於 2024 年裁定禁賽四年，自 2021 年 12 月 25 日起算，並取消該日起的競賽成績。\n\nCAS：Valieva 案完整裁決（2024）\n外部研究：分母與適用範圍\n\n以下引用原始研究，與本站案例統計分開。研究中的關聯與檢出比例不能直接外推到所有運動員或產品。\n\n研究賽會的 TUE 持有比例\n\n0.90%\n\n2016–2022 年四屆奧運與四屆帕運中，參賽者持有效 TUE 的合計比例分別為 0.90% 與 2.76%。這些結果限於研究涵蓋的賽會，不能代表所有運動員。\n\nVernec et al., BJSM 2024（四屆奧運與四屆帕運，共八個賽會）\n持 TUE 與奪牌的觀察性關聯\n\nRR 1.07\n\n2010–2018 年五屆奧運個人項目的分析，調整國家資源差異後，持 TUE 與奪牌的相對風險為 1.07（95% CI 0.69–1.56）。研究未見統計顯著關聯，但不能據此證明 TUE 對奪牌完全沒有影響。\n\nVernec & Healy, BJSM 2020（個人項目運動員參賽紀錄）\n特定研究樣本的補充劑檢出率\n\n14.8%\n\nGeyer 等人於 2000–2001 年，在 13 國購入的 634 件非荷爾蒙營養補充劑中，94 件（14.8%）檢出標示未列出的同化性雄性類固醇。這是特定研究樣本的結果，不能當作現今所有市售補充劑的污染率。\n\nGeyer et al., International Journal of Sports Medicine, 2004", "overflow": 0, "images": 0, "height": 8225, "feedbackHeight": 148.96875, "headings": [{"text": "資料庫案例分析", "y": 80}, {"text": "如何解讀這批資料", "y": 727}, {"text": "成績與獎牌後果", "y": 1433}, {"text": "主要公開來源", "y": 1706}, {"text": "運動項目分布（前十項）", "y": 2212}, {"text": "國家／地區分布（已有國家來源）", "y": 2718}, {"text": "物質／規則標籤分布", "y": 3264}, {"text": "禁賽期限分布", "y": 3790}, {"text": "收錄案例年份分布", "y": 4316}, {"text": "反禁藥事件與制度時間軸", "y": 4842}, {"text": "外部研究：分母與適用範圍", "y": 6323}]}, {"width": 390, "path": "/testing-process", "title": "藥檢流程說明 | 乾淨運動從你我開始", "text": "藥檢流程\n\n尿液藥檢四步驟 — 了解你的權利與義務\n\n1\n通知\n2\n報到\n3\n採樣\n4\n完成表單\n\n步驟 1\n\n通知\n1\n藥檢人員（DCO）通知你被選為受檢對象\n2\n受通知後，在 DCO 陪同下盡快到藥檢站報到\n3\n未成年運動員應獲告知可由代表（如教練、家長）陪同\n\n注意事項\n\n合理延遲須先經 DCO 許可，例如完成訓練、參加頒獎或接受治療；期間仍須接受持續監督。\n\n上一步\n下一步\n\n流程依適用規範與採樣方式調整。參考：USADA 採樣流程說明、WADA 反禁藥流程。\n\n尿液\n\n尿液檢測\n\n依採樣規範取得至少 90mL，並確認比重\n\n血液\n\n血液檢測\n\n由具適用資格的血液採樣人員採集\n\nDBS\n\n乾血點檢測\n\n以少量微血管血液採樣，採樣位置依裝置而異", "overflow": 0, "images": 0, "height": 2152, "feedbackHeight": 148.96875, "headings": [{"text": "藥檢流程", "y": 80}, {"text": "通知", "y": 321}]}, {"width": 390, "path": "/tue", "title": "TUE 治療用途豁免指南 | 乾淨運動從你我開始", "text": "治療用途豁免 (TUE) 專區\n\n了解TUE申請流程、獲取專業指引，確保合規用藥\n\n基礎知識\n申請指引\n疾病分類\n實用工具\n什麼是TUE？\n\n運動員如因治療病症而必須使用到禁用清單上的禁用物質或方法時，須申請治療用途豁免（Therapeutic Use Exemption, TUE），申請案件將由醫師組成的TUE審查委員會進行審查。運動員取得TUE核可後方得使用該禁用物質或方法，而不受違反運動禁藥管制規則之處分。\n\nTUE可查詢來源\n• 禁用清單\n• 運動禁藥諮詢平台\nTUE核准標準\n\n依2023年ISTUE第4.2條，以下四項核可條件皆須同時符合，方能取得核可：\n\n1. 清楚的醫療診斷（ISTUE 4.2a）\n\n運動員有清楚的醫療診斷，治療該疾病/症狀必須使用禁用物質或方法\n\n2. 不會額外提升運動表現（ISTUE 4.2b）\n\n依機率權衡，治療用的物質或方法將不會產生超出回復正常健康狀態的額外運動表現提升\n\n3. 無其他合理替代方法（ISTUE 4.2c）\n\n除了該禁用物質或方法之外，沒有其他合理可行的治療替代方法（不以先試用其他方法並失敗為要件）\n\n4. 非基於先前違規使用（ISTUE 4.2d）\n\n必須使用該禁用物質或方法的原因，不得為用於治療先前違規使用禁用物質或方法所致之疾患\n\n申請對象分類\n國際級運動員\n\n向國際單項運動總會申請\n\n常見包含：需填報行蹤之TP/RTP運動員、參與總會舉辦特定賽事之運動員\n\n國家級運動員及非國家級運動員\n\n向中華運動禁藥防制基金會申請\n\n參與國際賽事運動員\n\n依據賽事競賽規程辦理（如：亞運、奧運、世界錦標賽）\n\n申請時間規定\n隨時禁用物質（S0~S5、M1~M3）\n\n無論賽內或賽外皆禁用，無論是否參賽，應儘速提出申請\n\n賽內禁用物質（S6~S9）\n\n依賽事主辦單位訂定之申請日期為原則，一般為賽前30天\n\n賽內期：指運動員表定參賽之前一日23:59起算直到比賽與檢體採集流程結束為止\n\n特定運動禁用（P1 β阻斷劑）\n\n射箭（WA）、射擊（ISSF／IPC），以及 CMAS 自由潛水、魚槍捕魚、水下標靶射擊的所有分項，賽內與賽外皆禁用；汽車運動（FIA）、撞球（WCBS）、飛鏢（WDF）、高爾夫（IGF）、迷你高爾夫（WMF）僅賽內禁用。受限情境有醫療需要時，須依規定申請 TUE。\n\n申請時程依該運動屬「賽內外皆禁」或「僅賽內禁」而定，請對照最新版禁用清單 P1 適用運動。\n\n特殊情況申請\n\n下列「特殊情況」得於使用後提出回溯性申請或申請截止日期後提出，但仍須符合所有核可條件：\n\n緊急醫療\n無充足時間於接受藥檢前提出申請\n非國家級運動員接受檢測\n於賽外使用「賽內禁用物質」\n審查時程\n審查結果原則上將於收到完整申請資料起21個日曆天(calendar days)內通知\n因特殊情況於賽事前30天後申請時，如距賽事少於21天，不保證於賽事前完成審查\n非國家級運動員：任何情況皆無須於使用前申請，如出現不利檢測報告時，可提出回溯性TUE申請", "overflow": 0, "images": 0, "height": 4308, "feedbackHeight": 148.96875, "headings": [{"text": "治療用途豁免 (TUE) 專區", "y": 80}]}, {"width": 390, "path": "/quiz", "title": "反禁藥互動測驗 | 乾淨運動從你我開始", "text": "互動測驗\n\n測試你對運動禁藥的了解程度\n\n情境題：這個算不算禁藥？\n\nPRP、高壓氧、ILIB、感冒藥、Ozempic... 逐題揭曉答案\n\n8 題\n知識測驗（計分）\n\n隨機 10 題，答完顯示分數與解析\n\n滿分 10 分", "overflow": 0, "images": 0, "height": 1374, "feedbackHeight": 148.96875, "headings": [{"text": "互動測驗", "y": 80}]}, {"width": 390, "path": "/education", "title": "教育專區 | 乾淨運動從你我開始", "text": "教育專區\n\n學習運動禁藥相關知識，提升反禁藥意識\n\n禁藥知識\n常見誤區\n違規類型\n補充劑安全\n案例學習\n各科專區\n🧪\nS0\n\nS0: 未批准物質\n\n任何未獲得政府衛生管理當局批准供人類治療使用的藥物或實驗物質。\n\n作用機制\n\n由於屬於實驗階段，作用機制可能不明確或存在未知副作用。\n\n健康風險\n\n未知的健康風險、可能造成嚴重副作用、長期影響不明\n\n常見例子\n\n實驗性SARM、新型類固醇前體、研發階段的藥物\n\n💪\nS1\n\nS1: 合成代謝劑\n\n包括外源性和內源性合成代謝雄激素類固醇及其他合成代謝劑。\n\n作用機制\n\n模擬睪固酮作用，增加蛋白質合成，促進肌肉生長和力量提升。\n\n健康風險\n\n肝損傷、心血管疾病、情緒波動、荷爾蒙失調、男性女性化、女性男性化\n\n常見例子\n\n睪固酮、南德龍(Nandrolone)、康力龍(Stanozolol)、口服妥納龍(Turinabol)\n\n📈\nS2\n\nS2: 肽類激素、生長因子\n\n影響生長、細胞分裂和再生的天然或合成肽類物質。\n\n作用機制\n\n刺激生長激素釋放、增加紅血球生成、促進組織修復和肌肉生長。\n\n健康風險\n\n關節疼痛、糖尿病風險、心臟肥大、血栓、中風\n\n常見例子\n\nEPO、生長激素(HGH)、IGF-1、促性腺激素\n\n🫁\nS3\n\nS3: Beta-2激動劑\n\n作用於Beta-2腎上腺素受體的物質，可放鬆支氣管平滑肌。\n\n作用機制\n\n擴張支氣管、增加氧氣攝取、可能具有合成代謝效果。\n\n健康風險\n\n心律不整、肌肉震顫、頭痛、心率加快、電解質失衡\n\n常見例子\n\nSalbutamol、Terbutaline、Formoterol、Salmeterol\n\n⚖️\nS4\n\nS4: 激素和代謝調節劑\n\n影響激素平衡和新陳代謝的物質和方法。\n\n作用機制\n\n調節激素水平、影響脂肪代謝、調節血糖、改善心血管功能。\n\n健康風險\n\n激素失調、肝功能異常、心血管疾病、血糖異常\n\n常見例子\n\nMeldonium、芳香酶抑制劑、抗雌激素物質、胰島素(Insulin)、代謝調節劑\n\n💧\nS5\n\nS5: 利尿劑和掩蔽劑\n\n用於快速減重或掩蓋其他禁藥使用的物質。\n\n作用機制\n\n增加尿液產生、稀釋禁藥濃度、快速減少體重。\n\n健康風險\n\n嚴重脫水、電解質失衡、腎功能損害、血壓異常\n\n常見例子\n\nFurosemide、Hydrochlorothiazide、Spironolactone、Probenecid\n\n⚡\nS6\n\nS6: 興奮劑\n\n刺激中樞神經系統，增強警覺性和能量的物質。\n\n作用機制\n\n刺激交感神經系統、增加腎上腺素分泌、提高專注力和反應速度。\n\n健康風險\n\n心律不整、高血壓、焦慮、成癮、心臟病發作\n\n常見例子\n\n安非他命、可卡因、MDMA、Modafinil、高劑量咖啡因\n\n💊\nS7\n\nS7: 麻醉劑\n\n強效鎮痛劑，可能掩蓋傷痛並產生欣快感。\n\n作用機制\n\n作用於鴉片受體，產生鎮痛和欣快效果，可能掩蓋運動傷害。\n\n健康風險\n\n呼吸抑制、成癮、認知能力下降、掩蓋嚴重傷害\n\n常見例子\n\n嗎啡、芬太尼、海洛因、Tramadol（2024新增）\n\n🍃\nS8\n\nS8: 大麻類\n\n大麻及其活性成分四氫大麻酚(THC)。\n\n作用機制\n\n作用於大麻素受體，影響協調性、判斷力和反應時間。\n\n健康風險\n\n注意力不集中、協調性下降、記憶力影響、可能成癮\n\n常見例子\n\n大麻、THC、合成大麻素\n\n🩹\nS9\n\nS9: 糖皮質激素\n\n具有強效抗炎作用的類固醇激素。\n\n作用機制\n\n強效抗炎、抑制免疫反應、可能增強耐力和減少疲勞感。\n\n健康風險\n\n免疫抑制、骨質疏鬆、肌肉萎縮、血糖升高\n\n常見例子\n\nPrednisolone、Dexamethasone、Cortisone、Hydrocortisone\n\n🩸\nM1\n\nM1: 血液和血液成分操作\n\n涉及血液、血液成分或影響氧氣輸送的禁用方法。\n\n作用機制\n\n增加血液中紅血球數量、提高氧氣輸送能力。\n\n健康風險\n\n血栓、感染、免疫反應、血液系統疾病\n\n常見例子\n\n血液輸注、人工氧氣載體、血液替代品、一氧化碳（CO，非診斷用途，2026新增M1.4）\n\n🔬\nM2\n\nM2: 化學和物理操作\n\n篡改或企圖篡改樣本完整性的行為。\n\n作用機制\n\n稀釋樣本、替換樣本、加入掩蔽物質。\n\n健康風險\n\n法律後果、終身禁賽、名譽受損\n\n常見例子\n\n樣本替換、尿液稀釋、加入蛋白酶、導尿管使用\n\n🧬\nM3\n\nM3: 基因和細胞禁藥\n\n基因治療、基因編輯和細胞治療的非治療性使用。\n\n作用機制\n\n改變基因表達、增強肌肉生長、改善氧氣利用。\n\n健康風險\n\n未知長期風險、免疫反應、基因不穩定\n\n常見例子\n\n基因治療載體、基因編輯技術、幹細胞療法\n\n🎯\nP1\n\nP1: Beta阻斷劑\n\n在特定需要精準度和穩定性的運動中被禁用。\n\n作用機制\n\n降低心率、減少震顫、提高精準度。\n\n健康風險\n\n心率過低、血壓下降、運動能力下降\n\n常見例子\n\nPropranolol、Atenolol、Metoprolol", "overflow": 0, "images": 0, "height": 8274, "feedbackHeight": 148.96875, "headings": [{"text": "教育專區", "y": 80}]}, {"width": 390, "path": "/cases/usada-792c30cdc646", "title": "Imani Oliver | 乾淨運動從你我開始", "text": "返回\nImani Oliver\n美國\n田徑\n2016\n\n教練建議用藥／陽性與實質協助 · 核心事實已查核\n\n1年\n\n查核日期：2026-09-23。處分依查核時取得的來源記錄，不是即時參賽資格查詢。\n\n查核範圍：已逐案核對官方個案文件與名冊的身分、事件、規則及處分；未聲稱所有裁決全文或後續救濟程序均已審閱。\n\n國家／地區依據：官方來源（原文：USA）\n\n本案依 2016 年 World Athletics 成績表列美國（USA）；2025 年官方賽事資料列牙買加（JAM），不回填本案，也不推定轉籍生效日。\n\n國家資料補查：2026-09-24；Claude、GPT、Grok 對讀。本次範圍限國家來源及身分配對，未重審全部處分內容。\n\n國家補查的模型疑義已依官方資料處理；其後補入的來源或註記尚未再次送交模型。\n\n來源交叉對讀：GPT、Gemini。這表示已取得模型對讀回覆；疑義仍須依官方原文判定，不等於每個欄位均已確認。\n\n官方紀錄定位：U.S. Track & Field Athlete Imani Oliver Accepts Sanction for Anti-Doping Rule Violation：個案公告標題及全部個案實質段落；含物質／規則、處分、日期與成績後果，止於通用教育資訊前\n\n年份依據：事件年份（依官方個案公告核對）\n\n涉及物質、方法或程序\nS1 合成代謝劑／S4 激素與代謝調節劑\nostarine；另有 arimistane 產品使用及訂購證據\n\n尿液檢出 ostarine 與另一產品的訂購使用證據應分開，不能全部改成陽性檢體。\n\n事件背景\n\nImani Oliver 在 2016-07-07 美國奧運田徑選拔賽檢出 ostarine。調查確認她依 Thinking Feet 教練 Kenta Bell 的建議於 03-16 購買明列 ostarine 及另一含 arimistane 的產品，因自願承認、配合及實質協助，處一年禁賽。\n\n裁決與處理結果\n禁賽期限\n\n1年\n\n成績被取消\n\n是\n\n其他結果與說明\n\n自 2016-07-07 採樣日起一年。取消自 2016-03-16 訂購含 ostarine 與 arimistane 產品日起的競賽成績。\n\n案例摘要\n\n教練建議用藥／陽性與實質協助；1年。\n\n資料來源\n📄\nU.S. Track & Field Athlete Imani Oliver Accepts Sanction for Anti-Doping Rule Violation\n\n官方個案文件\n\n📄\nUSADA 官方處分名冊\n\n官方名冊", "overflow": 0, "images": 0, "height": 3368, "feedbackHeight": 148.96875, "headings": [{"text": "Imani Oliver", "y": 160}, {"text": "涉及物質、方法或程序", "y": 1030}, {"text": "事件背景", "y": 1362}, {"text": "裁決與處理結果", "y": 1594}, {"text": "案例摘要", "y": 2024}, {"text": "資料來源", "y": 2182}]}, {"width": 320, "path": "/", "title": "乾淨運動從你我開始 | 運動禁藥案例資料庫", "text": "乾淨運動\n從你我開始\n\n運動禁藥互動教學平台 — 禁用清單查詢、情境測驗、藥檢流程、TUE 指南\n\n開始測驗\n瀏覽禁用清單\n\n你知道嗎？\n\nPRP 注射本身不在禁用清單；侵入式靜脈雷射 ILIB 可能涉及 M1.3 以物理方式操縱血管內血液，須就具體療程確認\n\n517\n\n教學案例\n\n64\n\n運動項目\n\n65\n\n來源所列國家／地區\n\nS0-P1\n\n完整禁用分類\n\n探索學習模組\n禁用清單\n\n2026 WADA 禁用物質與方法分類瀏覽\n\n互動測驗\n\n「這個算不算禁藥？」情境題 + 知識測驗\n\n藥檢流程\n\n四步驟圖解：通知→報到→採樣→表單\n\nTUE 指南\n\n治療用途豁免申請決策樹\n\n案例搜尋\n\n國際運動禁藥案例，支援多條件篩選\n\n最新消息\n\n禁藥監控、國際案例與反禁藥規範更新\n\nYour Body,\nYour Responsibility!\n\n運動員要對自己所吃下的任何物質及使用的方法負責，誤服誤用不能成為躲避處罰的理由", "overflow": 0, "images": 0, "height": 3447, "feedbackHeight": 148.96875, "headings": [{"text": "乾淨運動\n從你我開始", "y": 112}, {"text": "探索學習模組", "y": 1049}]}, {"width": 320, "path": "/cases", "title": "案例搜尋 | 乾淨運動從你我開始", "text": "相關案例\n\n搜尋並篩選國際運動禁藥案例\n\n收錄違規、污染、合法 TUE 與處分撤銷等教學案例。每筆標示查核層級；官方名冊核對不代表裁決全文已審閱。年份依事件年或官方裁決公布年，詳見個案。\n\n篩選 ▼\n搜尋\n\n找到 517 個案例\n\nYamile Herrera\n\n田徑\n\n及早承認／接力賽隊伍後果 · 核心事實已查核\n\n墨西哥\n2026\n年度禁用清單分類未另核對\nPresence/Use of Prohibited Substance (Oxandrolone) (Article 2.1 and Article 2.2)\n\n處理結果：3年\n\nAymane Takzima\n\n空手道\n\n禁賽期間參與活動 · 核心事實已查核\n\n來源日期有缺漏或歧義，請一併閱讀下方個案說明。\n\n摩洛哥\n2026\n禁賽期間參與活動規定\n10.14.1 - Prohibition against Participation during Provisional Suspension and Ineligibility\n\n處理結果：追加3年\n\nBrenda Uchenna Bosah\n\n舉重\n\n物質相關違規／及早承認 · 核心事實已查核\n\n奈及利亞\n2026\n年度禁用清單分類未另核對\nArt. 2.1/2.2 - Presence of Exogenous Testosterone and at least one of the Adiols (5aAdiol and/or 5bAdiol)\n\n處理結果：3年\n\nDaniil Kuzmin\n\n體操\n\n物質相關違規／及早承認 · 核心事實已查核\n\n俄羅斯\n2026\n年度禁用清單分類未另核對\nArt. 2.1/2.2 - Presence of boldenone and its metabolite 5β-androst-1-ene-17β-ol-3one\n\n處理結果：3年\n\nLucky Joseph\n\n舉重\n\n物質相關違規／接受處分 · 核心事實已查核\n\n奈及利亞\n2026\n年度禁用清單分類未另核對\nArt. 2.1/2.2 - Presence of Stanozolol metabolite - stanozolol-N-glucuronide\n\n處理結果：4年\n\nEmily Oberst\n\n輪椅籃球\n\n未事先取得 TUE／公開警告與未來用藥授權 · 核心事實已查核\n\n美國\n2026\nS5 利尿劑和掩蔽劑\nspironolactone 代謝物 canrenone；採樣時未取得 TUE\n\n處理結果：公開警告，無禁賽\n\nAlice Koigi\n\n田徑\n\n物質相關違規／另有合法 TUE · 核心事實已查核\n\n肯亞\n2025\n年度禁用清單分類未另核對\nPresence/Use of Prohibited Substances (Methylprednisolone) (Article 2.1 and Article 2.2)\n\n處理結果：2年\n\nJudy Jelagat Kemboi\n\n田徑\n\n利尿劑／未證實藥物污染 · 核心事實已查核\n\n肯亞\n2025\n年度禁用清單分類未另核對\nPresence/Use of a Prohibited Substance ( Hydrochlorothiazide ) (Article 2.1 and Article 2.2)\n\n處理結果：2年\n\nMorine Gesare Michira\n\n田徑\n\n補充品標示成分／接受處分 · 核心事實已查核\n\n肯亞\n2025\n年度禁用清單分類未另核對\nPresence/Use of a Prohibited Substance (Higenamine and Octodrine) (Article 2.1 and Article 2.2)\n\n處理結果：2年\n\nSneha Kolleri\n\n田徑\n\n污染抗辯未獲接受／及早承認 · 核心事實已查核\n\n印度\n2025\n年度禁用清單分類未另核對\nPresence/Use of a Prohibited Substance (Stanozolol) (Article 2.1 and Article 2.2)\n\n處理結果：3年\n\nFelix Kirui\n\n田徑\n\n糖皮質類固醇／接受處分 · 核心事實已查核\n\n肯亞\n2025\n年度禁用清單分類未另核對\nPresence/Use of a Prohibited Substance (Triamcinolone acetonide) (Article 2.1 and Article 2.2)\n\n處理結果：2年\n\nGudaf TSEGAY\n\n田徑\n\n案件解決協議／物質相關違規 · 核心事實已查核\n\n衣索比亞\n2025\n年度禁用清單分類未另核對\nPresence/Use of Prohibited Substance (Metabolite of Letrozole) (Article 2.1 and Article 2.2)\n\n處理結果：4個月\n\n1\n2\n...\n44", "overflow": 0, "images": 0, "height": 6236, "feedbackHeight": 148.96875, "search": {"x": 16, "y": 280, "width": 83.84375, "height": 42, "top": 280, "right": 99.84375, "bottom": 322, "left": 16}, "headings": [{"text": "相關案例", "y": 80}]}], "errors": [], "version": {"sha": "7fcd848d06908b29d37a77b891650f80d6b9877e", "builtAt": "2026-09-24T04:54:53.339Z"}}
+FILE frontend/src/pages/Home.jsx
+1: import { useState, useEffect, useMemo } from "react";
+2: import { Link } from "react-router-dom";
+3: import {
+4:   Search,
+5:   BarChart3,
+6:   GraduationCap,
+7:   AlertTriangle,
+8:   Users,
+9:   Trophy,
+10:   Calendar,
+11:   Shield,
+12:   Zap,
+13:   ClipboardList,
+14:   FileText,
+15:   Newspaper,
+16:   ArrowRight,
+17: } from "lucide-react";
+18: import { statsAPI } from "../services/api";
+19: 
+20: const facts = [
+21:   "115 年全中運、全大運及全民運動會取消將線上測驗通過證明列為報名條件；選手仍應學習反禁藥知識，其他賽會依各自公告",
+22:   "部分感冒藥含 pseudoephedrine（偽麻黃鹼），屬 S6 興奮劑；賽內尿液濃度超過 150µg/mL 時禁用，用藥前應核對規範",
+23:   "PRP 注射本身不在禁用清單；侵入式靜脈雷射 ILIB 可能涉及 M1.3 以物理方式操縱血管內血液，須就具體療程確認",
+24:   "2026 年 semaglutide（Ozempic）與 tirzepatide 的標記物列入 WADA 賽內、賽外監控計畫，兩者尚未列入禁用清單",
+25:   "2026 年 WADA 新增一氧化碳（CO）非診斷用途為禁用方法",
+26:   "BPC-157 屬於 S0 未經核可之物質，賽內、賽外皆禁用；醫療宣傳不代表已有人體治療核准或 TUE 核准",
+27:   "嚴格責任原則：成立檢體中存在禁用物質的違規，不需證明故意或過失；禁賽等處分仍依過失程度及適用規則個別評估",
+28:   "吸入式 Salbutamol 的劑量例外為 24 小時內不超過 1600 微克，且任何 8 小時內不超過 600 微克；超出例外需 TUE",
+29: ];
+30: 
+31: const navCards = [
+32:   {
+33:     to: "/prohibited-list",
+34:     title: "禁用清單",
+35:     desc: "2026 WADA 禁用物質與方法分類瀏覽",
+36:     icon: Shield,
+37:     gradient: "from-red-500 to-rose-600",
+38:   },
+39:   {
+40:     to: "/quiz",
+41:     title: "互動測驗",
+42:     desc: "「這個算不算禁藥？」情境題 + 知識測驗",
+43:     icon: Zap,
+44:     gradient: "from-amber-500 to-orange-500",
+45:   },
+46:   {
+47:     to: "/testing-process",
+48:     title: "藥檢流程",
+49:     desc: "四步驟圖解：通知→報到→採樣→表單",
+50:     icon: ClipboardList,
+51:     gradient: "from-blue-500 to-cyan-600",
+52:   },
+53:   {
+54:     to: "/tue",
+55:     title: "TUE 指南",
+56:     desc: "治療用途豁免申請決策樹",
+57:     icon: FileText,
+58:     gradient: "from-emerald-500 to-teal-600",
+59:   },
+60:   {
+61:     to: "/cases",
+62:     title: "案例搜尋",
+63:     desc: "國際運動禁藥案例，支援多條件篩選",
+64:     icon: Search,
+65:     gradient: "from-violet-500 to-purple-600",
+66:   },
+67:   {
+68:     to: "/news",
+69:     title: "最新消息",
+70:     desc: "禁藥監控、國際案例與反禁藥規範更新",
+71:     icon: Newspaper,
+72:     gradient: "from-gray-600 to-gray-800",
+73:   },
+74: ];
+75: 
+76: function Home() {
+77:   const [stats, setStats] = useState({
+78:     totalCases: null,
+79:     totalSports: null,
+80:     totalCountries: null,
+81:     recentCases: [],
+82:   });
+83:   const [error, setError] = useState(null);
+84: 
+85:   const randomFact = useMemo(
+86:     () => facts[Math.floor(Math.random() * facts.length)],
+87:     [],
+88:   );
+89: 
+90:   useEffect(() => {
+91:     document.title = "乾淨運動從你我開始 | 運動禁藥案例資料庫";
+92:     loadStats();
+93:   }, []);
+94: 
+95:   const loadStats = async () => {
+96:     setError(null);
+97:     try {
+98:       const response = await statsAPI.getOverview();
+99:       setStats(response.data);
+100:     } catch (err) {
+101:       console.error("Failed to load stats:", err);
+102:       setError("案例統計暫時無法載入，請重新整理後再試。其他學習功能仍可使用。");
+103:     }
+104:   };
+105: 
+106:   return (
+107:     <div className="-mt-8 -mx-4 sm:-mx-6 lg:-mx-8">
+108:       {/* Error Banner */}
+109:       {error && (
+110:         <div className="mx-4 sm:mx-6 lg:mx-8 mb-4 bg-red-50 border border-red-200 rounded-lg p-4 flex items-center">
+111:           <AlertTriangle className="h-5 w-5 text-red-600 mr-2 flex-shrink-0" />
+112:           <p className="text-red-700 text-sm">{error}</p>
+113:         </div>
+114:       )}
+115: 
+116:       {/* Hero Section */}
+117:       <section className="bg-gradient-to-br from-emerald-700 via-emerald-600 to-teal-600 px-4 sm:px-6 lg:px-8 py-16 md:py-20">
+118:         <div className="max-w-4xl mx-auto text-center">
+119:           <h1 className="text-3xl md:text-5xl lg:text-6xl font-black text-white mb-4 leading-tight tracking-tight">
+120:             乾淨運動
+121:             <br className="md:hidden" />
+122:             <span className="md:ml-3">從你我開始</span>
+123:           </h1>
+124:           <p className="text-lg md:text-xl text-emerald-100 mb-8 max-w-2xl mx-auto leading-relaxed">
+125:             運動禁藥互動教學平台 — 禁用清單查詢、情境測驗、藥檢流程、TUE 指南
+126:           </p>
+127:           <div className="flex flex-col sm:flex-row gap-3 justify-center">
+128:             <Link
+129:               to="/quiz"
+130:               className="inline-flex items-center justify-center gap-2 bg-white text-emerald-700 font-bold px-8 py-3.5 rounded-xl hover:bg-emerald-50 transition-all duration-200 shadow-lg shadow-emerald-900/20 text-lg"
+131:             >
+132:               <Zap className="h-5 w-5" />
+133:               開始測驗
+134:             </Link>
+135:             <Link
+136:               to="/prohibited-list"
+137:               className="inline-flex items-center justify-center gap-2 bg-white/15 text-white font-bold px-8 py-3.5 rounded-xl border border-white/25 hover:bg-white/25 transition-all duration-200 text-lg backdrop-blur-sm"
+138:             >
+139:               <Shield className="h-5 w-5" />
+140:               瀏覽禁用清單
+141:             </Link>
+142:           </div>
+143:         </div>
+144:       </section>
+145: 
+146:       {/* Did you know */}
+147:       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 -mt-6 relative z-10">
+148:         <div className="bg-white rounded-2xl shadow-lg p-5 border-l-4 border-amber-400">
+149:           <p className="text-xs font-bold text-amber-600 uppercase tracking-wider mb-1">
+150:             你知道嗎？
+151:           </p>
+152:           <p className="text-gray-700">{randomFact}</p>
+153:         </div>
+154:       </div>
+155: 
+156:       {/* Key numbers */}
+157:       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
+158:         <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+159:           {[
+160:             {
+161:               num: stats.totalCases ?? "—",
+162:               label: "教學案例",
+163:               icon: AlertTriangle,
+164:               color: "text-red-600 bg-red-50",
+165:             },
+166:             {
+167:               num: stats.totalSports ?? "—",
+168:               label: "運動項目",
+169:               icon: Trophy,
+170:               color: "text-emerald-600 bg-emerald-50",
+171:             },
+172:             {
+173:               num: stats.totalCountries ?? "—",
+174:               label: "來源所列國家／地區",
+175:               icon: Users,
+176:               color: "text-blue-600 bg-blue-50",
+177:             },
+178:             {
+179:               num: "S0-P1",
+180:               label: "完整禁用分類",
+181:               icon: Shield,
+182:               color: "text-amber-600 bg-amber-50",
+183:             },
+184:           ].map((item) => (
+185:             <div
+186:               key={item.label}
+187:               className="bg-white rounded-2xl p-5 border border-gray-100 hover:shadow-md transition-shadow"
+188:             >
+189:               <div className={`inline-flex p-2 rounded-xl mb-3 ${item.color}`}>
+190:                 <item.icon className="h-5 w-5" />
+191:               </div>
+192:               <p className="text-2xl md:text-3xl font-black text-gray-900">
+193:                 {item.num}
+194:               </p>
+195:               <p className="text-sm text-gray-500 mt-0.5">{item.label}</p>
+196:             </div>
+197:           ))}
+198:         </div>
+199:       </div>
+200: 
+201:       {/* Navigation Cards */}
+202:       <section className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 pb-12">
+203:         <h2 className="text-xl font-bold text-gray-900 mb-5">探索學習模組</h2>
+204:         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+205:           {navCards.map((card) => (
+206:             <Link
+207:               key={card.to}
+208:               to={card.to}
+209:               className="group block bg-white rounded-2xl border border-gray-100 overflow-hidden hover:shadow-xl hover:border-gray-200 transition-all duration-300"
+210:             >
+211:               <div className="p-6">
+212:                 <div
+213:                   className={`inline-flex p-3 rounded-xl bg-gradient-to-br ${card.gradient} mb-4 shadow-sm`}
+214:                 >
+215:                   <card.icon className="h-5 w-5 text-white" />
+216:                 </div>
+217:                 <h3 className="text-lg font-bold text-gray-900 mb-1 group-hover:text-emerald-700 transition-colors flex items-center gap-1">
+218:                   {card.title}
+219:                   <ArrowRight className="h-4 w-4 opacity-0 -translate-x-2 group-hover:opacity-100 group-hover:translate-x-0 transition-all" />
+220:                 </h3>
+221:                 <p className="text-gray-500 text-sm">{card.desc}</p>
+222:               </div>
+223:             </Link>
+224:           ))}
+225:         </div>
+226:       </section>
+227: 
+228:       {/* Strict liability */}
+229:       <section className="bg-gray-900 py-14 px-4">
+230:         <div className="max-w-4xl mx-auto text-center">
+231:           <p className="text-3xl md:text-5xl font-black text-white mb-4 leading-tight">
+232:             Your Body,
+233:             <br />
+234:             Your Responsibility!
+235:           </p>
+236:           <p className="text-gray-400 text-lg max-w-xl mx-auto leading-relaxed">
+237:             運動員要對自己所吃下的任何物質及使用的方法負責，誤服誤用不能成為躲避處罰的理由
+238:           </p>
+239:         </div>
+240:       </section>
+241: 
+242:       {/* Recent Cases */}
+243:       {stats.recentCases && stats.recentCases.length > 0 && (
+244:         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+245:           <div className="bg-white rounded-2xl shadow-sm border border-gray-100 p-6">
+246:             <h2 className="text-xl font-bold text-gray-900 mb-4">最新案例</h2>
+247:             <div className="space-y-2">
+248:               {stats.recentCases.slice(0, 5).map((case_item) => (
+249:                 <Link
+250:                   key={case_item._id}
+251:                   to={`/cases/${case_item._id}`}
+252:                   className="flex items-center justify-between p-3 hover:bg-gray-50 rounded-xl transition group"
+253:                 >
+254:                   <div className="flex items-center gap-3">
+255:                     <div className="bg-red-50 p-2 rounded-lg">
+256:                       <AlertTriangle className="h-4 w-4 text-red-500" />
+257:                     </div>
+258:                     <div>
+259:                       <p className="font-semibold text-gray-900 group-hover:text-emerald-700 transition-colors">
+260:                         {case_item.athleteName}
+261:                       </p>
+262:                       <p className="text-sm text-gray-500">{case_item.sport}</p>
+263:                     </div>
+264:                   </div>
+265:                   <div className="flex items-center text-gray-400 text-sm">
+266:                     <Calendar className="h-3.5 w-3.5 mr-1" />
+267:                     {case_item.year}
+268:                   </div>
+269:                 </Link>
+270:               ))}
+271:             </div>
+272:             <Link
+273:               to="/cases"
+274:               className="flex items-center justify-center gap-1 mt-4 text-emerald-600 hover:text-emerald-700 font-medium text-sm"
+275:             >
+276:               查看所有案例
+277:               <ArrowRight className="h-4 w-4" />
+278:             </Link>
+279:           </div>
+280:         </div>
+281:       )}
+282:     </div>
+283:   );
+284: }
+285: 
+286: export default Home;
+FILE frontend/src/pages/CaseList.jsx
+1: import { useState, useEffect, useCallback, useMemo, useRef } from "react";
+2: import { Link } from "react-router-dom";
+3: import {
+4:   Search,
+5:   Filter,
+6:   AlertTriangle,
+7:   Calendar,
+8:   MapPin,
+9:   ChevronLeft,
+10:   ChevronRight,
+11: } from "lucide-react";
+12: import { casesAPI } from "../services/api";
+13: import CaseReviewNotice from "../components/CaseReviewNotice";
+14: import { searchCache, filterCache } from "../utils/cache";
+15: import { debounce } from "../utils/debounce";
+16: 
+17: const EMPTY_FILTERS = {
+18:   search: "",
+19:   sport: "",
+20:   nationality: "",
+21:   year: "",
+22:   substanceCategory: "",
+23:   punishmentType: "",
+24: };
+25: 
+26: function CaseList() {
+27:   const [cases, setCases] = useState([]);
+28:   const [filters, setFilters] = useState(EMPTY_FILTERS);
+29:   const [filterOptions, setFilterOptions] = useState({
+30:     sports: [],
+31:     nationalities: [],
+32:     years: [],
+33:     substanceCategories: [],
+34:     punishmentTypes: ["禁賽", "獎牌剝奪", "成績取消", "罰款", "警告", "其他"],
+35:   });
+36:   const [pagination, setPagination] = useState({
+37:     currentPage: 1,
+38:     totalPages: 1,
+39:     totalCases: 0,
+40:   });
+41:   const [loading, setLoading] = useState(false);
+42:   const [showFilters, setShowFilters] = useState(false);
+43:   const [error, setError] = useState(null);
+44:   const mountedRef = useRef(false);
+45:   const requestIdRef = useRef(0);
+46:   const filterRequestIdRef = useRef(0);
+47: 
+48:   useEffect(() => {
+49:     document.title = "案例搜尋 | 乾淨運動從你我開始";
+50:   }, []);
+51: 
+52:   // 強制篩選器切換函數
+53:   const toggleFilters = useCallback(() => {
+54:     setShowFilters((prev) => !prev);
+55:   }, []);
+56: 
+57:   const loadFilterOptions = useCallback(async () => {
+58:     const requestId = ++filterRequestIdRef.current;
+59:     const isCurrent = () => mountedRef.current && requestId === filterRequestIdRef.current;
+60:     try {
+61:       // 檢查快取
+62:       const cacheKey = "filter-options";
+63:       const cachedOptions = filterCache.get({ key: cacheKey });
+64: 
+65:       if (cachedOptions) {
+66:         setFilterOptions(cachedOptions);
+67:         return;
+68:       }
+69: 
+70:       const response = await casesAPI.getFilterOptions();
+71:       if (!isCurrent()) return;
+72:       const options = {
+73:         ...response.data,
+74:         punishmentTypes: [
+75:           "禁賽",
+76:           "獎牌剝奪",
+77:           "成績取消",
+78:           "罰款",
+79:           "警告",
+80:           "其他",
+81:         ],
+82:       };
+83: 
+84:       setFilterOptions(options);
+85:       filterCache.set({ key: cacheKey }, options);
+86:     } catch (error) {
+87:       if (!isCurrent()) return;
+88:       console.error("Failed to load filter options:", error);
+89:       // Fallback: 使用預設選項
+90:       const fallbackOptions = {
+91:         sports: ["田徑", "游泳", "自行車", "網球", "籃球", "足球"],
+92:         nationalities: ["美國", "中國", "俄羅斯", "德國", "英國", "日本"],
+93:         years: [2020, 2021, 2022, 2023, 2024],
+94:         substanceCategories: ["類固醇", "EPO", "興奮劑", "利尿劑"],
+95:         punishmentTypes: [
+96:           "禁賽",
+97:           "獎牌剝奪",
+98:           "成績取消",
+99:           "罰款",
+100:           "警告",
+101:           "其他",
+102:         ],
+103:       };
+104:       setFilterOptions(fallbackOptions);
+105:     }
+106:   }, []);
+107: 
+108:   const loadCases = useCallback(async (searchParams = EMPTY_FILTERS, pageNum = 1) => {
+109:     if (!mountedRef.current) return;
+110:     const requestId = ++requestIdRef.current;
+111:     const isCurrent = () => mountedRef.current && requestId === requestIdRef.current;
+112:     setLoading(true);
+113:     setError(null);
+114:     try {
+115:       const params = {
+116:         ...searchParams,
+117:         page: pageNum,
+118:         limit: 12,
+119:       };
+120: 
+121:       // 檢查快取
+122:       const cachedData = searchCache.get(params);
+123:       if (cachedData) {
+124:         setCases(cachedData.cases);
+125:         setPagination({
+126:           currentPage: cachedData.currentPage,
+127:           totalPages: cachedData.totalPages,
+128:           totalCases: cachedData.totalCases,
+129:         });
+130:         setLoading(false);
+131:         return;
+132:       }
+133: 
+134:       const response = await casesAPI.getAll(params);
+135:       if (!isCurrent()) return;
+136:       const data = response.data;
+137: 
+138:       setCases(data.cases);
+139:       setPagination({
+140:         currentPage: data.currentPage,
+141:         totalPages: data.totalPages,
+142:         totalCases: data.totalCases,
+143:       });
+144: 
+145:       // 儲存到快取
+146:       searchCache.set(params, data);
+147:     } catch (error) {
+148:       if (!isCurrent()) return;
+149:       console.error("Failed to load cases:", error);
+150:       setError("載入案例資料失敗，請稍後再試。");
+151:       // 發生錯誤時清空快取並設定預設狀態
+152:       searchCache.clear();
+153:       setCases([]);
+154:       setPagination({
+155:         currentPage: 1,
+156:         totalPages: 1,
+157:         totalCases: 0,
+158:       });
+159:     } finally {
+160:       if (isCurrent()) setLoading(false);
+161:     }
+162:   }, []);
+163: 
+164:   // 使用防抖的搜尋函數
+165:   const debouncedSearch = useMemo(
+166:     () =>
+167:       debounce((searchFilters, page) => {
+168:         loadCases(searchFilters, page);
+169:       }, 300),
+170:     [loadCases],
+171:   );
+172: 
+173:   useEffect(() => {
+174:     mountedRef.current = true;
+175:     // 兩項請求各自啟動，避免篩選選項較慢時覆蓋使用者的新搜尋。
+176:     void loadFilterOptions();
+177:     void loadCases(EMPTY_FILTERS, 1);
+178:     return () => {
+179:       mountedRef.current = false;
+180:       requestIdRef.current += 1;
+181:       filterRequestIdRef.current += 1;
+182:       debouncedSearch.cancel();
+183:     };
+184:   }, [loadFilterOptions, loadCases, debouncedSearch]);
+185: 
+186:   const handleFilterChange = useCallback(
+187:     (key, value) => {
+188:       const newFilters = { ...filters, [key]: value };
+189:       requestIdRef.current += 1;
+190:       setFilters(newFilters);
+191:       setPagination((prev) => ({ ...prev, currentPage: 1 }));
+192: 
+193:       // 使用防抖搜尋
+194:       debouncedSearch(newFilters, 1);
+195:     },
+196:     [filters, debouncedSearch],
+197:   );
+198: 
+199:   const handleSearchSubmit = useCallback(
+200:     (e) => {
+201:       e.preventDefault();
+202:       // 取消防抖並立即搜尋
+203:       debouncedSearch.cancel();
+204:       loadCases(filters, 1);
+205:     },
+206:     [filters, loadCases, debouncedSearch],
+207:   );
+208: 
+209:   const clearFilters = () => {
+210:     debouncedSearch.cancel();
+211:     setFilters(EMPTY_FILTERS);
+212:     setPagination((prev) => ({ ...prev, currentPage: 1 }));
+213:     void loadCases(EMPTY_FILTERS, 1);
+214:   };
+215: 
+216:   const substanceCategoryColors = {
+217:     興奮劑: "bg-red-100 text-red-700",
+218:     類固醇: "bg-purple-100 text-purple-700",
+219:     EPO: "bg-blue-100 text-blue-700",
+220:     利尿劑: "bg-cyan-100 text-cyan-700",
+221:     生長激素: "bg-green-100 text-green-700",
+222:     血液興奮劑: "bg-pink-100 text-pink-700",
+223:     其他: "bg-gray-100 text-gray-700",
+224:   };
+225: 
+226:   return (
+227:     <div>
+228:       <div className="mb-8">
+229:         <h1 className="text-3xl font-bold text-gray-900 mb-4">相關案例</h1>
+230:         <p className="text-gray-600">搜尋並篩選國際運動禁藥案例</p>
+231:         <p className="mt-3 text-sm text-gray-600">收錄違規、污染、合法 TUE 與處分撤銷等教學案例。每筆標示查核層級；官方名冊核對不代表裁決全文已審閱。年份依事件年或官方裁決公布年，詳見個案。</p>
+232:       </div>
+233: 
+234:       {/* Search Bar */}
+235:       <form onSubmit={handleSearchSubmit} className="mb-6">
+236:         <div className="flex gap-2">
+237:           <div className="flex-1 relative">
+238:             <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 h-5 w-5 text-gray-400" />
+239:             <input
+240:               type="text"
+241:               placeholder="搜尋選手、教練姓名、藥物或運動項目（支援拼寫容錯）"
+242:               value={filters.search}
+243:               onChange={(e) => handleFilterChange("search", e.target.value)}
+244:               aria-label="搜尋案例"
+245:               className="w-full pl-10 pr-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-primary-500"
+246:             />
+247:           </div>
+248:           <button
+249:             type="button"
+250:             onClick={(e) => {
+251:               e.preventDefault();
+252:               e.stopPropagation();
+253:               toggleFilters();
+254:             }}
+255:             className="px-4 py-2 bg-gray-100 hover:bg-gray-200 rounded-lg flex items-center gap-2 transition"
+256:             aria-label="切換篩選選項"
+257:           >
+258:             <Filter className="h-5 w-5" />
+259:             篩選 {showFilters ? "▲" : "▼"}
+260:           </button>
+261:           <button
+262:             type="submit"
+263:             className="px-6 py-2 bg-primary-600 hover:bg-primary-700 text-white rounded-lg transition"
+264:           >
+265:             搜尋
+266:           </button>
+267:         </div>
+268:       </form>
+269: 
+270:       {/* Filters */}
+271:       {showFilters && (
+272:         <div className="bg-white rounded-lg shadow p-6 mb-6">
+273:           <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-4">
+274:             <div>
+275:               <label
+276:                 htmlFor="filter-sport"
+277:                 className="block text-sm font-medium text-gray-700 mb-2"
+278:               >
+279:                 運動項目
+280:               </label>
+281:               <select
+282:                 id="filter-sport"
+283:                 value={filters.sport}
+284:                 onChange={(e) => handleFilterChange("sport", e.target.value)}
+285:                 className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500"
+286:               >
+287:                 <option value="">全部</option>
+288:                 {filterOptions.sports.map((sport) => (
+289:                   <option key={sport} value={sport}>
+290:                     {sport}
+291:                   </option>
+292:                 ))}
+293:               </select>
+294:             </div>
+295:             <div>
+296:               <label
+297:                 htmlFor="filter-nationality"
+298:                 className="block text-sm font-medium text-gray-700 mb-2"
+299:               >
+300:                 來源所列國家／地區
+301:               </label>
+302:               <select
+303:                 id="filter-nationality"
+304:                 value={filters.nationality}
+305:                 onChange={(e) =>
+306:                   handleFilterChange("nationality", e.target.value)
+307:                 }
+308:                 className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500"
+309:               >
+310:                 <option value="">全部</option>
+311:                 {filterOptions.nationalities.map((nationality) => (
+312:                   <option key={nationality} value={nationality}>
+313:                     {nationality}
+314:                   </option>
+315:                 ))}
+316:               </select>
+317:             </div>
+318:             <div>
+319:               <label
+320:                 htmlFor="filter-year"
+321:                 className="block text-sm font-medium text-gray-700 mb-2"
+322:               >
+323:                 年份
+324:               </label>
+325:               <select
+326:                 id="filter-year"
+327:                 value={filters.year}
+328:                 onChange={(e) => handleFilterChange("year", e.target.value)}
+329:                 className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500"
+330:               >
+331:                 <option value="">全部</option>
+332:                 {filterOptions.years.map((year) => (
+333:                   <option key={year} value={year}>
+334:                     {year}
+335:                   </option>
+336:                 ))}
+337:               </select>
+338:             </div>
+339:             <div>
+340:               <label
+341:                 htmlFor="filter-substance"
+342:                 className="block text-sm font-medium text-gray-700 mb-2"
+343:               >
+344:                 藥物類別
+345:               </label>
+346:               <select
+347:                 id="filter-substance"
+348:                 value={filters.substanceCategory}
+349:                 onChange={(e) =>
+350:                   handleFilterChange("substanceCategory", e.target.value)
+351:                 }
+352:                 className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500"
+353:               >
+354:                 <option value="">全部</option>
+355:                 {filterOptions.substanceCategories.map((category) => (
+356:                   <option key={category} value={category}>
+357:                     {category}
+358:                   </option>
+359:                 ))}
+360:               </select>
+361:             </div>
+362:             <div>
+363:               <label
+364:                 htmlFor="filter-punishment"
+365:                 className="block text-sm font-medium text-gray-700 mb-2"
+366:               >
+367:                 處罰類型
+368:               </label>
+369:               <select
+370:                 id="filter-punishment"
+371:                 value={filters.punishmentType}
+372:                 onChange={(e) =>
+373:                   handleFilterChange("punishmentType", e.target.value)
+374:                 }
+375:                 className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500"
+376:               >
+377:                 <option value="">全部</option>
+378:                 {filterOptions.punishmentTypes.map((type) => (
+379:                   <option key={type} value={type}>
+380:                     {type}
+381:                   </option>
+382:                 ))}
+383:               </select>
+384:             </div>
+385:           </div>
+386:           <button
+387:             onClick={clearFilters}
+388:             className="mt-4 text-sm text-primary-600 hover:text-primary-700"
+389:           >
+390:             清除所有篩選
+391:           </button>
+392:         </div>
+393:       )}
+394: 
+395:       {/* Error Banner */}
+396:       {error && (
+397:         <div className="bg-red-50 border border-red-200 rounded-lg p-4 mb-6 flex items-center">
+398:           <AlertTriangle className="h-5 w-5 text-red-600 mr-2 flex-shrink-0" />
+399:           <p className="text-red-700">{error}</p>
+400:         </div>
+401:       )}
+402: 
+403:       {/* Results */}
+404:       <div className="mb-4">
+405:         <p className="text-gray-600">找到 {pagination.totalCases} 個案例</p>
+406:       </div>
+407: 
+408:       {loading ? (
+409:         <div className="flex justify-center items-center h-64">
+410:           <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-primary-600"></div>
+411:         </div>
+412:       ) : (
+413:         <>
+414:           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+415:             {cases.map((caseItem) => (
+416:               <Link
+417:                 key={caseItem._id}
+418:                 to={`/cases/${caseItem._id}`}
+419:                 className="bg-white rounded-lg shadow hover:shadow-lg transition-shadow"
+420:               >
+421:                 <div className="p-6">
+422:                   <div className="flex items-start justify-between mb-4">
+423:                     <div>
+424:                       <h3 className="text-xl font-semibold text-gray-900">
+425:                         {caseItem.athleteName}
+426:                       </h3>
+427:                       <p className="text-gray-600">{caseItem.sport}</p>
+428:                     </div>
+429:                     <div className="bg-danger-100 p-2 rounded-lg">
+430:                       <AlertTriangle className="h-5 w-5 text-danger-600" />
+431:                     </div>
+432:                   </div>
+433: 
+434:                   <CaseReviewNotice review={caseItem.review} compact />
+435:                   <div className="space-y-2 mb-4">
+436:                     <div className="flex items-center text-sm text-gray-600">
+437:                       <MapPin className="h-4 w-4 mr-2" />
+438:                       {caseItem.nationality}
+439:                     </div>
+440:                     <div className="flex items-center text-sm text-gray-600">
+441:                       <Calendar className="h-4 w-4 mr-2" />
+442:                       {caseItem.year}
+443:                     </div>
+444:                   </div>
+445: 
+446:                   <div className="flex flex-wrap gap-2">
+447:                     <span
+448:                       className={`px-2 py-1 text-xs rounded-full ${substanceCategoryColors[caseItem.substanceCategory] || "bg-gray-100 text-gray-700"}`}
+449:                     >
+450:                       {caseItem.substanceCategory}
+451:                     </span>
+452:                     <span className="px-2 py-1 text-xs rounded-full bg-gray-100 text-gray-700">
+453:                       {caseItem.substance}
+454:                     </span>
+455:                   </div>
+456: 
+457:                   {caseItem.punishment && (
+458:                     <div className="mt-4 pt-4 border-t border-gray-200">
+459:                       <p className="text-sm text-gray-600">
+460:                         處理結果：
+461:                         <span className="font-semibold">
+462:                           {caseItem.punishment.banDuration}
+463:                         </span>
+464:                       </p>
+465:                     </div>
+466:                   )}
+467:                 </div>
+468:               </Link>
+469:             ))}
+470:           </div>
+471: 
+472:           {/* Pagination */}
+473:           {pagination.totalPages > 1 && (
+474:             <div className="flex justify-center items-center gap-2 mt-8">
+475:               <button
+476:                 onClick={() => {
+477:                   debouncedSearch.cancel();
+478:                   const newPage = pagination.currentPage - 1;
+479:                   setPagination((prev) => ({ ...prev, currentPage: newPage }));
+480:                   loadCases(filters, newPage);
+481:                 }}
+482:                 disabled={pagination.currentPage === 1}
+483:                 className="p-2 rounded-lg hover:bg-gray-100 disabled:opacity-50 disabled:cursor-not-allowed"
+484:                 aria-label="上一頁"
+485:               >
+486:                 <ChevronLeft className="h-5 w-5" />
+487:               </button>
+488: 
+489:               <div className="flex gap-1">
+490:                 {[...Array(pagination.totalPages)].map((_, index) => {
+491:                   const page = index + 1;
+492:                   if (
+493:                     page === 1 ||
+494:                     page === pagination.totalPages ||
+495:                     (page >= pagination.currentPage - 1 &&
+496:                       page <= pagination.currentPage + 1)
+497:                   ) {
+498:                     return (
+499:                       <button
+500:                         key={page}
+501:                         onClick={() => {
+502:                           debouncedSearch.cancel();
+503:                           setPagination((prev) => ({
+504:                             ...prev,
+505:                             currentPage: page,
+506:                           }));
+507:                           loadCases(filters, page);
+508:                         }}
+509:                         className={`px-3 py-1 rounded-lg ${
+510:                           page === pagination.currentPage
+511:                             ? "bg-primary-600 text-white"
+512:                             : "hover:bg-gray-100"
+513:                         }`}
+514:                       >
+515:                         {page}
+516:                       </button>
+517:                     );
+518:                   } else if (
+519:                     page === pagination.currentPage - 2 ||
+520:                     page === pagination.currentPage + 2
+521:                   ) {
+522:                     return <span key={page}>...</span>;
+523:                   }
+524:                   return null;
+525:                 })}
+526:               </div>
+527: 
+528:               <button
+529:                 onClick={() => {
+530:                   debouncedSearch.cancel();
+531:                   const newPage = pagination.currentPage + 1;
+532:                   setPagination((prev) => ({ ...prev, currentPage: newPage }));
+533:                   loadCases(filters, newPage);
+534:                 }}
+535:                 disabled={pagination.currentPage === pagination.totalPages}
+536:                 className="p-2 rounded-lg hover:bg-gray-100 disabled:opacity-50 disabled:cursor-not-allowed"
+537:                 aria-label="下一頁"
+538:               >
+539:                 <ChevronRight className="h-5 w-5" />
+540:               </button>
+541:             </div>
+542:           )}
+543:         </>
+544:       )}
+545:     </div>
+546:   );
+547: }
+548: 
+549: export default CaseList;
+FILE frontend/src/pages/TestingProcess.jsx
+1: import { useState } from "react";
+2: import { ChevronLeft, ChevronRight, Bell, UserCheck, Beaker, FileCheck, AlertTriangle } from "lucide-react";
+3: 
+4: const steps = [
+5:   {
+6:     num: 1,
+7:     title: "通知",
+8:     icon: Bell,
+9:     color: "bg-emerald-600",
+10:     lightColor: "bg-emerald-100 text-emerald-700",
+11:     details: [
+12:       "藥檢人員（DCO）通知你被選為受檢對象",
+13:       "受通知後，在 DCO 陪同下盡快到藥檢站報到",
+14:       "未成年運動員應獲告知可由代表（如教練、家長）陪同",
+15:     ],
+16:     tips: "合理延遲須先經 DCO 許可，例如完成訓練、參加頒獎或接受治療；期間仍須接受持續監督。",
+17:   },
+18:   {
+19:     num: 2,
+20:     title: "報到",
+21:     icon: UserCheck,
+22:     color: "bg-blue-600",
+23:     lightColor: "bg-blue-100 text-blue-700",
+24:     details: [
+25:       "到達藥檢站後，確認你的身份",
+26:       "了解藥檢程序與你的權利",
+27:       "準備好你的證件",
+28:     ],
+29:     tips: "你有權要求看 DCO 的證件，確認其身份。",
+30:   },
+31:   {
+32:     num: 3,
+33:     title: "採樣",
+34:     icon: Beaker,
+35:     color: "bg-amber-600",
+36:     lightColor: "bg-amber-100 text-amber-700",
+37:     details: [
+38:       "直接目視尿液採集的 DCO／陪同官須與運動員同性別",
+39:       "選擇採樣杯和密封瓶",
+40:       "在監督下提供尿液樣本（至少 90mL）",
+41:       "將尿液分裝到 A 瓶和 B 瓶",
+42:     ],
+43:     tips: "未成年人採樣須有額外保護安排；代表可觀察執行採樣的人員，通常不直接觀看排尿，並依適用規範及運動員意願安排。",
+44:   },
+45:   {
+46:     num: 4,
+47:     title: "完成表單",
+48:     icon: FileCheck,
+49:     color: "bg-gray-800",
+50:     lightColor: "bg-gray-100 text-gray-700",
+51:     details: [
+52:       "核對 A、B 瓶、外盒與表單上的檢體編號是否一致",
+53:       "填寫 7 日內使用的藥品或營養品資訊",
+54:       "簽署藥檢紀錄表",
+55:       "檢體與不含姓名等身分資訊的實驗室表單副本送至 WADA 認證實驗室",
+56:     ],
+57:     tips: "保留你的副本！如有異議，請在表單上註明。",
+58:   },
+59: ];
+60: 
+61: function TestingProcess() {
+62:   const [active, setActive] = useState(0);
+63:   const StepIcon = steps[active].icon;
+64: 
+65:   return (
+66:     <div className="max-w-4xl mx-auto">
+67:       <div className="mb-8">
+68:         <h1 className="text-2xl md:text-3xl font-bold text-gray-900 mb-2">藥檢流程</h1>
+69:         <p className="text-gray-500">尿液藥檢四步驟 — 了解你的權利與義務</p>
+70:       </div>
+71: 
+72:       {/* Step indicators */}
+73:       <div className="flex items-center justify-center mb-8">
+74:         {steps.map((step, i) => (
+75:           <div key={i} className="flex items-center">
+76:             <button
+77:               onClick={() => setActive(i)}
+78:               className={`relative w-14 h-14 rounded-2xl flex items-center justify-center font-black text-lg transition-all duration-300 ${
+79:                 i === active
+80:                   ? `${step.color} text-white scale-110 shadow-xl`
+81:                   : i < active
+82:                   ? "bg-emerald-100 text-emerald-600"
+83:                   : "bg-gray-100 text-gray-400"
+84:               }`}
+85:               aria-label={`步驟 ${step.num}: ${step.title}`}
+86:               aria-current={i === active ? "step" : undefined}
+87:             >
+88:               {step.num}
+89:               <span className={`absolute -bottom-6 text-xs font-medium whitespace-nowrap ${
+90:                 i === active ? "text-gray-900" : "text-gray-500"
+91:               }`}>
+92:                 {step.title}
+93:               </span>
+94:             </button>
+95:             {i < steps.length - 1 && (
+96:               <div className={`w-8 sm:w-12 md:w-20 h-1 mx-1 rounded-full transition-colors duration-300 ${
+97:                 i < active ? "bg-emerald-300" : "bg-gray-200"
+98:               }`} />
+99:             )}
+100:           </div>
+101:         ))}
+102:       </div>
+103: 
+104:       {/* Step content */}
+105:       <div className="bg-white rounded-2xl p-6 md:p-8 shadow-sm border border-gray-100 mt-12">
+106:         <div className="flex items-center gap-3 mb-5">
+107:           <span className={`w-11 h-11 rounded-xl ${steps[active].color} text-white flex items-center justify-center`}>
+108:             <StepIcon className="h-5 w-5" />
+109:           </span>
+110:           <div>
+111:             <p className="text-xs text-gray-500 font-medium">步驟 {steps[active].num}</p>
+112:             <h2 className="text-2xl font-bold text-gray-900">{steps[active].title}</h2>
+113:           </div>
+114:         </div>
+115: 
+116:         <ul className="space-y-3 mb-6">
+117:           {steps[active].details.map((d, i) => (
+118:             <li key={i} className="flex items-start gap-3">
+119:               <span className={`w-7 h-7 rounded-lg ${steps[active].lightColor} text-xs font-bold flex items-center justify-center mt-0.5 shrink-0`}>
+120:                 {i + 1}
+121:               </span>
+122:               <span className="text-gray-700 leading-relaxed">{d}</span>
+123:             </li>
+124:           ))}
+125:         </ul>
+126: 
+127:         <div className="bg-amber-50 rounded-xl p-4 border border-amber-100 flex items-start gap-3">
+128:           <AlertTriangle className="h-5 w-5 text-amber-600 shrink-0 mt-0.5" />
+129:           <div>
+130:             <p className="text-sm font-bold text-amber-800 mb-0.5">注意事項</p>
+131:             <p className="text-sm text-amber-700">{steps[active].tips}</p>
+132:           </div>
+133:         </div>
+134: 
+135:         {/* Navigation */}
+136:         <div className="flex justify-between mt-6">
+137:           <button
+138:             onClick={() => setActive(Math.max(0, active - 1))}
+139:             disabled={active === 0}
+140:             className="flex items-center gap-2 px-5 py-2.5 rounded-xl border border-gray-200 text-gray-700 font-medium disabled:opacity-30 hover:bg-gray-50 transition-colors"
+141:           >
+142:             <ChevronLeft className="h-4 w-4" />
+143:             上一步
+144:           </button>
+145:           <button
+146:             onClick={() => setActive(Math.min(steps.length - 1, active + 1))}
+147:             disabled={active === steps.length - 1}
+148:             className="flex items-center gap-2 px-5 py-2.5 rounded-xl bg-emerald-600 text-white font-medium disabled:opacity-30 hover:bg-emerald-700 transition-colors shadow-md shadow-emerald-200"
+149:           >
+150:             下一步
+151:             <ChevronRight className="h-4 w-4" />
+152:           </button>
+153:         </div>
+154:       </div>
+155: 
+156:       <p className="mt-5 text-sm text-gray-600">流程依適用規範與採樣方式調整。參考：<a className="text-emerald-700 underline" href="https://www.usada.org/sample-collection-process/" target="_blank" rel="noopener noreferrer">USADA 採樣流程說明</a>、<a className="text-emerald-700 underline" href="https://www.wada-ama.org/en/athletes-support-personnel/anti-doping-process" target="_blank" rel="noopener noreferrer">WADA 反禁藥流程</a>。</p>
+157: 
+158:       {/* Other testing methods */}
+159:       <div className="mt-8 grid grid-cols-1 sm:grid-cols-3 gap-4">
+160:         {[
+161:           { pct: "尿液", type: "尿液檢測", desc: "依採樣規範取得至少 90mL，並確認比重", color: "text-emerald-600" },
+162:           { pct: "血液", type: "血液檢測", desc: "由具適用資格的血液採樣人員採集", color: "text-blue-600" },
+163:           { pct: "DBS", type: "乾血點檢測", desc: "以少量微血管血液採樣，採樣位置依裝置而異", color: "text-amber-600" },
+164:         ].map((m) => (
+165:           <div key={m.type} className="bg-white rounded-2xl p-5 border border-gray-100 text-center hover:shadow-md transition-shadow">
+166:             <p className={`text-2xl font-black ${m.color} mb-1`}>{m.pct}</p>
+167:             <p className="font-bold text-gray-900 text-sm">{m.type}</p>
+168:             <p className="text-xs text-gray-500 mt-1">{m.desc}</p>
+169:           </div>
+170:         ))}
+171:       </div>
+172:     </div>
+173:   );
+174: }
+175: 
+176: export default TestingProcess;
+FILE frontend/src/pages/Statistics.jsx
+1: import { useState, useEffect, useCallback } from "react";
+2: import { Chart as ChartJS, CategoryScale, LinearScale, BarElement, ArcElement, Title, Tooltip, Legend } from "chart.js";
+3: import { Bar, Doughnut } from "react-chartjs-2";
+4: import { BarChart3, AlertTriangle, ExternalLink } from "lucide-react";
+5: import { statsAPI } from "../services/api";
+6: import { majorEvents, evidenceCards } from "../data/statisticsEvidence";
+7: 
+8: ChartJS.register(CategoryScale, LinearScale, BarElement, ArcElement, Title, Tooltip, Legend);
+9: const colors = ["#2563eb", "#059669", "#9333ea", "#d97706", "#e11d48", "#0891b2", "#4f46e5", "#65a30d", "#c2410c", "#64748b"];
+10: const options = {
+11:   responsive: true,
+12:   maintainAspectRatio: false,
+13:   plugins: { legend: { display: false } },
+14:   scales: { y: { beginAtZero: true, ticks: { precision: 0 } } },
+15: };
+16: const chartData = (rows) => ({
+17:   labels: rows.map((row) => row.label),
+18:   datasets: [{ label: "案例數", data: rows.map((row) => row.count), backgroundColor: rows.map((_, i) => colors[i % colors.length]) }],
+19: });
+20: 
+21: function ChartPanel({ title, note, rows, doughnut = false }) {
+22:   const description = rows.map((row) => `${row.label} ${row.count} 件`).join("、");
+23:   return <section className="min-w-0 bg-white rounded-xl border border-gray-200 p-4 sm:p-6">
+24:     <h2 className="text-lg font-bold text-gray-900">{title}</h2>
+25:     <p className="text-sm text-gray-600 mt-2 mb-4">{note}</p>
+26:     <div className="h-80" role="img" aria-label={`${title}：${description}`}>
+27:       {doughnut
+28:         ? <Doughnut data={chartData(rows)} options={{ responsive: true, maintainAspectRatio: false, plugins: { legend: { position: "bottom", labels: { boxWidth: 12, font: { size: 11 } } } } }} />
+29:         : <Bar data={chartData(rows)} options={options} />}
+30:     </div>
+31:     <details className="mt-4 text-sm">
+32:       <summary className="cursor-pointer text-primary-700 font-medium">查看圖表數值</summary>
+33:       <table className="w-full mt-3 text-left">
+34:         <caption className="sr-only">{title}數值表</caption>
+35:         <thead><tr><th scope="col" className="py-2">分類</th><th scope="col" className="py-2 text-right">案例數</th></tr></thead>
+36:         <tbody>{rows.map((row) => <tr key={row.label} className="border-t border-gray-100"><th scope="row" className="py-2 font-normal">{row.label}</th><td className="py-2 text-right">{row.count}</td></tr>)}</tbody>
+37:       </table>
+38:     </details>
+39:   </section>;
+40: }
+41: 
+42: function Statistics() {
+43:   const [data, setData] = useState(null);
+44:   const [loading, setLoading] = useState(true);
+45:   const [error, setError] = useState(null);
+46:   const load = useCallback(async () => {
+47:     setLoading(true);
+48:     setError(null);
+49:     try {
+50:       const [sport, substance, ban, yearly, review] = await Promise.all([
+51:         statsAPI.getSportDistribution(), statsAPI.getSubstanceDistribution(),
+52:         statsAPI.getBanDurationDistribution(), statsAPI.getYearlyTrends(), statsAPI.getReviewSummary(),
+53:       ]);
+54:       setData({ sport: sport.data, substance: substance.data, ban: ban.data, yearly: yearly.data, review: review.data });
+55:     } catch {
+56:       setError("統計資料暫時無法載入，請重試。尚未取得的數字不會以預設值代替。");
+57:       setData(null);
+58:     } finally { setLoading(false); }
+59:   }, []);
+60:   useEffect(() => { document.title = "資料庫分析 | 乾淨運動從你我開始"; load(); }, [load]);
+61: 
+62:   if (loading) return <div role="status" className="py-16 text-center text-gray-600">載入資料庫分析中…</div>;
+63:   if (error) return <div role="alert" className="rounded-xl border border-red-200 bg-red-50 p-6"><p>{error}</p><button onClick={load} className="mt-4 rounded-lg bg-primary-700 px-4 py-2 text-white">重新載入</button></div>;
+64:   const { review } = data;
+65:   const total = review.totalCases;
+66:   const sportRows = data.sport.map((row) => ({ label: row.sport, count: row.count }));
+67:   const substanceRows = data.substance.map((row) => ({ label: row.category, count: row.count }));
+68:   const sourceRows = review.sourceDistribution.map((row) => ({ label: row.source, count: row.count }));
+69:   const sourceLeader = sourceRows[0];
+70:   const countryRows = (review.countryConfirmedDistribution ?? []).map((row) => ({ label: row.country, count: row.count }));
+71: 
+72:   return <div>
+73:     <header className="mb-8">
+74:       <h1 className="text-3xl font-bold text-gray-900">資料庫案例分析</h1>
+75:       <p className="mt-3 text-gray-600">依目前收錄資料整理事件、來源與處分分布。最新案例查核日期：{review.lastReviewedAt || "未提供"}。</p>
+76:       <div className="mt-4 rounded-xl border border-amber-200 bg-amber-50 p-4 text-sm text-amber-950">
+77:         <p className="font-semibold flex items-center gap-2"><AlertTriangle className="h-4 w-4 shrink-0" />這是教學案例集，不是禁藥盛行率調查</p>
+78:         <p className="mt-2">包含違規、污染、合法 TUE、未提出指控及處分撤銷等不同情境；案例數不等於違規人數。各來源公開程度及收錄策略不同，不能據此比較國家或運動項目的違規風險。</p>
+79:       </div>
+80:     </header>
+81: 
+82:     <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 mb-6">
+83:       {[
+84:         [total, "收錄教學案例", `${review.newCases} 件新增＋${review.correctedLegacyCases} 件既有校正／分案`],
+85:         [review.coreChecked, "核心事實已查核", `另 ${review.primaryExcerptChecked} 件為裁決主文核對`],
+86:         [review.sourceCompared, "本輪獨立來源複核", "複核覆蓋不等於所有欄位均已確認"],
+87:         [review.comparedByAtLeastTwo, "至少兩模型來源對讀", `其中 ${review.comparedByThree} 件由至少三模型對讀`],
+88:       ].map(([number, label, detail]) => <div key={label} className="rounded-xl border border-gray-200 bg-white p-4 sm:p-5">
+89:         <p className="text-3xl font-bold text-primary-700">{number}</p><p className="mt-2 font-semibold text-gray-900">{label}</p><p className="mt-1 text-xs text-gray-600">{detail}</p>
+90:       </div>)}
+91:     </div>
+92: 
+93:     <section className="bg-blue-50 border border-blue-200 rounded-xl p-5 mb-8">
+94:       <h2 className="font-bold text-gray-900">如何解讀這批資料</h2>
+95:       <ul className="list-disc pl-5 mt-3 space-y-2 text-sm text-gray-700">
+96:         {sourceLeader && <li>主要公開來源以 {sourceLeader.label} 最多，{sourceLeader.count}／{total} 件（{(sourceLeader.count / total * 100).toFixed(1)}%）；反映本次蒐集來源的分布，不代表該機構或地區違規較多。</li>}
+97:         <li>官方文件的編輯查核與模型來源對讀分開計算。目前 {review.sourceCompared} 件取得模型對讀回覆，{review.comparedByAtLeastTwo} 件至少有兩個模型參與。覆蓋件數不代表所有欄位都已確認；模型提出的疑義仍須回到原文判定。</li>
+98:         {review.modelCoverage && <li>各模型覆蓋：{Object.entries(review.modelCoverage).map(([model, count]) => `${model} ${count} 件`).join("、")}；其中 {review.comparedByFour} 件取得四個模型回覆。同一案例可由多個模型對讀，不能將各模型件數相加當作案例總數。</li>}
+99:         {review.changedAfterModelReview > 0 && <li>{review.changedAfterModelReview} 件已依來源修正文字；模型回覆對應修正前的版本，修正版尚未再次送交模型對讀。</li>}
+100:         {review.sourceDatesUnresolved > 0 && <li>{review.sourceDatesUnresolved} 件的來源日期有缺漏或歧義，個案頁有進一步說明。</li>}
+101:         <li>國家／地區沿用來源描述，並非法律國籍認證。其中 {review.countryEvidencePending} 件依公告標題標示，代表國身分仍待補證，國家分布圖只計入其餘 {review.countryConfirmedDenominator} 件；也不能因此宣稱台灣選手排除條件已逐件獨立核實。</li>
+102:         {review.countrySourceFollowups > 0 && <li>另於 {review.lastCountryFollowupAt} 為 {review.countrySourceFollowups} 件補充官方選手資料、代表隊或賽事紀錄，並另做國家欄位模型對讀。其中 {review.countryProfileAtLookup} 件依查閱時官方個人資料列國家，尚不能據此確認事件當時的代表資格；各案保留適用時期說明。</li>}
+103:         <li>禁賽、公開警告、成績取消和獎牌處置是不同後果。未知不等於沒有，禁賽期間的減免與停算以個案說明為準。</li>
+104:       </ul>
+105:     </section>
+106: 
+107:     <section className="mb-8 bg-white rounded-xl border border-gray-200 p-5">
+108:       <h2 className="text-lg font-bold text-gray-900">成績與獎牌後果</h2>
+109:       <p className="text-sm text-gray-600 mt-2 mb-4">分母為全部 {total} 件；「明確無」與「來源未確認」分開計算。</p>
+110:       <div className="overflow-x-auto"><table className="w-full text-sm text-left">
+111:         <caption className="sr-only">成績取消與獎牌剝奪的確認及未知數</caption>
+112:         <thead><tr className="border-b"><th scope="col" className="p-2">後果</th><th scope="col" className="p-2">確認有</th><th scope="col" className="p-2">明確無</th><th scope="col" className="p-2">來源未確認</th></tr></thead>
+113:         <tbody>{[["成績取消", review.resultsCancelled], ["獎牌剝奪", review.medalStripped]].map(([label, value]) => <tr key={label} className="border-b"><th scope="row" className="p-2 font-medium">{label}</th><td className="p-2">{value.confirmed}</td><td className="p-2">{value.explicitlyAbsent}</td><td className="p-2">{value.unknown}</td></tr>)}</tbody>
+114:       </table></div>
+115:     </section>
+116: 
+117:     <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+118:       <ChartPanel title="主要公開來源" note="依各案主要來源分組，每件只計一次；不等同裁決機構或所屬國家。" rows={sourceRows} />
+119:       <ChartPanel title="運動項目分布（前十項）" note={`圖中涵蓋 ${sportRows.reduce((sum, row) => sum + row.count, 0)}／${total} 件，其餘項目未顯示；不可解讀為項目盛行率。`} rows={sportRows} />
+120:       {countryRows.length > 0 && <ChartPanel title="國家／地區分布（已有國家來源）" note={`分母為國家欄位已有來源依據的 ${review.countryConfirmedDenominator}／${total} 件；另 ${review.countryEvidencePending} 件僅依公告標題標示，待補證前不計入此圖。前十五名以外合併為「其他國家／地區」；不可解讀為國家違規風險。`} rows={countryRows} />}
+121:       <ChartPanel title="物質／規則標籤分布" note={`分母為全部 ${total} 件。前九種標籤以外合併為「其他標籤」；混合分類及非物質違規保留原標示，不當成單一 WADA 物質計數。`} rows={substanceRows} doughnut />
+122:       <ChartPanel title="禁賽期限分布" note={`依個案公開處分文字分組，共 ${total} 件。「無禁賽」也可能包含公開警告或違規成立但免禁賽，不能視為全部無違規。`} rows={data.ban.map((row) => ({ label: row.category, count: row.count }))} />
+123:       <div className="lg:col-span-2"><ChartPanel title="收錄案例年份分布" note="年份依個案事件年或裁決公布年，且收錄並不完整；不得解讀為每年違規發生率或上升下降趨勢。" rows={data.yearly.map((row) => ({ label: String(row.year), count: row.count }))} /></div>
+124:     </div>
+125: 
+126:     <section className="mt-10 rounded-xl border border-gray-200 bg-white p-5 sm:p-6">
+127:       <h2 className="text-xl font-bold text-gray-900">反禁藥事件與制度時間軸</h2>
+128:       <p className="text-sm text-gray-600 mt-2">以下是有來源的背景整理；賽會、調查公布及裁決日期分別標明，不納入上方案例數。</p>
+129:       <ol className="mt-5 space-y-5">{majorEvents.map((event) => <li key={event.year} className="border-l-2 border-primary-200 pl-4">
+130:         <p className="text-sm font-bold text-primary-700">{event.year}</p><h3 className="font-bold mt-1">{event.title}</h3><p className="text-sm text-gray-700 mt-2">{event.description}</p><p className="text-sm text-gray-600 mt-1">{event.impact}</p>
+131:         <a href={event.sourceUrl} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1 text-primary-700 underline text-sm mt-2">{event.sourceTitle}<ExternalLink className="h-3 w-3" /></a>
+132:       </li>)}</ol>
+133:     </section>
+134: 
+135:     <section className="mt-10 rounded-xl border border-blue-200 bg-blue-50 p-5 sm:p-6">
+136:       <h2 className="text-xl font-bold text-gray-900 flex gap-2 items-center"><BarChart3 className="h-5 w-5" />外部研究：分母與適用範圍</h2>
+137:       <p className="text-sm text-blue-900 mt-2">以下引用原始研究，與本站案例統計分開。研究中的關聯與檢出比例不能直接外推到所有運動員或產品。</p>
+138:       <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 mt-5">{evidenceCards.map((card) => <article key={card.title} className="rounded-xl bg-white p-5">
+139:         <h3 className="font-semibold text-gray-800">{card.title}</h3><p className="text-2xl font-bold text-primary-700 my-3">{card.value}</p><p className="text-sm text-gray-700 leading-relaxed">{card.body}</p>
+140:         <a href={card.sourceUrl} target="_blank" rel="noopener noreferrer" className="inline-flex gap-1 items-center text-sm text-primary-700 underline mt-4">{card.sourceTitle}<ExternalLink className="h-3 w-3 shrink-0" /></a>
+141:       </article>)}</div>
+142:     </section>
+143:   </div>;
+144: }
+145: 
+146: export default Statistics;
+FILE frontend/src/components/Layout.jsx
+1: import { useState, useRef, useEffect } from "react";
+2: import { Link, useLocation } from "react-router-dom";
+3: import FeedbackBar from "./FeedbackBar";
+4: import {
+5:   Home,
+6:   Search,
+7:   BarChart3,
+8:   GraduationCap,
+9:   BookOpen,
+10:   FileText,
+11:   Menu,
+12:   X,
+13:   Shield,
+14:   Zap,
+15:   ClipboardList,
+16:   Newspaper,
+17:   Link2,
+18:   ChevronDown,
+19: } from "lucide-react";
+20: 
+21: function DropdownMenu({ label, items, pathname, onNavigate }) {
+22:   const [open, setOpen] = useState(false);
+23:   const [focusIndex, setFocusIndex] = useState(-1);
+24:   const ref = useRef(null);
+25:   const triggerRef = useRef(null);
+26:   const menuRef = useRef(null);
+27:   const timeout = useRef(null);
+28: 
+29:   const isActive = items.some((item) => item.path === pathname);
+30: 
+31:   const handleEnter = () => {
+32:     clearTimeout(timeout.current);
+33:     setOpen(true);
+34:   };
+35: 
+36:   const handleLeave = () => {
+37:     timeout.current = setTimeout(() => {
+38:       setOpen(false);
+39:       setFocusIndex(-1);
+40:     }, 150);
+41:   };
+42: 
+43:   // P2: 鍵盤方向鍵導航
+44:   const handleKeyDown = (e) => {
+45:     if (
+46:       !open &&
+47:       (e.key === "ArrowDown" || e.key === "Enter" || e.key === " ")
+48:     ) {
+49:       e.preventDefault();
+50:       setOpen(true);
+51:       setFocusIndex(0);
+52:       return;
+53:     }
+54: 
+55:     if (!open) return;
+56: 
+57:     switch (e.key) {
+58:       case "ArrowDown":
+59:         e.preventDefault();
+60:         setFocusIndex((prev) => (prev + 1) % items.length);
+61:         break;
+62:       case "ArrowUp":
+63:         e.preventDefault();
+64:         setFocusIndex((prev) => (prev - 1 + items.length) % items.length);
+65:         break;
+66:       case "Escape":
+67:         e.preventDefault();
+68:         clearTimeout(timeout.current);
+69:         setOpen(false);
+70:         setFocusIndex(-1);
+71:         triggerRef.current?.focus();
+72:         break;
+73:       case "Home":
+74:         e.preventDefault();
+75:         setFocusIndex(0);
+76:         break;
+77:       case "End":
+78:         e.preventDefault();
+79:         setFocusIndex(items.length - 1);
+80:         break;
+81:     }
+82:   };
+83: 
+84:   useEffect(() => {
+85:     if (open && focusIndex >= 0 && menuRef.current) {
+86:       const links = menuRef.current.querySelectorAll("a");
+87:       links[focusIndex]?.focus();
+88:     }
+89:   }, [focusIndex, open]);
+90: 
+91:   useEffect(() => {
+92:     return () => clearTimeout(timeout.current);
+93:   }, []);
+94: 
+95:   return (
+96:     <div
+97:       ref={ref}
+98:       className="relative"
+99:       onMouseEnter={handleEnter}
+100:       onMouseLeave={handleLeave}
+101:     >
+102:       <button
+103:         ref={triggerRef}
+104:         className={`flex items-center gap-1 px-3 py-2 rounded-lg text-sm font-medium transition-all duration-200 ${
+105:           isActive
+106:             ? "bg-emerald-50 text-emerald-700"
+107:             : "text-gray-600 hover:bg-gray-50 hover:text-gray-900"
+108:         }`}
+109:         onClick={() => {
+110:           setOpen(!open);
+111:           if (!open) setFocusIndex(0);
+112:         }}
+113:         onKeyDown={handleKeyDown}
+114:         aria-expanded={open}
+115:         aria-haspopup="true"
+116:       >
+117:         {label}
+118:         <ChevronDown
+119:           className={`h-3.5 w-3.5 transition-transform duration-200 ${open ? "rotate-180" : ""}`}
+120:         />
+121:       </button>
+122: 
+123:       {open && (
+124:         <div
+125:           ref={menuRef}
+126:           role="menu"
+127:           className="absolute top-full left-0 mt-1 bg-white rounded-xl shadow-xl border border-gray-100 py-2 min-w-[180px] z-50 animate-fadeIn"
+128:         >
+129:           {items.map(({ path, label: itemLabel, icon: Icon }, index) => (
+130:             <Link
+131:               key={path}
+132:               to={path}
+133:               role="menuitem"
+134:               tabIndex={focusIndex === index ? 0 : -1}
+135:               onClick={() => {
+136:                 setOpen(false);
+137:                 setFocusIndex(-1);
+138:                 onNavigate?.();
+139:               }}
+140:               onKeyDown={handleKeyDown}
+141:               className={`flex items-center gap-2.5 px-4 py-2.5 text-sm font-medium transition-colors ${
+142:                 pathname === path
+143:                   ? "bg-emerald-50 text-emerald-700"
+144:                   : "text-gray-600 hover:bg-gray-50 hover:text-gray-900"
+145:               }`}
+146:             >
+147:               <Icon className="h-4 w-4" />
+148:               {itemLabel}
+149:             </Link>
+150:           ))}
+151:         </div>
+152:       )}
+153:     </div>
+154:   );
+155: }
+156: 
+157: function Layout({ children }) {
+158:   const location = useLocation();
+159:   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+160:   const mobileToggleRef = useRef(null);
+161: 
+162:   const primaryItems = [
+163:     { path: "/", label: "首頁", icon: Home },
+164:     { path: "/cases", label: "案例搜尋", icon: Search },
+165:     { path: "/statistics", label: "數據統計", icon: BarChart3 },
+166:   ];
+167: 
+168:   const learnItems = [
+169:     { path: "/prohibited-list", label: "禁用清單", icon: Shield },
+170:     { path: "/quiz", label: "互動測驗", icon: Zap },
+171:     { path: "/testing-process", label: "藥檢流程", icon: ClipboardList },
+172:     { path: "/education", label: "教育專區", icon: GraduationCap },
+173:     { path: "/tue", label: "TUE 專區", icon: FileText },
+174:     { path: "/adel", label: "ADeL 學習", icon: BookOpen },
+175:   ];
+176: 
+177:   const moreItems = [
+178:     { path: "/news", label: "最新消息", icon: Newspaper },
+179:     { path: "/resources", label: "實用連結", icon: Link2 },
+180:   ];
+181: 
+182:   const navGroups = [
+183:     { label: "主要", items: primaryItems },
+184:     { label: "學習", items: learnItems },
+185:     { label: "更多", items: moreItems },
+186:   ];
+187: 
+188:   const handleLinkClick = () => {
+189:     setMobileMenuOpen(false);
+190:   };
+191: 
+192:   const handleMobileKeyDown = (event) => {
+193:     if (event.key !== "Escape" || !mobileMenuOpen) return;
+194:     event.preventDefault();
+195:     setMobileMenuOpen(false);
+196:     mobileToggleRef.current?.focus();
+197:   };
+198: 
+199:   return (
+200:     <div className="min-h-screen bg-gray-50">
+201:       <a
+202:         href="#main-content"
+203:         className="sr-only focus:not-sr-only focus:absolute focus:top-2 focus:left-2 focus:z-50 focus:px-4 focus:py-2 focus:bg-white focus:text-emerald-600 focus:rounded-lg focus:shadow-lg"
+204:       >
+205:         跳至主要內容
+206:       </a>
+207: 
+208:       {/* Header */}
+209:       <header className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-md border-b border-gray-100">
+210:         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+211:           <div className="flex justify-between items-center h-16">
+212:             <Link to="/" className="flex items-center gap-2 group shrink-0">
+213:               <div className="w-8 h-8 bg-gradient-to-br from-emerald-500 to-emerald-700 rounded-lg flex items-center justify-center shadow-sm">
+214:                 <Shield className="h-4 w-4 text-white" />
+215:               </div>
+216:               <span className="text-lg font-bold text-gray-900 group-hover:text-emerald-700 transition-colors hidden sm:inline">
+217:                 乾淨運動從你我開始
+218:               </span>
+219:               <span className="text-lg font-bold text-gray-900 group-hover:text-emerald-700 transition-colors sm:hidden">
+220:                 Clean Sport
+221:               </span>
+222:             </Link>
+223: 
+224:             {/* Desktop nav */}
+225:             <nav className="hidden md:flex items-center gap-1">
+226:               {/* Primary items shown directly */}
+227:               {primaryItems.map(({ path, label, icon: Icon }) => (
+228:                 <Link
+229:                   key={path}
+230:                   to={path}
+231:                   className={`flex items-center gap-1.5 px-3 py-2 rounded-lg text-sm font-medium transition-all duration-200 ${
+232:                     location.pathname === path
+233:                       ? "bg-emerald-50 text-emerald-700"
+234:                       : "text-gray-600 hover:bg-gray-50 hover:text-gray-900"
+235:                   }`}
+236:                 >
+237:                   <Icon className="h-4 w-4" />
+238:                   {label}
+239:                 </Link>
+240:               ))}
+241: 
+242:               {/* Divider */}
+243:               <div className="w-px h-5 bg-gray-200 mx-1" />
+244: 
+245:               {/* Learn dropdown */}
+246:               <DropdownMenu
+247:                 label="學習專區"
+248:                 items={learnItems}
+249:                 pathname={location.pathname}
+250:               />
+251: 
+252:               {/* More dropdown */}
+253:               <DropdownMenu
+254:                 label="更多"
+255:                 items={moreItems}
+256:                 pathname={location.pathname}
+257:               />
+258:             </nav>
+259: 
+260:             {/* Mobile toggle */}
+261:             <button
+262:               ref={mobileToggleRef}
+263:               className="md:hidden p-2 rounded-lg text-gray-600 hover:bg-gray-100 transition"
+264:               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+265:               onKeyDown={handleMobileKeyDown}
+266:               aria-label={mobileMenuOpen ? "關閉選單" : "開啟選單"}
+267:               aria-expanded={mobileMenuOpen}
+268:               aria-controls="mobile-navigation"
+269:             >
+270:               {mobileMenuOpen ? (
+271:                 <X className="h-6 w-6" />
+272:               ) : (
+273:                 <Menu className="h-6 w-6" />
+274:               )}
+275:             </button>
+276:           </div>
+277:         </div>
+278: 
+279:         {/* Mobile Menu */}
+280:         {mobileMenuOpen && (
+281:           <nav id="mobile-navigation" onKeyDown={handleMobileKeyDown} className="md:hidden bg-white border-t border-gray-100 shadow-xl max-h-[calc(100vh-4rem)] overflow-y-auto">
+282:             <div className="px-4 py-3 space-y-4">
+283:               {navGroups.map((group) => (
+284:                 <div key={group.label}>
+285:                   <p className="text-xs font-bold text-gray-400 uppercase tracking-wider px-3 mb-1">
+286:                     {group.label}
+287:                   </p>
+288:                   {group.items.map(({ path, label, icon: Icon }) => (
+289:                     <Link
+290:                       key={path}
+291:                       to={path}
+292:                       onClick={handleLinkClick}
+293:                       className={`flex items-center gap-3 px-3 py-3 rounded-xl text-sm font-medium transition-colors ${
+294:                         location.pathname === path
+295:                           ? "bg-emerald-50 text-emerald-700"
+296:                           : "text-gray-600 hover:bg-gray-50 hover:text-gray-900"
+297:                       }`}
+298:                     >
+299:                       <Icon className="h-4 w-4" />
+300:                       {label}
+301:                     </Link>
+302:                   ))}
+303:                 </div>
+304:               ))}
+305:             </div>
+306:           </nav>
+307:         )}
+308:       </header>
+309: 
+310:       {/* Main */}
+311:       <main
+312:         id="main-content"
+313:         className="pt-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8"
+314:       >
+315:         {children}
+316:       </main>
+317: 
+318:       {/* Footer */}
+319:       <footer className="bg-gray-900 text-white mt-16">
+320:         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
+321:           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+322:             <div className="md:col-span-2">
+323:               <div className="flex items-center gap-2 mb-4">
+324:                 <div className="w-8 h-8 bg-gradient-to-br from-emerald-400 to-emerald-600 rounded-lg flex items-center justify-center">
+325:                   <Shield className="h-4 w-4 text-white" />
+326:                 </div>
+327:                 <span className="text-lg font-bold">乾淨運動從你我開始</span>
+328:               </div>
+329:               <p className="text-gray-400 text-sm leading-relaxed mb-4">
+330:                 本平台致力於分享運動禁藥案例與實用知識，幫助選手、教練及醫療人員正確認識風險與規範，打造更安全與公平的運動環境。
+331:               </p>
+332:               <p className="text-gray-500 text-xs">
+333:                 資料來源：WADA 2026 Prohibited List、CTADA
+334:               </p>
+335:             </div>
+336:             <div>
+337:               <h3 className="text-sm font-bold mb-4 text-gray-300 uppercase tracking-wider">
+338:                 快速連結
+339:               </h3>
+340:               <ul className="space-y-2 text-sm">
+341:                 <li>
+342:                   <a
+343:                     href="https://www.wada-ama.org/"
+344:                     target="_blank"
+345:                     rel="noopener noreferrer"
+346:                     className="text-gray-400 hover:text-white transition-colors"
+347:                   >
+348:                     WADA 官方網站
+349:                   </a>
+350:                 </li>
+351:                 <li>
+352:                   <a
+353:                     href="https://www.wada-ama.org/en/prohibited-list"
+354:                     target="_blank"
+355:                     rel="noopener noreferrer"
+356:                     className="text-gray-400 hover:text-white transition-colors"
+357:                   >
+358:                     WADA 禁用清單
+359:                   </a>
+360:                 </li>
+361:                 <li>
+362:                   <a
+363:                     href="https://www.antidoping.org.tw/"
+364:                     target="_blank"
+365:                     rel="noopener noreferrer"
+366:                     className="text-gray-400 hover:text-white transition-colors"
+367:                   >
+368:                     CTADA 官方網站
+369:                   </a>
+370:                 </li>
+371:                 <li>
+372:                   <a
+373:                     href="https://www.check-antidoping.org.tw/"
+374:                     target="_blank"
+375:                     rel="noopener noreferrer"
+376:                     className="text-gray-400 hover:text-white transition-colors"
+377:                   >
+378:                     CTADA 藥物查詢
+379:                   </a>
+380:                 </li>
+381:               </ul>
+382:             </div>
+383:             <div>
+384:               <h3 className="text-sm font-bold mb-4 text-gray-300 uppercase tracking-wider">
+385:                 製作者
+386:               </h3>
+387:               <p className="text-gray-400 text-sm mb-2">
+388:                 <a
+389:                   href="https://sportsmedicine.tw/"
+390:                   target="_blank"
+391:                   rel="noopener noreferrer"
+392:                   className="text-emerald-400 hover:text-emerald-300 transition-colors"
+393:                 >
+394:                   吳易澄 醫師
+395:                 </a>
+396:               </p>
+397:               <p className="text-gray-500 text-xs">聯新國際醫院 運動醫學科</p>
+398:               <div className="mt-4">
+399:                 <p className="text-gray-500 text-xs">
+400:                   本平台資訊僅供參考，若有不足或錯誤之處，歡迎來信：keanu.firefox@gmail.com
+401:                 </p>
+402:               </div>
+403:             </div>
+404:           </div>
+405:           <div className="mt-8 pt-6 border-t border-gray-800 text-center text-xs text-gray-500">
+406:             © 2025 乾淨運動從你我開始 — Your Body, Your Responsibility!
+407:           </div>
+408:         </div>
+409:       </footer>
+410: 
+411:       {/* 黏底五星回饋列（逐頁評分 + 錯誤回報，同源寫入 /api/feedback） */}
+412:       <FeedbackBar />
+413:     </div>
+414:   );
+415: }
+416: 
+417: export default Layout;
+FILE frontend/src/index.css
+1: @tailwind base;
+2: @tailwind components;
+3: @tailwind utilities;
+4: 
+5: @layer base {
+6:   html {
+7:     -webkit-font-smoothing: antialiased;
+8:     -moz-osx-font-smoothing: grayscale;
+9:   }
+10: 
+11:   body {
+12:     @apply bg-gray-50 text-gray-900;
+13:   }
+14: }
+15: 
+16: @layer utilities {
+17:   .animate-fadeIn {
+18:     animation: fadeIn 0.3s ease-out;
+19:   }
+20: }
+21: 
+22: @media (prefers-reduced-motion: reduce) {
+23:   *, *::before, *::after {
+24:     animation-duration: 0.01ms !important;
+25:     transition-duration: 0.01ms !important;
+26:   }
+27: }
+ADDITIONAL CODE FACTS: CaseList uses component useState for filters/page, no URLSearchParams/useSearchParams. CaseDetail back button navigate(-1). TUE initial activeTab=basic, tools contains drug lookup and multi-step decision UI. FeedbackBar fixed bottom; .adp-fb-inner flex-wrap:wrap; stars immediately post rating. Browser intercepted feedback requests; no submissions occurred.
+REFERENCE GUIDANCE (host verified): W3C decorative images alt empty https://www.w3.org/WAI/tutorials/images/decorative/ ; web.dev responsive-images reserves width/height, advises not lazyloading LCP https://web.dev/learn/design/responsive-images . Proposed byte budgets are project choices, not standards.

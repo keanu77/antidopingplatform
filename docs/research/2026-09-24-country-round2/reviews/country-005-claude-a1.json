@@ -1,0 +1,44 @@
+{
+  "cases": [
+    {
+      "id": "usada-1035e17c5288",
+      "status": "supported",
+      "identity": "supported",
+      "country": "supported",
+      "temporalScope": "supported",
+      "evidence": [
+        {
+          "documentId": "case",
+          "startLine": 1,
+          "endLine": 1,
+          "note": "USADA官方標題確認 Daniel Summerhill 為「U.S. Cycling Athlete」"
+        },
+        {
+          "documentId": "case",
+          "startLine": 7,
+          "endLine": 7,
+          "note": "身份與位置確認：Daniel Summerhill，Centennial, Colo.，自行車運動"
+        },
+        {
+          "documentId": "case",
+          "startLine": 8,
+          "endLine": 8,
+          "note": "2021年8月14日事件日期，建立該時期美國官方運動隸屬"
+        },
+        {
+          "documentId": "case",
+          "startLine": 11,
+          "endLine": 11,
+          "note": "Whereabouts pool成員確認美國national level運動員地位"
+        },
+        {
+          "documentId": "country",
+          "startLine": 260,
+          "endLine": 261,
+          "note": "USA Cycling 2023年記錄中 Danny Summerhill (Centennial, Colo.) 確認美國運動協會隸屬"
+        }
+      ],
+      "findings": []
+    }
+  ]
+}

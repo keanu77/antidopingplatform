@@ -1,0 +1,204 @@
+{
+  "cases": [
+    {
+      "id": "usada-9e3ec5e00217",
+      "status": "supported",
+      "identity": "supported",
+      "country": "supported",
+      "temporalScope": "supported",
+      "evidence": [
+        {
+          "documentId": "country",
+          "startLine": 78,
+          "endLine": 79,
+          "note": "World Aquatics 官方資料確認運動員名字 Isabel Gormley"
+        },
+        {
+          "documentId": "country",
+          "startLine": 80,
+          "endLine": 81,
+          "note": "World Aquatics 官方資料列 Nationality 為 USA"
+        },
+        {
+          "documentId": "country",
+          "startLine": 82,
+          "endLine": 83,
+          "note": "World Aquatics 官方資料確認運動：Swimming"
+        },
+        {
+          "documentId": "case",
+          "startLine": 7,
+          "endLine": 7,
+          "note": "USADA 確認 Isabel Gormley, of Wainscott, N.Y., 游泳運動員"
+        },
+        {
+          "documentId": "case",
+          "startLine": 8,
+          "endLine": 8,
+          "note": "USADA 記錄案件時 Gormley 20 歲，身份與國家資料一致"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-f40282760e72",
+      "status": "supported",
+      "identity": "supported",
+      "country": "supported",
+      "temporalScope": "supported",
+      "evidence": [
+        {
+          "documentId": "country",
+          "startLine": 449,
+          "endLine": 450,
+          "note": "Team USA 官方資料確認運動員名字 Dillon Schrodt"
+        },
+        {
+          "documentId": "country",
+          "startLine": 448,
+          "endLine": 448,
+          "note": "Team USA 確認運動：Bobsled"
+        },
+        {
+          "documentId": "country",
+          "startLine": 460,
+          "endLine": 462,
+          "note": "Team USA 列 2016-2017 North American Cup，Park City 比賽日期 1/17（即 2017 年 1 月）"
+        },
+        {
+          "documentId": "case",
+          "startLine": 1,
+          "endLine": 1,
+          "note": "USADA 標題確認 U.S. Bobsled Athlete Patrick Schrodt"
+        },
+        {
+          "documentId": "case",
+          "startLine": 7,
+          "endLine": 7,
+          "note": "USADA 案件日期 2017-01-12 IBSF North American Cup，與 Team USA 頁面 Park City 1/17 賽事相符"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-b54bb0c30eb2",
+      "status": "supported",
+      "identity": "supported",
+      "country": "supported",
+      "temporalScope": "supported",
+      "evidence": [
+        {
+          "documentId": "country",
+          "startLine": 448,
+          "endLine": 450,
+          "note": "Team USA 官方資料確認運動員名字 Kyler Allison，運動 Bobsled"
+        },
+        {
+          "documentId": "country",
+          "startLine": 454,
+          "endLine": 454,
+          "note": "Team USA 查閱時記錄 Age 42"
+        },
+        {
+          "documentId": "country",
+          "startLine": 456,
+          "endLine": 456,
+          "note": "Team USA 記錄 Hometown Austin, TX"
+        },
+        {
+          "documentId": "case",
+          "startLine": 7,
+          "endLine": 7,
+          "note": "USADA 確認 Kyler Allison, of Austin, Texas，運動 bobsled"
+        },
+        {
+          "documentId": "case",
+          "startLine": 8,
+          "endLine": 8,
+          "note": "USADA 記錄案件時 Allison 35 歲（2019 年），年齡與查閱時 42 歲相符（約 7 年差距）"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-b714a3c460a7",
+      "status": "supported",
+      "identity": "supported",
+      "country": "supported",
+      "temporalScope": "supported",
+      "evidence": [
+        {
+          "documentId": "country",
+          "startLine": 111,
+          "endLine": 111,
+          "note": "World Triathlon 官方資料確認運動員名字 Lauren Goss"
+        },
+        {
+          "documentId": "country",
+          "startLine": 113,
+          "endLine": 113,
+          "note": "World Triathlon 官方資料列國家 United States"
+        },
+        {
+          "documentId": "country",
+          "startLine": 114,
+          "endLine": 114,
+          "note": "World Triathlon 官方資料列出生年 1988"
+        },
+        {
+          "documentId": "case",
+          "startLine": 7,
+          "endLine": 7,
+          "note": "USADA 確認 Lauren Goss, of Boulder, Colo.，運動 triathlon"
+        },
+        {
+          "documentId": "case",
+          "startLine": 8,
+          "endLine": 8,
+          "note": "USADA 記錄案件時 Goss 31 歲（2019 年 6 月），與出生年 1988 相符"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-2afd16a939d4",
+      "status": "supported",
+      "identity": "supported",
+      "country": "supported",
+      "temporalScope": "supported",
+      "evidence": [
+        {
+          "documentId": "country",
+          "startLine": 111,
+          "endLine": 111,
+          "note": "World Triathlon 官方資料確認運動員名字 Noah Webb"
+        },
+        {
+          "documentId": "country",
+          "startLine": 113,
+          "endLine": 113,
+          "note": "World Triathlon 官方資料列國家 United States"
+        },
+        {
+          "documentId": "country",
+          "startLine": 114,
+          "endLine": 114,
+          "note": "World Triathlon 官方資料列出生年 1973"
+        },
+        {
+          "documentId": "case",
+          "startLine": 7,
+          "endLine": 7,
+          "note": "USADA 確認 Noah Webb, of Los Angeles, Calif.，運動 triathlon"
+        },
+        {
+          "documentId": "case",
+          "startLine": 8,
+          "endLine": 8,
+          "note": "USADA 記錄案件時 Webb 48 歲（2021 年 8 月），與出生年 1973 相符"
+        }
+      ],
+      "findings": []
+    }
+  ]
+}

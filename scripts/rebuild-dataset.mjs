@@ -29,7 +29,7 @@
  *
  * 用法：node scripts/rebuild-dataset.mjs [--out <path>]
  */
-import { readFileSync, writeFileSync, mkdirSync, existsSync } from "node:fs";
+import { readFileSync, writeFileSync, mkdirSync, existsSync, readdirSync } from "node:fs";
 import { createHash } from "node:crypto";
 import { dirname, join, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
@@ -271,10 +271,15 @@ if (existsSync(modelReviewPath) || existsSync(auditCorrectionPath)) {
   }
 }
 // New official country/date follow-ups do not overwrite historical model inputs.
-const followupPath = join(ROOT, "data/case-source-followups.json");
-if (existsSync(followupPath)) {
+// The original overlay applies first, then each later round in name order.
+const roundDir = join(ROOT, "data/country-followups");
+const followupPaths = [
+  join(ROOT, "data/case-source-followups.json"),
+  ...(existsSync(roundDir) ? readdirSync(roundDir).filter((f) => f.endsWith(".json")).sort().map((f) => join(roundDir, f)) : []),
+].filter((p) => existsSync(p));
+const seen = new Set();
+for (const followupPath of followupPaths) {
   const followup = JSON.parse(readFileSync(followupPath, "utf8"));
-  const seen = new Set();
   for (const fix of followup.countryChanges) {
     const c = cases.find((item) => item.id === fix.id);
     if (!c || seen.has(fix.id) || c.nationality !== fix.nationality || c.review.countryEvidence?.status !== "title_only") {
@@ -282,6 +287,7 @@ if (existsSync(followupPath)) {
     }
     if (!fix.sourceRefs?.length || new Set(fix.modelReview?.modelSeats).size < 2) throw new Error(`Incomplete country evidence: ${fix.id}`);
     seen.add(fix.id);
+    delete c.review.countryFollowup; // a later round may resolve an earlier "held" case
     c.review.nationalitySource = fix.sourceUrl;
     c.review.nationalityAsListed = fix.countryAsListed;
     c.review.countryEvidence = {

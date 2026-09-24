@@ -1,0 +1,182 @@
+[
+  {
+    "id": "usada-cbf0f5afcf61",
+    "athleteName": "Evan Forrest",
+    "searchedAt": "2026-09-24",
+    "queries": [
+      "\"Evan Forrest\" weightlifting USA"
+    ],
+    "result": "not_found",
+    "note": "僅找到 USADA 公告、轉載與非官方社群頁；未找到 USA Weightlifting／IWF 官方選手或賽事紀錄。維持公告標題標示、待補證。"
+  },
+  {
+    "id": "usada-ea30e84daaab",
+    "athleteName": "Chad Olsen",
+    "searchedAt": "2026-09-24",
+    "queries": [
+      "\"Chad Olsen\" weightlifting"
+    ],
+    "result": "not_found",
+    "note": "僅找到 USADA 公告、教練課程頁與社群頁；未找到官方選手或賽事紀錄（採樣賽事為 2023 National Masters）。維持公告標題標示、待補證。"
+  },
+  {
+    "id": "usada-06ec1067d02c",
+    "athleteName": "Clint Jordan",
+    "searchedAt": "2026-09-24",
+    "queries": [
+      "\"Clint Jordan\" weightlifting"
+    ],
+    "result": "not_found",
+    "note": "僅找到 USADA 公告與非官方／同名頁面；採樣賽事為 2022 Masters 全國賽，未找到 USA Weightlifting／IWF 官方選手或賽事紀錄。維持待補證。"
+  },
+  {
+    "id": "usada-003de817c96a",
+    "athleteName": "Hillary Tran",
+    "searchedAt": "2026-09-24",
+    "queries": [
+      "\"Hillary Tran\" weightlifting"
+    ],
+    "result": "not_found",
+    "note": "僅找到 USADA 公告、媒體報導、CrossFit 與社群頁；未找到 USA Weightlifting／IWF 官方選手或賽事紀錄。維持待補證。"
+  },
+  {
+    "id": "usada-22913fa5df5e",
+    "athleteName": "Ahje Palmer",
+    "searchedAt": "2026-09-24",
+    "queries": [
+      "\"Ahje Palmer\" weightlifting"
+    ],
+    "result": "not_found",
+    "note": "僅找到 USADA 公告、第三方成績庫與 2025 年賽事出場名單（contentstack CDN，僅姓名與年齡組、晚於本案四年）；無可連結同人的官方選手資料。維持待補證。"
+  },
+  {
+    "id": "usada-6cd0ab12872b",
+    "athleteName": "Regina Hancock",
+    "searchedAt": "2026-09-24",
+    "queries": [
+      "\"Regina Hancock\" weightlifting"
+    ],
+    "result": "not_found",
+    "note": "僅找到 USADA 公告、轉載、CrossFit 與社群頁；採樣賽事為 2021 USA Masters，未找到官方賽事紀錄。維持待補證。"
+  },
+  {
+    "id": "usada-7047ef231eac",
+    "athleteName": "Jacob Lacoste",
+    "searchedAt": "2026-09-24",
+    "queries": [
+      "\"Jacob Lacoste\" weightlifting"
+    ],
+    "result": "not_found",
+    "note": "僅找到 USADA 公告與轉載；World Athletics 同名選手為田徑、無身分連結，不採用。維持待補證。"
+  },
+  {
+    "id": "usada-86ac6516e020",
+    "athleteName": "Luis Gallardo",
+    "searchedAt": "2026-09-24",
+    "queries": [
+      "\"Luis Gallardo\" weightlifting USADA"
+    ],
+    "result": "not_found",
+    "note": "僅找到 USADA 公告與轉載；World Athletics 同名選手為田徑、無身分連結，不採用。維持待補證。"
+  },
+  {
+    "id": "usada-956ec8818b4b",
+    "athleteName": "Jordan Adel",
+    "searchedAt": "2026-09-24",
+    "queries": [
+      "\"Jordan Adel\" weightlifting"
+    ],
+    "result": "not_found",
+    "note": "僅找到 USADA 公告與非官方頁；另有同名相近的 Jordan Adel-Ahmad，無官方資料可確認是否同人，不採用。維持待補證。"
+  },
+  {
+    "id": "usada-c0bcc1cac884",
+    "athleteName": "Bernabe Chavez",
+    "searchedAt": "2026-09-24",
+    "queries": [
+      "\"Bernabe Chavez\" weightlifting"
+    ],
+    "result": "not_found",
+    "note": "身分為教練（Athlete Support Personnel），不適用選手代表資格；僅找到 USADA 公告、轉載與社群頁。維持待補證。"
+  },
+  {
+    "id": "usada-f72472960e40",
+    "athleteName": "Christian Buckley",
+    "searchedAt": "2026-09-24",
+    "queries": [
+      "\"Christian Buckley\" weightlifting"
+    ],
+    "result": "not_found",
+    "note": "僅找到 USADA 公告與同名非官方頁（含田徑 TFRRS 同名者，無身分連結）。維持待補證。"
+  },
+  {
+    "id": "usada-2a3f0160a9f3",
+    "athleteName": "Andrii Monastyrskyi",
+    "searchedAt": "2026-09-24",
+    "queries": [
+      "\"Andrii Monastyrskyi\" canoe"
+    ],
+    "result": "not_found",
+    "note": "僅找到 USADA 公告與同名學者頁面；採樣於 2022 USA Canoe Sprint National Team Trials，未找到官方選手或國家隊資料。姓名顯示可能有他國背景，維持待補證。"
+  },
+  {
+    "id": "usada-05c2efe09f20",
+    "athleteName": "Trey Lampkin",
+    "searchedAt": "2026-09-24",
+    "queries": [
+      "\"Trey Lampkin\" judo"
+    ],
+    "result": "not_found",
+    "note": "僅找到地方媒體與大學新聞稱其曾入選美國帕拉柔道隊；未找到官方選手或名單頁。維持待補證。"
+  },
+  {
+    "id": "usada-f708f100d313",
+    "athleteName": "Josh Sisson",
+    "searchedAt": "2026-09-24",
+    "queries": [
+      "\"Josh Sisson\" judo Paralympic"
+    ],
+    "result": "not_found",
+    "note": "僅找到 USADA 公告與第三方成績庫（JudoInside）；未找到官方選手或名單頁。維持待補證。"
+  },
+  {
+    "id": "usada-c19d2e9f8557",
+    "athleteName": "Tate Jackson",
+    "searchedAt": "2026-09-24",
+    "queries": [
+      "\"Tate Jackson\" swimmer Texas USA Swimming national team"
+    ],
+    "result": "not_found",
+    "note": "僅找到維基百科、媒體、大學與第三方頁面；本輪未找到 USA Swimming／World Aquatics 官方選手頁。維持待補證。"
+  },
+  {
+    "id": "usada-a187e411794f",
+    "athleteName": "Mallory Schafer",
+    "searchedAt": "2026-09-24",
+    "queries": [
+      "\"Mallory Schafer\" duathlon OR triathlon"
+    ],
+    "result": "domestic_only",
+    "note": "僅找到 USA Triathlon 國內賽成績；依本輪一致原則，國內賽事紀錄不作為國家證據。維持待補證。"
+  },
+  {
+    "id": "usada-8acc4528cb6b",
+    "athleteName": "Addie Bracy",
+    "searchedAt": "2026-09-24",
+    "queries": [
+      "\"Addie Bracy\" ultrarunner USATF"
+    ],
+    "result": "not_found",
+    "note": "媒體稱其曾入選 2017 世界山徑錦標賽美國隊，但本輪未取得 USATF／World Athletics 官方名單頁。維持待補證。"
+  },
+  {
+    "id": "usada-edbbe5e82ff0",
+    "athleteName": "Riekert Hattingh",
+    "searchedAt": "2026-09-24",
+    "queries": [
+      "\"Riekert Hattingh\" rugby USA Eagles"
+    ],
+    "result": "source_fetch_blocked",
+    "note": "USA Rugby（eagles.rugby）2025 年代表隊名單頁回應 HTTP 429，本輪無法保存原件；另知其為南非出生，須以官方名單確認代表美國。維持待補證，下輪重試。"
+  }
+]

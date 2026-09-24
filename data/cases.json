@@ -12680,8 +12680,8 @@
    "caseType": "拒絕採樣／休閒運動員規則",
    "checkedAt": "2026-09-22",
    "sourceLocator": "U.S. Track and Field Athlete Cary Cooper Accepts Sanction for Anti-Doping Rule Violation：個案公告標題及全部個案實質段落；含物質／規則、處分、日期與成績後果，止於通用教育資訊前",
-   "nationalitySource": "https://www.usada.org/sanction/cary-cooper-accepts-doping-sanction/",
-   "nationalityAsListed": "U.S. Track and Field",
+   "nationalitySource": "https://worldathletics.org/athletes/united-states/cary-cooper-15146776",
+   "nationalityAsListed": "United States",
    "personType": "Athlete",
    "sourceRow": 93,
    "outcome": "2年",
@@ -12705,14 +12705,39 @@
     ],
     "auditedClaimsSha256": "fc197848b826fc13f8eda680ab3f403255a0fc8c7899322f8bfd194562e00bf4",
     "claimsChangedAfterReview": false,
-    "unresolvedSourceFields": [
+    "unresolvedSourceFields": [],
+    "reviewState": "editorial_adjudicated",
+    "auditedUnresolvedSourceFields": [
      "country"
-    ],
-    "reviewState": "source_limitations"
+    ]
    },
    "countryEvidence": {
-    "status": "title_only",
-    "note": "國家欄目前依官方公告標題的 U.S. 描述；代表國身分仍待補充官方資料，不能視為法律國籍已確認。"
+    "status": "official_country_as_listed",
+    "checkedAt": "2026-09-24",
+    "scope": "official_profile_at_lookup",
+    "note": "補充來源為本次查閱的官方選手資料所列國家；不據此認證法律國籍、事件當時代表資格或完整代表國變更史。",
+    "sourceRefs": [
+     {
+      "url": "https://worldathletics.org/athletes/united-states/cary-cooper-15146776",
+      "retrievedAt": "2026-09-24T05:24:41.869318+00:00",
+      "rawSha256": "8ccbe2870659bea2671d9e773e712c9b185c438b67963c35d6916761cbc67293",
+      "textSha256": "6afa692eada13ec02191170914755f597d1ddc26d0c6f5f12f18849c0f31c748"
+     }
+    ],
+    "modelReview": {
+     "checkedAt": "2026-09-24",
+     "scope": "country_and_identity_only",
+     "modelSeats": [
+      "Claude",
+      "GPT"
+     ],
+     "requestedModels": [
+      "gpt-6-luna",
+      "haiku"
+     ],
+     "packetSha256": "7edee910a7402be35fb5fd01c26271f7865983752a1424c6175b4d8cd71fad7b",
+     "annotationUpdatedAfterReview": false
+    }
    }
   },
   "registryRecordAsPublished": {
@@ -12932,8 +12957,8 @@
    "caseType": "外用藥與未事先取得 TUE／公開警告",
    "checkedAt": "2026-09-22",
    "sourceLocator": "U.S. Weightlifting Athlete Ella Nicholson Accepts Public Warning：個案公告標題及全部個案實質段落；含物質／規則、處分、日期與成績後果，止於通用教育資訊前",
-   "nationalitySource": "https://www.usada.org/sanction-public-warning/ella-nicholson-accepts-public-warning/",
-   "nationalityAsListed": "U.S. Weightlifting",
+   "nationalitySource": "https://www.usaweightlifting.org/news/2024/september/28/18-medals-numerous-national-records-highlight-junior-world-championships-for-usa",
+   "nationalityAsListed": "Team USA（2024 IWF Junior World Championships）",
    "personType": "Athlete",
    "sourceRow": 103,
    "outcome": "公開警告，無禁賽",
@@ -12957,14 +12982,39 @@
     ],
     "auditedClaimsSha256": "fc55285fee6bf5573caf954ca59ebe1be6f8af246b906eaf5aa0f28ab82d0068",
     "claimsChangedAfterReview": false,
-    "unresolvedSourceFields": [
+    "unresolvedSourceFields": [],
+    "reviewState": "editorial_adjudicated",
+    "auditedUnresolvedSourceFields": [
      "country"
-    ],
-    "reviewState": "source_limitations"
+    ]
    },
    "countryEvidence": {
-    "status": "title_only",
-    "note": "國家欄目前依官方公告標題的 U.S. 描述；代表國身分仍待補充官方資料，不能視為法律國籍已確認。"
+    "status": "official_country_as_listed",
+    "checkedAt": "2026-09-24",
+    "scope": "official_team_or_event_record",
+    "note": "依 USA Weightlifting 2024 年 IWF 世界青年錦標賽 Team USA 成績報導辨識代表隊；僅適用該賽事時期，非法律國籍認證。",
+    "sourceRefs": [
+     {
+      "url": "https://www.usaweightlifting.org/news/2024/september/28/18-medals-numerous-national-records-highlight-junior-world-championships-for-usa",
+      "retrievedAt": "2026-09-24T05:02:32.788228+00:00",
+      "rawSha256": "d5f7e23f6e4fa7e520dc35cbaf5b794f81e6658c2c4a34750db8a78ec79e8e2a",
+      "textSha256": "600346487030cdbefaa3b7694b033ab0970d1f6881e52713b3fece134bad6aee"
+     }
+    ],
+    "modelReview": {
+     "checkedAt": "2026-09-24",
+     "scope": "country_and_identity_only",
+     "modelSeats": [
+      "Claude",
+      "GPT"
+     ],
+     "requestedModels": [
+      "gpt-6-luna",
+      "haiku"
+     ],
+     "packetSha256": "df40267ee3725c8eae833f3f25477ce04bfd229a29a1d8bad9f06e969d723f29",
+     "annotationUpdatedAfterReview": false
+    }
    }
   },
   "registryRecordAsPublished": {
@@ -16556,6 +16606,11 @@
    "countryEvidence": {
     "status": "title_only",
     "note": "國家欄目前依官方公告標題的 U.S. 描述；代表國身分仍待補充官方資料，不能視為法律國籍已確認。"
+   },
+   "countryFollowup": {
+    "checkedAt": "2026-09-24",
+    "resolution": "held",
+    "note": "官方 2021 泛美錦標賽名單僅能以姓名與項目比對；USADA 2023 公告所列城市（Pittsburgh）與量級未見於該名單，且名單早於本案兩年。未找到可連結同人的官方資料，維持待確認。"
    }
   },
   "registryRecordAsPublished": {
@@ -16749,6 +16804,11 @@
    "countryEvidence": {
     "status": "title_only",
     "note": "國家欄目前依官方公告標題的 U.S. 描述；代表國身分仍待補充官方資料，不能視為法律國籍已確認。"
+   },
+   "countryFollowup": {
+    "checkedAt": "2026-09-24",
+    "resolution": "held",
+    "note": "僅有美國國內協會賽事／獎項紀錄，未明列選手代表國家；模型指出不足以支持國家欄位。為一致起見，本輪不以國內賽事紀錄升級國家證據，維持待確認。"
    }
   },
   "registryRecordAsPublished": {
@@ -16987,8 +17047,8 @@
    "caseType": "處方興奮劑／追溯及未來 TUE 均未核准",
    "checkedAt": "2026-09-22",
    "sourceLocator": "U.S. Field Hockey Athlete Tyler Sundeen Accepts Sanction for Anti-Doping Rule Violation：個案公告標題及全部個案實質段落；含物質／規則、處分、日期與成績後果，止於通用教育資訊前",
-   "nationalitySource": "https://www.usada.org/sanction/tyler-sundeen-accepts-doping-sanction/",
-   "nationalityAsListed": "U.S. Field Hockey",
+   "nationalitySource": "https://www.usafieldhockey.com/profiles/tyler-sundeen",
+   "nationalityAsListed": "USA Field Hockey",
    "personType": "Athlete",
    "sourceRow": 120,
    "outcome": "6個月",
@@ -17012,14 +17072,39 @@
     ],
     "auditedClaimsSha256": "1ee77d3bab6fae0bd57cfabdef9cbba6e925fbd5f4e143c6afcf8fdb9207aaaa",
     "claimsChangedAfterReview": false,
-    "unresolvedSourceFields": [
+    "unresolvedSourceFields": [],
+    "reviewState": "editorial_adjudicated",
+    "auditedUnresolvedSourceFields": [
      "country"
-    ],
-    "reviewState": "source_limitations"
+    ]
    },
    "countryEvidence": {
-    "status": "title_only",
-    "note": "國家欄目前依官方公告標題的 U.S. 描述；代表國身分仍待補充官方資料，不能視為法律國籍已確認。"
+    "status": "official_country_as_listed",
+    "checkedAt": "2026-09-24",
+    "scope": "official_profile_at_lookup",
+    "note": "補充來源為本次查閱的 USA Field Hockey 官方選手頁；不據此推定本案事件當年代表資格，也非法律國籍認證。",
+    "sourceRefs": [
+     {
+      "url": "https://www.usafieldhockey.com/profiles/tyler-sundeen",
+      "retrievedAt": "2026-09-24T05:27:04.792330+00:00",
+      "rawSha256": "5e246e982c269a442c98beb8a7ab5e1e0fff982359f7b5e731cc194a94841ee9",
+      "textSha256": "73b1e5090eadd6c151189eace3df7791c3e838d910a1bfbc3d3b33b8263db1f8"
+     }
+    ],
+    "modelReview": {
+     "checkedAt": "2026-09-24",
+     "scope": "country_and_identity_only",
+     "modelSeats": [
+      "Claude",
+      "GPT"
+     ],
+     "requestedModels": [
+      "gpt-6-luna",
+      "haiku"
+     ],
+     "packetSha256": "ed3e97865b291c9994860a2efe43de4c1a402c987861a9180d559d7419429ceb",
+     "annotationUpdatedAfterReview": false
+    }
    }
   },
   "registryRecordAsPublished": {
@@ -19991,8 +20076,8 @@
    "caseType": "家人處方藥／通知前兩次採樣合併",
    "checkedAt": "2026-09-23",
    "sourceLocator": "U.S. Boxing Athlete Arika Skoog Accepts Sanction for Anti-Doping Rule Violation：個案公告標題及全部個案實質段落；含物質／規則、處分、日期與成績後果，止於通用教育資訊前",
-   "nationalitySource": "https://www.usada.org/sanction/arika-skoog-accepts-doping-sanction/",
-   "nationalityAsListed": "U.S. Boxing",
+   "nationalitySource": "https://www.teamusa.com/profiles/arika-skoog-1201458",
+   "nationalityAsListed": "Team USA",
    "personType": "Athlete",
    "sourceRow": 174,
    "outcome": "1年",
@@ -20016,14 +20101,39 @@
     ],
     "auditedClaimsSha256": "47738b8a5e657765154b0338d019d1dcd49b022031b298b78318ff0b17094518",
     "claimsChangedAfterReview": false,
-    "unresolvedSourceFields": [
+    "unresolvedSourceFields": [],
+    "reviewState": "editorial_adjudicated",
+    "auditedUnresolvedSourceFields": [
      "country"
-    ],
-    "reviewState": "source_limitations"
+    ]
    },
    "countryEvidence": {
-    "status": "title_only",
-    "note": "國家欄目前依官方公告標題的 U.S. 描述；代表國身分仍待補充官方資料，不能視為法律國籍已確認。"
+    "status": "official_country_as_listed",
+    "checkedAt": "2026-09-24",
+    "scope": "official_profile_at_lookup",
+    "note": "補充來源為本次查閱的 Team USA 官方選手頁；頁面所列經歷有各自年份，不據此推定本案事件當年代表資格，也非法律國籍認證。",
+    "sourceRefs": [
+     {
+      "url": "https://www.teamusa.com/profiles/arika-skoog-1201458",
+      "retrievedAt": "2026-09-24T05:27:04.866599+00:00",
+      "rawSha256": "a884a1eb5c6c821c55e157d4d2f7fb4b97f2898c4e394c24f767f6955df9257a",
+      "textSha256": "c3e8143edfae68fdb301430aa18d41e6682f2e3f74c63c31c18d2ace7f45a6ae"
+     }
+    ],
+    "modelReview": {
+     "checkedAt": "2026-09-24",
+     "scope": "country_and_identity_only",
+     "modelSeats": [
+      "Claude",
+      "GPT"
+     ],
+     "requestedModels": [
+      "gpt-6-luna",
+      "haiku"
+     ],
+     "packetSha256": "ed3e97865b291c9994860a2efe43de4c1a402c987861a9180d559d7419429ceb",
+     "annotationUpdatedAfterReview": false
+    }
    }
   },
   "registryRecordAsPublished": {
@@ -20416,6 +20526,11 @@
    "countryEvidence": {
     "status": "title_only",
     "note": "國家欄目前依官方公告標題的 U.S. 描述；代表國身分仍待補充官方資料，不能視為法律國籍已確認。"
+   },
+   "countryFollowup": {
+    "checkedAt": "2026-09-24",
+    "resolution": "held",
+    "note": "僅有美國國內協會賽事／獎項紀錄，未明列選手代表國家；模型指出不足以支持國家欄位。為一致起見，本輪不以國內賽事紀錄升級國家證據，維持待確認。"
    }
   },
   "registryRecordAsPublished": {
@@ -20547,8 +20662,8 @@
    "caseType": "THC／賽外使用與完成處遇",
    "checkedAt": "2026-09-23",
    "sourceLocator": "U.S. Weightlifting Athlete Keiser Witte Accepts Sanction for Anti-Doping Rule Violation：個案公告標題及全部個案實質段落；含物質／規則、處分、日期與成績後果，止於通用教育資訊前",
-   "nationalitySource": "https://www.usada.org/sanction/keiser-witte-accepts-doping-sanction/",
-   "nationalityAsListed": "U.S. Weightlifting",
+   "nationalitySource": "https://www.teamusa.com/profiles/keiser-witte-1142318",
+   "nationalityAsListed": "Team USA",
    "personType": "Athlete",
    "sourceRow": 161,
    "outcome": "1個月",
@@ -20572,14 +20687,45 @@
     ],
     "auditedClaimsSha256": "45382908a75667fef67931f1e5d9c683790b44e2bc6869b7bb8e9c67714d847b",
     "claimsChangedAfterReview": false,
-    "unresolvedSourceFields": [
+    "unresolvedSourceFields": [],
+    "reviewState": "editorial_adjudicated",
+    "auditedUnresolvedSourceFields": [
      "country"
-    ],
-    "reviewState": "source_limitations"
+    ]
    },
    "countryEvidence": {
-    "status": "title_only",
-    "note": "國家欄目前依官方公告標題的 U.S. 描述；代表國身分仍待補充官方資料，不能視為法律國籍已確認。"
+    "status": "official_country_as_listed",
+    "checkedAt": "2026-09-24",
+    "scope": "official_profile_at_lookup",
+    "note": "Team USA（USOPC）官方選手頁列為 Team USA 舉重選手；USA Weightlifting 2023 年官方聲明直接指涉本案。頁面所列國際賽經歷有各自年份，不據此推定本案事件當年代表資格，也非法律國籍認證。",
+    "sourceRefs": [
+     {
+      "url": "https://www.teamusa.com/profiles/keiser-witte-1142318",
+      "retrievedAt": "2026-09-24T05:03:29.139307+00:00",
+      "rawSha256": "1c753488d8a83faf13da067b5a281b4985a1ac5da39f748c6978b0a2c89f10c1",
+      "textSha256": "a9084c7efe90f37f2a6b45593b830ad6b5c4db29325c7a682c1c5eb2c89b7691"
+     },
+     {
+      "url": "https://www.usaweightlifting.org/news/features/2023/february/24/usa-weightlifting-statement-on-keiser-witte",
+      "retrievedAt": "2026-09-24T05:03:29.488733+00:00",
+      "rawSha256": "24ff01046f9b51e04a96b95eef1d1d388e7ce7c8c49970bec9bdfa1831fc2e08",
+      "textSha256": "960e3090045b88f6045dbd7b8136e33c598d385b9fd3e5b0c09ed5a840e90b60"
+     }
+    ],
+    "modelReview": {
+     "checkedAt": "2026-09-24",
+     "scope": "country_and_identity_only",
+     "modelSeats": [
+      "Claude",
+      "GPT"
+     ],
+     "requestedModels": [
+      "gpt-6-luna",
+      "haiku"
+     ],
+     "packetSha256": "7b3a7c2139996f156f10fc4e606b734589b422f8f954a0038a65ddc3ce75349b",
+     "annotationUpdatedAfterReview": true
+    }
    }
   },
   "registryRecordAsPublished": {
@@ -20662,6 +20808,11 @@
    "countryEvidence": {
     "status": "title_only",
     "note": "國家欄目前依官方公告標題的 U.S. 描述；代表國身分仍待補充官方資料，不能視為法律國籍已確認。"
+   },
+   "countryFollowup": {
+    "checkedAt": "2026-09-24",
+    "resolution": "held",
+    "note": "僅有美國國內協會賽事／獎項紀錄，未明列選手代表國家；模型指出不足以支持國家欄位。為一致起見，本輪不以國內賽事紀錄升級國家證據，維持待確認。"
    }
   },
   "registryRecordAsPublished": {
@@ -20826,6 +20977,11 @@
    "countryEvidence": {
     "status": "title_only",
     "note": "國家欄目前依官方公告標題的 U.S. 描述；代表國身分仍待補充官方資料，不能視為法律國籍已確認。"
+   },
+   "countryFollowup": {
+    "checkedAt": "2026-09-24",
+    "resolution": "held",
+    "note": "Team USA 官方頁所列家鄉（Pleasanton, CA）與 USADA 公告（Wadsworth, Ohio）不同州，模型指出同人疑義；另有波多黎各訓練背景，未找到可連結同人的官方資料前維持待確認。"
    }
   },
   "registryRecordAsPublished": {
@@ -21068,8 +21224,8 @@
    "caseType": "未提供檢體／退休期間停止計時",
    "checkedAt": "2026-09-23",
    "sourceLocator": "U.S. Taekwondo Athlete Lindsey Corrigan Accepts Sanction for Anti-Doping Rule Violation：個案公告標題及全部個案實質段落；含物質／規則、處分、日期與成績後果，止於通用教育資訊前",
-   "nationalitySource": "https://www.usada.org/sanction/lindsey-corrigan-accepts-doping-sanction/",
-   "nationalityAsListed": "U.S. Taekwondo",
+   "nationalitySource": "https://www.teamusa.com/profiles/lindsey-corrigan",
+   "nationalityAsListed": "Team USA",
    "personType": "Athlete",
    "sourceRow": 142,
    "outcome": "2年（退休期間停止計時）",
@@ -21093,14 +21249,39 @@
     ],
     "auditedClaimsSha256": "a572e4929ba164d644c40a4d898bb2edb65f9a36daebc06b5fabdec7ec344f21",
     "claimsChangedAfterReview": false,
-    "unresolvedSourceFields": [
+    "unresolvedSourceFields": [],
+    "reviewState": "editorial_adjudicated",
+    "auditedUnresolvedSourceFields": [
      "country"
-    ],
-    "reviewState": "source_limitations"
+    ]
    },
    "countryEvidence": {
-    "status": "title_only",
-    "note": "國家欄目前依官方公告標題的 U.S. 描述；代表國身分仍待補充官方資料，不能視為法律國籍已確認。"
+    "status": "official_country_as_listed",
+    "checkedAt": "2026-09-24",
+    "scope": "official_profile_at_lookup",
+    "note": "補充來源為本次查閱的 Team USA 官方選手頁；頁面所列經歷有各自年份，不據此推定本案事件當年代表資格，也非法律國籍認證。",
+    "sourceRefs": [
+     {
+      "url": "https://www.teamusa.com/profiles/lindsey-corrigan",
+      "retrievedAt": "2026-09-24T05:28:10.100744+00:00",
+      "rawSha256": "7ccb0b4f122301fc5ab6d71ea939a8bd65a742248173ce6cda9f46a9c0b8cf76",
+      "textSha256": "3af51908c6b277978a00dbe047a8e9f5133a546a20e33d307da2519530dabe10"
+     }
+    ],
+    "modelReview": {
+     "checkedAt": "2026-09-24",
+     "scope": "country_and_identity_only",
+     "modelSeats": [
+      "Claude",
+      "GPT"
+     ],
+     "requestedModels": [
+      "gpt-6-luna",
+      "haiku"
+     ],
+     "packetSha256": "112b567571a0eb78aa407e0eee7fcc37587cadabf6cabe27f36fde01c61fca9e",
+     "annotationUpdatedAfterReview": false
+    }
    }
   },
   "registryRecordAsPublished": {
@@ -22347,6 +22528,11 @@
    "countryEvidence": {
     "status": "title_only",
     "note": "國家欄目前依官方公告標題的 U.S. 描述；代表國身分仍待補充官方資料，不能視為法律國籍已確認。"
+   },
+   "countryFollowup": {
+    "checkedAt": "2026-09-24",
+    "resolution": "held",
+    "note": "僅有美國國內協會賽事／獎項紀錄，未明列選手代表國家；模型指出不足以支持國家欄位。為一致起見，本輪不以國內賽事紀錄升級國家證據，維持待確認。"
    }
   },
   "registryRecordAsPublished": {
@@ -22396,8 +22582,8 @@
    "caseType": "兩種類固醇／及早承認",
    "checkedAt": "2026-09-23",
    "sourceLocator": "U.S. Weightlifting Athlete Ian Wilson Accepts Sanction for Anti-Doping Rule Violation：個案公告標題及全部個案實質段落；含物質／規則、處分、日期與成績後果，止於通用教育資訊前",
-   "nationalitySource": "https://www.usada.org/sanction/ian-wilson-accepts-doping-sanction/",
-   "nationalityAsListed": "U.S. Weightlifting",
+   "nationalitySource": "https://www.teamusa.com/profiles/ian-wilson",
+   "nationalityAsListed": "Team USA",
    "personType": "Athlete",
    "sourceRow": 211,
    "outcome": "3年",
@@ -22421,14 +22607,39 @@
     ],
     "auditedClaimsSha256": "7ac3e74a0ae81b5b43f358128f9c23e3911b26870040b8f34908802ddb052e4b",
     "claimsChangedAfterReview": false,
-    "unresolvedSourceFields": [
+    "unresolvedSourceFields": [],
+    "reviewState": "editorial_adjudicated",
+    "auditedUnresolvedSourceFields": [
      "country"
-    ],
-    "reviewState": "source_limitations"
+    ]
    },
    "countryEvidence": {
-    "status": "title_only",
-    "note": "國家欄目前依官方公告標題的 U.S. 描述；代表國身分仍待補充官方資料，不能視為法律國籍已確認。"
+    "status": "official_country_as_listed",
+    "checkedAt": "2026-09-24",
+    "scope": "official_profile_at_lookup",
+    "note": "補充來源為本次查閱的 Team USA（USOPC）官方選手頁；頁面所列國際賽經歷有各自年份，不據此推定本案事件當年代表資格，也非法律國籍認證。",
+    "sourceRefs": [
+     {
+      "url": "https://www.teamusa.com/profiles/ian-wilson",
+      "retrievedAt": "2026-09-24T05:03:28.597032+00:00",
+      "rawSha256": "60a6ad9d299a3a856e3bb911bce461aead3fa720b3f8514c226ac973a7727f09",
+      "textSha256": "db45f802ed4ba5758aec2ce237af8c21c3273cc8ccecb9229278b38202ce0bb0"
+     }
+    ],
+    "modelReview": {
+     "checkedAt": "2026-09-24",
+     "scope": "country_and_identity_only",
+     "modelSeats": [
+      "Claude",
+      "GPT"
+     ],
+     "requestedModels": [
+      "gpt-6-luna",
+      "haiku"
+     ],
+     "packetSha256": "7b3a7c2139996f156f10fc4e606b734589b422f8f954a0038a65ddc3ce75349b",
+     "annotationUpdatedAfterReview": false
+    }
    }
   },
   "registryRecordAsPublished": {
@@ -22560,8 +22771,8 @@
    "caseType": "外源性類固醇／IRMS 確認",
    "checkedAt": "2026-09-23",
    "sourceLocator": "U.S. Triathlon Athlete Noah Webb Accepts Sanction for Anti-Doping Rule Violation：個案公告標題及全部個案實質段落；含物質／規則、處分、日期與成績後果，止於通用教育資訊前",
-   "nationalitySource": "https://www.usada.org/sanction/noah-webb-accepts-doping-sanction/",
-   "nationalityAsListed": "U.S. Triathlon",
+   "nationalitySource": "https://triathlon.org/athletes/profile/77677/noah-webb",
+   "nationalityAsListed": "United States",
    "personType": "Athlete",
    "sourceRow": 218,
    "outcome": "4年",
@@ -22585,14 +22796,39 @@
     ],
     "auditedClaimsSha256": "b31feaabed12490ebc067854f30829c4e2edc70fdaa269081c2cf06f97e26350",
     "claimsChangedAfterReview": false,
-    "unresolvedSourceFields": [
+    "unresolvedSourceFields": [],
+    "reviewState": "editorial_adjudicated",
+    "auditedUnresolvedSourceFields": [
      "country"
-    ],
-    "reviewState": "source_limitations"
+    ]
    },
    "countryEvidence": {
-    "status": "title_only",
-    "note": "國家欄目前依官方公告標題的 U.S. 描述；代表國身分仍待補充官方資料，不能視為法律國籍已確認。"
+    "status": "official_country_as_listed",
+    "checkedAt": "2026-09-24",
+    "scope": "official_profile_at_lookup",
+    "note": "補充來源為本次查閱的官方選手資料所列國家；不據此認證法律國籍、事件當時代表資格或完整代表國變更史。",
+    "sourceRefs": [
+     {
+      "url": "https://triathlon.org/athletes/profile/77677/noah-webb",
+      "retrievedAt": "2026-09-24T05:25:29.875609+00:00",
+      "rawSha256": "cf8efc925d21c682d9603a533defdcd384b6d4b4092547b5075023bb0fa82cf7",
+      "textSha256": "214fba03d70d14146aaa551c608efa08b2175c4766a67d1222e1e472d0caca6f"
+     }
+    ],
+    "modelReview": {
+     "checkedAt": "2026-09-24",
+     "scope": "country_and_identity_only",
+     "modelSeats": [
+      "Claude",
+      "GPT"
+     ],
+     "requestedModels": [
+      "gpt-6-luna",
+      "haiku"
+     ],
+     "packetSha256": "f72e78b8ca1e797e77590885c52cf73c0fb0760e3ae91829c2a74c0fc8b1c8f1",
+     "annotationUpdatedAfterReview": false
+    }
    }
   },
   "registryRecordAsPublished": {
@@ -22724,8 +22960,8 @@
    "caseType": "外用處方藥／後續 TUE",
    "checkedAt": "2026-09-23",
    "sourceLocator": "U.S. Ice Hockey Athlete Grace Bowlby Accepts Public Warning：個案公告標題及全部個案實質段落；含物質／規則、處分、日期與成績後果，止於通用教育資訊前",
-   "nationalitySource": "https://www.usada.org/sanction/grace-bowlby-accepts-public-warning/",
-   "nationalityAsListed": "U.S. Ice Hockey",
+   "nationalitySource": "https://teamusa.usahockey.com/news_article/show/582368-roster-announced-for-2016-u18-women-s-worlds",
+   "nationalityAsListed": "U.S. Women's National Under-18 Team（2016 IIHF U18 Women's Worlds）",
    "personType": "Athlete",
    "sourceRow": 214,
    "outcome": "公開警告（無禁賽）",
@@ -22749,14 +22985,39 @@
     ],
     "auditedClaimsSha256": "f8d9401b35bfad85d26c71553762eced4840d92f170ab5218926b0b58e1fe4ea",
     "claimsChangedAfterReview": false,
-    "unresolvedSourceFields": [
+    "unresolvedSourceFields": [],
+    "reviewState": "editorial_adjudicated",
+    "auditedUnresolvedSourceFields": [
      "country"
-    ],
-    "reviewState": "source_limitations"
+    ]
    },
    "countryEvidence": {
-    "status": "title_only",
-    "note": "國家欄目前依官方公告標題的 U.S. 描述；代表國身分仍待補充官方資料，不能視為法律國籍已確認。"
+    "status": "official_country_as_listed",
+    "checkedAt": "2026-09-24",
+    "scope": "official_team_or_event_record",
+    "note": "依 USA Hockey 2016 年 U18 女子世界錦標賽美國隊名單辨識代表隊；本案事件為 2021 年，不據此推定 2021 年代表資格，也非法律國籍認證。",
+    "sourceRefs": [
+     {
+      "url": "https://teamusa.usahockey.com/news_article/show/582368-roster-announced-for-2016-u18-women-s-worlds",
+      "retrievedAt": "2026-09-24T05:27:23.833076+00:00",
+      "rawSha256": "248811e64c91c5aeced397a589e34fece0f69793f3c5b8eee227f68a7cf2a45d",
+      "textSha256": "8a83e2c90a43938a474de31820399ca5ed73a4029e69c9dcf682005d9b9841b6"
+     }
+    ],
+    "modelReview": {
+     "checkedAt": "2026-09-24",
+     "scope": "country_and_identity_only",
+     "modelSeats": [
+      "Claude",
+      "GPT"
+     ],
+     "requestedModels": [
+      "gpt-6-luna",
+      "haiku"
+     ],
+     "packetSha256": "ed3e97865b291c9994860a2efe43de4c1a402c987861a9180d559d7419429ceb",
+     "annotationUpdatedAfterReview": false
+    }
    }
   },
   "registryRecordAsPublished": {
@@ -23161,8 +23422,8 @@
    "caseType": "持有使用及向不知情選手施用／終身禁賽",
    "checkedAt": "2026-09-23",
    "sourceLocator": "U.S. Rowing Athlete Keir Pearson Accepts Lifetime Ban for Anti-Doping Rule Violations：個案公告標題及全部個案實質段落；含物質／規則、處分、日期與成績後果，止於通用教育資訊前",
-   "nationalitySource": "https://www.usada.org/sanction/keir-pearson-accepts-doping-sanction/",
-   "nationalityAsListed": "U.S. Rowing",
+   "nationalitySource": "https://worldrowing.com/athlete/8404",
+   "nationalityAsListed": "USA（1992 World Rowing results）",
    "personType": "Athlete",
    "sourceRow": 243,
    "outcome": "終身禁賽",
@@ -23186,14 +23447,39 @@
     ],
     "auditedClaimsSha256": "e5da176aba925c350ad9b75a8b9b16cf1bd6a31f58afe15e5fa1d8091382102e",
     "claimsChangedAfterReview": false,
-    "unresolvedSourceFields": [
+    "unresolvedSourceFields": [],
+    "reviewState": "editorial_adjudicated",
+    "auditedUnresolvedSourceFields": [
      "country"
-    ],
-    "reviewState": "source_limitations"
+    ]
    },
    "countryEvidence": {
-    "status": "title_only",
-    "note": "國家欄目前依官方公告標題的 U.S. 描述；代表國身分仍待補充官方資料，不能視為法律國籍已確認。"
+    "status": "official_country_as_listed",
+    "checkedAt": "2026-09-24",
+    "scope": "official_team_or_event_record",
+    "note": "依 World Rowing 官方選手頁所列 1992 年美國（USA）比賽紀錄辨識代表隊；本案事件為 2021 年，不據此推定 2021 年代表資格，也非法律國籍認證。",
+    "sourceRefs": [
+     {
+      "url": "https://worldrowing.com/athlete/8404",
+      "retrievedAt": "2026-09-24T05:28:11.639489+00:00",
+      "rawSha256": "d1ac166dda746643264539ec2d40521827ab40e310e860c5ad9f32ed997881e3",
+      "textSha256": "599cb66adb4c50258509ffc7cc3ebff752269d2c781f0f7d4b03b839173da9e8"
+     }
+    ],
+    "modelReview": {
+     "checkedAt": "2026-09-24",
+     "scope": "country_and_identity_only",
+     "modelSeats": [
+      "Claude",
+      "GPT"
+     ],
+     "requestedModels": [
+      "gpt-6-luna",
+      "haiku"
+     ],
+     "packetSha256": "548b40fc1d847e2e990f4973c011a9b6eb4bd649628776203e8dadd14aac0128",
+     "annotationUpdatedAfterReview": false
+    }
    }
   },
   "registryRecordAsPublished": {
@@ -23571,8 +23857,8 @@
    "caseType": "行蹤申報與錯過檢測／較低過失",
    "checkedAt": "2026-09-23",
    "sourceLocator": "U.S. Swimming Athlete Isabel Gormley Accepts Sanction for Whereabouts Rule Violation：個案公告標題及全部個案實質段落；含物質／規則、處分、日期與成績後果，止於通用教育資訊前",
-   "nationalitySource": "https://www.usada.org/sanction/isabel-gormley-accepts-sanction/",
-   "nationalityAsListed": "U.S. Swimming",
+   "nationalitySource": "https://www.worldaquatics.com/athletes/1137517/isabel-gormley/profile",
+   "nationalityAsListed": "USA",
    "personType": "Athlete",
    "sourceRow": 203,
    "outcome": "1年",
@@ -23596,14 +23882,39 @@
     ],
     "auditedClaimsSha256": "b5b824f1996a31541d4c1eedcec3742510699a336f33640507b5e70e6783217d",
     "claimsChangedAfterReview": false,
-    "unresolvedSourceFields": [
+    "unresolvedSourceFields": [],
+    "reviewState": "editorial_adjudicated",
+    "auditedUnresolvedSourceFields": [
      "country"
-    ],
-    "reviewState": "source_limitations"
+    ]
    },
    "countryEvidence": {
-    "status": "title_only",
-    "note": "國家欄目前依官方公告標題的 U.S. 描述；代表國身分仍待補充官方資料，不能視為法律國籍已確認。"
+    "status": "official_country_as_listed",
+    "checkedAt": "2026-09-24",
+    "scope": "official_profile_at_lookup",
+    "note": "補充來源為本次查閱的官方選手資料所列國家；不據此認證法律國籍、事件當時代表資格或完整代表國變更史。",
+    "sourceRefs": [
+     {
+      "url": "https://www.worldaquatics.com/athletes/1137517/isabel-gormley/profile",
+      "retrievedAt": "2026-09-24T05:25:26.890560+00:00",
+      "rawSha256": "abe22330206015203cf843ff30af227566348166d47db46d8fb99ade2267981a",
+      "textSha256": "0b00943f4d4864ff8e75c48eeaedf0f06523ff92b4b5ab48ded05055f62bcad4"
+     }
+    ],
+    "modelReview": {
+     "checkedAt": "2026-09-24",
+     "scope": "country_and_identity_only",
+     "modelSeats": [
+      "Claude",
+      "GPT"
+     ],
+     "requestedModels": [
+      "gpt-6-luna",
+      "haiku"
+     ],
+     "packetSha256": "f72e78b8ca1e797e77590885c52cf73c0fb0760e3ae91829c2a74c0fc8b1c8f1",
+     "annotationUpdatedAfterReview": false
+    }
    }
   },
   "registryRecordAsPublished": {
@@ -24063,8 +24374,8 @@
    "caseType": "外用處方藥／後續 TUE",
    "checkedAt": "2026-09-23",
    "sourceLocator": "U.S. Ice Hockey Athlete Madeline Wethington Accepts Public Warning：個案公告標題及全部個案實質段落；含物質／規則、處分、日期與成績後果，止於通用教育資訊前",
-   "nationalitySource": "https://www.usada.org/sanction/madeline-wethington-accepts-public-warning/",
-   "nationalityAsListed": "U.S. Ice Hockey",
+   "nationalitySource": "https://teamusa.usahockey.com/news_article/show/731818",
+   "nationalityAsListed": "U.S. Women's National Under-18 Team（2017）",
    "personType": "Athlete",
    "sourceRow": 216,
    "outcome": "公開警告（無禁賽）",
@@ -24088,14 +24399,39 @@
     ],
     "auditedClaimsSha256": "f1eec9697e6363a9be85480858181aef2a3ae5da818f72e0969ee615e6538a92",
     "claimsChangedAfterReview": false,
-    "unresolvedSourceFields": [
+    "unresolvedSourceFields": [],
+    "reviewState": "editorial_adjudicated",
+    "auditedUnresolvedSourceFields": [
      "country"
-    ],
-    "reviewState": "source_limitations"
+    ]
    },
    "countryEvidence": {
-    "status": "title_only",
-    "note": "國家欄目前依官方公告標題的 U.S. 描述；代表國身分仍待補充官方資料，不能視為法律國籍已確認。"
+    "status": "official_country_as_listed",
+    "checkedAt": "2026-09-24",
+    "scope": "official_team_or_event_record",
+    "note": "依 USA Hockey 2017 年 U18 女子國家隊名單辨識代表隊；本案事件為 2021 年，不據此推定 2021 年代表資格，也非法律國籍認證。",
+    "sourceRefs": [
+     {
+      "url": "https://teamusa.usahockey.com/news_article/show/731818",
+      "retrievedAt": "2026-09-24T05:25:51.259856+00:00",
+      "rawSha256": "0205d651cdb00791ecbeca7562f52bc0df6c2c03bff4ca46ce14d592c82966c9",
+      "textSha256": "47b80df4007ffbec3f56cdc5f263adbdc8f373f7cb76a92ccfc87398352cc7f8"
+     }
+    ],
+    "modelReview": {
+     "checkedAt": "2026-09-24",
+     "scope": "country_and_identity_only",
+     "modelSeats": [
+      "Claude",
+      "GPT"
+     ],
+     "requestedModels": [
+      "gpt-6-luna",
+      "haiku"
+     ],
+     "packetSha256": "7edee910a7402be35fb5fd01c26271f7865983752a1424c6175b4d8cd71fad7b",
+     "annotationUpdatedAfterReview": false
+    }
    }
   },
   "registryRecordAsPublished": {
@@ -24570,8 +24906,8 @@
    "caseType": "第二次違規／實質協助及退休停算",
    "checkedAt": "2026-09-23",
    "sourceLocator": "U.S. Pentathlon Athlete Logan Storie Accepts Sanction for Anti-Doping Rule Violation：個案公告標題及全部個案實質段落；含物質／規則、處分、日期與成績後果，止於通用教育資訊前",
-   "nationalitySource": "https://www.usada.org/sanction/logan-storie-accepts-doping-sanction/",
-   "nationalityAsListed": "U.S. Pentathlon",
+   "nationalitySource": "https://www.uipmworld.org/athlete/logan-storie",
+   "nationalityAsListed": "United States",
    "personType": "Athlete",
    "sourceRow": 233,
    "outcome": "6年（曾因退休停止計時）",
@@ -24596,14 +24932,39 @@
     ],
     "auditedClaimsSha256": "77d76f8ce0cba06c7b771da7722f6b6939b8a898b13afd06890c8bc3f261dfc4",
     "claimsChangedAfterReview": false,
-    "unresolvedSourceFields": [
+    "unresolvedSourceFields": [],
+    "reviewState": "editorial_adjudicated",
+    "auditedUnresolvedSourceFields": [
      "country"
-    ],
-    "reviewState": "source_limitations"
+    ]
    },
    "countryEvidence": {
-    "status": "title_only",
-    "note": "國家欄目前依官方公告標題的 U.S. 描述；代表國身分仍待補充官方資料，不能視為法律國籍已確認。"
+    "status": "official_country_as_listed",
+    "checkedAt": "2026-09-24",
+    "scope": "official_profile_at_lookup",
+    "note": "補充來源為本次查閱的官方選手資料所列國家；不據此認證法律國籍、事件當時代表資格或完整代表國變更史。",
+    "sourceRefs": [
+     {
+      "url": "https://www.uipmworld.org/athlete/logan-storie",
+      "retrievedAt": "2026-09-24T05:28:09.752670+00:00",
+      "rawSha256": "7e12c1730ddc54f110bdc1c67c21d3078171d4fee7492c30ede2ebb82e27dff1",
+      "textSha256": "b32ad2a64b8261cbb5b2d2a7592d943bcca70a2f3c56eb5bb184f31f85f91419"
+     }
+    ],
+    "modelReview": {
+     "checkedAt": "2026-09-24",
+     "scope": "country_and_identity_only",
+     "modelSeats": [
+      "Claude",
+      "GPT"
+     ],
+     "requestedModels": [
+      "gpt-6-luna",
+      "haiku"
+     ],
+     "packetSha256": "112b567571a0eb78aa407e0eee7fcc37587cadabf6cabe27f36fde01c61fca9e",
+     "annotationUpdatedAfterReview": false
+    }
    }
   },
   "registryRecordAsPublished": {
@@ -25777,8 +26138,8 @@
    "caseType": "補充品標籤列禁用成分／配合調查減刑",
    "checkedAt": "2026-09-23",
    "sourceLocator": "U.S. Taekwondo Athlete Talina Le Accepts Sanction for Anti-Doping Rule Violation：個案公告標題及全部個案實質段落；含物質／規則、處分、日期與成績後果，止於通用教育資訊前",
-   "nationalitySource": "https://www.usada.org/sanction/talina-le-accepts-doping-sanction/",
-   "nationalityAsListed": "U.S. Taekwondo",
+   "nationalitySource": "https://www.teamusa.com/profiles/talina-le",
+   "nationalityAsListed": "Team USA",
    "personType": "Athlete",
    "sourceRow": 369,
    "outcome": "18個月",
@@ -25802,14 +26163,39 @@
     ],
     "auditedClaimsSha256": "52cc1559174a77ecaf0a726485972db2fc9858eaa6ec37d3018468115bbd0c40",
     "claimsChangedAfterReview": false,
-    "unresolvedSourceFields": [
+    "unresolvedSourceFields": [],
+    "reviewState": "editorial_adjudicated",
+    "auditedUnresolvedSourceFields": [
      "country"
-    ],
-    "reviewState": "source_limitations"
+    ]
    },
    "countryEvidence": {
-    "status": "title_only",
-    "note": "國家欄目前依官方公告標題的 U.S. 描述；代表國身分仍待補充官方資料，不能視為法律國籍已確認。"
+    "status": "official_country_as_listed",
+    "checkedAt": "2026-09-24",
+    "scope": "official_profile_at_lookup",
+    "note": "補充來源為本次查閱的 Team USA 官方選手頁；頁面所列經歷有各自年份，不據此推定本案事件當年代表資格，也非法律國籍認證。",
+    "sourceRefs": [
+     {
+      "url": "https://www.teamusa.com/profiles/talina-le",
+      "retrievedAt": "2026-09-24T05:28:09.728815+00:00",
+      "rawSha256": "80f9db7134a46c38d034ec8aee2f491a50f7083d777cbc69054d605f6ab973be",
+      "textSha256": "380f683f3aa88c6530fd41c59ddae0de637fd15a7d1ffd0a967d3c1ee4caf110"
+     }
+    ],
+    "modelReview": {
+     "checkedAt": "2026-09-24",
+     "scope": "country_and_identity_only",
+     "modelSeats": [
+      "Claude",
+      "GPT"
+     ],
+     "requestedModels": [
+      "gpt-6-luna",
+      "haiku"
+     ],
+     "packetSha256": "112b567571a0eb78aa407e0eee7fcc37587cadabf6cabe27f36fde01c61fca9e",
+     "annotationUpdatedAfterReview": false
+    }
    }
   },
   "registryRecordAsPublished": {
@@ -27258,8 +27644,8 @@
    "caseType": "拒絕提供檢體／退休停算",
    "checkedAt": "2026-09-23",
    "sourceLocator": "U.S. Bobsled Athlete Kyler Allison Receives Sanction for Anti-Doping Rule Violation：個案公告標題及全部個案實質段落；含物質／規則、處分、日期與成績後果，止於通用教育資訊前",
-   "nationalitySource": "https://www.usada.org/sanction/kyler-allison-receives-doping-sanction/",
-   "nationalityAsListed": "U.S. Bobsled",
+   "nationalitySource": "https://www.teamusa.com/profiles/kyler-allison",
+   "nationalityAsListed": "Team USA",
    "personType": "Athlete",
    "sourceRow": 346,
    "outcome": "4年（退休期間停止計時）",
@@ -27283,14 +27669,39 @@
     ],
     "auditedClaimsSha256": "f3a3de11eb73ace234c4914934dec6dc96de0791942611e51791d9a13a22ceba",
     "claimsChangedAfterReview": false,
-    "unresolvedSourceFields": [
+    "unresolvedSourceFields": [],
+    "reviewState": "editorial_adjudicated",
+    "auditedUnresolvedSourceFields": [
      "country"
-    ],
-    "reviewState": "source_limitations"
+    ]
    },
    "countryEvidence": {
-    "status": "title_only",
-    "note": "國家欄目前依官方公告標題的 U.S. 描述；代表國身分仍待補充官方資料，不能視為法律國籍已確認。"
+    "status": "official_country_as_listed",
+    "checkedAt": "2026-09-24",
+    "scope": "official_profile_at_lookup",
+    "note": "補充來源為本次查閱的 Team USA（USOPC）官方選手頁；頁面所列經歷有各自年份，不據此推定本案事件當年代表資格，也非法律國籍認證。",
+    "sourceRefs": [
+     {
+      "url": "https://www.teamusa.com/profiles/kyler-allison",
+      "retrievedAt": "2026-09-24T05:25:27.584985+00:00",
+      "rawSha256": "15033e8ed89b6faaa5d62211c188e0d15c29c2476675bced57d09bf9a1a20752",
+      "textSha256": "709e6ea556e953ba504148fb67c8e31640e5ff03e8129e0485522fb1ad9f6751"
+     }
+    ],
+    "modelReview": {
+     "checkedAt": "2026-09-24",
+     "scope": "country_and_identity_only",
+     "modelSeats": [
+      "Claude",
+      "GPT"
+     ],
+     "requestedModels": [
+      "gpt-6-luna",
+      "haiku"
+     ],
+     "packetSha256": "f72e78b8ca1e797e77590885c52cf73c0fb0760e3ae91829c2a74c0fc8b1c8f1",
+     "annotationUpdatedAfterReview": false
+    }
    }
   },
   "registryRecordAsPublished": {
@@ -27340,8 +27751,8 @@
    "caseType": "THC／聲稱使用 CBD 外用產品",
    "checkedAt": "2026-09-23",
    "sourceLocator": "U.S. Triathlon Athlete Lauren Goss Accepts Sanction for Anti-Doping Rule Violation：個案公告標題及全部個案實質段落；含物質／規則、處分、日期與成績後果，止於通用教育資訊前",
-   "nationalitySource": "https://www.usada.org/sanction/lauren-goss-accepts-doping-sanction/",
-   "nationalityAsListed": "U.S. Triathlon",
+   "nationalitySource": "https://triathlon.org/athletes/profile/40842/lauren-goss",
+   "nationalityAsListed": "United States",
    "personType": "Athlete",
    "sourceRow": 355,
    "outcome": "6個月",
@@ -27365,14 +27776,39 @@
     ],
     "auditedClaimsSha256": "a82384879cd3a6bf5d62221b636f420b163dd5bbcee5f3363bd21475d66c633e",
     "claimsChangedAfterReview": false,
-    "unresolvedSourceFields": [
+    "unresolvedSourceFields": [],
+    "reviewState": "editorial_adjudicated",
+    "auditedUnresolvedSourceFields": [
      "country"
-    ],
-    "reviewState": "source_limitations"
+    ]
    },
    "countryEvidence": {
-    "status": "title_only",
-    "note": "國家欄目前依官方公告標題的 U.S. 描述；代表國身分仍待補充官方資料，不能視為法律國籍已確認。"
+    "status": "official_country_as_listed",
+    "checkedAt": "2026-09-24",
+    "scope": "official_profile_at_lookup",
+    "note": "補充來源為本次查閱的官方選手資料所列國家；不據此認證法律國籍、事件當時代表資格或完整代表國變更史。",
+    "sourceRefs": [
+     {
+      "url": "https://triathlon.org/athletes/profile/40842/lauren-goss",
+      "retrievedAt": "2026-09-24T05:25:28.180933+00:00",
+      "rawSha256": "081373b85c18382e3c9a8e11f9fe5c1ec6b8c7128f600d473898a52dd7154d1d",
+      "textSha256": "515bf2fc3f2c9f71ea8e3348684a6866d38c248021d6f6c1ffb406ba2e6875f4"
+     }
+    ],
+    "modelReview": {
+     "checkedAt": "2026-09-24",
+     "scope": "country_and_identity_only",
+     "modelSeats": [
+      "Claude",
+      "GPT"
+     ],
+     "requestedModels": [
+      "gpt-6-luna",
+      "haiku"
+     ],
+     "packetSha256": "f72e78b8ca1e797e77590885c52cf73c0fb0760e3ae91829c2a74c0fc8b1c8f1",
+     "annotationUpdatedAfterReview": false
+    }
    }
   },
   "registryRecordAsPublished": {
@@ -29931,8 +30367,8 @@
    "caseType": "補充品污染／第三方實驗室證據",
    "checkedAt": "2026-09-23",
    "sourceLocator": "U.S. Wrestling Athlete Victoria Francis Accepts Sanction for Anti-Doping Rule Violation：個案公告標題及全部個案實質段落；含物質／規則、處分、日期與成績後果，止於通用教育資訊前",
-   "nationalitySource": "https://www.usada.org/sanction/victoria-francis-accepts-doping-sanction/",
-   "nationalityAsListed": "U.S. Wrestling",
+   "nationalitySource": "https://www.themat.com/news/2024/february/01/victoria-francis-elevated-to-2014-junior-world-silver-medalist-after-anti-doping-violation-by-opponent",
+   "nationalityAsListed": "USA（2014 Junior World Championships）",
    "personType": "Athlete",
    "sourceRow": 432,
    "outcome": "1年",
@@ -29956,14 +30392,45 @@
     ],
     "auditedClaimsSha256": "2474a0bb528ad431b6d74b67e7e71c7829a4556c713137178e3ef702ab151356",
     "claimsChangedAfterReview": false,
-    "unresolvedSourceFields": [
+    "unresolvedSourceFields": [],
+    "reviewState": "editorial_adjudicated",
+    "auditedUnresolvedSourceFields": [
      "country"
-    ],
-    "reviewState": "source_limitations"
+    ]
    },
    "countryEvidence": {
-    "status": "title_only",
-    "note": "國家欄目前依官方公告標題的 U.S. 描述；代表國身分仍待補充官方資料，不能視為法律國籍已確認。"
+    "status": "official_country_as_listed",
+    "checkedAt": "2026-09-24",
+    "scope": "official_team_or_event_record",
+    "note": "USA Wrestling 官方報導列其為 2014 年世界青年錦標賽美國（USA）選手；Team USA 官方頁列 2016-17 Team USA 排名。不據此推定 2018 年事件當時代表資格，也非法律國籍認證。",
+    "sourceRefs": [
+     {
+      "url": "https://www.themat.com/news/2024/february/01/victoria-francis-elevated-to-2014-junior-world-silver-medalist-after-anti-doping-violation-by-opponent",
+      "retrievedAt": "2026-09-24T05:28:11.015857+00:00",
+      "rawSha256": "092cbd0e65ab5ae77922ea2f9f59d4039f3830df1008d5bdafddd9f930b6e996",
+      "textSha256": "ce2dd1da96d0c8437ed33a295d8f017d98a0e7a13ba0d8b3c8de16968abf85e0"
+     },
+     {
+      "url": "https://www.teamusa.com/profiles/victoria-francis",
+      "retrievedAt": "2026-09-24T05:30:33.096113+00:00",
+      "rawSha256": "327c704759e4456c14c7ace0a8bdafcffb6758f660554ef4832a191cd32686f6",
+      "textSha256": "f8ef661ac2c5b13b77e13438da01e45c8e6d0f1fb04ce886a57d62ca5da07ad2"
+     }
+    ],
+    "modelReview": {
+     "checkedAt": "2026-09-24",
+     "scope": "country_and_identity_only",
+     "modelSeats": [
+      "Claude",
+      "GPT"
+     ],
+     "requestedModels": [
+      "gpt-6-luna",
+      "haiku"
+     ],
+     "packetSha256": "548b40fc1d847e2e990f4973c011a9b6eb4bd649628776203e8dadd14aac0128",
+     "annotationUpdatedAfterReview": true
+    }
    }
   },
   "registryRecordAsPublished": {
@@ -32849,8 +33316,8 @@
    "caseType": "THC／賽外使用及退休停算",
    "checkedAt": "2026-09-23",
    "sourceLocator": "U.S. Luge Athlete, Riley Stohr, Accepts Sanction for Anti-Doping Rule Violation：個案公告標題及全部個案實質段落；含物質／規則、處分、日期與成績後果，止於通用教育資訊前",
-   "nationalitySource": "https://www.usada.org/sanction/riley-stohr-accepts-doping-sanction/",
-   "nationalityAsListed": "U.S. Luge",
+   "nationalitySource": "https://www.teamusa.com/profiles/riley-stohr",
+   "nationalityAsListed": "Team USA",
    "personType": "Athlete",
    "sourceRow": 527,
    "outcome": "6個月（退休期間停止計時）",
@@ -32874,14 +33341,39 @@
     ],
     "auditedClaimsSha256": "0af3290da93dd666e380f4a1e2ddc71d14c7a9d9b16bc61bd13cbb8d7805938c",
     "claimsChangedAfterReview": false,
-    "unresolvedSourceFields": [
+    "unresolvedSourceFields": [],
+    "reviewState": "editorial_adjudicated",
+    "auditedUnresolvedSourceFields": [
      "country"
-    ],
-    "reviewState": "source_limitations"
+    ]
    },
    "countryEvidence": {
-    "status": "title_only",
-    "note": "國家欄目前依官方公告標題的 U.S. 描述；代表國身分仍待補充官方資料，不能視為法律國籍已確認。"
+    "status": "official_country_as_listed",
+    "checkedAt": "2026-09-24",
+    "scope": "official_profile_at_lookup",
+    "note": "補充來源為本次查閱的 Team USA 官方選手頁；頁面所列經歷有各自年份，不據此推定本案事件當年代表資格，也非法律國籍認證。",
+    "sourceRefs": [
+     {
+      "url": "https://www.teamusa.com/profiles/riley-stohr",
+      "retrievedAt": "2026-09-24T05:28:08.394726+00:00",
+      "rawSha256": "1310646752f7aee000d76bed7af3bf8ae56034739217d6d5329ee003a952d28b",
+      "textSha256": "3d0b7075c14266986ed3e72aa46bc72cd518e2496b181be97f7b6cb20ce494a8"
+     }
+    ],
+    "modelReview": {
+     "checkedAt": "2026-09-24",
+     "scope": "country_and_identity_only",
+     "modelSeats": [
+      "Claude",
+      "GPT"
+     ],
+     "requestedModels": [
+      "gpt-6-luna",
+      "haiku"
+     ],
+     "packetSha256": "112b567571a0eb78aa407e0eee7fcc37587cadabf6cabe27f36fde01c61fca9e",
+     "annotationUpdatedAfterReview": false
+    }
    }
   },
   "registryRecordAsPublished": {
@@ -33450,8 +33942,8 @@
    "caseType": "檢體陰性／自願揭露補充品禁用成分",
    "checkedAt": "2026-09-23",
    "sourceLocator": "U.S. Wheelchair Basketball Athlete, Sarah Heinzl, Accepts Public Warning for Anti-Doping Rule Violation：個案公告標題及全部個案實質段落；含物質／規則、處分、日期與成績後果，止於通用教育資訊前",
-   "nationalitySource": "https://www.usada.org/sanction/sarah-heinzl-accepts-public-warning-anti-doping-rule-violation/",
-   "nationalityAsListed": "U.S. Wheelchair Basketball",
+   "nationalitySource": "https://www.paralympic.org/news/us-women-s-wheelchair-basketball-national-team-named",
+   "nationalityAsListed": "2017 US women's wheelchair basketball national team",
    "personType": "Athlete",
    "sourceRow": 519,
    "outcome": "公開警告（無禁賽）",
@@ -33475,14 +33967,39 @@
     ],
     "auditedClaimsSha256": "dca25543f7564c694c40e20d498480e8b44db8e2e1e6f7251c8cac6ed8a3bd4c",
     "claimsChangedAfterReview": false,
-    "unresolvedSourceFields": [
+    "unresolvedSourceFields": [],
+    "reviewState": "editorial_adjudicated",
+    "auditedUnresolvedSourceFields": [
      "country"
-    ],
-    "reviewState": "source_limitations"
+    ]
    },
    "countryEvidence": {
-    "status": "title_only",
-    "note": "國家欄目前依官方公告標題的 U.S. 描述；代表國身分仍待補充官方資料，不能視為法律國籍已確認。"
+    "status": "official_country_as_listed",
+    "checkedAt": "2026-09-24",
+    "scope": "official_team_or_event_record",
+    "note": "依國際帕拉林匹克委員會（IPC）2017 年報導之美國女子輪椅籃球國家隊名單辨識代表隊；與本案同年，但非法律國籍認證。",
+    "sourceRefs": [
+     {
+      "url": "https://www.paralympic.org/news/us-women-s-wheelchair-basketball-national-team-named",
+      "retrievedAt": "2026-09-24T05:27:05.739969+00:00",
+      "rawSha256": "735d09c371f2a03ee158b63778c6a73bd3999bb4c84191b70bba586305e20e73",
+      "textSha256": "41b39274d011bdae97956a7bd3a494b9fb13430574d0ddb9699c1b2beb4486b5"
+     }
+    ],
+    "modelReview": {
+     "checkedAt": "2026-09-24",
+     "scope": "country_and_identity_only",
+     "modelSeats": [
+      "Claude",
+      "GPT"
+     ],
+     "requestedModels": [
+      "gpt-6-luna",
+      "haiku"
+     ],
+     "packetSha256": "ed3e97865b291c9994860a2efe43de4c1a402c987861a9180d559d7419429ceb",
+     "annotationUpdatedAfterReview": false
+    }
    }
   },
   "registryRecordAsPublished": {
@@ -33614,8 +34131,8 @@
    "caseType": "methandienone 代謝物陽性",
    "checkedAt": "2026-09-23",
    "sourceLocator": "U.S. Track & Field Athlete, Darien Moore, Accepts Sanction for Anti-Doping Rule Violation：個案公告標題及全部個案實質段落；含物質／規則、處分、日期與成績後果，止於通用教育資訊前",
-   "nationalitySource": "https://www.usada.org/sanction/darien-moore-accepts-doping-sanction/",
-   "nationalityAsListed": "U.S. Track & Field",
+   "nationalitySource": "https://worldathletics.org/athletes/united-states/darien-moore-14468449",
+   "nationalityAsListed": "United States",
    "personType": "Athlete",
    "sourceRow": 550,
    "outcome": "4年",
@@ -33639,14 +34156,39 @@
     ],
     "auditedClaimsSha256": "e7dd08eaec1ed8c3345d8c838997d5294c1e3024a82eb4f64b758e12ee19e70e",
     "claimsChangedAfterReview": false,
-    "unresolvedSourceFields": [
+    "unresolvedSourceFields": [],
+    "reviewState": "editorial_adjudicated",
+    "auditedUnresolvedSourceFields": [
      "country"
-    ],
-    "reviewState": "source_limitations"
+    ]
    },
    "countryEvidence": {
-    "status": "title_only",
-    "note": "國家欄目前依官方公告標題的 U.S. 描述；代表國身分仍待補充官方資料，不能視為法律國籍已確認。"
+    "status": "official_country_as_listed",
+    "checkedAt": "2026-09-24",
+    "scope": "official_profile_at_lookup",
+    "note": "補充來源為本次查閱的官方選手資料所列國家；不據此認證法律國籍、事件當時代表資格或完整代表國變更史。",
+    "sourceRefs": [
+     {
+      "url": "https://worldathletics.org/athletes/united-states/darien-moore-14468449",
+      "retrievedAt": "2026-09-24T05:24:42.351072+00:00",
+      "rawSha256": "a4e1d44f1932e97f256fafad84f5ea009daf7aac52e4064618708d5e906b0425",
+      "textSha256": "66e4726fddf4fd74c674c6d5f2651052198169d8fa059959d65cca11debe14a4"
+     }
+    ],
+    "modelReview": {
+     "checkedAt": "2026-09-24",
+     "scope": "country_and_identity_only",
+     "modelSeats": [
+      "Claude",
+      "GPT"
+     ],
+     "requestedModels": [
+      "gpt-6-luna",
+      "haiku"
+     ],
+     "packetSha256": "7edee910a7402be35fb5fd01c26271f7865983752a1424c6175b4d8cd71fad7b",
+     "annotationUpdatedAfterReview": false
+    }
    }
   },
   "registryRecordAsPublished": {
@@ -33860,8 +34402,8 @@
    "caseType": "DMBA 未標示但 DMAA 已標示／高風險補充品",
    "checkedAt": "2026-09-23",
    "sourceLocator": "U.S. Bobsled Athlete, J.C. Cruse, Accepts Sanction for Anti-Doping Rule Violation：個案公告標題及全部個案實質段落；含物質／規則、處分、日期與成績後果，止於通用教育資訊前",
-   "nationalitySource": "https://www.usada.org/sanction/jc-cruse-accepts-doping-sanction/",
-   "nationalityAsListed": "U.S. Bobsled",
+   "nationalitySource": "https://www.teamusa.com/profiles/jc-cruse",
+   "nationalityAsListed": "Team USA",
    "personType": "Athlete",
    "sourceRow": 528,
    "outcome": "16個月",
@@ -33885,14 +34427,39 @@
     ],
     "auditedClaimsSha256": "9334a644d6f11c3bc5ed4e36cc440b48642161862fb09c1b951919061c5bab8a",
     "claimsChangedAfterReview": false,
-    "unresolvedSourceFields": [
+    "unresolvedSourceFields": [],
+    "reviewState": "editorial_adjudicated",
+    "auditedUnresolvedSourceFields": [
      "country"
-    ],
-    "reviewState": "source_limitations"
+    ]
    },
    "countryEvidence": {
-    "status": "title_only",
-    "note": "國家欄目前依官方公告標題的 U.S. 描述；代表國身分仍待補充官方資料，不能視為法律國籍已確認。"
+    "status": "official_country_as_listed",
+    "checkedAt": "2026-09-24",
+    "scope": "official_profile_at_lookup",
+    "note": "補充來源為本次查閱的 Team USA 官方選手頁；頁面所列經歷有各自年份，不據此推定本案事件當年代表資格，也非法律國籍認證。",
+    "sourceRefs": [
+     {
+      "url": "https://www.teamusa.com/profiles/jc-cruse",
+      "retrievedAt": "2026-09-24T05:31:13.392675+00:00",
+      "rawSha256": "281efd94b01897fc70f54af8cdb908526a12ec6f7eda66cf0fbed14e509e282a",
+      "textSha256": "75088edcf377584ec667407de33f89e1a806cb01797a4ae16547c49c79df83da"
+     }
+    ],
+    "modelReview": {
+     "checkedAt": "2026-09-24",
+     "scope": "country_and_identity_only",
+     "modelSeats": [
+      "Claude",
+      "GPT"
+     ],
+     "requestedModels": [
+      "gpt-6-luna",
+      "haiku"
+     ],
+     "packetSha256": "48eed7a04f08e136cfc698ad57a0c62ecf3925e18194fe89dede1cb4627eca34",
+     "annotationUpdatedAfterReview": false
+    }
    }
   },
   "registryRecordAsPublished": {
@@ -34850,8 +35417,8 @@
    "caseType": "DMBA 未標示但 DMAA 已標示／高風險補充品",
    "checkedAt": "2026-09-23",
    "sourceLocator": "U.S. Bobsled Athlete, Patrick Schrodt, Accepts Sanction for Anti-Doping Rule Violation：個案公告標題及全部個案實質段落；含物質／規則、處分、日期與成績後果，止於通用教育資訊前",
-   "nationalitySource": "https://www.usada.org/sanction/patrick-schrodt-accepts-doping-sanction/",
-   "nationalityAsListed": "U.S. Bobsled",
+   "nationalitySource": "https://www.teamusa.com/profiles/dillon-schrodt",
+   "nationalityAsListed": "Team USA",
    "personType": "Athlete",
    "sourceRow": 557,
    "outcome": "16個月",
@@ -34875,14 +35442,39 @@
     ],
     "auditedClaimsSha256": "29099d08d669a814f9c498955a895c199589f936479949b6210f8a3627293a49",
     "claimsChangedAfterReview": false,
-    "unresolvedSourceFields": [
+    "unresolvedSourceFields": [],
+    "reviewState": "editorial_adjudicated",
+    "auditedUnresolvedSourceFields": [
      "country"
-    ],
-    "reviewState": "source_limitations"
+    ]
    },
    "countryEvidence": {
-    "status": "title_only",
-    "note": "國家欄目前依官方公告標題的 U.S. 描述；代表國身分仍待補充官方資料，不能視為法律國籍已確認。"
+    "status": "official_country_as_listed",
+    "checkedAt": "2026-09-24",
+    "scope": "official_profile_at_lookup",
+    "note": "補充來源為本次查閱的 Team USA（USOPC）官方選手頁；頁面所列經歷有各自年份，不據此推定本案事件當年代表資格，也非法律國籍認證。",
+    "sourceRefs": [
+     {
+      "url": "https://www.teamusa.com/profiles/dillon-schrodt",
+      "retrievedAt": "2026-09-24T05:25:27.631402+00:00",
+      "rawSha256": "c51450fd9dde2f0efa05830114e5f2c9211769edb507b59889ed2fa0df44ec1d",
+      "textSha256": "8dad4cb514ea96552a500a80674165560445a321e38558ae3b9373ba4de46d88"
+     }
+    ],
+    "modelReview": {
+     "checkedAt": "2026-09-24",
+     "scope": "country_and_identity_only",
+     "modelSeats": [
+      "Claude",
+      "GPT"
+     ],
+     "requestedModels": [
+      "gpt-6-luna",
+      "haiku"
+     ],
+     "packetSha256": "f72e78b8ca1e797e77590885c52cf73c0fb0760e3ae91829c2a74c0fc8b1c8f1",
+     "annotationUpdatedAfterReview": false
+    }
    }
   },
   "registryRecordAsPublished": {
@@ -37492,8 +38084,8 @@
    "caseType": "clomiphene 陽性／退休停算",
    "checkedAt": "2026-09-23",
    "sourceLocator": "U.S. Speed Skating Athlete, Chris Creveling, Accepts Sanction for Anti-Doping Rule Violation：個案公告標題及全部個案實質段落；含物質／規則、處分、日期與成績後果，止於通用教育資訊前",
-   "nationalitySource": "https://www.usada.org/sanction/chris-creveling-accepts-doping-sanction/",
-   "nationalityAsListed": "U.S. Speed Skating",
+   "nationalitySource": "https://www.teamusa.com/profiles/chris-creveling-859947",
+   "nationalityAsListed": "Team USA（Olympian 2014）",
    "personType": "Athlete",
    "sourceRow": 544,
    "outcome": "4年（退休期間停止計時）",
@@ -37517,14 +38109,39 @@
     ],
     "auditedClaimsSha256": "81b172331e3efa31b21ecc58c3ebced346dfcf3a25e79384f9f4f9c792864598",
     "claimsChangedAfterReview": true,
-    "unresolvedSourceFields": [
+    "unresolvedSourceFields": [],
+    "reviewState": "editorial_adjudicated",
+    "auditedUnresolvedSourceFields": [
      "country"
-    ],
-    "reviewState": "source_limitations"
+    ]
    },
    "countryEvidence": {
-    "status": "title_only",
-    "note": "國家欄目前依官方公告標題的 U.S. 描述；代表國身分仍待補充官方資料，不能視為法律國籍已確認。"
+    "status": "official_country_as_listed",
+    "checkedAt": "2026-09-24",
+    "scope": "official_profile_at_lookup",
+    "note": "補充來源為本次查閱的 Team USA 官方選手頁；頁面所列經歷有各自年份，不據此推定本案事件當年代表資格，也非法律國籍認證。",
+    "sourceRefs": [
+     {
+      "url": "https://www.teamusa.com/profiles/chris-creveling-859947",
+      "retrievedAt": "2026-09-24T05:28:08.753805+00:00",
+      "rawSha256": "2348c504493619bb23861d51c30f067b140dd36f31a0e4c7ea063a8e40ea2165",
+      "textSha256": "27c375f3045c238b5050c6eb701f897b417b313cc9c3dcf064100c562a4caa52"
+     }
+    ],
+    "modelReview": {
+     "checkedAt": "2026-09-24",
+     "scope": "country_and_identity_only",
+     "modelSeats": [
+      "Claude",
+      "GPT"
+     ],
+     "requestedModels": [
+      "gpt-6-luna",
+      "haiku"
+     ],
+     "packetSha256": "112b567571a0eb78aa407e0eee7fcc37587cadabf6cabe27f36fde01c61fca9e",
+     "annotationUpdatedAfterReview": false
+    }
    }
   },
   "registryRecordAsPublished": {
@@ -39992,8 +40609,8 @@
    "caseType": "拒絕採樣／禁賽期間仍出賽",
    "checkedAt": "2026-09-23",
    "sourceLocator": "US Paralympic Basketball Athlete, Fischbach, Accepts Sanction For Anti-Doping Rule Violation：2015-12-18 公告全部個案段落：身分、拒絕採樣日期、兩年處分與成績取消；U.S. Paralympic Basketball Athlete, Fischbach, Receives Disqualification of Results For Violating Period Of Ineligibility：2016-04-11 更新全部個案段落：NWBA 大學賽事參賽、過失判斷及追加取消成績",
-   "nationalitySource": "https://www.usada.org/sanction/dylan-fischbach-receives-disqualification-of-results/",
-   "nationalityAsListed": "U.S. Paralympic Basketball",
+   "nationalitySource": "https://www.paralympic.org/news/2018-us-men-s-basketball-team-named",
+   "nationalityAsListed": "2018 U.S. Men's National Wheelchair Basketball Team",
    "personType": "Athlete",
    "sourceRow": 639,
    "outcome": "2年",
@@ -40017,14 +40634,39 @@
     ],
     "auditedClaimsSha256": "914bb5b942c4f5da596217060f954eec9fb9d9dedc9aadcbf6ca546528d8e484",
     "claimsChangedAfterReview": false,
-    "unresolvedSourceFields": [
+    "unresolvedSourceFields": [],
+    "reviewState": "editorial_adjudicated",
+    "auditedUnresolvedSourceFields": [
      "country"
-    ],
-    "reviewState": "source_limitations"
+    ]
    },
    "countryEvidence": {
-    "status": "title_only",
-    "note": "國家欄目前依官方公告標題的 U.S. 描述；代表國身分仍待補充官方資料，不能視為法律國籍已確認。"
+    "status": "official_country_as_listed",
+    "checkedAt": "2026-09-24",
+    "scope": "official_team_or_event_record",
+    "note": "依國際帕拉林匹克委員會（IPC）2018 年報導之美國男子輪椅籃球國家隊名單辨識代表隊；本案事件為 2015 年，不據此推定 2015 年代表資格，也非法律國籍認證。",
+    "sourceRefs": [
+     {
+      "url": "https://www.paralympic.org/news/2018-us-men-s-basketball-team-named",
+      "retrievedAt": "2026-09-24T05:31:14.614672+00:00",
+      "rawSha256": "682a2d098af48e71f7a1d5cc6261ca417ffff3984b6eede7ba5e6e95b7e82880",
+      "textSha256": "aa5181fb84c5ed5e1601fc0c11f49bd86d2562e7926c375fec636222c7a88aba"
+     }
+    ],
+    "modelReview": {
+     "checkedAt": "2026-09-24",
+     "scope": "country_and_identity_only",
+     "modelSeats": [
+      "Claude",
+      "GPT"
+     ],
+     "requestedModels": [
+      "gpt-6-luna",
+      "haiku"
+     ],
+     "packetSha256": "48eed7a04f08e136cfc698ad57a0c62ecf3925e18194fe89dede1cb4627eca34",
+     "annotationUpdatedAfterReview": false
+    }
    }
   },
   "registryRecordAsPublished": {

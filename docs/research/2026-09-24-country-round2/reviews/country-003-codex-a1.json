@@ -1,0 +1,149 @@
+{
+  "cases": [
+    {
+      "id": "usada-25958bca1e21",
+      "status": "supported",
+      "identity": "supported",
+      "country": "supported",
+      "temporalScope": "supported",
+      "evidence": [
+        {
+          "documentId": "country",
+          "startLine": 54,
+          "endLine": 60,
+          "note": "World Athletics profile identifies Cary Cooper, lists throwing events, United States, and birth date 23 Apr 1969."
+        },
+        {
+          "documentId": "case",
+          "startLine": 7,
+          "endLine": 8,
+          "note": "USADA identifies Cary Cooper as a track and field athlete from Houston, age 55, consistent with the profile and 2024 results location."
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-89c25ce0aa40",
+      "status": "supported",
+      "identity": "supported",
+      "country": "supported",
+      "temporalScope": "supported",
+      "evidence": [
+        {
+          "documentId": "country",
+          "startLine": 54,
+          "endLine": 61,
+          "note": "World Athletics profile identifies Darien Moore, lists shot put, United States, and birth date 10 Jun 1991."
+        },
+        {
+          "documentId": "case",
+          "startLine": 7,
+          "endLine": 8,
+          "note": "USADA identifies Darien Moore as a track and field athlete, age 25, from Bakersfield; the age matches the profile in 2017."
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-73473ebf3acd",
+      "status": "issue",
+      "identity": "supported",
+      "country": "issue",
+      "temporalScope": "issue",
+      "evidence": [
+        {
+          "documentId": "country",
+          "startLine": 19,
+          "endLine": 20,
+          "note": "USATF report is dated 20 Mar 2022 and names the Masters Indoor Championships."
+        },
+        {
+          "documentId": "country",
+          "startLine": 28,
+          "endLine": 30,
+          "note": "Ana Irizarry of Passaic, New Jersey, set an American record at the meet."
+        },
+        {
+          "documentId": "case",
+          "startLine": 7,
+          "endLine": 8,
+          "note": "USADA identifies Ana Irizarry, a 40-year-old track and field athlete from Passaic, and says her sample was collected at the same 2022 USATF meet."
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "explanation": "The source documents participation in a USATF domestic meet and an American record, but does not explicitly list Ana Irizarry's sporting country. The proposed United States country annotation exceeds the evidence.",
+          "suggestion": "Remove the country value or replace it with a narrowly worded note that the 2022 USATF report records her American-record performance at this domestic meet."
+        },
+        {
+          "field": "temporalScope",
+          "explanation": "The proposed temporal note treats the report as establishing only participation in a domestic event, but the report also says she set an American record; neither statement establishes country affiliation or national-team status.",
+          "suggestion": "Limit the note to what the report explicitly records: her American-record performance at the 2022 USATF Masters Indoor Championships."
+        }
+      ]
+    },
+    {
+      "id": "usada-a065a9e92dd5",
+      "status": "issue",
+      "identity": "supported",
+      "country": "issue",
+      "temporalScope": "supported",
+      "evidence": [
+        {
+          "documentId": "country",
+          "startLine": 12,
+          "endLine": 16,
+          "note": "USA Hockey says the award recognizes the top American-born player in NCAA Division I men's college hockey and identifies McKay as its 2022 recipient."
+        },
+        {
+          "documentId": "country",
+          "startLine": 20,
+          "endLine": 24,
+          "note": "The report identifies McKay as a Minnesota State goaltender with 2021–22 college achievements."
+        },
+        {
+          "documentId": "case",
+          "startLine": 7,
+          "endLine": 8,
+          "note": "USADA identifies Dryden McKay as a hockey athlete from Mankato, age 25, consistent with the Minnesota State player in the 2022 report."
+        }
+      ],
+      "findings": [
+        {
+          "field": "country",
+          "explanation": "The award's criterion is American birth, and McKay's receipt of it supports that he was regarded as an American-born NCAA player. It does not explicitly identify his sporting country as United States or establish national-team affiliation.",
+          "suggestion": "Describe the source as a 2022 USA Hockey award for the top American-born NCAA Division I men's player, without assigning a sporting-country value."
+        }
+      ]
+    },
+    {
+      "id": "usada-f8c1f2c29e25",
+      "status": "supported",
+      "identity": "supported",
+      "country": "supported",
+      "temporalScope": "supported",
+      "evidence": [
+        {
+          "documentId": "country",
+          "startLine": 12,
+          "endLine": 14,
+          "note": "USA Hockey identifies the 2017 U.S. Women's National Under-18 Team and its 2017 championship competition."
+        },
+        {
+          "documentId": "country",
+          "startLine": 33,
+          "endLine": 36,
+          "note": "Madeline Wethington of Edina, Minnesota, is named on that roster."
+        },
+        {
+          "documentId": "case",
+          "startLine": 7,
+          "endLine": 8,
+          "note": "USADA identifies Madeline Wethington as an ice hockey athlete from Edina, age 21, in the 2021 case; the city matches the roster listing."
+        }
+      ],
+      "findings": []
+    }
+  ]
+}

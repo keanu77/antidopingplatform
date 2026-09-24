@@ -1,6 +1,6 @@
 import test from "node:test";
 import assert from "node:assert/strict";
-import { readFileSync, mkdtempSync, rmSync } from "node:fs";
+import { readFileSync, mkdtempSync, rmSync, existsSync, readdirSync } from "node:fs";
 import { tmpdir } from "node:os";
 import { join, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
@@ -202,10 +202,14 @@ test("analysis keeps full denominators, unknown outcomes and actual independent 
   assert.equal(data.comparedByAtLeastTwo, 500);
   assert.equal(data.comparedByThree, cases.filter(c => c.review.sourceComparison.modelSeats.length >= 3).length);
   assert.equal(data.comparedByFour, cases.filter(c => c.review.sourceComparison.modelSeats.length === 4).length);
-  const followups = read("data/case-source-followups.json");
-  assert.equal(data.countryEvidencePending, 258 - followups.countryChanges.length,
+  const roundDir = join(root, "data/country-followups");
+  const overlays = [read("data/case-source-followups.json"),
+    ...(existsSync(roundDir) ? readdirSync(roundDir).filter(f => f.endsWith(".json")).map(f => read(`data/country-followups/${f}`)) : [])];
+  const countryChanges = overlays.flatMap(o => o.countryChanges);
+  assert.equal(new Set(countryChanges.map(c => c.id)).size, countryChanges.length, "A case may be resolved by only one round");
+  assert.equal(data.countryEvidencePending, 258 - countryChanges.length,
     "Only individually accepted official-source follow-ups may resolve a title-only gap");
-  assert.equal(data.countrySourceFollowups, followups.countryChanges.length);
+  assert.equal(data.countrySourceFollowups, countryChanges.length);
   assert.equal(data.countryEvidencePending, cases.filter(c => c.review.countryEvidence?.status === "title_only").length);
   const confirmedCountry = cases.filter(c => c.review.countryEvidence?.status !== "title_only");
   assert.equal(data.countryConfirmedDenominator, confirmedCountry.length);
@@ -302,4 +306,24 @@ test("baseline is immutable and production dataset rebuild is reproducible", () 
     execFileSync(process.execPath, [resolve(root, "scripts/rebuild-dataset.mjs"), "--out", out]);
     assert.deepEqual(JSON.parse(readFileSync(out, "utf8")), cases);
   } finally { rmSync(temp, { recursive: true, force: true }); }
+});
+
+test("later country rounds apply only reviewed changes and keep held cases unresolved", () => {
+  const roundDir = join(root, "data/country-followups");
+  if (!existsSync(roundDir)) return;
+  for (const file of readdirSync(roundDir).filter(f => f.endsWith(".json"))) {
+    const overlay = read(`data/country-followups/${file}`);
+    for (const fix of overlay.countryChanges) {
+      const c = byId(fix.id);
+      assert.equal(c.review.countryEvidence.status, "official_country_as_listed", fix.id);
+      assert.ok(fix.modelReview.modelSeats.length >= 2, `${fix.id} needs two model families`);
+      assert.ok(fix.sourceRefs.every(r => /^[0-9a-f]{64}$/.test(r.textSha256)), `${fix.id} source hash`);
+      assert.equal(c.review.countryFollowup, undefined, `${fix.id} must not keep a held note`);
+    }
+    for (const held of overlay.heldCountryChecks) {
+      const c = byId(held.id);
+      assert.equal(c.review.countryEvidence.status, "title_only", held.id);
+      assert.equal(c.review.countryFollowup.resolution, "held", held.id);
+    }
+  }
 });
