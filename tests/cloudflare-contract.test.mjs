@@ -242,3 +242,31 @@ test("prototype names are never routes, articles or TUE matches; ordinary contra
   assert.equal((await call("education/quizzes/1/answer", { body: {} })).status, 400);
   assert.equal((await call("tue/check", { body: { drugName: "prednisolone" } })).data.matchedKey, "prednisolone");
 });
+
+test("feedback digest cron requires the secret and mails what /api/feedback actually stored", async (t) => {
+  const db = d1(t);
+  const error = { ...rating, type: "error", errorType: "案例資料錯誤", description: "年份錯" };
+  const feedback = { ...rating, type: "feedback", rating: 2, message: "需要補充來源" };
+  for (const body of [rating, error, feedback]) {
+    assert.equal((await call("feedback", { body, env: { FEEDBACK_DB: db } })).status, 200);
+  }
+  const env = { FEEDBACK_DB: db, CRON_SECRET: "s3cret", ZSEND_API_KEY: "k", FEEDBACK_DIGEST_TO: "to@example.test" };
+  assert.equal((await call("cron/feedback-digest", { env })).status, 401);
+  assert.equal((await call("cron/feedback-digest", { env, headers: { "x-cron-secret": "wrong" } })).status, 401);
+  assert.equal((await call("cron/feedback-digest", { env, method: "POST", body: {}, headers: { "x-cron-secret": "s3cret" } })).status, 405);
+
+  const sent = [];
+  t.mock.method(globalThis, "fetch", async (_url, init) => {
+    sent.push(JSON.parse(init.body));
+    return new Response("{}", { status: 200 });
+  });
+  const result = await call("cron/feedback-digest", { env, headers: { "x-cron-secret": "s3cret" } });
+  assert.equal(result.status, 200);
+  assert.deepEqual(result.data, { ok: true, sent: true, count: 3 });
+  assert.equal(sent.length, 1);
+  assert.deepEqual(sent[0].to, ["to@example.test"]);
+  // feedback-v1 JSON 須被還原：錯誤回報與文字建議出現在信裡，而不是原始 JSON。
+  assert.match(sent[0].text, /年份錯/);
+  assert.match(sent[0].text, /需要補充來源/);
+  assert.doesNotMatch(sent[0].text, /feedback-v1/);
+});

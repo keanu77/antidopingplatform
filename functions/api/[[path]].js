@@ -8,6 +8,8 @@ import {
   queryCases, getCaseById, getFilterOptions, stats, lookupSubstance,
   wadaCategories, quizzes, specialties, adrv, substancesData, tueContent,
 } from "../_lib/store.js";
+import { buildDigestHtml, buildDigestText, rowFromD1, secretMatches } from "../_lib/digest.js";
+import { emailConfigured, sendEmail } from "../_lib/email.js";
 
 const MAX_SEARCH_LEN = 200;
 const MAX_BODY_BYTES = 32 * 1024;
@@ -150,6 +152,47 @@ async function handleFeedback(request, env) {
   return json({ ok: true }, 200, NO_STORE);
 }
 
+// ── 每日回饋彙整信 ───────────────────────────────────────────────────
+// 由外部排程（cron-job.org）每天打一次：GET /api/cron/feedback-digest
+// header：x-cron-secret: <CRON_SECRET>。不收 ?secret= query（會洩漏到 log / Referer）。
+// 查最近 24 小時的回饋寄給站長；當日無回饋則不寄。
+const DIGEST_WINDOW_MS = 24 * 3600_000;
+
+async function handleFeedbackDigest(request, env) {
+  if (!secretMatches(request.headers.get("x-cron-secret"), env.CRON_SECRET)) {
+    return json({ error: "unauthorized" }, 401, NO_STORE);
+  }
+  if (!env.FEEDBACK_DB) return json({ error: "FEEDBACK_DB 未綁定" }, 500, NO_STORE);
+
+  let rows;
+  try {
+    const { results } = await env.FEEDBACK_DB
+      .prepare("SELECT * FROM feedback WHERE created_at >= ? ORDER BY created_at ASC")
+      .bind(Date.now() - DIGEST_WINDOW_MS).all();
+    rows = (results ?? []).map(rowFromD1);
+  } catch (err) {
+    console.error("feedback digest 查詢失敗:", err?.message);
+    return json({ error: "查詢失敗" }, 500, NO_STORE);
+  }
+
+  if (rows.length === 0) return json({ ok: true, sent: false, count: 0 }, 200, NO_STORE);
+  if (!emailConfigured(env)) return json({ error: "ZSEND_API_KEY 未設定" }, 500, NO_STORE);
+  if (!env.FEEDBACK_DIGEST_TO) return json({ error: "FEEDBACK_DIGEST_TO 未設定" }, 500, NO_STORE);
+
+  try {
+    await sendEmail(env, {
+      to: env.FEEDBACK_DIGEST_TO,
+      subject: `運動禁藥案例平台 每日回饋總結（${rows.length} 筆）`,
+      html: buildDigestHtml(rows, env.SITE_URL || undefined),
+      text: buildDigestText(rows),
+    });
+    return json({ ok: true, sent: true, count: rows.length }, 200, NO_STORE);
+  } catch (err) {
+    console.error("feedback digest 寄送失敗:", err?.message);
+    return json({ error: "寄送失敗" }, 500, NO_STORE);
+  }
+}
+
 // ── 路由 ─────────────────────────────────────────────────────────────
 export async function onRequest({ request, env, params }) {
   const url = new URL(request.url);
@@ -278,6 +321,11 @@ export async function onRequest({ request, env, params }) {
     return json({ error: "需使用 POST" }, 405, NO_STORE);
   }
 
+  // ---- /api/cron/feedback-digest ----
+  if (group === "cron" && a === "feedback-digest" && !b) {
+    if (method !== "GET") return json({ error: "需使用 GET" }, 405, NO_STORE);
+    return handleFeedbackDigest(request, env);
+  }
   // ---- /api/health ----
   if (group === "health") {
     return json({ status: "ok", cases: stats.overview().totalCases, timestamp: new Date().toISOString() }, 200, NO_STORE);
