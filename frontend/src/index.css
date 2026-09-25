@@ -117,7 +117,7 @@
 .case-result-card:hover { border-color: var(--case-accent); box-shadow: 0 7px 20px #193f2812; }
 .case-result-card:focus-visible { outline: 3px solid #047857; outline-offset: 4px; }
 .case-result-inner { width: 100%; min-width: 0; display: flex; flex-direction: column; }
-.case-result-heading { padding: 20px 24px; background: var(--case-tint); border-top: 4px solid var(--case-accent); border-radius: 13px 13px 0 0; }
+.case-result-heading { padding: 20px 24px; background: var(--case-tint); border-radius: 13px 13px 0 0; }
 .case-result-heading h3 { overflow-wrap: anywhere; }
 .case-result-heading p { margin-top: 4px; }
 .case-result-meta { padding: 20px 24px 0; }
