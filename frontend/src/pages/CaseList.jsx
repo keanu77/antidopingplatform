@@ -10,7 +10,6 @@ import {
   ChevronRight,
 } from "lucide-react";
 import { casesAPI } from "../services/api";
-import CaseReviewNotice from "../components/CaseReviewNotice";
 import { hasSubstanceCategoryLabel } from "../utils/substanceCategory";
 import { searchCache, filterCache } from "../utils/cache";
 import { debounce } from "../utils/debounce";
@@ -261,22 +260,12 @@ function CaseList() {
     void loadCases(EMPTY_FILTERS, 1);
   };
 
-  const substanceCategoryColors = {
-    興奮劑: "bg-red-100 text-red-700",
-    類固醇: "bg-purple-100 text-purple-700",
-    EPO: "bg-blue-100 text-blue-700",
-    利尿劑: "bg-cyan-100 text-cyan-700",
-    生長激素: "bg-green-100 text-green-700",
-    血液興奮劑: "bg-pink-100 text-pink-700",
-    其他: "bg-gray-100 text-gray-700",
-  };
-
   return (
     <div>
       <div className="mb-8">
         <h1 className="text-3xl font-bold text-gray-900 mb-4">相關案例</h1>
         <p className="text-gray-600">搜尋並篩選國際運動禁藥案例</p>
-        <p className="mt-3 text-sm text-gray-600">收錄違規、污染、合法 TUE 與處分撤銷等教學案例。每筆標示查核層級；官方名冊核對不代表裁決全文已審閱。年份依事件年或官方裁決公布年，詳見個案。</p>
+        <p className="mt-3 text-sm text-gray-600">收錄違規、污染、合法 TUE 與處分撤銷等教學案例。查核層級與來源限制詳見個案頁。年份依事件年或官方裁決公布年，詳見個案。</p>
       </div>
 
       {/* Search Bar */}
@@ -479,12 +468,8 @@ function CaseList() {
                       </h3>
                       <p className="text-gray-600">{caseItem.sport}</p>
                     </div>
-                    <div className="bg-danger-100 p-2 rounded-lg">
-                      <AlertTriangle className="h-5 w-5 text-danger-600" />
-                    </div>
                   </div>
 
-                  <CaseReviewNotice review={caseItem.review} compact />
                   <div className="space-y-2 mb-4">
                     <div className="flex items-center text-sm text-gray-600">
                       <MapPin className="h-4 w-4 mr-2" />
@@ -496,16 +481,9 @@ function CaseList() {
                     </div>
                   </div>
 
-                  <div className="flex flex-wrap gap-2">
-                    {hasSubstanceCategoryLabel(caseItem.substanceCategory) && <span
-                      className={`px-2 py-1 text-xs rounded-full ${substanceCategoryColors[caseItem.substanceCategory] || "bg-gray-100 text-gray-700"}`}
-                    >
-                      {caseItem.substanceCategory}
-                    </span>}
-                    <span className="px-2 py-1 text-xs rounded-full bg-gray-100 text-gray-700">
-                      {caseItem.substance}
-                    </span>
-                  </div>
+                  <p className="text-sm leading-relaxed text-gray-600 break-words">
+                    {caseItem.substance}
+                  </p>
 
                   {caseItem.punishment && (
                     <div className="mt-4 pt-4 border-t border-gray-200">
