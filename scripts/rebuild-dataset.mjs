@@ -313,6 +313,9 @@ for (const followupPath of followupPaths) {
     c.review.countryFollowup = { checkedAt: check.checkedAt ?? followup.checkedAt, resolution: "held", note: check.reason };
   }
 }
+// Legacy and new sources spell the S5 label differently; unify so statistics don't split one class.
+const unifyCategory = (c) => ({ ...c, substanceCategory: c.substanceCategory.replaceAll("利尿劑和掩蔽劑", "利尿劑與掩蔽劑") });
+cases = cases.map(unifyCategory);
 cases.sort((a, b) => b.year - a.year || a.id.localeCompare(b.id));
 if (curated.length !== 500) throw new Error(`New-case target requires 500 additions; found ${curated.length}`);
 if (cases.length !== 517) throw new Error(`Expected 17 legacy corrections plus 500 additions; found ${cases.length}`);
