@@ -13,6 +13,7 @@ import { casesAPI } from "../services/api";
 import { hasSubstanceCategoryLabel } from "../utils/substanceCategory";
 import { searchCache, filterCache } from "../utils/cache";
 import { debounce } from "../utils/debounce";
+import { caseDurationStyle } from "../utils/banDurationColors";
 
 const EMPTY_FILTERS = {
   search: "",
@@ -22,12 +23,6 @@ const EMPTY_FILTERS = {
   substanceCategory: "",
   punishmentType: "",
 };
-
-// Decorative palette is stable across filtering and pagination, independent of outcome.
-function caseCardTone(id) {
-  const hash = Array.from(String(id)).reduce((value, char) => (value * 31 + char.charCodeAt(0)) >>> 0, 0);
-  return ["sage", "sky", "sand", "lilac"][hash % 4];
-}
 
 function CaseList() {
   const [searchParams, setSearchParams] = useSearchParams();
@@ -464,7 +459,8 @@ function CaseList() {
                 key={caseItem._id}
                 to={`/cases/${caseItem._id}`}
                 onClick={rememberScroll}
-                className={`case-result-card case-result-card--${caseCardTone(caseItem._id)}`}
+                className="case-result-card"
+                style={caseDurationStyle(caseItem)}
               >
                 <div className="case-result-inner">
                   <div className="case-result-heading">

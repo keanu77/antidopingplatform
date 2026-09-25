@@ -109,11 +109,8 @@
   .clean-responsibility h2 { font-size: 20px; }
 }
 
-/* Decorative case colors carry no sanction or review-status meaning. */
+/* Case cards use a pale tint of the corresponding ban-duration chart color. */
 .case-result-card { --case-tint: #e8f3ed; --case-accent: #568870; --case-wash: #f3f8f5; display: flex; min-width: 0; background: #fff; border: 1px solid #dce5df; border-radius: 14px; box-shadow: 0 2px 5px #193f2808; transition: box-shadow .2s, border-color .2s; }
-.case-result-card--sky { --case-tint: #e9f0f8; --case-accent: #6287ad; --case-wash: #f4f7fb; }
-.case-result-card--sand { --case-tint: #f6efdf; --case-accent: #ad8c50; --case-wash: #fbf8f1; }
-.case-result-card--lilac { --case-tint: #f0ecf5; --case-accent: #9581ab; --case-wash: #f8f6fb; }
 .case-result-card:hover { border-color: var(--case-accent); box-shadow: 0 7px 20px #193f2812; }
 .case-result-card:focus-visible { outline: 3px solid #047857; outline-offset: 4px; }
 .case-result-inner { width: 100%; min-width: 0; display: flex; flex-direction: column; }

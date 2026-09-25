@@ -3,6 +3,7 @@ import { Chart as ChartJS, CategoryScale, LinearScale, BarElement, ArcElement, T
 import { Bar, Doughnut } from "react-chartjs-2";
 import { BarChart3, AlertTriangle, ExternalLink } from "lucide-react";
 import { statsAPI } from "../services/api";
+import { banDurationColor } from "../utils/banDurationColors";
 import { majorEvents, evidenceCards } from "../data/statisticsEvidence";
 
 ChartJS.register(CategoryScale, LinearScale, BarElement, ArcElement, Title, Tooltip, Legend);
@@ -15,7 +16,7 @@ const options = {
 };
 const chartData = (rows) => ({
   labels: rows.map((row) => row.label),
-  datasets: [{ label: "案例數", data: rows.map((row) => row.count), backgroundColor: rows.map((_, i) => colors[i % colors.length]) }],
+  datasets: [{ label: "案例數", data: rows.map((row) => row.count), backgroundColor: rows.map((row, i) => row.color ?? colors[i % colors.length]) }],
 });
 
 function ChartPanel({ title, note, rows, doughnut = false }) {
@@ -114,7 +115,7 @@ function Statistics() {
       <ChartPanel title="運動項目分布（前十項）" note={`圖中涵蓋 ${sportRows.reduce((sum, row) => sum + row.count, 0)}／${total} 件，其餘項目未顯示；不可解讀為項目盛行率。`} rows={sportRows} />
       {countryRows.length > 0 && <ChartPanel title="國家／地區分布（已有國家來源）" note={`分母為國家欄位已有來源依據的 ${review.countryConfirmedDenominator}／${total} 件；另 ${review.countryEvidencePending} 件僅依公告標題標示，待補證前不計入此圖。前十五名以外合併為「其他國家／地區」；不可解讀為國家違規風險。`} rows={countryRows} />}
       <ChartPanel title="物質／規則標籤分布" note={`本圖納入已有物質／規則標籤的 ${substanceTotal}／${total} 件；另 ${total - substanceTotal} 件分類未核對或未標示，排除於本圖。前九種標籤以外合併為「其他標籤」；混合分類及非物質違規保留原標示，不當成單一 WADA 物質計數。`} rows={substanceRows} doughnut />
-      <ChartPanel title="禁賽期限分布" note={`依個案公開處分文字分組，共 ${total} 件。「無禁賽」也可能包含公開警告或違規成立但免禁賽，不能視為全部無違規。`} rows={data.ban.map((row) => ({ label: row.category, count: row.count }))} />
+      <ChartPanel title="禁賽期限分布" note={`依個案公開處分文字分組，共 ${total} 件。「無禁賽」也可能包含公開警告或違規成立但免禁賽，不能視為全部無違規。`} rows={data.ban.map((row) => ({ label: row.category, count: row.count, color: banDurationColor(row.category) }))} />
       <div className="lg:col-span-2"><ChartPanel title="收錄案例年份分布" note="年份依個案事件年或裁決公布年，且收錄並不完整；不得解讀為每年違規發生率或上升下降趨勢。" rows={data.yearly.map((row) => ({ label: String(row.year), count: row.count }))} /></div>
     </div>
 
