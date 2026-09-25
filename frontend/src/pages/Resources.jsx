@@ -36,9 +36,9 @@ const resources = [
     icon: BookOpen,
     items: [
       {
-        name: "CTADA 線上學習平台",
-        desc: "全中運/全大運選手必修課程",
-        url: "https://elearning.ctada.org.tw/",
+        name: "CTADA 學習與測驗公告",
+        desc: "台灣賽會報名與測驗要求，以官方最新公告為準",
+        url: "https://www.antidoping.org.tw/news/測驗平台公告/",
       },
       {
         name: "WADA ADEL 學習平台",

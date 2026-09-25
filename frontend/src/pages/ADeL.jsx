@@ -138,7 +138,7 @@ function ADeL() {
         <div className="flex items-center gap-2 mb-3">
           <Globe className="h-5 w-5 text-emerald-600" />
           <h2 className="text-lg font-bold text-gray-900">
-            ADeL 與 CTADA 線上學習有什麼不同？
+            ADeL 與 CTADA 教育資源有什麼不同？
           </h2>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
@@ -153,7 +153,7 @@ function ADeL() {
           </div>
           <div className="p-4 rounded-xl bg-blue-50 border border-blue-100">
             <h3 className="font-bold text-blue-800 mb-1.5">
-              CTADA 線上學習（台灣）
+              CTADA 教育資源（台灣）
             </h3>
             <p className="text-sm text-blue-900/80 leading-relaxed">
               CTADA 提供中文反禁藥學習資源。115 年全中運、全大運已取消將線上測驗通過證明列為報名條件，其他賽會請核對各自公告。
@@ -178,12 +178,12 @@ function ADeL() {
           <ExternalLink className="h-4 w-4" />
         </a>
         <a
-          href="https://elearning.ctada.org.tw/"
+          href="https://www.antidoping.org.tw/news/測驗平台公告/"
           target="_blank"
           rel="noopener noreferrer"
           className="flex items-center justify-center gap-2 px-5 py-4 bg-white text-emerald-700 border border-emerald-200 rounded-2xl font-bold hover:bg-emerald-50 transition-colors"
         >
-          前往 CTADA 線上學習
+          查看 CTADA 官方公告
           <ExternalLink className="h-4 w-4" />
         </a>
       </div>
