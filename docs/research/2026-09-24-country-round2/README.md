@@ -5,6 +5,8 @@
 - 第一階段（2026-09-24 上線，commit 64471a4）：24 件採用，待補證 → 191。
 - 第二階段（其他運動項目，2026-09-24 上線，commit ff61902）：再採用 3 件，另 4 件因同人疑義保留。
 - 第三階段（2026-09-25）：子代理初篩 144 件（`triage-2026-09-25.json`，僅線索非證據）；舊 teamusa.org 頁已轉址，改以 Team USA 新版選手頁與 FEI 頁取得原件，採用 Raymond、Dawson、Harrison、Dutta 4 件；Nackoul 因家鄉不同州保留。另 56 件因搜尋額度用盡尚未搜尋。
+- 第四階段（2026-09-25）：補搜前述 56 件（自行車 38、田徑 15、舉重 3）並重試第三階段候選。採用 6 件：Travieso（UCI 選手資料，生日與 USADA 年齡一致）、Qualls（USATF Masters 2023 WMA 室內賽 Team USATF，Reno 與 M70 一致）、Sanford、Westbrook、Wolter、Mossberg（World Athletics 生日與 USADA 年齡一致）。保留 4 件：Bushey、Nielson、Bidlow（World Athletics 頁無生日，僅姓名＋項目）、Vrabel（Team USA 頁家鄉 Marquette 與 USADA Chicago 不同）。未採用：Cicely Kyle 年齡差約 8 歲；Shafer、Dosterschill、Cuicchi、Warren 的舊 teamusa.org 文章已轉址首頁、原件無法取得；Abers、Grove、Moffett 僅國內賽紀錄；Hisaka 僅 USA Weightlifting 受處分會員名單。自行車 38 件無符合標準的官方代表紀錄。國家待補證 184→178。
+- `fetch-source-followups.py` 另擷取元素 `data-props` 內嵌 JSON（UCI 選手頁的國籍／生日在此），只影響新下載的來源，既有快取與 SHA 不變。
 - 每件的 `checkedAt` 取自該案最後一次有效模型對讀的完成日期，不隨後續套用改寫。
 
 ## 方法

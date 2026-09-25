@@ -300,5 +300,75 @@
     "disposition": "accepted_as_proposed",
     "reason": "官方國家／代表隊資料與身分配對已核對，保留來源時期及法律國籍限制。",
     "modelFindingsConsidered": 0
+  },
+  {
+    "id": "usada-16f2d1c7b31c",
+    "athleteName": "Frank Travieso",
+    "disposition": "accepted_as_proposed",
+    "reason": "官方國家／代表隊資料與身分配對已核對，保留來源時期及法律國籍限制。",
+    "modelFindingsConsidered": 0
+  },
+  {
+    "id": "usada-7774f20822ed",
+    "athleteName": "Robert Jerry Qualls",
+    "disposition": "accepted_as_proposed",
+    "reason": "官方國家／代表隊資料與身分配對已核對，保留來源時期及法律國籍限制。",
+    "modelFindingsConsidered": 0
+  },
+  {
+    "id": "usada-55dafea87f5e",
+    "athleteName": "Kayla Bushey",
+    "disposition": "held",
+    "reason": "World Athletics 官方頁列 United States，但未列生日、成績地點亦無法連結 USADA 所述城市；兩模型均指出僅憑姓名與項目不足以辨識同人。未找到可連結同人的官方資料前維持待確認。",
+    "modelFindingsConsidered": 3
+  },
+  {
+    "id": "usada-fcfbbcf8949b",
+    "athleteName": "Jonathan Sanford",
+    "disposition": "accepted_as_proposed",
+    "reason": "官方國家／代表隊資料與身分配對已核對，保留來源時期及法律國籍限制。",
+    "modelFindingsConsidered": 0
+  },
+  {
+    "id": "usada-4ab89c689116",
+    "athleteName": "Atlanta Westbrook",
+    "disposition": "accepted_as_proposed",
+    "reason": "官方國家／代表隊資料與身分配對已核對，保留來源時期及法律國籍限制。",
+    "modelFindingsConsidered": 0
+  },
+  {
+    "id": "usada-994755070e39",
+    "athleteName": "Kenna Wolter",
+    "disposition": "accepted_as_proposed",
+    "reason": "官方國家／代表隊資料與身分配對已核對，保留來源時期及法律國籍限制。",
+    "modelFindingsConsidered": 0
+  },
+  {
+    "id": "usada-1f56bc7e39f1",
+    "athleteName": "Nick Mossberg",
+    "disposition": "accepted_as_proposed",
+    "reason": "官方國家／代表隊資料與身分配對已核對，保留來源時期及法律國籍限制。",
+    "modelFindingsConsidered": 0
+  },
+  {
+    "id": "usada-2368662f3457",
+    "athleteName": "Cliff Nielson",
+    "disposition": "held",
+    "reason": "World Athletics 官方頁列 United States，但未列生日、成績地點亦無法連結 USADA 所述城市；兩模型均指出僅憑姓名與項目不足以辨識同人。未找到可連結同人的官方資料前維持待確認。",
+    "modelFindingsConsidered": 2
+  },
+  {
+    "id": "usada-edde57057db6",
+    "athleteName": "Cody Bidlow",
+    "disposition": "held",
+    "reason": "World Athletics 官方頁列 United States，但未列生日、成績地點亦無法連結 USADA 所述城市；兩模型均指出僅憑姓名與項目不足以辨識同人。未找到可連結同人的官方資料前維持待確認。",
+    "modelFindingsConsidered": 2
+  },
+  {
+    "id": "usada-c624acaae104",
+    "athleteName": "Andrew Vrabel",
+    "disposition": "held",
+    "reason": "Team USA 官方頁所列家鄉（Marquette）與 USADA 公告（Chicago, Ill.）不同，且摘錄未明列代表國家；兩模型均指出同人與國家欄位證據不足，維持待確認。",
+    "modelFindingsConsidered": 3
   }
 ]

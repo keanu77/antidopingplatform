@@ -4664,5 +4664,1205 @@
       "codex"
     ],
     "coverageComplete": true
+  },
+  {
+    "id": "usada-16f2d1c7b31c",
+    "athleteName": "Frank Travieso",
+    "modelReviews": [
+      {
+        "seat": "claude",
+        "requestedModel": "haiku",
+        "batch": "country-014",
+        "attempt": 1,
+        "packetSha256": "759e83ae2224481823528f34f537fefe64fba9b64758abdd1ddd736ddd52aac9",
+        "answerSha256": "c84c9516fdc47f1c86bed4f10da1c1b6fd0f7e5fa9468f772f71ad96e4c8585a",
+        "characterStart": 27,
+        "characterEnd": 658,
+        "wholeBatchValid": false,
+        "answer": {
+          "id": "usada-16f2d1c7b31c",
+          "status": "supported",
+          "identity": "supported",
+          "country": "supported",
+          "temporalScope": "supported",
+          "evidence": [
+            {
+              "documentId": "case",
+              "startLine": 7,
+              "endLine": 7,
+              "note": "Frank Travieso, of Athens, Ga., athlete in cycling, 43 years old at 2023 test"
+            },
+            {
+              "documentId": "country",
+              "startLine": 104,
+              "endLine": 107,
+              "note": "UCI official: givenName Frank, familyName TRAVIESO, dob 02.03.1980, nationality USA"
+            }
+          ],
+          "findings": []
+        }
+      },
+      {
+        "seat": "claude",
+        "requestedModel": "haiku",
+        "batch": "country-014",
+        "attempt": 2,
+        "packetSha256": "759e83ae2224481823528f34f537fefe64fba9b64758abdd1ddd736ddd52aac9",
+        "answerSha256": "b16a33e4d0321f36246f59fadb1977af63d21376823f4bea2b6d19671640846f",
+        "characterStart": 27,
+        "characterEnd": 733,
+        "wholeBatchValid": true,
+        "answer": {
+          "id": "usada-16f2d1c7b31c",
+          "status": "supported",
+          "identity": "supported",
+          "country": "supported",
+          "temporalScope": "supported",
+          "evidence": [
+            {
+              "documentId": "country",
+              "startLine": 104,
+              "endLine": 107,
+              "note": "UCI official profile embedded data confirms givenName 'Frank', familyName 'TRAVIESO', dob '02.03.1980', nationality 'USA'"
+            },
+            {
+              "documentId": "case",
+              "startLine": 7,
+              "endLine": 7,
+              "note": "USADA case confirms identity: 'Frank Travieso, of Athens, Ga.' age 43, tested 2023-09-03; DOB 1980 matches UCI age"
+            }
+          ],
+          "findings": []
+        }
+      },
+      {
+        "seat": "codex",
+        "requestedModel": "gpt-6-luna",
+        "batch": "country-014",
+        "attempt": 1,
+        "packetSha256": "759e83ae2224481823528f34f537fefe64fba9b64758abdd1ddd736ddd52aac9",
+        "answerSha256": "ca79fbc2eef5fb8cbf7af2383b8a007f60591eca7b79c18917893218d9bc9538",
+        "characterStart": 10,
+        "characterEnd": 741,
+        "wholeBatchValid": true,
+        "answer": {
+          "id": "usada-16f2d1c7b31c",
+          "status": "supported",
+          "identity": "supported",
+          "country": "supported",
+          "temporalScope": "supported",
+          "evidence": [
+            {
+              "documentId": "country",
+              "startLine": 104,
+              "endLine": 108,
+              "note": "UCI profile names Frank Travieso, gives DOB 02.03.1980 and lists nationality USA."
+            },
+            {
+              "documentId": "case",
+              "startLine": 7,
+              "endLine": 8,
+              "note": "USADA identifies Frank Travieso as a cycling athlete, age 43, with a sample collected in 2023; this is consistent with the UCI identity."
+            },
+            {
+              "documentId": "country",
+              "startLine": 103,
+              "endLine": 108,
+              "note": "The cited USA annotation is explicitly limited to the UCI profile as listed at lookup; its sanctions field says None and does not establish 2023 eligibility or legal citizenship."
+            }
+          ],
+          "findings": []
+        }
+      }
+    ],
+    "findings": [],
+    "modelSeats": [
+      "claude",
+      "codex"
+    ],
+    "coverageComplete": true
+  },
+  {
+    "id": "usada-7774f20822ed",
+    "athleteName": "Robert Jerry Qualls",
+    "modelReviews": [
+      {
+        "seat": "claude",
+        "requestedModel": "haiku",
+        "batch": "country-014",
+        "attempt": 1,
+        "packetSha256": "759e83ae2224481823528f34f537fefe64fba9b64758abdd1ddd736ddd52aac9",
+        "answerSha256": "c84c9516fdc47f1c86bed4f10da1c1b6fd0f7e5fa9468f772f71ad96e4c8585a",
+        "characterStart": 664,
+        "characterEnd": 1499,
+        "wholeBatchValid": false,
+        "answer": {
+          "id": "usada-7774f20822ed",
+          "status": "supported",
+          "identity": "supported",
+          "country": "supported",
+          "temporalScope": "supported",
+          "evidence": [
+            {
+              "documentId": "case",
+              "startLine": 7,
+              "endLine": 7,
+              "note": "Robert Qualls, of Reno, Nev., track and field, 72 years old (June 2024)"
+            },
+            {
+              "documentId": "country",
+              "startLine": 92,
+              "endLine": 92,
+              "note": "USATF Masters official record: Robert Qualls (Reno, NV) M70 Gold Medal, 10k Road Race"
+            },
+            {
+              "documentId": "country",
+              "startLine": 86,
+              "endLine": 90,
+              "note": "Event: March 29, 2023; Team USATF at World Masters Athletics Indoor Championships"
+            }
+          ],
+          "findings": []
+        }
+      },
+      {
+        "seat": "claude",
+        "requestedModel": "haiku",
+        "batch": "country-014",
+        "attempt": 2,
+        "packetSha256": "759e83ae2224481823528f34f537fefe64fba9b64758abdd1ddd736ddd52aac9",
+        "answerSha256": "b16a33e4d0321f36246f59fadb1977af63d21376823f4bea2b6d19671640846f",
+        "characterStart": 739,
+        "characterEnd": 1528,
+        "wholeBatchValid": true,
+        "answer": {
+          "id": "usada-7774f20822ed",
+          "status": "supported",
+          "identity": "supported",
+          "country": "supported",
+          "temporalScope": "supported",
+          "evidence": [
+            {
+              "documentId": "country",
+              "startLine": 86,
+              "endLine": 92,
+              "note": "USATF Masters dated event record: 2023 World Masters Athletics Indoor Championships (March 29, 2023, Toruń, Poland); Robert Qualls (Reno, NV) M70 listed as Team USATF gold medalist"
+            },
+            {
+              "documentId": "case",
+              "startLine": 7,
+              "endLine": 7,
+              "note": "USADA case confirms identity: 'Robert Qualls, of Reno, Nev.' age 72, tested February 2024; location and age group consistent with WMA record"
+            }
+          ],
+          "findings": []
+        }
+      },
+      {
+        "seat": "codex",
+        "requestedModel": "gpt-6-luna",
+        "batch": "country-014",
+        "attempt": 1,
+        "packetSha256": "759e83ae2224481823528f34f537fefe64fba9b64758abdd1ddd736ddd52aac9",
+        "answerSha256": "ca79fbc2eef5fb8cbf7af2383b8a007f60591eca7b79c18917893218d9bc9538",
+        "characterStart": 742,
+        "characterEnd": 1427,
+        "wholeBatchValid": true,
+        "answer": {
+          "id": "usada-7774f20822ed",
+          "status": "supported",
+          "identity": "supported",
+          "country": "supported",
+          "temporalScope": "supported",
+          "evidence": [
+            {
+              "documentId": "country",
+              "startLine": 90,
+              "endLine": 92,
+              "note": "The dated 2023 report identifies Robert Qualls (Reno, NV) among Team USATF Masters gold medalists."
+            },
+            {
+              "documentId": "case",
+              "startLine": 7,
+              "endLine": 8,
+              "note": "USADA identifies Robert Qualls of Reno as a track and field athlete, age 72; name, location, sport and age group align with the 2023 report."
+            },
+            {
+              "documentId": "country",
+              "startLine": 90,
+              "endLine": 92,
+              "note": "Team USATF affiliation is established for this 2023 championship period, matching the proposed event-limited scope."
+            }
+          ],
+          "findings": []
+        }
+      }
+    ],
+    "findings": [],
+    "modelSeats": [
+      "claude",
+      "codex"
+    ],
+    "coverageComplete": true
+  },
+  {
+    "id": "usada-55dafea87f5e",
+    "athleteName": "Kayla Bushey",
+    "modelReviews": [
+      {
+        "seat": "claude",
+        "requestedModel": "haiku",
+        "batch": "country-014",
+        "attempt": 1,
+        "packetSha256": "759e83ae2224481823528f34f537fefe64fba9b64758abdd1ddd736ddd52aac9",
+        "answerSha256": "c84c9516fdc47f1c86bed4f10da1c1b6fd0f7e5fa9468f772f71ad96e4c8585a",
+        "characterStart": 1505,
+        "characterEnd": 2610,
+        "wholeBatchValid": false,
+        "answer": {
+          "id": "usada-55dafea87f5e",
+          "status": "uncertain",
+          "identity": "uncertain",
+          "country": "supported",
+          "temporalScope": "supported",
+          "evidence": [
+            {
+              "documentId": "case",
+              "startLine": 7,
+              "endLine": 7,
+              "note": "Kayla Bushey, of Nashville, Tenn., track and field, 23 years old (July 2017)"
+            },
+            {
+              "documentId": "country",
+              "startLine": 54,
+              "endLine": 58,
+              "note": "World Athletics official: Kayla BUSHEY, Triple Jump / Long Jump, United States"
+            }
+          ],
+          "findings": [
+            {
+              "field": "identity",
+              "explanation": "Name and sport match between documents. No birth date provided in World Athletics profile to verify age consistency. Location listed in USADA (Nashville, Tenn.) but not in World Athletics excerpt. Cannot fully confirm identity without birth date.",
+              "suggestion": "Require birth date or additional identifier (such as competition results from matching venue/year) to confirm same athlete"
+            }
+          ]
+        }
+      },
+      {
+        "seat": "claude",
+        "requestedModel": "haiku",
+        "batch": "country-014",
+        "attempt": 2,
+        "packetSha256": "759e83ae2224481823528f34f537fefe64fba9b64758abdd1ddd736ddd52aac9",
+        "answerSha256": "b16a33e4d0321f36246f59fadb1977af63d21376823f4bea2b6d19671640846f",
+        "characterStart": 1534,
+        "characterEnd": 3042,
+        "wholeBatchValid": true,
+        "answer": {
+          "id": "usada-55dafea87f5e",
+          "status": "uncertain",
+          "identity": "uncertain",
+          "country": "supported",
+          "temporalScope": "supported",
+          "evidence": [
+            {
+              "documentId": "country",
+              "startLine": 54,
+              "endLine": 58,
+              "note": "World Athletics official profile shows 'Kayla BUSHEY', disciplines Triple Jump and Long Jump, country United States"
+            },
+            {
+              "documentId": "country",
+              "startLine": 59,
+              "endLine": 62,
+              "note": "Birth date field incomplete in extraction: line 59 shows 'Born' label only without date value; personal best section begins line 62"
+            },
+            {
+              "documentId": "case",
+              "startLine": 7,
+              "endLine": 7,
+              "note": "USADA case shows 'Kayla Bushey, of Nashville, Tenn.' age 23 in 2017 (announcement July 2017, violation June 2016)"
+            }
+          ],
+          "findings": [
+            {
+              "field": "identity",
+              "explanation": "Supplied World Athletics document extraction breaks at birth date field (line 59 shows label 'Born' without value). Name and sport match exactly; approximate age is consistent (23 in mid-2016 implies DOB ~1992-1993), but exact birth date is required to definitively establish identity match without additional identifiers.",
+              "suggestion": "Retrieve full birth date from World Athletics profile to confirm definitive identity match with USADA case subject."
+            }
+          ]
+        }
+      },
+      {
+        "seat": "codex",
+        "requestedModel": "gpt-6-luna",
+        "batch": "country-014",
+        "attempt": 1,
+        "packetSha256": "759e83ae2224481823528f34f537fefe64fba9b64758abdd1ddd736ddd52aac9",
+        "answerSha256": "ca79fbc2eef5fb8cbf7af2383b8a007f60591eca7b79c18917893218d9bc9538",
+        "characterStart": 1428,
+        "characterEnd": 2508,
+        "wholeBatchValid": true,
+        "answer": {
+          "id": "usada-55dafea87f5e",
+          "status": "uncertain",
+          "identity": "uncertain",
+          "country": "supported",
+          "temporalScope": "supported",
+          "evidence": [
+            {
+              "documentId": "country",
+              "startLine": 54,
+              "endLine": 58,
+              "note": "World Athletics profile names Kayla Bushey, lists track and field events, and shows United States."
+            },
+            {
+              "documentId": "case",
+              "startLine": 7,
+              "endLine": 8,
+              "note": "USADA identifies Kayla Bushey as a track and field athlete, age 23, from Nashville; the profile has no birth date or location here to confirm identity."
+            },
+            {
+              "documentId": "country",
+              "startLine": 54,
+              "endLine": 58,
+              "note": "The annotation is limited to the profile's country as listed at lookup, without claiming 2016 representation or legal citizenship."
+            }
+          ],
+          "findings": [
+            {
+              "field": "identity",
+              "explanation": "Name and sport match, but the supplied profile excerpt has no birth date or location to distinguish this athlete from a same-name track athlete; the rationale itself notes that limitation.",
+              "suggestion": "Mark the identity link uncertain or add a corroborating official identifier before attaching this profile's country to the case."
+            }
+          ]
+        }
+      }
+    ],
+    "findings": [
+      {
+        "seat": "claude",
+        "requestedModel": "haiku",
+        "batch": "country-014",
+        "attempt": 1,
+        "packetSha256": "759e83ae2224481823528f34f537fefe64fba9b64758abdd1ddd736ddd52aac9",
+        "answerSha256": "c84c9516fdc47f1c86bed4f10da1c1b6fd0f7e5fa9468f772f71ad96e4c8585a",
+        "characterStart": 1505,
+        "characterEnd": 2610,
+        "wholeBatchValid": false,
+        "countsForCoverage": true,
+        "field": "identity",
+        "explanation": "Name and sport match between documents. No birth date provided in World Athletics profile to verify age consistency. Location listed in USADA (Nashville, Tenn.) but not in World Athletics excerpt. Cannot fully confirm identity without birth date.",
+        "suggestion": "Require birth date or additional identifier (such as competition results from matching venue/year) to confirm same athlete"
+      },
+      {
+        "seat": "claude",
+        "requestedModel": "haiku",
+        "batch": "country-014",
+        "attempt": 2,
+        "packetSha256": "759e83ae2224481823528f34f537fefe64fba9b64758abdd1ddd736ddd52aac9",
+        "answerSha256": "b16a33e4d0321f36246f59fadb1977af63d21376823f4bea2b6d19671640846f",
+        "characterStart": 1534,
+        "characterEnd": 3042,
+        "wholeBatchValid": true,
+        "countsForCoverage": true,
+        "field": "identity",
+        "explanation": "Supplied World Athletics document extraction breaks at birth date field (line 59 shows label 'Born' without value). Name and sport match exactly; approximate age is consistent (23 in mid-2016 implies DOB ~1992-1993), but exact birth date is required to definitively establish identity match without additional identifiers.",
+        "suggestion": "Retrieve full birth date from World Athletics profile to confirm definitive identity match with USADA case subject."
+      },
+      {
+        "seat": "codex",
+        "requestedModel": "gpt-6-luna",
+        "batch": "country-014",
+        "attempt": 1,
+        "packetSha256": "759e83ae2224481823528f34f537fefe64fba9b64758abdd1ddd736ddd52aac9",
+        "answerSha256": "ca79fbc2eef5fb8cbf7af2383b8a007f60591eca7b79c18917893218d9bc9538",
+        "characterStart": 1428,
+        "characterEnd": 2508,
+        "wholeBatchValid": true,
+        "countsForCoverage": true,
+        "field": "identity",
+        "explanation": "Name and sport match, but the supplied profile excerpt has no birth date or location to distinguish this athlete from a same-name track athlete; the rationale itself notes that limitation.",
+        "suggestion": "Mark the identity link uncertain or add a corroborating official identifier before attaching this profile's country to the case."
+      }
+    ],
+    "modelSeats": [
+      "claude",
+      "codex"
+    ],
+    "coverageComplete": true
+  },
+  {
+    "id": "usada-fcfbbcf8949b",
+    "athleteName": "Jonathan Sanford",
+    "modelReviews": [
+      {
+        "seat": "claude",
+        "requestedModel": "haiku",
+        "batch": "country-014",
+        "attempt": 1,
+        "packetSha256": "759e83ae2224481823528f34f537fefe64fba9b64758abdd1ddd736ddd52aac9",
+        "answerSha256": "c84c9516fdc47f1c86bed4f10da1c1b6fd0f7e5fa9468f772f71ad96e4c8585a",
+        "characterStart": 2616,
+        "characterEnd": 3250,
+        "wholeBatchValid": false,
+        "answer": {
+          "id": "usada-fcfbbcf8949b",
+          "status": "supported",
+          "identity": "supported",
+          "country": "supported",
+          "temporalScope": "supported",
+          "evidence": [
+            {
+              "documentId": "case",
+              "startLine": 7,
+              "endLine": 7,
+              "note": "Jonathan Sanford of Conyers, Ga., track and field, 27 years old (December 2017)"
+            },
+            {
+              "documentId": "country",
+              "startLine": 54,
+              "endLine": 59,
+              "note": "World Athletics official: Jonathan SANFORD, Long Jump, United States, Born 15 MAY 1990"
+            }
+          ],
+          "findings": []
+        }
+      },
+      {
+        "seat": "claude",
+        "requestedModel": "haiku",
+        "batch": "country-014",
+        "attempt": 2,
+        "packetSha256": "759e83ae2224481823528f34f537fefe64fba9b64758abdd1ddd736ddd52aac9",
+        "answerSha256": "b16a33e4d0321f36246f59fadb1977af63d21376823f4bea2b6d19671640846f",
+        "characterStart": 3048,
+        "characterEnd": 3759,
+        "wholeBatchValid": true,
+        "answer": {
+          "id": "usada-fcfbbcf8949b",
+          "status": "supported",
+          "identity": "supported",
+          "country": "supported",
+          "temporalScope": "supported",
+          "evidence": [
+            {
+              "documentId": "country",
+              "startLine": 54,
+              "endLine": 59,
+              "note": "World Athletics official profile confirms 'Jonathan SANFORD', Long Jump, country United States, Born '15 MAY 1990'"
+            },
+            {
+              "documentId": "case",
+              "startLine": 7,
+              "endLine": 7,
+              "note": "USADA case confirms identity: 'Jonathan Sanford of Conyers, Ga.' age 27 in December 2017; DOB May 1990 matches WA record exactly"
+            }
+          ],
+          "findings": []
+        }
+      },
+      {
+        "seat": "codex",
+        "requestedModel": "gpt-6-luna",
+        "batch": "country-014",
+        "attempt": 1,
+        "packetSha256": "759e83ae2224481823528f34f537fefe64fba9b64758abdd1ddd736ddd52aac9",
+        "answerSha256": "ca79fbc2eef5fb8cbf7af2383b8a007f60591eca7b79c18917893218d9bc9538",
+        "characterStart": 2509,
+        "characterEnd": 3217,
+        "wholeBatchValid": true,
+        "answer": {
+          "id": "usada-fcfbbcf8949b",
+          "status": "supported",
+          "identity": "supported",
+          "country": "supported",
+          "temporalScope": "supported",
+          "evidence": [
+            {
+              "documentId": "country",
+              "startLine": 54,
+              "endLine": 59,
+              "note": "World Athletics profile lists Jonathan Sanford, long jump, United States, and birth date 15 May 1990."
+            },
+            {
+              "documentId": "case",
+              "startLine": 7,
+              "endLine": 8,
+              "note": "USADA identifies a track and field athlete Jonathan Sanford, age 27 in December 2017, consistent with the profile's birth date and event."
+            },
+            {
+              "documentId": "country",
+              "startLine": 54,
+              "endLine": 59,
+              "note": "The country claim is limited to the profile listing at lookup and expressly does not claim historical representation or legal citizenship."
+            }
+          ],
+          "findings": []
+        }
+      }
+    ],
+    "findings": [],
+    "modelSeats": [
+      "claude",
+      "codex"
+    ],
+    "coverageComplete": true
+  },
+  {
+    "id": "usada-4ab89c689116",
+    "athleteName": "Atlanta Westbrook",
+    "modelReviews": [
+      {
+        "seat": "claude",
+        "requestedModel": "haiku",
+        "batch": "country-014",
+        "attempt": 1,
+        "packetSha256": "759e83ae2224481823528f34f537fefe64fba9b64758abdd1ddd736ddd52aac9",
+        "answerSha256": "c84c9516fdc47f1c86bed4f10da1c1b6fd0f7e5fa9468f772f71ad96e4c8585a",
+        "characterStart": 3256,
+        "characterEnd": 3909,
+        "wholeBatchValid": false,
+        "answer": {
+          "id": "usada-4ab89c689116",
+          "status": "supported",
+          "identity": "supported",
+          "country": "supported",
+          "temporalScope": "supported",
+          "evidence": [
+            {
+              "documentId": "case",
+              "startLine": 7,
+              "endLine": 7,
+              "note": "Atlanta Westbrook of Fairview, Tenn., track and field, 24 years old (November 2017)"
+            },
+            {
+              "documentId": "country",
+              "startLine": 54,
+              "endLine": 60,
+              "note": "World Athletics official: Atlanta WESTBROOK, Triple Jump / Long Jump, United States, Born 07 NOV 1992"
+            }
+          ],
+          "findings": []
+        }
+      },
+      {
+        "seat": "claude",
+        "requestedModel": "haiku",
+        "batch": "country-014",
+        "attempt": 2,
+        "packetSha256": "759e83ae2224481823528f34f537fefe64fba9b64758abdd1ddd736ddd52aac9",
+        "answerSha256": "b16a33e4d0321f36246f59fadb1977af63d21376823f4bea2b6d19671640846f",
+        "characterStart": 3765,
+        "characterEnd": 4526,
+        "wholeBatchValid": true,
+        "answer": {
+          "id": "usada-4ab89c689116",
+          "status": "supported",
+          "identity": "supported",
+          "country": "supported",
+          "temporalScope": "supported",
+          "evidence": [
+            {
+              "documentId": "country",
+              "startLine": 54,
+              "endLine": 60,
+              "note": "World Athletics official profile confirms 'Atlanta WESTBROOK', disciplines Triple Jump and Long Jump, country United States, Born '07 NOV 1992'"
+            },
+            {
+              "documentId": "case",
+              "startLine": 7,
+              "endLine": 8,
+              "note": "USADA case confirms identity: 'Atlanta Westbrook of Fairview, Tenn.' age 24 (November 2017 announcement); DOB November 1992 matches WA record exactly"
+            }
+          ],
+          "findings": []
+        }
+      },
+      {
+        "seat": "codex",
+        "requestedModel": "gpt-6-luna",
+        "batch": "country-014",
+        "attempt": 1,
+        "packetSha256": "759e83ae2224481823528f34f537fefe64fba9b64758abdd1ddd736ddd52aac9",
+        "answerSha256": "ca79fbc2eef5fb8cbf7af2383b8a007f60591eca7b79c18917893218d9bc9538",
+        "characterStart": 3218,
+        "characterEnd": 3927,
+        "wholeBatchValid": true,
+        "answer": {
+          "id": "usada-4ab89c689116",
+          "status": "supported",
+          "identity": "supported",
+          "country": "supported",
+          "temporalScope": "supported",
+          "evidence": [
+            {
+              "documentId": "country",
+              "startLine": 54,
+              "endLine": 60,
+              "note": "World Athletics profile lists Atlanta Westbrook, triple jump and long jump, United States, and birth date 7 November 1992."
+            },
+            {
+              "documentId": "case",
+              "startLine": 7,
+              "endLine": 8,
+              "note": "USADA identifies track and field athlete Atlanta Westbrook, age 24 in November 2017; the age and events align with the profile."
+            },
+            {
+              "documentId": "country",
+              "startLine": 54,
+              "endLine": 60,
+              "note": "The annotation is explicitly limited to country shown on the profile at lookup, not historical eligibility or legal citizenship."
+            }
+          ],
+          "findings": []
+        }
+      }
+    ],
+    "findings": [],
+    "modelSeats": [
+      "claude",
+      "codex"
+    ],
+    "coverageComplete": true
+  },
+  {
+    "id": "usada-994755070e39",
+    "athleteName": "Kenna Wolter",
+    "modelReviews": [
+      {
+        "seat": "claude",
+        "requestedModel": "haiku",
+        "batch": "country-015",
+        "attempt": 1,
+        "packetSha256": "0cafe500238d67050e0c0aaf2d2b5c79e28bfa1d88d310f98bc87e5c1795b9e7",
+        "answerSha256": "b57f4e4a80fac50af337fa50101b4fb27e7b08af929044fb530e70c636d10929",
+        "characterStart": 27,
+        "characterEnd": 692,
+        "wholeBatchValid": true,
+        "answer": {
+          "id": "usada-994755070e39",
+          "status": "supported",
+          "identity": "supported",
+          "country": "supported",
+          "temporalScope": "supported",
+          "evidence": [
+            {
+              "documentId": "country",
+              "startLine": 54,
+              "endLine": 61,
+              "note": "World Athletics: Kenna WOLTER, Triple Jump, United States, Born 21 SEP 1989"
+            },
+            {
+              "documentId": "case",
+              "startLine": 1,
+              "endLine": 8,
+              "note": "USADA 2017-12-22: U.S. Track & Field Athlete Kenna Wolter, age 28 (consistent with 1989 birth year); sport and name match"
+            }
+          ],
+          "findings": []
+        }
+      },
+      {
+        "seat": "codex",
+        "requestedModel": "gpt-6-luna",
+        "batch": "country-015",
+        "attempt": 1,
+        "packetSha256": "0cafe500238d67050e0c0aaf2d2b5c79e28bfa1d88d310f98bc87e5c1795b9e7",
+        "answerSha256": "9a300138168601755685debda34e785ae27dd005b68cd1ab17e87fcaa67b7afb",
+        "characterStart": 10,
+        "characterEnd": 535,
+        "wholeBatchValid": true,
+        "answer": {
+          "id": "usada-994755070e39",
+          "status": "supported",
+          "identity": "supported",
+          "country": "supported",
+          "temporalScope": "supported",
+          "evidence": [
+            {
+              "documentId": "country",
+              "startLine": 54,
+              "endLine": 59,
+              "note": "World Athletics profile identifies Kenna Wolter, lists Triple Jump and United States, and gives birth date 21 Sep 1989."
+            },
+            {
+              "documentId": "case",
+              "startLine": 7,
+              "endLine": 8,
+              "note": "USADA identifies Kenna Wolter as a track and field athlete and reports age 28 in its 2017 notice, consistent with the profile birth date."
+            }
+          ],
+          "findings": []
+        }
+      }
+    ],
+    "findings": [],
+    "modelSeats": [
+      "claude",
+      "codex"
+    ],
+    "coverageComplete": true
+  },
+  {
+    "id": "usada-1f56bc7e39f1",
+    "athleteName": "Nick Mossberg",
+    "modelReviews": [
+      {
+        "seat": "claude",
+        "requestedModel": "haiku",
+        "batch": "country-015",
+        "attempt": 1,
+        "packetSha256": "0cafe500238d67050e0c0aaf2d2b5c79e28bfa1d88d310f98bc87e5c1795b9e7",
+        "answerSha256": "b57f4e4a80fac50af337fa50101b4fb27e7b08af929044fb530e70c636d10929",
+        "characterStart": 698,
+        "characterEnd": 1348,
+        "wholeBatchValid": true,
+        "answer": {
+          "id": "usada-1f56bc7e39f1",
+          "status": "supported",
+          "identity": "supported",
+          "country": "supported",
+          "temporalScope": "supported",
+          "evidence": [
+            {
+              "documentId": "country",
+              "startLine": 54,
+              "endLine": 61,
+              "note": "World Athletics: Nick MOSSBERG, Pole Vault, United States, Born 05 APR 1986"
+            },
+            {
+              "documentId": "case",
+              "startLine": 1,
+              "endLine": 8,
+              "note": "USADA 2016-12-14: Nicholas (Nick) Mossberg, age 30 (consistent with 1986 birth year); sport and name match"
+            }
+          ],
+          "findings": []
+        }
+      },
+      {
+        "seat": "codex",
+        "requestedModel": "gpt-6-luna",
+        "batch": "country-015",
+        "attempt": 1,
+        "packetSha256": "0cafe500238d67050e0c0aaf2d2b5c79e28bfa1d88d310f98bc87e5c1795b9e7",
+        "answerSha256": "9a300138168601755685debda34e785ae27dd005b68cd1ab17e87fcaa67b7afb",
+        "characterStart": 536,
+        "characterEnd": 1072,
+        "wholeBatchValid": true,
+        "answer": {
+          "id": "usada-1f56bc7e39f1",
+          "status": "supported",
+          "identity": "supported",
+          "country": "supported",
+          "temporalScope": "supported",
+          "evidence": [
+            {
+              "documentId": "country",
+              "startLine": 54,
+              "endLine": 59,
+              "note": "World Athletics profile identifies Nick Mossberg, lists Pole Vault and United States, and gives birth date 5 Apr 1986."
+            },
+            {
+              "documentId": "case",
+              "startLine": 7,
+              "endLine": 8,
+              "note": "USADA identifies Nicholas (Nick) Mossberg as a track and field athlete and reports age 30 in its 2016 notice, consistent with the profile birth date."
+            }
+          ],
+          "findings": []
+        }
+      }
+    ],
+    "findings": [],
+    "modelSeats": [
+      "claude",
+      "codex"
+    ],
+    "coverageComplete": true
+  },
+  {
+    "id": "usada-2368662f3457",
+    "athleteName": "Cliff Nielson",
+    "modelReviews": [
+      {
+        "seat": "claude",
+        "requestedModel": "haiku",
+        "batch": "country-015",
+        "attempt": 1,
+        "packetSha256": "0cafe500238d67050e0c0aaf2d2b5c79e28bfa1d88d310f98bc87e5c1795b9e7",
+        "answerSha256": "b57f4e4a80fac50af337fa50101b4fb27e7b08af929044fb530e70c636d10929",
+        "characterStart": 1354,
+        "characterEnd": 2469,
+        "wholeBatchValid": true,
+        "answer": {
+          "id": "usada-2368662f3457",
+          "status": "uncertain",
+          "identity": "uncertain",
+          "country": "supported",
+          "temporalScope": "supported",
+          "evidence": [
+            {
+              "documentId": "country",
+              "startLine": 54,
+              "endLine": 66,
+              "note": "World Athletics: Cliff NIELSON, 1500m/800m/3000m events, United States (no birth date listed in extracted lines)"
+            },
+            {
+              "documentId": "case",
+              "startLine": 1,
+              "endLine": 8,
+              "note": "USADA 2017-05-02: Cliff Nielson of Chandler, Ariz., age 25; sport and name match World Athletics record"
+            }
+          ],
+          "findings": [
+            {
+              "field": "identity",
+              "explanation": "World Athletics profile omits birth date; identity verification relies solely on name and sport match. Age stated in USADA (25 years in 2017) cannot be cross-verified against World Athletics without birth date.",
+              "suggestion": "Birth date from World Athletics or USADA case initiation records needed to confirm identity with certainty."
+            }
+          ]
+        }
+      },
+      {
+        "seat": "codex",
+        "requestedModel": "gpt-6-luna",
+        "batch": "country-015",
+        "attempt": 1,
+        "packetSha256": "0cafe500238d67050e0c0aaf2d2b5c79e28bfa1d88d310f98bc87e5c1795b9e7",
+        "answerSha256": "9a300138168601755685debda34e785ae27dd005b68cd1ab17e87fcaa67b7afb",
+        "characterStart": 1073,
+        "characterEnd": 1993,
+        "wholeBatchValid": true,
+        "answer": {
+          "id": "usada-2368662f3457",
+          "status": "uncertain",
+          "identity": "uncertain",
+          "country": "supported",
+          "temporalScope": "supported",
+          "evidence": [
+            {
+              "documentId": "country",
+              "startLine": 54,
+              "endLine": 64,
+              "note": "World Athletics profile names Cliff Nielson, lists middle-distance events and United States; no birth date is shown in the supplied excerpt."
+            },
+            {
+              "documentId": "case",
+              "startLine": 7,
+              "endLine": 8,
+              "note": "USADA names Cliff Nielson as a track and field athlete, of Chandler, Arizona, age 25; the supplied evidence does not establish a unique match to the profile."
+            }
+          ],
+          "findings": [
+            {
+              "field": "identity",
+              "explanation": "Name and broad sport are consistent, but the supplied excerpts provide no profile birth date or other shared identifying detail to distinguish this athlete from a possible namesake.",
+              "suggestion": "Keep the country annotation provisional unless another supplied official source links this profile to the USADA athlete."
+            }
+          ]
+        }
+      }
+    ],
+    "findings": [
+      {
+        "seat": "claude",
+        "requestedModel": "haiku",
+        "batch": "country-015",
+        "attempt": 1,
+        "packetSha256": "0cafe500238d67050e0c0aaf2d2b5c79e28bfa1d88d310f98bc87e5c1795b9e7",
+        "answerSha256": "b57f4e4a80fac50af337fa50101b4fb27e7b08af929044fb530e70c636d10929",
+        "characterStart": 1354,
+        "characterEnd": 2469,
+        "wholeBatchValid": true,
+        "countsForCoverage": true,
+        "field": "identity",
+        "explanation": "World Athletics profile omits birth date; identity verification relies solely on name and sport match. Age stated in USADA (25 years in 2017) cannot be cross-verified against World Athletics without birth date.",
+        "suggestion": "Birth date from World Athletics or USADA case initiation records needed to confirm identity with certainty."
+      },
+      {
+        "seat": "codex",
+        "requestedModel": "gpt-6-luna",
+        "batch": "country-015",
+        "attempt": 1,
+        "packetSha256": "0cafe500238d67050e0c0aaf2d2b5c79e28bfa1d88d310f98bc87e5c1795b9e7",
+        "answerSha256": "9a300138168601755685debda34e785ae27dd005b68cd1ab17e87fcaa67b7afb",
+        "characterStart": 1073,
+        "characterEnd": 1993,
+        "wholeBatchValid": true,
+        "countsForCoverage": true,
+        "field": "identity",
+        "explanation": "Name and broad sport are consistent, but the supplied excerpts provide no profile birth date or other shared identifying detail to distinguish this athlete from a possible namesake.",
+        "suggestion": "Keep the country annotation provisional unless another supplied official source links this profile to the USADA athlete."
+      }
+    ],
+    "modelSeats": [
+      "claude",
+      "codex"
+    ],
+    "coverageComplete": true
+  },
+  {
+    "id": "usada-edde57057db6",
+    "athleteName": "Cody Bidlow",
+    "modelReviews": [
+      {
+        "seat": "claude",
+        "requestedModel": "haiku",
+        "batch": "country-015",
+        "attempt": 1,
+        "packetSha256": "0cafe500238d67050e0c0aaf2d2b5c79e28bfa1d88d310f98bc87e5c1795b9e7",
+        "answerSha256": "b57f4e4a80fac50af337fa50101b4fb27e7b08af929044fb530e70c636d10929",
+        "characterStart": 2475,
+        "characterEnd": 3668,
+        "wholeBatchValid": true,
+        "answer": {
+          "id": "usada-edde57057db6",
+          "status": "uncertain",
+          "identity": "uncertain",
+          "country": "supported",
+          "temporalScope": "supported",
+          "evidence": [
+            {
+              "documentId": "country",
+              "startLine": 54,
+              "endLine": 62,
+              "note": "World Athletics: Cody BIDLOW, 100m/60m, United States (no birth date listed in extracted lines; results cite Flagstaff, AZ venue)"
+            },
+            {
+              "documentId": "case",
+              "startLine": 1,
+              "endLine": 8,
+              "note": "USADA 2016-11-03: Cody Bidlow of Phoenix, Ariz., age 24; sport and name match World Athletics record"
+            }
+          ],
+          "findings": [
+            {
+              "field": "identity",
+              "explanation": "World Athletics profile omits birth date; identity verification relies on name, sport, and shared Arizona location (though different cities: Flagstaff venue vs. Phoenix residence). Age stated in USADA cannot be verified without birth date.",
+              "suggestion": "Birth date confirmation or additional matching criteria (club affiliation, competition history dates) needed to establish definitive identity."
+            }
+          ]
+        }
+      },
+      {
+        "seat": "codex",
+        "requestedModel": "gpt-6-luna",
+        "batch": "country-015",
+        "attempt": 1,
+        "packetSha256": "0cafe500238d67050e0c0aaf2d2b5c79e28bfa1d88d310f98bc87e5c1795b9e7",
+        "answerSha256": "9a300138168601755685debda34e785ae27dd005b68cd1ab17e87fcaa67b7afb",
+        "characterStart": 1994,
+        "characterEnd": 2949,
+        "wholeBatchValid": true,
+        "answer": {
+          "id": "usada-edde57057db6",
+          "status": "uncertain",
+          "identity": "uncertain",
+          "country": "supported",
+          "temporalScope": "supported",
+          "evidence": [
+            {
+              "documentId": "country",
+              "startLine": 54,
+              "endLine": 60,
+              "note": "World Athletics profile names Cody Bidlow, lists 100m and 60m and United States; no birth date is shown in the supplied excerpt."
+            },
+            {
+              "documentId": "case",
+              "startLine": 7,
+              "endLine": 8,
+              "note": "USADA names Cody Bidlow as a track and field athlete, of Phoenix, Arizona, age 24; the profile excerpt does not establish a unique match."
+            }
+          ],
+          "findings": [
+            {
+              "field": "identity",
+              "explanation": "Name and sport align, but the supplied evidence does not connect the profile to the USADA athlete with a shared age or other distinguishing identifier. The Arizona competition venue is not identifying evidence of the athlete's location or identity.",
+              "suggestion": "Keep the country annotation provisional unless another supplied official source links this profile to the USADA athlete."
+            }
+          ]
+        }
+      }
+    ],
+    "findings": [
+      {
+        "seat": "claude",
+        "requestedModel": "haiku",
+        "batch": "country-015",
+        "attempt": 1,
+        "packetSha256": "0cafe500238d67050e0c0aaf2d2b5c79e28bfa1d88d310f98bc87e5c1795b9e7",
+        "answerSha256": "b57f4e4a80fac50af337fa50101b4fb27e7b08af929044fb530e70c636d10929",
+        "characterStart": 2475,
+        "characterEnd": 3668,
+        "wholeBatchValid": true,
+        "countsForCoverage": true,
+        "field": "identity",
+        "explanation": "World Athletics profile omits birth date; identity verification relies on name, sport, and shared Arizona location (though different cities: Flagstaff venue vs. Phoenix residence). Age stated in USADA cannot be verified without birth date.",
+        "suggestion": "Birth date confirmation or additional matching criteria (club affiliation, competition history dates) needed to establish definitive identity."
+      },
+      {
+        "seat": "codex",
+        "requestedModel": "gpt-6-luna",
+        "batch": "country-015",
+        "attempt": 1,
+        "packetSha256": "0cafe500238d67050e0c0aaf2d2b5c79e28bfa1d88d310f98bc87e5c1795b9e7",
+        "answerSha256": "9a300138168601755685debda34e785ae27dd005b68cd1ab17e87fcaa67b7afb",
+        "characterStart": 1994,
+        "characterEnd": 2949,
+        "wholeBatchValid": true,
+        "countsForCoverage": true,
+        "field": "identity",
+        "explanation": "Name and sport align, but the supplied evidence does not connect the profile to the USADA athlete with a shared age or other distinguishing identifier. The Arizona competition venue is not identifying evidence of the athlete's location or identity.",
+        "suggestion": "Keep the country annotation provisional unless another supplied official source links this profile to the USADA athlete."
+      }
+    ],
+    "modelSeats": [
+      "claude",
+      "codex"
+    ],
+    "coverageComplete": true
+  },
+  {
+    "id": "usada-c624acaae104",
+    "athleteName": "Andrew Vrabel",
+    "modelReviews": [
+      {
+        "seat": "claude",
+        "requestedModel": "haiku",
+        "batch": "country-015",
+        "attempt": 1,
+        "packetSha256": "0cafe500238d67050e0c0aaf2d2b5c79e28bfa1d88d310f98bc87e5c1795b9e7",
+        "answerSha256": "b57f4e4a80fac50af337fa50101b4fb27e7b08af929044fb530e70c636d10929",
+        "characterStart": 3674,
+        "characterEnd": 5033,
+        "wholeBatchValid": true,
+        "answer": {
+          "id": "usada-c624acaae104",
+          "status": "uncertain",
+          "identity": "uncertain",
+          "country": "supported",
+          "temporalScope": "supported",
+          "evidence": [
+            {
+              "documentId": "country",
+              "startLine": 448,
+              "endLine": 493,
+              "note": "Team USA: Andrew Vrabel, Weightlifting (inferred from Junior World Championships 2011 Snatch/Clean & Jerk results), Age 35 at lookup, Hometown Marquette"
+            },
+            {
+              "documentId": "case",
+              "startLine": 1,
+              "endLine": 8,
+              "note": "USADA 2017-01-11: Andrew Vrabel of Chicago, Ill., Weightlifting, age 25; name, sport, and age (when adjusted for 9-year lapse to Team USA lookup) consistent"
+            }
+          ],
+          "findings": [
+            {
+              "field": "identity",
+              "explanation": "Location mismatch between Team USA profile (Marquette hometown) and USADA record (Chicago residence). Team USA profile lists no birth date—age 35 at lookup time cannot be directly verified against USADA 2017 age 25 without explicit birth year in source documents.",
+              "suggestion": "Verify whether Marquette and Chicago refer to training base vs. legal residence, or flag for manual confirmation of identity if location discrepancy suggests possible name overlap with different athlete."
+            }
+          ]
+        }
+      },
+      {
+        "seat": "codex",
+        "requestedModel": "gpt-6-luna",
+        "batch": "country-015",
+        "attempt": 1,
+        "packetSha256": "0cafe500238d67050e0c0aaf2d2b5c79e28bfa1d88d310f98bc87e5c1795b9e7",
+        "answerSha256": "9a300138168601755685debda34e785ae27dd005b68cd1ab17e87fcaa67b7afb",
+        "characterStart": 2950,
+        "characterEnd": 4347,
+        "wholeBatchValid": true,
+        "answer": {
+          "id": "usada-c624acaae104",
+          "status": "uncertain",
+          "identity": "uncertain",
+          "country": "uncertain",
+          "temporalScope": "supported",
+          "evidence": [
+            {
+              "documentId": "country",
+              "startLine": 448,
+              "endLine": 458,
+              "note": "Team USA identifies Andrew Vrabel and gives age 35 and hometown Marquette, but the supplied excerpt does not explicitly state his country or national-team affiliation."
+            },
+            {
+              "documentId": "case",
+              "startLine": 7,
+              "endLine": 8,
+              "note": "USADA identifies Andrew Vrabel as a weightlifting athlete, of Chicago, and age 25 in its 2017 notice; the stated age is compatible with age 35 at a later profile lookup, but the different hometown leaves identity uncertain."
+            }
+          ],
+          "findings": [
+            {
+              "field": "identity",
+              "explanation": "The name, sport and ages are compatible, while the profile hometown Marquette differs from USADA's Chicago location; the supplied excerpts do not resolve whether this is the same athlete.",
+              "suggestion": "Confirm the profile-to-case identity with a shared identifying detail in an official source."
+            },
+            {
+              "field": "country",
+              "explanation": "The supplied Team USA excerpt contains a profile title and biographical details but does not explicitly list United States or a Team USA representation statement. The junior world championship entry alone does not state the athlete's sporting country.",
+              "suggestion": "Use a supplied official source that explicitly states the athlete's country or Team USA affiliation."
+            }
+          ]
+        }
+      }
+    ],
+    "findings": [
+      {
+        "seat": "claude",
+        "requestedModel": "haiku",
+        "batch": "country-015",
+        "attempt": 1,
+        "packetSha256": "0cafe500238d67050e0c0aaf2d2b5c79e28bfa1d88d310f98bc87e5c1795b9e7",
+        "answerSha256": "b57f4e4a80fac50af337fa50101b4fb27e7b08af929044fb530e70c636d10929",
+        "characterStart": 3674,
+        "characterEnd": 5033,
+        "wholeBatchValid": true,
+        "countsForCoverage": true,
+        "field": "identity",
+        "explanation": "Location mismatch between Team USA profile (Marquette hometown) and USADA record (Chicago residence). Team USA profile lists no birth date—age 35 at lookup time cannot be directly verified against USADA 2017 age 25 without explicit birth year in source documents.",
+        "suggestion": "Verify whether Marquette and Chicago refer to training base vs. legal residence, or flag for manual confirmation of identity if location discrepancy suggests possible name overlap with different athlete."
+      },
+      {
+        "seat": "codex",
+        "requestedModel": "gpt-6-luna",
+        "batch": "country-015",
+        "attempt": 1,
+        "packetSha256": "0cafe500238d67050e0c0aaf2d2b5c79e28bfa1d88d310f98bc87e5c1795b9e7",
+        "answerSha256": "9a300138168601755685debda34e785ae27dd005b68cd1ab17e87fcaa67b7afb",
+        "characterStart": 2950,
+        "characterEnd": 4347,
+        "wholeBatchValid": true,
+        "countsForCoverage": true,
+        "field": "identity",
+        "explanation": "The name, sport and ages are compatible, while the profile hometown Marquette differs from USADA's Chicago location; the supplied excerpts do not resolve whether this is the same athlete.",
+        "suggestion": "Confirm the profile-to-case identity with a shared identifying detail in an official source."
+      },
+      {
+        "seat": "codex",
+        "requestedModel": "gpt-6-luna",
+        "batch": "country-015",
+        "attempt": 1,
+        "packetSha256": "0cafe500238d67050e0c0aaf2d2b5c79e28bfa1d88d310f98bc87e5c1795b9e7",
+        "answerSha256": "9a300138168601755685debda34e785ae27dd005b68cd1ab17e87fcaa67b7afb",
+        "characterStart": 2950,
+        "characterEnd": 4347,
+        "wholeBatchValid": true,
+        "countsForCoverage": true,
+        "field": "country",
+        "explanation": "The supplied Team USA excerpt contains a profile title and biographical details but does not explicitly list United States or a Team USA representation statement. The junior world championship entry alone does not state the athlete's sporting country.",
+        "suggestion": "Use a supplied official source that explicitly states the athlete's country or Team USA affiliation."
+      }
+    ],
+    "modelSeats": [
+      "claude",
+      "codex"
+    ],
+    "coverageComplete": true
   }
 ]

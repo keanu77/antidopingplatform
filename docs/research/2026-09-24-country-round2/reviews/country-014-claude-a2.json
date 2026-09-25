@@ -1,0 +1,126 @@
+{
+  "cases": [
+    {
+      "id": "usada-16f2d1c7b31c",
+      "status": "supported",
+      "identity": "supported",
+      "country": "supported",
+      "temporalScope": "supported",
+      "evidence": [
+        {
+          "documentId": "country",
+          "startLine": 104,
+          "endLine": 107,
+          "note": "UCI official profile embedded data confirms givenName 'Frank', familyName 'TRAVIESO', dob '02.03.1980', nationality 'USA'"
+        },
+        {
+          "documentId": "case",
+          "startLine": 7,
+          "endLine": 7,
+          "note": "USADA case confirms identity: 'Frank Travieso, of Athens, Ga.' age 43, tested 2023-09-03; DOB 1980 matches UCI age"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-7774f20822ed",
+      "status": "supported",
+      "identity": "supported",
+      "country": "supported",
+      "temporalScope": "supported",
+      "evidence": [
+        {
+          "documentId": "country",
+          "startLine": 86,
+          "endLine": 92,
+          "note": "USATF Masters dated event record: 2023 World Masters Athletics Indoor Championships (March 29, 2023, Toruń, Poland); Robert Qualls (Reno, NV) M70 listed as Team USATF gold medalist"
+        },
+        {
+          "documentId": "case",
+          "startLine": 7,
+          "endLine": 7,
+          "note": "USADA case confirms identity: 'Robert Qualls, of Reno, Nev.' age 72, tested February 2024; location and age group consistent with WMA record"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-55dafea87f5e",
+      "status": "uncertain",
+      "identity": "uncertain",
+      "country": "supported",
+      "temporalScope": "supported",
+      "evidence": [
+        {
+          "documentId": "country",
+          "startLine": 54,
+          "endLine": 58,
+          "note": "World Athletics official profile shows 'Kayla BUSHEY', disciplines Triple Jump and Long Jump, country United States"
+        },
+        {
+          "documentId": "country",
+          "startLine": 59,
+          "endLine": 62,
+          "note": "Birth date field incomplete in extraction: line 59 shows 'Born' label only without date value; personal best section begins line 62"
+        },
+        {
+          "documentId": "case",
+          "startLine": 7,
+          "endLine": 7,
+          "note": "USADA case shows 'Kayla Bushey, of Nashville, Tenn.' age 23 in 2017 (announcement July 2017, violation June 2016)"
+        }
+      ],
+      "findings": [
+        {
+          "field": "identity",
+          "explanation": "Supplied World Athletics document extraction breaks at birth date field (line 59 shows label 'Born' without value). Name and sport match exactly; approximate age is consistent (23 in mid-2016 implies DOB ~1992-1993), but exact birth date is required to definitively establish identity match without additional identifiers.",
+          "suggestion": "Retrieve full birth date from World Athletics profile to confirm definitive identity match with USADA case subject."
+        }
+      ]
+    },
+    {
+      "id": "usada-fcfbbcf8949b",
+      "status": "supported",
+      "identity": "supported",
+      "country": "supported",
+      "temporalScope": "supported",
+      "evidence": [
+        {
+          "documentId": "country",
+          "startLine": 54,
+          "endLine": 59,
+          "note": "World Athletics official profile confirms 'Jonathan SANFORD', Long Jump, country United States, Born '15 MAY 1990'"
+        },
+        {
+          "documentId": "case",
+          "startLine": 7,
+          "endLine": 7,
+          "note": "USADA case confirms identity: 'Jonathan Sanford of Conyers, Ga.' age 27 in December 2017; DOB May 1990 matches WA record exactly"
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-4ab89c689116",
+      "status": "supported",
+      "identity": "supported",
+      "country": "supported",
+      "temporalScope": "supported",
+      "evidence": [
+        {
+          "documentId": "country",
+          "startLine": 54,
+          "endLine": 60,
+          "note": "World Athletics official profile confirms 'Atlanta WESTBROOK', disciplines Triple Jump and Long Jump, country United States, Born '07 NOV 1992'"
+        },
+        {
+          "documentId": "case",
+          "startLine": 7,
+          "endLine": 8,
+          "note": "USADA case confirms identity: 'Atlanta Westbrook of Fairview, Tenn.' age 24 (November 2017 announcement); DOB November 1992 matches WA record exactly"
+        }
+      ],
+      "findings": []
+    }
+  ]
+}

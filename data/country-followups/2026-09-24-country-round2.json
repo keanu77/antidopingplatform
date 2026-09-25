@@ -1006,6 +1006,198 @@
         "packetSha256": "a557959854c7c037b3354f469ccb1134e003cd12946b0bb0a10db58f1c5a2c44",
         "annotationUpdatedAfterReview": false
       }
+    },
+    {
+      "id": "usada-16f2d1c7b31c",
+      "athleteName": "Frank Travieso",
+      "nationality": "美國",
+      "checkedAt": "2026-09-25",
+      "sourceUrl": "https://www.uci.org/rider-details/44432",
+      "countryAsListed": "USA（UCI rider details, nationality）",
+      "scope": "official_profile_at_lookup",
+      "note": "補充來源為本次查閱的 UCI 官方選手資料（頁面內嵌資料列 nationality USA 及 2006–2013 美國註冊車隊）；不據此推定本案 2023 事件當年代表資格，也非法律國籍認證。",
+      "sourceRefs": [
+        {
+          "url": "https://www.uci.org/rider-details/44432",
+          "retrievedAt": "2026-09-25T02:58:22.409397+00:00",
+          "rawSha256": "e29ccc5f6f5bb50207b2f25f573841bc45df95d94c99643531790dd116e574b4",
+          "textSha256": "0e6461bad0f78ee6a209b80062ffa257d0cdaa6c7e069f5cfc88cd3390a363cc"
+        }
+      ],
+      "modelReview": {
+        "checkedAt": "2026-09-25",
+        "scope": "country_and_identity_only",
+        "modelSeats": [
+          "Claude",
+          "GPT"
+        ],
+        "requestedModels": [
+          "gpt-6-luna",
+          "haiku"
+        ],
+        "packetSha256": "759e83ae2224481823528f34f537fefe64fba9b64758abdd1ddd736ddd52aac9",
+        "annotationUpdatedAfterReview": false
+      }
+    },
+    {
+      "id": "usada-7774f20822ed",
+      "athleteName": "Robert Jerry Qualls",
+      "nationality": "美國",
+      "checkedAt": "2026-09-25",
+      "sourceUrl": "https://usatfmasters.org/world-masters-athletics-indoor-championships-day-four-summary/",
+      "countryAsListed": "Team USATF Masters（2023 World Masters Athletics Indoor Championships）",
+      "scope": "official_team_or_event_record",
+      "note": "依 USATF Masters 2023 年 WMA 室內世界賽 Team USATF 賽況報導辨識代表隊；僅適用該賽事時期，非法律國籍認證。",
+      "sourceRefs": [
+        {
+          "url": "https://usatfmasters.org/world-masters-athletics-indoor-championships-day-four-summary/",
+          "retrievedAt": "2026-09-25T03:04:00.386959+00:00",
+          "rawSha256": "4a888fce0174f6079c1793d508e496b84664b84e2de0c2fa585fffd0cb400ce4",
+          "textSha256": "13cf3c4a36ebad1b0c4e1d2c14a362c879ef8b63131a954342e7de9084010d0b"
+        }
+      ],
+      "modelReview": {
+        "checkedAt": "2026-09-25",
+        "scope": "country_and_identity_only",
+        "modelSeats": [
+          "Claude",
+          "GPT"
+        ],
+        "requestedModels": [
+          "gpt-6-luna",
+          "haiku"
+        ],
+        "packetSha256": "759e83ae2224481823528f34f537fefe64fba9b64758abdd1ddd736ddd52aac9",
+        "annotationUpdatedAfterReview": false
+      }
+    },
+    {
+      "id": "usada-fcfbbcf8949b",
+      "athleteName": "Jonathan Sanford",
+      "nationality": "美國",
+      "checkedAt": "2026-09-25",
+      "sourceUrl": "https://worldathletics.org/athletes/united-states/jonathan-sanford-14461022",
+      "countryAsListed": "United States（World Athletics）",
+      "scope": "official_profile_at_lookup",
+      "note": "補充來源為本次查閱的 World Athletics 官方選手頁，列 country United States；頁面成績有各自年份，不據此推定本案事件當年代表資格，也非法律國籍認證。",
+      "sourceRefs": [
+        {
+          "url": "https://worldathletics.org/athletes/united-states/jonathan-sanford-14461022",
+          "retrievedAt": "2026-09-25T03:03:31.366193+00:00",
+          "rawSha256": "c477480cb5b45491bb8133783779a9e7fc1c422def8e69e3331c40922d1dc14c",
+          "textSha256": "6998e3511024fdff24bacef833d59de8a6c89cd605e75c5dc9aad8a33e3358e7"
+        }
+      ],
+      "modelReview": {
+        "checkedAt": "2026-09-25",
+        "scope": "country_and_identity_only",
+        "modelSeats": [
+          "Claude",
+          "GPT"
+        ],
+        "requestedModels": [
+          "gpt-6-luna",
+          "haiku"
+        ],
+        "packetSha256": "759e83ae2224481823528f34f537fefe64fba9b64758abdd1ddd736ddd52aac9",
+        "annotationUpdatedAfterReview": false
+      }
+    },
+    {
+      "id": "usada-4ab89c689116",
+      "athleteName": "Atlanta Westbrook",
+      "nationality": "美國",
+      "checkedAt": "2026-09-25",
+      "sourceUrl": "https://worldathletics.org/athletes/united-states/atlanta-westbrook-14519341",
+      "countryAsListed": "United States（World Athletics）",
+      "scope": "official_profile_at_lookup",
+      "note": "補充來源為本次查閱的 World Athletics 官方選手頁，列 country United States；頁面成績有各自年份，不據此推定本案事件當年代表資格，也非法律國籍認證。",
+      "sourceRefs": [
+        {
+          "url": "https://worldathletics.org/athletes/united-states/atlanta-westbrook-14519341",
+          "retrievedAt": "2026-09-25T03:03:31.554779+00:00",
+          "rawSha256": "4092b05353c3e5619593bc5b7953c62970b399e33bfee619c5e69d79d333529b",
+          "textSha256": "e6da055d96c56466f442e81b3ff3b80af26794d31b2ddd9de18deeadfe4b4e95"
+        }
+      ],
+      "modelReview": {
+        "checkedAt": "2026-09-25",
+        "scope": "country_and_identity_only",
+        "modelSeats": [
+          "Claude",
+          "GPT"
+        ],
+        "requestedModels": [
+          "gpt-6-luna",
+          "haiku"
+        ],
+        "packetSha256": "759e83ae2224481823528f34f537fefe64fba9b64758abdd1ddd736ddd52aac9",
+        "annotationUpdatedAfterReview": false
+      }
+    },
+    {
+      "id": "usada-994755070e39",
+      "athleteName": "Kenna Wolter",
+      "nationality": "美國",
+      "checkedAt": "2026-09-25",
+      "sourceUrl": "https://worldathletics.org/athletes/united-states/kenna-wolter-14407649",
+      "countryAsListed": "United States（World Athletics）",
+      "scope": "official_profile_at_lookup",
+      "note": "補充來源為本次查閱的 World Athletics 官方選手頁，列 country United States；頁面成績有各自年份，不據此推定本案事件當年代表資格，也非法律國籍認證。",
+      "sourceRefs": [
+        {
+          "url": "https://worldathletics.org/athletes/united-states/kenna-wolter-14407649",
+          "retrievedAt": "2026-09-25T03:03:32.824203+00:00",
+          "rawSha256": "092aa393c6ed12dd541ed8e0acad4880a938128a77b86e2d9ab4bf00466ae9f7",
+          "textSha256": "eb36948e3ce364b5997587aac1924bcb0866bd4ac817930bfff5296bac100040"
+        }
+      ],
+      "modelReview": {
+        "checkedAt": "2026-09-25",
+        "scope": "country_and_identity_only",
+        "modelSeats": [
+          "Claude",
+          "GPT"
+        ],
+        "requestedModels": [
+          "gpt-6-luna",
+          "haiku"
+        ],
+        "packetSha256": "0cafe500238d67050e0c0aaf2d2b5c79e28bfa1d88d310f98bc87e5c1795b9e7",
+        "annotationUpdatedAfterReview": false
+      }
+    },
+    {
+      "id": "usada-1f56bc7e39f1",
+      "athleteName": "Nick Mossberg",
+      "nationality": "美國",
+      "checkedAt": "2026-09-25",
+      "sourceUrl": "https://worldathletics.org/athletes/united-states/nick-mossberg-247121",
+      "countryAsListed": "United States（World Athletics）",
+      "scope": "official_profile_at_lookup",
+      "note": "補充來源為本次查閱的 World Athletics 官方選手頁，列 country United States；頁面成績有各自年份，不據此推定本案事件當年代表資格，也非法律國籍認證。",
+      "sourceRefs": [
+        {
+          "url": "https://worldathletics.org/athletes/united-states/nick-mossberg-247121",
+          "retrievedAt": "2026-09-25T03:03:32.445573+00:00",
+          "rawSha256": "373232c65817fae20d2b5af14304b73283b9c986835d910d4c75e97cb47f8610",
+          "textSha256": "fd69a64a420ef3baae3d9d45ac06e8d128152db8449f7938b11cb298ed39d7e0"
+        }
+      ],
+      "modelReview": {
+        "checkedAt": "2026-09-25",
+        "scope": "country_and_identity_only",
+        "modelSeats": [
+          "Claude",
+          "GPT"
+        ],
+        "requestedModels": [
+          "gpt-6-luna",
+          "haiku"
+        ],
+        "packetSha256": "0cafe500238d67050e0c0aaf2d2b5c79e28bfa1d88d310f98bc87e5c1795b9e7",
+        "annotationUpdatedAfterReview": false
+      }
     }
   ],
   "heldCountryChecks": [
@@ -1062,6 +1254,26 @@
     {
       "id": "usada-005ef8b2c89f",
       "reason": "兩模型均指出同人疑義：Team USA 頁 Hometown Boston，USADA 為 of Canonsburg, Pa.，不同州；年齡相符但無其他官方資料可連結，維持待確認。",
+      "checkedAt": "2026-09-25"
+    },
+    {
+      "id": "usada-55dafea87f5e",
+      "reason": "World Athletics 官方頁列 United States，但未列生日、成績地點亦無法連結 USADA 所述城市；兩模型均指出僅憑姓名與項目不足以辨識同人。未找到可連結同人的官方資料前維持待確認。",
+      "checkedAt": "2026-09-25"
+    },
+    {
+      "id": "usada-2368662f3457",
+      "reason": "World Athletics 官方頁列 United States，但未列生日、成績地點亦無法連結 USADA 所述城市；兩模型均指出僅憑姓名與項目不足以辨識同人。未找到可連結同人的官方資料前維持待確認。",
+      "checkedAt": "2026-09-25"
+    },
+    {
+      "id": "usada-edde57057db6",
+      "reason": "World Athletics 官方頁列 United States，但未列生日、成績地點亦無法連結 USADA 所述城市；兩模型均指出僅憑姓名與項目不足以辨識同人。未找到可連結同人的官方資料前維持待確認。",
+      "checkedAt": "2026-09-25"
+    },
+    {
+      "id": "usada-c624acaae104",
+      "reason": "Team USA 官方頁所列家鄉（Marquette）與 USADA 公告（Chicago, Ill.）不同，且摘錄未明列代表國家；兩模型均指出同人與國家欄位證據不足，維持待確認。",
       "checkedAt": "2026-09-25"
     }
   ],

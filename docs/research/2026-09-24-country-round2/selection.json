@@ -592,5 +592,139 @@
       "United States",
       "Dressage"
     ]
+  },
+  {
+    "id": "usada-16f2d1c7b31c",
+    "sourceUrl": "https://www.uci.org/rider-details/44432",
+    "scope": "official_profile_at_lookup",
+    "countryAsListed": "USA（UCI rider details, nationality）",
+    "temporalNote": "補充來源為本次查閱的 UCI 官方選手資料（頁面內嵌資料列 nationality USA 及 2006–2013 美國註冊車隊）；不據此推定本案 2023 事件當年代表資格，也非法律國籍認證。",
+    "identityRationale": "同名 Frank Travieso、自行車；UCI 列生日 1980-03-02，USADA 2024-02-05 公告稱 43 歲（採樣 2023-09-03），年齡一致；UCI 頁 sanctions 欄為 None，需判斷是否影響同人判定。",
+    "matchTerms": [
+      "TRAVIESO",
+      "nationality",
+      "dob",
+      "countryCode"
+    ]
+  },
+  {
+    "id": "usada-7774f20822ed",
+    "sourceUrl": "https://usatfmasters.org/world-masters-athletics-indoor-championships-day-four-summary/",
+    "scope": "official_team_or_event_record",
+    "countryAsListed": "Team USATF Masters（2023 World Masters Athletics Indoor Championships）",
+    "temporalNote": "依 USATF Masters 2023 年 WMA 室內世界賽 Team USATF 賽況報導辨識代表隊；僅適用該賽事時期，非法律國籍認證。",
+    "identityRationale": "USADA 稱 Robert Qualls of Reno, Nev.，2024-06 公告 72 歲；USATF Masters 報導列 Robert Qualls (Reno, NV) M70 10k Road Race 金牌（2023-03），城市與年齡組一致。",
+    "matchTerms": [
+      "Qualls",
+      "Team USATF",
+      "Reno"
+    ]
+  },
+  {
+    "id": "usada-55dafea87f5e",
+    "sourceUrl": "https://worldathletics.org/athletes/united-states/kayla-bushey-14641359",
+    "scope": "official_profile_at_lookup",
+    "countryAsListed": "United States（World Athletics）",
+    "temporalNote": "補充來源為本次查閱的 World Athletics 官方選手頁，列 country United States；頁面成績有各自年份，不據此推定本案事件當年代表資格，也非法律國籍認證。",
+    "identityRationale": "同名 Kayla Bushey、田徑；World Athletics 頁列跳遠／三級跳、2014–2015 伊利諾州大學賽場，未列生日；USADA 稱 of Nashville, Tenn.、2017-07 公告 23 歲。僅姓名與項目可比對，需判斷是否足以辨識同人。",
+    "matchTerms": [
+      "BUSHEY",
+      "United States",
+      "Born"
+    ]
+  },
+  {
+    "id": "usada-fcfbbcf8949b",
+    "sourceUrl": "https://worldathletics.org/athletes/united-states/jonathan-sanford-14461022",
+    "scope": "official_profile_at_lookup",
+    "countryAsListed": "United States（World Athletics）",
+    "temporalNote": "補充來源為本次查閱的 World Athletics 官方選手頁，列 country United States；頁面成績有各自年份，不據此推定本案事件當年代表資格，也非法律國籍認證。",
+    "identityRationale": "同名 Jonathan Sanford、田徑；World Athletics 列跳遠、生日 1990-05-15；USADA 2017-12-21 公告稱 27 歲，年齡一致。",
+    "matchTerms": [
+      "SANFORD",
+      "United States",
+      "Born"
+    ]
+  },
+  {
+    "id": "usada-4ab89c689116",
+    "sourceUrl": "https://worldathletics.org/athletes/united-states/atlanta-westbrook-14519341",
+    "scope": "official_profile_at_lookup",
+    "countryAsListed": "United States（World Athletics）",
+    "temporalNote": "補充來源為本次查閱的 World Athletics 官方選手頁，列 country United States；頁面成績有各自年份，不據此推定本案事件當年代表資格，也非法律國籍認證。",
+    "identityRationale": "同名 Atlanta Westbrook、田徑；World Athletics 列三級跳／跳遠、生日 1992-11-07；USADA 2017-11-03 公告稱 24 歲，年齡一致。",
+    "matchTerms": [
+      "WESTBROOK",
+      "United States",
+      "Born"
+    ]
+  },
+  {
+    "id": "usada-994755070e39",
+    "sourceUrl": "https://worldathletics.org/athletes/united-states/kenna-wolter-14407649",
+    "scope": "official_profile_at_lookup",
+    "countryAsListed": "United States（World Athletics）",
+    "temporalNote": "補充來源為本次查閱的 World Athletics 官方選手頁，列 country United States；頁面成績有各自年份，不據此推定本案事件當年代表資格，也非法律國籍認證。",
+    "identityRationale": "同名 Kenna Wolter、田徑；World Athletics 列三級跳、生日 1989-09-21；USADA 2017-12-22 公告稱 28 歲，年齡一致。",
+    "matchTerms": [
+      "WOLTER",
+      "United States",
+      "Born"
+    ]
+  },
+  {
+    "id": "usada-1f56bc7e39f1",
+    "sourceUrl": "https://worldathletics.org/athletes/united-states/nick-mossberg-247121",
+    "scope": "official_profile_at_lookup",
+    "countryAsListed": "United States（World Athletics）",
+    "temporalNote": "補充來源為本次查閱的 World Athletics 官方選手頁，列 country United States；頁面成績有各自年份，不據此推定本案事件當年代表資格，也非法律國籍認證。",
+    "identityRationale": "同名 Nick Mossberg、田徑（撐竿跳）；World Athletics 列生日 1986-04-05；USADA 2016-12-14 公告稱 30 歲，年齡一致。",
+    "matchTerms": [
+      "MOSSBERG",
+      "United States",
+      "Born"
+    ]
+  },
+  {
+    "id": "usada-2368662f3457",
+    "sourceUrl": "https://worldathletics.org/athletes/united-states/cliff-nielson-14459926",
+    "scope": "official_profile_at_lookup",
+    "countryAsListed": "United States（World Athletics）",
+    "temporalNote": "補充來源為本次查閱的 World Athletics 官方選手頁，列 country United States；頁面成績有各自年份，不據此推定本案事件當年代表資格，也非法律國籍認證。",
+    "identityRationale": "同名 Cliff Nielson、田徑（中長距離）；World Athletics 未列生日，成績為 2012 年猶他／加州／愛達荷大學賽場；USADA 稱 of Chandler, Ariz.、2017-05 公告 25 歲。僅姓名與項目可比對，需判斷是否足以辨識同人。",
+    "matchTerms": [
+      "NIELSON",
+      "United States",
+      "Born"
+    ]
+  },
+  {
+    "id": "usada-edde57057db6",
+    "sourceUrl": "https://worldathletics.org/athletes/united-states/cody-bidlow-14579907",
+    "scope": "official_profile_at_lookup",
+    "countryAsListed": "United States（World Athletics）",
+    "temporalNote": "補充來源為本次查閱的 World Athletics 官方選手頁，列 country United States；頁面成績有各自年份，不據此推定本案事件當年代表資格，也非法律國籍認證。",
+    "identityRationale": "同名 Cody Bidlow、田徑（短跑）；World Athletics 未列生日，成績含 Flagstaff, AZ 與加州賽場；USADA 稱 of Phoenix, Ariz.、2016-11 公告 24 歲。僅姓名、項目與亞利桑那賽場可比對，需判斷是否足以辨識同人。",
+    "matchTerms": [
+      "BIDLOW",
+      "United States",
+      "Born",
+      "Flagstaff"
+    ]
+  },
+  {
+    "id": "usada-c624acaae104",
+    "sourceUrl": "https://www.teamusa.com/profiles/andrew-vrabel",
+    "scope": "official_profile_at_lookup",
+    "countryAsListed": "Team USA",
+    "temporalNote": "補充來源為本次查閱的 Team USA（USOPC）官方選手頁；頁面所列國際賽經歷有各自年份，不據此推定本案事件當年代表資格，也非法律國籍認證。",
+    "identityRationale": "同名 Andrew Vrabel、舉重；Team USA 頁列年齡 35、Hometown Marquette（北密西根大學奧運訓練基地所在地）；USADA 稱 of Chicago, Ill.、2017-01 公告 25 歲，年齡一致但城市不同，需判斷是否足以辨識同人。",
+    "matchTerms": [
+      "Vrabel",
+      "Hometown",
+      "Marquette",
+      "Junior",
+      "World"
+    ]
   }
 ]

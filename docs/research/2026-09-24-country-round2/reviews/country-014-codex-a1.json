@@ -1,0 +1,150 @@
+{
+  "cases": [
+    {
+      "id": "usada-16f2d1c7b31c",
+      "status": "supported",
+      "identity": "supported",
+      "country": "supported",
+      "temporalScope": "supported",
+      "evidence": [
+        {
+          "documentId": "country",
+          "startLine": 104,
+          "endLine": 108,
+          "note": "UCI profile names Frank Travieso, gives DOB 02.03.1980 and lists nationality USA."
+        },
+        {
+          "documentId": "case",
+          "startLine": 7,
+          "endLine": 8,
+          "note": "USADA identifies Frank Travieso as a cycling athlete, age 43, with a sample collected in 2023; this is consistent with the UCI identity."
+        },
+        {
+          "documentId": "country",
+          "startLine": 103,
+          "endLine": 108,
+          "note": "The cited USA annotation is explicitly limited to the UCI profile as listed at lookup; its sanctions field says None and does not establish 2023 eligibility or legal citizenship."
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-7774f20822ed",
+      "status": "supported",
+      "identity": "supported",
+      "country": "supported",
+      "temporalScope": "supported",
+      "evidence": [
+        {
+          "documentId": "country",
+          "startLine": 90,
+          "endLine": 92,
+          "note": "The dated 2023 report identifies Robert Qualls (Reno, NV) among Team USATF Masters gold medalists."
+        },
+        {
+          "documentId": "case",
+          "startLine": 7,
+          "endLine": 8,
+          "note": "USADA identifies Robert Qualls of Reno as a track and field athlete, age 72; name, location, sport and age group align with the 2023 report."
+        },
+        {
+          "documentId": "country",
+          "startLine": 90,
+          "endLine": 92,
+          "note": "Team USATF affiliation is established for this 2023 championship period, matching the proposed event-limited scope."
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-55dafea87f5e",
+      "status": "uncertain",
+      "identity": "uncertain",
+      "country": "supported",
+      "temporalScope": "supported",
+      "evidence": [
+        {
+          "documentId": "country",
+          "startLine": 54,
+          "endLine": 58,
+          "note": "World Athletics profile names Kayla Bushey, lists track and field events, and shows United States."
+        },
+        {
+          "documentId": "case",
+          "startLine": 7,
+          "endLine": 8,
+          "note": "USADA identifies Kayla Bushey as a track and field athlete, age 23, from Nashville; the profile has no birth date or location here to confirm identity."
+        },
+        {
+          "documentId": "country",
+          "startLine": 54,
+          "endLine": 58,
+          "note": "The annotation is limited to the profile's country as listed at lookup, without claiming 2016 representation or legal citizenship."
+        }
+      ],
+      "findings": [
+        {
+          "field": "identity",
+          "explanation": "Name and sport match, but the supplied profile excerpt has no birth date or location to distinguish this athlete from a same-name track athlete; the rationale itself notes that limitation.",
+          "suggestion": "Mark the identity link uncertain or add a corroborating official identifier before attaching this profile's country to the case."
+        }
+      ]
+    },
+    {
+      "id": "usada-fcfbbcf8949b",
+      "status": "supported",
+      "identity": "supported",
+      "country": "supported",
+      "temporalScope": "supported",
+      "evidence": [
+        {
+          "documentId": "country",
+          "startLine": 54,
+          "endLine": 59,
+          "note": "World Athletics profile lists Jonathan Sanford, long jump, United States, and birth date 15 May 1990."
+        },
+        {
+          "documentId": "case",
+          "startLine": 7,
+          "endLine": 8,
+          "note": "USADA identifies a track and field athlete Jonathan Sanford, age 27 in December 2017, consistent with the profile's birth date and event."
+        },
+        {
+          "documentId": "country",
+          "startLine": 54,
+          "endLine": 59,
+          "note": "The country claim is limited to the profile listing at lookup and expressly does not claim historical representation or legal citizenship."
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-4ab89c689116",
+      "status": "supported",
+      "identity": "supported",
+      "country": "supported",
+      "temporalScope": "supported",
+      "evidence": [
+        {
+          "documentId": "country",
+          "startLine": 54,
+          "endLine": 60,
+          "note": "World Athletics profile lists Atlanta Westbrook, triple jump and long jump, United States, and birth date 7 November 1992."
+        },
+        {
+          "documentId": "case",
+          "startLine": 7,
+          "endLine": 8,
+          "note": "USADA identifies track and field athlete Atlanta Westbrook, age 24 in November 2017; the age and events align with the profile."
+        },
+        {
+          "documentId": "country",
+          "startLine": 54,
+          "endLine": 60,
+          "note": "The annotation is explicitly limited to country shown on the profile at lookup, not historical eligibility or legal citizenship."
+        }
+      ],
+      "findings": []
+    }
+  ]
+}

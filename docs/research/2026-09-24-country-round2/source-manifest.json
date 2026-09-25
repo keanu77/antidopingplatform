@@ -36,6 +36,15 @@
     "textSha256": "ce2dd1da96d0c8437ed33a295d8f017d98a0e7a13ba0d8b3c8de16968abf85e0"
   },
   {
+    "url": "https://worldathletics.org/athletes/united-states/nick-mossberg-247121",
+    "retrievedAt": "2026-09-25T03:03:32.445573+00:00",
+    "status": "downloaded_unreviewed",
+    "rawPath": ".cache/2026-09-24-country-round2/709723653015ecae1305.raw",
+    "textPath": ".cache/2026-09-24-country-round2/709723653015ecae1305.txt",
+    "rawSha256": "373232c65817fae20d2b5af14304b73283b9c986835d910d4c75e97cb47f8610",
+    "textSha256": "fd69a64a420ef3baae3d9d45ac06e8d128152db8449f7938b11cb298ed39d7e0"
+  },
+  {
     "url": "https://www.teamusa.com/profiles/cesar-colunga",
     "retrievedAt": "2026-09-24T06:02:58.487943+00:00",
     "status": "downloaded_unreviewed",
@@ -52,6 +61,15 @@
     "textPath": ".cache/2026-09-24-country-round2/c6a49821905b9b704a24.txt",
     "rawSha256": "a4ee9adf40cfb32a1359d535fbf8d4740849b2b057ae3a7ccc0473e7ab0eff9e",
     "textSha256": "03c431a107951ca6f0918ce082bb6f266c0fe44697df7118701e0e75ff1f99c8"
+  },
+  {
+    "url": "https://worldathletics.org/athletes/united-states/kayla-bushey-14641359",
+    "retrievedAt": "2026-09-25T03:03:32.640583+00:00",
+    "status": "downloaded_unreviewed",
+    "rawPath": ".cache/2026-09-24-country-round2/4c804e7b3d8b42470222.raw",
+    "textPath": ".cache/2026-09-24-country-round2/4c804e7b3d8b42470222.txt",
+    "rawSha256": "f1e1ae93c899dc9536f573a0b52660c5e28e0640674753125532c1f088b49b03",
+    "textSha256": "6d82f5f5c06206728591eea0b38351223388ad044d9619f18b440167df93a844"
   },
   {
     "url": "https://www.worldskate.org/inline-hockey/news-inline-hockey/1771-rosario-2015-senior-men-usa,-france,-latvia-and-czech-republic-pass-to-the-semifinals.html",
@@ -135,6 +153,15 @@
     "textSha256": "214fba03d70d14146aaa551c608efa08b2175c4766a67d1222e1e472d0caca6f"
   },
   {
+    "url": "https://worldathletics.org/athletes/united-states/cliff-nielson-14459926",
+    "retrievedAt": "2026-09-25T03:03:31.275458+00:00",
+    "status": "downloaded_unreviewed",
+    "rawPath": ".cache/2026-09-24-country-round2/6c7bb1c545d6d3bedaac.raw",
+    "textPath": ".cache/2026-09-24-country-round2/6c7bb1c545d6d3bedaac.txt",
+    "rawSha256": "3de6726a71ce0fa0950af6929a002654c87609b57fbcae88fbc7904cb782464b",
+    "textSha256": "1a03af3246a37d1d4dad02dcb37a48af88bc569a0f12f56e13fb05a70b9e5649"
+  },
+  {
     "url": "https://www.usafieldhockey.com/profiles/tyler-sundeen",
     "retrievedAt": "2026-09-24T05:27:04.792330+00:00",
     "status": "downloaded_unreviewed",
@@ -189,6 +216,15 @@
     "textSha256": "c3bd960c7da231a4d90a15ab0e35e53105d7c46fe020ce5f144b21346e1e4c42"
   },
   {
+    "url": "https://worldathletics.org/athletes/united-states/jonathan-sanford-14461022",
+    "retrievedAt": "2026-09-25T03:03:31.366193+00:00",
+    "status": "downloaded_unreviewed",
+    "rawPath": ".cache/2026-09-24-country-round2/d47d8981fcb3fa8806ba.raw",
+    "textPath": ".cache/2026-09-24-country-round2/d47d8981fcb3fa8806ba.txt",
+    "rawSha256": "c477480cb5b45491bb8133783779a9e7fc1c422def8e69e3331c40922d1dc14c",
+    "textSha256": "6998e3511024fdff24bacef833d59de8a6c89cd605e75c5dc9aad8a33e3358e7"
+  },
+  {
     "url": "https://www.worldboccia.com/2021/12/09/sao-paulo-rc-day-1-results/",
     "retrievedAt": "2026-09-24T06:01:53.718598+00:00",
     "status": "downloaded_unreviewed",
@@ -196,6 +232,15 @@
     "textPath": ".cache/2026-09-24-country-round2/76780315d566a5c8a5ae.txt",
     "rawSha256": "ee377dccf3b56906aaca835310444e011898a369a0fe68259dadeed16822be14",
     "textSha256": "5fefe8aa593b82d95baa32178873dc1ad9c13f99864322e19e30f69875866b1c"
+  },
+  {
+    "url": "https://www.teamusa.com/profiles/andrew-vrabel",
+    "retrievedAt": "2026-09-25T03:03:32.906466+00:00",
+    "status": "downloaded_unreviewed",
+    "rawPath": ".cache/2026-09-24-country-round2/57e5bfe533a4dfe11ba0.raw",
+    "textPath": ".cache/2026-09-24-country-round2/57e5bfe533a4dfe11ba0.txt",
+    "rawSha256": "69e4a0baa5246f6a36e299575fbeb897803537f36f55322bf3ee45d7184db6fb",
+    "textSha256": "37f614254848eb3ecda42c0633200461145ceda844e720175997c2f2ede8b925"
   },
   {
     "url": "https://www.usef.org/team-usa/athletes/susan_dutta",
@@ -261,6 +306,24 @@
     "textSha256": "8dad4cb514ea96552a500a80674165560445a321e38558ae3b9373ba4de46d88"
   },
   {
+    "url": "https://www.usaweightlifting.org/sanctioned-members",
+    "retrievedAt": "2026-09-25T03:03:34.752547+00:00",
+    "status": "downloaded_unreviewed",
+    "rawPath": ".cache/2026-09-24-country-round2/ffb1c0cb56ded9983752.raw",
+    "textPath": ".cache/2026-09-24-country-round2/ffb1c0cb56ded9983752.txt",
+    "rawSha256": "3be9496cceea65c2809a0217f48bc629071dbab914941c6ecf339f37d3b0ab6e",
+    "textSha256": "1b03eecafae814d4eb38dde7b5670947c1ca16ab66aa8fb276e2515d22289d6d"
+  },
+  {
+    "url": "https://worldathletics.org/athletes/united-states/cody-bidlow-14579907",
+    "retrievedAt": "2026-09-25T03:03:31.452439+00:00",
+    "status": "downloaded_unreviewed",
+    "rawPath": ".cache/2026-09-24-country-round2/9f462f2bb9ffa044189b.raw",
+    "textPath": ".cache/2026-09-24-country-round2/9f462f2bb9ffa044189b.txt",
+    "rawSha256": "cb73c4271585baaa7392216af39557648cad0a8d90a2b70f933d436be96d516a",
+    "textSha256": "e8cc5a8c05d902d1e101b8c4a2b4489c4247704ba081e88c9d984f677dbe9035"
+  },
+  {
     "url": "https://www.teamusa.com/profiles/lindsey-corrigan",
     "retrievedAt": "2026-09-24T05:28:10.100744+00:00",
     "status": "downloaded_unreviewed",
@@ -295,6 +358,15 @@
     "textPath": ".cache/2026-09-24-country-round2/1bfed7e7658056e2d35d.txt",
     "rawSha256": "a884a1eb5c6c821c55e157d4d2f7fb4b97f2898c4e394c24f767f6955df9257a",
     "textSha256": "c3e8143edfae68fdb301430aa18d41e6682f2e3f74c63c31c18d2ace7f45a6ae"
+  },
+  {
+    "url": "https://worldathletics.org/athletes/united-states/kenna-wolter-14407649",
+    "retrievedAt": "2026-09-25T03:03:32.824203+00:00",
+    "status": "downloaded_unreviewed",
+    "rawPath": ".cache/2026-09-24-country-round2/0fcf9a050a2bfc9b6712.raw",
+    "textPath": ".cache/2026-09-24-country-round2/0fcf9a050a2bfc9b6712.txt",
+    "rawSha256": "092aa393c6ed12dd541ed8e0acad4880a938128a77b86e2d9ab4bf00466ae9f7",
+    "textSha256": "eb36948e3ce364b5997587aac1924bcb0866bd4ac817930bfff5296bac100040"
   },
   {
     "url": "https://worldrowing.com/athlete/8404",
@@ -340,6 +412,15 @@
     "textPath": ".cache/2026-09-24-country-round2/6fc767cc774acd3c7f9c.txt",
     "rawSha256": "682a2d098af48e71f7a1d5cc6261ca417ffff3984b6eede7ba5e6e95b7e82880",
     "textSha256": "aa5181fb84c5ed5e1601fc0c11f49bd86d2562e7926c375fec636222c7a88aba"
+  },
+  {
+    "url": "https://worldathletics.org/athletes/united-states/atlanta-westbrook-14519341",
+    "retrievedAt": "2026-09-25T03:03:31.554779+00:00",
+    "status": "downloaded_unreviewed",
+    "rawPath": ".cache/2026-09-24-country-round2/c8a635c0a001f35ab362.raw",
+    "textPath": ".cache/2026-09-24-country-round2/c8a635c0a001f35ab362.txt",
+    "rawSha256": "4092b05353c3e5619593bc5b7953c62970b399e33bfee619c5e69d79d333529b",
+    "textSha256": "e6da055d96c56466f442e81b3ff3b80af26794d31b2ddd9de18deeadfe4b4e95"
   },
   {
     "url": "https://www.teamusa.com/profiles/chris-creveling-859947",
@@ -405,6 +486,15 @@
     "textSha256": "62f955f9f596ebf6eec81d3c0687d9ccc9605db6fb315e6c81c039f1d154aa1d"
   },
   {
+    "url": "https://usatfmasters.org/world-masters-athletics-indoor-championships-day-four-summary/",
+    "retrievedAt": "2026-09-25T03:04:00.386959+00:00",
+    "status": "downloaded_unreviewed",
+    "rawPath": ".cache/2026-09-24-country-round2/aea2795d6615123ffc46.raw",
+    "textPath": ".cache/2026-09-24-country-round2/aea2795d6615123ffc46.txt",
+    "rawSha256": "4a888fce0174f6079c1793d508e496b84664b84e2de0c2fa585fffd0cb400ce4",
+    "textSha256": "13cf3c4a36ebad1b0c4e1d2c14a362c879ef8b63131a954342e7de9084010d0b"
+  },
+  {
     "url": "https://www.usaweightlifting.org/news/2025/may/13/ella-nicholson-earns-third-world-title-continues-perfect-medal-streak",
     "retrievedAt": "2026-09-24T05:01:42.621296+00:00",
     "status": "downloaded_unreviewed",
@@ -412,6 +502,24 @@
     "textPath": ".cache/2026-09-24-country-round2/2ff08d39b804f62373ea.txt",
     "rawSha256": "18ef47bf173b700550a828d97d584274894d320dac1c51669cee151cbc603e2a",
     "textSha256": "6f5ff4b94e2f5e101add6d725b5a630bec7fc05ee0cca7d77f8968d128276e05"
+  },
+  {
+    "url": "https://www.uci.org/rider-details/44432",
+    "retrievedAt": "2026-09-25T02:58:22.409397+00:00",
+    "status": "downloaded_unreviewed",
+    "rawPath": ".cache/2026-09-24-country-round2/2dbf78d44d554a0a6b31.raw",
+    "textPath": ".cache/2026-09-24-country-round2/2dbf78d44d554a0a6b31.txt",
+    "rawSha256": "e29ccc5f6f5bb50207b2f25f573841bc45df95d94c99643531790dd116e574b4",
+    "textSha256": "0e6461bad0f78ee6a209b80062ffa257d0cdaa6c7e069f5cfc88cd3390a363cc"
+  },
+  {
+    "url": "https://www.usaweightlifting.org/news/features/2021/april/26/team-usa-tops-medal-table-6-athletes-crowned-pan-american-champions",
+    "retrievedAt": "2026-09-25T02:56:49.306493+00:00",
+    "status": "downloaded_unreviewed",
+    "rawPath": ".cache/2026-09-24-country-round2/61632bfe374942a28582.raw",
+    "textPath": ".cache/2026-09-24-country-round2/61632bfe374942a28582.txt",
+    "rawSha256": "cd937974f86568e3259078bcdf8310b0e40b5af0c1163926f21aca72b9f6baab",
+    "textSha256": "da62a6c3e7c25b39db6282638f9e3f087df5ffc788b5ef6c0f625911852c0f88"
   },
   {
     "url": "https://www.usaweightlifting.org/news/features/2023/february/24/usa-weightlifting-statement-on-keiser-witte",

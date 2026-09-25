@@ -1,0 +1,137 @@
+{
+  "cases": [
+    {
+      "id": "usada-994755070e39",
+      "status": "supported",
+      "identity": "supported",
+      "country": "supported",
+      "temporalScope": "supported",
+      "evidence": [
+        {
+          "documentId": "country",
+          "startLine": 54,
+          "endLine": 59,
+          "note": "World Athletics profile identifies Kenna Wolter, lists Triple Jump and United States, and gives birth date 21 Sep 1989."
+        },
+        {
+          "documentId": "case",
+          "startLine": 7,
+          "endLine": 8,
+          "note": "USADA identifies Kenna Wolter as a track and field athlete and reports age 28 in its 2017 notice, consistent with the profile birth date."
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-1f56bc7e39f1",
+      "status": "supported",
+      "identity": "supported",
+      "country": "supported",
+      "temporalScope": "supported",
+      "evidence": [
+        {
+          "documentId": "country",
+          "startLine": 54,
+          "endLine": 59,
+          "note": "World Athletics profile identifies Nick Mossberg, lists Pole Vault and United States, and gives birth date 5 Apr 1986."
+        },
+        {
+          "documentId": "case",
+          "startLine": 7,
+          "endLine": 8,
+          "note": "USADA identifies Nicholas (Nick) Mossberg as a track and field athlete and reports age 30 in its 2016 notice, consistent with the profile birth date."
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "usada-2368662f3457",
+      "status": "uncertain",
+      "identity": "uncertain",
+      "country": "supported",
+      "temporalScope": "supported",
+      "evidence": [
+        {
+          "documentId": "country",
+          "startLine": 54,
+          "endLine": 64,
+          "note": "World Athletics profile names Cliff Nielson, lists middle-distance events and United States; no birth date is shown in the supplied excerpt."
+        },
+        {
+          "documentId": "case",
+          "startLine": 7,
+          "endLine": 8,
+          "note": "USADA names Cliff Nielson as a track and field athlete, of Chandler, Arizona, age 25; the supplied evidence does not establish a unique match to the profile."
+        }
+      ],
+      "findings": [
+        {
+          "field": "identity",
+          "explanation": "Name and broad sport are consistent, but the supplied excerpts provide no profile birth date or other shared identifying detail to distinguish this athlete from a possible namesake.",
+          "suggestion": "Keep the country annotation provisional unless another supplied official source links this profile to the USADA athlete."
+        }
+      ]
+    },
+    {
+      "id": "usada-edde57057db6",
+      "status": "uncertain",
+      "identity": "uncertain",
+      "country": "supported",
+      "temporalScope": "supported",
+      "evidence": [
+        {
+          "documentId": "country",
+          "startLine": 54,
+          "endLine": 60,
+          "note": "World Athletics profile names Cody Bidlow, lists 100m and 60m and United States; no birth date is shown in the supplied excerpt."
+        },
+        {
+          "documentId": "case",
+          "startLine": 7,
+          "endLine": 8,
+          "note": "USADA names Cody Bidlow as a track and field athlete, of Phoenix, Arizona, age 24; the profile excerpt does not establish a unique match."
+        }
+      ],
+      "findings": [
+        {
+          "field": "identity",
+          "explanation": "Name and sport align, but the supplied evidence does not connect the profile to the USADA athlete with a shared age or other distinguishing identifier. The Arizona competition venue is not identifying evidence of the athlete's location or identity.",
+          "suggestion": "Keep the country annotation provisional unless another supplied official source links this profile to the USADA athlete."
+        }
+      ]
+    },
+    {
+      "id": "usada-c624acaae104",
+      "status": "uncertain",
+      "identity": "uncertain",
+      "country": "uncertain",
+      "temporalScope": "supported",
+      "evidence": [
+        {
+          "documentId": "country",
+          "startLine": 448,
+          "endLine": 458,
+          "note": "Team USA identifies Andrew Vrabel and gives age 35 and hometown Marquette, but the supplied excerpt does not explicitly state his country or national-team affiliation."
+        },
+        {
+          "documentId": "case",
+          "startLine": 7,
+          "endLine": 8,
+          "note": "USADA identifies Andrew Vrabel as a weightlifting athlete, of Chicago, and age 25 in its 2017 notice; the stated age is compatible with age 35 at a later profile lookup, but the different hometown leaves identity uncertain."
+        }
+      ],
+      "findings": [
+        {
+          "field": "identity",
+          "explanation": "The name, sport and ages are compatible, while the profile hometown Marquette differs from USADA's Chicago location; the supplied excerpts do not resolve whether this is the same athlete.",
+          "suggestion": "Confirm the profile-to-case identity with a shared identifying detail in an official source."
+        },
+        {
+          "field": "country",
+          "explanation": "The supplied Team USA excerpt contains a profile title and biographical details but does not explicitly list United States or a Team USA representation statement. The junior world championship entry alone does not state the athlete's sporting country.",
+          "suggestion": "Use a supplied official source that explicitly states the athlete's country or Team USA affiliation."
+        }
+      ]
+    }
+  ]
+}

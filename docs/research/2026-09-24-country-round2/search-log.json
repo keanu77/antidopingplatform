@@ -378,5 +378,626 @@
     ],
     "result": "not_found",
     "note": "身分為教練（Athlete Support Personnel），不適用選手代表資格；未找到官方資料。維持待補證。"
+  },
+  {
+    "id": "usada-139867b729db",
+    "athleteName": "Steven Strickler",
+    "searchedAt": "2026-09-25",
+    "queries": [
+      "\"Steven Strickler\" usacycling.org cycling",
+      "\"Strickler\" site:usacycling.org OR site:legacy.usacycling.org",
+      "\"Steven Strickler\" USA Cycling national champion OR \"state champion\" road track mountain"
+    ],
+    "result": "not_found",
+    "note": "找不到官方（usacycling.org/uci.org/teamusa.com）頁面提到 Steven Strickler。僅有 G3Foundation 社團網站（非官方）聲稱他曾獲州/全國冠軍，road-results.com 為非官方資料庫，不列入證據。"
+  },
+  {
+    "id": "usada-1b4c6223d309",
+    "athleteName": "Michel Carrillo",
+    "searchedAt": "2026-09-25",
+    "queries": [
+      "\"Michel Carrillo\" usacycling.org cycling Miami",
+      "\"Carrillo\" site:legacy.usacycling.org results Miami",
+      "\"Michel Carrillo\" legacy.usacycling.org results permit"
+    ],
+    "result": "not_found",
+    "note": "查無官方來源（USA Cycling/UCI/Team USA）列出 Michel Carrillo。找到的只有 USADA 制裁公告、新聞報導與 BikeReg 非官方成績庫，皆不算官方證據。"
+  },
+  {
+    "id": "usada-48b4a6a3d8f2",
+    "athleteName": "Carl Grove",
+    "searchedAt": "2026-09-25",
+    "queries": [
+      "\"Carl Grove\" usacycling.org cycling Indiana masters",
+      "https://usacycling.org/article/three-records-fall-during-first-day-of-masters-road (WebFetch)"
+    ],
+    "result": "domestic_only",
+    "leadUrl": "https://usacycling.org/article/three-records-fall-during-first-day-of-masters-road",
+    "note": "官方 usacycling.org 文章確認 Carl Grove 來自 Indiana 州 Bristol（與 USADA 公告的 'Bristol, Ind.' 完全吻合），年齡組別 90-94 歲亦與 USADA 公告中 'Grove, 90' 吻合。但該頁面是純國內（domestic）USA Cycling 大師組全國錦標賽報導，未標示國籍/代表國家字樣，依規則歸類為 domestic_only（弱證據，非完整候選），仍列為重要線索。身份比對信心很高。（僅國內賽紀錄，依裁定原則不升級國家證據。）"
+  },
+  {
+    "id": "usada-5b1d89435a80",
+    "athleteName": "Bruce Mazur",
+    "searchedAt": "2026-09-25",
+    "queries": [
+      "\"Bruce Mazur\" usacycling.org cycling Santa Fe",
+      "\"Mazur\" site:legacy.usacycling.org results Santa Fe",
+      "\"Bruce Mazur\" cycling New Mexico national champion OR \"state champion\" road results"
+    ],
+    "result": "not_found",
+    "note": "查無官方來源列出 Bruce Mazur。僅有 USADA 制裁頁與不相關的 Mazur 姓氏 Wikipedia 條目；road-results.com 上的 'BiKyle/Mazur Coaching' 車隊無法確認是否為同一人，且非官方來源。"
+  },
+  {
+    "id": "usada-671281fb69ce",
+    "athleteName": "Ty Kurth",
+    "searchedAt": "2026-09-25",
+    "queries": [
+      "\"Ty Kurth\" usacycling.org cyclocross Illinois",
+      "\"Ty Kurth\" site:legacy.usacycling.org OR site:usacycling.org results",
+      "\"Ty Kurth\" cyclocross state championship Illinois results permit 2017"
+    ],
+    "result": "not_found",
+    "note": "在 usacycling.org 主機上的一份 2025 年 CX 全國賽 call-up 名單 PDF 中找到同名 'Ty Kurth'（Singlespeed 組），但 PDF 文字無法擷取到居住地/州別/年齡等可比對資訊，無法確認是否為 USADA 公告中同一人（McHenry, Ill.，41 歲）。另找到他是芝加哥 Cyclocross Cup（非官方社團賽事系列）的志工 Series Director，非官方國家隊/聯盟證據。未找到 2017 Illinois State Cyclocross Championships（違規發生的賽事）官方成績頁面。"
+  },
+  {
+    "id": "usada-7892ab1bda15",
+    "athleteName": "Ira Sorensen",
+    "searchedAt": "2026-09-25",
+    "queries": [
+      "\"Ira Sorensen\" usacycling.org OR legacy.usacycling.org cycling Utah",
+      "\"Ira Sorensen\" USA Cycling national championship results Utah state champion"
+    ],
+    "result": "not_found",
+    "note": "查無官方來源。找到的是他個人網站 irasorensen.com、road-results.com、新聞報導（Deseret News、Cycling West 等）及 USADA 制裁頁，皆非官方聯盟/國家代表頁面。他的主要成績是 LoToJa Classic（USA Cycling 認證賽事但屬國內業餘長途賽），未見官方選手名冚頁。"
+  },
+  {
+    "id": "usada-998b9264b440",
+    "athleteName": "Mijail Gonzalez",
+    "searchedAt": "2026-09-25",
+    "queries": [
+      "\"Mijail Gonzalez\" usacycling.org cycling Hialeah",
+      "\"Mijail Gonzalez\" legacy.usacycling.org results permit"
+    ],
+    "result": "not_found",
+    "note": "查無官方來源。僅找到 USADA 制裁頁及不相關的 González 姓氏 Wikipedia 條目，未找到任何 usacycling.org/legacy.usacycling.org/UCI/Team USA 頁面提及 Mijail Gonzalez。"
+  },
+  {
+    "id": "usada-9c2bd61dbab6",
+    "athleteName": "Raul Diaz",
+    "searchedAt": "2026-09-25",
+    "queries": [
+      "\"Raul Diaz\" usacycling.org cycling Miami results",
+      "\"Raul Diaz\" legacy.usacycling.org results permit Miami"
+    ],
+    "result": "not_found",
+    "note": "查無任何來源（含 USADA 頁面本身都沒在搜尋結果中出現）明確提及此人，僅有不相關的 Díaz 姓氏 Wikipedia 條目與 Miami Cycling Association 成績頁（內容未顯示）。未找到官方聯盟頁面。"
+  },
+  {
+    "id": "usada-a54b4661de47",
+    "athleteName": "Enrique Lopez",
+    "searchedAt": "2026-09-25",
+    "queries": [
+      "\"Enrique Lopez\" usacycling.org cycling Homestead",
+      "\"Enrique Lopez\" legacy.usacycling.org results permit Homestead"
+    ],
+    "result": "not_found",
+    "note": "查無官方來源。僅找到 USADA 制裁頁與法律/誠信類新聞網站報導（LawInSport、Sports Integrity Initiative）及 road-results.com，皆非官方聯盟頁面。"
+  },
+  {
+    "id": "usada-a7c95fd980c0",
+    "athleteName": "Jennifer Pate",
+    "searchedAt": "2026-09-25",
+    "queries": [
+      "\"Jennifer Pate\" usacycling.org cycling Birmingham Alabama",
+      "\"Jennifer Pate\" OR \"David Pate\" cycling Birmingham Alabama USA Cycling club masters",
+      "\"Jennifer Pate\" legacy.usacycling.org results permit Birmingham"
+    ],
+    "result": "not_found",
+    "note": "查無官方來源。搜尋結果只出現不相關的同名人士（UAB 視光學教授 Jennifer Pate）及其他不相關車手，也沒找到與 David Pate（推測配偶）共同出現的 USA Cycling 大師組車隊官方頁面可作交叉比對。"
+  },
+  {
+    "id": "usada-acd5a54c3768",
+    "athleteName": "David Pate",
+    "searchedAt": "2026-09-25",
+    "queries": [
+      "\"David Pate\" usacycling.org Birmingham",
+      "\"David Pate\" cycling Birmingham Alabama masters road race results",
+      "\"David Pate\" cycling age 48 masters USA Cycling results Alabama",
+      "\"David Pate\" OR \"Jennifer Pate\" cycling club team Birmingham Alabama USA Cycling roster"
+    ],
+    "result": "not_found",
+    "note": "查無任何官方（USA Cycling/UCI/Team USA）頁面提及此 David Pate；搜尋結果多為同名網球選手或無關的伯明罕單車社團頁面，未能比對到本人。"
+  },
+  {
+    "id": "usada-d75ed8b5f7e7",
+    "athleteName": "Joseph Baratto",
+    "searchedAt": "2026-09-25",
+    "queries": [
+      "\"Joseph Baratto\" usacycling.org Seattle",
+      "legacy.usacycling.org Masters Road Nationals 2018 results Baratto",
+      "\"Baratto\" \"Union Bay Cycling\" Masters Road Nationals"
+    ],
+    "result": "not_found",
+    "note": "搜尋摘要提到一篇 legacy.usacycling.org 舊文（2018 Masters Road Nationals，提及 Seattle/Union Bay Cycling 的 Baratto 名次），但該網址已改版並回傳 404，Wayback Machine 也無存檔，無法用 fetch 實際確認頁面內容，故不採信為官方證據，僅列為未證實線索。"
+  },
+  {
+    "id": "usada-e6341e3462ec",
+    "athleteName": "Stephen Bedford",
+    "searchedAt": "2026-09-25",
+    "queries": [
+      "\"Stephen Bedford\" usacycling.org Portland cycling",
+      "\"Stephen Bedford\" cycling Portland Oregon USA Cycling masters results 2018"
+    ],
+    "result": "not_found",
+    "note": "只找到 road-results.com、crossresults.com 等非官方數據庫；有摘要提到 Beaverton, OR 的 Stephen Bedford（Team Oregon, Cat 1/2），地區吻合但來源非官方，找不到 usacycling.org/UCI/Team USA 的官方頁面。"
+  },
+  {
+    "id": "usada-e833e68d19e3",
+    "athleteName": "Scott Gross",
+    "searchedAt": "2026-09-25",
+    "queries": [
+      "\"Scott Gross\" usacycling.org Orange Park Florida cycling",
+      "\"Scott Gross\" cycling age 59 masters USA Cycling Florida results"
+    ],
+    "result": "not_found",
+    "note": "只找到 road-results.com 的個人賽事紀錄（非官方數據庫，依規定不採用為證據），沒有找到任何官方頁面。"
+  },
+  {
+    "id": "usada-ea0049989423",
+    "athleteName": "Jeff Tanski",
+    "searchedAt": "2026-09-25",
+    "queries": [
+      "\"Jeff Tanski\" usacycling.org Palmetto Georgia cycling"
+    ],
+    "result": "not_found",
+    "note": "USADA 案件只涉及 2018 年喬治亞州州冠軍公路賽（州級，非全國賽），找不到任何官方 USA Cycling/UCI/Team USA 頁面提及此人。"
+  },
+  {
+    "id": "usada-2c9f4748c39c",
+    "athleteName": "Jay Henderson",
+    "searchedAt": "2026-09-25",
+    "queries": [
+      "\"Jay Henderson\" usacycling.org Minneapolis cyclocross",
+      "\"Jay Henderson\" \"Green Acres\" cyclocross USA Cycling permit results Minnesota"
+    ],
+    "result": "not_found",
+    "note": "2017 Green Acres Cyclocross（Lake Elmo, MN）只是地方性 USA Cycling 認證業餘賽，非全國賽；成績只在 crossresults.com/road-results.com（非官方）能查到，找不到官方頁面。"
+  },
+  {
+    "id": "usada-5dd19e96b68c",
+    "athleteName": "Craig Webb",
+    "searchedAt": "2026-09-25",
+    "queries": [
+      "\"Craig Webb\" usacycling.org Traverse City cyclocross",
+      "\"Craig Webb\" \"Iceman Cometh\" USA Cycling permit results"
+    ],
+    "result": "not_found",
+    "note": "確認賽事為 2017 年 Bell's Iceman Cometh Challenge（Kalkaska 到 Traverse City, MI），是民間主辦的大眾參與賽事，不是 USA Cycling 全國冠軍賽；只有新聞報導提到他贏得 56-57 歲組，找不到官方成績頁面。"
+  },
+  {
+    "id": "usada-7ecfb208518e",
+    "athleteName": "Roger Ainslie",
+    "searchedAt": "2026-09-25",
+    "queries": [
+      "\"Roger Ainslie\" usacycling.org Fallbrook cycling",
+      "usacycling.org results 2017 Elite Track National Championships Ainslie",
+      "\"Ainslie\" 2017 Elite Track National Championships eventdesq OR sportstg results"
+    ],
+    "result": "not_found",
+    "note": "USADA 案件關聯到 2017 USA Cycling Elite & Jr. Track National Championships（8/3），屬全國冠軍賽，理論上該有官方成績頁，但其成績系統 eventdesq.sportstg.com 目前整站故障（503 CloudFront 錯誤，多次嘗試含代理讀取器皆同樣故障，非針對性封鎖）。搜尋摘要只查到「Rex Ainslie」（推測為其兄弟，即 Ainslie Brothers 單車鞋品牌）在 2017 Elite Track Team Sprint 得第 6，來源是非官方資料庫 cyclingarchives.com，且該頁 fetch 後 404，無法確認 Roger Ainslie 本人出現在任何可存取的官方頁面。"
+  },
+  {
+    "id": "usada-870d48eb51f7",
+    "athleteName": "John Schiefer",
+    "searchedAt": "2026-09-25",
+    "queries": [
+      "\"John Schiefer\" USA Cycling Masters Track National Championships 2017",
+      "usacycling.org results 2017 Masters Track National Championships Rock Hill Schiefer",
+      "\"John Schiefer\" OR \"Roger Ainslie\" 2017 track nationals results usacycling"
+    ],
+    "result": "not_found",
+    "note": "找到一條有希望的線索：legacy.usacycling.org 的舊文「Masters Track Nationals results revised after suspensions」，內容應與他在 2017 USA Cycling Masters Track National Championships（Rock Hill, SC）被取消資格有關；但該網址已 301 轉址到 usacycling.org/member/... 後回傳 404，Wayback Machine 亦無存檔。另找到一個 EventDesq/SportsTG 的「2017 Masters Track National Championships」成績列表頁，但該平台整站目前故障（503 CloudFront 錯誤，用代理讀取器確認為全站性問題，非針對性封鎖），無法用 fetch 確認他的名字實際出現在任何可存取的頁面上。"
+  },
+  {
+    "id": "usada-a190ab7e50ab",
+    "athleteName": "Scot Harvey",
+    "searchedAt": "2026-09-25",
+    "queries": [
+      "\"Scot Harvey\" usacycling.org Glendora cycling",
+      "\"Scot Harvey\" cycling results California track masters",
+      "\"Scot Harvey\" cycling Glendora Team USA OR \"USA Cycling\" OR UCI",
+      "\"Scot Harvey\" OR \"Scott Harvey\" cycling age 47 masters road race California results 2017"
+    ],
+    "result": "not_found",
+    "note": "沒有找到任何官方頁面與此人連結；搜尋結果都是同名的高爾夫球員、跑者、BMX 名人，以及一個非官方的 crossresults.com 個人檔案（依規定不採用為證據），與 Glendora, CA 這位遭禁賽的單車選手比對不上。"
+  },
+  {
+    "id": "usada-acfba90a8905",
+    "athleteName": "Amanda Geving",
+    "searchedAt": "2026-09-25",
+    "queries": [
+      "\"Amanda Geving\" usacycling.org",
+      "\"Amanda Geving\" cycling national championship"
+    ],
+    "result": "not_found",
+    "note": "search snippet提到她出現在 USA Cycling athlete bios 頁面，但實際抓取該頁與其轉址後的新網址皆回 404，無法確認內容，故列為 not_found。"
+  },
+  {
+    "id": "usada-b16d0fb75234",
+    "athleteName": "Barry Miller",
+    "searchedAt": "2026-09-25",
+    "queries": [
+      "\"Barry Miller\" cycling Beverly Massachusetts usacycling",
+      "\"Barry Miller\" cycling \"Team USA\" OR \"national team\" OR \"national championship\""
+    ],
+    "result": "not_found",
+    "note": "僅查到 ProCyclingStats、road-results 等非官方來源與地方新聞（他贏了 Mount Washington 爬坡賽），沒有官方來源，列為 not_found。"
+  },
+  {
+    "id": "usada-c42379b4285c",
+    "athleteName": "Daniel Frazier",
+    "searchedAt": "2026-09-25",
+    "queries": [
+      "\"Daniel Frazier\" cycling Michigan usacycling.org results",
+      "legacy.usacycling.org results \"Frazier\" Michigan cyclocross OR road"
+    ],
+    "result": "not_found",
+    "note": "只找到 Kalamazoo Bicycle Club 社團電子報提到同名字，非官方來源也未確認是同一人，列為 not_found。"
+  },
+  {
+    "id": "usada-dd1a97e9431d",
+    "athleteName": "Shaun Moffett",
+    "searchedAt": "2026-09-25",
+    "queries": [
+      "\"Shaun Moffett\" cycling San Antonio Texas usacycling",
+      "(fetched PDF) assets.usacycling.org/mtbnats/documents/2026-07-09-Marathon-Male.pdf"
+    ],
+    "result": "domestic_only",
+    "leadUrl": "https://assets.usacycling.org/mtbnats/documents/2026-07-09-Marathon-Male.pdf",
+    "note": "官方 USA Cycling（assets.usacycling.org）2026 年登山車馬拉松全國排名 PDF 中找到 'Shaun Moffett，48歲，San Antonio, Texas'，年齡與 2017 年裁決時 39 歲換算一致，城市完全吻合。但此文件只是國內排名清單，沒有國籍/代表國家欄位，故列為 domestic_only（弱證據）。（僅國內賽紀錄，依裁定原則不升級國家證據。）"
+  },
+  {
+    "id": "usada-e6a03aa80344",
+    "athleteName": "David Less",
+    "searchedAt": "2026-09-25",
+    "queries": [
+      "\"David Less\" cycling Hamburg New York usacycling",
+      "\"David Less\" cyclocross OR \"David Less\" USA Cycling results New York"
+    ],
+    "result": "not_found",
+    "note": "完全找不到任何官方或非官方來源提到這位 David Less 與自由車相關，列為 not_found。"
+  },
+  {
+    "id": "usada-fe4d160648aa",
+    "athleteName": "Dylan Lima",
+    "searchedAt": "2026-09-25",
+    "queries": [
+      "\"Dylan Lima\" cycling Mission Viejo usacycling results",
+      "\"Dylan Lima\" USA Cycling license results California road OR cyclocross"
+    ],
+    "result": "not_found",
+    "note": "只找到 road-results.com、LinkedIn，以及一個車隊會員名單網站（ridebikercustom.com）列出同名同城市、生日 1990/09/16 的人，身份線索吻合但該網站非官方單位，故無官方來源，列為 not_found。"
+  },
+  {
+    "id": "usada-359e0f8decd5",
+    "athleteName": "Jeff Schwab",
+    "searchedAt": "2026-09-25",
+    "queries": [
+      "\"Jeff Schwab\" cycling Tour of Corsicana usacycling",
+      "\"Jeff Schwab\" cycling Texas results usacycling.org OR \"national championship\""
+    ],
+    "result": "not_found",
+    "note": "找不到任何來源（官方或非官方）提到這位 Jeff Schwab，搜尋結果只出現同姓不同人，列為 not_found。"
+  },
+  {
+    "id": "usada-38afed413abd",
+    "athleteName": "Buster Brown",
+    "searchedAt": "2026-09-25",
+    "queries": [
+      "\"Buster Brown\" cycling Bixby Oklahoma usacycling",
+      "usacycling.org \"Buster Brown\" results OR license Oklahoma"
+    ],
+    "result": "not_found",
+    "note": "搜尋片段提到一個舊版 USA Cycling 結果查詢頁（compid=Brown），但該網址現在轉址後回 404，無法實際看到內容確認他的名字出現；其餘都是非官方來源（部落格、LinkedIn、YouTube），故列為 not_found。"
+  },
+  {
+    "id": "usada-6fde059a15f4",
+    "athleteName": "Mary Verrando-Higgins",
+    "searchedAt": "2026-09-25",
+    "queries": [
+      "\"Mary Verrando\" OR \"Mary Verrando-Higgins\" cycling Ocala Florida usacycling",
+      "\"Verrando\" 1985 US National Cycling Team Tour de France official",
+      "\"Verrando\" 1985 \"Tour de France\" Feminin USA roster site:uci.org OR site:usacycling.org"
+    ],
+    "result": "not_found",
+    "note": "USADA 裁決公告本身與轉載的體育反禁藥新聞網站（LawInSport等，非官方治理單位）提到她 1985 年入選美國國家隊並參加女子環法賽，2016 年 Masters Nationals 冠軍分齡組後被檢出陽性（城市 Ocala, FL、年齡皆吻合），但找不到、也抓取不到任何官方 USA Cycling / UCI / Team USA 頁面本身列出她的國家隊名單或比賽成績，故列為 not_found。"
+  },
+  {
+    "id": "usada-8bd7326e338b",
+    "athleteName": "Tim Root",
+    "searchedAt": "2026-09-25",
+    "queries": [
+      "\"Tim Root\" usacycling.org Boise Idaho cycling",
+      "\"Tim Root\" results usacycling.org OR \"USA Cycling\" Idaho"
+    ],
+    "result": "not_found",
+    "note": "僅找到 USADA 公告與 road-results.com（非官方）賽績頁，找不到 usacycling.org/UCI/Team USA 等官方來源列名，判定 not_found。"
+  },
+  {
+    "id": "usada-9078b2b3f8b8",
+    "athleteName": "Shawn D'Aurelio",
+    "searchedAt": "2026-09-25",
+    "queries": [
+      "\"Shawn D'Aurelio\" cycling usacycling.org",
+      "\"D'Aurelio\" cyclocross nationals usacycling OR \"Team USA\""
+    ],
+    "result": "not_found",
+    "note": "只找到 crossresults.com（非官方）與部落格報導，沒有官方來源證實其代表美國參賽身分，判定 not_found。"
+  },
+  {
+    "id": "usada-b06931c0b392",
+    "athleteName": "Robert Baatz",
+    "searchedAt": "2026-09-25",
+    "queries": [
+      "\"Robert Baatz\" cycling usacycling.org Lewisville Texas",
+      "\"Robert Baatz\" usacycling.org results OR \"national championship\" masters"
+    ],
+    "result": "not_found",
+    "note": "僅找到 USADA 公告與 road-results.com（非官方）賽績，Tour of Corsicana 屬地方業餘賽，找不到官方 usacycling.org 結果頁，判定 not_found。"
+  },
+  {
+    "id": "usada-bdc4265e8819",
+    "athleteName": "Kimberly Ciolli",
+    "searchedAt": "2026-09-25",
+    "queries": [
+      "\"Kimberly Ciolli\" cycling usacycling.org Austin Texas",
+      "https://legacy.usacycling.org/series/2015-masters-road-barbat (redirect + fetch attempt)",
+      "https://usacycling.org/member/series/2015-masters-road-barbat (fetch attempt)"
+    ],
+    "result": "not_found",
+    "note": "搜尋摘要提到 legacy.usacycling.org 的 2015 Masters Road 系列頁可能列有 Kim Ciolli，但實際 fetch 該頁與其重導向目標皆回傳 404，無法確認頁面內容，判定 not_found（僅列為線索）。"
+  },
+  {
+    "id": "usada-32c2c6bdacff",
+    "athleteName": "Michael Buckley",
+    "searchedAt": "2026-09-25",
+    "queries": [
+      "\"Michael Buckley\" cycling usacycling.org OR \"USA Cycling\" results",
+      "\"Buckley\" site:usacycling.org OR site:legacy.usacycling.org masters road"
+    ],
+    "result": "not_found",
+    "note": "搜尋摘要聲稱 Reno, NV 的 Michael Buckley 出現在 2015 Masters Road Nationals 全能積分榜（同一 legacy.usacycling.org 頁面），但直接 fetch 該頁與重導向頁皆 404，無法驗證真的出現在官方頁面上，判定 not_found。"
+  },
+  {
+    "id": "usada-8ad943acd5b0",
+    "athleteName": "Jeffery Miller",
+    "searchedAt": "2026-09-25",
+    "queries": [
+      "\"Jeffery Miller\" cycling Louisville Kentucky usacycling.org",
+      "\"Jeffery Miller\" OR \"Jeffrey Miller\" cyclocross Louisville national championship USA Cycling"
+    ],
+    "result": "not_found",
+    "note": "只找到 road-results.com（非官方）上一位 Jeffrey Miller 的檔案，無法確認是否為同一人（Louisville, Ky./44 歲），也沒有官方來源，判定 not_found。"
+  },
+  {
+    "id": "usada-aebc5c3ff7f3",
+    "athleteName": "Vahe Aivazian",
+    "searchedAt": "2026-09-25",
+    "queries": [
+      "\"Vahe Aivazian\" cycling usacycling.org OR \"Team USA\" Woodland Hills"
+    ],
+    "result": "not_found",
+    "note": "僅找到 USADA 與各新聞媒體報導（非官方），描述其為業餘越野/公路賽車手，找不到官方 usacycling.org 或 UCI 結果頁，判定 not_found。"
+  },
+  {
+    "id": "usada-e05e2fe6db96",
+    "athleteName": "Thomas Luton",
+    "searchedAt": "2026-09-25",
+    "queries": [
+      "\"Thomas Luton\" cycling McKinney Texas usacycling.org"
+    ],
+    "result": "not_found",
+    "note": "此案為非分析性違規（Anemia Patient Group 調查），未涉及特定賽事成績；只找到 LawInSport 報導（非官方），無官方來源列名，判定 not_found。"
+  },
+  {
+    "id": "usada-9aa5cea0cfe1",
+    "athleteName": "Tammy Thomas",
+    "searchedAt": "2026-09-25",
+    "queries": [
+      "Tammy Thomas cycling world champion sprint UCI 1990s Colorado Springs",
+      "\"Tammy Thomas\" site:uci.org OR \"UCI\" track cycling world championships 2001 sprint results USA",
+      "uci.org 2001 track cycling world championships results archive sprint women",
+      "\"Tammy Thomas\" USA Cycling Hall of Fame OR \"USA Cycling\" national team track sprinter biography",
+      "\"uci.org\" OR \"uci.ch\" 2001 world championships track antwerp results archive.org",
+      "https://usacycling.org/team-usa/track (fetch attempt)",
+      "\"Tammy Thomas\" cyclist UCI rider profile database results 2001 2002",
+      "\"Tammy Thomas\" teamusa.com OR \"Team USA\" cycling bio OR olympic trials track 2000"
+    ],
+    "result": "not_found",
+    "note": "多個次級來源（Wikipedia、USADA、CBC、VeloNews/Outside、Cyclingnews）一致指出 Thomas 在 2001 UCI 場地世界錶賽（安特衛普）代表美國奪得 individual sprint 銀牌，且為駐 Colorado Springs 的美國國家隊選手，與 USADA 摘要的居住地吻合。但多次搜尋與嘗試 fetch 皆找不到現存的 UCI.org 官方結果檔案頁，usacycling.org/team-usa/track 現行頁面也未含歷史名冊、未提及她，故依嚴格標準判定 not_found（僅為強力旁證，非官方頁面直接確認）。"
+  },
+  {
+    "id": "usada-56c015d731e4",
+    "athleteName": "Johnny Maynard",
+    "searchedAt": "2026-09-25",
+    "queries": [
+      "Johnny Maynard masters track and field world athletics",
+      "\"Johnny Maynard\" USATF masters champion shot put record USA",
+      "\"Johnny Maynard\" OR \"John Maynard\" Blacklick Ohio USATF masters champion 2024",
+      "\"Maynard\" site:usatfmasters.org records",
+      "\"Maynard\" 2024 USATF Masters Indoor Championships shot put results Ohio 50-54",
+      "\"Maynard\" 2024 USATF Masters Indoor Championships Louisville results pdf shot put 50-54"
+    ],
+    "result": "not_found",
+    "note": "僅有非官方新聞與 USADA 公告，官方賽事結果頁未能核實比對，列為未找到。"
+  },
+  {
+    "id": "usada-8644c327e2ca",
+    "athleteName": "Todd Davis",
+    "searchedAt": "2026-09-25",
+    "queries": [
+      "\"Todd Davis\" masters track and field Council Bluffs Iowa",
+      "\"Todd Davis\" masters weight throw OR discus OR shot put Iowa USATF results",
+      "\"Todd Davis\" USATF track and field Iowa OR Nebraska age 54 2019",
+      "\"Todd Davis\" 54 track and field Council Bluffs USATF Iowa 2019 refusal sample"
+    ],
+    "result": "not_found",
+    "note": "姓名過於常見，無法定位任何運動員檔案，官方與非官方來源皆未找到。"
+  },
+  {
+    "id": "usada-0c3ec7a2af1e",
+    "athleteName": "Scott McPherson",
+    "searchedAt": "2026-09-25",
+    "queries": [
+      "Scott McPherson Lubbock Texas masters track and field discus OR throws",
+      "\"Scott McPherson\" USATF masters discus Texas champion",
+      "\"Scott McPherson\" 60 Lubbock discus OR weight throw USATF results 2017",
+      "\"McPherson\" worldathletics.org discus OR shot put Texas Lubbock"
+    ],
+    "result": "not_found",
+    "note": "athletic.net 為非採計來源，官方來源未找到符合的 Scott McPherson。"
+  },
+  {
+    "id": "usada-1198265168e2",
+    "athleteName": "Liz Palmer",
+    "searchedAt": "2026-09-25",
+    "queries": [
+      "\"Liz Palmer\" track and field Playa Vista USATF",
+      "\"Elizabeth Palmer\" OR \"Liz Palmer\" track and field 800m OR steeplechase USATF Southern California",
+      "\"Liz Palmer\" OR \"Elizabeth Palmer\" javelin OR discus OR hammer Playa Vista USATF 2016"
+    ],
+    "result": "not_found",
+    "note": "完全查無資料，可能未使用真名參賽或項目線索不足，列為未找到。"
+  },
+  {
+    "id": "usada-47db4d671c02",
+    "athleteName": "Vikas Patel",
+    "searchedAt": "2026-09-25",
+    "queries": [
+      "\"Vikas Patel\" track and field Indiana University worldathletics OR USATF",
+      "\"Vikas Patel\" Indiana Hoosiers track and field roster pole vault OR jump",
+      "\"Patel\" site:worldathletics.org OR site:usatf.org Indiana",
+      "\"Vikas Patel\" worldathletics.org profile"
+    ],
+    "result": "not_found",
+    "note": "官方來源查無符合的個人檔案，僅有間接、無法驗證的搜尋摘要。"
+  },
+  {
+    "id": "usada-5682bad4c39a",
+    "athleteName": "Royce Dates",
+    "searchedAt": "2026-09-25",
+    "queries": [
+      "\"Royce Dates\" track and field Nashville worldathletics OR USATF",
+      "\"Royce Dates\" USATF Tennessee State triple jump OR long jump championship results",
+      "\"Dates\" site:worldathletics.org OR site:usatf.org Tennessee State",
+      "\"Royce Dates\" worldathletics.org profile"
+    ],
+    "result": "not_found",
+    "note": "官方來源查無此姓名的選手檔案，僅有非採計的 TFRRS 線索。"
+  },
+  {
+    "id": "usada-c0ec4fad5514",
+    "athleteName": "Thomas Cawley",
+    "searchedAt": "2026-09-25",
+    "queries": [
+      "\"Thomas Cawley\" track and field Hazlet New Jersey masters worldathletics OR USATF",
+      "\"Thomas Cawley\" 57 hammer throw OR javelin USATF masters New Jersey 2011"
+    ],
+    "result": "not_found",
+    "note": "唯一線索為非官方網站且無法確認為同一人，列為未找到。"
+  },
+  {
+    "id": "usada-b95ab234ef5b",
+    "athleteName": "Daniel Lehr",
+    "searchedAt": "2026-09-25",
+    "queries": [
+      "\"Daniel Lehr\" weightlifting USA Weightlifting OR IWF results",
+      "\"Daniel Lehr\" usaweightlifting.org results Ripon California",
+      "\"Daniel Lehr\" California Strength weightlifting Team USA national championships results 105kg OR 94kg",
+      "\"Lehr\" site:usaweightlifting.org"
+    ],
+    "result": "not_found",
+    "note": "僅 USADA 公告與 BarBend 報導提及其比賽地點，官方 usaweightlifting.org 頁面查無列名，列為未找到。"
+  },
+  {
+    "id": "usada-1205b7548666",
+    "athleteName": "Scott Hisaka",
+    "searchedAt": "2026-09-25",
+    "queries": [
+      "\"Scott Hisaka\" weightlifting USA Weightlifting OR IWF results Concord California",
+      "\"Scott Hisaka\" usaweightlifting.org OR \"Team USA\" results",
+      "\"Hisaka\" site:usaweightlifting.org",
+      "https://www.usaweightlifting.org/sanctioned-members (fetch)"
+    ],
+    "result": "domestic_only",
+    "leadUrl": "https://www.usaweightlifting.org/sanctioned-members",
+    "note": "僅見 USA Weightlifting 受處分會員名單（Concord, CA），該名單即本案處分紀錄、無國家欄，不作國家證據；維持待補證。"
+  },
+  {
+    "id": "usada-a71a79541adf",
+    "athleteName": "Cicely Kyle",
+    "searchedAt": "2026-09-25",
+    "queries": [
+      "usaweightlifting.org 2021 Pan American Championships Cicely Kyle"
+    ],
+    "result": "conflict",
+    "leadUrl": "https://www.usaweightlifting.org/news/features/2021/april/26/team-usa-tops-medal-table-6-athletes-crowned-pan-american-champions",
+    "note": "官方 2021 泛美錦標賽報導列 Cicely Kyle, 36 years old, Pensacola, FL；USADA 2015 公告稱 22 歲，推算相差約 8 歲，同人疑義，維持待補證。"
+  },
+  {
+    "id": "usada-ae780d447bf0",
+    "athleteName": "Janelle Shafer",
+    "searchedAt": "2026-09-25",
+    "queries": [
+      "usaweightlifting.org \"Fifteen American Standouts\" World University Weightlifting Championships 2014"
+    ],
+    "result": "source_unavailable",
+    "leadUrl": "https://www.teamusa.org/USA-Weightlifting/Features/2014/October/16/Fifteen-American-Standouts-to-Compete-at-World-University-Weightlifting-Championships",
+    "note": "舊 teamusa.org 文章現轉址至 usaweightlifting.org 首頁，usaweightlifting.org 同路徑 404；Wayback 未獲授權，無法取得原件，維持待補證。"
+  },
+  {
+    "id": "usada-a866a19663a5",
+    "athleteName": "Robert Kyle Dosterschill",
+    "searchedAt": "2026-09-25",
+    "queries": [
+      "usaweightlifting.org \"Fifteen American Standouts\" World University Weightlifting Championships 2014"
+    ],
+    "result": "source_unavailable",
+    "leadUrl": "https://www.teamusa.org/USA-Weightlifting/Features/2014/October/16/Fifteen-American-Standouts-to-Compete-at-World-University-Weightlifting-Championships",
+    "note": "同上 2014 世界大學錦標賽文章，原件已無法取得，維持待補證。"
+  },
+  {
+    "id": "usada-0f9636fca02d",
+    "athleteName": "Trevor Cuicchi",
+    "searchedAt": "2026-09-25",
+    "queries": [
+      "usaweightlifting.org 2018 World University Championships squad named Cuicchi"
+    ],
+    "result": "source_unavailable",
+    "leadUrl": "https://www.teamusa.org/USA-Weightlifting/Features/2018/April/26/World-University-Championships-Squad-Named",
+    "note": "舊 teamusa.org 文章轉址首頁、usaweightlifting.org 同路徑 404；維持待補證。"
+  },
+  {
+    "id": "usada-74510fc23e03",
+    "athleteName": "Darcie Warren",
+    "searchedAt": "2026-09-25",
+    "queries": [
+      "usaweightlifting.org 2018 World Masters Americans medals Darcie Warren"
+    ],
+    "result": "source_unavailable",
+    "leadUrl": "https://www.teamusa.org/USA-Weightlifting/Features/2018/August/27/Americans-Bring-Home-Dozens-of-Medals-from-World-Masters",
+    "note": "舊 teamusa.org 文章轉址首頁、usaweightlifting.org 同路徑 404；維持待補證。"
+  },
+  {
+    "id": "usada-82602147d7d4",
+    "athleteName": "Brian Abers",
+    "searchedAt": "2026-09-25",
+    "queries": [
+      "\"Brian Abers\" cycling masters track world championships USA",
+      "usacycling.org 2023 UCI Masters Track World Championships Americans medals Abers"
+    ],
+    "result": "domestic_only",
+    "leadUrl": "https://usacycling.org/article/124-national-titles-awarded-at-the-2026-usa-cycling-masters-paracycling-track-national-championships",
+    "note": "官方可取得者僅國內 masters 全國賽紀錄（Colorado Springs）；2014 legacy.usacycling.org 世界賽報導已 404，UCI 2023 masters 世界賽頁無成績檔。依原則不升級，維持待補證。"
   }
 ]

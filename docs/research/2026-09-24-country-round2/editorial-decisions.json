@@ -78,5 +78,21 @@
   "usada-005ef8b2c89f": {
     "disposition": "held",
     "reason": "兩模型均指出同人疑義：Team USA 頁 Hometown Boston，USADA 為 of Canonsburg, Pa.，不同州；年齡相符但無其他官方資料可連結，維持待確認。"
+  },
+  "usada-55dafea87f5e": {
+    "disposition": "held",
+    "reason": "World Athletics 官方頁列 United States，但未列生日、成績地點亦無法連結 USADA 所述城市；兩模型均指出僅憑姓名與項目不足以辨識同人。未找到可連結同人的官方資料前維持待確認。"
+  },
+  "usada-2368662f3457": {
+    "disposition": "held",
+    "reason": "World Athletics 官方頁列 United States，但未列生日、成績地點亦無法連結 USADA 所述城市；兩模型均指出僅憑姓名與項目不足以辨識同人。未找到可連結同人的官方資料前維持待確認。"
+  },
+  "usada-edde57057db6": {
+    "disposition": "held",
+    "reason": "World Athletics 官方頁列 United States，但未列生日、成績地點亦無法連結 USADA 所述城市；兩模型均指出僅憑姓名與項目不足以辨識同人。未找到可連結同人的官方資料前維持待確認。"
+  },
+  "usada-c624acaae104": {
+    "disposition": "held",
+    "reason": "Team USA 官方頁所列家鄉（Marquette）與 USADA 公告（Chicago, Ill.）不同，且摘錄未明列代表國家；兩模型均指出同人與國家欄位證據不足，維持待確認。"
   }
 }

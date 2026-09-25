@@ -27,6 +27,13 @@ class TextParser(HTMLParser):
     def handle_starttag(self, tag, attrs):
         if tag in {'script', 'style', 'noscript'}: self.skip += 1
         if not self.skip: self.parts.append('\n')
+        # Client-rendered pages (e.g. UCI rider details) keep their data in a JSON attribute.
+        props = dict(attrs).get('data-props')
+        if props and not self.skip:
+            try:
+                self.parts.append('\n' + json.dumps(json.loads(props), ensure_ascii=False, indent=1) + '\n')
+            except ValueError:
+                pass
     def handle_endtag(self, tag):
         if tag in {'script', 'style', 'noscript'} and self.skip: self.skip -= 1
         if not self.skip: self.parts.append('\n')
