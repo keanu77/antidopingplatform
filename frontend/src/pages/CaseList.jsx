@@ -23,6 +23,12 @@ const EMPTY_FILTERS = {
   punishmentType: "",
 };
 
+// Decorative palette is stable across filtering and pagination, independent of outcome.
+function caseCardTone(id) {
+  const hash = Array.from(String(id)).reduce((value, char) => (value * 31 + char.charCodeAt(0)) >>> 0, 0);
+  return ["sage", "sky", "sand", "lilac"][hash % 4];
+}
+
 function CaseList() {
   const [searchParams, setSearchParams] = useSearchParams();
   const navigationType = useNavigationType();
@@ -458,10 +464,10 @@ function CaseList() {
                 key={caseItem._id}
                 to={`/cases/${caseItem._id}`}
                 onClick={rememberScroll}
-                className="bg-white rounded-lg shadow hover:shadow-lg transition-shadow"
+                className={`case-result-card case-result-card--${caseCardTone(caseItem._id)}`}
               >
-                <div className="p-6">
-                  <div className="flex items-start justify-between mb-4">
+                <div className="case-result-inner">
+                  <div className="case-result-heading">
                     <div>
                       <h3 className="text-xl font-semibold text-gray-900">
                         {caseItem.athleteName}
@@ -470,7 +476,7 @@ function CaseList() {
                     </div>
                   </div>
 
-                  <div className="space-y-2 mb-4">
+                  <div className="case-result-meta space-y-2 mb-4">
                     <div className="flex items-center text-sm text-gray-600">
                       <MapPin className="h-4 w-4 mr-2" />
                       {caseItem.nationality}
@@ -481,12 +487,12 @@ function CaseList() {
                     </div>
                   </div>
 
-                  <p className="text-sm leading-relaxed text-gray-600 break-words">
+                  <p className="case-result-substance text-sm leading-relaxed text-gray-600 break-words">
                     {caseItem.substance}
                   </p>
 
                   {caseItem.punishment && (
-                    <div className="mt-4 pt-4 border-t border-gray-200">
+                    <div className="case-result-outcome">
                       <p className="text-sm text-gray-600">
                         處理結果：
                         <span className="font-semibold">
