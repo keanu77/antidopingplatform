@@ -99,6 +99,24 @@
     "textSha256": "bc2a767afec1f68abb7e917fac4f1a23ac15f71bece54099ceeed884b012dbf8"
   },
   {
+    "url": "https://www.teamusa.com/profiles/marck-harrison",
+    "retrievedAt": "2026-09-25T02:37:53.055802+00:00",
+    "status": "downloaded_unreviewed",
+    "rawPath": ".cache/2026-09-24-country-round2/3561df3211f12116285c.raw",
+    "textPath": ".cache/2026-09-24-country-round2/3561df3211f12116285c.txt",
+    "rawSha256": "2fe5db4bae71433fec8d2e04e1dd5395171379857441e0f7980be4099b432296",
+    "textSha256": "404d22bb860b9a0da201632014a09c5a3785cb750b48de7a62a7f5fe7da11db8"
+  },
+  {
+    "url": "https://www.teamusa.com/profiles/abby-raymond",
+    "retrievedAt": "2026-09-25T02:37:53.029285+00:00",
+    "status": "downloaded_unreviewed",
+    "rawPath": ".cache/2026-09-24-country-round2/b3d28872da7e1905ee13.raw",
+    "textPath": ".cache/2026-09-24-country-round2/b3d28872da7e1905ee13.txt",
+    "rawSha256": "71958162d522bd45652ff2d265ad8c37a16682ddce11c8efd2147f8e8a307e5b",
+    "textSha256": "2c8cf9c501ed5b4768e4eca39af0720d9a3ad040606bdcc4765ae12934b0f1ff"
+  },
+  {
     "url": "https://www.worldaquatics.com/athletes/1137517/isabel-gormley/profile",
     "retrievedAt": "2026-09-24T05:25:26.890560+00:00",
     "status": "downloaded_unreviewed",
@@ -223,6 +241,15 @@
     "textPath": ".cache/2026-09-24-country-round2/8aaacc856842023fec3f.txt",
     "rawSha256": "7e12c1730ddc54f110bdc1c67c21d3078171d4fee7492c30ede2ebb82e27dff1",
     "textSha256": "b32ad2a64b8261cbb5b2d2a7592d943bcca70a2f3c56eb5bb184f31f85f91419"
+  },
+  {
+    "url": "https://www.teamusa.com/profiles/michael-nackoul",
+    "retrievedAt": "2026-09-25T02:37:53.031347+00:00",
+    "status": "downloaded_unreviewed",
+    "rawPath": ".cache/2026-09-24-country-round2/8f5df4b432a65b01da71.raw",
+    "textPath": ".cache/2026-09-24-country-round2/8f5df4b432a65b01da71.txt",
+    "rawSha256": "59f3a7bf2d39dc4cb1d46f623c29dcf6be4e66c7fda1ef8e4ae49fc4b702baf6",
+    "textSha256": "4f9db9f257f23e50119f6f740ed204f2e482901774c6f8004cd7996258a51f64"
   },
   {
     "url": "https://www.teamusa.com/profiles/dillon-schrodt",
@@ -396,6 +423,15 @@
     "textSha256": "960e3090045b88f6045dbd7b8136e33c598d385b9fd3e5b0c09ed5a840e90b60"
   },
   {
+    "url": "https://www.teamusa.com/profiles/gabe-dawson",
+    "retrievedAt": "2026-09-25T02:37:53.011517+00:00",
+    "status": "downloaded_unreviewed",
+    "rawPath": ".cache/2026-09-24-country-round2/537ecc7eabae82119ae6.raw",
+    "textPath": ".cache/2026-09-24-country-round2/537ecc7eabae82119ae6.txt",
+    "rawSha256": "199fbb675322dd0ce34fea401839f31274f202f5b25e9ccadb0e24cb01bb847e",
+    "textSha256": "55b547adb58b040801083d75e371645e03c49b1422913c82477a9d1e2dfe7a46"
+  },
+  {
     "url": "https://www.usaweightlifting.org/news/2023-national-championships",
     "retrievedAt": "2026-09-24T05:01:44.796185+00:00",
     "status": "downloaded_unreviewed",
@@ -403,6 +439,15 @@
     "textPath": ".cache/2026-09-24-country-round2/30e1237810be64c1b771.txt",
     "rawSha256": "913fd3ac669af532a2bc4c7585f9df33543fb628836a6399a13f2806d1fdf995",
     "textSha256": "9c8999b931eb932b72037928997ba85b07959587c6acc6df4092c84c2d8a3360"
+  },
+  {
+    "url": "https://www.fei.org/athlete/10003416/DUTTA-Susan",
+    "retrievedAt": "2026-09-25T02:38:02.271743+00:00",
+    "status": "downloaded_unreviewed",
+    "rawPath": ".cache/2026-09-24-country-round2/eb2a3169a553912385df.raw",
+    "textPath": ".cache/2026-09-24-country-round2/eb2a3169a553912385df.txt",
+    "rawSha256": "034848347907276ad6200232a704efb95ee252f0012e20a5ee000850e9422ca4",
+    "textSha256": "5038c3e6bb80f7dbc4d12b823374e3592b25db3777f46b488a42d0b310b94bcf"
   },
   {
     "url": "https://www.teamusa.com/profiles/jc-cruse",

@@ -14,6 +14,7 @@ import concurrent.futures
 import hashlib
 import importlib.util
 import json
+from datetime import datetime
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -161,6 +162,16 @@ def cmd_summarize(args):
     load('country_summary', 'scripts/summarize-country-followup.py').main(audit_module(args), report, cache)
 
 
+def review_date(cache, reviews, fallback):
+    """Local date the last counted model review for a case finished."""
+    stamps = []
+    for r in reviews:
+        run = cache / 'model-runs' / r['batch'] / r['seat'] / f'attempt-{r["attempt"]}' / 'run.json'
+        if run.exists() and read(run).get('finishedAt'):
+            stamps.append(datetime.fromisoformat(read(run)['finishedAt']).astimezone().date().isoformat())
+    return max(stamps) if stamps else fallback
+
+
 def cmd_apply(args):
     report, cache = paths(args.round)
     coverage = {c['id']: c for c in read(report / 'case-coverage.json')}
@@ -178,7 +189,8 @@ def cmd_apply(args):
         adjudicated.append({'id': id, 'athleteName': row['athleteName'], **decision,
                             'modelFindingsConsidered': len(row['findings'])})
         if decision['disposition'] == 'held':
-            held.append({'id': id, 'reason': decision['reason']})
+            held.append({'id': id, 'reason': decision['reason'],
+                         'checkedAt': review_date(cache, row['modelReviews'], args.checked_at)})
             continue
         assert row['coverageComplete'], f'Insufficient independent review for {id}'
         proposal = proposals[id]
@@ -189,11 +201,13 @@ def cmd_apply(args):
             m = meta[url]
             assert digest(ROOT / m['textPath']) == m['textSha256']
             refs.append({k: m[k] for k in ['url', 'retrievedAt', 'rawSha256', 'textSha256']})
+        checked = review_date(cache, row['modelReviews'], args.checked_at)
         changes.append({'id': id, 'athleteName': row['athleteName'], 'nationality': proposal['proposedCountry'],
+                        'checkedAt': checked,
                         'sourceUrl': urls[0], 'countryAsListed': decision.get('countryAsListed', proposal['countryAsListed']),
                         'scope': decision.get('scope', proposal['scope']),
                         'note': decision.get('note', proposal['temporalNote']), 'sourceRefs': refs,
-                        'modelReview': {'checkedAt': args.checked_at, 'scope': 'country_and_identity_only',
+                        'modelReview': {'checkedAt': checked, 'scope': 'country_and_identity_only',
                                         'modelSeats': sorted(LABELS[s] for s in row['modelSeats']),
                                         'requestedModels': sorted({r['requestedModel'] for r in row['modelReviews']}),
                                         'packetSha256': row['modelReviews'][0]['packetSha256'],

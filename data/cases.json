@@ -28623,8 +28623,8 @@
    "caseType": "處方藥／後續 TUE 與公開警告",
    "checkedAt": "2026-09-23",
    "sourceLocator": "U.S. Paralympic Boccia Athlete Marck Harrison Accepts Public Warning：個案公告標題及全部個案實質段落；含物質／規則、處分、日期與成績後果，止於通用教育資訊前",
-   "nationalitySource": "https://www.usada.org/sanction/marck-harrison-accepts-public-warning/",
-   "nationalityAsListed": "U.S. Paralympic Boccia",
+   "nationalitySource": "https://www.teamusa.com/profiles/marck-harrison",
+   "nationalityAsListed": "Team USA",
    "personType": "Athlete",
    "sourceRow": 487,
    "outcome": "公開警告（無禁賽）",
@@ -28649,15 +28649,43 @@
     "auditedClaimsSha256": "2613a7c65a3f2ad5d56d80a390ab9915bcfa26c824dae56883bc359f8e5e5a8d",
     "claimsChangedAfterReview": false,
     "unresolvedSourceFields": [
-     "country",
      "dates",
      "event"
     ],
-    "reviewState": "source_limitations"
+    "reviewState": "source_limitations",
+    "auditedUnresolvedSourceFields": [
+     "country",
+     "dates",
+     "event"
+    ]
    },
    "countryEvidence": {
-    "status": "title_only",
-    "note": "國家欄目前依官方公告標題的 U.S. 描述；代表國身分仍待補充官方資料，不能視為法律國籍已確認。"
+    "status": "official_country_as_listed",
+    "checkedAt": "2026-09-25",
+    "scope": "official_profile_at_lookup",
+    "note": "補充來源為本次查閱的 Team USA 官方選手頁；頁面所列經歷有各自年份，不據此推定本案事件當年代表資格，也非法律國籍認證。",
+    "sourceRefs": [
+     {
+      "url": "https://www.teamusa.com/profiles/marck-harrison",
+      "retrievedAt": "2026-09-25T02:37:53.055802+00:00",
+      "rawSha256": "2fe5db4bae71433fec8d2e04e1dd5395171379857441e0f7980be4099b432296",
+      "textSha256": "404d22bb860b9a0da201632014a09c5a3785cb750b48de7a62a7f5fe7da11db8"
+     }
+    ],
+    "modelReview": {
+     "checkedAt": "2026-09-25",
+     "scope": "country_and_identity_only",
+     "modelSeats": [
+      "Claude",
+      "GPT"
+     ],
+     "requestedModels": [
+      "gpt-6-luna",
+      "haiku"
+     ],
+     "packetSha256": "a557959854c7c037b3354f469ccb1134e003cd12946b0bb0a10db58f1c5a2c44",
+     "annotationUpdatedAfterReview": false
+    }
    },
    "dateFollowup": {
     "checkedAt": "2026-09-24",
@@ -30345,8 +30373,8 @@
    "caseType": "青少年補充品污染／年齡及信賴家人減刑",
    "checkedAt": "2026-09-23",
    "sourceLocator": "U.S. Weightlifting Athlete Abby Raymond Accepts Sanction for Anti-Doping Rule Violation：個案公告標題及全部個案實質段落；含物質／規則、處分、日期與成績後果，止於通用教育資訊前",
-   "nationalitySource": "https://www.usada.org/sanction/abby-raymond-accepts-doping-sanction/",
-   "nationalityAsListed": "U.S. Weightlifting",
+   "nationalitySource": "https://www.teamusa.com/profiles/abby-raymond",
+   "nationalityAsListed": "Team USA",
    "personType": "Athlete",
    "sourceRow": 468,
    "outcome": "3個月",
@@ -30370,14 +30398,39 @@
     ],
     "auditedClaimsSha256": "94ab3fa6732bbd117fb97fa8873a69e8d878aea70dc47ae09bea412cd0a133a5",
     "claimsChangedAfterReview": false,
-    "unresolvedSourceFields": [
+    "unresolvedSourceFields": [],
+    "reviewState": "editorial_adjudicated",
+    "auditedUnresolvedSourceFields": [
      "country"
-    ],
-    "reviewState": "source_limitations"
+    ]
    },
    "countryEvidence": {
-    "status": "title_only",
-    "note": "國家欄目前依官方公告標題的 U.S. 描述；代表國身分仍待補充官方資料，不能視為法律國籍已確認。"
+    "status": "official_country_as_listed",
+    "checkedAt": "2026-09-25",
+    "scope": "official_profile_at_lookup",
+    "note": "補充來源為本次查閱的 Team USA 官方選手頁；頁面所列經歷有各自年份，不據此推定本案事件當年代表資格，也非法律國籍認證。",
+    "sourceRefs": [
+     {
+      "url": "https://www.teamusa.com/profiles/abby-raymond",
+      "retrievedAt": "2026-09-25T02:37:53.029285+00:00",
+      "rawSha256": "71958162d522bd45652ff2d265ad8c37a16682ddce11c8efd2147f8e8a307e5b",
+      "textSha256": "2c8cf9c501ed5b4768e4eca39af0720d9a3ad040606bdcc4765ae12934b0f1ff"
+     }
+    ],
+    "modelReview": {
+     "checkedAt": "2026-09-25",
+     "scope": "country_and_identity_only",
+     "modelSeats": [
+      "Claude",
+      "GPT"
+     ],
+     "requestedModels": [
+      "gpt-6-luna",
+      "haiku"
+     ],
+     "packetSha256": "a557959854c7c037b3354f469ccb1134e003cd12946b0bb0a10db58f1c5a2c44",
+     "annotationUpdatedAfterReview": false
+    }
    }
   },
   "registryRecordAsPublished": {
@@ -36089,6 +36142,11 @@
    "countryEvidence": {
     "status": "title_only",
     "note": "國家欄目前依官方公告標題的 U.S. 描述；代表國身分仍待補充官方資料，不能視為法律國籍已確認。"
+   },
+   "countryFollowup": {
+    "checkedAt": "2026-09-25",
+    "resolution": "held",
+    "note": "兩模型均指出同人疑義：Team USA 頁 Hometown Boston，USADA 為 of Canonsburg, Pa.，不同州；年齡相符但無其他官方資料可連結，維持待確認。"
    }
   },
   "registryRecordAsPublished": {
@@ -36249,8 +36307,8 @@
    "caseType": "緊急醫療用藥／糖皮質激素",
    "checkedAt": "2026-09-23",
    "sourceLocator": "U.S. Equestrian Athlete, Dutta, Accepts Public Warning for Anti-Doping Rule Violation：個案公告標題及全部個案實質段落；含物質／規則、處分、日期與成績後果，止於通用教育資訊前",
-   "nationalitySource": "https://www.usada.org/sanction/susan-dutta-accepts-public-warning-for-anti-doping-rule-violation/",
-   "nationalityAsListed": "U.S. Equestrian",
+   "nationalitySource": "https://www.fei.org/athlete/10003416/DUTTA-Susan",
+   "nationalityAsListed": "USA（United States of America）",
    "personType": "Athlete",
    "sourceRow": 626,
    "outcome": "公開警告",
@@ -36274,14 +36332,39 @@
     ],
     "auditedClaimsSha256": "a5b64ce19a51935e4da5958a5aee09344f486ab40781ef0afb3f5871c4a55ff8",
     "claimsChangedAfterReview": false,
-    "unresolvedSourceFields": [
+    "unresolvedSourceFields": [],
+    "reviewState": "editorial_adjudicated",
+    "auditedUnresolvedSourceFields": [
      "country"
-    ],
-    "reviewState": "source_limitations"
+    ]
    },
    "countryEvidence": {
-    "status": "title_only",
-    "note": "國家欄目前依官方公告標題的 U.S. 描述；代表國身分仍待補充官方資料，不能視為法律國籍已確認。"
+    "status": "official_country_as_listed",
+    "checkedAt": "2026-09-25",
+    "scope": "official_profile_at_lookup",
+    "note": "補充來源為本次查閱的國際馬術總會（FEI）官方選手頁所列國家；不據此認證法律國籍、事件當時代表資格或完整代表國變更史。",
+    "sourceRefs": [
+     {
+      "url": "https://www.fei.org/athlete/10003416/DUTTA-Susan",
+      "retrievedAt": "2026-09-25T02:38:02.271743+00:00",
+      "rawSha256": "034848347907276ad6200232a704efb95ee252f0012e20a5ee000850e9422ca4",
+      "textSha256": "5038c3e6bb80f7dbc4d12b823374e3592b25db3777f46b488a42d0b310b94bcf"
+     }
+    ],
+    "modelReview": {
+     "checkedAt": "2026-09-25",
+     "scope": "country_and_identity_only",
+     "modelSeats": [
+      "Claude",
+      "GPT"
+     ],
+     "requestedModels": [
+      "gpt-6-luna",
+      "haiku"
+     ],
+     "packetSha256": "a557959854c7c037b3354f469ccb1134e003cd12946b0bb0a10db58f1c5a2c44",
+     "annotationUpdatedAfterReview": false
+    }
    }
   },
   "registryRecordAsPublished": {
@@ -36852,8 +36935,8 @@
    "caseType": "amphetamine／未申請或取得 TUE",
    "checkedAt": "2026-09-23",
    "sourceLocator": "U.S. Weightlifting Athlete, Gabriel Dawson, Receives Sanction for Anti-Doping Rule Violation：個案公告標題及全部個案實質段落；含物質／規則、處分、日期與成績後果，止於通用教育資訊前",
-   "nationalitySource": "https://www.usada.org/sanction/gabriel-dawson-receives-doping-sanction/",
-   "nationalityAsListed": "U.S. Weightlifting",
+   "nationalitySource": "https://www.teamusa.com/profiles/gabe-dawson",
+   "nationalityAsListed": "Team USA",
    "personType": "Athlete",
    "sourceRow": 568,
    "outcome": "4年",
@@ -36877,14 +36960,39 @@
     ],
     "auditedClaimsSha256": "2e4980fb441254c642df471397b7ac7fc20a2da0c44eb1768c04ce7b24f0e385",
     "claimsChangedAfterReview": false,
-    "unresolvedSourceFields": [
+    "unresolvedSourceFields": [],
+    "reviewState": "editorial_adjudicated",
+    "auditedUnresolvedSourceFields": [
      "country"
-    ],
-    "reviewState": "source_limitations"
+    ]
    },
    "countryEvidence": {
-    "status": "title_only",
-    "note": "國家欄目前依官方公告標題的 U.S. 描述；代表國身分仍待補充官方資料，不能視為法律國籍已確認。"
+    "status": "official_country_as_listed",
+    "checkedAt": "2026-09-25",
+    "scope": "official_profile_at_lookup",
+    "note": "補充來源為本次查閱的 Team USA 官方選手頁；頁面所列經歷有各自年份，不據此推定本案事件當年代表資格，也非法律國籍認證。",
+    "sourceRefs": [
+     {
+      "url": "https://www.teamusa.com/profiles/gabe-dawson",
+      "retrievedAt": "2026-09-25T02:37:53.011517+00:00",
+      "rawSha256": "199fbb675322dd0ce34fea401839f31274f202f5b25e9ccadb0e24cb01bb847e",
+      "textSha256": "55b547adb58b040801083d75e371645e03c49b1422913c82477a9d1e2dfe7a46"
+     }
+    ],
+    "modelReview": {
+     "checkedAt": "2026-09-25",
+     "scope": "country_and_identity_only",
+     "modelSeats": [
+      "Claude",
+      "GPT"
+     ],
+     "requestedModels": [
+      "gpt-6-luna",
+      "haiku"
+     ],
+     "packetSha256": "a557959854c7c037b3354f469ccb1134e003cd12946b0bb0a10db58f1c5a2c44",
+     "annotationUpdatedAfterReview": false
+    }
    }
   },
   "registryRecordAsPublished": {

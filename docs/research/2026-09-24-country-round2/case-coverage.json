@@ -4163,5 +4163,506 @@
       "codex"
     ],
     "coverageComplete": true
+  },
+  {
+    "id": "usada-8bbe5698646b",
+    "athleteName": "Abby Raymond",
+    "modelReviews": [
+      {
+        "seat": "claude",
+        "requestedModel": "haiku",
+        "batch": "country-013",
+        "attempt": 1,
+        "packetSha256": "a557959854c7c037b3354f469ccb1134e003cd12946b0bb0a10db58f1c5a2c44",
+        "answerSha256": "3c69a9cd54087cfc13543444dc72be7a6df212769fa87815a8fe9fc13938d69b",
+        "characterStart": 27,
+        "characterEnd": 1035,
+        "wholeBatchValid": false,
+        "answer": {
+          "id": "usada-8bbe5698646b",
+          "status": "supported",
+          "identity": "supported",
+          "country": "supported",
+          "temporalScope": "supported",
+          "evidence": [
+            {
+              "documentId": "country",
+              "startLine": 1,
+              "endLine": 1,
+              "note": "Team USA 官方檔案頁面標題確認"
+            },
+            {
+              "documentId": "country",
+              "startLine": 448,
+              "endLine": 450,
+              "note": "身份確認：Abby Raymond"
+            },
+            {
+              "documentId": "country",
+              "startLine": 455,
+              "endLine": 456,
+              "note": "Hometown Roselle, IL 與 USADA 地點一致"
+            },
+            {
+              "documentId": "case",
+              "startLine": 1,
+              "endLine": 1,
+              "note": "U.S. Weightlifting Athlete 確認官方國家代表資格"
+            },
+            {
+              "documentId": "case",
+              "startLine": 8,
+              "endLine": 8,
+              "note": "Abby Raymond, of Roselle, Ill. - 身份與地點確認，2018 年案件"
+            }
+          ],
+          "findings": []
+        }
+      },
+      {
+        "seat": "codex",
+        "requestedModel": "gpt-6-luna",
+        "batch": "country-013",
+        "attempt": 1,
+        "packetSha256": "a557959854c7c037b3354f469ccb1134e003cd12946b0bb0a10db58f1c5a2c44",
+        "answerSha256": "b654aaf79558e76b66affc7ce837c35b94e7fc01c6b20fe8399c16125d6ff23d",
+        "characterStart": 10,
+        "characterEnd": 645,
+        "wholeBatchValid": false,
+        "answer": {
+          "id": "usada-8bbe5698646b",
+          "status": "supported",
+          "identity": "supported",
+          "country": "supported",
+          "temporalScope": "supported",
+          "evidence": [
+            {
+              "documentId": "country",
+              "startLine": 1,
+              "endLine": 1,
+              "note": "The official Team USA profile is titled Abby Raymond | Team USA; this supports the country-as-listed-at-lookup annotation."
+            },
+            {
+              "documentId": "country",
+              "startLine": 453,
+              "endLine": 456,
+              "note": "Profile age 23 and hometown Roselle, IL support the identity match by location."
+            },
+            {
+              "documentId": "case",
+              "startLine": 1,
+              "endLine": 9,
+              "note": "USADA identifies Abby Raymond as a weightlifting athlete from Roselle, Ill., aged 14 in the 2018 case."
+            }
+          ],
+          "findings": []
+        }
+      }
+    ],
+    "findings": [],
+    "modelSeats": [
+      "claude",
+      "codex"
+    ],
+    "coverageComplete": true
+  },
+  {
+    "id": "usada-3a2b44290235",
+    "athleteName": "Gabriel Dawson",
+    "modelReviews": [
+      {
+        "seat": "claude",
+        "requestedModel": "haiku",
+        "batch": "country-013",
+        "attempt": 1,
+        "packetSha256": "a557959854c7c037b3354f469ccb1134e003cd12946b0bb0a10db58f1c5a2c44",
+        "answerSha256": "3c69a9cd54087cfc13543444dc72be7a6df212769fa87815a8fe9fc13938d69b",
+        "characterStart": 1041,
+        "characterEnd": 2093,
+        "wholeBatchValid": false,
+        "answer": {
+          "id": "usada-3a2b44290235",
+          "status": "supported",
+          "identity": "supported",
+          "country": "supported",
+          "temporalScope": "supported",
+          "evidence": [
+            {
+              "documentId": "country",
+              "startLine": 1,
+              "endLine": 1,
+              "note": "Team USA 官方檔案頁面標題"
+            },
+            {
+              "documentId": "country",
+              "startLine": 448,
+              "endLine": 449,
+              "note": "身份確認：Gabe Dawson"
+            },
+            {
+              "documentId": "country",
+              "startLine": 454,
+              "endLine": 460,
+              "note": "Hometown Saint Joseph, Mo. 與 Year of birth 1999 - 與 USADA 2016 年 17 歲相符"
+            },
+            {
+              "documentId": "case",
+              "startLine": 1,
+              "endLine": 1,
+              "note": "U.S. Weightlifting Athlete 確認官方國家代表資格"
+            },
+            {
+              "documentId": "case",
+              "startLine": 7,
+              "endLine": 8,
+              "note": "Gabriel Dawson, of Saint Joseph, Mo. - 身份、地點、年齡確認，2016 年案件"
+            }
+          ],
+          "findings": []
+        }
+      },
+      {
+        "seat": "codex",
+        "requestedModel": "gpt-6-luna",
+        "batch": "country-013",
+        "attempt": 1,
+        "packetSha256": "a557959854c7c037b3354f469ccb1134e003cd12946b0bb0a10db58f1c5a2c44",
+        "answerSha256": "b654aaf79558e76b66affc7ce837c35b94e7fc01c6b20fe8399c16125d6ff23d",
+        "characterStart": 646,
+        "characterEnd": 1314,
+        "wholeBatchValid": false,
+        "answer": {
+          "id": "usada-3a2b44290235",
+          "status": "supported",
+          "identity": "supported",
+          "country": "supported",
+          "temporalScope": "supported",
+          "evidence": [
+            {
+              "documentId": "country",
+              "startLine": 1,
+              "endLine": 1,
+              "note": "The official Team USA profile is titled Gabe Dawson | Team USA; this supports the country-as-listed-at-lookup annotation."
+            },
+            {
+              "documentId": "country",
+              "startLine": 453,
+              "endLine": 460,
+              "note": "The profile identifies Gabe Dawson, a weightlifter born in 1999, from Saint Joseph, Mo."
+            },
+            {
+              "documentId": "case",
+              "startLine": 1,
+              "endLine": 8,
+              "note": "USADA identifies Gabriel Dawson as a weightlifting athlete from Saint Joseph, Mo., aged 17 in 2016, consistent with Gabe Dawson."
+            }
+          ],
+          "findings": []
+        }
+      }
+    ],
+    "findings": [],
+    "modelSeats": [
+      "claude",
+      "codex"
+    ],
+    "coverageComplete": true
+  },
+  {
+    "id": "usada-0f682f5a12d7",
+    "athleteName": "Marck Harrison",
+    "modelReviews": [
+      {
+        "seat": "claude",
+        "requestedModel": "haiku",
+        "batch": "country-013",
+        "attempt": 1,
+        "packetSha256": "a557959854c7c037b3354f469ccb1134e003cd12946b0bb0a10db58f1c5a2c44",
+        "answerSha256": "3c69a9cd54087cfc13543444dc72be7a6df212769fa87815a8fe9fc13938d69b",
+        "characterStart": 2099,
+        "characterEnd": 3112,
+        "wholeBatchValid": false,
+        "answer": {
+          "id": "usada-0f682f5a12d7",
+          "status": "supported",
+          "identity": "supported",
+          "country": "supported",
+          "temporalScope": "supported",
+          "evidence": [
+            {
+              "documentId": "country",
+              "startLine": 1,
+              "endLine": 1,
+              "note": "Team USA 官方檔案頁面標題"
+            },
+            {
+              "documentId": "country",
+              "startLine": 449,
+              "endLine": 450,
+              "note": "身份確認：Marck Harrison，運動 Boccia"
+            },
+            {
+              "documentId": "country",
+              "startLine": 458,
+              "endLine": 459,
+              "note": "Hometown Columbus, OH"
+            },
+            {
+              "documentId": "case",
+              "startLine": 1,
+              "endLine": 1,
+              "note": "U.S. Paralympic Boccia Athlete 確認官方國家代表資格"
+            },
+            {
+              "documentId": "case",
+              "startLine": 7,
+              "endLine": 7,
+              "note": "Marck Harrison, of Columbus, Ohio - 身份與地點確認，2018 年案件"
+            }
+          ],
+          "findings": []
+        }
+      },
+      {
+        "seat": "codex",
+        "requestedModel": "gpt-6-luna",
+        "batch": "country-013",
+        "attempt": 1,
+        "packetSha256": "a557959854c7c037b3354f469ccb1134e003cd12946b0bb0a10db58f1c5a2c44",
+        "answerSha256": "b654aaf79558e76b66affc7ce837c35b94e7fc01c6b20fe8399c16125d6ff23d",
+        "characterStart": 1315,
+        "characterEnd": 1813,
+        "wholeBatchValid": false,
+        "answer": {
+          "id": "usada-0f682f5a12d7",
+          "status": "supported",
+          "identity": "supported",
+          "country": "supported",
+          "temporalScope": "supported",
+          "evidence": [
+            {
+              "documentId": "country",
+              "startLine": 448,
+              "endLine": 469,
+              "note": "Team USA identifies Marck Harrison, lists Columbus, OH as hometown, and describes boccia participation and U.S. team ambitions."
+            },
+            {
+              "documentId": "case",
+              "startLine": 1,
+              "endLine": 7,
+              "note": "USADA identifies Marck Harrison as a Paralympic boccia athlete from Columbus, Ohio, aged 38 in 2018."
+            }
+          ],
+          "findings": []
+        }
+      }
+    ],
+    "findings": [],
+    "modelSeats": [
+      "claude",
+      "codex"
+    ],
+    "coverageComplete": true
+  },
+  {
+    "id": "usada-005ef8b2c89f",
+    "athleteName": "Michael Nackoul",
+    "modelReviews": [
+      {
+        "seat": "claude",
+        "requestedModel": "haiku",
+        "batch": "country-013",
+        "attempt": 1,
+        "packetSha256": "a557959854c7c037b3354f469ccb1134e003cd12946b0bb0a10db58f1c5a2c44",
+        "answerSha256": "3c69a9cd54087cfc13543444dc72be7a6df212769fa87815a8fe9fc13938d69b",
+        "characterStart": 3118,
+        "characterEnd": 4594,
+        "wholeBatchValid": false,
+        "answer": {
+          "id": "usada-005ef8b2c89f",
+          "status": "issue",
+          "identity": "issue",
+          "country": "supported",
+          "temporalScope": "supported",
+          "evidence": [
+            {
+              "documentId": "country",
+              "startLine": 1,
+              "endLine": 1,
+              "note": "Team USA 官方檔案頁面標題"
+            },
+            {
+              "documentId": "country",
+              "startLine": 448,
+              "endLine": 449,
+              "note": "身份顯示：Michael Nackoul"
+            },
+            {
+              "documentId": "country",
+              "startLine": 456,
+              "endLine": 458,
+              "note": "Age 35, Hometown Boston"
+            },
+            {
+              "documentId": "case",
+              "startLine": 1,
+              "endLine": 1,
+              "note": "U.S. Weightlifting Athlete 確認官方國家代表資格"
+            },
+            {
+              "documentId": "case",
+              "startLine": 7,
+              "endLine": 7,
+              "note": "Michael Nackoul, of Canonsburg, Pa. - 地點與 Team USA 檔案不符"
+            },
+            {
+              "documentId": "case",
+              "startLine": 5,
+              "endLine": 5,
+              "note": "案件發布 2017 年，事件年份 2016"
+            }
+          ],
+          "findings": [
+            {
+              "field": "identity",
+              "explanation": "Team USA 官方檔案列 Hometown Boston（馬薩諸塞州），但 USADA 案件文件列 of Canonsburg, Pa.（賓州）。此二地點位於不同州，相距甚遠，存在地理位置不符。年齡數據相符（USADA 2017 年稱 26 歲，Team USA 當前顯示 35 歲，時差 9 年相符），但地點不符無法通過地理遷移輕易解釋。",
+              "suggestion": "建議查證官方選手檔案是否確為同一人；可能需要檢視更多識別資訊（如出生日期、完整小名等）以確認身份"
+            }
+          ]
+        }
+      }
+    ],
+    "findings": [
+      {
+        "seat": "claude",
+        "requestedModel": "haiku",
+        "batch": "country-013",
+        "attempt": 1,
+        "packetSha256": "a557959854c7c037b3354f469ccb1134e003cd12946b0bb0a10db58f1c5a2c44",
+        "answerSha256": "3c69a9cd54087cfc13543444dc72be7a6df212769fa87815a8fe9fc13938d69b",
+        "characterStart": 3118,
+        "characterEnd": 4594,
+        "wholeBatchValid": false,
+        "countsForCoverage": true,
+        "field": "identity",
+        "explanation": "Team USA 官方檔案列 Hometown Boston（馬薩諸塞州），但 USADA 案件文件列 of Canonsburg, Pa.（賓州）。此二地點位於不同州，相距甚遠，存在地理位置不符。年齡數據相符（USADA 2017 年稱 26 歲，Team USA 當前顯示 35 歲，時差 9 年相符），但地點不符無法通過地理遷移輕易解釋。",
+        "suggestion": "建議查證官方選手檔案是否確為同一人；可能需要檢視更多識別資訊（如出生日期、完整小名等）以確認身份"
+      },
+      {
+        "seat": "codex",
+        "requestedModel": "gpt-6-luna",
+        "batch": "country-013",
+        "attempt": 1,
+        "packetSha256": "a557959854c7c037b3354f469ccb1134e003cd12946b0bb0a10db58f1c5a2c44",
+        "answerSha256": "b654aaf79558e76b66affc7ce837c35b94e7fc01c6b20fe8399c16125d6ff23d",
+        "characterStart": 1814,
+        "characterEnd": 2831,
+        "wholeBatchValid": false,
+        "countsForCoverage": false,
+        "field": "identity",
+        "explanation": "Name, sport, and approximate age align, but the official profile lists Boston as hometown while the case lists Canonsburg, Pennsylvania. The packet does not resolve this location discrepancy.",
+        "suggestion": "Mark the profile-to-case identity link uncertain or provide an official source connecting this Michael Nackoul to the case athlete."
+      }
+    ],
+    "modelSeats": [
+      "claude"
+    ],
+    "coverageComplete": false
+  },
+  {
+    "id": "usada-09d96ec873e6",
+    "athleteName": "Susan Dutta",
+    "modelReviews": [
+      {
+        "seat": "claude",
+        "requestedModel": "haiku",
+        "batch": "country-013",
+        "attempt": 1,
+        "packetSha256": "a557959854c7c037b3354f469ccb1134e003cd12946b0bb0a10db58f1c5a2c44",
+        "answerSha256": "3c69a9cd54087cfc13543444dc72be7a6df212769fa87815a8fe9fc13938d69b",
+        "characterStart": 4600,
+        "characterEnd": 5691,
+        "wholeBatchValid": false,
+        "answer": {
+          "id": "usada-09d96ec873e6",
+          "status": "supported",
+          "identity": "supported",
+          "country": "supported",
+          "temporalScope": "supported",
+          "evidence": [
+            {
+              "documentId": "country",
+              "startLine": 1,
+              "endLine": 1,
+              "note": "FEI.org 官方檔案頁面標題確認"
+            },
+            {
+              "documentId": "country",
+              "startLine": 104,
+              "endLine": 104,
+              "note": "身份確認：Susan DUTTA is an American athlete and competes in Dressage"
+            },
+            {
+              "documentId": "country",
+              "startLine": 109,
+              "endLine": 109,
+              "note": "國家確認：Competing for United States of America - USA"
+            },
+            {
+              "documentId": "case",
+              "startLine": 1,
+              "endLine": 1,
+              "note": "U.S. Equestrian Athlete 確認官方國家代表資格"
+            },
+            {
+              "documentId": "case",
+              "startLine": 7,
+              "endLine": 7,
+              "note": "Dutta, 47... in-competition urine sample... on March 19, 2016 - 身份與時間範圍確認"
+            }
+          ],
+          "findings": []
+        }
+      },
+      {
+        "seat": "codex",
+        "requestedModel": "gpt-6-luna",
+        "batch": "country-013",
+        "attempt": 1,
+        "packetSha256": "a557959854c7c037b3354f469ccb1134e003cd12946b0bb0a10db58f1c5a2c44",
+        "answerSha256": "b654aaf79558e76b66affc7ce837c35b94e7fc01c6b20fe8399c16125d6ff23d",
+        "characterStart": 2834,
+        "characterEnd": 3416,
+        "wholeBatchValid": false,
+        "answer": {
+          "id": "usada-09d96ec873e6",
+          "status": "supported",
+          "identity": "supported",
+          "country": "supported",
+          "temporalScope": "supported",
+          "evidence": [
+            {
+              "documentId": "country",
+              "startLine": 91,
+              "endLine": 109,
+              "note": "The FEI profile identifies Susan Dutta as an American dressage athlete and lists United States of America - USA as the country she is competing for."
+            },
+            {
+              "documentId": "case",
+              "startLine": 1,
+              "endLine": 7,
+              "note": "USADA identifies Dutta as an equestrian athlete, aged 47, with a 2016 dressage sample; the age matches the FEI profile's age 57 at lookup closely with elapsed time."
+            }
+          ],
+          "findings": []
+        }
+      }
+    ],
+    "findings": [],
+    "modelSeats": [
+      "claude",
+      "codex"
+    ],
+    "coverageComplete": true
   }
 ]

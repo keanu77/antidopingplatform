@@ -74,5 +74,9 @@
   "usada-8813abb5dfc8": {
     "disposition": "held",
     "reason": "Claude 指出同人疑義：USADA 為 James Howe II、of Miami，Team USA 頁為 James Howe、Hometown San Ramon；名稱後綴與城市均不同，無其他官方資料可連結，維持待確認。"
+  },
+  "usada-005ef8b2c89f": {
+    "disposition": "held",
+    "reason": "兩模型均指出同人疑義：Team USA 頁 Hometown Boston，USADA 為 of Canonsburg, Pa.，不同州；年齡相符但無其他官方資料可連結，維持待確認。"
   }
 }

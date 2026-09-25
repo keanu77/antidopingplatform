@@ -1,12 +1,13 @@
 {
   "schemaVersion": 1,
   "round": "2026-09-24-country-round2",
-  "checkedAt": "2026-09-24",
+  "checkedAt": "2026-09-25",
   "countryChanges": [
     {
       "id": "usada-c459cc791bed",
       "athleteName": "Ella Nicholson",
       "nationality": "美國",
+      "checkedAt": "2026-09-24",
       "sourceUrl": "https://www.usaweightlifting.org/news/2024/september/28/18-medals-numerous-national-records-highlight-junior-world-championships-for-usa",
       "countryAsListed": "Team USA（2024 IWF Junior World Championships）",
       "scope": "official_team_or_event_record",
@@ -38,6 +39,7 @@
       "id": "usada-88685d4069ae",
       "athleteName": "Keiser Witte",
       "nationality": "美國",
+      "checkedAt": "2026-09-24",
       "sourceUrl": "https://www.teamusa.com/profiles/keiser-witte-1142318",
       "countryAsListed": "Team USA",
       "scope": "official_profile_at_lookup",
@@ -75,6 +77,7 @@
       "id": "usada-159a9ae15f32",
       "athleteName": "Ian Wilson",
       "nationality": "美國",
+      "checkedAt": "2026-09-24",
       "sourceUrl": "https://www.teamusa.com/profiles/ian-wilson",
       "countryAsListed": "Team USA",
       "scope": "official_profile_at_lookup",
@@ -106,6 +109,7 @@
       "id": "usada-25958bca1e21",
       "athleteName": "Cary Cooper",
       "nationality": "美國",
+      "checkedAt": "2026-09-24",
       "sourceUrl": "https://worldathletics.org/athletes/united-states/cary-cooper-15146776",
       "countryAsListed": "United States",
       "scope": "official_profile_at_lookup",
@@ -137,6 +141,7 @@
       "id": "usada-89c25ce0aa40",
       "athleteName": "Darien Moore",
       "nationality": "美國",
+      "checkedAt": "2026-09-24",
       "sourceUrl": "https://worldathletics.org/athletes/united-states/darien-moore-14468449",
       "countryAsListed": "United States",
       "scope": "official_profile_at_lookup",
@@ -168,6 +173,7 @@
       "id": "usada-f8c1f2c29e25",
       "athleteName": "Madeline Wethington",
       "nationality": "美國",
+      "checkedAt": "2026-09-24",
       "sourceUrl": "https://teamusa.usahockey.com/news_article/show/731818",
       "countryAsListed": "U.S. Women's National Under-18 Team（2017）",
       "scope": "official_team_or_event_record",
@@ -199,6 +205,7 @@
       "id": "usada-9e3ec5e00217",
       "athleteName": "Isabel Gormley",
       "nationality": "美國",
+      "checkedAt": "2026-09-24",
       "sourceUrl": "https://www.worldaquatics.com/athletes/1137517/isabel-gormley/profile",
       "countryAsListed": "USA",
       "scope": "official_profile_at_lookup",
@@ -230,6 +237,7 @@
       "id": "usada-f40282760e72",
       "athleteName": "Patrick \"Dillon\" Schrodt",
       "nationality": "美國",
+      "checkedAt": "2026-09-24",
       "sourceUrl": "https://www.teamusa.com/profiles/dillon-schrodt",
       "countryAsListed": "Team USA",
       "scope": "official_profile_at_lookup",
@@ -261,6 +269,7 @@
       "id": "usada-b54bb0c30eb2",
       "athleteName": "Kyler Allison",
       "nationality": "美國",
+      "checkedAt": "2026-09-24",
       "sourceUrl": "https://www.teamusa.com/profiles/kyler-allison",
       "countryAsListed": "Team USA",
       "scope": "official_profile_at_lookup",
@@ -292,6 +301,7 @@
       "id": "usada-b714a3c460a7",
       "athleteName": "Lauren Goss",
       "nationality": "美國",
+      "checkedAt": "2026-09-24",
       "sourceUrl": "https://triathlon.org/athletes/profile/40842/lauren-goss",
       "countryAsListed": "United States",
       "scope": "official_profile_at_lookup",
@@ -323,6 +333,7 @@
       "id": "usada-2afd16a939d4",
       "athleteName": "Noah Webb",
       "nationality": "美國",
+      "checkedAt": "2026-09-24",
       "sourceUrl": "https://triathlon.org/athletes/profile/77677/noah-webb",
       "countryAsListed": "United States",
       "scope": "official_profile_at_lookup",
@@ -354,6 +365,7 @@
       "id": "usada-365cbd5fbcea",
       "athleteName": "Arika Skoog",
       "nationality": "美國",
+      "checkedAt": "2026-09-24",
       "sourceUrl": "https://www.teamusa.com/profiles/arika-skoog-1201458",
       "countryAsListed": "Team USA",
       "scope": "official_profile_at_lookup",
@@ -385,6 +397,7 @@
       "id": "usada-806eab5af83f",
       "athleteName": "Sarah Heinzl",
       "nationality": "美國",
+      "checkedAt": "2026-09-24",
       "sourceUrl": "https://www.paralympic.org/news/us-women-s-wheelchair-basketball-national-team-named",
       "countryAsListed": "2017 US women's wheelchair basketball national team",
       "scope": "official_team_or_event_record",
@@ -416,6 +429,7 @@
       "id": "usada-7da5b8af5ba7",
       "athleteName": "Tyler Sundeen",
       "nationality": "美國",
+      "checkedAt": "2026-09-24",
       "sourceUrl": "https://www.usafieldhockey.com/profiles/tyler-sundeen",
       "countryAsListed": "USA Field Hockey",
       "scope": "official_profile_at_lookup",
@@ -447,6 +461,7 @@
       "id": "usada-5f2ba9170fdc",
       "athleteName": "Grace Bowlby",
       "nationality": "美國",
+      "checkedAt": "2026-09-24",
       "sourceUrl": "https://teamusa.usahockey.com/news_article/show/582368-roster-announced-for-2016-u18-women-s-worlds",
       "countryAsListed": "U.S. Women's National Under-18 Team（2016 IIHF U18 Women's Worlds）",
       "scope": "official_team_or_event_record",
@@ -478,6 +493,7 @@
       "id": "usada-9c8b8e7bbb4c",
       "athleteName": "Chris Creveling",
       "nationality": "美國",
+      "checkedAt": "2026-09-24",
       "sourceUrl": "https://www.teamusa.com/profiles/chris-creveling-859947",
       "countryAsListed": "Team USA（Olympian 2014）",
       "scope": "official_profile_at_lookup",
@@ -509,6 +525,7 @@
       "id": "usada-8d214edc5d96",
       "athleteName": "Logan Storie",
       "nationality": "美國",
+      "checkedAt": "2026-09-24",
       "sourceUrl": "https://www.uipmworld.org/athlete/logan-storie",
       "countryAsListed": "United States",
       "scope": "official_profile_at_lookup",
@@ -540,6 +557,7 @@
       "id": "usada-5b6cb4ab463d",
       "athleteName": "Riley Stohr",
       "nationality": "美國",
+      "checkedAt": "2026-09-24",
       "sourceUrl": "https://www.teamusa.com/profiles/riley-stohr",
       "countryAsListed": "Team USA",
       "scope": "official_profile_at_lookup",
@@ -571,6 +589,7 @@
       "id": "usada-4518fb0dbd4d",
       "athleteName": "Talina Le",
       "nationality": "美國",
+      "checkedAt": "2026-09-24",
       "sourceUrl": "https://www.teamusa.com/profiles/talina-le",
       "countryAsListed": "Team USA",
       "scope": "official_profile_at_lookup",
@@ -602,6 +621,7 @@
       "id": "usada-b6074d0cf1fc",
       "athleteName": "Lindsey Corrigan",
       "nationality": "美國",
+      "checkedAt": "2026-09-24",
       "sourceUrl": "https://www.teamusa.com/profiles/lindsey-corrigan",
       "countryAsListed": "Team USA",
       "scope": "official_profile_at_lookup",
@@ -633,6 +653,7 @@
       "id": "usada-8e3e0cdfe74b",
       "athleteName": "Victoria Francis",
       "nationality": "美國",
+      "checkedAt": "2026-09-24",
       "sourceUrl": "https://www.themat.com/news/2024/february/01/victoria-francis-elevated-to-2014-junior-world-silver-medalist-after-anti-doping-violation-by-opponent",
       "countryAsListed": "USA（2014 Junior World Championships）",
       "scope": "official_team_or_event_record",
@@ -670,6 +691,7 @@
       "id": "usada-7df0d8ede93d",
       "athleteName": "Keir Pearson",
       "nationality": "美國",
+      "checkedAt": "2026-09-24",
       "sourceUrl": "https://worldrowing.com/athlete/8404",
       "countryAsListed": "USA（1992 World Rowing results）",
       "scope": "official_team_or_event_record",
@@ -701,6 +723,7 @@
       "id": "usada-a0a7483bcc7e",
       "athleteName": "J.C. Cruse",
       "nationality": "美國",
+      "checkedAt": "2026-09-24",
       "sourceUrl": "https://www.teamusa.com/profiles/jc-cruse",
       "countryAsListed": "Team USA",
       "scope": "official_profile_at_lookup",
@@ -732,6 +755,7 @@
       "id": "usada-de625da34c51",
       "athleteName": "Dylan Fischbach",
       "nationality": "美國",
+      "checkedAt": "2026-09-24",
       "sourceUrl": "https://www.paralympic.org/news/2018-us-men-s-basketball-team-named",
       "countryAsListed": "2018 U.S. Men's National Wheelchair Basketball Team",
       "scope": "official_team_or_event_record",
@@ -763,6 +787,7 @@
       "id": "usada-cbc321b291f0",
       "athleteName": "Wyatt Struxness",
       "nationality": "美國",
+      "checkedAt": "2026-09-24",
       "sourceUrl": "https://www.worldboccia.com/2021/12/09/sao-paulo-rc-day-1-results/",
       "countryAsListed": "American（2021 World Boccia Americas Regional Championships）",
       "scope": "official_team_or_event_record",
@@ -794,6 +819,7 @@
       "id": "usada-1afebbd6c57b",
       "athleteName": "Cesar Colunga",
       "nationality": "美國",
+      "checkedAt": "2026-09-24",
       "sourceUrl": "https://www.teamusa.com/profiles/cesar-colunga",
       "countryAsListed": "Team USA",
       "scope": "official_profile_at_lookup",
@@ -825,6 +851,7 @@
       "id": "usada-e7645ab29f67",
       "athleteName": "Joseph Mazzie",
       "nationality": "美國",
+      "checkedAt": "2026-09-24",
       "sourceUrl": "https://www.worldskate.org/inline-hockey/news-inline-hockey/1771-rosario-2015-senior-men-usa,-france,-latvia-and-czech-republic-pass-to-the-semifinals.html",
       "countryAsListed": "USA（2015 World Skate inline hockey Senior Men, Rosario）",
       "scope": "official_team_or_event_record",
@@ -851,48 +878,191 @@
         "packetSha256": "e36b31d0a272bfbfcc50ca15dc580cad9ffc3f6050c068f71c6bb28ce3211cab",
         "annotationUpdatedAfterReview": false
       }
+    },
+    {
+      "id": "usada-8bbe5698646b",
+      "athleteName": "Abby Raymond",
+      "nationality": "美國",
+      "checkedAt": "2026-09-25",
+      "sourceUrl": "https://www.teamusa.com/profiles/abby-raymond",
+      "countryAsListed": "Team USA",
+      "scope": "official_profile_at_lookup",
+      "note": "補充來源為本次查閱的 Team USA 官方選手頁；頁面所列經歷有各自年份，不據此推定本案事件當年代表資格，也非法律國籍認證。",
+      "sourceRefs": [
+        {
+          "url": "https://www.teamusa.com/profiles/abby-raymond",
+          "retrievedAt": "2026-09-25T02:37:53.029285+00:00",
+          "rawSha256": "71958162d522bd45652ff2d265ad8c37a16682ddce11c8efd2147f8e8a307e5b",
+          "textSha256": "2c8cf9c501ed5b4768e4eca39af0720d9a3ad040606bdcc4765ae12934b0f1ff"
+        }
+      ],
+      "modelReview": {
+        "checkedAt": "2026-09-25",
+        "scope": "country_and_identity_only",
+        "modelSeats": [
+          "Claude",
+          "GPT"
+        ],
+        "requestedModels": [
+          "gpt-6-luna",
+          "haiku"
+        ],
+        "packetSha256": "a557959854c7c037b3354f469ccb1134e003cd12946b0bb0a10db58f1c5a2c44",
+        "annotationUpdatedAfterReview": false
+      }
+    },
+    {
+      "id": "usada-3a2b44290235",
+      "athleteName": "Gabriel Dawson",
+      "nationality": "美國",
+      "checkedAt": "2026-09-25",
+      "sourceUrl": "https://www.teamusa.com/profiles/gabe-dawson",
+      "countryAsListed": "Team USA",
+      "scope": "official_profile_at_lookup",
+      "note": "補充來源為本次查閱的 Team USA 官方選手頁；頁面所列經歷有各自年份，不據此推定本案事件當年代表資格，也非法律國籍認證。",
+      "sourceRefs": [
+        {
+          "url": "https://www.teamusa.com/profiles/gabe-dawson",
+          "retrievedAt": "2026-09-25T02:37:53.011517+00:00",
+          "rawSha256": "199fbb675322dd0ce34fea401839f31274f202f5b25e9ccadb0e24cb01bb847e",
+          "textSha256": "55b547adb58b040801083d75e371645e03c49b1422913c82477a9d1e2dfe7a46"
+        }
+      ],
+      "modelReview": {
+        "checkedAt": "2026-09-25",
+        "scope": "country_and_identity_only",
+        "modelSeats": [
+          "Claude",
+          "GPT"
+        ],
+        "requestedModels": [
+          "gpt-6-luna",
+          "haiku"
+        ],
+        "packetSha256": "a557959854c7c037b3354f469ccb1134e003cd12946b0bb0a10db58f1c5a2c44",
+        "annotationUpdatedAfterReview": false
+      }
+    },
+    {
+      "id": "usada-0f682f5a12d7",
+      "athleteName": "Marck Harrison",
+      "nationality": "美國",
+      "checkedAt": "2026-09-25",
+      "sourceUrl": "https://www.teamusa.com/profiles/marck-harrison",
+      "countryAsListed": "Team USA",
+      "scope": "official_profile_at_lookup",
+      "note": "補充來源為本次查閱的 Team USA 官方選手頁；頁面所列經歷有各自年份，不據此推定本案事件當年代表資格，也非法律國籍認證。",
+      "sourceRefs": [
+        {
+          "url": "https://www.teamusa.com/profiles/marck-harrison",
+          "retrievedAt": "2026-09-25T02:37:53.055802+00:00",
+          "rawSha256": "2fe5db4bae71433fec8d2e04e1dd5395171379857441e0f7980be4099b432296",
+          "textSha256": "404d22bb860b9a0da201632014a09c5a3785cb750b48de7a62a7f5fe7da11db8"
+        }
+      ],
+      "modelReview": {
+        "checkedAt": "2026-09-25",
+        "scope": "country_and_identity_only",
+        "modelSeats": [
+          "Claude",
+          "GPT"
+        ],
+        "requestedModels": [
+          "gpt-6-luna",
+          "haiku"
+        ],
+        "packetSha256": "a557959854c7c037b3354f469ccb1134e003cd12946b0bb0a10db58f1c5a2c44",
+        "annotationUpdatedAfterReview": false
+      }
+    },
+    {
+      "id": "usada-09d96ec873e6",
+      "athleteName": "Susan Dutta",
+      "nationality": "美國",
+      "checkedAt": "2026-09-25",
+      "sourceUrl": "https://www.fei.org/athlete/10003416/DUTTA-Susan",
+      "countryAsListed": "USA（United States of America）",
+      "scope": "official_profile_at_lookup",
+      "note": "補充來源為本次查閱的國際馬術總會（FEI）官方選手頁所列國家；不據此認證法律國籍、事件當時代表資格或完整代表國變更史。",
+      "sourceRefs": [
+        {
+          "url": "https://www.fei.org/athlete/10003416/DUTTA-Susan",
+          "retrievedAt": "2026-09-25T02:38:02.271743+00:00",
+          "rawSha256": "034848347907276ad6200232a704efb95ee252f0012e20a5ee000850e9422ca4",
+          "textSha256": "5038c3e6bb80f7dbc4d12b823374e3592b25db3777f46b488a42d0b310b94bcf"
+        }
+      ],
+      "modelReview": {
+        "checkedAt": "2026-09-25",
+        "scope": "country_and_identity_only",
+        "modelSeats": [
+          "Claude",
+          "GPT"
+        ],
+        "requestedModels": [
+          "gpt-6-luna",
+          "haiku"
+        ],
+        "packetSha256": "a557959854c7c037b3354f469ccb1134e003cd12946b0bb0a10db58f1c5a2c44",
+        "annotationUpdatedAfterReview": false
+      }
     }
   ],
   "heldCountryChecks": [
     {
       "id": "usada-18da72e16a59",
-      "reason": "官方 2021 泛美錦標賽名單僅能以姓名與項目比對；USADA 2023 公告所列城市（Pittsburgh）與量級未見於該名單，且名單早於本案兩年。未找到可連結同人的官方資料，維持待確認。"
+      "reason": "官方 2021 泛美錦標賽名單僅能以姓名與項目比對；USADA 2023 公告所列城市（Pittsburgh）與量級未見於該名單，且名單早於本案兩年。未找到可連結同人的官方資料，維持待確認。",
+      "checkedAt": "2026-09-24"
     },
     {
       "id": "usada-42343d04a699",
-      "reason": "僅有美國國內協會賽事／獎項紀錄，未明列選手代表國家；模型指出不足以支持國家欄位。為一致起見，本輪不以國內賽事紀錄升級國家證據，維持待確認。"
+      "reason": "僅有美國國內協會賽事／獎項紀錄，未明列選手代表國家；模型指出不足以支持國家欄位。為一致起見，本輪不以國內賽事紀錄升級國家證據，維持待確認。",
+      "checkedAt": "2026-09-24"
     },
     {
       "id": "usada-a37e4ef92abb",
-      "reason": "Team USA 官方頁所列家鄉（Pleasanton, CA）與 USADA 公告（Wadsworth, Ohio）不同州，模型指出同人疑義；另有波多黎各訓練背景，未找到可連結同人的官方資料前維持待確認。"
+      "reason": "Team USA 官方頁所列家鄉（Pleasanton, CA）與 USADA 公告（Wadsworth, Ohio）不同州，模型指出同人疑義；另有波多黎各訓練背景，未找到可連結同人的官方資料前維持待確認。",
+      "checkedAt": "2026-09-24"
     },
     {
       "id": "usada-73473ebf3acd",
-      "reason": "僅有美國國內協會賽事／獎項紀錄，未明列選手代表國家；模型指出不足以支持國家欄位。為一致起見，本輪不以國內賽事紀錄升級國家證據，維持待確認。"
+      "reason": "僅有美國國內協會賽事／獎項紀錄，未明列選手代表國家；模型指出不足以支持國家欄位。為一致起見，本輪不以國內賽事紀錄升級國家證據，維持待確認。",
+      "checkedAt": "2026-09-24"
     },
     {
       "id": "usada-a065a9e92dd5",
-      "reason": "僅有美國國內協會賽事／獎項紀錄，未明列選手代表國家；模型指出不足以支持國家欄位。為一致起見，本輪不以國內賽事紀錄升級國家證據，維持待確認。"
+      "reason": "僅有美國國內協會賽事／獎項紀錄，未明列選手代表國家；模型指出不足以支持國家欄位。為一致起見，本輪不以國內賽事紀錄升級國家證據，維持待確認。",
+      "checkedAt": "2026-09-24"
     },
     {
       "id": "usada-1035e17c5288",
-      "reason": "僅有美國國內協會賽事／獎項紀錄，未明列選手代表國家；模型指出不足以支持國家欄位。為一致起見，本輪不以國內賽事紀錄升級國家證據，維持待確認。"
+      "reason": "僅有美國國內協會賽事／獎項紀錄，未明列選手代表國家；模型指出不足以支持國家欄位。為一致起見，本輪不以國內賽事紀錄升級國家證據，維持待確認。",
+      "checkedAt": "2026-09-24"
     },
     {
       "id": "usada-a6e4b38ecdbe",
-      "reason": "IWWF 官方選手頁目前列名 STADLBAUR Samantha（出生年 1997、USA），頁面未出現 Dumala；雖可能為婚後改姓，但官方資料無法連結同人，維持待確認。"
+      "reason": "IWWF 官方選手頁目前列名 STADLBAUR Samantha（出生年 1997、USA），頁面未出現 Dumala；雖可能為婚後改姓，但官方資料無法連結同人，維持待確認。",
+      "checkedAt": "2026-09-24"
     },
     {
       "id": "usada-c3a050be56a3",
-      "reason": "USA Archery 2025 年報導列 Richard Burkett Jr.，與 USADA 2021 年公告的 Richard Burkett 名稱有後綴差異，且未列城市或年齡；名單晚於本案五年。無法以官方資料確認同人，維持待確認。"
+      "reason": "USA Archery 2025 年報導列 Richard Burkett Jr.，與 USADA 2021 年公告的 Richard Burkett 名稱有後綴差異，且未列城市或年齡；名單晚於本案五年。無法以官方資料確認同人，維持待確認。",
+      "checkedAt": "2026-09-24"
     },
     {
       "id": "usada-2428086c1745",
-      "reason": "兩模型均指出同人疑義：Team USA 頁為壘球（Softball）、Boulder, CO，USADA 為棒球、Longmont；未找到可連結同人的官方棒球國家隊資料，維持待確認。"
+      "reason": "兩模型均指出同人疑義：Team USA 頁為壘球（Softball）、Boulder, CO，USADA 為棒球、Longmont；未找到可連結同人的官方棒球國家隊資料，維持待確認。",
+      "checkedAt": "2026-09-24"
     },
     {
       "id": "usada-8813abb5dfc8",
-      "reason": "Claude 指出同人疑義：USADA 為 James Howe II、of Miami，Team USA 頁為 James Howe、Hometown San Ramon；名稱後綴與城市均不同，無其他官方資料可連結，維持待確認。"
+      "reason": "Claude 指出同人疑義：USADA 為 James Howe II、of Miami，Team USA 頁為 James Howe、Hometown San Ramon；名稱後綴與城市均不同，無其他官方資料可連結，維持待確認。",
+      "checkedAt": "2026-09-24"
+    },
+    {
+      "id": "usada-005ef8b2c89f",
+      "reason": "兩模型均指出同人疑義：Team USA 頁 Hometown Boston，USADA 為 of Canonsburg, Pa.，不同州；年齡相符但無其他官方資料可連結，維持待確認。",
+      "checkedAt": "2026-09-25"
     }
   ],
   "dateChecks": []

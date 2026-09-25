@@ -1142,6 +1142,108 @@
   {
     "seat": "claude",
     "requestedModel": "haiku",
+    "batch": "country-013",
+    "caseIds": [
+      "usada-8bbe5698646b",
+      "usada-3a2b44290235",
+      "usada-0f682f5a12d7",
+      "usada-005ef8b2c89f",
+      "usada-09d96ec873e6"
+    ],
+    "attempt": 1,
+    "startedAt": "2026-09-25T02:38:22.554524+00:00",
+    "timeoutSeconds": 600,
+    "packetSha256": "a557959854c7c037b3354f469ccb1134e003cd12946b0bb0a10db58f1c5a2c44",
+    "promptSha256": "89f64a681f4e19f5a945c8f9efd015ed7ad3972ef20332aa58cbf1c49e1a89b9",
+    "status": "returned",
+    "valid": false,
+    "exitCode": 0,
+    "elapsedSeconds": 114.48,
+    "finishedAt": "2026-09-25T02:40:17.033608+00:00",
+    "providerMetadata": {
+      "usage": {
+        "input_tokens": 10,
+        "cache_creation_input_tokens": 16196,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 11338,
+        "output_tokens_details": {
+          "thinking_tokens": 9092
+        },
+        "server_tool_use": {
+          "web_search_requests": 0,
+          "web_fetch_requests": 0
+        },
+        "service_tier": "standard",
+        "cache_creation": {
+          "ephemeral_1h_input_tokens": 16196,
+          "ephemeral_5m_input_tokens": 0
+        },
+        "inference_geo": "not_available",
+        "iterations": [
+          {
+            "input_tokens": 10,
+            "output_tokens": 11338,
+            "cache_read_input_tokens": 0,
+            "cache_creation_input_tokens": 16196,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 16196
+            },
+            "type": "message"
+          }
+        ],
+        "speed": "standard"
+      },
+      "modelUsage": {
+        "claude-haiku-4-5-20251001": {
+          "inputTokens": 10,
+          "outputTokens": 11338,
+          "cacheReadInputTokens": 0,
+          "cacheCreationInputTokens": 16196,
+          "webSearchRequests": 0,
+          "costUSD": 0.089092,
+          "contextWindow": 200000,
+          "maxOutputTokens": 32000,
+          "thinkingTokens": 9092,
+          "canonicalModel": "claude-haiku-4-5",
+          "provider": "firstParty",
+          "costBasis": "list"
+        }
+      },
+      "total_cost_usd": 0.089092,
+      "is_error": false
+    },
+    "answerCharacters": 5875,
+    "validationError": "Extra data: line 217 column 1 (char 5690)"
+  },
+  {
+    "seat": "codex",
+    "requestedModel": "gpt-6-luna",
+    "batch": "country-013",
+    "caseIds": [
+      "usada-8bbe5698646b",
+      "usada-3a2b44290235",
+      "usada-0f682f5a12d7",
+      "usada-005ef8b2c89f",
+      "usada-09d96ec873e6"
+    ],
+    "attempt": 1,
+    "startedAt": "2026-09-25T02:38:22.554352+00:00",
+    "timeoutSeconds": 600,
+    "packetSha256": "a557959854c7c037b3354f469ccb1134e003cd12946b0bb0a10db58f1c5a2c44",
+    "promptSha256": "89f64a681f4e19f5a945c8f9efd015ed7ad3972ef20332aa58cbf1c49e1a89b9",
+    "status": "returned",
+    "valid": false,
+    "exitCode": 0,
+    "elapsedSeconds": 20.55,
+    "finishedAt": "2026-09-25T02:38:43.101257+00:00",
+    "providerMetadata": {},
+    "answerCharacters": 3418,
+    "validationError": "Extra data: line 1 column 2834 (char 2833)"
+  },
+  {
+    "seat": "claude",
+    "requestedModel": "haiku",
     "batch": "country-012",
     "caseIds": [
       "usada-8813abb5dfc8"

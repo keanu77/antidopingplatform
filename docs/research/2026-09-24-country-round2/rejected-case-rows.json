@@ -1,1 +1,15 @@
-[]
+[
+  {
+    "id": "usada-005ef8b2c89f",
+    "seat": "codex",
+    "requestedModel": "gpt-6-luna",
+    "batch": "country-013",
+    "attempt": 1,
+    "packetSha256": "a557959854c7c037b3354f469ccb1134e003cd12946b0bb0a10db58f1c5a2c44",
+    "answerSha256": "b654aaf79558e76b66affc7ce837c35b94e7fc01c6b20fe8399c16125d6ff23d",
+    "characterStart": 1814,
+    "characterEnd": 2831,
+    "wholeBatchValid": false,
+    "reason": "Overall status mismatch"
+  }
+]

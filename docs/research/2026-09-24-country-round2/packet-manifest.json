@@ -1,6 +1,6 @@
 {
   "baselineSha256": "a37f9ec223bedf64c96b5bf17c31960c2b30606c7de03bcc06bdb929d7d66cb0",
-  "caseCount": 37,
+  "caseCount": 42,
   "batches": [
     {
       "batch": "country-001",
@@ -121,6 +121,18 @@
       "sha256": "eda8ecf21d791d3c8d5505cb59818f2c59e45a1684ec3ef0a0737b78c1675f7a",
       "caseIds": [
         "usada-8813abb5dfc8"
+      ]
+    },
+    {
+      "batch": "country-013",
+      "path": ".cache/2026-09-24-country-round2/packets/country-013.json",
+      "sha256": "a557959854c7c037b3354f469ccb1134e003cd12946b0bb0a10db58f1c5a2c44",
+      "caseIds": [
+        "usada-8bbe5698646b",
+        "usada-3a2b44290235",
+        "usada-0f682f5a12d7",
+        "usada-005ef8b2c89f",
+        "usada-09d96ec873e6"
       ]
     }
   ]

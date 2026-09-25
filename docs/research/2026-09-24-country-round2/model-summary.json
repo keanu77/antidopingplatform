@@ -1,16 +1,16 @@
 {
-  "casesAttempted": 37,
-  "atLeastTwoModels": 37,
+  "casesAttempted": 42,
+  "atLeastTwoModels": 41,
   "allFourModels": 0,
   "perModel": {
     "gemini": 0,
     "grok": 0,
-    "claude": 37,
-    "codex": 37
+    "claude": 42,
+    "codex": 41
   },
   "validWholeBatches": 20,
-  "nonvalidWholeBatches": 5,
-  "validCaseRowsFromIncompleteBatches": 16,
+  "nonvalidWholeBatches": 7,
+  "validCaseRowsFromIncompleteBatches": 25,
   "flaggedIds": [
     "usada-18da72e16a59",
     "usada-88685d4069ae",
@@ -26,7 +26,10 @@
     "usada-c3a050be56a3",
     "usada-2428086c1745",
     "usada-e7645ab29f67",
-    "usada-8813abb5dfc8"
+    "usada-8813abb5dfc8",
+    "usada-005ef8b2c89f"
   ],
-  "insufficientCoverageIds": []
+  "insufficientCoverageIds": [
+    "usada-005ef8b2c89f"
+  ]
 }

@@ -1,0 +1,104 @@
+{
+  "date": "2026-09-25",
+  "status": "triage_only_not_evidence",
+  "note": "子代理以搜尋摘要初篩；官方原件未下載、未驗 SHA、未經模型對讀，不得直接作為國家證據。原因：session 搜尋額度（200）用盡、本機對 teamusa.org／legacy.usacycling.org／fei.org／usarugby.org／eagles.rugby／github.com 的 TCP 連線逾時。",
+  "candidates": [
+    {
+      "id": "usada-8bbe5698646b",
+      "name": "Abby Raymond",
+      "url": "https://www.teamusa.org/usa-weightlifting/athletes/Abby-Raymond",
+      "clue": "Roselle, Ill. 與 USADA 一致；2019 Junior World team"
+    },
+    {
+      "id": "usada-005ef8b2c89f",
+      "name": "Michael Nackoul",
+      "url": "https://www.teamusa.org/usa-weightlifting/athletes/michael-nackoul",
+      "clue": "2013 IWF World Championships U.S. Men's Team；Pittsburgh Barbell（近 Canonsburg）"
+    },
+    {
+      "id": "usada-3a2b44290235",
+      "name": "Gabriel Dawson",
+      "url": "https://www.teamusa.org/usa-weightlifting/athletes/gabe-dawson",
+      "clue": "Saint Joseph, Mo. 與 USADA 一致；生年 1999"
+    },
+    {
+      "id": "usada-ae780d447bf0",
+      "name": "Janelle Shafer",
+      "url": "https://www.teamusa.org/USA-Weightlifting/Features/2014/October/16/Fifteen-American-Standouts-to-Compete-at-World-University-Weightlifting-Championships",
+      "clue": "2014 世界大學錦標賽 Team USA；MidAmerica Nazarene（Olathe）"
+    },
+    {
+      "id": "usada-a866a19663a5",
+      "name": "Robert Kyle Dosterschill",
+      "url": "https://www.teamusa.org/USA-Weightlifting/Features/2014/October/16/Fifteen-American-Standouts-to-Compete-at-World-University-Weightlifting-Championships",
+      "clue": "R. Kyle Dosterschill 94kg；未列城市"
+    },
+    {
+      "id": "usada-0f9636fca02d",
+      "name": "Trevor Cuicchi",
+      "url": "https://www.teamusa.org/USA-Weightlifting/Features/2018/April/26/World-University-Championships-Squad-Named",
+      "clue": "2018 世界大學錦標賽美國隊；城市未列"
+    },
+    {
+      "id": "usada-74510fc23e03",
+      "name": "Darcie Warren",
+      "url": "https://www.teamusa.org/USA-Weightlifting/Features/2018/August/27/Americans-Bring-Home-Dozens-of-Medals-from-World-Masters",
+      "clue": "2018 World Masters W40-63kg；城市未列"
+    },
+    {
+      "id": "usada-a71a79541adf",
+      "name": "Cicely Kyle",
+      "url": "https://www.teamusa.org/USA-Weightlifting/Features/2021/April/26/Team-USA-Tops-Medal-Table-6-Athletes-Crowned-Pan-American-Champions",
+      "clue": "Pensacola 一致，但年齡疑似不符（需核對 USADA 年齡）"
+    },
+    {
+      "id": "usada-0f682f5a12d7",
+      "name": "Marck Harrison",
+      "url": "https://www.teamusa.org/para-boccia/athletes/Marck-Harrison",
+      "clue": "Columbus, Ohio 一致"
+    },
+    {
+      "id": "usada-edbbe5e82ff0",
+      "name": "Riekert Hattingh",
+      "url": "https://eagles.rugby/news/2025-extended-player-squad-confirmed-for-usa-mens-eagles-with-rugby-world-cup-qualification-year-on-deck-202547",
+      "clue": "USA Eagles 2025 squad；南非出生，須官方頁確認代表美國"
+    },
+    {
+      "id": "usada-09d96ec873e6",
+      "name": "Susan Dutta",
+      "url": "https://www.fei.org/athlete/10003416/DUTTA-Susan",
+      "clue": "FEI 選手頁；US Equestrian 頁為程式載入"
+    },
+    {
+      "id": "usada-6d48feafc5e9",
+      "name": "Nia Williams",
+      "url": "https://www.usarugby.org/player/nia-williams/",
+      "clue": "低信心：同名大學球員風險"
+    },
+    {
+      "id": "usada-16f2d1c7b31c",
+      "name": "Frank Travieso",
+      "url": "https://www.uci.org/rider-details/44432",
+      "clue": "UCI 選手頁（程式載入，國籍欄未擷取）"
+    },
+    {
+      "id": "usada-82602147d7d4",
+      "name": "Brian Abers",
+      "url": "https://legacy.usacycling.org/americans-tally-52-medals-at-2014-uci-masters-track-world-championships.htm",
+      "clue": "2014 UCI Masters Track Worlds；城市 Aloha, OR 與 USADA Colorado Springs 不同"
+    }
+  ],
+  "conflicts": [
+    {
+      "id": "usada-8091f0d610a6",
+      "name": "Ina Pfuhler",
+      "note": "UCI 官方文章稱 Germany's Ina Pfuhler（Gran Fondo 55-59）；與美國標籤衝突，可能同名或雙重國籍，需人工核對，不可作美國證據"
+    }
+  ],
+  "notSearched": [
+    "usada-b95ab234ef5b",
+    "usada-1205b7548666",
+    "usada-c624acaae104"
+  ],
+  "notSearchedNote": "另田徑 15 件、自行車 38 件（Steven Strickler 起）因搜尋額度用盡未搜尋；清單見 scratchpad triage-*.json 的對應 id，不可記為查無。"
+}

@@ -292,7 +292,7 @@ for (const followupPath of followupPaths) {
     c.review.nationalityAsListed = fix.countryAsListed;
     c.review.countryEvidence = {
       status: "official_country_as_listed",
-      checkedAt: followup.checkedAt,
+      checkedAt: fix.checkedAt ?? followup.checkedAt,
       scope: fix.scope,
       note: fix.note,
       sourceRefs: fix.sourceRefs,
@@ -310,7 +310,7 @@ for (const followupPath of followupPaths) {
   for (const check of followup.heldCountryChecks) {
     const c = cases.find((item) => item.id === check.id);
     if (c?.review.countryEvidence?.status !== "title_only") throw new Error(`Held country annotation must stay unresolved: ${check.id}`);
-    c.review.countryFollowup = { checkedAt: followup.checkedAt, resolution: "held", note: check.reason };
+    c.review.countryFollowup = { checkedAt: check.checkedAt ?? followup.checkedAt, resolution: "held", note: check.reason };
   }
 }
 cases.sort((a, b) => b.year - a.year || a.id.localeCompare(b.id));

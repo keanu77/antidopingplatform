@@ -519,5 +519,78 @@
       "Hometown",
       "Taekwondo"
     ]
+  },
+  {
+    "id": "usada-8bbe5698646b",
+    "sourceUrl": "https://www.teamusa.com/profiles/abby-raymond",
+    "scope": "official_profile_at_lookup",
+    "countryAsListed": "Team USA",
+    "temporalNote": "補充來源為本次查閱的 Team USA 官方選手頁；頁面所列經歷有各自年份，不據此推定本案事件當年代表資格，也非法律國籍認證。",
+    "identityRationale": "同名 Abby Raymond、舉重；Team USA 頁列 Hometown Roselle, IL，與 USADA of Roselle, Ill. 一致。",
+    "matchTerms": [
+      "Raymond",
+      "Hometown",
+      "Roselle",
+      "Age"
+    ]
+  },
+  {
+    "id": "usada-3a2b44290235",
+    "sourceUrl": "https://www.teamusa.com/profiles/gabe-dawson",
+    "scope": "official_profile_at_lookup",
+    "countryAsListed": "Team USA",
+    "temporalNote": "補充來源為本次查閱的 Team USA 官方選手頁；頁面所列經歷有各自年份，不據此推定本案事件當年代表資格，也非法律國籍認證。",
+    "identityRationale": "Gabe／Gabriel Dawson、舉重；Team USA 頁列 Hometown Saint Joseph, Mo.、Year of birth 1999，與 USADA of Saint Joseph, Mo.、2016 年 17 歲相符。",
+    "matchTerms": [
+      "Dawson",
+      "Saint Joseph",
+      "Year of birth",
+      "Hometown"
+    ]
+  },
+  {
+    "id": "usada-0f682f5a12d7",
+    "sourceUrl": "https://www.teamusa.com/profiles/marck-harrison",
+    "scope": "official_profile_at_lookup",
+    "countryAsListed": "Team USA",
+    "temporalNote": "補充來源為本次查閱的 Team USA 官方選手頁；頁面所列經歷有各自年份，不據此推定本案事件當年代表資格，也非法律國籍認證。",
+    "identityRationale": "同名 Marck Harrison、帕拉地板滾球；Team USA 頁列 Hometown Columbus, OH，與 USADA of Columbus, Ohio 一致。",
+    "matchTerms": [
+      "Harrison",
+      "Hometown",
+      "Columbus",
+      "boccia",
+      "Age"
+    ]
+  },
+  {
+    "id": "usada-005ef8b2c89f",
+    "sourceUrl": "https://www.teamusa.com/profiles/michael-nackoul",
+    "scope": "official_profile_at_lookup",
+    "countryAsListed": "Team USA",
+    "temporalNote": "補充來源為本次查閱的 Team USA 官方選手頁；頁面所列經歷有各自年份，不據此推定本案事件當年代表資格，也非法律國籍認證。",
+    "identityRationale": "同名 Michael Nackoul、舉重；Team USA 頁 Age 35（查閱時）與 USADA 2017-06 稱 26 歲相符；USADA 稱 of Canonsburg, Pa.，官方頁列 Hometown Boston，城市不同（頁面另提 Pittsburgh Pirates）。",
+    "matchTerms": [
+      "Nackoul",
+      "Hometown",
+      "Age",
+      "Boston",
+      "Pittsburgh"
+    ]
+  },
+  {
+    "id": "usada-09d96ec873e6",
+    "sourceUrl": "https://www.fei.org/athlete/10003416/DUTTA-Susan",
+    "scope": "official_profile_at_lookup",
+    "countryAsListed": "USA（United States of America）",
+    "temporalNote": "補充來源為本次查閱的國際馬術總會（FEI）官方選手頁所列國家；不據此認證法律國籍、事件當時代表資格或完整代表國變更史。",
+    "identityRationale": "同名 Susan Dutta、盛裝舞步；FEI 官方頁稱 American athlete、國家 USA；未列年齡或城市（USADA 稱 47 歲、於 Wellington 賽事採樣）。",
+    "matchTerms": [
+      "Dutta",
+      "DUTTA",
+      "USA",
+      "United States",
+      "Dressage"
+    ]
   }
 ]
