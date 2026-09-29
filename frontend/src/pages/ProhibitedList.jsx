@@ -1,6 +1,7 @@
 import { useState, useEffect, useMemo } from "react";
 import { Search, ChevronDown, Shield, AlertTriangle } from "lucide-react";
 import { prohibitedList, timingLabels } from "../data/prohibitedList";
+import ListLabelsGuide from "../components/ListLabelsGuide";
 
 function ProhibitedList() {
   const [search, setSearch] = useState("");
@@ -223,6 +224,8 @@ function ProhibitedList() {
           <p className="text-sm mt-1">試試不同的關鍵字或篩選條件</p>
         </div>
       )}
+
+      <ListLabelsGuide />
     </div>
   );
 }

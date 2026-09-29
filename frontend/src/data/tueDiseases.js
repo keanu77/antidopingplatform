@@ -1,0 +1,248 @@
+// 常見疾病 TUE 重點。檢查表連結來自 CTADA，醫師指引連結來自 WADA；
+// guideline 標示指引發布年月或版本，方便核對時效。
+// 臨床重點依 WADA TUE Physician Guidelines 與 2026 禁用清單整理，僅供教育參考。
+
+const CTADA = "https://www.antidoping.org.tw/wp-content/uploads";
+const WADA = "https://www.wada-ama.org/sites/default/files";
+
+export const tueDiseases = [
+  {
+    id: "adhd",
+    title: "專注力失調及過動症（ADHD）",
+    prohibited: ["Methylphenidate", "Amphetamine 類（含 lisdexamfetamine）"],
+    keyPoints: [
+      "興奮劑屬 S6，僅賽內禁用；持續治療者實務上須申請賽內 TUE。",
+      "須由熟悉 ADHD 的醫師（小兒科、精神科等）依 DSM-5 診斷，附發展史、功能損害、結構化量表與既往治療。",
+      "成年後才新診斷，或兒時病史難以確立時，可能被要求第二意見。",
+    ],
+    alternatives:
+      "atomoxetine、guanfacine 不在禁用清單、無需 TUE；申請興奮劑 TUE 時常需說明這些替代為何不適用。",
+    checklistUrl: `${CTADA}/2021/03/TUE申請檢查表_ADHD.pdf`,
+    guidelineUrl: `${WADA}/2023-12/tue_physician_guidelines_adhd_-_version_7.1_-_october_2023.pdf`,
+    guideline: "2023-10（v7.1）",
+  },
+  {
+    id: "adrenal",
+    title: "腎上腺機能不全",
+    prohibited: ["糖皮質激素及礦物質皮質類固醇"],
+    keyPoints: [
+      "口服 hydrocortisone 等糖皮質激素於賽內禁用，長期替代治療須申請 TUE。",
+      "腎上腺危象的緊急注射屬急迫治療，可依 ISTUE 4.1(a) 申請追溯 TUE。",
+    ],
+    checklistUrl: `${CTADA}/2021/03/TUE申請檢查表_Adrenal-insufficiency.pdf`,
+    guidelineUrl: `${WADA}/resources/files/tuec_adrenal_insufficiency_6.0_0.pdf`,
+    guideline: "v6.0",
+  },
+  {
+    id: "anaphylaxis",
+    title: "過敏性休克",
+    prohibited: ["糖皮質激素"],
+    keyPoints: [
+      "急救時先救命。使用全身性糖皮質激素等禁用物質後，可依 ISTUE 4.1(a) 緊急情況申請追溯 TUE，並保留急救紀錄。",
+    ],
+    checklistUrl: `${CTADA}/2021/03/TUE申請檢查表_Anaphylaxis.pdf`,
+    guidelineUrl: `${WADA}/resources/files/tuec_anaphylaxis_version3.0.pdf`,
+    guideline: "v3.0",
+  },
+  {
+    id: "asthma",
+    title: "氣喘",
+    prohibited: ["Beta-2 激動劑", "全身性糖皮質激素（賽內）"],
+    keyPoints: [
+      "四種吸入劑在限量內免 TUE：Salbutamol（24h ≤1600µg 且每 8h ≤600µg）、Formoterol（24h ≤54µg 且每 12h ≤36µg）、Salmeterol（24h ≤200µg 且每 8h ≤100µg，後者為 2026 新規）、Vilanterol（24h ≤25µg）。",
+      "Terbutaline、所有口服 Beta-2 激動劑，以及超過上述劑量者，一律需 TUE。",
+      "尿液 salbutamol >1000 ng/mL、formoterol >40 ng/mL 時，須以藥物動力學研究證明來自治療劑量。",
+      "運動誘發支氣管收縮不能只靠症狀診斷，需客觀激發試驗，例如 EVH 後 FEV1 自基線下降 ≥10% 為陽性。",
+      "吸入糖皮質激素允許；同時使用利尿劑時，上述閾值例外不適用，兩者都要 TUE。",
+    ],
+    checklistUrl:
+      "https://drive.google.com/file/d/1Rjj4UUwNOreLpdyicLfucNf4kHQPHzvz/view?usp=sharing",
+    guidelineUrl: `${WADA}/2023-02/tue_physician_guidelines_asthma_february_2023.pdf`,
+    guideline: "2023-02",
+  },
+  {
+    id: "cardiovascular",
+    title: "心血管疾病",
+    prohibited: ["Beta 阻斷劑（P1，特定運動）", "利尿劑（S5，全時段）"],
+    keyPoints: [
+      "Beta 阻斷劑只在射箭、射擊、高爾夫等精準運動禁用；跑步、球類等多數運動不禁、無需 TUE。",
+      "利尿劑全時段禁用，高血壓或心衰竭必須使用時要申請 TUE。",
+      "持利尿劑 TUE 時，若同一檢體也驗出閾值物質（如 salbutamol、偽麻黃鹼），即使低於閾值仍屬不利分析結果，除非該物質也有 TUE。",
+    ],
+    alternatives:
+      "ACE 抑制劑、ARB（如 losartan）、鈣離子阻斷劑（如 amlodipine、diltiazem）不在禁用清單；注意含利尿劑的複方。",
+    checklistUrl: `${CTADA}/2021/03/TUE申請檢查表_Cardiovascular-conditions.pdf`,
+    guidelineUrl: `${WADA}/resources/files/tuec_cardiovascularbetablockers_version2.2.pdf`,
+    guideline: "v2.2",
+  },
+  {
+    id: "diabetes",
+    title: "糖尿病",
+    prohibited: ["胰島素（S4.4.2）"],
+    keyPoints: [
+      "胰島素屬 S4 荷爾蒙與代謝調節劑（S4.4.2），全時段禁用；第一型糖尿病賽內外都需要有效 TUE。",
+      "檢附確診紀錄、胰島素治療細節與血糖控制證據（血糖或 CGM 紀錄、HbA1c）。",
+      "劑量常隨訓練與賽程波動，可在申請時預先載明合理的劑量範圍。",
+    ],
+    alternatives:
+      "第一型糖尿病沒有可取代胰島素的非禁用治療；第二型糖尿病常用口服藥（如 metformin）未列禁用，使用前仍請逐一查詢。",
+    checklistUrl: `${CTADA}/2021/03/TUE申請檢查表_Diabetes.pdf`,
+    guidelineUrl: `${WADA}/resources/files/tuec_diabetes_version4.2_en.pdf`,
+    guideline: "v4.2",
+  },
+  {
+    id: "ibd",
+    title: "發炎性大腸疾病",
+    prohibited: ["糖皮質激素（口服、直腸、注射於賽內禁用）"],
+    keyPoints: [
+      "全身性糖皮質激素療程若跨入賽內期，須申請 TUE；口服 budesonide 同樣算口服途徑。",
+    ],
+    alternatives: "5-ASA、azathioprine 與多數生物製劑不在禁用清單。",
+    checklistUrl: `${CTADA}/2021/03/TUE申請檢查表_Inflammatory-Bowel-Disease.pdf`,
+    guidelineUrl: `${WADA}/resources/files/tue_physician_guidelines_inflammatory_bowel_final_november_2021.pdf`,
+    guideline: "2021-11",
+  },
+  {
+    id: "iv-infusion",
+    title: "靜脈輸注",
+    prohibited: ["12 小時內總量超過 100 毫升（M2.2 禁用方法）"],
+    keyPoints: [
+      "禁用的是「方法」，與輸注內容物是否合法無關；生理食鹽水、維他命也一樣。",
+      "住院治療、外科手術或臨床診斷檢查期間的輸液屬例外，仍建議保留紀錄。",
+      "賽後「恢復點滴」「維他命點滴」超過 100 毫升，是常見的無意違規來源。",
+    ],
+    checklistUrl: `${CTADA}/2021/03/TUE申請檢查表_Intravenous-infusions.pdf`,
+    guidelineUrl: `${WADA}/2023-10/tue_physician_guidelines_iv_infusion_october_2023.pdf`,
+    guideline: "2023-10",
+  },
+  {
+    id: "male-hypogonadism",
+    title: "男性性腺功能低下症",
+    prohibited: ["睪固酮（S1）", "人類絨毛膜性腺激素（hCG）"],
+    keyPoints: [
+      "只有器質性病因才可能核准，例如 Klinefelter 症候群、雙側睪丸切除、下視丘或垂體腫瘤、放化療後。",
+      "功能性或年齡相關的低睪固酮，即使低於參考值也不符合；疲勞、恢復慢或抗老化都不能作為單獨理由。",
+      "檢驗至少兩次晨間空腹、間隔一週以上，含 total testosterone、LH、FSH、SHBG；次發性另需垂體 MRI。",
+    ],
+    checklistUrl: `${CTADA}/2021/03/TUE申請檢查表_Male-Hypogonadism.pdf`,
+    guidelineUrl: `${WADA}/2023-03/tue_physician_guidelines_male_hypogonadism_march_2023.pdf`,
+    guideline: "2023-03",
+  },
+  {
+    id: "musculoskeletal",
+    title: "骨骼肌肉問題",
+    prohibited: ["糖皮質激素注射（賽內）", "麻醉劑（S7，賽內）"],
+    keyPoints: [
+      "自 2022 年起，所有注射途徑的糖皮質激素（含關節內、肌腱周圍）於賽內禁用。",
+      "賽外注射無需 TUE，但要依清除期回推賽程，例如 triamcinolone acetonide 局部注射至少 10 天、肌肉注射至少 60 天。",
+    ],
+    alternatives: "paracetamol、NSAIDs、局部麻醉劑不在禁用清單。",
+    checklistUrl: `${CTADA}/2021/03/TUE申請檢查表_Musculoskeletal-conditions.pdf`,
+    guidelineUrl: `${WADA}/2023-10/tue_physician_guidelines_-_musculoskeletal_conditions_-_version_5.1_october_2023_2.pdf`,
+    guideline: "2023-10（v5.1）",
+  },
+  {
+    id: "neuropathic-pain",
+    title: "神經病變痛",
+    prohibited: ["麻醉劑（S7，賽內）", "大麻素（S8，賽內）"],
+    keyPoints: ["CBD 本身不在禁用清單，但市售產品可能含 THC 等其他大麻素。"],
+    checklistUrl: `${CTADA}/2021/03/TUE申請檢查表_Neuropathic-pain.pdf`,
+    guidelineUrl: `${WADA}/resources/files/tuec_neuropathicpain_version2.0.pdf`,
+    guideline: "v2.0",
+  },
+  {
+    id: "renal-transplant",
+    title: "腎臟移植",
+    prohibited: ["全身性糖皮質激素、EPO", "利尿劑、Beta 阻斷劑、HIF 活化劑"],
+    keyPoints: [
+      "tacrolimus、cyclosporine、mycophenolate 等抗排斥藥不在禁用清單；會卡關的多是賽內的全身性糖皮質激素。",
+    ],
+    checklistUrl: `${CTADA}/2021/03/TUE申請檢查表_Renal-transplantation.pdf`,
+    guidelineUrl: `${WADA}/resources/files/wada_tpg_renal_transplantation_3.0_en.pdf`,
+    guideline: "v3.0",
+  },
+  {
+    id: "sinusitis",
+    title: "鼻竇炎",
+    prohibited: ["偽麻黃鹼（S6，賽內）", "全身性糖皮質激素（賽內）"],
+    keyPoints: [
+      "偽麻黃鹼賽內禁用，尿液 >150 µg/mL 為陽性；複方感冒藥請先查成分。",
+      "鼻噴糖皮質激素允許；口服或注射於賽內禁用。",
+    ],
+    alternatives:
+      "鼻噴糖皮質激素、生理食鹽水沖洗，以及 cetirizine、loratadine 等抗組織胺不在禁用清單。",
+    checklistUrl: `${CTADA}/2021/03/TUE申請檢查表_Sinusitis.pdf`,
+    guidelineUrl: `${WADA}/resources/files/tue_physician_guidelines_sinusitis_rhinosinusitis_final_november_2021.pdf`,
+    guideline: "2021-11",
+  },
+  {
+    id: "sleep-disorder",
+    title: "內因性睡眠障礙",
+    prohibited: ["興奮劑（如 modafinil，S6）"],
+    keyPoints: ["興奮劑僅賽內禁用；嗜睡症等持續治療者須申請賽內 TUE。"],
+    checklistUrl: `${CTADA}/2021/03/TUE申請檢查表_Sleep-disorder-Intrinsic.pdf`,
+    guidelineUrl: `${WADA}/resources/files/tuec_intrinsicsleepdisorder_version4.0.pdf`,
+    guideline: "v4.0",
+  },
+  {
+    id: "transgender",
+    title: "跨性別運動員",
+    prohibited: ["睪固酮（S1）", "Spironolactone（S5）"],
+    keyPoints: ["兩者皆全時段禁用，荷爾蒙治療期間賽內外都需 TUE。"],
+    checklistUrl: `${CTADA}/2021/03/TUE申請檢查表_Transgender-Athletes.pdf`,
+    guidelineUrl: `${WADA}/2022-01/TUE%20Physician%20Guidelines_Transgender%20Athletes_Final%20%28January%202022%29.pdf`,
+    guideline: "2022-01",
+  },
+  {
+    id: "female-infertility",
+    title: "女性不孕症",
+    prohibited: ["Clomiphene", "Letrozole"],
+    keyPoints: ["兩者屬 S4 荷爾蒙與代謝調節劑，全時段禁用。"],
+    checklistUrl: `${CTADA}/2023/11/女性不孕症（Female-Infertility）_female_infertility_final_november_2021.pdf`,
+    guidelineUrl: `${WADA}/resources/files/tue_physician_guidelines_female_infertility_final_november_2021.pdf`,
+    guideline: "2021-11",
+  },
+  {
+    id: "ghd",
+    title: "生長激素不足（GHD）",
+    prohibited: ["生長激素（S2）"],
+    keyPoints: ["生長激素屬 S2，全時段禁用。"],
+    checklistUrl: `${CTADA}/2023/11/生長激素不足GHD_growth_hormone_deficiency_child_and_adult_final_november_2022.pdf`,
+    guidelineUrl: `${WADA}/2022-11/tue_physician_guidelines_growth_hormone_deficiency_children_and_adolescent_final_november_2022_0.pdf`,
+    guideline: "2022-11",
+  },
+  {
+    id: "pcos",
+    title: "多囊性卵巢症候群",
+    prohibited: ["Clomiphene", "Letrozole"],
+    keyPoints: ["兩者屬 S4 荷爾蒙與代謝調節劑，全時段禁用。"],
+    checklistUrl: `${CTADA}/2023/11/PCOS_pcos_final_november_2021.pdf`,
+    guidelineUrl: `${WADA}/resources/files/tue_physician_guidelines_pcos_final_november_2021.pdf`,
+    guideline: "2021-11",
+  },
+  {
+    id: "pain-management",
+    title: "疼痛管理",
+    prohibited: ["麻醉劑（S7，賽內）", "大麻素（S8，賽內）"],
+    keyPoints: [
+      "morphine、oxycodone、fentanyl 等麻醉劑僅賽內禁用；tramadol 自 2024 年起列入 S7。",
+      "急性或術後於賽內需要使用，可依緊急情況申請追溯 TUE，但須有完整病歷。",
+      "codeine、hydrocodone 目前屬監控計畫、未列禁用（2026），監控項目每年可能調整。",
+    ],
+    alternatives: "paracetamol、NSAIDs、局部麻醉劑不在禁用清單，可優先考慮。",
+    checklistUrl: `${CTADA}/2023/11/TUE申請檢查表_pain_management_december_2021.pdf`,
+    guidelineUrl: `${WADA}/2022-01/tue_physician_guidelines_pain_management.pdf`,
+    guideline: "2021-12",
+  },
+  {
+    id: "kidney-failure",
+    title: "腎衰竭和腎臟移植",
+    prohibited: ["糖皮質激素、EPO、利尿劑", "Beta 阻斷劑、HIF 活化劑"],
+    keyPoints: [
+      "抗排斥藥多不在禁用清單；腎性貧血使用的 EPO 與 HIF 活化劑全時段禁用，須 TUE。",
+    ],
+    checklistUrl: `${CTADA}/2023/11/TUE申請檢查表_Kidney-Failure-and-Kidney-Transplantation.pdf`,
+    guidelineUrl: `${WADA}/2023-07/tue_physician_guideline_kidney_failure_and_kidney_transplantation_final.pdf`,
+    guideline: "2023-07",
+  },
+];

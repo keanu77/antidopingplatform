@@ -21,7 +21,7 @@ const resources = [
       },
       {
         name: "Global DRO 全球藥物查詢",
-        desc: "查詢藥品成分在各運動的禁用狀態（美加英日等）",
+        desc: "查詢藥品在各運動的賽內外禁用狀態；只涵蓋美、加、英、瑞士、澳、紐、日 7 國購得的藥品，不含台灣，也不查營養補充品",
         url: "https://www.globaldro.com/",
       },
       {
@@ -42,7 +42,7 @@ const resources = [
       },
       {
         name: "WADA ADEL 學習平台",
-        desc: "國際反禁藥教育課程（多語言）",
+        desc: "國際運動禁藥防制教育課程（多語言）",
         url: "https://adel.wada-ama.org/learn",
       },
       {
@@ -58,17 +58,17 @@ const resources = [
     items: [
       {
         name: "CTADA Facebook",
-        desc: "追蹤最新反禁藥教育資訊",
+        desc: "追蹤最新運動禁藥防制教育資訊",
         url: "https://www.facebook.com/CTADA.org.tw/",
       },
       {
         name: "CTADA Instagram",
-        desc: "反禁藥教育圖文",
+        desc: "運動禁藥防制教育圖文",
         url: "https://www.instagram.com/ctada.org.tw/",
       },
       {
         name: "WADA Play True Day",
-        desc: "每年 4/11 全球反禁藥宣導日",
+        desc: "每年 4/11 全球運動禁藥防制宣導日",
         url: "https://www.wada-ama.org/en/play-true-day",
       },
     ],
@@ -79,7 +79,7 @@ const resources = [
     items: [
       {
         name: "WADA 世界運動禁藥管制組織",
-        desc: "全球反禁藥規範制定機構",
+        desc: "全球運動禁藥防制規範制定機構",
         url: "https://www.wada-ama.org/",
       },
       {
@@ -155,11 +155,12 @@ function Resources() {
         <div className="bg-white rounded-2xl border border-gray-100 p-6 space-y-4">
           <div>
             <h3 className="font-bold text-gray-900 mb-1">
-              國家反禁藥組織（NADO）
+              國家運動禁藥管制組織（NADO）
             </h3>
             <p className="text-sm text-gray-600 leading-relaxed">
               CTADA（中華運動禁藥防制基金會）是台灣唯一經 WADA
-              承認的國家反禁藥組織（NADO），負責藥檢、教育與 TUE 審核等業務。
+              承認的國家運動禁藥管制組織（NADO），負責藥檢、教育與 TUE
+              審核等業務。
             </p>
           </div>
           <div>

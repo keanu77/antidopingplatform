@@ -110,7 +110,7 @@ export const knowledgeQuestions = [
     ],
     correctIndex: 1,
     explanation:
-      "CTADA（中華運動禁藥防制基金會）是我國辦理運動禁藥管制的單位，依據 WADA Code 第 20.5 條設立。我國運動主管機關已於 2025 年由教育部體育署升格為運動部，但國家反禁藥組織仍為 CTADA。",
+      "CTADA（中華運動禁藥防制基金會）是我國辦理運動禁藥管制的單位，依據 WADA Code 第 20.5 條設立。我國運動主管機關已於 2025 年由教育部體育署升格為運動部，但國家運動禁藥管制組織仍為 CTADA。",
     category: "knowledge",
   },
   {
@@ -123,7 +123,7 @@ export const knowledgeQuestions = [
     ],
     correctIndex: 1,
     explanation:
-      "CTADA 公告：115 年全中運、全大運與全民運動會取消將線上測驗通過證明列為報名條件；全國身心障礙國民運動會的公告則明列肢體及聽覺障礙選手。各賽會資格依最新公告，這不代表免除反禁藥責任。",
+      "CTADA 公告：115 年全中運、全大運與全民運動會取消將線上測驗通過證明列為報名條件；全國身心障礙國民運動會的公告則明列肢體及聽覺障礙選手。各賽會資格依最新公告，這不代表免除運動禁藥防制責任。",
     category: "knowledge",
   },
   {

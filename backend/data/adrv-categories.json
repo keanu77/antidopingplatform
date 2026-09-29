@@ -1,7 +1,7 @@
 {
   "_meta": {
-    "source": "World Anti-Doping Code 2021, Article 2 (反禁藥規則違反) 與前言 The Spirit of Sport",
-    "note": "以 2021 年版《世界反禁藥規範》為準；ADRV 共 11 類，運動精神價值共 12 項"
+    "source": "World Anti-Doping Code 2021, Article 2 (違反運動禁藥管制規則) 與前言 The Spirit of Sport",
+    "note": "以 2021 年版《世界運動禁藥管制規範》為準；ADRV 共 11 類，運動精神價值共 12 項"
   },
   "adrvTypes": [
     {
@@ -56,7 +56,7 @@
       "code": "2.9",
       "name": "共謀",
       "nameEn": "Complicity or Attempted Complicity",
-      "description": "協助、教唆、共謀、掩護或以任何方式參與他人違反反禁藥規則的行為。"
+      "description": "協助、教唆、共謀、掩護或以任何方式參與他人違反運動禁藥管制規則的行為。"
     },
     {
       "code": "2.10",

@@ -32,7 +32,7 @@ const newsItems = [
     tagColor: "bg-emerald-50 text-emerald-700",
     title: "WADA #NaturalIsEnough 自然訓練宣導",
     summary:
-      "WADA 鼓勵以自然訓練追求健身目標，並認識同化性類固醇的身心風險。官方頁面透過健身創作者的經驗，討論體態壓力、同儕影響與健康訓練。",
+      "WADA 鼓勵以自然訓練追求健身目標，並認識合成代謝類固醇的身心風險。官方頁面透過健身創作者的經驗，討論體態壓力、同儕影響與健康訓練。",
     sourceTitle: "WADA：Join the Natural Training Movement",
     sourceUrl: "https://www.wada-ama.org/en/natural-is-enough",
   },
@@ -57,7 +57,7 @@ function News() {
             最新消息
           </h1>
           <p className="text-gray-500 text-sm">
-            以下是附官方來源的反禁藥重點整理，並非即時或完整的新聞清單。
+            以下是附官方來源的運動禁藥防制重點整理，並非即時或完整的新聞清單。
           </p>
         </div>
       </div>

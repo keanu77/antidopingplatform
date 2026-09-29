@@ -20017,7 +20017,7 @@
   "sport": "輕艇",
   "nationality": "美國",
   "substance": "meldonium",
-  "substanceCategory": "S4 激素和代謝調節劑",
+  "substanceCategory": "S4 激素與代謝調節劑",
   "eventBackground": "Andrii Monastyrskyi 在 2022-04-15 美國輕艇競速國家隊選拔賽檢體檢出 meldonium，依及早承認規則由四年減為三年禁賽。",
   "punishment": {
    "banDuration": "3年",
@@ -20516,7 +20516,7 @@
   "sport": "田徑",
   "nationality": "美國",
   "substance": "meldonium",
-  "substanceCategory": "S4 激素和代謝調節劑",
+  "substanceCategory": "S4 激素與代謝調節劑",
   "eventBackground": "Ana Irizarry 在 2022-03-19 USATF Masters Indoor Championships 賽內檢體檢出 meldonium，依及早承認規則由四年減為三年禁賽。",
   "punishment": {
    "banDuration": "3年",
@@ -21054,7 +21054,7 @@
   "sport": "帕拉自行車",
   "nationality": "美國",
   "substance": "使用 insulin lispro；檢體分析陰性",
-  "substanceCategory": "S4 激素和代謝調節劑",
+  "substanceCategory": "S4 激素與代謝調節劑",
   "eventBackground": "Katerina Brim 於 2022-10-19 賽外採樣時申報注射 Humalog（insulin lispro），實驗室結果陰性。USADA 專家審查曾同意追溯 TUE，但 WADA 兩次否決其授予依據，因此當日沒有有效 TUE；選手接受一年禁賽。",
   "punishment": {
    "banDuration": "1年",
@@ -21654,7 +21654,7 @@
   "sport": "橄欖球",
   "nationality": "美國",
   "substance": "tamoxifen",
-  "substanceCategory": "S4 激素和代謝調節劑",
+  "substanceCategory": "S4 激素與代謝調節劑",
   "eventBackground": "Riekert Hattingh 在 2022-03-27 賽外檢體檢出 tamoxifen。USADA 確認為醫師照護下的治療劑量，符合未來 TUE 的條件，但選手事前並未取得 TUE，之後已停藥；考量較低過失接受六個月禁賽。",
   "punishment": {
    "banDuration": "6個月",
@@ -21817,7 +21817,7 @@
   "sport": "田徑",
   "nationality": "美國",
   "substance": "THC（大麻素）",
-  "substanceCategory": "S8: 大麻素",
+  "substanceCategory": "S8 大麻素",
   "eventBackground": "Sha’Carri Richardson 在 2021 年美國奧運選拔賽的樣本檢出 THC 代謝物。USADA 公告其接受一個月禁賽，並取消 6 月 19 日的比賽結果，因此未能以該次百米成績取得東京奧運資格。",
   "punishment": {
    "banDuration": "1個月（自 2021-06-28 起）",
@@ -32199,7 +32199,7 @@
   "sport": "田徑",
   "nationality": "美國",
   "substance": "Probenecid",
-  "substanceCategory": "S5: 利尿劑與掩蔽劑",
+  "substanceCategory": "S5 利尿劑與掩蔽劑",
   "eventBackground": "Gil Roberts 的 2017 年樣本檢出 probenecid。仲裁庭接受接吻造成間接暴露的證據，認定無過失或疏忽而免除禁賽。這不是 2016 年取得 TUE 的案例；其後另有獨立事件，不能與本案混寫。",
   "punishment": {
    "banDuration": "無禁賽（2017 年無過失裁決；非 TUE）",
@@ -37147,7 +37147,7 @@
   "sport": "舉重",
   "nationality": "美國",
   "substance": "furosemide",
-  "substanceCategory": "S5 利尿劑及遮蔽劑",
+  "substanceCategory": "S5 利尿劑與掩蔽劑",
   "eventBackground": "Crystal Riggs 在 2016-05-07 全美舉重錦標賽檢出 furosemide。USADA 接受醫師照護下的處方治療使用，但缺少有效 TUE，處六個月禁賽。",
   "punishment": {
    "banDuration": "6個月",
@@ -39592,7 +39592,7 @@
   "sport": "棒球",
   "nationality": "美國",
   "substance": "tamoxifen 及其代謝物；拒絕提供檢體",
-  "substanceCategory": "S4 激素及代謝調節劑／非物質違規",
+  "substanceCategory": "S4 激素與代謝調節劑／非物質違規",
   "eventBackground": "Tara Harbert 在 2015-06-23 與 07-06 賽外檢體中檢出 tamoxifen 相關物質，並於 08-22 無充分理由拒絕採樣。USADA 就第一次與第二次違規處八年禁賽；目前名冊註記退休停算。",
   "punishment": {
    "banDuration": "8年（退休期間停止計時）",
@@ -39761,7 +39761,7 @@
   "sport": "自行車",
   "nationality": "美國",
   "substance": "外源性合成代謝類固醇；anastrozole；LGD-4033；ostarine",
-  "substanceCategory": "S1 合成代謝劑／S4 激素及代謝調節劑",
+  "substanceCategory": "S1 合成代謝劑／S4 激素與代謝調節劑",
   "eventBackground": "Michael Buckley 在 2015-12-05 賽外採樣檢出 anastrozole、LGD-4033、ostarine，並經 CIR／IRMS 確認外源性合成代謝類固醇。官方名冊列四年禁賽。",
   "punishment": {
    "banDuration": "4年",
@@ -43326,7 +43326,7 @@
   "sport": "田徑",
   "nationality": "美國",
   "substance": "Nandrolone",
-  "substanceCategory": "S1: 合成代謝劑",
+  "substanceCategory": "S1 合成代謝劑",
   "eventBackground": "World Athletics 的官方說明指出，C.J. Hunter 在 2000 年夏季四次樣本檢出 nandrolone，於 2001 年 3 月受到兩年禁賽。C.J. Hunter 與 CJ Hunter 是同一人，本頁合併原本重複的兩筆紀錄。",
   "punishment": {
    "banDuration": "2年（2001 年 3 月處分）",

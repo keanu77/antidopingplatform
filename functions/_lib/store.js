@@ -15,9 +15,8 @@ import quizzes from "../../backend/data/quizzes.json";
 import specialties from "../../backend/data/medical-specialties.json";
 import adrv from "../../backend/data/adrv-categories.json";
 import substancesData from "../../backend/data/substances.json";
-import tueContent from "../../data/tue-content.json";
 
-export { cases, wadaCategories, quizzes, specialties, adrv, substancesData, tueContent };
+export { cases, wadaCategories, quizzes, specialties, adrv, substancesData };
 
 /** 對齊 casesFixed.js 的 escapeRegex，避免使用者輸入被當成正規表達式。 */
 export function escapeRegex(s) {

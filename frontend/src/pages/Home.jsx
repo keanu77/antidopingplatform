@@ -15,7 +15,7 @@ import {
 import { statsAPI } from "../services/api";
 
 const facts = [
-  "115 年全中運、全大運及全民運動會取消將線上測驗通過證明列為報名條件；選手仍應學習反禁藥知識，其他賽會依各自公告",
+  "115 年全中運、全大運及全民運動會取消將線上測驗通過證明列為報名條件；選手仍應學習運動禁藥防制知識，其他賽會依各自公告",
   "部分感冒藥含 pseudoephedrine（偽麻黃鹼），屬 S6 興奮劑；賽內尿液濃度超過 150µg/mL 時禁用，用藥前應核對規範",
   "PRP 注射本身不在禁用清單；侵入式靜脈雷射 ILIB 可能涉及 M1.3 以物理方式操縱血管內血液，須就具體療程確認",
   "2026 年 semaglutide（Ozempic）與 tirzepatide 的標記物列入 WADA 賽內、賽外監控計畫，兩者尚未列入禁用清單",
@@ -64,7 +64,7 @@ const navCards = [
   {
     to: "/news",
     title: "最新消息",
-    desc: "禁藥監控、國際案例與反禁藥規範更新",
+    desc: "禁藥監控、國際案例與運動禁藥防制規範更新",
     icon: Newspaper,
     gradient: "from-gray-600 to-gray-800",
   },
@@ -122,7 +122,7 @@ function Home() {
             <Link to="/quiz" className="clean-primary"><Zap size={19} />開始測驗<ArrowRight size={18} /></Link>
             <Link to="/prohibited-list" className="clean-secondary"><Shield size={18} />瀏覽禁用清單</Link>
           </div>
-          <p className="clean-hero-note">運動反禁藥互動教學平台</p>
+          <p className="clean-hero-note">運動禁藥防制互動教學平台</p>
         </div>
       </section>
 

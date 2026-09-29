@@ -155,14 +155,9 @@ await check("教育內容端點有資料", async () => {
   return "ok";
 });
 
-await check("TUE 內容端點有資料", async () => {
-  const t = await getJson("/api/tue");
-  for (const k of ["basicInfo", "applicationGuide", "diseaseGuides", "tools"]) {
-    expect(t[k], `TUE 缺 ${k}`);
-  }
-  for (const ep of ["/api/tue/basic", "/api/tue/application", "/api/tue/diseases", "/api/tue/tools", "/api/tue/substances"]) {
-    await getJson(ep);
-  }
+await check("TUE 物質清單端點有資料", async () => {
+  const t = await getJson("/api/tue/substances");
+  expect(t.substances && Object.keys(t.substances).length > 0, "TUE 物質清單為空");
   return "ok";
 });
 

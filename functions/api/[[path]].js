@@ -6,7 +6,7 @@
  */
 import {
   queryCases, getCaseById, getFilterOptions, stats, lookupSubstance,
-  wadaCategories, quizzes, specialties, adrv, substancesData, tueContent,
+  wadaCategories, quizzes, specialties, adrv, substancesData,
 } from "../_lib/store.js";
 import { buildDigestHtml, buildDigestText, rowFromD1, secretMatches } from "../_lib/digest.js";
 import { emailConfigured, sendEmail } from "../_lib/email.js";
@@ -281,11 +281,6 @@ export async function onRequest({ request, env, params }) {
 
   // ---- /api/tue ----
   if (group === "tue") {
-    if (!a) return json(tueContent, 200, CACHE_1H);
-    if (a === "basic") return json(tueContent.basicInfo, 200, CACHE_1H);
-    if (a === "application") return json(tueContent.applicationGuide, 200, CACHE_1H);
-    if (a === "diseases") return json(tueContent.diseaseGuides, 200, CACHE_1H);
-    if (a === "tools") return json(tueContent.tools, 200, CACHE_1H);
     if (a === "substances") return json(substancesData, 200, CACHE_1H);
     if (a === "check") {
       if (method !== "POST") return json({ error: "需使用 POST" }, 405, NO_STORE);
@@ -301,7 +296,7 @@ export async function onRequest({ request, env, params }) {
       if (!match) {
         return json({
           drugName, matchedKey: null, needsTUE: null, wadaCategory: "未知",
-          explanation: `未找到 "${drugName}" 的資訊。建議：1) 檢查藥物名稱是否正確 2) 諮詢醫療專業人員 3) 查閱最新WADA禁用清單 4) 聯繫相關反禁藥組織確認`,
+          explanation: `未找到 "${drugName}" 的資訊。建議：1) 檢查藥物名稱是否正確 2) 諮詢醫療專業人員 3) 查閱最新WADA禁用清單 4) 聯繫相關運動禁藥管制組織確認`,
         }, 200, NO_STORE);
       }
       const { key, info } = match;

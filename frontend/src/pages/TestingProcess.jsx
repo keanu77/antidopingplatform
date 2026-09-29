@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { ChevronLeft, ChevronRight, Bell, UserCheck, Beaker, FileCheck, AlertTriangle } from "lucide-react";
+import { ChevronLeft, ChevronRight, Bell, UserCheck, Beaker, FileCheck, AlertTriangle, Radar } from "lucide-react";
 
 const steps = [
   {
@@ -55,6 +55,26 @@ const steps = [
       "檢體與不含姓名等身分資訊的實驗室表單副本送至 WADA 認證實驗室",
     ],
     tips: "保留你的副本！如有異議，請在表單上註明。",
+  },
+];
+
+// 賽外檢測與長期監測（WADA Code 2021 第 2.4 條、ISTI、運動員生物護照）
+const monitoringTopics = [
+  {
+    title: "A／B 樣本與覆核權",
+    body: "檢體分裝 A、B 兩瓶，實驗室只看編號、不知道你是誰。A 樣本呈不利分析結果（AAF）時，運動員有權要求分析 B 樣本確認。",
+  },
+  {
+    title: "行蹤申報（Whereabouts）與 RTP",
+    body: "列入登錄檢測名單（RTP）的運動員須申報行蹤，並每天提供一個 60 分鐘時段（05:00–23:00）供賽外突擊檢測。12 個月內錯過檢測與申報失誤合計 3 次，即構成違規，最高禁賽 2 年。",
+  },
+  {
+    title: "運動員生物護照（ABP）",
+    body: "不直接驗物質，而是長期追蹤個人生物標記的變化：血液模組（2009 年導入）針對 EPO 與輸血，類固醇模組（2014 年導入）針對外源性類固醇。異常波動本身即可成為違規證據。",
+  },
+  {
+    title: "ADAMS 系統",
+    body: "WADA 的線上資料庫，串接行蹤申報、TUE 申請與核准、檢測結果與生物護照資料，各運動禁藥管制組織共用。",
   },
 ];
 
@@ -153,7 +173,7 @@ function TestingProcess() {
         </div>
       </div>
 
-      <p className="mt-5 text-sm text-gray-600">流程依適用規範與採樣方式調整。參考：<a className="text-emerald-700 underline" href="https://www.usada.org/sample-collection-process/" target="_blank" rel="noopener noreferrer">USADA 採樣流程說明</a>、<a className="text-emerald-700 underline" href="https://www.wada-ama.org/en/athletes-support-personnel/anti-doping-process" target="_blank" rel="noopener noreferrer">WADA 反禁藥流程</a>。</p>
+      <p className="mt-5 text-sm text-gray-600">流程依適用規範與採樣方式調整。參考：<a className="text-emerald-700 underline" href="https://www.usada.org/sample-collection-process/" target="_blank" rel="noopener noreferrer">USADA 採樣流程說明</a>、<a className="text-emerald-700 underline" href="https://www.wada-ama.org/en/athletes-support-personnel/anti-doping-process" target="_blank" rel="noopener noreferrer">WADA 運動禁藥防制流程</a>。</p>
 
       {/* Other testing methods */}
       <div className="mt-8 grid grid-cols-1 sm:grid-cols-3 gap-4">
@@ -169,6 +189,26 @@ function TestingProcess() {
           </div>
         ))}
       </div>
+
+      <section className="mt-10" aria-labelledby="monitoring-heading">
+        <div className="flex items-center gap-2 mb-3">
+          <Radar className="h-5 w-5 text-emerald-600" />
+          <h2 id="monitoring-heading" className="text-lg font-bold text-gray-900">
+            賽外檢測與長期監測
+          </h2>
+        </div>
+        <p className="text-sm text-gray-600 mb-4">
+          很多禁藥在賽外訓練期使用、賽前就停，只驗賽內抓不到，所以檢測制度也涵蓋賽外與長期追蹤。
+        </p>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+          {monitoringTopics.map((t) => (
+            <article key={t.title} className="bg-white rounded-2xl p-5 border border-gray-100">
+              <h3 className="font-bold text-gray-900 mb-1">{t.title}</h3>
+              <p className="text-sm text-gray-600 leading-relaxed">{t.body}</p>
+            </article>
+          ))}
+        </div>
+      </section>
     </div>
   );
 }

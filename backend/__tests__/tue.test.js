@@ -129,3 +129,58 @@ describe("GET /api/tue/substances 單一來源清單", () => {
     expect(p.sportRestricted).toContain("射箭");
   });
 });
+
+// 講座對照補充的常用藥（2026-09）：清除期最長的 triamcinolone、非吸入例外的 terbutaline、
+// 非禁用替代藥，以及監控物質 hydrocodone。
+describe("POST /api/tue/check 講座補充藥物", () => {
+  const check = (drugName) => request(app).post("/api/tue/check").send({ drugName });
+
+  it("Kenalog（別名）→ triamcinolone，清除期含肌注 60 天", async () => {
+    const res = await check("kenalog");
+    expect(res.body.matchedKey).toBe("triamcinolone");
+    expect(res.body.wadaCode).toBe("S9");
+    expect(res.body.washout).toMatch(/60 天/);
+  });
+
+  it("terbutaline 吸入也須 TUE", async () => {
+    const res = await check("terbutaline");
+    expect(res.body.needsTUE).toBe(true);
+    expect(res.body.routes.inhaled.status).toBe("needs-tue");
+  });
+
+  it("非禁用替代 atomoxetine／amlodipine 無需 TUE", async () => {
+    for (const name of ["思銳", "amlodipine"]) {
+      const res = await check(name);
+      expect(res.body.prohibition).toBe("not-prohibited");
+      expect(res.body.needsTUE).toBe(false);
+    }
+  });
+
+  it("hydrocodone 屬監控計畫、未列禁用", async () => {
+    const res = await check("hydrocodone");
+    expect(res.body.prohibition).toBe("monitored");
+  });
+
+  it("meldonium → S4.4.3 全時段禁用、需 TUE", async () => {
+    const res = await check("mildronate");
+    expect(res.body.matchedKey).toBe("meldonium");
+    expect(res.body.wadaCode).toBe("S4.4.3");
+    expect(res.body.prohibition).toBe("in-and-out");
+    expect(res.body.needsTUE).toBe(true);
+  });
+
+  it("大麻 → THC、S8 僅賽內禁用且屬濫用物質；CBD 不禁", async () => {
+    const thc = await check("大麻");
+    expect(thc.body.matchedKey).toBe("thc");
+    expect(thc.body.prohibition).toBe("in-competition");
+    expect(thc.body.explanation).toMatch(/150 ng\/mL/);
+    expect(thc.body.explanation).toMatch(/濫用物質/);
+    const cbd = await check("CBD");
+    expect(cbd.body.prohibition).toBe("not-prohibited");
+  });
+
+  it("S5 分類名稱統一為「利尿劑與掩蔽劑」", async () => {
+    const res = await check("spironolactone");
+    expect(res.body.wadaCategory).toBe("S5: 利尿劑與掩蔽劑");
+  });
+});

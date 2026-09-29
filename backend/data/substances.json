@@ -23,7 +23,7 @@
       "topical": "局部（皮膚／鼻／眼）",
       "rectal": "直腸"
     },
-    "disclaimer": "本清單僅供教育參考，實際比賽用藥合規性請以 WADA 官方禁用清單與 Global DRO（globaldro.com）查詢，並諮詢醫療與反禁藥專業人員。"
+    "disclaimer": "本清單僅供教育參考，實際比賽用藥合規性請以 WADA 官方禁用清單與 Global DRO（globaldro.com）查詢，並諮詢醫療與運動禁藥防制專業人員。"
   },
   "substances": {
     "salbutamol": {
@@ -266,7 +266,7 @@
       "displayName": "Furosemide 呋塞米",
       "aliases": ["呋塞米", "來適泄", "lasix"],
       "wadaCode": "S5",
-      "categoryLabel": "S5: 利尿劑與遮蔽劑",
+      "categoryLabel": "S5: 利尿劑與掩蔽劑",
       "prohibition": "in-and-out",
       "needsTUE": true,
       "tueEligible": true,
@@ -279,7 +279,7 @@
       "displayName": "Hydrochlorothiazide 氫氯噻嗪",
       "aliases": ["氫氯噻嗪", "hctz"],
       "wadaCode": "S5",
-      "categoryLabel": "S5: 利尿劑與遮蔽劑",
+      "categoryLabel": "S5: 利尿劑與掩蔽劑",
       "prohibition": "in-and-out",
       "needsTUE": true,
       "tueEligible": true,
@@ -383,6 +383,300 @@
       "sportRestricted": null,
       "washout": "自最後一劑至賽內期間開始：口服／直腸至少 3 天；其餘途徑須另查指引，緩釋製劑可能超過表列時間，並非保證不會驗出（WADA 2025 年 9 月指引）",
       "note": "賽內口服、直腸及所有注射途徑（含關節內／肌腱周圍／肌肉／靜脈）禁用，醫療需要須 TUE；吸入／鼻／眼／皮膚等途徑按核准劑量與適應症使用時允許。賽外使用不禁，但可能在賽內檢體留下殘留而出現不利分析結果，必要時須申請回溯 TUE；應保留診療紀錄"
+    },
+    "triamcinolone": {
+      "displayName": "Triamcinolone 曲安奈德",
+      "aliases": ["曲安奈德", "去炎松", "triamcinolone acetonide", "kenalog"],
+      "wadaCode": "S9",
+      "categoryLabel": "S9: 糖皮質激素",
+      "prohibition": "in-competition",
+      "needsTUE": true,
+      "tueEligible": true,
+      "routes": {
+        "oral": { "status": "needs-tue", "note": "賽內口服禁用，須申請 TUE" },
+        "rectal": { "status": "needs-tue", "note": "賽內直腸給藥禁用，須申請 TUE" },
+        "injection": { "status": "needs-tue", "note": "賽內注射（關節內／肌腱周圍／肌肉／靜脈）禁用，須申請 TUE" },
+        "inhaled": { "status": "permitted", "note": "吸入途徑允許" },
+        "topical": { "status": "permitted", "note": "鼻／眼／皮膚等局部途徑允許" }
+      },
+      "sportRestricted": null,
+      "washout": "自最後一劑至賽內期間開始：口服、直腸或局部注射（含關節內）至少 10 天；triamcinolone acetonide 肌肉注射至少 60 天（清除期表中最長）；緩釋製劑可能超過此時間，並非保證不會驗出（WADA 2025 年 9 月指引）",
+      "note": "賽內口服、直腸及所有注射途徑禁用，醫療需要須 TUE；吸入／鼻／眼／皮膚等途徑允許。常用於關節內或肌肉注射，清除期明顯長於其他糖皮質激素，賽外注射也要回推賽程；應保留診療紀錄"
+    },
+    "betamethasone": {
+      "displayName": "Betamethasone 倍他米松",
+      "aliases": ["倍他米松", "celestone", "diprospan"],
+      "wadaCode": "S9",
+      "categoryLabel": "S9: 糖皮質激素",
+      "prohibition": "in-competition",
+      "needsTUE": true,
+      "tueEligible": true,
+      "routes": {
+        "oral": { "status": "needs-tue", "note": "賽內口服禁用，須申請 TUE" },
+        "rectal": { "status": "needs-tue", "note": "賽內直腸給藥禁用，須申請 TUE" },
+        "injection": { "status": "needs-tue", "note": "賽內注射（關節內／肌腱周圍／肌肉／靜脈）禁用，須申請 TUE" },
+        "inhaled": { "status": "permitted", "note": "吸入途徑允許" },
+        "topical": { "status": "permitted", "note": "鼻／眼／皮膚等局部途徑允許" }
+      },
+      "sportRestricted": null,
+      "washout": "自最後一劑至賽內期間開始：口服／直腸或局部注射至少 3 天，肌肉注射至少 5 天；緩釋製劑可能超過此時間，並非保證不會驗出（WADA 2025 年 9 月指引）",
+      "note": "賽內口服、直腸及所有注射途徑禁用，醫療需要須 TUE；吸入／鼻／眼／皮膚等途徑允許。賽外使用不禁，但須依清除期回推賽程；應保留診療紀錄"
+    },
+    "methylprednisolone": {
+      "displayName": "Methylprednisolone 甲基培尼皮質醇",
+      "aliases": ["甲基培尼皮質醇", "甲潑尼龍", "medrol", "solu-medrol", "depo-medrol"],
+      "wadaCode": "S9",
+      "categoryLabel": "S9: 糖皮質激素",
+      "prohibition": "in-competition",
+      "needsTUE": true,
+      "tueEligible": true,
+      "routes": {
+        "oral": { "status": "needs-tue", "note": "賽內口服禁用，須申請 TUE" },
+        "rectal": { "status": "needs-tue", "note": "賽內直腸給藥禁用，須申請 TUE" },
+        "injection": { "status": "needs-tue", "note": "賽內注射（關節內／肌腱周圍／肌肉／靜脈）禁用，須申請 TUE" },
+        "inhaled": { "status": "permitted", "note": "吸入途徑允許" },
+        "topical": { "status": "permitted", "note": "鼻／眼／皮膚等局部途徑允許" }
+      },
+      "sportRestricted": null,
+      "washout": "自最後一劑至賽內期間開始：口服／直腸或局部注射至少 3 天，肌肉注射至少 5 天；緩釋製劑可能超過此時間，並非保證不會驗出（WADA 2025 年 9 月指引）",
+      "note": "賽內口服、直腸及所有注射途徑禁用，醫療需要須 TUE；吸入／鼻／眼／皮膚等途徑允許。賽外使用不禁，但須依清除期回推賽程；應保留診療紀錄"
+    },
+    "budesonide": {
+      "displayName": "Budesonide 布地奈德",
+      "aliases": ["布地奈德", "pulmicort", "entocort"],
+      "wadaCode": "S9",
+      "categoryLabel": "S9: 糖皮質激素",
+      "prohibition": "in-competition",
+      "needsTUE": true,
+      "tueEligible": true,
+      "routes": {
+        "inhaled": { "status": "permitted", "note": "吸入途徑允許（氣喘常用）" },
+        "topical": { "status": "permitted", "note": "鼻噴劑等局部途徑允許" },
+        "oral": { "status": "needs-tue", "note": "賽內口服禁用（如發炎性腸病），須申請 TUE" },
+        "rectal": { "status": "needs-tue", "note": "賽內直腸給藥禁用，須申請 TUE" }
+      },
+      "sportRestricted": null,
+      "washout": "自最後一劑至賽內期間開始：口服／直腸至少 3 天；並非保證不會驗出（WADA 2025 年 9 月指引）",
+      "note": "吸入與鼻噴允許、免 TUE；賽內口服或直腸使用須申請 TUE"
+    },
+    "terbutaline": {
+      "displayName": "Terbutaline 特布他林",
+      "aliases": ["特布他林", "bricanyl"],
+      "wadaCode": "S3",
+      "categoryLabel": "S3: Beta-2 激動劑",
+      "prohibition": "in-and-out",
+      "needsTUE": true,
+      "tueEligible": true,
+      "routes": {
+        "inhaled": { "status": "needs-tue", "note": "不在四種吸入劑量例外（salbutamol／formoterol／salmeterol／vilanterol）之內，吸入也須 TUE" },
+        "oral": { "status": "needs-tue", "note": "口服 Beta-2 激動劑須申請 TUE" }
+      },
+      "sportRestricted": null,
+      "washout": null,
+      "note": "全時段禁用；不屬於吸入劑量例外，任何途徑使用都須事先申請 TUE。若可改用限量內的 salbutamol 等吸入劑，可免 TUE"
+    },
+    "oxycodone": {
+      "displayName": "Oxycodone 羥考酮",
+      "aliases": ["羥考酮", "oxycontin"],
+      "wadaCode": "S7",
+      "categoryLabel": "S7: 麻醉劑",
+      "prohibition": "in-competition",
+      "needsTUE": true,
+      "tueEligible": true,
+      "routes": null,
+      "sportRestricted": null,
+      "washout": null,
+      "note": "僅賽內禁用；慢性疼痛或術後於賽內需要使用須申請 TUE。非禁用替代包括 paracetamol、NSAIDs 與局部麻醉"
+    },
+    "fentanyl": {
+      "displayName": "Fentanyl 吩坦尼",
+      "aliases": ["吩坦尼", "芬太尼", "durogesic"],
+      "wadaCode": "S7",
+      "categoryLabel": "S7: 麻醉劑",
+      "prohibition": "in-competition",
+      "needsTUE": true,
+      "tueEligible": true,
+      "routes": null,
+      "sportRestricted": null,
+      "washout": null,
+      "note": "僅賽內禁用，賽內需要使用須申請 TUE；賽外使用另列監控計畫（2026）"
+    },
+    "hydrocodone": {
+      "displayName": "Hydrocodone 氫可酮",
+      "aliases": ["氫可酮"],
+      "wadaCode": "none",
+      "categoryLabel": "未列入禁用清單（監控物質）",
+      "prohibition": "monitored",
+      "needsTUE": false,
+      "tueEligible": true,
+      "routes": null,
+      "sportRestricted": null,
+      "washout": null,
+      "note": "2026 年屬賽內監控計畫物質，未列入禁用清單；監控項目每年可能調整，使用前請查當年度清單"
+    },
+    "lisdexamfetamine": {
+      "displayName": "Lisdexamfetamine（安非他命前驅藥）",
+      "aliases": ["vyvanse"],
+      "wadaCode": "S6",
+      "categoryLabel": "S6: 興奮劑",
+      "prohibition": "in-competition",
+      "needsTUE": true,
+      "tueEligible": true,
+      "routes": null,
+      "sportRestricted": null,
+      "washout": null,
+      "note": "ADHD 用藥，體內轉為 amphetamine；僅賽內禁用，持續治療者實務上須申請賽內 TUE"
+    },
+    "methylephedrine": {
+      "displayName": "Methylephedrine 甲基麻黃鹼",
+      "aliases": ["甲基麻黃鹼", "甲基麻黃素"],
+      "wadaCode": "S6",
+      "categoryLabel": "S6: 興奮劑",
+      "prohibition": "in-competition",
+      "needsTUE": false,
+      "tueEligible": true,
+      "routes": {
+        "oral": {
+          "status": "permitted-threshold",
+          "threshold": "尿液濃度 >10µg/mL 為陽性",
+          "note": "常見於複方感冒藥與止咳藥，賽內期請先查成分"
+        }
+      },
+      "sportRestricted": null,
+      "washout": null,
+      "note": "僅賽內禁用；尿液濃度 >10µg/mL 為陽性；常見於複方感冒藥"
+    },
+    "metoprolol": {
+      "displayName": "Metoprolol 美托洛爾",
+      "aliases": ["美托洛爾", "betaloc"],
+      "wadaCode": "P1",
+      "categoryLabel": "P1: Beta 阻斷劑",
+      "prohibition": "sport-specific",
+      "needsTUE": true,
+      "tueEligible": true,
+      "routes": null,
+      "sportRestricted": ["射箭", "射擊", "高爾夫", "迷你高爾夫", "飛鏢", "撞球", "汽車運動", "自由潛水（CMAS）", "魚槍捕魚（CMAS）", "水下標靶射擊（CMAS）"],
+      "sportRestrictedOutOfComp": ["射箭", "射擊", "自由潛水（CMAS）", "魚槍捕魚（CMAS）", "水下標靶射擊（CMAS）"],
+      "washout": null,
+      "note": "射箭（WA）、射擊（ISSF／IPC），以及 CMAS 自由潛水、魚槍捕魚、水下標靶射擊的所有分項，賽內與賽外皆禁用；汽車運動（FIA）、撞球（WCBS）、飛鏢（WDF）、高爾夫（IGF）、迷你高爾夫（WMF）僅賽內禁用。受限情境有醫療需要須申請 TUE"
+    },
+    "bisoprolol": {
+      "displayName": "Bisoprolol 比索洛爾",
+      "aliases": ["比索洛爾", "concor"],
+      "wadaCode": "P1",
+      "categoryLabel": "P1: Beta 阻斷劑",
+      "prohibition": "sport-specific",
+      "needsTUE": true,
+      "tueEligible": true,
+      "routes": null,
+      "sportRestricted": ["射箭", "射擊", "高爾夫", "迷你高爾夫", "飛鏢", "撞球", "汽車運動", "自由潛水（CMAS）", "魚槍捕魚（CMAS）", "水下標靶射擊（CMAS）"],
+      "sportRestrictedOutOfComp": ["射箭", "射擊", "自由潛水（CMAS）", "魚槍捕魚（CMAS）", "水下標靶射擊（CMAS）"],
+      "washout": null,
+      "note": "射箭（WA）、射擊（ISSF／IPC），以及 CMAS 自由潛水、魚槍捕魚、水下標靶射擊的所有分項，賽內與賽外皆禁用；汽車運動（FIA）、撞球（WCBS）、飛鏢（WDF）、高爾夫（IGF）、迷你高爾夫（WMF）僅賽內禁用。受限情境有醫療需要須申請 TUE"
+    },
+    "spironolactone": {
+      "displayName": "Spironolactone 螺內酯",
+      "aliases": ["螺內酯", "aldactone", "安達通"],
+      "wadaCode": "S5",
+      "categoryLabel": "S5: 利尿劑與掩蔽劑",
+      "prohibition": "in-and-out",
+      "needsTUE": true,
+      "tueEligible": true,
+      "routes": null,
+      "sportRestricted": null,
+      "washout": null,
+      "note": "全時段禁用（利尿劑可作為掩蔽劑）；心衰竭、痤瘡或跨性別荷爾蒙治療等醫療需要可申請 TUE"
+    },
+    "atomoxetine": {
+      "displayName": "Atomoxetine 阿托莫西汀（思銳）",
+      "aliases": ["阿托莫西汀", "思銳", "strattera"],
+      "wadaCode": "none",
+      "categoryLabel": "允許使用",
+      "prohibition": "not-prohibited",
+      "needsTUE": false,
+      "tueEligible": true,
+      "routes": null,
+      "sportRestricted": null,
+      "washout": null,
+      "note": "ADHD 非興奮劑用藥，不在禁用清單、無需 TUE；申請興奮劑 TUE 時，常需說明為何此類替代不適用（ISTUE 4.2(c)）"
+    },
+    "guanfacine": {
+      "displayName": "Guanfacine 胍法辛",
+      "aliases": ["胍法辛", "intuniv"],
+      "wadaCode": "none",
+      "categoryLabel": "允許使用",
+      "prohibition": "not-prohibited",
+      "needsTUE": false,
+      "tueEligible": true,
+      "routes": null,
+      "sportRestricted": null,
+      "washout": null,
+      "note": "ADHD 非興奮劑用藥，不在禁用清單、無需 TUE"
+    },
+    "amlodipine": {
+      "displayName": "Amlodipine 脈優",
+      "aliases": ["脈優", "norvasc", "氨氯地平"],
+      "wadaCode": "none",
+      "categoryLabel": "允許使用",
+      "prohibition": "not-prohibited",
+      "needsTUE": false,
+      "tueEligible": true,
+      "routes": null,
+      "sportRestricted": null,
+      "washout": null,
+      "note": "鈣離子阻斷劑（CCB），不在禁用清單、無需 TUE；射箭、射擊等 P1 運動選手的高血壓常用非禁用替代"
+    },
+    "losartan": {
+      "displayName": "Losartan 可悅您",
+      "aliases": ["可悅您", "cozaar", "氯沙坦"],
+      "wadaCode": "none",
+      "categoryLabel": "允許使用",
+      "prohibition": "not-prohibited",
+      "needsTUE": false,
+      "tueEligible": true,
+      "routes": null,
+      "sportRestricted": null,
+      "washout": null,
+      "note": "血管收縮素受體阻斷劑（ARB），不在禁用清單、無需 TUE；注意含利尿劑的複方（如 losartan/HCTZ）屬 S5 全時段禁用"
+    },
+    "cannabidiol": {
+      "displayName": "Cannabidiol 大麻二酚（CBD）",
+      "aliases": ["cbd", "大麻二酚"],
+      "wadaCode": "none",
+      "categoryLabel": "未列入禁用清單（其他大麻素仍禁）",
+      "prohibition": "not-prohibited",
+      "needsTUE": false,
+      "tueEligible": true,
+      "routes": null,
+      "sportRestricted": null,
+      "washout": null,
+      "note": "CBD 本身不在禁用清單；但市售 CBD 產品可能含 THC 等其他大麻素（S8 賽內禁用），選購時仍有驗出風險"
+    },
+    "meldonium": {
+      "displayName": "Meldonium 米屈肼",
+      "aliases": ["米屈肼", "mildronate", "mildronat"],
+      "wadaCode": "S4.4.3",
+      "categoryLabel": "S4.4.3: 激素與代謝調節劑（代謝調節劑）",
+      "prohibition": "in-and-out",
+      "needsTUE": true,
+      "tueEligible": true,
+      "routes": null,
+      "sportRestricted": null,
+      "washout": null,
+      "note": "2016 年 1 月 1 日起列入禁用清單，全時段禁用，屬非特定物質；醫療需要須事先申請 TUE，並須符合四大核准條件（含無合理替代治療）。Sharapova 案即因未察覺清單更新而違規"
+    },
+    "thc": {
+      "displayName": "THC 四氫大麻酚（大麻）",
+      "aliases": ["四氫大麻酚", "大麻", "cannabis", "marijuana", "tetrahydrocannabinol", "dronabinol"],
+      "wadaCode": "S8",
+      "categoryLabel": "S8: 大麻素（僅賽內禁用）",
+      "prohibition": "in-competition",
+      "needsTUE": false,
+      "tueEligible": true,
+      "routes": null,
+      "sportRestricted": null,
+      "washout": null,
+      "note": "僅賽內禁用，尿液閾值 150 ng/mL；屬濫用物質（Substance of Abuse），若能證明於賽外使用且與運動表現無關，處分可減輕。除 CBD 外，天然與合成大麻素皆於賽內禁用；醫療用大麻素須申請 TUE"
     },
     "testosterone": {
       "displayName": "Testosterone 睪固酮",

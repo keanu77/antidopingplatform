@@ -15,14 +15,11 @@ import {
   ListChecks,
   Award,
   Sparkles,
-  FlaskConical,
-  ShieldCheck,
-  Info,
-  ExternalLink,
 } from "lucide-react";
 import { educationAPI, casesAPI } from "../services/api";
 import { Link } from "react-router-dom";
 import CaseReviewNotice from "../components/CaseReviewNotice";
+import SupplementsTab from "../components/education/SupplementsTab";
 
 const LEARNING_CASE_IDS = ["3", "8", "26", "48", "sun-yang-2018", "sia-peter-bol-2023"];
 
@@ -106,7 +103,7 @@ function Education() {
     <div>
       <div className="mb-8">
         <h1 className="text-3xl font-bold text-gray-900 mb-4">教育專區</h1>
-        <p className="text-gray-600">學習運動禁藥相關知識，提升反禁藥意識</p>
+        <p className="text-gray-600">學習運動禁藥相關知識，提升運動禁藥防制意識</p>
       </div>
 
       {/* Error Banner */}
@@ -292,7 +289,7 @@ function Education() {
               title: "賽外檢測",
               mistake: "非比賽期間可以放鬆用藥",
               fact: "許多物質在賽外期間也是禁止的（如合成代謝類固醇）",
-              prevention: "全年遵守反禁藥規定，定期更新行蹤資料",
+              prevention: "全年遵守運動禁藥防制規定，定期更新行蹤資料",
               severity: "high",
             },
           ].map((item, index) => (
@@ -373,11 +370,11 @@ function Education() {
                 <div className="flex items-center mb-4">
                   <Scale className="h-6 w-6 mr-2 text-primary-600" />
                   <h2 className="text-2xl font-bold text-gray-900">
-                    十一項反禁藥規則違反（ADRV）
+                    十一類違反運動禁藥管制規則（ADRV）
                   </h2>
                 </div>
                 <p className="text-gray-600 mb-6">
-                  依《世界反禁藥規範》（World Anti-Doping Code 2021）第 2.1–2.11
+                  依《世界運動禁藥管制規範》（World Anti-Doping Code 2021）第 2.1–2.11
                   條，違規並不限於「藥檢陽性」，共有十一種型態。
                 </p>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -426,7 +423,7 @@ function Education() {
                   </h2>
                 </div>
                 <p className="text-gray-600 mb-6">
-                  反禁藥的核心是守護「運動精神」（The Spirit of Sport）。2021
+                  運動禁藥防制的核心是守護「運動精神」（The Spirit of Sport）。2021
                   年版規範新增「運動員權利」，共十二項價值。
                 </p>
                 <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
@@ -496,154 +493,7 @@ function Education() {
         </div>
       )}
 
-      {/* Supplements Safety Tab */}
-      {activeTab === "supplements" && (
-        <div role="tabpanel" className="space-y-6">
-          {/* 導言 */}
-          <div className="bg-gradient-to-r from-emerald-600 to-emerald-700 rounded-lg shadow-lg p-6 text-white">
-            <div className="flex items-center mb-2">
-              <FlaskConical className="h-7 w-7 mr-3" />
-              <h2 className="text-2xl font-bold">補充劑安全：天然不等於乾淨</h2>
-            </div>
-            <p className="text-emerald-50">
-              營養補充品是運動員藥檢陽性的常見來源之一。了解污染風險、嚴格責任原則與第三方認證，才能真正保護自己的運動生涯。
-            </p>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            {/* 污染數據 */}
-            <div className="bg-white rounded-lg shadow-lg overflow-hidden">
-              <div className="bg-amber-500 p-4 text-white flex items-center">
-                <AlertTriangle className="h-6 w-6 mr-2" />
-                <h3 className="text-xl font-bold">研究中的污染檢出比例</h3>
-              </div>
-              <div className="p-6 space-y-3">
-                <p className="text-gray-700">
-                  補充品可能含未標示的禁用成分。研究樣本、年份及產品類別不同，不能套用單一比例推估今日市場。
-                </p>
-                <p className="text-sm text-gray-600 bg-amber-50 p-3 rounded-lg border-l-2 border-amber-400">
-                  Geyer 等人於 2000–2001 年購入 13 國共 634 件非荷爾蒙補充品，94 件（14.8%）檢出未標示的同化性雄性類固醇。這是特定歷史樣本，並非目前所有產品的污染率。{" "}
-                  <a className="underline text-emerald-700" href="https://pubmed.ncbi.nlm.nih.gov/14986195/" target="_blank" rel="noopener noreferrer">2004 年原始研究</a>
-                </p>
-              </div>
-            </div>
-
-            {/* 嚴格責任 */}
-            <div className="bg-white rounded-lg shadow-lg overflow-hidden">
-              <div className="bg-red-500 p-4 text-white flex items-center">
-                <ShieldAlert className="h-6 w-6 mr-2" />
-                <h3 className="text-xl font-bold">嚴格責任原則</h3>
-              </div>
-              <div className="p-6 space-y-3">
-                <p className="text-gray-700">
-                  <span className="font-semibold">Strict Liability：</span>
-                  運動員對自己體內檢出的任何禁用物質負全責，無論是否出於故意或知情。
-                </p>
-                <p className="text-sm text-red-700 bg-red-50 p-3 rounded-lg border-l-2 border-red-400">
-                  成立物質存在違規不需證明故意或過失；但處分仍須依適用規則、污染證據及過失程度個別判斷，可能減輕或免除禁賽。
-                </p>
-              </div>
-            </div>
-
-            {/* 第三方認證 */}
-            <div className="bg-white rounded-lg shadow-lg overflow-hidden">
-              <div className="bg-green-600 p-4 text-white flex items-center">
-                <ShieldCheck className="h-6 w-6 mr-2" />
-                <h3 className="text-xl font-bold">第三方認證計畫</h3>
-              </div>
-              <div className="p-6 space-y-3">
-                <p className="text-gray-700">
-                  選擇通過逐批送驗（batch-tested）的產品，可降低（而非消除）污染風險：
-                </p>
-                <ul className="space-y-2">
-                  <li className="flex items-start text-gray-700">
-                    <CheckCircle className="h-4 w-4 mr-2 mt-0.5 text-green-600 flex-shrink-0" />
-                    <span className="text-sm">
-                      <span className="font-semibold">Informed Sport</span>
-                      （informed-sport.com）
-                    </span>
-                  </li>
-                  <li className="flex items-start text-gray-700">
-                    <CheckCircle className="h-4 w-4 mr-2 mt-0.5 text-green-600 flex-shrink-0" />
-                    <span className="text-sm">
-                      <span className="font-semibold">
-                        NSF Certified for Sport
-                      </span>
-                      （NSF 國際）
-                    </span>
-                  </li>
-                </ul>
-              </div>
-            </div>
-
-            {/* 核心提醒 */}
-            <div className="bg-white rounded-lg shadow-lg overflow-hidden">
-              <div className="bg-emerald-600 p-4 text-white flex items-center">
-                <Info className="h-6 w-6 mr-2" />
-                <h3 className="text-xl font-bold">核心提醒</h3>
-              </div>
-              <div className="p-6">
-                <ul className="space-y-2">
-                  <li className="flex items-start text-gray-700">
-                    <CheckCircle className="h-4 w-4 mr-2 mt-0.5 text-emerald-600 flex-shrink-0" />
-                    <span className="text-sm">
-                      「天然」不等於「乾淨」，草本或天然標示無法保證不含禁藥。
-                    </span>
-                  </li>
-                  <li className="flex items-start text-gray-700">
-                    <CheckCircle className="h-4 w-4 mr-2 mt-0.5 text-emerald-600 flex-shrink-0" />
-                    <span className="text-sm">
-                      第三方認證只能降低風險，無法保證零風險。
-                    </span>
-                  </li>
-                  <li className="flex items-start text-gray-700">
-                    <CheckCircle className="h-4 w-4 mr-2 mt-0.5 text-emerald-600 flex-shrink-0" />
-                    <span className="text-sm">
-                      用前先查，並優先諮詢運動醫學團隊或隊醫。
-                    </span>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-
-          {/* 行動連結 */}
-          <div className="bg-emerald-50 border border-emerald-200 rounded-lg p-6">
-            <h3 className="font-semibold text-emerald-900 mb-3 flex items-center">
-              <FileSearch className="h-5 w-5 mr-2 text-emerald-700" />
-              用前先查：藥物與成分查詢
-            </h3>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
-              <a
-                href="https://www.check-antidoping.org.tw/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center justify-between bg-white p-4 rounded-lg shadow hover:shadow-md transition"
-              >
-                <div>
-                  <p className="font-semibold text-gray-900">CTADA 藥物查詢</p>
-                  <p className="text-xs text-gray-500">
-                    台灣運動禁藥防制查詢平台
-                  </p>
-                </div>
-                <ExternalLink className="h-4 w-4 text-emerald-600 flex-shrink-0" />
-              </a>
-              <a
-                href="https://www.globaldro.com/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center justify-between bg-white p-4 rounded-lg shadow hover:shadow-md transition"
-              >
-                <div>
-                  <p className="font-semibold text-gray-900">Global DRO</p>
-                  <p className="text-xs text-gray-500">全球運動員藥物查詢</p>
-                </div>
-                <ExternalLink className="h-4 w-4 text-emerald-600 flex-shrink-0" />
-              </a>
-            </div>
-          </div>
-        </div>
-      )}
+      {activeTab === "supplements" && <SupplementsTab />}
 
       {/* Case Learning Tab: shares the audited case records and their sources. */}
       {activeTab === "caseLearning" && (
@@ -685,7 +535,7 @@ function Education() {
       )}
 
       {/* Medical Specialties Tab: use the same reviewed data as the API. */}
-      {activeTab === "specialties" && <p className="mb-4 text-sm text-gray-600">用藥選擇須依診斷與病情由醫師決定，請勿自行停藥；替代方向不等於個人治療建議或自動符合反禁藥規定。禁用分類與例外依 <a className="underline text-primary-700" href="https://www.wada-ama.org/sites/default/files/2025-09/2026list_en_final_clean_september_2025.pdf" target="_blank" rel="noopener noreferrer">2026 WADA 清單</a>核對。</p>}
+      {activeTab === "specialties" && <p className="mb-4 text-sm text-gray-600">用藥選擇須依診斷與病情由醫師決定，請勿自行停藥；替代方向不等於個人治療建議或自動符合運動禁藥防制規定。禁用分類與例外依 <a className="underline text-primary-700" href="https://www.wada-ama.org/sites/default/files/2025-09/2026list_en_final_clean_september_2025.pdf" target="_blank" rel="noopener noreferrer">2026 WADA 清單</a>核對。</p>}
       {activeTab === "specialties" && (
         <div role="tabpanel" className="grid grid-cols-1 md:grid-cols-2 gap-6">
           {medicalSpecialties.map((specialty) => ({

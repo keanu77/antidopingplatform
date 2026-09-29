@@ -6,6 +6,7 @@ import { build } from "../frontend/node_modules/esbuild/lib/main.js";
 import { evaluateDrug } from "../frontend/src/utils/tueDecision.js";
 import { prohibitedList } from "../frontend/src/data/prohibitedList.js";
 import { scenarioQuestions, knowledgeQuestions } from "../frontend/src/data/quiz.js";
+import { tueDiseases } from "../frontend/src/data/tueDiseases.js";
 
 // Exercise the actual Pages API and decision engine against WADA 2026 rule boundaries.
 // Sources and scope are recorded in docs/reviews/2026-09-23-site-audit/content-sources.md.
@@ -39,8 +40,8 @@ test("S3: formoterol carries both delivered-dose limits through lookup and decis
   assert.match(result.routeNote, /delivered dose/);
   assert.equal(evaluateDrug(found, { route: "oral" }).verdict, "needs-tue");
 
-  const asthma = (await api("tue/diseases")).find((item) => /Asthma/.test(item.name));
-  const limits = asthma.tuePoints.find((point) => point.includes("Formoterol"));
+  const asthma = tueDiseases.find((item) => item.id === "asthma");
+  const limits = asthma.keyPoints.find((point) => point.includes("Formoterol"));
   assert.match(limits, /Formoterol[^）]*54[^）]*12h[^）]*36/);
   assert.match(limits, /Salmeterol[^）]*200[^）]*8h[^）]*100/);
 });
@@ -131,4 +132,35 @@ test("home facts retain 2026 monitoring status and avoid broad IV or sanction cl
   assert.match(facts, /M1\.3.*物理方式.*血液/);
   assert.match(facts, /不需證明故意或過失.*個別評估/);
   assert.match(facts, /8 小時.*600/);
+});
+
+test("lecture scenarios Q1–Q3 resolve to the taught answers through the decision engine", async () => {
+  const { decisionScenarios } = await import("../frontend/src/data/tueGuide.js");
+  const verdictOf = (id) => {
+    const { preset } = decisionScenarios.find((s) => s.id === id);
+    return evaluateDrug(substances[preset.drug], {
+      route: preset.route || null,
+      inCompetition: preset.inCompetition,
+      sport: preset.sport || null,
+    });
+  };
+  // Q1: running is not a P1 sport, so a beta-blocker needs no TUE.
+  assert.equal(verdictOf("q1").verdict, "permitted");
+  // Q2: out-of-competition glucocorticoid injection is allowed but carries a washout.
+  const q2 = verdictOf("q2");
+  assert.equal(q2.verdict, "permitted");
+  assert.match(q2.washout, /60 天/);
+  // Q3: in-competition pseudoephedrine is allowed only under the urinary threshold.
+  const q3 = verdictOf("q3");
+  assert.equal(q3.verdict, "permitted-threshold");
+  assert.match(q3.threshold, /150/);
+});
+
+test("every TUE disease card carries both official links and a dated guideline label", () => {
+  for (const d of tueDiseases) {
+    assert.match(d.checklistUrl, /^https:\/\//, d.id);
+    assert.match(d.guidelineUrl, /^https:\/\/www\.wada-ama\.org\//, d.id);
+    assert.ok(d.guideline, d.id);
+    assert.ok(d.prohibited.length > 0, d.id);
+  }
 });

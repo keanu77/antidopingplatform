@@ -123,7 +123,7 @@ function Statistics() {
     </div>
 
     <section className="mt-10 rounded-xl border border-gray-200 bg-white p-5 sm:p-6">
-      <h2 id="case-timeline" className="scroll-mt-24 text-xl font-bold text-gray-900">反禁藥事件與制度時間軸</h2>
+      <h2 id="case-timeline" className="scroll-mt-24 text-xl font-bold text-gray-900">運動禁藥防制事件與制度時間軸</h2>
       <p className="text-sm text-gray-600 mt-2">以下是有來源的背景整理；賽會、調查公布及裁決日期分別標明，不納入上方案例數。</p>
       <ol className="mt-5 space-y-5">{majorEvents.map((event) => <li key={event.year} className="border-l-2 border-primary-200 pl-4">
         <p className="text-sm font-bold text-primary-700">{event.year}</p><h3 className="font-bold mt-1">{event.title}</h3><p className="text-sm text-gray-700 mt-2">{event.description}</p><p className="text-sm text-gray-600 mt-1">{event.impact}</p>

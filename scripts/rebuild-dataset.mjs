@@ -313,8 +313,19 @@ for (const followupPath of followupPaths) {
     c.review.countryFollowup = { checkedAt: check.checkedAt ?? followup.checkedAt, resolution: "held", note: check.reason };
   }
 }
-// Legacy and new sources spell the S5 label differently; unify so statistics don't split one class.
-const unifyCategory = (c) => ({ ...c, substanceCategory: c.substanceCategory.replaceAll("利尿劑和掩蔽劑", "利尿劑與掩蔽劑") });
+// Legacy and new sources spell class labels differently; unify so statistics don't split one class.
+const CATEGORY_SPELLINGS = [
+  ["利尿劑和掩蔽劑", "利尿劑與掩蔽劑"],
+  ["利尿劑及遮蔽劑", "利尿劑與掩蔽劑"],
+  ["激素和代謝調節劑", "激素與代謝調節劑"],
+  ["激素及代謝調節劑", "激素與代謝調節劑"],
+];
+// Top-level labels written as "S8: 大麻素" become "S8 大麻素"; subclass labels (S1.1: …) keep their colon.
+const TOP_LEVEL_COLON = /^(S[0-9]): (合成代謝劑|大麻素|利尿劑與掩蔽劑)$/;
+const unifyCategory = (c) => {
+  const spelled = CATEGORY_SPELLINGS.reduce((label, [from, to]) => label.replaceAll(from, to), c.substanceCategory);
+  return { ...c, substanceCategory: spelled.replace(TOP_LEVEL_COLON, "$1 $2") };
+};
 cases = cases.map(unifyCategory);
 cases.sort((a, b) => b.year - a.year || a.id.localeCompare(b.id));
 if (curated.length !== 500) throw new Error(`New-case target requires 500 additions; found ${curated.length}`);

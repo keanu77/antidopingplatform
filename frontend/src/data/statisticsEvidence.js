@@ -3,7 +3,7 @@ export const majorEvents = [
     year: 1988,
     title: "漢城奧運 Ben Johnson 禁藥事件",
     description:
-      "Ben Johnson 在男子 100 公尺決賽後檢出同化性類固醇 stanozolol，金牌與紀錄遭撤銷。",
+      "Ben Johnson 在男子 100 公尺決賽後檢出合成代謝類固醇 stanozolol，金牌與紀錄遭撤銷。",
     impact: "原奪冠成績因禁藥違規被取消。",
     sourceTitle: "加拿大奧會：Ben Johnson",
     sourceUrl: "https://olympic.ca/team-canada/ben-johnson/",
@@ -12,8 +12,8 @@ export const majorEvents = [
     year: 1999,
     title: "WADA 成立",
     description:
-      "世界反禁藥機構於 1999 年 11 月 10 日成立，推動各國與各運動項目的反禁藥規則協調。",
-    impact: "建立跨政府與運動組織合作的國際反禁藥機構。",
+      "世界運動禁藥管制組織於 1999 年 11 月 10 日成立，推動各國與各運動項目的運動禁藥防制規則協調。",
+    impact: "建立跨政府與運動組織合作的國際運動禁藥管制組織。",
     sourceTitle: "WADA：組織與歷史",
     sourceUrl: "https://www.wada-ama.org/en/who-we-are",
   },
@@ -112,7 +112,7 @@ export const evidenceCards = [
   {
     title: "特定研究樣本的補充劑檢出率",
     value: "14.8%",
-    body: "Geyer 等人於 2000–2001 年，在 13 國購入的 634 件非荷爾蒙營養補充劑中，94 件（14.8%）檢出標示未列出的同化性雄性類固醇。這是特定研究樣本的結果，不能當作現今所有市售補充劑的污染率。",
+    body: "Geyer 等人於 2000–2001 年，在 13 國購入的 634 件非荷爾蒙營養補充劑中，94 件（14.8%）檢出標示未列出的合成代謝雄性類固醇。這是特定研究樣本的結果，不能當作現今所有市售補充劑的污染率。",
     sourceTitle: "Geyer et al., International Journal of Sports Medicine, 2004",
     sourceUrl: "https://pubmed.ncbi.nlm.nih.gov/14986195/",
   },
@@ -133,9 +133,9 @@ export const evidenceCards = [
     sourceUrl: "https://pubmed.ncbi.nlm.nih.gov/37267738/",
   },
   {
-    title: "同化性類固醇使用者的死亡風險",
+    title: "合成代謝類固醇使用者的死亡風險",
     value: "HR 2.81",
-    body: "丹麥 2006–2018 年間，1,189 名在健身中心抽查中因使用同化性類固醇遭處分的男性，與 59,450 名男性對照相比，平均追蹤 11 年，全因死亡風險比為 2.81（95% CI 1.98–3.99）；使用者組 33 人死亡，其中 17 人為意外等非自然死因。研究對象是健身中心使用者而非菁英運動員，屬觀察性研究，無法完全排除其他生活型態因素。",
+    body: "丹麥 2006–2018 年間，1,189 名在健身中心抽查中因使用合成代謝類固醇遭處分的男性，與 59,450 名男性對照相比，平均追蹤 11 年，全因死亡風險比為 2.81（95% CI 1.98–3.99）；使用者組 33 人死亡，其中 17 人為意外等非自然死因。研究對象是健身中心使用者而非菁英運動員，屬觀察性研究，無法完全排除其他生活型態因素。",
     sourceTitle: "Windfeld-Mathiasen et al., JAMA 2024（丹麥全國登錄世代研究）",
     sourceUrl: "https://pmc.ncbi.nlm.nih.gov/articles/PMC10941020/",
   },

@@ -10,7 +10,7 @@ import {
 const courses = [
   {
     name: "ALPHA（運動員基礎課程）",
-    desc: "WADA 為運動員設計的反禁藥基礎課程（Athlete Learning Program about Health and Anti-Doping），介紹運動員的權利與責任、禁用清單概念與檢測流程，適合第一次接觸反禁藥教育的人。",
+    desc: "WADA 為運動員設計的運動禁藥防制基礎課程（Athlete Learning Program about Health and Anti-Doping），介紹運動員的權利與責任、禁用清單概念與檢測流程，適合第一次接觸運動禁藥防制教育的人。",
   },
   {
     name: "Sport Physician's Toolkit",
@@ -26,11 +26,11 @@ const courses = [
   },
   {
     name: "Coaches（教練專屬）",
-    desc: "針對教練角色設計的反禁藥課程，強調如何營造乾淨運動文化並支持選手做出正確選擇。",
+    desc: "針對教練角色設計的運動禁藥防制課程，強調如何營造乾淨運動文化並支持選手做出正確選擇。",
   },
   {
     name: "ADEL for Medical Professionals",
-    desc: "WADA 為醫療專業人員設計的反禁藥課程，深入禁用物質分類、TUE 與運動員照護中的用藥安全。",
+    desc: "WADA 為醫療專業人員設計的運動禁藥防制課程，深入禁用物質分類、TUE 與運動員照護中的用藥安全。",
   },
 ];
 
@@ -54,7 +54,7 @@ function ADeL() {
             ADeL 學習專區
           </h1>
           <p className="text-gray-500 text-sm">
-            WADA 官方線上反禁藥教育平台導引
+            WADA 官方線上運動禁藥防制教育平台導引
           </p>
         </div>
       </div>
@@ -82,7 +82,7 @@ function ADeL() {
         </p>
         <p className="text-sm text-gray-600 leading-relaxed">
           平台<strong>免費、支援多國語言</strong>
-          ，面向運動員、支援人員（教練、防護員）、醫療人員與家長等不同角色，提供分眾化的反禁藥學習資源。
+          ，面向運動員、支援人員（教練、防護員）、醫療人員與家長等不同角色，提供分眾化的運動禁藥防制學習資源。
         </p>
       </section>
 
@@ -156,7 +156,7 @@ function ADeL() {
               CTADA 教育資源（台灣）
             </h3>
             <p className="text-sm text-blue-900/80 leading-relaxed">
-              CTADA 提供中文反禁藥學習資源。115 年全中運、全大運已取消將線上測驗通過證明列為報名條件，其他賽會請核對各自公告。
+              CTADA 提供中文運動禁藥防制學習資源。115 年全中運、全大運已取消將線上測驗通過證明列為報名條件，其他賽會請核對各自公告。
             </p>
           </div>
         </div>

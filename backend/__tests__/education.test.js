@@ -3,7 +3,7 @@ import express from "express";
 import request from "supertest";
 import educationRouter from "../routes/education.js";
 
-// GET /api/education/adrv（P1-7 反禁藥規則違反 ADRV + 運動精神價值 + 禁用清單三層結構）。
+// GET /api/education/adrv（P1-7 違反運動禁藥管制規則 ADRV + 運動精神價值 + 禁用清單三層結構）。
 // 純靜態 JSON，無需資料庫。
 function makeApp() {
   const app = express();
@@ -20,7 +20,7 @@ describe("GET /api/education/adrv", () => {
     expect(res.status).toBe(200);
   });
 
-  it("adrvTypes 為 11 類反禁藥規則違反", async () => {
+  it("adrvTypes 為 11 類違反運動禁藥管制規則", async () => {
     const res = await request(app).get("/api/education/adrv");
     expect(Array.isArray(res.body.adrvTypes)).toBe(true);
     expect(res.body.adrvTypes.length).toBe(11);

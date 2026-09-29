@@ -144,7 +144,7 @@ export function evaluateDrug(
     }
     return {
       verdict: "permitted",
-      reasons: [`${sport}僅賽內禁用 P1 Beta 阻斷劑；賽外使用不禁，但須留意賽內檢體殘留。若有醫療需要，應向反禁藥組織確認 TUE 要求`],
+      reasons: [`${sport}僅賽內禁用 P1 Beta 阻斷劑；賽外使用不禁，但須留意賽內檢體殘留。若有醫療需要，應向運動禁藥管制組織確認 TUE 要求`],
       sportRestricted: restrictedList,
     };
   }

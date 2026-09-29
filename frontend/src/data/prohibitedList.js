@@ -17,10 +17,10 @@ export const prohibitedList = [
   {
     id: "s1",
     code: "S1",
-    name: "同化性製劑",
+    name: "合成代謝劑",
     nameEn: "Anabolic Agents",
     timing: "at-all-times",
-    description: "增加肌肉量的合成類固醇與其他同化性物質",
+    description: "增加肌肉量的合成類固醇與其他合成代謝物質",
     keySubstances: [
       "Testosterone（睪固酮）",
       "Nandrolone",
@@ -87,7 +87,7 @@ export const prohibitedList = [
   {
     id: "s5",
     code: "S5",
-    name: "利尿劑及干擾劑",
+    name: "利尿劑與掩蔽劑",
     nameEn: "Diuretics and Masking Agents",
     timing: "at-all-times",
     description: "可用於降體重或遮蔽其他禁用物質的藥物",
@@ -152,7 +152,7 @@ export const prohibitedList = [
   {
     id: "s9",
     code: "S9",
-    name: "糖皮質類固醇",
+    name: "糖皮質激素",
     nameEn: "Glucocorticoids",
     timing: "in-competition",
     description:
@@ -225,4 +225,49 @@ export const timingLabels = {
     bgColor: "bg-blue-50",
   },
   method: { label: "禁用方法", color: "text-gray-700", bgColor: "bg-gray-100" },
+};
+
+// 清單上的標籤只影響裁罰或監控，不影響「是否違規」。依據：World Anti-Doping Code 2021 第 10 條、
+// WADA 2026 禁用清單與監控計畫。
+export const listLabelGuide = [
+  {
+    id: "specified",
+    title: "特定物質 vs 非特定物質",
+    body: "標籤只影響「罰多重」，兩者都是禁用。首次違規的標準禁賽：非特定物質 4 年，運動員能證明非故意時為 2 年；特定物質 2 年，運動禁藥管制組織證明故意時為 4 年。符合無過失或無重大過失（如證明是污染產品）者可再減輕。",
+    source: "WADA Code 2021 第 10.2 條",
+  },
+  {
+    id: "abuse",
+    title: "濫用物質（Substances of Abuse）",
+    body: "古柯鹼、海洛因（diamorphine）、MDMA 與 THC。若能證明於賽外使用且與運動表現無關，禁賽為 3 個月；完成核准的戒治計畫可再減為 1 個月。無法證明時依一般規定處分。",
+    source: "WADA Code 2021 第 10.2.4 條",
+  },
+  {
+    id: "monitoring",
+    title: "監控計畫 ≠ 禁用",
+    body: "監控計畫的物質不在禁用清單上，使用不算違規；WADA 蒐集使用型態，作為日後是否列禁的依據。tramadol 就是先經監控，2024 年起列入 S7 賽內禁用。2026 年例：codeine、hydrocodone（賽內）、fentanyl 與 tramadol 的賽外使用，以及 semaglutide、tirzepatide。",
+    source: "WADA 2026 監控計畫",
+  },
+];
+
+export const annualChanges = {
+  note: "禁用清單每年約 9–10 月公布、隔年 1 月 1 日生效；去年能用，不代表今年能用。",
+  years: [
+    {
+      year: "2025",
+      items: [
+        "formoterol 加上每 12 小時 ≤36µg 的上限",
+        "在經認證的捐血中心捐血或血液成分（含血液分離術）不再禁用",
+        "滑雪／單板滑雪各項目移出 P1 Beta 阻斷劑",
+      ],
+    },
+    {
+      year: "2026",
+      items: [
+        "M1.4 新增：以再呼吸系統輸送一氧化碳（診斷用途除外）",
+        "salmeterol 加上每 8 小時 ≤100µg 的上限",
+        "M3.2 明列細胞組成部分（如粒線體）",
+      ],
+    },
+  ],
 };
