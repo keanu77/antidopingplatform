@@ -3,7 +3,8 @@
 # 架構改變：案例與所有教育／TUE 內容改為 build 期編入 bundle 的靜態資料，
 # 不再需要 MongoDB；唯一需要寫入的「使用者回饋」改用 D1。
 #
-# 部署：npm run cf:deploy
+# 部署：push 到 main 由 .github/workflows/deploy.yml 自動測試、部署並驗證線上版本；
+#       手動備援：npm run cf:deploy
 #
 # Secrets（wrangler pages secret put <NAME> --project-name antidoping-platform）：
 #   CRON_SECRET         每日彙整信端點的授權；須與 cron-job.org 任務的 x-cron-secret header 一致

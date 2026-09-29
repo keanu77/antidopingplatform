@@ -1,0 +1,89 @@
+# push 到 main → 測試 → build → 部署到 Cloudflare Pages → 線上驗證。
+# 取代手動 `npm run cf:deploy`；Pages 專案是 Direct Upload，沿用同一個專案與網域。
+#
+# 需要的 GitHub Secrets：
+#   CLOUDFLARE_API_TOKEN   權限：Account → Cloudflare Pages → Edit
+#   CLOUDFLARE_ACCOUNT_ID
+name: Deploy to Cloudflare Pages
+
+on:
+  push:
+    branches: [main]
+    paths-ignore:
+      - "docs/**"
+      - "**/*.md"
+      - ".claude/**"
+  workflow_dispatch:
+
+# 同時只跑一個部署；新的 push 排隊，不中斷進行中的部署。
+concurrency:
+  group: production-deploy
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+env:
+  SITE_URL: https://antidopingplatform.sportsmedicine.tw
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: |
+            package-lock.json
+            frontend/package-lock.json
+
+      - name: Install dependencies
+        run: |
+          npm ci
+          npm ci --prefix frontend
+
+      - name: Lint
+        run: npm --prefix frontend run lint
+
+      - name: Test
+        run: |
+          npm test
+          npm --prefix frontend test
+          node --test tests/*.test.mjs
+
+      - name: Build
+        run: npm run cf:build
+        env:
+          GIT_SHA: ${{ github.sha }}
+
+      - name: Deploy
+        run: >-
+          npx --yes wrangler@4 pages deploy frontend/dist
+          --project-name antidoping-platform
+          --branch main
+          --commit-hash "$GITHUB_SHA"
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+
+      # push 成功 ≠ 線上是新版：等 version.json 的 sha 對上本次 commit
+      - name: Verify live version
+        run: |
+          for i in $(seq 1 20); do
+            live=$(curl -fsS "$SITE_URL/version.json?ts=$(date +%s)" | node -pe 'JSON.parse(require("fs").readFileSync(0)).sha' || true)
+            echo "attempt $i: live=$live expected=$GITHUB_SHA"
+            [ "$live" = "$GITHUB_SHA" ] && exit 0
+            sleep 15
+          done
+          echo "::error::線上 version.json 未更新為 $GITHUB_SHA"
+          exit 1
+
+      - name: Smoke test (read-only)
+        run: npm run smoke
+        env:
+          SMOKE_BASE_URL: ${{ env.SITE_URL }}
+          SKIP_WRITE: "1"

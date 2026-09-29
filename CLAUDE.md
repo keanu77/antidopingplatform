@@ -74,7 +74,13 @@ Optional: `PORT` (default 8080), `JWT_SECRET`, `CORS_ORIGIN`
 - **Dev**: Vite dev server on `:5173`; `api.js` calls `http://localhost:8080/api` (override with `VITE_API_PORT`). So run `npm run dev` (backend on 8080) alongside `npm run dev:frontend` for a full local stack.
 - **Prod**: Both served from same origin on `:8080` via `server.js`; frontend calls `/api/*` relatively (`import.meta.env.PROD` branch).
 
-## Deployment (Zeabur)
+## Deployment (Cloudflare Pages — production)
+
+- Production is Cloudflare Pages project `antidoping-platform` (Direct Upload) + Pages Functions in `functions/` (static data bundled at build; D1 only for feedback). See `wrangler.toml`.
+- **Push to `main` auto-deploys** via `.github/workflows/deploy.yml`: lint → all tests → `cf:build` (GIT_SHA stamped into `version.json`) → `wrangler pages deploy` → waits until live `version.json` sha == commit → read-only smoke. Docs/`*.md`-only pushes are skipped; rerun manually with `workflow_dispatch`.
+- Secrets in GitHub: `CLOUDFLARE_API_TOKEN` (Pages: Edit), `CLOUDFLARE_ACCOUNT_ID`. Manual fallback: `npm run cf:deploy`.
+
+## Legacy Deployment (Zeabur, pre-2026-09-19)
 
 - Multi-stage Dockerfile included (frontend-build → backend-deps → production)
 - `zeabur.json` configures build/start commands and health check on `/api/health`
