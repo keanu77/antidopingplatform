@@ -1,0 +1,9 @@
+?? .claude/
+?? docs/handoffs/2026-09-25-125558-uiux-links/
+?? docs/handoffs/2026-09-25-handoff-1310.md
+?? docs/handoffs/2026-09-25-uiux-handoff-1255.md
+?? docs/handoffs/2026-09-29-handoff-1834.md
+?? docs/handoffs/2026-10-02-121629-physician-lecture/
+?? docs/handoffs/2026-10-03-205428-github-flow-handoff/
+?? docs/lectures/
+?? docs/reviews/2026-09-25-official-links/

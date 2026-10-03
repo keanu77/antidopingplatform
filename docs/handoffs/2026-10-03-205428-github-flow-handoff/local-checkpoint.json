@@ -1,0 +1,22 @@
+{
+  "checked_at": "2026-10-03T20:54:28.512715+09:00",
+  "archive": "docs/handoffs/2026-10-03-205428-github-flow-handoff",
+  "root": "/Users/ethanwu/Documents/Vibe coding/claude/Antidopingplatform",
+  "branch": "main",
+  "head": "73f121e42ceeb5a2c987b629da482b8416738aec",
+  "tracked_diff": "",
+  "tracked_lecture_files": "",
+  "html_sha256": "8c77ffad7abe47fd4ed6ab5baf65c5d3d859477046ab9d78776d880b95f4196e",
+  "bytes": 1153163,
+  "slides": 60,
+  "notes": 60,
+  "sources": 24,
+  "jpg_images": 4,
+  "matches_20261001_final_hash": true,
+  "browser_tests_rerun": false,
+  "medical_sources_refreshed": false,
+  "website_live_checked": false,
+  "repo_settings_modified": false,
+  "commit_push_deploy": false,
+  "previous_handoff_sha256": "c90d11cc19be7b0f7e13c6b45c9a14b09859be78e479bf436f238aa4ad0a2fc5"
+}

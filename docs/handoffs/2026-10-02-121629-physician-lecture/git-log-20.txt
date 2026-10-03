@@ -1,0 +1,20 @@
+73f121e ci: actions/checkout 與 setup-node 升到 v5（改用 Node 24 執行）
+b5ae5f0 ci: push 到 main 自動部署 Cloudflare Pages 並驗證線上版本
+c0b95e3 feat(tue): 依 TUE 講座內容補強 TUE 專區與相關教育頁
+736ba1a docs(research): 國家來源補查結案，摘要更新為待補證 178
+7927338 fix(data): 統一 S5 分類寫法為「利尿劑與掩蔽劑」
+685f6ec feat(stats): 物質／規則標籤圓餅圖不再納入「其他標籤」
+e59f001 feat(data): 國家來源補查第四階段，再補 6 件（待補證 184→178）
+fef0a4a fix(resources): replace unavailable CTADA learning links
+b9094e8 feat(data): 國家來源補查第三階段，再補 4 件（待補證 188→184）
+90f518a feat(stats): 外部研究新增 6 篇禁藥盛行率、補充劑與健康風險研究
+1543bcf style(cases): match card colors to ban duration chart
+6516d88 style(cases): remove decorative top border
+b790dff style(cases): add soft color blocks to search cards
+6ec1ef8 refactor(cases): simplify search result cards
+1afdbe2 fix(cases): hide unverified classification badges
+c2f6d2b fix(stats): exclude unverified classifications and remove outcome table
+2eb4720 feat(ui): add soft 3D illustrations and improve mobile navigation
+026182a feat(tue): 實用工具加入台灣官方運動禁藥查詢系統連結卡
+658a964 Merge pull request #1 from keanu77/fix/feedback-digest-pages
+c79a37e merge: 併入 main，回饋寫入改用 main 的 feedback-v1 格式

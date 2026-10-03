@@ -1,0 +1,31 @@
+{
+  "repo": {
+    "default_branch": "main",
+    "full_name": "keanu77/antidopingplatform",
+    "html_url": "https://github.com/keanu77/antidopingplatform",
+    "visibility": "public"
+  },
+  "branch": {
+    "name": "main",
+    "protected": false,
+    "protection": {
+      "enabled": false,
+      "required_status_checks": {
+        "checks": [],
+        "contexts": [],
+        "enforcement_level": "off"
+      }
+    },
+    "sha": "73f121e42ceeb5a2c987b629da482b8416738aec"
+  },
+  "rulesets": [],
+  "tree": {
+    "lecture_paths": [],
+    "sha": "73f121e42ceeb5a2c987b629da482b8416738aec",
+    "truncated": false,
+    "workflow_paths": [
+      ".github/workflows/deploy.yml"
+    ]
+  },
+  "checked_at": "2026-10-03T20:54:28.512715+09:00"
+}
