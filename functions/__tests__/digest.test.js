@@ -102,7 +102,7 @@ describe("信件內容", () => {
     expect(sameSiteUrl("https://preview.example:8443/tue", "https://preview.example:8443")).toBe(
       "https://preview.example:8443/tue",
     );
-    for (const invalidSite of ["not a url", "javascript:alert(1)", "https://user@preview.example"]) {
+    for (const invalidSite of ["not a url", "javascript:alert(1)", "blob:https://preview.example/id", "https://user@preview.example"]) {
       expect(sameSiteUrl("https://preview.example/tue", invalidSite)).toBeNull();
     }
   });

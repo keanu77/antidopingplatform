@@ -23,6 +23,7 @@ export function sameSiteUrl(url, siteUrl = DEFAULT_SITE_URL) {
     const u = new URL(url);
     const site = new URL(siteUrl);
     if (u.protocol !== "https:" && u.protocol !== "http:") return null;
+    if (site.protocol !== "https:" && site.protocol !== "http:") return null;
     if (u.username || u.password || site.username || site.password) return null;
     return u.origin === site.origin ? u.href : null;
   } catch {
