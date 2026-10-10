@@ -1,0 +1,40 @@
+name: PR validation
+
+on:
+  pull_request:
+    branches: [main, fix/digest-link-origin]
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: |
+            package-lock.json
+            frontend/package-lock.json
+      - name: Install dependencies
+        run: |
+          npm ci
+          npm ci --prefix frontend
+      - name: Lint and syntax
+        run: |
+          npm --prefix frontend run lint
+          node --check scripts/migrate-feedback.mjs
+      - name: Tests
+        run: |
+          npm test
+          npm --prefix frontend test
+          node --test tests/*.test.mjs
+          npm run test:migrations:local
+      - name: Build
+        run: npm run cf:build
+        env:
+          GIT_SHA: ${{ github.sha }}

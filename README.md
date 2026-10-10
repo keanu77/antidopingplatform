@@ -38,8 +38,10 @@ npx wrangler pages dev frontend/dist
 使用 Wrangler 輸出的網址（預設 `http://localhost:8788`），才能同時測前端與 Pages Functions。僅執行 Vite preview 不會提供 API。需測試回饋成功時，先在本機初始化 D1：
 
 ```sh
-npx wrangler d1 execute antidoping-feedback --local --file=migrations/0001_feedback.sql
+npm run cf:migrate
 ```
+
+`cf:migrate` 預設只操作本機，使用 D1 的 `d1_migrations` 紀錄並只套用待執行版本。若已有未追蹤的 `feedback` 表，指令會停止；先依 [D1 migration 操作說明](docs/d1-migrations.md) 核對版本並明確建立基準，不能直接重跑 SQL。正式操作需另外批准並明確加 `--remote`。
 
 ## 資料重建與測試
 
@@ -50,6 +52,7 @@ npm run test:reviewed
 npm run test:api
 npm run test:rules
 npm run test:frontend
+npm run test:migrations:local
 npm --prefix frontend run lint
 npm run cf:build
 ```
