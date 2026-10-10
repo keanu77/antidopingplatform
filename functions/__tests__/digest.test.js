@@ -5,6 +5,7 @@ import {
   buildDigestHtml,
   secretMatches,
   rowFromD1,
+  sameSiteUrl,
 } from "../_lib/digest.js";
 
 const rows = [
@@ -54,6 +55,32 @@ describe("信件內容", () => {
     expect(html).not.toContain("<b>慢</b>");
     expect(html).not.toContain("javascript:alert");
     expect(html).toContain("共 6 筆");
+  });
+  it("只有本站網域的 url 做成連結，其他網域只顯示文字", () => {
+    const errorRow = (url) => ({ type: "error", toolSlug: "/tue", errorType: "內容有誤", url });
+    const own = buildDigestHtml([errorRow("https://antidopingplatform.sportsmedicine.tw/cases/1")]);
+    expect(own).toContain('href="https://antidopingplatform.sportsmedicine.tw/cases/1"');
+    expect(own).toContain("開啟頁面");
+
+    const phishing = buildDigestHtml([errorRow("https://evil.example/login")]);
+    expect(phishing).not.toContain('href="https://evil.example');
+    expect(phishing).not.toContain("開啟頁面");
+    expect(phishing).toContain("非本站，未建立連結");
+
+    const custom = buildDigestHtml([errorRow("https://preview.example/cases/1")], "https://preview.example");
+    expect(custom).toContain('href="https://preview.example/cases/1"');
+  });
+  it("sameSiteUrl 擋掉相似網域、非 http(s) 與無法解析的網址", () => {
+    const site = "https://antidopingplatform.sportsmedicine.tw";
+    expect(sameSiteUrl("https://antidopingplatform.sportsmedicine.tw/tue", site)).toBe(
+      "https://antidopingplatform.sportsmedicine.tw/tue",
+    );
+    expect(sameSiteUrl("https://antidopingplatform.sportsmedicine.tw.evil.example/", site)).toBeNull();
+    expect(sameSiteUrl("https://evil.example/?u=antidopingplatform.sportsmedicine.tw", site)).toBeNull();
+    expect(sameSiteUrl("https://user@evil.example/", site)).toBeNull();
+    expect(sameSiteUrl("javascript:alert(1)", site)).toBeNull();
+    expect(sameSiteUrl("not a url", site)).toBeNull();
+    expect(sameSiteUrl(undefined, site)).toBeNull();
   });
   it("純文字版含三個區塊", () => {
     const text = buildDigestText(rows);

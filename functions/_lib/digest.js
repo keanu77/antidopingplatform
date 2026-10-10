@@ -16,6 +16,19 @@ function esc(s) {
     .replace(/"/g, "&quot;");
 }
 
+// 回報附帶的網址：協定為 http(s) 且主機名稱與本站相同才回傳，否則回傳 null。
+export function sameSiteUrl(url, siteUrl = DEFAULT_SITE_URL) {
+  if (!url) return null;
+  try {
+    const u = new URL(url);
+    const site = new URL(siteUrl);
+    if (u.protocol !== "https:" && u.protocol !== "http:") return null;
+    return u.hostname === site.hostname ? u.href : null;
+  } catch {
+    return null;
+  }
+}
+
 // /api/feedback 把 feedback / error 存成 type='issue'，細節以 feedback-v1 JSON 放在 message。
 const V1_LABELS = {
   issueType: "問題類型",
@@ -207,10 +220,13 @@ export function buildDigestHtml(rows, siteUrl = DEFAULT_SITE_URL) {
           parts.push(
             `<div style="margin-top:6px;color:#9ca3af;font-size:12px;">${meta.join("　·　")}</div>`,
           );
-        const safeUrl = e.url && /^https?:\/\//.test(e.url) ? e.url : null;
+        // url 來自公開的回饋 API，只有本站網域才做成連結；其他網址只顯示文字，避免信裡出現看似可信的釣魚連結。
+        const safeUrl = sameSiteUrl(e.url, siteUrl);
         const link = safeUrl
           ? `<div style="margin-top:8px;"><a href="${esc(safeUrl)}" style="color:#059669;font-size:12px;">開啟頁面 ↗</a></div>`
-          : "";
+          : e.url && /^https?:\/\//.test(e.url)
+            ? `<div style="margin-top:8px;color:#9ca3af;font-size:12px;">回報的網址（非本站，未建立連結）：${esc(e.url)}</div>`
+            : "";
         return `<div style="border:1px solid #fde68a;background:#fffbeb;border-radius:10px;padding:12px 14px;margin-top:10px;font-size:14px;color:#1f2937;line-height:1.6;"><div><span style="display:inline-block;padding:1px 8px;border-radius:6px;background:#f59e0b;color:#fff;font-size:12px;font-weight:700;">${esc(e.errorType ?? "未分類")}</span>　${toolLink(e.toolSlug)}</div>${parts.join("")}${link}</div>`;
       })
       .join("");
