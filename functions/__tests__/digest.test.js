@@ -56,7 +56,7 @@ describe("信件內容", () => {
     expect(html).not.toContain("javascript:alert");
     expect(html).toContain("共 6 筆");
   });
-  it("只有本站網域的 url 做成連結，其他網域只顯示文字", () => {
+  it("只有本站 origin 的 url 做成連結，其他 origin 只顯示文字", () => {
     const errorRow = (url) => ({ type: "error", toolSlug: "/tue", errorType: "內容有誤", url });
     const own = buildDigestHtml([errorRow("https://antidopingplatform.sportsmedicine.tw/cases/1")]);
     expect(own).toContain('href="https://antidopingplatform.sportsmedicine.tw/cases/1"');
@@ -69,6 +69,48 @@ describe("信件內容", () => {
 
     const custom = buildDigestHtml([errorRow("https://preview.example/cases/1")], "https://preview.example");
     expect(custom).toContain('href="https://preview.example/cases/1"');
+  });
+  it.each([
+    "http://antidopingplatform.sportsmedicine.tw/tue",
+    "https://antidopingplatform.sportsmedicine.tw:8443/tue",
+    "https://user:password@antidopingplatform.sportsmedicine.tw/tue",
+    "https://antidopingplatform.sportsmedicine.tw.evil.example/",
+    "https://antidopingplatform.sportsmedicine.tw@evil.example/",
+    "https://antidopingplatform.sportsmedicine.tw./tue",
+    "//antidopingplatform.sportsmedicine.tw/tue",
+    "/tue",
+    "https://antidopingplatform.sportsmedicine.tw:65536/tue",
+    "blob:https://antidopingplatform.sportsmedicine.tw/id",
+  ])("不信任 %s，HTML 不產生開啟頁面連結", (url) => {
+    expect(sameSiteUrl(url)).toBeNull();
+    const html = buildDigestHtml([{ type: "error", toolSlug: "/tue", url }]);
+    expect(html).not.toContain("開啟頁面");
+  });
+  it("依 URL 標準正規化預設 port、大小寫、路徑，並跳脫 href", () => {
+    const url = "https://ANTIDOPINGPLATFORM.SPORTSMEDICINE.TW:443/a/../tue?a=1&b=2#section";
+    expect(sameSiteUrl(url)).toBe("https://antidopingplatform.sportsmedicine.tw/tue?a=1&b=2#section");
+    expect(buildDigestHtml([{ type: "error", toolSlug: "/tue", url }])).toContain(
+      'href="https://antidopingplatform.sportsmedicine.tw/tue?a=1&amp;b=2#section"',
+    );
+  });
+  it("自訂 origin 必須包含相同協定與有效 port", () => {
+    const site = "http://localhost:8788/base";
+    expect(sameSiteUrl("http://localhost:8788/tue", site)).toBe("http://localhost:8788/tue");
+    expect(sameSiteUrl("http://localhost/tue", site)).toBeNull();
+    expect(sameSiteUrl("https://localhost:8788/tue", site)).toBeNull();
+    expect(sameSiteUrl("http://localhost:8789/tue", site)).toBeNull();
+    expect(sameSiteUrl("https://preview.example:8443/tue", "https://preview.example:8443")).toBe(
+      "https://preview.example:8443/tue",
+    );
+    for (const invalidSite of ["not a url", "javascript:alert(1)", "https://user@preview.example"]) {
+      expect(sameSiteUrl("https://preview.example/tue", invalidSite)).toBeNull();
+    }
+  });
+  it("不可信網址只作跳脫後的文字", () => {
+    const html = buildDigestHtml([{ type: "error", toolSlug: "/tue", url: 'https://evil.example/\"><img src=x>' }]);
+    expect(html).toContain("&quot;&gt;&lt;img src=x&gt;");
+    expect(html).not.toContain("<img");
+    expect(html).not.toContain("開啟頁面");
   });
   it("sameSiteUrl 擋掉相似網域、非 http(s) 與無法解析的網址", () => {
     const site = "https://antidopingplatform.sportsmedicine.tw";

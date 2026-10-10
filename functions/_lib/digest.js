@@ -16,14 +16,15 @@ function esc(s) {
     .replace(/"/g, "&quot;");
 }
 
-// 回報附帶的網址：協定為 http(s) 且主機名稱與本站相同才回傳，否則回傳 null。
+// 回報附帶的網址：只信任本站完整 origin（協定、主機、有效 port）。
 export function sameSiteUrl(url, siteUrl = DEFAULT_SITE_URL) {
   if (!url) return null;
   try {
     const u = new URL(url);
     const site = new URL(siteUrl);
     if (u.protocol !== "https:" && u.protocol !== "http:") return null;
-    return u.hostname === site.hostname ? u.href : null;
+    if (u.username || u.password || site.username || site.password) return null;
+    return u.origin === site.origin ? u.href : null;
   } catch {
     return null;
   }
@@ -220,7 +221,7 @@ export function buildDigestHtml(rows, siteUrl = DEFAULT_SITE_URL) {
           parts.push(
             `<div style="margin-top:6px;color:#9ca3af;font-size:12px;">${meta.join("　·　")}</div>`,
           );
-        // url 來自公開的回饋 API，只有本站網域才做成連結；其他網址只顯示文字，避免信裡出現看似可信的釣魚連結。
+        // url 來自公開的回饋 API，只有本站 origin 才做成連結；其他網址只顯示文字。
         const safeUrl = sameSiteUrl(e.url, siteUrl);
         const link = safeUrl
           ? `<div style="margin-top:8px;"><a href="${esc(safeUrl)}" style="color:#059669;font-size:12px;">開啟頁面 ↗</a></div>`
