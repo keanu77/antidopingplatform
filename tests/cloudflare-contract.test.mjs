@@ -270,3 +270,25 @@ test("feedback digest cron requires the secret and mails what /api/feedback actu
   assert.match(sent[0].text, /需要補充來源/);
   assert.doesNotMatch(sent[0].text, /feedback-v1/);
 });
+
+test("public feedback URLs retain full-origin restrictions through D1 and the digest email", async (t) => {
+  const db = d1(t);
+  const urls = [`${origin}/cases/1?a=1&b=2`, "http://contract.invalid/cases/1", "https://contract.invalid:8443/cases/1"];
+  for (const url of urls) {
+    const body = { ...rating, type: "error", errorType: "案例資料錯誤", description: "核對連結", url };
+    assert.equal((await call("feedback", { body, env: { FEEDBACK_DB: db } })).status, 200);
+  }
+  let sent;
+  t.mock.method(globalThis, "fetch", async (_url, init) => {
+    sent = JSON.parse(init.body);
+    return new Response("{}", { status: 200 });
+  });
+  const env = { FEEDBACK_DB: db, SITE_URL: origin, CRON_SECRET: "s3cret", ZSEND_API_KEY: "k", FEEDBACK_DIGEST_TO: "to@example.test" };
+  assert.equal((await call("cron/feedback-digest", { env, headers: { "x-cron-secret": "s3cret" } })).status, 200);
+  assert.equal(sent.html.match(/開啟頁面/g)?.length, 1);
+  assert.match(sent.html, /href="https:\/\/contract\.invalid\/cases\/1\?a=1&amp;b=2"/);
+  for (const url of urls.slice(1)) {
+    assert.ok(sent.html.includes(url));
+    assert.ok(!sent.html.includes(`href="${url}"`));
+  }
+});
