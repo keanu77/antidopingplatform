@@ -43,7 +43,7 @@ afterAll(async () => {
   if (dbApi) await dbApi.close();
   if (mongod) await mongod.stop();
   delete process.env.CRON_SECRET;
-  delete process.env.ZSEND_API_KEY;
+  delete process.env.RESEND_API_KEY;
   delete process.env.FEEDBACK_DIGEST_TO;
 });
 
@@ -96,15 +96,15 @@ describe("GET /api/cron/feedback-digest（有回饋資料）", () => {
       ]);
   });
 
-  it("有資料但未設 ZSEND_API_KEY → 500", async () => {
-    delete process.env.ZSEND_API_KEY;
+  it("有資料但未設 RESEND_API_KEY → 500", async () => {
+    delete process.env.RESEND_API_KEY;
     const res = await request(app).get(PATH).set("x-cron-secret", SECRET);
     expect(res.status).toBe(500);
-    expect(res.body.error).toMatch(/ZSEND_API_KEY/);
+    expect(res.body.error).toMatch(/RESEND_API_KEY/);
   });
 
-  it("設好 ZSEND + 收件人 + mock fetch → 200 sent:true 並呼叫 email API", async () => {
-    process.env.ZSEND_API_KEY = "test-key";
+  it("設好 RESEND + 收件人 + mock fetch → 200 sent:true 並呼叫 email API", async () => {
+    process.env.RESEND_API_KEY = "test-key";
     process.env.FEEDBACK_DIGEST_TO = "boss@example.com";
     const calls = [];
     const orig = global.fetch;
@@ -118,7 +118,8 @@ describe("GET /api/cron/feedback-digest（有回饋資料）", () => {
       expect(res.body.sent).toBe(true);
       expect(res.body.count).toBe(4);
       expect(calls.length).toBe(1);
-      expect(String(calls[0].url)).toContain("zsend");
+      expect(String(calls[0].url)).toBe("https://api.resend.com/emails");
+      expect(calls[0].opts.headers.Authorization).toBe("Bearer test-key");
       const body = JSON.parse(calls[0].opts.body);
       expect(body.to).toContain("boss@example.com");
       expect(body.subject).toContain("每日回饋總結");
@@ -126,7 +127,7 @@ describe("GET /api/cron/feedback-digest（有回饋資料）", () => {
       expect(body.html).toContain("錯誤回報");
     } finally {
       global.fetch = orig;
-      delete process.env.ZSEND_API_KEY;
+      delete process.env.RESEND_API_KEY;
       delete process.env.FEEDBACK_DIGEST_TO;
     }
   });

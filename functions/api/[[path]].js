@@ -176,7 +176,7 @@ async function handleFeedbackDigest(request, env) {
   }
 
   if (rows.length === 0) return json({ ok: true, sent: false, count: 0 }, 200, NO_STORE);
-  if (!emailConfigured(env)) return json({ error: "ZSEND_API_KEY 未設定" }, 500, NO_STORE);
+  if (!emailConfigured(env)) return json({ error: "RESEND_API_KEY 未設定" }, 500, NO_STORE);
   if (!env.FEEDBACK_DIGEST_TO) return json({ error: "FEEDBACK_DIGEST_TO 未設定" }, 500, NO_STORE);
 
   try {

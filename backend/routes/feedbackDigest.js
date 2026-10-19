@@ -247,7 +247,7 @@ router.get("/", async (req, res) => {
   }
 
   if (!emailConfigured()) {
-    return res.status(500).json({ error: "ZSEND_API_KEY 未設定" });
+    return res.status(500).json({ error: "RESEND_API_KEY 未設定" });
   }
 
   const to = process.env.FEEDBACK_DIGEST_TO;
