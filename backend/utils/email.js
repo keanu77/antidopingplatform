@@ -14,6 +14,14 @@
 
 const ENDPOINT = "https://api.resend.com/emails";
 
+/** FEEDBACK_DIGEST_TO 等可為逗號分隔；Resend `to` 需分開的陣列元素。 */
+function parseRecipients(to) {
+  return String(to ?? "")
+    .split(",")
+    .map((s) => s.trim())
+    .filter(Boolean);
+}
+
 function emailConfigured() {
   return Boolean(process.env.RESEND_API_KEY);
 }
@@ -25,6 +33,8 @@ async function sendEmail(opts) {
     process.env.EMAIL_FROM ||
     process.env.ZSEND_FROM ||
     "運動禁藥案例平台 <noreply@sportsmedicine.tw>";
+  const recipients = parseRecipients(opts.to);
+  if (recipients.length === 0) throw new Error("收件人為空");
 
   const res = await fetch(ENDPOINT, {
     method: "POST",
@@ -34,7 +44,7 @@ async function sendEmail(opts) {
     },
     body: JSON.stringify({
       from,
-      to: [opts.to],
+      to: recipients,
       subject: opts.subject,
       html: opts.html,
       text: opts.text,
