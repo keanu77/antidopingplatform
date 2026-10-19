@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # 每日回饋彙整信 cron 一鍵設定 + 自我驗證（運動禁藥案例平台）
 #   端點：GET /api/cron/feedback-digest（header: x-cron-secret: <CRON_SECRET>）
-#   實作：backend/routes/feedbackDigest.js（Express + Mongo + ZSend）
+#   實作：backend/routes/feedbackDigest.js（Express + Mongo + Resend）
 # 動機：過去設 CRON_SECRET 後反覆 401 來回（設了變數沒 redeploy / header 不匹配 / secret 沒對上）。
 #       這支把「猜哪裡錯」變成「一跑就知道通沒通、哪裡錯、cron 那邊填什麼」。
 #
@@ -45,8 +45,8 @@ cmd_gen() {
   say "${c_cyn}(1) 到 Zeabur -> 該 service -> Variables，設定以下 4 個變數：${c_rst}"
   say "   CRON_SECRET=${secret}"
   say "   FEEDBACK_DIGEST_TO=<你的收件信箱，可逗號分隔多個>"
-  say "   ZSEND_API_KEY=<Zeabur ZSend -> API Key>"
-  say "   ZSEND_FROM=<已驗證寄件地址，例 noreply@sportsmedicine.tw>"
+  say "   RESEND_API_KEY=<Resend dashboard -> API Keys>"
+  say "   EMAIL_FROM=<已驗證寄件地址，例 noreply@sportsmedicine.tw>"
   say ""
   say "${c_ylw}(2) 設完務必 Redeploy${c_rst}（Zeabur 變數改了不重啟不生效——這是 401 頭號原因）"
   say ""
