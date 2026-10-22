@@ -13,6 +13,7 @@ import {
   ArrowRight,
 } from "lucide-react";
 import { statsAPI } from "../services/api";
+import { learningPaths } from "../data/learningPaths";
 
 const facts = [
   "115 年全中運、全大運及全民運動會取消將線上測驗通過證明列為報名條件；選手仍應學習運動禁藥防制知識，其他賽會依各自公告",
@@ -119,10 +120,13 @@ function Home() {
           <h1>乾淨運動<br /><span>從你我開始</span></h1>
           <p className="clean-hero-intro">認識禁用清單、練習情境判斷，<br className="hidden sm:block" />讓每一次上場，都準備得更充分。</p>
           <div className="clean-hero-actions">
-            <Link to="/quiz" className="clean-primary"><Zap size={19} />開始測驗<ArrowRight size={18} /></Link>
+            <Link to="/tue?tab=tools" className="clean-primary"><Search size={19} />先查藥物<ArrowRight size={18} /></Link>
             <Link to="/prohibited-list" className="clean-secondary"><Shield size={18} />瀏覽禁用清單</Link>
           </div>
-          <p className="clean-hero-note">運動禁藥防制互動教學平台</p>
+          <nav aria-label="選擇學習角色" className="mt-6 flex flex-wrap gap-3">
+            {learningPaths.map(role => <Link key={role.id} to={`/learning?role=${role.id}`} className="inline-flex items-center gap-2 rounded-lg border border-white/50 bg-emerald-950/70 px-4 py-3 text-sm font-semibold text-white hover:bg-emerald-900">我是{role.label}<ArrowRight size={15} /></Link>)}
+          </nav>
+          <p className="clean-hero-note">運動禁藥防制互動教學平台 · 學習不能代替官方用藥查核</p>
         </div>
       </section>
 
