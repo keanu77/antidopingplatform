@@ -114,6 +114,10 @@ function Education() {
         </div>
       )}
 
+      <div className="mb-6 rounded-lg border border-emerald-200 bg-emerald-50 p-4 text-sm">
+        <p>正式測驗提供逐題來源。舊 API 題庫 69 題待逐題核對，暫停答案評分。</p>
+        <div className="mt-2 flex flex-wrap gap-4"><Link to="/quiz" className="text-primary-700 underline">前往 16 題有來源測驗</Link><Link to="/case-learning" className="text-primary-700 underline">30 案教學與證據待辦</Link></div>
+      </div>
       {/* Tab Navigation */}
       <div
         role="tablist"

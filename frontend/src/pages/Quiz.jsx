@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+import EvidenceLinks from "../components/EvidenceLinks";
 import { useState, useMemo, useEffect, useRef } from "react";
 import {
   CheckCircle,
@@ -84,6 +86,8 @@ function Quiz() {
             互動測驗
           </h1>
           <p className="text-gray-500">測試你對運動禁藥的了解程度</p>
+          <p className="mt-3 text-sm text-gray-700">題目依標示的 2026 清單、2021 Code 與相關來源學習。歷史版本的答案不代表日後年度允許用藥，本測驗不提供官方認證。</p>
+          <Link to="/sources#rule-transition" className="inline-block mt-2 text-primary-700 underline">來源與 2026／2027 交接狀態</Link>
         </div>
 
         <div className="space-y-4">
@@ -297,6 +301,7 @@ function Quiz() {
           <p className="text-gray-700 text-sm leading-relaxed">
             {q.explanation}
           </p>
+          <EvidenceLinks evidenceId={`quiz:${q.id}`} />
         </div>
       )}
 

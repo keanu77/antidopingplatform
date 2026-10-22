@@ -70,8 +70,14 @@ const propranolol = {
   sportRestricted: ["射箭", "射擊", "高爾夫"],
   sportRestrictedOutOfComp: ["射箭", "射擊"],
 };
-const glucagon = { prohibition: "not-prohibited", needsTUE: false };
+const guanfacine = { prohibition: "not-prohibited", needsTUE: false };
 const codeine = { prohibition: "monitored", needsTUE: false };
+
+// Context-only fixtures include explicit evidence identity; real data/S5 tests remain separate.
+for (const [key, substance] of Object.entries({ salbutamol, prednisolone, testosterone, insulin, methylphenidate, cocaine, propranolol, guanfacine, codeine })) {
+  substance.evidenceId = `drug:${key}`;
+  substance.ruleVersion = "wada-2026";
+}
 
 describe("evaluateDrug — 全時段禁用 + 途徑差異（salbutamol）", () => {
   it("吸入 → 允許但受閾值限制，且帶出閾值", () => {
@@ -152,7 +158,7 @@ describe("evaluateDrug — 全時段禁用、無途徑差異", () => {
     expect(evaluateDrug(testosterone, {}).verdict).toBe("needs-tue");
   });
   it("明確標記不可獲准的全時段禁用物質 → 禁用", () => {
-    expect(evaluateDrug({ prohibition: "in-and-out", tueEligible: false }, {}).verdict).toBe("prohibited");
+    expect(evaluateDrug({ prohibition: "in-and-out", tueEligible: false, evidenceId: "drug:clenbuterol", ruleVersion: "wada-2026" }, {}).verdict).toBe("prohibited");
   });
   it("insulin（tueEligible=true）→ 需 TUE", () => {
     expect(evaluateDrug(insulin, {}).verdict).toBe("needs-tue");
@@ -215,8 +221,8 @@ describe("evaluateDrug — 特定精準運動（P1 Beta 阻斷劑 propranolol）
 });
 
 describe("evaluateDrug — 未列入 / 監控 / 邊界", () => {
-  it("glucagon（未列入）→ 允許", () => {
-    expect(evaluateDrug(glucagon, {}).verdict).toBe("permitted");
+  it("guanfacine（未列入）→ 允許", () => {
+    expect(evaluateDrug(guanfacine, {}).verdict).toBe("permitted");
   });
   it("codeine（監控）→ monitored", () => {
     expect(evaluateDrug(codeine, {}).verdict).toBe("monitored");
@@ -244,7 +250,7 @@ describe("輔助函式", () => {
     expect(requiresCompetitionContext(propranolol)).toBe(true);
     // in-and-out 閾值賽內外一致，不需此維度
     expect(requiresCompetitionContext(salbutamol)).toBe(false);
-    expect(requiresCompetitionContext(glucagon)).toBe(false);
+    expect(requiresCompetitionContext(guanfacine)).toBe(false);
   });
   it("VERDICT_META 覆蓋所有可能 verdict（含 in-competition）、ROUTE_LABELS 含五途徑", () => {
     [

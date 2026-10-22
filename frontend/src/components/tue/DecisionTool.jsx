@@ -1,3 +1,4 @@
+import EvidenceLinks from "../EvidenceLinks";
 import { S5_EXCEPTIONS_NOTE } from "../../data/s5Rule";
 import { useState, useEffect } from "react";
 import { Pill } from "lucide-react";
@@ -41,6 +42,7 @@ function DecisionResult({ result }) {
           <li key={r}>{r}</li>
         ))}
       </ul>
+      <EvidenceLinks evidenceId={result.evidence?.evidenceId} />
       {result.threshold && (
         <p className="mt-2 text-sm font-medium text-gray-800">閾值：{result.threshold}</p>
       )}

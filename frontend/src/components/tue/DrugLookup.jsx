@@ -1,3 +1,4 @@
+import EvidenceLinks from "../EvidenceLinks";
 import { useState, useEffect, useRef } from "react";
 import { Search } from "lucide-react";
 import { tueAPI } from "../../services/api";
@@ -101,7 +102,8 @@ function DrugLookup() {
           <ul className="mt-2 space-y-1 text-sm text-gray-800 list-disc list-inside">
             {decision.reasons.map((reason) => <li key={reason}>{reason}</li>)}
           </ul>
-          <p className="mt-1 text-sm text-gray-700">{result.explanation}</p>
+          {decision.evidence?.valid && <p className="mt-1 text-sm text-gray-700">{result.explanation}</p>}
+          <EvidenceLinks evidenceId={result.evidenceId} />
           {decision.verdict === "conditions-required" && (
             <a href="#tue-decision" className="inline-block mt-3 text-sm font-semibold text-primary-700 underline">
               前往多步決策工具，確認使用條件

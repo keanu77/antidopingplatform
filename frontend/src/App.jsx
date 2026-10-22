@@ -15,6 +15,9 @@ const TestingProcess = lazy(() => import("./pages/TestingProcess"));
 const News = lazy(() => import("./pages/News"));
 const Resources = lazy(() => import("./pages/Resources"));
 const ADeL = lazy(() => import("./pages/ADeL"));
+const ContentSources = lazy(() => import("./pages/ContentSources"));
+const EditorialPolicy = lazy(() => import("./pages/EditorialPolicy"));
+const CaseLearning = lazy(() => import("./pages/CaseLearning"));
 const NotFound = lazy(() => import("./pages/NotFound"));
 
 function App() {
@@ -44,6 +47,9 @@ function App() {
               <Route path="/news" element={<News />} />
               <Route path="/resources" element={<Resources />} />
               <Route path="/adel" element={<ADeL />} />
+              <Route path="/sources" element={<ContentSources />} />
+              <Route path="/editorial-policy" element={<EditorialPolicy />} />
+              <Route path="/case-learning" element={<CaseLearning />} />
               <Route path="*" element={<NotFound />} />
             </Routes>
           </Suspense>

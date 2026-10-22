@@ -1,3 +1,4 @@
+import { assessEvidence } from "../../../shared/content-evidence.mjs";
 import { S5_RULE_NOTE, S5_EXCEPTIONS_NOTE } from "../data/s5Rule.js";
 
 // TUE 多步決策引擎（純函式，無 React／DOM 依賴，供 tools tab 決策工具使用）。
@@ -246,7 +247,9 @@ function evaluateContext(
 
 /** 依使用條件判定，再套用 S5 列名物質併用規則；不計算個人劑量或尿液濃度。 */
 export function evaluateDrug(substance, opts = {}) {
-  const result = evaluateContext(substance, opts);
+  const evidence = assessEvidence(substance?.evidenceId, substance?.ruleVersion, opts.asOf);
+  if (!evidence.valid) return { verdict: "unknown", reasons: [evidence.reason], evidence };
+  const result = { ...evaluateContext(substance, opts), evidence };
   const s5Concomitant = opts.s5Concomitant || "unknown";
   const inCompetition = opts.inCompetition === undefined ? true : opts.inCompetition;
   const applies = requiresS5Check(substance)

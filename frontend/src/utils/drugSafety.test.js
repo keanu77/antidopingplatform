@@ -15,7 +15,7 @@ describe("快速查詢與情境判定使用相同安全邊界", () => {
     expect(checkResultVerdict(result)).toBe("unknown");
   });
   it("明確允許、監控與全時段禁用仍可區分", () => {
-    expect(checkResultVerdict(lookup("glucagon"))).toBe("permitted");
+    expect(checkResultVerdict(lookup("guanfacine"))).toBe("permitted");
     expect(checkResultVerdict(lookup("codeine"))).toBe("monitored");
     expect(checkResultVerdict(lookup("insulin"))).toBe("needs-tue");
     expect(checkResultVerdict(lookup("clenbuterol"))).toBe("prohibited");

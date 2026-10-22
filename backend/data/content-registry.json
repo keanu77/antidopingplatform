@@ -1,0 +1,3554 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-10-23",
+  "statusLabels": {
+    "source_checked": "已核對列明來源",
+    "pending_verification": "待核對，停止確定判定",
+    "superseded": "已被新版本取代",
+    "withdrawn": "已撤回"
+  },
+  "professionalApprovalNote": "尚無逐項具名專業簽核紀錄；責任角色用於分派工作，不代表已取得專業認證。",
+  "versions": {
+    "wada-2026": {
+      "label": "2026 禁用清單／監控計畫",
+      "ruleYear": 2026,
+      "effectiveFrom": "2026-01-01",
+      "effectiveUntil": "2027-01-01",
+      "activationStatus": "active",
+      "verifiedAt": "2026-10-23",
+      "nextReviewAt": "2026-12-31",
+      "sourceId": "list-2026"
+    },
+    "wada-2027": {
+      "label": "2027 禁用清單（已公布，平台未啟用）",
+      "ruleYear": 2027,
+      "publishedAt": "2026-09-21",
+      "effectiveFrom": "2027-01-01",
+      "effectiveUntil": "2028-01-01",
+      "activationStatus": "published_not_activated",
+      "verifiedAt": "2026-10-23",
+      "nextReviewAt": "2026-12-31",
+      "sourceId": "list-2027",
+      "note": "僅核實公告及生效日期；尚未逐條完成平台規則遷移與測試，不自動啟用。"
+    },
+    "code-2021": {
+      "label": "2021 Code（2026 適用）",
+      "ruleYear": 2021,
+      "effectiveFrom": "2021-01-01",
+      "effectiveUntil": "2027-01-01",
+      "activationStatus": "active",
+      "verifiedAt": "2026-10-23",
+      "nextReviewAt": "2026-12-31",
+      "sourceId": "code-2021"
+    },
+    "isti-2023": {
+      "label": "2023 ISTI（2026 適用）",
+      "ruleYear": 2023,
+      "effectiveFrom": "2023-01-01",
+      "effectiveUntil": "2027-01-01",
+      "activationStatus": "active",
+      "verifiedAt": "2026-10-23",
+      "nextReviewAt": "2026-12-31",
+      "sourceId": "isti-2023"
+    },
+    "ctada-2026": {
+      "label": "CTADA 115 年賽會公告",
+      "ruleYear": 2026,
+      "effectiveFrom": "2026-01-01",
+      "effectiveUntil": "2027-01-01",
+      "activationStatus": "active",
+      "verifiedAt": "2026-10-23",
+      "nextReviewAt": "2026-12-31",
+      "sourceId": "ctada-exam"
+    },
+    "unverified": {
+      "label": "適用版本待逐題核對",
+      "ruleYear": null,
+      "effectiveFrom": null,
+      "effectiveUntil": null,
+      "activationStatus": "pending_verification",
+      "verifiedAt": null,
+      "nextReviewAt": "2026-12-31",
+      "sourceId": null,
+      "note": "舊題庫尚未確認適用年份及條文，不把盤點日當作規則生效日。"
+    }
+  },
+  "sources": {
+    "list-2026": {
+      "title": "WADA 2026 禁用清單",
+      "url": "https://www.wada-ama.org/sites/default/files/2025-09/2026list_en_final_clean_september_2025.pdf",
+      "publisher": "WADA"
+    },
+    "list-2027": {
+      "title": "WADA 2027 禁用清單公告（2026-09-21）",
+      "url": "https://www.wada-ama.org/en/resources/2027-prohibited-list",
+      "publisher": "WADA"
+    },
+    "monitoring-2026": {
+      "title": "WADA 2026 監控計畫",
+      "url": "https://www.wada-ama.org/sites/default/files/2025-09/2026_list_monitoring_program_en_final_clean_september_2025.pdf",
+      "publisher": "WADA"
+    },
+    "list-faq": {
+      "title": "WADA 禁用清單官方 FAQ",
+      "url": "https://www.wada-ama.org/en/prohibited-list",
+      "publisher": "WADA"
+    },
+    "code-2021": {
+      "title": "2021 World Anti-Doping Code",
+      "url": "https://www.wada-ama.org/sites/default/files/resources/files/2021_wada_code.pdf",
+      "publisher": "WADA"
+    },
+    "isti-2023": {
+      "title": "2023 ISTI 採樣與調查標準",
+      "url": "https://www.wada-ama.org/sites/default/files/2022-12/isti_2023_w_annex_k_final_clean.pdf",
+      "publisher": "WADA"
+    },
+    "istue-2023": {
+      "title": "ISTUE 治療用途豁免國際標準",
+      "url": "https://www.wada-ama.org/en/resources/world-anti-doping-program/international-standard-therapeutic-use-exemptions-istue",
+      "publisher": "WADA"
+    },
+    "gc-2025": {
+      "title": "糖皮質激素與 TUE 指引（2025-09）",
+      "url": "https://www.wada-ama.org/sites/default/files/2025-09/glucocorticoids_and_therapeutic_use_exemptions_september_2025.pdf",
+      "publisher": "WADA"
+    },
+    "adhd-2023": {
+      "title": "ADHD TUE 指引 v7.1（2023-10）",
+      "url": "https://www.wada-ama.org/sites/default/files/2023-12/tue_physician_guidelines_adhd_-_version_7.1_-_october_2023.pdf",
+      "publisher": "WADA"
+    },
+    "cardio-2018": {
+      "title": "心血管疾病 TUE 指引 v2.0",
+      "url": "https://www.wada-ama.org/sites/default/files/2022-01/cardiovascular_conditions_v_2.0_jan2018_en.pdf",
+      "publisher": "WADA"
+    },
+    "hypogonadism-2026": {
+      "title": "男性性腺功能低下 TUE 指引 v9（2026-01）",
+      "url": "https://www.antidoping.org.tw/wp-content/uploads/2026/03/tue_physician_guidelines_male_hypogonadism_-_version_9_-_january_2026.pdf",
+      "publisher": "WADA（CTADA 提供）"
+    },
+    "ctada-about": {
+      "title": "CTADA 本會簡介",
+      "url": "https://www.antidoping.org.tw/organization/",
+      "publisher": "CTADA"
+    },
+    "ctada-exam": {
+      "title": "115 年測驗平台公告",
+      "url": "https://www.antidoping.org.tw/news/測驗平台公告/",
+      "publisher": "CTADA"
+    },
+    "ctada-consult": {
+      "title": "CTADA 運動禁藥相關諮詢",
+      "url": "https://www.antidoping.org.tw/consult/",
+      "publisher": "CTADA"
+    },
+    "tada": {
+      "title": "TADA 運動禁藥查詢系統",
+      "url": "https://www.check-antidoping.org.tw/",
+      "publisher": "TADA"
+    }
+  },
+  "entries": {
+    "drug:salbutamol": {
+      "title": "Salbutamol 沙丁胺醇",
+      "ruleVersion": "wada-2026",
+      "references": [
+        {
+          "sourceId": "list-2026",
+          "locator": "S3，頁 9"
+        },
+        {
+          "sourceId": "list-2026",
+          "locator": "S5 併用閾值物質規則及例外，頁 12"
+        }
+      ],
+      "verificationStatus": "source_checked",
+      "verifiedAt": "2026-10-23",
+      "inventoryAt": "2026-10-23",
+      "ownerRole": "規則內容維護編輯",
+      "nextReviewAt": "2026-12-31",
+      "reviewScope": "核對禁用分類與列明例外；不是個別商品、診療適應症或 TUE 核准。",
+      "professionalApproval": "not_recorded",
+      "history": [
+        {
+          "date": "2026-10-23",
+          "action": "登錄來源與核對範圍",
+          "role": "規則內容維護編輯"
+        }
+      ]
+    },
+    "drug:formoterol": {
+      "title": "Formoterol 福莫特羅",
+      "ruleVersion": "wada-2026",
+      "references": [
+        {
+          "sourceId": "list-2026",
+          "locator": "S3，頁 9"
+        },
+        {
+          "sourceId": "list-2026",
+          "locator": "S5 併用閾值物質規則及例外，頁 12"
+        }
+      ],
+      "verificationStatus": "source_checked",
+      "verifiedAt": "2026-10-23",
+      "inventoryAt": "2026-10-23",
+      "ownerRole": "規則內容維護編輯",
+      "nextReviewAt": "2026-12-31",
+      "reviewScope": "核對禁用分類與列明例外；不是個別商品、診療適應症或 TUE 核准。",
+      "professionalApproval": "not_recorded",
+      "history": [
+        {
+          "date": "2026-10-23",
+          "action": "登錄來源與核對範圍",
+          "role": "規則內容維護編輯"
+        }
+      ]
+    },
+    "drug:salmeterol": {
+      "title": "Salmeterol 沙美特羅",
+      "ruleVersion": "wada-2026",
+      "references": [
+        {
+          "sourceId": "list-2026",
+          "locator": "S3，頁 9"
+        }
+      ],
+      "verificationStatus": "source_checked",
+      "verifiedAt": "2026-10-23",
+      "inventoryAt": "2026-10-23",
+      "ownerRole": "規則內容維護編輯",
+      "nextReviewAt": "2026-12-31",
+      "reviewScope": "核對禁用分類與列明例外；不是個別商品、診療適應症或 TUE 核准。",
+      "professionalApproval": "not_recorded",
+      "history": [
+        {
+          "date": "2026-10-23",
+          "action": "登錄來源與核對範圍",
+          "role": "規則內容維護編輯"
+        }
+      ]
+    },
+    "drug:vilanterol": {
+      "title": "Vilanterol 維蘭特羅",
+      "ruleVersion": "wada-2026",
+      "references": [
+        {
+          "sourceId": "list-2026",
+          "locator": "S3，頁 9"
+        }
+      ],
+      "verificationStatus": "source_checked",
+      "verifiedAt": "2026-10-23",
+      "inventoryAt": "2026-10-23",
+      "ownerRole": "規則內容維護編輯",
+      "nextReviewAt": "2026-12-31",
+      "reviewScope": "核對禁用分類與列明例外；不是個別商品、診療適應症或 TUE 核准。",
+      "professionalApproval": "not_recorded",
+      "history": [
+        {
+          "date": "2026-10-23",
+          "action": "登錄來源與核對範圍",
+          "role": "規則內容維護編輯"
+        }
+      ]
+    },
+    "drug:clenbuterol": {
+      "title": "Clenbuterol 克倫特羅",
+      "ruleVersion": "wada-2026",
+      "references": [
+        {
+          "sourceId": "list-2026",
+          "locator": "S1，頁 5–6"
+        }
+      ],
+      "verificationStatus": "source_checked",
+      "verifiedAt": "2026-10-23",
+      "inventoryAt": "2026-10-23",
+      "ownerRole": "規則內容維護編輯",
+      "nextReviewAt": "2026-12-31",
+      "reviewScope": "核對禁用分類與列明例外；不是個別商品、診療適應症或 TUE 核准。",
+      "professionalApproval": "not_recorded",
+      "history": [
+        {
+          "date": "2026-10-23",
+          "action": "登錄來源與核對範圍",
+          "role": "規則內容維護編輯"
+        }
+      ]
+    },
+    "drug:insulin": {
+      "title": "Insulin 胰島素",
+      "ruleVersion": "wada-2026",
+      "references": [
+        {
+          "sourceId": "list-2026",
+          "locator": "S4，頁 10–11"
+        }
+      ],
+      "verificationStatus": "source_checked",
+      "verifiedAt": "2026-10-23",
+      "inventoryAt": "2026-10-23",
+      "ownerRole": "規則內容維護編輯",
+      "nextReviewAt": "2026-12-31",
+      "reviewScope": "核對禁用分類與列明例外；不是個別商品、診療適應症或 TUE 核准。",
+      "professionalApproval": "not_recorded",
+      "history": [
+        {
+          "date": "2026-10-23",
+          "action": "登錄來源與核對範圍",
+          "role": "規則內容維護編輯"
+        }
+      ]
+    },
+    "drug:glucagon": {
+      "title": "Glucagon 升糖素",
+      "ruleVersion": "wada-2026",
+      "references": [
+        {
+          "sourceId": "list-2026",
+          "locator": "S0–S9／P1，頁 4–20；未列名不能單獨作為允許證據"
+        },
+        {
+          "sourceId": "tada",
+          "locator": "須以完整商品成分、途徑及查詢紀錄確認；目前未保存本物質的個別官方查詢證據"
+        }
+      ],
+      "verificationStatus": "pending_verification",
+      "verifiedAt": null,
+      "inventoryAt": "2026-10-23",
+      "ownerRole": "規則內容維護編輯",
+      "nextReviewAt": "2026-12-31",
+      "reviewScope": "待查：尚未保存此物質的個別官方許可證據。已盤點原資料及查詢管道，不能以未列名或常用藥身分代替核對；不構成禁用認定。",
+      "professionalApproval": "not_recorded",
+      "history": [
+        {
+          "date": "2026-10-23",
+          "action": "盤點入列，暫停確定答案／允許判定；等待對應證據",
+          "role": "規則內容維護編輯"
+        }
+      ]
+    },
+    "drug:methylphenidate": {
+      "title": "Methylphenidate 派醋甲酯（利他能）",
+      "ruleVersion": "wada-2026",
+      "references": [
+        {
+          "sourceId": "list-2026",
+          "locator": "S6，頁 15–16"
+        },
+        {
+          "sourceId": "adhd-2023",
+          "locator": "3(a) 治療，頁 3；4 非禁用替代，頁 5"
+        }
+      ],
+      "verificationStatus": "source_checked",
+      "verifiedAt": "2026-10-23",
+      "inventoryAt": "2026-10-23",
+      "ownerRole": "規則內容維護編輯",
+      "nextReviewAt": "2026-12-31",
+      "reviewScope": "核對禁用分類與列明例外；不是個別商品、診療適應症或 TUE 核准。",
+      "professionalApproval": "not_recorded",
+      "history": [
+        {
+          "date": "2026-10-23",
+          "action": "登錄來源與核對範圍",
+          "role": "規則內容維護編輯"
+        }
+      ]
+    },
+    "drug:amphetamine": {
+      "title": "Amphetamine 安非他命",
+      "ruleVersion": "wada-2026",
+      "references": [
+        {
+          "sourceId": "list-2026",
+          "locator": "S6，頁 15–16"
+        },
+        {
+          "sourceId": "adhd-2023",
+          "locator": "3(a) 治療，頁 3；4 非禁用替代，頁 5"
+        }
+      ],
+      "verificationStatus": "source_checked",
+      "verifiedAt": "2026-10-23",
+      "inventoryAt": "2026-10-23",
+      "ownerRole": "規則內容維護編輯",
+      "nextReviewAt": "2026-12-31",
+      "reviewScope": "核對禁用分類與列明例外；不是個別商品、診療適應症或 TUE 核准。",
+      "professionalApproval": "not_recorded",
+      "history": [
+        {
+          "date": "2026-10-23",
+          "action": "登錄來源與核對範圍",
+          "role": "規則內容維護編輯"
+        }
+      ]
+    },
+    "drug:modafinil": {
+      "title": "Modafinil 莫達非尼",
+      "ruleVersion": "wada-2026",
+      "references": [
+        {
+          "sourceId": "list-2026",
+          "locator": "S6，頁 15–16"
+        }
+      ],
+      "verificationStatus": "source_checked",
+      "verifiedAt": "2026-10-23",
+      "inventoryAt": "2026-10-23",
+      "ownerRole": "規則內容維護編輯",
+      "nextReviewAt": "2026-12-31",
+      "reviewScope": "核對禁用分類與列明例外；不是個別商品、診療適應症或 TUE 核准。",
+      "professionalApproval": "not_recorded",
+      "history": [
+        {
+          "date": "2026-10-23",
+          "action": "登錄來源與核對範圍",
+          "role": "規則內容維護編輯"
+        }
+      ]
+    },
+    "drug:cocaine": {
+      "title": "Cocaine 古柯鹼",
+      "ruleVersion": "wada-2026",
+      "references": [
+        {
+          "sourceId": "list-2026",
+          "locator": "S6，頁 15–16"
+        }
+      ],
+      "verificationStatus": "source_checked",
+      "verifiedAt": "2026-10-23",
+      "inventoryAt": "2026-10-23",
+      "ownerRole": "規則內容維護編輯",
+      "nextReviewAt": "2026-12-31",
+      "reviewScope": "核對禁用分類與列明例外；不是個別商品、診療適應症或 TUE 核准。",
+      "professionalApproval": "not_recorded",
+      "history": [
+        {
+          "date": "2026-10-23",
+          "action": "登錄來源與核對範圍",
+          "role": "規則內容維護編輯"
+        }
+      ]
+    },
+    "drug:pseudoephedrine": {
+      "title": "Pseudoephedrine 偽麻黃鹼",
+      "ruleVersion": "wada-2026",
+      "references": [
+        {
+          "sourceId": "list-2026",
+          "locator": "S6，頁 15–16"
+        },
+        {
+          "sourceId": "list-2026",
+          "locator": "S5 併用閾值物質規則及例外，頁 12"
+        }
+      ],
+      "verificationStatus": "source_checked",
+      "verifiedAt": "2026-10-23",
+      "inventoryAt": "2026-10-23",
+      "ownerRole": "規則內容維護編輯",
+      "nextReviewAt": "2026-12-31",
+      "reviewScope": "核對禁用分類與列明例外；不是個別商品、診療適應症或 TUE 核准。",
+      "professionalApproval": "not_recorded",
+      "history": [
+        {
+          "date": "2026-10-23",
+          "action": "登錄來源與核對範圍",
+          "role": "規則內容維護編輯"
+        }
+      ]
+    },
+    "drug:ephedrine": {
+      "title": "Ephedrine 麻黃鹼",
+      "ruleVersion": "wada-2026",
+      "references": [
+        {
+          "sourceId": "list-2026",
+          "locator": "S6，頁 15–16"
+        },
+        {
+          "sourceId": "list-2026",
+          "locator": "S5 併用閾值物質規則及例外，頁 12"
+        }
+      ],
+      "verificationStatus": "source_checked",
+      "verifiedAt": "2026-10-23",
+      "inventoryAt": "2026-10-23",
+      "ownerRole": "規則內容維護編輯",
+      "nextReviewAt": "2026-12-31",
+      "reviewScope": "核對禁用分類與列明例外；不是個別商品、診療適應症或 TUE 核准。",
+      "professionalApproval": "not_recorded",
+      "history": [
+        {
+          "date": "2026-10-23",
+          "action": "登錄來源與核對範圍",
+          "role": "規則內容維護編輯"
+        }
+      ]
+    },
+    "drug:propranolol": {
+      "title": "Propranolol 普萘洛爾",
+      "ruleVersion": "wada-2026",
+      "references": [
+        {
+          "sourceId": "list-2026",
+          "locator": "P1，頁 20"
+        }
+      ],
+      "verificationStatus": "source_checked",
+      "verifiedAt": "2026-10-23",
+      "inventoryAt": "2026-10-23",
+      "ownerRole": "規則內容維護編輯",
+      "nextReviewAt": "2026-12-31",
+      "reviewScope": "核對禁用分類與列明例外；不是個別商品、診療適應症或 TUE 核准。",
+      "professionalApproval": "not_recorded",
+      "history": [
+        {
+          "date": "2026-10-23",
+          "action": "登錄來源與核對範圍",
+          "role": "規則內容維護編輯"
+        }
+      ]
+    },
+    "drug:atenolol": {
+      "title": "Atenolol 阿替洛爾",
+      "ruleVersion": "wada-2026",
+      "references": [
+        {
+          "sourceId": "list-2026",
+          "locator": "P1，頁 20"
+        }
+      ],
+      "verificationStatus": "source_checked",
+      "verifiedAt": "2026-10-23",
+      "inventoryAt": "2026-10-23",
+      "ownerRole": "規則內容維護編輯",
+      "nextReviewAt": "2026-12-31",
+      "reviewScope": "核對禁用分類與列明例外；不是個別商品、診療適應症或 TUE 核准。",
+      "professionalApproval": "not_recorded",
+      "history": [
+        {
+          "date": "2026-10-23",
+          "action": "登錄來源與核對範圍",
+          "role": "規則內容維護編輯"
+        }
+      ]
+    },
+    "drug:furosemide": {
+      "title": "Furosemide 呋塞米",
+      "ruleVersion": "wada-2026",
+      "references": [
+        {
+          "sourceId": "list-2026",
+          "locator": "S5，頁 12"
+        }
+      ],
+      "verificationStatus": "source_checked",
+      "verifiedAt": "2026-10-23",
+      "inventoryAt": "2026-10-23",
+      "ownerRole": "規則內容維護編輯",
+      "nextReviewAt": "2026-12-31",
+      "reviewScope": "核對禁用分類與列明例外；不是個別商品、診療適應症或 TUE 核准。",
+      "professionalApproval": "not_recorded",
+      "history": [
+        {
+          "date": "2026-10-23",
+          "action": "登錄來源與核對範圍",
+          "role": "規則內容維護編輯"
+        }
+      ]
+    },
+    "drug:hydrochlorothiazide": {
+      "title": "Hydrochlorothiazide 氫氯噻嗪",
+      "ruleVersion": "wada-2026",
+      "references": [
+        {
+          "sourceId": "list-2026",
+          "locator": "S5，頁 12"
+        }
+      ],
+      "verificationStatus": "source_checked",
+      "verifiedAt": "2026-10-23",
+      "inventoryAt": "2026-10-23",
+      "ownerRole": "規則內容維護編輯",
+      "nextReviewAt": "2026-12-31",
+      "reviewScope": "核對禁用分類與列明例外；不是個別商品、診療適應症或 TUE 核准。",
+      "professionalApproval": "not_recorded",
+      "history": [
+        {
+          "date": "2026-10-23",
+          "action": "登錄來源與核對範圍",
+          "role": "規則內容維護編輯"
+        }
+      ]
+    },
+    "drug:morphine": {
+      "title": "Morphine 嗎啡",
+      "ruleVersion": "wada-2026",
+      "references": [
+        {
+          "sourceId": "list-2026",
+          "locator": "S7，頁 17"
+        }
+      ],
+      "verificationStatus": "source_checked",
+      "verifiedAt": "2026-10-23",
+      "inventoryAt": "2026-10-23",
+      "ownerRole": "規則內容維護編輯",
+      "nextReviewAt": "2026-12-31",
+      "reviewScope": "核對禁用分類與列明例外；不是個別商品、診療適應症或 TUE 核准。",
+      "professionalApproval": "not_recorded",
+      "history": [
+        {
+          "date": "2026-10-23",
+          "action": "登錄來源與核對範圍",
+          "role": "規則內容維護編輯"
+        }
+      ]
+    },
+    "drug:codeine": {
+      "title": "Codeine 可待因",
+      "ruleVersion": "wada-2026",
+      "references": [
+        {
+          "sourceId": "monitoring-2026",
+          "locator": "第 5 項：麻醉性止痛藥監控（頁 1）"
+        }
+      ],
+      "verificationStatus": "source_checked",
+      "verifiedAt": "2026-10-23",
+      "inventoryAt": "2026-10-23",
+      "ownerRole": "規則內容維護編輯",
+      "nextReviewAt": "2026-12-31",
+      "reviewScope": "核對禁用分類與列明例外；不是個別商品、診療適應症或 TUE 核准。",
+      "professionalApproval": "not_recorded",
+      "history": [
+        {
+          "date": "2026-10-23",
+          "action": "登錄來源與核對範圍",
+          "role": "規則內容維護編輯"
+        }
+      ]
+    },
+    "drug:tramadol": {
+      "title": "Tramadol 曲馬多",
+      "ruleVersion": "wada-2026",
+      "references": [
+        {
+          "sourceId": "list-2026",
+          "locator": "S7，頁 17"
+        }
+      ],
+      "verificationStatus": "source_checked",
+      "verifiedAt": "2026-10-23",
+      "inventoryAt": "2026-10-23",
+      "ownerRole": "規則內容維護編輯",
+      "nextReviewAt": "2026-12-31",
+      "reviewScope": "核對禁用分類與列明例外；不是個別商品、診療適應症或 TUE 核准。",
+      "professionalApproval": "not_recorded",
+      "history": [
+        {
+          "date": "2026-10-23",
+          "action": "登錄來源與核對範圍",
+          "role": "規則內容維護編輯"
+        }
+      ]
+    },
+    "drug:prednisolone": {
+      "title": "Prednisolone 潑尼松龍",
+      "ruleVersion": "wada-2026",
+      "references": [
+        {
+          "sourceId": "list-2026",
+          "locator": "S9，頁 19"
+        },
+        {
+          "sourceId": "gc-2025",
+          "locator": "途徑、清除期表與回溯 TUE，頁 2–5"
+        }
+      ],
+      "verificationStatus": "source_checked",
+      "verifiedAt": "2026-10-23",
+      "inventoryAt": "2026-10-23",
+      "ownerRole": "規則內容維護編輯",
+      "nextReviewAt": "2026-12-31",
+      "reviewScope": "核對禁用分類與列明例外；不是個別商品、診療適應症或 TUE 核准。",
+      "professionalApproval": "not_recorded",
+      "history": [
+        {
+          "date": "2026-10-23",
+          "action": "登錄來源與核對範圍",
+          "role": "規則內容維護編輯"
+        }
+      ]
+    },
+    "drug:dexamethasone": {
+      "title": "Dexamethasone 地塞米松",
+      "ruleVersion": "wada-2026",
+      "references": [
+        {
+          "sourceId": "list-2026",
+          "locator": "S9，頁 19"
+        },
+        {
+          "sourceId": "gc-2025",
+          "locator": "途徑、清除期表與回溯 TUE，頁 2–5"
+        }
+      ],
+      "verificationStatus": "source_checked",
+      "verifiedAt": "2026-10-23",
+      "inventoryAt": "2026-10-23",
+      "ownerRole": "規則內容維護編輯",
+      "nextReviewAt": "2026-12-31",
+      "reviewScope": "核對禁用分類與列明例外；不是個別商品、診療適應症或 TUE 核准。",
+      "professionalApproval": "not_recorded",
+      "history": [
+        {
+          "date": "2026-10-23",
+          "action": "登錄來源與核對範圍",
+          "role": "規則內容維護編輯"
+        }
+      ]
+    },
+    "drug:hydrocortisone": {
+      "title": "Hydrocortisone 氫化可體松",
+      "ruleVersion": "wada-2026",
+      "references": [
+        {
+          "sourceId": "list-2026",
+          "locator": "S9，頁 19"
+        },
+        {
+          "sourceId": "gc-2025",
+          "locator": "途徑、清除期表與回溯 TUE，頁 2–5"
+        }
+      ],
+      "verificationStatus": "source_checked",
+      "verifiedAt": "2026-10-23",
+      "inventoryAt": "2026-10-23",
+      "ownerRole": "規則內容維護編輯",
+      "nextReviewAt": "2026-12-31",
+      "reviewScope": "核對禁用分類與列明例外；不是個別商品、診療適應症或 TUE 核准。",
+      "professionalApproval": "not_recorded",
+      "history": [
+        {
+          "date": "2026-10-23",
+          "action": "登錄來源與核對範圍",
+          "role": "規則內容維護編輯"
+        }
+      ]
+    },
+    "drug:triamcinolone": {
+      "title": "Triamcinolone 曲安奈德",
+      "ruleVersion": "wada-2026",
+      "references": [
+        {
+          "sourceId": "list-2026",
+          "locator": "S9，頁 19"
+        },
+        {
+          "sourceId": "gc-2025",
+          "locator": "途徑、清除期表與回溯 TUE，頁 2–5"
+        }
+      ],
+      "verificationStatus": "source_checked",
+      "verifiedAt": "2026-10-23",
+      "inventoryAt": "2026-10-23",
+      "ownerRole": "規則內容維護編輯",
+      "nextReviewAt": "2026-12-31",
+      "reviewScope": "核對禁用分類與列明例外；不是個別商品、診療適應症或 TUE 核准。",
+      "professionalApproval": "not_recorded",
+      "history": [
+        {
+          "date": "2026-10-23",
+          "action": "登錄來源與核對範圍",
+          "role": "規則內容維護編輯"
+        }
+      ]
+    },
+    "drug:betamethasone": {
+      "title": "Betamethasone 倍他米松",
+      "ruleVersion": "wada-2026",
+      "references": [
+        {
+          "sourceId": "list-2026",
+          "locator": "S9，頁 19"
+        },
+        {
+          "sourceId": "gc-2025",
+          "locator": "途徑、清除期表與回溯 TUE，頁 2–5"
+        }
+      ],
+      "verificationStatus": "source_checked",
+      "verifiedAt": "2026-10-23",
+      "inventoryAt": "2026-10-23",
+      "ownerRole": "規則內容維護編輯",
+      "nextReviewAt": "2026-12-31",
+      "reviewScope": "核對禁用分類與列明例外；不是個別商品、診療適應症或 TUE 核准。",
+      "professionalApproval": "not_recorded",
+      "history": [
+        {
+          "date": "2026-10-23",
+          "action": "登錄來源與核對範圍",
+          "role": "規則內容維護編輯"
+        }
+      ]
+    },
+    "drug:methylprednisolone": {
+      "title": "Methylprednisolone 甲基培尼皮質醇",
+      "ruleVersion": "wada-2026",
+      "references": [
+        {
+          "sourceId": "list-2026",
+          "locator": "S9，頁 19"
+        },
+        {
+          "sourceId": "gc-2025",
+          "locator": "途徑、清除期表與回溯 TUE，頁 2–5"
+        }
+      ],
+      "verificationStatus": "source_checked",
+      "verifiedAt": "2026-10-23",
+      "inventoryAt": "2026-10-23",
+      "ownerRole": "規則內容維護編輯",
+      "nextReviewAt": "2026-12-31",
+      "reviewScope": "核對禁用分類與列明例外；不是個別商品、診療適應症或 TUE 核准。",
+      "professionalApproval": "not_recorded",
+      "history": [
+        {
+          "date": "2026-10-23",
+          "action": "登錄來源與核對範圍",
+          "role": "規則內容維護編輯"
+        }
+      ]
+    },
+    "drug:budesonide": {
+      "title": "Budesonide 布地奈德",
+      "ruleVersion": "wada-2026",
+      "references": [
+        {
+          "sourceId": "list-2026",
+          "locator": "S9，頁 19"
+        },
+        {
+          "sourceId": "gc-2025",
+          "locator": "途徑、清除期表與回溯 TUE，頁 2–5"
+        }
+      ],
+      "verificationStatus": "source_checked",
+      "verifiedAt": "2026-10-23",
+      "inventoryAt": "2026-10-23",
+      "ownerRole": "規則內容維護編輯",
+      "nextReviewAt": "2026-12-31",
+      "reviewScope": "核對禁用分類與列明例外；不是個別商品、診療適應症或 TUE 核准。",
+      "professionalApproval": "not_recorded",
+      "history": [
+        {
+          "date": "2026-10-23",
+          "action": "登錄來源與核對範圍",
+          "role": "規則內容維護編輯"
+        }
+      ]
+    },
+    "drug:terbutaline": {
+      "title": "Terbutaline 特布他林",
+      "ruleVersion": "wada-2026",
+      "references": [
+        {
+          "sourceId": "list-2026",
+          "locator": "S3，頁 9"
+        }
+      ],
+      "verificationStatus": "source_checked",
+      "verifiedAt": "2026-10-23",
+      "inventoryAt": "2026-10-23",
+      "ownerRole": "規則內容維護編輯",
+      "nextReviewAt": "2026-12-31",
+      "reviewScope": "核對禁用分類與列明例外；不是個別商品、診療適應症或 TUE 核准。",
+      "professionalApproval": "not_recorded",
+      "history": [
+        {
+          "date": "2026-10-23",
+          "action": "登錄來源與核對範圍",
+          "role": "規則內容維護編輯"
+        }
+      ]
+    },
+    "drug:oxycodone": {
+      "title": "Oxycodone 羥考酮",
+      "ruleVersion": "wada-2026",
+      "references": [
+        {
+          "sourceId": "list-2026",
+          "locator": "S7，頁 17"
+        }
+      ],
+      "verificationStatus": "source_checked",
+      "verifiedAt": "2026-10-23",
+      "inventoryAt": "2026-10-23",
+      "ownerRole": "規則內容維護編輯",
+      "nextReviewAt": "2026-12-31",
+      "reviewScope": "核對禁用分類與列明例外；不是個別商品、診療適應症或 TUE 核准。",
+      "professionalApproval": "not_recorded",
+      "history": [
+        {
+          "date": "2026-10-23",
+          "action": "登錄來源與核對範圍",
+          "role": "規則內容維護編輯"
+        }
+      ]
+    },
+    "drug:fentanyl": {
+      "title": "Fentanyl 吩坦尼",
+      "ruleVersion": "wada-2026",
+      "references": [
+        {
+          "sourceId": "list-2026",
+          "locator": "S7，頁 17"
+        }
+      ],
+      "verificationStatus": "source_checked",
+      "verifiedAt": "2026-10-23",
+      "inventoryAt": "2026-10-23",
+      "ownerRole": "規則內容維護編輯",
+      "nextReviewAt": "2026-12-31",
+      "reviewScope": "核對禁用分類與列明例外；不是個別商品、診療適應症或 TUE 核准。",
+      "professionalApproval": "not_recorded",
+      "history": [
+        {
+          "date": "2026-10-23",
+          "action": "登錄來源與核對範圍",
+          "role": "規則內容維護編輯"
+        }
+      ]
+    },
+    "drug:hydrocodone": {
+      "title": "Hydrocodone 氫可酮",
+      "ruleVersion": "wada-2026",
+      "references": [
+        {
+          "sourceId": "monitoring-2026",
+          "locator": "第 5 項：麻醉性止痛藥監控（頁 1）"
+        }
+      ],
+      "verificationStatus": "source_checked",
+      "verifiedAt": "2026-10-23",
+      "inventoryAt": "2026-10-23",
+      "ownerRole": "規則內容維護編輯",
+      "nextReviewAt": "2026-12-31",
+      "reviewScope": "核對禁用分類與列明例外；不是個別商品、診療適應症或 TUE 核准。",
+      "professionalApproval": "not_recorded",
+      "history": [
+        {
+          "date": "2026-10-23",
+          "action": "登錄來源與核對範圍",
+          "role": "規則內容維護編輯"
+        }
+      ]
+    },
+    "drug:lisdexamfetamine": {
+      "title": "Lisdexamfetamine（安非他命前驅藥）",
+      "ruleVersion": "wada-2026",
+      "references": [
+        {
+          "sourceId": "list-2026",
+          "locator": "S6，頁 15–16"
+        },
+        {
+          "sourceId": "adhd-2023",
+          "locator": "3(a) 治療，頁 3；4 非禁用替代，頁 5"
+        }
+      ],
+      "verificationStatus": "source_checked",
+      "verifiedAt": "2026-10-23",
+      "inventoryAt": "2026-10-23",
+      "ownerRole": "規則內容維護編輯",
+      "nextReviewAt": "2026-12-31",
+      "reviewScope": "核對禁用分類與列明例外；不是個別商品、診療適應症或 TUE 核准。",
+      "professionalApproval": "not_recorded",
+      "history": [
+        {
+          "date": "2026-10-23",
+          "action": "登錄來源與核對範圍",
+          "role": "規則內容維護編輯"
+        }
+      ]
+    },
+    "drug:methylephedrine": {
+      "title": "Methylephedrine 甲基麻黃鹼",
+      "ruleVersion": "wada-2026",
+      "references": [
+        {
+          "sourceId": "list-2026",
+          "locator": "S6，頁 15–16"
+        },
+        {
+          "sourceId": "list-2026",
+          "locator": "S5 併用閾值物質規則及例外，頁 12"
+        }
+      ],
+      "verificationStatus": "source_checked",
+      "verifiedAt": "2026-10-23",
+      "inventoryAt": "2026-10-23",
+      "ownerRole": "規則內容維護編輯",
+      "nextReviewAt": "2026-12-31",
+      "reviewScope": "核對禁用分類與列明例外；不是個別商品、診療適應症或 TUE 核准。",
+      "professionalApproval": "not_recorded",
+      "history": [
+        {
+          "date": "2026-10-23",
+          "action": "登錄來源與核對範圍",
+          "role": "規則內容維護編輯"
+        }
+      ]
+    },
+    "drug:metoprolol": {
+      "title": "Metoprolol 美托洛爾",
+      "ruleVersion": "wada-2026",
+      "references": [
+        {
+          "sourceId": "list-2026",
+          "locator": "P1，頁 20"
+        }
+      ],
+      "verificationStatus": "source_checked",
+      "verifiedAt": "2026-10-23",
+      "inventoryAt": "2026-10-23",
+      "ownerRole": "規則內容維護編輯",
+      "nextReviewAt": "2026-12-31",
+      "reviewScope": "核對禁用分類與列明例外；不是個別商品、診療適應症或 TUE 核准。",
+      "professionalApproval": "not_recorded",
+      "history": [
+        {
+          "date": "2026-10-23",
+          "action": "登錄來源與核對範圍",
+          "role": "規則內容維護編輯"
+        }
+      ]
+    },
+    "drug:bisoprolol": {
+      "title": "Bisoprolol 比索洛爾",
+      "ruleVersion": "wada-2026",
+      "references": [
+        {
+          "sourceId": "list-2026",
+          "locator": "P1，頁 20"
+        }
+      ],
+      "verificationStatus": "source_checked",
+      "verifiedAt": "2026-10-23",
+      "inventoryAt": "2026-10-23",
+      "ownerRole": "規則內容維護編輯",
+      "nextReviewAt": "2026-12-31",
+      "reviewScope": "核對禁用分類與列明例外；不是個別商品、診療適應症或 TUE 核准。",
+      "professionalApproval": "not_recorded",
+      "history": [
+        {
+          "date": "2026-10-23",
+          "action": "登錄來源與核對範圍",
+          "role": "規則內容維護編輯"
+        }
+      ]
+    },
+    "drug:spironolactone": {
+      "title": "Spironolactone 螺內酯",
+      "ruleVersion": "wada-2026",
+      "references": [
+        {
+          "sourceId": "list-2026",
+          "locator": "S5，頁 12"
+        }
+      ],
+      "verificationStatus": "source_checked",
+      "verifiedAt": "2026-10-23",
+      "inventoryAt": "2026-10-23",
+      "ownerRole": "規則內容維護編輯",
+      "nextReviewAt": "2026-12-31",
+      "reviewScope": "核對禁用分類與列明例外；不是個別商品、診療適應症或 TUE 核准。",
+      "professionalApproval": "not_recorded",
+      "history": [
+        {
+          "date": "2026-10-23",
+          "action": "登錄來源與核對範圍",
+          "role": "規則內容維護編輯"
+        }
+      ]
+    },
+    "drug:atomoxetine": {
+      "title": "Atomoxetine 阿托莫西汀（思銳）",
+      "ruleVersion": "wada-2026",
+      "references": [
+        {
+          "sourceId": "list-2026",
+          "locator": "S0–S9／P1，頁 4–20；未列名不能單獨作為允許證據"
+        },
+        {
+          "sourceId": "adhd-2023",
+          "locator": "3(a) 治療，頁 3；4 非禁用替代，頁 5"
+        }
+      ],
+      "verificationStatus": "source_checked",
+      "verifiedAt": "2026-10-23",
+      "inventoryAt": "2026-10-23",
+      "ownerRole": "規則內容維護編輯",
+      "nextReviewAt": "2026-12-31",
+      "reviewScope": "核對禁用分類與列明例外；不是個別商品、診療適應症或 TUE 核准。",
+      "professionalApproval": "not_recorded",
+      "history": [
+        {
+          "date": "2026-10-23",
+          "action": "登錄來源與核對範圍",
+          "role": "規則內容維護編輯"
+        },
+        {
+          "date": "2026-10-23",
+          "action": "依 ADHD 指引第4節更正：不要求先證明非禁用藥物治療失敗，才能接受興奮劑TUE。",
+          "role": "規則內容維護編輯"
+        }
+      ]
+    },
+    "drug:guanfacine": {
+      "title": "Guanfacine 胍法辛",
+      "ruleVersion": "wada-2026",
+      "references": [
+        {
+          "sourceId": "list-2026",
+          "locator": "S0–S9／P1，頁 4–20；未列名不能單獨作為允許證據"
+        },
+        {
+          "sourceId": "adhd-2023",
+          "locator": "3(a) 治療，頁 3；4 非禁用替代，頁 5"
+        }
+      ],
+      "verificationStatus": "source_checked",
+      "verifiedAt": "2026-10-23",
+      "inventoryAt": "2026-10-23",
+      "ownerRole": "規則內容維護編輯",
+      "nextReviewAt": "2026-12-31",
+      "reviewScope": "核對禁用分類與列明例外；不是個別商品、診療適應症或 TUE 核准。",
+      "professionalApproval": "not_recorded",
+      "history": [
+        {
+          "date": "2026-10-23",
+          "action": "登錄來源與核對範圍",
+          "role": "規則內容維護編輯"
+        }
+      ]
+    },
+    "drug:amlodipine": {
+      "title": "Amlodipine 脈優",
+      "ruleVersion": "wada-2026",
+      "references": [
+        {
+          "sourceId": "cardio-2018",
+          "locator": "高血壓之非禁用替代藥物類別，頁 10"
+        },
+        {
+          "sourceId": "list-2026",
+          "locator": "S5 複方利尿劑須另判，頁 12"
+        }
+      ],
+      "verificationStatus": "source_checked",
+      "verifiedAt": "2026-10-23",
+      "inventoryAt": "2026-10-23",
+      "ownerRole": "規則內容維護編輯",
+      "nextReviewAt": "2026-12-31",
+      "reviewScope": "核對禁用分類與列明例外；不是個別商品、診療適應症或 TUE 核准。",
+      "professionalApproval": "not_recorded",
+      "history": [
+        {
+          "date": "2026-10-23",
+          "action": "登錄來源與核對範圍",
+          "role": "規則內容維護編輯"
+        }
+      ]
+    },
+    "drug:losartan": {
+      "title": "Losartan 可悅您",
+      "ruleVersion": "wada-2026",
+      "references": [
+        {
+          "sourceId": "cardio-2018",
+          "locator": "高血壓之非禁用替代藥物類別，頁 10"
+        },
+        {
+          "sourceId": "list-2026",
+          "locator": "S5 複方利尿劑須另判，頁 12"
+        }
+      ],
+      "verificationStatus": "source_checked",
+      "verifiedAt": "2026-10-23",
+      "inventoryAt": "2026-10-23",
+      "ownerRole": "規則內容維護編輯",
+      "nextReviewAt": "2026-12-31",
+      "reviewScope": "核對禁用分類與列明例外；不是個別商品、診療適應症或 TUE 核准。",
+      "professionalApproval": "not_recorded",
+      "history": [
+        {
+          "date": "2026-10-23",
+          "action": "登錄來源與核對範圍",
+          "role": "規則內容維護編輯"
+        }
+      ]
+    },
+    "drug:cannabidiol": {
+      "title": "Cannabidiol 大麻二酚（CBD）",
+      "ruleVersion": "wada-2026",
+      "references": [
+        {
+          "sourceId": "list-2026",
+          "locator": "S8 cannabidiol 例外，頁 18"
+        },
+        {
+          "sourceId": "list-faq",
+          "locator": "Is cannabidiol (CBD) oil prohibited?"
+        }
+      ],
+      "verificationStatus": "source_checked",
+      "verifiedAt": "2026-10-23",
+      "inventoryAt": "2026-10-23",
+      "ownerRole": "規則內容維護編輯",
+      "nextReviewAt": "2026-12-31",
+      "reviewScope": "核對禁用分類與列明例外；不是個別商品、診療適應症或 TUE 核准。",
+      "professionalApproval": "not_recorded",
+      "history": [
+        {
+          "date": "2026-10-23",
+          "action": "登錄來源與核對範圍",
+          "role": "規則內容維護編輯"
+        }
+      ]
+    },
+    "drug:meldonium": {
+      "title": "Meldonium 米屈肼",
+      "ruleVersion": "wada-2026",
+      "references": [
+        {
+          "sourceId": "list-2026",
+          "locator": "S4，頁 10–11"
+        }
+      ],
+      "verificationStatus": "source_checked",
+      "verifiedAt": "2026-10-23",
+      "inventoryAt": "2026-10-23",
+      "ownerRole": "規則內容維護編輯",
+      "nextReviewAt": "2026-12-31",
+      "reviewScope": "核對禁用分類與列明例外；不是個別商品、診療適應症或 TUE 核准。",
+      "professionalApproval": "not_recorded",
+      "history": [
+        {
+          "date": "2026-10-23",
+          "action": "登錄來源與核對範圍",
+          "role": "規則內容維護編輯"
+        }
+      ]
+    },
+    "drug:thc": {
+      "title": "THC 四氫大麻酚（大麻）",
+      "ruleVersion": "wada-2026",
+      "references": [
+        {
+          "sourceId": "list-2026",
+          "locator": "S8，頁 18"
+        }
+      ],
+      "verificationStatus": "source_checked",
+      "verifiedAt": "2026-10-23",
+      "inventoryAt": "2026-10-23",
+      "ownerRole": "規則內容維護編輯",
+      "nextReviewAt": "2026-12-31",
+      "reviewScope": "核對禁用分類與列明例外；不是個別商品、診療適應症或 TUE 核准。",
+      "professionalApproval": "not_recorded",
+      "history": [
+        {
+          "date": "2026-10-23",
+          "action": "登錄來源與核對範圍",
+          "role": "規則內容維護編輯"
+        }
+      ]
+    },
+    "drug:testosterone": {
+      "title": "Testosterone 睪固酮",
+      "ruleVersion": "wada-2026",
+      "references": [
+        {
+          "sourceId": "list-2026",
+          "locator": "S1，頁 5–6"
+        },
+        {
+          "sourceId": "hypogonadism-2026",
+          "locator": "診斷與核准條件，頁 2–3"
+        }
+      ],
+      "verificationStatus": "source_checked",
+      "verifiedAt": "2026-10-23",
+      "inventoryAt": "2026-10-23",
+      "ownerRole": "規則內容維護編輯",
+      "nextReviewAt": "2026-12-31",
+      "reviewScope": "核對禁用分類與列明例外；不是個別商品、診療適應症或 TUE 核准。",
+      "professionalApproval": "not_recorded",
+      "history": [
+        {
+          "date": "2026-10-23",
+          "action": "登錄來源與核對範圍",
+          "role": "規則內容維護編輯"
+        }
+      ]
+    },
+    "drug:nandrolone": {
+      "title": "Nandrolone 諾龍",
+      "ruleVersion": "wada-2026",
+      "references": [
+        {
+          "sourceId": "list-2026",
+          "locator": "S1，頁 5–6"
+        }
+      ],
+      "verificationStatus": "source_checked",
+      "verifiedAt": "2026-10-23",
+      "inventoryAt": "2026-10-23",
+      "ownerRole": "規則內容維護編輯",
+      "nextReviewAt": "2026-12-31",
+      "reviewScope": "核對禁用分類與列明例外；不是個別商品、診療適應症或 TUE 核准。",
+      "professionalApproval": "not_recorded",
+      "history": [
+        {
+          "date": "2026-10-23",
+          "action": "登錄來源與核對範圍",
+          "role": "規則內容維護編輯"
+        }
+      ]
+    },
+    "drug:paracetamol": {
+      "title": "Paracetamol 乙醯胺酚",
+      "ruleVersion": "wada-2026",
+      "references": [
+        {
+          "sourceId": "list-2026",
+          "locator": "S0–S9／P1，頁 4–20；未列名不能單獨作為允許證據"
+        },
+        {
+          "sourceId": "tada",
+          "locator": "須以完整商品成分、途徑及查詢紀錄確認；目前未保存本物質的個別官方查詢證據"
+        }
+      ],
+      "verificationStatus": "pending_verification",
+      "verifiedAt": null,
+      "inventoryAt": "2026-10-23",
+      "ownerRole": "規則內容維護編輯",
+      "nextReviewAt": "2026-12-31",
+      "reviewScope": "待查：尚未保存此物質的個別官方許可證據。已盤點原資料及查詢管道，不能以未列名或常用藥身分代替核對；不構成禁用認定。",
+      "professionalApproval": "not_recorded",
+      "history": [
+        {
+          "date": "2026-10-23",
+          "action": "盤點入列，暫停確定答案／允許判定；等待對應證據",
+          "role": "規則內容維護編輯"
+        }
+      ]
+    },
+    "drug:ibuprofen": {
+      "title": "Ibuprofen 布洛芬",
+      "ruleVersion": "wada-2026",
+      "references": [
+        {
+          "sourceId": "list-2026",
+          "locator": "S0–S9／P1，頁 4–20；未列名不能單獨作為允許證據"
+        },
+        {
+          "sourceId": "tada",
+          "locator": "須以完整商品成分、途徑及查詢紀錄確認；目前未保存本物質的個別官方查詢證據"
+        }
+      ],
+      "verificationStatus": "pending_verification",
+      "verifiedAt": null,
+      "inventoryAt": "2026-10-23",
+      "ownerRole": "規則內容維護編輯",
+      "nextReviewAt": "2026-12-31",
+      "reviewScope": "待查：尚未保存此物質的個別官方許可證據。已盤點原資料及查詢管道，不能以未列名或常用藥身分代替核對；不構成禁用認定。",
+      "professionalApproval": "not_recorded",
+      "history": [
+        {
+          "date": "2026-10-23",
+          "action": "盤點入列，暫停確定答案／允許判定；等待對應證據",
+          "role": "規則內容維護編輯"
+        }
+      ]
+    },
+    "drug:aspirin": {
+      "title": "Aspirin 阿斯匹靈",
+      "ruleVersion": "wada-2026",
+      "references": [
+        {
+          "sourceId": "list-2026",
+          "locator": "S0–S9／P1，頁 4–20；未列名不能單獨作為允許證據"
+        },
+        {
+          "sourceId": "tada",
+          "locator": "須以完整商品成分、途徑及查詢紀錄確認；目前未保存本物質的個別官方查詢證據"
+        }
+      ],
+      "verificationStatus": "pending_verification",
+      "verifiedAt": null,
+      "inventoryAt": "2026-10-23",
+      "ownerRole": "規則內容維護編輯",
+      "nextReviewAt": "2026-12-31",
+      "reviewScope": "待查：尚未保存此物質的個別官方許可證據。已盤點原資料及查詢管道，不能以未列名或常用藥身分代替核對；不構成禁用認定。",
+      "professionalApproval": "not_recorded",
+      "history": [
+        {
+          "date": "2026-10-23",
+          "action": "盤點入列，暫停確定答案／允許判定；等待對應證據",
+          "role": "規則內容維護編輯"
+        }
+      ]
+    },
+    "drug:cetirizine": {
+      "title": "Cetirizine 西替利嗪",
+      "ruleVersion": "wada-2026",
+      "references": [
+        {
+          "sourceId": "list-2026",
+          "locator": "S0–S9／P1，頁 4–20；未列名不能單獨作為允許證據"
+        },
+        {
+          "sourceId": "tada",
+          "locator": "須以完整商品成分、途徑及查詢紀錄確認；目前未保存本物質的個別官方查詢證據"
+        }
+      ],
+      "verificationStatus": "pending_verification",
+      "verifiedAt": null,
+      "inventoryAt": "2026-10-23",
+      "ownerRole": "規則內容維護編輯",
+      "nextReviewAt": "2026-12-31",
+      "reviewScope": "待查：尚未保存此物質的個別官方許可證據。已盤點原資料及查詢管道，不能以未列名或常用藥身分代替核對；不構成禁用認定。",
+      "professionalApproval": "not_recorded",
+      "history": [
+        {
+          "date": "2026-10-23",
+          "action": "盤點入列，暫停確定答案／允許判定；等待對應證據",
+          "role": "規則內容維護編輯"
+        }
+      ]
+    },
+    "drug:loratadine": {
+      "title": "Loratadine 氯雷他定",
+      "ruleVersion": "wada-2026",
+      "references": [
+        {
+          "sourceId": "list-2026",
+          "locator": "S0–S9／P1，頁 4–20；未列名不能單獨作為允許證據"
+        },
+        {
+          "sourceId": "tada",
+          "locator": "須以完整商品成分、途徑及查詢紀錄確認；目前未保存本物質的個別官方查詢證據"
+        }
+      ],
+      "verificationStatus": "pending_verification",
+      "verifiedAt": null,
+      "inventoryAt": "2026-10-23",
+      "ownerRole": "規則內容維護編輯",
+      "nextReviewAt": "2026-12-31",
+      "reviewScope": "待查：尚未保存此物質的個別官方許可證據。已盤點原資料及查詢管道，不能以未列名或常用藥身分代替核對；不構成禁用認定。",
+      "professionalApproval": "not_recorded",
+      "history": [
+        {
+          "date": "2026-10-23",
+          "action": "盤點入列，暫停確定答案／允許判定；等待對應證據",
+          "role": "規則內容維護編輯"
+        }
+      ]
+    },
+    "quiz:sc1": {
+      "title": "PRP / PRF 注射算不算運動禁藥？",
+      "ruleVersion": "wada-2026",
+      "references": [
+        {
+          "sourceId": "list-faq",
+          "locator": "What is the status of platelet derived preparations (e.g PRP and PRF)?"
+        },
+        {
+          "sourceId": "list-2026",
+          "locator": "S2.3 生長因子，頁 8"
+        }
+      ],
+      "verificationStatus": "source_checked",
+      "verifiedAt": "2026-10-23",
+      "inventoryAt": "2026-10-23",
+      "ownerRole": "規則內容維護編輯",
+      "nextReviewAt": "2026-12-31",
+      "reviewScope": "核對題目與解析所列規則及限制；不是正式教育證書或診療建議。",
+      "professionalApproval": "not_recorded",
+      "history": [
+        {
+          "date": "2026-10-23",
+          "action": "登錄來源與核對範圍",
+          "role": "規則內容維護編輯"
+        }
+      ]
+    },
+    "quiz:sc2": {
+      "title": "高壓氧治療算不算運動禁藥？",
+      "ruleVersion": "wada-2026",
+      "references": [
+        {
+          "sourceId": "list-2026",
+          "locator": "M1.2 吸入氧氣例外，頁 13"
+        }
+      ],
+      "verificationStatus": "source_checked",
+      "verifiedAt": "2026-10-23",
+      "inventoryAt": "2026-10-23",
+      "ownerRole": "規則內容維護編輯",
+      "nextReviewAt": "2026-12-31",
+      "reviewScope": "核對題目與解析所列規則及限制；不是正式教育證書或診療建議。",
+      "professionalApproval": "not_recorded",
+      "history": [
+        {
+          "date": "2026-10-23",
+          "action": "登錄來源與核對範圍",
+          "role": "規則內容維護編輯"
+        }
+      ]
+    },
+    "quiz:sc3": {
+      "title": "低氧艙訓練算不算運動禁藥？",
+      "ruleVersion": "wada-2026",
+      "references": [
+        {
+          "sourceId": "list-faq",
+          "locator": "Are hypoxic chambers permitted?"
+        }
+      ],
+      "verificationStatus": "source_checked",
+      "verifiedAt": "2026-10-23",
+      "inventoryAt": "2026-10-23",
+      "ownerRole": "規則內容維護編輯",
+      "nextReviewAt": "2026-12-31",
+      "reviewScope": "核對題目與解析所列規則及限制；不是正式教育證書或診療建議。",
+      "professionalApproval": "not_recorded",
+      "history": [
+        {
+          "date": "2026-10-23",
+          "action": "登錄來源與核對範圍",
+          "role": "規則內容維護編輯"
+        },
+        {
+          "date": "2026-10-23",
+          "action": "補上特定運動主管機構仍可依賽會規則限制低氧艙。",
+          "role": "規則內容維護編輯"
+        }
+      ]
+    },
+    "quiz:sc4": {
+      "title": "靜脈雷射 ILIB 算不算運動禁藥？",
+      "ruleVersion": "wada-2026",
+      "references": [
+        {
+          "sourceId": "list-faq",
+          "locator": "Is Intravenous Laser Therapy prohibited?"
+        },
+        {
+          "sourceId": "list-2026",
+          "locator": "M1.3／M2.2，頁 13"
+        }
+      ],
+      "verificationStatus": "source_checked",
+      "verifiedAt": "2026-10-23",
+      "inventoryAt": "2026-10-23",
+      "ownerRole": "規則內容維護編輯",
+      "nextReviewAt": "2026-12-31",
+      "reviewScope": "核對題目與解析所列規則及限制；不是正式教育證書或診療建議。",
+      "professionalApproval": "not_recorded",
+      "history": [
+        {
+          "date": "2026-10-23",
+          "action": "登錄來源與核對範圍",
+          "role": "規則內容維護編輯"
+        },
+        {
+          "date": "2026-10-23",
+          "action": "依官方 FAQ 將「可能涉及」修正為侵入式靜脈雷射屬 M1.3 禁用方法；非侵入式療程不可直接類推。",
+          "role": "規則內容維護編輯"
+        }
+      ]
+    },
+    "quiz:sc5": {
+      "title": "靜脈注射超過 100mL/12 小時算不算運動禁藥？",
+      "ruleVersion": "wada-2026",
+      "references": [
+        {
+          "sourceId": "list-2026",
+          "locator": "M2.2，頁 13"
+        }
+      ],
+      "verificationStatus": "source_checked",
+      "verifiedAt": "2026-10-23",
+      "inventoryAt": "2026-10-23",
+      "ownerRole": "規則內容維護編輯",
+      "nextReviewAt": "2026-12-31",
+      "reviewScope": "核對題目與解析所列規則及限制；不是正式教育證書或診療建議。",
+      "professionalApproval": "not_recorded",
+      "history": [
+        {
+          "date": "2026-10-23",
+          "action": "登錄來源與核對範圍",
+          "role": "規則內容維護編輯"
+        }
+      ]
+    },
+    "quiz:sc6": {
+      "title": "吸入式 Salbutamol（氣喘用藥）算不算運動禁藥？",
+      "ruleVersion": "wada-2026",
+      "references": [
+        {
+          "sourceId": "list-2026",
+          "locator": "S3，頁 9；S5 併用規則，頁 12"
+        }
+      ],
+      "verificationStatus": "source_checked",
+      "verifiedAt": "2026-10-23",
+      "inventoryAt": "2026-10-23",
+      "ownerRole": "規則內容維護編輯",
+      "nextReviewAt": "2026-12-31",
+      "reviewScope": "核對題目與解析所列規則及限制；不是正式教育證書或診療建議。",
+      "professionalApproval": "not_recorded",
+      "history": [
+        {
+          "date": "2026-10-23",
+          "action": "登錄來源與核對範圍",
+          "role": "規則內容維護編輯"
+        }
+      ]
+    },
+    "quiz:sc7": {
+      "title": "依 2026 年 WADA 規範，Ozempic（瘦瘦筆）的狀態是？",
+      "ruleVersion": "wada-2026",
+      "references": [
+        {
+          "sourceId": "monitoring-2026",
+          "locator": "第 6 項，頁 1"
+        }
+      ],
+      "verificationStatus": "source_checked",
+      "verifiedAt": "2026-10-23",
+      "inventoryAt": "2026-10-23",
+      "ownerRole": "規則內容維護編輯",
+      "nextReviewAt": "2026-12-31",
+      "reviewScope": "核對題目與解析所列規則及限制；不是正式教育證書或診療建議。",
+      "professionalApproval": "not_recorded",
+      "history": [
+        {
+          "date": "2026-10-23",
+          "action": "登錄來源與核對範圍",
+          "role": "規則內容維護編輯"
+        }
+      ]
+    },
+    "quiz:sc8": {
+      "title": "比賽前吃了含 pseudoephedrine 的感冒藥，會怎樣？",
+      "ruleVersion": "wada-2026",
+      "references": [
+        {
+          "sourceId": "list-2026",
+          "locator": "S6 pseudoephedrine 註腳，頁 16；S5，頁 12"
+        }
+      ],
+      "verificationStatus": "source_checked",
+      "verifiedAt": "2026-10-23",
+      "inventoryAt": "2026-10-23",
+      "ownerRole": "規則內容維護編輯",
+      "nextReviewAt": "2026-12-31",
+      "reviewScope": "核對題目與解析所列規則及限制；不是正式教育證書或診療建議。",
+      "professionalApproval": "not_recorded",
+      "history": [
+        {
+          "date": "2026-10-23",
+          "action": "登錄來源與核對範圍",
+          "role": "規則內容維護編輯"
+        }
+      ]
+    },
+    "quiz:kn1": {
+      "title": "WADA 將一個物質列入禁用清單，需要符合幾項標準中的幾項？",
+      "ruleVersion": "code-2021",
+      "references": [
+        {
+          "sourceId": "code-2021",
+          "locator": "4.3.1；另有 4.3.2 掩蔽作用條款"
+        }
+      ],
+      "verificationStatus": "source_checked",
+      "verifiedAt": "2026-10-23",
+      "inventoryAt": "2026-10-23",
+      "ownerRole": "規則內容維護編輯",
+      "nextReviewAt": "2026-12-31",
+      "reviewScope": "核對題目與解析所列規則及限制；不是正式教育證書或診療建議。",
+      "professionalApproval": "not_recorded",
+      "history": [
+        {
+          "date": "2026-10-23",
+          "action": "登錄來源與核對範圍",
+          "role": "規則內容維護編輯"
+        }
+      ]
+    },
+    "quiz:kn2": {
+      "title": "一般初次故意違反「存在、使用或持有禁用物質／方法」規則，未適用特別或加減條款時，禁賽基準是多久？",
+      "ruleVersion": "code-2021",
+      "references": [
+        {
+          "sourceId": "code-2021",
+          "locator": "10.2、10.4–10.9"
+        }
+      ],
+      "verificationStatus": "source_checked",
+      "verifiedAt": "2026-10-23",
+      "inventoryAt": "2026-10-23",
+      "ownerRole": "規則內容維護編輯",
+      "nextReviewAt": "2026-12-31",
+      "reviewScope": "核對題目與解析所列規則及限制；不是正式教育證書或診療建議。",
+      "professionalApproval": "not_recorded",
+      "history": [
+        {
+          "date": "2026-10-23",
+          "action": "登錄來源與核對範圍",
+          "role": "規則內容維護編輯"
+        }
+      ]
+    },
+    "quiz:kn3": {
+      "title": "台灣的國家運動禁藥防制機構是？",
+      "ruleVersion": "code-2021",
+      "references": [
+        {
+          "sourceId": "ctada-about",
+          "locator": "本會簡介／國家運動禁藥管制組織"
+        },
+        {
+          "sourceId": "code-2021",
+          "locator": "20.5 國家運動禁藥管制組織職責"
+        }
+      ],
+      "verificationStatus": "source_checked",
+      "verifiedAt": "2026-10-23",
+      "inventoryAt": "2026-10-23",
+      "ownerRole": "規則內容維護編輯",
+      "nextReviewAt": "2026-12-31",
+      "reviewScope": "核對題目與解析所列規則及限制；不是正式教育證書或診療建議。",
+      "professionalApproval": "not_recorded",
+      "history": [
+        {
+          "date": "2026-10-23",
+          "action": "登錄來源與核對範圍",
+          "role": "規則內容維護編輯"
+        }
+      ]
+    },
+    "quiz:kn4": {
+      "title": "115 年台灣全中運/全大運報名是否仍需通過運動禁藥線上測驗？",
+      "ruleVersion": "ctada-2026",
+      "references": [
+        {
+          "sourceId": "ctada-exam",
+          "locator": "115 年各賽會範圍及取消報名測驗證明條件"
+        }
+      ],
+      "verificationStatus": "source_checked",
+      "verifiedAt": "2026-10-23",
+      "inventoryAt": "2026-10-23",
+      "ownerRole": "規則內容維護編輯",
+      "nextReviewAt": "2026-12-31",
+      "reviewScope": "核對題目與解析所列規則及限制；不是正式教育證書或診療建議。",
+      "professionalApproval": "not_recorded",
+      "history": [
+        {
+          "date": "2026-10-23",
+          "action": "登錄來源與核對範圍",
+          "role": "規則內容維護編輯"
+        }
+      ]
+    },
+    "quiz:kn5": {
+      "title": "「嚴格責任原則」是什麼意思？",
+      "ruleVersion": "code-2021",
+      "references": [
+        {
+          "sourceId": "code-2021",
+          "locator": "2.1.1 與註解；10.5–10.6"
+        }
+      ],
+      "verificationStatus": "source_checked",
+      "verifiedAt": "2026-10-23",
+      "inventoryAt": "2026-10-23",
+      "ownerRole": "規則內容維護編輯",
+      "nextReviewAt": "2026-12-31",
+      "reviewScope": "核對題目與解析所列規則及限制；不是正式教育證書或診療建議。",
+      "professionalApproval": "not_recorded",
+      "history": [
+        {
+          "date": "2026-10-23",
+          "action": "登錄來源與核對範圍",
+          "role": "規則內容維護編輯"
+        }
+      ]
+    },
+    "quiz:kn6": {
+      "title": "咖啡因目前在 WADA 的分類是？",
+      "ruleVersion": "wada-2026",
+      "references": [
+        {
+          "sourceId": "monitoring-2026",
+          "locator": "第 4 項，頁 1"
+        }
+      ],
+      "verificationStatus": "source_checked",
+      "verifiedAt": "2026-10-23",
+      "inventoryAt": "2026-10-23",
+      "ownerRole": "規則內容維護編輯",
+      "nextReviewAt": "2026-12-31",
+      "reviewScope": "核對題目與解析所列規則及限制；不是正式教育證書或診療建議。",
+      "professionalApproval": "not_recorded",
+      "history": [
+        {
+          "date": "2026-10-23",
+          "action": "登錄來源與核對範圍",
+          "role": "規則內容維護編輯"
+        }
+      ]
+    },
+    "quiz:kn7": {
+      "title": "未成年運動員接受藥檢時，以下哪項是正確的？",
+      "ruleVersion": "isti-2023",
+      "references": [
+        {
+          "sourceId": "isti-2023",
+          "locator": "附錄 B：B.4.3–B.4.5，頁 63–64"
+        }
+      ],
+      "verificationStatus": "source_checked",
+      "verifiedAt": "2026-10-23",
+      "inventoryAt": "2026-10-23",
+      "ownerRole": "規則內容維護編輯",
+      "nextReviewAt": "2026-12-31",
+      "reviewScope": "核對題目與解析所列規則及限制；不是正式教育證書或診療建議。",
+      "professionalApproval": "not_recorded",
+      "history": [
+        {
+          "date": "2026-10-23",
+          "action": "登錄來源與核對範圍",
+          "role": "規則內容維護編輯"
+        }
+      ]
+    },
+    "quiz:kn8": {
+      "title": "2026 年 WADA 禁用清單新增了哪項禁用方法？",
+      "ruleVersion": "wada-2026",
+      "references": [
+        {
+          "sourceId": "list-2026",
+          "locator": "M1.4，頁 13"
+        }
+      ],
+      "verificationStatus": "source_checked",
+      "verifiedAt": "2026-10-23",
+      "inventoryAt": "2026-10-23",
+      "ownerRole": "規則內容維護編輯",
+      "nextReviewAt": "2026-12-31",
+      "reviewScope": "核對題目與解析所列規則及限制；不是正式教育證書或診療建議。",
+      "professionalApproval": "not_recorded",
+      "history": [
+        {
+          "date": "2026-10-23",
+          "action": "登錄來源與核對範圍",
+          "role": "規則內容維護編輯"
+        }
+      ]
+    },
+    "legacy-quiz:1": {
+      "title": "WADA禁用清單中的S1類別是指什麼？",
+      "ruleVersion": "wada-2026",
+      "references": [
+        {
+          "sourceId": "list-2026",
+          "locator": "S1，頁 5–6"
+        }
+      ],
+      "verificationStatus": "source_checked",
+      "verifiedAt": "2026-10-23",
+      "inventoryAt": "2026-10-23",
+      "ownerRole": "規則內容維護編輯",
+      "nextReviewAt": "2026-12-31",
+      "reviewScope": "原有題庫盤點；僅第 1 題核對 S1 分類，其餘題目不提供評分答案。",
+      "professionalApproval": "not_recorded",
+      "history": [
+        {
+          "date": "2026-10-23",
+          "action": "登錄來源與核對範圍",
+          "role": "規則內容維護編輯"
+        }
+      ]
+    },
+    "legacy-quiz:2": {
+      "title": "EPO的主要作用機制是什麼？",
+      "ruleVersion": "unverified",
+      "references": [
+        {
+          "sourceId": "code-2021",
+          "locator": "待逐題定位條文與個案來源；此連結不是原題答案已被核實的證明"
+        }
+      ],
+      "verificationStatus": "pending_verification",
+      "verifiedAt": null,
+      "inventoryAt": "2026-10-23",
+      "ownerRole": "規則內容維護編輯",
+      "nextReviewAt": "2026-12-31",
+      "reviewScope": "原有題庫盤點；僅第 1 題核對 S1 分類，其餘題目不提供評分答案。",
+      "professionalApproval": "not_recorded",
+      "history": [
+        {
+          "date": "2026-10-23",
+          "action": "盤點入列，暫停確定答案／允許判定；等待對應證據",
+          "role": "規則內容維護編輯"
+        }
+      ]
+    },
+    "legacy-quiz:3": {
+      "title": "以下哪種物質屬於S3類別（Beta-2激動劑）？",
+      "ruleVersion": "unverified",
+      "references": [
+        {
+          "sourceId": "code-2021",
+          "locator": "待逐題定位條文與個案來源；此連結不是原題答案已被核實的證明"
+        }
+      ],
+      "verificationStatus": "pending_verification",
+      "verifiedAt": null,
+      "inventoryAt": "2026-10-23",
+      "ownerRole": "規則內容維護編輯",
+      "nextReviewAt": "2026-12-31",
+      "reviewScope": "原有題庫盤點；僅第 1 題核對 S1 分類，其餘題目不提供評分答案。",
+      "professionalApproval": "not_recorded",
+      "history": [
+        {
+          "date": "2026-10-23",
+          "action": "盤點入列，暫停確定答案／允許判定；等待對應證據",
+          "role": "規則內容維護編輯"
+        }
+      ]
+    },
+    "legacy-quiz:4": {
+      "title": "Meldonium屬於WADA分類中的哪一類？",
+      "ruleVersion": "unverified",
+      "references": [
+        {
+          "sourceId": "code-2021",
+          "locator": "待逐題定位條文與個案來源；此連結不是原題答案已被核實的證明"
+        }
+      ],
+      "verificationStatus": "pending_verification",
+      "verifiedAt": null,
+      "inventoryAt": "2026-10-23",
+      "ownerRole": "規則內容維護編輯",
+      "nextReviewAt": "2026-12-31",
+      "reviewScope": "原有題庫盤點；僅第 1 題核對 S1 分類，其餘題目不提供評分答案。",
+      "professionalApproval": "not_recorded",
+      "history": [
+        {
+          "date": "2026-10-23",
+          "action": "盤點入列，暫停確定答案／允許判定；等待對應證據",
+          "role": "規則內容維護編輯"
+        }
+      ]
+    },
+    "legacy-quiz:5": {
+      "title": "TUE的全稱是什麼？",
+      "ruleVersion": "unverified",
+      "references": [
+        {
+          "sourceId": "code-2021",
+          "locator": "待逐題定位條文與個案來源；此連結不是原題答案已被核實的證明"
+        }
+      ],
+      "verificationStatus": "pending_verification",
+      "verifiedAt": null,
+      "inventoryAt": "2026-10-23",
+      "ownerRole": "規則內容維護編輯",
+      "nextReviewAt": "2026-12-31",
+      "reviewScope": "原有題庫盤點；僅第 1 題核對 S1 分類，其餘題目不提供評分答案。",
+      "professionalApproval": "not_recorded",
+      "history": [
+        {
+          "date": "2026-10-23",
+          "action": "盤點入列，暫停確定答案／允許判定；等待對應證據",
+          "role": "規則內容維護編輯"
+        }
+      ]
+    },
+    "legacy-quiz:6": {
+      "title": "利尿劑在運動禁藥中主要被用作什麼？",
+      "ruleVersion": "unverified",
+      "references": [
+        {
+          "sourceId": "code-2021",
+          "locator": "待逐題定位條文與個案來源；此連結不是原題答案已被核實的證明"
+        }
+      ],
+      "verificationStatus": "pending_verification",
+      "verifiedAt": null,
+      "inventoryAt": "2026-10-23",
+      "ownerRole": "規則內容維護編輯",
+      "nextReviewAt": "2026-12-31",
+      "reviewScope": "原有題庫盤點；僅第 1 題核對 S1 分類，其餘題目不提供評分答案。",
+      "professionalApproval": "not_recorded",
+      "history": [
+        {
+          "date": "2026-10-23",
+          "action": "盤點入列，暫停確定答案／允許判定；等待對應證據",
+          "role": "規則內容維護編輯"
+        }
+      ]
+    },
+    "legacy-quiz:7": {
+      "title": "血液禁藥(M1)包括以下哪種方法？",
+      "ruleVersion": "unverified",
+      "references": [
+        {
+          "sourceId": "code-2021",
+          "locator": "待逐題定位條文與個案來源；此連結不是原題答案已被核實的證明"
+        }
+      ],
+      "verificationStatus": "pending_verification",
+      "verifiedAt": null,
+      "inventoryAt": "2026-10-23",
+      "ownerRole": "規則內容維護編輯",
+      "nextReviewAt": "2026-12-31",
+      "reviewScope": "原有題庫盤點；僅第 1 題核對 S1 分類，其餘題目不提供評分答案。",
+      "professionalApproval": "not_recorded",
+      "history": [
+        {
+          "date": "2026-10-23",
+          "action": "盤點入列，暫停確定答案／允許判定；等待對應證據",
+          "role": "規則內容維護編輯"
+        }
+      ]
+    },
+    "legacy-quiz:8": {
+      "title": "以下哪種物質只在比賽期間被禁用？",
+      "ruleVersion": "unverified",
+      "references": [
+        {
+          "sourceId": "code-2021",
+          "locator": "待逐題定位條文與個案來源；此連結不是原題答案已被核實的證明"
+        }
+      ],
+      "verificationStatus": "pending_verification",
+      "verifiedAt": null,
+      "inventoryAt": "2026-10-23",
+      "ownerRole": "規則內容維護編輯",
+      "nextReviewAt": "2026-12-31",
+      "reviewScope": "原有題庫盤點；僅第 1 題核對 S1 分類，其餘題目不提供評分答案。",
+      "professionalApproval": "not_recorded",
+      "history": [
+        {
+          "date": "2026-10-23",
+          "action": "盤點入列，暫停確定答案／允許判定；等待對應證據",
+          "role": "規則內容維護編輯"
+        }
+      ]
+    },
+    "legacy-quiz:9": {
+      "title": "Beta阻斷劑(P1)主要在哪類運動中被禁用？",
+      "ruleVersion": "unverified",
+      "references": [
+        {
+          "sourceId": "code-2021",
+          "locator": "待逐題定位條文與個案來源；此連結不是原題答案已被核實的證明"
+        }
+      ],
+      "verificationStatus": "pending_verification",
+      "verifiedAt": null,
+      "inventoryAt": "2026-10-23",
+      "ownerRole": "規則內容維護編輯",
+      "nextReviewAt": "2026-12-31",
+      "reviewScope": "原有題庫盤點；僅第 1 題核對 S1 分類，其餘題目不提供評分答案。",
+      "professionalApproval": "not_recorded",
+      "history": [
+        {
+          "date": "2026-10-23",
+          "action": "盤點入列，暫停確定答案／允許判定；等待對應證據",
+          "role": "規則內容維護編輯"
+        }
+      ]
+    },
+    "legacy-quiz:10": {
+      "title": "SARM屬於WADA分類中的哪一類？",
+      "ruleVersion": "unverified",
+      "references": [
+        {
+          "sourceId": "code-2021",
+          "locator": "待逐題定位條文與個案來源；此連結不是原題答案已被核實的證明"
+        }
+      ],
+      "verificationStatus": "pending_verification",
+      "verifiedAt": null,
+      "inventoryAt": "2026-10-23",
+      "ownerRole": "規則內容維護編輯",
+      "nextReviewAt": "2026-12-31",
+      "reviewScope": "原有題庫盤點；僅第 1 題核對 S1 分類，其餘題目不提供評分答案。",
+      "professionalApproval": "not_recorded",
+      "history": [
+        {
+          "date": "2026-10-23",
+          "action": "盤點入列，暫停確定答案／允許判定；等待對應證據",
+          "role": "規則內容維護編輯"
+        }
+      ]
+    },
+    "legacy-quiz:11": {
+      "title": "生長激素(HGH)屬於哪個WADA類別？",
+      "ruleVersion": "unverified",
+      "references": [
+        {
+          "sourceId": "code-2021",
+          "locator": "待逐題定位條文與個案來源；此連結不是原題答案已被核實的證明"
+        }
+      ],
+      "verificationStatus": "pending_verification",
+      "verifiedAt": null,
+      "inventoryAt": "2026-10-23",
+      "ownerRole": "規則內容維護編輯",
+      "nextReviewAt": "2026-12-31",
+      "reviewScope": "原有題庫盤點；僅第 1 題核對 S1 分類，其餘題目不提供評分答案。",
+      "professionalApproval": "not_recorded",
+      "history": [
+        {
+          "date": "2026-10-23",
+          "action": "盤點入列，暫停確定答案／允許判定；等待對應證據",
+          "role": "規則內容維護編輯"
+        }
+      ]
+    },
+    "legacy-quiz:12": {
+      "title": "樣本替換屬於哪種禁用方法？",
+      "ruleVersion": "unverified",
+      "references": [
+        {
+          "sourceId": "code-2021",
+          "locator": "待逐題定位條文與個案來源；此連結不是原題答案已被核實的證明"
+        }
+      ],
+      "verificationStatus": "pending_verification",
+      "verifiedAt": null,
+      "inventoryAt": "2026-10-23",
+      "ownerRole": "規則內容維護編輯",
+      "nextReviewAt": "2026-12-31",
+      "reviewScope": "原有題庫盤點；僅第 1 題核對 S1 分類，其餘題目不提供評分答案。",
+      "professionalApproval": "not_recorded",
+      "history": [
+        {
+          "date": "2026-10-23",
+          "action": "盤點入列，暫停確定答案／允許判定；等待對應證據",
+          "role": "規則內容維護編輯"
+        }
+      ]
+    },
+    "legacy-quiz:13": {
+      "title": "以下哪種物質的代謝物可以在體內保持最長時間？",
+      "ruleVersion": "unverified",
+      "references": [
+        {
+          "sourceId": "code-2021",
+          "locator": "待逐題定位條文與個案來源；此連結不是原題答案已被核實的證明"
+        }
+      ],
+      "verificationStatus": "pending_verification",
+      "verifiedAt": null,
+      "inventoryAt": "2026-10-23",
+      "ownerRole": "規則內容維護編輯",
+      "nextReviewAt": "2026-12-31",
+      "reviewScope": "原有題庫盤點；僅第 1 題核對 S1 分類，其餘題目不提供評分答案。",
+      "professionalApproval": "not_recorded",
+      "history": [
+        {
+          "date": "2026-10-23",
+          "action": "盤點入列，暫停確定答案／允許判定；等待對應證據",
+          "role": "規則內容維護編輯"
+        }
+      ]
+    },
+    "legacy-quiz:14": {
+      "title": "IGF-1屬於WADA分類中的哪一類？",
+      "ruleVersion": "unverified",
+      "references": [
+        {
+          "sourceId": "code-2021",
+          "locator": "待逐題定位條文與個案來源；此連結不是原題答案已被核實的證明"
+        }
+      ],
+      "verificationStatus": "pending_verification",
+      "verifiedAt": null,
+      "inventoryAt": "2026-10-23",
+      "ownerRole": "規則內容維護編輯",
+      "nextReviewAt": "2026-12-31",
+      "reviewScope": "原有題庫盤點；僅第 1 題核對 S1 分類，其餘題目不提供評分答案。",
+      "professionalApproval": "not_recorded",
+      "history": [
+        {
+          "date": "2026-10-23",
+          "action": "盤點入列，暫停確定答案／允許判定；等待對應證據",
+          "role": "規則內容維護編輯"
+        }
+      ]
+    },
+    "legacy-quiz:15": {
+      "title": "Stanozolol是哪種類型的禁藥？",
+      "ruleVersion": "unverified",
+      "references": [
+        {
+          "sourceId": "code-2021",
+          "locator": "待逐題定位條文與個案來源；此連結不是原題答案已被核實的證明"
+        }
+      ],
+      "verificationStatus": "pending_verification",
+      "verifiedAt": null,
+      "inventoryAt": "2026-10-23",
+      "ownerRole": "規則內容維護編輯",
+      "nextReviewAt": "2026-12-31",
+      "reviewScope": "原有題庫盤點；僅第 1 題核對 S1 分類，其餘題目不提供評分答案。",
+      "professionalApproval": "not_recorded",
+      "history": [
+        {
+          "date": "2026-10-23",
+          "action": "盤點入列，暫停確定答案／允許判定；等待對應證據",
+          "role": "規則內容維護編輯"
+        }
+      ]
+    },
+    "legacy-quiz:16": {
+      "title": "糖皮質激素在什麼情況下被禁用？",
+      "ruleVersion": "unverified",
+      "references": [
+        {
+          "sourceId": "code-2021",
+          "locator": "待逐題定位條文與個案來源；此連結不是原題答案已被核實的證明"
+        }
+      ],
+      "verificationStatus": "pending_verification",
+      "verifiedAt": null,
+      "inventoryAt": "2026-10-23",
+      "ownerRole": "規則內容維護編輯",
+      "nextReviewAt": "2026-12-31",
+      "reviewScope": "原有題庫盤點；僅第 1 題核對 S1 分類，其餘題目不提供評分答案。",
+      "professionalApproval": "not_recorded",
+      "history": [
+        {
+          "date": "2026-10-23",
+          "action": "盤點入列，暫停確定答案／允許判定；等待對應證據",
+          "role": "規則內容維護編輯"
+        }
+      ]
+    },
+    "legacy-quiz:17": {
+      "title": "TUE申請必須在什麼時候提交？",
+      "ruleVersion": "unverified",
+      "references": [
+        {
+          "sourceId": "code-2021",
+          "locator": "待逐題定位條文與個案來源；此連結不是原題答案已被核實的證明"
+        }
+      ],
+      "verificationStatus": "pending_verification",
+      "verifiedAt": null,
+      "inventoryAt": "2026-10-23",
+      "ownerRole": "規則內容維護編輯",
+      "nextReviewAt": "2026-12-31",
+      "reviewScope": "原有題庫盤點；僅第 1 題核對 S1 分類，其餘題目不提供評分答案。",
+      "professionalApproval": "not_recorded",
+      "history": [
+        {
+          "date": "2026-10-23",
+          "action": "盤點入列，暫停確定答案／允許判定；等待對應證據",
+          "role": "規則內容維護編輯"
+        }
+      ]
+    },
+    "legacy-quiz:18": {
+      "title": "哪種情況可能需要申請TUE？",
+      "ruleVersion": "unverified",
+      "references": [
+        {
+          "sourceId": "code-2021",
+          "locator": "待逐題定位條文與個案來源；此連結不是原題答案已被核實的證明"
+        }
+      ],
+      "verificationStatus": "pending_verification",
+      "verifiedAt": null,
+      "inventoryAt": "2026-10-23",
+      "ownerRole": "規則內容維護編輯",
+      "nextReviewAt": "2026-12-31",
+      "reviewScope": "原有題庫盤點；僅第 1 題核對 S1 分類，其餘題目不提供評分答案。",
+      "professionalApproval": "not_recorded",
+      "history": [
+        {
+          "date": "2026-10-23",
+          "action": "盤點入列，暫停確定答案／允許判定；等待對應證據",
+          "role": "規則內容維護編輯"
+        }
+      ]
+    },
+    "legacy-quiz:19": {
+      "title": "TUE申請需要提供什麼資料？",
+      "ruleVersion": "unverified",
+      "references": [
+        {
+          "sourceId": "code-2021",
+          "locator": "待逐題定位條文與個案來源；此連結不是原題答案已被核實的證明"
+        }
+      ],
+      "verificationStatus": "pending_verification",
+      "verifiedAt": null,
+      "inventoryAt": "2026-10-23",
+      "ownerRole": "規則內容維護編輯",
+      "nextReviewAt": "2026-12-31",
+      "reviewScope": "原有題庫盤點；僅第 1 題核對 S1 分類，其餘題目不提供評分答案。",
+      "professionalApproval": "not_recorded",
+      "history": [
+        {
+          "date": "2026-10-23",
+          "action": "盤點入列，暫停確定答案／允許判定；等待對應證據",
+          "role": "規則內容維護編輯"
+        }
+      ]
+    },
+    "legacy-quiz:20": {
+      "title": "以下哪種藥物最常需要申請TUE？",
+      "ruleVersion": "unverified",
+      "references": [
+        {
+          "sourceId": "code-2021",
+          "locator": "待逐題定位條文與個案來源；此連結不是原題答案已被核實的證明"
+        }
+      ],
+      "verificationStatus": "pending_verification",
+      "verifiedAt": null,
+      "inventoryAt": "2026-10-23",
+      "ownerRole": "規則內容維護編輯",
+      "nextReviewAt": "2026-12-31",
+      "reviewScope": "原有題庫盤點；僅第 1 題核對 S1 分類，其餘題目不提供評分答案。",
+      "professionalApproval": "not_recorded",
+      "history": [
+        {
+          "date": "2026-10-23",
+          "action": "盤點入列，暫停確定答案／允許判定；等待對應證據",
+          "role": "規則內容維護編輯"
+        }
+      ]
+    },
+    "legacy-quiz:21": {
+      "title": "TUE的有效期通常是多久？",
+      "ruleVersion": "unverified",
+      "references": [
+        {
+          "sourceId": "code-2021",
+          "locator": "待逐題定位條文與個案來源；此連結不是原題答案已被核實的證明"
+        }
+      ],
+      "verificationStatus": "pending_verification",
+      "verifiedAt": null,
+      "inventoryAt": "2026-10-23",
+      "ownerRole": "規則內容維護編輯",
+      "nextReviewAt": "2026-12-31",
+      "reviewScope": "原有題庫盤點；僅第 1 題核對 S1 分類，其餘題目不提供評分答案。",
+      "professionalApproval": "not_recorded",
+      "history": [
+        {
+          "date": "2026-10-23",
+          "action": "盤點入列，暫停確定答案／允許判定；等待對應證據",
+          "role": "規則內容維護編輯"
+        }
+      ]
+    },
+    "legacy-quiz:22": {
+      "title": "WADA禁藥清單多久更新一次？",
+      "ruleVersion": "unverified",
+      "references": [
+        {
+          "sourceId": "code-2021",
+          "locator": "待逐題定位條文與個案來源；此連結不是原題答案已被核實的證明"
+        }
+      ],
+      "verificationStatus": "pending_verification",
+      "verifiedAt": null,
+      "inventoryAt": "2026-10-23",
+      "ownerRole": "規則內容維護編輯",
+      "nextReviewAt": "2026-12-31",
+      "reviewScope": "原有題庫盤點；僅第 1 題核對 S1 分類，其餘題目不提供評分答案。",
+      "professionalApproval": "not_recorded",
+      "history": [
+        {
+          "date": "2026-10-23",
+          "action": "盤點入列，暫停確定答案／允許判定；等待對應證據",
+          "role": "規則內容維護編輯"
+        }
+      ]
+    },
+    "legacy-quiz:23": {
+      "title": "運動員有義務了解什麼？",
+      "ruleVersion": "unverified",
+      "references": [
+        {
+          "sourceId": "code-2021",
+          "locator": "待逐題定位條文與個案來源；此連結不是原題答案已被核實的證明"
+        }
+      ],
+      "verificationStatus": "pending_verification",
+      "verifiedAt": null,
+      "inventoryAt": "2026-10-23",
+      "ownerRole": "規則內容維護編輯",
+      "nextReviewAt": "2026-12-31",
+      "reviewScope": "原有題庫盤點；僅第 1 題核對 S1 分類，其餘題目不提供評分答案。",
+      "professionalApproval": "not_recorded",
+      "history": [
+        {
+          "date": "2026-10-23",
+          "action": "盤點入列，暫停確定答案／允許判定；等待對應證據",
+          "role": "規則內容維護編輯"
+        }
+      ]
+    },
+    "legacy-quiz:24": {
+      "title": "藥檢樣本可以是什麼？",
+      "ruleVersion": "unverified",
+      "references": [
+        {
+          "sourceId": "code-2021",
+          "locator": "待逐題定位條文與個案來源；此連結不是原題答案已被核實的證明"
+        }
+      ],
+      "verificationStatus": "pending_verification",
+      "verifiedAt": null,
+      "inventoryAt": "2026-10-23",
+      "ownerRole": "規則內容維護編輯",
+      "nextReviewAt": "2026-12-31",
+      "reviewScope": "原有題庫盤點；僅第 1 題核對 S1 分類，其餘題目不提供評分答案。",
+      "professionalApproval": "not_recorded",
+      "history": [
+        {
+          "date": "2026-10-23",
+          "action": "盤點入列，暫停確定答案／允許判定；等待對應證據",
+          "role": "規則內容維護編輯"
+        }
+      ]
+    },
+    "legacy-quiz:25": {
+      "title": "拒絕接受藥檢的後果是什麼？",
+      "ruleVersion": "unverified",
+      "references": [
+        {
+          "sourceId": "code-2021",
+          "locator": "待逐題定位條文與個案來源；此連結不是原題答案已被核實的證明"
+        }
+      ],
+      "verificationStatus": "pending_verification",
+      "verifiedAt": null,
+      "inventoryAt": "2026-10-23",
+      "ownerRole": "規則內容維護編輯",
+      "nextReviewAt": "2026-12-31",
+      "reviewScope": "原有題庫盤點；僅第 1 題核對 S1 分類，其餘題目不提供評分答案。",
+      "professionalApproval": "not_recorded",
+      "history": [
+        {
+          "date": "2026-10-23",
+          "action": "盤點入列，暫停確定答案／允許判定；等待對應證據",
+          "role": "規則內容維護編輯"
+        }
+      ]
+    },
+    "legacy-quiz:26": {
+      "title": "營養補充劑的風險是什麼？",
+      "ruleVersion": "unverified",
+      "references": [
+        {
+          "sourceId": "code-2021",
+          "locator": "待逐題定位條文與個案來源；此連結不是原題答案已被核實的證明"
+        }
+      ],
+      "verificationStatus": "pending_verification",
+      "verifiedAt": null,
+      "inventoryAt": "2026-10-23",
+      "ownerRole": "規則內容維護編輯",
+      "nextReviewAt": "2026-12-31",
+      "reviewScope": "原有題庫盤點；僅第 1 題核對 S1 分類，其餘題目不提供評分答案。",
+      "professionalApproval": "not_recorded",
+      "history": [
+        {
+          "date": "2026-10-23",
+          "action": "盤點入列，暫停確定答案／允許判定；等待對應證據",
+          "role": "規則內容維護編輯"
+        }
+      ]
+    },
+    "legacy-quiz:27": {
+      "title": "Modafinil屬於哪種禁藥類別？",
+      "ruleVersion": "unverified",
+      "references": [
+        {
+          "sourceId": "code-2021",
+          "locator": "待逐題定位條文與個案來源；此連結不是原題答案已被核實的證明"
+        }
+      ],
+      "verificationStatus": "pending_verification",
+      "verifiedAt": null,
+      "inventoryAt": "2026-10-23",
+      "ownerRole": "規則內容維護編輯",
+      "nextReviewAt": "2026-12-31",
+      "reviewScope": "原有題庫盤點；僅第 1 題核對 S1 分類，其餘題目不提供評分答案。",
+      "professionalApproval": "not_recorded",
+      "history": [
+        {
+          "date": "2026-10-23",
+          "action": "盤點入列，暫停確定答案／允許判定；等待對應證據",
+          "role": "規則內容維護編輯"
+        }
+      ]
+    },
+    "legacy-quiz:28": {
+      "title": "基因禁藥(M3)主要風險是什麼？",
+      "ruleVersion": "unverified",
+      "references": [
+        {
+          "sourceId": "code-2021",
+          "locator": "待逐題定位條文與個案來源；此連結不是原題答案已被核實的證明"
+        }
+      ],
+      "verificationStatus": "pending_verification",
+      "verifiedAt": null,
+      "inventoryAt": "2026-10-23",
+      "ownerRole": "規則內容維護編輯",
+      "nextReviewAt": "2026-12-31",
+      "reviewScope": "原有題庫盤點；僅第 1 題核對 S1 分類，其餘題目不提供評分答案。",
+      "professionalApproval": "not_recorded",
+      "history": [
+        {
+          "date": "2026-10-23",
+          "action": "盤點入列，暫停確定答案／允許判定；等待對應證據",
+          "role": "規則內容維護編輯"
+        }
+      ]
+    },
+    "legacy-quiz:29": {
+      "title": "運動員對什麼負有嚴格責任？",
+      "ruleVersion": "unverified",
+      "references": [
+        {
+          "sourceId": "code-2021",
+          "locator": "待逐題定位條文與個案來源；此連結不是原題答案已被核實的證明"
+        }
+      ],
+      "verificationStatus": "pending_verification",
+      "verifiedAt": null,
+      "inventoryAt": "2026-10-23",
+      "ownerRole": "規則內容維護編輯",
+      "nextReviewAt": "2026-12-31",
+      "reviewScope": "原有題庫盤點；僅第 1 題核對 S1 分類，其餘題目不提供評分答案。",
+      "professionalApproval": "not_recorded",
+      "history": [
+        {
+          "date": "2026-10-23",
+          "action": "盤點入列，暫停確定答案／允許判定；等待對應證據",
+          "role": "規則內容維護編輯"
+        }
+      ]
+    },
+    "legacy-quiz:30": {
+      "title": "Nandrolone的主要健康風險包括？",
+      "ruleVersion": "unverified",
+      "references": [
+        {
+          "sourceId": "code-2021",
+          "locator": "待逐題定位條文與個案來源；此連結不是原題答案已被核實的證明"
+        }
+      ],
+      "verificationStatus": "pending_verification",
+      "verifiedAt": null,
+      "inventoryAt": "2026-10-23",
+      "ownerRole": "規則內容維護編輯",
+      "nextReviewAt": "2026-12-31",
+      "reviewScope": "原有題庫盤點；僅第 1 題核對 S1 分類，其餘題目不提供評分答案。",
+      "professionalApproval": "not_recorded",
+      "history": [
+        {
+          "date": "2026-10-23",
+          "action": "盤點入列，暫停確定答案／允許判定；等待對應證據",
+          "role": "規則內容維護編輯"
+        }
+      ]
+    },
+    "legacy-quiz:31": {
+      "title": "TUE委員會通常由哪些專業人士組成？",
+      "ruleVersion": "unverified",
+      "references": [
+        {
+          "sourceId": "code-2021",
+          "locator": "待逐題定位條文與個案來源；此連結不是原題答案已被核實的證明"
+        }
+      ],
+      "verificationStatus": "pending_verification",
+      "verifiedAt": null,
+      "inventoryAt": "2026-10-23",
+      "ownerRole": "規則內容維護編輯",
+      "nextReviewAt": "2026-12-31",
+      "reviewScope": "原有題庫盤點；僅第 1 題核對 S1 分類，其餘題目不提供評分答案。",
+      "professionalApproval": "not_recorded",
+      "history": [
+        {
+          "date": "2026-10-23",
+          "action": "盤點入列，暫停確定答案／允許判定；等待對應證據",
+          "role": "規則內容維護編輯"
+        }
+      ]
+    },
+    "legacy-quiz:32": {
+      "title": "以下哪種情況不能申請TUE？",
+      "ruleVersion": "unverified",
+      "references": [
+        {
+          "sourceId": "code-2021",
+          "locator": "待逐題定位條文與個案來源；此連結不是原題答案已被核實的證明"
+        }
+      ],
+      "verificationStatus": "pending_verification",
+      "verifiedAt": null,
+      "inventoryAt": "2026-10-23",
+      "ownerRole": "規則內容維護編輯",
+      "nextReviewAt": "2026-12-31",
+      "reviewScope": "原有題庫盤點；僅第 1 題核對 S1 分類，其餘題目不提供評分答案。",
+      "professionalApproval": "not_recorded",
+      "history": [
+        {
+          "date": "2026-10-23",
+          "action": "盤點入列，暫停確定答案／允許判定；等待對應證據",
+          "role": "規則內容維護編輯"
+        }
+      ]
+    },
+    "legacy-quiz:33": {
+      "title": "TUE申請被拒絕後可以怎麼做？",
+      "ruleVersion": "unverified",
+      "references": [
+        {
+          "sourceId": "code-2021",
+          "locator": "待逐題定位條文與個案來源；此連結不是原題答案已被核實的證明"
+        }
+      ],
+      "verificationStatus": "pending_verification",
+      "verifiedAt": null,
+      "inventoryAt": "2026-10-23",
+      "ownerRole": "規則內容維護編輯",
+      "nextReviewAt": "2026-12-31",
+      "reviewScope": "原有題庫盤點；僅第 1 題核對 S1 分類，其餘題目不提供評分答案。",
+      "professionalApproval": "not_recorded",
+      "history": [
+        {
+          "date": "2026-10-23",
+          "action": "盤點入列，暫停確定答案／允許判定；等待對應證據",
+          "role": "規則內容維護編輯"
+        }
+      ]
+    },
+    "legacy-quiz:34": {
+      "title": "以下哪個不是WADA的主要職責？",
+      "ruleVersion": "unverified",
+      "references": [
+        {
+          "sourceId": "code-2021",
+          "locator": "待逐題定位條文與個案來源；此連結不是原題答案已被核實的證明"
+        }
+      ],
+      "verificationStatus": "pending_verification",
+      "verifiedAt": null,
+      "inventoryAt": "2026-10-23",
+      "ownerRole": "規則內容維護編輯",
+      "nextReviewAt": "2026-12-31",
+      "reviewScope": "原有題庫盤點；僅第 1 題核對 S1 分類，其餘題目不提供評分答案。",
+      "professionalApproval": "not_recorded",
+      "history": [
+        {
+          "date": "2026-10-23",
+          "action": "盤點入列，暫停確定答案／允許判定；等待對應證據",
+          "role": "規則內容維護編輯"
+        }
+      ]
+    },
+    "legacy-quiz:35": {
+      "title": "A樣本檢測陽性後會怎麼處理？",
+      "ruleVersion": "unverified",
+      "references": [
+        {
+          "sourceId": "code-2021",
+          "locator": "待逐題定位條文與個案來源；此連結不是原題答案已被核實的證明"
+        }
+      ],
+      "verificationStatus": "pending_verification",
+      "verifiedAt": null,
+      "inventoryAt": "2026-10-23",
+      "ownerRole": "規則內容維護編輯",
+      "nextReviewAt": "2026-12-31",
+      "reviewScope": "原有題庫盤點；僅第 1 題核對 S1 分類，其餘題目不提供評分答案。",
+      "professionalApproval": "not_recorded",
+      "history": [
+        {
+          "date": "2026-10-23",
+          "action": "盤點入列，暫停確定答案／允許判定；等待對應證據",
+          "role": "規則內容維護編輯"
+        }
+      ]
+    },
+    "legacy-quiz:36": {
+      "title": "WADA每年更新禁用清單的時間是？",
+      "ruleVersion": "unverified",
+      "references": [
+        {
+          "sourceId": "code-2021",
+          "locator": "待逐題定位條文與個案來源；此連結不是原題答案已被核實的證明"
+        }
+      ],
+      "verificationStatus": "pending_verification",
+      "verifiedAt": null,
+      "inventoryAt": "2026-10-23",
+      "ownerRole": "規則內容維護編輯",
+      "nextReviewAt": "2026-12-31",
+      "reviewScope": "原有題庫盤點；僅第 1 題核對 S1 分類，其餘題目不提供評分答案。",
+      "professionalApproval": "not_recorded",
+      "history": [
+        {
+          "date": "2026-10-23",
+          "action": "盤點入列，暫停確定答案／允許判定；等待對應證據",
+          "role": "規則內容維護編輯"
+        }
+      ]
+    },
+    "legacy-quiz:37": {
+      "title": "人工氧氣載體屬於哪種禁用方法？",
+      "ruleVersion": "unverified",
+      "references": [
+        {
+          "sourceId": "code-2021",
+          "locator": "待逐題定位條文與個案來源；此連結不是原題答案已被核實的證明"
+        }
+      ],
+      "verificationStatus": "pending_verification",
+      "verifiedAt": null,
+      "inventoryAt": "2026-10-23",
+      "ownerRole": "規則內容維護編輯",
+      "nextReviewAt": "2026-12-31",
+      "reviewScope": "原有題庫盤點；僅第 1 題核對 S1 分類，其餘題目不提供評分答案。",
+      "professionalApproval": "not_recorded",
+      "history": [
+        {
+          "date": "2026-10-23",
+          "action": "盤點入列，暫停確定答案／允許判定；等待對應證據",
+          "role": "規則內容維護編輯"
+        }
+      ]
+    },
+    "legacy-quiz:38": {
+      "title": "補充劑污染的責任歸屬是？",
+      "ruleVersion": "unverified",
+      "references": [
+        {
+          "sourceId": "code-2021",
+          "locator": "待逐題定位條文與個案來源；此連結不是原題答案已被核實的證明"
+        }
+      ],
+      "verificationStatus": "pending_verification",
+      "verifiedAt": null,
+      "inventoryAt": "2026-10-23",
+      "ownerRole": "規則內容維護編輯",
+      "nextReviewAt": "2026-12-31",
+      "reviewScope": "原有題庫盤點；僅第 1 題核對 S1 分類，其餘題目不提供評分答案。",
+      "professionalApproval": "not_recorded",
+      "history": [
+        {
+          "date": "2026-10-23",
+          "action": "盤點入列，暫停確定答案／允許判定；等待對應證據",
+          "role": "規則內容維護編輯"
+        }
+      ]
+    },
+    "legacy-quiz:39": {
+      "title": "Turinabol是什麼類型的禁藥？",
+      "ruleVersion": "unverified",
+      "references": [
+        {
+          "sourceId": "code-2021",
+          "locator": "待逐題定位條文與個案來源；此連結不是原題答案已被核實的證明"
+        }
+      ],
+      "verificationStatus": "pending_verification",
+      "verifiedAt": null,
+      "inventoryAt": "2026-10-23",
+      "ownerRole": "規則內容維護編輯",
+      "nextReviewAt": "2026-12-31",
+      "reviewScope": "原有題庫盤點；僅第 1 題核對 S1 分類，其餘題目不提供評分答案。",
+      "professionalApproval": "not_recorded",
+      "history": [
+        {
+          "date": "2026-10-23",
+          "action": "盤點入列，暫停確定答案／允許判定；等待對應證據",
+          "role": "規則內容維護編輯"
+        }
+      ]
+    },
+    "legacy-quiz:40": {
+      "title": "血液禁藥檢測主要通過什麼方式？",
+      "ruleVersion": "unverified",
+      "references": [
+        {
+          "sourceId": "code-2021",
+          "locator": "待逐題定位條文與個案來源；此連結不是原題答案已被核實的證明"
+        }
+      ],
+      "verificationStatus": "pending_verification",
+      "verifiedAt": null,
+      "inventoryAt": "2026-10-23",
+      "ownerRole": "規則內容維護編輯",
+      "nextReviewAt": "2026-12-31",
+      "reviewScope": "原有題庫盤點；僅第 1 題核對 S1 分類，其餘題目不提供評分答案。",
+      "professionalApproval": "not_recorded",
+      "history": [
+        {
+          "date": "2026-10-23",
+          "action": "盤點入列，暫停確定答案／允許判定；等待對應證據",
+          "role": "規則內容維護編輯"
+        }
+      ]
+    },
+    "legacy-quiz:41": {
+      "title": "CBD(大麻二酚)在WADA清單上的狀態是？",
+      "ruleVersion": "unverified",
+      "references": [
+        {
+          "sourceId": "code-2021",
+          "locator": "待逐題定位條文與個案來源；此連結不是原題答案已被核實的證明"
+        }
+      ],
+      "verificationStatus": "pending_verification",
+      "verifiedAt": null,
+      "inventoryAt": "2026-10-23",
+      "ownerRole": "規則內容維護編輯",
+      "nextReviewAt": "2026-12-31",
+      "reviewScope": "原有題庫盤點；僅第 1 題核對 S1 分類，其餘題目不提供評分答案。",
+      "professionalApproval": "not_recorded",
+      "history": [
+        {
+          "date": "2026-10-23",
+          "action": "盤點入列，暫停確定答案／允許判定；等待對應證據",
+          "role": "規則內容維護編輯"
+        }
+      ]
+    },
+    "legacy-quiz:42": {
+      "title": "生物護照(ABP)主要監控什麼？",
+      "ruleVersion": "unverified",
+      "references": [
+        {
+          "sourceId": "code-2021",
+          "locator": "待逐題定位條文與個案來源；此連結不是原題答案已被核實的證明"
+        }
+      ],
+      "verificationStatus": "pending_verification",
+      "verifiedAt": null,
+      "inventoryAt": "2026-10-23",
+      "ownerRole": "規則內容維護編輯",
+      "nextReviewAt": "2026-12-31",
+      "reviewScope": "原有題庫盤點；僅第 1 題核對 S1 分類，其餘題目不提供評分答案。",
+      "professionalApproval": "not_recorded",
+      "history": [
+        {
+          "date": "2026-10-23",
+          "action": "盤點入列，暫停確定答案／允許判定；等待對應證據",
+          "role": "規則內容維護編輯"
+        }
+      ]
+    },
+    "legacy-quiz:43": {
+      "title": "運動員行蹤信息(ADAMS)的主要目的是？",
+      "ruleVersion": "unverified",
+      "references": [
+        {
+          "sourceId": "code-2021",
+          "locator": "待逐題定位條文與個案來源；此連結不是原題答案已被核實的證明"
+        }
+      ],
+      "verificationStatus": "pending_verification",
+      "verifiedAt": null,
+      "inventoryAt": "2026-10-23",
+      "ownerRole": "規則內容維護編輯",
+      "nextReviewAt": "2026-12-31",
+      "reviewScope": "原有題庫盤點；僅第 1 題核對 S1 分類，其餘題目不提供評分答案。",
+      "professionalApproval": "not_recorded",
+      "history": [
+        {
+          "date": "2026-10-23",
+          "action": "盤點入列，暫停確定答案／允許判定；等待對應證據",
+          "role": "規則內容維護編輯"
+        }
+      ]
+    },
+    "legacy-quiz:44": {
+      "title": "Clostebol屬於哪種WADA類別？",
+      "ruleVersion": "unverified",
+      "references": [
+        {
+          "sourceId": "code-2021",
+          "locator": "待逐題定位條文與個案來源；此連結不是原題答案已被核實的證明"
+        }
+      ],
+      "verificationStatus": "pending_verification",
+      "verifiedAt": null,
+      "inventoryAt": "2026-10-23",
+      "ownerRole": "規則內容維護編輯",
+      "nextReviewAt": "2026-12-31",
+      "reviewScope": "原有題庫盤點；僅第 1 題核對 S1 分類，其餘題目不提供評分答案。",
+      "professionalApproval": "not_recorded",
+      "history": [
+        {
+          "date": "2026-10-23",
+          "action": "盤點入列，暫停確定答案／允許判定；等待對應證據",
+          "role": "規則內容維護編輯"
+        }
+      ]
+    },
+    "legacy-quiz:45": {
+      "title": "初次故意違規（涉及非特定物質）的標準禁賽期限是？",
+      "ruleVersion": "unverified",
+      "references": [
+        {
+          "sourceId": "code-2021",
+          "locator": "待逐題定位條文與個案來源；此連結不是原題答案已被核實的證明"
+        }
+      ],
+      "verificationStatus": "pending_verification",
+      "verifiedAt": null,
+      "inventoryAt": "2026-10-23",
+      "ownerRole": "規則內容維護編輯",
+      "nextReviewAt": "2026-12-31",
+      "reviewScope": "原有題庫盤點；僅第 1 題核對 S1 分類，其餘題目不提供評分答案。",
+      "professionalApproval": "not_recorded",
+      "history": [
+        {
+          "date": "2026-10-23",
+          "action": "盤點入列，暫停確定答案／允許判定；等待對應證據",
+          "role": "規則內容維護編輯"
+        }
+      ]
+    },
+    "legacy-quiz:46": {
+      "title": "Ben Johnson在1988年奧運會因使用什麼物質被取消金牌？",
+      "ruleVersion": "unverified",
+      "references": [
+        {
+          "sourceId": "code-2021",
+          "locator": "待逐題定位條文與個案來源；此連結不是原題答案已被核實的證明"
+        }
+      ],
+      "verificationStatus": "pending_verification",
+      "verifiedAt": null,
+      "inventoryAt": "2026-10-23",
+      "ownerRole": "規則內容維護編輯",
+      "nextReviewAt": "2026-12-31",
+      "reviewScope": "原有題庫盤點；僅第 1 題核對 S1 分類，其餘題目不提供評分答案。",
+      "professionalApproval": "not_recorded",
+      "history": [
+        {
+          "date": "2026-10-23",
+          "action": "盤點入列，暫停確定答案／允許判定；等待對應證據",
+          "role": "規則內容維護編輯"
+        }
+      ]
+    },
+    "legacy-quiz:47": {
+      "title": "Lance Armstrong主要使用的禁藥是什麼？",
+      "ruleVersion": "unverified",
+      "references": [
+        {
+          "sourceId": "code-2021",
+          "locator": "待逐題定位條文與個案來源；此連結不是原題答案已被核實的證明"
+        }
+      ],
+      "verificationStatus": "pending_verification",
+      "verifiedAt": null,
+      "inventoryAt": "2026-10-23",
+      "ownerRole": "規則內容維護編輯",
+      "nextReviewAt": "2026-12-31",
+      "reviewScope": "原有題庫盤點；僅第 1 題核對 S1 分類，其餘題目不提供評分答案。",
+      "professionalApproval": "not_recorded",
+      "history": [
+        {
+          "date": "2026-10-23",
+          "action": "盤點入列，暫停確定答案／允許判定；等待對應證據",
+          "role": "規則內容維護編輯"
+        }
+      ]
+    },
+    "legacy-quiz:48": {
+      "title": "BALCO醜聞中的核心禁藥THG屬於什麼類別？",
+      "ruleVersion": "unverified",
+      "references": [
+        {
+          "sourceId": "code-2021",
+          "locator": "待逐題定位條文與個案來源；此連結不是原題答案已被核實的證明"
+        }
+      ],
+      "verificationStatus": "pending_verification",
+      "verifiedAt": null,
+      "inventoryAt": "2026-10-23",
+      "ownerRole": "規則內容維護編輯",
+      "nextReviewAt": "2026-12-31",
+      "reviewScope": "原有題庫盤點；僅第 1 題核對 S1 分類，其餘題目不提供評分答案。",
+      "professionalApproval": "not_recorded",
+      "history": [
+        {
+          "date": "2026-10-23",
+          "action": "盤點入列，暫停確定答案／允許判定；等待對應證據",
+          "role": "規則內容維護編輯"
+        }
+      ]
+    },
+    "legacy-quiz:49": {
+      "title": "俄羅斯索契冬奧醜聞主要涉及什麼違規行為？",
+      "ruleVersion": "unverified",
+      "references": [
+        {
+          "sourceId": "code-2021",
+          "locator": "待逐題定位條文與個案來源；此連結不是原題答案已被核實的證明"
+        }
+      ],
+      "verificationStatus": "pending_verification",
+      "verifiedAt": null,
+      "inventoryAt": "2026-10-23",
+      "ownerRole": "規則內容維護編輯",
+      "nextReviewAt": "2026-12-31",
+      "reviewScope": "原有題庫盤點；僅第 1 題核對 S1 分類，其餘題目不提供評分答案。",
+      "professionalApproval": "not_recorded",
+      "history": [
+        {
+          "date": "2026-10-23",
+          "action": "盤點入列，暫停確定答案／允許判定；等待對應證據",
+          "role": "規則內容維護編輯"
+        }
+      ]
+    },
+    "legacy-quiz:50": {
+      "title": "Maria Sharapova被禁賽是因為使用了什麼物質？",
+      "ruleVersion": "unverified",
+      "references": [
+        {
+          "sourceId": "code-2021",
+          "locator": "待逐題定位條文與個案來源；此連結不是原題答案已被核實的證明"
+        }
+      ],
+      "verificationStatus": "pending_verification",
+      "verifiedAt": null,
+      "inventoryAt": "2026-10-23",
+      "ownerRole": "規則內容維護編輯",
+      "nextReviewAt": "2026-12-31",
+      "reviewScope": "原有題庫盤點；僅第 1 題核對 S1 分類，其餘題目不提供評分答案。",
+      "professionalApproval": "not_recorded",
+      "history": [
+        {
+          "date": "2026-10-23",
+          "action": "盤點入列，暫停確定答案／允許判定；等待對應證據",
+          "role": "規則內容維護編輯"
+        }
+      ]
+    },
+    "legacy-quiz:51": {
+      "title": "東德系統性禁藥主要使用什麼物質？",
+      "ruleVersion": "unverified",
+      "references": [
+        {
+          "sourceId": "code-2021",
+          "locator": "待逐題定位條文與個案來源；此連結不是原題答案已被核實的證明"
+        }
+      ],
+      "verificationStatus": "pending_verification",
+      "verifiedAt": null,
+      "inventoryAt": "2026-10-23",
+      "ownerRole": "規則內容維護編輯",
+      "nextReviewAt": "2026-12-31",
+      "reviewScope": "原有題庫盤點；僅第 1 題核對 S1 分類，其餘題目不提供評分答案。",
+      "professionalApproval": "not_recorded",
+      "history": [
+        {
+          "date": "2026-10-23",
+          "action": "盤點入列，暫停確定答案／允許判定；等待對應證據",
+          "role": "規則內容維護編輯"
+        }
+      ]
+    },
+    "legacy-quiz:52": {
+      "title": "Festina車隊1998年環法賽醜聞涉及什麼禁藥？",
+      "ruleVersion": "unverified",
+      "references": [
+        {
+          "sourceId": "code-2021",
+          "locator": "待逐題定位條文與個案來源；此連結不是原題答案已被核實的證明"
+        }
+      ],
+      "verificationStatus": "pending_verification",
+      "verifiedAt": null,
+      "inventoryAt": "2026-10-23",
+      "ownerRole": "規則內容維護編輯",
+      "nextReviewAt": "2026-12-31",
+      "reviewScope": "原有題庫盤點；僅第 1 題核對 S1 分類，其餘題目不提供評分答案。",
+      "professionalApproval": "not_recorded",
+      "history": [
+        {
+          "date": "2026-10-23",
+          "action": "盤點入列，暫停確定答案／允許判定；等待對應證據",
+          "role": "規則內容維護編輯"
+        }
+      ]
+    },
+    "legacy-quiz:53": {
+      "title": "Sun Yang被禁賽8年的主要原因是？",
+      "ruleVersion": "unverified",
+      "references": [
+        {
+          "sourceId": "code-2021",
+          "locator": "待逐題定位條文與個案來源；此連結不是原題答案已被核實的證明"
+        }
+      ],
+      "verificationStatus": "pending_verification",
+      "verifiedAt": null,
+      "inventoryAt": "2026-10-23",
+      "ownerRole": "規則內容維護編輯",
+      "nextReviewAt": "2026-12-31",
+      "reviewScope": "原有題庫盤點；僅第 1 題核對 S1 分類，其餘題目不提供評分答案。",
+      "professionalApproval": "not_recorded",
+      "history": [
+        {
+          "date": "2026-10-23",
+          "action": "盤點入列，暫停確定答案／允許判定；等待對應證據",
+          "role": "規則內容維護編輯"
+        }
+      ]
+    },
+    "legacy-quiz:54": {
+      "title": "哈薩克舉重隊在奧運重檢中主要被發現使用什麼？",
+      "ruleVersion": "unverified",
+      "references": [
+        {
+          "sourceId": "code-2021",
+          "locator": "待逐題定位條文與個案來源；此連結不是原題答案已被核實的證明"
+        }
+      ],
+      "verificationStatus": "pending_verification",
+      "verifiedAt": null,
+      "inventoryAt": "2026-10-23",
+      "ownerRole": "規則內容維護編輯",
+      "nextReviewAt": "2026-12-31",
+      "reviewScope": "原有題庫盤點；僅第 1 題核對 S1 分類，其餘題目不提供評分答案。",
+      "professionalApproval": "not_recorded",
+      "history": [
+        {
+          "date": "2026-10-23",
+          "action": "盤點入列，暫停確定答案／允許判定；等待對應證據",
+          "role": "規則內容維護編輯"
+        }
+      ]
+    },
+    "legacy-quiz:55": {
+      "title": "中國1990年代游泳隊醜聞主要涉及什麼物質？",
+      "ruleVersion": "unverified",
+      "references": [
+        {
+          "sourceId": "code-2021",
+          "locator": "待逐題定位條文與個案來源；此連結不是原題答案已被核實的證明"
+        }
+      ],
+      "verificationStatus": "pending_verification",
+      "verifiedAt": null,
+      "inventoryAt": "2026-10-23",
+      "ownerRole": "規則內容維護編輯",
+      "nextReviewAt": "2026-12-31",
+      "reviewScope": "原有題庫盤點；僅第 1 題核對 S1 分類，其餘題目不提供評分答案。",
+      "professionalApproval": "not_recorded",
+      "history": [
+        {
+          "date": "2026-10-23",
+          "action": "盤點入列，暫停確定答案／允許判定；等待對應證據",
+          "role": "規則內容維護編輯"
+        }
+      ]
+    },
+    "legacy-quiz:56": {
+      "title": "WADA的總部設在哪裡？",
+      "ruleVersion": "unverified",
+      "references": [
+        {
+          "sourceId": "code-2021",
+          "locator": "待逐題定位條文與個案來源；此連結不是原題答案已被核實的證明"
+        }
+      ],
+      "verificationStatus": "pending_verification",
+      "verifiedAt": null,
+      "inventoryAt": "2026-10-23",
+      "ownerRole": "規則內容維護編輯",
+      "nextReviewAt": "2026-12-31",
+      "reviewScope": "原有題庫盤點；僅第 1 題核對 S1 分類，其餘題目不提供評分答案。",
+      "professionalApproval": "not_recorded",
+      "history": [
+        {
+          "date": "2026-10-23",
+          "action": "盤點入列，暫停確定答案／允許判定；等待對應證據",
+          "role": "規則內容維護編輯"
+        }
+      ]
+    },
+    "legacy-quiz:57": {
+      "title": "USADA是哪個國家的運動禁藥管制組織？",
+      "ruleVersion": "unverified",
+      "references": [
+        {
+          "sourceId": "code-2021",
+          "locator": "待逐題定位條文與個案來源；此連結不是原題答案已被核實的證明"
+        }
+      ],
+      "verificationStatus": "pending_verification",
+      "verifiedAt": null,
+      "inventoryAt": "2026-10-23",
+      "ownerRole": "規則內容維護編輯",
+      "nextReviewAt": "2026-12-31",
+      "reviewScope": "原有題庫盤點；僅第 1 題核對 S1 分類，其餘題目不提供評分答案。",
+      "professionalApproval": "not_recorded",
+      "history": [
+        {
+          "date": "2026-10-23",
+          "action": "盤點入列，暫停確定答案／允許判定；等待對應證據",
+          "role": "規則內容維護編輯"
+        }
+      ]
+    },
+    "legacy-quiz:58": {
+      "title": "奧運會檢測樣本可以保存多長時間？",
+      "ruleVersion": "unverified",
+      "references": [
+        {
+          "sourceId": "code-2021",
+          "locator": "待逐題定位條文與個案來源；此連結不是原題答案已被核實的證明"
+        }
+      ],
+      "verificationStatus": "pending_verification",
+      "verifiedAt": null,
+      "inventoryAt": "2026-10-23",
+      "ownerRole": "規則內容維護編輯",
+      "nextReviewAt": "2026-12-31",
+      "reviewScope": "原有題庫盤點；僅第 1 題核對 S1 分類，其餘題目不提供評分答案。",
+      "professionalApproval": "not_recorded",
+      "history": [
+        {
+          "date": "2026-10-23",
+          "action": "盤點入列，暫停確定答案／允許判定；等待對應證據",
+          "role": "規則內容維護編輯"
+        }
+      ]
+    },
+    "legacy-quiz:59": {
+      "title": "CAS是什麼機構？",
+      "ruleVersion": "unverified",
+      "references": [
+        {
+          "sourceId": "code-2021",
+          "locator": "待逐題定位條文與個案來源；此連結不是原題答案已被核實的證明"
+        }
+      ],
+      "verificationStatus": "pending_verification",
+      "verifiedAt": null,
+      "inventoryAt": "2026-10-23",
+      "ownerRole": "規則內容維護編輯",
+      "nextReviewAt": "2026-12-31",
+      "reviewScope": "原有題庫盤點；僅第 1 題核對 S1 分類，其餘題目不提供評分答案。",
+      "professionalApproval": "not_recorded",
+      "history": [
+        {
+          "date": "2026-10-23",
+          "action": "盤點入列，暫停確定答案／允許判定；等待對應證據",
+          "role": "規則內容維護編輯"
+        }
+      ]
+    },
+    "legacy-quiz:60": {
+      "title": "運動員可以對禁藥檢測結果提出申訴的時限通常是？",
+      "ruleVersion": "unverified",
+      "references": [
+        {
+          "sourceId": "code-2021",
+          "locator": "待逐題定位條文與個案來源；此連結不是原題答案已被核實的證明"
+        }
+      ],
+      "verificationStatus": "pending_verification",
+      "verifiedAt": null,
+      "inventoryAt": "2026-10-23",
+      "ownerRole": "規則內容維護編輯",
+      "nextReviewAt": "2026-12-31",
+      "reviewScope": "原有題庫盤點；僅第 1 題核對 S1 分類，其餘題目不提供評分答案。",
+      "professionalApproval": "not_recorded",
+      "history": [
+        {
+          "date": "2026-10-23",
+          "action": "盤點入列，暫停確定答案／允許判定；等待對應證據",
+          "role": "規則內容維護編輯"
+        }
+      ]
+    },
+    "legacy-quiz:61": {
+      "title": "世界運動禁藥管制規範(WADC)多久進行一次重大修訂？",
+      "ruleVersion": "unverified",
+      "references": [
+        {
+          "sourceId": "code-2021",
+          "locator": "待逐題定位條文與個案來源；此連結不是原題答案已被核實的證明"
+        }
+      ],
+      "verificationStatus": "pending_verification",
+      "verifiedAt": null,
+      "inventoryAt": "2026-10-23",
+      "ownerRole": "規則內容維護編輯",
+      "nextReviewAt": "2026-12-31",
+      "reviewScope": "原有題庫盤點；僅第 1 題核對 S1 分類，其餘題目不提供評分答案。",
+      "professionalApproval": "not_recorded",
+      "history": [
+        {
+          "date": "2026-10-23",
+          "action": "盤點入列，暫停確定答案／允許判定；等待對應證據",
+          "role": "規則內容維護編輯"
+        }
+      ]
+    },
+    "legacy-quiz:62": {
+      "title": "運動員錯過檢測的後果是什麼？",
+      "ruleVersion": "unverified",
+      "references": [
+        {
+          "sourceId": "code-2021",
+          "locator": "待逐題定位條文與個案來源；此連結不是原題答案已被核實的證明"
+        }
+      ],
+      "verificationStatus": "pending_verification",
+      "verifiedAt": null,
+      "inventoryAt": "2026-10-23",
+      "ownerRole": "規則內容維護編輯",
+      "nextReviewAt": "2026-12-31",
+      "reviewScope": "原有題庫盤點；僅第 1 題核對 S1 分類，其餘題目不提供評分答案。",
+      "professionalApproval": "not_recorded",
+      "history": [
+        {
+          "date": "2026-10-23",
+          "action": "盤點入列，暫停確定答案／允許判定；等待對應證據",
+          "role": "規則內容維護編輯"
+        }
+      ]
+    },
+    "legacy-quiz:63": {
+      "title": "檢測官員進行檢測時需要運動員提供什麼？",
+      "ruleVersion": "unverified",
+      "references": [
+        {
+          "sourceId": "code-2021",
+          "locator": "待逐題定位條文與個案來源；此連結不是原題答案已被核實的證明"
+        }
+      ],
+      "verificationStatus": "pending_verification",
+      "verifiedAt": null,
+      "inventoryAt": "2026-10-23",
+      "ownerRole": "規則內容維護編輯",
+      "nextReviewAt": "2026-12-31",
+      "reviewScope": "原有題庫盤點；僅第 1 題核對 S1 分類，其餘題目不提供評分答案。",
+      "professionalApproval": "not_recorded",
+      "history": [
+        {
+          "date": "2026-10-23",
+          "action": "盤點入列，暫停確定答案／允許判定；等待對應證據",
+          "role": "規則內容維護編輯"
+        }
+      ]
+    },
+    "legacy-quiz:64": {
+      "title": "運動員在提供樣本前可以做什麼？",
+      "ruleVersion": "unverified",
+      "references": [
+        {
+          "sourceId": "code-2021",
+          "locator": "待逐題定位條文與個案來源；此連結不是原題答案已被核實的證明"
+        }
+      ],
+      "verificationStatus": "pending_verification",
+      "verifiedAt": null,
+      "inventoryAt": "2026-10-23",
+      "ownerRole": "規則內容維護編輯",
+      "nextReviewAt": "2026-12-31",
+      "reviewScope": "原有題庫盤點；僅第 1 題核對 S1 分類，其餘題目不提供評分答案。",
+      "professionalApproval": "not_recorded",
+      "history": [
+        {
+          "date": "2026-10-23",
+          "action": "盤點入列，暫停確定答案／允許判定；等待對應證據",
+          "role": "規則內容維護編輯"
+        }
+      ]
+    },
+    "legacy-quiz:65": {
+      "title": "運動禁藥防制教育的主要目的是什麼？",
+      "ruleVersion": "unverified",
+      "references": [
+        {
+          "sourceId": "code-2021",
+          "locator": "待逐題定位條文與個案來源；此連結不是原題答案已被核實的證明"
+        }
+      ],
+      "verificationStatus": "pending_verification",
+      "verifiedAt": null,
+      "inventoryAt": "2026-10-23",
+      "ownerRole": "規則內容維護編輯",
+      "nextReviewAt": "2026-12-31",
+      "reviewScope": "原有題庫盤點；僅第 1 題核對 S1 分類，其餘題目不提供評分答案。",
+      "professionalApproval": "not_recorded",
+      "history": [
+        {
+          "date": "2026-10-23",
+          "action": "盤點入列，暫停確定答案／允許判定；等待對應證據",
+          "role": "規則內容維護編輯"
+        }
+      ]
+    },
+    "legacy-quiz:66": {
+      "title": "《世界運動禁藥管制規範》(WADA Code) 定義的違反運動禁藥管制規則（ADRV）共有幾類？",
+      "ruleVersion": "unverified",
+      "references": [
+        {
+          "sourceId": "code-2021",
+          "locator": "待逐題定位條文與個案來源；此連結不是原題答案已被核實的證明"
+        }
+      ],
+      "verificationStatus": "pending_verification",
+      "verifiedAt": null,
+      "inventoryAt": "2026-10-23",
+      "ownerRole": "規則內容維護編輯",
+      "nextReviewAt": "2026-12-31",
+      "reviewScope": "原有題庫盤點；僅第 1 題核對 S1 分類，其餘題目不提供評分答案。",
+      "professionalApproval": "not_recorded",
+      "history": [
+        {
+          "date": "2026-10-23",
+          "action": "盤點入列，暫停確定答案／允許判定；等待對應證據",
+          "role": "規則內容維護編輯"
+        }
+      ]
+    },
+    "legacy-quiz:67": {
+      "title": "「運動精神」(Spirit of Sport) 在 WADA Code 中由幾項核心價值構成？",
+      "ruleVersion": "unverified",
+      "references": [
+        {
+          "sourceId": "code-2021",
+          "locator": "待逐題定位條文與個案來源；此連結不是原題答案已被核實的證明"
+        }
+      ],
+      "verificationStatus": "pending_verification",
+      "verifiedAt": null,
+      "inventoryAt": "2026-10-23",
+      "ownerRole": "規則內容維護編輯",
+      "nextReviewAt": "2026-12-31",
+      "reviewScope": "原有題庫盤點；僅第 1 題核對 S1 分類，其餘題目不提供評分答案。",
+      "professionalApproval": "not_recorded",
+      "history": [
+        {
+          "date": "2026-10-23",
+          "action": "盤點入列，暫停確定答案／允許判定；等待對應證據",
+          "role": "規則內容維護編輯"
+        }
+      ]
+    },
+    "legacy-quiz:68": {
+      "title": "WADA 定義的「賽內期」(In-Competition) 原則上從何時起算？",
+      "ruleVersion": "unverified",
+      "references": [
+        {
+          "sourceId": "code-2021",
+          "locator": "待逐題定位條文與個案來源；此連結不是原題答案已被核實的證明"
+        }
+      ],
+      "verificationStatus": "pending_verification",
+      "verifiedAt": null,
+      "inventoryAt": "2026-10-23",
+      "ownerRole": "規則內容維護編輯",
+      "nextReviewAt": "2026-12-31",
+      "reviewScope": "原有題庫盤點；僅第 1 題核對 S1 分類，其餘題目不提供評分答案。",
+      "professionalApproval": "not_recorded",
+      "history": [
+        {
+          "date": "2026-10-23",
+          "action": "盤點入列，暫停確定答案／允許判定；等待對應證據",
+          "role": "規則內容維護編輯"
+        }
+      ]
+    },
+    "legacy-quiz:69": {
+      "title": "運動員提出治療用途豁免（TUE）申請後，審查委員會（TUEC）原則上應在多久內作出決定？",
+      "ruleVersion": "unverified",
+      "references": [
+        {
+          "sourceId": "code-2021",
+          "locator": "待逐題定位條文與個案來源；此連結不是原題答案已被核實的證明"
+        }
+      ],
+      "verificationStatus": "pending_verification",
+      "verifiedAt": null,
+      "inventoryAt": "2026-10-23",
+      "ownerRole": "規則內容維護編輯",
+      "nextReviewAt": "2026-12-31",
+      "reviewScope": "原有題庫盤點；僅第 1 題核對 S1 分類，其餘題目不提供評分答案。",
+      "professionalApproval": "not_recorded",
+      "history": [
+        {
+          "date": "2026-10-23",
+          "action": "盤點入列，暫停確定答案／允許判定；等待對應證據",
+          "role": "規則內容維護編輯"
+        }
+      ]
+    },
+    "legacy-quiz:70": {
+      "title": "胰島素（Insulin）在 WADA 禁用清單中屬於哪一類？",
+      "ruleVersion": "unverified",
+      "references": [
+        {
+          "sourceId": "code-2021",
+          "locator": "待逐題定位條文與個案來源；此連結不是原題答案已被核實的證明"
+        }
+      ],
+      "verificationStatus": "pending_verification",
+      "verifiedAt": null,
+      "inventoryAt": "2026-10-23",
+      "ownerRole": "規則內容維護編輯",
+      "nextReviewAt": "2026-12-31",
+      "reviewScope": "原有題庫盤點；僅第 1 題核對 S1 分類，其餘題目不提供評分答案。",
+      "professionalApproval": "not_recorded",
+      "history": [
+        {
+          "date": "2026-10-23",
+          "action": "盤點入列，暫停確定答案／允許判定；等待對應證據",
+          "role": "規則內容維護編輯"
+        }
+      ]
+    }
+  }
+}

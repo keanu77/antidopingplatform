@@ -1,5 +1,6 @@
 {
   "_meta": {
+    "evidenceRegistry": "/sources",
     "description": "WADA 禁用物質查核單一來源（Single Source of Truth）。前端 TUE 藥物查詢與多步決策工具、後端 /api/tue/check 與 /api/tue/substances 皆讀此檔，切勿在前端重複硬編碼。",
     "listVersion": "2026",
     "prohibitionValues": {
@@ -27,6 +28,8 @@
   },
   "substances": {
     "salbutamol": {
+      "evidenceId": "drug:salbutamol",
+      "ruleVersion": "wada-2026",
       "s5ThresholdRule": true,
       "displayName": "Salbutamol 沙丁胺醇",
       "aliases": ["albuterol", "沙丁胺醇", "舒喘寧"],
@@ -48,6 +51,8 @@
       "note": "吸入劑在 24 小時內 ≤1600µg 且每 8 小時 ≤600µg，並確認不受 S5 併用規則限制時免 TUE；尿液 >1000ng/mL 須以藥動研究證明（決定限值 1200ng/mL）；口服劑型需 TUE"
     },
     "formoterol": {
+      "evidenceId": "drug:formoterol",
+      "ruleVersion": "wada-2026",
       "s5ThresholdRule": true,
       "displayName": "Formoterol 福莫特羅",
       "aliases": ["福莫特羅", "eformoterol"],
@@ -69,6 +74,8 @@
       "note": "吸入劑以實際吸入劑量（delivered dose）計，24 小時內 ≤54µg，且任何 12 小時內 ≤36µg，符合此劑量例外，並確認不受 S5 併用規則限制時免 TUE；超出例外劑量或口服仍需 TUE"
     },
     "salmeterol": {
+      "evidenceId": "drug:salmeterol",
+      "ruleVersion": "wada-2026",
       "displayName": "Salmeterol 沙美特羅",
       "aliases": ["沙美特羅"],
       "wadaCode": "S3",
@@ -89,6 +96,8 @@
       "note": "吸入劑在 24 小時內 ≤200µg 且每 8 小時 ≤100µg 免 TUE（每 8h 子上限為 2026 新規）；口服 Beta-2 激動劑仍需 TUE"
     },
     "vilanterol": {
+      "evidenceId": "drug:vilanterol",
+      "ruleVersion": "wada-2026",
       "displayName": "Vilanterol 維蘭特羅",
       "aliases": ["維蘭特羅"],
       "wadaCode": "S3",
@@ -109,6 +118,8 @@
       "note": "吸入劑在 24 小時內 ≤25µg 免 TUE"
     },
     "clenbuterol": {
+      "evidenceId": "drug:clenbuterol",
+      "ruleVersion": "wada-2026",
       "displayName": "Clenbuterol 克倫特羅",
       "aliases": ["克倫特羅", "瘦肉精"],
       "wadaCode": "S1.2",
@@ -122,6 +133,8 @@
       "note": "全時段禁用（雖為 Beta-2 激動劑，WADA 歸類為 S1.2 其他合成代謝劑）；因難以符合核准條件，實務上極少獲准 TUE"
     },
     "insulin": {
+      "evidenceId": "drug:insulin",
+      "ruleVersion": "wada-2026",
       "displayName": "Insulin 胰島素",
       "aliases": ["胰島素"],
       "wadaCode": "S4.4.2",
@@ -135,6 +148,8 @@
       "note": "全時段禁用；糖尿病等病患使用須事先申請 TUE"
     },
     "glucagon": {
+      "evidenceId": "drug:glucagon",
+      "ruleVersion": "wada-2026",
       "displayName": "Glucagon 升糖素",
       "aliases": ["升糖素"],
       "wadaCode": "none",
@@ -148,6 +163,8 @@
       "note": "升糖素（Glucagon）未被列入 WADA 禁用清單，一般允許使用"
     },
     "methylphenidate": {
+      "evidenceId": "drug:methylphenidate",
+      "ruleVersion": "wada-2026",
       "displayName": "Methylphenidate 派醋甲酯（利他能）",
       "aliases": ["派醋甲酯", "利他能", "ritalin", "concerta"],
       "wadaCode": "S6",
@@ -161,6 +178,8 @@
       "note": "ADHD 患者可申請 TUE，僅比賽期間禁用"
     },
     "amphetamine": {
+      "evidenceId": "drug:amphetamine",
+      "ruleVersion": "wada-2026",
       "displayName": "Amphetamine 安非他命",
       "aliases": ["安非他命"],
       "wadaCode": "S6",
@@ -174,6 +193,8 @@
       "note": "ADHD 患者可申請 TUE，僅比賽期間禁用"
     },
     "modafinil": {
+      "evidenceId": "drug:modafinil",
+      "ruleVersion": "wada-2026",
       "displayName": "Modafinil 莫達非尼",
       "aliases": ["莫達非尼"],
       "wadaCode": "S6",
@@ -187,6 +208,8 @@
       "note": "嗜睡症患者可申請 TUE"
     },
     "cocaine": {
+      "evidenceId": "drug:cocaine",
+      "ruleVersion": "wada-2026",
       "displayName": "Cocaine 古柯鹼",
       "aliases": ["古柯鹼", "可卡因"],
       "wadaCode": "S6",
@@ -200,6 +223,8 @@
       "note": "僅賽內禁用；屬濫用物質（Substance of Abuse），若能證明賽外使用且與運動表現無關，制裁可減輕"
     },
     "pseudoephedrine": {
+      "evidenceId": "drug:pseudoephedrine",
+      "ruleVersion": "wada-2026",
       "s5ThresholdRule": true,
       "displayName": "Pseudoephedrine 偽麻黃鹼",
       "aliases": ["偽麻黃鹼", "偽麻黃素"],
@@ -220,6 +245,8 @@
       "note": "僅賽內禁用；尿液濃度 >150µg/mL 為陽性；服用含偽麻黃鹼的感冒藥須注意劑量與停藥時間"
     },
     "ephedrine": {
+      "evidenceId": "drug:ephedrine",
+      "ruleVersion": "wada-2026",
       "s5ThresholdRule": true,
       "displayName": "Ephedrine 麻黃鹼",
       "aliases": ["麻黃鹼", "麻黃素"],
@@ -239,6 +266,8 @@
       "note": "僅賽內禁用；尿液濃度 >10µg/mL 為陽性"
     },
     "propranolol": {
+      "evidenceId": "drug:propranolol",
+      "ruleVersion": "wada-2026",
       "displayName": "Propranolol 普萘洛爾",
       "aliases": ["普萘洛爾", "心得安", "inderal"],
       "wadaCode": "P1",
@@ -253,6 +282,8 @@
       "note": "射箭（WA）、射擊（ISSF／IPC），以及 CMAS 自由潛水、魚槍捕魚、水下標靶射擊的所有分項，賽內與賽外皆禁用；汽車運動（FIA）、撞球（WCBS）、飛鏢（WDF）、高爾夫（IGF）、迷你高爾夫（WMF）僅賽內禁用。受限情境有醫療需要須申請 TUE"
     },
     "atenolol": {
+      "evidenceId": "drug:atenolol",
+      "ruleVersion": "wada-2026",
       "displayName": "Atenolol 阿替洛爾",
       "aliases": ["阿替洛爾", "tenormin"],
       "wadaCode": "P1",
@@ -267,6 +298,8 @@
       "note": "射箭（WA）、射擊（ISSF／IPC），以及 CMAS 自由潛水、魚槍捕魚、水下標靶射擊的所有分項，賽內與賽外皆禁用；汽車運動（FIA）、撞球（WCBS）、飛鏢（WDF）、高爾夫（IGF）、迷你高爾夫（WMF）僅賽內禁用。受限情境有醫療需要須申請 TUE"
     },
     "furosemide": {
+      "evidenceId": "drug:furosemide",
+      "ruleVersion": "wada-2026",
       "displayName": "Furosemide 呋塞米",
       "aliases": ["呋塞米", "來適泄", "lasix"],
       "wadaCode": "S5",
@@ -280,6 +313,8 @@
       "note": "全時段禁用（利尿劑可作為遮蔽劑）；心臟病等病患使用可申請 TUE"
     },
     "hydrochlorothiazide": {
+      "evidenceId": "drug:hydrochlorothiazide",
+      "ruleVersion": "wada-2026",
       "displayName": "Hydrochlorothiazide 氫氯噻嗪",
       "aliases": ["氫氯噻嗪", "hctz"],
       "wadaCode": "S5",
@@ -293,6 +328,8 @@
       "note": "全時段禁用（利尿劑可作為遮蔽劑）；高血壓等病患使用可申請 TUE"
     },
     "morphine": {
+      "evidenceId": "drug:morphine",
+      "ruleVersion": "wada-2026",
       "displayName": "Morphine 嗎啡",
       "aliases": ["嗎啡"],
       "wadaCode": "S7",
@@ -306,6 +343,8 @@
       "note": "慢性疼痛患者可申請 TUE，僅比賽期間禁用"
     },
     "codeine": {
+      "evidenceId": "drug:codeine",
+      "ruleVersion": "wada-2026",
       "displayName": "Codeine 可待因",
       "aliases": ["可待因"],
       "wadaCode": "none",
@@ -319,6 +358,8 @@
       "note": "可待因（Codeine）未列入 WADA 禁用清單，屬監控計畫物質（賽內監控）；一般允許，惟高劑量使用受監控"
     },
     "tramadol": {
+      "evidenceId": "drug:tramadol",
+      "ruleVersion": "wada-2026",
       "displayName": "Tramadol 曲馬多",
       "aliases": ["曲馬多", "tramal"],
       "wadaCode": "S7",
@@ -332,6 +373,8 @@
       "note": "自 2024 年起賽內禁用；疼痛治療可申請 TUE，僅比賽期間禁用"
     },
     "prednisolone": {
+      "evidenceId": "drug:prednisolone",
+      "ruleVersion": "wada-2026",
       "displayName": "Prednisolone 潑尼松龍",
       "aliases": ["潑尼松龍", "prednisone", "潑尼松"],
       "wadaCode": "S9",
@@ -351,6 +394,8 @@
       "note": "賽內口服、直腸及所有注射途徑（含關節內／肌腱周圍／肌肉／靜脈）禁用，醫療需要須 TUE；吸入／鼻／眼／皮膚等途徑按核准劑量與適應症使用時允許。賽外使用不禁，但可能在賽內檢體留下殘留而出現不利分析結果，必要時須申請回溯 TUE；應保留診療紀錄，清除期不是檢測陰性的保證"
     },
     "dexamethasone": {
+      "evidenceId": "drug:dexamethasone",
+      "ruleVersion": "wada-2026",
       "displayName": "Dexamethasone 地塞米松",
       "aliases": ["地塞米松", "decadron"],
       "wadaCode": "S9",
@@ -370,6 +415,8 @@
       "note": "賽內口服、直腸及所有注射途徑（含關節內／肌腱周圍／肌肉／靜脈）禁用，醫療需要須 TUE；吸入／鼻／眼／皮膚等途徑按核准劑量與適應症使用時允許。賽外使用不禁，但可能在賽內檢體留下殘留而出現不利分析結果，必要時須申請回溯 TUE；應保留診療紀錄"
     },
     "hydrocortisone": {
+      "evidenceId": "drug:hydrocortisone",
+      "ruleVersion": "wada-2026",
       "displayName": "Hydrocortisone 氫化可體松",
       "aliases": ["氫化可體松", "cortisol", "可體松"],
       "wadaCode": "S9",
@@ -389,6 +436,8 @@
       "note": "賽內口服、直腸及所有注射途徑（含關節內／肌腱周圍／肌肉／靜脈）禁用，醫療需要須 TUE；吸入／鼻／眼／皮膚等途徑按核准劑量與適應症使用時允許。賽外使用不禁，但可能在賽內檢體留下殘留而出現不利分析結果，必要時須申請回溯 TUE；應保留診療紀錄"
     },
     "triamcinolone": {
+      "evidenceId": "drug:triamcinolone",
+      "ruleVersion": "wada-2026",
       "displayName": "Triamcinolone 曲安奈德",
       "aliases": ["曲安奈德", "去炎松", "triamcinolone acetonide", "kenalog"],
       "wadaCode": "S9",
@@ -408,6 +457,8 @@
       "note": "賽內口服、直腸及所有注射途徑禁用，醫療需要須 TUE；吸入／鼻／眼／皮膚等途徑允許。常用於關節內或肌肉注射，清除期明顯長於其他糖皮質激素，賽外注射也要回推賽程；應保留診療紀錄"
     },
     "betamethasone": {
+      "evidenceId": "drug:betamethasone",
+      "ruleVersion": "wada-2026",
       "displayName": "Betamethasone 倍他米松",
       "aliases": ["倍他米松", "celestone", "diprospan"],
       "wadaCode": "S9",
@@ -427,6 +478,8 @@
       "note": "賽內口服、直腸及所有注射途徑禁用，醫療需要須 TUE；吸入／鼻／眼／皮膚等途徑允許。賽外使用不禁，但須依清除期回推賽程；應保留診療紀錄"
     },
     "methylprednisolone": {
+      "evidenceId": "drug:methylprednisolone",
+      "ruleVersion": "wada-2026",
       "displayName": "Methylprednisolone 甲基培尼皮質醇",
       "aliases": ["甲基培尼皮質醇", "甲潑尼龍", "medrol", "solu-medrol", "depo-medrol"],
       "wadaCode": "S9",
@@ -446,6 +499,8 @@
       "note": "賽內口服、直腸及所有注射途徑禁用，醫療需要須 TUE；吸入／鼻／眼／皮膚等途徑允許。賽外使用不禁，但須依清除期回推賽程；應保留診療紀錄"
     },
     "budesonide": {
+      "evidenceId": "drug:budesonide",
+      "ruleVersion": "wada-2026",
       "displayName": "Budesonide 布地奈德",
       "aliases": ["布地奈德", "pulmicort", "entocort"],
       "wadaCode": "S9",
@@ -464,6 +519,8 @@
       "note": "吸入與鼻噴允許、免 TUE；賽內口服或直腸使用須申請 TUE"
     },
     "terbutaline": {
+      "evidenceId": "drug:terbutaline",
+      "ruleVersion": "wada-2026",
       "displayName": "Terbutaline 特布他林",
       "aliases": ["特布他林", "bricanyl"],
       "wadaCode": "S3",
@@ -480,6 +537,8 @@
       "note": "全時段禁用；不屬於吸入劑量例外，任何途徑使用都須事先申請 TUE。若可改用限量內的 salbutamol 等吸入劑，可免 TUE"
     },
     "oxycodone": {
+      "evidenceId": "drug:oxycodone",
+      "ruleVersion": "wada-2026",
       "displayName": "Oxycodone 羥考酮",
       "aliases": ["羥考酮", "oxycontin"],
       "wadaCode": "S7",
@@ -493,6 +552,8 @@
       "note": "僅賽內禁用；慢性疼痛或術後於賽內需要使用須申請 TUE。非禁用替代包括 paracetamol、NSAIDs 與局部麻醉"
     },
     "fentanyl": {
+      "evidenceId": "drug:fentanyl",
+      "ruleVersion": "wada-2026",
       "displayName": "Fentanyl 吩坦尼",
       "aliases": ["吩坦尼", "芬太尼", "durogesic"],
       "wadaCode": "S7",
@@ -506,6 +567,8 @@
       "note": "僅賽內禁用，賽內需要使用須申請 TUE；賽外使用另列監控計畫（2026）"
     },
     "hydrocodone": {
+      "evidenceId": "drug:hydrocodone",
+      "ruleVersion": "wada-2026",
       "displayName": "Hydrocodone 氫可酮",
       "aliases": ["氫可酮"],
       "wadaCode": "none",
@@ -519,6 +582,8 @@
       "note": "2026 年屬賽內監控計畫物質，未列入禁用清單；監控項目每年可能調整，使用前請查當年度清單"
     },
     "lisdexamfetamine": {
+      "evidenceId": "drug:lisdexamfetamine",
+      "ruleVersion": "wada-2026",
       "displayName": "Lisdexamfetamine（安非他命前驅藥）",
       "aliases": ["vyvanse"],
       "wadaCode": "S6",
@@ -532,6 +597,8 @@
       "note": "ADHD 用藥，體內轉為 amphetamine；僅賽內禁用，持續治療者實務上須申請賽內 TUE"
     },
     "methylephedrine": {
+      "evidenceId": "drug:methylephedrine",
+      "ruleVersion": "wada-2026",
       "s5ThresholdRule": true,
       "displayName": "Methylephedrine 甲基麻黃鹼",
       "aliases": ["甲基麻黃鹼", "甲基麻黃素"],
@@ -552,6 +619,8 @@
       "note": "僅賽內禁用；尿液濃度 >10µg/mL 為陽性；常見於複方感冒藥"
     },
     "metoprolol": {
+      "evidenceId": "drug:metoprolol",
+      "ruleVersion": "wada-2026",
       "displayName": "Metoprolol 美托洛爾",
       "aliases": ["美托洛爾", "betaloc"],
       "wadaCode": "P1",
@@ -566,6 +635,8 @@
       "note": "射箭（WA）、射擊（ISSF／IPC），以及 CMAS 自由潛水、魚槍捕魚、水下標靶射擊的所有分項，賽內與賽外皆禁用；汽車運動（FIA）、撞球（WCBS）、飛鏢（WDF）、高爾夫（IGF）、迷你高爾夫（WMF）僅賽內禁用。受限情境有醫療需要須申請 TUE"
     },
     "bisoprolol": {
+      "evidenceId": "drug:bisoprolol",
+      "ruleVersion": "wada-2026",
       "displayName": "Bisoprolol 比索洛爾",
       "aliases": ["比索洛爾", "concor"],
       "wadaCode": "P1",
@@ -580,6 +651,8 @@
       "note": "射箭（WA）、射擊（ISSF／IPC），以及 CMAS 自由潛水、魚槍捕魚、水下標靶射擊的所有分項，賽內與賽外皆禁用；汽車運動（FIA）、撞球（WCBS）、飛鏢（WDF）、高爾夫（IGF）、迷你高爾夫（WMF）僅賽內禁用。受限情境有醫療需要須申請 TUE"
     },
     "spironolactone": {
+      "evidenceId": "drug:spironolactone",
+      "ruleVersion": "wada-2026",
       "displayName": "Spironolactone 螺內酯",
       "aliases": ["螺內酯", "aldactone", "安達通"],
       "wadaCode": "S5",
@@ -593,6 +666,8 @@
       "note": "全時段禁用（利尿劑可作為掩蔽劑）；心衰竭、痤瘡或跨性別荷爾蒙治療等醫療需要可申請 TUE"
     },
     "atomoxetine": {
+      "evidenceId": "drug:atomoxetine",
+      "ruleVersion": "wada-2026",
       "displayName": "Atomoxetine 阿托莫西汀（思銳）",
       "aliases": ["阿托莫西汀", "思銳", "strattera"],
       "wadaCode": "none",
@@ -603,9 +678,11 @@
       "routes": null,
       "sportRestricted": null,
       "washout": null,
-      "note": "ADHD 非興奮劑用藥，不在禁用清單、無需 TUE；申請興奮劑 TUE 時，常需說明為何此類替代不適用（ISTUE 4.2(c)）"
+      "note": "ADHD 非興奮劑用藥，WADA 指引列為非禁用替代；依 ADHD 指引，不要求先證明此類藥物治療失敗才能接受 methylphenidate／amphetamine 的 TUE 申請。仍須由 TUEC 個案審查"
     },
     "guanfacine": {
+      "evidenceId": "drug:guanfacine",
+      "ruleVersion": "wada-2026",
       "displayName": "Guanfacine 胍法辛",
       "aliases": ["胍法辛", "intuniv"],
       "wadaCode": "none",
@@ -619,6 +696,8 @@
       "note": "ADHD 非興奮劑用藥，不在禁用清單、無需 TUE"
     },
     "amlodipine": {
+      "evidenceId": "drug:amlodipine",
+      "ruleVersion": "wada-2026",
       "displayName": "Amlodipine 脈優",
       "aliases": ["脈優", "norvasc", "氨氯地平"],
       "wadaCode": "none",
@@ -632,6 +711,8 @@
       "note": "鈣離子阻斷劑（CCB），不在禁用清單、無需 TUE；射箭、射擊等 P1 運動選手的高血壓常用非禁用替代"
     },
     "losartan": {
+      "evidenceId": "drug:losartan",
+      "ruleVersion": "wada-2026",
       "displayName": "Losartan 可悅您",
       "aliases": ["可悅您", "cozaar", "氯沙坦"],
       "wadaCode": "none",
@@ -645,6 +726,8 @@
       "note": "血管收縮素受體阻斷劑（ARB），不在禁用清單、無需 TUE；注意含利尿劑的複方（如 losartan/HCTZ）屬 S5 全時段禁用"
     },
     "cannabidiol": {
+      "evidenceId": "drug:cannabidiol",
+      "ruleVersion": "wada-2026",
       "displayName": "Cannabidiol 大麻二酚（CBD）",
       "aliases": ["cbd", "大麻二酚"],
       "wadaCode": "none",
@@ -658,6 +741,8 @@
       "note": "CBD 本身不在禁用清單；但市售 CBD 產品可能含 THC 等其他大麻素（S8 賽內禁用），選購時仍有驗出風險"
     },
     "meldonium": {
+      "evidenceId": "drug:meldonium",
+      "ruleVersion": "wada-2026",
       "displayName": "Meldonium 米屈肼",
       "aliases": ["米屈肼", "mildronate", "mildronat"],
       "wadaCode": "S4.4.3",
@@ -671,6 +756,8 @@
       "note": "2016 年 1 月 1 日起列入禁用清單，全時段禁用，屬非特定物質；醫療需要須事先申請 TUE，並須符合四大核准條件（含無合理替代治療）。Sharapova 案即因未察覺清單更新而違規"
     },
     "thc": {
+      "evidenceId": "drug:thc",
+      "ruleVersion": "wada-2026",
       "displayName": "THC 四氫大麻酚（大麻）",
       "aliases": ["四氫大麻酚", "大麻", "cannabis", "marijuana", "tetrahydrocannabinol", "dronabinol"],
       "wadaCode": "S8",
@@ -684,6 +771,8 @@
       "note": "僅賽內禁用，尿液閾值 150 ng/mL；屬濫用物質（Substance of Abuse），若能證明於賽外使用且與運動表現無關，處分可減輕。除 CBD 外，天然與合成大麻素皆於賽內禁用；醫療用大麻素須申請 TUE"
     },
     "testosterone": {
+      "evidenceId": "drug:testosterone",
+      "ruleVersion": "wada-2026",
       "displayName": "Testosterone 睪固酮",
       "aliases": ["睪固酮", "睾固酮", "testo"],
       "wadaCode": "S1",
@@ -697,6 +786,8 @@
       "note": "全時段禁用；有醫療需要可依 WADA 指引申請 TUE，須由醫師評估並由 TUEC 個案審查，並非自動核准。2026 男性性腺功能低下指引涵蓋器質性病因，另列體質性青春期延遲的特殊情況；單純功能性低睪固酮不符合該指引的核准條件"
     },
     "nandrolone": {
+      "evidenceId": "drug:nandrolone",
+      "ruleVersion": "wada-2026",
       "displayName": "Nandrolone 諾龍",
       "aliases": ["諾龍", "南諾龍", "deca"],
       "wadaCode": "S1",
@@ -710,6 +801,8 @@
       "note": "全時段禁用；因難以符合 TUE 核准條件，實務上極少獲准"
     },
     "paracetamol": {
+      "evidenceId": "drug:paracetamol",
+      "ruleVersion": "wada-2026",
       "displayName": "Paracetamol 乙醯胺酚",
       "aliases": ["乙醯胺酚", "acetaminophen", "普拿疼", "panadol"],
       "wadaCode": "none",
@@ -723,6 +816,8 @@
       "note": "一般止痛藥，不在 WADA 2026 禁用清單，也不在監控計畫中，賽內外皆可使用、無需 TUE。注意：與同為止痛藥的 tramadol 不同——tramadol 自 2024 年起列為 S7 麻醉劑、賽內禁用。"
     },
     "ibuprofen": {
+      "evidenceId": "drug:ibuprofen",
+      "ruleVersion": "wada-2026",
       "displayName": "Ibuprofen 布洛芬",
       "aliases": ["布洛芬", "advil", "nurofen"],
       "wadaCode": "none",
@@ -736,6 +831,8 @@
       "note": "非類固醇抗發炎藥，無需 TUE"
     },
     "aspirin": {
+      "evidenceId": "drug:aspirin",
+      "ruleVersion": "wada-2026",
       "displayName": "Aspirin 阿斯匹靈",
       "aliases": ["阿斯匹靈", "acetylsalicylic acid", "阿司匹林"],
       "wadaCode": "none",
@@ -749,6 +846,8 @@
       "note": "一般解熱鎮痛藥，無需 TUE"
     },
     "cetirizine": {
+      "evidenceId": "drug:cetirizine",
+      "ruleVersion": "wada-2026",
       "displayName": "Cetirizine 西替利嗪",
       "aliases": ["西替利嗪", "zyrtec"],
       "wadaCode": "none",
@@ -762,6 +861,8 @@
       "note": "抗組織胺，無需 TUE"
     },
     "loratadine": {
+      "evidenceId": "drug:loratadine",
+      "ruleVersion": "wada-2026",
       "displayName": "Loratadine 氯雷他定",
       "aliases": ["氯雷他定", "claritin"],
       "wadaCode": "none",
