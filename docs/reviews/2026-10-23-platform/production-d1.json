@@ -1,0 +1,25 @@
+{
+  "mode": "read-only post-deploy check",
+  "releaseSha": "af8a47f2ff3f6319f65648997d6cb322a251ff64",
+  "feedback": {
+    "row_count": 6,
+    "first_id": 1,
+    "last_id": 6
+  },
+  "delivery": {
+    "id": 1,
+    "legacy_through_id": 6,
+    "cursor_id": 6,
+    "pending": 0,
+    "first_attempt_at": null,
+    "lease_until": 0,
+    "last_success_at": null
+  },
+  "migrations": [
+    "0001_feedback.sql",
+    "0002_feedback_fields.sql",
+    "0003_feedback_delivery.sql"
+  ],
+  "limits": "Metadata only; no feedback contents, real sending or restore test. Legacy feedback delivery is unconfirmed.",
+  "capturedAt": "2026-10-22T18:12:08.029941+00:00"
+}

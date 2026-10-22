@@ -20,7 +20,7 @@ TUE／Education 分頁有 URL 狀態、方向鍵、Home／End 與 ARIA 關聯。
 
 回饋新增 request ID 去重、7 天／20 筆離線佇列、可清除待送資料；彙整改為持久化游標與固定內容的冪等批次，處理延遲、併發與不確定寄送。0003 migration 保留舊資料且不虛構寄達狀態。詳見 [操作說明](../../feedback-operations.md)。
 
-依賴以相容更新為主，移除不再需要的 nodemon／depcheck，Tailwind 更新至 4 並保留必要樣式預設。兩個 npm audit 均為 0 findings（2026-10-23 當次查詢）；不代表未來無新漏洞。Tailwind 4 的現代瀏覽器支援邊界見 CLAUDE.md。
+依賴以相容更新為主，移除不再需要的 nodemon／depcheck，Tailwind 更新至 4 並保留必要樣式預設。root、frontend、legacy backend 三個 npm audit 均為 0 findings（2026-10-23 當次查詢）；不代表未來無新漏洞。Tailwind 4 的現代瀏覽器支援邊界見 CLAUDE.md。
 
 PR 與正式部署均加入 Chromium／手機 Chromium／手機 WebKit 操作與 axe 檢查、初始 HTML 完整性及 gzip budget。六小時唯讀監測對照最近成功部署的 SHA，避免文件提交被誤認為未部署。
 

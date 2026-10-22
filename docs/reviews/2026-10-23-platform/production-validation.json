@@ -1,0 +1,28 @@
+{
+  "site": "https://antidopingplatform.sportsmedicine.tw",
+  "releaseSha": "af8a47f2ff3f6319f65648997d6cb322a251ff64",
+  "browser": {
+    "passed": 63,
+    "failed": 0,
+    "projects": {
+      "desktop-chromium": 21,
+      "mobile-chromium": 21,
+      "mobile-webkit": 21
+    },
+    "capturedAt": "2026-10-22T18:13:24.350837+00:00"
+  },
+  "apiSmoke": {
+    "passed": 18,
+    "total": 18,
+    "mode": "SKIP_WRITE=1"
+  },
+  "deployWorkflow": "https://github.com/keanu77/antidopingplatform/actions/runs/39826544387",
+  "deployAttempt": 2,
+  "manualMonitor": "https://github.com/keanu77/antidopingplatform/actions/runs/39829286781",
+  "manualMonitorConclusion": "success",
+  "limitations": [
+    "Browser feedback requests intercepted; no real submissions or email.",
+    "Manual monitor run only; natural scheduled execution unobserved.",
+    "No clinical signoff, real-user research, field CWV or inbox delivery claim."
+  ]
+}

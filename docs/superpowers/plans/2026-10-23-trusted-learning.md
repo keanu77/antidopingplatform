@@ -36,7 +36,7 @@ Files: feedback frontend/API, D1 migrations, digest/email, tests, workflows, dep
 - [x] 相容依賴更新；不使用 audit fix --force，記錄剩餘風險之可達性。
 - [x] 固定關鍵 browser journeys (Chrome + WebKit/mobile CI)、唯讀監測與版次檢查、效能基線，保留測試輸出。
 - [x] 文件以 Pages runtime 為主，legacy 清楚分隔；發布、回退及資料保存／勘誤流程可執行。
-- [ ] 本機合成 migration / tests → preflight → preview → browser verification → PR / merge / deploy → live SHA + smoke。
+- [x] 本機合成 migration / tests → preflight → preview → browser verification → PR / merge / deploy → live SHA + smoke。
 
 ## 完成證據與限制
 每項交付記錄實際測試與版本。無法以自動化替代的外部具名專業審閱、真人使用者研究、真實 CWV、自然排程寄達及長期追蹤，列出所需資料與研究方式；不宣稱已完成。
