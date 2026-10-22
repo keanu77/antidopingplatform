@@ -1,8 +1,8 @@
 import { useState, useEffect, useRef } from "react";
 import { Search } from "lucide-react";
 import { tueAPI } from "../../services/api";
-import { VERDICT_META } from "../../utils/tueDecision";
-import { VERDICT_STYLE, checkResultVerdict } from "./verdictStyle";
+import { VERDICT_META, summarizeDrug } from "../../utils/tueDecision";
+import { VERDICT_STYLE } from "./verdictStyle";
 
 // 單筆藥物查詢（打 /api/tue/check，資料單一來源自 substances.json）
 function DrugLookup() {
@@ -56,7 +56,8 @@ function DrugLookup() {
     setError(null);
   };
 
-  const meta = result && !error ? VERDICT_META[checkResultVerdict(result)] : null;
+  const decision = result && !error ? summarizeDrug(result) : null;
+  const meta = decision ? VERDICT_META[decision.verdict] : null;
   const style = meta ? VERDICT_STYLE[meta.tone] : null;
 
   return (
@@ -97,7 +98,20 @@ function DrugLookup() {
             <span className="ml-2">— {meta.label}</span>
           </div>
           <p className="mt-2 text-sm text-gray-700">分類：{result.wadaCategory}</p>
+          <ul className="mt-2 space-y-1 text-sm text-gray-800 list-disc list-inside">
+            {decision.reasons.map((reason) => <li key={reason}>{reason}</li>)}
+          </ul>
           <p className="mt-1 text-sm text-gray-700">{result.explanation}</p>
+          {decision.verdict === "conditions-required" && (
+            <a href="#tue-decision" className="inline-block mt-3 text-sm font-semibold text-primary-700 underline">
+              前往多步決策工具，確認使用條件
+            </a>
+          )}
+          {decision.verdict === "unknown" && (
+            <a href="https://www.check-antidoping.org.tw/" target="_blank" rel="noopener noreferrer" className="inline-block mt-3 text-sm font-semibold text-primary-700 underline">
+              前往 TADA 藥物查詢
+            </a>
+          )}
           {result.washout && (
             <p className="mt-1 text-sm text-gray-700">清除期參考：{result.washout}</p>
           )}

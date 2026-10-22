@@ -92,9 +92,9 @@ describe("evaluateDrug — 全時段禁用 + 途徑差異（salbutamol）", () =
     const oral = evaluateDrug(salbutamol, { route: "oral" }).verdict;
     expect(inhaled).not.toBe(oral);
   });
-  it("未選途徑 → 提示選途徑（needs-tue）", () => {
+  it("未選途徑 → 提示選途徑（conditions-required）", () => {
     const r = evaluateDrug(salbutamol, { route: null });
-    expect(r.verdict).toBe("needs-tue");
+    expect(r.verdict).toBe("conditions-required");
     expect(r.reasons[0]).toContain("途徑");
   });
   it("傳入不存在的途徑（injection）→ unknown，且不當成未選途徑", () => {
@@ -135,9 +135,9 @@ describe("evaluateDrug — 僅賽內禁用 + 途徑差異（糖皮質激素 pred
     expect(result.reasons.join(" ")).toContain("回溯 TUE");
     expect(result.reasons.join(" ")).not.toContain("不需 TUE");
   });
-  it("賽內未選途徑 → needs-tue（提示選途徑）", () => {
+  it("賽內未選途徑 → conditions-required（提示選途徑）", () => {
     const r = evaluateDrug(prednisolone, { route: null, inCompetition: true });
-    expect(r.verdict).toBe("needs-tue");
+    expect(r.verdict).toBe("conditions-required");
     expect(r.reasons[0]).toContain("途徑");
   });
   it("帶出 washout 資訊", () => {
@@ -207,9 +207,9 @@ describe("evaluateDrug — 特定精準運動（P1 Beta 阻斷劑 propranolol）
     const free = evaluateDrug(propranolol, { sport: "游泳" }).verdict;
     expect(restricted).not.toBe(free);
   });
-  it("未選運動 → 提示選運動（needs-tue）", () => {
+  it("未選運動 → 提示選運動（conditions-required）", () => {
     const r = evaluateDrug(propranolol, { sport: null });
-    expect(r.verdict).toBe("needs-tue");
+    expect(r.verdict).toBe("conditions-required");
     expect(r.reasons[0]).toContain("運動");
   });
 });

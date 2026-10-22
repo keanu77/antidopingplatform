@@ -2,6 +2,7 @@ import { useState, useEffect, useMemo } from "react";
 import { Search, ChevronDown, Shield, AlertTriangle } from "lucide-react";
 import { prohibitedList, timingLabels } from "../data/prohibitedList";
 import ListLabelsGuide from "../components/ListLabelsGuide";
+import { filterProhibitedList } from "../utils/prohibitedSearch";
 
 function ProhibitedList() {
   const [search, setSearch] = useState("");
@@ -15,21 +16,8 @@ function ProhibitedList() {
     };
   }, []);
 
-  // P1: useMemo 快取篩選結果
   const filtered = useMemo(
-    () =>
-      prohibitedList.filter((item) => {
-        const matchSearch =
-          search === "" ||
-          item.name.includes(search) ||
-          item.nameEn.toLowerCase().includes(search.toLowerCase()) ||
-          item.code.toLowerCase().includes(search.toLowerCase()) ||
-          item.keySubstances.some((s) =>
-            s.toLowerCase().includes(search.toLowerCase()),
-          );
-        const matchFilter = filter === "all" || item.timing === filter;
-        return matchSearch && matchFilter;
-      }),
+    () => filterProhibitedList(search, filter),
     [search, filter],
   );
 
@@ -52,6 +40,9 @@ function ProhibitedList() {
         </div>
       </div>
 
+      <p className="mb-4 text-sm text-gray-600">
+        本頁為分類摘要，收錄常見成分與別名，並非完整藥品資料庫。查無結果不代表允許使用；實際用藥須核對完整成分、途徑、劑量與比賽條件。
+      </p>
       {/* Search */}
       <div className="relative mb-4">
         <Search className="absolute left-4 top-1/2 -translate-y-1/2 h-5 w-5 text-gray-400" />
@@ -69,6 +60,7 @@ function ProhibitedList() {
       <div className="flex flex-wrap gap-2 mb-6">
         <button
           onClick={() => setFilter("all")}
+          aria-pressed={filter === "all"}
           className={`px-4 py-2 rounded-full text-sm font-medium transition-all duration-200 ${
             filter === "all"
               ? "bg-emerald-600 text-white shadow-md shadow-emerald-200"
@@ -81,6 +73,7 @@ function ProhibitedList() {
           <button
             key={key}
             onClick={() => setFilter(key)}
+            aria-pressed={filter === key}
             className={`px-4 py-2 rounded-full text-sm font-medium transition-all duration-200 ${
               filter === key
                 ? "bg-emerald-600 text-white shadow-md shadow-emerald-200"
@@ -93,7 +86,7 @@ function ProhibitedList() {
       </div>
 
       {/* Results count */}
-      <p className="text-sm text-gray-500 mb-4">
+      <p className="text-sm text-gray-500 mb-4" role="status">
         顯示 {filtered.length} / {prohibitedList.length} 項
       </p>
 
@@ -218,10 +211,16 @@ function ProhibitedList() {
       </div>
 
       {filtered.length === 0 && (
-        <div className="text-center py-16 text-gray-400">
+        <div className="text-center py-10 px-4 text-gray-600 bg-amber-50 rounded-xl border border-amber-200">
           <Search className="h-12 w-12 mx-auto mb-3 opacity-40" />
           <p className="text-lg font-medium">找不到符合條件的項目</p>
           <p className="text-sm mt-1">試試不同的關鍵字或篩選條件</p>
+          <p className="text-sm mt-3 font-semibold text-amber-900">查無結果不代表允許使用。</p>
+          <div className="mt-3 flex flex-wrap justify-center gap-4 text-sm">
+            <button type="button" onClick={() => { setSearch(""); setFilter("all"); }} className="text-primary-700 underline">清除搜尋與篩選</button>
+            <a href="https://www.check-antidoping.org.tw/" target="_blank" rel="noopener noreferrer" className="text-primary-700 underline">TADA 藥物查詢</a>
+            <a href="https://www.wada-ama.org/en/prohibited-list" target="_blank" rel="noopener noreferrer" className="text-primary-700 underline">WADA 官方完整清單</a>
+          </div>
         </div>
       )}
 

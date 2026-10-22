@@ -304,6 +304,8 @@ export async function onRequest({ request, env, params }) {
         drugName, matchedKey: key, displayName: info.displayName, needsTUE: info.needsTUE,
         wadaCode: info.wadaCode, wadaCategory: info.categoryLabel, prohibition: info.prohibition,
         tueEligible: info.tueEligible, routes: info.routes, sportRestricted: info.sportRestricted,
+        sportRestrictedOutOfComp: info.sportRestrictedOutOfComp,
+        s5ThresholdRule: info.s5ThresholdRule === true,
         washout: info.washout, explanation: info.note,
       }, 200, NO_STORE);
     }

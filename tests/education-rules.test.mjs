@@ -33,7 +33,8 @@ const category = (id) => prohibitedList.find((item) => item.id === id);
 
 test("S3: formoterol carries both delivered-dose limits through lookup and decision output", async () => {
   const found = await api("tue/check", { drugName: "formoterol" });
-  const result = evaluateDrug(found, { route: "inhaled" });
+  assert.equal(evaluateDrug(found, { route: "inhaled" }).verdict, "conditions-required");
+  const result = evaluateDrug(found, { route: "inhaled", s5Concomitant: "none" });
   assert.equal(result.verdict, "permitted-threshold");
   assert.match(result.threshold, /24.*54/);
   assert.match(result.threshold, /12.*36/);
@@ -150,10 +151,37 @@ test("lecture scenarios Q1–Q3 resolve to the taught answers through the decisi
   const q2 = verdictOf("q2");
   assert.equal(q2.verdict, "permitted");
   assert.match(q2.washout, /60 天/);
-  // Q3: in-competition pseudoephedrine is allowed only under the urinary threshold.
+  // Q3: the example must still ask about S5; it cannot assume no concomitant use.
   const q3 = verdictOf("q3");
-  assert.equal(q3.verdict, "permitted-threshold");
+  assert.equal(q3.verdict, "conditions-required");
   assert.match(q3.threshold, /150/);
+  assert.equal(evaluateDrug(substances.pseudoephedrine, { route: "oral", inCompetition: true, s5Concomitant: "none" }).verdict, "permitted-threshold");
+});
+
+test("Pages lookup preserves the S5 and P1 fields needed by the shared decision engine", async () => {
+  for (const key of ["salbutamol", "formoterol", "ephedrine", "methylephedrine", "pseudoephedrine"]) {
+    const drug = await api("tue/check", { drugName: key });
+    assert.equal(drug.s5ThresholdRule, true, key);
+    assert.equal(evaluateDrug(drug, { route: drug.routes.inhaled ? "inhaled" : "oral", s5Concomitant: "prohibited" }).verdict, "needs-tue");
+  }
+  for (const key of ["salmeterol", "vilanterol"]) {
+    assert.equal((await api("tue/check", { drugName: key })).s5ThresholdRule, false);
+  }
+  const propranolol = await api("tue/check", { drugName: "propranolol" });
+  assert.equal(evaluateDrug(propranolol, { sport: "射箭", inCompetition: false }).verdict, "needs-tue");
+});
+
+test("education API classifies SARMs, tibolone and IGF-1 in their WADA 2026 sections", async () => {
+  const categories = await api("education/substances");
+  const section = (code) => categories.find((item) => item.wadaCode === code);
+  const subgroup = (code, subcode) => section(code).subcategories.find((item) => item.code === subcode);
+  assert.doesNotMatch(section("S0").examples, /SARM|類固醇前體/i);
+  assert.match(section("S0").description, /未列於其他/);
+  assert.match(subgroup("S1", "S1.1").examples, /Tibolone/);
+  assert.doesNotMatch(subgroup("S1", "S1.2").examples, /Tibolone/);
+  assert.match(subgroup("S1", "S1.2").examples, /SARM/);
+  assert.doesNotMatch(subgroup("S2", "S2.2").examples, /IGF-1/);
+  assert.match(subgroup("S2", "S2.3").examples, /IGF-1/);
 });
 
 test("every TUE disease card carries both official links and a dated guideline label", () => {

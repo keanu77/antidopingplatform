@@ -5,7 +5,7 @@ export const prohibitedList = [
     name: "未經核可之物質",
     nameEn: "Non-Approved Substances",
     timing: "at-all-times",
-    description: "任何未經政府衛生機關核准用於人體治療的藥理性物質",
+    description: "未列於其他禁用分類，且未經任何政府衛生機關核准用於人體治療的藥理性物質",
     keySubstances: [
       "BPC-157",
       "2,4-dinitrophenol (DNP)",

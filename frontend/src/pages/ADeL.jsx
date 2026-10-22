@@ -9,28 +9,28 @@ import {
 
 const courses = [
   {
-    name: "ALPHA（運動員基礎課程）",
-    desc: "WADA 為運動員設計的運動禁藥防制基礎課程（Athlete Learning Program about Health and Anti-Doping），介紹運動員的權利與責任、禁用清單概念與檢測流程，適合第一次接觸運動禁藥防制教育的人。",
+    name: "ADEL for International-Level Athletes",
+    desc: "國際級選手：學習權利與責任、檢測、禁用清單與 TUE；請依所屬國際總會確認適用課程與賽事要求。",
   },
   {
-    name: "Sport Physician's Toolkit",
-    desc: "專為醫療人員設計，涵蓋 TUE（治療用途豁免）申請、常見用藥與禁用物質的臨床判斷。",
+    name: "ADEL for National-Level Athletes",
+    desc: "國家級選手：建立乾淨運動與用藥查核的基礎，並確認國家運動禁藥管制組織的教育要求。",
   },
   {
-    name: "TUE 相關課程",
-    desc: "說明治療用途豁免的適用條件、申請流程與所需醫療文件，協助運動員與醫師正確申請。",
-  },
-  {
-    name: "Whereabouts / ADAMS 行蹤申報",
-    desc: "介紹行蹤資訊申報制度與 ADAMS 系統操作，適用於檢測名冊（RTP）內的運動員。",
-  },
-  {
-    name: "Coaches（教練專屬）",
-    desc: "針對教練角色設計的運動禁藥防制課程，強調如何營造乾淨運動文化並支持選手做出正確選擇。",
+    name: "ADEL for High Performance Coaches",
+    desc: "教練：了解支援人員責任，協助選手確認用藥、營養品與通報流程，建立乾淨運動文化。",
   },
   {
     name: "ADEL for Medical Professionals",
-    desc: "WADA 為醫療專業人員設計的運動禁藥防制課程，深入禁用物質分類、TUE 與運動員照護中的用藥安全。",
+    desc: "醫療人員：學習禁用物質與途徑差異、TUE 文件及運動員照護中的用藥查核。",
+  },
+  {
+    name: "At-a-Glance: Therapeutic Use Exemptions (TUE)",
+    desc: "TUE 重點資源：協助選手、教練與醫療人員快速理解治療用途豁免，作為完整課程的補充。",
+  },
+  {
+    name: "At-a-Glance: Athlete Whereabouts",
+    desc: "行蹤申報重點資源：檢測名冊內的選手與支援人員可用來確認行蹤資訊責任。",
   },
 ];
 
@@ -116,7 +116,7 @@ function ADeL() {
           <h2 className="text-lg font-bold text-gray-900">推薦課程</h2>
         </div>
         <p className="text-xs text-gray-400 mb-3">
-          課程名稱以英文原名為主，實際上線課程與名稱請以 ADeL 官方平台為準。
+          課程與重點資源依角色選擇；完成證明依各課程規定，不代表自動符合賽事報名要求。實際名稱、語言與開放狀態請以 ADEL 官方平台為準。
         </p>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
           {courses.map((course) => (

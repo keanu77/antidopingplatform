@@ -12,6 +12,9 @@ const api = axios.create({
   },
 });
 
+// 高影響規則更新須避開瀏覽器已快取的舊分類與舊物質欄位。
+const RULES_PARAMS = { rulesVersion: "2026-10-23" };
+
 // Cases API
 export const casesAPI = {
   getAll: (params) => api.get("/cases", { params }),
@@ -36,8 +39,8 @@ export const statsAPI = {
 
 // Education API
 export const educationAPI = {
-  getAll: () => api.get("/education"),
-  getSubstances: () => api.get("/education/substances"),
+  getAll: () => api.get("/education", { params: RULES_PARAMS }),
+  getSubstances: () => api.get("/education/substances", { params: RULES_PARAMS }),
   getQuizzes: () => api.get("/education/quizzes"),
   submitQuizAnswer: (id, answer) =>
     api.post(`/education/quizzes/${id}/answer`, { answer }),
@@ -48,7 +51,7 @@ export const educationAPI = {
 
 // TUE API
 export const tueAPI = {
-  getSubstances: () => api.get("/tue/substances"),
+  getSubstances: () => api.get("/tue/substances", { params: RULES_PARAMS }),
   checkDrugTUE: (drugName) => api.post("/tue/check", { drugName }),
 };
 

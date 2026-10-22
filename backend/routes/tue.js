@@ -55,6 +55,8 @@ router.post("/check", (req, res) => {
       tueEligible: info.tueEligible,
       routes: info.routes,
       sportRestricted: info.sportRestricted,
+      sportRestrictedOutOfComp: info.sportRestrictedOutOfComp,
+      s5ThresholdRule: info.s5ThresholdRule === true,
       washout: info.washout,
       explanation: info.note,
     });

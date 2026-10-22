@@ -1,3 +1,4 @@
+import { S5_EXCEPTIONS_NOTE } from "../../data/s5Rule";
 import { useState, useEffect } from "react";
 import { Pill } from "lucide-react";
 import { tueAPI } from "../../services/api";
@@ -6,6 +7,7 @@ import {
   availableRoutes,
   requiresSport,
   requiresCompetitionContext,
+  requiresS5Check,
   ROUTE_LABELS,
   VERDICT_META,
 } from "../../utils/tueDecision";
@@ -15,7 +17,7 @@ import { VERDICT_STYLE } from "./verdictStyle";
 const SELECT_CLASS =
   "w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500";
 
-const EMPTY_SELECTION = { drug: "", route: "", inCompetition: true, sport: "" };
+const EMPTY_SELECTION = { drug: "", route: "", inCompetition: true, sport: "", s5Concomitant: "unknown" };
 
 function toggleClass(active) {
   return `flex-1 px-4 py-2 rounded-lg font-medium border transition ${
@@ -74,7 +76,7 @@ function DecisionTool() {
 
   const update = (patch) => setSelection((prev) => ({ ...prev, ...patch }));
   // 切換藥物時重置途徑／運動選擇，避免殘留前一個藥的選項
-  const selectDrug = (drug) => update({ drug, route: "", sport: "" });
+  const selectDrug = (drug) => update({ drug, route: "", sport: "", s5Concomitant: "unknown" });
 
   const substance = selection.drug && substances ? substances[selection.drug] : null;
   const routes = availableRoutes(substance);
@@ -83,6 +85,7 @@ function DecisionTool() {
         route: selection.route || null,
         inCompetition: selection.inCompetition,
         sport: selection.sport || null,
+        s5Concomitant: selection.s5Concomitant,
       })
     : null;
 
@@ -93,7 +96,7 @@ function DecisionTool() {
     : [];
 
   return (
-    <section className="bg-white rounded-lg shadow-lg p-6">
+    <section id="tue-decision" tabIndex={-1} className="bg-white rounded-lg shadow-lg p-6 scroll-mt-24">
       <div className="flex items-center mb-2">
         <Pill className="h-6 w-6 text-primary-600 mr-3" />
         <h3 className="text-xl font-bold text-gray-900">這個藥要不要 TUE？— 多步決策工具</h3>
@@ -117,7 +120,7 @@ function DecisionTool() {
                   <button
                     key={s.id}
                     type="button"
-                    onClick={() => setSelection(s.preset)}
+                    onClick={() => setSelection({ ...EMPTY_SELECTION, ...s.preset })}
                     className="text-left text-sm px-3 py-2 bg-white border border-gray-200 rounded-lg hover:border-primary-400 hover:text-primary-700 transition"
                   >
                     {s.question}
@@ -214,6 +217,23 @@ function DecisionTool() {
             </div>
           )}
 
+          {substance && requiresS5Check(substance) && (
+            <div>
+              <label htmlFor="tue-decision-s5" className="block text-sm font-medium text-gray-700 mb-1">
+                是否併用 S5 利尿劑／掩蔽劑？
+              </label>
+              <select id="tue-decision-s5" value={selection.s5Concomitant} onChange={(e) => update({ s5Concomitant: e.target.value })} aria-describedby="tue-s5-help" className={SELECT_CLASS}>
+                <option value="unknown">尚未確認／不確定</option>
+                <option value="none">已確認未併用</option>
+                <option value="prohibited">有併用禁用的 S5 藥物（含已持有其 TUE）</option>
+                <option value="exception">已確認僅使用下列 S5 例外成分及途徑</option>
+              </select>
+              <p id="tue-s5-help" className="mt-2 text-sm text-gray-600">
+                常見禁用例子：furosemide、hydrochlorothiazide、spironolactone。{S5_EXCEPTIONS_NOTE}
+              </p>
+            </div>
+          )}
+
           {result && <DecisionResult result={result} />}
 
           <p className="text-xs text-gray-500 border-t pt-3">
@@ -227,7 +247,7 @@ function DecisionTool() {
             >
               Global DRO
             </a>{" "}
-            （不含台灣購藥）或 CTADA 查詢系統為準，並諮詢醫療與運動禁藥防制專業人員。
+            （不含台灣購藥）或 <a href="https://www.check-antidoping.org.tw/" target="_blank" rel="noopener noreferrer" className="text-primary-600 underline">TADA 藥物查詢系統</a>為準，並諮詢醫療與運動禁藥防制專業人員。
           </p>
         </div>
       )}

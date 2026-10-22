@@ -187,7 +187,7 @@ function SupplementsTab() {
             className="flex items-center justify-between bg-white p-4 rounded-lg shadow hover:shadow-md transition"
           >
             <div>
-              <p className="font-semibold text-gray-900">CTADA 藥物查詢</p>
+              <p className="font-semibold text-gray-900">TADA 藥物查詢</p>
               <p className="text-xs text-gray-500">
                 台灣運動禁藥防制查詢平台
               </p>

@@ -15,7 +15,7 @@ const resources = [
     icon: Search,
     items: [
       {
-        name: "CTADA 藥物查詢系統",
+        name: "TADA 藥物查詢系統",
         desc: "查詢藥物是否含禁用成分（24 小時服務）",
         url: "https://www.check-antidoping.org.tw/",
       },
@@ -109,7 +109,7 @@ function Resources() {
       <div className="mb-8 flex items-start gap-3 bg-amber-50 border border-amber-100 rounded-2xl p-4">
         <Info className="h-5 w-5 text-amber-600 shrink-0 mt-0.5" />
         <p className="text-sm text-amber-800 leading-relaxed">
-          本站清單與查詢工具僅供教育參考，實際禁用狀態請以 WADA 官方清單與 CTADA
+          本站清單與查詢工具僅供教育參考，實際禁用狀態請以 WADA 官方清單與 TADA
           / Global DRO 即時查詢結果為準。
         </p>
       </div>
@@ -180,8 +180,8 @@ function Resources() {
           <div>
             <h3 className="font-bold text-gray-900 mb-1">送件與查詢</h3>
             <p className="text-sm text-gray-600 leading-relaxed">
-              藥物成分可透過 CTADA
-              藥物查詢系統（check-antidoping.org.tw）查詢；TUE（治療用途豁免）申請亦經
+              藥物成分可透過 TADA
+              藥物查詢系統（check-antidoping.org.tw）查詢；TUE（治療用途豁免）申請依選手層級向適用的運動禁藥管制組織提出，國家層級由
               CTADA 受理審核。
             </p>
           </div>
@@ -189,7 +189,7 @@ function Resources() {
             <Info className="h-4 w-4 text-gray-400 shrink-0 mt-1" />
             <p className="text-xs text-gray-500 leading-relaxed">
               本站清單與查詢工具僅供教育參考，實際禁用狀態請以 WADA 官方清單與
-              CTADA / Global DRO 即時查詢結果為準。
+              TADA / Global DRO 即時查詢結果為準。
             </p>
           </div>
         </div>
