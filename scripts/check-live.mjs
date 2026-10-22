@@ -15,6 +15,6 @@ const drugs = await (await get("/api/tue/substances")).json();
 if (!drugs.substances?.salbutamol?.s5ThresholdRule) throw new Error("Current S5 data not served");
 for (const path of ["/", "/tue", "/quiz", "/prohibited-list", "/editorial-policy", "/learning"]) {
   const html = await (await get(path)).text();
-  if (!html.includes('lang="zh-TW"') || !/<title>[^<]+<\/title>/.test(html)) throw new Error(`${path}: invalid HTML`);
+  if (!/<html[^>]+lang="zh-(?:Hant|TW)"/.test(html) || !/<title>[^<]+<\/title>/.test(html)) throw new Error(`${path}: invalid HTML`);
 }
 console.log(JSON.stringify({ checkedAt: new Date().toISOString(), site, sha: version.sha, cases: health.cases, status: "passed", mode: "read-only" }, null, 2));
