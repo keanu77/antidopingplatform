@@ -1,3 +1,4 @@
+const { publicQuiz } = require("../../shared/content-evidence.mjs");
 const express = require("express");
 const path = require("path");
 const router = express.Router();
@@ -22,7 +23,7 @@ const safeHandler = (fn) => (req, res, next) => {
 router.get(
   "/",
   safeHandler((req, res) => {
-    res.json({ substances, quizzes, specialties });
+    res.json({ substances, quizzes: quizzes.map(q => publicQuiz(q)), specialties });
   }),
 );
 
@@ -38,7 +39,7 @@ router.get(
 router.get(
   "/quizzes",
   safeHandler((req, res) => {
-    const shuffled = [...quizzes].sort(() => Math.random() - 0.5);
+    const shuffled = quizzes.map(q => publicQuiz(q)).sort(() => Math.random() - 0.5);
     res.json(shuffled);
   }),
 );
@@ -48,12 +49,14 @@ router.post("/quizzes/:id/answer", (req, res) => {
   const quizId = parseInt(req.params.id);
   const { answer } = req.body;
 
-  const quiz = quizzes.find((q) => q.id === quizId);
+  const found = quizzes.find((q) => q.id === quizId);
+  const quiz = found ? publicQuiz(found) : null;
 
   if (!quiz) {
     return res.status(404).json({ error: "Quiz not found" });
   }
 
+  if (!quiz.evidence.valid) return res.json({ correct: null, correctAnswer: null, explanation: null, publicationStatus: "pending_verification", evidence: quiz.evidence, learningUrl: "/quiz" });
   const isCorrect = answer === quiz.correctAnswer;
 
   res.json({

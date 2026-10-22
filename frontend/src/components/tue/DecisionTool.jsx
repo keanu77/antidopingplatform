@@ -1,3 +1,4 @@
+import EvidenceLinks from "../EvidenceLinks";
 import { S5_EXCEPTIONS_NOTE } from "../../data/s5Rule";
 import { useState, useEffect } from "react";
 import { Pill } from "lucide-react";
@@ -41,6 +42,7 @@ function DecisionResult({ result }) {
           <li key={r}>{r}</li>
         ))}
       </ul>
+      <EvidenceLinks evidenceId={result.evidence?.evidenceId} />
       {result.threshold && (
         <p className="mt-2 text-sm font-medium text-gray-800">閾值：{result.threshold}</p>
       )}
@@ -243,11 +245,11 @@ function DecisionTool() {
               href="https://www.globaldro.com/"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-primary-600 underline"
+              className="text-primary-700 underline"
             >
               Global DRO
             </a>{" "}
-            （不含台灣購藥）或 <a href="https://www.check-antidoping.org.tw/" target="_blank" rel="noopener noreferrer" className="text-primary-600 underline">TADA 藥物查詢系統</a>為準，並諮詢醫療與運動禁藥防制專業人員。
+            （不含台灣購藥）或 <a href="https://www.check-antidoping.org.tw/" target="_blank" rel="noopener noreferrer" className="text-primary-700 underline">TADA 藥物查詢系統</a>為準，並諮詢醫療與運動禁藥防制專業人員。
           </p>
         </div>
       )}

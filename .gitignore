@@ -65,3 +65,5 @@ backend/backups/
 
 # Cloudflare
 .wrangler/
+frontend/playwright-report/
+frontend/test-results/

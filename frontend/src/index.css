@@ -1,8 +1,18 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+@config "../tailwind.config.js";
+
+/* Preserve the existing v3 border/focus defaults while using the patched v4 builder. */
+@theme {
+  --default-ring-width: 3px;
+  --default-ring-color: var(--color-blue-500);
+}
 
 @layer base {
+  *, ::before, ::after, ::backdrop, ::file-selector-button {
+    border-color: var(--color-gray-200, currentColor);
+  }
+  button:not(:disabled), [role="button"]:not(:disabled) { cursor: pointer; }
+  :focus-visible { outline: 3px solid #047857; outline-offset: 3px; }
   html {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -120,3 +130,17 @@
 .case-result-meta { padding: 20px 24px 0; }
 .case-result-substance { padding: 0 24px 20px; flex: 1; }
 .case-result-outcome { padding: 16px 24px; background: var(--case-wash); border-top: 1px solid var(--case-tint); border-radius: 0 0 13px 13px; }
+
+/* Print only the preparation checklist, without reserving hidden page height. */
+@media print {
+  body:has(.learning-page) { background: white; }
+  body:has(.learning-page) header,
+  body:has(.learning-page) footer,
+  body:has(.learning-page) .adp-fb-bar,
+  body:has(.learning-page) .adp-fb-spacer,
+  body:has(.learning-page) a[href="#main-content"],
+  .learning-page > :not(.learning-checklist) { display: none !important; }
+  body:has(.learning-page) #main-content { padding: 0; max-width: none; }
+  .learning-checklist { margin: 0; border: 0; padding: 16px; }
+  .learning-checklist button { display: none; }
+}

@@ -1,6 +1,6 @@
 import test from "node:test";
 import assert from "node:assert/strict";
-import { readFileSync } from "node:fs";
+import { readFileSync, readdirSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 import { DatabaseSync } from "node:sqlite";
 import { build } from "../frontend/node_modules/esbuild/lib/main.js";
@@ -11,7 +11,7 @@ const bundle = await build({
   bundle: true, write: false, platform: "node", format: "esm",
 });
 const { onRequest } = await import(`data:text/javascript;base64,${Buffer.from(bundle.outputFiles[0].text).toString("base64")}`);
-const migration = readFileSync(new URL("../migrations/0001_feedback.sql", import.meta.url), "utf8");
+const migration = readdirSync(new URL("../migrations/", import.meta.url)).filter((name) => name.endsWith(".sql")).sort().map((name) => readFileSync(new URL(`../migrations/${name}`, import.meta.url), "utf8")).join("\n");
 const origin = "https://contract.invalid";
 
 function d1(t, concurrentReads = 0) {
@@ -260,7 +260,7 @@ test("feedback digest cron requires the secret and mails what /api/feedback actu
     assert.equal(String(url), "https://api.resend.com/emails");
     assert.equal(init.headers.Authorization, "Bearer k");
     sent.push(JSON.parse(init.body));
-    return new Response("{}", { status: 200 });
+    return new Response(JSON.stringify({ id: "synthetic-provider-id" }), { status: 200 });
   });
   const result = await call("cron/feedback-digest", { env, headers: { "x-cron-secret": "s3cret" } });
   assert.equal(result.status, 200);
@@ -283,7 +283,7 @@ test("public feedback URLs retain full-origin restrictions through D1 and the di
   let sent;
   t.mock.method(globalThis, "fetch", async (_url, init) => {
     sent = JSON.parse(init.body);
-    return new Response("{}", { status: 200 });
+    return new Response(JSON.stringify({ id: "synthetic-provider-id" }), { status: 200 });
   });
   const env = { FEEDBACK_DB: db, SITE_URL: origin, CRON_SECRET: "s3cret", RESEND_API_KEY: "k", FEEDBACK_DIGEST_TO: "to@example.test" };
   assert.equal((await call("cron/feedback-digest", { env, headers: { "x-cron-secret": "s3cret" } })).status, 200);
@@ -293,4 +293,145 @@ test("public feedback URLs retain full-origin restrictions through D1 and the di
     assert.ok(sent.html.includes(url));
     assert.ok(!sent.html.includes(`href="${url}"`));
   }
+});
+
+
+test("feedback retry is idempotent even concurrently and after the rate limit is reached", async (t) => {
+  const db = d1(t);
+  const body = { ...rating, requestId: "0123456789-unique-request-1" };
+  const env = { FEEDBACK_DB: db };
+  const responses = await Promise.all(Array.from({ length: 12 }, () => call("feedback", { body, env })));
+  assert.ok(responses.every((r) => r.status === 200));
+  assert.equal(db.rows().length, 1);
+  for (let i = 0; i < 9; i++) await call("feedback", { body: rating, env });
+  assert.equal((await call("feedback", { body, env })).status, 200);
+  assert.equal(db.rows().length, 10);
+  assert.equal((await call("feedback", { body: { ...body, rating: 1 }, env })).status, 409);
+});
+
+test("digest cursor retains delayed feedback and prevents duplicate successful sends", async (t) => {
+  const db = d1(t);
+  await call("feedback", { body: rating, env: { FEEDBACK_DB: db } });
+  db.sqlite.exec("UPDATE feedback SET created_at = 1");
+  const sent = [];
+  t.mock.method(globalThis, "fetch", async (_url, init) => {
+    sent.push(init);
+    return new Response(JSON.stringify({ id: "synthetic-provider-id" }));
+  });
+  const options = { env: { FEEDBACK_DB: db, CRON_SECRET: "s3cret", RESEND_API_KEY: "k", FEEDBACK_DIGEST_TO: "to@example.test" }, headers: { "x-cron-secret": "s3cret" } };
+  assert.equal((await call("cron/feedback-digest", options)).data.sent, true);
+  assert.equal((await call("cron/feedback-digest", options)).data.sent, false);
+  assert.equal(sent.length, 1);
+  assert.match(sent[0].headers["Idempotency-Key"], /^feedback-digest\//);
+  assert.equal(db.sqlite.prepare("SELECT cursor_id FROM feedback_delivery").get().cursor_id, 1);
+});
+
+test("ambiguous delivery retries immutable payload with same key; expired retries stop", async (t) => {
+  const db = d1(t);
+  await call("feedback", { body: rating, env: { FEEDBACK_DB: db } });
+  const sent = [];
+  t.mock.method(globalThis, "fetch", async (_url, init) => { sent.push(init); throw new Error("network lost"); });
+  t.mock.method(console, "error", () => {});
+  const options = { env: { FEEDBACK_DB: db, CRON_SECRET: "s3cret", RESEND_API_KEY: "k", FEEDBACK_DIGEST_TO: "to@example.test" }, headers: { "x-cron-secret": "s3cret" } };
+  assert.equal((await call("cron/feedback-digest", options)).status, 503);
+  await call("feedback", { body: rating, env: { FEEDBACK_DB: db } });
+  options.env.FEEDBACK_DIGEST_TO = "changed@example.test";
+  assert.equal((await call("cron/feedback-digest", options)).status, 503);
+  assert.equal(sent[0].body, sent[1].body);
+  assert.equal(sent[0].headers["Idempotency-Key"], sent[1].headers["Idempotency-Key"]);
+  db.sqlite.exec("UPDATE feedback_delivery SET first_attempt_at = 1");
+  assert.equal((await call("cron/feedback-digest", options)).status, 409);
+  assert.equal(sent.length, 2);
+  assert.equal(db.sqlite.prepare("SELECT cursor_id FROM feedback_delivery").get().cursor_id, 0);
+});
+
+test("parallel cron calls acquire one sender lease; feedback added in flight waits for next batch", async (t) => {
+  const db = d1(t);
+  await call("feedback", { body: rating, env: { FEEDBACK_DB: db } });
+  let sends = 0;
+  let release;
+  const waiting = new Promise((resolve) => { release = resolve; });
+  t.mock.method(globalThis, "fetch", async () => {
+    sends++;
+    await waiting;
+    return new Response(JSON.stringify({ id: "synthetic-provider-id" }));
+  });
+  const options = { env: { FEEDBACK_DB: db, CRON_SECRET: "s3cret", RESEND_API_KEY: "k", FEEDBACK_DIGEST_TO: "to@example.test" }, headers: { "x-cron-secret": "s3cret" } };
+  const first = call("cron/feedback-digest", options);
+  await new Promise((resolve) => setImmediate(resolve));
+  assert.equal((await call("cron/feedback-digest", options)).data.busy, true);
+  await call("feedback", { body: rating, env: { FEEDBACK_DB: db } });
+  release();
+  assert.equal((await first).data.count, 1);
+  assert.equal(db.sqlite.prepare("SELECT cursor_id FROM feedback_delivery").get().cursor_id, 1);
+  assert.equal((await call("cron/feedback-digest", options)).data.count, 1);
+  assert.equal(sends, 2);
+});
+
+test("migration preserves legacy feedback and records delivery uncertainty without bulk resend", (t) => {
+  const db = new DatabaseSync(":memory:");
+  t.after(() => db.close());
+  db.exec(readFileSync(new URL("../migrations/0001_feedback.sql", import.meta.url), "utf8"));
+  db.exec("INSERT INTO feedback(type,message,created_at) VALUES ('issue','preserved legacy',1)");
+  db.exec(readFileSync(new URL("../migrations/0003_feedback_delivery.sql", import.meta.url), "utf8"));
+  assert.equal(db.prepare("SELECT message FROM feedback").get().message, "preserved legacy");
+  assert.equal(db.prepare("SELECT legacy_through_id FROM feedback_delivery").get().legacy_through_id, 1);
+  assert.equal(db.prepare("SELECT last_success_at FROM feedback_delivery").get().last_success_at, null);
+});
+
+test("delivery status is read-only, authenticated, and reveals no message or recipient", async (t) => {
+  const db = d1(t);
+  const env = { FEEDBACK_DB: db, CRON_SECRET: "s3cret" };
+  await call("feedback", { body: rating, env });
+  assert.equal((await call("cron/feedback-status", { env })).status, 401);
+  const result = await call("cron/feedback-status", { env, headers: { "x-cron-secret": "s3cret" } });
+  assert.equal(result.status, 200);
+  assert.equal(result.data.unsent_count, 1);
+  assert.equal(result.data.last_success_at, null);
+  assert.equal(result.data.pending, 0);
+  assert.equal(result.data.pending_json, undefined);
+  assert.equal(result.data.message, undefined);
+});
+
+test("slow D1 read cannot send after losing its sender lease", async (t) => {
+  const { deliverFeedback } = await import("../functions/_lib/feedback-delivery.js");
+  const db = d1(t);
+  await call("feedback", { body: rating, env: { FEEDBACK_DB: db } });
+  let calls = 0;
+  t.mock.method(globalThis, "fetch", async () => { calls++; throw new Error("ambiguous"); });
+  const env = { FEEDBACK_DB: db, RESEND_API_KEY: "k", FEEDBACK_DIGEST_TO: "to@example.test" };
+  await assert.rejects(deliverFeedback(env, () => 1000), /ambiguous/);
+  let now = 2000;
+  const prepare = db.prepare.bind(db);
+  db.prepare = (sql) => {
+    const statement = prepare(sql);
+    if (!sql.startsWith("SELECT * FROM feedback_delivery")) return statement;
+    return { bind(...args) {
+      const bound = statement.bind(...args);
+      return { ...bound, async all() { const result = await bound.all(); now = 62001; return result; } };
+    } };
+  };
+  await assert.rejects(deliverFeedback(env, () => now), /lease expired/);
+  assert.equal(calls, 1);
+  assert.equal(db.sqlite.prepare("SELECT cursor_id FROM feedback_delivery").get().cursor_id, 0);
+});
+
+test("late renewal acknowledgement leaves enough lease for the provider timeout or stops", async (t) => {
+  const { deliverFeedback } = await import("../functions/_lib/feedback-delivery.js");
+  const db = d1(t);
+  await call("feedback", { body: rating, env: { FEEDBACK_DB: db } });
+  let calls = 0;
+  t.mock.method(globalThis, "fetch", async () => { calls++; return new Response(JSON.stringify({ id: "synthetic" })); });
+  let now = 2000;
+  const prepare = db.prepare.bind(db);
+  db.prepare = (sql) => {
+    const statement = prepare(sql);
+    if (!sql.startsWith("UPDATE feedback_delivery SET lease_until")) return statement;
+    return { bind(...args) {
+      const bound = statement.bind(...args);
+      return { ...bound, async run() { const result = await bound.run(); now = 62001; return result; } };
+    } };
+  };
+  await assert.rejects(deliverFeedback({ FEEDBACK_DB: db, RESEND_API_KEY: "k", FEEDBACK_DIGEST_TO: "to@example.test" }, () => now), /acknowledgement too late/);
+  assert.equal(calls, 0);
 });

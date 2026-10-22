@@ -11,10 +11,14 @@ const Education = lazy(() => import("./pages/Education"));
 const TUE = lazy(() => import("./pages/TUE"));
 const ProhibitedList = lazy(() => import("./pages/ProhibitedList"));
 const Quiz = lazy(() => import("./pages/Quiz"));
+const Learning = lazy(() => import("./pages/Learning"));
 const TestingProcess = lazy(() => import("./pages/TestingProcess"));
 const News = lazy(() => import("./pages/News"));
 const Resources = lazy(() => import("./pages/Resources"));
 const ADeL = lazy(() => import("./pages/ADeL"));
+const ContentSources = lazy(() => import("./pages/ContentSources"));
+const EditorialPolicy = lazy(() => import("./pages/EditorialPolicy"));
+const CaseLearning = lazy(() => import("./pages/CaseLearning"));
 const NotFound = lazy(() => import("./pages/NotFound"));
 
 function App() {
@@ -40,10 +44,14 @@ function App() {
               <Route path="/tue" element={<TUE />} />
               <Route path="/prohibited-list" element={<ProhibitedList />} />
               <Route path="/quiz" element={<Quiz />} />
+              <Route path="/learning" element={<Learning />} />
               <Route path="/testing-process" element={<TestingProcess />} />
               <Route path="/news" element={<News />} />
               <Route path="/resources" element={<Resources />} />
               <Route path="/adel" element={<ADeL />} />
+              <Route path="/sources" element={<ContentSources />} />
+              <Route path="/editorial-policy" element={<EditorialPolicy />} />
+              <Route path="/case-learning" element={<CaseLearning />} />
               <Route path="*" element={<NotFound />} />
             </Routes>
           </Suspense>

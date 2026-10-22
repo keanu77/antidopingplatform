@@ -35,7 +35,7 @@ const COMMON_TRAPS = [
 // 教育頁「補充劑安全」分頁
 function SupplementsTab() {
   return (
-    <div role="tabpanel" className="space-y-6">
+    <div className="space-y-6">
       {/* 導言 */}
       <div className="bg-gradient-to-r from-emerald-600 to-emerald-700 rounded-lg shadow-lg p-6 text-white">
         <div className="flex items-center mb-2">
@@ -50,7 +50,7 @@ function SupplementsTab() {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         {/* 污染數據 */}
         <div className="bg-white rounded-lg shadow-lg overflow-hidden">
-          <div className="bg-amber-500 p-4 text-white flex items-center">
+          <div className="bg-amber-700 p-4 text-white flex items-center">
             <AlertTriangle className="h-6 w-6 mr-2" />
             <h3 className="text-xl font-bold">研究中的污染檢出比例</h3>
           </div>

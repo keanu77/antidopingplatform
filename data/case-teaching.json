@@ -1,0 +1,1813 @@
+{
+  "schemaVersion": 1,
+  "preparedAt": "2026-10-23",
+  "scope": "從既有核心核對紀錄挑選30案，涵蓋TUE、污染、方法、程序、支援人員、上訴與年份差異；本次未重新核實所有原始裁決。",
+  "records": [
+    {
+      "caseId": "aiu-8305315880ae",
+      "title": "Yamile Herrera｜及早承認／接力賽隊伍後果",
+      "topic": "team",
+      "year": 2026,
+      "yearBasis": "事件年份（已依個案文件核對）",
+      "facts": "Yamile Herrera 的 2026-05-02 世界田徑接力賽樣本檢出 oxandrolone 及代謝物。及早承認後，禁賽三年，2026-06-03 至 2029-06-02；裁決明確取消墨西哥 4×100 公尺混合接力隊自事件日起的相關成績。",
+      "procedure": "Final AIU decision",
+      "outcome": {
+        "banDuration": "3年",
+        "resultsCancelled": true,
+        "medalStripped": null,
+        "otherPenalties": "禁賽期間：2026-06-03 至 2029-06-02。墨西哥 4×100 公尺混合接力隊自 2026-05-02 起相關成績取消。"
+      },
+      "learningPoint": "另有 clenbuterol 非典型發現，文件註明未再追究，不列作已成立違規；隊伍後果須依本裁決，不能只套用個人成績模板。",
+      "uncertainty": [
+        "已逐案核對官方個案文件與名冊的身分、事件、規則及處分；未聲稱所有裁決全文或後續救濟程序均已審閱。",
+        "AIU 最終決定；WADA 及墨西哥國家反禁藥組織保留上訴權。",
+        "另有 clenbuterol 非典型發現，文件註明未再追究，不列作已成立違規；隊伍後果須依本裁決，不能只套用個人成績模板。",
+        "獎牌剝奪：現有紀錄未知，不能當作「沒有」。"
+      ],
+      "roleActions": [
+        {
+          "role": "選手",
+          "action": "確認個人與接力隊成績處理的不同範圍。"
+        },
+        {
+          "role": "教練／支援人員",
+          "action": "依裁決記錄隊伍後果，不套用未列明的集體責任。"
+        },
+        {
+          "role": "醫療人員",
+          "action": "區分已成立違規與未追究的發現，保存原始說明。"
+        }
+      ],
+      "discussionQuestions": [
+        "本案哪些結論只適用個人，哪些明確影響接力隊？未追究的非典型發現能否列成違規？",
+        "依原來源，Yamile Herrera案有哪些已確認、僅為當事人說法或未公開的事項？下一步須找哪份文件？"
+      ],
+      "ruleYearNote": "這是2026年事件／公告的歷史教學；適用當年及當時程序規則，不以2026或2027清單倒推本案。今日用藥須另查現行規範。",
+      "sourceCheckedAt": "2026-09-22",
+      "sourceLocator": "Yamile Herrera：AIU／World Athletics 個案決定：第 1–5 頁；第 2、5–10、17–24 段及第 2、4 註",
+      "sources": [
+        {
+          "title": "Yamile Herrera：AIU／World Athletics 個案決定",
+          "url": "https://www.athleticsintegrity.org/downloads/pdfs/disciplinary-process/en/AIU-26-184-HERRERA-Decision-of-the-AIU.pdf",
+          "type": "官方個案文件"
+        },
+        {
+          "title": "AIU 官方個案紀錄：Yamile Herrera | MEX | 19/0 6/2026",
+          "url": "https://www.athleticsintegrity.org/disciplinary-process/first-instance-decisions",
+          "type": "官方名冊"
+        }
+      ],
+      "originalReviewStatus": "core_checked",
+      "preparedAt": "2026-10-23",
+      "newVerificationPerformed": false,
+      "ownerRole": "案例教學編輯",
+      "nextReviewAt": "2026-12-31"
+    },
+    {
+      "caseId": "usada-30c9fa7aa386",
+      "title": "Emily Oberst｜未事先取得 TUE／公開警告與未來用藥授權",
+      "topic": "tue",
+      "year": 2026,
+      "yearBasis": "事件年份（依官方個案公告核對）",
+      "facts": "Emily Oberst 的 2026-08-06 賽外尿液檢體檢出 canrenone，來源為醫師治療痤瘡所開立的 spironolactone。她因未事先取得 TUE 接受公開警告，後續已取得授權未來使用該藥物的 TUE。",
+      "procedure": "未事先取得 TUE／公開警告與未來用藥授權",
+      "outcome": {
+        "banDuration": "公開警告，無禁賽",
+        "resultsCancelled": false,
+        "medalStripped": null,
+        "otherPenalties": "公開警告；沒有禁賽期間。USADA 明示賽外採樣，沒有須取消的競賽成績。"
+      },
+      "learningPoint": "治療用途不等於採樣時已有 TUE；後續授權未來使用，不代表回溯撤銷原違規。",
+      "uncertainty": [
+        "已逐案核對官方個案文件與名冊的身分、事件、規則及處分；未聲稱所有裁決全文或後續救濟程序均已審閱。",
+        "2026-09-01 USADA 公告接受公開警告及未來用藥 TUE；未聲稱完整裁決全文已審閱。",
+        "治療用途不等於採樣時已有 TUE；後續授權未來使用，不代表回溯撤銷原違規。",
+        "獎牌剝奪：現有紀錄未知，不能當作「沒有」。"
+      ],
+      "roleActions": [
+        {
+          "role": "選手",
+          "action": "保存處方、成分、途徑、使用及賽程日期；核對TUE涵蓋範圍。"
+        },
+        {
+          "role": "教練／支援人員",
+          "action": "協助確認參賽層級及主管機構，保存申請往來。"
+        },
+        {
+          "role": "醫療人員",
+          "action": "備妥診斷與治療紀錄；區分處方、申報、追溯與未來TUE。"
+        }
+      ],
+      "discussionQuestions": [
+        "未來用藥TUE與採樣當日的授權範圍有何差異？",
+        "依原來源，Emily Oberst案有哪些已確認、僅為當事人說法或未公開的事項？下一步須找哪份文件？"
+      ],
+      "ruleYearNote": "這是2026年事件／公告的歷史教學；適用當年及當時程序規則，不以2026或2027清單倒推本案。今日用藥須另查現行規範。",
+      "sourceCheckedAt": "2026-09-22",
+      "sourceLocator": "Wheelchair Basketball Athlete Emily Oberst Accepts Public Warning：2026-09-01 公告全文：未事先取得 TUE、canrenone、未來授權與無成績取消段；Emily Oberst：Team USA 個人頁：Emily Oberst、Paralympian 2024、Paralympic Experience",
+      "sources": [
+        {
+          "title": "Wheelchair Basketball Athlete Emily Oberst Accepts Public Warning",
+          "url": "https://www.usada.org/sanction-public-warning/emily-oberst-accepts-public-warning/",
+          "type": "官方個案文件"
+        },
+        {
+          "title": "Emily Oberst",
+          "url": "https://www.teamusa.com/profiles/emily-oberst",
+          "type": "官方個案文件"
+        },
+        {
+          "title": "USADA 官方處分名冊",
+          "url": "https://www.usada.org/results/sanctions/",
+          "type": "官方名冊"
+        }
+      ],
+      "originalReviewStatus": "core_checked",
+      "preparedAt": "2026-10-23",
+      "newVerificationPerformed": false,
+      "ownerRole": "案例教學編輯",
+      "nextReviewAt": "2026-12-31"
+    },
+    {
+      "caseId": "aiu-0031fcaf050f",
+      "title": "Alice Koigi｜物質相關違規／另有合法 TUE",
+      "topic": "tue",
+      "year": 2025,
+      "yearBasis": "事件年份（已依個案文件核對）",
+      "facts": "Alice Koigi 的 2025-10-26 雅加達賽事樣本檢出 methylprednisolone，接受兩年禁賽，自 2025-12-09 起，取消採樣日起成績。文件另確認賽後治療用靜脈輸液已獲追溯 TUE；該豁免不涵蓋本案的 methylprednisolone 發現。",
+      "procedure": "Final AIU decision",
+      "outcome": {
+        "banDuration": "2年",
+        "resultsCancelled": true,
+        "medalStripped": null,
+        "otherPenalties": "禁賽期間：自 2025-12-09 起兩年。自 2025-10-26 起取消成績。"
+      },
+      "learningPoint": "同一人可以有合法 TUE 及另一項違規；不把已獲准的輸液寫成違規來源，也不把該 TUE 擴大到其他物質。",
+      "uncertainty": [
+        "已逐案核對官方個案文件與名冊的身分、事件、規則及處分；未聲稱所有裁決全文或後續救濟程序均已審閱。",
+        "AIU 最終決定；WADA 及 ADAK 保留上訴權。",
+        "同一人可以有合法 TUE 及另一項違規；不把已獲准的輸液寫成違規來源，也不把該 TUE 擴大到其他物質。",
+        "獎牌剝奪：現有紀錄未知，不能當作「沒有」。"
+      ],
+      "roleActions": [
+        {
+          "role": "選手",
+          "action": "保存處方、成分、途徑、使用及賽程日期；核對TUE涵蓋範圍。"
+        },
+        {
+          "role": "教練／支援人員",
+          "action": "協助確認參賽層級及主管機構，保存申請往來。"
+        },
+        {
+          "role": "醫療人員",
+          "action": "備妥診斷與治療紀錄；區分處方、申報、追溯與未來TUE。"
+        }
+      ],
+      "discussionQuestions": [
+        "為何已核准輸液TUE仍不涵蓋另一項methylprednisolone發現？",
+        "依原來源，Alice Koigi案有哪些已確認、僅為當事人說法或未公開的事項？下一步須找哪份文件？"
+      ],
+      "ruleYearNote": "這是2025年事件／公告的歷史教學；適用當年及當時程序規則，不以2026或2027清單倒推本案。今日用藥須另查現行規範。",
+      "sourceCheckedAt": "2026-09-22",
+      "sourceLocator": "Alice Koigi：AIU 個案決定：PDF 第 1–4 頁；第 2、5–23 段及註 3、5",
+      "sources": [
+        {
+          "title": "Alice Koigi：AIU 個案決定",
+          "url": "https://www.athleticsintegrity.org/downloads/pdfs/disciplinary-process/en/AIU-25-411-Alice-KOIGI-Decision.pdf",
+          "type": "官方個案文件"
+        },
+        {
+          "title": "AIU 官方個案紀錄：Alice Koigi | KEN | 16/12/2025",
+          "url": "https://www.athleticsintegrity.org/disciplinary-process/first-instance-decisions",
+          "type": "官方名冊"
+        }
+      ],
+      "originalReviewStatus": "core_checked",
+      "preparedAt": "2026-10-23",
+      "newVerificationPerformed": false,
+      "ownerRole": "案例教學編輯",
+      "nextReviewAt": "2026-12-31"
+    },
+    {
+      "caseId": "aiu-070b562aa8b4",
+      "title": "Judy Jelagat Kemboi｜利尿劑／未證實藥物污染",
+      "topic": "contamination",
+      "year": 2025,
+      "yearBasis": "事件年份（已依個案文件核對）",
+      "facts": "Judy Jelagat Kemboi 的 2025-04-08 賽外樣本檢出 hydrochlorothiazide。她提出治療文件並送驗留存藥品，但藥品未檢出該物質。她承認違規，接受兩年禁賽，自 2025-08-06 起，取消 2025-04-08 起相關成績。",
+      "procedure": "Final AIU decision",
+      "outcome": {
+        "banDuration": "2年",
+        "resultsCancelled": true,
+        "medalStripped": null,
+        "otherPenalties": "禁賽期間：自 2025-08-06 起兩年。取消 2025-04-08 起相關成績。"
+      },
+      "learningPoint": "提出污染可能性與證明污染不同；送驗藥品陰性未能確認來源，也不等同證明故意。",
+      "uncertainty": [
+        "已逐案核對官方個案文件與名冊的身分、事件、規則及處分；未聲稱所有裁決全文或後續救濟程序均已審閱。",
+        "2025-08-11 AIU 最終決定；WADA 及 ADAK 保留上訴權。",
+        "提出污染可能性與證明污染不同；送驗藥品陰性未能確認來源，也不等同證明故意。",
+        "獎牌剝奪：現有紀錄未知，不能當作「沒有」。"
+      ],
+      "roleActions": [
+        {
+          "role": "選手",
+          "action": "保存產品、批號、包裝、購買及使用紀錄，避免自行推定污染。"
+        },
+        {
+          "role": "教練／支援人員",
+          "action": "協助追溯供應鏈與接觸紀錄，區分聲稱與已採信的事實。"
+        },
+        {
+          "role": "醫療人員",
+          "action": "記錄臨床用藥及可能來源，檢驗與法律因果判定交由合格機構。"
+        }
+      ],
+      "discussionQuestions": [
+        "留存藥品檢測陰性，能證明或排除哪些污染假說？能否據此推定故意？",
+        "依原來源，Judy Jelagat Kemboi案有哪些已確認、僅為當事人說法或未公開的事項？下一步須找哪份文件？"
+      ],
+      "ruleYearNote": "這是2025年事件／公告的歷史教學；適用當年及當時程序規則，不以2026或2027清單倒推本案。今日用藥須另查現行規範。",
+      "sourceCheckedAt": "2026-09-22",
+      "sourceLocator": "Judy Jelagat Kemboi：AIU 個案決定：PDF 第 1–4 頁；第 2、5–27 段",
+      "sources": [
+        {
+          "title": "Judy Jelagat Kemboi：AIU 個案決定",
+          "url": "https://www.athleticsintegrity.org/downloads/pdfs/disciplinary-process/en/AIU-25-097-Judy-Jelegat-KEMBOI-Decision.pdf",
+          "type": "官方個案文件"
+        },
+        {
+          "title": "AIU 官方個案紀錄：Judy Jelagat Kemboi | KEN | 11/08/2025",
+          "url": "https://www.athleticsintegrity.org/disciplinary-process/first-instance-decisions",
+          "type": "官方名冊"
+        }
+      ],
+      "originalReviewStatus": "core_checked",
+      "preparedAt": "2026-10-23",
+      "newVerificationPerformed": false,
+      "ownerRole": "案例教學編輯",
+      "nextReviewAt": "2026-12-31"
+    },
+    {
+      "caseId": "aiu-145cb734821e",
+      "title": "Morine Gesare Michira｜補充品標示成分／接受處分",
+      "topic": "contamination",
+      "year": 2025,
+      "yearBasis": "事件年份（已依個案文件核對）",
+      "facts": "Morine Gesare Michira 的 2025-03-23 米蘭賽內樣本檢出 higenamine 與 octodrine。她提出賽前服用的補充品，標籤列有兩種成分，專家認為服用說明與濃度可能相符。她接受兩年禁賽，自 2025-06-26 起，取消 2025-03-23 起相關成績。",
+      "procedure": "Final AIU decision",
+      "outcome": {
+        "banDuration": "2年",
+        "resultsCancelled": true,
+        "medalStripped": null,
+        "otherPenalties": "禁賽期間：自 2025-06-26 起兩年。取消 2025-03-23 起相關成績。"
+      },
+      "learningPoint": "Octodrine 可用 2-aminoisoheptane 等名稱標示。專家認為可能相符與獲得免責不同；AIU 未接受額外減免請求。",
+      "uncertainty": [
+        "已逐案核對官方個案文件與名冊的身分、事件、規則及處分；未聲稱所有裁決全文或後續救濟程序均已審閱。",
+        "2025-07-22 AIU 最終決定；WADA 與 ADAK 保留上訴權。",
+        "Octodrine 可用 2-aminoisoheptane 等名稱標示。專家認為可能相符與獲得免責不同；AIU 未接受額外減免請求。",
+        "獎牌剝奪：現有紀錄未知，不能當作「沒有」。"
+      ],
+      "roleActions": [
+        {
+          "role": "選手",
+          "action": "保存產品、批號、包裝、購買及使用紀錄，避免自行推定污染。"
+        },
+        {
+          "role": "教練／支援人員",
+          "action": "協助追溯供應鏈與接觸紀錄，區分聲稱與已採信的事實。"
+        },
+        {
+          "role": "醫療人員",
+          "action": "記錄臨床用藥及可能來源，檢驗與法律因果判定交由合格機構。"
+        }
+      ],
+      "discussionQuestions": [
+        "成分已寫在補充品標籤上，與未標示污染的證據有何不同？",
+        "依原來源，Morine Gesare Michira案有哪些已確認、僅為當事人說法或未公開的事項？下一步須找哪份文件？"
+      ],
+      "ruleYearNote": "這是2025年事件／公告的歷史教學；適用當年及當時程序規則，不以2026或2027清單倒推本案。今日用藥須另查現行規範。",
+      "sourceCheckedAt": "2026-09-22",
+      "sourceLocator": "Morine Gesare Michira：AIU 個案決定：PDF 第 1–4 頁；第 2、5–30 段",
+      "sources": [
+        {
+          "title": "Morine Gesare Michira：AIU 個案決定",
+          "url": "https://www.athleticsintegrity.org/downloads/pdfs/disciplinary-process/en/AIU-25-071-Morine-Gesare-MICHIRA-Decision.pdf",
+          "type": "官方個案文件"
+        },
+        {
+          "title": "AIU 官方個案紀錄：Morine Gesare Michira | KEN | 22/07/2025",
+          "url": "https://www.athleticsintegrity.org/disciplinary-process/first-instance-decisions",
+          "type": "官方名冊"
+        }
+      ],
+      "originalReviewStatus": "core_checked",
+      "preparedAt": "2026-10-23",
+      "newVerificationPerformed": false,
+      "ownerRole": "案例教學編輯",
+      "nextReviewAt": "2026-12-31"
+    },
+    {
+      "caseId": "aiu-50084e62b4f1",
+      "title": "Pooja Aatmaram｜規避採樣／及早承認",
+      "topic": "procedure",
+      "year": 2025,
+      "yearBasis": "事件年份（已依個案文件核對）",
+      "facts": "Pooja Aatmaram 在 2025-11-23 孟買半馬賽後接獲口頭採樣通知，隨後離開陪同人員，未完成採樣。及早承認後，禁賽三年，自 2026-02-03 起，取消 2025-11-23 起成績；原決定日期為 2026-02-20。",
+      "procedure": "Final AIU decision",
+      "outcome": {
+        "banDuration": "3年",
+        "resultsCancelled": true,
+        "medalStripped": null,
+        "otherPenalties": "禁賽期間：自 2026-02-03 起三年。自 2025-11-23 起取消成績。"
+      },
+      "learningPoint": "未在通知表上簽名不會自動使採樣通知失效；沒有採得樣本，本案不能描述為藥物陽性。名冊裁決日誤列 2025-12-20。",
+      "uncertainty": [
+        "已逐案核對官方個案文件與名冊的身分、事件、規則及處分；未聲稱所有裁決全文或後續救濟程序均已審閱。",
+        "AIU 2026-02-20 最終決定；WADA 及 NADA 保留上訴權。",
+        "未在通知表上簽名不會自動使採樣通知失效；沒有採得樣本，本案不能描述為藥物陽性。名冊裁決日誤列 2025-12-20。",
+        "獎牌剝奪：現有紀錄未知，不能當作「沒有」。"
+      ],
+      "roleActions": [
+        {
+          "role": "選手",
+          "action": "核對採樣通知；有疑慮當場記錄並尋求代表協助。"
+        },
+        {
+          "role": "教練／支援人員",
+          "action": "協助運動員理解採樣義務、代表權利與程序記錄。"
+        },
+        {
+          "role": "醫療人員",
+          "action": "完整記錄可能影響採樣的醫療情況，不以處方替代程序義務。"
+        }
+      ],
+      "discussionQuestions": [
+        "未簽通知表是否代表通知無效？沒有採得檢體，應如何描述違規類型？",
+        "依原來源，Pooja Aatmaram案有哪些已確認、僅為當事人說法或未公開的事項？下一步須找哪份文件？"
+      ],
+      "ruleYearNote": "這是2025年事件／公告的歷史教學；適用當年及當時程序規則，不以2026或2027清單倒推本案。今日用藥須另查現行規範。",
+      "sourceCheckedAt": "2026-09-22",
+      "sourceLocator": "Pooja Aatmaram：AIU 個案決定：PDF 第 1、2、4、5 頁；第 2、6–8、15–26 段",
+      "sources": [
+        {
+          "title": "Pooja Aatmaram：AIU 個案決定",
+          "url": "https://www.athleticsintegrity.org/downloads/pdfs/disciplinary-process/en/AIU-26-026-Pooja-AATMARAM-Decision.pdf",
+          "type": "官方個案文件"
+        },
+        {
+          "title": "AIU 官方個案紀錄：Pooja Aatmaram | IND | 20/12/2025",
+          "url": "https://www.athleticsintegrity.org/disciplinary-process/first-instance-decisions",
+          "type": "官方名冊"
+        }
+      ],
+      "originalReviewStatus": "core_checked",
+      "preparedAt": "2026-10-23",
+      "newVerificationPerformed": false,
+      "ownerRole": "案例教學編輯",
+      "nextReviewAt": "2026-12-31"
+    },
+    {
+      "caseId": "aiu-55fc8ff094dc",
+      "title": "Alysha NEWMAN｜行蹤義務／過失與程序延遲",
+      "topic": "whereabouts",
+      "year": 2025,
+      "yearBasis": "事件年份（已依個案文件核對）",
+      "facts": "Alysha Newman 在 2025-02-27、08-17、08-23 發生三次行蹤失誤，接受 20 個月禁賽。AIU 依過失程度減少四個月，另因非可歸責於她的延遲回溯起日兩個月，期間為 2025-12-03 至 2027-08-02，取消 2025-08-23 起成績。",
+      "procedure": "Final AIU decision",
+      "outcome": {
+        "banDuration": "20個月",
+        "resultsCancelled": true,
+        "medalStripped": null,
+        "otherPenalties": "禁賽期間：2025-12-03 至 2027-08-02。自 2025-08-23 起取消相關成績。"
+      },
+      "learningPoint": "減少禁賽月數與回溯禁賽起日是不同決定；公告另載第四次失誤未納入本次 2.4 違規構成，不能改寫成四次合計。",
+      "uncertainty": [
+        "已逐案核對官方個案文件與名冊的身分、事件、規則及處分；未聲稱所有裁決全文或後續救濟程序均已審閱。",
+        "AIU 最終決定；文件列明運動員、WADA 及 CCES 的上訴權。",
+        "減少禁賽月數與回溯禁賽起日是不同決定；公告另載第四次失誤未納入本次 2.4 違規構成，不能改寫成四次合計。",
+        "獎牌剝奪：現有紀錄未知，不能當作「沒有」。"
+      ],
+      "roleActions": [
+        {
+          "role": "選手",
+          "action": "更新行蹤並保存異動及通知紀錄。"
+        },
+        {
+          "role": "教練／支援人員",
+          "action": "協助行程協調及提醒，不修改或補造紀錄。"
+        },
+        {
+          "role": "醫療人員",
+          "action": "如有醫療影響，保存當時可核實的診療時間與資料。"
+        }
+      ],
+      "discussionQuestions": [
+        "減少禁賽月數與回溯起日各依據什麼？第四次失誤是否納入本次構成？",
+        "依原來源，Alysha NEWMAN案有哪些已確認、僅為當事人說法或未公開的事項？下一步須找哪份文件？"
+      ],
+      "ruleYearNote": "這是2025年事件／公告的歷史教學；適用當年及當時程序規則，不以2026或2027清單倒推本案。今日用藥須另查現行規範。",
+      "sourceCheckedAt": "2026-09-22",
+      "sourceLocator": "Alysha NEWMAN：AIU／World Athletics 個案決定：PDF 第 1、2、7–10 頁；第 2、7、45–69 段",
+      "sources": [
+        {
+          "title": "Alysha NEWMAN：AIU／World Athletics 個案決定",
+          "url": "https://www.athleticsintegrity.org/downloads/pdfs/disciplinary-process/en/AIU-26-028-NEWMAN-Decision-of-the-AIU.pdf",
+          "type": "官方個案文件"
+        },
+        {
+          "title": "AIU 官方個案紀錄：Alysha NEWMAN | CAN | 29/04/2026",
+          "url": "https://www.athleticsintegrity.org/disciplinary-process/first-instance-decisions",
+          "type": "官方名冊"
+        }
+      ],
+      "originalReviewStatus": "core_checked",
+      "preparedAt": "2026-10-23",
+      "newVerificationPerformed": false,
+      "ownerRole": "案例教學編輯",
+      "nextReviewAt": "2026-12-31"
+    },
+    {
+      "caseId": "aiu-89efc48649bb",
+      "title": "Cornelius Kibet Kiplagat｜多種物質／加重與及早承認",
+      "topic": "sanction",
+      "year": 2025,
+      "yearBasis": "事件年份（已依個案文件核對）",
+      "facts": "Cornelius Kibet Kiplagat 的 2025-07-29 肯亞賽外樣本檢出 EPO 與 CERA。他承認使用兩種物質；多種使用使基礎處分加重為六年，再因及早承認減為五年，自 2025-09-11 起，取消 2025-07-29 起相關成績。",
+      "procedure": "Final AIU decision",
+      "outcome": {
+        "banDuration": "5年",
+        "resultsCancelled": true,
+        "medalStripped": null,
+        "otherPenalties": "禁賽期間：自 2025-09-11 起五年。取消 2025-07-29 起相關成績。"
+      },
+      "learningPoint": "不能只套用單一物質常見的四年處分；本案同時適用加重情節與及早承認減免。",
+      "uncertainty": [
+        "已逐案核對官方個案文件與名冊的身分、事件、規則及處分；未聲稱所有裁決全文或後續救濟程序均已審閱。",
+        "2025-09-26 AIU 最終決定；WADA 與 ADAK 保留上訴權。",
+        "不能只套用單一物質常見的四年處分；本案同時適用加重情節與及早承認減免。",
+        "獎牌剝奪：現有紀錄未知，不能當作「沒有」。"
+      ],
+      "roleActions": [
+        {
+          "role": "選手",
+          "action": "理解本案適用條件，勿以他人刑期推算自己的結果。"
+        },
+        {
+          "role": "教練／支援人員",
+          "action": "分開記錄禁賽期間、參與限制、成績取消與減免。"
+        },
+        {
+          "role": "醫療人員",
+          "action": "提供真實醫療證據；處分與TUE核准均須個案程序。"
+        }
+      ],
+      "discussionQuestions": [
+        "多物質加重及及早承認減免如何分開理解？能否一律套用四年？",
+        "依原來源，Cornelius Kibet Kiplagat案有哪些已確認、僅為當事人說法或未公開的事項？下一步須找哪份文件？"
+      ],
+      "ruleYearNote": "這是2025年事件／公告的歷史教學；適用當年及當時程序規則，不以2026或2027清單倒推本案。今日用藥須另查現行規範。",
+      "sourceCheckedAt": "2026-09-22",
+      "sourceLocator": "Cornelius Kibet Kiplagat：AIU 個案決定：PDF 第 1–6 頁；第 2、5–30 段",
+      "sources": [
+        {
+          "title": "Cornelius Kibet Kiplagat：AIU 個案決定",
+          "url": "https://www.athleticsintegrity.org/downloads/pdfs/disciplinary-process/en/AIU-25-283-Cornelius-Kibet-KIPLAGAT-Decision21.pdf",
+          "type": "官方個案文件"
+        },
+        {
+          "title": "AIU 官方個案紀錄：Cornelius Kibet Kiplagat | KEN | 26/09/2025",
+          "url": "https://www.athleticsintegrity.org/disciplinary-process/first-instance-decisions",
+          "type": "官方名冊"
+        }
+      ],
+      "originalReviewStatus": "core_checked",
+      "preparedAt": "2026-10-23",
+      "newVerificationPerformed": false,
+      "ownerRole": "案例教學編輯",
+      "nextReviewAt": "2026-12-31"
+    },
+    {
+      "caseId": "aiu-b3119208d998",
+      "title": "Deborah Sang｜歷史檢體再分析／加重情節",
+      "topic": "source",
+      "year": 2025,
+      "yearBasis": "事件年份（已依個案文件核對）",
+      "facts": "Deborah Sang 的 2025-04-06 貝爾格勒馬拉松樣本進一步分析後發現外源性 testosterone 證據，2026-01-31 利雅德樣本另涉及 prednisone／prednisolone。AIU 因多物質加重至六年，再依及早承認減為五年，自 2026-03-11 起；成績自 2025-04-06 起取消。",
+      "procedure": "Final AIU decision",
+      "outcome": {
+        "banDuration": "5年",
+        "resultsCancelled": true,
+        "medalStripped": null,
+        "otherPenalties": "禁賽期間：自 2026-03-11 起五年。自 2025-04-06 起取消成績；名冊 16 April 為與裁決不符的日期。"
+      },
+      "learningPoint": "名冊把成績取消起日列為 4 月 16 日；本頁依原裁決第 29.2 段校正為 4 月 6 日。多份樣本屬同一處分，不重複計數。",
+      "uncertainty": [
+        "已逐案核對官方個案文件與名冊的身分、事件、規則及處分；未聲稱所有裁決全文或後續救濟程序均已審閱。",
+        "AIU 最終決定；WADA 與 ADAK 保留上訴權。",
+        "名冊把成績取消起日列為 4 月 16 日；本頁依原裁決第 29.2 段校正為 4 月 6 日。多份樣本屬同一處分，不重複計數。",
+        "獎牌剝奪：現有紀錄未知，不能當作「沒有」。"
+      ],
+      "roleActions": [
+        {
+          "role": "選手",
+          "action": "保存原始通知及文件日期，不以摘要取代裁決。"
+        },
+        {
+          "role": "教練／支援人員",
+          "action": "比對官方名冊與個案文件，記下不一致及採信理由。"
+        },
+        {
+          "role": "醫療人員",
+          "action": "提供可核實的醫療日期；未知資料維持未知。"
+        }
+      ],
+      "discussionQuestions": [
+        "名冊與裁決的成績取消日期不同時，應保留哪些定位及勘誤證據？",
+        "依原來源，Deborah Sang案有哪些已確認、僅為當事人說法或未公開的事項？下一步須找哪份文件？"
+      ],
+      "ruleYearNote": "這是2025年事件／公告的歷史教學；適用當年及當時程序規則，不以2026或2027清單倒推本案。今日用藥須另查現行規範。",
+      "sourceCheckedAt": "2026-09-22",
+      "sourceLocator": "Deborah Sang：AIU／World Athletics 個案決定：第 1、2、5、6 頁；第 2、5–10、23–33 段",
+      "sources": [
+        {
+          "title": "Deborah Sang：AIU／World Athletics 個案決定",
+          "url": "https://www.athleticsintegrity.org/downloads/pdfs/disciplinary-process/en/AIU-26-59-26-68-Deborah-SANG-Decision.pdf",
+          "type": "官方個案文件"
+        },
+        {
+          "title": "AIU 官方個案紀錄：Deborah Sang | KEN | 21/05/2026",
+          "url": "https://www.athleticsintegrity.org/disciplinary-process/first-instance-decisions",
+          "type": "官方名冊"
+        }
+      ],
+      "originalReviewStatus": "core_checked",
+      "preparedAt": "2026-10-23",
+      "newVerificationPerformed": false,
+      "ownerRole": "案例教學編輯",
+      "nextReviewAt": "2026-12-31"
+    },
+    {
+      "caseId": "aiu-edc5ff29ebf6",
+      "title": "Brian Limo｜salbutamol 與偽造醫療文件／合併處分",
+      "topic": "records",
+      "year": 2025,
+      "yearBasis": "事件年份（已依個案文件核對）",
+      "facts": "Brian Limo 在 2025-04-05 Drammen 賽事檢體中 salbutamol 超過尿液判定濃度，其後提出的醫療文件被查明不實；他在訪談承認要求補製不實就診及處方紀錄。物質違規兩年與篡改四年連續執行，因及早承認減為五年。",
+      "procedure": "Final AIU decision",
+      "outcome": {
+        "banDuration": "5年",
+        "resultsCancelled": true,
+        "medalStripped": null,
+        "otherPenalties": "禁賽期間：自 2025-11-25 起五年。取消自 2025-04-05 起的競賽成績。"
+      },
+      "learningPoint": "salbutamol 有符合規則的吸入使用例外，不能寫成所有用法一律禁用。偽造病歷是另一項違規；AIU 補送通知後重新給予答辯期限。",
+      "uncertainty": [
+        "已逐案核對官方個案文件與名冊的身分、事件、規則及處分；未聲稱所有裁決全文或後續救濟程序均已審閱。",
+        "2026-01-23 AIU 決定；WADA 與 ADAK 保有上訴權。",
+        "salbutamol 有符合規則的吸入使用例外，不能寫成所有用法一律禁用。偽造病歷是另一項違規；AIU 補送通知後重新給予答辯期限。",
+        "獎牌剝奪：現有紀錄未知，不能當作「沒有」。"
+      ],
+      "roleActions": [
+        {
+          "role": "選手",
+          "action": "保留真實病歷與處方，不補造事後證明。"
+        },
+        {
+          "role": "教練／支援人員",
+          "action": "保存程序往來與期限，協助提供原始證據。"
+        },
+        {
+          "role": "醫療人員",
+          "action": "如需更正病歷，留下更正時間、原因及原紀錄。"
+        }
+      ],
+      "discussionQuestions": [
+        "吸入劑量例外、尿液濃度及不實醫療文件為何必須分別討論？",
+        "依原來源，Brian Limo案有哪些已確認、僅為當事人說法或未公開的事項？下一步須找哪份文件？"
+      ],
+      "ruleYearNote": "這是2025年事件／公告的歷史教學；適用當年及當時程序規則，不以2026或2027清單倒推本案。今日用藥須另查現行規範。",
+      "sourceCheckedAt": "2026-09-22",
+      "sourceLocator": "Brian Limo：AIU 個案決定：全文第 1–7 頁，尤其第 5–20、24–37 段及第 2、3 註",
+      "sources": [
+        {
+          "title": "Brian Limo：AIU 個案決定",
+          "url": "https://www.athleticsintegrity.org/downloads/pdfs/disciplinary-process/en/AIU-25-095-25-378-Brian-LIMO-Decision.pdf",
+          "type": "官方個案文件"
+        },
+        {
+          "title": "AIU 官方個案紀錄：Brian Limo | KEN | 23/01/2026",
+          "url": "https://www.athleticsintegrity.org/disciplinary-process/first-instance-decisions",
+          "type": "官方名冊"
+        }
+      ],
+      "originalReviewStatus": "core_checked",
+      "preparedAt": "2026-10-23",
+      "newVerificationPerformed": false,
+      "ownerRole": "案例教學編輯",
+      "nextReviewAt": "2026-12-31"
+    },
+    {
+      "caseId": "ita-0252ec50e841",
+      "title": "Daniil Sapunov｜禁賽期間參與活動",
+      "topic": "sanction",
+      "year": 2025,
+      "yearBasis": "追加處分公告年（參與限制違規的精確日期未完整公開）",
+      "facts": "Daniil Sapunov（名冊作 Danylo）原禁賽為 2019-10-08 至 2023-10-07。違反禁賽期間參與限制後，追加三年半，自 2023-10-08 至 2027-04-07。",
+      "procedure": "Agreement on Consequences",
+      "outcome": {
+        "banDuration": "追加3年6個月",
+        "resultsCancelled": true,
+        "medalStripped": null,
+        "otherPenalties": "原禁賽 2019-10-08 至 2023-10-07；追加 2023-10-08 至 2027-04-07，取消相關期間成績。"
+      },
+      "learningPoint": "追加處分與原始藥檢事件需分開說明，但不因拼名或程序變化重複計數。",
+      "uncertainty": [
+        "已閱讀個案官方公告並與目前名冊核對核心事實；未聲稱完整裁決全文已審閱。",
+        "已閱讀官方個案公告；國籍以官方名冊或公告明示為據。",
+        "公告載有上訴權時，不推定已無上訴或已終局。",
+        "獎牌剝奪：現有紀錄未知，不能當作「沒有」。"
+      ],
+      "roleActions": [
+        {
+          "role": "選手",
+          "action": "理解本案適用條件，勿以他人刑期推算自己的結果。"
+        },
+        {
+          "role": "教練／支援人員",
+          "action": "分開記錄禁賽期間、參與限制、成績取消與減免。"
+        },
+        {
+          "role": "醫療人員",
+          "action": "提供真實醫療證據；處分與TUE核准均須個案程序。"
+        }
+      ],
+      "discussionQuestions": [
+        "追加參與限制處分與原始藥檢事件，為何不能當成同一日期或重複案例？",
+        "依原來源，Daniil Sapunov案有哪些已確認、僅為當事人說法或未公開的事項？下一步須找哪份文件？"
+      ],
+      "ruleYearNote": "這是2025年事件／公告的歷史教學；適用當年及當時程序規則，不以2026或2027清單倒推本案。今日用藥須另查現行規範。",
+      "sourceCheckedAt": "2026-09-22",
+      "sourceLocator": "Sapunov, Danylo | Ukraine | N/A",
+      "sources": [
+        {
+          "title": "個案官方公告",
+          "url": "https://ita.sport/news/the-ita-reports-that-athlete-daniil-sapunov-has-accepted-a-3-5-year-ban-for-his-breach-of-anti-doping-rules/",
+          "type": "官方公告"
+        },
+        {
+          "title": "ITA 官方個案紀錄：Sapunov, Danylo | Ukraine | N/A",
+          "url": "https://ita.sport/anti-doping-rule-violations/",
+          "type": "官方名冊"
+        }
+      ],
+      "originalReviewStatus": "core_checked",
+      "preparedAt": "2026-10-23",
+      "newVerificationPerformed": false,
+      "ownerRole": "案例教學編輯",
+      "nextReviewAt": "2026-12-31"
+    },
+    {
+      "caseId": "ita-226edfa93a4f",
+      "title": "Mariana Bernal Sanchez｜物質相關違規／名冊勘誤",
+      "topic": "source",
+      "year": 2025,
+      "yearBasis": "違規事件年（官方名冊所載）",
+      "facts": "Mariana Bernal Sanchez 的 2025-09-29 樣本檢出 nandrolone。ITA 及 World Archery 公告一致記載三年禁賽，2025-12-22 至 2028-12-21；ITA 名冊把結束年誤列為 2025，本頁採用兩份個案公告。",
+      "procedure": "Agreement on Consequences",
+      "outcome": {
+        "banDuration": "3年",
+        "resultsCancelled": true,
+        "medalStripped": null,
+        "otherPenalties": "禁賽 2025-12-22 至 2028-12-21；取消 2025-09-29 至 2025-12-22 成績。"
+      },
+      "learningPoint": "官方名冊也可能有日期誤植；須保留勘誤證據，不能直接複製矛盾日期。",
+      "uncertainty": [
+        "已閱讀個案官方公告並與目前名冊核對核心事實；未聲稱完整裁決全文已審閱。",
+        "已閱讀官方個案公告；國籍以官方名冊或公告明示為據。",
+        "公告載有上訴權時，不推定已無上訴或已終局。",
+        "名冊結束年誤為 2025；ITA 公告與 World Archery 公告一致為 2028。",
+        "獎牌剝奪：現有紀錄未知，不能當作「沒有」。"
+      ],
+      "roleActions": [
+        {
+          "role": "選手",
+          "action": "保存原始通知及文件日期，不以摘要取代裁決。"
+        },
+        {
+          "role": "教練／支援人員",
+          "action": "比對官方名冊與個案文件，記下不一致及採信理由。"
+        },
+        {
+          "role": "醫療人員",
+          "action": "提供可核實的醫療日期；未知資料維持未知。"
+        }
+      ],
+      "discussionQuestions": [
+        "兩份個案公告與名冊結束年衝突時，如何呈現採信依據及保留原始矛盾？",
+        "依原來源，Mariana Bernal Sanchez案有哪些已確認、僅為當事人說法或未公開的事項？下一步須找哪份文件？"
+      ],
+      "ruleYearNote": "這是2025年事件／公告的歷史教學；適用當年及當時程序規則，不以2026或2027清單倒推本案。今日用藥須另查現行規範。",
+      "sourceCheckedAt": "2026-09-22",
+      "sourceLocator": "Bernal Sanchez, Mariana | Mexico | 29 September 2025",
+      "sources": [
+        {
+          "title": "個案官方公告",
+          "url": "https://ita.sport/news/the-ita-reports-that-archer-mariana-bernal-sanchez-has-accepted-a-3-year-ban-for-her-anti-doping-rule-violation/",
+          "type": "官方公告"
+        },
+        {
+          "title": "ITA 官方個案紀錄：Bernal Sanchez, Mariana | Mexico | 29 September 2025",
+          "url": "https://ita.sport/anti-doping-rule-violations/",
+          "type": "官方名冊"
+        },
+        {
+          "title": "補充官方查證",
+          "url": "https://www.worldarchery.sport/fr/node/202516",
+          "type": "官方公告"
+        }
+      ],
+      "originalReviewStatus": "core_checked",
+      "preparedAt": "2026-10-23",
+      "newVerificationPerformed": false,
+      "ownerRole": "案例教學編輯",
+      "nextReviewAt": "2026-12-31"
+    },
+    {
+      "caseId": "1",
+      "title": "Erriyon Knighton｜已成立違規／上訴改判",
+      "topic": "appeal",
+      "year": 2024,
+      "yearBasis": "未另列年份基準",
+      "facts": "Erriyon Knighton 的 2024 年樣本檢出 trenbolone 代謝物。原審接受污染肉品說法、未處禁賽；CAS 於 2025 年 9 月 12 日撤銷原審結果，裁處四年禁賽。AIU 於同年 10 月公布裁決說明，指出本案未能證明污染來源及非故意。",
+      "procedure": "已成立違規／上訴改判",
+      "outcome": {
+        "banDuration": "4年（CAS，2025-09-12；折抵已服暫時禁賽）",
+        "resultsCancelled": true,
+        "medalStripped": null,
+        "otherPenalties": "取消 2024-03-26 至 2024-04-12 的成績；折抵 2024-04-12 至 2024-06-19 暫時禁賽。"
+      },
+      "learningPoint": "陽性結果、來源舉證與故意認定是不同問題；不能把未被採信的污染抗辯寫成已獲裁決確認。",
+      "uncertainty": [
+        "事件、裁決結果及本頁教學摘要；不代表其他獨立事件的結論",
+        "獎牌剝奪：現有紀錄未知，不能當作「沒有」。"
+      ],
+      "roleActions": [
+        {
+          "role": "選手",
+          "action": "保存各階段裁決與通知，尋求具相關資格的法律協助。"
+        },
+        {
+          "role": "教練／支援人員",
+          "action": "更新團隊資料，以最新已知裁決區分各指控結果。"
+        },
+        {
+          "role": "醫療人員",
+          "action": "保留提供給程序的原始診療證據，不把法律結果當作臨床因果證明。"
+        }
+      ],
+      "discussionQuestions": [
+        "原審採信的污染說法遭上訴撤銷後，摘要中哪些句子必須更新？",
+        "依原來源，Erriyon Knighton案有哪些已確認、僅為當事人說法或未公開的事項？下一步須找哪份文件？"
+      ],
+      "ruleYearNote": "這是2024年事件／公告的歷史教學；適用當年及當時程序規則，不以2026或2027清單倒推本案。今日用藥須另查現行規範。",
+      "sourceCheckedAt": "2026-09-22",
+      "sources": [
+        {
+          "title": "2025-09-12 Erriyon Knighton 列",
+          "url": "https://www.athleticsintegrity.org/disciplinary-process/appeal-decisions",
+          "type": "官方文件"
+        },
+        {
+          "title": "第 1 頁，2025-10-21 公告",
+          "url": "https://www.athleticsintegrity.org/downloads/pdfs/other/NEWS-CAS-Appeal-Panel-Knighton-Failed-to-Establish-His-ADRV-Was-Not-Intentional.pdf",
+          "type": "官方文件"
+        }
+      ],
+      "originalReviewStatus": "core_checked",
+      "preparedAt": "2026-10-23",
+      "newVerificationPerformed": false,
+      "ownerRole": "案例教學編輯",
+      "nextReviewAt": "2026-12-31"
+    },
+    {
+      "caseId": "2",
+      "title": "Iga Swiatek｜污染／已成立違規",
+      "topic": "contamination",
+      "year": 2024,
+      "yearBasis": "未另列年份基準",
+      "facts": "Iga Swiatek 的 2024 年樣本檢出 trimetazidine。ITIA 接受其所用 melatonin 藥品受污染的證據，認定非故意及無重大過失或疏忽；她接受一個月禁賽。",
+      "procedure": "污染／已成立違規",
+      "outcome": {
+        "banDuration": "1個月",
+        "resultsCancelled": null,
+        "medalStripped": null,
+        "otherPenalties": "繳回 Cincinnati 賽事獎金；本頁不將獎金處置擴張成所有成績取消。"
+      },
+      "learningPoint": "「污染來源獲接受」、「沒有故意」與「沒有違規」不是同一件事。用藥紀錄與可追溯的產品證據有助於釐清來源。",
+      "uncertainty": [
+        "事件、裁決結果及本頁教學摘要；不代表其他獨立事件的結論",
+        "成績取消：現有紀錄未知，不能當作「沒有」。",
+        "獎牌剝奪：現有紀錄未知，不能當作「沒有」。"
+      ],
+      "roleActions": [
+        {
+          "role": "選手",
+          "action": "保存產品、批號、包裝、購買及使用紀錄，避免自行推定污染。"
+        },
+        {
+          "role": "教練／支援人員",
+          "action": "協助追溯供應鏈與接觸紀錄，區分聲稱與已採信的事實。"
+        },
+        {
+          "role": "醫療人員",
+          "action": "記錄臨床用藥及可能來源，檢驗與法律因果判定交由合格機構。"
+        }
+      ],
+      "discussionQuestions": [
+        "污染來源獲採信、非故意及違規成立，為何仍可能同時存在？",
+        "依原來源，Iga Swiatek案有哪些已確認、僅為當事人說法或未公開的事項？下一步須找哪份文件？"
+      ],
+      "ruleYearNote": "這是2024年事件／公告的歷史教學；適用當年及當時程序規則，不以2026或2027清單倒推本案。今日用藥須另查現行規範。",
+      "sourceCheckedAt": "2026-09-22",
+      "sources": [
+        {
+          "title": "2024-11-28，melatonin contamination、No Significant Fault or Negligence",
+          "url": "https://www.itia.tennis/news/sanctions/polish-tennis-player-iga-swiatek-accepts-one-month-suspension-under-tennis-anti-doping-programme/",
+          "type": "官方文件"
+        }
+      ],
+      "originalReviewStatus": "core_checked",
+      "preparedAt": "2026-10-23",
+      "newVerificationPerformed": false,
+      "ownerRole": "案例教學編輯",
+      "nextReviewAt": "2026-12-31"
+    },
+    {
+      "caseId": "3",
+      "title": "Jannik Sinner｜污染／和解處分",
+      "topic": "appeal",
+      "year": 2024,
+      "yearBasis": "未另列年份基準",
+      "facts": "Jannik Sinner 的 2024 年樣本檢出 clostebol。原審接受經支援團隊造成非故意暴露的證據，認定無過失；印第安維爾斯賽事成績、積分及獎金仍被取消。WADA 上訴後，2025 年以三個月禁賽和解。",
+      "procedure": "污染／和解處分",
+      "outcome": {
+        "banDuration": "3個月（2025 年和解）",
+        "resultsCancelled": true,
+        "medalStripped": null,
+        "otherPenalties": "印第安維爾斯賽事成績、積分及獎金取消。"
+      },
+      "learningPoint": "無故意或無過失認定不必然保留檢測相關賽事的成績。教學應分開說明來源、過失、個人禁賽及成績處置。",
+      "uncertainty": [
+        "事件、裁決結果及本頁教學摘要；不代表其他獨立事件的結論",
+        "獎牌剝奪：現有紀錄未知，不能當作「沒有」。"
+      ],
+      "roleActions": [
+        {
+          "role": "選手",
+          "action": "保存各階段裁決與通知，尋求具相關資格的法律協助。"
+        },
+        {
+          "role": "教練／支援人員",
+          "action": "更新團隊資料，以最新已知裁決區分各指控結果。"
+        },
+        {
+          "role": "醫療人員",
+          "action": "保留提供給程序的原始診療證據，不把法律結果當作臨床因果證明。"
+        }
+      ],
+      "discussionQuestions": [
+        "來源、過失、和解禁賽及賽事成績取消，是哪些不同的決定？",
+        "依原來源，Jannik Sinner案有哪些已確認、僅為當事人說法或未公開的事項？下一步須找哪份文件？"
+      ],
+      "ruleYearNote": "這是2024年事件／公告的歷史教學；適用當年及當時程序規則，不以2026或2027清單倒推本案。今日用藥須另查現行規範。",
+      "sourceCheckedAt": "2026-09-22",
+      "sources": [
+        {
+          "title": "2025-02-15，三個月和解",
+          "url": "https://www.itia.tennis/news/sanctions/itia-statement/",
+          "type": "官方文件"
+        },
+        {
+          "title": "2024-08-20，Indian Wells results、points and prize money disqualified",
+          "url": "https://www.itia.tennis/news/sanctions/independent-tribunal-rules-no-fault-or-negligence-in-case-of-italian-player-jannik-sinner/",
+          "type": "官方文件"
+        }
+      ],
+      "originalReviewStatus": "core_checked",
+      "preparedAt": "2026-10-23",
+      "newVerificationPerformed": false,
+      "ownerRole": "案例教學編輯",
+      "nextReviewAt": "2026-12-31"
+    },
+    {
+      "caseId": "8",
+      "title": "Simona Halep｜污染／上訴減刑",
+      "topic": "appeal",
+      "year": 2022,
+      "yearBasis": "未另列年份基準",
+      "facts": "Simona Halep 於 2022 年美網檢出 roxadustat，另面對生物護照指控。CAS 於 2024 年 3 月裁定，roxadustat 與受污染補充劑有關；仍有需負責的過失，但原四年禁賽改為九個月。CAS 未維持原審的生物護照違規結論。",
+      "procedure": "污染／上訴減刑",
+      "outcome": {
+        "banDuration": "9個月（自 2022-10-07 起；CAS 2024 改判）",
+        "resultsCancelled": true,
+        "medalStripped": null,
+        "otherPenalties": "取消 2022-08-29 至 2022-10-07 的成績。"
+      },
+      "learningPoint": "受污染產品不自動免除責任；應讀取最新裁決，分辨物質陽性與生物護照等不同指控各自的結果。",
+      "uncertainty": [
+        "事件、裁決結果及本頁教學摘要；不代表其他獨立事件的結論",
+        "獎牌剝奪：現有紀錄未知，不能當作「沒有」。"
+      ],
+      "roleActions": [
+        {
+          "role": "選手",
+          "action": "保存各階段裁決與通知，尋求具相關資格的法律協助。"
+        },
+        {
+          "role": "教練／支援人員",
+          "action": "更新團隊資料，以最新已知裁決區分各指控結果。"
+        },
+        {
+          "role": "醫療人員",
+          "action": "保留提供給程序的原始診療證據，不把法律結果當作臨床因果證明。"
+        }
+      ],
+      "discussionQuestions": [
+        "上訴對roxadustat與生物護照指控的結論有何不同？",
+        "依原來源，Simona Halep案有哪些已確認、僅為當事人說法或未公開的事項？下一步須找哪份文件？"
+      ],
+      "ruleYearNote": "這是2022年事件／公告的歷史教學；適用當年及當時程序規則，不以2026或2027清單倒推本案。今日用藥須另查現行規範。",
+      "sourceCheckedAt": "2026-09-22",
+      "sources": [
+        {
+          "title": "2024-10-10，公布完整裁決與九個月結果",
+          "url": "https://www.itia.tennis/news/sanctions/full-decision-in-the-case-of-simona-halep-v-itia/",
+          "type": "官方文件"
+        },
+        {
+          "title": "第 58 頁裁決主文；期間由搜尋索引取得",
+          "url": "https://www.itia.tennis/media/g5qnwa52/cas-10025-10227-award-final-redacted.pdf",
+          "type": "官方文件"
+        }
+      ],
+      "originalReviewStatus": "core_checked",
+      "preparedAt": "2026-10-23",
+      "newVerificationPerformed": false,
+      "ownerRole": "案例教學編輯",
+      "nextReviewAt": "2026-12-31"
+    },
+    {
+      "caseId": "usada-25958bca1e21",
+      "title": "Cary Cooper｜拒絕採樣／休閒運動員規則",
+      "topic": "procedure",
+      "year": 2024,
+      "yearBasis": "事件年份（依官方個案公告核對）",
+      "facts": "Cary Cooper 在 2024-07-20 美國大師田徑戶外錦標賽獲通知採樣後拒絕提供檢體。USADA 認定他符合規則的休閒運動員身分，接受兩年禁賽。",
+      "procedure": "拒絕採樣／休閒運動員規則",
+      "outcome": {
+        "banDuration": "2年",
+        "resultsCancelled": true,
+        "medalStripped": null,
+        "otherPenalties": "自 2024-07-31 起兩年。取消自 2024-07-20 起的競賽成績。"
+      },
+      "learningPoint": "休閒運動員身分影響適用處分範圍；拒絕採樣不等於已驗出某種物質。",
+      "uncertainty": [
+        "已逐案核對官方個案文件與名冊的身分、事件、規則及處分；未聲稱所有裁決全文或後續救濟程序均已審閱。",
+        "2024-08-12 USADA 個案公告，並核對目前官方處分名冊；未聲稱完整仲裁全文或後續救濟均已審閱。",
+        "休閒運動員身分影響適用處分範圍；拒絕採樣不等於已驗出某種物質。",
+        "獎牌剝奪：現有紀錄未知，不能當作「沒有」。"
+      ],
+      "roleActions": [
+        {
+          "role": "選手",
+          "action": "核對採樣通知；有疑慮當場記錄並尋求代表協助。"
+        },
+        {
+          "role": "教練／支援人員",
+          "action": "協助運動員理解採樣義務、代表權利與程序記錄。"
+        },
+        {
+          "role": "醫療人員",
+          "action": "完整記錄可能影響採樣的醫療情況，不以處方替代程序義務。"
+        }
+      ],
+      "discussionQuestions": [
+        "休閒運動員身分如何影響處分分析？為何拒絕採樣不能描述成藥物陽性？",
+        "依原來源，Cary Cooper案有哪些已確認、僅為當事人說法或未公開的事項？下一步須找哪份文件？"
+      ],
+      "ruleYearNote": "這是2024年事件／公告的歷史教學；適用當年及當時程序規則，不以2026或2027清單倒推本案。今日用藥須另查現行規範。",
+      "sourceCheckedAt": "2026-09-22",
+      "sourceLocator": "U.S. Track and Field Athlete Cary Cooper Accepts Sanction for Anti-Doping Rule Violation：個案公告標題及全部個案實質段落；含物質／規則、處分、日期與成績後果，止於通用教育資訊前",
+      "sources": [
+        {
+          "title": "U.S. Track and Field Athlete Cary Cooper Accepts Sanction for Anti-Doping Rule Violation",
+          "url": "https://www.usada.org/sanction/cary-cooper-accepts-doping-sanction/",
+          "type": "官方個案文件"
+        },
+        {
+          "title": "USADA 官方處分名冊",
+          "url": "https://www.usada.org/results/sanctions/",
+          "type": "官方名冊"
+        }
+      ],
+      "originalReviewStatus": "core_checked",
+      "preparedAt": "2026-10-23",
+      "newVerificationPerformed": false,
+      "ownerRole": "案例教學編輯",
+      "nextReviewAt": "2026-12-31"
+    },
+    {
+      "caseId": "usada-3e2c75f84c3d",
+      "title": "Breanna Clark｜照護者分藥錯誤／公開警告",
+      "topic": "support",
+      "year": 2023,
+      "yearBasis": "事件年份（依官方個案公告核對）",
+      "facts": "Breanna Clark 的 2023-03-07 賽外檢體檢出 HCTZ。USADA 調查確認，負責照護及分藥的家人因外觀相似，把自己的 HCTZ 誤放入選手每日維他命，選手接受公開警告。",
+      "procedure": "照護者分藥錯誤／公開警告",
+      "outcome": {
+        "banDuration": "公開警告，無禁賽",
+        "resultsCancelled": false,
+        "medalStripped": null,
+        "otherPenalties": "公開警告；沒有禁賽期間。USADA 明示沒有須取消的競賽成績。"
+      },
+      "learningPoint": "這是照護分藥錯誤，不能改寫為補充品製造污染或選手刻意使用利尿劑。",
+      "uncertainty": [
+        "已逐案核對官方個案文件與名冊的身分、事件、規則及處分；未聲稱所有裁決全文或後續救濟程序均已審閱。",
+        "2023-05-04 USADA 個案公告，並核對目前官方處分名冊；未聲稱完整仲裁全文或後續救濟均已審閱。",
+        "這是照護分藥錯誤，不能改寫為補充品製造污染或選手刻意使用利尿劑。",
+        "獎牌剝奪：現有紀錄未知，不能當作「沒有」。"
+      ],
+      "roleActions": [
+        {
+          "role": "選手",
+          "action": "記錄藥物來源與接觸者，保護其他人隱私。"
+        },
+        {
+          "role": "教練／支援人員",
+          "action": "建立分藥、標籤與產品保管流程，禁止擅自給予不明物質。"
+        },
+        {
+          "role": "醫療人員",
+          "action": "確認照護者提供資訊，核對實際藥品及用藥紀錄。"
+        }
+      ],
+      "discussionQuestions": [
+        "照護分藥錯誤與產品製造污染的事實基礎有何差異？",
+        "依原來源，Breanna Clark案有哪些已確認、僅為當事人說法或未公開的事項？下一步須找哪份文件？"
+      ],
+      "ruleYearNote": "這是2023年事件／公告的歷史教學；適用當年及當時程序規則，不以2026或2027清單倒推本案。今日用藥須另查現行規範。",
+      "sourceCheckedAt": "2026-09-23",
+      "sourceLocator": "U.S. Paralympic Track & Field Athlete Breanna Clark Accepts Public Warning：個案公告標題及全部個案實質段落；含物質／規則、處分、日期與成績後果，止於通用教育資訊前",
+      "sources": [
+        {
+          "title": "U.S. Paralympic Track & Field Athlete Breanna Clark Accepts Public Warning",
+          "url": "https://www.usada.org/sanction/breanna-clark-accepts-public-warning/",
+          "type": "官方個案文件"
+        },
+        {
+          "title": "USADA 官方處分名冊",
+          "url": "https://www.usada.org/results/sanctions/",
+          "type": "官方名冊"
+        }
+      ],
+      "originalReviewStatus": "core_checked",
+      "preparedAt": "2026-10-23",
+      "newVerificationPerformed": false,
+      "ownerRole": "案例教學編輯",
+      "nextReviewAt": "2026-12-31"
+    },
+    {
+      "caseId": "usada-7da5b8af5ba7",
+      "title": "Tyler Sundeen｜處方興奮劑／追溯及未來 TUE 均未核准",
+      "topic": "tue",
+      "year": 2023,
+      "yearBasis": "事件年份（依官方個案公告核對）",
+      "facts": "Tyler Sundeen 在 2023-05-27 Cal Cup Tournament 檢體檢出 ritalinic acid，採樣時已申報藥物。USADA 確認他依醫師指示服藥，但沒有有效 TUE；其追溯及未來 TUE 申請因醫療理由不足遭拒，接受六個月禁賽。",
+      "procedure": "處方興奮劑／追溯及未來 TUE 均未核准",
+      "outcome": {
+        "banDuration": "6個月",
+        "resultsCancelled": true,
+        "medalStripped": null,
+        "otherPenalties": "自 2023-06-16 起六個月。取消自 2023-05-27 起的競賽成績。"
+      },
+      "learningPoint": "申報藥物、持有處方與取得 TUE 是三件不同的事。",
+      "uncertainty": [
+        "已逐案核對官方個案文件與名冊的身分、事件、規則及處分；未聲稱所有裁決全文或後續救濟程序均已審閱。",
+        "2024-01-04 USADA 個案公告，並核對目前官方處分名冊；未聲稱完整仲裁全文或後續救濟均已審閱。",
+        "申報藥物、持有處方與取得 TUE 是三件不同的事。",
+        "獎牌剝奪：現有紀錄未知，不能當作「沒有」。"
+      ],
+      "roleActions": [
+        {
+          "role": "選手",
+          "action": "保存處方、成分、途徑、使用及賽程日期；核對TUE涵蓋範圍。"
+        },
+        {
+          "role": "教練／支援人員",
+          "action": "協助確認參賽層級及主管機構，保存申請往來。"
+        },
+        {
+          "role": "醫療人員",
+          "action": "備妥診斷與治療紀錄；區分處方、申報、追溯與未來TUE。"
+        }
+      ],
+      "discussionQuestions": [
+        "已申報且有處方，為何仍不能取代TUE審查？",
+        "依原來源，Tyler Sundeen案有哪些已確認、僅為當事人說法或未公開的事項？下一步須找哪份文件？"
+      ],
+      "ruleYearNote": "這是2023年事件／公告的歷史教學；適用當年及當時程序規則，不以2026或2027清單倒推本案。今日用藥須另查現行規範。",
+      "sourceCheckedAt": "2026-09-22",
+      "sourceLocator": "U.S. Field Hockey Athlete Tyler Sundeen Accepts Sanction for Anti-Doping Rule Violation：個案公告標題及全部個案實質段落；含物質／規則、處分、日期與成績後果，止於通用教育資訊前",
+      "sources": [
+        {
+          "title": "U.S. Field Hockey Athlete Tyler Sundeen Accepts Sanction for Anti-Doping Rule Violation",
+          "url": "https://www.usada.org/sanction/tyler-sundeen-accepts-doping-sanction/",
+          "type": "官方個案文件"
+        },
+        {
+          "title": "USADA 官方處分名冊",
+          "url": "https://www.usada.org/results/sanctions/",
+          "type": "官方名冊"
+        }
+      ],
+      "originalReviewStatus": "core_checked",
+      "preparedAt": "2026-10-23",
+      "newVerificationPerformed": false,
+      "ownerRole": "案例教學編輯",
+      "nextReviewAt": "2026-12-31"
+    },
+    {
+      "caseId": "usada-05a51bc91d1e",
+      "title": "Garrett Scantling｜行蹤申報失誤與竄改郵件／協議處理",
+      "topic": "whereabouts",
+      "year": 2022,
+      "yearBasis": "事件年份（依官方個案公告核對）",
+      "facts": "Garrett Scantling 在 2021-08-25、2022-01-24 及 04-09 累積三次行蹤失誤，調查第三次失誤時又提供改過的郵件。及早承認與案件解決協議後，接受三年禁賽。",
+      "procedure": "行蹤申報失誤與竄改郵件／協議處理",
+      "outcome": {
+        "banDuration": "3年",
+        "resultsCancelled": true,
+        "medalStripped": null,
+        "otherPenalties": "自 2022-06-27 篡改程序發生日開始三年，依 USADA 與 WADA 的案件解決協議。取消 2022-06-27 至 2022-07-21 期間的競賽成績。"
+      },
+      "learningPoint": "期間仍曾成功接受檢測，不會抵銷三次行蹤失誤；本案沒有據此認定使用禁用物質。",
+      "uncertainty": [
+        "已逐案核對官方個案文件與名冊的身分、事件、規則及處分；未聲稱所有裁決全文或後續救濟程序均已審閱。",
+        "2022-11-18 USADA 個案公告，並核對目前官方處分名冊；未聲稱完整仲裁全文或後續救濟均已審閱。",
+        "期間仍曾成功接受檢測，不會抵銷三次行蹤失誤；本案沒有據此認定使用禁用物質。",
+        "獎牌剝奪：現有紀錄未知，不能當作「沒有」。"
+      ],
+      "roleActions": [
+        {
+          "role": "選手",
+          "action": "更新行蹤並保存異動及通知紀錄。"
+        },
+        {
+          "role": "教練／支援人員",
+          "action": "協助行程協調及提醒，不修改或補造紀錄。"
+        },
+        {
+          "role": "醫療人員",
+          "action": "如有醫療影響，保存當時可核實的診療時間與資料。"
+        }
+      ],
+      "discussionQuestions": [
+        "成功接受其他藥檢能否抵銷三次行蹤失誤？竄改郵件為何另須處理？",
+        "依原來源，Garrett Scantling案有哪些已確認、僅為當事人說法或未公開的事項？下一步須找哪份文件？"
+      ],
+      "ruleYearNote": "這是2022年事件／公告的歷史教學；適用當年及當時程序規則，不以2026或2027清單倒推本案。今日用藥須另查現行規範。",
+      "sourceCheckedAt": "2026-09-23",
+      "sourceLocator": "U.S. Track and Field Athlete Garrett Scantling Accepts Sanction for Anti-Doping Rule Violations：個案公告標題及全部個案實質段落；含物質／規則、處分、日期與成績後果，止於通用教育資訊前",
+      "sources": [
+        {
+          "title": "U.S. Track and Field Athlete Garrett Scantling Accepts Sanction for Anti-Doping Rule Violations",
+          "url": "https://www.usada.org/sanction/garrett-scantling-accepts-doping-violation/",
+          "type": "官方個案文件"
+        },
+        {
+          "title": "USADA 官方處分名冊",
+          "url": "https://www.usada.org/results/sanctions/",
+          "type": "官方名冊"
+        }
+      ],
+      "originalReviewStatus": "core_checked",
+      "preparedAt": "2026-10-23",
+      "newVerificationPerformed": false,
+      "ownerRole": "案例教學編輯",
+      "nextReviewAt": "2026-12-31"
+    },
+    {
+      "caseId": "usada-10e9f0a6f725",
+      "title": "Erik Kynard｜社群圖片引發調查／超量輸注與退休停算",
+      "topic": "method",
+      "year": 2022,
+      "yearBasis": "事件年份（依官方個案公告核對）",
+      "facts": "Erik Kynard Jr. 在 2022-01-14 發布接受輸注的社群圖片。USADA 收到檢舉後確認，他在輸注診所接受超量生理食鹽水，沒有 TUE 且不符合豁免，接受六個月禁賽；退休期間停止計時。",
+      "procedure": "社群圖片引發調查／超量輸注與退休停算",
+      "outcome": {
+        "banDuration": "6個月（退休期間停止計時）",
+        "resultsCancelled": null,
+        "medalStripped": null,
+        "otherPenalties": "2022-05-20 接受處分起生效；須復出並可受檢滿六個月，不能推定固定到期日。公告未記載成績取消，不推定有或無。"
+      },
+      "learningPoint": "圖片是啟動調查的線索，違規根據是後續核實的輸注容量、地點與 TUE 狀態。",
+      "uncertainty": [
+        "已逐案核對官方個案文件與名冊的身分、事件、規則及處分；未聲稱所有裁決全文或後續救濟程序均已審閱。",
+        "2022-05-27 USADA 個案公告，並核對目前官方處分名冊；未聲稱完整仲裁全文或後續救濟均已審閱。",
+        "圖片是啟動調查的線索，違規根據是後續核實的輸注容量、地點與 TUE 狀態。",
+        "成績取消：現有紀錄未知，不能當作「沒有」。",
+        "獎牌剝奪：現有紀錄未知，不能當作「沒有」。"
+      ],
+      "roleActions": [
+        {
+          "role": "選手",
+          "action": "除成分外，保存輸注總量、時間、地點及目的。"
+        },
+        {
+          "role": "教練／支援人員",
+          "action": "協助確認醫療場所與賽程，避免將宣傳圖片當作完整事實。"
+        },
+        {
+          "role": "醫療人員",
+          "action": "區分方法與物質規則，記錄醫療例外及TUE依據。"
+        }
+      ],
+      "discussionQuestions": [
+        "社群圖片只是調查線索，還須確認哪些容量、場所與TUE事實？",
+        "依原來源，Erik Kynard案有哪些已確認、僅為當事人說法或未公開的事項？下一步須找哪份文件？"
+      ],
+      "ruleYearNote": "這是2022年事件／公告的歷史教學；適用當年及當時程序規則，不以2026或2027清單倒推本案。今日用藥須另查現行規範。",
+      "sourceCheckedAt": "2026-09-23",
+      "sourceLocator": "U.S. Track & Field Athlete Erik Kynard Jr. Accepts Sanction for Anti-Doping Rule Violation：個案公告標題及全部個案實質段落；含物質／規則、處分、日期與成績後果，止於通用教育資訊前",
+      "sources": [
+        {
+          "title": "U.S. Track & Field Athlete Erik Kynard Jr. Accepts Sanction for Anti-Doping Rule Violation",
+          "url": "https://www.usada.org/sanction/erik-kynard-accepts-doping-sanction/",
+          "type": "官方個案文件"
+        },
+        {
+          "title": "USADA 官方處分名冊",
+          "url": "https://www.usada.org/results/sanctions/",
+          "type": "官方名冊"
+        }
+      ],
+      "originalReviewStatus": "core_checked",
+      "preparedAt": "2026-10-23",
+      "newVerificationPerformed": false,
+      "ownerRole": "案例教學編輯",
+      "nextReviewAt": "2026-12-31"
+    },
+    {
+      "caseId": "usada-13e15093f36a",
+      "title": "Catarina Guimarães｜兩次超量輸注／公開警告",
+      "topic": "method",
+      "year": 2022,
+      "yearBasis": "事件年份（依官方個案公告核對）",
+      "facts": "Catarina Guimarães 在 2022-05-19 及 06-16 為治療醫療問題接受超量靜脈輸注。雖未含禁用物質，但不符合 TUE，也不在醫院治療、手術或臨床診斷例外中，接受公開警告。",
+      "procedure": "兩次超量輸注／公開警告",
+      "outcome": {
+        "banDuration": "公開警告，無禁賽",
+        "resultsCancelled": false,
+        "medalStripped": null,
+        "otherPenalties": "公開警告；沒有禁賽期間。USADA 明示賽外違規沒有須取消的競賽成績。"
+      },
+      "learningPoint": "治療目的及沒有禁用成分，不會自動使超量輸注符合方法規則。",
+      "uncertainty": [
+        "已逐案核對官方個案文件與名冊的身分、事件、規則及處分；未聲稱所有裁決全文或後續救濟程序均已審閱。",
+        "2022-10-05 USADA 個案公告，並核對目前官方處分名冊；未聲稱完整仲裁全文或後續救濟均已審閱。",
+        "治療目的及沒有禁用成分，不會自動使超量輸注符合方法規則。",
+        "獎牌剝奪：現有紀錄未知，不能當作「沒有」。"
+      ],
+      "roleActions": [
+        {
+          "role": "選手",
+          "action": "除成分外，保存輸注總量、時間、地點及目的。"
+        },
+        {
+          "role": "教練／支援人員",
+          "action": "協助確認醫療場所與賽程，避免將宣傳圖片當作完整事實。"
+        },
+        {
+          "role": "醫療人員",
+          "action": "區分方法與物質規則，記錄醫療例外及TUE依據。"
+        }
+      ],
+      "discussionQuestions": [
+        "輸液不含禁用物質，為何仍須核對方法及例外條件？",
+        "依原來源，Catarina Guimarães案有哪些已確認、僅為當事人說法或未公開的事項？下一步須找哪份文件？"
+      ],
+      "ruleYearNote": "這是2022年事件／公告的歷史教學；適用當年及當時程序規則，不以2026或2027清單倒推本案。今日用藥須另查現行規範。",
+      "sourceCheckedAt": "2026-09-23",
+      "sourceLocator": "U.S. Paralympic Track & Field Athlete Catarina Guimarães Accepts Public Warning：個案公告標題及全部個案實質段落；含物質／規則、處分、日期與成績後果，止於通用教育資訊前",
+      "sources": [
+        {
+          "title": "U.S. Paralympic Track & Field Athlete Catarina Guimarães Accepts Public Warning",
+          "url": "https://www.usada.org/sanction/catarina-guimaraes-accepts-public-warning/",
+          "type": "官方個案文件"
+        },
+        {
+          "title": "USADA 官方處分名冊",
+          "url": "https://www.usada.org/results/sanctions/",
+          "type": "官方名冊"
+        }
+      ],
+      "originalReviewStatus": "core_checked",
+      "preparedAt": "2026-10-23",
+      "newVerificationPerformed": false,
+      "ownerRole": "案例教學編輯",
+      "nextReviewAt": "2026-12-31"
+    },
+    {
+      "caseId": "usada-88685d4069ae",
+      "title": "Keiser Witte｜THC／賽外使用與完成處遇",
+      "topic": "sanction",
+      "year": 2022,
+      "yearBasis": "事件年份（依官方個案公告核對）",
+      "facts": "Keiser Witte 在 2022-12-04 North American Open Finals 賽內檢體檢出超過分析判定界限的 carboxy-THC。USADA 確認其使用發生於賽外且與運動表現無關，完成核准處遇後，接受一個月禁賽。",
+      "procedure": "THC／賽外使用與完成處遇",
+      "outcome": {
+        "banDuration": "1個月",
+        "resultsCancelled": true,
+        "medalStripped": null,
+        "otherPenalties": "自 2023-01-13 起一個月。取消自 2022-12-04 起的競賽成績。"
+      },
+      "learningPoint": "分析判定界限與禁用清單濃度閾值不同；本案減刑取決於賽外使用、與表現無關及完成處遇等條件。",
+      "uncertainty": [
+        "已逐案核對官方個案文件與名冊的身分、事件、規則及處分；未聲稱所有裁決全文或後續救濟程序均已審閱。",
+        "2023-02-24 USADA 個案公告，並核對目前官方處分名冊；未聲稱完整仲裁全文或後續救濟均已審閱。",
+        "分析判定界限與禁用清單濃度閾值不同；本案減刑取決於賽外使用、與表現無關及完成處遇等條件。",
+        "獎牌剝奪：現有紀錄未知，不能當作「沒有」。"
+      ],
+      "roleActions": [
+        {
+          "role": "選手",
+          "action": "理解本案適用條件，勿以他人刑期推算自己的結果。"
+        },
+        {
+          "role": "教練／支援人員",
+          "action": "分開記錄禁賽期間、參與限制、成績取消與減免。"
+        },
+        {
+          "role": "醫療人員",
+          "action": "提供真實醫療證據；處分與TUE核准均須個案程序。"
+        }
+      ],
+      "discussionQuestions": [
+        "本案一個月處分有哪些個別條件？如何區分分析判定界限與清單閾值？",
+        "依原來源，Keiser Witte案有哪些已確認、僅為當事人說法或未公開的事項？下一步須找哪份文件？"
+      ],
+      "ruleYearNote": "這是2022年事件／公告的歷史教學；適用當年及當時程序規則，不以2026或2027清單倒推本案。今日用藥須另查現行規範。",
+      "sourceCheckedAt": "2026-09-23",
+      "sourceLocator": "U.S. Weightlifting Athlete Keiser Witte Accepts Sanction for Anti-Doping Rule Violation：個案公告標題及全部個案實質段落；含物質／規則、處分、日期與成績後果，止於通用教育資訊前",
+      "sources": [
+        {
+          "title": "U.S. Weightlifting Athlete Keiser Witte Accepts Sanction for Anti-Doping Rule Violation",
+          "url": "https://www.usada.org/sanction/keiser-witte-accepts-doping-sanction/",
+          "type": "官方個案文件"
+        },
+        {
+          "title": "USADA 官方處分名冊",
+          "url": "https://www.usada.org/results/sanctions/",
+          "type": "官方名冊"
+        }
+      ],
+      "originalReviewStatus": "core_checked",
+      "preparedAt": "2026-10-23",
+      "newVerificationPerformed": false,
+      "ownerRole": "案例教學編輯",
+      "nextReviewAt": "2026-12-31"
+    },
+    {
+      "caseId": "usada-b03e0386a601",
+      "title": "Katerina Brim｜申報 insulin 使用／追溯 TUE 被否決",
+      "topic": "tue",
+      "year": 2022,
+      "yearBasis": "事件年份（依官方個案公告核對）",
+      "facts": "Katerina Brim 於 2022-10-19 賽外採樣時申報注射 Humalog（insulin lispro），實驗室結果陰性。USADA 專家審查曾同意追溯 TUE，但 WADA 兩次否決其授予依據，因此當日沒有有效 TUE；選手接受一年禁賽。",
+      "procedure": "申報 insulin 使用／追溯 TUE 被否決",
+      "outcome": {
+        "banDuration": "1年",
+        "resultsCancelled": true,
+        "medalStripped": null,
+        "otherPenalties": "自 2022-10-19 起一年。取消自 2022-10-19 起的競賽成績。"
+      },
+      "learningPoint": "本案證據是使用申報，不能寫成檢驗陽性。不同機構對追溯 TUE 的決定應分別記錄，不能簡化成從未申請。",
+      "uncertainty": [
+        "已逐案核對官方個案文件與名冊的身分、事件、規則及處分；未聲稱所有裁決全文或後續救濟程序均已審閱。",
+        "2023-05-23 USADA 個案公告，並核對目前官方處分名冊；未聲稱完整仲裁全文或後續救濟均已審閱。",
+        "本案證據是使用申報，不能寫成檢驗陽性。不同機構對追溯 TUE 的決定應分別記錄，不能簡化成從未申請。",
+        "獎牌剝奪：現有紀錄未知，不能當作「沒有」。"
+      ],
+      "roleActions": [
+        {
+          "role": "選手",
+          "action": "保存處方、成分、途徑、使用及賽程日期；核對TUE涵蓋範圍。"
+        },
+        {
+          "role": "教練／支援人員",
+          "action": "協助確認參賽層級及主管機構，保存申請往來。"
+        },
+        {
+          "role": "醫療人員",
+          "action": "備妥診斷與治療紀錄；區分處方、申報、追溯與未來TUE。"
+        }
+      ],
+      "discussionQuestions": [
+        "檢體陰性但申報使用，與檢驗陽性的證據類型有何不同？兩機構的TUE決定如何記錄？",
+        "依原來源，Katerina Brim案有哪些已確認、僅為當事人說法或未公開的事項？下一步須找哪份文件？"
+      ],
+      "ruleYearNote": "這是2022年事件／公告的歷史教學；適用當年及當時程序規則，不以2026或2027清單倒推本案。今日用藥須另查現行規範。",
+      "sourceCheckedAt": "2026-09-23",
+      "sourceLocator": "U.S. Paralympic Cycling Athlete Katerina Brim Accepts Sanction for Anti-Doping Rule Violation：個案公告標題及全部個案實質段落；含物質／規則、處分、日期與成績後果，止於通用教育資訊前",
+      "sources": [
+        {
+          "title": "U.S. Paralympic Cycling Athlete Katerina Brim Accepts Sanction for Anti-Doping Rule Violation",
+          "url": "https://www.usada.org/sanction/katerina-brim-accepts-doping-sanction/",
+          "type": "官方個案文件"
+        },
+        {
+          "title": "USADA 官方處分名冊",
+          "url": "https://www.usada.org/results/sanctions/",
+          "type": "官方名冊"
+        }
+      ],
+      "originalReviewStatus": "core_checked",
+      "preparedAt": "2026-10-23",
+      "newVerificationPerformed": false,
+      "ownerRole": "案例教學編輯",
+      "nextReviewAt": "2026-12-31"
+    },
+    {
+      "caseId": "usada-7df0d8ede93d",
+      "title": "Keir Pearson｜持有使用及向不知情選手施用／終身禁賽",
+      "topic": "support",
+      "year": 2021,
+      "yearBasis": "處分公告年份（公告未提供完整事件日期）",
+      "facts": "Keir Pearson 承認購買、使用及向另一名不知情選手施用含 LGD-4033 的產品，2021 年接受終身禁賽。公告沒有交代完整事件日期，也沒有公開該名選手姓名。",
+      "procedure": "持有使用及向不知情選手施用／終身禁賽",
+      "outcome": {
+        "banDuration": "終身禁賽",
+        "resultsCancelled": null,
+        "medalStripped": null,
+        "otherPenalties": "自 2021-05-05 接受處分日起終身禁賽。公告記載另一名受施用選手的成績取消；未明列 Pearson 本人的成績取消，不將他人後果移植。"
+      },
+      "learningPoint": "匿名受影響選手的處分不能套到施用者，也不能自行推測其身分。",
+      "uncertainty": [
+        "已逐案核對官方個案文件與名冊的身分、事件、規則及處分；未聲稱所有裁決全文或後續救濟程序均已審閱。",
+        "2021-05-13 USADA 個案公告，並核對目前官方處分名冊；未聲稱完整仲裁全文或後續救濟均已審閱。",
+        "匿名受影響選手的處分不能套到施用者，也不能自行推測其身分。",
+        "成績取消：現有紀錄未知，不能當作「沒有」。",
+        "獎牌剝奪：現有紀錄未知，不能當作「沒有」。"
+      ],
+      "roleActions": [
+        {
+          "role": "選手",
+          "action": "記錄藥物來源與接觸者，保護其他人隱私。"
+        },
+        {
+          "role": "教練／支援人員",
+          "action": "建立分藥、標籤與產品保管流程，禁止擅自給予不明物質。"
+        },
+        {
+          "role": "醫療人員",
+          "action": "確認照護者提供資訊，核對實際藥品及用藥紀錄。"
+        }
+      ],
+      "discussionQuestions": [
+        "不知情選手與施用者的責任如何分開？哪些身分資訊不得自行推測？",
+        "依原來源，Keir Pearson案有哪些已確認、僅為當事人說法或未公開的事項？下一步須找哪份文件？"
+      ],
+      "ruleYearNote": "這是2021年事件／公告的歷史教學；適用當年及當時程序規則，不以2026或2027清單倒推本案。今日用藥須另查現行規範。",
+      "sourceCheckedAt": "2026-09-23",
+      "sourceLocator": "U.S. Rowing Athlete Keir Pearson Accepts Lifetime Ban for Anti-Doping Rule Violations：個案公告標題及全部個案實質段落；含物質／規則、處分、日期與成績後果，止於通用教育資訊前",
+      "sources": [
+        {
+          "title": "U.S. Rowing Athlete Keir Pearson Accepts Lifetime Ban for Anti-Doping Rule Violations",
+          "url": "https://www.usada.org/sanction/keir-pearson-accepts-doping-sanction/",
+          "type": "官方個案文件"
+        },
+        {
+          "title": "USADA 官方處分名冊",
+          "url": "https://www.usada.org/results/sanctions/",
+          "type": "官方名冊"
+        }
+      ],
+      "originalReviewStatus": "core_checked",
+      "preparedAt": "2026-10-23",
+      "newVerificationPerformed": false,
+      "ownerRole": "案例教學編輯",
+      "nextReviewAt": "2026-12-31"
+    },
+    {
+      "caseId": "usada-d8d5e2c3a318",
+      "title": "Flavia Paparella｜第二次違規／追溯 TUE 未准；清單變更終止剩餘禁賽",
+      "topic": "year",
+      "year": 2020,
+      "yearBasis": "事件年份（依官方個案公告核對）",
+      "facts": "Flavia Maria de Oliveira Paparella 在 2020-03-01 Tour of the Southern Highlands 檢出醫師處方 Trelegy 中的 vilanterol；前案為 higenamine。USADA 核准未來 TUE，但拒絕追溯豁免，原處六個月。2021 年規則容許其所用劑量的吸入 vilanterol，經申請後剩餘禁賽提前終止。",
+      "procedure": "第二次違規／追溯 TUE 未准；清單變更終止剩餘禁賽",
+      "outcome": {
+        "banDuration": "原禁賽6個月，執行近3個月後終止剩餘禁賽",
+        "resultsCancelled": true,
+        "medalStripped": null,
+        "otherPenalties": "自 2020-10-16 起；2021-01-04 終止剩餘禁賽。原案取消自 2020-03-01 起的競賽成績；減刑公告僅終止剩餘禁賽，未宣布恢復成績。"
+      },
+      "learningPoint": "適用規則改變可影響尚未服完的禁賽；不等於追溯 TUE 獲准或原成績自動恢復。",
+      "uncertainty": [
+        "已逐案核對官方個案文件與名冊的身分、事件、規則及處分；未聲稱所有裁決全文或後續救濟程序均已審閱。",
+        "2021-01-05 USADA 個案公告，並核對目前官方處分名冊；未聲稱完整仲裁全文或後續救濟均已審閱。",
+        "適用規則改變可影響尚未服完的禁賽；不等於追溯 TUE 獲准或原成績自動恢復。",
+        "獎牌剝奪：現有紀錄未知，不能當作「沒有」。"
+      ],
+      "roleActions": [
+        {
+          "role": "選手",
+          "action": "保存事件當年的查詢及適用規則。"
+        },
+        {
+          "role": "教練／支援人員",
+          "action": "將舊案教學與今日用藥流程分開，查閱當年度規則。"
+        },
+        {
+          "role": "醫療人員",
+          "action": "核對當時藥物、途徑及TUE；新清單不等同自動追溯核准。"
+        }
+      ],
+      "discussionQuestions": [
+        "清單變更使剩餘禁賽提前終止，是否代表追溯TUE或舊成績自動恢復？",
+        "依原來源，Flavia Paparella案有哪些已確認、僅為當事人說法或未公開的事項？下一步須找哪份文件？"
+      ],
+      "ruleYearNote": "這是2020年事件／公告的歷史教學；適用當年及當時程序規則，不以2026或2027清單倒推本案。今日用藥須另查現行規範。",
+      "sourceCheckedAt": "2026-09-23",
+      "sourceLocator": "U.S. Cycling Athlete Flavia Maria De Oliveira Paparella Accepts Sanction for Second Anti-Doping Rule Violation：2020-10-19 原案全部個案實質段落；U.S. Cycling Athlete Flavia De Maria Oliveira Paparella Granted a Reduced Sanction：2021-01-05 減刑公告全部實質段落；：PDF 第 6 頁：Women Entry List by Nation，BRA、完整姓名及 UCI Code BRA19811027；          WOMEN ELITE：PDF 第 3 頁女子菁英第 109 號，完整姓名與 BRA",
+      "sources": [
+        {
+          "title": "U.S. Cycling Athlete Flavia Maria De Oliveira Paparella Accepts Sanction for Second Anti-Doping Rule Violation",
+          "url": "https://www.usada.org/sanction/flavia-paparella-accepts-second-doping-sanction/",
+          "type": "官方個案文件"
+        },
+        {
+          "title": "U.S. Cycling Athlete Flavia De Maria Oliveira Paparella Granted a Reduced Sanction",
+          "url": "https://www.usada.org/sanction/flavia-paparella-granted-reduced-sanction/",
+          "type": "官方個案文件"
+        },
+        {
+          "title": "",
+          "url": "https://www.milsport.one/medias/fdvprfiles.php?d=ZmljaGllcnM=&f=MjAxNW13Z19vZmZpY2lhbHJlc3VsdGJvb2tfY3ljbGluZzEucGRm&s=b047824f51451739122461f7a2682db5",
+          "type": "官方個案文件"
+        },
+        {
+          "title": "          WOMEN ELITE",
+          "url": "https://egs-eventi.s3.amazonaws.com/Evodata/GravelWorldChampionships2023/pdf/startlist.pdf",
+          "type": "官方個案文件"
+        },
+        {
+          "title": "USADA 官方處分名冊",
+          "url": "https://www.usada.org/results/sanctions/",
+          "type": "官方名冊"
+        }
+      ],
+      "originalReviewStatus": "core_checked",
+      "preparedAt": "2026-10-23",
+      "newVerificationPerformed": false,
+      "ownerRole": "案例教學編輯",
+      "nextReviewAt": "2026-12-31"
+    },
+    {
+      "caseId": "usada-990a455fba77",
+      "title": "Jacqueline Galloway｜綜合維他命污染／多顆藥錠分析",
+      "topic": "contamination",
+      "year": 2019,
+      "yearBasis": "事件年份（依官方個案公告核對）",
+      "facts": "Jacqueline Galloway 在 2019-02-12 賽外檢體檢出 ibutamoren。實驗室發現她在雜貨店購買、採樣時申報的綜合維他命含未標示 ibutamoren；分析多顆錠劑的分布後，USADA 認為更可能在製程中污染，考量其查詢標示成分等注意措施，處六個月禁賽。",
+      "procedure": "綜合維他命污染／多顆藥錠分析",
+      "outcome": {
+        "banDuration": "6個月",
+        "resultsCancelled": true,
+        "medalStripped": null,
+        "otherPenalties": "自 2019-02-27 起六個月。取消自 2019-02-12 起的競賽成績；個案公告有明文，名冊摘要未列。"
+      },
+      "learningPoint": "污染判斷有產品分析依據；製程來源是較高可能性的判斷，不能寫成百分之百確證。",
+      "uncertainty": [
+        "已逐案核對官方個案文件與名冊的身分、事件、規則及處分；未聲稱所有裁決全文或後續救濟程序均已審閱。",
+        "2019-07-29 USADA 個案公告，並核對目前官方處分名冊；未聲稱完整仲裁全文或後續救濟均已審閱。",
+        "污染判斷有產品分析依據；製程來源是較高可能性的判斷，不能寫成百分之百確證。",
+        "獎牌剝奪：現有紀錄未知，不能當作「沒有」。"
+      ],
+      "roleActions": [
+        {
+          "role": "選手",
+          "action": "保存產品、批號、包裝、購買及使用紀錄，避免自行推定污染。"
+        },
+        {
+          "role": "教練／支援人員",
+          "action": "協助追溯供應鏈與接觸紀錄，區分聲稱與已採信的事實。"
+        },
+        {
+          "role": "醫療人員",
+          "action": "記錄臨床用藥及可能來源，檢驗與法律因果判定交由合格機構。"
+        }
+      ],
+      "discussionQuestions": [
+        "多顆錠劑分析與較高可能性的製程污染判斷，能支持何種程度的結論？",
+        "依原來源，Jacqueline Galloway案有哪些已確認、僅為當事人說法或未公開的事項？下一步須找哪份文件？"
+      ],
+      "ruleYearNote": "這是2019年事件／公告的歷史教學；適用當年及當時程序規則，不以2026或2027清單倒推本案。今日用藥須另查現行規範。",
+      "sourceCheckedAt": "2026-09-23",
+      "sourceLocator": "U.S. Taekwondo Athlete Jacqueline Galloway Accepts Sanction for Anti-Doping Rule Violation：個案公告標題及全部個案實質段落；含物質／規則、處分、日期與成績後果，止於通用教育資訊前",
+      "sources": [
+        {
+          "title": "U.S. Taekwondo Athlete Jacqueline Galloway Accepts Sanction for Anti-Doping Rule Violation",
+          "url": "https://www.usada.org/sanction/jacqueline-galloway-accepts-doping-sanction/",
+          "type": "官方個案文件"
+        },
+        {
+          "title": "USADA 官方處分名冊",
+          "url": "https://www.usada.org/results/sanctions/",
+          "type": "官方名冊"
+        }
+      ],
+      "originalReviewStatus": "core_checked",
+      "preparedAt": "2026-10-23",
+      "newVerificationPerformed": false,
+      "ownerRole": "案例教學編輯",
+      "nextReviewAt": "2026-12-31"
+    },
+    {
+      "caseId": "usada-a00b98f42826",
+      "title": "William Licon｜檢體陰性但申報禁用吸入劑／公開警告",
+      "topic": "year",
+      "year": 2019,
+      "yearBasis": "事件年份（依官方個案公告核對）",
+      "facts": "William Licon 在 2019-06-03 賽外檢測申報使用 Breo Ellipta，檢體對所有禁用物質均為陰性。病歷確認醫師用於氣喘，但事前沒有 TUE；考量主動申報、陰性檢體及得知後停藥，接受公開警告。",
+      "procedure": "檢體陰性但申報禁用吸入劑／公開警告",
+      "outcome": {
+        "banDuration": "公開警告（無禁賽）",
+        "resultsCancelled": null,
+        "medalStripped": null,
+        "otherPenalties": "2019-08-01 公告公開警告，無禁賽期間。公告未明列成績取消，不推定有或無。"
+      },
+      "learningPoint": "本案依使用證據認定違規，不能改寫為 vilanterol 藥檢陽性。",
+      "uncertainty": [
+        "已逐案核對官方個案文件與名冊的身分、事件、規則及處分；未聲稱所有裁決全文或後續救濟程序均已審閱。",
+        "2019-08-01 USADA 個案公告，並核對目前官方處分名冊；未聲稱完整仲裁全文或後續救濟均已審閱。",
+        "本案依使用證據認定違規，不能改寫為 vilanterol 藥檢陽性。",
+        "成績取消：現有紀錄未知，不能當作「沒有」。",
+        "獎牌剝奪：現有紀錄未知，不能當作「沒有」。"
+      ],
+      "roleActions": [
+        {
+          "role": "選手",
+          "action": "保存事件當年的查詢及適用規則。"
+        },
+        {
+          "role": "教練／支援人員",
+          "action": "將舊案教學與今日用藥流程分開，查閱當年度規則。"
+        },
+        {
+          "role": "醫療人員",
+          "action": "核對當時藥物、途徑及TUE；新清單不等同自動追溯核准。"
+        }
+      ],
+      "discussionQuestions": [
+        "2019年的vilanterol使用證據，為何不能用2026吸入例外重新描述成當時合法？",
+        "依原來源，William Licon案有哪些已確認、僅為當事人說法或未公開的事項？下一步須找哪份文件？"
+      ],
+      "ruleYearNote": "這是2019年事件／公告的歷史教學；適用當年及當時程序規則，不以2026或2027清單倒推本案。今日用藥須另查現行規範。",
+      "sourceCheckedAt": "2026-09-23",
+      "sourceLocator": "U.S. Swimming Athlete William Licon Accepts Public Warning：個案公告標題及全部個案實質段落；含物質／規則、處分、日期與成績後果，止於通用教育資訊前",
+      "sources": [
+        {
+          "title": "U.S. Swimming Athlete William Licon Accepts Public Warning",
+          "url": "https://www.usada.org/sanction/william-licon-accepts-public-warning/",
+          "type": "官方個案文件"
+        },
+        {
+          "title": "USADA 官方處分名冊",
+          "url": "https://www.usada.org/results/sanctions/",
+          "type": "官方名冊"
+        }
+      ],
+      "originalReviewStatus": "core_checked",
+      "preparedAt": "2026-10-23",
+      "newVerificationPerformed": false,
+      "ownerRole": "案例教學編輯",
+      "nextReviewAt": "2026-12-31"
+    },
+    {
+      "caseId": "26",
+      "title": "Ryan Lochte｜已成立違規／禁用方法",
+      "topic": "method",
+      "year": 2018,
+      "yearBasis": "未另列年份基準",
+      "facts": "Ryan Lochte 在 2018 年接受超過規定總量的靜脈輸注，且不屬於規則列出的醫療例外、未有核准 TUE。USADA 公告十四個月禁賽；本案不涉及輸注物質本身被禁止的認定。",
+      "procedure": "已成立違規／禁用方法",
+      "outcome": {
+        "banDuration": "14個月（自 2018-05-24 起）",
+        "resultsCancelled": null,
+        "medalStripped": null,
+        "otherPenalties": "處分涉及輸注方法。"
+      },
+      "learningPoint": "本案適用的 M2 規則以十二小時內總量超過 100 mL 為界，並有住院治療、手術、臨床診斷等醫療例外；必要時須另行申請 TUE。",
+      "uncertainty": [
+        "事件、裁決結果及本頁教學摘要；不代表其他獨立事件的結論",
+        "成績取消：現有紀錄未知，不能當作「沒有」。",
+        "獎牌剝奪：現有紀錄未知，不能當作「沒有」。"
+      ],
+      "roleActions": [
+        {
+          "role": "選手",
+          "action": "除成分外，保存輸注總量、時間、地點及目的。"
+        },
+        {
+          "role": "教練／支援人員",
+          "action": "協助確認醫療場所與賽程，避免將宣傳圖片當作完整事實。"
+        },
+        {
+          "role": "醫療人員",
+          "action": "區分方法與物質規則，記錄醫療例外及TUE依據。"
+        }
+      ],
+      "discussionQuestions": [
+        "Lochte案如何區分輸注物質、輸注方法、醫療例外與TUE？",
+        "依原來源，Ryan Lochte案有哪些已確認、僅為當事人說法或未公開的事項？下一步須找哪份文件？"
+      ],
+      "ruleYearNote": "這是2018年事件／公告的歷史教學；適用當年及當時程序規則，不以2026或2027清單倒推本案。今日用藥須另查現行規範。",
+      "sourceCheckedAt": "2026-09-22",
+      "sources": [
+        {
+          "title": "2018-07-23：14 months、100 mL within 12 hours",
+          "url": "https://www.usada.org/sanction/ryan-lochte-accepts-doping-sanction/",
+          "type": "官方文件"
+        }
+      ],
+      "originalReviewStatus": "core_checked",
+      "preparedAt": "2026-10-23",
+      "newVerificationPerformed": false,
+      "ownerRole": "案例教學編輯",
+      "nextReviewAt": "2026-12-31"
+    },
+    {
+      "caseId": "usada-b714a3c460a7",
+      "title": "Lauren Goss｜THC／聲稱使用 CBD 外用產品",
+      "topic": "contamination",
+      "year": 2019,
+      "yearBasis": "事件年份（依官方個案公告核對）",
+      "facts": "Lauren Goss 在 2019-06-09 Escape from Alcatraz 賽內檢體檢出超過判定界限的 carboxy-THC。她向 USADA 解釋賽前為肌肉骨骼傷害使用含 THC 的外用膏，但被告知是 CBD 產品；接受六個月禁賽。",
+      "procedure": "THC／聲稱使用 CBD 外用產品",
+      "outcome": {
+        "banDuration": "6個月",
+        "resultsCancelled": true,
+        "medalStripped": null,
+        "otherPenalties": "自 2019-06-09 採樣日起六個月。取消自 2019-06-09 起的競賽成績。"
+      },
+      "learningPoint": "產品來源敘述在公告中屬選手解釋，不能升格成已完成實驗室污染確認。",
+      "uncertainty": [
+        "已逐案核對官方個案文件與名冊的身分、事件、規則及處分；未聲稱所有裁決全文或後續救濟程序均已審閱。",
+        "2019-09-05 USADA 個案公告，並核對目前官方處分名冊；未聲稱完整仲裁全文或後續救濟均已審閱。",
+        "產品來源敘述在公告中屬選手解釋，不能升格成已完成實驗室污染確認。",
+        "獎牌剝奪：現有紀錄未知，不能當作「沒有」。"
+      ],
+      "roleActions": [
+        {
+          "role": "選手",
+          "action": "保存產品、批號、包裝、購買及使用紀錄，避免自行推定污染。"
+        },
+        {
+          "role": "教練／支援人員",
+          "action": "協助追溯供應鏈與接觸紀錄，區分聲稱與已採信的事實。"
+        },
+        {
+          "role": "醫療人員",
+          "action": "記錄臨床用藥及可能來源，檢驗與法律因果判定交由合格機構。"
+        }
+      ],
+      "discussionQuestions": [
+        "選手說明使用CBD外用膏，與實驗室證實產品污染的證據層級有何不同？",
+        "依原來源，Lauren Goss案有哪些已確認、僅為當事人說法或未公開的事項？下一步須找哪份文件？"
+      ],
+      "ruleYearNote": "這是2019年事件／公告的歷史教學；適用當年及當時程序規則，不以2026或2027清單倒推本案。今日用藥須另查現行規範。",
+      "sourceCheckedAt": "2026-09-23",
+      "sourceLocator": "U.S. Triathlon Athlete Lauren Goss Accepts Sanction for Anti-Doping Rule Violation：個案公告標題及全部個案實質段落；含物質／規則、處分、日期與成績後果，止於通用教育資訊前",
+      "sources": [
+        {
+          "title": "U.S. Triathlon Athlete Lauren Goss Accepts Sanction for Anti-Doping Rule Violation",
+          "url": "https://www.usada.org/sanction/lauren-goss-accepts-doping-sanction/",
+          "type": "官方個案文件"
+        },
+        {
+          "title": "USADA 官方處分名冊",
+          "url": "https://www.usada.org/results/sanctions/",
+          "type": "官方名冊"
+        }
+      ],
+      "originalReviewStatus": "core_checked",
+      "preparedAt": "2026-10-23",
+      "newVerificationPerformed": false,
+      "ownerRole": "案例教學編輯",
+      "nextReviewAt": "2026-12-31"
+    }
+  ]
+}

@@ -20,11 +20,22 @@ import { educationAPI, casesAPI } from "../services/api";
 import { Link } from "react-router-dom";
 import CaseReviewNotice from "../components/CaseReviewNotice";
 import SupplementsTab from "../components/education/SupplementsTab";
+import TopicTabs from "../components/TopicTabs";
+import useTopicTab from "../utils/useTopicTab";
+
+const TABS = [
+  { id: "substances", label: "禁藥知識" },
+  { id: "commonMistakes", label: "常見誤區" },
+  { id: "violationTypes", label: "違規類型" },
+  { id: "supplements", label: "補充劑安全" },
+  { id: "caseLearning", label: "案例學習" },
+  { id: "specialties", label: "各科專區" },
+];
 
 const LEARNING_CASE_IDS = ["3", "8", "26", "48", "sun-yang-2018", "sia-peter-bol-2023"];
 
 function Education() {
-  const [activeTab, setActiveTab] = useState("substances");
+  const [activeTab, setActiveTab] = useTopicTab(TABS.map(tab => tab.id), "substances");
   const [wadaCategories, setWadaCategories] = useState([]);
   const [medicalSpecialties, setMedicalSpecialties] = useState([]);
   const [adrv, setAdrv] = useState(null);
@@ -37,7 +48,7 @@ function Education() {
   const [learningError, setLearningError] = useState(false);
 
   useEffect(() => {
-    document.title = "教育專區 | 乾淨運動從你我開始";
+
     loadEducationalContent();
   }, []);
 
@@ -104,6 +115,7 @@ function Education() {
       <div className="mb-8">
         <h1 className="text-3xl font-bold text-gray-900 mb-4">教育專區</h1>
         <p className="text-gray-600">學習運動禁藥相關知識，提升運動禁藥防制意識</p>
+        <Link className="inline-block mt-3 text-emerald-800 underline" to="/learning">依選手、教練或醫護角色安排學習</Link>
       </div>
 
       {/* Error Banner */}
@@ -114,88 +126,16 @@ function Education() {
         </div>
       )}
 
-      {/* Tab Navigation */}
-      <div
-        role="tablist"
-        className="flex flex-wrap gap-1 mb-8 bg-gray-100 p-1 rounded-lg"
-      >
-        <button
-          role="tab"
-          aria-selected={activeTab === "substances"}
-          onClick={() => setActiveTab("substances")}
-          className={`flex-1 min-w-fit px-4 py-2 rounded-lg font-medium transition ${
-            activeTab === "substances"
-              ? "bg-white text-primary-600 shadow"
-              : "text-gray-600 hover:text-gray-900"
-          }`}
-        >
-          禁藥知識
-        </button>
-        <button
-          role="tab"
-          aria-selected={activeTab === "commonMistakes"}
-          onClick={() => setActiveTab("commonMistakes")}
-          className={`flex-1 min-w-fit px-4 py-2 rounded-lg font-medium transition ${
-            activeTab === "commonMistakes"
-              ? "bg-white text-primary-600 shadow"
-              : "text-gray-600 hover:text-gray-900"
-          }`}
-        >
-          常見誤區
-        </button>
-        <button
-          role="tab"
-          aria-selected={activeTab === "violationTypes"}
-          onClick={() => setActiveTab("violationTypes")}
-          className={`flex-1 min-w-fit px-4 py-2 rounded-lg font-medium transition ${
-            activeTab === "violationTypes"
-              ? "bg-white text-primary-600 shadow"
-              : "text-gray-600 hover:text-gray-900"
-          }`}
-        >
-          違規類型
-        </button>
-        <button
-          role="tab"
-          aria-selected={activeTab === "supplements"}
-          onClick={() => setActiveTab("supplements")}
-          className={`flex-1 min-w-fit px-4 py-2 rounded-lg font-medium transition ${
-            activeTab === "supplements"
-              ? "bg-white text-primary-600 shadow"
-              : "text-gray-600 hover:text-gray-900"
-          }`}
-        >
-          補充劑安全
-        </button>
-        <button
-          role="tab"
-          aria-selected={activeTab === "caseLearning"}
-          onClick={() => setActiveTab("caseLearning")}
-          className={`flex-1 min-w-fit px-4 py-2 rounded-lg font-medium transition ${
-            activeTab === "caseLearning"
-              ? "bg-white text-primary-600 shadow"
-              : "text-gray-600 hover:text-gray-900"
-          }`}
-        >
-          案例學習
-        </button>
-        <button
-          role="tab"
-          aria-selected={activeTab === "specialties"}
-          onClick={() => setActiveTab("specialties")}
-          className={`flex-1 min-w-fit px-4 py-2 rounded-lg font-medium transition ${
-            activeTab === "specialties"
-              ? "bg-white text-primary-600 shadow"
-              : "text-gray-600 hover:text-gray-900"
-          }`}
-        >
-          各科專區
-        </button>
+      <div className="mb-6 rounded-lg border border-emerald-200 bg-emerald-50 p-4 text-sm">
+        <p>站內練習提供逐題來源與錯題複習，不核發官方證明。舊 API 題庫 69 題待逐題核對，暫停答案評分。</p>
+        <div className="mt-2 flex flex-wrap gap-4"><Link to="/quiz" className="text-primary-700 underline">前往有來源的互動測驗</Link><Link to="/case-learning" className="text-primary-700 underline">30 案教學與證據待辦</Link></div>
       </div>
+      <TopicTabs tabs={TABS} active={activeTab} onChange={setActiveTab} prefix="education" label="教育主題" />
 
+      <div role="tabpanel" id="education-panel-substances" aria-labelledby="education-tab-substances" tabIndex={0} hidden={activeTab !== "substances"}>
       {/* WADA Categories Tab */}
       {activeTab === "substances" && (
-        <div role="tabpanel" className="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           {wadaCategories.map((category, index) => (
             <div
               key={index}
@@ -246,9 +186,12 @@ function Education() {
         </div>
       )}
 
+      </div>
+
+      <div role="tabpanel" id="education-panel-commonMistakes" aria-labelledby="education-tab-commonMistakes" tabIndex={0} hidden={activeTab !== "commonMistakes"}>
       {/* Common Mistakes Tab */}
       {activeTab === "commonMistakes" && (
-        <div role="tabpanel" className="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           {[
             {
               title: "感冒藥",
@@ -261,13 +204,13 @@ function Education() {
               title: "營養補充品",
               mistake: "天然營養品應該很安全",
               fact: "營養補充品可能受到污染或含有未標示的禁藥成分",
-              prevention: "只使用經過第三方檢驗認證的產品",
+              prevention: "先評估使用必要性；批次檢驗可降低風險，但不能保證零污染",
               severity: "high",
             },
             {
               title: "TUE申請時機",
               mistake: "可以先用藥，之後再申請TUE",
-              fact: "TUE必須在用藥前申請並獲得批准（緊急情況除外）",
+              fact: "通常應事先申請；追溯性申請另有條件，不應把事後補件當成保證",
               prevention: "提前了解並規劃TUE申請流程",
               severity: "medium",
             },
@@ -281,7 +224,7 @@ function Education() {
             {
               title: "靜脈輸液",
               mistake: "生病脫水打點滴很正常",
-              fact: "靜脈輸液超過100ml在12小時內是禁止的",
+              fact: "任何 12 小時超過 100mL 屬 M2.2 規範；合法醫院治療、外科手術與臨床診斷程序有方法例外，物質仍須另查",
               prevention: "了解靜脈輸液的規定，必要時申請TUE",
               severity: "medium",
             },
@@ -343,9 +286,12 @@ function Education() {
         </div>
       )}
 
+      </div>
+
+      <div role="tabpanel" id="education-panel-violationTypes" aria-labelledby="education-tab-violationTypes" tabIndex={0} hidden={activeTab !== "violationTypes"}>
       {/* Violation Types (ADRV) Tab */}
       {activeTab === "violationTypes" && (
-        <div role="tabpanel">
+        <div>
           {adrvLoading ? (
             <div className="flex justify-center items-center h-64">
               <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-primary-600"></div>
@@ -493,11 +439,17 @@ function Education() {
         </div>
       )}
 
+      </div>
+
+      <div role="tabpanel" id="education-panel-supplements" aria-labelledby="education-tab-supplements" tabIndex={0} hidden={activeTab !== "supplements"}>
       {activeTab === "supplements" && <SupplementsTab />}
 
+      </div>
+
+      <div role="tabpanel" id="education-panel-caseLearning" aria-labelledby="education-tab-caseLearning" tabIndex={0} hidden={activeTab !== "caseLearning"}>
       {/* Case Learning Tab: shares the audited case records and their sources. */}
       {activeTab === "caseLearning" && (
-        <div role="tabpanel" className="space-y-6">
+        <div className="space-y-6">
           <p className="text-sm text-gray-600">從已查核案例認識不同裁決結果，包括違規處分、合法 TUE 與未提出違規指控。</p>
           {learningError && <p role="alert" className="text-red-700">案例載入失敗，請重新切換分頁再試。</p>}
           {!learningError && learningCases.length === 0 && <p role="status">載入案例中…</p>}
@@ -534,10 +486,13 @@ function Education() {
         </div>
       )}
 
+      </div>
+
+      <div role="tabpanel" id="education-panel-specialties" aria-labelledby="education-tab-specialties" tabIndex={0} hidden={activeTab !== "specialties"}>
       {/* Medical Specialties Tab: use the same reviewed data as the API. */}
       {activeTab === "specialties" && <p className="mb-4 text-sm text-gray-600">用藥選擇須依診斷與病情由醫師決定，請勿自行停藥；替代方向不等於個人治療建議或自動符合運動禁藥防制規定。禁用分類與例外依 <a className="underline text-primary-700" href="https://www.wada-ama.org/sites/default/files/2025-09/2026list_en_final_clean_september_2025.pdf" target="_blank" rel="noopener noreferrer">2026 WADA 清單</a>核對。</p>}
       {activeTab === "specialties" && (
-        <div role="tabpanel" className="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           {medicalSpecialties.map((specialty) => ({
             ...specialty,
             conditions: specialty.medications.map((medication) => ({
@@ -617,6 +572,8 @@ function Education() {
           ))}
         </div>
       )}
+      </div>
+
     </div>
   );
 }

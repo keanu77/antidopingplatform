@@ -10,7 +10,7 @@ permissions:
 jobs:
   verify:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 30
     steps:
       - uses: actions/checkout@v5
       - uses: actions/setup-node@v5
@@ -38,3 +38,26 @@ jobs:
         run: npm run cf:build
         env:
           GIT_SHA: ${{ github.sha }}
+
+      - name: Asset size budget
+        run: |
+          npm run check:budget
+          npm run check:html
+
+      - name: Install browser engines
+        working-directory: frontend
+        run: npx playwright install --with-deps chromium webkit
+
+      - name: Browser journeys and accessibility
+        run: npm --prefix frontend run test:browser
+
+      - name: Save browser and build evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: browser-and-budget
+          path: |
+            frontend/playwright-report/
+            frontend/test-results/
+            frontend/dist/build-budget.json
+          retention-days: 14

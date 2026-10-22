@@ -1,0 +1,14 @@
+import { Link } from 'react-router-dom';
+
+export default function EditorialPolicy() {
+  const correctionEmail = 'mailto:keanu.firefox@gmail.com?subject='+encodeURIComponent('運動禁藥平台內容更正')+'&body='+encodeURIComponent('頁面網址或來源識別碼：\n疑似錯誤的原句：\n建議修正與官方來源（頁碼／章節）：\n適用年份與公告日期：\n\n請勿附個人病歷、檢體或帳號等敏感資料。');
+  return <article className="max-w-3xl mx-auto space-y-7 text-gray-800">
+    <header><h1 className="text-3xl font-bold">編輯政策、責任與內容更正</h1><p className="mt-3">政策版本：2026-10-23 · 下次複核：2026-12-31</p></header>
+    <section className="space-y-3"><h2 className="text-xl font-bold">我們提供什麼</h2><p>本平台提供繁體中文運動禁藥教育、規則查詢與歷史案例教材。平台不是 WADA、CTADA 或 TADA 的官方服務；本站測驗不發給官方課程證書，用藥查詢也不構成 TUE 核准。</p><p>製作者與文章作者的職稱不代表每項資料都已經專業簽核。目前沒有可公開驗證的逐項具名臨床審查或機構認證紀錄；不以「來源已核對」替代這些程序。</p></section>
+    <section className="space-y-3"><h2 className="text-xl font-bold">來源、年份與核對範圍</h2><p>規則優先引用官方清單、Code、國際標準及主管機構公告，並記錄章節／頁碼、適用版本、有效日期、核對日期、下次複核與修訂紀錄。未列名不能單獨證明某個商品或療程允許；複方、劑量、途徑、時段及運動項目須另外確認。</p><p>案例依個案官方文件或公告的既有查核範圍呈現；公告已讀不代表完整裁決、後續上訴與所有細節均已查核。未知的獎牌、成績或國籍欄位保持未知，歷史裁決依當時規則解讀。</p><Link to="/sources" className="inline-block text-primary-700 underline">逐項來源與 2026／2027 交接狀態</Link></section>
+    <section className="space-y-3"><h2 className="text-xl font-bold">責任角色與發布程序</h2><p>規則內容維護編輯負責來源定位、年度差異及到期檢查；案例證據維護編輯負責文件與待查欄位；案例教學編輯負責教學問題及角色行動。這些是工作責任角色，不代表已有人以專業資格簽核。</p><p>更新先保留原紀錄及更正原因，再核對原文、修正內容與測試相關判定。缺證據、規則過期或未啟用版本停止確定判定；有爭議時維持待核對或撤回，記錄理由後才恢復。</p></section>
+    <section className="space-y-3"><h2 className="text-xl font-bold">目前更正與揭露狀態</h2><ul className="list-disc pl-5 space-y-2"><li>已修正：靜脈雷射題依 WADA FAQ 明列 M1.3；低氧艙補上賽會自身規則仍須核對。</li><li>待補證據：6 項藥物的個別許可來源尚不完整，暫停確定允許判定。保留原資料，不把待查改成禁用。</li><li>待逐題審查：舊題庫 69 題不顯示確定答案與評分；16 題正式測驗提供直接來源。</li><li>案例：517 案已產生證據維護隊列；30 案教材使用既有核對事實。本次沒有重新驗證 517 案。</li><li>利益關係與專業簽核：本登錄尚無完整的逐項利益關係聲明及具名簽核資料，狀態為待補揭露；不得解讀為已確認不存在利益關係。</li></ul><p>更正處理狀態採「收到回報 → 核對中 → 已修正／保留原文並記錄理由」。目前展示的是上述已知內容狀態，不是虛構的使用者回報紀錄，也不承諾固定回覆時限。</p></section>
+    <section id="corrections" className="rounded-lg border border-emerald-200 bg-emerald-50 p-5 space-y-3"><h2 className="text-xl font-bold">回報內容問題</h2><p>請使用頁面底部的「回報問題」，填入頁面網址、疑似錯誤原句、官方來源及章節、適用年份。表單顯示暫存時，代表尚未成功送達；只有成功訊息才代表已收到。</p><p>也可開啟下方郵件草稿，補充可公開的資料。請勿寄送個人病歷、檢體報告、帳號或其他敏感資訊。</p><a href={correctionEmail} className="inline-block rounded-lg bg-primary-700 px-4 py-3 text-white">開啟內容更正郵件草稿</a><p className="text-sm">公開聯絡信箱：keanu.firefox@gmail.com。開啟草稿不會自動寄信。</p></section>
+    <section className="space-y-3"><h2 className="text-xl font-bold">個人用藥及 TUE 問題</h2><p>需個人判定時，請攜帶完整成分、途徑、用量、使用與賽程日期向主管機構及醫療人員確認。</p><a className="block text-primary-700 underline" href="https://www.antidoping.org.tw/consult/" target="_blank" rel="noopener noreferrer">CTADA 官方諮詢</a><a className="block text-primary-700 underline" href="https://www.check-antidoping.org.tw/" target="_blank" rel="noopener noreferrer">TADA 藥物查詢</a></section>
+  </article>;
+}

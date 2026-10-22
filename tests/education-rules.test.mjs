@@ -83,7 +83,7 @@ test("S9: out-of-competition permission preserves residual and retroactive TUE c
     assert.match(result.washout, /最後一劑.*賽內期間開始/);
     assert.match(result.washout, /並非保證/);
     assert.equal(evaluateDrug(drug, { route: "injection", inCompetition: true }).verdict, "needs-tue");
-    assert.equal(evaluateDrug(drug, { route: "inhaled", inCompetition: true }).verdict, "permitted");
+    assert.equal(evaluateDrug(drug, { route: "inhaled", inCompetition: true }).verdict, "conditions-required");
   }
   assert.match(category("s9").description, /至少 60 天/);
   assert.doesNotMatch(category("s9").description, /最長.*60/);

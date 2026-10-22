@@ -8,7 +8,7 @@ import { DatabaseSync } from "node:sqlite";
 
 const root = dirname(dirname(fileURLToPath(import.meta.url)));
 const database = "antidoping-feedback";
-export const schemaQuery = "SELECT type, name, sql FROM sqlite_master WHERE tbl_name = 'feedback' AND sql IS NOT NULL ORDER BY type, name";
+export const schemaQuery = "SELECT type, name, sql FROM sqlite_master WHERE tbl_name IN ('feedback', 'feedback_delivery') AND sql IS NOT NULL ORDER BY type, name";
 export const ledgerSql = `CREATE TABLE IF NOT EXISTS d1_migrations (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
   name TEXT UNIQUE,
@@ -47,7 +47,7 @@ function canonicalSchema(rows) {
 export function expectedSchema(through, migrationsDir = join(root, "migrations")) {
   const db = new DatabaseSync(":memory:");
   try {
-    for (const name of ["0001_feedback.sql", "0002_feedback_fields.sql"].slice(0, through)) {
+    for (const name of readdirSync(migrationsDir).filter((name) => name.endsWith(".sql")).sort().slice(0, through)) {
       db.exec(readFileSync(join(migrationsDir, name), "utf8"));
     }
     return db.prepare(schemaQuery).all();
@@ -77,7 +77,7 @@ export function planMigration({ action, through, schema, applied, migrations }) 
     if (applied.length) throw new Error("Migration history exists but the feedback table is missing; stop and review.");
   } else if (!applied.length) {
     throw new Error("Untracked feedback schema: inspect it, then explicitly baseline --through=0001 or --through=0002. Nothing applied.");
-  } else if (applied.length <= 2) {
+  } else if (applied.length <= migrations.length) {
     // Includes the case where 0001 was tracked but 0002 was executed manually.
     assertSchema(schema, applied.length);
   }

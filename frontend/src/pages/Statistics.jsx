@@ -58,7 +58,7 @@ function Statistics() {
       setData(null);
     } finally { setLoading(false); }
   }, []);
-  useEffect(() => { document.title = "資料庫分析 | 乾淨運動從你我開始"; load(); }, [load]);
+  useEffect(() => { load(); }, [load]);
 
   if (loading) return <div role="status" className="py-16 text-center text-gray-600">載入資料庫分析中…</div>;
   if (error) return <div role="alert" className="rounded-xl border border-red-200 bg-red-50 p-6"><p>{error}</p><button onClick={load} className="mt-4 rounded-lg bg-primary-700 px-4 py-2 text-white">重新載入</button></div>;

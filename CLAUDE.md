@@ -4,17 +4,21 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-運動禁藥案例平台 — Full-stack MERN application for sports doping case database with educational content, data visualization, and TUE (Therapeutic Use Exemption) information. All UI in Traditional Chinese.
+運動禁藥教育平台，選手、教練與醫療人員並重；介面使用繁體中文。
 
-## Architecture
+## Architecture: production first
 
-**Unified server pattern**: `server.js` at root serves both Express API (`/api/*`) and React SPA (Vite-built static files from `frontend/dist/`). Single process, single port.
+- **Production**: Cloudflare Pages Direct Upload project `antidoping-platform`; Pages Functions in `functions/api/[[path]].js`. Case / educational JSON is bundled at build; production reads do not use MongoDB. `FEEDBACK_DB` D1 stores feedback and its delivery cursor.
+- **Frontend**: React 19, Vite 7, React Router 7, Tailwind 4, Chart.js. Tailwind 4 requires modern browsers (Safari 16.4+, Chrome 111+, Firefox 128+); CI exercises Chromium and WebKit, not every supported browser.
+- **Content**: `data/cases.json` is the 517-case corpus. `backend/data/substances.json` is the drug source of truth. `backend/data/content-registry.json` and `shared/content-evidence.mjs` govern source validity / annual expiry. Six drugs and 69 legacy questions remain pending verification. Do not infer permission from absent evidence or auto-activate 2027.
+- **Learning**: 16 frontend quiz questions; `/learning` serves three equal roles. Local progress is anonymous, versioned, expiring and clearable. Never store personal health information or medication searches in learning progress / URLs.
+- **SEO**: `frontend/src/data/routeMeta.js` is shared by runtime and prerender. The build writes meaningful HTML for all case pages and a real 404; do not restore an unconditional SPA 200 fallback.
+- **Feedback**: migration 0003 adds request deduplication and durable, immutable digest batches. See `docs/feedback-operations.md` before migration or delivery reconciliation. Browser tests block feedback writes; never trigger a real digest as a smoke test.
+- **API client**: production `/api`; local Vite can use the legacy Express endpoint. For release parity use `wrangler pages dev frontend/dist` from the repository root.
 
-- **Backend**: Express + MongoDB native driver. Mounted routes in `backend/routes/` are `casesFixed.js`, `statsFixed.js`, `education.js`, `tue.js` (see server.js:97-100). The two data routes (`casesFixed`/`statsFixed`) share a single `MongoClient` via `backend/db.js` (`connect()`/`getDb()`, in-flight-deduped), **separate** from server.js's Mongoose connection. DB name comes from `MONGODB_DB_NAME` (default `"sports-doping-db"`).
-- **Frontend**: React 19 + Vite + React Router v6 + Tailwind CSS v3 + Chart.js
-- **Database**: MongoDB, single collection `cases`. `server.js` opens a separate Mongoose connection (for lifecycle/auto-reconnect + registering `backend/models/Case.js` so its indexes get built), but request handlers query through the shared `MongoClient` in `backend/db.js` (`getDb()`), never `Case.find()`.
-- **API client**: `frontend/src/services/api.js` — `import.meta.env.PROD ? "/api" : "http://localhost:${VITE_API_PORT||8080}/api"`. The frontend always calls the real API; there is **no mock data layer** (`mockData.js` was removed in 7eab93e).
-- **Static content**: `education.js` serves WADA categories/quizzes/specialties from JSON in `backend/data/` (wada-categories.json, quizzes.json, medical-specialties.json). TUE page content (criteria, application guide, retroactive/lifecycle rules, disease cards, decision-tool scenarios) lives in the frontend at `frontend/src/data/tueGuide.js` and `tueDiseases.js` (rendered by `frontend/src/components/tue/*`); the old inline `tueContent` API was removed. The **drug substance list is the single source of truth in `backend/data/substances.json`** (structured schema: `wadaCode` / `prohibition` / `routes` / thresholds / `sportRestricted` / `tueEligible` / `washout`), read by both `/api/tue/check` and `/api/tue/substances`. The old inline `wadaSubstances` object was removed in the P1-C refactor.
+### Legacy Express / MongoDB runtime
+
+`server.js` retains a unified Express server for legacy use and integration tests. `casesFixed.js` and `statsFixed.js` share the native MongoClient in `backend/db.js`, separate from server.js's Mongoose lifecycle connection. DB name comes from `MONGODB_DB_NAME` (default `sports-doping-db`). These handlers are not the production Pages Functions implementation. Verify both contracts when shared data changes.
 
 ### Key Data Model
 
@@ -53,7 +57,7 @@ Shared: `components/Layout.jsx` (nav/footer wrapper), `components/ErrorBoundary.
 
 ```bash
 npm run install:all          # Install root + backend + frontend deps
-npm run dev                  # Backend dev server (nodemon, port 8080)
+npm run dev                  # Legacy backend with Node watch, port 8080
 npm run dev:frontend         # Vite dev server (port 5173)
 npm run build                # Build frontend (cd frontend && npm install && npm run build)
 npm start                    # Production server (node server.js, port 8080)
@@ -61,7 +65,8 @@ cd frontend && npm run lint  # ESLint (frontend)
 npm test                     # Backend integration tests (vitest + mongodb-memory-server)
 cd frontend && npm test      # Frontend utils unit tests (vitest)
 npm run knip                 # Dead-code / unused-deps scan
-npm run depcheck             # Dependency usage check
+npm run check:budget         # Initial JS/CSS gzip budget after build
+npm --prefix frontend run test:browser # Read-only Chromium/WebKit journeys
 ```
 
 ## Environment Variables
@@ -72,12 +77,12 @@ Optional: `PORT` (default 8080), `JWT_SECRET`, `CORS_ORIGIN`
 ## Dev vs Prod API Connection
 
 - **Dev**: Vite dev server on `:5173`; `api.js` calls `http://localhost:8080/api` (override with `VITE_API_PORT`). So run `npm run dev` (backend on 8080) alongside `npm run dev:frontend` for a full local stack.
-- **Prod**: Both served from same origin on `:8080` via `server.js`; frontend calls `/api/*` relatively (`import.meta.env.PROD` branch).
+- **Production**: Cloudflare Pages serves static HTML/assets and same-origin Pages Functions. Express port 8080 applies only to the legacy deployment.
 
 ## Deployment (Cloudflare Pages — production)
 
 - Production is Cloudflare Pages project `antidoping-platform` (Direct Upload) + Pages Functions in `functions/` (static data bundled at build; D1 only for feedback). See `wrangler.toml`.
-- **Push to `main` auto-deploys** via `.github/workflows/deploy.yml`: lint → all tests → `cf:build` (GIT_SHA stamped into `version.json`) → `wrangler pages deploy` → waits until live `version.json` sha == commit → read-only smoke. Docs/`*.md`-only pushes are skipped; rerun manually with `workflow_dispatch`.
+- **Push to `main` auto-deploys** via `.github/workflows/deploy.yml`: lint → all tests / local migration → `cf:build` → asset budget / Chromium+WebKit browser gates (GIT_SHA stamped into `version.json`) → `wrangler pages deploy` → waits until live `version.json` sha == commit → read-only smoke. Docs/`*.md`-only pushes are skipped; rerun manually with `workflow_dispatch`.
 - Secrets in GitHub: `CLOUDFLARE_API_TOKEN` (Pages: Edit), `CLOUDFLARE_ACCOUNT_ID`. Manual fallback: `npm run cf:deploy`.
 
 ## Legacy Deployment (Zeabur, pre-2026-09-19)

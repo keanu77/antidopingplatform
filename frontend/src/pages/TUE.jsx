@@ -1,4 +1,5 @@
-import { useState, useEffect } from "react";
+import TopicTabs from "../components/TopicTabs";
+import useTopicTab from "../utils/useTopicTab";
 import { Info, UserCheck, Stethoscope, Search } from "lucide-react";
 import BasicTab from "../components/tue/BasicTab";
 import ApplicationTab from "../components/tue/ApplicationTab";
@@ -13,13 +14,7 @@ const TABS = [
 ];
 
 function TUE() {
-  const [activeTab, setActiveTab] = useState("basic");
-
-  useEffect(() => {
-    document.title = "TUE 治療用途豁免指南 | 乾淨運動從你我開始";
-  }, []);
-
-  const { Panel } = TABS.find((t) => t.id === activeTab);
+  const [activeTab, setActiveTab] = useTopicTab(TABS.map((tab) => tab.id), "basic");
 
   return (
     <div>
@@ -28,29 +23,11 @@ function TUE() {
         <p className="text-gray-600">了解TUE申請流程、獲取專業指引，確保合規用藥</p>
       </div>
 
-      <div className="flex space-x-1 mb-8 bg-gray-100 p-1 rounded-lg overflow-x-auto" role="tablist">
-        {TABS.map(({ id, label, icon: Icon }) => (
-          <button
-            key={id}
-            type="button"
-            role="tab"
-            aria-selected={activeTab === id}
-            onClick={() => setActiveTab(id)}
-            className={`flex-1 min-w-fit px-4 py-2 rounded-lg font-medium transition ${
-              activeTab === id
-                ? "bg-white text-primary-600 shadow"
-                : "text-gray-600 hover:text-gray-900"
-            }`}
-          >
-            <Icon className="h-4 w-4 mr-2 inline" />
-            {label}
-          </button>
-        ))}
-      </div>
+      <TopicTabs tabs={TABS} active={activeTab} onChange={setActiveTab} prefix="tue" label="TUE 主題" />
 
-      <div role="tabpanel">
-        <Panel />
-      </div>
+      {TABS.map(({ id, Panel }) => <div key={id} role="tabpanel" id={`tue-panel-${id}`} aria-labelledby={`tue-tab-${id}`} tabIndex={0} hidden={activeTab !== id}>
+        {activeTab === id && <Panel />}
+      </div>)}
     </div>
   );
 }

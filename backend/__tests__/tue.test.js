@@ -108,7 +108,8 @@ describe("POST /api/tue/check 單一來源升級（P1-10）", () => {
       .send({ drugName: "prednisolone" });
     expect(res.body.prohibition).toBe("in-competition");
     expect(res.body.routes.injection.status).toBe("needs-tue");
-    expect(res.body.routes.inhaled.status).toBe("permitted");
+    expect(res.body.routes.inhaled.status).toBe("conditions-required");
+    expect(res.body.routes.inhaled.note).toContain("核准的劑量與治療適應症");
   });
 });
 

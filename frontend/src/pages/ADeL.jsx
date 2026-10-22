@@ -1,4 +1,3 @@
-import { useEffect } from "react";
 import {
   GraduationCap,
   BookOpen,
@@ -35,13 +34,6 @@ const courses = [
 ];
 
 function ADeL() {
-  useEffect(() => {
-    document.title = "ADeL 學習專區 | 乾淨運動從你我開始";
-    return () => {
-      document.title = "乾淨運動從你我開始";
-    };
-  }, []);
-
   return (
     <div className="max-w-4xl mx-auto">
       {/* Header */}

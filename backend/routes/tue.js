@@ -1,3 +1,4 @@
+const { publicSubstance } = require("../../shared/content-evidence.mjs");
 const express = require("express");
 const router = express.Router();
 
@@ -8,7 +9,7 @@ const wadaSubstances = substancesData.substances;
 // Get full structured substance list (single source of truth for
 // the front-end drug checker and multi-step decision tool)
 router.get("/substances", (req, res) => {
-  res.json(substancesData);
+  res.json({ ...substancesData, substances: Object.fromEntries(Object.entries(wadaSubstances).map(([key, value]) => [key, publicSubstance(value)])) });
 });
 
 // 依標準鍵、別名或顯示名（小寫精確比對）查找物質；找不到回 null
@@ -42,10 +43,14 @@ router.post("/check", (req, res) => {
   const match = lookupSubstance(drugName);
 
   if (match) {
-    const { key, info } = match;
+    const { key } = match;
+    const info = publicSubstance(match.info);
     res.json({
       drugName: drugName,
       matchedKey: key,
+      evidenceId: info.evidenceId,
+      ruleVersion: info.ruleVersion,
+      evidence: info.evidence,
       displayName: info.displayName,
       needsTUE: info.needsTUE,
       wadaCode: info.wadaCode,

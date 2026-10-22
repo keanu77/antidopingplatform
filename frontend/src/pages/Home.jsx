@@ -13,11 +13,12 @@ import {
   ArrowRight,
 } from "lucide-react";
 import { statsAPI } from "../services/api";
+import { learningRoles } from "../data/learningRoles";
 
 const facts = [
   "115 年全中運、全大運及全民運動會取消將線上測驗通過證明列為報名條件；選手仍應學習運動禁藥防制知識，其他賽會依各自公告",
   "部分感冒藥含 pseudoephedrine（偽麻黃鹼），屬 S6 興奮劑；賽內尿液濃度超過 150µg/mL 時禁用，用藥前應核對規範",
-  "PRP 注射本身不在禁用清單；侵入式靜脈雷射 ILIB 可能涉及 M1.3 以物理方式操縱血管內血液，須就具體療程確認",
+  "PRP／PRF 製劑本身不被禁用，個別生長因子另有 S2 規範；WADA FAQ 明列侵入式靜脈雷射為 M1.3 禁用方法，涉及以物理方式操縱血管內血液",
   "2026 年 semaglutide（Ozempic）與 tirzepatide 的標記物列入 WADA 賽內、賽外監控計畫，兩者尚未列入禁用清單",
   "2026 年 WADA 新增一氧化碳（CO）非診斷用途為禁用方法",
   "BPC-157 屬於 S0 未經核可之物質，賽內、賽外皆禁用；醫療宣傳不代表已有人體治療核准或 TUE 核准",
@@ -85,7 +86,7 @@ function Home() {
   );
 
   useEffect(() => {
-    document.title = "乾淨運動從你我開始 | 運動禁藥案例資料庫";
+
     loadStats();
   }, []);
 
@@ -119,10 +120,13 @@ function Home() {
           <h1>乾淨運動<br /><span>從你我開始</span></h1>
           <p className="clean-hero-intro">認識禁用清單、練習情境判斷，<br className="hidden sm:block" />讓每一次上場，都準備得更充分。</p>
           <div className="clean-hero-actions">
-            <Link to="/quiz" className="clean-primary"><Zap size={19} />開始測驗<ArrowRight size={18} /></Link>
+            <Link to="/tue?tab=tools" className="clean-primary"><Search size={19} />先查藥物<ArrowRight size={18} /></Link>
             <Link to="/prohibited-list" className="clean-secondary"><Shield size={18} />瀏覽禁用清單</Link>
           </div>
-          <p className="clean-hero-note">運動禁藥防制互動教學平台</p>
+          <nav aria-label="選擇學習角色" className="mt-6 flex flex-wrap gap-3">
+            {learningRoles.map(role => <Link key={role.id} to={`/learning?role=${role.id}`} className="inline-flex items-center gap-2 rounded-lg border border-white/50 bg-emerald-950/70 px-4 py-3 text-sm font-semibold text-white hover:bg-emerald-900">我是{role.label}<ArrowRight size={15} /></Link>)}
+          </nav>
+          <p className="clean-hero-note">運動禁藥防制互動教學平台 · 學習不能代替官方用藥查核</p>
         </div>
       </section>
 

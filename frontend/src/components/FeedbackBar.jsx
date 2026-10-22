@@ -15,11 +15,11 @@
  */
 import { useEffect, useRef, useState } from "react";
 import { useLocation } from "react-router-dom";
+import { identifyFeedback, queueFeedback, flushFeedback, PENDING_KEY } from "../utils/feedbackQueue";
 
 const ENDPOINT = "/api/feedback";
-const ACCENT = "#059669"; // emerald-600（與 Layout 導覽一致）
+const ACCENT = "#047857"; // emerald-700: readable on pale feedback controls
 const KEY_RATED = "adp-fb-rated:"; // + slug → 評分時間戳（ms 字串）
-const KEY_PENDING = "adp-fb-pending"; // JSON array of payloads（離線暫存）
 const RATED_TTL_MS = 30 * 24 * 60 * 60 * 1000; // 評分後 30 天內不再詢問；逾期重新顯示星星
 
 // 該頁是否「近期已評分」（30 天內）。逾期或無紀錄 → false（重新出現星星可再填）。
@@ -86,38 +86,10 @@ async function postFeedback(payload) {
 }
 
 function queue(payload) {
-  try {
-    const raw = localStorage.getItem(KEY_PENDING);
-    const arr = raw ? JSON.parse(raw) : [];
-    arr.push(payload);
-    localStorage.setItem(KEY_PENDING, JSON.stringify(arr.slice(-20)));
-    return true;
-  } catch {
-    return false;
-  }
+  try { return queueFeedback(localStorage, payload); } catch { return false; }
 }
-
 async function flushPending() {
-  let arr;
-  try {
-    const raw = localStorage.getItem(KEY_PENDING);
-    if (!raw) return;
-    arr = JSON.parse(raw);
-  } catch {
-    return;
-  }
-  const remaining = [];
-  for (const p of arr) {
-    const r = await postFeedback(p);
-    if (!r.ok) remaining.push(p); // 仍失敗 → 留著下次再試
-  }
-  try {
-    if (remaining.length)
-      localStorage.setItem(KEY_PENDING, JSON.stringify(remaining));
-    else localStorage.removeItem(KEY_PENDING);
-  } catch {
-    /* ignore */
-  }
+  try { await flushFeedback(localStorage, postFeedback); } catch { /* Storage unavailable. */ }
 }
 
 // 錯誤回報用的頁面快照：只取標題 / H1 / URL，隱私安全（不整頁傾印）。
@@ -127,14 +99,14 @@ function pageSnapshot() {
   if (document.title) parts.push(`標題：${document.title}`);
   const h1 = document.querySelector("main h1, h1");
   if (h1?.textContent) parts.push(`H1：${h1.textContent.trim()}`);
-  if (typeof location !== "undefined") parts.push(`URL：${location.href}`);
+  if (typeof location !== "undefined") parts.push(`URL：${location.origin + location.pathname}`);
   return parts.join("\n");
 }
 
 const STYLE = `
 .adp-fb { position: fixed; left: 0; right: 0; bottom: 0; z-index: 39;
   font-family: -apple-system, BlinkMacSystemFont, "Noto Sans TC", "PingFang TC", sans-serif; }
-.adp-fb-compact-inner { display: flex; justify-content: flex-end; gap: 8px; padding: 7px 16px; }
+.adp-fb-compact-inner { display: flex; flex-wrap: wrap; justify-content: flex-end; gap: 8px; padding: 7px 16px; }
 .adp-fb-compact .adp-fb-report { font-size: 13px; min-height: 36px; }
 .adp-fb-collapse { display: block; margin: 4px 16px 0 auto; padding: 6px 12px; color: #047857; font-size: 13px; }
 .adp-fb-bar { background: #ffffff; border-top: 3px solid ${ACCENT};
@@ -189,6 +161,12 @@ export default function FeedbackBar() {
 
   const [expanded, setExpanded] = useState(false);
   const toggleRef = useRef(null);
+  const requestRef = useRef(null);
+  function identify(payload) {
+    const identified = identifyFeedback(payload, requestRef.current);
+    requestRef.current = identified;
+    return identified;
+  }
   const [mode, setMode] = useState("collapsed"); // collapsed|rated|thanks|feedback|error|sent|queued
   const [stars, setStars] = useState(0);
   const [hover, setHover] = useState(0);
@@ -259,7 +237,7 @@ export default function FeedbackBar() {
     return {
       page: slug,
       toolSlug: slug,
-      url: typeof location !== "undefined" ? window.location.href : "",
+      url: typeof location !== "undefined" ? window.location.origin + window.location.pathname : "",
       loadedAt: loadedAtRef.current,
       website: honeypotRef.current?.value ?? "",
     };
@@ -294,7 +272,7 @@ export default function FeedbackBar() {
     setErr("");
     setStars(n);
     setHover(0);
-    const payload = { ...base(), type: "rating", rating: n };
+    const payload = identify({ ...base(), type: "rating", rating: n });
     const r = await postFeedback(payload);
     setBusy(false);
     if (!r.ok) {
@@ -371,8 +349,9 @@ export default function FeedbackBar() {
     await submit(payload);
   }
 
-  async function submit(payload) {
+  async function submit(input) {
     if (busy) return;
+    const payload = identify(input);
     setBusy(true);
     const r = await postFeedback(payload);
     setBusy(false);
@@ -652,6 +631,8 @@ export default function FeedbackBar() {
           <button ref={toggleRef} type="button" className="adp-fb-report" aria-expanded={false}
             onClick={() => setExpanded(true)}>意見回饋</button>
           <button type="button" className="adp-fb-report" onClick={() => { setExpanded(true); openError(); }}>回報問題</button>
+          <button type="button" className="adp-fb-report" onClick={() => { try { localStorage.removeItem(PENDING_KEY); setErr("已清除本機待送回饋"); } catch { setErr("無法存取本機儲存空間"); } }}>清除待送回饋</button>
+          {err && <span role="status">{err}</span>}
         </div> : <button type="button" className="adp-fb-collapse" aria-label="收合回饋列" onClick={collapseDock}>收合 ↓</button>}
         {expanded && (
 
@@ -668,7 +649,7 @@ export default function FeedbackBar() {
               ✓ 已送出，感謝你的回饋！我們會據此修正內容。
             </span>
           ) : mode === "queued" ? (
-            <span className="adp-fb-toast">已暫存，下次造訪會自動補送。</span>
+            <span className="adp-fb-toast">已暫存於此裝置，下次造訪補送；7 天後過期。</span>
           ) : (
             <>
               <span className="adp-fb-prompt">

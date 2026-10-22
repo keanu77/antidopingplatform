@@ -1,4 +1,4 @@
-import { useState, useEffect, useMemo } from "react";
+import { useState, useMemo } from "react";
 import { Search, ChevronDown, Shield, AlertTriangle } from "lucide-react";
 import { prohibitedList, timingLabels } from "../data/prohibitedList";
 import ListLabelsGuide from "../components/ListLabelsGuide";
@@ -8,13 +8,6 @@ function ProhibitedList() {
   const [search, setSearch] = useState("");
   const [filter, setFilter] = useState("all");
   const [expanded, setExpanded] = useState(null);
-
-  useEffect(() => {
-    document.title = "禁用清單 | 乾淨運動從你我開始";
-    return () => {
-      document.title = "乾淨運動從你我開始";
-    };
-  }, []);
 
   const filtered = useMemo(
     () => filterProhibitedList(search, filter),

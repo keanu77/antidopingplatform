@@ -15,7 +15,7 @@ describe("快速查詢與情境判定使用相同安全邊界", () => {
     expect(checkResultVerdict(result)).toBe("unknown");
   });
   it("明確允許、監控與全時段禁用仍可區分", () => {
-    expect(checkResultVerdict(lookup("glucagon"))).toBe("permitted");
+    expect(checkResultVerdict(lookup("guanfacine"))).toBe("permitted");
     expect(checkResultVerdict(lookup("codeine"))).toBe("monitored");
     expect(checkResultVerdict(lookup("insulin"))).toBe("needs-tue");
     expect(checkResultVerdict(lookup("clenbuterol"))).toBe("prohibited");
@@ -64,4 +64,17 @@ describe("S5 併用規則：依 WADA 列名與適用時段", () => {
     const drug = { ...substances.salbutamol, routes: { inhaled: { status: "future-rule" } } };
     expect(evaluateDrug(drug, { route: "inhaled", s5Concomitant: "prohibited" }).verdict).toBe("unknown");
   });
+});
+
+it("all S9 inhaled and topical routes require licensed dose and indication confirmation", () => {
+  const glucocorticoids = Object.values(substances).filter((drug) => drug.wadaCode === "S9");
+  expect(glucocorticoids).toHaveLength(7);
+  for (const drug of glucocorticoids) {
+    for (const route of ["inhaled", "topical"]) {
+      if (!drug.routes?.[route]) continue;
+      const result = evaluateDrug(drug, { route, inCompetition: true, asOf: "2026-10-23" });
+      expect(result.verdict).toBe("conditions-required");
+      expect(result.reasons.join(" ")).toContain("核准的劑量與治療適應症");
+    }
+  }
 });

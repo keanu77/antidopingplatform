@@ -11,7 +11,7 @@
 
 2026-09-24 另做 44 件國家來源補查，每件至少兩模型、24 件四模型；43 件已補充官方資料，1 件年齡配對疑義保留。僅靠標題的國家缺口從 258 件降至 **215 件**，另 **7 件日期**疑義重查後仍未消除。43 件中有 27 件僅引用查閱時個人資料所列國家，不能因此認證事件當時代表資格；補審後追加來源或調整註記亦明示未再送模型。這輪限國家與身分欄位，不灌入上一輪完整個案模型數。資料未收錄標示為台灣／中華台北的選手，尚不能宣稱排除條件已逐件獨立核實。見 [官方來源補查](docs/research/2026-09-24-source-followup/README.md)。
 
-2026-09-24 正式站讀取結果仍為 171 件，與目前工作版本不同。部署狀態請看最新查核紀錄，勿由本機數量推定已上線。
+2026-10-23 第一階段正式站已驗證 517 件。每次發布仍須以 `/version.json` 與即時 API 比對，不以本機數量推定上線。
 
 - 案例資料：`data/cases.json`
 - 案例查核與證據索引：`docs/research/`
@@ -41,7 +41,7 @@ npx wrangler pages dev frontend/dist
 npm run cf:migrate
 ```
 
-`cf:migrate` 預設只操作本機，使用 D1 的 `d1_migrations` 紀錄並只套用待執行版本。若已有未追蹤的 `feedback` 表，指令會停止；先依 [D1 migration 操作說明](docs/d1-migrations.md) 核對版本並明確建立基準，不能直接重跑 SQL。正式操作需另外批准並明確加 `--remote`。
+`cf:migrate` 預設只操作本機，使用 D1 的 `d1_migrations` 紀錄並只套用待執行版本。若已有未追蹤的 `feedback` 表，指令會停止；先依 [D1 migration 操作說明](docs/d1-migrations.md) 核對版本並明確建立基準，不能直接重跑 SQL。正式操作必須在已授權發布範圍內，先確認還原點、實際 schema 與明確的 `--remote` 目標。
 
 ## 資料重建與測試
 
@@ -55,6 +55,9 @@ npm run test:frontend
 npm run test:migrations:local
 npm --prefix frontend run lint
 npm run cf:build
+npm run check:budget
+npm --prefix frontend exec -- playwright install chromium webkit
+npm --prefix frontend run test:browser
 ```
 
 `npm test` 另跑舊 Express 後端測試，需能啟動 mongodb-memory-server；不可用其通過取代 Pages Functions 測試。`npm run smoke` 為讀取型 API 冒煙檢查，環境變數用法以腳本為準。
@@ -75,3 +78,13 @@ npm run cf:build
 先完成資料與前端檢查，再確認欲發布的 Git 版本。`npm run cf:deploy` 會重新建置並發布 Cloudflare Pages；D1 migration 是獨立動作，不能以發布前端代替。發布後須比對 `/version.json`、`/api/stats/overview` 與案例明細，才可判定正式站與資料版本一致。
 
 MIT License
+
+
+## 可信內容與學習
+
+- `/sources` 提供 50 成分、16 正式題與 70 舊題的來源／版本／查核狀態。待核對項目停止確定判定；2027 尚未啟用。
+- `/learning` 提供選手、教練與醫療人員的任務與列印清單；`/quiz` 提供錯題回顧、補學與本機延後複習。
+- `/case-learning` 提供 30 案教材與全 517 案補證隊列；不把模型對讀視為具名專業簽核。
+- [回饋與發布維運](docs/feedback-operations.md)、[實際使用者驗證方案](docs/reviews/2026-10-23-platform/measurement-plan.md)。
+
+每個 PR 與 production 發布都執行 Chromium、手機 Chromium、手機 WebKit 的功能／無障礙檢查。六小時唯讀監測檢查版本、API 與主要頁面；工作流執行成功不等於真實使用者 CWV、自然排程寄達或臨床內容簽核。

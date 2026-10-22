@@ -1,4 +1,3 @@
-import { useEffect } from "react";
 import { Newspaper, ExternalLink } from "lucide-react";
 
 const newsItems = [
@@ -39,13 +38,6 @@ const newsItems = [
 ];
 
 function News() {
-  useEffect(() => {
-    document.title = "最新消息 | 乾淨運動從你我開始";
-    return () => {
-      document.title = "乾淨運動從你我開始";
-    };
-  }, []);
-
   return (
     <div className="max-w-4xl mx-auto">
       <div className="flex items-center gap-3 mb-8">

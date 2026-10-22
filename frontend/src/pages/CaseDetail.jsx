@@ -13,6 +13,8 @@ import {
 import { casesAPI } from "../services/api";
 import CaseReviewNotice from "../components/CaseReviewNotice";
 import { hasSubstanceCategoryLabel } from "../utils/substanceCategory";
+import { applyPageMeta } from "../utils/pageMeta";
+import { caseMeta } from "../data/routeMeta";
 
 function CaseDetail() {
   const { id } = useParams();
@@ -42,14 +44,10 @@ function CaseDetail() {
     return () => { active = false; };
   }, [id, retryCount]);
 
-  // P2: 更新頁面 title
   useEffect(() => {
     if (caseData) {
-      document.title = `${caseData.athleteName} | 乾淨運動從你我開始`;
+      applyPageMeta(caseMeta(caseData));
     }
-    return () => {
-      document.title = "乾淨運動從你我開始";
-    };
   }, [caseData]);
 
   if (loading) {
@@ -144,6 +142,7 @@ function CaseDetail() {
         {/* Content */}
         <div className="p-8">
           <CaseReviewNotice review={caseData.review} />
+          <Link to="/case-learning#evidence-queue" className="inline-block mb-4 text-primary-700 underline">案例教學與證據維護隊列</Link>
           {caseData.yearBasis && <p className="mb-6 text-sm text-gray-600">年份依據：{caseData.yearBasis}</p>}
           {/* Substance Info */}
           <div className="mb-8">

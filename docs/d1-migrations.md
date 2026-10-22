@@ -13,7 +13,7 @@ npm run cf:migrate
 npm run cf:migrate                 # No pending migrations
 ```
 
-可加 `-- --persist-to /tmp/your-new-test-directory` 使用獨立的本機 DB；status、baseline、apply 必須使用同一目錄。全新資料庫依序套用 0001、0002；已追蹤的資料庫只執行 pending migration。未知、非連續的歷史或已追蹤但不符 schema 的狀態會停止。
+可加 `-- --persist-to /tmp/your-new-test-directory` 使用獨立的本機 DB；status、baseline、apply 必須使用同一目錄。全新資料庫依序套用 0001、0002、0003；已追蹤的資料庫只執行 pending migration。未知、非連續的歷史或已追蹤但不符 schema 的狀態會停止。
 
 ## 既有安裝：明確建立歷史基準
 
@@ -28,8 +28,8 @@ status 只查詢 schema 與 migration 名稱，不讀回饋內容，也不建立
 | 已確認狀態 | 動作 |
 | --- | --- |
 | 沒有 feedback 表、沒有歷史 | 直接 apply |
-| 只有 0001 的 7 欄及 2 個 index，沒有歷史 | baseline through 0001，再 apply 0002 |
-| 已有完整 0002 的 18 欄及 2 個 index，沒有歷史 | baseline through 0002，再 apply（目前為 no-op） |
+| 只有 0001 的 7 欄及 2 個 index，沒有歷史 | baseline through 0001，再 apply 0002、0003 |
+| 已有完整 0002 的 18 欄及 2 個 index，沒有歷史 | baseline through 0002，再 apply 0003 |
 | 0001 有紀錄、0002 曾手動套用且 schema 完整 | baseline through 0002，補記缺少的版本 |
 | 部分欄位、缺 index、額外 constraint／trigger、未知歷史 | 停止，另做 schema 差異審查與修復方案 |
 
@@ -45,12 +45,12 @@ baseline 會在記錄前，把實際表／index／trigger 的 SQL 與本機記�
 
 同一資料庫的 baseline／migration 操作必須序列執行，暫停其他 schema 變更工作；檢查與寫入之間不能有另一位操作者改 schema。Wrangler 每個 migration 失敗時回滾該 migration，先前成功版本仍保留。
 
-## 正式執行前的批准與確認（本次未執行）
+## 正式執行前的授權與確認
 
 1. 先取得正式 D1 唯讀查核授權，確認帳號、database ID、`wrangler.toml` 指向預期資料庫。執行 `npm run cf:migrate:status -- --remote`，保存 schema 與歷史證據。
 2. 依證據選定「全新／0001／0002／異常」路徑。取得備份或 Time Travel 還原點、記錄執行者與時間、安排單一操作者；確認必要的 D1 權限已存在，不由此流程擴權。
-3. 將具體 baseline 版本、待執行 SQL、備份及復原方案交由使用者批准。只有批准後才對同一目標執行 `npm run cf:migrate:baseline -- --remote --through=0001`（或已核實的 0002）；全新 DB 跳過 baseline。
-4. 另經批准執行 `npm run cf:migrate -- --remote`，再 status 核對紀錄與 schema；核對原有資料筆數及取樣，重跑 apply 應無 pending。程式合併與正式部署另行批准。
+3. 記錄具體 baseline 版本、待執行 SQL、備份及復原方案；在使用者已授權的發布範圍內對同一目標執行 `npm run cf:migrate:baseline -- --remote --through=0001`（或已核實的 0002）；全新 DB 跳過 baseline。
+4. 在同一授權發布範圍內執行 `npm run cf:migrate -- --remote`，再 status 核對紀錄與 schema；核對原有資料筆數及取樣，重跑 apply 應無 pending。程式合併與正式部署須符合當次發布授權。
 
 若失敗，保留錯誤與當時紀錄，停止後續部署；不刪 ledger、不刪欄位、不 reset、不以重跑歷史 SQL 修復。優先審查後新增修正 migration；需要恢復備份時另行取得批准。回退程式碼不代表 D1 schema 已回退。
 
@@ -59,3 +59,5 @@ baseline 會在記錄前，把實際表／index／trigger 的 SQL 與本機記�
 `node --test tests/migrations.test.mjs` 重現舊 0002 重跑失敗，測試新流程的歷史與 schema 防護。`npm run test:migrations:local` 以真正的 Wrangler 本機 D1，在全新 temp 目錄測試全新、legacy 0001、legacy 0002、重跑與部分套用拒絕；檢查既有資料、migration 名稱及時間戳保留。測試不使用正式 D1。
 
 原生 migration 行為參考：[Cloudflare D1 migrations](https://developers.cloudflare.com/d1/reference/migrations/)。
+
+0003 的 legacy 回饋切點、冪等寄送與人工對帳規則見 [feedback-operations.md](feedback-operations.md)。不以 migration 成功推定歷史信件已寄達。
