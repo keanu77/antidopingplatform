@@ -34,7 +34,7 @@ export default function Learning() {
       ? progress.completed.filter(item => item !== key) : [...progress.completed, key] });
   }
 
-  return <div className="max-w-5xl mx-auto">
+  return <div className="learning-page max-w-5xl mx-auto">
     <header className="mb-8">
       <p className="text-sm font-semibold tracking-widest text-emerald-800 mb-3">把知識化成下一步</p>
       <h1 className="text-3xl font-bold text-gray-900">依角色開始學習</h1>
@@ -123,6 +123,6 @@ export default function Learning() {
       <button type="button" onClick={clear} className="mt-3 inline-flex items-center gap-2 rounded-lg border border-gray-400 bg-white px-4 py-3 hover:bg-gray-50"><Trash2 size={16} />清除所有本機學習紀錄</button>
       <p role="status" className="mt-2 min-h-5">{status}</p>
     </aside>
-    <style>{`@media print { body * { visibility: hidden !important; } .learning-checklist, .learning-checklist * { visibility: visible !important; } .learning-checklist { position: absolute; top: 0; left: 0; width: 100%; border: 0; margin: 0; padding: 24px; } .learning-checklist button { display: none; } }`}</style>
+
   </div>;
 }

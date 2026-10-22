@@ -11,7 +11,7 @@
 #   RESEND_API_KEY      Resend 寄信 API key
 #   FEEDBACK_DIGEST_TO  彙整信收件人
 #   EMAIL_FROM          （選填）寄件顯示；網域須為 Resend 已驗證網域（未設時沿用舊的 ZSEND_FROM）
-# 新增 D1 欄位後先跑 migration 再部署，否則回饋寫入會因缺欄位而靜默失敗。
+# 新增 D1 欄位後先跑 migration 再部署，否則回饋會因缺欄位回傳 503；不要跳過 migration 驗證。
 name = "antidoping-platform"
 compatibility_date = "2025-05-05"
 compatibility_flags = ["nodejs_compat"]

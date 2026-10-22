@@ -86,7 +86,7 @@ function Home() {
   );
 
   useEffect(() => {
-    document.title = "乾淨運動從你我開始 | 運動禁藥案例資料庫";
+
     loadStats();
   }, []);
 

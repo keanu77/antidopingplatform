@@ -1,6 +1,7 @@
 import { useState, useRef, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 import FeedbackBar from "./FeedbackBar";
+import PageMetadata from "./PageMetadata";
 import {
   Home,
   Search,
@@ -166,6 +167,7 @@ function Layout({ children }) {
   ];
 
   const learnItems = [
+    { path: "/learning", label: "角色學習路徑", icon: BookOpen },
     { path: "/prohibited-list", label: "禁用清單", icon: Shield },
     { path: "/quiz", label: "互動測驗", icon: Zap },
     { path: "/testing-process", label: "藥檢流程", icon: ClipboardList },
@@ -198,6 +200,7 @@ function Layout({ children }) {
 
   return (
     <div className="min-h-screen bg-gray-50">
+      <PageMetadata />
       <a
         href="#main-content"
         className="sr-only focus:not-sr-only focus:absolute focus:top-2 focus:left-2 focus:z-50 focus:px-4 focus:py-2 focus:bg-white focus:text-emerald-600 focus:rounded-lg focus:shadow-lg"
@@ -329,7 +332,7 @@ function Layout({ children }) {
               <p className="text-gray-400 text-sm leading-relaxed mb-4">
                 本平台致力於分享運動禁藥案例與實用知識，幫助選手、教練及醫療人員正確認識風險與規範，打造更安全與公平的運動環境。
               </p>
-              <p className="text-gray-500 text-xs">
+              <p className="text-gray-400 text-xs">
                 資料來源：WADA 2026 Prohibited List、CTADA
               </p>
             </div>
@@ -338,6 +341,9 @@ function Layout({ children }) {
                 快速連結
               </h3>
               <ul className="space-y-2 text-sm">
+                <li><Link to="/editorial-policy" className="text-gray-300 hover:text-white underline">編輯政策與內容更正</Link></li>
+                <li><Link to="/sources" className="text-gray-300 hover:text-white underline">來源與規則版本</Link></li>
+                <li><Link to="/case-learning" className="text-gray-300 hover:text-white underline">案例教學與證據待辦</Link></li>
                 <li>
                   <a
                     href="https://www.wada-ama.org/"
@@ -394,16 +400,16 @@ function Layout({ children }) {
                   吳易澄 醫師
                 </a>
               </p>
-              <p className="text-gray-500 text-xs">聯新國際醫院 運動醫學科</p>
+              <p className="text-gray-400 text-xs">聯新國際醫院 運動醫學科</p>
               <div className="mt-4">
-                <p className="text-gray-500 text-xs">
+                <p className="text-gray-400 text-xs">
                   本平台資訊僅供參考，若有不足或錯誤之處，歡迎來信：keanu.firefox@gmail.com
                 </p>
               </div>
             </div>
           </div>
-          <div className="mt-8 pt-6 border-t border-gray-800 text-center text-xs text-gray-500">
-            © 2025 乾淨運動從你我開始 — Your Body, Your Responsibility!
+          <div className="mt-8 pt-6 border-t border-gray-800 text-center text-xs text-gray-400">
+            © 2026 乾淨運動從你我開始 — Your Body, Your Responsibility!
           </div>
         </div>
       </footer>

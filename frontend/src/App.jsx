@@ -11,6 +11,7 @@ const Education = lazy(() => import("./pages/Education"));
 const TUE = lazy(() => import("./pages/TUE"));
 const ProhibitedList = lazy(() => import("./pages/ProhibitedList"));
 const Quiz = lazy(() => import("./pages/Quiz"));
+const Learning = lazy(() => import("./pages/Learning"));
 const TestingProcess = lazy(() => import("./pages/TestingProcess"));
 const News = lazy(() => import("./pages/News"));
 const Resources = lazy(() => import("./pages/Resources"));
@@ -43,6 +44,7 @@ function App() {
               <Route path="/tue" element={<TUE />} />
               <Route path="/prohibited-list" element={<ProhibitedList />} />
               <Route path="/quiz" element={<Quiz />} />
+              <Route path="/learning" element={<Learning />} />
               <Route path="/testing-process" element={<TestingProcess />} />
               <Route path="/news" element={<News />} />
               <Route path="/resources" element={<Resources />} />

@@ -48,7 +48,7 @@ function Education() {
   const [learningError, setLearningError] = useState(false);
 
   useEffect(() => {
-    document.title = "教育專區 | 乾淨運動從你我開始";
+
     loadEducationalContent();
   }, []);
 

@@ -19,18 +19,22 @@ function parseRecipients(to) {
 
 export const emailConfigured = (env) => Boolean(env?.RESEND_API_KEY);
 
-export async function sendEmail(env, { to, subject, html, text, replyTo }) {
+export async function sendEmail(env, { to, subject, html, text, replyTo, idempotencyKey, from: savedFrom }) {
   if (!env?.RESEND_API_KEY) throw new Error("RESEND_API_KEY 未設定");
-  const from = env.EMAIL_FROM || env.ZSEND_FROM || DEFAULT_FROM;
+  const from = savedFrom || env.EMAIL_FROM || env.ZSEND_FROM || DEFAULT_FROM;
   const recipients = parseRecipients(to);
   if (recipients.length === 0) throw new Error("收件人為空");
   const res = await fetch(ENDPOINT, {
     method: "POST",
-    headers: { Authorization: `Bearer ${env.RESEND_API_KEY}`, "Content-Type": "application/json" },
+    headers: { Authorization: `Bearer ${env.RESEND_API_KEY}`, "Content-Type": "application/json", ...(idempotencyKey ? { "Idempotency-Key": idempotencyKey } : {}) },
+    signal: AbortSignal.timeout(15_000),
     body: JSON.stringify({ from, to: recipients, subject, html, text, ...(replyTo ? { reply_to: replyTo } : {}) }),
   });
   if (!res.ok) {
     const detail = await res.text().catch(() => "");
     throw new Error(`Resend 寄送失敗 ${res.status}: ${detail.slice(0, 300)}`);
   }
+  const result = await res.json();
+  if (typeof result.id !== "string" || !result.id) throw new Error("Resend 未確認寄送 ID");
+  return result.id;
 }

@@ -1,12 +1,7 @@
-import { useEffect } from "react";
 import { Link } from "react-router-dom";
 import { Home, AlertTriangle } from "lucide-react";
 
 function NotFound() {
-  useEffect(() => {
-    document.title = "頁面未找到 | 乾淨運動從你我開始";
-  }, []);
-
   return (
     <div className="flex flex-col items-center justify-center min-h-[50vh] text-center">
       <div className="bg-gray-100 p-6 rounded-full mb-6">

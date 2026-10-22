@@ -8,7 +8,7 @@ import { fileURLToPath } from "node:url";
 
 const root = fileURLToPath(new URL("../../", import.meta.url));
 const workspace = mkdtempSync(join(tmpdir(), "antidoping-migrations-"));
-const names = ["0001_feedback.sql", "0002_feedback_fields.sql"];
+const names = ["0001_feedback.sql", "0002_feedback_fields.sql", "0003_feedback_delivery.sql"];
 // Every invocation is pinned to --local and a new directory. No remote D1 or credentials needed.
 const run = (entry, args) => spawnSync(process.execPath, [join(root, entry), ...args], {
   cwd: root, encoding: "utf8", timeout: 120000,

@@ -38,7 +38,7 @@ test('legacy inventory remains available but pending questions have no answers o
   assert.equal(quizzes.data.filter(q=>q.evidence.valid).length,1);
   for(const q of quizzes.data.filter(q=>q.id!==1)){assert.equal(q.correctAnswer,null);assert.equal(q.explanation,null);assert.equal(q.learningUrl,'/quiz');}
   const score=await api('education/quizzes/53/answer',{answer:1});assert.equal(score.data.correct,null);assert.equal(score.data.correctAnswer,null);
-  const root=await api('education');assert.equal(root.data.quizzes.find(q=>q.id===53).correctAnswer,null);
+  const root=await api('education');assert.equal(root.headers.get('Cache-Control'),'no-store');assert.equal(root.data.quizzes.find(q=>q.id===53).correctAnswer,null);
 });
 test('overdue review or absent reference locator prevents permission without mutating original evidence',()=>{
   const copy=structuredClone(registry);copy.entries['drug:guanfacine'].nextReviewAt='2026-10-22';

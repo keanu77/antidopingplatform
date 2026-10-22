@@ -1,1 +1,1 @@
-/*    /index.html   200
+# Each known route is prerendered. Unknown routes use 404.html with HTTP 404.

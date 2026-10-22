@@ -68,10 +68,6 @@ function CaseList() {
   const requestIdRef = useRef(0);
   const filterRequestIdRef = useRef(0);
 
-  useEffect(() => {
-    document.title = "案例搜尋 | 乾淨運動從你我開始";
-  }, []);
-
   // 強制篩選器切換函數
   const toggleFilters = useCallback(() => {
     setShowFilters((prev) => !prev);

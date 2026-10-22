@@ -1,0 +1,29 @@
+name: Public site monitoring
+on:
+  schedule:
+    - cron: "17 */6 * * *"
+  workflow_dispatch:
+permissions:
+  contents: read
+  actions: read
+jobs:
+  read-only:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+      - name: Check current release and public journeys
+        run: |
+          expected=$(gh run list --workflow deploy.yml --branch main --status success --limit 1 --json headSha --jq '.[0].headSha')
+          test -n "$expected" && test "$expected" != "null"
+          EXPECTED_SHA="$expected" node scripts/check-live.mjs
+        env:
+          GH_TOKEN: ${{ github.token }}
+      - name: API smoke (no writes)
+        run: node tests/smoke/cloudflare-api.smoke.mjs
+        env:
+          SMOKE_BASE_URL: https://antidopingplatform.sportsmedicine.tw
+          SKIP_WRITE: "1"
