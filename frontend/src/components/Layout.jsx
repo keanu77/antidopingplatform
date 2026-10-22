@@ -375,7 +375,7 @@ function Layout({ children }) {
                     rel="noopener noreferrer"
                     className="text-gray-400 hover:text-white transition-colors"
                   >
-                    CTADA 藥物查詢
+                    TADA 藥物查詢
                   </a>
                 </li>
               </ul>
