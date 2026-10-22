@@ -124,6 +124,9 @@ npm run cf:build
 | `artifacts/drugs/herbal.sqlite(.gz)` | 中藥移植檔，含來源工作表、列號與原始欄位；不進 Git |
 | `artifacts/drugs/supplements.sqlite(.gz)` | 食品移植檔，保留許可／核備字號與原始欄位；不進 Git |
 | `frontend/public/product-data/` | 中藥與營養品的建置產物，不進 Git |
+| `artifacts/drugs/antidoping-catalogs-2026-10-23.zip` | 三份 SQLite gzip、來源 manifest、SHA-256 與操作說明的移植包，46,833,641 bytes；不進 Git |
+
+移植包已檢查 ZIP 全部 8 個成員的 CRC，SHA-256 為 `5b91cab97898687cdead446277ece495f9e71bce203bfb11e38c0926340fdf47`。包內各檔案的 SHA-256 在 `checksums.json`；壓縮前的三份 SQLite 均通過完整性與外鍵檢查。包內沒有應用程式原始碼；原始碼已保存於本專案獨立分支，實作 commit `9692504b42d8874b6b229e3898469d2c3afef1a4`。
 
 SQLite 有 `products`、`ingredient_details`、`source_licenses`、`source_ingredients`、`metadata` 五張表。原始列以 JSON 完整保存，去重不刪原始證據；產品以許可證衍生穩定 ID，製造商彙整為多值。許可證註銷狀態與運動禁藥狀態是不同欄位／資料層。
 
