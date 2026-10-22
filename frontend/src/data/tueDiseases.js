@@ -1,3 +1,5 @@
+import { S5_RULE_NOTE, S5_EXCEPTIONS_NOTE } from "./s5Rule.js";
+
 // 常見疾病 TUE 重點。檢查表連結來自 CTADA，醫師指引連結來自 WADA；
 // guideline 標示指引發布年月或版本，方便核對時效。
 // 臨床重點依 WADA TUE Physician Guidelines 與 2026 禁用清單整理，僅供教育參考。
@@ -53,7 +55,9 @@ export const tueDiseases = [
       "Terbutaline、所有口服 Beta-2 激動劑，以及超過上述劑量者，一律需 TUE。",
       "尿液 salbutamol >1000 ng/mL、formoterol >40 ng/mL 時，須以藥物動力學研究證明來自治療劑量。",
       "運動誘發支氣管收縮不能只靠症狀診斷，需客觀激發試驗，例如 EVH 後 FEV1 自基線下降 ≥10% 為陽性。",
-      "吸入糖皮質激素允許；同時使用利尿劑時，上述閾值例外不適用，兩者都要 TUE。",
+      "吸入糖皮質激素依核准劑量與適應症使用時允許。S5 的列名閾值併用規則涉及 salbutamol、formoterol，不能擴張套用至 salmeterol 或 vilanterol。",
+      S5_RULE_NOTE,
+      S5_EXCEPTIONS_NOTE,
     ],
     checklistUrl:
       "https://drive.google.com/file/d/1Rjj4UUwNOreLpdyicLfucNf4kHQPHzvz/view?usp=sharing",
@@ -67,7 +71,8 @@ export const tueDiseases = [
     keyPoints: [
       "Beta 阻斷劑只在射箭、射擊、高爾夫等精準運動禁用；跑步、球類等多數運動不禁、無需 TUE。",
       "利尿劑全時段禁用，高血壓或心衰竭必須使用時要申請 TUE。",
-      "持利尿劑 TUE 時，若同一檢體也驗出閾值物質（如 salbutamol、偽麻黃鹼），即使低於閾值仍屬不利分析結果，除非該物質也有 TUE。",
+      S5_RULE_NOTE,
+      S5_EXCEPTIONS_NOTE,
     ],
     alternatives:
       "ACE 抑制劑、ARB（如 losartan）、鈣離子阻斷劑（如 amlodipine、diltiazem）不在禁用清單；注意含利尿劑的複方。",

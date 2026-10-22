@@ -3,10 +3,10 @@
     "id": 1,
     "category": "S0: 未批准物質",
     "wadaCode": "S0",
-    "description": "任何未獲得政府衛生管理當局批准供人類治療使用的藥物或實驗物質。",
+    "description": "未列於其他禁用分類，且未獲任何政府衛生管理當局核准供人體治療使用的藥理性物質。",
     "mechanism": "由於屬於實驗階段，作用機制可能不明確或存在未知副作用。",
     "risks": "未知的健康風險、可能造成嚴重副作用、長期影響不明",
-    "examples": "實驗性SARM、新型類固醇前體、研發階段的藥物",
+    "examples": "BPC-157、2,4-dinitrophenol（DNP）、未核准的 troponin activators",
     "detectability": "檢測困難，需要特殊檢測方法",
     "icon": "🧪",
     "prohibitionType": "全時段禁用"
@@ -25,13 +25,13 @@
     "subcategories": [
       {
         "code": "S1.1",
-        "name": "外源性合成代謝雄激素類固醇",
-        "examples": "Boldenone、Clostebol、Fluoxymesterone、Metandienone"
+        "name": "合成代謝雄激素類固醇（外源性給藥時）",
+        "examples": "Boldenone、Clostebol、Fluoxymesterone、Metandienone、Tibolone"
       },
       {
         "code": "S1.2",
         "name": "其他合成代謝劑",
-        "examples": "Clenbuterol、SARM、Tibolone"
+        "examples": "Clenbuterol、SARMs（如 enobosarm／ostarine、LGD-4033）"
       }
     ]
   },
@@ -55,12 +55,12 @@
       {
         "code": "S2.2",
         "name": "肽類激素和釋放因子",
-        "examples": "生長激素(HGH)、IGF-1、HCG"
+        "examples": "生長激素(HGH)、HCG"
       },
       {
         "code": "S2.3",
         "name": "生長因子和調節劑",
-        "examples": "MGF、FGF、VEGF、PDGF"
+        "examples": "IGF-1、MGF、FGF、VEGF、PDGF"
       }
     ]
   },

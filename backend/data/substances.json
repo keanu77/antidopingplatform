@@ -27,6 +27,7 @@
   },
   "substances": {
     "salbutamol": {
+      "s5ThresholdRule": true,
       "displayName": "Salbutamol 沙丁胺醇",
       "aliases": ["albuterol", "沙丁胺醇", "舒喘寧"],
       "wadaCode": "S3",
@@ -44,9 +45,10 @@
       },
       "sportRestricted": null,
       "washout": null,
-      "note": "吸入劑在 24 小時內 ≤1600µg 且每 8 小時 ≤600µg 免 TUE；尿液 >1000ng/mL 須以藥動研究證明（決定限值 1200ng/mL）；口服劑型需 TUE"
+      "note": "吸入劑在 24 小時內 ≤1600µg 且每 8 小時 ≤600µg，並確認不受 S5 併用規則限制時免 TUE；尿液 >1000ng/mL 須以藥動研究證明（決定限值 1200ng/mL）；口服劑型需 TUE"
     },
     "formoterol": {
+      "s5ThresholdRule": true,
       "displayName": "Formoterol 福莫特羅",
       "aliases": ["福莫特羅", "eformoterol"],
       "wadaCode": "S3",
@@ -58,13 +60,13 @@
         "inhaled": {
           "status": "permitted-threshold",
           "threshold": "實際吸入劑量：24 小時內 ≤54µg，且任何 12 小時內 ≤36µg",
-          "note": "吸入劑以實際吸入劑量（delivered dose）計，24 小時內 ≤54µg，且任何 12 小時內 ≤36µg，符合此劑量例外時免 TUE"
+          "note": "吸入劑以實際吸入劑量（delivered dose）計，24 小時內 ≤54µg，且任何 12 小時內 ≤36µg，符合此劑量例外，並確認不受 S5 併用規則限制時免 TUE"
         },
         "oral": { "status": "needs-tue", "note": "口服 Beta-2 激動劑仍需 TUE" }
       },
       "sportRestricted": null,
       "washout": null,
-      "note": "吸入劑以實際吸入劑量（delivered dose）計，24 小時內 ≤54µg，且任何 12 小時內 ≤36µg，符合此劑量例外時免 TUE；超出例外劑量或口服仍需 TUE"
+      "note": "吸入劑以實際吸入劑量（delivered dose）計，24 小時內 ≤54µg，且任何 12 小時內 ≤36µg，符合此劑量例外，並確認不受 S5 併用規則限制時免 TUE；超出例外劑量或口服仍需 TUE"
     },
     "salmeterol": {
       "displayName": "Salmeterol 沙美特羅",
@@ -198,6 +200,7 @@
       "note": "僅賽內禁用；屬濫用物質（Substance of Abuse），若能證明賽外使用且與運動表現無關，制裁可減輕"
     },
     "pseudoephedrine": {
+      "s5ThresholdRule": true,
       "displayName": "Pseudoephedrine 偽麻黃鹼",
       "aliases": ["偽麻黃鹼", "偽麻黃素"],
       "wadaCode": "S6",
@@ -217,6 +220,7 @@
       "note": "僅賽內禁用；尿液濃度 >150µg/mL 為陽性；服用含偽麻黃鹼的感冒藥須注意劑量與停藥時間"
     },
     "ephedrine": {
+      "s5ThresholdRule": true,
       "displayName": "Ephedrine 麻黃鹼",
       "aliases": ["麻黃鹼", "麻黃素"],
       "wadaCode": "S6",
@@ -528,6 +532,7 @@
       "note": "ADHD 用藥，體內轉為 amphetamine；僅賽內禁用，持續治療者實務上須申請賽內 TUE"
     },
     "methylephedrine": {
+      "s5ThresholdRule": true,
       "displayName": "Methylephedrine 甲基麻黃鹼",
       "aliases": ["甲基麻黃鹼", "甲基麻黃素"],
       "wadaCode": "S6",
