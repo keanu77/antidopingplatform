@@ -65,3 +65,8 @@ backend/backups/
 
 # Cloudflare
 .wrangler/
+
+# Reproducible TFDA exports and web assets; source snapshot lives in data/drugs/.
+artifacts/drugs/
+frontend/public/drug-data/
+frontend/public/product-data/

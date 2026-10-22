@@ -7,6 +7,21 @@ export const SITE_NAME = "乾淨運動從你我開始";
 
 export const routesMeta = [
   {
+    path: "/herbal-search",
+    title: "中藥商品與來源查詢 | 乾淨運動從你我開始",
+    description: "依商品名或健保藥品代碼查詢健保署中藥品項資料，核對方名、製造廠與收載資訊；完整處方與禁用風險須另行查證。",
+  },
+  {
+    path: "/supplement-search",
+    title: "營養品與食品登錄查詢 | 乾淨運動從你我開始",
+    description: "搜尋 TFDA 健康食品與輸入錠膠囊食品登錄資料。食品許可不等於運動禁藥認證，產品配方與批號檢測須另行核對。",
+  },
+  {
+    path: "/drug-search",
+    title: "台灣西藥商品與禁用成分查詢 | 乾淨運動從你我開始",
+    description: "依商品名、英文成分或許可證字號搜尋 TFDA 西藥開放資料，核對配方與 WADA 2026 使用條件；未對應成分保留待確認。",
+  },
+  {
     path: "/",
     title: "乾淨運動從你我開始 | 運動禁藥案例資料庫",
     description:

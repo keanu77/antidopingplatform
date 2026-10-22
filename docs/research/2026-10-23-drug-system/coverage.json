@@ -1,0 +1,165 @@
+{
+  "generatedAt": "2026-10-22T18:25:46.354Z",
+  "sourceRetrievedAt": "2026-10-22T17:33:11.345135+00:00",
+  "catalogSha256": "f7a04977d6007534ac8f1b4da4db48adea34c1b7c625d9acccd6cfc65a904644",
+  "ruleCodeSha256": "54586614e88c15d5c63e80ad1ae4ba4686fbefa980fce5aaaac1b10d8375feee",
+  "rules": 156,
+  "ingredientNames": 7686,
+  "mappedIngredientNames": 230,
+  "unmappedIngredientNames": 7456,
+  "allProducts": {
+    "fullyNameMapped": 4933,
+    "partiallyNameMapped": 4020,
+    "noNamesMapped": 53762,
+    "missingComposition": 3807
+  },
+  "uncancelledProducts": {
+    "fullyNameMapped": 1664,
+    "partiallyNameMapped": 1787,
+    "noNamesMapped": 16425,
+    "missingComposition": 2633
+  },
+  "interpretation": "名稱可對應不等於整品已獲准使用；仍須核對途徑、時段、運動項目、劑量、S5 併用、完整 WADA 藥理類別與最新資料。未對應不能解讀成未禁用。",
+  "topUnmapped": [
+    {
+      "name": "CHLORPHENIRAMINE MALEATE",
+      "key": null,
+      "products": 2577,
+      "uncancelled": 948,
+      "exampleLicense": "內衛成製字第000053號"
+    },
+    {
+      "name": "CAFFEINE ANHYDROUS",
+      "key": null,
+      "products": 1413,
+      "uncancelled": 637,
+      "exampleLicense": "內衛藥製字第000055號"
+    },
+    {
+      "name": "DEXTROMETHORPHAN HBR",
+      "key": null,
+      "products": 1002,
+      "uncancelled": 409,
+      "exampleLicense": "內衛藥製字第000701號"
+    },
+    {
+      "name": "SODIUM CHLORIDE",
+      "key": null,
+      "products": 828,
+      "uncancelled": 399,
+      "exampleLicense": "內衛成製字第000943號"
+    },
+    {
+      "name": "PYRIDOXINE HCL",
+      "key": null,
+      "products": 1825,
+      "uncancelled": 382,
+      "exampleLicense": "內衛成製字第000139號"
+    },
+    {
+      "name": "RIBOFLAVIN (VIT B2)",
+      "key": null,
+      "products": 2102,
+      "uncancelled": 372,
+      "exampleLicense": "內衛成製字第000139號"
+    },
+    {
+      "name": "GUAIACOL GLYCERYL ETHER (EQ TO GUAIFENESIN)",
+      "key": null,
+      "products": 800,
+      "uncancelled": 300,
+      "exampleLicense": "內衛成製字第000141號"
+    },
+    {
+      "name": "NIACINAMIDE (NICOTINAMIDE)",
+      "key": null,
+      "products": 1714,
+      "uncancelled": 264,
+      "exampleLicense": "內衛成製字第000139號"
+    },
+    {
+      "name": "CYANOCOBALAMIN (VIT B12)",
+      "key": null,
+      "products": 1452,
+      "uncancelled": 227,
+      "exampleLicense": "內衛藥製字第000051號"
+    },
+    {
+      "name": "POTASSIUM CHLORIDE",
+      "key": null,
+      "products": 489,
+      "uncancelled": 222,
+      "exampleLicense": "內衛藥製字第000024號"
+    },
+    {
+      "name": "ETHENZAMIDE (ETHOXYBENZAMIDE)",
+      "key": null,
+      "products": 656,
+      "uncancelled": 211,
+      "exampleLicense": "內衛成製字第000141號"
+    },
+    {
+      "name": "THIAMINE HYDROCHLORIDE",
+      "key": null,
+      "products": 947,
+      "uncancelled": 208,
+      "exampleLicense": "內衛成製字第000155號"
+    },
+    {
+      "name": "ASCORBIC ACID (VIT C)",
+      "key": null,
+      "products": 1520,
+      "uncancelled": 196,
+      "exampleLicense": "內衛成製字第000104號"
+    },
+    {
+      "name": "POTASSIUM GUAIACOLSULFONATE",
+      "key": null,
+      "products": 382,
+      "uncancelled": 191,
+      "exampleLicense": "內衛成製字第003098號"
+    },
+    {
+      "name": "DIPHENHYDRAMINE HCL",
+      "key": null,
+      "products": 421,
+      "uncancelled": 188,
+      "exampleLicense": "內衛成製字第000030號"
+    },
+    {
+      "name": "DICLOFENAC SODIUM",
+      "key": null,
+      "products": 338,
+      "uncancelled": 179,
+      "exampleLicense": "衛署藥製字第018314號"
+    },
+    {
+      "name": "SODIUM BICARBONATE ( EQ TO SODIUM HYDROGEN CARBONATE)",
+      "key": null,
+      "products": 526,
+      "uncancelled": 178,
+      "exampleLicense": "內衛成製字第000075號"
+    },
+    {
+      "name": "CALCIUM CHLORIDE DIHYDRATE",
+      "key": null,
+      "products": 256,
+      "uncancelled": 156,
+      "exampleLicense": "內衛藥製字第000577號"
+    },
+    {
+      "name": "ALUMINUM HYDROXIDE DRIED GEL",
+      "key": null,
+      "products": 483,
+      "uncancelled": 153,
+      "exampleLicense": "內衛成製字第000901號"
+    },
+    {
+      "name": "PHENYLEPHRINE HCL",
+      "key": null,
+      "products": 375,
+      "uncancelled": 152,
+      "exampleLicense": "內衛成製字第000946號"
+    }
+  ]
+}

@@ -31,7 +31,13 @@
     "test:rules": "node --test tests/education-rules.test.mjs",
     "cf:migrate:status": "node scripts/migrate-feedback.mjs status",
     "cf:migrate:baseline": "node scripts/migrate-feedback.mjs baseline",
-    "test:migrations:local": "node --test tests/migrations/local.test.mjs"
+    "test:migrations:local": "node --test tests/migrations/local.test.mjs",
+    "drugs:import": "python3 scripts/import-tfda-drugs.py --download",
+    "drugs:assets": "node scripts/prepare-drug-assets.mjs",
+    "drugs:audit": "node scripts/audit-drug-coverage.mjs",
+    "foods:import": "python3 scripts/import-food-catalog.py --download",
+    "herbs:import": "python3 scripts/import-herbal-catalog.py",
+    "test:drugs": "python3 -m unittest discover -s tests -p 'test_*import.py' && node --test tests/drug-catalog.test.mjs tests/drug-worker.test.mjs"
   },
   "dependencies": {
     "compression": "^1.8.2",
