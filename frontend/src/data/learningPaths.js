@@ -4,7 +4,7 @@ export const learningPaths = [
   {
     id: 'athlete', label: '選手', title: '上場前，自己也會查核',
     description: '從用藥查詢、藥檢權利，到需要治療時的下一步。',
-    course: 'ADEL for National-Level Athletes／International-Level Athletes',
+    course: 'ADEL for National-Level Athletes／International-Level Athletes', courseUrl: 'https://adel.wada-ama.org/learn',
     tasks: [
       { id: 'medicine', title: '練習查詢一項藥物', description: '用成分名稱查詢，再到官方系統核對；未找到不代表可以使用。', href: '/tue?tab=tools', action: '開啟藥物查詢', evidenceId: 'quiz:sc8' },
       { id: 'testing', title: '認識藥檢通知與陪同權利', description: '走過採樣流程，說出收到通知後要做的事。', href: '/testing-process', action: '閱讀藥檢流程', evidenceId: 'quiz:kn7' },
@@ -16,7 +16,7 @@ export const learningPaths = [
   {
     id: 'coach', label: '教練', title: '把查核習慣帶進團隊',
     description: '用一堂短課建立團隊共識，知道何時轉介醫護與官方機構。',
-    course: 'ADEL for High Performance Coaches',
+    course: 'ADEL for High Performance Coaches', courseUrl: 'https://adel.wada-ama.org/learn',
     tasks: [
       { id: 'responsibility', title: '釐清選手與支援人員責任', description: '讀違規類型，討論教練如何支持選手查核而不代替醫療判斷。', href: '/education?tab=violationTypes', action: '閱讀違規類型', evidenceId: 'quiz:kn5' },
       { id: 'lesson', title: '帶一堂 12 分鐘團隊短課', description: '依下方教案討論感冒用藥與補充品情境，練習找出下一步。', href: '/learning?role=coach#mini-lesson', action: '開啟短課教案', evidenceId: 'quiz:sc8' },
@@ -28,7 +28,7 @@ export const learningPaths = [
   {
     id: 'medical', label: '醫護', title: '讓治療與規則查核接得上',
     description: '核對成分、途徑與適用規則，準備 TUE 文件及跨團隊交接。',
-    course: 'ADEL for Medical Professionals',
+    course: 'ADEL for Medical Professionals', courseUrl: 'https://adel.wada-ama.org/learn',
     tasks: [
       { id: 'route', title: '核對成分、途徑與競賽條件', description: '使用查詢工具檢視條件與限制，未能確定時轉官方諮詢。', href: '/tue?tab=tools', action: '開啟查詢與決策工具', evidenceId: 'quiz:sc5' },
       { id: 'documents', title: '檢查 TUE 申請資料是否齊備', description: '依申請指引準備診斷、檢查及治療理由；資料由醫療機構依規定保管。', href: '/tue?tab=application', action: '閱讀 TUE 申請指引', evidenceId: 'quiz:sc6' },

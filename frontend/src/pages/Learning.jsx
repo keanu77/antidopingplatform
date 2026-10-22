@@ -105,7 +105,7 @@ export default function Learning() {
       </div>
       <div className="border-t-2 border-gray-300 pt-5"><h2 className="text-xl font-bold">官方課程</h2>
         <p className="text-gray-700 my-3">在 ADEL 查找「{path.course}」。開放狀態、語言與完成證明依官方平台；賽事要求另向主辦單位確認。</p>
-        <ResourceLink href="https://adel.wada-ama.org/learn">前往 ADEL 官方學習平台</ResourceLink>
+        <ResourceLink href={path.courseUrl}>前往 ADEL 官方學習平台</ResourceLink>
       </div>
     </section>
 

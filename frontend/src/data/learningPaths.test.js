@@ -1,5 +1,6 @@
 import { describe, expect, it } from 'vitest';
 import { learningPaths, questionLearning, sharedLearningSources } from './learningPaths';
+import { learningRoles } from './learningRoles';
 import { scenarioQuestions, knowledgeQuestions } from './quiz';
 import { registry } from '../../../shared/content-evidence.mjs';
 
@@ -18,11 +19,14 @@ function checkLink(href) {
 describe('role learning paths', () => {
   it('gives all three roles at least three concrete tasks, a checklist and an appropriate official course', () => {
     expect(learningPaths.map(path => path.id)).toEqual(['athlete', 'coach', 'medical']);
+    expect(learningPaths.map(({ id, label }) => ({ id, label }))).toEqual(learningRoles);
     for (const path of learningPaths) {
       expect(path.tasks.length).toBeGreaterThanOrEqual(3);
       expect(new Set(path.tasks.map(task => task.id)).size).toBe(path.tasks.length);
       expect(path.checklist.length).toBeGreaterThanOrEqual(3);
       expect(path.course).toContain('ADEL');
+      expect(new URL(path.courseUrl).protocol).toBe('https:');
+      expect(new URL(path.courseUrl).hostname).toBe('adel.wada-ama.org');
       for (const task of path.tasks) {
         expect(task.action.length).toBeGreaterThan(3); checkLink(task.href);
         expect(registry.entries[task.evidenceId]?.references.length).toBeGreaterThan(0);

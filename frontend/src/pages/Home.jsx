@@ -13,7 +13,7 @@ import {
   ArrowRight,
 } from "lucide-react";
 import { statsAPI } from "../services/api";
-import { learningPaths } from "../data/learningPaths";
+import { learningRoles } from "../data/learningRoles";
 
 const facts = [
   "115 年全中運、全大運及全民運動會取消將線上測驗通過證明列為報名條件；選手仍應學習運動禁藥防制知識，其他賽會依各自公告",
@@ -124,7 +124,7 @@ function Home() {
             <Link to="/prohibited-list" className="clean-secondary"><Shield size={18} />瀏覽禁用清單</Link>
           </div>
           <nav aria-label="選擇學習角色" className="mt-6 flex flex-wrap gap-3">
-            {learningPaths.map(role => <Link key={role.id} to={`/learning?role=${role.id}`} className="inline-flex items-center gap-2 rounded-lg border border-white/50 bg-emerald-950/70 px-4 py-3 text-sm font-semibold text-white hover:bg-emerald-900">我是{role.label}<ArrowRight size={15} /></Link>)}
+            {learningRoles.map(role => <Link key={role.id} to={`/learning?role=${role.id}`} className="inline-flex items-center gap-2 rounded-lg border border-white/50 bg-emerald-950/70 px-4 py-3 text-sm font-semibold text-white hover:bg-emerald-900">我是{role.label}<ArrowRight size={15} /></Link>)}
           </nav>
           <p className="clean-hero-note">運動禁藥防制互動教學平台 · 學習不能代替官方用藥查核</p>
         </div>

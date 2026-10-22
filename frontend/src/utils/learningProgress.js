@@ -28,9 +28,9 @@ export function progressExpiry(now) {
   const boundaries = allQuestions.flatMap(q => {
     const entry = registry.entries[`quiz:${q.id}`];
     const version = registry.versions[entry?.ruleVersion];
-    return [version?.effectiveUntil && new Date(`${version.effectiveUntil}T00:00:00`).getTime(),
-      entry?.nextReviewAt && new Date(`${entry.nextReviewAt}T23:59:59.999`).getTime(),
-      version?.nextReviewAt && new Date(`${version.nextReviewAt}T23:59:59.999`).getTime()].filter(Number.isFinite);
+    return [version?.effectiveUntil && new Date(`${version.effectiveUntil}T00:00:00+08:00`).getTime(),
+      entry?.nextReviewAt && new Date(`${entry.nextReviewAt}T23:59:59.999+08:00`).getTime(),
+      version?.nextReviewAt && new Date(`${version.nextReviewAt}T23:59:59.999+08:00`).getTime()].filter(Number.isFinite);
   });
   return Math.min(now + PROGRESS_MAX_AGE, ...boundaries);
 }

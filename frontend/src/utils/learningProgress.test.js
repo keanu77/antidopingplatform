@@ -39,9 +39,9 @@ describe('anonymous learning progress', () => {
 
   it('invalidates a changed revision and expires saved 2026 answers at 2027 midnight', () => {
     expect(parseProgress(record(), now, 'new-content-revision')).toBeNull();
-    expect(progressExpiry(now)).toBeLessThanOrEqual(new Date('2027-01-01T00:00:00').getTime());
+    expect(progressExpiry(now)).toBe(new Date('2026-12-31T23:59:59.999+08:00').getTime());
     const storage = storageMock(); saveProgress(storage, progress, now);
-    expect(readProgress(storage, new Date('2027-01-01T00:00:00').getTime())).toEqual(emptyProgress());
+    expect(readProgress(storage, new Date('2027-01-01T00:00:00+08:00').getTime())).toEqual(emptyProgress());
     expect(storage.getItem(PROGRESS_KEY)).toBeNull();
     expect(contentRevision({ option: 'A' })).not.toBe(contentRevision({ option: 'B' }));
   });

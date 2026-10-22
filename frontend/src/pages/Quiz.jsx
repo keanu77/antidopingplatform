@@ -6,7 +6,7 @@ import { learningPaths, questionLearning } from '../data/learningPaths';
 import { allQuestions, mergeAnswer, validReviewDate, progressExpiry } from '../utils/learningProgress';
 import { answerQuestion, createQuizSession, eligibleQuestions, questionEvidence, sessionResults } from '../utils/quizSession';
 import useLearningProgress from '../utils/useLearningProgress';
-import { calendarDate } from '../../../shared/content-evidence.mjs';
+import { calendarDate, nextContentDateBoundary } from '../../../shared/content-evidence.mjs';
 
 const primaryButton = 'inline-flex items-center justify-center gap-2 rounded-lg bg-emerald-800 px-5 py-3 font-semibold text-white hover:bg-emerald-900 disabled:opacity-50 disabled:cursor-not-allowed';
 const secondaryButton = 'inline-flex items-center justify-center gap-2 rounded-lg border border-gray-300 bg-white px-4 py-3 text-gray-800 hover:bg-gray-50 disabled:opacity-50 disabled:cursor-not-allowed';
@@ -50,9 +50,8 @@ function Quiz() {
 
   useEffect(() => {
     const refresh = () => setAsOf(calendarDate());
-    const tomorrow = new Date();
-    tomorrow.setHours(24, 0, 0, 50);
-    const timer = window.setTimeout(refresh, tomorrow.getTime() - Date.now());
+    const boundary = nextContentDateBoundary(new Date());
+    const timer = window.setTimeout(refresh, boundary.getTime() - Date.now() + 50);
     document.addEventListener('visibilitychange', refresh);
     return () => { window.clearTimeout(timer); document.removeEventListener('visibilitychange', refresh); };
   }, [asOf]);
