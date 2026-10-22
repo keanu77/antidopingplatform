@@ -48,3 +48,31 @@ test('overdue review or absent reference locator prevents permission without mut
   const original=JSON.stringify(data.substances.guanfacine);publicSubstance(data.substances.guanfacine,'2027-01-01');assert.equal(JSON.stringify(data.substances.guanfacine),original);
   assert.equal(publicQuiz({id:999},'2026-10-23').correctAnswer,null);
 });
+
+test('missing or malformed registry dates fail closed for otherwise checked evidence', async t => {
+  const fields = [
+    ['entry', 'verifiedAt'], ['entry', 'nextReviewAt'],
+    ['version', 'verifiedAt'], ['version', 'nextReviewAt'],
+    ['version', 'effectiveFrom'], ['version', 'effectiveUntil'],
+  ];
+  for (const [scope, field] of fields) {
+    for (const value of [undefined, null, '', 'not-a-date', '2026-02-30', '2026-13-01']) {
+      await t.test(`${scope}.${field}=${String(value)}`, () => {
+        const copy = structuredClone(registry);
+        const record = scope === 'entry' ? copy.entries['drug:guanfacine'] : copy.versions['wada-2026'];
+        if (value === undefined) delete record[field];
+        else record[field] = value;
+        assert.equal(assessEvidence('drug:guanfacine', 'wada-2026', '2026-10-23', copy).valid, false);
+      });
+    }
+  }
+});
+
+test('review deadlines cannot precede their recorded verification dates', () => {
+  for (const scope of ['entry', 'version']) {
+    const copy = structuredClone(registry);
+    const record = scope === 'entry' ? copy.entries['drug:guanfacine'] : copy.versions['wada-2026'];
+    record.nextReviewAt = '2026-10-22';
+    assert.equal(assessEvidence('drug:guanfacine', 'wada-2026', '2026-10-21', copy).valid, false);
+  }
+});

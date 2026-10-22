@@ -5,7 +5,12 @@ import EvidenceLinks from '../components/EvidenceLinks';
 
 export default function ContentSources() {
   const [params] = useSearchParams();
-  const [query, setQuery] = useState(params.get('id') || '');
+  const selectedId = params.get('id') || '';
+  return <SourceRegistry key={selectedId} selectedId={selectedId} />;
+}
+
+function SourceRegistry({ selectedId }) {
+  const [query, setQuery] = useState(selectedId);
   const entries = Object.entries(registry.entries).filter(([id,e]) => `${id} ${e.title}`.toLowerCase().includes(query.toLowerCase()));
   return <div className="max-w-4xl mx-auto space-y-8">
     <header><h1 className="text-3xl font-bold">來源、規則版本與核對紀錄</h1><p className="mt-3 text-gray-700">完整盤點 50 項藥物、16 題正式測驗及 70 題舊題庫。來源核對與臨床簽核是不同程序；尚無逐項具名專業簽核紀錄。</p><Link to="/editorial-policy" className="inline-block mt-3 text-primary-700 underline">編輯政策與內容更正</Link></header>
@@ -19,7 +24,7 @@ export default function ContentSources() {
     <section className="space-y-3"><h2 className="text-xl font-bold">逐項來源登錄</h2><p className="text-gray-700">44 項藥物已核對所列規則來源；6 項尚缺個別許可證據，工具顯示資料不足，不代表禁用。舊題庫僅第 1 題已核對，另外 69 題暫停答案評分。</p>
       <label className="block font-medium" htmlFor="source-search">搜尋藥物、題目或來源識別碼</label><input id="source-search" value={query} onChange={e=>setQuery(e.target.value)} className="w-full rounded-lg border border-gray-300 px-4 py-3" placeholder="例如 salbutamol、sc4、legacy-quiz" />
       <p role="status" className="text-sm text-gray-600">找到 {entries.length} 項</p>
-      {entries.map(([id,e]) => <details key={id} open={params.get('id') === id || undefined} className="rounded-lg border border-gray-200 bg-white p-4">
+      {entries.map(([id,e]) => <details key={id} open={selectedId === id || undefined} className="rounded-lg border border-gray-200 bg-white p-4">
         <summary className="cursor-pointer font-semibold">{e.title} <span className="font-normal text-sm">（{registry.statusLabels[e.verificationStatus]}）</span></summary>
         <p className="mt-3 text-sm text-gray-600">識別碼：{id} · {registry.versions[e.ruleVersion].label}</p>
         <p className="mt-2">{e.reviewScope}</p><p className="mt-2 text-sm">責任角色：{e.ownerRole}；複核期限：{e.nextReviewAt}；有效期間：{registry.versions[e.ruleVersion].effectiveFrom || "尚未確認"} 起，至 {registry.versions[e.ruleVersion].effectiveUntil || "尚未確認"} 前。</p>
