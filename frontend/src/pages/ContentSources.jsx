@@ -18,6 +18,7 @@ function SourceRegistry({ selectedId }) {
       <h2 className="text-xl font-bold">2026／2027 規則交接</h2>
       <p>目前平台啟用的藥物規則為 2026 清單，有效期間為 2026-01-01 至 2026-12-31。WADA 已於 2026-09-21 公布 2027 清單，官方生效日為 2027-01-01。</p>
       <p>2027 版在本平台仍為「已公布、未啟用」。完成逐項來源核對、差異更新、日期與判定測試後，才會另行發布。跨年不會自動把舊規則標成新版；過期、缺證據或逾複核日會停止確定判定。</p>
+      <p className="text-sm">平台內容有效期與複核期限統一以臺灣時間（Asia/Taipei，UTC+08:00）為準，於日期邊界重新檢查。這是內容版本的有效期限，不是個別賽會的賽內／賽外時段判定。</p>
       <a className="block text-primary-700 underline" href={registry.sources['list-2027'].url} target="_blank" rel="noopener noreferrer">開啟 WADA 2027 官方公告、清單與修訂摘要</a>
       <p className="text-sm">公告及日期核對：2026-10-23；負責角色：規則內容維護編輯；下次複核：2026-12-31。這不是已完成 2027 全站內容審查的聲明。</p>
     </section>

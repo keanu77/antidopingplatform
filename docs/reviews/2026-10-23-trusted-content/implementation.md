@@ -27,7 +27,7 @@ This change registers evidence and enforces version validity. It is not a claim 
 
 ## Implementation and maintenance
 
-Registry: `backend/data/content-registry.json`; pure shared guard: `shared/content-evidence.mjs`. Entry metadata inherits year/effective dates from the named version. Guard checks known source+locator, checked status, active matching version, inclusive start/exclusive end and review deadline. Default is local calendar date; callers can pass an explicit `YYYY-MM-DD` for deterministic tests. It does not automatically activate2027.
+Registry: `backend/data/content-registry.json`; pure shared guard: `shared/content-evidence.mjs`. Entry metadata inherits year/effective dates from the named version. Guard checks known source+locator, checked status, valid verification/review/effective dates, active matching version, inclusive start/exclusive end and review deadline. Content validity uses the declared `Asia/Taipei` calendar date (UTC+08:00) in both browser and API, independently of each runtime's local timezone. `nextContentDateBoundary()` supplies the same next Taiwan midnight for UI refresh timers. This cutoff governs content versions and review deadlines, not an event's in-/out-of-competition period. Callers can pass an explicit `YYYY-MM-DD` for deterministic evaluation. It does not automatically activate2027.
 
 Public routes: `/sources` (including `?id=drug:salbutamol` and `#rule-transition`), `/editorial-policy`, `/case-learning` (`#evidence-queue`). Quick lookup, decision result and quiz explanations provide direct official links and registry details. Policy explains correction flow, real existing public contact, pending disclosure and lack of certification.
 

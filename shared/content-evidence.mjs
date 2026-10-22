@@ -1,10 +1,23 @@
 import registry from '../backend/data/content-registry.json' with { type: 'json' };
 export { registry };
 
-// A local calendar date is intentional: competition dates follow the event's local date.
+export const CONTENT_TIME_ZONE = 'Asia/Taipei';
+const contentDateFormatter = new Intl.DateTimeFormat('en', {
+  timeZone: CONTENT_TIME_ZONE, year: 'numeric', month: '2-digit', day: '2-digit',
+});
+
+// Content validity and review deadlines use Taiwan time in both browser and API.
+// This is separate from an event's in-/out-of-competition timing.
 export function calendarDate(now = new Date()) {
   if (!(now instanceof Date) || Number.isNaN(now.getTime())) return null;
-  return `${now.getFullYear()}-${String(now.getMonth() + 1).padStart(2, '0')}-${String(now.getDate()).padStart(2, '0')}`;
+  const parts = Object.fromEntries(contentDateFormatter.formatToParts(now).map(({ type, value }) => [type, value]));
+  return `${parts.year}-${parts.month}-${parts.day}`;
+}
+
+// Taiwan's platform date boundary is midnight UTC+08:00, regardless of host TZ.
+export function nextContentDateBoundary(now = new Date()) {
+  const date = calendarDate(now);
+  return date ? new Date(Date.parse(`${date}T00:00:00+08:00`) + 24 * 60 * 60 * 1000) : null;
 }
 
 function isCalendarDate(value) {
