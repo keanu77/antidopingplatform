@@ -37,6 +37,7 @@ export function assessEvidence(evidenceId, ruleVersion, asOf = calendarDate(), c
   else if (!isCalendarDate(asOf) || !isCalendarDate(version.effectiveFrom) || !isCalendarDate(version.effectiveUntil)
     || version.effectiveFrom >= version.effectiveUntil
     || asOf < version.effectiveFrom || asOf >= version.effectiveUntil) reason = '規則有效期間不完整或目前日期不在有效期內，請查閱當年度官方規範。';
+  else if (entry.verifiedAt > asOf || version.verifiedAt > asOf) reason = '核對日期晚於目前日期，紀錄無效，需重新核對官方來源後才能判定。';
   else if (!isCalendarDate(entry.nextReviewAt) || !isCalendarDate(version.nextReviewAt)
     || entry.nextReviewAt < entry.verifiedAt || version.nextReviewAt < version.verifiedAt
     || asOf > entry.nextReviewAt || asOf > version.nextReviewAt) reason = '複核日期不完整、無效或已逾期，需重新核對官方來源後才能判定。';

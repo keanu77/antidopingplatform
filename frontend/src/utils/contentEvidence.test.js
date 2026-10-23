@@ -11,8 +11,11 @@ describe('來源與規則版本守門', () => {
   it.each(['2025-12-31', '2027-01-01', '2027-06-01', 'bad-date'])('日期 %s 不可使用2026允許判定', (asOf) => {
     expect(evaluateDrug(drug(), { asOf }).verdict).toBe('unknown');
   });
-  it.each(['2026-01-01', '2026-12-31'])('有效日期 %s 仍可判讀已核對規則', (asOf) => {
+  it.each(['2026-10-23', '2026-12-31'])('有效日期 %s 仍可判讀已核對規則', (asOf) => {
     expect(evaluateDrug(drug(), { asOf }).verdict).toBe('permitted');
+  });
+  it.each(['2026-01-01', '2026-10-22'])('核對日期之前的 %s 不可沿用尚未發生的核對結果', (asOf) => {
+    expect(evaluateDrug(drug(), { asOf }).verdict).toBe('unknown');
   });
   it('已公布的2027版本不得自動啟用', () => {
     expect(evaluateDrug({ ...drug(), ruleVersion: 'wada-2027' }, { asOf: '2027-01-01' }).verdict).toBe('unknown');
