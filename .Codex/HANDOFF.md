@@ -1,4 +1,22 @@
-# HANDOFF — 2026-10-23：商品查詢只保留西藥
+# HANDOFF — 2026-10-23：repo-launch 已發布
+
+## 最新狀態：repo 文件與分享入口
+
+使用者要求依 repo-launch 整理 repo，已完成文件、示範媒體、GitHub 設定與首個 release。應用程式、原始資料與判讀邏輯沒有更動。
+
+- Release `v1.0.0`：https://github.com/keanu77/antidopingplatform/releases/tag/v1.0.0 ，tag 目標 `92ec1ce90bb84bf567055bb656490500957ca3cc`，四個媒體附件均 uploaded。
+- 最新整理工作樹 `/private/tmp/antidoping-repo-launch-20261023`，分支 `docs/repo-launch-20261023`；main 已快轉。原工作樹仍保留舊開發分支與未提交研究，不要直接從該分支發布。舊發布工作樹 `/private/tmp/antidoping-drug-release-20261023` 目前也比 main 的文件版本舊。
+- 中英文 README 改為現行西藥範圍與可複製的 Pages 快速開始；原案例查核文字保存到 `docs/data-review-history.md`，三類查詢／97%歷史研究加上現況入口。新增開發、資料維護與授權來源指南、MIT 授權檔、CONTRIBUTING、SECURITY、CHANGELOG。
+- 正式網站 Demo 沿用 Cloudflare。GitHub homepage、description、12 topics 及 private vulnerability reporting 已更新並讀回；GitHub 已辨識 MIT。公開 repo 的 README GIF、網站與英文連結經 Chromium 實際驗證。
+- 全新隔離 Ubuntu 24.04 ARM64，Node22.23.4／npm10.9.9，從公開 clone 完成安裝與build；175前端、22API、13規則、18smoke、lint／HTML／容量及本機D1 migration通過，未配置正式帳號／金鑰／MongoDB。測試 source SHA ed606f9 的程式與鎖檔在此次文件發布中未改。
+- 媒體為26.7秒MP4、12秒teaser、約0.83MB GIF及1280×640分享圖；Chromium與WebKit均播放到結束。`docs/launch/`有來源腳本、發布說明與未發布分享草稿。
+- 正式程式仍是 `ca699133454a2c493e34ee216a572a35169853da`／https://7a2ff325.antidoping-platform.pages.dev 。只有docs與Markdown變更，沒有再次部署；main文件HEAD、release tag與正式程式SHA不同是刻意的範圍區別。
+- 詳細驗證 `docs/launch/verification.md`；完整本機證據 `artifacts/drugs/repo-launch-20261023/`。原工作樹只同步這次新的README／政策／指南／媒體與交接，既有研究修改保留。
+- 人工收尾：repo-launch明示社群預覽圖與X／FB貼文由使用者手動處理。預覽圖位於`docs/launch/social-preview.png`，到GitHub Settings → General → Social preview上傳；目前仍是GitHub預設圖，不能稱已套用。X／FB只有草稿，沒有代發。
+- 專用VM `antidoping-launch-20261023` 已停止、證據已匯出；已依skill詢問是否刪除，未獲回覆前保留，不能刪除其他VM。
+
+## 前一次網站發布：西藥查詢與明細精簡
+
 
 ## 最新狀態（取代下方歷史版本的查詢入口）
 
