@@ -2,10 +2,9 @@ import { useEffect, useRef, useState } from "react";
 import { useSearchParams } from "react-router-dom";
 import { Search, ArrowRight, Database, ExternalLink, RotateCcw } from "lucide-react";
 import DrugProductDetail from "../components/DrugProductDetail.jsx";
-import DrugValidationSummary from "../components/DrugValidationSummary.jsx";
 import CatalogNavigation from "../components/CatalogNavigation.jsx";
 import { createDrugSearchClient } from "../services/drugSearch.js";
-import { DRUG_RULE_COUNT, DRUG_RULE_VERSION, matchDrugIngredient } from "../utils/drugAssessment.js";
+import { DRUG_RULE_VERSION, matchDrugIngredient } from "../utils/drugAssessment.js";
 
 function MatchSummary({ product }) {
   const matches = product.ingredientNames.map(matchDrugIngredient);
@@ -90,7 +89,7 @@ export default function DrugSearch() {
       <CatalogNavigation />
     </div>
 
-    <form onSubmit={(e) => { e.preventDefault(); search(); }} className="rounded-xl border border-gray-200 bg-white p-5 sm:p-6">
+    <form onSubmit={(e) => { e.preventDefault(); search(); }} className="mb-6 rounded-xl border border-gray-200 bg-white p-5 sm:p-6">
       <label htmlFor="drug-query" className="block text-sm font-semibold text-gray-900">商品名、成分或許可證字號</label>
       <div className="mt-2 flex flex-col gap-3 sm:flex-row">
         <input id="drug-query" ref={inputRef} type="search" autoComplete="off" minLength={2} maxLength={100} required value={query} onChange={(e) => setQuery(e.target.value)} placeholder="例如：普拿疼、tramadol、衛署藥製字第036167號" className="min-w-0 flex-1 rounded-lg border border-gray-300 px-4 py-3 text-base focus:border-emerald-600 focus:outline-none focus:ring-2 focus:ring-emerald-200" />
@@ -106,15 +105,6 @@ export default function DrugSearch() {
 
     {!manifest && !error && <p role="status" className="my-6 text-sm text-gray-600">正在載入並驗證 TFDA 查詢索引，首次下載需要稍候……</p>}
     {error && <div role="alert" className="my-5 rounded-lg border border-red-200 bg-red-50 p-4 text-sm text-red-900">{error}{!manifest && <button type="button" className="ml-4 underline" onClick={() => { setError(""); setAttempt((n) => n + 1); }}>重新載入資料</button>}</div>}
-    {manifest && <div className="my-5 flex flex-wrap gap-x-5 gap-y-2 text-xs text-gray-500">
-      <span>{manifest.counts.products.toLocaleString()} 筆許可證</span><span>{manifest.counts.uncancelledProducts.toLocaleString()} 筆未標示註銷</span><span>取得：{new Date(manifest.retrievedAt).toLocaleDateString("zh-TW")}</span><span>規則：WADA {DRUG_RULE_VERSION.listVersion} · {DRUG_RULE_COUNT} 項列名物質（部分收錄）</span>
-    </div>}
-    {manifest?.coverage?.rules === DRUG_RULE_COUNT && <div className="mb-5 rounded-lg border border-gray-200 bg-gray-50 p-4 text-sm text-gray-700">
-      <p>完整成分對照：<strong>{manifest.coverage.target.coveragePercent.toFixed(2)}%</strong> · 目標 {manifest.coverage.target.percent}%{!manifest.coverage.target.targetMet && "（尚未達標）"}</p>
-      <p className="mt-1 text-xs leading-relaxed">以未註銷且有成分的 {manifest.coverage.target.total.toLocaleString()} 筆為分母，已完成 {manifest.coverage.target.fullyMappedWithoutSourceConflict.toLocaleString()} 筆；另有 {manifest.coverage.allUncancelled.missingComposition.toLocaleString()} 筆未註銷資料缺少成分。此比例代表名稱對照，並非用藥安全性或判定正確率。</p>
-      <p className="mt-2 text-xs leading-relaxed">若把來源缺少成分的資料也納入，分母為全部 {manifest.counts.uncancelledProducts.toLocaleString()} 筆未標示註銷許可證，完整名稱對照比例為 <strong>{(100 * manifest.coverage.target.fullyMappedWithoutSourceConflict / manifest.counts.uncancelledProducts).toFixed(2)}%</strong>。</p>
-    </div>}
-    <DrugValidationSummary />
 
     {detailLoading && selectedId && <p role="status" className="py-6 text-sm text-gray-600">正在讀取藥品詳細資料……</p>}
     {selectedId && product?.id === selectedId && <DrugProductDetail key={product.id} product={product} manifest={manifest} onClose={closeDetail} headingRef={headingRef} />}
@@ -146,8 +136,8 @@ export default function DrugSearch() {
 
     {manifest && <details className="mt-8 border-t border-gray-200 pt-5 text-sm text-gray-600"><summary className="cursor-pointer font-medium text-gray-800">資料來源、更新與涵蓋範圍</summary><div className="mt-3 space-y-3 leading-relaxed">
       <p>{manifest.attribution} <a className="text-emerald-800 underline" href={manifest.licenseUrl} target="_blank" rel="noopener noreferrer">授權條款</a></p>
-      <p>共匯入 {manifest.counts.licenseRows.toLocaleString()} 列許可證、{manifest.counts.ingredientRows.toLocaleString()} 列處方成分，依許可證去重為 {manifest.counts.products.toLocaleString()} 筆。資料為下載時的快照，不代表即時藥證狀態；來源標示每週更新，請核對本頁的資料取得日期。</p>
-      <p>有 {manifest.counts.withoutComposition.toLocaleString()} 筆來源缺少成分。規則涵蓋 {DRUG_RULE_COUNT} 項列名物質，尚未涵蓋所有同類藥理作用物質、中藥與營養品；尚無逐商品的專業核准。</p>
+      <p>資料為下載時的快照，不代表即時藥證狀態；請至原始來源核對最新資料。</p>
+      <p>部分來源缺少成分，規則尚未涵蓋所有同類藥理作用物質；尚無逐商品的專業核准。</p>
       <p>WADA 規則適用期間：{DRUG_RULE_VERSION.effectiveFrom} 至 {DRUG_RULE_VERSION.effectiveThrough}，核對日期：{DRUG_RULE_VERSION.checkedAt}。產品許可證與禁用判讀屬不同資料層。</p>
       <a className="inline-flex items-center gap-1 text-emerald-800 underline" href="https://www.check-antidoping.org.tw/inquiry.php?category=2" target="_blank" rel="noopener noreferrer">到 TADA 官方系統核對<ExternalLink size={14} /></a>
     </div></details>}

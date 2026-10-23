@@ -7,7 +7,7 @@ test.beforeEach(async ({ page }) => {
 
 async function openDrug(page, license) {
   await page.goto("/drug-search");
-  await expect(page.getByText("完整成分對照：", { exact: false })).toBeVisible();
+  await expect(page.getByRole("button", { name: "查詢", exact: true })).toBeEnabled();
   await page.getByLabel("商品名、成分或許可證字號", { exact: true }).fill(license);
   await page.getByRole("button", { name: "查詢", exact: true }).click();
   const results = page.getByRole("region", { name: "藥品搜尋結果" });
@@ -31,18 +31,13 @@ test("riociguat remains conditional for CMAS, preserves deep links, and expires 
   await expect(detail.getByText("超出規則適用年份，請重新查證", { exact: true })).toHaveCount(2);
 });
 
-test("Western product search retains full mixture and honest validation denominators", async ({ page }) => {
+test("Western product search retains the full mixture and restriction reminder", async ({ page }) => {
   await openDrug(page, "衛署藥輸字第023917號");
   await expect(page.locator("#drug-detail-heading")).toBeVisible();
   const detail = page.locator('section[aria-labelledby="drug-detail-heading"]');
   await expect(detail).toContainText("TRAMADOL");
   await expect(detail).toContainText("ACETAMINOPHEN");
   await expect(detail.getByText("含禁用成分，需專業確認", { exact: true })).toHaveCount(1);
-  await expect(page.getByText("97.01%", { exact: true })).toBeVisible();
-  await expect(page.getByText("85.66%", { exact: true })).toBeVisible();
-  await page.getByText("與 TADA 的抽樣查驗：範圍與限制", { exact: true }).click();
-  await expect(page.getByText(/373 筆可直接比較，賽內外狀態均一致/)).toBeVisible();
-  await expect(page.getByText(/尚不能換算為整個資料庫的準確率/)).toBeVisible();
 });
 
 for (const [path, query, input, note] of [
@@ -64,7 +59,7 @@ for (const [path, query, input, note] of [
 
 test("drug search is accessible, responsive and missing results do not imply permission", async ({ page }, testInfo) => {
   await page.goto("/drug-search");
-  await expect(page.getByText("完整成分對照：", { exact: false })).toBeVisible();
+  await expect(page.getByRole("button", { name: "查詢", exact: true })).toBeEnabled();
   const scan = await new AxeBuilder({ page }).withTags(["wcag2a", "wcag2aa", "wcag21aa", "wcag22aa"]).analyze();
   expect(scan.violations.filter((v) => ["serious", "critical"].includes(v.impact))).toEqual([]);
   expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth + 1)).toBe(true);
