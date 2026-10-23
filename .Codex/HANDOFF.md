@@ -1,14 +1,16 @@
-# HANDOFF — 2026-10-23：查詢頁面資訊已簡化
+# HANDOFF — 2026-10-23：商品查詢只保留西藥
 
-## 最新狀態（取代下方前版顯示狀態）
+## 最新狀態（取代下方歷史版本的查詢入口）
 
-使用者要求不在頁面顯示資料總數、取得日期橫列、列名物質數、覆蓋率及TADA查驗區塊，已移除並部署。來源資料、判讀規則及原始查驗證據保留；查詢結果筆數與必要用藥提醒保留。
+使用者明確要求「只有查詢的部分移除中藥跟營養品」，已部署完成。商品查詢只保留西藥；教育頁「補充劑安全」及中藥／營養品相關教育內容保留。西藥成分明細不再逐項重複TADA連結與內部查核說明，底部「前往 TADA 核對商品」保留。先前要求移除的總數、覆蓋率與TADA驗證摘要仍未顯示。
 
-- 正式程式SHA `e3c39c4c23e228ad0bffc9f40c97dff27f88d436`，workflow `39931644089`成功，公開version.json一致。固定部署 https://6ee796fe.antidoping-platform.pages.dev 。
-- 發布工作樹 `/private/tmp/antidoping-drug-release-20261023`，目前分支 `fix/drug-search-display-20261023`；原工作樹仍保留舊開發分支，不直接從原工作樹覆蓋正式版。
-- 本機lint、175前端測試、build／容量／HTML、15查詢瀏覽器測試通過；正式流程78瀏覽器及18smoke通過；部署後公開網站15項查詢測試通過，桌機與手機畫面已查看。
-- 詳細紀錄 `docs/research/2026-10-23-drug-system/display-cleanup.md`，證據 `artifacts/drugs/display-cleanup-20261023/`。沒有未完成的發布步驟。前一可回復版本為下方eca41a3。
-- 文件補記不觸發部署，main文件HEAD可能較程式SHA新。後續維護沿用下方資料與更新流程；不要把已移除的統計／驗證摘要放回頁面。
+- 網站 https://antidopingplatform.sportsmedicine.tw/drug-search 。正式程式SHA `ca699133454a2c493e34ee216a572a35169853da`，workflow `39935480312`成功；公開version.json一致，builtAt `2026-10-23T09:59:03.924Z`。固定部署 https://7a2ff325.antidoping-platform.pages.dev 。
+- 發布工作樹 `/private/tmp/antidoping-drug-release-20261023`，目前分支 `fix/western-drug-focus-20261023`。原工作樹仍是舊開發分支，僅回寫紀錄與證據，勿直接從原工作樹覆蓋正式版本。
+- `9e504ef`移除中藥／營養品查詢路由、入口與生成的公開搜尋資料；原始`data/products/`保留，離線worker測試可明確使用`--include-archived-catalogs`。正式build會清除該產物。西藥資料與判讀邏輯未改，pending紀錄沒有改為專業核准。
+- 首次公開驗收12通過、3失敗：舊查詢頁已404，但自訂網域兩個舊manifest仍有快取；固定部署與帶新參數請求皆404。局部Cache Purge因現有OAuth欠缺權限回401，未清除其他快取、未索取憑證。`ca69913`增加`functions/product-data/[[path]].js`固定回404／no-store，已直接驗證不帶參數的兩個舊manifest回404，舊查詢頁亦404。
+- 最終CI完整通過，含78項瀏覽器旅程及18項唯讀smoke；部署後公開網站15項查詢測試通過（59.1秒），包含三裝置、保留教育tab、底部TADA連結與停用舊路徑。桌機及手機明細截圖已查看。沒有D1修改、有效回饋寫入、寄信或新增臨床核准。
+- 詳細紀錄 `docs/research/2026-10-23-drug-system/western-only.md`，證據 `artifacts/drugs/western-only-20261023/`。沒有未完成的發布步驟。完整前版`e3c39c4`／https://6ee796fe.antidoping-platform.pages.dev 可回復，但會恢復舊查詢；`9e504ef`版本缺少此次快取路徑修正。
+- 文件補記不觸發部署，main文件HEAD可能較程式SHA新。下方三類查詢入口與當時分支均是歷史資訊，不能當作現況。後續維護應先核對本段、遠端main與正式version.json；不要恢復已移除的統計摘要或中藥／營養品查詢。
 
 ## 前一次三類查詢發布背景
 
