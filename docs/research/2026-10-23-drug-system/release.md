@@ -25,9 +25,28 @@
 - 瀏覽器：既有63項通過；新增15項在修正測試的select定位後全數通過（桌機Chromium、手機Chromium、手機WebKit）。初次缺少對應瀏覽器快取，安裝後重跑；不把未啟動的測試算通過。
 - 正式執行依賴npm audit：前端與根目錄均0項漏洞；沿用主分支lockfile，未升級套件。
 - 26個凍結快照檔案SHA逐一重核無變更。
-- 正式部署證據待發布完成後補入。
+- PR #8 合併前 CI（39928028474）及正式部署流程（39928791496）均通過完整78項瀏覽器測試。兩次均包含其他工作階段先合併的PR #7日期／來源有效性修正，最終測試數為前端175、後端91、Python42、Node147、本機D1遷移4項。
 
-部署前正式站已直接確認SHA：`af8a47f2ff3f6319f65648997d6cb322a251ff64`，HTTP200。這是本次回復基準，不把文件提交a584e84當成正式執行版本。
+## 正式部署
+
+- [PR #8](https://github.com/keanu77/antidopingplatform/pull/8) 已合併。正式程式SHA `eca41a39a97abee1321c0cb3935d2bbebe22395c`，`version.json` 的 builtAt 為 `2026-10-23T09:03:53.744Z`；已直接從正式網域讀回相同SHA。
+- [正式部署流程39928791496](https://github.com/keanu77/antidopingplatform/actions/runs/39928791496) 成功，6分7秒；建置、全部測試、78項瀏覽器旅程、上傳、版本核對與18項唯讀API smoke全部通過。
+- Cloudflare部署ID `80413963-b7c1-4824-b874-b441a10cd52c`，固定網址 <https://80413963.antidoping-platform.pages.dev>。
+- 正式入口：[西藥](https://antidopingplatform.sportsmedicine.tw/drug-search)、[中藥](https://antidopingplatform.sportsmedicine.tw/herbal-search)、[食品／營養品](https://antidopingplatform.sportsmedicine.tw/supplement-search)。
+- 可回復的緊鄰前版為PR #7的 `f77d4ee4d5f62361d78fa447ba32346dc7c4e3d1`，部署ID `0d755bfa-59c0-4aed-ba8d-9ee09876836b`，<https://0d755bfa.antidoping-platform.pages.dev>。最初檢查時的af8a47f已被該版取代，不能當成本次緊鄰前版。
+- 部署後以 `E2E_BASE_URL=https://antidopingplatform.sportsmedicine.tw npm --prefix frontend run test:browser` 直接測試公開網站，**78／78通過（2.5分鐘）**，涵蓋桌機Chromium、手機Chromium、手機WebKit。包含三類查詢、完整配方、riociguat保留判讀、2027停止判讀、reload／深連結、來源摘要、鍵盤與無障礙、行動版無水平溢出。三種裝置截圖均已實際查看；完整報告及圖片保存在本次artifacts。與流程內使用建置產物本機伺服器的78項測試分開記錄。
+- 四項獨立正式環境驗收通過：必要secret名稱齊全（未讀值）；D1三筆migration無待執行項、schema／索引相符、回饋仍6筆且ID1–6；API與同源限制8項回應符合預期；DNS、TLS憑證及三個新路由皆正常。
+- `EXPECTED_SHA=eca41a39a97abee1321c0cb3935d2bbebe22395c npm run check:live` 通過，517案例、來源有效期無警告。基礎來源44／50有效、6筆待審保持不可用；這是既有基礎來源集合，與97.01%商品名稱覆蓋分母不同。
+- 未測試有效回饋新增、實際寄信送達、第三方郵件key效力或自然月度排程；未發出郵件、未新增正式回饋、未改D1 schema。既有讀取與拒絕行為的成功不代表這些未測能力已完成。
+- 證據：原工作樹 `artifacts/drugs/release-20261023/` 內的 `production-workflow.log`、`production-browser.log`、`production-playwright-report/`、四份 `production-*-check.json`、`deployments-after.json` 與 `deployment-receipt.json`。文件補記提交不觸發部署，因此遠端main文件HEAD可能高於實際程式SHA。
+
+## 月度更新實際驗證
+
+[首次手動啟動的更新流程39928979491](https://github.com/keanu77/antidopingplatform/actions/runs/39928979491) 成功，下載66,522筆；名稱覆蓋97.01147112094989%，品質守門通過，新增／刪除／異動均0筆。候選狀態`ready-for-review`、`applied:false`、`productionDeployed:false`，沒有替換凍結來源。
+
+候選artifact `drug-data-update-39928979491`（ID12490074665，11,602,867 bytes）已實際下載並核對ZIP SHA `5aa85f0b28c9871e952758d78f29fb060ec8046b764617ba63ee29022e6ec195`，讀回update-report與diff。候選catalog SHA `dd07bc3fa3c75b360d0a0922843f0d08224d239878175ffa956d04e714624095`；原正式catalog SHA仍為`f7a04977d6007534ac8f1b4da4db48adea34c1b7c625d9acccd6cfc65a904644`。保留期90天，至2027-01-21。
+
+排程已在main設定為每月1日台灣09:17；這次證據是首次手動觸發成功，尚未觀察下一次自然排程執行。更新僅適用西藥來源候選；中藥、食品資料與WADA／聯盟規則仍需另行更新審核。
 
 ## CI 下載修復
 
