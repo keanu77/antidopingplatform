@@ -21,7 +21,7 @@ A new isolated OrbStack Ubuntu 24.04 ARM64 machine was created for this run. It 
 
 No Cloudflare account, API credential, `.env`, or MongoDB was configured. The root code and lockfiles tested are unchanged by this documentation release. The Mac launch worktree also completed a clean dependency installation and production build. The existing optional medicine/evidence chunks still produce Vite's large-chunk advisory; the established asset budget passed. No warning threshold was raised.
 
-The VM `antidoping-launch-20261023` was stopped after evidence export and retained. Full step logs, timings, preparation scripts, and the exported archive are kept locally under `artifacts/drugs/repo-launch-20261023/`; the small result manifest is included here as [ubuntu-result.json](ubuntu-result.json). Stopping is not deleting the VM.
+The VM `antidoping-launch-20261023` was stopped after evidence export, then deleted with the owner's approval on 2026-10-23. Its removal was verified against the machine inventory; other machines remained present. Full step logs, timings, preparation scripts, the exported archive, and `vm-cleanup.json` remain locally under `artifacts/drugs/repo-launch-20261023/`; the small result manifest is included here as [ubuntu-result.json](ubuntu-result.json).
 
 ## Demo and repository scope
 

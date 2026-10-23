@@ -13,7 +13,7 @@
 - 正式程式仍是 `ca699133454a2c493e34ee216a572a35169853da`／https://7a2ff325.antidoping-platform.pages.dev 。只有docs與Markdown變更，沒有再次部署；main文件HEAD、release tag與正式程式SHA不同是刻意的範圍區別。
 - 詳細驗證 `docs/launch/verification.md`；完整本機證據 `artifacts/drugs/repo-launch-20261023/`。原工作樹只同步這次新的README／政策／指南／媒體與交接，既有研究修改保留。
 - 人工收尾：repo-launch明示社群預覽圖與X／FB貼文由使用者手動處理。預覽圖位於`docs/launch/social-preview.png`，到GitHub Settings → General → Social preview上傳；目前仍是GitHub預設圖，不能稱已套用。X／FB只有草稿，沒有代發。
-- 專用VM `antidoping-launch-20261023` 已停止、證據已匯出；已依skill詢問是否刪除，未獲回覆前保留，不能刪除其他VM。
+- 專用VM `antidoping-launch-20261023` 已於2026-10-23依使用者同意刪除；刪除後核對清單已無此VM，其他VM名稱未變。匯出的驗證紀錄保留，清理證據為 `artifacts/drugs/repo-launch-20261023/vm-cleanup.json`。
 
 ## 前一次網站發布：西藥查詢與明細精簡
 
