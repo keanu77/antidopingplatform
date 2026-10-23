@@ -35,7 +35,7 @@ export function assessLiveSubstances(payload, { warnDays = 30, catalog = default
   if (soonest && asOf) {
     const remaining = daysBetween(asOf, soonest.date);
     if (remaining < 0) errors.push(`Served evidence for ${soonest.ruleVersion} expired after ${soonest.date}`);
-    else if (remaining < warnDays) warnings.push(`Evidence for ${soonest.ruleVersion} expires after ${soonest.date} (${remaining} day(s) left); re-verify sources or activate the next rule version.`);
+    else if (remaining <= warnDays) warnings.push(`Evidence for ${soonest.ruleVersion} expires after ${soonest.date} (${remaining} day(s) left); re-verify sources or activate the next rule version.`);
   }
   return { errors, warnings, valid: valid.length, total: drugs.length, asOf, lastValidDate: soonest?.date || null };
 }

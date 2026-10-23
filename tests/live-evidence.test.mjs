@@ -48,6 +48,12 @@ test('live check warns when rules or reviews are about to expire', async t => {
   assert.match(result.warnings[0], /2026-12-31 \(16 day\(s\) left\)/);
 });
 
+test('the warning window is inclusive of its last day', async t => {
+  const payload = await servedSubstances(t, '2026-12-01T12:00:00Z');
+  assert.match(assessLiveSubstances(payload).warnings[0] || '', /\(30 day\(s\) left\)/);
+  assert.deepEqual(assessLiveSubstances(payload, { warnDays: 29 }).warnings, []);
+});
+
 test('live check fails after the 2027-01-01 rule expiry even though s5ThresholdRule is still served', async t => {
   const payload = await servedSubstances(t, '2027-01-01T12:00:00Z');
   assert.equal(payload.substances.salbutamol.s5ThresholdRule, true);
