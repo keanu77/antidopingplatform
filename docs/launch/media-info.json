@@ -1,0 +1,60 @@
+{
+  "demo.mp4": {
+    "bytes": 482140,
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "width": 1280,
+        "height": 720
+      }
+    ],
+    "format": {
+      "duration": "26.666667"
+    }
+  },
+  "demo.gif": {
+    "bytes": 826712,
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "gif",
+        "width": 760,
+        "height": 428
+      }
+    ],
+    "format": {
+      "duration": "26.660000"
+    }
+  },
+  "teaser.mp4": {
+    "bytes": 365501,
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "width": 1280,
+        "height": 720
+      }
+    ],
+    "format": {
+      "duration": "12.000000"
+    }
+  },
+  "social-preview.png": {
+    "bytes": 97522,
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "png",
+        "width": 1280,
+        "height": 640
+      }
+    ],
+    "format": {}
+  }
+}
