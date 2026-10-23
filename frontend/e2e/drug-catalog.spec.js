@@ -40,22 +40,32 @@ test("Western product search retains the full mixture and restriction reminder",
   await expect(detail.getByText("含禁用成分，需專業確認", { exact: true })).toHaveCount(1);
 });
 
-for (const [path, query, input, note] of [
-  ["/herbal-search", "A038755", "商品名或健保藥品代碼", "處方成分未提供，需另行核對"],
-  ["/supplement-search", "CREATINE", "商品名、登錄成分或許可／核備字號", "未提供運動禁藥批號檢測證明"],
-]) {
-  test(`catalog search preserves evidence limits: ${path}`, async ({ page }) => {
-    await page.goto(path);
-    await page.getByLabel(input, { exact: true }).fill(query);
-    const submit = page.getByRole("button", { name: "查詢", exact: true });
-    await expect(submit).toBeEnabled();
-    await submit.click();
-    await expect(page.locator("article").first()).toContainText(note);
-    await page.locator("article").first().getByRole("button").click();
-    await expect(page.locator("main h2").first()).toBeVisible();
-    expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth + 1)).toBe(true);
-  });
-}
+test("ingredient details keep one optional TADA product link without repeated review prose", async ({ page }, testInfo) => {
+  await openDrug(page, "衛署藥製字第005917號");
+  const detail = page.locator('section[aria-labelledby="drug-detail-heading"]');
+  await expect(detail).toContainText("CHLORZOXAZONE");
+  await expect(detail).toContainText("ETHENZAMIDE");
+  await expect(detail.locator('a[href*="check-antidoping.org.tw"]')).toHaveCount(1);
+  await expect(detail.getByRole("link", { name: "前往 TADA 核對商品", exact: false })).toHaveAttribute("href", "https://www.check-antidoping.org.tw/inquiry.php?category=2");
+  await expect(detail).not.toContainText("TADA 公開商品查詢");
+  await expect(detail).not.toContainText("頁面／章節");
+  await expect(detail).not.toContainText("依完整配方核對的單一化學成分");
+  await expect(detail).not.toContainText("也不是 TADA 的原始判定");
+  await expect(detail).toContainText("查無資料或成分未明，不代表可用");
+  expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth + 1)).toBe(true);
+  await testInfo.attach("drug-detail", { body: await page.screenshot({ path: testInfo.outputPath("drug-detail.png"), fullPage: true }), contentType: "image/png" });
+});
+
+test("search only offers Western medicines while supplement education remains available", async ({ page, request }) => {
+  await page.goto("/drug-search");
+  await expect(page.getByRole("navigation", { name: "西藥查詢與禁用清單" })).toBeVisible();
+  await expect(page.locator('a[href="/herbal-search"], a[href="/supplement-search"]')).toHaveCount(0);
+  for (const path of ["/herbal-search", "/supplement-search", "/product-data/herbal/manifest.json", "/product-data/supplements/manifest.json"]) {
+    expect((await request.get(path)).status()).toBe(404);
+  }
+  await page.goto("/education?tab=supplements");
+  await expect(page.getByRole("tab", { name: "補充劑安全" })).toHaveAttribute("aria-selected", "true");
+});
 
 test("drug search is accessible, responsive and missing results do not imply permission", async ({ page }, testInfo) => {
   await page.goto("/drug-search");

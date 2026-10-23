@@ -57,7 +57,12 @@ async function prepareCatalog(input, output) {
   console.log(`${source.category || "drugs"} assets: ${rows.length} products, ${ingredients.length} ingredient names, index ${(files["index.json"].bytes / 1e6).toFixed(2)} MB, ${shards.size} detail shards.`);
 }
 await prepareCatalog(join(root, "data/drugs"), join(root, "frontend/public/drug-data"));
-for (const category of ["herbal", "supplements"]) {
-  const input = join(root, "data/products", category);
-  await prepareCatalog(input, join(root, "frontend/public/product-data", category));
+// Archived catalogs remain available to offline verification, never default builds.
+if (process.argv.includes("--include-archived-catalogs")) {
+  for (const category of ["herbal", "supplements"]) {
+    const input = join(root, "data/products", category);
+    await prepareCatalog(input, join(root, "frontend/public/product-data", category));
+  }
+} else {
+  await rm(join(root, "frontend/public/product-data"), { recursive: true, force: true });
 }

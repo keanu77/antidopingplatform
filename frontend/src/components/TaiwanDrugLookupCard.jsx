@@ -15,7 +15,7 @@ function TaiwanDrugLookupCard() {
         </h3>
       </div>
       <p className="text-sm text-gray-600 mb-4">
-        要確認國內市售的西藥、中藥或營養品是否含禁用成分，請使用運動部委託台灣運動禁藥管制學會（TADA）及高雄醫學大學團隊建置的查詢系統（將另開新分頁）。本站的快速查詢僅涵蓋常見藥物的
+        要核對國內市售西藥的禁用成分，可使用運動部委託台灣運動禁藥管制學會（TADA）及高雄醫學大學團隊建置的查詢系統（將另開新分頁）。本站的快速查詢僅涵蓋常見藥物的
         WADA 分類，不能取代官方查詢。
       </p>
       <ul className="grid grid-cols-1 sm:grid-cols-2 gap-3">
@@ -40,7 +40,7 @@ function TaiwanDrugLookupCard() {
         ))}
       </ul>
       <p className="mt-4 text-sm text-gray-600">
-        本站也提供 <Link to="/drug-search" className="font-medium text-primary-800 underline">西藥</Link>、<Link to="/herbal-search" className="font-medium text-primary-800 underline">中藥</Link>與<Link to="/supplement-search" className="font-medium text-primary-800 underline">營養品</Link>的官方來源資料查詢；請確認來源是否有完整配方，再向專業人員核對禁用風險。
+        本站提供 <Link to="/drug-search" className="font-medium text-primary-800 underline">西藥商品與成分查詢</Link>，可依商品名、成分或許可證字號查找並確認使用條件。
       </p>
       <p className="mt-4 text-xs text-gray-500">
         官方系統說明：查無資料不代表產品不含禁藥。產品成分或用藥有疑慮時，請洽詢隊醫、藥師或運動禁藥管制單位。

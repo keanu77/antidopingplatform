@@ -19,6 +19,22 @@ const verdictLabel = {
 const fieldClass = "mt-1 block w-full rounded-lg border border-gray-300 bg-white p-2.5 text-sm text-gray-900 focus:border-emerald-600 focus:ring-2 focus:ring-emerald-200";
 const External = ({ href, children }) => <a href={href} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1 font-medium text-emerald-800 underline decoration-emerald-300 underline-offset-4">{children}<ExternalLink size={14} aria-hidden="true" /><span className="sr-only">（另開分頁）</span></a>;
 
+function IngredientReferences({ item }) {
+  const sources = [
+    item.evidence,
+    item.identityEvidence && { ...item.identityEvidence, title: "成分名稱對照來源" },
+    item.federationEvidence,
+  ].filter((source) => {
+    if (!source?.url) return false;
+    try { return !/(^|\.)check-antidoping\.org\.tw$/.test(new URL(source.url).hostname); }
+    catch { return false; }
+  });
+  if (!sources.length) return null;
+  return <div className="mt-3 flex flex-wrap gap-x-4 gap-y-2 border-t border-gray-100 pt-3 text-xs leading-relaxed text-gray-600">
+    {sources.map((source, i) => <External key={`${source.url}-${i}`} href={source.url}>{source.title}</External>)}
+  </div>;
+}
+
 export default function DrugProductDetail({ product, manifest, onClose, headingRef }) {
   const [route, setRoute] = useState("");
   const [sport, setSport] = useState("");
@@ -71,7 +87,7 @@ export default function DrugProductDetail({ product, manifest, onClose, headingR
       </div>
       <p className="mt-3 text-xs leading-relaxed text-gray-500">賽內通常自比賽前一天 23:59 起至比賽及相關採樣結束；特定運動可能有經 WADA 核准的不同定義。</p>
 
-      <h3 className="mb-3 mt-7 text-lg font-bold text-gray-900">逐一核對成分</h3>
+      <h3 className="mb-3 mt-7 text-lg font-bold text-gray-900">成分判讀</h3>
       {!inside.ingredients.length && <p className="rounded-lg bg-amber-50 p-4 text-sm text-amber-950">來源未提供成分，無法判讀。</p>}
       <div className="space-y-3">
         {inside.ingredients.map((item, i) => <details key={item.name} className="rounded-lg border border-gray-200 p-4" open={inside.ingredients.length < 3}>
@@ -84,11 +100,7 @@ export default function DrugProductDetail({ product, manifest, onClose, headingR
               {result.washout && <p className="mt-2 text-gray-600">清除期參考：{result.washout}</p>}
             </div>)}
           </div>
-          {(item.evidence || item.identityEvidence || item.federationEvidence) && <div className="mt-3 space-y-2 border-t border-gray-100 pt-3 text-xs leading-relaxed text-gray-600">
-            {item.evidence && <p><External href={item.evidence.url}>{item.evidence.title}</External> · 頁面／章節：{item.evidence.pages} · 核對：{item.evidence.checkedAt}{item.evidence.derivation && <span className="mt-1 block">{item.evidence.derivation}</span>}</p>}
-            {item.identityEvidence && <p><External href={item.identityEvidence.url}>成分名稱對照來源</External></p>}
-            {item.federationEvidence && <p><External href={item.federationEvidence.url}>{item.federationEvidence.title}</External> · 聯盟規則須另行核對。</p>}
-          </div>}
+          <IngredientReferences item={item} />
         </details>)}
       </div>
 

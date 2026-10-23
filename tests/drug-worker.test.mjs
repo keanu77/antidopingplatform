@@ -8,7 +8,7 @@ import { execFileSync } from "node:child_process";
 import { build } from "../frontend/node_modules/esbuild/lib/main.js";
 
 const root = fileURLToPath(new URL("../", import.meta.url));
-execFileSync(process.execPath, ["scripts/prepare-drug-assets.mjs"], { cwd: root });
+execFileSync(process.execPath, ["scripts/prepare-drug-assets.mjs", "--include-archived-catalogs"], { cwd: root });
 const expectedCount = JSON.parse(await readFile(root + "data/drugs/manifest.json", "utf8")).counts.products;
 const bundle = await build({ entryPoints: [root + "frontend/src/workers/drugSearch.worker.js"], bundle: true, write: false, format: "iife", platform: "browser" });
 

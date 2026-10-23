@@ -1,5 +1,5 @@
 import assert from 'node:assert/strict';
-import { readFileSync } from 'node:fs';
+import { existsSync, readFileSync } from 'node:fs';
 import { routesMeta, SITE_URL, caseMeta } from '../frontend/src/data/routeMeta.js';
 const root = new URL('../', import.meta.url);
 const read = path => readFileSync(new URL(path, root), 'utf8');
@@ -27,4 +27,7 @@ for (const [path, texts] of [
 ]) for (const text of texts) assert.ok(read(`frontend/dist/${path}/index.html`).includes(text), `${path}: ${text}`);
 assert.ok(read('frontend/dist/404.html').includes('content="noindex, follow"'));
 assert.doesNotMatch(read('frontend/dist/_redirects'), /\*.*200/);
+for (const path of ['herbal-search', 'supplement-search', 'product-data']) {
+  assert.ok(!existsSync(new URL(`frontend/dist/${path}`, root)), `${path}: retired catalog must not be deployed`);
+}
 console.log(`Built HTML: ${routesMeta.length} routes + ${cases.length} case scopes/notes + 404 passed.`);
