@@ -6,6 +6,9 @@ export const SITE_URL = "https://antidopingplatform.sportsmedicine.tw";
 export const SITE_NAME = "乾淨運動從你我開始";
 
 export const routesMeta = [
+  { path: "/drug-search", title: "台灣西藥商品與禁用成分查詢 | 乾淨運動從你我開始", description: "查詢 TFDA 西藥商品與完整配方，核對 WADA 2026 使用條件及資料查驗範圍；未對應成分保留待確認。" },
+  { path: "/herbal-search", title: "中藥商品與來源查詢 | 乾淨運動從你我開始", description: "依商品名或健保藥品代碼搜尋中藥來源資料；完整配方與運動禁藥風險須另行查證。" },
+  { path: "/supplement-search", title: "營養品與食品登錄查詢 | 乾淨運動從你我開始", description: "搜尋 TFDA 食品登錄資料。食品許可不等於運動禁藥認證，配方與批次證據須另行核對。" },
   { path: "/adel", title: "ADEL 官方學習資源 | 乾淨運動從你我開始", description: "選手、教練與醫療人員的 WADA ADEL 官方課程入口；本站測驗紀錄與官方證明分開。" },
   { path: "/sources", title: "內容來源與版本 | 乾淨運動從你我開始", description: "查詢每個用藥結論與測驗答案的官方來源、適用年度、生效日期及查核狀態。" },
   { path: "/editorial-policy", title: "編輯政策與勘誤 | 乾淨運動從你我開始", description: "了解本站的來源選擇、查核範圍、年度更新、利益衝突揭露狀態與錯誤更正流程。" },

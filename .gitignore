@@ -67,3 +67,8 @@ backend/backups/
 .wrangler/
 frontend/playwright-report/
 frontend/test-results/
+
+# Reproducible TFDA exports and web assets; source snapshot lives in data/drugs/.
+artifacts/drugs/
+frontend/public/drug-data/
+frontend/public/product-data/

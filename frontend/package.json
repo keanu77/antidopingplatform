@@ -4,7 +4,9 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "predev": "node ../scripts/prepare-drug-assets.mjs",
     "dev": "vite",
+    "prebuild": "node ../scripts/prepare-drug-assets.mjs",
     "build": "node scripts/gen-version.js && vite build && node scripts/prerender.js",
     "lint": "eslint .",
     "test": "vitest run",

@@ -249,7 +249,13 @@ function evaluateContext(
 export function evaluateDrug(substance, opts = {}) {
   const evidence = assessEvidence(substance?.evidenceId, substance?.ruleVersion, opts.asOf);
   if (!evidence.valid) return { verdict: "unknown", reasons: [evidence.reason], evidence };
-  const result = { ...evaluateContext(substance, opts), evidence };
+  return { ...evaluateDrugConditions(substance, opts), evidence };
+}
+
+// Pure condition evaluation for callers with their own versioned source guard.
+// Public TUE callers must continue to use evaluateDrug's evidence gate above.
+export function evaluateDrugConditions(substance, opts = {}) {
+  const result = evaluateContext(substance, opts);
   const s5Concomitant = opts.s5Concomitant || "unknown";
   const inCompetition = opts.inCompetition === undefined ? true : opts.inCompetition;
   const applies = requiresS5Check(substance)

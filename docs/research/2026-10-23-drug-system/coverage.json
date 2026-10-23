@@ -1,0 +1,321 @@
+{
+  "generatedAt": "2026-10-23T06:46:14.827Z",
+  "sourceRetrievedAt": "2026-10-22T17:33:11.345135+00:00",
+  "catalogSha256": "f7a04977d6007534ac8f1b4da4db48adea34c1b7c625d9acccd6cfc65a904644",
+  "ruleCodeSha256": "547c731555e918d45cd329d2742f85a1fc02df4bc941f689ac6ab1ebfc31dd9d",
+  "rules": 2411,
+  "ingredientNames": 7686,
+  "mappedIngredientNames": 3644,
+  "unmappedIngredientNames": 4042,
+  "cohorts": {
+    "all": {
+      "total": 66522,
+      "fullyNameMapped": 52660,
+      "partiallyNameMapped": 4202,
+      "noNamesMapped": 5853,
+      "missingComposition": 3807,
+      "fullyMappedWithoutSourceConflict": 52660,
+      "coveragePercent": 79.16178106491085,
+      "targetProducts": 64527,
+      "remainingProducts": 11867,
+      "targetMet": false
+    },
+    "uncancelled": {
+      "total": 22509,
+      "fullyNameMapped": 19282,
+      "partiallyNameMapped": 380,
+      "noNamesMapped": 214,
+      "missingComposition": 2633,
+      "fullyMappedWithoutSourceConflict": 19282,
+      "coveragePercent": 85.66351237282865,
+      "targetProducts": 21834,
+      "remainingProducts": 2552,
+      "targetMet": false
+    },
+    "uncancelledWithComposition": {
+      "total": 19876,
+      "fullyNameMapped": 19282,
+      "partiallyNameMapped": 380,
+      "noNamesMapped": 214,
+      "missingComposition": 0,
+      "fullyMappedWithoutSourceConflict": 19282,
+      "coveragePercent": 97.01147112094989,
+      "targetProducts": 19280,
+      "remainingProducts": 0,
+      "targetMet": true
+    },
+    "uncancelledFormulations": {
+      "total": 18968,
+      "fullyNameMapped": 18397,
+      "partiallyNameMapped": 356,
+      "noNamesMapped": 137,
+      "missingComposition": 78,
+      "fullyMappedWithoutSourceConflict": 18397,
+      "coveragePercent": 96.98966680725432,
+      "targetProducts": 18399,
+      "remainingProducts": 2,
+      "targetMet": false
+    },
+    "uncancelledFormulationsWithComposition": {
+      "total": 18890,
+      "fullyNameMapped": 18397,
+      "partiallyNameMapped": 356,
+      "noNamesMapped": 137,
+      "missingComposition": 0,
+      "fullyMappedWithoutSourceConflict": 18397,
+      "coveragePercent": 97.39015352038115,
+      "targetProducts": 18324,
+      "remainingProducts": 0,
+      "targetMet": true
+    }
+  },
+  "missingByLicenseType": {
+    "體外試劑": 14,
+    "菌　疫": 62,
+    "原料藥": 2479,
+    "製　劑": 78
+  },
+  "target": {
+    "percent": 97,
+    "cohort": "uncancelledWithComposition",
+    "total": 19876,
+    "fullyNameMapped": 19282,
+    "partiallyNameMapped": 380,
+    "noNamesMapped": 214,
+    "missingComposition": 0,
+    "fullyMappedWithoutSourceConflict": 19282,
+    "coveragePercent": 97.01147112094989,
+    "targetProducts": 19280,
+    "remainingProducts": 0,
+    "targetMet": true
+  },
+  "milestones": [
+    {
+      "percent": 95,
+      "cohort": "uncancelledWithComposition",
+      "total": 19876,
+      "fullyMappedWithoutSourceConflict": 19282,
+      "targetProducts": 18883,
+      "remainingProducts": 0,
+      "targetMet": true,
+      "additionalNamesByFrequency": 0
+    },
+    {
+      "percent": 97,
+      "cohort": "uncancelledWithComposition",
+      "total": 19876,
+      "fullyMappedWithoutSourceConflict": 19282,
+      "targetProducts": 19280,
+      "remainingProducts": 0,
+      "targetMet": true,
+      "additionalNamesByFrequency": 0
+    },
+    {
+      "percent": 98,
+      "cohort": "uncancelledWithComposition",
+      "total": 19876,
+      "fullyMappedWithoutSourceConflict": 19282,
+      "targetProducts": 19479,
+      "remainingProducts": 197,
+      "targetMet": false,
+      "additionalNamesByFrequency": 110
+    },
+    {
+      "percent": 99,
+      "cohort": "uncancelledWithComposition",
+      "total": 19876,
+      "fullyMappedWithoutSourceConflict": 19282,
+      "targetProducts": 19678,
+      "remainingProducts": 396,
+      "targetMet": false,
+      "additionalNamesByFrequency": 364
+    }
+  ],
+  "workloadProjection": {
+    "interpretation": "假設依頻率逐一完成可靠規則的工作量估算；不是已完成判讀，不代表需要相同數量的不同物質規則。",
+    "unresolvedNamesInTargetCohort": 693,
+    "additionalNamesByFrequencyForTarget": 0,
+    "curve": [
+      {
+        "additionalNames": 0,
+        "products": 19282,
+        "percent": 97.01147112094989
+      },
+      {
+        "additionalNames": 50,
+        "products": 19403,
+        "percent": 97.62024552223788
+      },
+      {
+        "additionalNames": 100,
+        "products": 19471,
+        "percent": 97.96236667337493
+      },
+      {
+        "additionalNames": 250,
+        "products": 19599,
+        "percent": 98.60635942845643
+      },
+      {
+        "additionalNames": 500,
+        "products": 19755,
+        "percent": 99.39122559871201
+      }
+    ]
+  },
+  "allProducts": {
+    "fullyNameMapped": 52660,
+    "partiallyNameMapped": 4202,
+    "noNamesMapped": 5853,
+    "missingComposition": 3807
+  },
+  "uncancelledProducts": {
+    "fullyNameMapped": 19282,
+    "partiallyNameMapped": 380,
+    "noNamesMapped": 214,
+    "missingComposition": 2633
+  },
+  "interpretation": "名稱可對應不等於整品已獲准使用，也不是醫療正確率。來源衝突不計入目標；缺成分品項另列並保留全體分母。未註銷不等於仍在市售或已核實藥證有效；仍須核對途徑、時段、運動項目、劑量、S5 併用、完整 WADA 藥理類別與最新資料。未對應不能解讀成未禁用。",
+  "topUnmapped": [
+    {
+      "name": "MENTHOL OIL",
+      "key": null,
+      "products": 40,
+      "uncancelled": 16,
+      "exampleLicense": "內衛成製字第000972號"
+    },
+    {
+      "name": "SERUM, HUMAN NORMAL",
+      "key": null,
+      "products": 72,
+      "uncancelled": 12,
+      "exampleLicense": "衛署菌疫製字第000023號"
+    },
+    {
+      "name": "AMINO ACID",
+      "key": null,
+      "products": 32,
+      "uncancelled": 12,
+      "exampleLicense": "內衛藥製字第001052號"
+    },
+    {
+      "name": "BIFIDOBACTERIUM",
+      "key": null,
+      "products": 27,
+      "uncancelled": 11,
+      "exampleLicense": "內衛成製字第000489號"
+    },
+    {
+      "name": "PHELLODENDRON BARK POWDER (EQ TO POWDERED PHELLODENDRON BARK)",
+      "key": null,
+      "products": 35,
+      "uncancelled": 8,
+      "exampleLicense": "內衛藥輸字第002019號"
+    },
+    {
+      "name": "VITAMIN K ACTIVITY",
+      "key": null,
+      "products": 33,
+      "uncancelled": 8,
+      "exampleLicense": "內衛藥製字第000404號"
+    },
+    {
+      "name": "GAMBIR",
+      "key": null,
+      "products": 26,
+      "uncancelled": 8,
+      "exampleLicense": "內衛成製字第002947號"
+    },
+    {
+      "name": "AZULENE WATER SOLUBLE",
+      "key": null,
+      "products": 16,
+      "uncancelled": 8,
+      "exampleLicense": "衛署藥製字第004488號"
+    },
+    {
+      "name": "LACTOMIN",
+      "key": null,
+      "products": 38,
+      "uncancelled": 7,
+      "exampleLicense": "內衛藥製字第008449號"
+    },
+    {
+      "name": "CENTELLA ASIATICA",
+      "key": null,
+      "products": 9,
+      "uncancelled": 7,
+      "exampleLicense": "衛署藥製字第034941號"
+    },
+    {
+      "name": "CREOSOTE",
+      "key": null,
+      "products": 37,
+      "uncancelled": 6,
+      "exampleLicense": "內衛成製字第000973號"
+    },
+    {
+      "name": "BEZOAR ORIENTALE",
+      "key": null,
+      "products": 27,
+      "uncancelled": 6,
+      "exampleLicense": "內衛藥製字第006154號"
+    },
+    {
+      "name": "ETHYL NITRITE SPIRIT",
+      "key": null,
+      "products": 20,
+      "uncancelled": 6,
+      "exampleLicense": "內衛藥製字第001674號"
+    },
+    {
+      "name": "PHELLODENDRON EXTRACT",
+      "key": null,
+      "products": 13,
+      "uncancelled": 6,
+      "exampleLicense": "內衛成製字第003619號"
+    },
+    {
+      "name": "BIODIASTASE 2000",
+      "key": null,
+      "products": 11,
+      "uncancelled": 6,
+      "exampleLicense": "衛署藥製字第027156號"
+    },
+    {
+      "name": "RHEUM",
+      "key": null,
+      "products": 10,
+      "uncancelled": 6,
+      "exampleLicense": "內衛成製字第000863號"
+    },
+    {
+      "name": "CITRATE",
+      "key": null,
+      "products": 7,
+      "uncancelled": 6,
+      "exampleLicense": "衛署菌疫輸字第000843號"
+    },
+    {
+      "name": "GINSENG",
+      "key": null,
+      "products": 27,
+      "uncancelled": 5,
+      "exampleLicense": "內衛成製字第003123號"
+    },
+    {
+      "name": "CLIDINIUM BROMIDE",
+      "key": null,
+      "products": 24,
+      "uncancelled": 5,
+      "exampleLicense": "內衛藥製字第008477號"
+    },
+    {
+      "name": "SENEGA",
+      "key": null,
+      "products": 21,
+      "uncancelled": 5,
+      "exampleLicense": "內衛藥製字第002404號"
+    }
+  ]
+}

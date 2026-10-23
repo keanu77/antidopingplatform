@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "category": "herbal",
+  "sources": {
+    "complex": {
+      "name": "健保署中藥複方用藥品項表",
+      "dataset": "https://www.nhi.gov.tw/ch/cp-14300-03585-2467-1.html",
+      "download": "https://nhi.gov.tw/ch/dl-93087-eef9f556e73a41398a90e3a0da5e9b6b-1.ods",
+      "snapshotDate": "2026-10-01",
+      "retrievedAt": "2026-10-22T18:08:52.450666+00:00",
+      "timestampBasis": "使用者協助瀏覽器下載；以本機檔案完成寫入時間記錄取得時間，非來源發布時間。",
+      "rows": 6539,
+      "sha256": "00727449e23dee73997e03e81828e90e0fb26f969763c5010d76046f580b79f7",
+      "bytes": 382120
+    },
+    "single": {
+      "name": "健保署中藥單方用藥品項表",
+      "dataset": "https://www.nhi.gov.tw/ch/cp-14300-03585-2467-1.html",
+      "download": "https://nhi.gov.tw/ch/dl-93091-e6f546cd1356459ab0b256ef48abd097-1.ods",
+      "snapshotDate": "2026-10-01",
+      "retrievedAt": "2026-10-22T18:23:15.954217+00:00",
+      "timestampBasis": "使用者協助瀏覽器下載；以本機檔案完成寫入時間記錄取得時間，非來源發布時間。",
+      "rows": 3507,
+      "sha256": "0750554f5846944c6b854dc4cbd36d95f124e220c5d76560e3fb3a9108ec4811",
+      "bytes": 162932
+    }
+  },
+  "counts": {
+    "products": 10046,
+    "sourceRows": 10046,
+    "uniqueCodes": 10045,
+    "duplicateCodeGroups": 1,
+    "identicalRowsRemoved": 0,
+    "complex": 6539,
+    "single": 3507,
+    "withoutComposition": 10046,
+    "recordsWithDateWarnings": 3
+  },
+  "retrievedAt": "2026-10-22T18:23:15.954217+00:00",
+  "importedAt": "2026-10-22T18:25:45.539632+00:00",
+  "licenseUrl": "https://www.nhi.gov.tw/ch/cp-4379-5d212-3280-1.html",
+  "attribution": "衛生福利部中央健康保險署：中藥用藥品項表。依政府網站資料開放宣告整理；來源機關未對本服務背書。",
+  "scope": "健保中藥品項快照，含不再收載紀錄；不是全部中藥許可證。此來源未提供完整處方、藥證效期或運動禁藥判定。",
+  "catalogSha256": "98526b979517dacb8fdc06c04318bbe60774b85c52293c6027e54bf57b33a733"
+}

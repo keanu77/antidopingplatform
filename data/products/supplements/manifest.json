@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "category": "supplements",
+  "sources": {
+    "health-foods": {
+      "name": "TFDA 健康食品資料集",
+      "dataset": "https://data.gov.tw/dataset/6951",
+      "download": "https://data.fda.gov.tw/data/opendata/export/19/json",
+      "minimumRows": 300,
+      "retrievedAt": "2026-10-22T18:22:39.735866+00:00",
+      "rows": 565,
+      "sha256": "ed37152b0c810bc23c095bb8e03ab78956be98700e94557cfc52f56f70f10402",
+      "bytes": 574649
+    },
+    "imported-capsules": {
+      "name": "TFDA 輸入錠狀膠囊狀食品查驗登記資料集",
+      "dataset": "https://data.gov.tw/dataset/9047",
+      "download": "https://data.fda.gov.tw/data/opendata/export/23/json",
+      "minimumRows": 3000,
+      "retrievedAt": "2026-10-22T18:22:40.851375+00:00",
+      "rows": 7407,
+      "sha256": "3a0593625bf1ce091fdf05ae0e317473da0f5ac707a8bccbfc50b15f9db4cd10",
+      "bytes": 4848595
+    }
+  },
+  "retrievedAt": "2026-10-22T18:22:40.851375+00:00",
+  "importedAt": "2026-10-22T18:22:41.183786+00:00",
+  "licenseUrl": "https://data.gov.tw/license",
+  "attribution": "衛生福利部食品藥物管理署：健康食品資料集、輸入錠狀膠囊狀食品查驗登記資料集。依政府資料開放授權條款第 1 版整理；來源機關未對本服務背書。",
+  "scope": "台灣官方食品登錄資料，非所有市售或國際運動營養品；食品登錄不等於運動禁藥檢驗或認證。",
+  "counts": {
+    "products": 7972,
+    "healthFoods": 565,
+    "importedCapsules": 7407,
+    "withoutComposition": 5,
+    "batchVerified": 0
+  },
+  "catalogSha256": "77d01f76866bd59ec56dfec2884657397535e677f37c069881d39b376bd4470d"
+}

@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "cadence": "monthly",
+  "timezone": "Asia/Taipei",
+  "targetCoveragePercent": 95,
+  "maximumProductDropPercent": 2,
+  "maximumMissingCompositionIncreasePoints": 0.5,
+  "maximumCoverageRegressionPoints": 0,
+  "maximumSourceAgeDays": 35,
+  "ruleExpiryWarningDays": 60,
+  "publication": "reviewed-candidate"
+}

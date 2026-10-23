@@ -1,4 +1,5 @@
 import { ExternalLink, Landmark } from "lucide-react";
+import { Link } from "react-router-dom";
 import { TAIWAN_DRUG_LOOKUPS } from "../data/taiwanDrugLookups";
 
 function TaiwanDrugLookupCard() {
@@ -38,6 +39,9 @@ function TaiwanDrugLookupCard() {
           </li>
         ))}
       </ul>
+      <p className="mt-4 text-sm text-gray-600">
+        本站也提供 <Link to="/drug-search" className="font-medium text-primary-800 underline">西藥</Link>、<Link to="/herbal-search" className="font-medium text-primary-800 underline">中藥</Link>與<Link to="/supplement-search" className="font-medium text-primary-800 underline">營養品</Link>的官方來源資料查詢；請確認來源是否有完整配方，再向專業人員核對禁用風險。
+      </p>
       <p className="mt-4 text-xs text-gray-500">
         官方系統說明：查無資料不代表產品不含禁藥。產品成分或用藥有疑慮時，請洽詢隊醫、藥師或運動禁藥管制單位。
       </p>
