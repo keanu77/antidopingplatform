@@ -1,0 +1,79 @@
+{
+  "schemaVersion": 1,
+  "effectiveFrom": "2024-02-01",
+  "checkedAt": "2026-10-23",
+  "source": {
+    "title": "CMAS Technical Rules on Benzodiazepines and PDE5 Inhibitors, 2024/01",
+    "url": "https://www.cmas.org/images/cmas_articles/84/CMAS-TECHNICAL-RULES-ON-BENZODIAZEPINES-AND-SILDENAFIL_FINA_20241001-140759_1.pdf",
+    "sha256": "555c90a13ca8486a2693483285467175d045b57c5244587d53b373f8c3f7e6de",
+    "pages": "Introduction, Article 1(c)"
+  },
+  "names": [
+    "alprazolam",
+    "bromazepam",
+    "brotizolam",
+    "chlordiazepoxide",
+    "cinolazepam",
+    "clobazam",
+    "clonazepam",
+    "clorazepate",
+    "clotiazepam",
+    "cloxazolam",
+    "delorazepam",
+    "diazepam",
+    "estazolam",
+    "ethyl loflazepate",
+    "etizolam",
+    "fludiazepam",
+    "flumazenil",
+    "flunitrazepam",
+    "flurazepam",
+    "flutazolam",
+    "flutoprazepam",
+    "haloxazolam",
+    "loprazolam",
+    "lorazepam",
+    "lormetazepam",
+    "medazepam",
+    "mexazolam",
+    "midazolam",
+    "nimetazepam",
+    "nitrazepam",
+    "nordazepam",
+    "oxazepam",
+    "oxazolam",
+    "phenazepam",
+    "pinazepam",
+    "prazepam",
+    "quazepam",
+    "remimazolam",
+    "temazepam",
+    "tetrazepam",
+    "tofisopam",
+    "triazolam",
+    "avanafil",
+    "tadalafil",
+    "sildenafil",
+    "vardenafil"
+  ],
+  "scope": "CMAS 潛水賽事的醫療／技術規則，須另外確認賽事適用範圍；不是 WADA P1 分類。",
+  "competitionWindow": "賽事開始前 72 小時至賽事及相關採樣結束。",
+  "pendingReviews": {
+    "riociguat": {
+      "federation": "CMAS",
+      "status": "pending-adjudication",
+      "checkedAt": "2026-10-23",
+      "note": "Riociguat 的 CMAS 賽事適用範圍仍待裁定。尚未確認運動項目或參加 CMAS 賽事時，賽內、賽外均保留需專業確認；不能以本工具作為可用保證。請向賽事醫療主管確認，並核對賽前 72 小時等聯盟條件。",
+      "source": {
+        "title": "Riociguat／CMAS 適用待確認：TADA 產品參考",
+        "url": "https://www.check-antidoping.org.tw/inquiry_page.php?id=20743&category=2"
+      },
+      "regulationSource": {
+        "title": "CMAS Technical Rules on Benzodiazepines and PDE5 Inhibitors, 2024/01",
+        "url": "https://www.cmas.org/images/cmas_articles/84/CMAS-TECHNICAL-RULES-ON-BENZODIAZEPINES-AND-SILDENAFIL_FINA_20241001-140759_1.pdf",
+        "sha256": "555c90a13ca8486a2693483285467175d045b57c5244587d53b373f8c3f7e6de",
+        "pages": "Introduction, Article 1(c)"
+      }
+    }
+  }
+}

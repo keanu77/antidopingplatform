@@ -1,0 +1,13 @@
+{
+  "snapshot": "9701-20261023",
+  "checkedAt": "2026-10-23",
+  "sampleSize": 500,
+  "referenceFound": 476,
+  "directAgreement": 373,
+  "localUnresolved": 17,
+  "referenceConditional": 84,
+  "sourceConflict": 2,
+  "referenceMissing": 24,
+  "supplementalContexts": { "total": 330, "agreement": 310, "unresolved": 19, "pendingConflict": 1 },
+  "sampleSha256": "667d2aaf1fbc59a224565d8cd61dcccf4a228927f6b971d86bf537a354946e92"
+}

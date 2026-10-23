@@ -162,6 +162,7 @@ function Layout({ children }) {
 
   const primaryItems = [
     { path: "/", label: "首頁", icon: Home },
+    { path: "/drug-search", label: "藥品與營養品", icon: Search },
     { path: "/cases", label: "案例搜尋", icon: Search },
     { path: "/statistics", label: "數據統計", icon: BarChart3 },
   ];

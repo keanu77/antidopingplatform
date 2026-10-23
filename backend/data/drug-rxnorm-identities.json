@@ -1,0 +1,6080 @@
+{
+  "schemaVersion": 1,
+  "scope": "NLM PIN→IN 單一成分關係；只供名稱辨識，不推論禁用狀態。父成分沒有規則時仍不對應。",
+  "conceptSource": {
+    "url": "https://rxnav.nlm.nih.gov/REST/allconcepts.json?tty=IN+PIN",
+    "retrievedAt": "2026-10-22T19:53:35.489791+00:00",
+    "sha256": "ae86fa84359663d7affaaaefdc1862d47572baaea4a7b8584bf7b8d6ccc5c48a"
+  },
+  "facts": [
+    {
+      "precise": {
+        "rxcui": "221052",
+        "name": "abacavir sulfate",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "190521",
+          "name": "abacavir",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/221052/related.json?tty=IN",
+      "sha256": "eef4617dc11f5376130665c595f65955df86d6d4f8cf4fdf76384e4cc5cccf3e",
+      "retrievedAt": "2026-10-22T19:55:22.723379+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "1100071",
+        "name": "abiraterone acetate",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "1100072",
+          "name": "abiraterone",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/1100071/related.json?tty=IN",
+      "sha256": "8148d7320e6f02accbd307436b97ad8b21ed941b8c0e7a78ee19b901985f9d53",
+      "retrievedAt": "2026-10-22T19:55:24.522532+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "152761",
+        "name": "acamprosate calcium",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "82819",
+          "name": "acamprosate",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/152761/related.json?tty=IN",
+      "sha256": "56f822ce2d89268e29d64e54aff623a7e46727f5b013b652d8f42bd3d4677989",
+      "retrievedAt": "2026-10-22T19:55:26.313199+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "1430441",
+        "name": "afatinib dimaleate",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "1430438",
+          "name": "afatinib",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/1430441/related.json?tty=IN",
+      "sha256": "6e69e788f2cdf82bca28fb27bd2e3d86b38256e512a3b42806cde6ed1122b30c",
+      "retrievedAt": "2026-10-22T19:55:28.104930+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "203152",
+        "name": "alendronate sodium",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "46041",
+          "name": "alendronate",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/203152/related.json?tty=IN",
+      "sha256": "c4fb2f3ff9eb5658c98abfa7fd16d47d6ca4f4d3307be3cc19b40052c8512130",
+      "retrievedAt": "2026-10-22T19:55:29.896664+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "17611",
+        "name": "aluminum chloride hexahydrate",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "46241",
+          "name": "aluminum chloride",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/17611/related.json?tty=IN",
+      "sha256": "ab84ad04d3f27e29492f1866c6179ea57840d6b058dd7a9d390a5934b9c79ffc",
+      "retrievedAt": "2026-10-22T19:55:31.687842+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "613",
+        "name": "aluminum hydroxide gel",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "612",
+          "name": "aluminum hydroxide",
+          "synonym": "aluminium hydroxide",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/613/related.json?tty=IN",
+      "sha256": "4293d4cac3d7cbaa0d48a4fb42c1e846504f787a4457f58c1676ad79da1a12cd",
+      "retrievedAt": "2026-10-22T19:55:33.482567+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "1593147",
+        "name": "aluminum sulfate anhydrous",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "17621",
+          "name": "aluminum sulfate",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/1593147/related.json?tty=IN",
+      "sha256": "09fab4cdf3e0e8f2556d853f08cecfee17e9ece56c182a68c478fc976a8b92a3",
+      "retrievedAt": "2026-10-22T19:55:35.270222+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "1314242",
+        "name": "amobarbital sodium",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "719",
+          "name": "amobarbital",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/1314242/related.json?tty=IN",
+      "sha256": "9bb9540a8a12eb496a6201f1047da7177b67ed34c4d96a1ca7395d5911a7123b",
+      "retrievedAt": "2026-10-22T19:55:37.065623+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "1741397",
+        "name": "antihemophilic factor (recombinant) pegylated",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "4257",
+          "name": "factor VIII",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/1741397/related.json?tty=IN",
+      "sha256": "b9f8c0cbc0b13679b5eacc0e55459bc71a4e8e24770168cbabf05333a463c25c",
+      "retrievedAt": "2026-10-22T19:55:38.862195+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "2584303",
+        "name": "asciminib hydrochloride",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "2584304",
+          "name": "asciminib",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/2584303/related.json?tty=IN",
+      "sha256": "45623a00cb5cc179afc175d11b862c26040af77a32410157fd5c00435f1503ee",
+      "retrievedAt": "2026-10-22T19:55:40.653066+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "1219",
+        "name": "atracurium besylate",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "1218",
+          "name": "atracurium",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/1219/related.json?tty=IN",
+      "sha256": "90b41f4ce2adfa25f79354efe263a1b603fd028c7fa85dcaaadcafac50516a5a",
+      "retrievedAt": "2026-10-22T19:55:42.437517+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "2710448",
+        "name": "atrasentan hydrochloride",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "2710449",
+          "name": "atrasentan",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/2710448/related.json?tty=IN",
+      "sha256": "7d1da3ca2c8055aba9f44d64b9cfe236b6953b3a73234778a474939ca2b1709d",
+      "retrievedAt": "2026-10-22T19:55:44.232366+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "1603833",
+        "name": "avibactam sodium",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "1603834",
+          "name": "avibactam",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/1603833/related.json?tty=IN",
+      "sha256": "b81699c368bae80d0d849f73d96b2da6741dbc20b3ba66f78a6a9bb8926f12b5",
+      "retrievedAt": "2026-10-22T19:55:46.016625+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "18602",
+        "name": "azelaic acid",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "618278",
+          "name": "azelate",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/18602/related.json?tty=IN",
+      "sha256": "2baca029b725c41a88b56bb49afc02badc5ca973fea8b30b3160045cb8d1bff3",
+      "retrievedAt": "2026-10-22T19:55:47.801480+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "11417",
+        "name": "bacitracin zinc",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "1291",
+          "name": "bacitracin",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/11417/related.json?tty=IN",
+      "sha256": "4d76d6daf145e633045f3e459490ccbeac3aff88989863a1b02a593644408972",
+      "retrievedAt": "2026-10-22T19:55:49.593379+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "1364503",
+        "name": "bedaquiline fumarate",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "1364504",
+          "name": "bedaquiline",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/1364503/related.json?tty=IN",
+      "sha256": "2cf3fff82b0a47284919668424c0f36f8326b0dec91f394072ffaa0e67f86a9c",
+      "retrievedAt": "2026-10-22T19:55:51.386770+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "2565692",
+        "name": "belumosudil mesylate",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "2564025",
+          "name": "belumosudil",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/2565692/related.json?tty=IN",
+      "sha256": "a86d8f8d712dc35e8502d6e674bc3dd7211068e83847cbd6d22b8f4f50ad83e0",
+      "retrievedAt": "2026-10-22T19:55:53.177528+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "1114693",
+        "name": "bendamustine hydrochloride",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "134547",
+          "name": "bendamustine",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/1114693/related.json?tty=IN",
+      "sha256": "b7c67e40bb32748869dc941fbef752ff9b25f0b96b0338edcc1a508dd52840f0",
+      "retrievedAt": "2026-10-22T19:55:54.960427+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "18989",
+        "name": "benzoic acid",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "70589",
+          "name": "benzoate",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/18989/related.json?tty=IN",
+      "sha256": "9d79023f6fa916862c6b2cc439323822dbadf788ad0488826ae0c9e073e86340",
+      "retrievedAt": "2026-10-22T19:55:56.756569+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "47088",
+        "name": "bethanechol chloride",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "19257",
+          "name": "bethanechol",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/47088/related.json?tty=IN",
+      "sha256": "ee178440fa50d7e4095b3033e5ef4cd3e3341377f269422e6c1c246eb2387419",
+      "retrievedAt": "2026-10-22T19:55:58.551033+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "1999661",
+        "name": "bictegravir sodium",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "1999660",
+          "name": "bictegravir",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/1999661/related.json?tty=IN",
+      "sha256": "1a625052f57d6b887e779ec52be2bce7eda6f8b7bfcad82c49b4b9bf03b7caef",
+      "retrievedAt": "2026-10-22T19:56:00.354853+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "1621",
+        "name": "bleomycin sulfate",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "1622",
+          "name": "bleomycin",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/1621/related.json?tty=IN",
+      "sha256": "5896e3add1813f88353830ad4d07526126e59c7164e05e28ab1f6dcd3c42fc21",
+      "retrievedAt": "2026-10-22T19:56:02.366698+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "1314319",
+        "name": "bosutinib monohydrate",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "1307619",
+          "name": "bosutinib",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/1314319/related.json?tty=IN",
+      "sha256": "d60a76ced70a60e8f80fc0e3de6c488e70afe312022b674f5cb14943d3c74663",
+      "retrievedAt": "2026-10-22T19:56:04.158516+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "382677",
+        "name": "butamirate citrate",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "19862",
+          "name": "butamirate",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/382677/related.json?tty=IN",
+      "sha256": "d005f8059939cabd3c867b37cde5b9810ddf1652987fa47781524ea8b417b892",
+      "retrievedAt": "2026-10-22T19:56:05.952478+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "203170",
+        "name": "butorphanol tartrate",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "1841",
+          "name": "butorphanol",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/203170/related.json?tty=IN",
+      "sha256": "81eff5b04658e4dc173fe0019beab7d4376df7fa9b126ab471d5d01a15daff76",
+      "retrievedAt": "2026-10-22T19:56:07.746113+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "2475076",
+        "name": "cabotegravir sodium",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "2475077",
+          "name": "cabotegravir",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/2475076/related.json?tty=IN",
+      "sha256": "051e64ac59a7320246e448f5cfbb3e453f0cc89782aec66b595b772f4efbb023",
+      "retrievedAt": "2026-10-22T19:56:09.537972+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "1306884",
+        "name": "calcium acetate monohydrate",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "214342",
+          "name": "calcium acetate",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/1306884/related.json?tty=IN",
+      "sha256": "e42f81c0eb79b934cee2f428847de363d29e2c635eadea32bb273fe17e08d2f6",
+      "retrievedAt": "2026-10-22T19:56:11.337459+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "1298846",
+        "name": "calcium gluconate monohydrate",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "1908",
+          "name": "calcium gluconate",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/1298846/related.json?tty=IN",
+      "sha256": "21330b7104cd0ed9104695fa89272e116ed96fa7bdfaa91a96acb936a2655751",
+      "retrievedAt": "2026-10-22T19:56:13.119751+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "2018",
+        "name": "carbenoxolone sodium",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "2017",
+          "name": "carbenoxolone",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/2018/related.json?tty=IN",
+      "sha256": "6ddc511d2ccbd762b38e76f5c7a73d1b0fd2086f8ee1dc5f49930e215a9e3d54",
+      "retrievedAt": "2026-10-22T19:56:14.907529+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "1545982",
+        "name": "carbidopa anhydrous",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "2019",
+          "name": "carbidopa",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/1545982/related.json?tty=IN",
+      "sha256": "6457fcfc57b7d8866cb2d56828bf524fd0fbb30b1a664eeba7df52b64f05ec65",
+      "retrievedAt": "2026-10-22T19:56:16.696105+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "1311519",
+        "name": "carnitine chloride",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "2106",
+          "name": "carnitine",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/1311519/related.json?tty=IN",
+      "sha256": "a85eee0b6952c140907831788be7130c8ee10fe51556d33a8e176e62f47f56df",
+      "retrievedAt": "2026-10-22T19:56:18.491240+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "282363",
+        "name": "caspofungin acetate",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "140108",
+          "name": "caspofungin",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/282363/related.json?tty=IN",
+      "sha256": "276804953b9ca1c7c4e0f2afffb7bb5435a2b2e223d3325ad2c752b84b018b9f",
+      "retrievedAt": "2026-10-22T19:56:20.277127+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "20473",
+        "name": "cefamandole nafate",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "2178",
+          "name": "cefamandole",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/20473/related.json?tty=IN",
+      "sha256": "8c5d6f2efff2332e9256a17a58f11366cde07b5289930ec75cb8291cd145398d",
+      "retrievedAt": "2026-10-22T19:56:22.067161+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "1597608",
+        "name": "ceftolozane sulfate",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "1597609",
+          "name": "ceftolozane",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/1597608/related.json?tty=IN",
+      "sha256": "9dddfaee5f4afbaf68752f2975441cae2f5ee88481542639d8964c3c965212c2",
+      "retrievedAt": "2026-10-22T19:56:23.865445+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "42562",
+        "name": "cephapirin sodium",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "2238",
+          "name": "cephapirin",
+          "synonym": "cefapirin",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/42562/related.json?tty=IN",
+      "sha256": "62524e29b9a5f50ec83ac1d2612f23a3455fcff54637ab1d6a9b995dafb6a8aa",
+      "retrievedAt": "2026-10-22T19:56:25.651212+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "288999",
+        "name": "cetrimonium bromide",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "20614",
+          "name": "cetrimonium",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/288999/related.json?tty=IN",
+      "sha256": "3f30c05dccc607b88dba31fa5c445630efc210c7de5d61b9e1c0b765c1d2b0e6",
+      "retrievedAt": "2026-10-22T19:56:27.435971+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "259338",
+        "name": "cetrorelix acetate",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "68147",
+          "name": "cetrorelix",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/259338/related.json?tty=IN",
+      "sha256": "867ba0b1328fe9853b75c853b2e38e653c937b790a752df5f18b4760db78d7f5",
+      "retrievedAt": "2026-10-22T19:56:29.229625+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "260036",
+        "name": "cevimeline hydrochloride",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "44281",
+          "name": "cevimeline",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/260036/related.json?tty=IN",
+      "sha256": "7fc4315db467a932ca74460fcba0e531e3575c845a0429805cb018006a1e1d67",
+      "retrievedAt": "2026-10-22T19:56:31.015378+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "2323",
+        "name": "chenodeoxycholic acid",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "42588",
+          "name": "chenodeoxycholate",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/2323/related.json?tty=IN",
+      "sha256": "a44ffdaaa5961c8980dafabfc6402c3d3e1232ffc02a4395f4f11f484f3f171b",
+      "retrievedAt": "2026-10-22T19:56:32.797692+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "2344",
+        "name": "chloral hydrate",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "38574",
+          "name": "trichloroacetaldehyde",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/2344/related.json?tty=IN",
+      "sha256": "0ca7a648012caf3e17c832d6e0308640cb5ae51482ce2def0f570b50c480fd58",
+      "retrievedAt": "2026-10-22T19:56:34.585666+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "2451",
+        "name": "choline bitartrate",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "2449",
+          "name": "choline",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/2451/related.json?tty=IN",
+      "sha256": "2317309f820aa3ccbac11886b5922dcdc28e903cd1d5d075a47668d11f8001db",
+      "retrievedAt": "2026-10-22T19:56:36.371034+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "1425426",
+        "name": "choline chloride",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "2449",
+          "name": "choline",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/1425426/related.json?tty=IN",
+      "sha256": "2317309f820aa3ccbac11886b5922dcdc28e903cd1d5d075a47668d11f8001db",
+      "retrievedAt": "2026-10-22T19:56:38.163267+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "20974",
+        "name": "choline salicylate",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "2449",
+          "name": "choline",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/20974/related.json?tty=IN",
+      "sha256": "2317309f820aa3ccbac11886b5922dcdc28e903cd1d5d075a47668d11f8001db",
+      "retrievedAt": "2026-10-22T19:56:39.955868+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "283550",
+        "name": "choriogonadotropin alfa",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "4986",
+          "name": "chorionic gonadotropin",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/283550/related.json?tty=IN",
+      "sha256": "a48ed2535266081eb0560ab3ccfac403df80bd42e44e1ac8a718b71a0dcb9be8",
+      "retrievedAt": "2026-10-22T19:56:41.960589+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "384379",
+        "name": "cinacalcet hydrochloride",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "407990",
+          "name": "cinacalcet",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/384379/related.json?tty=IN",
+      "sha256": "0c7a831d5e4cad51761163cbc8bf68272eea8833299eb417efc836da9b816b6b",
+      "retrievedAt": "2026-10-22T19:56:43.755962+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "136561",
+        "name": "cisatracurium besylate",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "319864",
+          "name": "cisatracurium",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/136561/related.json?tty=IN",
+      "sha256": "70747523aeb8f5d9edfb3e9c360f81c3596b107e03d257bdfd5cbfe0550bcc5d",
+      "retrievedAt": "2026-10-22T19:56:45.554821+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "221079",
+        "name": "citric acid monohydrate",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "21183",
+          "name": "citric acid",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/221079/related.json?tty=IN",
+      "sha256": "66c89dab0fdeea64249a7318c9d16138dbb80cfeb1a53d909ab744409631c537",
+      "retrievedAt": "2026-10-22T19:56:47.343901+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "2707558",
+        "name": "citrulline malate",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "2567",
+          "name": "citrulline",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/2707558/related.json?tty=IN",
+      "sha256": "1ce2638be9614edb46ae90221307da5c4ea6103a2b6355da53f4e246581d40b5",
+      "retrievedAt": "2026-10-22T19:56:49.135386+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "831418",
+        "name": "clavulanate potassium",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "48203",
+          "name": "clavulanate",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/831418/related.json?tty=IN",
+      "sha256": "9303d6c709248ada23618f9d98b88a0649dcd1414e0147bf7c5e70a0c7f48218",
+      "retrievedAt": "2026-10-22T19:56:50.938492+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "48212",
+        "name": "clidinium bromide",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "21232",
+          "name": "clidinium",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/48212/related.json?tty=IN",
+      "sha256": "299df09633b033a45cee750f02eac43475960a41bee40b0b6a32f933e413991a",
+      "retrievedAt": "2026-10-22T19:56:52.735216+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "21246",
+        "name": "clobetasone butyrate",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "108074",
+          "name": "clobetasone",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/21246/related.json?tty=IN",
+      "sha256": "c7dccccdb301db9c8c5b40bdf8f3568570f7884429ca3ff3a20f9a075e9e7720",
+      "retrievedAt": "2026-10-22T19:56:54.521390+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "236991",
+        "name": "clopidogrel bisulfate",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "32968",
+          "name": "clopidogrel",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/236991/related.json?tty=IN",
+      "sha256": "1b4c2cfcca4734196bdc6e50849a6f3d66a2d20e197e0ed100394bb761ca575e",
+      "retrievedAt": "2026-10-22T19:56:56.317179+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "52101",
+        "name": "cyclobenzaprine hydrochloride",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "21949",
+          "name": "cyclobenzaprine",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/52101/related.json?tty=IN",
+      "sha256": "27117bdaf282a042ad25193aaaa777af945798b87c797710acacd6dbe6760ad9",
+      "retrievedAt": "2026-10-22T19:56:58.112343+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "2679071",
+        "name": "cyclophosphamide monohydrate",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "3002",
+          "name": "cyclophosphamide",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/2679071/related.json?tty=IN",
+      "sha256": "b50384235b79606582b565b20670cfeea5c5c6160c527c3644543e0a8a1ebdfc",
+      "retrievedAt": "2026-10-22T19:56:59.911949+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "22054",
+        "name": "cyproterone acetate",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "3014",
+          "name": "cyproterone",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/22054/related.json?tty=IN",
+      "sha256": "fc32c7372a9ac6add02d16c7e1f551e81b7b9229565c6993a6b3f2f855344204",
+      "retrievedAt": "2026-10-22T19:57:01.708518+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "82137",
+        "name": "dalteparin sodium",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "67109",
+          "name": "dalteparin",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/82137/related.json?tty=IN",
+      "sha256": "601ce9702acf063ab5f4fd723d9d632964053ad2b1edfd3dbe7d0f7152d3c6b7",
+      "retrievedAt": "2026-10-22T19:57:03.507881+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "3106",
+        "name": "dantrolene sodium",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "3105",
+          "name": "dantrolene",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/3106/related.json?tty=IN",
+      "sha256": "b754c1d014641a05fa4d51fa759e701131c06900caf8a82cae19c5447bb79d45",
+      "retrievedAt": "2026-10-22T19:57:05.299885+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "644682",
+        "name": "darunavir ethanolate",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "460132",
+          "name": "darunavir",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/644682/related.json?tty=IN",
+      "sha256": "95f047ddfbefe78a647b45e854e171ba8f84e358d74ed17386f860110c1c8f9c",
+      "retrievedAt": "2026-10-22T19:57:07.093824+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "3141",
+        "name": "dehydrocholic acid",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "42625",
+          "name": "dehydrocholate",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/3141/related.json?tty=IN",
+      "sha256": "9ea7d8b6ed857700698604efed90562c8433e0a09beda547cb0c211824e00ef4",
+      "retrievedAt": "2026-10-22T19:57:08.887279+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "3120",
+        "name": "dequalinium chloride",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "3226",
+          "name": "dequalinium",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/3120/related.json?tty=IN",
+      "sha256": "ac9607f21869d411c943d2965955b594b3aebadf2418e2ddb634e762eaf1ed67",
+      "retrievedAt": "2026-10-22T19:57:10.684393+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "233386",
+        "name": "dexketoprofen trometamol",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "237162",
+          "name": "dexketoprofen",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/233386/related.json?tty=IN",
+      "sha256": "0027963751a6bb48fcfe2af5dd0a0c1b32444f951bd124b4aad4f24c59668a6f",
+      "retrievedAt": "2026-10-22T19:57:12.478293+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "228054",
+        "name": "dexmedetomidine hydrochloride",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "48937",
+          "name": "dexmedetomidine",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/228054/related.json?tty=IN",
+      "sha256": "ec03c078181c93bfa16c4e4408c4872e6f1057064b07fce1626dd569ce15f57f",
+      "retrievedAt": "2026-10-22T19:57:14.271746+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "1297771",
+        "name": "dextrose hydrous",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "4850",
+          "name": "glucose",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/1297771/related.json?tty=IN",
+      "sha256": "8ddfa915124178cddc8fccb7ccf9106a5c9abc2fe13ef71665c03411ddac7a46",
+      "retrievedAt": "2026-10-22T19:57:16.067854+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "221090",
+        "name": "dibasic sodium phosphate heptahydrate",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "236719",
+          "name": "sodium phosphate, dibasic",
+          "synonym": "dibasic sodium phosphate",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/221090/related.json?tty=IN",
+      "sha256": "7792c078ad6dfda348528ceff4a4561cbaa38a0a66d44a73e726ab199eebbf30",
+      "retrievedAt": "2026-10-22T19:57:17.855783+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "23033",
+        "name": "diflorasone diacetate",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "91311",
+          "name": "diflorasone",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/23033/related.json?tty=IN",
+      "sha256": "195bb5f48601b3003e9bb95a757efd1868a711efda6153a1f91200a6bc5fc035",
+      "retrievedAt": "2026-10-22T19:57:19.656278+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "23321",
+        "name": "dinoprost tromethamine",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "3477",
+          "name": "dinoprost",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/23321/related.json?tty=IN",
+      "sha256": "87cf58df9cdb66592ee738a8fa735efad2ddb9a58c37d4a613be6a3f98235d30",
+      "retrievedAt": "2026-10-22T19:57:21.831237+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "360283",
+        "name": "diphenhydramine tannate",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "3498",
+          "name": "diphenhydramine",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/360283/related.json?tty=IN",
+      "sha256": "b007365fb588575310db74e102b960d26bbdd51bbc4fb1be9cba590202bfb343",
+      "retrievedAt": "2026-10-22T19:57:23.638539+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "1367264",
+        "name": "dipotassium glycyrrhizinate",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "1359426",
+          "name": "glycyrrhizinate",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/1367264/related.json?tty=IN",
+      "sha256": "8c11eed3f16473165b249b2472032049d692fdd40dac9c21c40f20fa8ec3edd6",
+      "retrievedAt": "2026-10-22T19:57:25.433291+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "266856",
+        "name": "divalproex sodium",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "40254",
+          "name": "valproate",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/266856/related.json?tty=IN",
+      "sha256": "14da1a5d00973365746564aabbb4dbaacc1ff37332f3e6e68045a65904ac2966",
+      "retrievedAt": "2026-10-22T19:57:27.220031+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "1299922",
+        "name": "docetaxel anhydrous",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "72962",
+          "name": "docetaxel",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/1299922/related.json?tty=IN",
+      "sha256": "4344ac28df49fcb36a2892fad79fd4d924c3599df1d8d166b5c01babce8d9e0d",
+      "retrievedAt": "2026-10-22T19:57:29.011217+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "71722",
+        "name": "docusate sodium",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "82003",
+          "name": "docusate",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/71722/related.json?tty=IN",
+      "sha256": "cffceb5411482081d52bd1c73a1350f01fa3d6ac9c5a0791b48c8a7e6a42c09c",
+      "retrievedAt": "2026-10-22T19:57:30.801758+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "1433867",
+        "name": "dolutegravir sodium",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "1433868",
+          "name": "dolutegravir",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/1433867/related.json?tty=IN",
+      "sha256": "1036998d51eff95fff97384d2cf5a0eaa9f17c943c26e8169f83513d81fd6261",
+      "retrievedAt": "2026-10-22T19:57:32.599830+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "236559",
+        "name": "donepezil hydrochloride",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "135447",
+          "name": "donepezil",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/236559/related.json?tty=IN",
+      "sha256": "6e23147044bc177054b73deec2ee0efad98d43c36a49accf1caaccf6a8e4a059",
+      "retrievedAt": "2026-10-22T19:57:34.396514+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "236065",
+        "name": "dorzolamide hydrochloride",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "60207",
+          "name": "dorzolamide",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/236065/related.json?tty=IN",
+      "sha256": "fc566ca060867b7caa2182c79659c6e952e441aecf02fee643d6dea334f7d428",
+      "retrievedAt": "2026-10-22T19:57:36.179985+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "142433",
+        "name": "doxorubicin hydrochloride",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "3639",
+          "name": "doxorubicin",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/142433/related.json?tty=IN",
+      "sha256": "887069f66fba7ef6a17d3e7687eabd8ed456e3eca7b69b5133446d784d9a5beb",
+      "retrievedAt": "2026-10-22T19:57:37.968064+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "466523",
+        "name": "doxorubicin hydrochloride liposome",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "3639",
+          "name": "doxorubicin",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/466523/related.json?tty=IN",
+      "sha256": "887069f66fba7ef6a17d3e7687eabd8ed456e3eca7b69b5133446d784d9a5beb",
+      "retrievedAt": "2026-10-22T19:57:39.763820+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "23663",
+        "name": "doxycycline hyclate",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "3640",
+          "name": "doxycycline",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/23663/related.json?tty=IN",
+      "sha256": "db473a9e1063d5202066cba0a1d36126c8fccbf637140331a4cc6c5bc1557ca5",
+      "retrievedAt": "2026-10-22T19:57:41.569732+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "736680",
+        "name": "dronedarone hydrochloride",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "233698",
+          "name": "dronedarone",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/736680/related.json?tty=IN",
+      "sha256": "e05993f28e78f3c6b33cee598c7d9cb8d4b53b966f3c921acae04656b922d278",
+      "retrievedAt": "2026-10-22T19:57:43.363479+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "1903",
+        "name": "edetate calcium disodium",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "1368950",
+          "name": "edetate calcium",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/1903/related.json?tty=IN",
+      "sha256": "7e10c883067b355076875be77047b24942bc30d8d951153f20ef78dc4800471f",
+      "retrievedAt": "2026-10-22T19:57:45.152177+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "1547219",
+        "name": "eliglustat tartrate",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "1547220",
+          "name": "eliglustat",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/1547219/related.json?tty=IN",
+      "sha256": "0cb51dad99734cc5994a4cd8551cf3c7fa238b0859f36876d239d6fd52d4842e",
+      "retrievedAt": "2026-10-22T19:57:46.941816+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "2277607",
+        "name": "enfortumab vedotin",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "2268307",
+          "name": "enfortumab",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/2277607/related.json?tty=IN",
+      "sha256": "41dc3848a1d997db4840739b038120e616237c61cb8e7e45db9cc0d5b5be956b",
+      "retrievedAt": "2026-10-22T19:57:48.739928+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "203180",
+        "name": "epinephrine bitartrate",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "3992",
+          "name": "epinephrine",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/203180/related.json?tty=IN",
+      "sha256": "23fc34342ab4ccbe3342bdd56c8aff822ea666d434db896575cadd3c7255dda2",
+      "retrievedAt": "2026-10-22T19:57:50.531433+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "104463",
+        "name": "epoprostenol sodium",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "8814",
+          "name": "epoprostenol",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/104463/related.json?tty=IN",
+      "sha256": "f9828cd78fdf6d51c95de24e79889537516e1b3b3ea46a8409ebc59660167f03",
+      "retrievedAt": "2026-10-22T19:57:52.328775+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "24313",
+        "name": "ergonovine maleate",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "4021",
+          "name": "ergonovine",
+          "synonym": "ergometrine",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/24313/related.json?tty=IN",
+      "sha256": "6470c9027201853136439fcc561643e9ce7d2a1b91066dfc30a1f9cb5b6458fb",
+      "retrievedAt": "2026-10-22T19:57:54.121148+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "42676",
+        "name": "ergotamine tartrate",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "4025",
+          "name": "ergotamine",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/42676/related.json?tty=IN",
+      "sha256": "f8927e3846e311d7f491e9ea710d9146a7ac0f1481162296dcaf050bf42e5450",
+      "retrievedAt": "2026-10-22T19:57:55.906075+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "1045452",
+        "name": "eribulin mesylate",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "1045453",
+          "name": "eribulin",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/1045452/related.json?tty=IN",
+      "sha256": "c8a77ba82549d2243fe9293dd5387120d15339cc7858f647d492b596a51ca663",
+      "retrievedAt": "2026-10-22T19:57:57.703674+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "477320",
+        "name": "erlotinib hydrochloride",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "337525",
+          "name": "erlotinib",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/477320/related.json?tty=IN",
+      "sha256": "b7fb5ba6f98d964154117a897b1952218649320273accfd6c346c28f2f3d7dc7",
+      "retrievedAt": "2026-10-22T19:57:59.499412+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "4055",
+        "name": "erythromycin estolate",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "4053",
+          "name": "erythromycin",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/4055/related.json?tty=IN",
+      "sha256": "343d2577fc2bca7914a666c1d5f3c9a72ca984ce0c6006563114e89abb8f785c",
+      "retrievedAt": "2026-10-22T19:58:01.554595+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "4056",
+        "name": "erythromycin ethylsuccinate",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "4053",
+          "name": "erythromycin",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/4056/related.json?tty=IN",
+      "sha256": "343d2577fc2bca7914a666c1d5f3c9a72ca984ce0c6006563114e89abb8f785c",
+      "retrievedAt": "2026-10-22T19:58:03.349102+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "24347",
+        "name": "erythromycin lactobionate",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "4053",
+          "name": "erythromycin",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/24347/related.json?tty=IN",
+      "sha256": "343d2577fc2bca7914a666c1d5f3c9a72ca984ce0c6006563114e89abb8f785c",
+      "retrievedAt": "2026-10-22T19:58:05.143927+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "24351",
+        "name": "erythromycin stearate",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "4053",
+          "name": "erythromycin",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/24351/related.json?tty=IN",
+      "sha256": "343d2577fc2bca7914a666c1d5f3c9a72ca984ce0c6006563114e89abb8f785c",
+      "retrievedAt": "2026-10-22T19:58:06.937063+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "1601995",
+        "name": "esomeprazole magnesium dihydrate",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "283742",
+          "name": "esomeprazole",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/1601995/related.json?tty=IN",
+      "sha256": "c9baa615560216471fd7c5d11e8a9544024ea448a39d111be045943ef7bf4e3a",
+      "retrievedAt": "2026-10-22T19:58:08.736252+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "2688630",
+        "name": "esomeprazole magnesium trihydrate",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "283742",
+          "name": "esomeprazole",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/2688630/related.json?tty=IN",
+      "sha256": "c9baa615560216471fd7c5d11e8a9544024ea448a39d111be045943ef7bf4e3a",
+      "retrievedAt": "2026-10-22T19:58:10.528831+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "2539035",
+        "name": "estetrol monohydrate",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "2539031",
+          "name": "estetrol",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/2539035/related.json?tty=IN",
+      "sha256": "22f827301f69e09eb6760e25cb8bd6620a7032e6f2be08d661247cff5a9dfcb6",
+      "retrievedAt": "2026-10-22T19:58:12.326045+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "1876122",
+        "name": "etelcalcetide hydrochloride",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "1876119",
+          "name": "etelcalcetide",
+          "synonym": "velcalcetide",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/1876122/related.json?tty=IN",
+      "sha256": "2f1a9329f36e01406bce16d7b2aad12519a54389d39cbb855ac372dd4adae612",
+      "retrievedAt": "2026-10-22T19:58:14.117119+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "4170",
+        "name": "ethynodiol diacetate",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "24591",
+          "name": "ethynodiol",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/4170/related.json?tty=IN",
+      "sha256": "cd346ee884fac93af6e8a907cd6c4d1abd0e49c7b36aef87dd34b481fcedf39c",
+      "retrievedAt": "2026-10-22T19:58:15.910428+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "236229",
+        "name": "fenticonazole nitrate",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "24876",
+          "name": "fenticonazole",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/236229/related.json?tty=IN",
+      "sha256": "a5c52d4464b8d914a152937217901fcdf3155ea80b1f0ddca4b7665a3432a790",
+      "retrievedAt": "2026-10-22T19:58:17.707751+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "1323279",
+        "name": "ferric chloride hexahydrate",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "24898",
+          "name": "ferric chloride",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/1323279/related.json?tty=IN",
+      "sha256": "e69ed89b54e8d258c5276e18bffecb2341a046a327b890a1d713f04cbd2bb0cb",
+      "retrievedAt": "2026-10-22T19:58:19.504763+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "42686",
+        "name": "flecainide acetate",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "4441",
+          "name": "flecainide",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/42686/related.json?tty=IN",
+      "sha256": "dbd485a3703ce27fe1f0bebacd0db3950ff0829c2427923e0bec46e9729b7e30",
+      "retrievedAt": "2026-10-22T19:58:21.309192+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "25102",
+        "name": "fludarabine phosphate",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "24698",
+          "name": "fludarabine",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/25102/related.json?tty=IN",
+      "sha256": "0fdc48c42a74e520b95b65ff350980c931881b5188aa619054d402f80b7e6dad",
+      "retrievedAt": "2026-10-22T19:58:23.100157+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "165516",
+        "name": "fludrocortisone acetate",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "4452",
+          "name": "fludrocortisone",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/165516/related.json?tty=IN",
+      "sha256": "5c7c4dd5d1d15e212377188af2b862b230606176b7421b857eb5c7a38eb09f16",
+      "retrievedAt": "2026-10-22T19:58:24.894791+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "25113",
+        "name": "flumethasone pivalate",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "4458",
+          "name": "flumethasone",
+          "synonym": "flumetasone",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/25113/related.json?tty=IN",
+      "sha256": "ac95514a071e537386adcb06c8a9ebebf40d366515488dc39784589a3ca9d72d",
+      "retrievedAt": "2026-10-22T19:58:26.693183+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "82019",
+        "name": "flunarizine hydrochloride",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "4459",
+          "name": "flunarizine",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/82019/related.json?tty=IN",
+      "sha256": "7c10337d4292dda36f8501564864fd6578e9e6cbc676cdc05c5b068b1deeee92",
+      "retrievedAt": "2026-10-22T19:58:28.491420+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "25190",
+        "name": "fluphenazine decanoate",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "4496",
+          "name": "fluphenazine",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/25190/related.json?tty=IN",
+      "sha256": "ff283e3f5a422eec9377be53fbb2d23bdfb57d273c3720d5f7c1002a7c2faab9",
+      "retrievedAt": "2026-10-22T19:58:30.290546+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "50139",
+        "name": "fonazine mesylate",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "50138",
+          "name": "fonazine",
+          "synonym": "dimetotiazine",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/50139/related.json?tty=IN",
+      "sha256": "fc09782c6d4e9e541c16ab378daac9cd2603a0e0030c83638cab1a7792039872",
+      "retrievedAt": "2026-10-22T19:58:32.107790+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "322154",
+        "name": "fondaparinux sodium",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "321208",
+          "name": "fondaparinux",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/322154/related.json?tty=IN",
+      "sha256": "a62adb6267a06de04dd4f7d76ca57da78c981c42fca25df5ed0400b2c752f2cc",
+      "retrievedAt": "2026-10-22T19:58:33.898430+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "754763",
+        "name": "fosaprepitant dimeglumine",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "1731071",
+          "name": "fosaprepitant",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/754763/related.json?tty=IN",
+      "sha256": "7e52592ef9cd50896ea07ddcec53019f2f15a33d8bc5e86f69624ccc8cccecdc",
+      "retrievedAt": "2026-10-22T19:58:35.691313+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "9874",
+        "name": "fusidate sodium",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "113608",
+          "name": "fusidate",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/9874/related.json?tty=IN",
+      "sha256": "bb9610e49190c1d4427ddbafd2cb4c5037540ec07722c5be29e9a9ee9af11ebe",
+      "retrievedAt": "2026-10-22T19:58:37.491108+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "4608",
+        "name": "fusidic acid",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "113608",
+          "name": "fusidate",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/4608/related.json?tty=IN",
+      "sha256": "bb9610e49190c1d4427ddbafd2cb4c5037540ec07722c5be29e9a9ee9af11ebe",
+      "retrievedAt": "2026-10-22T19:58:39.290298+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "68173",
+        "name": "gadobenate dimeglumine",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "692620",
+          "name": "gadobenate",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/68173/related.json?tty=IN",
+      "sha256": "b5dfc7e2471c7ed1a409c8a92f02b4ab088f15368b6fb9b3ad225b80ebee5949",
+      "retrievedAt": "2026-10-22T19:58:41.497269+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "860693",
+        "name": "galantamine hydrobromide",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "4637",
+          "name": "galantamine",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/860693/related.json?tty=IN",
+      "sha256": "53d0031f4bd298a98e33539c689a3b12fe53a4a8aea0a253e7a8e9ff39f23d0a",
+      "retrievedAt": "2026-10-22T19:58:43.295691+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "82131",
+        "name": "ganciclovir sodium",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "4678",
+          "name": "ganciclovir",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/82131/related.json?tty=IN",
+      "sha256": "e8a1e0fd533eb90c55b87698cfa8a483160e76f7738cf83a551e1d67db1d7ec8",
+      "retrievedAt": "2026-10-22T19:58:45.086291+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "259264",
+        "name": "ganirelix acetate",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "35825",
+          "name": "ganirelix",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/259264/related.json?tty=IN",
+      "sha256": "73ef2c6e5779839f63fc331994924a68d87a610840de70b8f1d8edfd4618c6e2",
+      "retrievedAt": "2026-10-22T19:58:46.911109+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "236234",
+        "name": "gemcitabine hydrochloride",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "12574",
+          "name": "gemcitabine",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/236234/related.json?tty=IN",
+      "sha256": "90c9cf163f5ec3ebd71a64a34cb92aaf725f8922bf9c699d057d3bd0e8a17c05",
+      "retrievedAt": "2026-10-22T19:58:48.709284+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "2105823",
+        "name": "gilteritinib fumarate",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "2105806",
+          "name": "gilteritinib",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/2105823/related.json?tty=IN",
+      "sha256": "fc5d2f01ad63dfb2c46a2772471cab65dc1854513058a27ffeb88d53c8d3954f",
+      "retrievedAt": "2026-10-22T19:58:50.495893+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "84375",
+        "name": "glatiramer acetate",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "214582",
+          "name": "glatiramer",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/84375/related.json?tty=IN",
+      "sha256": "38cd0b8b7cc51a4192d0674c73009624cc605537b09e05b8f68142fe15aa4de8",
+      "retrievedAt": "2026-10-22T19:58:52.292934+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "236608",
+        "name": "glucosamine hydrochloride",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "4845",
+          "name": "glucosamine",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/236608/related.json?tty=IN",
+      "sha256": "9dbdc0a77407cbc34fbc61e6c8b3d789e2eb9311e08510d82ac56048e88704d0",
+      "retrievedAt": "2026-10-22T19:58:54.092725+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "142149",
+        "name": "granisetron hydrochloride",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "26237",
+          "name": "granisetron",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/142149/related.json?tty=IN",
+      "sha256": "7c3d9c55b1b21b9a99098820554b3668dfd69b62c24a147a74886983a2068bf4",
+      "retrievedAt": "2026-10-22T19:58:55.886685+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "203181",
+        "name": "guanethidine sulfate",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "5036",
+          "name": "guanethidine",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/203181/related.json?tty=IN",
+      "sha256": "c483ec000f9ff6dfe8157c133283474828cf676ad5a2ac6ccaae05c6abd9b8bc",
+      "retrievedAt": "2026-10-22T19:58:57.680066+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "26420",
+        "name": "haloperidol decanoate",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "5093",
+          "name": "haloperidol",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/26420/related.json?tty=IN",
+      "sha256": "89b165a47e5f1be9be2ca679deb0b1e4105b70d641ce14f03144b9b280eda0c4",
+      "retrievedAt": "2026-10-22T19:58:59.478455+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "9877",
+        "name": "heparin sodium",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "5224",
+          "name": "heparin",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/9877/related.json?tty=IN",
+      "sha256": "ffb84a0a949d771437a8ad9b99dceba42bce0ca7b1994de5dcef8476097fdcd4",
+      "retrievedAt": "2026-10-22T19:59:01.271425+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "1309689",
+        "name": "histidine monohydrochloride",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "5340",
+          "name": "histidine",
+          "synonym": "L-histidine",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/1309689/related.json?tty=IN",
+      "sha256": "df60e165d0fd6d7291089b9a837511eb71738b5f9e6a8b06fa78fc1c08c5e347",
+      "retrievedAt": "2026-10-22T19:59:03.067645+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "103468",
+        "name": "hydrocortisone butyrate",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "5492",
+          "name": "hydrocortisone",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/103468/related.json?tty=IN",
+      "sha256": "61a1978b7f00cf302fd9c0b794d97f74e89ab1ddc9d1856e831eac977f470f9d",
+      "retrievedAt": "2026-10-22T19:59:04.863711+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "153972",
+        "name": "hydroxychloroquine sulfate",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "5521",
+          "name": "hydroxychloroquine",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/153972/related.json?tty=IN",
+      "sha256": "fb8dba81f2dc9b84710b3423a731eef552e8b5d8768ba45950651b818d3207ab",
+      "retrievedAt": "2026-10-22T19:59:06.649337+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "203182",
+        "name": "hydroxyzine pamoate",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "5553",
+          "name": "hydroxyzine",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/203182/related.json?tty=IN",
+      "sha256": "6f741864dccb68bbcf34d9b846ce702355853150a672d07ab2c0d990a9508da6",
+      "retrievedAt": "2026-10-22T19:59:08.442030+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "236916",
+        "name": "ibandronate sodium",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "115264",
+          "name": "ibandronate",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/236916/related.json?tty=IN",
+      "sha256": "51f865bafaa387b0dcebbe42017ce894cee2515e6e1dfcedef3e1017230dacba",
+      "retrievedAt": "2026-10-22T19:59:10.242434+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "36761",
+        "name": "ibuprofen lysine",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "5640",
+          "name": "ibuprofen",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/36761/related.json?tty=IN",
+      "sha256": "ddc23a4eacfa03fb4df8404b0b8250660e55127db1696cd1c30fdf1d4c05b14e",
+      "retrievedAt": "2026-10-22T19:59:12.036028+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "284924",
+        "name": "imatinib mesylate",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "282388",
+          "name": "imatinib",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/284924/related.json?tty=IN",
+      "sha256": "b2234b8d74b3d8f9504b3c0e78253a45980144cedc06605fdac5321ec75b06d6",
+      "retrievedAt": "2026-10-22T19:59:13.832329+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "2725911",
+        "name": "imlunestrant tosylate",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "2725912",
+          "name": "imlunestrant",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/2725911/related.json?tty=IN",
+      "sha256": "515878f96be5d99076d2f23f69f83a7fd03e2e4f9efa90af548190e12f8a8cc7",
+      "retrievedAt": "2026-10-22T19:59:15.629792+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "42987",
+        "name": "indium In-111 chloride",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "1362699",
+          "name": "indium",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/42987/related.json?tty=IN",
+      "sha256": "7c50446dbd96907bb5ddc444147c58227ab3e541676645c0e2b27ce5debfb2fb",
+      "retrievedAt": "2026-10-22T19:59:17.429370+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "153329",
+        "name": "irinotecan hydrochloride",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "51499",
+          "name": "irinotecan",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/153329/related.json?tty=IN",
+      "sha256": "d2b422abf6cf322294206d2db508d9d26be9b7a9a5d25a3c29e558471a58ec4b",
+      "retrievedAt": "2026-10-22T19:59:19.233997+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "1608321",
+        "name": "isavuconazonium sulfate",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "1608322",
+          "name": "isavuconazonium",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/1608321/related.json?tty=IN",
+      "sha256": "dcff58f968fe6d2759fdc1c39c600bd4f662e074b83262c2b31d57c31e0b00df",
+      "retrievedAt": "2026-10-22T19:59:21.229520+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "1649479",
+        "name": "ivabradine hydrochloride",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "1649480",
+          "name": "ivabradine",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/1649479/related.json?tty=IN",
+      "sha256": "c788be9b58fd27dea1ad4db124aa9deb79db613c3d596225e86527b53c5a9e2a",
+      "retrievedAt": "2026-10-22T19:59:23.024357+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "1723734",
+        "name": "ixazomib citrate",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "1723735",
+          "name": "ixazomib",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/1723734/related.json?tty=IN",
+      "sha256": "5b9af4e2aa92e5fd588283fa98f46bf7dae69acc39a48f7601a960dab637f9fd",
+      "retrievedAt": "2026-10-22T19:59:24.822179+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "28200",
+        "name": "ketorolac tromethamine",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "35827",
+          "name": "ketorolac",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/28200/related.json?tty=IN",
+      "sha256": "1fb5839d56ba61699cc3297c905d49368270bf937dba5b2e430a031410947e20",
+      "retrievedAt": "2026-10-22T19:59:26.626099+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "28393",
+        "name": "lactic acid",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "114202",
+          "name": "lactate",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/28393/related.json?tty=IN",
+      "sha256": "e77d856a0b6f3b583076aaae0062bad8f1153164bbcd9af17e767e16931afc4d",
+      "retrievedAt": "2026-10-22T19:59:28.422818+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "1305520",
+        "name": "lactitol monohydrate",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "28395",
+          "name": "lactitol",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/1305520/related.json?tty=IN",
+      "sha256": "8375cc3513efccb8ba09fe58ba44ddd643ef9ad7f7b4151ba74341d99b54a1ce",
+      "retrievedAt": "2026-10-22T19:59:30.248087+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "236167",
+        "name": "lanreotide acetate",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "68092",
+          "name": "lanreotide",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/236167/related.json?tty=IN",
+      "sha256": "db007a0c52b99b46522b188b76ad7134d7caac3cd651b8ae1b3e5fd58757172d",
+      "retrievedAt": "2026-10-22T19:59:32.042154+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "2625652",
+        "name": "lenacapavir sodium",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "2625651",
+          "name": "lenacapavir",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/2625652/related.json?tty=IN",
+      "sha256": "42e133bc6fdbc195e530118d2bb62fd905f5b990203149e4472836ef491d1375",
+      "retrievedAt": "2026-10-22T19:59:33.826176+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "203217",
+        "name": "leuprolide acetate",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "42375",
+          "name": "leuprolide",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/203217/related.json?tty=IN",
+      "sha256": "4e8134501882d5ba439ad7fc1bac64323bfb07d35371616fe303e9760302e570",
+      "retrievedAt": "2026-10-22T19:59:35.617589+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "2595041",
+        "name": "leuprolide mesylate",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "42375",
+          "name": "leuprolide",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/2595041/related.json?tty=IN",
+      "sha256": "4e8134501882d5ba439ad7fc1bac64323bfb07d35371616fe303e9760302e570",
+      "retrievedAt": "2026-10-22T19:59:37.410821+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "2621020",
+        "name": "linzagolix choline",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "2621019",
+          "name": "linzagolix",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/2621020/related.json?tty=IN",
+      "sha256": "3f3ec2daa391f42ce98ae70e64846da8cd06198b27b6e45bcbf1af48717bf955",
+      "retrievedAt": "2026-10-22T19:59:39.198507+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "6476",
+        "name": "loxapine succinate",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "6475",
+          "name": "loxapine",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/6476/related.json?tty=IN",
+      "sha256": "dbd10b3934f6ec4dc8dab0f42b130652e1ca2dcb46a73ddc66e31bcb274cbf50",
+      "retrievedAt": "2026-10-22T19:59:40.993544+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "1311625",
+        "name": "magnesium sulfate anhydrous",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "6585",
+          "name": "magnesium sulfate",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/1311625/related.json?tty=IN",
+      "sha256": "5e0b21aa0e426dc677e5eb76fcc703bfb653f8ceeb7a1f14cc18fd20c6ef1b92",
+      "retrievedAt": "2026-10-22T19:59:42.793687+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "2571073",
+        "name": "maralixibat chloride",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "2571074",
+          "name": "maralixibat",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/2571073/related.json?tty=IN",
+      "sha256": "096d154204af695d2e1b8c3060efe1b68a509dbeef2466837f8f99a5bffb15ad",
+      "retrievedAt": "2026-10-22T19:59:44.586072+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "22822",
+        "name": "mebhydrolin napadisylate",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "29411",
+          "name": "mebhydroline",
+          "synonym": "mebhydrolin",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/22822/related.json?tty=IN",
+      "sha256": "1b555ee8a404e1d49a260dc57b84a496d462b52aa10a561227e0bf4139a4b2a6",
+      "retrievedAt": "2026-10-22T19:59:46.389534+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "6677",
+        "name": "meclofenamate sodium",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "588003",
+          "name": "meclofenamate",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/6677/related.json?tty=IN",
+      "sha256": "447c3f5172d4a54df580b68e51cce3af9007b5c3428ffcc9a263377975db2499",
+      "retrievedAt": "2026-10-22T19:59:48.189122+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "1000112",
+        "name": "medroxyprogesterone acetate",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "6691",
+          "name": "medroxyprogesterone",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/1000112/related.json?tty=IN",
+      "sha256": "449549b2332a85b6c9de92d369aaa53d39e9226f2373a2ad66415d8a5e2f43f1",
+      "retrievedAt": "2026-10-22T19:59:49.979152+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "82130",
+        "name": "mefloquine hydrochloride",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "6694",
+          "name": "mefloquine",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/82130/related.json?tty=IN",
+      "sha256": "71af71c5c3b7012982563c2e98d097115f0e28b9256bec764e5edc6dd6926fe2",
+      "retrievedAt": "2026-10-22T19:59:51.778285+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "29451",
+        "name": "megestrol acetate",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "6703",
+          "name": "megestrol",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/29451/related.json?tty=IN",
+      "sha256": "6eb6b7eb98030de6cf70c199d91c706662ac4a986b2713e8e65c48aad6e25247",
+      "retrievedAt": "2026-10-22T19:59:53.565188+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "236685",
+        "name": "memantine hydrochloride",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "6719",
+          "name": "memantine",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/236685/related.json?tty=IN",
+      "sha256": "f213e5ab733fb16ca7c088715037dc914d14cb5db9dc4118d44f84638dab39a5",
+      "retrievedAt": "2026-10-22T19:59:55.354462+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "52551",
+        "name": "menadione sodium bisulfite",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "6728",
+          "name": "vitamin K3",
+          "synonym": "menadione",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/52551/related.json?tty=IN",
+      "sha256": "16087882736f371f781ecac8d2337338c6dab64fdf51892b226115e7249dc6db",
+      "retrievedAt": "2026-10-22T19:59:57.149818+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "40165",
+        "name": "methacholine chloride",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "155080",
+          "name": "methacholine",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/40165/related.json?tty=IN",
+      "sha256": "cbfb9e44d1de1cf8168c892bbcf0525750e55914abae8d737fdaf30e9d79a2e2",
+      "retrievedAt": "2026-10-22T19:59:58.974105+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "287734",
+        "name": "methotrexate sodium",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "6851",
+          "name": "methotrexate",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/287734/related.json?tty=IN",
+      "sha256": "3510b16cc699423192e501f053ea8be2823f910074cb9c20da75b20a209e94f6",
+      "retrievedAt": "2026-10-22T20:00:01.172290+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "56092",
+        "name": "methscopolamine bromide",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "89785",
+          "name": "methscopolamine",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/56092/related.json?tty=IN",
+      "sha256": "4f2716594132b557f014a04072488e57b5e36af6073c65aabd64d41deb65f178",
+      "retrievedAt": "2026-10-22T20:00:02.975946+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "1545996",
+        "name": "methyldopa anhydrous",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "6876",
+          "name": "methyldopa",
+          "synonym": "methyldopa (levorotatory)",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/1545996/related.json?tty=IN",
+      "sha256": "6764290962f23c7bb29a367a6723121fdf13316664f70b445a0b0cfb19280ece",
+      "retrievedAt": "2026-10-22T20:00:04.771789+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "84158",
+        "name": "methylergonovine maleate",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "6883",
+          "name": "methylergonovine",
+          "synonym": "methylergometrine",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/84158/related.json?tty=IN",
+      "sha256": "7c01ab15e142b51f55a781cd3bac63234bb901244fcbed92868668a1af217243",
+      "retrievedAt": "2026-10-22T20:00:06.567470+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "487070",
+        "name": "micafungin sodium",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "325887",
+          "name": "micafungin",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/487070/related.json?tty=IN",
+      "sha256": "5583e5639e4ee3359c7a5349e2330b273360d8f608e7f70433d4a37614c090f5",
+      "retrievedAt": "2026-10-22T20:00:08.360718+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "993491",
+        "name": "midodrine hydrochloride",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "6963",
+          "name": "midodrine",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/993491/related.json?tty=IN",
+      "sha256": "094835bb070c869840e704a50b2c14deffa8f39b684be709387876c0d613c718",
+      "retrievedAt": "2026-10-22T20:00:10.152000+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "2054264",
+        "name": "migalastat hydrochloride",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "2054252",
+          "name": "migalastat",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/2054264/related.json?tty=IN",
+      "sha256": "1220ec672d899bd1b47b72f37cefe7ba414f12c37db77319957dacbcef59ff92",
+      "retrievedAt": "2026-10-22T20:00:13.509929+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "2665205",
+        "name": "momelotinib dihydrochloride monohydrate",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "2665204",
+          "name": "momelotinib",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/2665205/related.json?tty=IN",
+      "sha256": "d84b937329ad44db560ec3d557d0f3449fc2786a6353207687206228a92fe003",
+      "retrievedAt": "2026-10-22T20:00:15.333715+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "91293",
+        "name": "naftifine hydrochloride",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "31476",
+          "name": "naftifine",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/91293/related.json?tty=IN",
+      "sha256": "40cc202f190752ce5513d3685ac72800293bcd497f425e58d1c4e11f92ad8f28",
+      "retrievedAt": "2026-10-22T20:00:17.122116+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "154985",
+        "name": "nalbuphine hydrochloride",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "7238",
+          "name": "nalbuphine",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/154985/related.json?tty=IN",
+      "sha256": "79ae0ce8893573661dce9d6e51aea8fc000691377f35b1f4429b2ae6a13a10ef",
+      "retrievedAt": "2026-10-22T20:00:18.914046+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "1876598",
+        "name": "naldemedine tosylate",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "1876597",
+          "name": "naldemedine",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/1876598/related.json?tty=IN",
+      "sha256": "f6f6a9edfcc972d5743b2db6007d4de86dd5fdb387a283d040ac3687016ab2fb",
+      "retrievedAt": "2026-10-22T20:00:20.713808+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "203192",
+        "name": "naloxone hydrochloride",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "7242",
+          "name": "naloxone",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/203192/related.json?tty=IN",
+      "sha256": "8373c6ba87e2bd0240b4504650c654c9fffee9e0602e41d9bb10cbc3aa5feb77",
+      "retrievedAt": "2026-10-22T20:00:22.509163+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "105069",
+        "name": "naltrexone hydrochloride",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "7243",
+          "name": "naltrexone",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/105069/related.json?tty=IN",
+      "sha256": "6a66c77539d933cba6351c0f177450ee2921147180a5cf0fc8cdfbf0acb29207",
+      "retrievedAt": "2026-10-22T20:00:24.307503+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "82054",
+        "name": "naphazoline hydrochloride",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "7247",
+          "name": "naphazoline",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/82054/related.json?tty=IN",
+      "sha256": "db9b8c9689f59287695bfcf0cac743d73aa82adff0895334c0c660a355085cea",
+      "retrievedAt": "2026-10-22T20:00:26.106881+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "235810",
+        "name": "naphazoline nitrate",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "7247",
+          "name": "naphazoline",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/235810/related.json?tty=IN",
+      "sha256": "db9b8c9689f59287695bfcf0cac743d73aa82adff0895334c0c660a355085cea",
+      "retrievedAt": "2026-10-22T20:00:27.908527+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "1940642",
+        "name": "neratinib maleate",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "1940643",
+          "name": "neratinib",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/1940642/related.json?tty=IN",
+      "sha256": "2b76db3b829c5df73d9c93ca2f01eae48f87aff1dc7341e1990eb17b1691788d",
+      "retrievedAt": "2026-10-22T20:00:29.707808+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "1992863",
+        "name": "netarsudil mesylate",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "1992864",
+          "name": "netarsudil",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/1992863/related.json?tty=IN",
+      "sha256": "180819afbc01cf1607f2b5d4466a5f12b6ccfed0dd7978ec890f8d7a3a3f1cd9",
+      "retrievedAt": "2026-10-22T20:00:31.496798+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "31765",
+        "name": "nicotine polacrilex",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "7407",
+          "name": "nicotine",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/31765/related.json?tty=IN",
+      "sha256": "e5b61f61fff07e75b842b3a0ee95fe9d6fa9c1f6e5607ebbfac76ad1f43b56c1",
+      "retrievedAt": "2026-10-22T20:00:33.287052+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "2701416",
+        "name": "nilotinib hydrochloride monohydrate",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "662281",
+          "name": "nilotinib",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/2701416/related.json?tty=IN",
+      "sha256": "bd503fefa715c5eaebf7b982edce8440e7cb3606fed0d0238247fa7349f75807",
+      "retrievedAt": "2026-10-22T20:00:35.082148+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "1592736",
+        "name": "nintedanib esylate",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "1592737",
+          "name": "nintedanib",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/1592736/related.json?tty=IN",
+      "sha256": "0706acc495bc652161588f236a16216dd61a63441252ee1a5ae1d40e707689a1",
+      "retrievedAt": "2026-10-22T20:00:36.881279+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "2640208",
+        "name": "niraparib tosylate monohydrate",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "1918231",
+          "name": "niraparib",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/2640208/related.json?tty=IN",
+      "sha256": "f1649b74e9786fa4dd48019b96a0e431d6c52ccc93348bfc9c9e1d12d7244b7d",
+      "retrievedAt": "2026-10-22T20:00:38.674687+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "7508",
+        "name": "norepinephrine bitartrate",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "7512",
+          "name": "norepinephrine",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/7508/related.json?tty=IN",
+      "sha256": "dd91a575c6b69c79786236dbf4aff41a87086aee5ce908856a3bc29297f439e3",
+      "retrievedAt": "2026-10-22T20:00:40.874534+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "221130",
+        "name": "octreotide acetate",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "7617",
+          "name": "octreotide",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/221130/related.json?tty=IN",
+      "sha256": "49484d319d68d92f964c93831266b3e1028a1337f79b723191c54180bc250596",
+      "retrievedAt": "2026-10-22T20:00:42.663062+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "2563978",
+        "name": "odevixibat sesquihydrate",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "2563966",
+          "name": "odevixibat",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/2563978/related.json?tty=IN",
+      "sha256": "58af2f1585b98269263dd64acfb8003e156e763b11f23f3eaf4846d77a78288b",
+      "retrievedAt": "2026-10-22T20:00:44.445047+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "2612690",
+        "name": "omidenepag isopropyl",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "2612691",
+          "name": "omidenepag",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/2612690/related.json?tty=IN",
+      "sha256": "7e56c67251cde6dc6245bf4709ef1c96460dcad10816a87e7b6555a01e4bec79",
+      "retrievedAt": "2026-10-22T20:00:46.232140+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "203148",
+        "name": "ondansetron hydrochloride",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "26225",
+          "name": "ondansetron",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/203148/related.json?tty=IN",
+      "sha256": "d70c565e73caf56ad59a4a381999c5a396085666baf8b5737b06dffb9f599a2d",
+      "retrievedAt": "2026-10-22T20:00:48.026890+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "221134",
+        "name": "opium tincture",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "7676",
+          "name": "opium",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/221134/related.json?tty=IN",
+      "sha256": "d51e44a5614d9dc2b67c103ae376e7c2e26c2b77ddbf03390fbb17ecd99ffc67",
+      "retrievedAt": "2026-10-22T20:00:49.809864+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "7716",
+        "name": "orphenadrine citrate",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "7715",
+          "name": "orphenadrine",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/7716/related.json?tty=IN",
+      "sha256": "e61c33b338df381ab3f95e8ffd874c0d717ea598cdbda66c2e1ec36e148cdaaa",
+      "retrievedAt": "2026-10-22T20:00:51.608795+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "1721559",
+        "name": "osimertinib mesylate",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "1721560",
+          "name": "osimertinib",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/1721559/related.json?tty=IN",
+      "sha256": "1123b373099508d58b510928139ec1f987acae813575a635e828d8c427baa743",
+      "retrievedAt": "2026-10-22T20:00:53.396587+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "54216",
+        "name": "otilonium bromide",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "32311",
+          "name": "octylonium",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/54216/related.json?tty=IN",
+      "sha256": "aa76c73a7efb7f4243ff1285f8209c474b7256dc13c8f8444748cc59b33b2711",
+      "retrievedAt": "2026-10-22T20:00:55.189919+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "54239",
+        "name": "oxeladin citrate",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "32626",
+          "name": "oxeladin",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/54239/related.json?tty=IN",
+      "sha256": "4f398964d24d0e0a3162967b01024c7d1b7cb7e000c3dae836c5bf0e7df008f8",
+      "retrievedAt": "2026-10-22T20:00:56.983307+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "56226",
+        "name": "oxiconazole nitrate",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "32638",
+          "name": "oxiconazole",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/56226/related.json?tty=IN",
+      "sha256": "893d30e451153abad1f297058f04bf84edb6d8013e5db5fc120b838a094d2e19",
+      "retrievedAt": "2026-10-22T20:00:58.772066+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "59053",
+        "name": "oxolamine citrate",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "32658",
+          "name": "oxolamine",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/59053/related.json?tty=IN",
+      "sha256": "2e53f0cf09f7cc7dac605cdd7f9e038609895cd4ff781b9317428399a108f6a6",
+      "retrievedAt": "2026-10-22T20:01:00.565907+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "858045",
+        "name": "paliperidone palmitate",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "679314",
+          "name": "paliperidone",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/858045/related.json?tty=IN",
+      "sha256": "11cb0e3ff3b5457b84f307d4bb574b4bfba6dea47ebbd5f642ea61d95bcc133e",
+      "retrievedAt": "2026-10-22T20:01:02.366712+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "253191",
+        "name": "pantoprazole sodium",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "40790",
+          "name": "pantoprazole",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/253191/related.json?tty=IN",
+      "sha256": "78e131809cdc4e8d329085d5e246870f48a58780eb58db3ccb61a2ca62229bce",
+      "retrievedAt": "2026-10-22T20:01:04.160228+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "1364104",
+        "name": "pasireotide diaspartate",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "1364105",
+          "name": "pasireotide",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/1364104/related.json?tty=IN",
+      "sha256": "df0c41d84da9123d3db759a56621f6811d83cb5f3151f3296d44054dca46cc94",
+      "retrievedAt": "2026-10-22T20:01:05.952780+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "1597818",
+        "name": "pasireotide pamoate",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "1364105",
+          "name": "pasireotide",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/1597818/related.json?tty=IN",
+      "sha256": "df0c41d84da9123d3db759a56621f6811d83cb5f3151f3296d44054dca46cc94",
+      "retrievedAt": "2026-10-22T20:01:07.750741+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "2053491",
+        "name": "patisiran sodium",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "2053490",
+          "name": "patisiran",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/2053491/related.json?tty=IN",
+      "sha256": "67a8cb6a984dd616514da54b259de34c14a1bcf34bd592157825281cfbe01d2a",
+      "retrievedAt": "2026-10-22T20:01:09.553498+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "732187",
+        "name": "pazopanib hydrochloride",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "714438",
+          "name": "pazopanib",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/732187/related.json?tty=IN",
+      "sha256": "d763545f26a9dfd22b7c4cb10ff87e42209fce98609a1f1a3cc520777778a7aa",
+      "retrievedAt": "2026-10-22T20:01:11.340214+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "282443",
+        "name": "pemetrexed disodium",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "68446",
+          "name": "pemetrexed",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/282443/related.json?tty=IN",
+      "sha256": "c93ccdcc266dd8a51bc1392fc50f0bd0e6dedfcaffc0d1038c58066d88c8f9a5",
+      "retrievedAt": "2026-10-22T20:01:13.126533+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "2056898",
+        "name": "pemetrexed disodium hemipentahydrate",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "68446",
+          "name": "pemetrexed",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/2056898/related.json?tty=IN",
+      "sha256": "c93ccdcc266dd8a51bc1392fc50f0bd0e6dedfcaffc0d1038c58066d88c8f9a5",
+      "retrievedAt": "2026-10-22T20:01:14.919235+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "1666923",
+        "name": "pemetrexed disodium heptahydrate",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "68446",
+          "name": "pemetrexed",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/1666923/related.json?tty=IN",
+      "sha256": "c93ccdcc266dd8a51bc1392fc50f0bd0e6dedfcaffc0d1038c58066d88c8f9a5",
+      "retrievedAt": "2026-10-22T20:01:16.710764+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "7982",
+        "name": "penicillin G benzathine",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "7980",
+          "name": "penicillin G",
+          "synonym": "benzylpenicillin",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/7982/related.json?tty=IN",
+      "sha256": "5fd857fc282d34bd041cf2bf49ad44d23a1d4e52cc030b4cc2d579b041e4c557",
+      "retrievedAt": "2026-10-22T20:01:18.500374+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "1600711",
+        "name": "perindopril arginine",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "54552",
+          "name": "perindopril",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/1600711/related.json?tty=IN",
+      "sha256": "06e2beab89bfda0f3419310dfe171bbdc077aa1effad2b7e76b92e4c2d8b1029",
+      "retrievedAt": "2026-10-22T20:01:20.724107+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "72260",
+        "name": "perindopril erbumine",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "54552",
+          "name": "perindopril",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/72260/related.json?tty=IN",
+      "sha256": "06e2beab89bfda0f3419310dfe171bbdc077aa1effad2b7e76b92e4c2d8b1029",
+      "retrievedAt": "2026-10-22T20:01:22.521577+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "221141",
+        "name": "phenyltoloxamine citrate",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "33408",
+          "name": "phenyltoloxamine",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/221141/related.json?tty=IN",
+      "sha256": "83c579bc82b82e9413888f2086b3aa6044a59f5a641e5ab53428f48d016e3125",
+      "retrievedAt": "2026-10-22T20:01:24.316304+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "54743",
+        "name": "pinaverium bromide",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "33724",
+          "name": "pinaverium",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/54743/related.json?tty=IN",
+      "sha256": "fb21c8bd3e05297a6432f78d61c12e6b204ce81277b6dc91178d5f367cd25be7",
+      "retrievedAt": "2026-10-22T20:01:26.119909+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "8337",
+        "name": "pipemidic acid",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "113831",
+          "name": "pipemidate",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/8337/related.json?tty=IN",
+      "sha256": "1dd574b6cb2fc76b71c3a25f3fb783ca71cead6d3ef90df0c4ca3c4ef55b62a9",
+      "retrievedAt": "2026-10-22T20:01:27.914584+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "235861",
+        "name": "pipoxolan hydrochloride",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "33758",
+          "name": "pipoxolan",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/235861/related.json?tty=IN",
+      "sha256": "a9a162e82b42bca944bcb712f8ac8605631cc4b7518845be25f7c18cff4e78c6",
+      "retrievedAt": "2026-10-22T20:01:29.707578+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "2197879",
+        "name": "pitolisant hydrochloride",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "2197878",
+          "name": "pitolisant",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/2197879/related.json?tty=IN",
+      "sha256": "0dc40a426fd0f8b98c30f093ff5b56abc15595e83d3f1e8d2cc9694ac77aaef7",
+      "retrievedAt": "2026-10-22T20:01:31.499202+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "55322",
+        "name": "pralidoxime chloride",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "34345",
+          "name": "pralidoxime",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/55322/related.json?tty=IN",
+      "sha256": "c88abdc2469b49465c396f89f802bff73e4635843af24f4de43d081c6f98ae96",
+      "retrievedAt": "2026-10-22T20:01:33.287381+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "847020",
+        "name": "prasugrel hydrochloride",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "613391",
+          "name": "prasugrel",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/847020/related.json?tty=IN",
+      "sha256": "bd16fddd1e954c97d74861d5fe1034c03e25655a0085fe597105b83c345e0999",
+      "retrievedAt": "2026-10-22T20:01:35.083321+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "203135",
+        "name": "propafenone hydrochloride",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "8754",
+          "name": "propafenone",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/203135/related.json?tty=IN",
+      "sha256": "886c16cd53b82f95fb9f4ff22da840d18e48f0f7b04835a63e99c8a980a993b0",
+      "retrievedAt": "2026-10-22T20:01:36.871499+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "8762",
+        "name": "propantheline bromide",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "8761",
+          "name": "propantheline",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/8762/related.json?tty=IN",
+      "sha256": "e7386d5ac8895b0d681cdeee2ffd00cd37a5ebeae7ca2ef53bfd24d0079ad5de",
+      "retrievedAt": "2026-10-22T20:01:38.655920+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "8985",
+        "name": "pyrantel pamoate",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "8984",
+          "name": "pyrantel",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/8985/related.json?tty=IN",
+      "sha256": "d173be6e84739c815573effac15599dea8379de80e3b3fd3998e2681bb03f3fc",
+      "retrievedAt": "2026-10-22T20:01:40.455570+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "9001",
+        "name": "pyridostigmine bromide",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "9000",
+          "name": "pyridostigmine",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/9001/related.json?tty=IN",
+      "sha256": "4a0ea775ef5daf8561538442767d4c751c0bd86772e72c493a00d012a5f4fc81",
+      "retrievedAt": "2026-10-22T20:01:42.243259+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "55347",
+        "name": "pyrvinium pamoate",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "35163",
+          "name": "pyrvinium",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/55347/related.json?tty=IN",
+      "sha256": "0ac04726d7690e596fe312b66681b275ffd6c5710bb9e848f901c8b19d05237b",
+      "retrievedAt": "2026-10-22T20:01:44.034553+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "9069",
+        "name": "quinidine sulfate",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "9068",
+          "name": "quinidine",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/9069/related.json?tty=IN",
+      "sha256": "03294793d551a386e7ba8bb238d8625cc09d4b9e65a94091608ab087c0004b92",
+      "retrievedAt": "2026-10-22T20:01:45.833233+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "2643049",
+        "name": "quizartinib dihydrochloride",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "2643048",
+          "name": "quizartinib",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/2643049/related.json?tty=IN",
+      "sha256": "4f65fe1a3e678e4132cac14cb54ae7361b82221feda13d963d806f7bcc20ea3f",
+      "retrievedAt": "2026-10-22T20:01:47.623696+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "577300",
+        "name": "rasagiline mesylate",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "134748",
+          "name": "rasagiline",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/577300/related.json?tty=IN",
+      "sha256": "82e5fb457d4105a46c431deb84699b5c293135ed5a1bc2f273290dca8b93330c",
+      "retrievedAt": "2026-10-22T20:01:49.415993+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "2184136",
+        "name": "relebactam monohydrate",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "2184137",
+          "name": "relebactam",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/2184136/related.json?tty=IN",
+      "sha256": "aaaf46e23ca3401aea65344066e711cee1a307bad41b25a9b6b1a202d843e4c4",
+      "retrievedAt": "2026-10-22T20:01:51.207893+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "2383942",
+        "name": "remimazolam besylate",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "2383941",
+          "name": "remimazolam",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/2383942/related.json?tty=IN",
+      "sha256": "6649d7f6d7502aec29ae19753385c1e777442d1ed3e9a4afa491dc3236b3bfc8",
+      "retrievedAt": "2026-10-22T20:01:53.001936+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "1873978",
+        "name": "ribociclib succinate",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "1873916",
+          "name": "ribociclib",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/1873978/related.json?tty=IN",
+      "sha256": "7528a630e91404e4438980b5b2a09b68971fa45445735514705b0f034b552053",
+      "retrievedAt": "2026-10-22T20:01:54.790810+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "2106328",
+        "name": "riboflavin tetrabutyrate",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "9346",
+          "name": "riboflavin",
+          "synonym": "lactoflavin",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/2106328/related.json?tty=IN",
+      "sha256": "5736067d2d88dc7c82aca809e9b8deb7903dc40049fa83be69733c6c4ab2f062",
+      "retrievedAt": "2026-10-22T20:01:56.577228+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "1102287",
+        "name": "rilpivirine hydrochloride",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "1102270",
+          "name": "rilpivirine",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/1102287/related.json?tty=IN",
+      "sha256": "73dd2a917a41ee86635411787081c61fff23b2a58faaa877a7e280271336530a",
+      "retrievedAt": "2026-10-22T20:01:58.369698+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "60334",
+        "name": "risedronate sodium",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "73056",
+          "name": "risedronate",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/60334/related.json?tty=IN",
+      "sha256": "472516b57d168868c0f8b20c1a90f07cba14ea1367ed55173fcf7b4b5f877b6a",
+      "retrievedAt": "2026-10-22T20:02:00.361718+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "2641596",
+        "name": "ritlecitinib tosylate",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "2641595",
+          "name": "ritlecitinib",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/2641596/related.json?tty=IN",
+      "sha256": "d0c0f5d632f91e2035898f49fa8547210be056423e78dde4a2e6b9d2242f9a2a",
+      "retrievedAt": "2026-10-22T20:02:02.197898+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "32521",
+        "name": "rocuronium bromide",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "68139",
+          "name": "rocuronium",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/32521/related.json?tty=IN",
+      "sha256": "d127c87a4637fb97719aa5bbdf6afe1211d72463cf50ba5d364f235be459fbb8",
+      "retrievedAt": "2026-10-22T20:02:03.989367+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "236553",
+        "name": "ropinirole hydrochloride",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "72302",
+          "name": "ropinirole",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/236553/related.json?tty=IN",
+      "sha256": "c1a11ae66a90d03f1578703200e18b98490cf22ca96dcd09bd47f3f4a7efe3c1",
+      "retrievedAt": "2026-10-22T20:02:05.787172+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "253198",
+        "name": "rosiglitazone maleate",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "84108",
+          "name": "rosiglitazone",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/253198/related.json?tty=IN",
+      "sha256": "5e2e00c18f08cb2bf3915ceae84055c58ee6551b38a34cf73199705567c525a2",
+      "retrievedAt": "2026-10-22T20:02:07.570618+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "1193325",
+        "name": "ruxolitinib phosphate",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "1193326",
+          "name": "ruxolitinib",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/1193325/related.json?tty=IN",
+      "sha256": "3d0a872fa9e48e4701db69088e2176df0693fcd47c5f24aedbdbf7e31dbcc211",
+      "retrievedAt": "2026-10-22T20:02:09.365710+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "2360232",
+        "name": "sacituzumab govitecan",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "2360231",
+          "name": "sacituzumab",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/2360232/related.json?tty=IN",
+      "sha256": "f0f0ec870bae9fa0560f2767f271e4450103de6e1858ee309aa010c28d19eee1",
+      "retrievedAt": "2026-10-22T20:02:11.151577+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "753341",
+        "name": "sapropterin dihydrochloride",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "753340",
+          "name": "sapropterin",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/753341/related.json?tty=IN",
+      "sha256": "9dfb257f1a62128c0bcd31ae4aee32e2151cccdfd0553667550fa6ffc9970266",
+      "retrievedAt": "2026-10-22T20:02:12.950542+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "91110",
+        "name": "secobarbital sodium",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "9624",
+          "name": "secobarbital",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/91110/related.json?tty=IN",
+      "sha256": "ad380f391a9abc4ba3e8e52d402122913d183cc7283fa80e803a2472c5ae42c7",
+      "retrievedAt": "2026-10-22T20:02:14.734028+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "203137",
+        "name": "selegiline hydrochloride",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "9639",
+          "name": "selegiline",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/203137/related.json?tty=IN",
+      "sha256": "d039a659ccdef5fc062a45df48f8d4028c7acbcf4d1ae86e8e18813d338dfd1f",
+      "retrievedAt": "2026-10-22T20:02:16.537260+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "236601",
+        "name": "sertaconazole nitrate",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "36435",
+          "name": "sertaconazole",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/236601/related.json?tty=IN",
+      "sha256": "301ec0cbe87e4d9fa38082d29f47ca8854f12c6476c63d8beccd9148c84ce4f9",
+      "retrievedAt": "2026-10-22T20:02:18.323197+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "237125",
+        "name": "sevelamer hydrochloride",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "214824",
+          "name": "sevelamer",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/237125/related.json?tty=IN",
+      "sha256": "e7fb52fd636ce567473b86c8d31071fe3bf139c6de3262450faa10d4df4e8f81",
+      "retrievedAt": "2026-10-22T20:02:20.114530+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "221161",
+        "name": "sildenafil citrate",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "136411",
+          "name": "sildenafil",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/221161/related.json?tty=IN",
+      "sha256": "fd598dd412d47c93bd013ecf1c55ccfdf5a4f4af61e9487d4abbacab2d59baad",
+      "retrievedAt": "2026-10-22T20:02:21.915453+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "1729084",
+        "name": "simoctocog alfa",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "4257",
+          "name": "factor VIII",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/1729084/related.json?tty=IN",
+      "sha256": "b9f8c0cbc0b13679b5eacc0e55459bc71a4e8e24770168cbabf05333a463c25c",
+      "retrievedAt": "2026-10-22T20:02:23.709504+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "56455",
+        "name": "sodium benzoate",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "70589",
+          "name": "benzoate",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/56455/related.json?tty=IN",
+      "sha256": "9d79023f6fa916862c6b2cc439323822dbadf788ad0488826ae0c9e073e86340",
+      "retrievedAt": "2026-10-22T20:02:25.506347+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "1366841",
+        "name": "sodium copper chlorophyllin",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "20852",
+          "name": "chlorophyllin",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/1366841/related.json?tty=IN",
+      "sha256": "b5d9d49ef45f9446a9c6fd25cdf9044d1d65ca448c3b0c8f918198a0cbb0be8b",
+      "retrievedAt": "2026-10-22T20:02:27.307094+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "235860",
+        "name": "sodium dibunate",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "402565",
+          "name": "dibunate",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/235860/related.json?tty=IN",
+      "sha256": "4429ed29207fb93a9c82da2f0e5ed4e33f68455e561d4af09b7b71ca1ad8698a",
+      "retrievedAt": "2026-10-22T20:02:29.103298+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "1311495",
+        "name": "sodium fluoride f-18",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "9873",
+          "name": "sodium fluoride",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/1311495/related.json?tty=IN",
+      "sha256": "6fab9624a64f3c50dde54822c0bebbb25c905e63976e3c9dbea5790d2a5c14e2",
+      "retrievedAt": "2026-10-22T20:02:30.901623+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "1423799",
+        "name": "sodium molybdate dihydrate",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "7024",
+          "name": "molybdenum",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/1423799/related.json?tty=IN",
+      "sha256": "9fb4daa5a64fc534cbbdc85aff17765be5b8523cda040554382411b5f6020018",
+      "retrievedAt": "2026-10-22T20:02:32.696612+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "56501",
+        "name": "sodium monofluorophosphate",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "52885",
+          "name": "monofluorophosphate",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/56501/related.json?tty=IN",
+      "sha256": "8bbe3322070554bec59401be58d51dcef0c134c4711554d731cd35313278cee1",
+      "retrievedAt": "2026-10-22T20:02:34.490704+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "236917",
+        "name": "sodium pantothenate",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "62400",
+          "name": "pantothenate",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/236917/related.json?tty=IN",
+      "sha256": "5be2324f6b1f313fa52ade11e96711867b0073b4c8b1b138987886c7def3087a",
+      "retrievedAt": "2026-10-22T20:02:36.291296+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "214837",
+        "name": "sodium phenylbutyrate",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "81647",
+          "name": "phenylbutyrate",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/214837/related.json?tty=IN",
+      "sha256": "90e22074684bc858fefde0b980474f19603e0e2e9dfb2175a387d8a4395ad1dc",
+      "retrievedAt": "2026-10-22T20:02:38.088337+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "9907",
+        "name": "sodium salicylate",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "9525",
+          "name": "salicylic acid",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/9907/related.json?tty=IN",
+      "sha256": "ae0fdc9541b0d47dd68cc2cc8043b25074395b6c9c39b3735742d75585b0c144",
+      "retrievedAt": "2026-10-22T20:02:40.264947+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "36726",
+        "name": "sodium thiosulfate",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "1546411",
+          "name": "thiosulfate",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/36726/related.json?tty=IN",
+      "sha256": "f9810b71d9d030c712f2e8d33d295cbdb0a8320f91838f603585a6b699119b72",
+      "retrievedAt": "2026-10-22T20:02:42.056605+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "236092",
+        "name": "somatostatin acetate",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "9939",
+          "name": "somatostatin",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/236092/related.json?tty=IN",
+      "sha256": "2b755332657a350ad1a80787f7f35f9daf3b3e2e88b52680e2863f2922a8ec21",
+      "retrievedAt": "2026-10-22T20:02:43.854009+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "597744",
+        "name": "sorafenib tosylate",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "495881",
+          "name": "sorafenib",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/597744/related.json?tty=IN",
+      "sha256": "bc73a5d3a8a55d7efbf7300d50a98f048470d1b8d484f63dbca094811766e227",
+      "retrievedAt": "2026-10-22T20:02:45.647768+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "1311139",
+        "name": "sorbic acid",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "1311140",
+          "name": "sorbate",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/1311139/related.json?tty=IN",
+      "sha256": "4cffcc10f6713819940cf23db6850fd8ee8b9292ae5dd6f5834533c184a886c3",
+      "retrievedAt": "2026-10-22T20:02:47.452787+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "2462150",
+        "name": "stannous chloride dihydrate",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "37032",
+          "name": "stannous chloride",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/2462150/related.json?tty=IN",
+      "sha256": "fba703f1068123796c5ca1d0ffd7736414c56ef64e516316b098766def3b0a6b",
+      "retrievedAt": "2026-10-22T20:02:49.254016+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "3565",
+        "name": "succinylcholine chloride",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "10154",
+          "name": "succinylcholine",
+          "synonym": "suxamethonium",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/3565/related.json?tty=IN",
+      "sha256": "cda1ef9bc67077ea183a19f7d3a94902fc80e367661ee4f86e7352091d93fd43",
+      "retrievedAt": "2026-10-22T20:02:51.096169+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "58964",
+        "name": "sufentanil citrate",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "56795",
+          "name": "sufentanil",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/58964/related.json?tty=IN",
+      "sha256": "45ce46cda05770773420403ef05b363fd672b26799e1524af1c7035abf4a9056",
+      "retrievedAt": "2026-10-22T20:02:52.887922+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "1726987",
+        "name": "sugammadex sodium",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "1726988",
+          "name": "sugammadex",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/1726987/related.json?tty=IN",
+      "sha256": "4a85cccd7aae5df99a760a57fa5bb26379ece89746cede34bc69bb6085ec08e4",
+      "retrievedAt": "2026-10-22T20:02:54.686516+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "616275",
+        "name": "sunitinib malate",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "357977",
+          "name": "sunitinib",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/616275/related.json?tty=IN",
+      "sha256": "37610f1cc275cb1273ff618be7001d33c61ccc8d04c2c3345fee78a81c31dcbc",
+      "retrievedAt": "2026-10-22T20:02:56.490777+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "2099703",
+        "name": "talazoparib tosylate",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "2099704",
+          "name": "talazoparib",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/2099703/related.json?tty=IN",
+      "sha256": "4f198ab9b5c7eec968c69babec79d2f393a5178eb76c4a09f376e5217e09df4b",
+      "retrievedAt": "2026-10-22T20:02:58.281645+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "1721604",
+        "name": "tenofovir alafenamide fumarate",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "1721603",
+          "name": "tenofovir alafenamide",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/1721604/related.json?tty=IN",
+      "sha256": "7491cf451a42502eb8ec93b029d1a5c2eb8376ba38a45c14b124f697d20bd256",
+      "retrievedAt": "2026-10-22T20:03:00.076723+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "322248",
+        "name": "tenofovir disoproxil fumarate",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "300195",
+          "name": "tenofovir disoproxil",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/322248/related.json?tty=IN",
+      "sha256": "79ad198561c53720b08402040fb749d33de6d6f930c9fbaba6d52951cafcea8a",
+      "retrievedAt": "2026-10-22T20:03:01.878288+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "1928942",
+        "name": "tenofovir disoproxil succinate",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "300195",
+          "name": "tenofovir disoproxil",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/1928942/related.json?tty=IN",
+      "sha256": "79ad198561c53720b08402040fb749d33de6d6f930c9fbaba6d52951cafcea8a",
+      "retrievedAt": "2026-10-22T20:03:03.684424+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "75806",
+        "name": "testosterone isocaproate",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "10379",
+          "name": "testosterone",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/75806/related.json?tty=IN",
+      "sha256": "9650aa98b04742826245527910835d9c1e9e7486bfd461fb0deb1703ee18d9f2",
+      "retrievedAt": "2026-10-22T20:03:05.488655+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "155075",
+        "name": "theophylline sodium glycinate",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "10438",
+          "name": "theophylline",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/155075/related.json?tty=IN",
+      "sha256": "8fa16e8d17433e8a7be8a98143732118e6db5064ae5a6963e1f787bf4ecc3d49",
+      "retrievedAt": "2026-10-22T20:03:07.279904+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "203201",
+        "name": "thiamylal sodium",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "10464",
+          "name": "thiamylal",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/203201/related.json?tty=IN",
+      "sha256": "3a63b3cf432a6d3f4dfd24df1943a3b5c22323da78f1ae55504cd7e5a9ca40d9",
+      "retrievedAt": "2026-10-22T20:03:09.075887+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "38253",
+        "name": "tiaprofenic acid",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "618442",
+          "name": "tiaprofenate",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/38253/related.json?tty=IN",
+      "sha256": "43f268a16c63bc8476a1a88e3acdd45902073490782e06cbc53a78c170f0f2c5",
+      "retrievedAt": "2026-10-22T20:03:10.880062+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "104466",
+        "name": "tinzaparin sodium",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "69646",
+          "name": "tinzaparin",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/104466/related.json?tty=IN",
+      "sha256": "5e87cbd2dfebe29e8702fb209059c6c27772286554f440b12308701aff0b0d13",
+      "retrievedAt": "2026-10-22T20:03:12.678552+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "1670303",
+        "name": "tipiracil hydrochloride",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "1670304",
+          "name": "tipiracil",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/1670303/related.json?tty=IN",
+      "sha256": "7e0ccd6a624f1a381cffce50d6868489e4889ec4a525cdb3f6b56b62917ab3a7",
+      "retrievedAt": "2026-10-22T20:03:14.480667+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "1358492",
+        "name": "tofacitinib citrate",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "1357536",
+          "name": "tofacitinib",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/1358492/related.json?tty=IN",
+      "sha256": "2ed1b8618508b8359e35e68bf70ad73ba9199e1b8c8434e6e3c07b8437db2479",
+      "retrievedAt": "2026-10-22T20:03:16.280507+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "42935",
+        "name": "tolmetin sodium",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "10636",
+          "name": "tolmetin",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/42935/related.json?tty=IN",
+      "sha256": "bd21a8a8dc0386d9f9d8016e2866fce296afa9f35acbdda5edd1b748fb2c5ad0",
+      "retrievedAt": "2026-10-22T20:03:18.078594+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "266573",
+        "name": "topotecan hydrochloride",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "57308",
+          "name": "topotecan",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/266573/related.json?tty=IN",
+      "sha256": "d5044d83c7bee2531116ffce45733bd0817458318dc587a07c7482c352bac306",
+      "retrievedAt": "2026-10-22T20:03:20.276451+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "1425098",
+        "name": "trametinib dimethyl sulfoxide",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "1425099",
+          "name": "trametinib",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/1425098/related.json?tty=IN",
+      "sha256": "3859843be9035f1e9baa57cf1acb1425af98066753200ad021bad7abd51b8524",
+      "retrievedAt": "2026-10-22T20:03:22.082850+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "2267582",
+        "name": "trastuzumab deruxtecan",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "224905",
+          "name": "trastuzumab",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/2267582/related.json?tty=IN",
+      "sha256": "4261be7a80aceb02eacbe4b1f77728a19d976e3997a3c7e2f37539fb29e4f2ce",
+      "retrievedAt": "2026-10-22T20:03:23.878031+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "82112",
+        "name": "trazodone hydrochloride",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "10737",
+          "name": "trazodone",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/82112/related.json?tty=IN",
+      "sha256": "746494357ae150c528b4c172d63c46e4e48932d9a0146fed430f3612f2ec4ce6",
+      "retrievedAt": "2026-10-22T20:03:25.674403+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "235370",
+        "name": "trientine hydrochloride",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "10798",
+          "name": "trientine",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/235370/related.json?tty=IN",
+      "sha256": "7eb8563b6e00c52748442c83db7b858deef99c1d0ac3449e359ba3869adbd90e",
+      "retrievedAt": "2026-10-22T20:03:27.473713+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "164308",
+        "name": "trimeprazine tartrate",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "10825",
+          "name": "trimeprazine",
+          "synonym": "alimemazine",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/164308/related.json?tty=IN",
+      "sha256": "e0202620fd9713d9b02c12db3e341876a7ffcb909be062ab081930cab191d250",
+      "retrievedAt": "2026-10-22T20:03:29.299155+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "236538",
+        "name": "triptorelin acetate",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "38782",
+          "name": "triptorelin",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/236538/related.json?tty=IN",
+      "sha256": "96747a45061fb2e2945d95e5f9cf63a017faf929002285044aba633a85649a69",
+      "retrievedAt": "2026-10-22T20:03:31.095913+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "338529",
+        "name": "triptorelin pamoate",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "38782",
+          "name": "triptorelin",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/338529/related.json?tty=IN",
+      "sha256": "96747a45061fb2e2945d95e5f9cf63a017faf929002285044aba633a85649a69",
+      "retrievedAt": "2026-10-22T20:03:32.895417+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "38891",
+        "name": "trospium chloride",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "236778",
+          "name": "trospium",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/38891/related.json?tty=IN",
+      "sha256": "4cdfc22e02cb8f255732f3fd9837c367d62bb21b69557ac3927ad59e7632ed40",
+      "retrievedAt": "2026-10-22T20:03:34.694519+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "1737557",
+        "name": "turoctocog alfa",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "4257",
+          "name": "factor VIII",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/1737557/related.json?tty=IN",
+      "sha256": "b9f8c0cbc0b13679b5eacc0e55459bc71a4e8e24770168cbabf05333a463c25c",
+      "retrievedAt": "2026-10-22T20:03:36.491130+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "1005920",
+        "name": "ulipristal acetate",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "1005921",
+          "name": "ulipristal",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/1005920/related.json?tty=IN",
+      "sha256": "1274adbf211aedde7eac16005b278599c49104e4e2ff10d6e0fb750448fa6578",
+      "retrievedAt": "2026-10-22T20:03:38.287679+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "10989",
+        "name": "undecylenic acid",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "314881",
+          "name": "undecylenate",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/10989/related.json?tty=IN",
+      "sha256": "dd788e98787a26e63307469a9eaf2f521a252d6f19c48ff4468117a484bea246",
+      "retrievedAt": "2026-10-22T20:03:40.078289+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "283815",
+        "name": "valganciclovir hydrochloride",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "275891",
+          "name": "valganciclovir",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/283815/related.json?tty=IN",
+      "sha256": "9f28e2f58007db7bbe04f971ca7ed3a733327d5c83ab97ff746b44070dc3e7f5",
+      "retrievedAt": "2026-10-22T20:03:41.882850+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "1309396",
+        "name": "vardenafil hydrochloride trihydrate",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "306674",
+          "name": "vardenafil",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/1309396/related.json?tty=IN",
+      "sha256": "9c99d8560e23014299bbb1ce59952bff4e50f731904f0021ad36f5cc901fd1ad",
+      "retrievedAt": "2026-10-22T20:03:43.676601+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "636674",
+        "name": "varenicline tartrate",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "591622",
+          "name": "varenicline",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/636674/related.json?tty=IN",
+      "sha256": "4ee3848e97bb9588a54dadfc2efc0943b99d3e76b0e4700d67ccac0bbd12e062",
+      "retrievedAt": "2026-10-22T20:03:45.483546+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "11199",
+        "name": "vinblastine sulfate",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "11198",
+          "name": "vinblastine",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/11199/related.json?tty=IN",
+      "sha256": "dbcb575e6266c75835fe52ce330bf3a41a8da2b2194a5a2b7e67e43adb69dea3",
+      "retrievedAt": "2026-10-22T20:03:47.286991+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "11203",
+        "name": "vincristine sulfate",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "11202",
+          "name": "vincristine",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/11203/related.json?tty=IN",
+      "sha256": "4ce212506a6a7c052f397246f42da8c604bf4ff2f11ccd24f9a7dbae6f54e32e",
+      "retrievedAt": "2026-10-22T20:03:49.077114+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "114527",
+        "name": "vinorelbine tartrate",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "39541",
+          "name": "vinorelbine",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/114527/related.json?tty=IN",
+      "sha256": "3758fa622ee06e057786953b96af9717ad66fe82e275015910a5ac49c6f62b8c",
+      "retrievedAt": "2026-10-22T20:03:50.881581+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "2531274",
+        "name": "vitamin E acetate",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "11256",
+          "name": "vitamin E",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/2531274/related.json?tty=IN",
+      "sha256": "bc22c14c5eb4f37d5491002b06878bb1fa02ede41fe405f11dbd962ee75ccb73",
+      "retrievedAt": "2026-10-22T20:03:52.696757+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "2604576",
+        "name": "vonoprazan fumarate",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "2604577",
+          "name": "vonoprazan",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/2604576/related.json?tty=IN",
+      "sha256": "f698def606786931a45a835fa1338bbee228ec2d2e2fe634b2a173e59a4e5a69",
+      "retrievedAt": "2026-10-22T20:03:54.490166+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "1439834",
+        "name": "vortioxetine hydrobromide",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "1455099",
+          "name": "vortioxetine",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/1439834/related.json?tty=IN",
+      "sha256": "14a79fc45b445ed57317a054fe09b18a7cc2e05d3951b136e67b3fe86fb18742",
+      "retrievedAt": "2026-10-22T20:03:56.277656+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "2605574",
+        "name": "vutrisiran sodium",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "2604578",
+          "name": "vutrisiran",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/2605574/related.json?tty=IN",
+      "sha256": "7b8652eb6d1d9654ab990f90dc965a7b7c440e65f7ee4800f7df0cae687f75b9",
+      "retrievedAt": "2026-10-22T20:03:58.080124+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "114194",
+        "name": "warfarin sodium",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "11289",
+          "name": "warfarin",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/114194/related.json?tty=IN",
+      "sha256": "1e06d009c1b175c5635d94c894435ba1342279d32a990a2a91995f0281fff6f7",
+      "retrievedAt": "2026-10-22T20:04:00.081739+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "11358",
+        "name": "xanthinol niacinate",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "89795",
+          "name": "xanthinol",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/11358/related.json?tty=IN",
+      "sha256": "692bb94dba01d8ac8ceda97f6578ad6d0a290f15a4b411e1127adb5978d395ee",
+      "retrievedAt": "2026-10-22T20:04:01.880535+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "2729665",
+        "name": "zinc acetate dihydrate",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "58295",
+          "name": "zinc acetate",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/2729665/related.json?tty=IN",
+      "sha256": "1df7c32a396e9bbbee547e00500534bdb9bda6884b3a8111036574632b79e89e",
+      "retrievedAt": "2026-10-22T20:04:03.683413+00:00"
+    },
+    {
+      "precise": {
+        "rxcui": "1440975",
+        "name": "zinc gluconate trihydrate",
+        "tty": "PIN"
+      },
+      "parents": [
+        {
+          "rxcui": "58300",
+          "name": "zinc gluconate",
+          "synonym": "",
+          "tty": "IN",
+          "language": "ENG",
+          "suppress": "N",
+          "umlscui": ""
+        }
+      ],
+      "url": "https://rxnav.nlm.nih.gov/REST/rxcui/1440975/related.json?tty=IN",
+      "sha256": "7d7a59ce8355684e835d62d9443c5acbf13b52ce0870800e237d83bcfb19b8d1",
+      "retrievedAt": "2026-10-22T20:04:05.471945+00:00"
+    }
+  ]
+}

@@ -9,6 +9,8 @@ import CaseDetail from "./pages/CaseDetail";
 const Statistics = lazy(() => import("./pages/Statistics"));
 const Education = lazy(() => import("./pages/Education"));
 const TUE = lazy(() => import("./pages/TUE"));
+const DrugSearch = lazy(() => import("./pages/DrugSearch"));
+const ProductCatalogSearch = lazy(() => import("./pages/ProductCatalogSearch"));
 const ProhibitedList = lazy(() => import("./pages/ProhibitedList"));
 const Quiz = lazy(() => import("./pages/Quiz"));
 const Learning = lazy(() => import("./pages/Learning"));
@@ -42,6 +44,9 @@ function App() {
               <Route path="/statistics" element={<Statistics />} />
               <Route path="/education" element={<Education />} />
               <Route path="/tue" element={<TUE />} />
+              <Route path="/drug-search" element={<DrugSearch />} />
+              <Route path="/herbal-search" element={<ProductCatalogSearch key="herbal" category="herbal" />} />
+              <Route path="/supplement-search" element={<ProductCatalogSearch key="supplements" category="supplements" />} />
               <Route path="/prohibited-list" element={<ProhibitedList />} />
               <Route path="/quiz" element={<Quiz />} />
               <Route path="/learning" element={<Learning />} />

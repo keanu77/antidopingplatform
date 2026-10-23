@@ -6,6 +6,14 @@ import tailwindcss from "@tailwindcss/vite";
 export default defineConfig({
   plugins: [react(), tailwindcss()],
   base: "/",
+  worker: {
+    format: "es",
+    rollupOptions: {
+      output: {
+        manualChunks: { "drug-evidence": ["../backend/data/drug-evidence-rules.json"] },
+      },
+    },
+  },
   build: {
     outDir: "dist",
     assetsDir: "assets",
@@ -22,6 +30,7 @@ export default defineConfig({
       output: {
         manualChunks: {
           "react-vendor": ["react", "react-dom", "react-router-dom"],
+          "drug-evidence": ["../backend/data/drug-evidence-rules.json"],
         },
       },
     },

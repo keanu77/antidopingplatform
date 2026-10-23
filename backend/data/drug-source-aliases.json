@@ -1,0 +1,2981 @@
+{
+  "schemaVersion": 1,
+  "sources": [
+    {
+      "file": "A.json",
+      "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=A&relaSource=ATC&trans=0&ttys=IN+PIN",
+      "sha256": "a5660cb96d6b076689c16eb028e4c0d6117e9f12ef115e6fce82d6e5b6c32927",
+      "retrievedAt": "2026-10-22T19:09:32.702196+00:00",
+      "members": 413
+    },
+    {
+      "file": "B.json",
+      "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=B&relaSource=ATC&trans=0&ttys=IN+PIN",
+      "sha256": "c148b0810667f0c694c0f6dbabc22a993a493a8075257a05f57ea64513b38af9",
+      "retrievedAt": "2026-10-22T19:09:34.607805+00:00",
+      "members": 181
+    },
+    {
+      "file": "C.json",
+      "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=C&relaSource=ATC&trans=0&ttys=IN+PIN",
+      "sha256": "e8748035dd34e6cd0c2f2aaea38f0f3c251aa4f1d2560fa82e3280b2f75992c5",
+      "retrievedAt": "2026-10-22T19:09:36.704800+00:00",
+      "members": 318
+    },
+    {
+      "file": "D.json",
+      "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=D&relaSource=ATC&trans=0&ttys=IN+PIN",
+      "sha256": "d8fda825cb4826e12e44bcffa2f53306c108145423abcc9d549a23d63635c60b",
+      "retrievedAt": "2026-10-22T19:09:38.804164+00:00",
+      "members": 260
+    },
+    {
+      "file": "G.json",
+      "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=G&relaSource=ATC&trans=0&ttys=IN+PIN",
+      "sha256": "253e803f596fd4efd73e772b634aa9e2c9928a4776665e5754e3f5ad5815992f",
+      "retrievedAt": "2026-10-22T19:09:40.571217+00:00",
+      "members": 154
+    },
+    {
+      "file": "H.json",
+      "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=H&relaSource=ATC&trans=0&ttys=IN+PIN",
+      "sha256": "35c82d38456d294e8e4c477bddd804ff01fe7c26790ef03e13496b3a9a31c9cd",
+      "retrievedAt": "2026-10-22T19:09:42.139891+00:00",
+      "members": 74
+    },
+    {
+      "file": "J.json",
+      "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=J&relaSource=ATC&trans=0&ttys=IN+PIN",
+      "sha256": "5486bf39a2b430afdb0cce0c93e1e609772750b3c34a8fefa20c112ff9d20325",
+      "retrievedAt": "2026-10-22T19:09:44.044088+00:00",
+      "members": 308
+    },
+    {
+      "file": "L.json",
+      "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=L&relaSource=ATC&trans=0&ttys=IN+PIN",
+      "sha256": "231314567d2de58f8a747a11644bfe53e5e32bb2d40535e7c5e03ddcae7d6f0c",
+      "retrievedAt": "2026-10-22T19:09:46.334263+00:00",
+      "members": 430
+    },
+    {
+      "file": "M.json",
+      "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=M&relaSource=ATC&trans=0&ttys=IN+PIN",
+      "sha256": "caa328f52355dd99cf967bcbefb824d5d73f4ce7b42c213ffb0df19bf0957aac",
+      "retrievedAt": "2026-10-22T19:09:47.908679+00:00",
+      "members": 139
+    },
+    {
+      "file": "N.json",
+      "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=N&relaSource=ATC&trans=0&ttys=IN+PIN",
+      "sha256": "4fb4c532c2e7344b5ab3540fef0e298939e0fdb792f7d5e07612495d4466c8d4",
+      "retrievedAt": "2026-10-22T19:09:50.006240+00:00",
+      "members": 457
+    },
+    {
+      "file": "P.json",
+      "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=P&relaSource=ATC&trans=0&ttys=IN+PIN",
+      "sha256": "d649682e071bf995aa6de8b794c2c8be5694cf7455eff212be84b444413d9bef",
+      "retrievedAt": "2026-10-22T19:09:51.577896+00:00",
+      "members": 78
+    },
+    {
+      "file": "R.json",
+      "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=R&relaSource=ATC&trans=0&ttys=IN+PIN",
+      "sha256": "4cf5d93ca7c83aca2894ab1a03c83abb330dbeee5de227479c8783db35c1bef2",
+      "retrievedAt": "2026-10-22T19:09:53.481828+00:00",
+      "members": 213
+    },
+    {
+      "file": "S.json",
+      "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=S&relaSource=ATC&trans=0&ttys=IN+PIN",
+      "sha256": "b7867bc4fedab3a73b188c4f7f1cc2ac19f86ed27732ec85ff476db7dceb8102",
+      "retrievedAt": "2026-10-22T19:09:55.576911+00:00",
+      "members": 191
+    },
+    {
+      "file": "V.json",
+      "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=V&relaSource=ATC&trans=0&ttys=IN+PIN",
+      "sha256": "6f9692db6cd3fb5b9f127afae3aaf4c47e5fca3736cf992acea3541c8c459659",
+      "retrievedAt": "2026-10-22T19:09:57.345130+00:00",
+      "members": 164
+    }
+  ],
+  "catalogSha256": "f7a04977d6007534ac8f1b4da4db48adea34c1b7c625d9acccd6cfc65a904644",
+  "aliases": {
+    "13c-urea": {
+      "key": "urea c-13",
+      "evidence": {
+        "type": "rxnorm-equivalent-name",
+        "rxcui": "226724",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=V&relaSource=ATC&trans=0&ttys=IN+PIN",
+        "sourceSha256": "6f9692db6cd3fb5b9f127afae3aaf4c47e5fca3736cf992acea3541c8c459659"
+      }
+    },
+    "20% chlorhexidine gluconate solution eq to chlorhexidine gluconate ...40mg": {
+      "key": "chlorhexidine",
+      "evidence": {
+        "type": "tfda-explicit-equivalence",
+        "url": "https://data.gov.tw/dataset/9121",
+        "catalogSha256": "f7a04977d6007534ac8f1b4da4db48adea34c1b7c625d9acccd6cfc65a904644"
+      }
+    },
+    "4-aminobenzoic acid": {
+      "key": "aminobenzoic acid",
+      "evidence": {
+        "type": "rxnorm-equivalent-name",
+        "rxcui": "74",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=D&relaSource=ATC&trans=0&ttys=IN+PIN",
+        "sourceSha256": "d8fda825cb4826e12e44bcffa2f53306c108145423abcc9d549a23d63635c60b"
+      }
+    },
+    "4-aminosalicylic acid": {
+      "key": "aminosalicylic acid",
+      "evidence": {
+        "type": "rxnorm-equivalent-name",
+        "rxcui": "7833",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=J&relaSource=ATC&trans=0&ttys=IN+PIN",
+        "sourceSha256": "5486bf39a2b430afdb0cce0c93e1e609772750b3c34a8fefa20c112ff9d20325"
+      }
+    },
+    "5-hydroxytryptophan": {
+      "key": "oxitriptan",
+      "evidence": {
+        "type": "rxnorm-equivalent-name",
+        "rxcui": "94",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=N&relaSource=ATC&trans=0&ttys=IN+PIN",
+        "sourceSha256": "4fb4c532c2e7344b5ab3540fef0e298939e0fdb792f7d5e07612495d4466c8d4"
+      }
+    },
+    "6-aminocaproic acid": {
+      "key": "aminocaproic acid",
+      "evidence": {
+        "type": "rxnorm-equivalent-name",
+        "rxcui": "99",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=B&relaSource=ATC&trans=0&ttys=IN+PIN",
+        "sourceSha256": "c148b0810667f0c694c0f6dbabc22a993a493a8075257a05f57ea64513b38af9"
+      }
+    },
+    "acetaminophen micronized": {
+      "key": "paracetamol",
+      "evidence": {
+        "type": "tfda-spelling",
+        "url": "https://data.gov.tw/dataset/9121",
+        "catalogSha256": "f7a04977d6007534ac8f1b4da4db48adea34c1b7c625d9acccd6cfc65a904644"
+      }
+    },
+    "acetylcysteine eq to thiamphenical glycinate": {
+      "key": "acetylcysteine",
+      "evidence": {
+        "type": "tfda-explicit-equivalence",
+        "url": "https://data.gov.tw/dataset/9121",
+        "catalogSha256": "f7a04977d6007534ac8f1b4da4db48adea34c1b7c625d9acccd6cfc65a904644"
+      }
+    },
+    "acyclovir micronized": {
+      "key": "aciclovir",
+      "evidence": {
+        "type": "tfda-spelling",
+        "url": "https://data.gov.tw/dataset/9121",
+        "catalogSha256": "f7a04977d6007534ac8f1b4da4db48adea34c1b7c625d9acccd6cfc65a904644"
+      }
+    },
+    "ado-trastuzumab emtansine": {
+      "key": "trastuzumab emtansine",
+      "evidence": {
+        "type": "rxnorm-equivalent-name",
+        "rxcui": "1371041",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=L&relaSource=ATC&trans=0&ttys=IN+PIN",
+        "sourceSha256": "231314567d2de58f8a747a11644bfe53e5e32bb2d40535e7c5e03ddcae7d6f0c"
+      }
+    },
+    "alanyl glutamine": {
+      "key": "alanylglutamine",
+      "evidence": {
+        "type": "rxnorm-equivalent-name",
+        "rxcui": "1359422",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=B&relaSource=ATC&trans=0&ttys=IN+PIN",
+        "sourceSha256": "c148b0810667f0c694c0f6dbabc22a993a493a8075257a05f57ea64513b38af9"
+      }
+    },
+    "alendronate as sodium": {
+      "key": "alendronic acid",
+      "evidence": {
+        "type": "tfda-spelling",
+        "url": "https://data.gov.tw/dataset/9121",
+        "catalogSha256": "f7a04977d6007534ac8f1b4da4db48adea34c1b7c625d9acccd6cfc65a904644"
+      }
+    },
+    "almasilate": {
+      "key": "aluminum magnesium silicate",
+      "evidence": {
+        "type": "rxnorm-equivalent-name",
+        "rxcui": "17614",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=A&relaSource=ATC&trans=0&ttys=IN+PIN",
+        "sourceSha256": "a5660cb96d6b076689c16eb028e4c0d6117e9f12ef115e6fce82d6e5b6c32927"
+      }
+    },
+    "aluminium chloride": {
+      "key": "aluminum chloride",
+      "evidence": {
+        "type": "rxnorm-equivalent-name",
+        "rxcui": "46241",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=D&relaSource=ATC&trans=0&ttys=IN+PIN",
+        "sourceSha256": "d8fda825cb4826e12e44bcffa2f53306c108145423abcc9d549a23d63635c60b"
+      }
+    },
+    "aluminium glycinate": {
+      "key": "dihydroxyaluminum aminoacetate",
+      "evidence": {
+        "type": "rxnorm-equivalent-name",
+        "rxcui": "23162",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=A&relaSource=ATC&trans=0&ttys=IN+PIN",
+        "sourceSha256": "a5660cb96d6b076689c16eb028e4c0d6117e9f12ef115e6fce82d6e5b6c32927"
+      }
+    },
+    "aluminium hydroxide": {
+      "key": "aluminum hydroxide",
+      "evidence": {
+        "type": "rxnorm-equivalent-name",
+        "rxcui": "612",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=A&relaSource=ATC&trans=0&ttys=IN+PIN",
+        "sourceSha256": "a5660cb96d6b076689c16eb028e4c0d6117e9f12ef115e6fce82d6e5b6c32927"
+      }
+    },
+    "aluminium oxide": {
+      "key": "aluminum oxide",
+      "evidence": {
+        "type": "rxnorm-equivalent-name",
+        "rxcui": "615",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=D&relaSource=ATC&trans=0&ttys=IN+PIN",
+        "sourceSha256": "d8fda825cb4826e12e44bcffa2f53306c108145423abcc9d549a23d63635c60b"
+      }
+    },
+    "aluminium phosphate": {
+      "key": "aluminum phosphate",
+      "evidence": {
+        "type": "rxnorm-equivalent-name",
+        "rxcui": "17618",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=A&relaSource=ATC&trans=0&ttys=IN+PIN",
+        "sourceSha256": "a5660cb96d6b076689c16eb028e4c0d6117e9f12ef115e6fce82d6e5b6c32927"
+      }
+    },
+    "aluminum hydroxide gel": {
+      "key": "aluminum hydroxide",
+      "evidence": {
+        "type": "rxnorm-precise-ingredient",
+        "rxcui": "613",
+        "parentRxcui": "612",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxcui/613/related.json?tty=IN",
+        "sourceSha256": "4293d4cac3d7cbaa0d48a4fb42c1e846504f787a4457f58c1676ad79da1a12cd",
+        "checkedAt": "2026-10-22T19:55:33.482567+00:00"
+      }
+    },
+    "aluminum magnesium silicate hydrate 4h2o": {
+      "key": "aluminum magnesium silicate",
+      "evidence": {
+        "type": "tfda-spelling",
+        "url": "https://data.gov.tw/dataset/9121",
+        "catalogSha256": "f7a04977d6007534ac8f1b4da4db48adea34c1b7c625d9acccd6cfc65a904644"
+      }
+    },
+    "amfetamine": {
+      "key": "amphetamine",
+      "evidence": {
+        "type": "rxnorm-equivalent-name",
+        "rxcui": "725",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=N&relaSource=ATC&trans=0&ttys=IN+PIN",
+        "sourceSha256": "4fb4c532c2e7344b5ab3540fef0e298939e0fdb792f7d5e07612495d4466c8d4"
+      }
+    },
+    "ampicillin as sodium sterile": {
+      "key": "ampicillin",
+      "evidence": {
+        "type": "tfda-spelling",
+        "url": "https://data.gov.tw/dataset/9121",
+        "catalogSha256": "f7a04977d6007534ac8f1b4da4db48adea34c1b7c625d9acccd6cfc65a904644"
+      }
+    },
+    "ampicillin as trihydrate": {
+      "key": "ampicillin",
+      "evidence": {
+        "type": "tfda-spelling",
+        "url": "https://data.gov.tw/dataset/9121",
+        "catalogSha256": "f7a04977d6007534ac8f1b4da4db48adea34c1b7c625d9acccd6cfc65a904644"
+      }
+    },
+    "anhydrous caffeine": {
+      "key": "caffeine",
+      "evidence": {
+        "type": "tfda-spelling",
+        "url": "https://data.gov.tw/dataset/9121",
+        "catalogSha256": "f7a04977d6007534ac8f1b4da4db48adea34c1b7c625d9acccd6cfc65a904644"
+      }
+    },
+    "antihemophilic factor recombinant pegylated": {
+      "key": "factor viii",
+      "evidence": {
+        "type": "rxnorm-precise-ingredient",
+        "rxcui": "1741397",
+        "parentRxcui": "4257",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxcui/1741397/related.json?tty=IN",
+        "sourceSha256": "b9f8c0cbc0b13679b5eacc0e55459bc71a4e8e24770168cbabf05333a463c25c",
+        "checkedAt": "2026-10-22T19:55:38.862195+00:00"
+      }
+    },
+    "apronalide eq to allylisopropylacetylurea": {
+      "key": "apronalide",
+      "evidence": {
+        "type": "tfda-explicit-equivalence",
+        "url": "https://data.gov.tw/dataset/9121",
+        "catalogSha256": "f7a04977d6007534ac8f1b4da4db48adea34c1b7c625d9acccd6cfc65a904644"
+      }
+    },
+    "asparagine l- monohydrate eq to asparagine h2o l-": {
+      "key": "asparagine",
+      "evidence": {
+        "type": "tfda-explicit-equivalence",
+        "url": "https://data.gov.tw/dataset/9121",
+        "catalogSha256": "f7a04977d6007534ac8f1b4da4db48adea34c1b7c625d9acccd6cfc65a904644"
+      }
+    },
+    "azithromycin as dihydrate": {
+      "key": "azithromycin",
+      "evidence": {
+        "type": "tfda-spelling",
+        "url": "https://data.gov.tw/dataset/9121",
+        "catalogSha256": "f7a04977d6007534ac8f1b4da4db48adea34c1b7c625d9acccd6cfc65a904644"
+      }
+    },
+    "bacitracin zinc": {
+      "key": "bacitracin",
+      "evidence": {
+        "type": "rxnorm-precise-ingredient",
+        "rxcui": "11417",
+        "parentRxcui": "1291",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxcui/11417/related.json?tty=IN",
+        "sourceSha256": "4d76d6daf145e633045f3e459490ccbeac3aff88989863a1b02a593644408972",
+        "checkedAt": "2026-10-22T19:55:49.593379+00:00"
+      }
+    },
+    "bazedoxifene acetate micronized": {
+      "key": "bazedoxifene",
+      "evidence": {
+        "type": "tfda-spelling",
+        "url": "https://data.gov.tw/dataset/9121",
+        "catalogSha256": "f7a04977d6007534ac8f1b4da4db48adea34c1b7c625d9acccd6cfc65a904644"
+      }
+    },
+    "benoxinate": {
+      "key": "oxybuprocaine",
+      "evidence": {
+        "type": "rxnorm-equivalent-name",
+        "rxcui": "18889",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=D&relaSource=ATC&trans=0&ttys=IN+PIN",
+        "sourceSha256": "d8fda825cb4826e12e44bcffa2f53306c108145423abcc9d549a23d63635c60b"
+      }
+    },
+    "benphothiamine": {
+      "key": "benfotiamine",
+      "evidence": {
+        "type": "rxnorm-equivalent-name",
+        "rxcui": "18891",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=A&relaSource=ATC&trans=0&ttys=IN+PIN",
+        "sourceSha256": "a5660cb96d6b076689c16eb028e4c0d6117e9f12ef115e6fce82d6e5b6c32927"
+      }
+    },
+    "benzathine benzylpenicillin": {
+      "key": "benzylpenicillin",
+      "evidence": {
+        "type": "rxnorm-equivalent-name",
+        "rxcui": "7982",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=J&relaSource=ATC&trans=0&ttys=IN+PIN",
+        "sourceSha256": "5486bf39a2b430afdb0cce0c93e1e609772750b3c34a8fefa20c112ff9d20325"
+      }
+    },
+    "betacarotene": {
+      "key": "beta carotene",
+      "evidence": {
+        "type": "rxnorm-equivalent-name",
+        "rxcui": "19143",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=A&relaSource=ATC&trans=0&ttys=IN+PIN",
+        "sourceSha256": "a5660cb96d6b076689c16eb028e4c0d6117e9f12ef115e6fce82d6e5b6c32927"
+      }
+    },
+    "betamethasone as dipropionate": {
+      "key": "betamethasone",
+      "evidence": {
+        "type": "tfda-spelling",
+        "url": "https://data.gov.tw/dataset/9121",
+        "catalogSha256": "f7a04977d6007534ac8f1b4da4db48adea34c1b7c625d9acccd6cfc65a904644"
+      }
+    },
+    "betamethasone as sodium phosphate": {
+      "key": "betamethasone",
+      "evidence": {
+        "type": "tfda-spelling",
+        "url": "https://data.gov.tw/dataset/9121",
+        "catalogSha256": "f7a04977d6007534ac8f1b4da4db48adea34c1b7c625d9acccd6cfc65a904644"
+      }
+    },
+    "betamethasone as valerate": {
+      "key": "betamethasone",
+      "evidence": {
+        "type": "tfda-spelling",
+        "url": "https://data.gov.tw/dataset/9121",
+        "catalogSha256": "f7a04977d6007534ac8f1b4da4db48adea34c1b7c625d9acccd6cfc65a904644"
+      }
+    },
+    "budesonide micronized": {
+      "key": "budesonide",
+      "evidence": {
+        "type": "tfda-spelling",
+        "url": "https://data.gov.tw/dataset/9121",
+        "catalogSha256": "f7a04977d6007534ac8f1b4da4db48adea34c1b7c625d9acccd6cfc65a904644"
+      }
+    },
+    "buprenorphine as hydrochloride": {
+      "key": "buprenorphine",
+      "evidence": {
+        "type": "tfda-spelling",
+        "url": "https://data.gov.tw/dataset/9121",
+        "catalogSha256": "f7a04977d6007534ac8f1b4da4db48adea34c1b7c625d9acccd6cfc65a904644"
+      }
+    },
+    "butylscopolamine bromide eq to hyoscine-n-butylbromide": {
+      "key": "hyoscine butylbromide",
+      "evidence": {
+        "type": "tfda-explicit-equivalence",
+        "url": "https://data.gov.tw/dataset/9121",
+        "catalogSha256": "f7a04977d6007534ac8f1b4da4db48adea34c1b7c625d9acccd6cfc65a904644"
+      }
+    },
+    "calcipotriene": {
+      "key": "calcipotriol",
+      "evidence": {
+        "type": "rxnorm-equivalent-name",
+        "rxcui": "29365",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=D&relaSource=ATC&trans=0&ttys=IN+PIN",
+        "sourceSha256": "d8fda825cb4826e12e44bcffa2f53306c108145423abcc9d549a23d63635c60b"
+      }
+    },
+    "calcium chloride 6h2o": {
+      "key": "calcium chloride",
+      "evidence": {
+        "type": "tfda-spelling",
+        "url": "https://data.gov.tw/dataset/9121",
+        "catalogSha256": "f7a04977d6007534ac8f1b4da4db48adea34c1b7c625d9acccd6cfc65a904644"
+      }
+    },
+    "calcium citrate 4h2o": {
+      "key": "calcium",
+      "evidence": {
+        "type": "tfda-spelling",
+        "url": "https://data.gov.tw/dataset/9121",
+        "catalogSha256": "f7a04977d6007534ac8f1b4da4db48adea34c1b7c625d9acccd6cfc65a904644"
+      }
+    },
+    "calcium folinate eq to folinic acid": {
+      "key": "folinic acid",
+      "evidence": {
+        "type": "tfda-explicit-equivalence",
+        "url": "https://data.gov.tw/dataset/9121",
+        "catalogSha256": "f7a04977d6007534ac8f1b4da4db48adea34c1b7c625d9acccd6cfc65a904644"
+      }
+    },
+    "camylofine": {
+      "key": "camylofin",
+      "evidence": {
+        "type": "rxnorm-equivalent-name",
+        "rxcui": "20136",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=A&relaSource=ATC&trans=0&ttys=IN+PIN",
+        "sourceSha256": "a5660cb96d6b076689c16eb028e4c0d6117e9f12ef115e6fce82d6e5b6c32927"
+      }
+    },
+    "carbamide": {
+      "key": "urea",
+      "evidence": {
+        "type": "rxnorm-equivalent-name",
+        "rxcui": "11002",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=B&relaSource=ATC&trans=0&ttys=IN+PIN",
+        "sourceSha256": "c148b0810667f0c694c0f6dbabc22a993a493a8075257a05f57ea64513b38af9"
+      }
+    },
+    "carbetapentane": {
+      "key": "pentoxyverine",
+      "evidence": {
+        "type": "rxnorm-equivalent-name",
+        "rxcui": "20217",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=R&relaSource=ATC&trans=0&ttys=IN+PIN",
+        "sourceSha256": "4cf5d93ca7c83aca2894ab1a03c83abb330dbeee5de227479c8783db35c1bef2"
+      }
+    },
+    "carbetapentane citrate eq to pentoxyverine citrate": {
+      "key": "pentoxyverine",
+      "evidence": {
+        "type": "tfda-explicit-equivalence",
+        "url": "https://data.gov.tw/dataset/9121",
+        "catalogSha256": "f7a04977d6007534ac8f1b4da4db48adea34c1b7c625d9acccd6cfc65a904644"
+      }
+    },
+    "cefaloridine": {
+      "key": "cephaloridine",
+      "evidence": {
+        "type": "rxnorm-equivalent-name",
+        "rxcui": "2233",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=J&relaSource=ATC&trans=0&ttys=IN+PIN",
+        "sourceSha256": "5486bf39a2b430afdb0cce0c93e1e609772750b3c34a8fefa20c112ff9d20325"
+      }
+    },
+    "cefalotin": {
+      "key": "cephalothin",
+      "evidence": {
+        "type": "rxnorm-equivalent-name",
+        "rxcui": "2236",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=J&relaSource=ATC&trans=0&ttys=IN+PIN",
+        "sourceSha256": "5486bf39a2b430afdb0cce0c93e1e609772750b3c34a8fefa20c112ff9d20325"
+      }
+    },
+    "cefamandole nafate": {
+      "key": "cefamandole",
+      "evidence": {
+        "type": "rxnorm-precise-ingredient",
+        "rxcui": "20473",
+        "parentRxcui": "2178",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxcui/20473/related.json?tty=IN",
+        "sourceSha256": "8c5d6f2efff2332e9256a17a58f11366cde07b5289930ec75cb8291cd145398d",
+        "checkedAt": "2026-10-22T19:56:22.067161+00:00"
+      }
+    },
+    "cefazolin sodium sterile": {
+      "key": "cefazolin",
+      "evidence": {
+        "type": "tfda-spelling",
+        "url": "https://data.gov.tw/dataset/9121",
+        "catalogSha256": "f7a04977d6007534ac8f1b4da4db48adea34c1b7c625d9acccd6cfc65a904644"
+      }
+    },
+    "cefepime as hydrochloride": {
+      "key": "cefepime",
+      "evidence": {
+        "type": "tfda-spelling",
+        "url": "https://data.gov.tw/dataset/9121",
+        "catalogSha256": "f7a04977d6007534ac8f1b4da4db48adea34c1b7c625d9acccd6cfc65a904644"
+      }
+    },
+    "cefepime hcl eq to cefepime": {
+      "key": "cefepime",
+      "evidence": {
+        "type": "tfda-explicit-equivalence",
+        "url": "https://data.gov.tw/dataset/9121",
+        "catalogSha256": "f7a04977d6007534ac8f1b4da4db48adea34c1b7c625d9acccd6cfc65a904644"
+      }
+    },
+    "cefoperazone as sodium sterile": {
+      "key": "cefoperazone",
+      "evidence": {
+        "type": "tfda-spelling",
+        "url": "https://data.gov.tw/dataset/9121",
+        "catalogSha256": "f7a04977d6007534ac8f1b4da4db48adea34c1b7c625d9acccd6cfc65a904644"
+      }
+    },
+    "cefpirome sulphate eq. to cefpirome": {
+      "key": "cefpirome",
+      "evidence": {
+        "type": "tfda-explicit-equivalence",
+        "url": "https://data.gov.tw/dataset/9121",
+        "catalogSha256": "f7a04977d6007534ac8f1b4da4db48adea34c1b7c625d9acccd6cfc65a904644"
+      }
+    },
+    "cefradine": {
+      "key": "cephradine",
+      "evidence": {
+        "type": "rxnorm-equivalent-name",
+        "rxcui": "2239",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=J&relaSource=ATC&trans=0&ttys=IN+PIN",
+        "sourceSha256": "5486bf39a2b430afdb0cce0c93e1e609772750b3c34a8fefa20c112ff9d20325"
+      }
+    },
+    "ceftazidime 5h2o": {
+      "key": "ceftazidime",
+      "evidence": {
+        "type": "tfda-spelling",
+        "url": "https://data.gov.tw/dataset/9121",
+        "catalogSha256": "f7a04977d6007534ac8f1b4da4db48adea34c1b7c625d9acccd6cfc65a904644"
+      }
+    },
+    "cellulose crystalline eq to crystalline cellulose": {
+      "key": "cellulose",
+      "evidence": {
+        "type": "tfda-explicit-equivalence",
+        "url": "https://data.gov.tw/dataset/9121",
+        "catalogSha256": "f7a04977d6007534ac8f1b4da4db48adea34c1b7c625d9acccd6cfc65a904644"
+      }
+    },
+    "cetirizine dihydrochloride eq to cetirizine 2hcl": {
+      "key": "cetirizine",
+      "evidence": {
+        "type": "tfda-explicit-equivalence",
+        "url": "https://data.gov.tw/dataset/9121",
+        "catalogSha256": "f7a04977d6007534ac8f1b4da4db48adea34c1b7c625d9acccd6cfc65a904644"
+      }
+    },
+    "charcoal activated eq to activated charcoal": {
+      "key": "activated charcoal",
+      "evidence": {
+        "type": "tfda-explicit-equivalence",
+        "url": "https://data.gov.tw/dataset/9121",
+        "catalogSha256": "f7a04977d6007534ac8f1b4da4db48adea34c1b7c625d9acccd6cfc65a904644"
+      }
+    },
+    "chlophedianol": {
+      "key": "clofedanol",
+      "evidence": {
+        "type": "rxnorm-equivalent-name",
+        "rxcui": "21254",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=R&relaSource=ATC&trans=0&ttys=IN+PIN",
+        "sourceSha256": "4cf5d93ca7c83aca2894ab1a03c83abb330dbeee5de227479c8783db35c1bef2"
+      }
+    },
+    "chlorhexidine 2hcl eq to chlorhexidine dihydrochloride": {
+      "key": "chlorhexidine",
+      "evidence": {
+        "type": "tfda-explicit-equivalence",
+        "url": "https://data.gov.tw/dataset/9121",
+        "catalogSha256": "f7a04977d6007534ac8f1b4da4db48adea34c1b7c625d9acccd6cfc65a904644"
+      }
+    },
+    "cholecalciferol eq to vit d3 eq to vitamin d3": {
+      "key": "cholecalciferol",
+      "evidence": {
+        "type": "tfda-explicit-equivalence",
+        "url": "https://data.gov.tw/dataset/9121",
+        "catalogSha256": "f7a04977d6007534ac8f1b4da4db48adea34c1b7c625d9acccd6cfc65a904644"
+      }
+    },
+    "choline salicylate": {
+      "key": "choline",
+      "evidence": {
+        "type": "rxnorm-precise-ingredient",
+        "rxcui": "20974",
+        "parentRxcui": "2449",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxcui/20974/related.json?tty=IN",
+        "sourceSha256": "2317309f820aa3ccbac11886b5922dcdc28e903cd1d5d075a47668d11f8001db",
+        "checkedAt": "2026-10-22T19:56:39.955868+00:00"
+      }
+    },
+    "chondroitin sulfates": {
+      "key": "chondroitin sulfate",
+      "evidence": {
+        "type": "rxnorm-equivalent-name",
+        "rxcui": "2473",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=M&relaSource=ATC&trans=0&ttys=IN+PIN",
+        "sourceSha256": "caa328f52355dd99cf967bcbefb824d5d73f4ce7b42c213ffb0df19bf0957aac"
+      }
+    },
+    "ciclosporin": {
+      "key": "cyclosporine",
+      "evidence": {
+        "type": "rxnorm-equivalent-name",
+        "rxcui": "3008",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=L&relaSource=ATC&trans=0&ttys=IN+PIN",
+        "sourceSha256": "231314567d2de58f8a747a11644bfe53e5e32bb2d40535e7c5e03ddcae7d6f0c"
+      }
+    },
+    "cinchocaine": {
+      "key": "dibucaine",
+      "evidence": {
+        "type": "rxnorm-equivalent-name",
+        "rxcui": "3339",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=C&relaSource=ATC&trans=0&ttys=IN+PIN",
+        "sourceSha256": "e8748035dd34e6cd0c2f2aaea38f0f3c251aa4f1d2560fa82e3280b2f75992c5"
+      }
+    },
+    "cineole": {
+      "key": "eucalyptol",
+      "evidence": {
+        "type": "rxnorm-equivalent-name",
+        "rxcui": "21116",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=R&relaSource=ATC&trans=0&ttys=IN+PIN",
+        "sourceSha256": "4cf5d93ca7c83aca2894ab1a03c83abb330dbeee5de227479c8783db35c1bef2"
+      }
+    },
+    "ciprofloxacin hydrochloride monohydrate eq to ciprofloxacin hydrochloride h2o": {
+      "key": "ciprofloxacin",
+      "evidence": {
+        "type": "tfda-explicit-equivalence",
+        "url": "https://data.gov.tw/dataset/9121",
+        "catalogSha256": "f7a04977d6007534ac8f1b4da4db48adea34c1b7c625d9acccd6cfc65a904644"
+      }
+    },
+    "citrulline malate": {
+      "key": "citrulline",
+      "evidence": {
+        "type": "rxnorm-precise-ingredient",
+        "rxcui": "2707558",
+        "parentRxcui": "2567",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxcui/2707558/related.json?tty=IN",
+        "sourceSha256": "1ce2638be9614edb46ae90221307da5c4ea6103a2b6355da53f4e246581d40b5",
+        "checkedAt": "2026-10-22T19:56:49.135386+00:00"
+      }
+    },
+    "clavulanic acid as potassium": {
+      "key": "clavulanic acid",
+      "evidence": {
+        "type": "tfda-spelling",
+        "url": "https://data.gov.tw/dataset/9121",
+        "catalogSha256": "f7a04977d6007534ac8f1b4da4db48adea34c1b7c625d9acccd6cfc65a904644"
+      }
+    },
+    "clindamycin as phosphate": {
+      "key": "clindamycin",
+      "evidence": {
+        "type": "tfda-spelling",
+        "url": "https://data.gov.tw/dataset/9121",
+        "catalogSha256": "f7a04977d6007534ac8f1b4da4db48adea34c1b7c625d9acccd6cfc65a904644"
+      }
+    },
+    "clobetasone butyrate": {
+      "key": "clobetasone",
+      "evidence": {
+        "type": "rxnorm-precise-ingredient",
+        "rxcui": "21246",
+        "parentRxcui": "108074",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxcui/21246/related.json?tty=IN",
+        "sourceSha256": "c7dccccdb301db9c8c5b40bdf8f3568570f7884429ca3ff3a20f9a075e9e7720",
+        "checkedAt": "2026-10-22T19:56:54.521390+00:00"
+      }
+    },
+    "clopidogrel bisulfate": {
+      "key": "clopidogrel",
+      "evidence": {
+        "type": "rxnorm-precise-ingredient",
+        "rxcui": "236991",
+        "parentRxcui": "32968",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxcui/236991/related.json?tty=IN",
+        "sourceSha256": "1b4c2cfcca4734196bdc6e50849a6f3d66a2d20e197e0ed100394bb761ca575e",
+        "checkedAt": "2026-10-22T19:56:56.317179+00:00"
+      }
+    },
+    "clothiapine": {
+      "key": "clotiapine",
+      "evidence": {
+        "type": "rxnorm-equivalent-name",
+        "rxcui": "2620",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=N&relaSource=ATC&trans=0&ttys=IN+PIN",
+        "sourceSha256": "4fb4c532c2e7344b5ab3540fef0e298939e0fdb792f7d5e07612495d4466c8d4"
+      }
+    },
+    "clotrimazole micronized": {
+      "key": "clotrimazole",
+      "evidence": {
+        "type": "tfda-spelling",
+        "url": "https://data.gov.tw/dataset/9121",
+        "catalogSha256": "f7a04977d6007534ac8f1b4da4db48adea34c1b7c625d9acccd6cfc65a904644"
+      }
+    },
+    "cloxacillin as sodium sterile": {
+      "key": "cloxacillin",
+      "evidence": {
+        "type": "tfda-spelling",
+        "url": "https://data.gov.tw/dataset/9121",
+        "catalogSha256": "f7a04977d6007534ac8f1b4da4db48adea34c1b7c625d9acccd6cfc65a904644"
+      }
+    },
+    "coagulation factor ix": {
+      "key": "factor ix",
+      "evidence": {
+        "type": "rxnorm-equivalent-name",
+        "rxcui": "4249",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=B&relaSource=ATC&trans=0&ttys=IN+PIN",
+        "sourceSha256": "c148b0810667f0c694c0f6dbabc22a993a493a8075257a05f57ea64513b38af9"
+      }
+    },
+    "coagulation factor viii": {
+      "key": "factor viii",
+      "evidence": {
+        "type": "rxnorm-equivalent-name",
+        "rxcui": "4257",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=B&relaSource=ATC&trans=0&ttys=IN+PIN",
+        "sourceSha256": "c148b0810667f0c694c0f6dbabc22a993a493a8075257a05f57ea64513b38af9"
+      }
+    },
+    "coagulation factor xiii a-subunit recombinant": {
+      "key": "catridecacog",
+      "evidence": {
+        "type": "rxnorm-equivalent-name",
+        "rxcui": "1488293",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=B&relaSource=ATC&trans=0&ttys=IN+PIN",
+        "sourceSha256": "c148b0810667f0c694c0f6dbabc22a993a493a8075257a05f57ea64513b38af9"
+      }
+    },
+    "colecalciferol": {
+      "key": "cholecalciferol",
+      "evidence": {
+        "type": "rxnorm-equivalent-name",
+        "rxcui": "2418",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=A&relaSource=ATC&trans=0&ttys=IN+PIN",
+        "sourceSha256": "a5660cb96d6b076689c16eb028e4c0d6117e9f12ef115e6fce82d6e5b6c32927"
+      }
+    },
+    "corticotropin-releasing factor, human": {
+      "key": "corticorelin",
+      "evidence": {
+        "type": "rxnorm-equivalent-name",
+        "rxcui": "1927940",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=V&relaSource=ATC&trans=0&ttys=IN+PIN",
+        "sourceSha256": "6f9692db6cd3fb5b9f127afae3aaf4c47e5fca3736cf992acea3541c8c459659"
+      }
+    },
+    "cosyntropin": {
+      "key": "tetracosactide",
+      "evidence": {
+        "type": "rxnorm-equivalent-name",
+        "rxcui": "2890",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=H&relaSource=ATC&trans=0&ttys=IN+PIN",
+        "sourceSha256": "35c82d38456d294e8e4c477bddd804ff01fe7c26790ef03e13496b3a9a31c9cd"
+      }
+    },
+    "cromolyn sodium eq to sodium cromoglicate eq to sodium cromoglycate": {
+      "key": "cromoglicic acid",
+      "evidence": {
+        "type": "tfda-explicit-equivalence",
+        "url": "https://data.gov.tw/dataset/9121",
+        "catalogSha256": "f7a04977d6007534ac8f1b4da4db48adea34c1b7c625d9acccd6cfc65a904644"
+      }
+    },
+    "crystalline glucosamine sulfate eq to glucosamine sulfate 250 mg, sodium chloride 64 mg": {
+      "key": "glucosamine",
+      "evidence": {
+        "type": "tfda-explicit-equivalence",
+        "url": "https://data.gov.tw/dataset/9121",
+        "catalogSha256": "f7a04977d6007534ac8f1b4da4db48adea34c1b7c625d9acccd6cfc65a904644"
+      }
+    },
+    "cysteine hcl eq to cysteine hydrochloride": {
+      "key": "cysteine",
+      "evidence": {
+        "type": "tfda-explicit-equivalence",
+        "url": "https://data.gov.tw/dataset/9121",
+        "catalogSha256": "f7a04977d6007534ac8f1b4da4db48adea34c1b7c625d9acccd6cfc65a904644"
+      }
+    },
+    "cysteine l- hcl eq to l-cysteine hydrochloride": {
+      "key": "cysteine",
+      "evidence": {
+        "type": "tfda-explicit-equivalence",
+        "url": "https://data.gov.tw/dataset/9121",
+        "catalogSha256": "f7a04977d6007534ac8f1b4da4db48adea34c1b7c625d9acccd6cfc65a904644"
+      }
+    },
+    "danazol eq to cyclomen": {
+      "key": "danazol",
+      "evidence": {
+        "type": "tfda-explicit-equivalence",
+        "url": "https://data.gov.tw/dataset/9121",
+        "catalogSha256": "f7a04977d6007534ac8f1b4da4db48adea34c1b7c625d9acccd6cfc65a904644"
+      }
+    },
+    "dequalinium chloride": {
+      "key": "dequalinium",
+      "evidence": {
+        "type": "rxnorm-precise-ingredient",
+        "rxcui": "3120",
+        "parentRxcui": "3226",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxcui/3120/related.json?tty=IN",
+        "sourceSha256": "ac9607f21869d411c943d2965955b594b3aebadf2418e2ddb634e762eaf1ed67",
+        "checkedAt": "2026-10-22T19:57:10.684393+00:00"
+      }
+    },
+    "dextrose hydrous": {
+      "key": "glucose",
+      "evidence": {
+        "type": "rxnorm-precise-ingredient",
+        "rxcui": "1297771",
+        "parentRxcui": "4850",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxcui/1297771/related.json?tty=IN",
+        "sourceSha256": "8ddfa915124178cddc8fccb7ccf9106a5c9abc2fe13ef71665c03411ddac7a46",
+        "checkedAt": "2026-10-22T19:57:16.067854+00:00"
+      }
+    },
+    "diastase bio- anhydrous": {
+      "key": "biodiastase bio",
+      "evidence": {
+        "type": "tfda-spelling",
+        "url": "https://data.gov.tw/dataset/9121",
+        "catalogSha256": "f7a04977d6007534ac8f1b4da4db48adea34c1b7c625d9acccd6cfc65a904644"
+      }
+    },
+    "diclofenamide": {
+      "key": "dichlorphenamide",
+      "evidence": {
+        "type": "rxnorm-equivalent-name",
+        "rxcui": "3353",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=S&relaSource=ATC&trans=0&ttys=IN+PIN",
+        "sourceSha256": "b7867bc4fedab3a73b188c4f7f1cc2ac19f86ed27732ec85ff476db7dceb8102"
+      }
+    },
+    "dicycloverine": {
+      "key": "dicyclomine",
+      "evidence": {
+        "type": "rxnorm-equivalent-name",
+        "rxcui": "3361",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=A&relaSource=ATC&trans=0&ttys=IN+PIN",
+        "sourceSha256": "a5660cb96d6b076689c16eb028e4c0d6117e9f12ef115e6fce82d6e5b6c32927"
+      }
+    },
+    "dienogest micronised": {
+      "key": "dienogest",
+      "evidence": {
+        "type": "tfda-spelling",
+        "url": "https://data.gov.tw/dataset/9121",
+        "catalogSha256": "f7a04977d6007534ac8f1b4da4db48adea34c1b7c625d9acccd6cfc65a904644"
+      }
+    },
+    "diethylpropion": {
+      "key": "amfepramone",
+      "evidence": {
+        "type": "rxnorm-equivalent-name",
+        "rxcui": "3389",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=A&relaSource=ATC&trans=0&ttys=IN+PIN",
+        "sourceSha256": "a5660cb96d6b076689c16eb028e4c0d6117e9f12ef115e6fce82d6e5b6c32927"
+      }
+    },
+    "diflorasone diacetate": {
+      "key": "diflorasone",
+      "evidence": {
+        "type": "rxnorm-precise-ingredient",
+        "rxcui": "23033",
+        "parentRxcui": "91311",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxcui/23033/related.json?tty=IN",
+        "sourceSha256": "195bb5f48601b3003e9bb95a757efd1868a711efda6153a1f91200a6bc5fc035",
+        "checkedAt": "2026-10-22T19:57:19.656278+00:00"
+      }
+    },
+    "dimeticone": {
+      "key": "dimethicone",
+      "evidence": {
+        "type": "rxnorm-equivalent-name",
+        "rxcui": "324072",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=P&relaSource=ATC&trans=0&ttys=IN+PIN",
+        "sourceSha256": "d649682e071bf995aa6de8b794c2c8be5694cf7455eff212be84b444413d9bef"
+      }
+    },
+    "dimetotiazine": {
+      "key": "fonazine",
+      "evidence": {
+        "type": "rxnorm-equivalent-name",
+        "rxcui": "50138",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=N&relaSource=ATC&trans=0&ttys=IN+PIN",
+        "sourceSha256": "4fb4c532c2e7344b5ab3540fef0e298939e0fdb792f7d5e07612495d4466c8d4"
+      }
+    },
+    "diphenhydramine tannate": {
+      "key": "diphenhydramine",
+      "evidence": {
+        "type": "rxnorm-precise-ingredient",
+        "rxcui": "360283",
+        "parentRxcui": "3498",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxcui/360283/related.json?tty=IN",
+        "sourceSha256": "b007365fb588575310db74e102b960d26bbdd51bbc4fb1be9cba590202bfb343",
+        "checkedAt": "2026-10-22T19:57:23.638539+00:00"
+      }
+    },
+    "diphenidol hydrochloride eq to difenidol hcl": {
+      "key": "diphenidol",
+      "evidence": {
+        "type": "tfda-explicit-equivalence",
+        "url": "https://data.gov.tw/dataset/9121",
+        "catalogSha256": "f7a04977d6007534ac8f1b4da4db48adea34c1b7c625d9acccd6cfc65a904644"
+      }
+    },
+    "diphtheria toxoid vaccine, inactivated": {
+      "key": "diphtheria toxoid",
+      "evidence": {
+        "type": "rxnorm-equivalent-name",
+        "rxcui": "798304",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=J&relaSource=ATC&trans=0&ttys=IN+PIN",
+        "sourceSha256": "5486bf39a2b430afdb0cce0c93e1e609772750b3c34a8fefa20c112ff9d20325"
+      }
+    },
+    "dipivefrin": {
+      "key": "dipivefrine",
+      "evidence": {
+        "type": "rxnorm-equivalent-name",
+        "rxcui": "23410",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=S&relaSource=ATC&trans=0&ttys=IN+PIN",
+        "sourceSha256": "b7867bc4fedab3a73b188c4f7f1cc2ac19f86ed27732ec85ff476db7dceb8102"
+      }
+    },
+    "dithranol": {
+      "key": "anthralin",
+      "evidence": {
+        "type": "rxnorm-equivalent-name",
+        "rxcui": "873",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=D&relaSource=ATC&trans=0&ttys=IN+PIN",
+        "sourceSha256": "d8fda825cb4826e12e44bcffa2f53306c108145423abcc9d549a23d63635c60b"
+      }
+    },
+    "dothiepin": {
+      "key": "dosulepin",
+      "evidence": {
+        "type": "rxnorm-equivalent-name",
+        "rxcui": "3634",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=N&relaSource=ATC&trans=0&ttys=IN+PIN",
+        "sourceSha256": "4fb4c532c2e7344b5ab3540fef0e298939e0fdb792f7d5e07612495d4466c8d4"
+      }
+    },
+    "doxazosin as mesylate": {
+      "key": "doxazosin",
+      "evidence": {
+        "type": "tfda-spelling",
+        "url": "https://data.gov.tw/dataset/9121",
+        "catalogSha256": "f7a04977d6007534ac8f1b4da4db48adea34c1b7c625d9acccd6cfc65a904644"
+      }
+    },
+    "doxorubicin hydrochloride liposome": {
+      "key": "doxorubicin",
+      "evidence": {
+        "type": "rxnorm-precise-ingredient",
+        "rxcui": "466523",
+        "parentRxcui": "3639",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxcui/466523/related.json?tty=IN",
+        "sourceSha256": "887069f66fba7ef6a17d3e7687eabd8ed456e3eca7b69b5133446d784d9a5beb",
+        "checkedAt": "2026-10-22T19:57:39.763820+00:00"
+      }
+    },
+    "doxycycline hyclate": {
+      "key": "doxycycline",
+      "evidence": {
+        "type": "rxnorm-precise-ingredient",
+        "rxcui": "23663",
+        "parentRxcui": "3640",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxcui/23663/related.json?tty=IN",
+        "sourceSha256": "db473a9e1063d5202066cba0a1d36126c8fccbf637140331a4cc6c5bc1557ca5",
+        "checkedAt": "2026-10-22T19:57:41.569732+00:00"
+      }
+    },
+    "dyphylline": {
+      "key": "diprophylline",
+      "evidence": {
+        "type": "rxnorm-equivalent-name",
+        "rxcui": "3714",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=R&relaSource=ATC&trans=0&ttys=IN+PIN",
+        "sourceSha256": "4cf5d93ca7c83aca2894ab1a03c83abb330dbeee5de227479c8783db35c1bef2"
+      }
+    },
+    "edetate disodium eq to disodium edetate eq to e.d.t.a. disodium eq to edta -2na": {
+      "key": "edetate disodium",
+      "evidence": {
+        "type": "tfda-explicit-equivalence",
+        "url": "https://data.gov.tw/dataset/9121",
+        "catalogSha256": "f7a04977d6007534ac8f1b4da4db48adea34c1b7c625d9acccd6cfc65a904644"
+      }
+    },
+    "enoxolone": {
+      "key": "glycyrrhetinic acid",
+      "evidence": {
+        "type": "rxnorm-equivalent-name",
+        "rxcui": "1311506",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=D&relaSource=ATC&trans=0&ttys=IN+PIN",
+        "sourceSha256": "d8fda825cb4826e12e44bcffa2f53306c108145423abcc9d549a23d63635c60b"
+      }
+    },
+    "ephedrine hcl eq to ephedrine hydrochloride": {
+      "key": "ephedrine",
+      "evidence": {
+        "type": "tfda-explicit-equivalence",
+        "url": "https://data.gov.tw/dataset/9121",
+        "catalogSha256": "f7a04977d6007534ac8f1b4da4db48adea34c1b7c625d9acccd6cfc65a904644"
+      }
+    },
+    "ergometrine": {
+      "key": "ergonovine",
+      "evidence": {
+        "type": "rxnorm-equivalent-name",
+        "rxcui": "4021",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=G&relaSource=ATC&trans=0&ttys=IN+PIN",
+        "sourceSha256": "253e803f596fd4efd73e772b634aa9e2c9928a4776665e5754e3f5ad5815992f"
+      }
+    },
+    "erythromycin crystalline": {
+      "key": "erythromycin",
+      "evidence": {
+        "type": "tfda-spelling",
+        "url": "https://data.gov.tw/dataset/9121",
+        "catalogSha256": "f7a04977d6007534ac8f1b4da4db48adea34c1b7c625d9acccd6cfc65a904644"
+      }
+    },
+    "erythromycin estolate": {
+      "key": "erythromycin",
+      "evidence": {
+        "type": "rxnorm-precise-ingredient",
+        "rxcui": "4055",
+        "parentRxcui": "4053",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxcui/4055/related.json?tty=IN",
+        "sourceSha256": "343d2577fc2bca7914a666c1d5f3c9a72ca984ce0c6006563114e89abb8f785c",
+        "checkedAt": "2026-10-22T19:58:01.554595+00:00"
+      }
+    },
+    "erythromycin ethylsuccinate": {
+      "key": "erythromycin",
+      "evidence": {
+        "type": "rxnorm-precise-ingredient",
+        "rxcui": "4056",
+        "parentRxcui": "4053",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxcui/4056/related.json?tty=IN",
+        "sourceSha256": "343d2577fc2bca7914a666c1d5f3c9a72ca984ce0c6006563114e89abb8f785c",
+        "checkedAt": "2026-10-22T19:58:03.349102+00:00"
+      }
+    },
+    "erythromycin lactobionate": {
+      "key": "erythromycin",
+      "evidence": {
+        "type": "rxnorm-precise-ingredient",
+        "rxcui": "24347",
+        "parentRxcui": "4053",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxcui/24347/related.json?tty=IN",
+        "sourceSha256": "343d2577fc2bca7914a666c1d5f3c9a72ca984ce0c6006563114e89abb8f785c",
+        "checkedAt": "2026-10-22T19:58:05.143927+00:00"
+      }
+    },
+    "erythromycin stearate": {
+      "key": "erythromycin",
+      "evidence": {
+        "type": "rxnorm-precise-ingredient",
+        "rxcui": "24351",
+        "parentRxcui": "4053",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxcui/24351/related.json?tty=IN",
+        "sourceSha256": "343d2577fc2bca7914a666c1d5f3c9a72ca984ce0c6006563114e89abb8f785c",
+        "checkedAt": "2026-10-22T19:58:06.937063+00:00"
+      }
+    },
+    "escin hydrate": {
+      "key": "escin",
+      "evidence": {
+        "type": "tfda-spelling",
+        "url": "https://data.gov.tw/dataset/9121",
+        "catalogSha256": "f7a04977d6007534ac8f1b4da4db48adea34c1b7c625d9acccd6cfc65a904644"
+      }
+    },
+    "escitalopram as oxalate": {
+      "key": "escitalopram",
+      "evidence": {
+        "type": "tfda-spelling",
+        "url": "https://data.gov.tw/dataset/9121",
+        "catalogSha256": "f7a04977d6007534ac8f1b4da4db48adea34c1b7c625d9acccd6cfc65a904644"
+      }
+    },
+    "esomeprazole magnesium dihydrate": {
+      "key": "esomeprazole",
+      "evidence": {
+        "type": "rxnorm-precise-ingredient",
+        "rxcui": "1601995",
+        "parentRxcui": "283742",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxcui/1601995/related.json?tty=IN",
+        "sourceSha256": "c9baa615560216471fd7c5d11e8a9544024ea448a39d111be045943ef7bf4e3a",
+        "checkedAt": "2026-10-22T19:58:08.736252+00:00"
+      }
+    },
+    "esomeprazole magnesium trihydrate": {
+      "key": "esomeprazole",
+      "evidence": {
+        "type": "rxnorm-precise-ingredient",
+        "rxcui": "2688630",
+        "parentRxcui": "283742",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxcui/2688630/related.json?tty=IN",
+        "sourceSha256": "c9baa615560216471fd7c5d11e8a9544024ea448a39d111be045943ef7bf4e3a",
+        "checkedAt": "2026-10-22T19:58:10.528831+00:00"
+      }
+    },
+    "estradiol 17-valerinate eq to estradiol valerate": {
+      "key": "estradiol",
+      "evidence": {
+        "type": "tfda-explicit-equivalence",
+        "url": "https://data.gov.tw/dataset/9121",
+        "catalogSha256": "f7a04977d6007534ac8f1b4da4db48adea34c1b7c625d9acccd6cfc65a904644"
+      }
+    },
+    "estradiol ethinyl eq to ethinyloestradiol eq to ethinylestradiol": {
+      "key": "ethinylestradiol",
+      "evidence": {
+        "type": "tfda-explicit-equivalence",
+        "url": "https://data.gov.tw/dataset/9121",
+        "catalogSha256": "f7a04977d6007534ac8f1b4da4db48adea34c1b7c625d9acccd6cfc65a904644"
+      }
+    },
+    "estrogens, conjugated usp": {
+      "key": "conjugated estrogens",
+      "evidence": {
+        "type": "rxnorm-equivalent-name",
+        "rxcui": "4099",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=G&relaSource=ATC&trans=0&ttys=IN+PIN",
+        "sourceSha256": "253e803f596fd4efd73e772b634aa9e2c9928a4776665e5754e3f5ad5815992f"
+      }
+    },
+    "ethamivan": {
+      "key": "etamivan",
+      "evidence": {
+        "type": "rxnorm-equivalent-name",
+        "rxcui": "24453",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=R&relaSource=ATC&trans=0&ttys=IN+PIN",
+        "sourceSha256": "4cf5d93ca7c83aca2894ab1a03c83abb330dbeee5de227479c8783db35c1bef2"
+      }
+    },
+    "ethamsylate": {
+      "key": "etamsylate",
+      "evidence": {
+        "type": "rxnorm-equivalent-name",
+        "rxcui": "4112",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=B&relaSource=ATC&trans=0&ttys=IN+PIN",
+        "sourceSha256": "c148b0810667f0c694c0f6dbabc22a993a493a8075257a05f57ea64513b38af9"
+      }
+    },
+    "ethaverine eq to ethylpapaverine": {
+      "key": "ethaverine",
+      "evidence": {
+        "type": "tfda-explicit-equivalence",
+        "url": "https://data.gov.tw/dataset/9121",
+        "catalogSha256": "f7a04977d6007534ac8f1b4da4db48adea34c1b7c625d9acccd6cfc65a904644"
+      }
+    },
+    "ethinylestradiol micronized": {
+      "key": "ethinylestradiol",
+      "evidence": {
+        "type": "tfda-spelling",
+        "url": "https://data.gov.tw/dataset/9121",
+        "catalogSha256": "f7a04977d6007534ac8f1b4da4db48adea34c1b7c625d9acccd6cfc65a904644"
+      }
+    },
+    "etodolac micronized": {
+      "key": "etodolac",
+      "evidence": {
+        "type": "tfda-spelling",
+        "url": "https://data.gov.tw/dataset/9121",
+        "catalogSha256": "f7a04977d6007534ac8f1b4da4db48adea34c1b7c625d9acccd6cfc65a904644"
+      }
+    },
+    "factor viii inhibitor bypassing activity": {
+      "key": "anti-inhibitor coagulant complex",
+      "evidence": {
+        "type": "rxnorm-equivalent-name",
+        "rxcui": "314504",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=B&relaSource=ATC&trans=0&ttys=IN+PIN",
+        "sourceSha256": "c148b0810667f0c694c0f6dbabc22a993a493a8075257a05f57ea64513b38af9"
+      }
+    },
+    "fenethylline": {
+      "key": "fenetylline",
+      "evidence": {
+        "type": "rxnorm-equivalent-name",
+        "rxcui": "24840",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=N&relaSource=ATC&trans=0&ttys=IN+PIN",
+        "sourceSha256": "4fb4c532c2e7344b5ab3540fef0e298939e0fdb792f7d5e07612495d4466c8d4"
+      }
+    },
+    "fenofibrate micronized": {
+      "key": "fenofibrate",
+      "evidence": {
+        "type": "tfda-spelling",
+        "url": "https://data.gov.tw/dataset/9121",
+        "catalogSha256": "f7a04977d6007534ac8f1b4da4db48adea34c1b7c625d9acccd6cfc65a904644"
+      }
+    },
+    "fentanyl eq to fentanyl base": {
+      "key": "fentanyl",
+      "evidence": {
+        "type": "tfda-explicit-equivalence",
+        "url": "https://data.gov.tw/dataset/9121",
+        "catalogSha256": "f7a04977d6007534ac8f1b4da4db48adea34c1b7c625d9acccd6cfc65a904644"
+      }
+    },
+    "ferric chloride hexahydrate": {
+      "key": "ferric chloride",
+      "evidence": {
+        "type": "rxnorm-precise-ingredient",
+        "rxcui": "1323279",
+        "parentRxcui": "24898",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxcui/1323279/related.json?tty=IN",
+        "sourceSha256": "e69ed89b54e8d258c5276e18bffecb2341a046a327b890a1d713f04cbd2bb0cb",
+        "checkedAt": "2026-10-22T19:58:19.504763+00:00"
+      }
+    },
+    "finerenone micronized": {
+      "key": "finerenone",
+      "evidence": {
+        "type": "tfda-spelling",
+        "url": "https://data.gov.tw/dataset/9121",
+        "catalogSha256": "f7a04977d6007534ac8f1b4da4db48adea34c1b7c625d9acccd6cfc65a904644"
+      }
+    },
+    "florbetaben 18f": {
+      "key": "florbetaben f-18",
+      "evidence": {
+        "type": "rxnorm-equivalent-name",
+        "rxcui": "1492940",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=V&relaSource=ATC&trans=0&ttys=IN+PIN",
+        "sourceSha256": "6f9692db6cd3fb5b9f127afae3aaf4c47e5fca3736cf992acea3541c8c459659"
+      }
+    },
+    "floxacillin": {
+      "key": "flucloxacillin",
+      "evidence": {
+        "type": "rxnorm-equivalent-name",
+        "rxcui": "4448",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=J&relaSource=ATC&trans=0&ttys=IN+PIN",
+        "sourceSha256": "5486bf39a2b430afdb0cce0c93e1e609772750b3c34a8fefa20c112ff9d20325"
+      }
+    },
+    "fludroxycortide": {
+      "key": "flurandrenolide",
+      "evidence": {
+        "type": "rxnorm-equivalent-name",
+        "rxcui": "4500",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=D&relaSource=ATC&trans=0&ttys=IN+PIN",
+        "sourceSha256": "d8fda825cb4826e12e44bcffa2f53306c108145423abcc9d549a23d63635c60b"
+      }
+    },
+    "flumetasone": {
+      "key": "flumethasone",
+      "evidence": {
+        "type": "rxnorm-equivalent-name",
+        "rxcui": "4458",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=D&relaSource=ATC&trans=0&ttys=IN+PIN",
+        "sourceSha256": "d8fda825cb4826e12e44bcffa2f53306c108145423abcc9d549a23d63635c60b"
+      }
+    },
+    "flupenthixol": {
+      "key": "flupentixol",
+      "evidence": {
+        "type": "rxnorm-equivalent-name",
+        "rxcui": "4495",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=N&relaSource=ATC&trans=0&ttys=IN+PIN",
+        "sourceSha256": "4fb4c532c2e7344b5ab3540fef0e298939e0fdb792f7d5e07612495d4466c8d4"
+      }
+    },
+    "flupentixol decanoate eq to flupenthixol decanoate": {
+      "key": "flupentixol",
+      "evidence": {
+        "type": "tfda-explicit-equivalence",
+        "url": "https://data.gov.tw/dataset/9121",
+        "catalogSha256": "f7a04977d6007534ac8f1b4da4db48adea34c1b7c625d9acccd6cfc65a904644"
+      }
+    },
+    "flupentixol eq to flupenthixol": {
+      "key": "flupentixol",
+      "evidence": {
+        "type": "tfda-explicit-equivalence",
+        "url": "https://data.gov.tw/dataset/9121",
+        "catalogSha256": "f7a04977d6007534ac8f1b4da4db48adea34c1b7c625d9acccd6cfc65a904644"
+      }
+    },
+    "fluticasone furoate micronised": {
+      "key": "fluticasone",
+      "evidence": {
+        "type": "tfda-spelling",
+        "url": "https://data.gov.tw/dataset/9121",
+        "catalogSha256": "f7a04977d6007534ac8f1b4da4db48adea34c1b7c625d9acccd6cfc65a904644"
+      }
+    },
+    "fluticasone propionate micronized": {
+      "key": "fluticasone",
+      "evidence": {
+        "type": "tfda-spelling",
+        "url": "https://data.gov.tw/dataset/9121",
+        "catalogSha256": "f7a04977d6007534ac8f1b4da4db48adea34c1b7c625d9acccd6cfc65a904644"
+      }
+    },
+    "folinate calcium 5h2o calcium leucovorin 5h2o": {
+      "key": "folinic acid",
+      "evidence": {
+        "type": "tfda-spelling",
+        "url": "https://data.gov.tw/dataset/9121",
+        "catalogSha256": "f7a04977d6007534ac8f1b4da4db48adea34c1b7c625d9acccd6cfc65a904644"
+      }
+    },
+    "fradiomycin as sulfate": {
+      "key": "neomycin",
+      "evidence": {
+        "type": "tfda-spelling",
+        "url": "https://data.gov.tw/dataset/9121",
+        "catalogSha256": "f7a04977d6007534ac8f1b4da4db48adea34c1b7c625d9acccd6cfc65a904644"
+      }
+    },
+    "fradiomycin sulfate eq to neomycin sulfate": {
+      "key": "neomycin",
+      "evidence": {
+        "type": "tfda-explicit-equivalence",
+        "url": "https://data.gov.tw/dataset/9121",
+        "catalogSha256": "f7a04977d6007534ac8f1b4da4db48adea34c1b7c625d9acccd6cfc65a904644"
+      }
+    },
+    "fusidic acid as hemihydrate": {
+      "key": "fusidic acid",
+      "evidence": {
+        "type": "tfda-spelling",
+        "url": "https://data.gov.tw/dataset/9121",
+        "catalogSha256": "f7a04977d6007534ac8f1b4da4db48adea34c1b7c625d9acccd6cfc65a904644"
+      }
+    },
+    "g-strophanthin": {
+      "key": "ouabain",
+      "evidence": {
+        "type": "rxnorm-equivalent-name",
+        "rxcui": "7762",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=C&relaSource=ATC&trans=0&ttys=IN+PIN",
+        "sourceSha256": "e8748035dd34e6cd0c2f2aaea38f0f3c251aa4f1d2560fa82e3280b2f75992c5"
+      }
+    },
+    "gentamicin as sulfate": {
+      "key": "gentamicin",
+      "evidence": {
+        "type": "tfda-spelling",
+        "url": "https://data.gov.tw/dataset/9121",
+        "catalogSha256": "f7a04977d6007534ac8f1b4da4db48adea34c1b7c625d9acccd6cfc65a904644"
+      }
+    },
+    "geranylgeranylacetone": {
+      "key": "teprenone",
+      "evidence": {
+        "type": "rxnorm-equivalent-name",
+        "rxcui": "1362746",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=A&relaSource=ATC&trans=0&ttys=IN+PIN",
+        "sourceSha256": "a5660cb96d6b076689c16eb028e4c0d6117e9f12ef115e6fce82d6e5b6c32927"
+      }
+    },
+    "gestodene micronized": {
+      "key": "gestodene",
+      "evidence": {
+        "type": "tfda-spelling",
+        "url": "https://data.gov.tw/dataset/9121",
+        "catalogSha256": "f7a04977d6007534ac8f1b4da4db48adea34c1b7c625d9acccd6cfc65a904644"
+      }
+    },
+    "gliclazide micronized": {
+      "key": "gliclazide",
+      "evidence": {
+        "type": "tfda-spelling",
+        "url": "https://data.gov.tw/dataset/9121",
+        "catalogSha256": "f7a04977d6007534ac8f1b4da4db48adea34c1b7c625d9acccd6cfc65a904644"
+      }
+    },
+    "glucosamine sulfate crystalline": {
+      "key": "glucosamine",
+      "evidence": {
+        "type": "tfda-spelling",
+        "url": "https://data.gov.tw/dataset/9121",
+        "catalogSha256": "f7a04977d6007534ac8f1b4da4db48adea34c1b7c625d9acccd6cfc65a904644"
+      }
+    },
+    "glyburide eq to glibenclamide": {
+      "key": "glibenclamide",
+      "evidence": {
+        "type": "tfda-explicit-equivalence",
+        "url": "https://data.gov.tw/dataset/9121",
+        "catalogSha256": "f7a04977d6007534ac8f1b4da4db48adea34c1b7c625d9acccd6cfc65a904644"
+      }
+    },
+    "glyburide micronized eq to glibenclamide micronized": {
+      "key": "glibenclamide",
+      "evidence": {
+        "type": "tfda-spelling",
+        "url": "https://data.gov.tw/dataset/9121",
+        "catalogSha256": "f7a04977d6007534ac8f1b4da4db48adea34c1b7c625d9acccd6cfc65a904644"
+      }
+    },
+    "glycerin eq to glycerol": {
+      "key": "glycerol",
+      "evidence": {
+        "type": "tfda-explicit-equivalence",
+        "url": "https://data.gov.tw/dataset/9121",
+        "catalogSha256": "f7a04977d6007534ac8f1b4da4db48adea34c1b7c625d9acccd6cfc65a904644"
+      }
+    },
+    "glyceryl trinitrate": {
+      "key": "nitroglycerin",
+      "evidence": {
+        "type": "rxnorm-equivalent-name",
+        "rxcui": "4917",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=C&relaSource=ATC&trans=0&ttys=IN+PIN",
+        "sourceSha256": "e8748035dd34e6cd0c2f2aaea38f0f3c251aa4f1d2560fa82e3280b2f75992c5"
+      }
+    },
+    "guaiacol glyceryl ether eq to guaifenesin": {
+      "key": "guaifenesin",
+      "evidence": {
+        "type": "tfda-explicit-equivalence",
+        "url": "https://data.gov.tw/dataset/9121",
+        "catalogSha256": "f7a04977d6007534ac8f1b4da4db48adea34c1b7c625d9acccd6cfc65a904644"
+      }
+    },
+    "guaiacol glycolate eq to glyceryl guaiacolate": {
+      "key": "guaifenesin",
+      "evidence": {
+        "type": "tfda-explicit-equivalence",
+        "url": "https://data.gov.tw/dataset/9121",
+        "catalogSha256": "f7a04977d6007534ac8f1b4da4db48adea34c1b7c625d9acccd6cfc65a904644"
+      }
+    },
+    "hepatitis b immunoglobulin": {
+      "key": "hepatitis b immune globulin",
+      "evidence": {
+        "type": "rxnorm-equivalent-name",
+        "rxcui": "26744",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=J&relaSource=ATC&trans=0&ttys=IN+PIN",
+        "sourceSha256": "5486bf39a2b430afdb0cce0c93e1e609772750b3c34a8fefa20c112ff9d20325"
+      }
+    },
+    "heroin": {
+      "key": "diamorphine",
+      "evidence": {
+        "type": "rxnorm-equivalent-name",
+        "rxcui": "3304",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=N&relaSource=ATC&trans=0&ttys=IN+PIN",
+        "sourceSha256": "4fb4c532c2e7344b5ab3540fef0e298939e0fdb792f7d5e07612495d4466c8d4"
+      }
+    },
+    "histidine l- hcl eq to l-histidine hydrochloride": {
+      "key": "histidine",
+      "evidence": {
+        "type": "tfda-explicit-equivalence",
+        "url": "https://data.gov.tw/dataset/9121",
+        "catalogSha256": "f7a04977d6007534ac8f1b4da4db48adea34c1b7c625d9acccd6cfc65a904644"
+      }
+    },
+    "histidine monohydrochloride": {
+      "key": "histidine",
+      "evidence": {
+        "type": "rxnorm-precise-ingredient",
+        "rxcui": "1309689",
+        "parentRxcui": "5340",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxcui/1309689/related.json?tty=IN",
+        "sourceSha256": "df60e165d0fd6d7291089b9a837511eb71738b5f9e6a8b06fa78fc1c08c5e347",
+        "checkedAt": "2026-10-22T19:59:03.067645+00:00"
+      }
+    },
+    "hyaluronate sodium eq to sodium hyaluronate": {
+      "key": "sodium hyaluronate",
+      "evidence": {
+        "type": "tfda-explicit-equivalence",
+        "url": "https://data.gov.tw/dataset/9121",
+        "catalogSha256": "f7a04977d6007534ac8f1b4da4db48adea34c1b7c625d9acccd6cfc65a904644"
+      }
+    },
+    "hydrochlorothiazide eq to 3,4-dihydrochlorothiazide": {
+      "key": "hydrochlorothiazide",
+      "evidence": {
+        "type": "tfda-explicit-equivalence",
+        "url": "https://data.gov.tw/dataset/9121",
+        "catalogSha256": "f7a04977d6007534ac8f1b4da4db48adea34c1b7c625d9acccd6cfc65a904644"
+      }
+    },
+    "hydrochlorothiazide micronized": {
+      "key": "hydrochlorothiazide",
+      "evidence": {
+        "type": "tfda-spelling",
+        "url": "https://data.gov.tw/dataset/9121",
+        "catalogSha256": "f7a04977d6007534ac8f1b4da4db48adea34c1b7c625d9acccd6cfc65a904644"
+      }
+    },
+    "hydrocortisone butyrate": {
+      "key": "hydrocortisone",
+      "evidence": {
+        "type": "rxnorm-precise-ingredient",
+        "rxcui": "103468",
+        "parentRxcui": "5492",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxcui/103468/related.json?tty=IN",
+        "sourceSha256": "61a1978b7f00cf302fd9c0b794d97f74e89ab1ddc9d1856e831eac977f470f9d",
+        "checkedAt": "2026-10-22T19:59:04.863711+00:00"
+      }
+    },
+    "hydroxycarbamide": {
+      "key": "hydroxyurea",
+      "evidence": {
+        "type": "rxnorm-equivalent-name",
+        "rxcui": "5552",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=L&relaSource=ATC&trans=0&ttys=IN+PIN",
+        "sourceSha256": "231314567d2de58f8a747a11644bfe53e5e32bb2d40535e7c5e03ddcae7d6f0c"
+      }
+    },
+    "hydroxyzine pamoate": {
+      "key": "hydroxyzine",
+      "evidence": {
+        "type": "rxnorm-precise-ingredient",
+        "rxcui": "203182",
+        "parentRxcui": "5553",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxcui/203182/related.json?tty=IN",
+        "sourceSha256": "6f741864dccb68bbcf34d9b846ce702355853150a672d07ab2c0d990a9508da6",
+        "checkedAt": "2026-10-22T19:59:08.442030+00:00"
+      }
+    },
+    "ibuprofen lysine": {
+      "key": "ibuprofen",
+      "evidence": {
+        "type": "rxnorm-precise-ingredient",
+        "rxcui": "36761",
+        "parentRxcui": "5640",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxcui/36761/related.json?tty=IN",
+        "sourceSha256": "ddc23a4eacfa03fb4df8404b0b8250660e55127db1696cd1c30fdf1d4c05b14e",
+        "checkedAt": "2026-10-22T19:59:12.036028+00:00"
+      }
+    },
+    "indomethacin eq to indometacin": {
+      "key": "indometacin",
+      "evidence": {
+        "type": "tfda-explicit-equivalence",
+        "url": "https://data.gov.tw/dataset/9121",
+        "catalogSha256": "f7a04977d6007534ac8f1b4da4db48adea34c1b7c625d9acccd6cfc65a904644"
+      }
+    },
+    "insulin aspart, human": {
+      "key": "insulin",
+      "evidence": {
+        "type": "rxnorm-equivalent-name",
+        "rxcui": "51428",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=A&relaSource=ATC&trans=0&ttys=IN+PIN",
+        "sourceSha256": "a5660cb96d6b076689c16eb028e4c0d6117e9f12ef115e6fce82d6e5b6c32927"
+      }
+    },
+    "insulin crystalline": {
+      "key": "insulin",
+      "evidence": {
+        "type": "tfda-spelling",
+        "url": "https://data.gov.tw/dataset/9121",
+        "catalogSha256": "f7a04977d6007534ac8f1b4da4db48adea34c1b7c625d9acccd6cfc65a904644"
+      }
+    },
+    "insulin, regular, human": {
+      "key": "insulin",
+      "evidence": {
+        "type": "rxnorm-equivalent-name",
+        "rxcui": "253182",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=A&relaSource=ATC&trans=0&ttys=IN+PIN",
+        "sourceSha256": "a5660cb96d6b076689c16eb028e4c0d6117e9f12ef115e6fce82d6e5b6c32927"
+      }
+    },
+    "iobenguane 123i": {
+      "key": "iobenguane i-123",
+      "evidence": {
+        "type": "rxnorm-equivalent-name",
+        "rxcui": "1426748",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=V&relaSource=ATC&trans=0&ttys=IN+PIN",
+        "sourceSha256": "6f9692db6cd3fb5b9f127afae3aaf4c47e5fca3736cf992acea3541c8c459659"
+      }
+    },
+    "iron as ferrous fumarate": {
+      "key": "ferrous fumarate",
+      "evidence": {
+        "type": "tfda-spelling",
+        "url": "https://data.gov.tw/dataset/9121",
+        "catalogSha256": "f7a04977d6007534ac8f1b4da4db48adea34c1b7c625d9acccd6cfc65a904644"
+      }
+    },
+    "isoetarine": {
+      "key": "isoetharine",
+      "evidence": {
+        "type": "rxnorm-equivalent-name",
+        "rxcui": "6023",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=R&relaSource=ATC&trans=0&ttys=IN+PIN",
+        "sourceSha256": "4cf5d93ca7c83aca2894ab1a03c83abb330dbeee5de227479c8783db35c1bef2"
+      }
+    },
+    "isopropanol": {
+      "key": "isopropyl alcohol",
+      "evidence": {
+        "type": "rxnorm-equivalent-name",
+        "rxcui": "797541",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=D&relaSource=ATC&trans=0&ttys=IN+PIN",
+        "sourceSha256": "d8fda825cb4826e12e44bcffa2f53306c108145423abcc9d549a23d63635c60b"
+      }
+    },
+    "isoproterenol": {
+      "key": "isoprenaline",
+      "evidence": {
+        "type": "rxnorm-equivalent-name",
+        "rxcui": "6054",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=C&relaSource=ATC&trans=0&ttys=IN+PIN",
+        "sourceSha256": "e8748035dd34e6cd0c2f2aaea38f0f3c251aa4f1d2560fa82e3280b2f75992c5"
+      }
+    },
+    "lanthanum carbonate tetrahydrate": {
+      "key": "lanthanum carbonate",
+      "evidence": {
+        "type": "tfda-spelling",
+        "url": "https://data.gov.tw/dataset/9121",
+        "catalogSha256": "f7a04977d6007534ac8f1b4da4db48adea34c1b7c625d9acccd6cfc65a904644"
+      }
+    },
+    "levocetirizine dihydrochloride eq to levocetirizine 2hcl": {
+      "key": "levocetirizine",
+      "evidence": {
+        "type": "tfda-explicit-equivalence",
+        "url": "https://data.gov.tw/dataset/9121",
+        "catalogSha256": "f7a04977d6007534ac8f1b4da4db48adea34c1b7c625d9acccd6cfc65a904644"
+      }
+    },
+    "levonorgestrel micronized": {
+      "key": "levonorgestrel",
+      "evidence": {
+        "type": "tfda-spelling",
+        "url": "https://data.gov.tw/dataset/9121",
+        "catalogSha256": "f7a04977d6007534ac8f1b4da4db48adea34c1b7c625d9acccd6cfc65a904644"
+      }
+    },
+    "lincomycin hcl h2o": {
+      "key": "lincomycin",
+      "evidence": {
+        "type": "tfda-spelling",
+        "url": "https://data.gov.tw/dataset/9121",
+        "catalogSha256": "f7a04977d6007534ac8f1b4da4db48adea34c1b7c625d9acccd6cfc65a904644"
+      }
+    },
+    "liquid paraffin": {
+      "key": "mineral oil",
+      "evidence": {
+        "type": "rxnorm-equivalent-name",
+        "rxcui": "6972",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=A&relaSource=ATC&trans=0&ttys=IN+PIN",
+        "sourceSha256": "a5660cb96d6b076689c16eb028e4c0d6117e9f12ef115e6fce82d6e5b6c32927"
+      }
+    },
+    "liquid paraffin eq to liquid petrolatum eq to mineral oil": {
+      "key": "mineral oil",
+      "evidence": {
+        "type": "tfda-explicit-equivalence",
+        "url": "https://data.gov.tw/dataset/9121",
+        "catalogSha256": "f7a04977d6007534ac8f1b4da4db48adea34c1b7c625d9acccd6cfc65a904644"
+      }
+    },
+    "lysine l- hcl eq to l-lysine hcl": {
+      "key": "lysine",
+      "evidence": {
+        "type": "tfda-explicit-equivalence",
+        "url": "https://data.gov.tw/dataset/9121",
+        "catalogSha256": "f7a04977d6007534ac8f1b4da4db48adea34c1b7c625d9acccd6cfc65a904644"
+      }
+    },
+    "lysine l- hcl h2o": {
+      "key": "lysine",
+      "evidence": {
+        "type": "tfda-spelling",
+        "url": "https://data.gov.tw/dataset/9121",
+        "catalogSha256": "f7a04977d6007534ac8f1b4da4db48adea34c1b7c625d9acccd6cfc65a904644"
+      }
+    },
+    "magnesium carbonate hexahydrate": {
+      "key": "magnesium carbonate",
+      "evidence": {
+        "type": "tfda-spelling",
+        "url": "https://data.gov.tw/dataset/9121",
+        "catalogSha256": "f7a04977d6007534ac8f1b4da4db48adea34c1b7c625d9acccd6cfc65a904644"
+      }
+    },
+    "magnesium chloride heptahydrate": {
+      "key": "magnesium chloride",
+      "evidence": {
+        "type": "tfda-spelling",
+        "url": "https://data.gov.tw/dataset/9121",
+        "catalogSha256": "f7a04977d6007534ac8f1b4da4db48adea34c1b7c625d9acccd6cfc65a904644"
+      }
+    },
+    "magnesium chloride hexahydrate": {
+      "key": "magnesium chloride",
+      "evidence": {
+        "type": "tfda-spelling",
+        "url": "https://data.gov.tw/dataset/9121",
+        "catalogSha256": "f7a04977d6007534ac8f1b4da4db48adea34c1b7c625d9acccd6cfc65a904644"
+      }
+    },
+    "magnesium chloride hexahydrate eq to magnesium chloride 6h2o": {
+      "key": "magnesium chloride",
+      "evidence": {
+        "type": "tfda-explicit-equivalence",
+        "url": "https://data.gov.tw/dataset/9121",
+        "catalogSha256": "f7a04977d6007534ac8f1b4da4db48adea34c1b7c625d9acccd6cfc65a904644"
+      }
+    },
+    "magnesium sulfate 7h2o": {
+      "key": "magnesium",
+      "evidence": {
+        "type": "tfda-spelling",
+        "url": "https://data.gov.tw/dataset/9121",
+        "catalogSha256": "f7a04977d6007534ac8f1b4da4db48adea34c1b7c625d9acccd6cfc65a904644"
+      }
+    },
+    "magnesium sulfate heptahydrate": {
+      "key": "magnesium",
+      "evidence": {
+        "type": "tfda-spelling",
+        "url": "https://data.gov.tw/dataset/9121",
+        "catalogSha256": "f7a04977d6007534ac8f1b4da4db48adea34c1b7c625d9acccd6cfc65a904644"
+      }
+    },
+    "magnesium sulphate heptahydrate": {
+      "key": "magnesium",
+      "evidence": {
+        "type": "tfda-spelling",
+        "url": "https://data.gov.tw/dataset/9121",
+        "catalogSha256": "f7a04977d6007534ac8f1b4da4db48adea34c1b7c625d9acccd6cfc65a904644"
+      }
+    },
+    "maltose h2o": {
+      "key": "maltose",
+      "evidence": {
+        "type": "tfda-spelling",
+        "url": "https://data.gov.tw/dataset/9121",
+        "catalogSha256": "f7a04977d6007534ac8f1b4da4db48adea34c1b7c625d9acccd6cfc65a904644"
+      }
+    },
+    "mebhydrolin": {
+      "key": "mebhydroline",
+      "evidence": {
+        "type": "rxnorm-equivalent-name",
+        "rxcui": "29411",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=R&relaSource=ATC&trans=0&ttys=IN+PIN",
+        "sourceSha256": "4cf5d93ca7c83aca2894ab1a03c83abb330dbeee5de227479c8783db35c1bef2"
+      }
+    },
+    "mebhydrolin napadisylate": {
+      "key": "mebhydroline",
+      "evidence": {
+        "type": "rxnorm-precise-ingredient",
+        "rxcui": "22822",
+        "parentRxcui": "29411",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxcui/22822/related.json?tty=IN",
+        "sourceSha256": "1b555ee8a404e1d49a260dc57b84a496d462b52aa10a561227e0bf4139a4b2a6",
+        "checkedAt": "2026-10-22T19:59:46.389534+00:00"
+      }
+    },
+    "mechlorethamine": {
+      "key": "chlormethine",
+      "evidence": {
+        "type": "rxnorm-equivalent-name",
+        "rxcui": "6674",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=L&relaSource=ATC&trans=0&ttys=IN+PIN",
+        "sourceSha256": "231314567d2de58f8a747a11644bfe53e5e32bb2d40535e7c5e03ddcae7d6f0c"
+      }
+    },
+    "meclizine 2hcl eq to meclizine dihydrochloride": {
+      "key": "meclizine",
+      "evidence": {
+        "type": "tfda-explicit-equivalence",
+        "url": "https://data.gov.tw/dataset/9121",
+        "catalogSha256": "f7a04977d6007534ac8f1b4da4db48adea34c1b7c625d9acccd6cfc65a904644"
+      }
+    },
+    "meclizine hcl eq to meclizine hydrochloride": {
+      "key": "meclizine",
+      "evidence": {
+        "type": "tfda-explicit-equivalence",
+        "url": "https://data.gov.tw/dataset/9121",
+        "catalogSha256": "f7a04977d6007534ac8f1b4da4db48adea34c1b7c625d9acccd6cfc65a904644"
+      }
+    },
+    "meclozine": {
+      "key": "meclizine",
+      "evidence": {
+        "type": "rxnorm-equivalent-name",
+        "rxcui": "6676",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=R&relaSource=ATC&trans=0&ttys=IN+PIN",
+        "sourceSha256": "4cf5d93ca7c83aca2894ab1a03c83abb330dbeee5de227479c8783db35c1bef2"
+      }
+    },
+    "medicinal charcoal": {
+      "key": "activated charcoal",
+      "evidence": {
+        "type": "rxnorm-equivalent-name",
+        "rxcui": "272",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=A&relaSource=ATC&trans=0&ttys=IN+PIN",
+        "sourceSha256": "a5660cb96d6b076689c16eb028e4c0d6117e9f12ef115e6fce82d6e5b6c32927"
+      }
+    },
+    "meperidine hcl eq to pethidine hydrochloride": {
+      "key": "pethidine",
+      "evidence": {
+        "type": "tfda-explicit-equivalence",
+        "url": "https://data.gov.tw/dataset/9121",
+        "catalogSha256": "f7a04977d6007534ac8f1b4da4db48adea34c1b7c625d9acccd6cfc65a904644"
+      }
+    },
+    "mepirodipine": {
+      "key": "barnidipine",
+      "evidence": {
+        "type": "rxnorm-equivalent-name",
+        "rxcui": "39879",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=C&relaSource=ATC&trans=0&ttys=IN+PIN",
+        "sourceSha256": "e8748035dd34e6cd0c2f2aaea38f0f3c251aa4f1d2560fa82e3280b2f75992c5"
+      }
+    },
+    "mepyramine": {
+      "key": "pyrilamine",
+      "evidence": {
+        "type": "rxnorm-equivalent-name",
+        "rxcui": "9009",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=D&relaSource=ATC&trans=0&ttys=IN+PIN",
+        "sourceSha256": "d8fda825cb4826e12e44bcffa2f53306c108145423abcc9d549a23d63635c60b"
+      }
+    },
+    "mesalamine": {
+      "key": "mesalazine",
+      "evidence": {
+        "type": "rxnorm-equivalent-name",
+        "rxcui": "52582",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=A&relaSource=ATC&trans=0&ttys=IN+PIN",
+        "sourceSha256": "a5660cb96d6b076689c16eb028e4c0d6117e9f12ef115e6fce82d6e5b6c32927"
+      }
+    },
+    "metformin hcl eq to metformin hydrochloride": {
+      "key": "metformin",
+      "evidence": {
+        "type": "tfda-explicit-equivalence",
+        "url": "https://data.gov.tw/dataset/9121",
+        "catalogSha256": "f7a04977d6007534ac8f1b4da4db48adea34c1b7c625d9acccd6cfc65a904644"
+      }
+    },
+    "methaminodiazepoxide eq to chlordiazepoxide": {
+      "key": "chlordiazepoxide",
+      "evidence": {
+        "type": "tfda-explicit-equivalence",
+        "url": "https://data.gov.tw/dataset/9121",
+        "catalogSha256": "f7a04977d6007534ac8f1b4da4db48adea34c1b7c625d9acccd6cfc65a904644"
+      }
+    },
+    "methotrimeprazine": {
+      "key": "levomepromazine",
+      "evidence": {
+        "type": "rxnorm-equivalent-name",
+        "rxcui": "6852",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=N&relaSource=ATC&trans=0&ttys=IN+PIN",
+        "sourceSha256": "4fb4c532c2e7344b5ab3540fef0e298939e0fdb792f7d5e07612495d4466c8d4"
+      }
+    },
+    "methyldopa levorotatory": {
+      "key": "methyldopa",
+      "evidence": {
+        "type": "rxnorm-equivalent-name",
+        "rxcui": "6876",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=C&relaSource=ATC&trans=0&ttys=IN+PIN",
+        "sourceSha256": "e8748035dd34e6cd0c2f2aaea38f0f3c251aa4f1d2560fa82e3280b2f75992c5"
+      }
+    },
+    "methylergonovine": {
+      "key": "methylergometrine",
+      "evidence": {
+        "type": "rxnorm-equivalent-name",
+        "rxcui": "6883",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=G&relaSource=ATC&trans=0&ttys=IN+PIN",
+        "sourceSha256": "253e803f596fd4efd73e772b634aa9e2c9928a4776665e5754e3f5ad5815992f"
+      }
+    },
+    "methylhydroxypropylcellulose eq to hydroxypropylmethylcellulose eq to hypromellose": {
+      "key": "hypromellose",
+      "evidence": {
+        "type": "tfda-explicit-equivalence",
+        "url": "https://data.gov.tw/dataset/9121",
+        "catalogSha256": "f7a04977d6007534ac8f1b4da4db48adea34c1b7c625d9acccd6cfc65a904644"
+      }
+    },
+    "methylscopolamine": {
+      "key": "methscopolamine",
+      "evidence": {
+        "type": "rxnorm-equivalent-name",
+        "rxcui": "89785",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=A&relaSource=ATC&trans=0&ttys=IN+PIN",
+        "sourceSha256": "a5660cb96d6b076689c16eb028e4c0d6117e9f12ef115e6fce82d6e5b6c32927"
+      }
+    },
+    "methylthioninium chloride": {
+      "key": "methylene blue",
+      "evidence": {
+        "type": "rxnorm-equivalent-name",
+        "rxcui": "6878",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=V&relaSource=ATC&trans=0&ttys=IN+PIN",
+        "sourceSha256": "6f9692db6cd3fb5b9f127afae3aaf4c47e5fca3736cf992acea3541c8c459659"
+      }
+    },
+    "methylthioninium chloride eq to methylene blue": {
+      "key": "methylene blue",
+      "evidence": {
+        "type": "tfda-explicit-equivalence",
+        "url": "https://data.gov.tw/dataset/9121",
+        "catalogSha256": "f7a04977d6007534ac8f1b4da4db48adea34c1b7c625d9acccd6cfc65a904644"
+      }
+    },
+    "metoclopramide hcl h2o": {
+      "key": "metoclopramide",
+      "evidence": {
+        "type": "tfda-spelling",
+        "url": "https://data.gov.tw/dataset/9121",
+        "catalogSha256": "f7a04977d6007534ac8f1b4da4db48adea34c1b7c625d9acccd6cfc65a904644"
+      }
+    },
+    "metronidazole as benzoate": {
+      "key": "metronidazole",
+      "evidence": {
+        "type": "tfda-spelling",
+        "url": "https://data.gov.tw/dataset/9121",
+        "catalogSha256": "f7a04977d6007534ac8f1b4da4db48adea34c1b7c625d9acccd6cfc65a904644"
+      }
+    },
+    "midazolam as maleate": {
+      "key": "midazolam",
+      "evidence": {
+        "type": "tfda-spelling",
+        "url": "https://data.gov.tw/dataset/9121",
+        "catalogSha256": "f7a04977d6007534ac8f1b4da4db48adea34c1b7c625d9acccd6cfc65a904644"
+      }
+    },
+    "mifepristone micronized": {
+      "key": "mifepristone",
+      "evidence": {
+        "type": "tfda-spelling",
+        "url": "https://data.gov.tw/dataset/9121",
+        "catalogSha256": "f7a04977d6007534ac8f1b4da4db48adea34c1b7c625d9acccd6cfc65a904644"
+      }
+    },
+    "mitoxantrone as hydrochloride": {
+      "key": "mitoxantrone",
+      "evidence": {
+        "type": "tfda-spelling",
+        "url": "https://data.gov.tw/dataset/9121",
+        "catalogSha256": "f7a04977d6007534ac8f1b4da4db48adea34c1b7c625d9acccd6cfc65a904644"
+      }
+    },
+    "nicotine polacrilex": {
+      "key": "nicotine",
+      "evidence": {
+        "type": "rxnorm-precise-ingredient",
+        "rxcui": "31765",
+        "parentRxcui": "7407",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxcui/31765/related.json?tty=IN",
+        "sourceSha256": "e5b61f61fff07e75b842b3a0ee95fe9d6fa9c1f6e5607ebbfac76ad1f43b56c1",
+        "checkedAt": "2026-10-22T20:00:33.287052+00:00"
+      }
+    },
+    "nintedanib esylate": {
+      "key": "nintedanib",
+      "evidence": {
+        "type": "rxnorm-precise-ingredient",
+        "rxcui": "1592736",
+        "parentRxcui": "1592737",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxcui/1592736/related.json?tty=IN",
+        "sourceSha256": "0706acc495bc652161588f236a16216dd61a63441252ee1a5ae1d40e707689a1",
+        "checkedAt": "2026-10-22T20:00:36.881279+00:00"
+      }
+    },
+    "nitrofural": {
+      "key": "nitrofurazone",
+      "evidence": {
+        "type": "rxnorm-equivalent-name",
+        "rxcui": "7455",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=B&relaSource=ATC&trans=0&ttys=IN+PIN",
+        "sourceSha256": "c148b0810667f0c694c0f6dbabc22a993a493a8075257a05f57ea64513b38af9"
+      }
+    },
+    "norepinephrine as bitartrate": {
+      "key": "noradrenaline",
+      "evidence": {
+        "type": "tfda-spelling",
+        "url": "https://data.gov.tw/dataset/9121",
+        "catalogSha256": "f7a04977d6007534ac8f1b4da4db48adea34c1b7c625d9acccd6cfc65a904644"
+      }
+    },
+    "olanzapine micronized": {
+      "key": "olanzapine",
+      "evidence": {
+        "type": "tfda-spelling",
+        "url": "https://data.gov.tw/dataset/9121",
+        "catalogSha256": "f7a04977d6007534ac8f1b4da4db48adea34c1b7c625d9acccd6cfc65a904644"
+      }
+    },
+    "orphenadrine chloride": {
+      "key": "orphenadrine",
+      "evidence": {
+        "type": "rxnorm-equivalent-name",
+        "rxcui": "202723",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=N&relaSource=ATC&trans=0&ttys=IN+PIN",
+        "sourceSha256": "4fb4c532c2e7344b5ab3540fef0e298939e0fdb792f7d5e07612495d4466c8d4"
+      }
+    },
+    "oxedrine": {
+      "key": "synephrine",
+      "evidence": {
+        "type": "rxnorm-equivalent-name",
+        "rxcui": "10288",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=C&relaSource=ATC&trans=0&ttys=IN+PIN",
+        "sourceSha256": "e8748035dd34e6cd0c2f2aaea38f0f3c251aa4f1d2560fa82e3280b2f75992c5"
+      }
+    },
+    "oxiconazole as nitrate": {
+      "key": "oxiconazole",
+      "evidence": {
+        "type": "tfda-spelling",
+        "url": "https://data.gov.tw/dataset/9121",
+        "catalogSha256": "f7a04977d6007534ac8f1b4da4db48adea34c1b7c625d9acccd6cfc65a904644"
+      }
+    },
+    "oxtriphylline": {
+      "key": "choline theophyllinate",
+      "evidence": {
+        "type": "rxnorm-equivalent-name",
+        "rxcui": "20976",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=R&relaSource=ATC&trans=0&ttys=IN+PIN",
+        "sourceSha256": "4cf5d93ca7c83aca2894ab1a03c83abb330dbeee5de227479c8783db35c1bef2"
+      }
+    },
+    "paliperidone palmitate": {
+      "key": "paliperidone",
+      "evidence": {
+        "type": "rxnorm-precise-ingredient",
+        "rxcui": "858045",
+        "parentRxcui": "679314",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxcui/858045/related.json?tty=IN",
+        "sourceSha256": "11cb0e3ff3b5457b84f307d4bb574b4bfba6dea47ebbd5f642ea61d95bcc133e",
+        "checkedAt": "2026-10-22T20:01:02.366712+00:00"
+      }
+    },
+    "paliperidone palmitate sterile": {
+      "key": "paliperidone",
+      "evidence": {
+        "type": "tfda-spelling",
+        "url": "https://data.gov.tw/dataset/9121",
+        "catalogSha256": "f7a04977d6007534ac8f1b4da4db48adea34c1b7c625d9acccd6cfc65a904644"
+      }
+    },
+    "pasireotide diaspartate": {
+      "key": "pasireotide",
+      "evidence": {
+        "type": "rxnorm-precise-ingredient",
+        "rxcui": "1364104",
+        "parentRxcui": "1364105",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxcui/1364104/related.json?tty=IN",
+        "sourceSha256": "df0c41d84da9123d3db759a56621f6811d83cb5f3151f3296d44054dca46cc94",
+        "checkedAt": "2026-10-22T20:01:05.952780+00:00"
+      }
+    },
+    "pemetrexed disodium": {
+      "key": "pemetrexed",
+      "evidence": {
+        "type": "rxnorm-precise-ingredient",
+        "rxcui": "282443",
+        "parentRxcui": "68446",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxcui/282443/related.json?tty=IN",
+        "sourceSha256": "c93ccdcc266dd8a51bc1392fc50f0bd0e6dedfcaffc0d1038c58066d88c8f9a5",
+        "checkedAt": "2026-10-22T20:01:13.126533+00:00"
+      }
+    },
+    "pemetrexed disodium hemipentahydrate": {
+      "key": "pemetrexed",
+      "evidence": {
+        "type": "rxnorm-precise-ingredient",
+        "rxcui": "2056898",
+        "parentRxcui": "68446",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxcui/2056898/related.json?tty=IN",
+        "sourceSha256": "c93ccdcc266dd8a51bc1392fc50f0bd0e6dedfcaffc0d1038c58066d88c8f9a5",
+        "checkedAt": "2026-10-22T20:01:14.919235+00:00"
+      }
+    },
+    "penicillin g": {
+      "key": "benzylpenicillin",
+      "evidence": {
+        "type": "rxnorm-equivalent-name",
+        "rxcui": "7980",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=J&relaSource=ATC&trans=0&ttys=IN+PIN",
+        "sourceSha256": "5486bf39a2b430afdb0cce0c93e1e609772750b3c34a8fefa20c112ff9d20325"
+      }
+    },
+    "penicillin g sodium eq to benzylpenicillin sodium": {
+      "key": "benzylpenicillin",
+      "evidence": {
+        "type": "tfda-explicit-equivalence",
+        "url": "https://data.gov.tw/dataset/9121",
+        "catalogSha256": "f7a04977d6007534ac8f1b4da4db48adea34c1b7c625d9acccd6cfc65a904644"
+      }
+    },
+    "penicillin v": {
+      "key": "phenoxymethylpenicillin",
+      "evidence": {
+        "type": "rxnorm-equivalent-name",
+        "rxcui": "7984",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=J&relaSource=ATC&trans=0&ttys=IN+PIN",
+        "sourceSha256": "5486bf39a2b430afdb0cce0c93e1e609772750b3c34a8fefa20c112ff9d20325"
+      }
+    },
+    "pentosan polysulphate sodium": {
+      "key": "pentosan polysulfate sodium",
+      "evidence": {
+        "type": "rxnorm-equivalent-name",
+        "rxcui": "134413",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=C&relaSource=ATC&trans=0&ttys=IN+PIN",
+        "sourceSha256": "e8748035dd34e6cd0c2f2aaea38f0f3c251aa4f1d2560fa82e3280b2f75992c5"
+      }
+    },
+    "pentylenetetrazole": {
+      "key": "pentetrazol",
+      "evidence": {
+        "type": "rxnorm-equivalent-name",
+        "rxcui": "8015",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=R&relaSource=ATC&trans=0&ttys=IN+PIN",
+        "sourceSha256": "4cf5d93ca7c83aca2894ab1a03c83abb330dbeee5de227479c8783db35c1bef2"
+      }
+    },
+    "perindopril arginine": {
+      "key": "perindopril",
+      "evidence": {
+        "type": "rxnorm-precise-ingredient",
+        "rxcui": "1600711",
+        "parentRxcui": "54552",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxcui/1600711/related.json?tty=IN",
+        "sourceSha256": "06e2beab89bfda0f3419310dfe171bbdc077aa1effad2b7e76b92e4c2d8b1029",
+        "checkedAt": "2026-10-22T20:01:20.724107+00:00"
+      }
+    },
+    "perindopril erbumine": {
+      "key": "perindopril",
+      "evidence": {
+        "type": "rxnorm-precise-ingredient",
+        "rxcui": "72260",
+        "parentRxcui": "54552",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxcui/72260/related.json?tty=IN",
+        "sourceSha256": "06e2beab89bfda0f3419310dfe171bbdc077aa1effad2b7e76b92e4c2d8b1029",
+        "checkedAt": "2026-10-22T20:01:22.521577+00:00"
+      }
+    },
+    "phenytoin eq to diphenylhydantoin": {
+      "key": "phenytoin",
+      "evidence": {
+        "type": "tfda-explicit-equivalence",
+        "url": "https://data.gov.tw/dataset/9121",
+        "catalogSha256": "f7a04977d6007534ac8f1b4da4db48adea34c1b7c625d9acccd6cfc65a904644"
+      }
+    },
+    "picosulfate sodium": {
+      "key": "sodium picosulfate",
+      "evidence": {
+        "type": "rxnorm-equivalent-name",
+        "rxcui": "33688",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=A&relaSource=ATC&trans=0&ttys=IN+PIN",
+        "sourceSha256": "a5660cb96d6b076689c16eb028e4c0d6117e9f12ef115e6fce82d6e5b6c32927"
+      }
+    },
+    "pizotyline": {
+      "key": "pizotifen",
+      "evidence": {
+        "type": "rxnorm-equivalent-name",
+        "rxcui": "8373",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=N&relaSource=ATC&trans=0&ttys=IN+PIN",
+        "sourceSha256": "4fb4c532c2e7344b5ab3540fef0e298939e0fdb792f7d5e07612495d4466c8d4"
+      }
+    },
+    "podofilox": {
+      "key": "podophyllotoxin",
+      "evidence": {
+        "type": "rxnorm-equivalent-name",
+        "rxcui": "8463",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=D&relaSource=ATC&trans=0&ttys=IN+PIN",
+        "sourceSha256": "d8fda825cb4826e12e44bcffa2f53306c108145423abcc9d549a23d63635c60b"
+      }
+    },
+    "polycarbophil calcium": {
+      "key": "calcium polycarbophil",
+      "evidence": {
+        "type": "rxnorm-equivalent-name",
+        "rxcui": "20063",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=A&relaSource=ATC&trans=0&ttys=IN+PIN",
+        "sourceSha256": "a5660cb96d6b076689c16eb028e4c0d6117e9f12ef115e6fce82d6e5b6c32927"
+      }
+    },
+    "potassium hydrogencarbonate": {
+      "key": "potassium bicarbonate",
+      "evidence": {
+        "type": "rxnorm-equivalent-name",
+        "rxcui": "34296",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=A&relaSource=ATC&trans=0&ttys=IN+PIN",
+        "sourceSha256": "a5660cb96d6b076689c16eb028e4c0d6117e9f12ef115e6fce82d6e5b6c32927"
+      }
+    },
+    "pramocaine": {
+      "key": "pramoxine",
+      "evidence": {
+        "type": "rxnorm-equivalent-name",
+        "rxcui": "34347",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=C&relaSource=ATC&trans=0&ttys=IN+PIN",
+        "sourceSha256": "e8748035dd34e6cd0c2f2aaea38f0f3c251aa4f1d2560fa82e3280b2f75992c5"
+      }
+    },
+    "procaine benzylpenicillin": {
+      "key": "penicillin g procaine",
+      "evidence": {
+        "type": "rxnorm-equivalent-name",
+        "rxcui": "7983",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=J&relaSource=ATC&trans=0&ttys=IN+PIN",
+        "sourceSha256": "5486bf39a2b430afdb0cce0c93e1e609772750b3c34a8fefa20c112ff9d20325"
+      }
+    },
+    "progesterone micronized": {
+      "key": "progesterone",
+      "evidence": {
+        "type": "tfda-spelling",
+        "url": "https://data.gov.tw/dataset/9121",
+        "catalogSha256": "f7a04977d6007534ac8f1b4da4db48adea34c1b7c625d9acccd6cfc65a904644"
+      }
+    },
+    "propanol": {
+      "key": "1-propanol",
+      "evidence": {
+        "type": "rxnorm-equivalent-name",
+        "rxcui": "1362872",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=D&relaSource=ATC&trans=0&ttys=IN+PIN",
+        "sourceSha256": "d8fda825cb4826e12e44bcffa2f53306c108145423abcc9d549a23d63635c60b"
+      }
+    },
+    "protamines": {
+      "key": "protamine",
+      "evidence": {
+        "type": "rxnorm-equivalent-name",
+        "rxcui": "8826",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=V&relaSource=ATC&trans=0&ttys=IN+PIN",
+        "sourceSha256": "6f9692db6cd3fb5b9f127afae3aaf4c47e5fca3736cf992acea3541c8c459659"
+      }
+    },
+    "protionamide": {
+      "key": "prothionamide",
+      "evidence": {
+        "type": "rxnorm-equivalent-name",
+        "rxcui": "8871",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=J&relaSource=ATC&trans=0&ttys=IN+PIN",
+        "sourceSha256": "5486bf39a2b430afdb0cce0c93e1e609772750b3c34a8fefa20c112ff9d20325"
+      }
+    },
+    "proxymetacaine": {
+      "key": "proparacaine",
+      "evidence": {
+        "type": "rxnorm-equivalent-name",
+        "rxcui": "34905",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=S&relaSource=ATC&trans=0&ttys=IN+PIN",
+        "sourceSha256": "b7867bc4fedab3a73b188c4f7f1cc2ac19f86ed27732ec85ff476db7dceb8102"
+      }
+    },
+    "pyridoxine vit b6": {
+      "key": "pyridoxine",
+      "evidence": {
+        "type": "rxnorm-equivalent-name",
+        "rxcui": "684879",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=A&relaSource=ATC&trans=0&ttys=IN+PIN",
+        "sourceSha256": "a5660cb96d6b076689c16eb028e4c0d6117e9f12ef115e6fce82d6e5b6c32927"
+      }
+    },
+    "pyrithione zinc": {
+      "key": "zinc pyrithione",
+      "evidence": {
+        "type": "rxnorm-equivalent-name",
+        "rxcui": "39952",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=D&relaSource=ATC&trans=0&ttys=IN+PIN",
+        "sourceSha256": "d8fda825cb4826e12e44bcffa2f53306c108145423abcc9d549a23d63635c60b"
+      }
+    },
+    "quetiapine as fumarate": {
+      "key": "quetiapine",
+      "evidence": {
+        "type": "tfda-spelling",
+        "url": "https://data.gov.tw/dataset/9121",
+        "catalogSha256": "f7a04977d6007534ac8f1b4da4db48adea34c1b7c625d9acccd6cfc65a904644"
+      }
+    },
+    "retinoic acid eq to tretinoin eq to vitamin a acid": {
+      "key": "tretinoin",
+      "evidence": {
+        "type": "tfda-explicit-equivalence",
+        "url": "https://data.gov.tw/dataset/9121",
+        "catalogSha256": "f7a04977d6007534ac8f1b4da4db48adea34c1b7c625d9acccd6cfc65a904644"
+      }
+    },
+    "retinol vit a": {
+      "key": "vitamin a",
+      "evidence": {
+        "type": "rxnorm-equivalent-name",
+        "rxcui": "11246",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=A&relaSource=ATC&trans=0&ttys=IN+PIN",
+        "sourceSha256": "a5660cb96d6b076689c16eb028e4c0d6117e9f12ef115e6fce82d6e5b6c32927"
+      }
+    },
+    "riboflavin phosphate as sodium": {
+      "key": "riboflavin",
+      "evidence": {
+        "type": "tfda-spelling",
+        "url": "https://data.gov.tw/dataset/9121",
+        "catalogSha256": "f7a04977d6007534ac8f1b4da4db48adea34c1b7c625d9acccd6cfc65a904644"
+      }
+    },
+    "riboflavin tetrabutyrate": {
+      "key": "riboflavin",
+      "evidence": {
+        "type": "rxnorm-precise-ingredient",
+        "rxcui": "2106328",
+        "parentRxcui": "9346",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxcui/2106328/related.json?tty=IN",
+        "sourceSha256": "5736067d2d88dc7c82aca809e9b8deb7903dc40049fa83be69733c6c4ab2f062",
+        "checkedAt": "2026-10-22T20:01:56.577228+00:00"
+      }
+    },
+    "rifampicin": {
+      "key": "rifampin",
+      "evidence": {
+        "type": "rxnorm-equivalent-name",
+        "rxcui": "9384",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=J&relaSource=ATC&trans=0&ttys=IN+PIN",
+        "sourceSha256": "5486bf39a2b430afdb0cce0c93e1e609772750b3c34a8fefa20c112ff9d20325"
+      }
+    },
+    "rutoside": {
+      "key": "rutin",
+      "evidence": {
+        "type": "rxnorm-equivalent-name",
+        "rxcui": "9500",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=C&relaSource=ATC&trans=0&ttys=IN+PIN",
+        "sourceSha256": "e8748035dd34e6cd0c2f2aaea38f0f3c251aa4f1d2560fa82e3280b2f75992c5"
+      }
+    },
+    "saccharated iron oxide": {
+      "key": "iron sucrose",
+      "evidence": {
+        "type": "rxnorm-equivalent-name",
+        "rxcui": "24909",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=B&relaSource=ATC&trans=0&ttys=IN+PIN",
+        "sourceSha256": "c148b0810667f0c694c0f6dbabc22a993a493a8075257a05f57ea64513b38af9"
+      }
+    },
+    "salmon calcitonin": {
+      "key": "calcitonin salmon",
+      "evidence": {
+        "type": "rxnorm-equivalent-name",
+        "rxcui": "36118",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=H&relaSource=ATC&trans=0&ttys=IN+PIN",
+        "sourceSha256": "35c82d38456d294e8e4c477bddd804ff01fe7c26790ef03e13496b3a9a31c9cd"
+      }
+    },
+    "sertraline as hydrochloride": {
+      "key": "sertraline",
+      "evidence": {
+        "type": "tfda-spelling",
+        "url": "https://data.gov.tw/dataset/9121",
+        "catalogSha256": "f7a04977d6007534ac8f1b4da4db48adea34c1b7c625d9acccd6cfc65a904644"
+      }
+    },
+    "simoctocog alfa": {
+      "key": "factor viii",
+      "evidence": {
+        "type": "rxnorm-precise-ingredient",
+        "rxcui": "1729084",
+        "parentRxcui": "4257",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxcui/1729084/related.json?tty=IN",
+        "sourceSha256": "b9f8c0cbc0b13679b5eacc0e55459bc71a4e8e24770168cbabf05333a463c25c",
+        "checkedAt": "2026-10-22T20:02:23.709504+00:00"
+      }
+    },
+    "sodium ascorbate crystalline": {
+      "key": "ascorbic acid",
+      "evidence": {
+        "type": "tfda-spelling",
+        "url": "https://data.gov.tw/dataset/9121",
+        "catalogSha256": "f7a04977d6007534ac8f1b4da4db48adea34c1b7c625d9acccd6cfc65a904644"
+      }
+    },
+    "sodium bicarbonate eq to sodium hydrogen carbonate": {
+      "key": "sodium bicarbonate",
+      "evidence": {
+        "type": "tfda-explicit-equivalence",
+        "url": "https://data.gov.tw/dataset/9121",
+        "catalogSha256": "f7a04977d6007534ac8f1b4da4db48adea34c1b7c625d9acccd6cfc65a904644"
+      }
+    },
+    "sodium cellulose phosphate": {
+      "key": "cellulose",
+      "evidence": {
+        "type": "rxnorm-equivalent-name",
+        "rxcui": "342965",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=V&relaSource=ATC&trans=0&ttys=IN+PIN",
+        "sourceSha256": "6f9692db6cd3fb5b9f127afae3aaf4c47e5fca3736cf992acea3541c8c459659"
+      }
+    },
+    "sodium fluoride f-18": {
+      "key": "sodium fluoride",
+      "evidence": {
+        "type": "rxnorm-precise-ingredient",
+        "rxcui": "1311495",
+        "parentRxcui": "9873",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxcui/1311495/related.json?tty=IN",
+        "sourceSha256": "6fab9624a64f3c50dde54822c0bebbb25c905e63976e3c9dbea5790d2a5c14e2",
+        "checkedAt": "2026-10-22T20:02:30.901623+00:00"
+      }
+    },
+    "sodium phosphate dibasic dihydrate eq to disodium phosphate dihydrate": {
+      "key": "disodium phosphate",
+      "evidence": {
+        "type": "tfda-explicit-equivalence",
+        "url": "https://data.gov.tw/dataset/9121",
+        "catalogSha256": "f7a04977d6007534ac8f1b4da4db48adea34c1b7c625d9acccd6cfc65a904644"
+      }
+    },
+    "sodium phosphate dibasic dodecahydrate eq to disodium phosphate dodecahydrate": {
+      "key": "disodium phosphate",
+      "evidence": {
+        "type": "tfda-explicit-equivalence",
+        "url": "https://data.gov.tw/dataset/9121",
+        "catalogSha256": "f7a04977d6007534ac8f1b4da4db48adea34c1b7c625d9acccd6cfc65a904644"
+      }
+    },
+    "sodium phosphate monobasic eq to monosodium phosphate eq to sodium dihydrogen phosphate": {
+      "key": "sodium dihydrogen phosphate",
+      "evidence": {
+        "type": "tfda-explicit-equivalence",
+        "url": "https://data.gov.tw/dataset/9121",
+        "catalogSha256": "f7a04977d6007534ac8f1b4da4db48adea34c1b7c625d9acccd6cfc65a904644"
+      }
+    },
+    "sodium salicylate": {
+      "key": "salicylic acid",
+      "evidence": {
+        "type": "rxnorm-precise-ingredient",
+        "rxcui": "9907",
+        "parentRxcui": "9525",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxcui/9907/related.json?tty=IN",
+        "sourceSha256": "ae0fdc9541b0d47dd68cc2cc8043b25074395b6c9c39b3735742d75585b0c144",
+        "checkedAt": "2026-10-22T20:02:40.264947+00:00"
+      }
+    },
+    "sodium sulfate anhydrous eq to sodium sulphate anhydrous": {
+      "key": "sodium",
+      "evidence": {
+        "type": "tfda-spelling",
+        "url": "https://data.gov.tw/dataset/9121",
+        "catalogSha256": "f7a04977d6007534ac8f1b4da4db48adea34c1b7c625d9acccd6cfc65a904644"
+      }
+    },
+    "sodium sulfate eq to sodium sulphate": {
+      "key": "sodium",
+      "evidence": {
+        "type": "tfda-explicit-equivalence",
+        "url": "https://data.gov.tw/dataset/9121",
+        "catalogSha256": "f7a04977d6007534ac8f1b4da4db48adea34c1b7c625d9acccd6cfc65a904644"
+      }
+    },
+    "spectinomycin 2hcl 5h2o": {
+      "key": "spectinomycin",
+      "evidence": {
+        "type": "tfda-spelling",
+        "url": "https://data.gov.tw/dataset/9121",
+        "catalogSha256": "f7a04977d6007534ac8f1b4da4db48adea34c1b7c625d9acccd6cfc65a904644"
+      }
+    },
+    "sterile cefuroxime sodium": {
+      "key": "cefuroxime",
+      "evidence": {
+        "type": "tfda-spelling",
+        "url": "https://data.gov.tw/dataset/9121",
+        "catalogSha256": "f7a04977d6007534ac8f1b4da4db48adea34c1b7c625d9acccd6cfc65a904644"
+      }
+    },
+    "sterile cephaloridine": {
+      "key": "cephaloridine",
+      "evidence": {
+        "type": "tfda-spelling",
+        "url": "https://data.gov.tw/dataset/9121",
+        "catalogSha256": "f7a04977d6007534ac8f1b4da4db48adea34c1b7c625d9acccd6cfc65a904644"
+      }
+    },
+    "sterile cephradine": {
+      "key": "cephradine",
+      "evidence": {
+        "type": "tfda-spelling",
+        "url": "https://data.gov.tw/dataset/9121",
+        "catalogSha256": "f7a04977d6007534ac8f1b4da4db48adea34c1b7c625d9acccd6cfc65a904644"
+      }
+    },
+    "sterile water for injection": {
+      "key": "water",
+      "evidence": {
+        "type": "tfda-spelling",
+        "url": "https://data.gov.tw/dataset/9121",
+        "catalogSha256": "f7a04977d6007534ac8f1b4da4db48adea34c1b7c625d9acccd6cfc65a904644"
+      }
+    },
+    "sulbactam as sodium": {
+      "key": "sulbactam",
+      "evidence": {
+        "type": "tfda-spelling",
+        "url": "https://data.gov.tw/dataset/9121",
+        "catalogSha256": "f7a04977d6007534ac8f1b4da4db48adea34c1b7c625d9acccd6cfc65a904644"
+      }
+    },
+    "sulbactam as sodium sterile": {
+      "key": "sulbactam",
+      "evidence": {
+        "type": "tfda-spelling",
+        "url": "https://data.gov.tw/dataset/9121",
+        "catalogSha256": "f7a04977d6007534ac8f1b4da4db48adea34c1b7c625d9acccd6cfc65a904644"
+      }
+    },
+    "sulfadiazine silver h2o": {
+      "key": "silver sulfadiazine",
+      "evidence": {
+        "type": "tfda-spelling",
+        "url": "https://data.gov.tw/dataset/9121",
+        "catalogSha256": "f7a04977d6007534ac8f1b4da4db48adea34c1b7c625d9acccd6cfc65a904644"
+      }
+    },
+    "sulfafurazole": {
+      "key": "sulfisoxazole",
+      "evidence": {
+        "type": "rxnorm-equivalent-name",
+        "rxcui": "10207",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=J&relaSource=ATC&trans=0&ttys=IN+PIN",
+        "sourceSha256": "5486bf39a2b430afdb0cce0c93e1e609772750b3c34a8fefa20c112ff9d20325"
+      }
+    },
+    "sulfaisodimidine": {
+      "key": "sulfisomidine",
+      "evidence": {
+        "type": "rxnorm-equivalent-name",
+        "rxcui": "10206",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=J&relaSource=ATC&trans=0&ttys=IN+PIN",
+        "sourceSha256": "5486bf39a2b430afdb0cce0c93e1e609772750b3c34a8fefa20c112ff9d20325"
+      }
+    },
+    "sulthiame": {
+      "key": "sultiame",
+      "evidence": {
+        "type": "rxnorm-equivalent-name",
+        "rxcui": "10240",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=N&relaSource=ATC&trans=0&ttys=IN+PIN",
+        "sourceSha256": "4fb4c532c2e7344b5ab3540fef0e298939e0fdb792f7d5e07612495d4466c8d4"
+      }
+    },
+    "suxamethonium": {
+      "key": "succinylcholine",
+      "evidence": {
+        "type": "rxnorm-equivalent-name",
+        "rxcui": "10154",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=M&relaSource=ATC&trans=0&ttys=IN+PIN",
+        "sourceSha256": "caa328f52355dd99cf967bcbefb824d5d73f4ce7b42c213ffb0df19bf0957aac"
+      }
+    },
+    "taurine eq to aminoethyl sulfonic acid": {
+      "key": "taurine",
+      "evidence": {
+        "type": "tfda-explicit-equivalence",
+        "url": "https://data.gov.tw/dataset/9121",
+        "catalogSha256": "f7a04977d6007534ac8f1b4da4db48adea34c1b7c625d9acccd6cfc65a904644"
+      }
+    },
+    "tazobactam as sodium": {
+      "key": "tazobactam",
+      "evidence": {
+        "type": "tfda-spelling",
+        "url": "https://data.gov.tw/dataset/9121",
+        "catalogSha256": "f7a04977d6007534ac8f1b4da4db48adea34c1b7c625d9acccd6cfc65a904644"
+      }
+    },
+    "tazobactam eq to tazobactam acid": {
+      "key": "tazobactam",
+      "evidence": {
+        "type": "tfda-explicit-equivalence",
+        "url": "https://data.gov.tw/dataset/9121",
+        "catalogSha256": "f7a04977d6007534ac8f1b4da4db48adea34c1b7c625d9acccd6cfc65a904644"
+      }
+    },
+    "terbinafine as hydrochloride": {
+      "key": "terbinafine",
+      "evidence": {
+        "type": "tfda-spelling",
+        "url": "https://data.gov.tw/dataset/9121",
+        "catalogSha256": "f7a04977d6007534ac8f1b4da4db48adea34c1b7c625d9acccd6cfc65a904644"
+      }
+    },
+    "terlipressin acetate 5h2o": {
+      "key": "terlipressin",
+      "evidence": {
+        "type": "tfda-spelling",
+        "url": "https://data.gov.tw/dataset/9121",
+        "catalogSha256": "f7a04977d6007534ac8f1b4da4db48adea34c1b7c625d9acccd6cfc65a904644"
+      }
+    },
+    "testosterone isocaproate": {
+      "key": "testosterone",
+      "evidence": {
+        "type": "rxnorm-precise-ingredient",
+        "rxcui": "75806",
+        "parentRxcui": "10379",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxcui/75806/related.json?tty=IN",
+        "sourceSha256": "9650aa98b04742826245527910835d9c1e9e7486bfd461fb0deb1703ee18d9f2",
+        "checkedAt": "2026-10-22T20:03:05.488655+00:00"
+      }
+    },
+    "tetanus toxoid vaccine, inactivated": {
+      "key": "tetanus toxoid",
+      "evidence": {
+        "type": "rxnorm-equivalent-name",
+        "rxcui": "798306",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=J&relaSource=ATC&trans=0&ttys=IN+PIN",
+        "sourceSha256": "5486bf39a2b430afdb0cce0c93e1e609772750b3c34a8fefa20c112ff9d20325"
+      }
+    },
+    "tetracycline hcl eq to tetracycline hydrochloride": {
+      "key": "tetracycline",
+      "evidence": {
+        "type": "tfda-explicit-equivalence",
+        "url": "https://data.gov.tw/dataset/9121",
+        "catalogSha256": "f7a04977d6007534ac8f1b4da4db48adea34c1b7c625d9acccd6cfc65a904644"
+      }
+    },
+    "tetryzoline hydrochloride eq to tetrahydrozoline hydrochloride": {
+      "key": "tetryzoline",
+      "evidence": {
+        "type": "tfda-explicit-equivalence",
+        "url": "https://data.gov.tw/dataset/9121",
+        "catalogSha256": "f7a04977d6007534ac8f1b4da4db48adea34c1b7c625d9acccd6cfc65a904644"
+      }
+    },
+    "theophylline sodium glycinate": {
+      "key": "theophylline",
+      "evidence": {
+        "type": "rxnorm-precise-ingredient",
+        "rxcui": "155075",
+        "parentRxcui": "10438",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxcui/155075/related.json?tty=IN",
+        "sourceSha256": "8fa16e8d17433e8a7be8a98143732118e6db5064ae5a6963e1f787bf4ecc3d49",
+        "checkedAt": "2026-10-22T20:03:07.279904+00:00"
+      }
+    },
+    "thiamine vit b1": {
+      "key": "thiamine",
+      "evidence": {
+        "type": "rxnorm-equivalent-name",
+        "rxcui": "10454",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=A&relaSource=ATC&trans=0&ttys=IN+PIN",
+        "sourceSha256": "a5660cb96d6b076689c16eb028e4c0d6117e9f12ef115e6fce82d6e5b6c32927"
+      }
+    },
+    "thimerosal": {
+      "key": "thiomersal",
+      "evidence": {
+        "type": "rxnorm-equivalent-name",
+        "rxcui": "10472",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=D&relaSource=ATC&trans=0&ttys=IN+PIN",
+        "sourceSha256": "d8fda825cb4826e12e44bcffa2f53306c108145423abcc9d549a23d63635c60b"
+      }
+    },
+    "timolol as maleate": {
+      "key": "timolol",
+      "evidence": {
+        "type": "tfda-spelling",
+        "url": "https://data.gov.tw/dataset/9121",
+        "catalogSha256": "f7a04977d6007534ac8f1b4da4db48adea34c1b7c625d9acccd6cfc65a904644"
+      }
+    },
+    "tiotropium bromide monohydrate micronized": {
+      "key": "tiotropium",
+      "evidence": {
+        "type": "tfda-spelling",
+        "url": "https://data.gov.tw/dataset/9121",
+        "catalogSha256": "f7a04977d6007534ac8f1b4da4db48adea34c1b7c625d9acccd6cfc65a904644"
+      }
+    },
+    "tizanidine as hydrochloride": {
+      "key": "tizanidine",
+      "evidence": {
+        "type": "tfda-spelling",
+        "url": "https://data.gov.tw/dataset/9121",
+        "catalogSha256": "f7a04977d6007534ac8f1b4da4db48adea34c1b7c625d9acccd6cfc65a904644"
+      }
+    },
+    "trastuzumab deruxtecan": {
+      "key": "trastuzumab",
+      "evidence": {
+        "type": "rxnorm-precise-ingredient",
+        "rxcui": "2267582",
+        "parentRxcui": "224905",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxcui/2267582/related.json?tty=IN",
+        "sourceSha256": "4261be7a80aceb02eacbe4b1f77728a19d976e3997a3c7e2f37539fb29e4f2ce",
+        "checkedAt": "2026-10-22T20:03:23.878031+00:00"
+      }
+    },
+    "trimeprazine": {
+      "key": "alimemazine",
+      "evidence": {
+        "type": "rxnorm-equivalent-name",
+        "rxcui": "10825",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=R&relaSource=ATC&trans=0&ttys=IN+PIN",
+        "sourceSha256": "4cf5d93ca7c83aca2894ab1a03c83abb330dbeee5de227479c8783db35c1bef2"
+      }
+    },
+    "trimeprazine tartrate eq to alimemazine tartrate": {
+      "key": "alimemazine",
+      "evidence": {
+        "type": "tfda-explicit-equivalence",
+        "url": "https://data.gov.tw/dataset/9121",
+        "catalogSha256": "f7a04977d6007534ac8f1b4da4db48adea34c1b7c625d9acccd6cfc65a904644"
+      }
+    },
+    "triptorelin pamoate": {
+      "key": "triptorelin",
+      "evidence": {
+        "type": "rxnorm-precise-ingredient",
+        "rxcui": "338529",
+        "parentRxcui": "38782",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxcui/338529/related.json?tty=IN",
+        "sourceSha256": "96747a45061fb2e2945d95e5f9cf63a017faf929002285044aba633a85649a69",
+        "checkedAt": "2026-10-22T20:03:32.895417+00:00"
+      }
+    },
+    "trolamine": {
+      "key": "triethanolamine",
+      "evidence": {
+        "type": "rxnorm-equivalent-name",
+        "rxcui": "38623",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=D&relaSource=ATC&trans=0&ttys=IN+PIN",
+        "sourceSha256": "d8fda825cb4826e12e44bcffa2f53306c108145423abcc9d549a23d63635c60b"
+      }
+    },
+    "trometamol": {
+      "key": "tromethamine",
+      "evidence": {
+        "type": "rxnorm-equivalent-name",
+        "rxcui": "10865",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=B&relaSource=ATC&trans=0&ttys=IN+PIN",
+        "sourceSha256": "c148b0810667f0c694c0f6dbabc22a993a493a8075257a05f57ea64513b38af9"
+      }
+    },
+    "turoctocog alfa": {
+      "key": "factor viii",
+      "evidence": {
+        "type": "rxnorm-precise-ingredient",
+        "rxcui": "1737557",
+        "parentRxcui": "4257",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxcui/1737557/related.json?tty=IN",
+        "sourceSha256": "b9f8c0cbc0b13679b5eacc0e55459bc71a4e8e24770168cbabf05333a463c25c",
+        "checkedAt": "2026-10-22T20:03:36.491130+00:00"
+      }
+    },
+    "tween 80 eq to polysorbate 80": {
+      "key": "polysorbate 80",
+      "evidence": {
+        "type": "tfda-explicit-equivalence",
+        "url": "https://data.gov.tw/dataset/9121",
+        "catalogSha256": "f7a04977d6007534ac8f1b4da4db48adea34c1b7c625d9acccd6cfc65a904644"
+      }
+    },
+    "ulobetasol": {
+      "key": "halobetasol",
+      "evidence": {
+        "type": "rxnorm-equivalent-name",
+        "rxcui": "41208",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=D&relaSource=ATC&trans=0&ttys=IN+PIN",
+        "sourceSha256": "d8fda825cb4826e12e44bcffa2f53306c108145423abcc9d549a23d63635c60b"
+      }
+    },
+    "ursodiol": {
+      "key": "ursodeoxycholic acid",
+      "evidence": {
+        "type": "rxnorm-equivalent-name",
+        "rxcui": "11065",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=A&relaSource=ATC&trans=0&ttys=IN+PIN",
+        "sourceSha256": "a5660cb96d6b076689c16eb028e4c0d6117e9f12ef115e6fce82d6e5b6c32927"
+      }
+    },
+    "vasopressin argipressin": {
+      "key": "argipressin",
+      "evidence": {
+        "type": "rxnorm-equivalent-name",
+        "rxcui": "1098",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=H&relaSource=ATC&trans=0&ttys=IN+PIN",
+        "sourceSha256": "35c82d38456d294e8e4c477bddd804ff01fe7c26790ef03e13496b3a9a31c9cd"
+      }
+    },
+    "venlafaxine as hydrochloride": {
+      "key": "venlafaxine",
+      "evidence": {
+        "type": "tfda-spelling",
+        "url": "https://data.gov.tw/dataset/9121",
+        "catalogSha256": "f7a04977d6007534ac8f1b4da4db48adea34c1b7c625d9acccd6cfc65a904644"
+      }
+    },
+    "vitamin b12": {
+      "key": "cyanocobalamin",
+      "evidence": {
+        "type": "rxnorm-equivalent-name",
+        "rxcui": "11248",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=B&relaSource=ATC&trans=0&ttys=IN+PIN",
+        "sourceSha256": "c148b0810667f0c694c0f6dbabc22a993a493a8075257a05f57ea64513b38af9"
+      }
+    },
+    "vitamin e": {
+      "key": "tocopherol",
+      "evidence": {
+        "type": "rxnorm-equivalent-name",
+        "rxcui": "11256",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=A&relaSource=ATC&trans=0&ttys=IN+PIN",
+        "sourceSha256": "a5660cb96d6b076689c16eb028e4c0d6117e9f12ef115e6fce82d6e5b6c32927"
+      }
+    },
+    "vitamin k1": {
+      "key": "phytomenadione",
+      "evidence": {
+        "type": "rxnorm-equivalent-name",
+        "rxcui": "8308",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=B&relaSource=ATC&trans=0&ttys=IN+PIN",
+        "sourceSha256": "c148b0810667f0c694c0f6dbabc22a993a493a8075257a05f57ea64513b38af9"
+      }
+    },
+    "vitamin k3": {
+      "key": "menadione",
+      "evidence": {
+        "type": "rxnorm-equivalent-name",
+        "rxcui": "6728",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=B&relaSource=ATC&trans=0&ttys=IN+PIN",
+        "sourceSha256": "c148b0810667f0c694c0f6dbabc22a993a493a8075257a05f57ea64513b38af9"
+      }
+    },
+    "warfarin sodium crystalline": {
+      "key": "warfarin",
+      "evidence": {
+        "type": "tfda-spelling",
+        "url": "https://data.gov.tw/dataset/9121",
+        "catalogSha256": "f7a04977d6007534ac8f1b4da4db48adea34c1b7c625d9acccd6cfc65a904644"
+      }
+    },
+    "xantinol nicotinate": {
+      "key": "xanthinol nicotinate",
+      "evidence": {
+        "type": "rxnorm-equivalent-name",
+        "rxcui": "11358",
+        "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=C&relaSource=ATC&trans=0&ttys=IN+PIN",
+        "sourceSha256": "e8748035dd34e6cd0c2f2aaea38f0f3c251aa4f1d2560fa82e3280b2f75992c5"
+      }
+    },
+    "zinc sulfate 7h2o": {
+      "key": "zinc sulfate",
+      "evidence": {
+        "type": "tfda-spelling",
+        "url": "https://data.gov.tw/dataset/9121",
+        "catalogSha256": "f7a04977d6007534ac8f1b4da4db48adea34c1b7c625d9acccd6cfc65a904644"
+      }
+    },
+    "zinc sulfate heptahydrate": {
+      "key": "zinc sulfate",
+      "evidence": {
+        "type": "tfda-spelling",
+        "url": "https://data.gov.tw/dataset/9121",
+        "catalogSha256": "f7a04977d6007534ac8f1b4da4db48adea34c1b7c625d9acccd6cfc65a904644"
+      }
+    },
+    "ziprasidone as mesylate": {
+      "key": "ziprasidone",
+      "evidence": {
+        "type": "tfda-spelling",
+        "url": "https://data.gov.tw/dataset/9121",
+        "catalogSha256": "f7a04977d6007534ac8f1b4da4db48adea34c1b7c625d9acccd6cfc65a904644"
+      }
+    }
+  },
+  "conflicts": []
+}

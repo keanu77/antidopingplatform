@@ -33,7 +33,21 @@
     "test:migrations:local": "node --test tests/migrations/local.test.mjs",
     "check:live": "node scripts/check-live.mjs",
     "check:budget": "node scripts/build-budget.mjs",
-    "check:html": "node scripts/check-built-html.mjs"
+    "check:html": "node scripts/check-built-html.mjs",
+    "drugs:import": "python3 scripts/import-tfda-drugs.py --download",
+    "drugs:assets": "node scripts/prepare-drug-assets.mjs",
+    "drugs:audit": "node scripts/audit-drug-coverage.mjs",
+    "drugs:check-target": "node scripts/audit-drug-coverage.mjs --require-target",
+    "drugs:aliases": "node scripts/build-drug-source-aliases.mjs",
+    "drugs:references:collect": "python3 scripts/collect-drug-reference-evidence.py",
+    "drugs:references:audit": "node scripts/audit-drug-reference-evidence.mjs",
+    "drugs:review-import": "node scripts/import-drug-reference-decisions.mjs",
+    "drugs:review-queue": "node scripts/prioritize-drug-review.mjs",
+    "drugs:update": "python3 scripts/update-drug-catalog.py --download",
+    "test:drug-updates": "python3 -m unittest discover -s tests -p 'test_drug_update.py' && python3 -m unittest discover -s tests -p 'test_reference_evidence.py' && node --test tests/drug-coverage.test.mjs tests/ingredient-identities.test.mjs tests/drug-reference-decisions.test.mjs",
+    "foods:import": "python3 scripts/import-food-catalog.py --download",
+    "herbs:import": "python3 scripts/import-herbal-catalog.py",
+    "test:drugs": "python3 -m unittest discover -s tests -p 'test_*import.py' && node --test tests/drug-catalog.test.mjs tests/drug-worker.test.mjs"
   },
   "dependencies": {
     "compression": "^1.8.2",

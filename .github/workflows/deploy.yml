@@ -53,6 +53,7 @@ jobs:
         run: |
           npm test
           npm --prefix frontend test
+          python3 -m unittest discover -s tests -p 'test_*.py'
           node --test tests/*.test.mjs
           npm run test:migrations:local
 

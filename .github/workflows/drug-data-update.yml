@@ -1,0 +1,58 @@
+name: Review monthly drug data update
+
+on:
+  schedule:
+    - cron: '17 1 1 * *' # 09:17 Asia/Taipei, first day of each month
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: drug-data-update
+  cancel-in-progress: false
+
+jobs:
+  prepare:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+      - name: Check monthly or quarterly cadence
+        id: due
+        env:
+          EVENT: ${{ github.event_name }}
+        run: |
+          if [ "$EVENT" = workflow_dispatch ]; then
+            echo 'run=true' >> "$GITHUB_OUTPUT"
+          else
+            due=$(python3 scripts/update-drug-catalog.py --check-due)
+            echo "run=$due" >> "$GITHUB_OUTPUT"
+          fi
+      - uses: actions/setup-node@v5
+        if: steps.due.outputs.run == 'true'
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: frontend/package-lock.json
+      - name: Install audit dependency
+        if: steps.due.outputs.run == 'true'
+        run: npm ci --prefix frontend
+      - name: Download, compare and check the candidate
+        if: steps.due.outputs.run == 'true'
+        run: python3 scripts/update-drug-catalog.py --download --output artifacts/drugs/scheduled-update
+      - name: Retain candidate and review evidence even when the gate fails
+        if: always() && steps.due.outputs.run == 'true'
+        uses: actions/upload-artifact@v4
+        with:
+          name: drug-data-update-${{ github.run_id }}
+          retention-days: 90
+          path: |
+            artifacts/drugs/scheduled-update/candidate/
+            artifacts/drugs/scheduled-update/before/
+            artifacts/drugs/scheduled-update/after/
+            artifacts/drugs/scheduled-update/diff.json
+            artifacts/drugs/scheduled-update/update-report.json

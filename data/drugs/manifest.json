@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "retrievedAt": "2026-10-22T17:33:11.345135+00:00",
+  "importedAt": "2026-10-22T17:53:20.181349+00:00",
+  "provider": "衛生福利部食品藥物管理署",
+  "license": "政府資料開放授權條款－第1版",
+  "licenseUrl": "https://data.gov.tw/license",
+  "sources": {
+    "licenses": {
+      "dataset": "https://data.gov.tw/dataset/9122",
+      "download": "https://data.fda.gov.tw/data/opendata/export/36/json",
+      "sha256": "07aa85389537affb914a3b543e5c6199b1fffaf7504d66202ca6255116c5fee7",
+      "bytes": 11873426,
+      "rows": 72088
+    },
+    "ingredients": {
+      "dataset": "https://data.gov.tw/dataset/9121",
+      "download": "https://data.fda.gov.tw/data/opendata/export/43/json",
+      "sha256": "303e382154048a32ac420a5a00bb6ee1c9058c9ae7575c2c3370c7fe9406d7a5",
+      "bytes": 2468379,
+      "rows": 126028
+    }
+  },
+  "counts": {
+    "licenseRows": 72088,
+    "ingredientRows": 126028,
+    "products": 66522,
+    "duplicateLicenseRows": 5566,
+    "conflictingProducts": 0,
+    "uncancelledProducts": 22509,
+    "withoutComposition": 3807,
+    "withoutDetailedIngredients": 3807,
+    "orphanIngredientRows": 1,
+    "uniqueIngredientNames": 7686,
+    "cancellationCounts": {
+      "已註銷": 43860,
+      "未註銷": 22509,
+      "已廢止": 153
+    }
+  },
+  "catalogSha256": "f7a04977d6007534ac8f1b4da4db48adea34c1b7c625d9acccd6cfc65a904644",
+  "attribution": "衛生福利部食品藥物管理署：全部藥品許可證資料集、藥品詳細處方成分資料集。本衍生資料依政府資料開放授權條款第1版利用，已進行去重、欄位整理與資料關聯；原機關未對本服務背書。",
+  "scope": "TFDA 西藥許可證與處方資料；不含 TADA 人工分類、中藥、營養品或檢驗認證。"
+}
