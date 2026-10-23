@@ -74,8 +74,9 @@ npm --prefix frontend run test:browser # Read-only Chromium/WebKit journeys
 
 ## Environment Variables
 
-Required: `MONGODB_URI` (MongoDB connection string)
-Optional: `PORT` (default 8080), `JWT_SECRET`, `CORS_ORIGIN`
+For the current Pages read-only local quick start, no account, secret, `.env`, or MongoDB is required. Use the root README and `wrangler pages dev` after a build. Local feedback needs local D1 migrations.
+
+Legacy Express only: required `MONGODB_URI`; optional `PORT` (default 8080), `JWT_SECRET`, `CORS_ORIGIN`. The root `.env.example` mixes legacy and optional mail settings; do not copy it as a prerequisite for the Pages demo. Production mail configuration is documented in `docs/feedback-operations.md`.
 
 ## Dev vs Prod API Connection
 

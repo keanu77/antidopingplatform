@@ -1,96 +1,79 @@
 # 運動禁藥教學平台
 
-提供國際案例搜尋、資料庫分析、禁用清單、TUE 決策工具、測驗及藥檢流程。
-正式網站：https://antidopingplatform.sportsmedicine.tw/
+給選手、教練與醫療人員的繁體中文工具：查台灣西藥成分、閱讀禁藥案例，練習用藥與 TUE 情境判讀。
 
-## 西藥、中藥與營養品查詢
+**[開啟網站](https://antidopingplatform.sportsmedicine.tw/) · [直接查西藥](https://antidopingplatform.sportsmedicine.tw/drug-search) · [English](README.en.md)**
 
-新增三類查詢：`/drug-search` 收錄 TFDA 西藥 66,522 筆許可證；`/herbal-search` 收錄健保署中藥 10,046 筆（單方 3,507／複方 6,539）；`/supplement-search` 收錄 TFDA 食品登錄 7,972 筆。均支援搜尋、分頁、明細與 SQLite／JSON 移植，不依賴 TADA 原站供應資料。西藥提供部分列名物質的逐成分對照；中藥資料缺少完整處方、食品資料缺少批號禁藥檢測證明，均不推定為運動員可用。不是 TADA 全資料或全判讀的一比一複本。
+[![西藥查詢操作示範：搜尋、查看成分、確認使用條件](docs/launch/demo.gif)](https://antidopingplatform.sportsmedicine.tw/drug-search)
 
-使用、來源、授權、實際覆蓋率及移植指令見 [查詢系統實作報告](docs/research/2026-10-23-drug-system/README.md)。本機開發／建置會自動由版本控制中的三份壓縮快照產生索引；更新西藥用 `npm run drugs:import`、食品用 `npm run foods:import`、中藥用 `npm run herbs:import -- --help` 查看 ODS 匯入參數。完整驗證紀錄見報告附頁。
+無須註冊即可體驗。教學與初步查核用途；查無資料或條件未明不代表可用，結果不能代替正式用藥查證或 TUE 核准。
 
-## 資料與查核範圍
+## 可以做什麼
 
-目前工作版本收錄 517 件教學案例：500 件新增、17 件既有校正／分案。包括違規、污染、合法 TUE、未提出指控與處分撤銷等情境；不能把案例數當作違規人數或盛行率。
+| 入口 | 可以完成的事 |
+| --- | --- |
+| [西藥查詢](https://antidopingplatform.sportsmedicine.tw/drug-search) | 以中英文商品名、成分或許可證字號查詢；展開完整成分，選擇給藥途徑、運動項目與日期，查看賽內／賽外條件 |
+| [案例搜尋](https://antidopingplatform.sportsmedicine.tw/cases) | 依項目、年份、物質等條件找案例，閱讀事件脈絡與來源 |
+| [TUE 工具](https://antidopingplatform.sportsmedicine.tw/tue?tab=tools) | 練習判斷需要進一步確認的用藥與治療用途豁免情境 |
+| [角色學習](https://antidopingplatform.sportsmedicine.tw/learning) | 使用選手、教練、醫療人員的任務清單與測驗 |
+| [來源中心](https://antidopingplatform.sportsmedicine.tw/sources) | 查看教育內容的來源、版本及待核對狀態 |
 
-500 件新增案例均已取得至少兩個不同模型家族的有效來源對讀，15 件取得四模型回覆；GPT 463 件、Gemini 485 件、Grok 53 件、Claude 29 件。這是對固定來源包的審核覆蓋，不代表所有欄位已證實。22 件已依原文修正文句或來源限制標示，其中 16 件的公開文字在對讀後改動，尚未再次送交模型。完整紀錄見 [全量模型補查](docs/research/2026-09-23-full-audit/README.md)。
+**商品查詢只提供西藥。** 中藥／營養品的查詢入口已移除；[補充劑安全教育](https://antidopingplatform.sportsmedicine.tw/education?tab=supplements)仍保留。舊中藥與食品快照留供離線研究，不會在正常建置中發布。
 
-2026-09-24 另做 44 件國家來源補查，每件至少兩模型、24 件四模型；43 件已補充官方資料，1 件年齡配對疑義保留。僅靠標題的國家缺口從 258 件降至 **215 件**，另 **7 件日期**疑義重查後仍未消除。43 件中有 27 件僅引用查閱時個人資料所列國家，不能因此認證事件當時代表資格；補審後追加來源或調整註記亦明示未再送模型。這輪限國家與身分欄位，不灌入上一輪完整個案模型數。資料未收錄標示為台灣／中華台北的選手，尚不能宣稱排除條件已逐件獨立核實。見 [官方來源補查](docs/research/2026-09-24-source-followup/README.md)。
+### 先試一筆
 
-2026-10-23 第一階段正式站已驗證 517 件。每次發布仍須以 `/version.json` 與即時 API 比對，不以本機數量推定上線。
+到西藥查詢輸入 `衛署藥製字第056706號`，開啟商品明細，查看複方成分，再設定實際使用條件。頁面底部保留「前往 TADA 核對商品」連結。操作示範使用公開商品資料，沒有病人資料或個人用藥紀錄。
 
-- 案例資料：`data/cases.json`
-- 案例查核與證據索引：`docs/research/`
-- 本次整站檢查：`docs/reviews/2026-09-23-site-audit/`
-- 多模型逾時政策：`docs/research/2026-09-23-multi-llm-audit/runtime-policy.json`
+## 在本機執行
 
-## 目前正式架構
-
-React 19 / Vite 前端部署於 Cloudflare Pages，`functions/api/[[path]].js` 提供 Pages Functions API。案例、教育與 TUE 資料在建置時編入；讀取這些資料不需要 MongoDB。使用者回饋寫入 D1 的 `FEEDBACK_DB`，未綁定或儲存失敗會回傳 503，前端不顯示假成功。
-
-`server.js`、`backend/` 的 Express / MongoDB 服務保留作舊架構及測試參考，並非目前正式站的 API。`backend/data/substances.json` 仍是 Pages Functions 共用的藥物規則來源。
-
-## 安裝與本機驗證
-
-需要 Node.js 22.13 以上、npm；Cloudflare 本機環境另需 Wrangler。
+需要 Git、**Node.js 22.13.0 以上**及 npm。首次安裝需要網路；Wrangler 已鎖定在專案依賴中。此快速開始不需要 Cloudflare 帳號、API key、`.env` 或 MongoDB。
 
 ```sh
+git clone https://github.com/keanu77/antidopingplatform.git
+cd antidopingplatform
 npm ci
 npm --prefix frontend ci
 npm run cf:build
-npx wrangler pages dev frontend/dist
+npx --no-install wrangler pages dev frontend/dist --ip 127.0.0.1 --port 8788
 ```
 
-使用 Wrangler 輸出的網址（預設 `http://localhost:8788`），才能同時測前端與 Pages Functions。僅執行 Vite preview 不會提供 API。需測試回饋成功時，先在本機初始化 D1：
+開啟 **http://127.0.0.1:8788**。這會同時啟動前端與 Pages Functions API。第一次西藥查詢需要載入搜尋索引。修改前端後重新執行 `npm run cf:build`；停止伺服器使用 `Ctrl+C`。
 
-```sh
-npm run cf:migrate
+上述步驟已在全新 Ubuntu 24.04 環境實跑；[安裝驗證紀錄](docs/launch/verification.md)列出環境與檢查範圍。
+
+若要在本機測試回饋儲存，先在另一個終端執行 `npm run cf:migrate`；它預設只建立／更新本機 D1。單純瀏覽、查藥與教學不需要這一步。請使用虛構測試內容，不填病人資料。
+
+只啟動 Vite 不會提供目前正式站的 API；`npm run dev` 啟動的是保留的 Express／MongoDB 舊架構。開發、常見問題與驗證指令見[開發指南](docs/development.md)。
+
+## 架構與資料位置
+
+```text
+frontend/                 React 19、Vite、Tailwind；瀏覽器內的西藥搜尋
+functions/                Cloudflare Pages Functions API
+data/cases.json           教學案例
+data/drugs/               TFDA 西藥快照與來源 manifest
+backend/data/             共用教育內容、成分規則與查核資料
+shared/                   來源有效性與規則年份檢查
+scripts/                  資料匯入、建置、更新與驗證
+docs/                     維護說明與歷史查核紀錄
 ```
 
-`cf:migrate` 預設只操作本機，使用 D1 的 `d1_migrations` 紀錄並只套用待執行版本。若已有未追蹤的 `feedback` 表，指令會停止；先依 [D1 migration 操作說明](docs/d1-migrations.md) 核對版本並明確建立基準，不能直接重跑 SQL。正式操作必須在已授權發布範圍內，先確認還原點、實際 schema 與明確的 `--remote` 目標。
+正式站使用 Cloudflare Pages 與 Pages Functions。案例、教育與 TUE 的讀取資料在建置時編入；西藥索引由版本控制中的快照生成。**D1 僅用於回饋與寄送狀態，不是西藥資料庫。** Express／MongoDB 程式保留作舊架構與整合測試用途。
 
-## 資料重建與測試
+西藥更新每月產生候選快照、差異與品質報告，經審核後才另版發布；可設定為每季。WADA 規則仍需年度審核，不會因更新商品資料而自動延長有效期。見[西藥資料維護](docs/drug-maintenance.md)。
 
-```sh
-npm run data:reviewed
-npm run audit:completion
-npm run test:reviewed
-npm run test:api
-npm run test:rules
-npm run test:frontend
-npm run test:migrations:local
-npm --prefix frontend run lint
-npm run cf:build
-npm run check:budget
-npm --prefix frontend exec -- playwright install chromium webkit
-npm --prefix frontend run test:browser
-```
+## 資料來源與使用範圍
 
-`npm test` 另跑舊 Express 後端測試，需能啟動 mongodb-memory-server；不可用其通過取代 Pages Functions 測試。`npm run smoke` 為讀取型 API 冒煙檢查，環境變數用法以腳本為準。
+西藥商品與成分取自 TFDA 開放資料，規則保留來源及查核狀態。這是獨立建立的查詢工具，並非 TADA 原始資料庫或官方核准服務；名稱對照比例也不是判讀準確率。
 
-## 主要 API
+案例包含違規、污染、合法 TUE 與撤銷等情境，不能把案例數當作違規人數。原有查核紀錄完整保存在[案例查核歷史](docs/data-review-history.md)與[西藥研究紀錄](docs/research/2026-10-23-drug-system/README.md)。
 
-- `GET /api/cases`、`GET /api/cases/:id`、`GET /api/cases/filters/options`
-- `GET /api/stats/overview`、`GET /api/stats/review-summary`
-- `GET /api/stats/yearly-trends`、`sport-distribution`、`substance-distribution`、`nationality-distribution`、`ban-duration-distribution`
-- `GET /api/tue`、`GET /api/tue/substances`、`POST /api/tue/check`
-- `GET /api/education/*`（實際支援端點見 Functions 路由）
-- `POST /api/feedback`（同站 JSON、大小及流量限制；需 D1）
+程式碼沿用專案既有的 [MIT 授權](LICENSE.md)。第三方資料、規則文件、引用內容與品牌各依其原始條款；詳見[資料來源與授權範圍](docs/data-sources.md)。
 
-正式 API 不提供案例新增、修改或刪除；更新資料必須經版本控制與部署。
+## 參與與維護
 
-## 發布
+- 功能建議、介面問題與附來源的資料勘誤：[提出 issue](https://github.com/keanu77/antidopingplatform/issues/new)、[貢獻指南](CONTRIBUTING.md)。
+- 資安問題與憑證外洩：[私密回報](https://github.com/keanu77/antidopingplatform/security/advisories/new)、[安全政策](SECURITY.md)。
+- [更新紀錄](CHANGELOG.md)、[回饋與發布維運](docs/feedback-operations.md)、[最新查詢範圍驗收](docs/research/2026-10-23-drug-system/western-only.md)。
 
-先完成資料與前端檢查，再確認欲發布的 Git 版本。`npm run cf:deploy` 會重新建置並發布 Cloudflare Pages；D1 migration 是獨立動作，不能以發布前端代替。發布後須比對 `/version.json`、`/api/stats/overview` 與案例明細，才可判定正式站與資料版本一致。
-
-MIT License
-
-
-## 可信內容與學習
-
-- `/sources` 提供 50 成分、16 正式題與 70 舊題的來源／版本／查核狀態。待核對項目停止確定判定；2027 尚未啟用。
-- `/learning` 提供選手、教練與醫療人員的任務與列印清單；`/quiz` 提供錯題回顧、補學與本機延後複習。
-- `/case-learning` 提供 30 案教材與全 517 案補證隊列；不把模型對讀視為具名專業簽核。
-- [回饋與發布維運](docs/feedback-operations.md)、[實際使用者驗證方案](docs/reviews/2026-10-23-platform/measurement-plan.md)。
-
-每個 PR 與 production 發布都執行 Chromium、手機 Chromium、手機 WebKit 的功能／無障礙檢查。六小時唯讀監測檢查版本、API 與主要頁面；工作流執行成功不等於真實使用者 CWV、自然排程寄達或臨床內容簽核。
+部署流程會驗證版本、建置、API 與桌機／手機瀏覽器操作。這些工程檢查不代表臨床簽核或真實使用者研究。
