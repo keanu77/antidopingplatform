@@ -28,7 +28,7 @@ env:
 
 jobs:
   deploy:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     timeout-minutes: 30
     steps:
       - uses: actions/checkout@v5
@@ -67,7 +67,17 @@ jobs:
           npm run check:budget
           npm run check:html
 
+      # The Azure archive mirror repeatedly stalled browser font downloads.
+      # Keep all browser checks; use Ubuntu's archive on the ephemeral runner.
+      - name: Configure browser dependency downloads
+        run: |
+          if [ -f /etc/apt/apt-mirrors.txt ]; then
+            printf '%s\n' 'https://archive.ubuntu.com/ubuntu/' | sudo tee /etc/apt/apt-mirrors.txt
+          fi
+          printf '%s\n' 'Acquire::Retries "2";' 'Acquire::http::Timeout "20";' 'Acquire::https::Timeout "20";' | sudo tee /etc/apt/apt.conf.d/80ci-timeouts
+
       - name: Install browser engines
+        timeout-minutes: 8
         working-directory: frontend
         run: npx playwright install --with-deps chromium webkit
 
