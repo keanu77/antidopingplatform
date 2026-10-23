@@ -1,0 +1,75 @@
+{
+  "platform": "Linux-7.2.9-orbstack-00391-g2b298d05fbd4-aarch64-with-glibc2.39",
+  "sourceSha": "ed606f9806e76dfa33a8c4e861fcabede4fb858d",
+  "node": "v22.23.4",
+  "npm": "10.9.9",
+  "steps": [
+    {
+      "step": "clone",
+      "exitCode": 0,
+      "seconds": 12
+    },
+    {
+      "step": "npm-root",
+      "exitCode": 0,
+      "seconds": 20
+    },
+    {
+      "step": "npm-frontend",
+      "exitCode": 0,
+      "seconds": 2
+    },
+    {
+      "step": "build",
+      "exitCode": 0,
+      "seconds": 7
+    },
+    {
+      "step": "lint",
+      "exitCode": 0,
+      "seconds": 1
+    },
+    {
+      "step": "frontend-tests",
+      "exitCode": 0,
+      "seconds": 2
+    },
+    {
+      "step": "api-tests",
+      "exitCode": 0,
+      "seconds": 0
+    },
+    {
+      "step": "rules-tests",
+      "exitCode": 0,
+      "seconds": 0
+    },
+    {
+      "step": "budget",
+      "exitCode": 0,
+      "seconds": 0
+    },
+    {
+      "step": "html",
+      "exitCode": 0,
+      "seconds": 0
+    },
+    {
+      "step": "health",
+      "exitCode": 0,
+      "seconds": 0
+    },
+    {
+      "step": "smoke",
+      "exitCode": 0,
+      "seconds": 1
+    },
+    {
+      "step": "local-migration",
+      "exitCode": 0,
+      "seconds": 2
+    }
+  ],
+  "accountsOrSecretsConfigured": false,
+  "localMongoDBConfigured": false
+}

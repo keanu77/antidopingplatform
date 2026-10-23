@@ -1,0 +1,44 @@
+[
+  {
+    "engine": "chromium",
+    "video": {
+      "width": 1280,
+      "height": 720,
+      "duration": 26.666667
+    },
+    "playedToEnd": true,
+    "images": [
+      {
+        "id": "gif",
+        "width": 760,
+        "height": 428
+      },
+      {
+        "id": "preview",
+        "width": 1280,
+        "height": 640
+      }
+    ]
+  },
+  {
+    "engine": "webkit",
+    "video": {
+      "width": 1280,
+      "height": 720,
+      "duration": 26.7
+    },
+    "playedToEnd": true,
+    "images": [
+      {
+        "id": "gif",
+        "width": 760,
+        "height": 428
+      },
+      {
+        "id": "preview",
+        "width": 1280,
+        "height": 640
+      }
+    ]
+  }
+]
